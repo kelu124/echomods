@@ -7,7 +7,7 @@ The EchoModules
 ### Brief
 
 Mostly, the thing would be to separate the
-[Murgen](Hardware (murgen-dev-kit) "wikilink") PCB in 4 different
+[Murgen](http://github.com/murgen-dev-kit/) PCB in 4 different
 modules (similar to the arduino trinket pro for example), so to have
 them ready to be used on a stripboard which would have already headers.
 
@@ -57,68 +57,49 @@ sake of the experiment, I would add another ADC board, clone of the
 
 #### The motherboard
 
--   what is expected is to break down logic blocks into modules that
-    could be put on a motherboard ( a 2.54mm stripboard), max 20 to 24
-    track wide.
-    -   it appears 19 tracks would be good
+- what is expected is to break down logic blocks into modules that could be put on a motherboard ( a 2.54mm stripboard), max 20 to 24 track wide.
+- it appears 19 tracks would be good
 
 ##### Tofs
 
-![](motherboard.png "motherboard.png")
+![Cartes](/images/600px-Cartes.png)
 
-![](cartes.png "cartes.png")
+
+![Motherboard](/images/600px-Motherboard.png)
+
+
 
 ##### Table of tracks
-
-       Name of module -\>           HV Module                                    TGC Module                                                                                                                                                                                                                                                                                                      ADC Module   Controller Module
-  ---- ---------------------------- -------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------ ------------------- ----- ---- ----- ---- -----
-       **Name of track**            **Signal id**                                In                                                                                                                                                                                                                                                                                                              Out          In
-  1    Analog Gain                  SIG-gain                                                                                                                                                                                                                                                                                                                                                                  X
-  2    Pulser On (Logic)            SIG-pulser\_on                               X                                                                                                                                                                                                                                                                                                                            
-  3    Pulser Off (Logic)           SIG-pulser\_off                              X                                                                                                                                                                                                                                                                                                                            
-  4    5V                           SIG-5v                                       X                                                                                                                                                                                                                                                                                                                            X
-  5    3.3V                         SIG-3\_3v                                                                                                                                                                                                                                                                                                                                                                 X
-  6    GND                          SIG-gnd                                      X                                                                                                                                                                                                                                                                                                                            X
-  7    Raw Signal                   SIG-raw\_signal                              8 post TGC without enveloppe SIG-amplified\_signal X X 9 post TGC with enveloppe SIG-signal\_enveloppe X X 10 Angle SIG-abs\_motor\_angle X 11 Motor PWM or Stepper B2 SIG-cc\_motor\_pwm xor SIG-stepper\_b2 X 12 Stepper B1 SIG-stepper\_b1 X 13 Stepper A1 SIG-stepper\_a1 X 14 Stepper A2 SIG-stepper\_a2   X            X
-  8    post TGC without enveloppe   SIG-amplified\_signal                                                                                                                                                                                                                                                                                                                                                     
-  9    post TGC with enveloppe      SIG-signal\_enveloppe                                                                                                                                                                                                                                                                                                                                                     
-  10   Angle                        SIG-abs\_motor\_angle                                                                                                                                                                                                                                                                                                                                                     
-  11   Motor PWM or Stepper B2      SIG-cc\_motor\_pwm **xor** SIG-stepper\_b2                                                                                                                                                                                                                                                                                                                                
-  12   Stepper B1                   SIG-stepper\_b1                                                                                                                                                                                                                                                                                                                                                           
-  13   Stepper A1                   SIG-stepper\_a1                                                                                                                                                                                                                                                                                                                                                           
-  14   Stepper A2                   SIG-stepper\_a2                                                                                                                                                                                                                                                                                                                                                           
-  15   -5V                                                                                                                                                                                                                                                                                                                                                                                                    
-  16   12V                                                                                                                                                                                                                                                                                                                                                                                                    
-  17   -12V                                                                                                                                                                                                                                                                                                                                                                                                   
-  18   18V                                                                                                                                                                                                                                                                                                                                                                                                    
-  19   -3V                                                                                                                                                                                                                                                                                                                                                                                                    
-  20   encodeur                                                                                                                                                                                                                                                                                                                                                                                               
 
 ### A rough draft
 
 #### Table
 
-       Name of module -\>           HV Module                                    TGC Module   ADC Module   Controller Module
-  ---- ---------------------------- -------------------------------------------- ------------ ------------ ------------------- ----- ---- ----- ---- -----
-       **Name of track**            **Signal id**                                In           Out          In
-  1    Analog Gain                  SIG-gain                                                               X
-  2    Pulser On (Logic)            SIG-pulser\_on                               X                         
-  3    Pulser Off (Logic)           SIG-pulser\_off                              X                         
-  4    5V                           SIG-5v                                       X                         X
-  5    3.3V                         SIG-3\_3v                                                              X
-  6    GND                          SIG-gnd                                      X                         X
-  7    Raw Signal                   SIG-raw\_signal                                           X            X
-  8    post TGC without enveloppe   SIG-amplified\_signal                                                  
-  9    post TGC with enveloppe      SIG-signal\_enveloppe                                                  
-  10   Angle                        SIG-abs\_motor\_angle                                                  
-  11   Motor PWM or Stepper B2      SIG-cc\_motor\_pwm **xor** SIG-stepper\_b2                             
-  12   Stepper B1                   SIG-stepper\_b1                                                        
-  13   Stepper A1                   SIG-stepper\_a1                                                        
-  14   Stepper A2                   SIG-stepper\_a2                                                        
+| ID | Signal | Nomenclature | Comments |
+|:--:|--------|--------------|----------|
+| 1  |        |              |          |
+| 2  |        |              |          |
+| 3  |        |              |          |
+| 4  |        |              |          |
+| 5  |        |              |          |
+| 6  |        |              |          |
+| 7  |        |              |          |
+| 8  |        |              |          |
+| 9  |        |              |          |
+| 10 |        |              |          |
+| 11 |        |              |          |
+| 12 |        |              |          |
+| 13 |        |              |          |
+| 14 |        |              |          |
+| 15 |        |              |          |
+| 16 |        |              |          |
+| 17 |        |              |          |
+| 18 |        |              |          |
+| 19 |        |              |          |
 
 #### Pic
 
-![](Module_v3_0278.JPG "Module_v3_0278.JPG")
+
 
 Worklog
 -------
