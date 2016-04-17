@@ -11,13 +11,12 @@ Mostly, the thing would be to separate the
 modules (similar to the arduino trinket pro for example), so to have
 them ready to be used on a stripboard which would have already headers.
 
-The strips would have the 11 tracks as on the attached picture below.
+The strips would have the 19 tracks as on the attached picture below.
 
 There would be 3 modules :
 
--   HV+pulser+md0100
--   TGC+enveloppe
--   SPI ADC
+-   HV + pulser + md0100
+-   TGC + enveloppe + SPI ADC
 
 (Two other modules, Alim, and controler, will be stripboard based)
 
@@ -32,11 +31,12 @@ comparable to one trinket pro =)
 1\. HV+Pulser+MD0100 don't change. The module will need to have a SMA
 connector (same as on existing board).
 
-2\. AGC+enveloppe detector can remain the same. I just need to remove the
+2\. VGA + enveloppe + ADC
+
+* AGC+enveloppe detector can remain the same. I just need to remove the
 filter that is between the TestPoints4 and 5 and the transformer. The
 module output is the output of the ADL5511.
-
-3\. SPI can be replaced, this one was an overkill. 10Msps is too much, so
+* 3\. SPI can be replaced, this one was an overkill. 10Msps is too much, so
 instead a 2 or 3 Msps at 12 or 14 bits in SPI could be used on the ADC
 module.
 
@@ -57,23 +57,13 @@ sake of the experiment, I would add another ADC board, clone of the
 
 #### The motherboard
 
-- what is expected is to break down logic blocks into modules that could be put on a motherboard ( a 2.54mm stripboard), max 20 to 24 track wide.
-- it appears 19 tracks would be good
-
-##### Tofs
-
-![Cartes](/images/600px-Cartes.png)
-
-
-![Motherboard](/images/600px-Motherboard.png)
+- what is expected is to break down logic blocks into modules that could be put on a motherboard ( a 2.54mm stripboard), 19 tracks high.
 
 
 
-##### Table of tracks
+## A rough draft
 
-### A rough draft
-
-#### Table
+### Table
 
 | ID | Signal | Nomenclature | Comments |
 |:--:|--------|--------------|----------|
@@ -97,13 +87,13 @@ sake of the experiment, I would add another ADC board, clone of the
 | 18 | Reserved |              |          |
 | 19 | 3.3Vs |              |          |
 
-#### Pic
+### Pic
 
-##### Two modules:
+#### Two modules:
 
 ![Motherboard](/images/DSC_0284.JPG)
 
-##### Description
+#### Description
 
 Board 1:
 * The HV part of murgen is kept. The pulser of the first board is trigged by Pulse On (stripe 9) and shut by Pulse Off (stripe 10) (coming from the stripes). The pulser alimentation is fed through the RECOM component, with a potentiometer to select the HV level.
@@ -163,3 +153,13 @@ Studying chips:
 |:--:|--------|--------------|----------|
 | 1  | STM32F411CE |              |          |
 | 2  | STM32F401CDU6 |              |          |
+
+### Tofs
+
+![Cartes](/images/600px-Cartes.png)
+
+
+![Motherboard](/images/600px-Motherboard.png)
+
+
+
