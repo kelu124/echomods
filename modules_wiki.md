@@ -99,6 +99,29 @@ sake of the experiment, I would add another ADC board, clone of the
 
 #### Pic
 
+##### Two modules:
+
+![Motherboard](/images/DSC_0284.JPG)
+
+##### Description
+
+Board 1:
+* The HV part of murgen is kept. The pulser of the first board is trigged by Pulse On (stripe 9) and shut by Pulse Off (stripe 10) (coming from the stripes). The pulser alimentation is fed through the RECOM component, with a potentiometer to select the HV level.
+* Signal is sent to a sideway SMA connector. 
+* Signal is protected by a MD0100 + LC.
+* Low voltage signal is sent out of the board through a SMA connector.
+
+Board 2:
+* Low amplitude signal comes from the SMA connector.
+* It is fed through to the TGC.
+* The Gain of the TGC can come either from the Analog Gain Ramp stripe (stripe 7) or from a potentiometer which gives it 0 to 1V - selection through a jumper.
+* The filter part of the murgen board is removed (between TP2/3 and TP5/6)
+* Raw signal is either send to stripe 3 or sent to the ADL5511, selection through a jumper.
+* If output of the TGC goes to the ADL5511, it is then sent to the stripe 5 or to the 2/3Msps ADC (SPI).
+
+Two other modules are being worked on, namely:
+* controler
+* alimentation
 
 
 Worklog
