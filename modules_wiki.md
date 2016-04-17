@@ -77,25 +77,25 @@ sake of the experiment, I would add another ADC board, clone of the
 
 | ID | Signal | Nomenclature | Comments |
 |:--:|--------|--------------|----------|
-| 1  |        |              |          |
-| 2  |        |              |          |
-| 3  |        |              |          |
-| 4  |        |              |          |
-| 5  |        |              |          |
-| 6  |        |              |          |
-| 7  |        |              |          |
-| 8  |        |              |          |
-| 9  |        |              |          |
-| 10 |        |              |          |
-| 11 |        |              |          |
-| 12 |        |              |          |
-| 13 |        |              |          |
-| 14 |        |              |          |
-| 15 |        |              |          |
-| 16 |        |              |          |
-| 17 |        |              |          |
-| 18 |        |              |          |
-| 19 |        |              |          |
+| 1  | Masse |              |          |
+| 2  | 5V  |              |          |
+| 3  | TGC-Raw       |              |          |
+| 4  | TGC-filtered  |              |          |
+| 5  | TGC-enveloppe |              |          |
+| 6  | 12V |              |          |
+| 7  | Analog Gain Ramp |              |          |
+| 8  | -12V |              |          |
+| 9  | Pulse On  |              |          |
+| 10 | Pulse Off |              |          |
+| 11 | Pulse RedPitaya (3.3V) |              |          |
+| 12 | 18V |              |          |
+| 13 | NewFramePulse (TopTour?) |              |          |
+| 14 | A1 xor PWM  |              |          |
+| 15 | A2 xor Encodeur |              |          |
+| 16 | B1 |              |          |
+| 17 | B2 |              |          |
+| 18 | Reserved |              |          |
+| 19 | 3.3Vs |              |          |
 
 #### Pic
 
@@ -111,3 +111,22 @@ Validation of the approach by the Captech
 ### April 8th
 
 Validation of tracks of interest
+
+
+### April 15th 
+
+Validation of tracks and their orders
+
+### April 16th 
+
+Studying microcontrolers:
+
+| ID | Name | Chip | Comments | ADC |Price| COmments |
+|:--:|--------|--------------|----------|----|----|----|
+| 1  | WiFiMCU |  EMW3165 -> STM32F411CE | Cortex-M4 core at 100MHz | 1×12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
+
+Studying chips:
+
+| ID | Name | Details | Comments |
+|:--:|--------|--------------|----------|
+| 1  | STM32F411CE |              |          |
