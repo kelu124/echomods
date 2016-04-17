@@ -127,29 +127,39 @@ Two other modules are being worked on, namely:
 Worklog
 -------
 
-### April 5th
+#### April 5th
 
 Validation of the approach by the Captech
 
-### April 8th
+#### April 8th
 
 Validation of tracks of interest
 
 
-### April 15th 
+#### Thinking of Murgen's future
+
+
+
+#### April 15th 
 
 Validation of tracks and their orders
 
-### April 16th 
+#### April 16th 
 
 Studying microcontrolers:
 
 | ID | Name | Chip | Comments | ADC |Price| COmments |
 |:--:|--------|--------------|----------|----|----|----|
 | 1  | WiFiMCU |  EMW3165 -> STM32F411CE | Cortex-M4 core at 100MHz | 1×12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
+| 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1×12-bit, 2.4 MSPS A/D 
+converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
+| 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU | 3 × 12-bit, 0.5 μs ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
+
+
 
 Studying chips:
 
 | ID | Name | Details | Comments |
 |:--:|--------|--------------|----------|
 | 1  | STM32F411CE |              |          |
+| 2  | STM32F401CDU6 |              |          |
