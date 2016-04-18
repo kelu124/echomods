@@ -1,13 +1,16 @@
 # echomods
+
 Creating modules out of the murgen board
 
 
 # License
 
 ## echOmods 
+
 The echOmods project and its prototypes are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
+
 Copyright Kelu124 (luc@echopen.org / kelu124@gmail.com ) 2015-2016
 
 ## Based on 
