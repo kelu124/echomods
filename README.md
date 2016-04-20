@@ -3,6 +3,42 @@
 Creating modules out of the murgen board
 
 
+# Modules foreseen 
+
+## Basics 
+### Alim 
+
+Out of a stripboard at first
+
+Made from the breadboard alims, since I only need 5 and 3.3
+
+### HV+Pulser
+
+Ongoing, PCB, 2 layers, RECOM-based. 
+
+### TGC/VGA + enveloppe detection + 2Msps SPI ADC.
+
+Classic from murgen, plus we'll need more learning with ADCs!
+
+### Arduino Control 
+
+Stripboard + Arduino Trinket Pro
+
+## Further
+
+Once this is done, two things are to be done, to discover STM32's, and transducer simulations !
+
+### STM32's
+
+Let's see and explore if a STM32 can handle acquisition, streaming of data, datalogging onto a SD card, and mapping data onto a small 1.8" TFT. That'd be interesting.
+
+### A simulator
+To benchmark the signal processing path, the HV+Pulser component can be replaced by a passive setup, which will provide a target.
+
+### Adapted piezo mecanics
+
+Indeed !
+
 # License
 
 ## echOmods 
