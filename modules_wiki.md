@@ -141,9 +141,9 @@ Studying microcontrolers:
 | ID | Name | Chip | Comments | ADC |Price| COmments |
 |:--:|--------|--------------|----------|----|----|----|
 | 1  | WiFiMCU |  EMW3165 -> STM32F411CE | Cortex-M4 core at 100MHz | 1×12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
-| 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1×12-bit, 2.4 MSPS A/D 
-converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
+| 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1×12-bit, 2.4 MSPS A/D converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
 | 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU | 3 × 12-bit, 0.5 μs ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
+|4|[micropython pyboard](https://www.adafruit.com/products/2390)|STM32F405RG |168 MHz Cortex M4 CPU, DSP, FPU|3×12-bit, 2.4 MSPS A/D converters: up to 24 channels and 7.2 MSPS in triple interleaved mode |microSD, seen as external storage|44$|
 
 
 
@@ -153,6 +153,7 @@ Studying chips:
 |:--:|--------|--------------|----------|
 | 1  | STM32F411CE |              |          |
 | 2  | STM32F401CDU6 |              |          |
+|2|STM32F405RG |||
 
 ### Tofs
 
