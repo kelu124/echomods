@@ -2,6 +2,16 @@
 
 Creating modules out of the murgen board
 
+# Modules
+
+* [Goblin](/goblin/Readme.md): the analog heart, was drafted as well during Murgen. 
+* [Tobo](/tobo/Readme.md): the HV/pulser, based on a drafted close to Murgen. 
+* [One-Eye](/oneeye/Readme.md): MicroControler - Arduinos
+* [Mogaba](/mogaba/Readme.md): Alimentation
+
+* and ... the motherboard =)
+
+
 # Interfaces table
 
 | Name | Title | Amplitude |
