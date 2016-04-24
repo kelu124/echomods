@@ -161,12 +161,13 @@ Current batch
 * [Goblin](/goblin/Readme.md): the analog heart, was drafted as well during Murgen. 
 * [Tobo](/tobo/Readme.md): the HV/pulser, based on a drafted close to Murgen. 
 * [One-Eye](/oneeye/Readme.md): MicroControler - Arduinos
-* [Silent](/silent/Readme.md): Alimentation
+
+* [Mogaba](/mogaba/Readme.md): Alimentation
 
 Second generation of fun! Learning microcontrolers and advanced simulations
 
 * Croaker: M3/M4 microcontroler 
-* Mogaba : physical emulateur
+* Silent : physical emulateur
 
 ### Microcontrolers and chips
 
