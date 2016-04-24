@@ -1,0 +1,15 @@
+Added Component: Designator=IC3(PWS_RECOM_R05-100B)
+Added Pin To Net: NetName=AGND Pin=IC3-2
+Added Pin To Net: NetName=AGND Pin=IC3-3
+Added Pin To Net: NetName=NetIC3_8 Pin=IC3-8
+Added Pin To Net: NetName=NetIC3_9 Pin=IC3-9
+Added Pin To Net: NetName=AGND Pin=IC3-10
+Added Pin To Net: NetName=HVOUT Pin=IC3-12
+Added Pin To Net: NetName=HVOUT Pin=IC3-13
+Added Pin To Net: NetName=AGND Pin=IC3-15
+Added Pin To Net: NetName=NetIC3_9 Pin=IC3-16
+Added Pin To Net: NetName=NetIC3_8 Pin=IC3-17
+Added Pin To Net: NetName=VDD_5V Pin=IC3-22
+Added Pin To Net: NetName=VDD_5V Pin=IC3-23
+Added Member To Class: ClassName=us_#1sch Member=Component IC3 R05-100B
+Added Room: Name=us_#1sch
