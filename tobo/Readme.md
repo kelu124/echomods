@@ -1,10 +1,60 @@
-# echomods
+# Module: Tobo
 
-Creating modules out of the murgen board
+* The HV-Pulser of the echOmods
+* version: V0.1
+* date: 24/04/2016
+* technology: Module-compatible, Homemade PCB, ICs based on HV7360 and R05-100B
+* language: Altium
+* author: Kelu124
 
-#
+# Information
+
+## What is it supposed to do ?
+
+The aim of this echOmod is to get the HV Pulse done.
+
+## How does it work? 
+
+TODO: Faire un petit schema simplifié.
+
+## About the module
+
+### Pros
+
+* Only needs 5V and 3.3V
+* Energy use : TODO
+* ADC V_REF is flexible: using PulseOn and PulseOff
+* Can use the potentiometer to control the tension
+* Modularity through jumpers and SMA
+
+### Cons
+
+* Takes a lot of space because of the modularity. SMA, jumpers and pots could be removed.
+* Little flexibility from the use of ICs.
+
+### Constraint and limits
 
 
+## IOs
+
+### Inputs
+
+* `ITF-A_gnd`
+* `ITF-B_5v`
+* `ITF-I_pulse_on`
+* `ITF-J_pulse_off`
+* `ITF-S_3_3v`
+
+### Outputs
+
+* `ITF-R_reserved` : for the signal coming from the transducer
+
+# Key Components
+
+* HV7360 
+* R05-100B
+
+# Discussions
 
 # License
 
