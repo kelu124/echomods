@@ -2,17 +2,31 @@
 
 Creating modules out of the murgen board
 
-# Modules
+## What is it?
 
-* [Goblin](/goblin/Readme.md): the analog heart, was drafted as well during Murgen. 
-* [Tobo](/tobo/Readme.md): the HV/pulser, based on a drafted close to Murgen. 
-* [One-Eye](/oneeye/Readme.md): MicroControler - Arduinos
-* [Mogaba](/mogaba/Readme.md): Alimentation
+The principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control. Each of this module will be landing on a motherboard, more or less a stripboard, which interfaces are described below.
 
-* and ... the motherboard =)
+Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules.
 
+These modules can have a form factor close to the arduino trinket pro, with a row of 19 pins on the side.
 
-# Interfaces table
+Each module will have a function, as described below. At the heart of this project, there will be 4 modules, plus the motherboard. 2 of these modules will be SMD, 2 as modules based on stripboards. Two additional modules will enable replacing the transducer module and getting advanced signal acquisition/streaming, respectively.
+
+## Modules
+
+* [Goblin](/goblin/Readme.md): the __analog processing module__, was drafted as well during Murgen. 
+* [Tobo](/tobo/Readme.md): the __HV and pulser module__, based on a drafted close to Murgen. 
+* [One-Eye](/oneeye/Readme.md) is the __MicroControler module__, to be working with Arduinos at first, such as the Trinket Pro.
+* [Mogaba](/mogaba/Readme.md) is the __Alimentation Module__.
+* and ... the __motherboard__.
+
+Other modules, such as Silent (_analog processing testing module_) and Croaker (_advanced microcontroler module_), are in the teaser stage... More to come later on =)
+
+## Illustration
+
+TODO : schéma
+
+# Interfaces table for the motherboard
 
 | Name | Title | Amplitude |
 |------|-------|-----------|
@@ -54,3 +68,5 @@ Copyright Kelu124 (luc@echopen.org / kelu124@gmail.com ) 2015-2018
 The following work is base on a previous TAPR project, [Murgen](https://github.com/kelu124/murgen-dev-kit) - and respects its TAPR license.
 
 Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2018
+
+

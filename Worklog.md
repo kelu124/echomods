@@ -179,6 +179,10 @@ Second generation of fun! Learning microcontrolers and advanced simulations
 * Croaker: M3/M4 microcontroler 
 * Silent : physical emulateur
 
+#### April 23
+
+* A stepper based on a stepper : https://hackaday.io/project/11224-mechaduino (pour @bivi)
+
 #### April 24 
 
 * Starting to document [Tobo](/tobo/Readme.md)

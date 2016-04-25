@@ -3,7 +3,7 @@
 * The HV-Pulser of the echOmods
 * version: V0.1
 * date: 24/04/2016
-* technology: Module-compatible, Homemade PCB, ICs based on HV7360 and R05-100B
+* technology: Module-compatible, Homemade PCB, ICs based on `HV7360` and `R05-100B`
 * language: Altium
 * author: Kelu124
 
@@ -51,8 +51,8 @@ TODO: Faire un petit schema simplifié.
 
 # Key Components
 
-* HV7360 
-* R05-100B
+* `HV7360`
+* `R05-100B`
 
 # Discussions
 

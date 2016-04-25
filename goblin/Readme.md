@@ -3,7 +3,7 @@
 * The analog signal-processing heart of the echOmods
 * version: V0.1
 * date: 24/04/2016
-* technology: Module-compatible, Homemade PCB, ICs based on AD8331 and ADL5511
+* technology: Module-compatible, Homemade PCB, ICs based on `AD8331` and `ADL5511`
 * language: Altium
 * author: Kelu124
 
@@ -42,22 +42,21 @@ TODO: Faire un petit schema simplifié.
 
 ### Inputs
 
-* ITF-A_gnd
-* ITF-B_5v
-* ITF-G_gain_control
-* ITF-S_3_3v
+* `ITF-A_gnd`
+* `ITF-B_5v`
+* `ITF-G_gain_control`
+* `ITF-S_3_3v`
 
 ### Outputs
 
-* ITF-C_amplified_raw_signal
-* ITF-E_signal_envelope
-
-* ITF-mEG_SPI : signal from the ADC
+* `ITF-C_amplified_raw_signal`
+* `ITF-E_signal_envelope`
+* `ITF-mEG_SPI` : signal from the ADC
 
 # Key Components
 
-* ADL5511
-* AD8331
+* `ADL5511`
+* `AD8331`
 
 # Discussions
 
