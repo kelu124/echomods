@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=RF Member=NetIC1_15
+Removed Member From Class: ClassName=RF Member=NetIC1_16
+Change Component Designator: OldDesignator=IC1 NewDesignator=U4
+Change Component Designator: OldDesignator=IC2 NewDesignator=U3
+Change Net Name : Old Net Name=NetIC1_13 New Net Name=NetJumper2_2
+Change Net Name : Old Net Name=NetIC1_15 New Net Name=NetL4_2
+Change Net Name : Old Net Name=NetIC1_16 New Net Name=NetL2_2
+Change Net Name : Old Net Name=NetIC1_18 New Net Name=NetR4_2
+Change Net Name : Old Net Name=NetIC1_19 New Net Name=NetR1_2
+Change Net Name : Old Net Name=NetIC2_9 New Net Name=NetR10_1
+Added Member To Class: ClassName=RF Member=Wire NetL2_2
+Added Member To Class: ClassName=RF Member=Wire NetL4_2

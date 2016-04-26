@@ -4,11 +4,11 @@ Creating modules out of the murgen board
 
 ## What is it?
 
-The principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control. Each of this module will be landing on a motherboard, more or less a stripboard, which interfaces are described below.
+The principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control. Four basic modules are considered. Each of this module will be landing on a motherboard, more or less a stripboard, which interfaces are described below.
 
 Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules.
 
-![Modules organisation](/images/modules.png)
+In this dense version, there are 4 modules electronic modules, the Transducer and the Motor modules are not depicted.
 
 These modules can have a form factor close to the arduino trinket pro, with a row of 19 pins on the side.
 
@@ -26,7 +26,7 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 
 ## Illustration
 
-TODO : schéma
+![Modules organisation](/images/modules.png)
 
 # Interfaces table for the motherboard
 

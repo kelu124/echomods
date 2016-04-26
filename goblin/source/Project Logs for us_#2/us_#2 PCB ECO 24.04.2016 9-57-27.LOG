@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=AGND Pin=C1-2
+Removed Pin From Net: NetName=NetC2_2 Pin=C2-2
+Change Component DesignItemId : Designator=C1 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C2 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component Footprint: Designator=C1 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C2 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Comment : Designator=C1 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C2 Old Comment=100nF New Comment=cap0603
+Added Pin To Net: NetName=AGND Pin=C1-1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-1
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC2_1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=U1-1
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=L1-1
+Added Net: Name=NetC2_2
+Added Room: Name=us_#2shc

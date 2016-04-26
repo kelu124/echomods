@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VGA_OUT2 Pin=K1-4
+Removed Pin From Net: NetName=V_ENVELOPE Pin=K2-5
+Added Pin To Net: NetName=V_ENVELOPE Pin=K1-5
+Added Pin To Net: NetName=VGA_OUT2 Pin=K2-4

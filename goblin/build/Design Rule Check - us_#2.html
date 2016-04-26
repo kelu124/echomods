@@ -1,0 +1,615 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : sans-serif;
+			color : white;
+			background-color : #21489e;
+			padding: 0.3em;
+		}
+		body {
+			font-family : verdana;
+		}
+		td, th {
+			padding: 0.5em;
+			text-align : center;
+			width : 18%;
+		}
+		th {
+			background-color : #A6CAF0;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+		}
+		
+		.DRC_summary_header {							
+			padding-bottom : 0.1em;
+			border : 0px solid black;							
+			width: 100%;
+                        align: right;
+                        
+		}
+
+		.DRC_summary_header_col1, 
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3
+		{
+			color : black;
+			font-size:150%;
+                        padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2: 0em;
+			border : 0px solid black;
+			width : auto;
+			vertical-align: top;
+			font-weight: bold;				
+		}
+		
+		.DRC_summary_header_col1 	
+		{		                       
+			text-align: right;
+                        width: auto;	
+		}
+
+		.DRC_summary_header_col2 	
+		{		
+			text-align: center;	
+		}
+
+		.DRC_summary_header_col3 	
+		{		
+			text-align: left;	
+		}
+
+
+		
+		.header_holder
+		{
+		Width = 100%;
+		border = 0px solid green;
+		padding = 0;
+		}
+		
+		
+		
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+			left:0;
+			top:0;
+			padding-top : 0.1em;			
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top
+
+		}
+		.front_matter {	
+			
+			margin-top: 5px;
+ 			margin-left: 0px;					 			
+ 			horizontal-align: left;
+		}
+				
+		
+		.front_matter_column1 {
+			width : 10em;	
+			text-align  : right;
+			padding-right:0.1em;
+			
+		}
+		
+		.front_matter_column2 {
+                        width: 0.1em;
+			align: center;
+			text-align : center;
+			margin-right  : 0.1em;	
+			margin-left   : 0.1em;
+		}
+		.front_matter_column3 {
+			width         : auto;  
+			text-align    : left;	
+			margin-right  : 0.5em;				
+		}
+		
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : right;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #EEEEE0 
+		}
+		tr.onmouseout_even { 
+			background-color : #F3F3E3   
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : lightYellow
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #008000 
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD14\Templates\AD-rgb_logo_223x64.gif
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td Style="width:70%">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">26.04.2016</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">21:50:20</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3"><a href="file:///D:\my_work\ALtium\us_#2\us_#2.PcbDoc" class="file"><acronym title="D:\my_work\ALtium\us_#2\us_#2.PcbDoc">D:\my_work\ALtium\us_#2\us_#2.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td Style="Width:30%">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3" style="color : red">89</td></tr>
+</table>
+</td>
+</table>
+<hr><a name="IDASA2BC"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAEB2BC">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAKB2BC">Silk primitive without silk layer</a></td>
+<td class="column2">85</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAUB3BC">Silk to Silk (Clearance=7mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDA0B3BC">Silk To Solder Mask (Clearance=4mil) (IsPad),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAED3BC">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAKD3BC">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAQD3BC">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAWD3BC">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDA2D3BC">Width Constraint (Min=10mil) (Max=40mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDACE3BC">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAIE3BC">Clearance Constraint (Gap=7mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAOE3BC">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAUE3BC">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">89</td>
+</tr>
+</table><br><hr><a name="IDAKB2BC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk primitive without silk layer</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2407.291mil|Location2.X=2691.905mil|Location1.Y=3089.377mil|Location2.Y=3345.662mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2407.291mil|Location2.X=2691.905mil|Location1.Y=3089.377mil|Location2.Y=3345.662mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2348.031mil,3217.52mil)(2722.835mil,3217.52mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2600.772mil|Location2.X=2730.602mil|Location1.Y=3101.809mil|Location2.Y=3203.309mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2600.772mil|Location2.X=2730.602mil|Location1.Y=3101.809mil|Location2.Y=3203.309mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2580.209mil,3152.559mil)(2722.835mil,3152.559mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2630.007mil|Location2.X=2670.464mil|Location1.Y=3331.83mil|Location2.Y=3343.957mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2630.007mil|Location2.X=2670.464mil|Location1.Y=3331.83mil|Location2.Y=3343.957mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2631.787mil,3330.512mil)(2640.354mil,3345.276mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.526mil|Location2.X=2686.28mil|Location1.Y=3341.217mil|Location2.Y=3357.641mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.526mil|Location2.X=2686.28mil|Location1.Y=3341.217mil|Location2.Y=3357.641mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.232mil,3345.276mil)(2657.244mil,3353.583mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3353.091mil|Location2.Y=3359.507mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3353.091mil|Location2.Y=3359.507mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2657.244mil,3353.583mil)(2657.244mil,3359.016mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3354.988mil|Location2.Y=3371.351mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3354.988mil|Location2.Y=3371.351mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3367.323mil)(2657.244mil,3359.016mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3363.295mil|Location2.Y=3379.658mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3363.295mil|Location2.Y=3379.658mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3367.323mil)(2657.244mil,3375.63mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3375.139mil|Location2.Y=3381.555mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3375.139mil|Location2.Y=3381.555mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2657.244mil,3375.63mil)(2657.244mil,3381.063mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3377.035mil|Location2.Y=3393.398mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3377.035mil|Location2.Y=3393.398mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3389.37mil)(2657.244mil,3381.063mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3385.342mil|Location2.Y=3401.705mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3385.342mil|Location2.Y=3401.705mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3389.37mil)(2657.244mil,3397.677mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3397.186mil|Location2.Y=3403.602mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3397.186mil|Location2.Y=3403.602mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2657.244mil,3397.677mil)(2657.244mil,3403.11mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3399.082mil|Location2.Y=3415.446mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3399.082mil|Location2.Y=3415.446mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3411.418mil)(2657.244mil,3403.11mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3407.389mil|Location2.Y=3423.753mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3407.389mil|Location2.Y=3423.753mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3411.418mil)(2657.244mil,3419.725mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3419.233mil|Location2.Y=3425.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3419.233mil|Location2.Y=3425.649mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2657.244mil,3419.725mil)(2657.244mil,3425.158mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3421.129mil|Location2.Y=3437.493mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3421.129mil|Location2.Y=3437.493mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3433.465mil)(2657.244mil,3425.158mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3429.436mil|Location2.Y=3445.8mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3429.436mil|Location2.Y=3445.8mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3433.465mil)(2657.244mil,3441.772mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3441.28mil|Location2.Y=3447.696mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3441.28mil|Location2.Y=3447.696mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2657.244mil,3441.772mil)(2657.244mil,3447.205mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3443.177mil|Location2.Y=3459.54mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3443.177mil|Location2.Y=3459.54mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3455.512mil)(2657.244mil,3447.205mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3451.484mil|Location2.Y=3467.847mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3451.484mil|Location2.Y=3467.847mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3455.512mil)(2657.244mil,3463.819mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3463.328mil|Location2.Y=3469.744mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3463.328mil|Location2.Y=3469.744mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2657.244mil,3463.819mil)(2657.244mil,3469.252mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3465.224mil|Location2.Y=3481.587mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3465.224mil|Location2.Y=3481.587mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3477.559mil)(2657.244mil,3469.252mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3473.531mil|Location2.Y=3489.894mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3473.531mil|Location2.Y=3489.894mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3477.559mil)(2657.244mil,3485.866mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3485.375mil|Location2.Y=3491.791mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2654.036mil|Location2.X=2688.782mil|Location1.Y=3485.375mil|Location2.Y=3491.791mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2657.244mil,3485.866mil)(2657.244mil,3491.299mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3487.271mil|Location2.Y=3503.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2641.602mil|Location2.X=2686.295mil|Location1.Y=3487.271mil|Location2.Y=3503.635mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2642.323mil,3499.606mil)(2657.244mil,3491.299mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2462.606mil|Location2.X=2638.559mil|Location1.Y=3425.795mil|Location2.Y=3573.418mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2462.606mil|Location2.X=2638.559mil|Location1.Y=3425.795mil|Location2.Y=3573.418mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2430.512mil,3499.606mil)(2642.323mil,3499.606mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2413.229mil|Location2.X=2459.235mil|Location1.Y=3486.615mil|Location2.Y=3504.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2413.229mil|Location2.X=2459.235mil|Location1.Y=3486.615mil|Location2.Y=3504.291mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3491.299mil)(2430.512mil,3499.606mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3485.375mil|Location2.Y=3491.791mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3485.375mil|Location2.Y=3491.791mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3485.866mil)(2413.622mil,3491.299mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3473.531mil|Location2.Y=3489.894mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3473.531mil|Location2.Y=3489.894mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3485.866mil)(2428.543mil,3477.559mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3465.224mil|Location2.Y=3481.587mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3465.224mil|Location2.Y=3481.587mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3469.252mil)(2428.543mil,3477.559mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3463.328mil|Location2.Y=3469.744mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3463.328mil|Location2.Y=3469.744mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3463.819mil)(2413.622mil,3469.252mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3451.484mil|Location2.Y=3467.847mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3451.484mil|Location2.Y=3467.847mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3463.819mil)(2428.543mil,3455.512mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3443.177mil|Location2.Y=3459.54mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3443.177mil|Location2.Y=3459.54mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3447.205mil)(2428.543mil,3455.512mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3441.28mil|Location2.Y=3447.696mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3441.28mil|Location2.Y=3447.696mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3441.772mil)(2413.622mil,3447.205mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3429.436mil|Location2.Y=3445.8mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3429.436mil|Location2.Y=3445.8mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3441.772mil)(2428.543mil,3433.465mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3421.129mil|Location2.Y=3437.493mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3421.129mil|Location2.Y=3437.493mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3425.158mil)(2428.543mil,3433.465mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3419.233mil|Location2.Y=3425.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3419.233mil|Location2.Y=3425.649mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3419.725mil)(2413.622mil,3425.158mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3407.389mil|Location2.Y=3423.753mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3407.389mil|Location2.Y=3423.753mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3419.725mil)(2428.543mil,3411.418mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3399.082mil|Location2.Y=3415.446mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3399.082mil|Location2.Y=3415.446mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3403.11mil)(2428.543mil,3411.418mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3397.186mil|Location2.Y=3403.602mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3397.186mil|Location2.Y=3403.602mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3397.677mil)(2413.622mil,3403.11mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3385.342mil|Location2.Y=3401.705mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3385.342mil|Location2.Y=3401.705mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3397.677mil)(2428.543mil,3389.37mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3377.035mil|Location2.Y=3393.398mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3377.035mil|Location2.Y=3393.398mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3381.063mil)(2428.543mil,3389.37mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3375.139mil|Location2.Y=3381.555mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3375.139mil|Location2.Y=3381.555mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3375.63mil)(2413.622mil,3381.063mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3363.295mil|Location2.Y=3379.658mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3363.295mil|Location2.Y=3379.658mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3375.63mil)(2428.543mil,3367.323mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3354.988mil|Location2.Y=3371.351mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3354.988mil|Location2.Y=3371.351mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3359.016mil)(2428.543mil,3367.323mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3353.091mil|Location2.Y=3359.507mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2410.414mil|Location2.X=2445.16mil|Location1.Y=3353.091mil|Location2.Y=3359.507mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3353.583mil)(2413.622mil,3359.016mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3341.247mil|Location2.Y=3357.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2412.901mil|Location2.X=2457.594mil|Location1.Y=3341.247mil|Location2.Y=3357.611mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3353.583mil)(2428.543mil,3345.276mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.95mil|Location2.X=2638.155mil|Location1.Y=3270.838mil|Location2.Y=3419.713mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.95mil|Location2.X=2638.155mil|Location1.Y=3270.838mil|Location2.Y=3419.713mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2428.543mil,3345.276mil)(2642.232mil,3345.276mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2428.693mil|Location2.X=2468.996mil|Location1.Y=3331.907mil|Location2.Y=3343.88mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2428.693mil|Location2.X=2468.996mil|Location1.Y=3331.907mil|Location2.Y=3343.88mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2430.512mil,3345.276mil)(2438.848mil,3330.512mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2467.796mil|Location2.X=2631.168mil|Location1.Y=3262.991mil|Location2.Y=3398.033mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2467.796mil|Location2.X=2631.168mil|Location1.Y=3262.991mil|Location2.Y=3398.033mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2438.847mil,3330.512mil)(2631.787mil,3330.512mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2628.579mil|Location2.X=2663.325mil|Location1.Y=3270.808mil|Location2.Y=3277.224mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2628.579mil|Location2.X=2663.325mil|Location1.Y=3270.808mil|Location2.Y=3277.224mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2631.787mil,3217.52mil)(2631.787mil,3330.512mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2637.146mil|Location2.X=2671.892mil|Location1.Y=3510.473mil|Location2.Y=3516.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2637.146mil|Location2.X=2671.892mil|Location1.Y=3510.473mil|Location2.Y=3516.889mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2640.354mil,3499.606mil)(2640.354mil,3527.756mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2462.278mil|Location2.X=2636.919mil|Location1.Y=3454.601mil|Location2.Y=3600.912mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2462.278mil|Location2.X=2636.919mil|Location1.Y=3454.601mil|Location2.Y=3600.912mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2430.512mil,3527.756mil)(2640.354mil,3527.756mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2427.304mil|Location2.X=2462.05mil|Location1.Y=3510.473mil|Location2.Y=3516.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2427.304mil|Location2.X=2462.05mil|Location1.Y=3510.473mil|Location2.Y=3516.889mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2430.512mil,3499.606mil)(2430.512mil,3527.756mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2435.64mil|Location2.X=2470.386mil|Location1.Y=3270.808mil|Location2.Y=3277.224mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2435.64mil|Location2.X=2470.386mil|Location1.Y=3270.808mil|Location2.Y=3277.224mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2438.848mil,3217.52mil)(2438.848mil,3330.512mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3280.191mil|Location2.Y=3449.022mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3280.191mil|Location2.Y=3449.022mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3375.63mil)(2657.244mil,3353.583mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3285.624mil|Location2.Y=3454.455mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3285.624mil|Location2.Y=3454.455mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3381.063mil)(2657.244mil,3359.016mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3303.879mil|Location2.Y=3452.814mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3303.879mil|Location2.Y=3452.814mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2428.543mil,3389.37mil)(2642.323mil,3367.323mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.95mil|Location2.X=2638.155mil|Location1.Y=3281.862mil|Location2.Y=3430.737mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.95mil|Location2.X=2638.155mil|Location1.Y=3281.862mil|Location2.Y=3430.737mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2428.543mil,3367.323mil)(2642.232mil,3345.276mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2448.203mil|Location2.X=2634.104mil|Location1.Y=3270.644mil|Location2.Y=3428.215mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2448.203mil|Location2.X=2634.104mil|Location1.Y=3270.644mil|Location2.Y=3428.215mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3353.583mil)(2640.354mil,3345.276mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2448.516mil|Location2.X=2635.668mil|Location1.Y=3272.735mil|Location2.Y=3431.557mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2448.516mil|Location2.X=2635.668mil|Location1.Y=3272.735mil|Location2.Y=3431.557mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3359.016mil)(2642.232mil,3345.276mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3302.238mil|Location2.Y=3471.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3302.238mil|Location2.Y=3471.069mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3397.677mil)(2657.244mil,3375.63mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3307.671mil|Location2.Y=3476.502mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3307.671mil|Location2.Y=3476.502mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3403.11mil)(2657.244mil,3381.063mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3325.926mil|Location2.Y=3474.862mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3325.926mil|Location2.Y=3474.862mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2428.543mil,3411.418mil)(2642.323mil,3389.37mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3324.285mil|Location2.Y=3493.116mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3324.285mil|Location2.Y=3493.116mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3419.725mil)(2657.244mil,3397.677mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3329.719mil|Location2.Y=3498.549mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3329.719mil|Location2.Y=3498.549mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3425.158mil)(2657.244mil,3403.11mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3347.973mil|Location2.Y=3496.909mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3347.973mil|Location2.Y=3496.909mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2428.543mil,3433.465mil)(2642.323mil,3411.418mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3346.333mil|Location2.Y=3515.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3346.333mil|Location2.Y=3515.164mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3441.772mil)(2657.244mil,3419.725mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3351.766mil|Location2.Y=3520.597mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3351.766mil|Location2.Y=3520.597mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3447.205mil)(2657.244mil,3425.158mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3370.021mil|Location2.Y=3518.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3370.021mil|Location2.Y=3518.956mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2428.543mil,3455.512mil)(2642.323mil,3433.465mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3368.38mil|Location2.Y=3537.211mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3368.38mil|Location2.Y=3537.211mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3463.819mil)(2657.244mil,3441.772mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3373.813mil|Location2.Y=3542.644mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3373.813mil|Location2.Y=3542.644mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3469.252mil)(2657.244mil,3447.205mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3392.068mil|Location2.Y=3541.003mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2460.965mil|Location2.X=2638.231mil|Location1.Y=3392.068mil|Location2.Y=3541.003mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2428.543mil,3477.559mil)(2642.323mil,3455.512mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3390.427mil|Location2.Y=3559.258mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3390.427mil|Location2.Y=3559.258mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3485.866mil)(2657.244mil,3463.819mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3395.86mil|Location2.Y=3564.691mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.018mil|Location2.X=2648.178mil|Location1.Y=3395.86mil|Location2.Y=3564.691mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2413.622mil,3491.299mil)(2657.244mil,3469.252mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2462.606mil|Location2.X=2638.559mil|Location1.Y=3414.771mil|Location2.Y=3562.395mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2462.606mil|Location2.X=2638.559mil|Location1.Y=3414.771mil|Location2.Y=3562.395mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2430.512mil,3499.606mil)(2642.323mil,3477.559mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.093mil|Location2.X=2650.993mil|Location1.Y=3413.951mil|Location2.Y=3571.522mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.093mil|Location2.X=2650.993mil|Location1.Y=3413.951mil|Location2.Y=3571.522mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2430.512mil,3499.606mil)(2657.244mil,3485.866mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.093mil|Location2.X=2650.993mil|Location1.Y=3416.668mil|Location2.Y=3574.238mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.093mil|Location2.X=2650.993mil|Location1.Y=3416.668mil|Location2.Y=3574.238mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2430.512mil,3499.606mil)(2657.244mil,3491.299mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.627mil|Location2.X=2754.373mil|Location1.Y=3181.831mil|Location2.Y=3188.247mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2719.627mil|Location2.X=2754.373mil|Location1.Y=3181.831mil|Location2.Y=3188.247mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2722.835mil,3152.559mil)(2722.835mil,3217.52mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2344.823mil|Location2.X=2379.569mil|Location1.Y=3181.831mil|Location2.Y=3188.247mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2344.823mil|Location2.X=2379.569mil|Location1.Y=3181.831mil|Location2.Y=3188.247mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2348.031mil,3152.559mil)(2348.031mil,3217.52mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2368.595mil|Location2.X=2498.425mil|Location1.Y=3101.809mil|Location2.Y=3203.309mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2368.595mil|Location2.X=2498.425mil|Location1.Y=3101.809mil|Location2.Y=3203.309mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (2348.031mil,3152.559mil)(2490.658mil,3152.559mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3096.892mil|Location2.X=3505.972mil|Location1.Y=582.566mil|Location2.Y=963.315mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3096.892mil|Location2.X=3505.972mil|Location1.Y=582.566mil|Location2.Y=963.315mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "Molex_89400_061" (3008.485mil,756.542mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2589.634mil|Location2.X=2666.362mil|Location1.Y=1157.48mil|Location2.Y=1205.878mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2589.634mil|Location2.X=2666.362mil|Location1.Y=1157.48mil|Location2.Y=1205.878mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "5k" (2584.315mil,1162mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2147.662mil|Location2.X=2237.509mil|Location1.Y=1166.393mil|Location2.Y=1227.91mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2147.662mil|Location2.X=2237.509mil|Location1.Y=1166.393mil|Location2.Y=1227.91mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "1:1" (2139.063mil,1177.473mil)  Top Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2932.658mil|Location2.X=3293.634mil|Location1.Y=990.076mil|Location2.Y=1322.722mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2932.658mil|Location2.X=3293.634mil|Location1.Y=990.076mil|Location2.Y=1322.722mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "PLS_2.54mm-19" (3341.685mil,1140mil)  Bottom Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1731.973mil|Location2.X=2092.949mil|Location1.Y=990.076mil|Location2.Y=1322.722mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1731.973mil|Location2.X=2092.949mil|Location1.Y=990.076mil|Location2.Y=1322.722mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Text "PLS_2.54mm-19" (2141mil,1140mil)  Bottom Overlay</acronym></a><br></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br><a name="IDA0B3BC"><table>
+<tr>
+<th style="text-align : left" colspan="2" class="rule">Silk To Solder Mask (Clearance=4mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2299.213mil|Location2.X=2307.087mil|Location1.Y=2322.331mil|Location2.Y=2394.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2299.213mil|Location2.X=2307.087mil|Location1.Y=2322.331mil|Location2.Y=2394.205mil|Absolute=True">Track (2303.15mil,2326.268mil)(2303.15mil,2390.268mil)  Top Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2254.15mil|Location2.X=2302.15mil|Location1.Y=2334.268mil|Location2.Y=2382.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2254.15mil|Location2.X=2302.15mil|Location1.Y=2334.268mil|Location2.Y=2382.268mil|Absolute=True">Pad JP2-3(2278.15mil,2358.268mil)  Multi-Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2149.213mil|Location2.X=2157.087mil|Location1.Y=2322.331mil|Location2.Y=2394.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2149.213mil|Location2.X=2157.087mil|Location1.Y=2322.331mil|Location2.Y=2394.205mil|Absolute=True">Track (2153.15mil,2326.268mil)(2153.15mil,2390.268mil)  Top Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2154.15mil|Location2.X=2202.15mil|Location1.Y=2334.268mil|Location2.Y=2382.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2154.15mil|Location2.X=2202.15mil|Location1.Y=2334.268mil|Location2.Y=2382.268mil|Absolute=True">Pad JP2-1(2178.15mil,2358.268mil)  Multi-Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2196.347mil|Location2.X=2268.22mil|Location1.Y=3065.945mil|Location2.Y=3073.819mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2196.347mil|Location2.X=2268.22mil|Location1.Y=3065.945mil|Location2.Y=3073.819mil|Absolute=True">Track (2200.284mil,3069.882mil)(2264.284mil,3069.882mil)  Top Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2208.284mil|Location2.X=2256.284mil|Location1.Y=3020.882mil|Location2.Y=3068.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2208.284mil|Location2.X=2256.284mil|Location1.Y=3020.882mil|Location2.Y=3068.882mil|Absolute=True">Pad JP1-3(2232.284mil,3044.882mil)  Multi-Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2196.347mil|Location2.X=2268.22mil|Location1.Y=2915.945mil|Location2.Y=2923.819mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2196.347mil|Location2.X=2268.22mil|Location1.Y=2915.945mil|Location2.Y=2923.819mil|Absolute=True">Track (2200.284mil,2919.882mil)(2264.284mil,2919.882mil)  Top Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2208.284mil|Location2.X=2256.284mil|Location1.Y=2920.882mil|Location2.Y=2968.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\my_work\ALtium\us_#2\us_#2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2208.284mil|Location2.X=2256.284mil|Location1.Y=2920.882mil|Location2.Y=2968.882mil|Absolute=True">Pad JP1-1(2232.284mil,2944.882mil)  Multi-Layer</acronym></a></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br></body>
+</html>

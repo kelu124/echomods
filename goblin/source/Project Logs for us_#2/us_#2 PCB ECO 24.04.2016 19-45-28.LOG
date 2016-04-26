@@ -1,0 +1,168 @@
+Removed Pin From Net: NetName=VGA_OUT_N Pin=C5-2
+Removed Pin From Net: NetName=NetC11_2 Pin=C12-1
+Removed Pin From Net: NetName=AGND Pin=C12-2
+Removed Pin From Net: NetName=AGND Pin=C13-2
+Removed Pin From Net: NetName=AGND Pin=C14-2
+Removed Pin From Net: NetName=GAIN Pin=C16-2
+Removed Pin From Net: NetName=VDD_5V Pin=C20-1
+Removed Pin From Net: NetName=VDD_5V Pin=C22-2
+Removed Pin From Net: NetName=3.3VA Pin=C25-1
+Removed Pin From Net: NetName=AGND Pin=C25-2
+Removed Pin From Net: NetName=VDD_5V Pin=JP2-1
+Removed Pin From Net: NetName=AGND Pin=JP2-3
+Removed Pin From Net: NetName=NetC10_1 Pin=R2-1
+Removed Pin From Net: NetName=NetC10_1 Pin=U1-4
+Removed Pin From Net: NetName=NetC9_1 Pin=U1-5
+Removed Pin From Net: NetName=NetC9_2 Pin=U1-7
+Removed Pin From Net: NetName=NetC10_2 Pin=U1-8
+Removed Pin From Net: NetName=GAIN Pin=U1-10
+Removed Member From Class: ClassName=RF Member=NetC5_1
+Change Component DesignItemId : Designator=C7 Old DesignItemId=CC0603_1NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C11 Old DesignItemId=CC0603_1NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C15 Old DesignItemId=CC0603_1NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C25 Old DesignItemId=CC0603_1NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C16 Old DesignItemId=CC0603_10PF_50V_5%_NP0 New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C3 Old DesignItemId=CC0603_18NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C4 Old DesignItemId=CC0603_22PF_50V_5%_NP0 New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C18 Old DesignItemId=CC0603_39PF_50V_5%_NP0 New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C24 Old DesignItemId=CC0603_39PF_50V_5%_NP0 New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C5 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C6 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C8 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C9 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C10 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C12 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C13 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C14 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C17 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C22 Old DesignItemId=CC0603_100NF_50V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C23 Old DesignItemId=CC0603_100PF_50V_5%_NP0 New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C21 Old DesignItemId=CC0603_220NF_10V_10%_X7R New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C19 Old DesignItemId=CC0603_220PF_50V_5%_NP0 New DesignItemId=cap0603
+Change Component DesignItemId : Designator=C20 Old DesignItemId=CC0603_330PF_50V_5%_NP0 New DesignItemId=cap0603
+Change Component DesignItemId : Designator=L1 Old DesignItemId=IND0805_MURATA_BLM21BB750SN1D New DesignItemId=Ind_Chip
+Change Component DesignItemId : Designator=L2 Old DesignItemId=IND0805_MURATA_BLM21BB750SN1D New DesignItemId=Ind_Chip
+Change Component DesignItemId : Designator=L3 Old DesignItemId=IND0805_MURATA_BLM21BB750SN1D New DesignItemId=Ind_Chip
+Change Component DesignItemId : Designator=L4 Old DesignItemId=IND0805_MURATA_BLM21BB750SN1D New DesignItemId=Ind_Chip
+Change Component DesignItemId : Designator=L5 Old DesignItemId=IND0805_MURATA_BLM21BB750SN1D New DesignItemId=Ind_Chip
+Change Component DesignItemId : Designator=L6 Old DesignItemId=IND0805_MURATA_BLM21BB750SN1D New DesignItemId=Ind_Chip
+Change Component DesignItemId : Designator=R1 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R4 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R6 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R7 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R8 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R10 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R11 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R12 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R13 Old DesignItemId=R0603_10K_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R3 Old DesignItemId=R0603_100R_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R5 Old DesignItemId=R0603_100R_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component DesignItemId : Designator=R2 Old DesignItemId=R0603_280R_0.1%_0.063W_10PPM New DesignItemId=Res_0603_1%_EU
+Change Component Footprint: Designator=C3 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C4 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C5 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C6 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C7 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C8 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C9 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C10 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C11 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C12 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C13 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C14 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C15 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C16 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C17 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C18 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C19 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C20 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C21 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C22 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C23 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C24 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=C25 Old Footprint=CAPC1608X87N New Footprint=SM0603 _3D_cap
+Change Component Footprint: Designator=L1 Old Footprint=INDC2012X105N New Footprint=SM_0805_INDUCTANCE _3D
+Change Component Footprint: Designator=L2 Old Footprint=INDC2012X105N New Footprint=SM_0805_INDUCTANCE _3D
+Change Component Footprint: Designator=L3 Old Footprint=INDC2012X105N New Footprint=SM_0805_INDUCTANCE _3D
+Change Component Footprint: Designator=L4 Old Footprint=INDC2012X105N New Footprint=SM_0805_INDUCTANCE _3D
+Change Component Footprint: Designator=L5 Old Footprint=INDC2012X105N New Footprint=SM_0805_INDUCTANCE _3D
+Change Component Footprint: Designator=L6 Old Footprint=INDC2012X105N New Footprint=SM_0805_INDUCTANCE _3D
+Change Component Footprint: Designator=R1 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R2 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R3 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R4 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R5 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R6 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R7 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R8 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R10 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R11 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R12 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Footprint: Designator=R13 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res
+Change Component Comment : Designator=C7 Old Comment=1nF New Comment=cap0603
+Change Component Comment : Designator=C11 Old Comment=1nF New Comment=cap0603
+Change Component Comment : Designator=C15 Old Comment=1nF New Comment=cap0603
+Change Component Comment : Designator=C24 Old Comment=10nf New Comment=cap0603
+Change Component Comment : Designator=C16 Old Comment=10pF New Comment=cap0603
+Change Component Comment : Designator=C3 Old Comment=18nF New Comment=cap0603
+Change Component Comment : Designator=C4 Old Comment=22pF New Comment=cap0603
+Change Component Comment : Designator=C18 Old Comment=39pF New Comment=cap0603
+Change Component Comment : Designator=C5 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C6 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C8 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C9 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C10 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C12 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C13 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C14 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C17 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C22 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C25 Old Comment=100nF New Comment=cap0603
+Change Component Comment : Designator=C23 Old Comment=100pF New Comment=cap0603
+Change Component Comment : Designator=C21 Old Comment=220nF New Comment=cap0603
+Change Component Comment : Designator=C19 Old Comment=220pF New Comment=cap0603
+Change Component Comment : Designator=C20 Old Comment=330pF New Comment=cap0603
+Added Component: Designator=P2(TRIM_BOURNS_3223W)
+Added Component: Designator=R14(SM0603_3D_res)
+Added Pin To Net: NetName=VGA_OUT_N Pin=C5-1
+Added Pin To Net: NetName=AGND Pin=C12-1
+Added Pin To Net: NetName=NetC11_2 Pin=C12-2
+Added Pin To Net: NetName=AGND Pin=C13-1
+Added Pin To Net: NetName=AGND Pin=C14-1
+Added Pin To Net: NetName=AGND Pin=C25-1
+Added Pin To Net: NetName=3.3VA Pin=C25-2
+Added Pin To Net: NetName=AGND Pin=P2-3
+Added Pin To Net: NetName=NetC10_2 Pin=R2-1
+Added Pin To Net: NetName=VDD_5V Pin=R14-2
+Added Pin To Net: NetName=NetC10_2 Pin=U1-4
+Added Pin To Net: NetName=NetC9_2 Pin=U1-5
+Added Pin To Net: NetName=NetC9_1 Pin=U1-7
+Added Pin To Net: NetName=NetC10_1 Pin=U1-8
+Added Pin To Net: NetName=NetC11_2 Pin=U1-13
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=L2-1
+Added Pin To Net: NetName=NetC5_2 Pin=R3-1
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=NetC13_2 Pin=R6-2
+Added Pin To Net: NetName=NetC13_2 Pin=U1-12
+Added Net: Name=NetC13_2
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC14_2 Pin=C15-2
+Added Pin To Net: NetName=NetC14_2 Pin=U1-11
+Added Net: Name=NetC14_2
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=U1-10
+Added Net: Name=NetC16_2
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Pin To Net: NetName=NetC20_1 Pin=C22-2
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=NetJumper2_3 Pin=P2-2
+Added Net: Name=NetJumper2_3
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_1 Pin=R14-1
+Added Net: Name=NetP2_1
+Added Member To Class: ClassName=us_#2shc Member=Component P2 5k
+Added Member To Class: ClassName=us_#2shc Member=Component R14 20k
+Added Member To Class: ClassName=RF Member=Wire NetC2_2
+Added Member To Class: ClassName=RF Member=Wire NetC5_2
