@@ -8,6 +8,8 @@ The principles of the echOmods is to enable a full chain of ultrasound image pro
 
 Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules.
 
+![Modules organisation](/images/modules.png)
+
 These modules can have a form factor close to the arduino trinket pro, with a row of 19 pins on the side.
 
 Each module will have a function, as described below. At the heart of this project, there will be 4 modules, plus the motherboard. 2 of these modules will be SMD, 2 as modules based on stripboards. Two additional modules will enable replacing the transducer module and getting advanced signal acquisition/streaming, respectively.
