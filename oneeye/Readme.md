@@ -1,8 +1,57 @@
 # One-Eye
 
-Creating modules out of the murgen board
+* The microcontroler heart of the echOmods
+* version: V0.1
+* date: 26/04/2016
+* technology: Module-compatible
+* language: Altium
+* author: Kelu124
 
-#
+# Information
+
+## What is it supposed to do?
+
+The module aims at making a microcontroler, for the moment the `ArduinoTrinketPro`, usable with the motherboard and the set of modules.
+
+As the controler the module is at the heart of the control interfaces, and in the case of the echOmod set of modules, in the Pulser controls (signals I and J), as well as the Gain Control and the servo control (hence position).
+
+## How does it work?
+
+TODO: Faire un petit schema simplifié.
+
+# IOs
+
+## Inputs
+
+* `ITF-A_gnd`
+* `ITF-B_5v`
+* `ITF-S_3_3v`
+
+## Outputs
+
+* `ITF-G_gain_control`
+* `ITF-I_pulse_on`
+* `ITF-J_pulse_off`
+* `ITF-N_cc_motor_pwm`
+
+# Key Components
+
+* `ArduinoTrinketPro`
+
+
+# About the module
+
+## Pros
+
+* 
+
+## Cons
+
+* 
+
+## Constraint and limits
+
+# Discussions
 
 
 

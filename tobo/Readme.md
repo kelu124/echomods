@@ -1,5 +1,7 @@
 # Module: Tobo
 
+![](/tobo/viewme.png)
+
 * The HV-Pulser of the echOmods
 * version: V0.1
 * date: 24/04/2016
@@ -17,27 +19,10 @@ The aim of this echOmod is to get the HV Pulse done.
 
 TODO: Faire un petit schema simplifié.
 
-## About the module
 
-### Pros
+# IOs
 
-* Only needs 5V and 3.3V
-* Energy use : TODO
-* ADC V_REF is flexible: using PulseOn and PulseOff
-* Can use the potentiometer to control the tension
-* Modularity through jumpers and SMA
-
-### Cons
-
-* Takes a lot of space because of the modularity. SMA, jumpers and pots could be removed.
-* Little flexibility from the use of ICs.
-
-### Constraint and limits
-
-
-## IOs
-
-### Inputs
+## Inputs
 
 * `ITF-A_gnd`
 * `ITF-B_5v`
@@ -45,7 +30,7 @@ TODO: Faire un petit schema simplifié.
 * `ITF-J_pulse_off`
 * `ITF-S_3_3v`
 
-### Outputs
+## Outputs
 
 * `ITF-R_reserved` : for the signal coming from the transducer
 
@@ -53,6 +38,23 @@ TODO: Faire un petit schema simplifié.
 
 * `HV7360`
 * `R05-100B`
+
+# Pros & Cons
+
+## Pros
+
+* Only needs 5V and 3.3V
+* Energy use : TODO
+* ADC V_REF is flexible: using PulseOn and PulseOff
+* Can use the potentiometer to control the tension
+* Modularity through jumpers and SMA
+
+## Cons
+
+* Takes a lot of space because of the modularity. SMA, jumpers and pots could be removed.
+* Little flexibility from the use of ICs.
+
+## Constraint and limits
 
 # Discussions
 
