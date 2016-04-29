@@ -45,7 +45,7 @@ ListOfDirs = [x for x in ModulesDirs if x not in ExcludeDirs]
 
 
 for eachInput in ListOfDirs:
-	GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box")
+	GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
 
 
 # -------------------------
@@ -84,7 +84,6 @@ for ReadMe in ListOfDirs:
 	Desc = []
 	for item in results:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
-	    #Desc = " ".join( Desc ) # Only take the first paragraph
 	Desc = Desc[0]
 
 	# Getting the Inputs of the Module
@@ -95,8 +94,10 @@ for ReadMe in ListOfDirs:
 	for item in results:
 	    Inputs = map(str, re.findall(patternCode, item, flags=0))
 	    for eachInput in Inputs:
-		#GraphModules = add_nodes(GraphModules, eachInput)
-		GraphModules.node(eachInput, style="rounded,filled", fillcolor="yellow")
+		if "ITF-m" not in eachInput:
+		    GraphModules.node(eachInput, style="rounded,filled", fillcolor="yellow")
+		else:
+		    GraphModules.node(eachInput, style="rounded,filled", fillcolor="green")		
 		GraphModules.edge(eachInput, ReadMe)
 	inpoots = ", ".join( Inputs )
 	
@@ -110,7 +111,10 @@ for ReadMe in ListOfDirs:
 	for item in results:
 	    Outputs = map(str, re.findall(patternCode, item, flags=0))
 	    for eachOutput in Outputs:
-		GraphModules.node(eachOutput, style="rounded,filled", fillcolor="yellow")
+		if "ITF-m" not in eachOutput:
+		    GraphModules.node(eachOutput, style="rounded,filled", fillcolor="yellow")
+		else:
+		    GraphModules.node(eachOutput, style="rounded,filled", fillcolor="green")
 		GraphModules.edge(ReadMe, eachOutput, style="filled", fillcolor="red")
 	outpoots = ", ".join( Outputs )
 

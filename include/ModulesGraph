@@ -1,9 +1,9 @@
 digraph {
-	tobo [fillcolor=blue shape=box style=filled]
-	cletus [fillcolor=blue shape=box style=filled]
-	oneeye [fillcolor=blue shape=box style=filled]
-	goblin [fillcolor=blue shape=box style=filled]
-	mogaba [fillcolor=blue shape=box style=filled]
+	tobo [fillcolor=blue fontsize=22 shape=box style=filled]
+	cletus [fillcolor=blue fontsize=22 shape=box style=filled]
+	oneeye [fillcolor=blue fontsize=22 shape=box style=filled]
+	goblin [fillcolor=blue fontsize=22 shape=box style=filled]
+	mogaba [fillcolor=blue fontsize=22 shape=box style=filled]
 	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
 		"ITF-A_gnd" -> tobo
 	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]
@@ -16,9 +16,9 @@ digraph {
 		"ITF-S_3_3v" -> tobo
 	"ITF-R_reserved" [fillcolor=yellow style="rounded,filled"]
 		tobo -> "ITF-R_reserved" [fillcolor=red style=filled]
-	"ITF-mET_SMA" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mET_SMA" [fillcolor=green style="rounded,filled"]
 		tobo -> "ITF-mET_SMA" [fillcolor=red style=filled]
-	"ITF-mET_Transducer" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mET_Transducer" [fillcolor=green style="rounded,filled"]
 		tobo -> "ITF-mET_Transducer" [fillcolor=red style=filled]
 	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
 		"ITF-A_gnd" -> cletus
@@ -28,13 +28,13 @@ digraph {
 		"ITF-N_cc_motor_pwm" -> cletus
 	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
 		"ITF-S_3_3v" -> cletus
-	"ITF-mET_Transducer" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mET_Transducer" [fillcolor=green style="rounded,filled"]
 		"ITF-mET_Transducer" -> cletus
-	"ITF-mET_Piezo" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mET_Piezo" [fillcolor=green style="rounded,filled"]
 		"ITF-mET_Piezo" -> cletus
-	"ITF-mET_Piezo" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mET_Piezo" [fillcolor=green style="rounded,filled"]
 		cletus -> "ITF-mET_Piezo" [fillcolor=red style=filled]
-	"ITF-mET_Transducer" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mET_Transducer" [fillcolor=green style="rounded,filled"]
 		cletus -> "ITF-mET_Transducer" [fillcolor=red style=filled]
 	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
 		"ITF-A_gnd" -> oneeye
@@ -64,15 +64,15 @@ digraph {
 		"ITF-E_signal_envelope" -> goblin
 	"ITF-R_reserved" [fillcolor=yellow style="rounded,filled"]
 		"ITF-R_reserved" -> goblin
-	"ITF-mET_SMA" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mET_SMA" [fillcolor=green style="rounded,filled"]
 		"ITF-mET_SMA" -> goblin
 	"ITF-C_amplified_raw_signal" [fillcolor=yellow style="rounded,filled"]
 		goblin -> "ITF-C_amplified_raw_signal" [fillcolor=red style=filled]
 	"ITF-E_signal_envelope" [fillcolor=yellow style="rounded,filled"]
 		goblin -> "ITF-E_signal_envelope" [fillcolor=red style=filled]
-	"ITF-mEG_SPI" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mEG_SPI" [fillcolor=green style="rounded,filled"]
 		goblin -> "ITF-mEG_SPI" [fillcolor=red style=filled]
-	"ITF-mEM_Alimentation" [fillcolor=yellow style="rounded,filled"]
+	"ITF-mEM_Alimentation" [fillcolor=green style="rounded,filled"]
 		"ITF-mEM_Alimentation" -> mogaba
 	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
 		mogaba -> "ITF-A_gnd" [fillcolor=red style=filled]
