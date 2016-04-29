@@ -75,6 +75,8 @@ What is expected is to break down logic blocks into modules that could be put on
 * TODO: contact Frederic Patat
 * Add status to track progress of the works
 * Jan
+* Imprimer une tof à afficher
+* Contact Edgeflex
 
 ### Done
 
@@ -225,7 +227,9 @@ _"I am not a visionary, I'm an engineer," Torvalds says. "I'm perfectly happy wi
 
 #### April 28th
 
-R-2R DDS -- =) MHz DDS with arduino ?
+* Am an INTJ-A ... so what?
+
+* R-2R DDS -- =) MHz DDS with arduino ?
 * https://hackaday.io/project/9469-misc-arm-projects/log/31489-quick-dirty-dds-for-around-1
 * http://www.tek.com/blog/tutorial-digital-analog-conversion-%E2%80%93-r-2r-dac
 
@@ -264,10 +268,20 @@ Fun to read
 
 ### Graphing
 
+#### April 29th -- initial fill in
+
 * HAD->Murgen
-* Modules->Tester
-* Modules->Transducer
-* Modules->Mech
+* HAD->Financement
+* Murgen->Output Image
+* Serveur Michel->Output Image
+* Output Image->Benchmark
+* Benchmark->Image processing
+* Image processing->Jean-Francois
+* Image processing->
+* Output Image->Print
+* 1. Modules->Tester
+* 1. Modules->Transducer
+* 1. Modules->Mech
 * Mech->BiVi
 * echOmods->WoodBox
 * WoodBox->Arthur
@@ -277,37 +291,54 @@ Fun to read
 * Croaker->STM32F205RG
 * STM32F205RG->M3
 * STM32F205RG->6Msps
-* uC->Croaker
+* 5. uC->Croaker
 * Croaker->TFT Screen
 * Croaker->SD Card
-* uC->Vlad
-* Modules->Alim
-* Modules->echOmods
+* 5. uC->Vlad
+* 1. Modules->Alim
+* 1. Modules->echOmods
 * Alim->Mogaba
-* Modules->HV
-* Modules
-* Modules->TGC
-* Modules->Controler
-* uC->Feather Wiced
-* uC->Wifi
-* HAD->Phantoms
-* Phantoms->Virginie
-* Phantoms->Static
-* Phantoms->Materials
-* Modules->Doc
-* Modules->Motherboard
+* 1. Modules->HV
+* 1. Modules
+* 1. Modules->TGC
+* 1. Modules->Controler
+* 5. uC->Feather Wiced
+* 5. uC->Wifi
+* 5. uC->EspruinoPico
+* EspruinoPico->BiVi
+* HAD->3. Phantoms
+* 3. Phantoms->Virginie
+* 3. Phantoms->Static
+* 3. Phantoms->Materials
+* RP-6400->Materials
+* 1. Modules->Doc
+* 1. Modules->Motherboard
 * Documentation->DocBuilder
 * DocBuilder->BiVi
 * Documentation->GitAliases
 * Wifi->TCP
 * TCP->format
-* Modules->DDS
-* Modules->Fab
+* 1. Modules->2. DDS
+* AG->Strat
+* 1. Modules->Fab
 * Fab->MacroFab
 * Vlad->MacroFab
-* DDS->R-2R
-* DDS->Arduino
+* 2. DDS->R-2R
+* 2. DDS->Arduino
 * Acquisition->BBB
-* BBB->PRU
-* PRU->Vanderbilt
+* BBB->4. PRU
+* 4. PRU->Up to 10Msps or more in parallel
+* 4. PRU->Vanderbilt
+* Vanderbilt->EdgeFlex
+* FlyLabs->EdgeFlex
 * Acquisition->Wifi
+* Acquisition->RedPitaya
+* Acquisition->Wifi
+* 1. Modules->Pedagogie
+* Pedagogie->ESIA
+* Pedagogie->Aforp
+* Aforp->Tao
+* Aforp->Apprenti
+* Pedagogie->Vanderbilt
+
+

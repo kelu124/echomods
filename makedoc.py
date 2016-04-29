@@ -98,7 +98,7 @@ for ReadMe in ListOfDirs:
 		    GraphModules.node(eachInput, style="rounded,filled", fillcolor="yellow")
 		else:
 		    GraphModules.node(eachInput, style="rounded,filled", fillcolor="green")		
-		GraphModules.edge(eachInput, ReadMe)
+		GraphModules.edge(eachInput, ReadMe, splines="line", nodesep="1")
 	inpoots = ", ".join( Inputs )
 	
 
@@ -115,12 +115,12 @@ for ReadMe in ListOfDirs:
 		    GraphModules.node(eachOutput, style="rounded,filled", fillcolor="yellow")
 		else:
 		    GraphModules.node(eachOutput, style="rounded,filled", fillcolor="green")
-		GraphModules.edge(ReadMe, eachOutput, style="filled", fillcolor="red")
+		GraphModules.edge(ReadMe, eachOutput, splines="line", nodesep="1", fillcolor="red")
 	outpoots = ", ".join( Outputs )
 
 
 
-	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='100'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
+	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
 
 
 TableDocTxt = TableModules+"\n\n"
