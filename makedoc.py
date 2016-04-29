@@ -117,7 +117,7 @@ GraphModules.render('include/ModulesGraph')
 
 GraphModulesTxt = "\n# The modules organization \n\n"
 
-GraphModulesTxt += "![Graph](/include/ModulesGraph.svg) \n\n"
+GraphModulesTxt += "![Graph](https://raw.githubusercontent.com/kelu124/echomods/master/include/ModulesGraph.svg) \n\n"
 
 FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
