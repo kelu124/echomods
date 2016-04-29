@@ -34,7 +34,10 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 
 
 
-![Graph](/include/ModulesGraph.svg) 
+
+# The modules organization 
+
+![Graph](https://github.com/kelu124/echomods/blob/master/include/ModulesGraph.svg) 
 
 # A recap of our modules 
 

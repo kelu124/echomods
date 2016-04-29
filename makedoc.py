@@ -1,13 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Requires GraphViz and Wand
 
 import os
 import markdown
 import re
 import graphviz as gv
 import functools
-
-
+# Wand for SVG to PNG Conversion
+from wand.api import library
+import wand.color
+import wand.image
+import Image
 
 # -------------------------
 # Aide pour le graphe
@@ -115,9 +119,27 @@ TableDocTxt = TableModules+"\n\n"
 
 GraphModules.render('include/ModulesGraph')
 
+output_filename = 'include/ModulesGraph.png'
+input_filename = 'include/ModulesGraph.svg'
+svg_file = open(input_filename,"r")
+
+with wand.image.Image() as image:
+    with wand.color.Color('transparent') as background_color:
+        library.MagickSetBackgroundColor(image.wand, background_color.resource) 
+    image.read(blob=svg_file.read())
+    png_image = image.make_blob("png32")
+
+with open(output_filename, "wb") as out:
+    out.write(png_image)
+
+# -------------------------
+# Créer le ReadMe
+# -------------------------
+
+
 GraphModulesTxt = "\n# The modules organization \n\n"
 
-GraphModulesTxt += "![Graph](https://github.com/kelu124/echomods/blob/master/include/ModulesGraph.svg) \n\n"
+GraphModulesTxt += "![Graph](/include/ModulesGraph.png) \n\n"
 
 FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
