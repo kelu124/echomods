@@ -116,7 +116,8 @@ TableDocTxt = TableModules+"\n\n"
 GraphModules.render('include/ModulesGraph')
 
 GraphModulesTxt = "\n# A recap of our modules \n\n"
-GraphModulesTxt = "![Graph](/include/ModulesGraph.svg) \n\n"
+
+GraphModulesTxt += "![Graph](/include/ModulesGraph.svg) \n\n"
 
 FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
