@@ -60,8 +60,8 @@ AddLicenseDoc.close()
 
 TableModules = "# A recap of our modules \n\n\n"
 
-TableModules += "| Image | Name | In | Out |"
-TableModules += "|------|-------|----|------|"
+TableModules += "| Image | Name | In | Out |\n"
+TableModules += "|------|-------|----|------|\n"
 
 for ReadMe in ListOfDirs:
 	f = open(ReadMe+"/Readme.md", 'r')
