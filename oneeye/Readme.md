@@ -17,7 +17,7 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ## How does it work?
 
-TODO: Faire un petit schema simplifié.
+TODO: Faire un petit schema simplifie.
 
 # IOs
 

@@ -1,0 +1,47 @@
+digraph {
+	tobo [fillcolor=blue shape=box style=filled]
+	oneeye [fillcolor=blue shape=box style=filled]
+	goblin [fillcolor=blue shape=box style=filled]
+	silent [fillcolor=blue shape=box style=filled]
+	mogaba [fillcolor=blue shape=box style=filled]
+	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
+		"ITF-A_gnd" -> tobo
+	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]
+		"ITF-B_5v" -> tobo
+	"ITF-I_pulse_on" [fillcolor=yellow style="rounded,filled"]
+		"ITF-I_pulse_on" -> tobo
+	"ITF-J_pulse_off" [fillcolor=yellow style="rounded,filled"]
+		"ITF-J_pulse_off" -> tobo
+	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
+		"ITF-S_3_3v" -> tobo
+	"ITF-R_reserved" [fillcolor=yellow style="rounded,filled"]
+		tobo -> "ITF-R_reserved" [fillcolor=red style=filled]
+	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
+		"ITF-A_gnd" -> oneeye
+	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]
+		"ITF-B_5v" -> oneeye
+	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
+		"ITF-S_3_3v" -> oneeye
+	"ITF-G_gain_control" [fillcolor=yellow style="rounded,filled"]
+		oneeye -> "ITF-G_gain_control" [fillcolor=red style=filled]
+	"ITF-I_pulse_on" [fillcolor=yellow style="rounded,filled"]
+		oneeye -> "ITF-I_pulse_on" [fillcolor=red style=filled]
+	"ITF-J_pulse_off" [fillcolor=yellow style="rounded,filled"]
+		oneeye -> "ITF-J_pulse_off" [fillcolor=red style=filled]
+	"ITF-N_cc_motor_pwm" [fillcolor=yellow style="rounded,filled"]
+		oneeye -> "ITF-N_cc_motor_pwm" [fillcolor=red style=filled]
+	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
+		"ITF-A_gnd" -> goblin
+	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]
+		"ITF-B_5v" -> goblin
+	"ITF-G_gain_control" [fillcolor=yellow style="rounded,filled"]
+		"ITF-G_gain_control" -> goblin
+	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
+		"ITF-S_3_3v" -> goblin
+	"ITF-C_amplified_raw_signal" [fillcolor=yellow style="rounded,filled"]
+		goblin -> "ITF-C_amplified_raw_signal" [fillcolor=red style=filled]
+	"ITF-E_signal_envelope" [fillcolor=yellow style="rounded,filled"]
+		goblin -> "ITF-E_signal_envelope" [fillcolor=red style=filled]
+	"ITF-mEG_SPI" [fillcolor=yellow style="rounded,filled"]
+		goblin -> "ITF-mEG_SPI" [fillcolor=red style=filled]
+}

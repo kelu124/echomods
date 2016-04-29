@@ -21,7 +21,7 @@ First try at a SPI ADC. Using a 2 Msps one in order to catch only the enveloppe,
 
 ## How does it work? 
 
-TODO: Faire un petit schema simplifié.
+TODO: Faire un petit schema simplifie.
 
 # IOs
 

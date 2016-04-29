@@ -17,7 +17,7 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ## How does it work? 
 
-TODO: Faire un petit schema simplifié.
+TODO: Faire un petit simplified schematics.
 
 
 # IOs
