@@ -101,7 +101,9 @@ for ReadMe in ListOfDirs:
 		GraphModules.edge(ReadMe, eachOutput, style="filled", fillcolor="red")
 	outpoots = ", ".join( Outputs )
 
-	TableModules += "|![Thumb](/"+ReadMe+"/viewme.png)|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
+
+
+	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='100'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
 
 
 TableDocTxt = TableModules+"\n\n"
@@ -113,7 +115,7 @@ TableDocTxt = TableModules+"\n\n"
 
 GraphModules.render('include/ModulesGraph')
 
-GraphModulesTxt = "# A recap of our modules \n\n"
+GraphModulesTxt = "\n# A recap of our modules \n\n"
 GraphModulesTxt = "![Graph](/include/ModulesGraph.svg) \n\n"
 
 FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
