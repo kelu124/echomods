@@ -13,7 +13,7 @@
 
 ## What is it supposed to do ?
 
-The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the 
+The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.
 
 ## How does it work? 
 

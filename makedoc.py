@@ -79,8 +79,8 @@ for ReadMe in ListOfDirs:
 	Desc = []
 	for item in results:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
-	    Desc = " ".join( Desc[0] ) # Only take the first paragraph
-	Desc = "".join( Desc )
+	    #Desc = " ".join( Desc ) # Only take the first paragraph
+	Desc = Desc[0]
 
 	# Getting the Inputs of the Module
 	pattern = r"Inputs</h2>([\s\S]*)<h2>Outputs"
