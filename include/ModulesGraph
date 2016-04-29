@@ -1,5 +1,6 @@
 digraph {
 	tobo [fillcolor=blue shape=box style=filled]
+	cletus [fillcolor=blue shape=box style=filled]
 	oneeye [fillcolor=blue shape=box style=filled]
 	goblin [fillcolor=blue shape=box style=filled]
 	mogaba [fillcolor=blue shape=box style=filled]
@@ -15,6 +16,26 @@ digraph {
 		"ITF-S_3_3v" -> tobo
 	"ITF-R_reserved" [fillcolor=yellow style="rounded,filled"]
 		tobo -> "ITF-R_reserved" [fillcolor=red style=filled]
+	"ITF-mET_SMA" [fillcolor=yellow style="rounded,filled"]
+		tobo -> "ITF-mET_SMA" [fillcolor=red style=filled]
+	"ITF-mET_Transducer" [fillcolor=yellow style="rounded,filled"]
+		tobo -> "ITF-mET_Transducer" [fillcolor=red style=filled]
+	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
+		"ITF-A_gnd" -> cletus
+	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]
+		"ITF-B_5v" -> cletus
+	"ITF-N_cc_motor_pwm" [fillcolor=yellow style="rounded,filled"]
+		"ITF-N_cc_motor_pwm" -> cletus
+	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
+		"ITF-S_3_3v" -> cletus
+	"ITF-mET_Transducer" [fillcolor=yellow style="rounded,filled"]
+		"ITF-mET_Transducer" -> cletus
+	"ITF-mET_Piezo" [fillcolor=yellow style="rounded,filled"]
+		"ITF-mET_Piezo" -> cletus
+	"ITF-mET_Piezo" [fillcolor=yellow style="rounded,filled"]
+		cletus -> "ITF-mET_Piezo" [fillcolor=red style=filled]
+	"ITF-mET_Transducer" [fillcolor=yellow style="rounded,filled"]
+		cletus -> "ITF-mET_Transducer" [fillcolor=red style=filled]
 	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
 		"ITF-A_gnd" -> oneeye
 	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]
@@ -37,6 +58,14 @@ digraph {
 		"ITF-G_gain_control" -> goblin
 	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
 		"ITF-S_3_3v" -> goblin
+	"ITF-C_amplified_raw_signal" [fillcolor=yellow style="rounded,filled"]
+		"ITF-C_amplified_raw_signal" -> goblin
+	"ITF-E_signal_envelope" [fillcolor=yellow style="rounded,filled"]
+		"ITF-E_signal_envelope" -> goblin
+	"ITF-R_reserved" [fillcolor=yellow style="rounded,filled"]
+		"ITF-R_reserved" -> goblin
+	"ITF-mET_SMA" [fillcolor=yellow style="rounded,filled"]
+		"ITF-mET_SMA" -> goblin
 	"ITF-C_amplified_raw_signal" [fillcolor=yellow style="rounded,filled"]
 		goblin -> "ITF-C_amplified_raw_signal" [fillcolor=red style=filled]
 	"ITF-E_signal_envelope" [fillcolor=yellow style="rounded,filled"]

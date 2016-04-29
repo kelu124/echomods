@@ -33,6 +33,8 @@ TODO: Faire un petit simplified schematics.
 ## Outputs
 
 * `ITF-R_reserved` : for the signal coming from the transducer
+* `ITF-mET_SMA` : for the signal coming out of the pulser (if through SMA)
+* `ITF-mET_Transducer` : for the signal coming out of the pulser (if through SMA)
 
 # Key Components
 

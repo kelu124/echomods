@@ -31,6 +31,10 @@ TODO: Faire un petit schema simplifie.
 * `ITF-B_5v`
 * `ITF-G_gain_control`
 * `ITF-S_3_3v`
+* `ITF-C_amplified_raw_signal` : because it's used internally
+* `ITF-E_signal_envelope` : because it's used internally
+* `ITF-R_reserved` : for the signal coming from the pulser (if through track R)
+* `ITF-mET_SMA` : for the signal coming from the pulser (if through SMA)
 
 ## Outputs
 
