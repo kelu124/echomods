@@ -153,7 +153,7 @@ Validation of tracks of interest
 #### April 15th 
 
 Validation of tracks and their orders
-
+Alexandr
 #### April 16th 
 
 Studying microcontrolers... See below
@@ -248,9 +248,15 @@ Fun to read
 
 | ID | Name | Chip | Comments | ADC |Price| COmments |
 |:--:|--------|--------------|----------|----|----|----|
-| 1  | WiFiMCU |  EMW3165 -> STM32F411CE | Cortex-M4 core at 100MHz | 1×12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
+| 1  | WiFiMCU |  EMW3165 - STM32F411CE | Cortex-M4 core at 100MHz | 1×12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
 | 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1×12-bit, 2.4 MSPS A/D converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
 | 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU | 3 × 12-bit, 0.5 μs ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
+| 4 | STM32L471QE | STM32L471QE | NoP | 3× 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling | ?? | ?? |
+| 5 | STM32L476 | STM32L476RG | NOP | 3× 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling, 200 μA/Msps  | [19$ dev-kit](http://www2.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32l476gdiscovery.html?icmp=pf261635_pron_pr_sep2015&sc=stm32l476g-disco) | Cheap, powerfull, nowifi |
+
+
+
+
 
 #### Studying chips
 
@@ -271,7 +277,8 @@ Fun to read
 #### April 29th -- initial fill in
 
 * HAD->Murgen
-* HAD->Financement
+* HAD->6. AutoFinancement
+* 6. AutoFinancement->OpenSourceHardwareContest
 * Murgen->Output Image
 * Serveur Michel->Output Image
 * Output Image->Benchmark
