@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# -------------------------
+# (c) kelu124
+# cc-by-sa/4.0/
+# -------------------------
 # Requires GraphViz and Wand
+# -------------------------
 
 import os
 import markdown
@@ -150,4 +155,9 @@ FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+AddInterfacesDocTxt+AddLice
 f = open("Readme.md","w+")
 f.write(FinalDoc)
 f.close()
+
+
+
+
+
 
