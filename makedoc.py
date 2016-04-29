@@ -76,14 +76,17 @@ for ReadMe in ListOfDirs:
 	pattern = r"</h2>([\s\S]*)<h2>How"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<p>(.*?)</p>"
+	Desc = []
 	for item in results:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
 	    Desc = " ".join( Desc )
+	Desc = "".join( Desc )
 
 	# Getting the Inputs of the Module
 	pattern = r"Inputs</h2>([\s\S]*)<h2>Outputs"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<code>(.*?)</code>"
+	Inputs = []
 	for item in results:
 	    Inputs = map(str, re.findall(patternCode, item, flags=0))
 	    for eachInput in Inputs:
@@ -98,6 +101,7 @@ for ReadMe in ListOfDirs:
 	pattern = r"Outputs</h2>([\s\S]*)<h1>Key"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<code>(.*?)</code>"
+	Outputs = []
 	for item in results:
 	    Outputs = map(str, re.findall(patternCode, item, flags=0))
 	    for eachOutput in Outputs:

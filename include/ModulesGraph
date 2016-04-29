@@ -2,7 +2,6 @@ digraph {
 	tobo [fillcolor=blue shape=box style=filled]
 	oneeye [fillcolor=blue shape=box style=filled]
 	goblin [fillcolor=blue shape=box style=filled]
-	silent [fillcolor=blue shape=box style=filled]
 	mogaba [fillcolor=blue shape=box style=filled]
 	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
 		"ITF-A_gnd" -> tobo
@@ -44,4 +43,12 @@ digraph {
 		goblin -> "ITF-E_signal_envelope" [fillcolor=red style=filled]
 	"ITF-mEG_SPI" [fillcolor=yellow style="rounded,filled"]
 		goblin -> "ITF-mEG_SPI" [fillcolor=red style=filled]
+	"ITF-mEM_Alimentation" [fillcolor=yellow style="rounded,filled"]
+		"ITF-mEM_Alimentation" -> mogaba
+	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
+		mogaba -> "ITF-A_gnd" [fillcolor=red style=filled]
+	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]
+		mogaba -> "ITF-B_5v" [fillcolor=red style=filled]
+	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
+		mogaba -> "ITF-S_3_3v" [fillcolor=red style=filled]
 }
