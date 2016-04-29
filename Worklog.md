@@ -2,11 +2,11 @@
 
 ## Next steps from [Murgen](http://github.com/kelu124/murgen-dev-kit/) 
 
-1. Playing with the design and fab the modules: 2 to go in CMS (HV/TGC/MD, enveloppe detection SPI ADC) and 2 in stripboard mode (alim, based on the breadboard 3.3V and 5V, as well as the controler, maybe an arduino nano at first) - and start the github repo / [echOmods](https://hackaday.io/project/10899-echomods) hackaday pages as well. Work on this with Sofian. Plus two other to have fun (see below, _points 2 and 5_).
+1. Playing with the design and fab the modules: 3 to go in CMS (HV/TGC/MD, enveloppe detection, SPI ADC) and 2 in stripboard mode (alim, based on the breadboard 3.3V and 5V, as well as the controler, maybe an arduino nano at first) - and start the github repo / [echOmods](https://hackaday.io/project/10899-echomods) hackaday pages as well. Work on this with Sofian and Vlad. See also the [echOmods repo](https://github.com/kelu124/echomods/).
 2. Playing with an electronic emulator of the transducer - as well as an electronic model. Work on this with a partner/supplier.
-3. Play with a ultrasound durable fantom. Work on this with **staticdet5** (comment on HAD).
+3. Play with a ultrasound durable fantom. Work on this with **staticdet5** (comment on HAD). Started a [project with Virginie and Static on HAD.io](https://hackaday.io/project/11478-open-source-ultrasound-phantoms).
 4. Play with the BeagleBone PRUs. Work on this with Vanderbilt.
-5. Playing with some intelligent uC of FPGA. uC has my preference at first for ease of use. WifiMCU seems fun (has a 8$ STM32F411CE - 100MHz, 2.4Msps ADC, FPU, DSP instructions and WiFi to stream!) or the [Feather Wiced](https://www.adafruit.com/product/3056) (arduino IDE compatible, based on a 34$ STM32F205 ARM Cortex M3 processor running at 120MHz. Who's volunteering?
+5. Playing with some intelligent uC of FPGA. uC has my preference at first for ease of use. WifiMCU seems fun (has a 8$ STM32F411CE - 100MHz, 2.4Msps ADC, FPU, DSP instructions and WiFi to stream!) or the [Feather Wiced](https://www.adafruit.com/product/3056) (arduino IDE compatible, based on a 34$ STM32F205 ARM Cortex M3 processor running at 120MHz. Project codename would be [Croaker](https://github.com/kelu124/echomods/croaker), not created yet. Who's volunteering?
 
 ## Brief
 
@@ -179,11 +179,11 @@ Second generation of fun! Learning microcontrolers and advanced simulations
 * Croaker: M3/M4 microcontroler 
 * Silent : physical emulateur
 
-#### April 23
+#### April 23th
 
 * A stepper based on a stepper : https://hackaday.io/project/11224-mechaduino (pour @bivi)
 
-#### April 24 
+#### April 24th
 
 * Starting to document [Tobo](/tobo/Readme.md)
 * Reading __"Maintaining Open Source Projects"__ by Tute Costa : _A project maintainer should feel comfortable shaping the community, promoting the library, keeping good communication with different people, deciding when to release new versions, and prioritizing all these tasks._
@@ -191,6 +191,47 @@ Second generation of fun! Learning microcontrolers and advanced simulations
 * Getting a _TL-MR3040 TP-Link_ for a project PirateBox (an __echObox__ ?)
 * __2016 strategy__ being done
 
+#### April 25th
+
+* http://bengarvey.com/2016/04/24/real-work/ _How many times today did a customer notice something you did?_
+* http://www.stubbornella.org/content/2013/02/26/why-i-run-my-business-like-an-open-source-project/
+* http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries?utm_source=facebook.com&utm_medium=atlas-page
+
+_I define Real Work as_
+* Work that creates an immediate and positive change in your product/service
+* Work that is a direct constraint to the completion of A
+* Work you have been uniquely hired to do.
+
+#### April 26th
+
+_"I am not a visionary, I'm an engineer," Torvalds says. "I'm perfectly happy with all the people who are walking around and just staring at the clouds ... but I'm looking at the ground, and I want to fix the pothole that's right in front of me before I fall in."_
+
+* http://gggritso.com/human-git-aliases
+* http://neo4j.com/blog/technical-documentation-graph/
+
+#### April 27th
+
+* Meetings (virginie)
+* Doc of modules : https://github.com/kelu124/echomods/
+* Preparation of Testing tools for the doc 
+* MAterials : some awesome resources : Il existe des tables sur les plastiques (http://www.ondacorp.com/images/Plastics.pdf) et autres caoutchoucs (http://www.ondacorp.com/images/Rubbers.pdf ) mais rien de concluant (ref, eau à 1.5MRayl). Il y a des choses comme le Polyurethane, RP-6400, à voir.
+* Documentation echomods 
+* Premier module OK : (HV, + pulser) sources publiées (same github), fab-ready, quasi documenté
+* Deuxieme module OK : (TGC, Enveloppe, ADC) sources publiées (same github), fab-ready, documentation en cours
+
+#### April 28th
+
+R-2R DDS -- =) MHz DDS with arduino ?
+* https://hackaday.io/project/9469-misc-arm-projects/log/31489-quick-dirty-dds-for-around-1
+* http://www.tek.com/blog/tutorial-digital-analog-conversion-%E2%80%93-r-2r-dac
+
+#### April 29th 
+
+Fun to read
+
+* https://www.quantamagazine.org/20160421-the-evolutionary-argument-against-reality/
+
+* Beard things... http://www.smbc-comics.com/comics/1461854994-20160428.png
 
 ### Microcontrolers and chips
 

@@ -26,7 +26,7 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 
 ## Illustration
 
-![Modules organisation](/images/modules.png)
+![Modules organisation](/include/images/modules.png)
 
 # Interfaces table for the motherboard
 
