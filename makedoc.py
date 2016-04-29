@@ -115,7 +115,7 @@ TableDocTxt = TableModules+"\n\n"
 
 GraphModules.render('include/ModulesGraph')
 
-GraphModulesTxt = "\n# A recap of our modules \n\n"
+GraphModulesTxt = "\n# The modules organization \n\n"
 
 GraphModulesTxt += "![Graph](/include/ModulesGraph.svg) \n\n"
 
