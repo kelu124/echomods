@@ -69,7 +69,7 @@ AddLicenseDoc.close()
 
 TableModules = "# A recap of our modules \n\n\n"
 
-TableModules += "| Image | Name | In | Out |\n"
+TableModules += "| ThumbnailImage | Name | In | Out |\n"
 TableModules += "|------|-------|----|------|\n"
 
 for ReadMe in ListOfDirs:

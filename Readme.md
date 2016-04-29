@@ -37,7 +37,7 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 # A recap of our modules 
 
 
-| Image | Name | In | Out |
+| ThumbnailImage | Name | In | Out |
 |------|-------|----|------|
 |<img src='https://github.com/kelu124/echomods/blob/master/tobo/viewme.png' align='center' width='150'>|**[tobo](/tobo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|ITF-A_gnd, ITF-B_5v, ITF-I_pulse_on, ITF-J_pulse_off, ITF-S_3_3v|ITF-R_reserved, ITF-mET_SMA, ITF-mET_Transducer|
 |<img src='https://github.com/kelu124/echomods/blob/master/cletus/viewme.png' align='center' width='150'>|**[cletus](/cletus/Readme.md)**: The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.|ITF-A_gnd, ITF-B_5v, ITF-N_cc_motor_pwm, ITF-S_3_3v, ITF-mET_Transducer, ITF-mET_Piezo|ITF-mET_Piezo, ITF-mET_Transducer|
