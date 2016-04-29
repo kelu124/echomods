@@ -110,7 +110,7 @@ What is expected is to break down logic blocks into modules that could be put on
 
 #### Two modules:
 
-![Motherboard](/images/DSC_0284.JPG)
+![Motherboard](/include/images/DSC_0284.JPG)
 
 #### Description
 
@@ -252,10 +252,10 @@ Fun to read
 
 ### Tofs
 
-![Cartes](/images/600px-Cartes.png)
+![Cartes](/include/images/600px-Cartes.png)
 
 
-![Motherboard](/images/600px-Motherboard.png)
+![Motherboard](/include/images/600px-Motherboard.png)
 
 
 
