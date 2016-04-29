@@ -72,10 +72,14 @@ What is expected is to break down logic blocks into modules that could be put on
 * Play with Highspeed SPI
 * Design Croaker and Silent
 
+* TODO: contact Frederic Patat
+* Add status to track progress of the works
+* Jan
+
 ### Done
 
 * A draft for the analog pulser, [Tobo](/tobo/) -- April 20th 2016
-
+* [Automating Documentation](https://github.com/kelu124/echomods/blob/master/makedoc.py)
 
 ## A rough draft
 
@@ -214,7 +218,7 @@ _"I am not a visionary, I'm an engineer," Torvalds says. "I'm perfectly happy wi
 * Meetings (virginie)
 * Doc of modules : https://github.com/kelu124/echomods/
 * Preparation of Testing tools for the doc 
-* MAterials : some awesome resources : Il existe des tables sur les plastiques (http://www.ondacorp.com/images/Plastics.pdf) et autres caoutchoucs (http://www.ondacorp.com/images/Rubbers.pdf ) mais rien de concluant (ref, eau à 1.5MRayl). Il y a des choses comme le Polyurethane, RP-6400, à voir.
+* Materials : some awesome resources : Il existe des tables sur les plastiques (http://www.ondacorp.com/images/Plastics.pdf) et autres caoutchoucs (http://www.ondacorp.com/images/Rubbers.pdf ) mais rien de concluant (ref, eau à 1.5MRayl). Il y a des choses comme le Polyurethane, RP-6400, à voir.
 * Documentation echomods 
 * Premier module OK : (HV, + pulser) sources publiées (same github), fab-ready, quasi documenté
 * Deuxieme module OK : (TGC, Enveloppe, ADC) sources publiées (same github), fab-ready, documentation en cours
@@ -230,8 +234,9 @@ R-2R DDS -- =) MHz DDS with arduino ?
 Fun to read
 
 * https://www.quantamagazine.org/20160421-the-evolutionary-argument-against-reality/
-
 * Beard things... http://www.smbc-comics.com/comics/1461854994-20160428.png
+
+
 
 ### Microcontrolers and chips
 
@@ -257,5 +262,52 @@ Fun to read
 
 ![Motherboard](/include/images/600px-Motherboard.png)
 
+### Graphing
 
-
+* HAD->Murgen
+* Modules->Tester
+* Modules->Transducer
+* Modules->Mech
+* Mech->BiVi
+* echOmods->WoodBox
+* WoodBox->Arthur
+* WoodBox->LogoLaserCut
+* Transducer->Jan
+* Jan->2 types to test
+* Croaker->STM32F205RG
+* STM32F205RG->M3
+* STM32F205RG->6Msps
+* uC->Croaker
+* Croaker->TFT Screen
+* Croaker->SD Card
+* uC->Vlad
+* Modules->Alim
+* Modules->echOmods
+* Alim->Mogaba
+* Modules->HV
+* Modules
+* Modules->TGC
+* Modules->Controler
+* uC->Feather Wiced
+* uC->Wifi
+* HAD->Phantoms
+* Phantoms->Virginie
+* Phantoms->Static
+* Phantoms->Materials
+* Modules->Doc
+* Modules->Motherboard
+* Documentation->DocBuilder
+* DocBuilder->BiVi
+* Documentation->GitAliases
+* Wifi->TCP
+* TCP->format
+* Modules->DDS
+* Modules->Fab
+* Fab->MacroFab
+* Vlad->MacroFab
+* DDS->R-2R
+* DDS->Arduino
+* Acquisition->BBB
+* BBB->PRU
+* PRU->Vanderbilt
+* Acquisition->Wifi
