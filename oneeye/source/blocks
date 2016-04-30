@@ -1,0 +1,16 @@
+digraph {
+	"ITF-B_5v" [style=rounded]
+	ArduinoTrinketPro [style=rounded]
+	"ITF-G_gain_control" [style=rounded]
+		"ITF-B_5v" -> ArduinoTrinketPro
+		ArduinoTrinketPro -> "ITF-G_gain_control"
+	ArduinoTrinketPro [style=rounded]
+	"ITF-I_pulse_on" [style=rounded]
+		ArduinoTrinketPro -> "ITF-I_pulse_on"
+	ArduinoTrinketPro [style=rounded]
+	"ITF-J_pulse_off" [style=rounded]
+		ArduinoTrinketPro -> "ITF-J_pulse_off"
+	ArduinoTrinketPro [style=rounded]
+	"ITF-N_cc_motor_pwm" [style=rounded]
+		ArduinoTrinketPro -> "ITF-N_cc_motor_pwm"
+}

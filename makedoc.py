@@ -27,6 +27,21 @@ digraph = functools.partial(gv.Digraph, format='svg')
 
 GraphModules = digraph()
 
+def Svg2Png(svgfile):
+	output_filename = svgfile+'.png'
+	input_filename = svgfile+'.svg'
+
+	svg_file = open(input_filename,"r")
+
+	with wand.image.Image() as image:
+	    with wand.color.Color('transparent') as background_color:
+		library.MagickSetBackgroundColor(image.wand, background_color.resource) 
+	    image.read(blob=svg_file.read())
+	    png_image = image.make_blob("png32")
+
+	with open(output_filename, "wb") as out:
+	    out.write(png_image)
+
 # -------------------------
 # Obtenir la liste des modules
 # -------------------------
@@ -86,6 +101,27 @@ for ReadMe in ListOfDirs:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
 	Desc = Desc[0]
 
+	# Getting the Innards of the Module
+	pattern = r"block diagram</h2>([\s\S]*)<h1>IOs"
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	patternCode = r"<li>(.*?)</li>"
+	Pairs = []
+	GraphThisModule = digraph()
+	for item in results:
+            Pairs= (map(str, re.findall(patternCode, item, flags=0)))
+	    for eachPair in Pairs:
+		eachPair = eachPair.replace("<code>", "")
+		eachPair = eachPair.replace("</code>", "")
+		Couples = eachPair.split("-&gt;")		
+		for single in Couples:
+		    GraphThisModule.node(single, style="rounded")
+		# Add the edge		
+		for k in range(len(Couples)-1):
+		    GraphThisModule.edge(Couples[k], Couples[k+1])
+		# GraphModules.render('include/'+ReadMe)
+	GraphThisModule.render(ReadMe+'/source/blocks')
+	Svg2Png(ReadMe+'/source/blocks')
+
 	# Getting the Inputs of the Module
 	pattern = r"Inputs</h2>([\s\S]*)<h2>Outputs"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
@@ -129,21 +165,10 @@ TableDocTxt = TableModules+"\n\n"
 # Créer le graphe des modules
 # -------------------------
 
+GraphPath = 'include/ModulesGraph'
+GraphModules.render(GraphPath)
+Svg2Png(GraphPath)
 
-GraphModules.render('include/ModulesGraph')
-
-output_filename = 'include/ModulesGraph.png'
-input_filename = 'include/ModulesGraph.svg'
-svg_file = open(input_filename,"r")
-
-with wand.image.Image() as image:
-    with wand.color.Color('transparent') as background_color:
-        library.MagickSetBackgroundColor(image.wand, background_color.resource) 
-    image.read(blob=svg_file.read())
-    png_image = image.make_blob("png32")
-
-with open(output_filename, "wb") as out:
-    out.write(png_image)
 
 # -------------------------
 # Créer le ReadMe

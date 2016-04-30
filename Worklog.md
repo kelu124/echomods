@@ -77,6 +77,9 @@ What is expected is to break down logic blocks into modules that could be put on
 * Jan
 * Imprimer une tof à afficher
 * Contact Edgeflex
+* Cahier des charges modules
+* Schemas de fonctionnement des modules
+* TODO : schemas a taper, puis processing dans le makedoc.py
 
 ### Done
 
@@ -252,10 +255,7 @@ Fun to read
 | 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1×12-bit, 2.4 MSPS A/D converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
 | 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU | 3 × 12-bit, 0.5 μs ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
 | 4 | STM32L471QE | STM32L471QE | NoP | 3× 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling | ?? | ?? |
-| 5 | STM32L476 | STM32L476RG | NOP | 3× 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling, 200 μA/Msps  | [19$ dev-kit](http://www2.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32l476gdiscovery.html?icmp=pf261635_pron_pr_sep2015&sc=stm32l476g-disco) | Cheap, powerfull, nowifi |
-
-
-
+| 5 | STM32L476 | STM32L476VGT6 | NOP | 3× 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling, 200 μA/Msps  | [19$ dev-kit](http://www2.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32l476gdiscovery.html?icmp=pf261635_pron_pr_sep2015&sc=stm32l476g-disco) | Cheap, powerfull, nowifi |
 
 
 #### Studying chips
@@ -264,6 +264,11 @@ Fun to read
 |:--:|--------|--------------|----------|
 | 1  | STM32F411CE |              |          |
 | 2  | STM32F401CDU6 |              |          |
+
+### Croaker
+
+In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
+
 
 ### Tofs
 
@@ -280,11 +285,12 @@ Fun to read
 * HAD->6. AutoFinancement
 * 6. AutoFinancement->OpenSourceHardwareContest
 * Murgen->Output Image
+* Sofian->Murgen
 * Serveur Michel->Output Image
 * Output Image->Benchmark
 * Benchmark->Image processing
 * Image processing->Jean-Francois
-* Image processing->
+* Image processing->Output Image
 * Output Image->Print
 * 1. Modules->Tester
 * 1. Modules->Transducer
@@ -323,6 +329,8 @@ Fun to read
 * Documentation->DocBuilder
 * DocBuilder->BiVi
 * Documentation->GitAliases
+* Documentation->CreateSchemaBlock
+* CreateSchemaBlock->GraphViz
 * Wifi->TCP
 * TCP->format
 * 1. Modules->2. DDS
@@ -334,7 +342,7 @@ Fun to read
 * 2. DDS->Arduino
 * Acquisition->BBB
 * BBB->4. PRU
-* 4. PRU->Up to 10Msps or more in parallel
+* 4. PRU->Up to 10Msps+
 * 4. PRU->Vanderbilt
 * Vanderbilt->EdgeFlex
 * FlyLabs->EdgeFlex
@@ -344,6 +352,10 @@ Fun to read
 * 1. Modules->Pedagogie
 * Pedagogie->ESIA
 * Pedagogie->Aforp
+* Pedagogie->Isep
+* Isep->Frederic
+* Pedagogie->MichelB
+* MichelB->Modules
 * Aforp->Tao
 * Aforp->Apprenti
 * Pedagogie->Vanderbilt

@@ -15,10 +15,15 @@
 
 The aim of this echOmod is to get the HV Pulse done.
 
-## How does it work? 
+## How does it work: block diagram
 
-TODO: Faire un petit simplified schematics.
+![Block schema](/tobo/source/blocks.png)
 
+* `ITF-I_pulse_on`->`HV7360`
+* `ITF-J_pulse_off`->`HV7360`
+* `ITF-B_5v`->`R05-100B`->`HV7360`->`ITF-mET_Transducer`
+* `ITF-mET_Transducer`->`ITF-mET_SMA`
+* `ITF-mET_Transducer`->`ITF-R_reserved`
 
 # IOs
 
@@ -33,7 +38,7 @@ TODO: Faire un petit simplified schematics.
 ## Outputs
 
 * `ITF-R_reserved` : for the signal coming from the transducer
-* `ITF-mET_SMA` : for the signal coming out of the pulser (if through SMA)
+* `ITF-mET_SMA` : for the signal coming out to the signal processing (if through SMA)
 * `ITF-mET_Transducer` : for the signal coming out of the pulser (if through SMA)
 
 # Key Components

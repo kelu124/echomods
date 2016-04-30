@@ -15,9 +15,14 @@ The module aims at making a microcontroler, for the moment the `ArduinoTrinketPr
 
 As the controler the module is at the heart of the control interfaces, and in the case of the echOmod set of modules, in the Pulser controls (signals I and J), as well as the Gain Control and the servo control (hence position).
 
-## How does it work?
+## How does it work: block diagram
 
-TODO: Faire un petit schema simplifie.
+![Block schema](/oneeye/source/blocks.png)
+
+* `ITF-B_5v`->`ArduinoTrinketPro`->`ITF-G_gain_control`
+* `ArduinoTrinketPro`->`ITF-I_pulse_on`
+* `ArduinoTrinketPro`->`ITF-J_pulse_off`
+* `ArduinoTrinketPro`->`ITF-N_cc_motor_pwm`
 
 # IOs
 

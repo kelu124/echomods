@@ -15,9 +15,12 @@
 
 The aim of this echOmod is to get 3.3V and 5V done.
 
-## How does it work? 
+## How does it work: block diagram
 
-TODO: Faire un petit simplified schematics.
+![Block schema](/mogaba/source/blocks.png)
+
+* `ITF-mEM_Alimentation`->`BreadBoardAlim`->`ITF-B_5v`
+* `BreadBoardAlim`->`ITF-B_3_3v`
 
 
 # IOs

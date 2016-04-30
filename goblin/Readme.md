@@ -11,7 +11,7 @@
 
 # Information
 
-## What is it supposed to do ?
+## What is it supposed to do?
 
 The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed.
 
@@ -19,9 +19,18 @@ In order to test different solutions, this specific version of Goblin uses jumpe
 
 First try at a SPI ADC. Using a 2 Msps one in order to catch only the enveloppe, to be tested with other uC, RPi or BBB. No more.
 
-## How does it work? 
+## How does it work: block diagram
 
-TODO: Faire un petit schema simplifie.
+![Block schema](/goblin/source/blocks.png)
+
+* `ITF-G_gain_control`->`AD8331`
+* `ITF-R_reserved`->`AD8331`
+* `ITF-mET_SMA`->`AD8331`
+* `AD8331`->`ITF-C_amplified_raw_signal`
+* `ITF-C_amplified_raw_signal`->`ADL5511`
+* `ADL5511`->`ITF-E_signal_envelope`
+* `ITF-E_signal_envelope`->`AD7274`
+* `AD7274`->`ITF-mEG_SPI`
 
 # IOs
 
@@ -29,8 +38,8 @@ TODO: Faire un petit schema simplifie.
 
 * `ITF-A_gnd`
 * `ITF-B_5v`
-* `ITF-G_gain_control`
 * `ITF-S_3_3v`
+* `ITF-G_gain_control`
 * `ITF-C_amplified_raw_signal` : because it's used internally
 * `ITF-E_signal_envelope` : because it's used internally
 * `ITF-R_reserved` : for the signal coming from the pulser (if through track R)
@@ -38,15 +47,15 @@ TODO: Faire un petit schema simplifie.
 
 ## Outputs
 
-* `ITF-C_amplified_raw_signal`
-* `ITF-E_signal_envelope`
+* `ITF-C_amplified_raw_signal`: Amplified Raw Signal, post TGC, before `ADL5511`
+* `ITF-E_signal_envelope`: enveloppe of the signal, post TGC
 * `ITF-mEG_SPI` : signal from the ADC
 
 # Key Components
 
-* `ADL5511`
-* `AD8331`
-
+* `ADL5511`: Enveloppe detection 
+* `AD8331`: TGC
+* `AD7274`: 2Msps SPI ADC
 
 # About the module
 
