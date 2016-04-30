@@ -188,8 +188,56 @@ f.close()
 
 
 # -------------------------
-# ToCome: TODO to add
+# ToCome: Graphing to add
 # -------------------------
 
+styles = {
+    'graph': {
+        'label': 'my mind',
+	'layout':"neato",
+        'rankdir': 'BT',
+    }
+}
+
+def apply_styles(graph, styles):
+    graph.graph_attr.update(
+        ('graph' in styles and styles['graph']) or {}
+    )
+    graph.node_attr.update(
+        ('nodes' in styles and styles['nodes']) or {}
+    )
+    graph.edge_attr.update(
+        ('edges' in styles and styles['edges']) or {}
+    )
+    return graph
+
+GraphMyMind = digraph()
+
+f = open("Worklog.md", 'r')
+WorkLogMd=markdown.markdown( f.read() )
+f.close()
+
+# Getting the Innards of the Module
+pattern = r"Graphing</h3>([\s\S]*)</ul>"
+results = re.findall(pattern, WorkLogMd, flags=0) 
+patternCode = r"<li>(.*?)</li>"
+for item in results:
+    Pairs= (map(str, re.findall(patternCode, item, flags=0)))
+    for eachPair in Pairs:
+	eachPair = eachPair.replace("<li>", "")
+	eachPair = eachPair.replace("</li>", "")
+	Couples = eachPair.split("-&gt;")		
+	for single in Couples:
+	    GraphMyMind.node(single, style="rounded")
+	# Add the edge		
+	for k in range(len(Couples)-1):
+	    GraphMyMind.edge(Couples[k], Couples[k+1])
+	print Couples
+
+GraphPath = 'include/GraphMyMind'
+GraphMyMind = apply_styles(GraphMyMind, styles)
+
+GraphMyMind.render(GraphPath)
+Svg2Png(GraphPath)
 
 

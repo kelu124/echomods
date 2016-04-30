@@ -75,7 +75,7 @@ What is expected is to break down logic blocks into modules that could be put on
 * TODO: contact Frederic Patat
 * Add status to track progress of the works
 * Jan
-* Imprimer une tof à afficher
+* Imprimer une tof a afficher
 * Contact Edgeflex
 * Cahier des charges modules
 * Schemas de fonctionnement des modules
@@ -223,10 +223,10 @@ _"I am not a visionary, I'm an engineer," Torvalds says. "I'm perfectly happy wi
 * Meetings (virginie)
 * Doc of modules : https://github.com/kelu124/echomods/
 * Preparation of Testing tools for the doc 
-* Materials : some awesome resources : Il existe des tables sur les plastiques (http://www.ondacorp.com/images/Plastics.pdf) et autres caoutchoucs (http://www.ondacorp.com/images/Rubbers.pdf ) mais rien de concluant (ref, eau à 1.5MRayl). Il y a des choses comme le Polyurethane, RP-6400, à voir.
+* Materials : some awesome resources : Il existe des tables sur les plastiques (http://www.ondacorp.com/images/Plastics.pdf) et autres caoutchoucs (http://www.ondacorp.com/images/Rubbers.pdf ) mais rien de concluant (ref, eau a 1.5MRayl). Il y a des choses comme le Polyurethane, RP-6400, a voir.
 * Documentation echomods 
-* Premier module OK : (HV, + pulser) sources publiées (same github), fab-ready, quasi documenté
-* Deuxieme module OK : (TGC, Enveloppe, ADC) sources publiées (same github), fab-ready, documentation en cours
+* Premier module OK : (HV, + pulser) sources publiees (same github), fab-ready, quasi documente
+* Deuxieme module OK : (TGC, Enveloppe, ADC) sources publiees (same github), fab-ready, documentation en cours
 
 #### April 28th
 
@@ -251,11 +251,11 @@ Fun to read
 
 | ID | Name | Chip | Comments | ADC |Price| COmments |
 |:--:|--------|--------------|----------|----|----|----|
-| 1  | WiFiMCU |  EMW3165 - STM32F411CE | Cortex-M4 core at 100MHz | 1×12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
-| 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1×12-bit, 2.4 MSPS A/D converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
-| 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU | 3 × 12-bit, 0.5 μs ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
-| 4 | STM32L471QE | STM32L471QE | NoP | 3× 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling | ?? | ?? |
-| 5 | STM32L476 | STM32L476VGT6 | NOP | 3× 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling, 200 μA/Msps  | [19$ dev-kit](http://www2.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32l476gdiscovery.html?icmp=pf261635_pron_pr_sep2015&sc=stm32l476g-disco) | Cheap, powerfull, nowifi |
+| 1  | WiFiMCU |  EMW3165 - STM32F411CE | Cortex-M4 core at 100MHz | 1_12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
+| 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1_12-bit, 2.4 MSPS A/D converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
+| 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU | 3 _ 12-bit, 0.5 _s ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
+| 4 | STM32L471QE | STM32L471QE | NoP | 3_ 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling | ?? | ?? |
+| 5 | STM32L476 | STM32L476VGT6 | NOP | 3_ 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling, 200 _A/Msps  | [19$ dev-kit](http://www2.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32l476gdiscovery.html?icmp=pf261635_pron_pr_sep2015&sc=stm32l476g-disco) | Cheap, powerfull, nowifi |
 
 
 #### Studying chips
@@ -279,85 +279,67 @@ In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it w
 
 ### Graphing
 
+![mindmap](/include/GraphMyMind.png)
+
 #### April 29th -- initial fill in
 
 * HAD->Murgen
-* HAD->6. AutoFinancement
-* 6. AutoFinancement->OpenSourceHardwareContest
-* Murgen->Output Image
-* Sofian->Murgen
-* Serveur Michel->Output Image
-* Output Image->Benchmark
-* Benchmark->Image processing
-* Image processing->Jean-Francois
-* Image processing->Output Image
-* Output Image->Print
-* 1. Modules->Tester
-* 1. Modules->Transducer
-* 1. Modules->Mech
+* HAD->AutoFinancement->OpenSourceHardwareContest
+* Sofian->Murgen->Output Image
+* Serveur Michel->Output Image->Benchmark->Image processing->Jean-Francois
+* Image processing->Output Image->Print
+* Modules->Tester
+* Modules->Transducer
+* Modules->Mech
 * Mech->BiVi
-* echOmods->WoodBox
-* WoodBox->Arthur
+* echOmods->WoodBox->Arthur
 * WoodBox->LogoLaserCut
-* Transducer->Jan
-* Jan->2 types to test
-* Croaker->STM32F205RG
-* STM32F205RG->M3
+* Transducer->Jan->2 types to test
+* Croaker->STM32F205RG->STM32F205RG->M3
 * STM32F205RG->6Msps
-* 5. uC->Croaker
-* Croaker->TFT Screen
+* uC->Croaker->TFT Screen
 * Croaker->SD Card
-* 5. uC->Vlad
-* 1. Modules->Alim
-* 1. Modules->echOmods
-* Alim->Mogaba
-* 1. Modules->HV
-* 1. Modules
-* 1. Modules->TGC
-* 1. Modules->Controler
-* 5. uC->Feather Wiced
-* 5. uC->Wifi
-* 5. uC->EspruinoPico
-* EspruinoPico->BiVi
-* HAD->3. Phantoms
-* 3. Phantoms->Virginie
-* 3. Phantoms->Static
-* 3. Phantoms->Materials
+* uC->Vlad
+* Modules->Alim->Mogaba
+* Modules->echOmods
+* Modules->HV
+* Modules
+* Modules->TGC
+* Modules->Controler
+* uC->Feather Wiced
+* uC->Wifi
+* uC->EspruinoPico->BiVi
+* HAD->Phantoms
+* Phantoms->Virginie
+* Phantoms->Static
+* Phantoms->Materials
 * RP-6400->Materials
-* 1. Modules->Doc
-* 1. Modules->Motherboard
-* Documentation->DocBuilder
-* DocBuilder->BiVi
+* Modules->Doc
+* Modules->Motherboard
+* Documentation->DocBuilder->BiVi
 * Documentation->GitAliases
-* Documentation->CreateSchemaBlock
-* CreateSchemaBlock->GraphViz
-* Wifi->TCP
-* TCP->format
-* 1. Modules->2. DDS
-* AG->Strat
-* 1. Modules->Fab
-* Fab->MacroFab
+* Documentation->CreateSchemaBlock->GraphViz
+* Wifi->TCP->format
+* Modules->DDS
+* AG->Strat->AutoFinancement
+* Modules->Fab->MacroFab
 * Vlad->MacroFab
-* 2. DDS->R-2R
-* 2. DDS->Arduino
-* Acquisition->BBB
-* BBB->4. PRU
-* 4. PRU->Up to 10Msps+
-* 4. PRU->Vanderbilt
-* Vanderbilt->EdgeFlex
+* DDS->R-2R
+* DDS->Arduino
+* Acquisition->PRU->Vanderbilt->EdgeFlex
 * FlyLabs->EdgeFlex
+* PRU->Up to 10Msps+
 * Acquisition->Wifi
 * Acquisition->RedPitaya
-* Acquisition->Wifi
-* 1. Modules->Pedagogie
+* Modules->Pedagogie->Aforp->Tao
 * Pedagogie->ESIA
-* Pedagogie->Aforp
 * Pedagogie->Isep
 * Isep->Frederic
 * Pedagogie->MichelB
 * MichelB->Modules
-* Aforp->Tao
 * Aforp->Apprenti
 * Pedagogie->Vanderbilt
 
+#### April 30th
 
+* EdgeFlex->Fab
