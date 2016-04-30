@@ -23,14 +23,9 @@ First try at a SPI ADC. Using a 2 Msps one in order to catch only the enveloppe,
 
 ![Block schema](/goblin/source/blocks.png)
 
-* `ITF-G_gain_control`->`AD8331`
+* `ITF-G_gain_control`->`AD8331`->`ITF-C_amplified_raw_signal`->`ADL5511`->`ITF-E_signal_envelope`->`AD7274`->`ITF-mEG_SPI`
 * `ITF-R_reserved`->`AD8331`
 * `ITF-mET_SMA`->`AD8331`
-* `AD8331`->`ITF-C_amplified_raw_signal`
-* `ITF-C_amplified_raw_signal`->`ADL5511`
-* `ADL5511`->`ITF-E_signal_envelope`
-* `ITF-E_signal_envelope`->`AD7274`
-* `AD7274`->`ITF-mEG_SPI`
 
 # IOs
 
