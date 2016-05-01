@@ -13,12 +13,12 @@ digraph {
 		"Output Image" [style=rounded]
 			Sofian -> Murgen
 			Murgen -> "Output Image"
-		"Serveur Michel" [style=rounded]
+		"Serveur Matthieu" [style=rounded]
 		"Output Image" [style=rounded]
 		Benchmark [style=rounded]
 		"Image processing" [style=rounded]
 		"Jean-Francois" [style=rounded]
-			"Serveur Michel" -> "Output Image"
+			"Serveur Matthieu" -> "Output Image"
 			"Output Image" -> Benchmark
 			Benchmark -> "Image processing"
 			"Image processing" -> "Jean-Francois"
@@ -107,16 +107,19 @@ digraph {
 			HAD -> Phantoms
 		Phantoms [style=rounded]
 		Virginie [style=rounded]
+		HAD [style=rounded]
 			Phantoms -> Virginie
+			Virginie -> HAD
 		Phantoms [style=rounded]
 		Static [style=rounded]
+		HAD [style=rounded]
 			Phantoms -> Static
+			Static -> HAD
 		Phantoms [style=rounded]
 		Materials [style=rounded]
-			Phantoms -> Materials
 		"RP-6400" [style=rounded]
-		Materials [style=rounded]
-			"RP-6400" -> Materials
+			Phantoms -> Materials
+			Materials -> "RP-6400"
 		Modules [style=rounded]
 		Doc [style=rounded]
 			Modules -> Doc
@@ -143,7 +146,9 @@ digraph {
 			TCP -> format
 		Modules [style=rounded]
 		DDS [style=rounded]
+		"R-2R" [style=rounded]
 			Modules -> DDS
+			DDS -> "R-2R"
 		AG [style=rounded]
 		Strat [style=rounded]
 		AutoFinancement [style=rounded]
@@ -157,9 +162,6 @@ digraph {
 		Vlad [style=rounded]
 		MacroFab [style=rounded]
 			Vlad -> MacroFab
-		DDS [style=rounded]
-		"R-2R" [style=rounded]
-			DDS -> "R-2R"
 		DDS [style=rounded]
 		Arduino [style=rounded]
 			DDS -> Arduino
@@ -193,14 +195,18 @@ digraph {
 		ESIA [style=rounded]
 			Pedagogie -> ESIA
 		Pedagogie [style=rounded]
-		Isep [style=rounded]
-			Pedagogie -> Isep
+		ENSCachan [style=rounded]
+			Pedagogie -> ENSCachan
+		Pedagogie [style=rounded]
 		Isep [style=rounded]
 		Frederic [style=rounded]
+			Pedagogie -> Isep
 			Isep -> Frederic
 		Pedagogie [style=rounded]
+		ENS [style=rounded]
 		MichelB [style=rounded]
-			Pedagogie -> MichelB
+			Pedagogie -> ENS
+			ENS -> MichelB
 		MichelB [style=rounded]
 		Modules [style=rounded]
 			MichelB -> Modules
@@ -213,4 +219,26 @@ digraph {
 		EdgeFlex [style=rounded]
 		Fab [style=rounded]
 			EdgeFlex -> Fab
+		ENSCachan [style=rounded]
+		Satie [style=rounded]
+		Constant [style=rounded]
+		Transducer [style=rounded]
+			ENSCachan -> Satie
+			Satie -> Constant
+			Constant -> Transducer
+		Fabs [style=rounded]
+		AutoFinancement [style=rounded]
+			Fabs -> AutoFinancement
+		Inspiration [style=rounded]
+		MakerFaireParis [style=rounded]
+			Inspiration -> MakerFaireParis
+		AutoFinancement [style=rounded]
+		Fiverr [style=rounded]
+			AutoFinancement -> Fiverr
+		ENS [style=rounded]
+		MichelB [style=rounded]
+			ENS -> MichelB
+		Acquisition [style=rounded]
+		"Output Image" [style=rounded]
+			Acquisition -> "Output Image"
 }

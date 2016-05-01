@@ -67,24 +67,23 @@ What is expected is to break down logic blocks into modules that could be put on
 
 ### Still to do
 
-* Silkscreening with the murgen-series logo =)
-* Document the motherboard
-* Play with Highspeed SPI
-* Design Croaker and Silent
-
+* TODO: Silkscreening with the murgen-series logo =)
+* TODO: Document the motherboard
+* TODO: Play with Highspeed SPI
+* TODO: Design Croaker and Silent
 * TODO: contact Frederic Patat
-* Add status to track progress of the works
-* Jan
-* Imprimer une tof a afficher
-* Contact Edgeflex
-* Cahier des charges modules
-* Schemas de fonctionnement des modules
-* TODO : schemas a taper, puis processing dans le makedoc.py
+* TODO: Add status to track progress of the works
+* TODO: Jan
+* TODO: Imprimer une tof a afficher
+* TODO: Contact Edgeflex
+* TODO: Cahier des charges modules
+* TODO: Schemas de fonctionnement des modules
 
 ### Done
 
-* A draft for the analog pulser, [Tobo](/tobo/) -- April 20th 2016
-* [Automating Documentation](https://github.com/kelu124/echomods/blob/master/makedoc.py)
+* Done: schemas a taper, puis processing dans le makedoc.py
+* Done: A draft for the analog pulser, [Tobo](/tobo/) -- April 20th 2016
+* Done: [Automating Documentation](https://github.com/kelu124/echomods/blob/master/makedoc.py)
 
 ## A rough draft
 
@@ -231,17 +230,31 @@ _"I am not a visionary, I'm an engineer," Torvalds says. "I'm perfectly happy wi
 #### April 28th
 
 * Am an INTJ-A ... so what?
-
 * R-2R DDS -- =) MHz DDS with arduino ?
-* https://hackaday.io/project/9469-misc-arm-projects/log/31489-quick-dirty-dds-for-around-1
 * http://www.tek.com/blog/tutorial-digital-analog-conversion-%E2%80%93-r-2r-dac
+* https://hackaday.io/project/9469-misc-arm-projects/log/31489-quick-dirty-dds-for-around-1
 
 #### April 29th 
 
 Fun to read
 
-* https://www.quantamagazine.org/20160421-the-evolutionary-argument-against-reality/
-* Beard things... http://www.smbc-comics.com/comics/1461854994-20160428.png
+* NT: [The evolutionary argument against reality](https://www.quantamagazine.org/20160421-the-evolutionary-argument-against-reality/).
+* [Beard things...](http://www.smbc-comics.com/comics/1461854994-20160428.png)
+* Autodocumenting with [makedoc.py](https://github.com/kelu124/echomods/blob/master/makedoc.py) - which updates the [Readme.md](/Readme.md) automatically.
+
+#### April 30th 
+
+* Adding graphs for all modules with [makedoc.py](https://github.com/kelu124/echomods/blob/master/makedoc.py).
+* TODO: https://www.coursera.org/course/fin4devmooc
+* TODO: https://www.coursera.org/course/effectiveppp
+* TODO: https://www.coursera.org/course/healthcareinnovation
+
+##### Prez for May 2nd
+
+* TOBO and GOBLIN: done
+* Autodocumentation: done
+* Comment gerer les transducers de Jan?
+* Projet Fantomes commence sur HAD
 
 
 
@@ -267,6 +280,12 @@ Fun to read
 
 ### Croaker
 
+Specs:
+
+* 12 bits ADC
+* 150 us acquisition, single channel
+* 6 Msps interleaved mode
+
 In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
 
 
@@ -286,7 +305,7 @@ In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it w
 * HAD->Murgen
 * HAD->AutoFinancement->OpenSourceHardwareContest
 * Sofian->Murgen->Output Image
-* Serveur Michel->Output Image->Benchmark->Image processing->Jean-Francois
+* Serveur Matthieu->Output Image->Benchmark->Image processing->Jean-Francois
 * Image processing->Output Image->Print
 * Modules->Tester
 * Modules->Transducer
@@ -310,21 +329,19 @@ In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it w
 * uC->Wifi
 * uC->EspruinoPico->BiVi
 * HAD->Phantoms
-* Phantoms->Virginie
-* Phantoms->Static
-* Phantoms->Materials
-* RP-6400->Materials
+* Phantoms->Virginie->HAD
+* Phantoms->Static->HAD
+* Phantoms->Materials->RP-6400
 * Modules->Doc
 * Modules->Motherboard
 * Documentation->DocBuilder->BiVi
 * Documentation->GitAliases
 * Documentation->CreateSchemaBlock->GraphViz
 * Wifi->TCP->format
-* Modules->DDS
+* Modules->DDS->R-2R
 * AG->Strat->AutoFinancement
 * Modules->Fab->MacroFab
 * Vlad->MacroFab
-* DDS->R-2R
 * DDS->Arduino
 * Acquisition->PRU->Vanderbilt->EdgeFlex
 * FlyLabs->EdgeFlex
@@ -333,9 +350,9 @@ In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it w
 * Acquisition->RedPitaya
 * Modules->Pedagogie->Aforp->Tao
 * Pedagogie->ESIA
-* Pedagogie->Isep
-* Isep->Frederic
-* Pedagogie->MichelB
+* Pedagogie->ENSCachan
+* Pedagogie->Isep->Frederic
+* Pedagogie->ENS->MichelB
 * MichelB->Modules
 * Aforp->Apprenti
 * Pedagogie->Vanderbilt
@@ -343,3 +360,13 @@ In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it w
 #### April 30th
 
 * EdgeFlex->Fab
+* ENSCachan->Satie->Constant->Transducer
+* Fabs->AutoFinancement
+
+#### April 30th
+
+* Inspiration->MakerFaireParis
+* AutoFinancement->Fiverr
+* ENS->MichelB
+* Acquisition->Output Image
+

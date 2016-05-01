@@ -232,8 +232,7 @@ for item in results:
 	# Add the edge		
 	for k in range(len(Couples)-1):
 	    GraphMyMind.edge(Couples[k], Couples[k+1])
-	print Couples
-
+	
 GraphPath = 'include/GraphMyMind'
 GraphMyMind = apply_styles(GraphMyMind, styles)
 
