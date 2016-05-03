@@ -241,4 +241,23 @@ digraph {
 		Acquisition [style=rounded]
 		"Output Image" [style=rounded]
 			Acquisition -> "Output Image"
+		Wifi [style=rounded]
+		ESP8266 [style=rounded]
+			Wifi -> ESP8266
+		Wifi [style=rounded]
+		Igor [style=rounded]
+			Wifi -> Igor
+		Acquisition [style=rounded]
+		Enveloppe [style=rounded]
+		"max-hold-reset" [style=rounded]
+			Acquisition -> Enveloppe
+			Enveloppe -> "max-hold-reset"
+		BiVi [style=rounded]
+		"max-hold-reset" [style=rounded]
+			BiVi -> "max-hold-reset"
+		BiVi [style=rounded]
+		LPC810 [style=rounded]
+		"NE555 du 21eme" [style=rounded]
+			BiVi -> LPC810
+			LPC810 -> "NE555 du 21eme"
 }

@@ -69,7 +69,8 @@ What is expected is to break down logic blocks into modules that could be put on
 
 * TODO: Silkscreening with the murgen-series logo =)
 * TODO: Document the motherboard
-* TODO: Play with Highspeed SPI
+* TODO: Play with Highspeed SPI (BBB)
+* TODO: Autre SPI: Goblin - 2Msps SPI ADC
 * TODO: Design Croaker and Silent
 * TODO: contact Frederic Patat
 * TODO: Add status to track progress of the works
@@ -78,6 +79,9 @@ What is expected is to break down logic blocks into modules that could be put on
 * TODO: Contact Edgeflex
 * TODO: Cahier des charges modules
 * TODO: Schemas de fonctionnement des modules
+
+* TODO: Module: ESP8266+ADC
+* TODO: Module: Detectio
 
 ### Done
 
@@ -251,12 +255,32 @@ Fun to read
 
 ##### Prez for May 2nd
 
-* TOBO and GOBLIN: done
-* Autodocumentation: done
+* Done: TOBO and GOBLIN
+* Done: Autodocumentation
 * Comment gerer les transducers de Jan?
 * Projet Fantomes commence sur HAD
 
+#### May 1st
 
+* http://electronics.stackexchange.com/questions/50577/what-ultrasonic-sensoremitter-should-i-use-for-my-medical-ultrasound-project
+* http://electronics.stackexchange.com/questions/129582/what-is-the-current-consumed-by-ultrasonic-sensors-transducers-1-2mhz-to-gener?rq=1 for power use
+
+#### May 2nd
+
+* http://uk.businessinsider.com/interview-with-estonia-cio-taavi-kotka-2016-4
+
+
+#### May 3rd
+
+* http://hackaday.com/2016/04/29/saving-lives-with-open-source-electrocardiography/
+__Max-Hold-Reset__
+* https://fr.wikipedia.org/wiki/Circuit_d%C3%A9tecteur_d%27enveloppe -> Schema a amplificateur operationnel  (peak detector)
+* http://electronics.stackexchange.com/questions/112347/how-to-make-a-peak-detector-circuit
+ou peut etre encore mieux :
+* http://www.planetanalog.com/author.asp?section_id=396&doc_id=562072
+* __Got it !!__ http://www.falstad.com/circuit/e-peak-detect.html
+
+* ESP8266: exploration: SPI-ADC+ESP.overclocked ? : http://stackoverflow.com/questions/37014547/esp8266-and-high-speed-external-adc
 
 ### Microcontrolers and chips
 
@@ -269,6 +293,8 @@ Fun to read
 | 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU | 3 _ 12-bit, 0.5 _s ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
 | 4 | STM32L471QE | STM32L471QE | NoP | 3_ 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling | ?? | ?? |
 | 5 | STM32L476 | STM32L476VGT6 | NOP | 3_ 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling, 200 _A/Msps  | [19$ dev-kit](http://www2.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32l476gdiscovery.html?icmp=pf261635_pron_pr_sep2015&sc=stm32l476g-disco) | Cheap, powerfull, nowifi |
+| 6 | ESP8266 | A voir | NoP | ?? | ?? | ?? |
+| 7 | ESP32 | A voir | NoP | ?? | ?? | ?? |
 
 
 #### Studying chips
@@ -277,6 +303,7 @@ Fun to read
 |:--:|--------|--------------|----------|
 | 1  | STM32F411CE |              |          |
 | 2  | STM32F401CDU6 |              |          |
+|3| stm32f407 | Recommended for data processing by Dmitry (GeekTimesRu) | |
 
 ### Croaker
 
@@ -288,6 +315,36 @@ Specs:
 
 In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
 
+### ESP8266
+
+* Question asked at http://stackoverflow.com/questions/37014547/esp8266-and-high-speed-external-adc
+
+* http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family
+
+Plein de versions:
+* Now, the ESP8266 v7 and v12, include an ADC (Analog digital converter) pin. This means that the ESP8266 module can process inputs from analog sensors. Light sensors, rheostats, force sensors, etc. 
+* Plein de GPIOs : ESP-04 et ESP-03
+* ESP-12-E/Q -- E-Series and ESP-14 have 22 pins available
+
+* http://www.eevblog.com/forum/microcontrollers/esp8266-native-spi-hardware-driver/
+
+* https://github.com/MetalPhreak/ESP8266_Microwire_EEPROM
+* https://github.com/MetalPhreak/ESP8266_SPI_Driver
+
+* Built-in low-power 32-bit CPU: can double as an application processor 
+* 802.11 b / g / n  - Wi-Fi Direct (P2P), soft-AP 
+
+http://www.instructables.com/id/ESP8266-ADC-Analog-Sensors/
+
+* https://hackaday.io/project/4318-vu-meter-esp8266-ws2812b -- ESP8266+FFT+Teensy -- Person to contact!
+* https://forum.pjrc.com/threads/34095-Teensy-3-2-ESP8266-12Q-High-Speed-ADC-Websocket
+_If you run the esp8266 wifi at 4.6 megabaud, you can get a minimum of 1 megabit per second throughput on wifi, a lot faster if your location does not have a ton of wifi signals, 2 mbit/s is typical. That is decent speed for my application._
+
+* ebook : https://leanpub.com/ESP8266_ESP32
+
+* Big brother : ESP32 
+
+### MX Chip EMW3165
 
 ### Tofs
 
@@ -369,4 +426,12 @@ In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it w
 * AutoFinancement->Fiverr
 * ENS->MichelB
 * Acquisition->Output Image
+
+#### May 3rd
+
+* Wifi->ESP8266->ESP32
+* Wifi->Igor
+* Acquisition->Enveloppe->max-hold-reset
+* BiVi->max-hold-reset
+* BiVi->LPC810->NE555 du 21eme
 
