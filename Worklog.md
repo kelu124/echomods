@@ -315,7 +315,7 @@ Specs:
 
 In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
 
-### ESP8266
+### ESP8266 (Review on May 3rd)
 
 * Question asked at http://stackoverflow.com/questions/37014547/esp8266-and-high-speed-external-adc
 
@@ -430,6 +430,7 @@ _If you run the esp8266 wifi at 4.6 megabaud, you can get a minimum of 1 megabit
 #### May 3rd
 
 * Wifi->ESP8266->ESP32
+* ESP8266->ADCSPI->Send
 * Wifi->Igor
 * Acquisition->Enveloppe->max-hold-reset
 * BiVi->max-hold-reset
