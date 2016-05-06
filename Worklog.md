@@ -279,8 +279,16 @@ __Max-Hold-Reset__
 ou peut etre encore mieux :
 * http://www.planetanalog.com/author.asp?section_id=396&doc_id=562072
 * __Got it !!__ http://www.falstad.com/circuit/e-peak-detect.html
-
 * ESP8266: exploration: SPI-ADC+ESP.overclocked ? : http://stackoverflow.com/questions/37014547/esp8266-and-high-speed-external-adc
+
+#### May 4th
+
+* http://stackoverflow.com/questions/13447538/how-to-avoid-overlapping-nodes-in-graphviz
+* http://stackoverflow.com/questions/3967600/how-to-prevent-edges-in-graphviz-to-overlap-each-other
+
+* http://circuit-diagram.hqew.net/Peak-detect-and-hold_17262.html
+* http://www.tradeofic.com/Circuit/4885-POSITIVE_PEAK_DETECTOR.html
+* PKD01 : trop lent
 
 ### Microcontrolers and chips
 
@@ -290,12 +298,19 @@ ou peut etre encore mieux :
 |:--:|--------|--------------|----------|----|----|----|
 | 1  | WiFiMCU |  EMW3165 - STM32F411CE | Cortex-M4 core at 100MHz | 1_12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
 | 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1_12-bit, 2.4 MSPS A/D converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
-| 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU | 3 _ 12-bit, 0.5 _s ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
+| 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU + BCM43362 (avec un M3)| 3 _ 12-bit, 0.5 _s ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
 | 4 | STM32L471QE | STM32L471QE | NoP | 3_ 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling | ?? | ?? |
 | 5 | STM32L476 | STM32L476VGT6 | NOP | 3_ 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling, 200 _A/Msps  | [19$ dev-kit](http://www2.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32l476gdiscovery.html?icmp=pf261635_pron_pr_sep2015&sc=stm32l476g-disco) | Cheap, powerfull, nowifi |
 | 6 | ESP8266 | A voir | NoP | ?? | ?? | ?? |
 | 7 | ESP32 | A voir | NoP | ?? | ?? | ?? |
 
+* Feather  (inclus un m3) : STM32F205 + BCM43362 qui a un m3
+* Feather: meme chose que le photo, mais en compatible Arduino
+* https://community.broadcom.com/servlet/JiveServlet/showImage/2-19579-3826/bcm43362-damosys.png
+* ESP8266 -- ultra low power Micro 32bit CPU
+* Excellent post - priority level : Important : http://www.eevblog.com/forum/microcontrollers/esp8266-native-spi-hardware-driver/
+* _SPI runs at 40Mhz._ - so can be 2.4Msps 10bits
+* HSPI -> http://d.av.id.au/blog/esp8266-hardware-spi-hspi-general-info-and-pinout/
 
 #### Studying chips
 
@@ -317,32 +332,35 @@ In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it w
 
 ### ESP8266 (Review on May 3rd)
 
+#### Facts
+
+* throughput test : http://www.esp8266.com/viewtopic.php?f=5&t=245 + question posée sur http://www.esp8266.com/viewforum.php?f=6
+* Livre: http://neilkolban.com/tech/esp8266/
 * Question asked at http://stackoverflow.com/questions/37014547/esp8266-and-high-speed-external-adc
-
 * http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family
-
 Plein de versions:
 * Now, the ESP8266 v7 and v12, include an ADC (Analog digital converter) pin. This means that the ESP8266 module can process inputs from analog sensors. Light sensors, rheostats, force sensors, etc. 
 * Plein de GPIOs : ESP-04 et ESP-03
 * ESP-12-E/Q -- E-Series and ESP-14 have 22 pins available
-
 * http://www.eevblog.com/forum/microcontrollers/esp8266-native-spi-hardware-driver/
-
 * https://github.com/MetalPhreak/ESP8266_Microwire_EEPROM
 * https://github.com/MetalPhreak/ESP8266_SPI_Driver
-
 * Built-in low-power 32-bit CPU: can double as an application processor 
 * 802.11 b / g / n  - Wi-Fi Direct (P2P), soft-AP 
-
 http://www.instructables.com/id/ESP8266-ADC-Analog-Sensors/
-
 * https://hackaday.io/project/4318-vu-meter-esp8266-ws2812b -- ESP8266+FFT+Teensy -- Person to contact!
 * https://forum.pjrc.com/threads/34095-Teensy-3-2-ESP8266-12Q-High-Speed-ADC-Websocket
 _If you run the esp8266 wifi at 4.6 megabaud, you can get a minimum of 1 megabit per second throughput on wifi, a lot faster if your location does not have a ton of wifi signals, 2 mbit/s is typical. That is decent speed for my application._
-
 * ebook : https://leanpub.com/ESP8266_ESP32
-
 * Big brother : ESP32 
+
+#### Fun piratebox
+
+* http://forum.acolab.fr/t/sub-micro-pirate-box-en-esp8266/57
+* https://bricoles.du-libre.org/doku.php?id=esp8266:le_partageoir
+* http://snhack.du-libre.org/doku.php?id=projets:spores_numeriques
+* https://www.reddit.com/r/esp8266/comments/4awgtr/has_anyone_done_a_piratebox_type_thing_with_an/
+* https://github.com/esp8266/Arduino/blob/d218c4ead3df50ac9cbdfa7144698850a03f2066/hardware/esp8266com/esp8266/libraries/ESP8266WebServer/examples/SDWebServer/SDWebServer.ino
 
 ### MX Chip EMW3165
 

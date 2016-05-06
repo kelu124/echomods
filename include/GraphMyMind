@@ -1,5 +1,5 @@
 digraph {
-	graph [label="my mind" layout=neato rankdir=BT]
+	graph [fontsize=26 label="my mind" layout=neato overlap=false rankdir=BT]
 		HAD [style=rounded]
 		Murgen [style=rounded]
 			HAD -> Murgen
@@ -243,7 +243,14 @@ digraph {
 			Acquisition -> "Output Image"
 		Wifi [style=rounded]
 		ESP8266 [style=rounded]
+		ESP32 [style=rounded]
 			Wifi -> ESP8266
+			ESP8266 -> ESP32
+		ESP8266 [style=rounded]
+		ADCSPI [style=rounded]
+		Send [style=rounded]
+			ESP8266 -> ADCSPI
+			ADCSPI -> Send
 		Wifi [style=rounded]
 		Igor [style=rounded]
 			Wifi -> Igor

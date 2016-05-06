@@ -195,6 +195,8 @@ styles = {
     'graph': {
         'label': 'my mind',
 	'layout':"neato",
+	'fontsize':"26",
+	"overlap":"false",
         'rankdir': 'BT',
     }
 }
