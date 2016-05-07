@@ -81,7 +81,7 @@ What is expected is to break down logic blocks into modules that could be put on
 * TODO: Schemas de fonctionnement des modules
 
 * TODO: Module: ESP8266+ADC
-* TODO: Module: Detectio
+* TODO: Module: Detection
 
 ### Done
 
@@ -290,6 +290,10 @@ ou peut etre encore mieux :
 * http://www.tradeofic.com/Circuit/4885-POSITIVE_PEAK_DETECTOR.html
 * PKD01 : trop lent
 
+#### May 7th 
+
+* https://forum.pjrc.com/threads/34095-Teensy-3-2-ESP8266-12Q-High-Speed-ADC-Websocket
+
 ### Microcontrolers and chips
 
 #### Microcontrolers
@@ -334,7 +338,7 @@ In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it w
 
 #### Facts
 
-* throughput test : http://www.esp8266.com/viewtopic.php?f=5&t=245 + question posée sur http://www.esp8266.com/viewforum.php?f=6
+* throughput test : http://www.esp8266.com/viewtopic.php?f=5&t=245 + question posee sur http://www.esp8266.com/viewforum.php?f=6
 * Livre: http://neilkolban.com/tech/esp8266/
 * Question asked at http://stackoverflow.com/questions/37014547/esp8266-and-high-speed-external-adc
 * http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family
@@ -453,4 +457,9 @@ _If you run the esp8266 wifi at 4.6 megabaud, you can get a minimum of 1 megabit
 * Acquisition->Enveloppe->max-hold-reset
 * BiVi->max-hold-reset
 * BiVi->LPC810->NE555 du 21eme
+
+
+#### May 7th
+
+* ADCSPI->Feather
 

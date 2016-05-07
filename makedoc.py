@@ -218,6 +218,14 @@ GraphMyMind = digraph()
 f = open("Worklog.md", 'r')
 WorkLogMd=markdown.markdown( f.read() )
 f.close()
+# Getting the TODOs
+
+
+pattern = r"<li>TODO: (.*?)</li>"
+results = re.findall(pattern, WorkLogMd, flags=0) 
+for item in results:
+    GraphMyMind.node(item.replace(':', '-'), style="rounded,filled", fillcolor="yellow")
+    #GraphMyMind.edge("ToDo", item.replace(':', '-'))
 
 # Getting the Innards of the Module
 pattern = r"Graphing</h3>([\s\S]*)</ul>"

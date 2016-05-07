@@ -1,5 +1,20 @@
 digraph {
 	graph [fontsize=26 label="my mind" layout=neato overlap=false rankdir=BT]
+		"Silkscreening with the murgen-series logo =)" [fillcolor=yellow style="rounded,filled"]
+		"Document the motherboard" [fillcolor=yellow style="rounded,filled"]
+		"Play with Highspeed SPI (BBB)" [fillcolor=yellow style="rounded,filled"]
+		"Autre SPI- Goblin - 2Msps SPI ADC" [fillcolor=yellow style="rounded,filled"]
+		"Design Croaker and Silent" [fillcolor=yellow style="rounded,filled"]
+		"contact Frederic Patat" [fillcolor=yellow style="rounded,filled"]
+		"Add status to track progress of the works" [fillcolor=yellow style="rounded,filled"]
+		Jan [fillcolor=yellow style="rounded,filled"]
+		"Imprimer une tof a afficher" [fillcolor=yellow style="rounded,filled"]
+		"Contact Edgeflex" [fillcolor=yellow style="rounded,filled"]
+		"Cahier des charges modules" [fillcolor=yellow style="rounded,filled"]
+		"Module- Detection" [fillcolor=yellow style="rounded,filled"]
+		"https-//www.coursera.org/course/fin4devmooc" [fillcolor=yellow style="rounded,filled"]
+		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow style="rounded,filled"]
+		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow style="rounded,filled"]
 		HAD [style=rounded]
 		Murgen [style=rounded]
 			HAD -> Murgen
@@ -267,4 +282,7 @@ digraph {
 		"NE555 du 21eme" [style=rounded]
 			BiVi -> LPC810
 			LPC810 -> "NE555 du 21eme"
+		ADCSPI [style=rounded]
+		Feather [style=rounded]
+			ADCSPI -> Feather
 }
