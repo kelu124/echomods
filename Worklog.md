@@ -294,6 +294,11 @@ ou peut etre encore mieux :
 
 * https://forum.pjrc.com/threads/34095-Teensy-3-2-ESP8266-12Q-High-Speed-ADC-Websocket
 
+#### May 10th
+
+* https://contextualelectronics.com/gtb-kicad-4-0/ :  10 Part Tutorial On Designing/Building A PCB (Using FOSS)
+*
+
 ### Microcontrolers and chips
 
 #### Microcontrolers
