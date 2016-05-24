@@ -1,7 +1,9 @@
 digraph {
-	graph [fontsize=26 label="my mind" layout=neato overlap=false rankdir=BT]
+	graph [fontsize=26 label="my mind" layout=neato rankdir=BT]
 		"Silkscreening with the murgen-series logo =)" [fillcolor=yellow style="rounded,filled"]
 		"Document the motherboard" [fillcolor=yellow style="rounded,filled"]
+		"2 types to test" [fillcolor=yellow style="rounded,filled"]
+		"Mech-athon" [fillcolor=yellow style="rounded,filled"]
 		"Play with Highspeed SPI (BBB)" [fillcolor=yellow style="rounded,filled"]
 		"Autre SPI- Goblin - 2Msps SPI ADC" [fillcolor=yellow style="rounded,filled"]
 		"Design Croaker and Silent" [fillcolor=yellow style="rounded,filled"]
@@ -11,278 +13,307 @@ digraph {
 		"Imprimer une tof a afficher" [fillcolor=yellow style="rounded,filled"]
 		"Contact Edgeflex" [fillcolor=yellow style="rounded,filled"]
 		"Cahier des charges modules" [fillcolor=yellow style="rounded,filled"]
+		"Schemas de fonctionnement des modules" [fillcolor=yellow style="rounded,filled"]
+		"Hack RPi0 CSI (Camera)" [fillcolor=yellow style="rounded,filled"]
+		"Module- ESP8266+ADC" [fillcolor=yellow style="rounded,filled"]
 		"Module- Detection" [fillcolor=yellow style="rounded,filled"]
 		"https-//www.coursera.org/course/fin4devmooc" [fillcolor=yellow style="rounded,filled"]
 		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow style="rounded,filled"]
 		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow style="rounded,filled"]
-		HAD [style=rounded]
-		Murgen [style=rounded]
+		HAD [penwidth=0 style=rounded]
+		Murgen [penwidth=0 style=rounded]
 			HAD -> Murgen
-		HAD [style=rounded]
-		AutoFinancement [style=rounded]
-		OpenSourceHardwareContest [style=rounded]
+		HAD [penwidth=0 style=rounded]
+		AutoFinancement [penwidth=0 style=rounded]
+		OpenSourceHardwareContest [penwidth=0 style=rounded]
 			HAD -> AutoFinancement
 			AutoFinancement -> OpenSourceHardwareContest
-		Sofian [style=rounded]
-		Murgen [style=rounded]
-		"Output Image" [style=rounded]
+		Sofian [penwidth=0 style=rounded]
+		Murgen [penwidth=0 style=rounded]
+		"Output Image" [penwidth=0 style=rounded]
 			Sofian -> Murgen
 			Murgen -> "Output Image"
-		"Serveur Matthieu" [style=rounded]
-		"Output Image" [style=rounded]
-		Benchmark [style=rounded]
-		"Image processing" [style=rounded]
-		"Jean-Francois" [style=rounded]
+		"Serveur Matthieu" [penwidth=0 style=rounded]
+		"Output Image" [penwidth=0 style=rounded]
+		Benchmark [penwidth=0 style=rounded]
+		"Image processing" [penwidth=0 style=rounded]
+		"Jean-Francois" [penwidth=0 style=rounded]
 			"Serveur Matthieu" -> "Output Image"
 			"Output Image" -> Benchmark
 			Benchmark -> "Image processing"
 			"Image processing" -> "Jean-Francois"
-		"Image processing" [style=rounded]
-		"Output Image" [style=rounded]
-		Print [style=rounded]
+		"Image processing" [penwidth=0 style=rounded]
+		"Output Image" [penwidth=0 style=rounded]
+		Print [penwidth=0 style=rounded]
 			"Image processing" -> "Output Image"
 			"Output Image" -> Print
-		Modules [style=rounded]
-		Tester [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Tester [penwidth=0 style=rounded]
 			Modules -> Tester
-		Modules [style=rounded]
-		Transducer [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Transducer [penwidth=0 style=rounded]
 			Modules -> Transducer
-		Modules [style=rounded]
-		Mech [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Mech [penwidth=0 style=rounded]
 			Modules -> Mech
-		Mech [style=rounded]
-		BiVi [style=rounded]
+		Mech [penwidth=0 style=rounded]
+		BiVi [penwidth=0 style=rounded]
 			Mech -> BiVi
-		echOmods [style=rounded]
-		WoodBox [style=rounded]
-		Arthur [style=rounded]
+		echOmods [penwidth=0 style=rounded]
+		WoodBox [penwidth=0 style=rounded]
+		Arthur [penwidth=0 style=rounded]
 			echOmods -> WoodBox
 			WoodBox -> Arthur
-		WoodBox [style=rounded]
-		LogoLaserCut [style=rounded]
+		WoodBox [penwidth=0 style=rounded]
+		LogoLaserCut [penwidth=0 style=rounded]
 			WoodBox -> LogoLaserCut
-		Transducer [style=rounded]
-		Jan [style=rounded]
-		"2 types to test" [style=rounded]
+		Transducer [penwidth=0 style=rounded]
+		Jan [penwidth=0 style=rounded]
+		"2 types to test" [penwidth=0 style=rounded]
 			Transducer -> Jan
 			Jan -> "2 types to test"
-		Croaker [style=rounded]
-		STM32F205RG [style=rounded]
-		STM32F205RG [style=rounded]
-		M3 [style=rounded]
+		Croaker [penwidth=0 style=rounded]
+		STM32F205RG [penwidth=0 style=rounded]
+		STM32F205RG [penwidth=0 style=rounded]
+		M3 [penwidth=0 style=rounded]
 			Croaker -> STM32F205RG
 			STM32F205RG -> STM32F205RG
 			STM32F205RG -> M3
-		STM32F205RG [style=rounded]
-		"6Msps" [style=rounded]
+		STM32F205RG [penwidth=0 style=rounded]
+		"6Msps" [penwidth=0 style=rounded]
 			STM32F205RG -> "6Msps"
-		uC [style=rounded]
-		Croaker [style=rounded]
-		"TFT Screen" [style=rounded]
+		uC [penwidth=0 style=rounded]
+		Croaker [penwidth=0 style=rounded]
+		"TFT Screen" [penwidth=0 style=rounded]
 			uC -> Croaker
 			Croaker -> "TFT Screen"
-		Croaker [style=rounded]
-		"SD Card" [style=rounded]
+		Croaker [penwidth=0 style=rounded]
+		"SD Card" [penwidth=0 style=rounded]
 			Croaker -> "SD Card"
-		uC [style=rounded]
-		Vlad [style=rounded]
+		uC [penwidth=0 style=rounded]
+		Vlad [penwidth=0 style=rounded]
 			uC -> Vlad
-		Modules [style=rounded]
-		Alim [style=rounded]
-		Mogaba [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Alim [penwidth=0 style=rounded]
+		Mogaba [penwidth=0 style=rounded]
 			Modules -> Alim
 			Alim -> Mogaba
-		Modules [style=rounded]
-		echOmods [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		echOmods [penwidth=0 style=rounded]
 			Modules -> echOmods
-		Modules [style=rounded]
-		HV [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		HV [penwidth=0 style=rounded]
 			Modules -> HV
-		Modules [style=rounded]
-		Modules [style=rounded]
-		TGC [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Modules [penwidth=0 style=rounded]
+		TGC [penwidth=0 style=rounded]
 			Modules -> TGC
-		Modules [style=rounded]
-		Controler [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Controler [penwidth=0 style=rounded]
 			Modules -> Controler
-		uC [style=rounded]
-		"Feather Wiced" [style=rounded]
+		uC [penwidth=0 style=rounded]
+		"Feather Wiced" [penwidth=0 style=rounded]
 			uC -> "Feather Wiced"
-		uC [style=rounded]
-		Wifi [style=rounded]
+		uC [penwidth=0 style=rounded]
+		Wifi [penwidth=0 style=rounded]
 			uC -> Wifi
-		uC [style=rounded]
-		EspruinoPico [style=rounded]
-		BiVi [style=rounded]
+		uC [penwidth=0 style=rounded]
+		EspruinoPico [penwidth=0 style=rounded]
+		BiVi [penwidth=0 style=rounded]
 			uC -> EspruinoPico
 			EspruinoPico -> BiVi
-		HAD [style=rounded]
-		Phantoms [style=rounded]
+		HAD [penwidth=0 style=rounded]
+		Phantoms [penwidth=0 style=rounded]
 			HAD -> Phantoms
-		Phantoms [style=rounded]
-		Virginie [style=rounded]
-		HAD [style=rounded]
+		Phantoms [penwidth=0 style=rounded]
+		Virginie [penwidth=0 style=rounded]
+		HAD [penwidth=0 style=rounded]
 			Phantoms -> Virginie
 			Virginie -> HAD
-		Phantoms [style=rounded]
-		Static [style=rounded]
-		HAD [style=rounded]
+		Phantoms [penwidth=0 style=rounded]
+		Static [penwidth=0 style=rounded]
+		HAD [penwidth=0 style=rounded]
 			Phantoms -> Static
 			Static -> HAD
-		Phantoms [style=rounded]
-		Materials [style=rounded]
-		"RP-6400" [style=rounded]
+		Phantoms [penwidth=0 style=rounded]
+		Materials [penwidth=0 style=rounded]
+		"RP-6400" [penwidth=0 style=rounded]
 			Phantoms -> Materials
 			Materials -> "RP-6400"
-		Modules [style=rounded]
-		Doc [style=rounded]
+		Materials [penwidth=0 style=rounded]
+		"Mech-athon" [penwidth=0 style=rounded]
+			Materials -> "Mech-athon"
+		Modules [penwidth=0 style=rounded]
+		Doc [penwidth=0 style=rounded]
 			Modules -> Doc
-		Modules [style=rounded]
-		Motherboard [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Motherboard [penwidth=0 style=rounded]
 			Modules -> Motherboard
-		Documentation [style=rounded]
-		DocBuilder [style=rounded]
-		BiVi [style=rounded]
+		Documentation [penwidth=0 style=rounded]
+		DocBuilder [penwidth=0 style=rounded]
+		BiVi [penwidth=0 style=rounded]
 			Documentation -> DocBuilder
 			DocBuilder -> BiVi
-		Documentation [style=rounded]
-		GitAliases [style=rounded]
+		Documentation [penwidth=0 style=rounded]
+		GitAliases [penwidth=0 style=rounded]
 			Documentation -> GitAliases
-		Documentation [style=rounded]
-		CreateSchemaBlock [style=rounded]
-		GraphViz [style=rounded]
+		Documentation [penwidth=0 style=rounded]
+		CreateSchemaBlock [penwidth=0 style=rounded]
+		GraphViz [penwidth=0 style=rounded]
 			Documentation -> CreateSchemaBlock
 			CreateSchemaBlock -> GraphViz
-		Wifi [style=rounded]
-		TCP [style=rounded]
-		format [style=rounded]
+		Wifi [penwidth=0 style=rounded]
+		TCP [penwidth=0 style=rounded]
+		format [penwidth=0 style=rounded]
 			Wifi -> TCP
 			TCP -> format
-		Modules [style=rounded]
-		DDS [style=rounded]
-		"R-2R" [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		DDS [penwidth=0 style=rounded]
+		"R-2R" [penwidth=0 style=rounded]
 			Modules -> DDS
 			DDS -> "R-2R"
-		AG [style=rounded]
-		Strat [style=rounded]
-		AutoFinancement [style=rounded]
+		AG [penwidth=0 style=rounded]
+		Strat [penwidth=0 style=rounded]
+		AutoFinancement [penwidth=0 style=rounded]
 			AG -> Strat
 			Strat -> AutoFinancement
-		Modules [style=rounded]
-		Fab [style=rounded]
-		MacroFab [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Fab [penwidth=0 style=rounded]
+		MacroFab [penwidth=0 style=rounded]
 			Modules -> Fab
 			Fab -> MacroFab
-		Vlad [style=rounded]
-		MacroFab [style=rounded]
+		Vlad [penwidth=0 style=rounded]
+		MacroFab [penwidth=0 style=rounded]
 			Vlad -> MacroFab
-		DDS [style=rounded]
-		Arduino [style=rounded]
+		DDS [penwidth=0 style=rounded]
+		Arduino [penwidth=0 style=rounded]
 			DDS -> Arduino
-		Acquisition [style=rounded]
-		PRU [style=rounded]
-		Vanderbilt [style=rounded]
-		EdgeFlex [style=rounded]
+		Acquisition [penwidth=0 style=rounded]
+		PRU [penwidth=0 style=rounded]
+		Vanderbilt [penwidth=0 style=rounded]
+		EdgeFlex [penwidth=0 style=rounded]
 			Acquisition -> PRU
 			PRU -> Vanderbilt
 			Vanderbilt -> EdgeFlex
-		FlyLabs [style=rounded]
-		EdgeFlex [style=rounded]
+		FlyLabs [penwidth=0 style=rounded]
+		EdgeFlex [penwidth=0 style=rounded]
 			FlyLabs -> EdgeFlex
-		PRU [style=rounded]
-		"Up to 10Msps+" [style=rounded]
+		PRU [penwidth=0 style=rounded]
+		"Up to 10Msps+" [penwidth=0 style=rounded]
 			PRU -> "Up to 10Msps+"
-		Acquisition [style=rounded]
-		Wifi [style=rounded]
+		Acquisition [penwidth=0 style=rounded]
+		Wifi [penwidth=0 style=rounded]
 			Acquisition -> Wifi
-		Acquisition [style=rounded]
-		RedPitaya [style=rounded]
+		Acquisition [penwidth=0 style=rounded]
+		RedPitaya [penwidth=0 style=rounded]
 			Acquisition -> RedPitaya
-		Modules [style=rounded]
-		Pedagogie [style=rounded]
-		Aforp [style=rounded]
-		Tao [style=rounded]
+		Modules [penwidth=0 style=rounded]
+		Pedagogie [penwidth=0 style=rounded]
+		Aforp [penwidth=0 style=rounded]
+		Tao [penwidth=0 style=rounded]
 			Modules -> Pedagogie
 			Pedagogie -> Aforp
 			Aforp -> Tao
-		Pedagogie [style=rounded]
-		ESIA [style=rounded]
+		Pedagogie [penwidth=0 style=rounded]
+		ESIA [penwidth=0 style=rounded]
 			Pedagogie -> ESIA
-		Pedagogie [style=rounded]
-		ENSCachan [style=rounded]
+		Pedagogie [penwidth=0 style=rounded]
+		ENSCachan [penwidth=0 style=rounded]
 			Pedagogie -> ENSCachan
-		Pedagogie [style=rounded]
-		Isep [style=rounded]
-		Frederic [style=rounded]
+		Pedagogie [penwidth=0 style=rounded]
+		Isep [penwidth=0 style=rounded]
+		Frederic [penwidth=0 style=rounded]
 			Pedagogie -> Isep
 			Isep -> Frederic
-		Pedagogie [style=rounded]
-		ENS [style=rounded]
-		MichelB [style=rounded]
+		Pedagogie [penwidth=0 style=rounded]
+		ENS [penwidth=0 style=rounded]
+		MichelB [penwidth=0 style=rounded]
 			Pedagogie -> ENS
 			ENS -> MichelB
-		MichelB [style=rounded]
-		Modules [style=rounded]
+		MichelB [penwidth=0 style=rounded]
+		Modules [penwidth=0 style=rounded]
 			MichelB -> Modules
-		Aforp [style=rounded]
-		Apprenti [style=rounded]
+		Aforp [penwidth=0 style=rounded]
+		Apprenti [penwidth=0 style=rounded]
 			Aforp -> Apprenti
-		Pedagogie [style=rounded]
-		Vanderbilt [style=rounded]
+		Pedagogie [penwidth=0 style=rounded]
+		Vanderbilt [penwidth=0 style=rounded]
 			Pedagogie -> Vanderbilt
-		EdgeFlex [style=rounded]
-		Fab [style=rounded]
+		EdgeFlex [penwidth=0 style=rounded]
+		Fab [penwidth=0 style=rounded]
 			EdgeFlex -> Fab
-		ENSCachan [style=rounded]
-		Satie [style=rounded]
-		Constant [style=rounded]
-		Transducer [style=rounded]
+		ENSCachan [penwidth=0 style=rounded]
+		Satie [penwidth=0 style=rounded]
+		Constant [penwidth=0 style=rounded]
+		Transducer [penwidth=0 style=rounded]
 			ENSCachan -> Satie
 			Satie -> Constant
 			Constant -> Transducer
-		Fabs [style=rounded]
-		AutoFinancement [style=rounded]
+		Fabs [penwidth=0 style=rounded]
+		AutoFinancement [penwidth=0 style=rounded]
 			Fabs -> AutoFinancement
-		Inspiration [style=rounded]
-		MakerFaireParis [style=rounded]
+		Inspiration [penwidth=0 style=rounded]
+		MakerFaireParis [penwidth=0 style=rounded]
 			Inspiration -> MakerFaireParis
-		AutoFinancement [style=rounded]
-		Fiverr [style=rounded]
+		AutoFinancement [penwidth=0 style=rounded]
+		Fiverr [penwidth=0 style=rounded]
 			AutoFinancement -> Fiverr
-		ENS [style=rounded]
-		MichelB [style=rounded]
+		ENS [penwidth=0 style=rounded]
+		MichelB [penwidth=0 style=rounded]
 			ENS -> MichelB
-		Acquisition [style=rounded]
-		"Output Image" [style=rounded]
+		Acquisition [penwidth=0 style=rounded]
+		"Output Image" [penwidth=0 style=rounded]
 			Acquisition -> "Output Image"
-		Wifi [style=rounded]
-		ESP8266 [style=rounded]
-		ESP32 [style=rounded]
+		Wifi [penwidth=0 style=rounded]
+		ESP8266 [penwidth=0 style=rounded]
+		ESP32 [penwidth=0 style=rounded]
 			Wifi -> ESP8266
 			ESP8266 -> ESP32
-		ESP8266 [style=rounded]
-		ADCSPI [style=rounded]
-		Send [style=rounded]
+		ESP8266 [penwidth=0 style=rounded]
+		ADCSPI [penwidth=0 style=rounded]
+		Send [penwidth=0 style=rounded]
 			ESP8266 -> ADCSPI
 			ADCSPI -> Send
-		Wifi [style=rounded]
-		Igor [style=rounded]
+		Wifi [penwidth=0 style=rounded]
+		Igor [penwidth=0 style=rounded]
 			Wifi -> Igor
-		Acquisition [style=rounded]
-		Enveloppe [style=rounded]
-		"max-hold-reset" [style=rounded]
+		Acquisition [penwidth=0 style=rounded]
+		Enveloppe [penwidth=0 style=rounded]
+		"max-hold-reset" [penwidth=0 style=rounded]
 			Acquisition -> Enveloppe
 			Enveloppe -> "max-hold-reset"
-		BiVi [style=rounded]
-		"max-hold-reset" [style=rounded]
+		BiVi [penwidth=0 style=rounded]
+		"max-hold-reset" [penwidth=0 style=rounded]
 			BiVi -> "max-hold-reset"
-		BiVi [style=rounded]
-		LPC810 [style=rounded]
-		"NE555 du 21eme" [style=rounded]
+		BiVi [penwidth=0 style=rounded]
+		LPC810 [penwidth=0 style=rounded]
+		"NE555 du 21eme" [penwidth=0 style=rounded]
 			BiVi -> LPC810
 			LPC810 -> "NE555 du 21eme"
-		ADCSPI [style=rounded]
-		Feather [style=rounded]
-			ADCSPI -> Feather
+		ADCSPI [penwidth=0 style=rounded]
+		"Feather Wiced" [penwidth=0 style=rounded]
+			ADCSPI -> "Feather Wiced"
+		ESP8266 [penwidth=0 style=rounded]
+		Comm2RPi0 [penwidth=0 style=rounded]
+		RPi0 [penwidth=0 style=rounded]
+			ESP8266 -> Comm2RPi0
+			Comm2RPi0 -> RPi0
+		Igor [penwidth=0 style=rounded]
+		ESP8266 [penwidth=0 style=rounded]
+			Igor -> ESP8266
+		RPi0 [penwidth=0 style=rounded]
+		Oscillo [penwidth=0 style=rounded]
+		CA3306 [penwidth=0 style=rounded]
+			RPi0 -> Oscillo
+			Oscillo -> CA3306
+		RPi0 [penwidth=0 style=rounded]
+		CSI [penwidth=0 style=rounded]
+		Camera [penwidth=0 style=rounded]
+		ToHack [penwidth=0 style=rounded]
+			RPi0 -> CSI
+			CSI -> Camera
+			Camera -> ToHack
+		Igor [penwidth=0 style=rounded]
+		"Feather Wiced" [penwidth=0 style=rounded]
+			Igor -> "Feather Wiced"
 }

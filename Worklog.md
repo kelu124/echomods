@@ -69,6 +69,8 @@ What is expected is to break down logic blocks into modules that could be put on
 
 * TODO: Silkscreening with the murgen-series logo =)
 * TODO: Document the motherboard
+* TODO: 2 types to test
+* TODO: Mech-athon
 * TODO: Play with Highspeed SPI (BBB)
 * TODO: Autre SPI: Goblin - 2Msps SPI ADC
 * TODO: Design Croaker and Silent
@@ -387,6 +389,7 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * Phantoms->Virginie->HAD
 * Phantoms->Static->HAD
 * Phantoms->Materials->RP-6400
+* Materials->Mech-athon
 * Modules->Doc
 * Modules->Motherboard
 * Documentation->DocBuilder->BiVi
@@ -437,11 +440,14 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 
 #### May 7th
 
-* ADCSPI->Feather
-
+* ADCSPI->Feather Wiced
+* ESP8266->Comm2RPi0->RPi0
 
 #### May 24th
 
 * Igor->ESP8266
-* RPi0->Oscillo
+* RPi0->Oscillo->CA3306
 * RPi0->CSI->Camera->ToHack
+* Igor->Feather Wiced
+
+

@@ -196,7 +196,7 @@ styles = {
         'label': 'my mind',
 	'layout':"neato",
 	'fontsize':"26",
-	"overlap":"false",
+	#"overlap":"false",
         'rankdir': 'BT',
     }
 }
@@ -238,7 +238,7 @@ for item in results:
 	eachPair = eachPair.replace("</li>", "")
 	Couples = eachPair.split("-&gt;")		
 	for single in Couples:
-	    GraphMyMind.node(single, style="rounded")
+	    GraphMyMind.node(single, style="rounded",penwidth="0")
 	# Add the edge		
 	for k in range(len(Couples)-1):
 	    GraphMyMind.edge(Couples[k], Couples[k+1])
