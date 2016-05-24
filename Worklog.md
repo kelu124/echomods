@@ -79,7 +79,7 @@ What is expected is to break down logic blocks into modules that could be put on
 * TODO: Contact Edgeflex
 * TODO: Cahier des charges modules
 * TODO: Schemas de fonctionnement des modules
-
+* TODO: Hack RPi0 CSI (Camera)
 * TODO: Module: ESP8266+ADC
 * TODO: Module: Detection
 
@@ -127,12 +127,14 @@ What is expected is to break down logic blocks into modules that could be put on
 #### Description
 
 Board 1, aka [Tobo](/tobo/Readme.md):
+
 * The HV part of murgen is kept. The pulser of the first board is trigged by Pulse On (stripe 9) and shut by Pulse Off (stripe 10) (coming from the stripes). The pulser alimentation is fed through the RECOM component, with a potentiometer to select the HV level.
 * Signal is sent to a sideway SMA connector. 
 * Signal is protected by a MD0100 + LC.
 * Low voltage signal is sent out of the board through a SMA connector.
 
 Board 2, aka [Goblin](/goblin/Readme.md):
+
 * Low amplitude signal comes from the SMA connector.
 * It is fed through to the TGC.
 * The Gain of the TGC can come either from the Analog Gain Ramp stripe (stripe 7) or from a potentiometer which gives it 0 to 1V - selection through a jumper.
@@ -141,6 +143,7 @@ Board 2, aka [Goblin](/goblin/Readme.md):
 * If output of the TGC goes to the ADL5511, it is then sent to the stripe 5 or to the 2/3Msps ADC (SPI).
 
 Two other modules are being worked on, namely:
+
 * controler
 * alimentation
 
@@ -199,7 +202,6 @@ Second generation of fun! Learning microcontrolers and advanced simulations
 
 * Starting to document [Tobo](/tobo/Readme.md)
 * Reading __"Maintaining Open Source Projects"__ by Tute Costa : _A project maintainer should feel comfortable shaping the community, promoting the library, keeping good communication with different people, deciding when to release new versions, and prioritizing all these tasks._
-
 * Getting a _TL-MR3040 TP-Link_ for a project PirateBox (an __echObox__ ?)
 * __2016 strategy__ being done
 
@@ -210,6 +212,7 @@ Second generation of fun! Learning microcontrolers and advanced simulations
 * http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries?utm_source=facebook.com&utm_medium=atlas-page
 
 _I define Real Work as_
+
 * Work that creates an immediate and positive change in your product/service
 * Work that is a direct constraint to the completion of A
 * Work you have been uniquely hired to do.
@@ -297,81 +300,49 @@ ou peut etre encore mieux :
 #### May 10th
 
 * https://contextualelectronics.com/gtb-kicad-4-0/ :  10 Part Tutorial On Designing/Building A PCB (Using FOSS)
-*
 
-### Microcontrolers and chips
+#### May 14th to 20th
 
-#### Microcontrolers
+* Off to Jakarta =)
+* Next prios : Feather and ESP8266
 
-| ID | Name | Chip | Comments | ADC |Price| COmments |
-|:--:|--------|--------------|----------|----|----|----|
-| 1  | WiFiMCU |  EMW3165 - STM32F411CE | Cortex-M4 core at 100MHz | 1_12-bit, 2.4 MSPS A/D converter: up to 16 channels  | 8$ |Has wifi|
-| 2  | Espruino Pico |  STM32F401CDU6 | ARM Cortex M4, 384kb flash, 96kb RAM | 1_12-bit, 2.4 MSPS A/D converter  | 24$ (Adafruit) |No wifi, smart USB plug, DSP instructions|
-| 3  | [Feather Wiced](https://www.adafruit.com/products/3056) |  STM32F205RG|  120MHz ARM Cortex M3 MCU + BCM43362 (avec un M3)| 3 _ 12-bit, 0.5 _s ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode  | 34$ |Has wifi, support for battery|
-| 4 | STM32L471QE | STM32L471QE | NoP | 3_ 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling | ?? | ?? |
-| 5 | STM32L476 | STM32L476VGT6 | NOP | 3_ 12-bit ADC 5 Msps, up to 16-bit with hardware oversampling, 200 _A/Msps  | [19$ dev-kit](http://www2.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32l476gdiscovery.html?icmp=pf261635_pron_pr_sep2015&sc=stm32l476g-disco) | Cheap, powerfull, nowifi |
-| 6 | ESP8266 | A voir | NoP | ?? | ?? | ?? |
-| 7 | ESP32 | A voir | NoP | ?? | ?? | ?? |
+#### May 23rd
 
-* Feather  (inclus un m3) : STM32F205 + BCM43362 qui a un m3
-* Feather: meme chose que le photo, mais en compatible Arduino
-* https://community.broadcom.com/servlet/JiveServlet/showImage/2-19579-3826/bcm43362-damosys.png
-* ESP8266 -- ultra low power Micro 32bit CPU
-* Excellent post - priority level : Important : http://www.eevblog.com/forum/microcontrollers/esp8266-native-spi-hardware-driver/
-* _SPI runs at 40Mhz._ - so can be 2.4Msps 10bits
-* HSPI -> http://d.av.id.au/blog/esp8266-hardware-spi-hspi-general-info-and-pinout/
+* Restarting work with transducer and boards makers, Jan and Jerome
 
-#### Studying chips
+#### May 24th 
 
-| ID | Name | Details | Comments |
-|:--:|--------|--------------|----------|
-| 1  | STM32F411CE |              |          |
-| 2  | STM32F401CDU6 |              |          |
-|3| stm32f407 | Recommended for data processing by Dmitry (GeekTimesRu) | |
+* Bass inspiration : https://www.youtube.com/watch?v=6ZDTelKz4G0
+* Working on [Raspberry Pi Zero notes](notes_RPi0.md)
+* Updated existing notes on [microcontrollers](notes_uC.md) and the [ESP8266](notes_ESP8266.md)
 
 ### Croaker
 
-Specs:
-
+#### Case of Feather WICED
+ 
 * 12 bits ADC
 * 150 us acquisition, single channel
 * 6 Msps interleaved mode
 
 In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
 
-### ESP8266 (Review on May 3rd)
+#### Case of ESP8266
 
-#### Facts
+Lower specs (for dev kit - 1 to 2 image / s OK)
 
-* throughput test : http://www.esp8266.com/viewtopic.php?f=5&t=245 + question posee sur http://www.esp8266.com/viewforum.php?f=6
-* Livre: http://neilkolban.com/tech/esp8266/
-* Question asked at http://stackoverflow.com/questions/37014547/esp8266-and-high-speed-external-adc
-* http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family
-Plein de versions:
-* Now, the ESP8266 v7 and v12, include an ADC (Analog digital converter) pin. This means that the ESP8266 module can process inputs from analog sensors. Light sensors, rheostats, force sensors, etc. 
-* Plein de GPIOs : ESP-04 et ESP-03
-* ESP-12-E/Q -- E-Series and ESP-14 have 22 pins available
-* http://www.eevblog.com/forum/microcontrollers/esp8266-native-spi-hardware-driver/
-* https://github.com/MetalPhreak/ESP8266_Microwire_EEPROM
-* https://github.com/MetalPhreak/ESP8266_SPI_Driver
-* Built-in low-power 32-bit CPU: can double as an application processor 
-* 802.11 b / g / n  - Wi-Fi Direct (P2P), soft-AP 
-http://www.instructables.com/id/ESP8266-ADC-Analog-Sensors/
-* https://hackaday.io/project/4318-vu-meter-esp8266-ws2812b -- ESP8266+FFT+Teensy -- Person to contact!
-* https://forum.pjrc.com/threads/34095-Teensy-3-2-ESP8266-12Q-High-Speed-ADC-Websocket
-_If you run the esp8266 wifi at 4.6 megabaud, you can get a minimum of 1 megabit per second throughput on wifi, a lot faster if your location does not have a ton of wifi signals, 2 mbit/s is typical. That is decent speed for my application._
-* ebook : https://leanpub.com/ESP8266_ESP32
-* Big brother : ESP32 
+* SPI is 40MHz
+* 14 bit
+* 2 Msps
+* Comm through SPI
+* 10ms between lines - 64 lines gives 640ms / image)
+* 200us at 2Msps is 400 points is 5600 bits is 700 bytes
+* 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s.. should be OK with ESP8266 ;)
 
-#### Fun piratebox
+__More [ESP8266 notes](notes_ESP8266.md)__
 
-* http://forum.acolab.fr/t/sub-micro-pirate-box-en-esp8266/57
-* https://bricoles.du-libre.org/doku.php?id=esp8266:le_partageoir
-* http://snhack.du-libre.org/doku.php?id=projets:spores_numeriques
-* https://www.reddit.com/r/esp8266/comments/4awgtr/has_anyone_done_a_piratebox_type_thing_with_an/
-* https://github.com/esp8266/Arduino/blob/d218c4ead3df50ac9cbdfa7144698850a03f2066/hardware/esp8266com/esp8266/libraries/ESP8266WebServer/examples/SDWebServer/SDWebServer.ino
+#### Case of Rasberry Zero
 
-### MX Chip EMW3165
+__More [Raspberry Pi Zero notes](notes_RPi0.md)__
 
 ### Tofs
 
@@ -468,3 +439,9 @@ _If you run the esp8266 wifi at 4.6 megabaud, you can get a minimum of 1 megabit
 
 * ADCSPI->Feather
 
+
+#### May 24th
+
+* Igor->ESP8266
+* RPi0->Oscillo
+* RPi0->CSI->Camera->ToHack
