@@ -1,25 +1,25 @@
 digraph {
 	graph [fontsize=26 label="my mind" layout=neato rankdir=BT]
-		"Silkscreening with the murgen-series logo =)" [fillcolor=yellow style="rounded,filled"]
-		"Document the motherboard" [fillcolor=yellow style="rounded,filled"]
-		"2 types to test" [fillcolor=yellow style="rounded,filled"]
-		"Mech-athon" [fillcolor=yellow style="rounded,filled"]
-		"Play with Highspeed SPI (BBB)" [fillcolor=yellow style="rounded,filled"]
-		"Autre SPI- Goblin - 2Msps SPI ADC" [fillcolor=yellow style="rounded,filled"]
-		"Design Croaker and Silent" [fillcolor=yellow style="rounded,filled"]
-		"contact Frederic Patat" [fillcolor=yellow style="rounded,filled"]
-		"Add status to track progress of the works" [fillcolor=yellow style="rounded,filled"]
-		Jan [fillcolor=yellow style="rounded,filled"]
-		"Imprimer une tof a afficher" [fillcolor=yellow style="rounded,filled"]
-		"Contact Edgeflex" [fillcolor=yellow style="rounded,filled"]
-		"Cahier des charges modules" [fillcolor=yellow style="rounded,filled"]
-		"Schemas de fonctionnement des modules" [fillcolor=yellow style="rounded,filled"]
-		"Hack RPi0 CSI (Camera)" [fillcolor=yellow style="rounded,filled"]
-		"Module- ESP8266+ADC" [fillcolor=yellow style="rounded,filled"]
-		"Module- Detection" [fillcolor=yellow style="rounded,filled"]
-		"https-//www.coursera.org/course/fin4devmooc" [fillcolor=yellow style="rounded,filled"]
-		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow style="rounded,filled"]
-		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow style="rounded,filled"]
+		"Silkscreening with the murgen-series logo =)" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Document the motherboard" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"2 types to test" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Mech-athon" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Play with Highspeed SPI (BBB)" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Autre SPI- Goblin - 2Msps SPI ADC" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Design Croaker and Silent" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"contact Frederic Patat" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Add status to track progress of the works" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		Jan [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Imprimer une tof a afficher" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Contact Edgeflex" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Cahier des charges modules" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Schemas de fonctionnement des modules" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Hack RPi0 CSI (Camera)" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Module- ESP8266+ADC" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Module- Detection" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"https-//www.coursera.org/course/fin4devmooc" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		HAD [penwidth=0 style=rounded]
 		Murgen [penwidth=0 style=rounded]
 			HAD -> Murgen
@@ -158,15 +158,18 @@ digraph {
 		GitAliases [penwidth=0 style=rounded]
 			Documentation -> GitAliases
 		Documentation [penwidth=0 style=rounded]
+		MakeDoc [penwidth=0 style=rounded]
+			Documentation -> MakeDoc
+		Documentation [penwidth=0 style=rounded]
 		CreateSchemaBlock [penwidth=0 style=rounded]
 		GraphViz [penwidth=0 style=rounded]
 			Documentation -> CreateSchemaBlock
 			CreateSchemaBlock -> GraphViz
 		Wifi [penwidth=0 style=rounded]
+		Format [penwidth=0 style=rounded]
 		TCP [penwidth=0 style=rounded]
-		format [penwidth=0 style=rounded]
-			Wifi -> TCP
-			TCP -> format
+			Wifi -> Format
+			Format -> TCP
 		Modules [penwidth=0 style=rounded]
 		DDS [penwidth=0 style=rounded]
 		"R-2R" [penwidth=0 style=rounded]
@@ -201,9 +204,6 @@ digraph {
 		PRU [penwidth=0 style=rounded]
 		"Up to 10Msps+" [penwidth=0 style=rounded]
 			PRU -> "Up to 10Msps+"
-		Acquisition [penwidth=0 style=rounded]
-		Wifi [penwidth=0 style=rounded]
-			Acquisition -> Wifi
 		Acquisition [penwidth=0 style=rounded]
 		RedPitaya [penwidth=0 style=rounded]
 			Acquisition -> RedPitaya
@@ -261,9 +261,6 @@ digraph {
 		ENS [penwidth=0 style=rounded]
 		MichelB [penwidth=0 style=rounded]
 			ENS -> MichelB
-		Acquisition [penwidth=0 style=rounded]
-		"Output Image" [penwidth=0 style=rounded]
-			Acquisition -> "Output Image"
 		Wifi [penwidth=0 style=rounded]
 		ESP8266 [penwidth=0 style=rounded]
 		ESP32 [penwidth=0 style=rounded]
@@ -282,9 +279,7 @@ digraph {
 		"max-hold-reset" [penwidth=0 style=rounded]
 			Acquisition -> Enveloppe
 			Enveloppe -> "max-hold-reset"
-		BiVi [penwidth=0 style=rounded]
 		"max-hold-reset" [penwidth=0 style=rounded]
-			BiVi -> "max-hold-reset"
 		BiVi [penwidth=0 style=rounded]
 		LPC810 [penwidth=0 style=rounded]
 		"NE555 du 21eme" [penwidth=0 style=rounded]
@@ -316,4 +311,15 @@ digraph {
 		Igor [penwidth=0 style=rounded]
 		"Feather Wiced" [penwidth=0 style=rounded]
 			Igor -> "Feather Wiced"
+		Mech [penwidth=0 style=rounded]
+		"Mech-athon" [penwidth=0 style=rounded]
+			Mech -> "Mech-athon"
+		Format [penwidth=0 style=rounded]
+		UDP [penwidth=0 style=rounded]
+		Broadcast [penwidth=0 style=rounded]
+			Format -> UDP
+			UDP -> Broadcast
+		Enveloppe [penwidth=0 style=rounded]
+		ADL5511 [penwidth=0 style=rounded]
+			Enveloppe -> ADL5511
 }

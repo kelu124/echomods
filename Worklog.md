@@ -318,6 +318,14 @@ ou peut etre encore mieux :
 * Working on [Raspberry Pi Zero notes](notes_RPi0.md)
 * Updated existing notes on [microcontrollers](notes_uC.md) and the [ESP8266](notes_ESP8266.md)
 
+#### May 25th 
+
+* http://stackoverflow.com/questions/4823468/comments-in-markdown
+* Article on Projects http://teambit.io/blog/all-your-teammates-will-be-gone/
+* www.theatlantic.com/health/archive/2014/06/the-dark-knight-of-the-souls/372766/
+* http://www.certwise.com/blog/31-ways-know-project-doomed/
+* http://gettingreal.37signals.com/toc.php
+
 ### Croaker
 
 #### Case of Feather WICED
@@ -394,8 +402,9 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * Modules->Motherboard
 * Documentation->DocBuilder->BiVi
 * Documentation->GitAliases
+* Documentation->MakeDoc
 * Documentation->CreateSchemaBlock->GraphViz
-* Wifi->TCP->format
+* Wifi->Format->TCP
 * Modules->DDS->R-2R
 * AG->Strat->AutoFinancement
 * Modules->Fab->MacroFab
@@ -404,7 +413,6 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * Acquisition->PRU->Vanderbilt->EdgeFlex
 * FlyLabs->EdgeFlex
 * PRU->Up to 10Msps+
-* Acquisition->Wifi
 * Acquisition->RedPitaya
 * Modules->Pedagogie->Aforp->Tao
 * Pedagogie->ESIA
@@ -426,7 +434,6 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * Inspiration->MakerFaireParis
 * AutoFinancement->Fiverr
 * ENS->MichelB
-* Acquisition->Output Image
 
 #### May 3rd
 
@@ -434,9 +441,8 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * ESP8266->ADCSPI->Send
 * Wifi->Igor
 * Acquisition->Enveloppe->max-hold-reset
-* BiVi->max-hold-reset
+* max-hold-reset
 * BiVi->LPC810->NE555 du 21eme
-
 
 #### May 7th
 
@@ -450,4 +456,8 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * RPi0->CSI->Camera->ToHack
 * Igor->Feather Wiced
 
+#### May 25th
 
+* Mech->Mech-athon
+* Format->UDP->Broadcast
+* Enveloppe->ADL5511

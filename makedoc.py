@@ -224,7 +224,7 @@ f.close()
 pattern = r"<li>TODO: (.*?)</li>"
 results = re.findall(pattern, WorkLogMd, flags=0) 
 for item in results:
-    GraphMyMind.node(item.replace(':', '-'), style="rounded,filled", fillcolor="yellow")
+    GraphMyMind.node(item.replace(':', '-'), style="rounded,filled", fillcolor="yellow", penwidth="0")
     #GraphMyMind.edge("ToDo", item.replace(':', '-'))
 
 # Getting the Innards of the Module
@@ -238,7 +238,7 @@ for item in results:
 	eachPair = eachPair.replace("</li>", "")
 	Couples = eachPair.split("-&gt;")		
 	for single in Couples:
-	    GraphMyMind.node(single, style="rounded",penwidth="0")
+	    GraphMyMind.node(single, style="rounded", penwidth="0")
 	# Add the edge		
 	for k in range(len(Couples)-1):
 	    GraphMyMind.edge(Couples[k], Couples[k+1])
