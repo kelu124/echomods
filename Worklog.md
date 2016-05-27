@@ -326,6 +326,11 @@ ou peut etre encore mieux :
 * http://www.certwise.com/blog/31-ways-know-project-doomed/
 * http://gettingreal.37signals.com/toc.php
 
+#### May 27th
+
+* Exploring the partnerships with J&J
+
+
 ### Croaker
 
 #### Case of Feather WICED
