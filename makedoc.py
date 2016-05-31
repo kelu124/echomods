@@ -57,8 +57,6 @@ for f in ListOfDirs:
 # On retire les repertoires non modules
 ListOfDirs = [x for x in ModulesDirs if x not in ExcludeDirs]
 
-
-
 for eachInput in ListOfDirs:
 	GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
 
@@ -238,7 +236,7 @@ for item in results:
 	eachPair = eachPair.replace("</li>", "")
 	Couples = eachPair.split("-&gt;")		
 	for single in Couples:
-	    GraphMyMind.node(single, style="rounded", penwidth="0")
+	    GraphMyMind.node(single, penwidth="0")
 	# Add the edge		
 	for k in range(len(Couples)-1):
 	    GraphMyMind.edge(Couples[k], Couples[k+1])

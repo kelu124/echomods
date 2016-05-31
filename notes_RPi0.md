@@ -10,6 +10,10 @@
 
 * http://www.petervis.com/Raspberry_PI/Raspberry_Pi_CSI/Raspberry_Pi_CSI_Camera_Module.html
 
+### Hat for SoC
+
+* RPI +M3 : https://hackaday.io/project/11981-rppsoc-system-on-a-chip-for-the-raspberry-pi
+
 ### Resources pages
 
 * http://bobdavis321.blogspot.fr/2013/06/arduino-powered-3-million-samples-per.html

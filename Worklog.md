@@ -84,7 +84,7 @@ What is expected is to break down logic blocks into modules that could be put on
 * TODO: Hack RPi0 CSI (Camera)
 * TODO: Module: ESP8266+ADC
 * TODO: Module: Detection
-
+* TODO: Voir PCMLab (Jussieu)
 ### Done
 
 * Done: schemas a taper, puis processing dans le makedoc.py
@@ -330,6 +330,22 @@ ou peut etre encore mieux :
 
 * Exploring the partnerships with J&J
 
+#### May 30th
+
+* http://www.esp8266.com/viewtopic.php?t=669&p=3624 HPSI on ESP8266
+* Nicolas from V.
+* Lancement des PCBs (Jerome)
+* Go for Piezos (Jan)
+
+#### May 31st
+
+* Redirection de visiteurs de Hackaday vers nos ressources
+* Reflexion sur l'EMW3165 -- 8$, ADC à 2.4Msps, WiFi.
+* Extraction de la connaissance à partir du BC3: petit souci, le contenu BC3 ne semble pas exportable (pas de dump possible comme avec BC2), et n'a pas d'API d'integration.
+* Petit truc sympa, mais pas encore sorti : un SoC pour le RPi : https://hackaday.io/project/11981-rppsoc-system-on-a-chip-for-the-raspberry-pi
+* Pas possible de créeer le Wall of Contributors, tjrs ce probleme de reset de mot de passe, aucun email n'arrive.
+* TODO: réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) 
+* [EMW3165](notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
 
 ### Croaker
 
@@ -458,7 +474,7 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 
 * Igor->ESP8266
 * RPi0->Oscillo->CA3306
-* RPi0->CSI->Camera->ToHack
+* RPi0->CSI->Camera->ToHack->Hack RPi0 CSI (Camera)
 * Igor->Feather Wiced
 
 #### May 25th
@@ -466,3 +482,24 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * Mech->Mech-athon
 * Format->UDP->Broadcast
 * Enveloppe->ADL5511
+
+#### May 29th
+
+* ESP8266->ESP8266.ADC->HSPI
+* ESP8266.ACD->AD7274
+
+#### May 30th
+
+* Edgeflex->Modules Ready->PiZero->Modules SPI
+* Modules Ready->BBB->Modules SPI
+* Modules Ready->ESP8266->Modules SPI
+* ESP8266->Igor->Code
+* Igor->PCB
+* ESP8266->Tim->ReviewCode
+* WICED->KGhosh
+* Todo->Comm->An
+* Comm->Langevinium
+* Comm->Tanter
+* Comm->P6->V2->FabLab->Voir PCMLab (Jussieu)
+* Partenariat->Edgeflex->Revenues->AutoFinancement
+* WICED->Wifi
