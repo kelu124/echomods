@@ -2,6 +2,8 @@
 
 ## Ressources
 
+Working ... with an external ADC. We need to test beforehands.
+
 ### General
 
 * http://www.averagemanvsraspberrypi.com/2016/05/new-pi-zero.html
@@ -17,7 +19,7 @@
 ### Resources pages
 
 * http://bobdavis321.blogspot.fr/2013/06/arduino-powered-3-million-samples-per.html
-* https://www.hackster.io/taifur/piscope-raspberry-pi-based-oscilloscope-01b6bb (modif kernel https://www.hackster.io/taifur/piscope-raspberry-pi-based-oscilloscope-01b6bb )
+* https://www.hackster.io/taifur/piscope-raspberry-pi-based-oscilloscope-01b6bb (__modif kernel__ https://www.hackster.io/taifur/piscope-raspberry-pi-based-oscilloscope-01b6bb )
 * Excellent resources : http://www.instructables.com/id/PiScope-Raspberry-Pi-based-Oscilloscope/
 
 ### DIP ADC 
