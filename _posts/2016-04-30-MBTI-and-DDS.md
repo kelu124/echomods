@@ -1,3 +1,5 @@
+--- layout: post title:2016-04-30-MBTI-and-DDS ---
+
 
 -   Am an INTJ-A ... so what?
 -   R-2R DDS -- =) MHz DDS with arduino ?

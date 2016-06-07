@@ -1,3 +1,5 @@
+--- layout: post title:2016-04-27-Documenting ---
+
 
 -   Meetings (virginie)
 -   Doc of modules : https://github.com/kelu124/echomods/

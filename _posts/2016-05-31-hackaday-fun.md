@@ -1,3 +1,5 @@
+--- layout: post title:2016-05-31-hackaday-fun ---
+
 
 -   Redirection de visiteurs de Hackaday vers nos ressources
 -   Reflexion sur l'EMW3165 -- 8\$, ADC à 2.4Msps, WiFi.

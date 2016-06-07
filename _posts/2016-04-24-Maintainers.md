@@ -1,3 +1,5 @@
+--- layout: post title:2016-04-24-Maintainers ---
+
 
 -   Starting to document [Tobo](/tobo/Readme.md)
 -   Reading **"Maintaining Open Source Projects"** by Tute Costa : *A

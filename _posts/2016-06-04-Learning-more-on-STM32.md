@@ -1,3 +1,5 @@
+--- layout: post title:2016-06-04-Learning-more-on-STM32 ---
+
 
 -   Note d'application des timers par STM
     http://www.st.com/web/en/resource/technical/document/application\_note/DM00042534.pdf

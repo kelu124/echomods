@@ -1,3 +1,5 @@
+--- layout: post title:2016-04-26-Motivation ---
+
 
 *"I am not a visionary, I'm an engineer," Torvalds says. "I'm perfectly
 happy with all the people who are walking around and just staring at the
