@@ -100,7 +100,7 @@ What is expected is to break down logic blocks into modules that could be put on
 * Cancelled: Module: Detection (Merged in Goblin)
 
 
-### Description
+## Description
 
 Board 1, aka [Tobo](/tobo/Readme.md):
 
@@ -129,7 +129,7 @@ Worklog -- Starting April 5th 2016
 
 #### 2016-04-05
 
-Validation of the approach by the Captech
+* Validation of the approach by the Captech
 
 #### 2016-04-08
 
@@ -146,7 +146,9 @@ Validation of the approach by the Captech
 
 #### 2016-04-17
 
-![A PCB for PCB](/tobo/images/us_#1_top.png)
+* Getting a first design for the pulser module
+ 
+![A PCB for PCB](https://raw.githubusercontent.com/kelu124/echomods/master/tobo/viewme.png)
 
 #### 2016-04-18
 
@@ -290,6 +292,7 @@ ou peut etre encore mieux :
 * Bass inspiration : https://www.youtube.com/watch?v=6ZDTelKz4G0
 * Working on [Raspberry Pi Zero notes](notes_RPi0.md)
 * Updated existing notes on [microcontrollers](notes_uC.md) and the [ESP8266](notes_ESP8266.md)
+* Thinking about video / photos port to raspberry (even better than USB transfer, it manages quite high speed ( The two data lanes on the CSI-2 bus provide a theoretical 2 Gbps bandwidth, which approximates to around 5 MP resolution.  ) [here](http://www.petervis.com/Raspberry_PI/Raspberry_Pi_CSI/Raspberry_Pi_CSI_Camera_Module.html)
 
 #### 2016-05-25
 
@@ -320,11 +323,60 @@ ou peut etre encore mieux :
 * TODO: réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) 
 * [EMW3165](notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
 
-#### 2016-06-04
+#### 2016-06-02 Some awesome OSH for medical issues
+
+An endoscope pill
+
+* https://hackaday.io/project/10845-tiny-wireless-capsule-camera
+* https://github.com/friarbayliff/PillEndoscope
+
+What about XRays?
+
+* http://hackaday.com/2016/05/12/to-see-within-making-medical-x-rays/#more-204360
+* https://hackaday.io/project/4740-100-xray-desktop-ct-scanner
+
+And CT Scanners?
+
+* http://hackaday.com/2013/10/23/towards-a-low-cost-desktop-ct-scanner/
+* https://hackaday.io/project/5946-openct
+* http://www.tricorderproject.org/blog/tag/openct/
+* https://github.com/tricorderproject/openct
+
+and MRI ?
+
+* https://hackaday.io/project/5030-low-field-mri
+
+and *CG ?
+
+* See http://mobilecg.hu/
+* http://hackaday.com/2016/04/29/saving-lives-with-open-source-electrocardiography/
+* http://hackaday.com/2016/03/13/ekg-business-card-warms-our-hearts/
+
+
+#### 2016-06-04 Learning more on STM32
 
 * Note d'application des timers par STM http://www.st.com/web/en/resource/technical/document/application_note/DM00042534.pdf
 * Un très gros bon post sur les timers : un mois de travail d'après l'auteur  http://embedded-lab.com/blog/stm32-timers/
 * Et son petit frère sur les ADC http://embedded-lab.com/blog/stm32-digital-analogue-converter-dac/
+* Getting comments on scan conversion at [HAD](https://hackaday.io/project/9281-murgen/log/39271-ultrasound-and-scan-conversion/discussion-58228)
+
+
+#### 2016-06-06
+
+* Weekly meeting at the HD
+* Prof Charles and Zach start playing with Murgen, so I'm starting to experiment with Jekyll for murgen on the corresponding [Github murgen page](http://kelu124.github.io/murgen-dev-kit/)
+
+
+#### 2016-06-07
+
+* Preparing a hall of fame on echopen's wiki
+* Getting a copy of an excellent book : [buy here](http://www.lulu.com/shop/st%C3%A9phane-ribas-and-st%C3%A9phane-ubeda-and-patrick-guillaud/logiciels-et-objets-libres-animer-une-communaut%C3%A9-autour-dun-projet-ouvert/paperback/product-22702396.html)
+* Reading more about open science hardware with [GOSH](http://openhardware.science/gosh-manifesto/).. and finding a good [OSH journal](http://openhardware.science/2016/05/20/292/) which leads to there : [http://www.journals.elsevier.com/hardwarex](http://www.journals.elsevier.com/hardwarex)
+* Awesome DIY approach and techniques for ultrasound gel at http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0134332.PDF -- already republished on HAD
+
+
+uControllers and other stuff
+-------
 
 
 ### Croaker
@@ -483,3 +535,19 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * Comm->P6->V2->FabLab->Voir PCMLab (Jussieu)
 * Partenariat->Edgeflex->Revenues->AutoFinancement
 * WICED->Wifi
+
+#### June 7th
+
+* TODO: Hall Of Fame
+* TODO: DDSTest
+* TODO: ProdEdgeFlex
+* Sofian->KiCAD->OpenSource
+* Virginie->Phantoms
+* Murgen->KiCAD
+* BlogJanice->OpenSource Gel
+* Phantoms->OpenSource Gel->Publis
+* OpenSource Gel->Analog Two
+* OpenSource->GOSH
+* SendMiniCircuits->ProdEdgeFlex->Tests
+* ArduinoNano->DDSTest
+* DAC->DDSTest->Tests->RPi0

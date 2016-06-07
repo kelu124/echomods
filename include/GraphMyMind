@@ -16,6 +16,8 @@ digraph {
 		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) " [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		DDSTest [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		ProdEdgeFlex [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		HAD [penwidth=0]
 		Murgen [penwidth=0]
 			HAD -> Murgen
@@ -391,4 +393,35 @@ digraph {
 		WICED [penwidth=0]
 		Wifi [penwidth=0]
 			WICED -> Wifi
+		"TODO: DDSTest" [penwidth=0]
+		"TODO: ProdEdgeFlex" [penwidth=0]
+		Sofian [penwidth=0]
+		KiCAD [penwidth=0]
+		OpenSource [penwidth=0]
+			Sofian -> KiCAD
+			KiCAD -> OpenSource
+		Murgen [penwidth=0]
+		KiCAD [penwidth=0]
+			Murgen -> KiCAD
+		Phantoms [penwidth=0]
+		"OpenSource Gel" [penwidth=0]
+			Phantoms -> "OpenSource Gel"
+		OpenSource [penwidth=0]
+		GOSH [penwidth=0]
+			OpenSource -> GOSH
+		SendMiniCircuits [penwidth=0]
+		ProdEdgeFlex [penwidth=0]
+		Tests [penwidth=0]
+			SendMiniCircuits -> ProdEdgeFlex
+			ProdEdgeFlex -> Tests
+		ArduinoNano [penwidth=0]
+		DDSTest [penwidth=0]
+			ArduinoNano -> DDSTest
+		DAC [penwidth=0]
+		DDSTest [penwidth=0]
+		Tests [penwidth=0]
+		RPi0 [penwidth=0]
+			DAC -> DDSTest
+			DDSTest -> Tests
+			Tests -> RPi0
 }
