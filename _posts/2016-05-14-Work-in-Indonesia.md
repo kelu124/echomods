@@ -1,4 +1,10 @@
---- layout: post title:2016-05-14-Work-in-Indonesia ---
+---
+
+layout: post
+
+title:2016-05-14-Work-in-Indonesia
+
+---
 
 
 -   Off to Jakarta =)

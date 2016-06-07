@@ -1,4 +1,10 @@
---- layout: post title:2016-05-31-hackaday-fun ---
+---
+
+layout: post
+
+title:2016-05-31-hackaday-fun
+
+---
 
 
 -   Redirection de visiteurs de Hackaday vers nos ressources

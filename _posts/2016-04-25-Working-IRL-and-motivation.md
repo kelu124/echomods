@@ -1,4 +1,10 @@
---- layout: post title:2016-04-25-Working-IRL-and-motivation ---
+---
+
+layout: post
+
+title:2016-04-25-Working-IRL-and-motivation
+
+---
 
 
 -   http://bengarvey.com/2016/04/24/real-work/ *How many times today did

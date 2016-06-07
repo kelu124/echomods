@@ -1,4 +1,10 @@
---- layout: post title:2016-05-04-May-the-fourth ---
+---
+
+layout: post
+
+title:2016-05-04-May-the-fourth
+
+---
 
 
 -   http://stackoverflow.com/questions/13447538/how-to-avoid-overlapping-nodes-in-graphviz

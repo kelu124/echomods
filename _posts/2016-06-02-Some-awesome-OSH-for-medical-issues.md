@@ -1,4 +1,9 @@
---- layout: post title:2016-06-02-Some-awesome-OSH-for-medical-issues
+---
+
+layout: post
+
+title:2016-06-02-Some-awesome-OSH-for-medical-issues
+
 ---
 
 

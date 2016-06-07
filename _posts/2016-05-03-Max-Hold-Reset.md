@@ -1,4 +1,10 @@
---- layout: post title:2016-05-03-Max-Hold-Reset ---
+---
+
+layout: post
+
+title:2016-05-03-Max-Hold-Reset
+
+---
 
 
 -   http://hackaday.com/2016/04/29/saving-lives-with-open-source-electrocardiography/

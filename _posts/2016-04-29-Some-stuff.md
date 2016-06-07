@@ -1,4 +1,10 @@
---- layout: post title:2016-04-29-Some-stuff ---
+---
+
+layout: post
+
+title:2016-04-29-Some-stuff
+
+---
 
 
 Fun to read

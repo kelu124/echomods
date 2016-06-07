@@ -1,4 +1,10 @@
---- layout: post title:2016-06-06-Weekly-monday ---
+---
+
+layout: post
+
+title:2016-06-06-Weekly-monday
+
+---
 
 
 -   Weekly meeting at the HD

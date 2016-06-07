@@ -1,4 +1,10 @@
---- layout: post title:2016-04-30-MBTI-and-DDS ---
+---
+
+layout: post
+
+title:2016-04-30-MBTI-and-DDS
+
+---
 
 
 -   Am an INTJ-A ... so what?

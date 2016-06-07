@@ -1,4 +1,10 @@
---- layout: post title:2016-06-07-Hall-of-fame ---
+---
+
+layout: post
+
+title:2016-06-07-Hall-of-fame
+
+---
 
 
 -   Preparing a hall of fame on echopen's wiki
