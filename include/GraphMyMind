@@ -16,6 +16,7 @@ digraph {
 		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) " [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Hall Of Fame" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		DDSTest [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		ProdEdgeFlex [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		HAD [penwidth=0]
@@ -393,6 +394,7 @@ digraph {
 		WICED [penwidth=0]
 		Wifi [penwidth=0]
 			WICED -> Wifi
+		"TODO: Hall Of Fame" [penwidth=0]
 		"TODO: DDSTest" [penwidth=0]
 		"TODO: ProdEdgeFlex" [penwidth=0]
 		Sofian [penwidth=0]
@@ -400,12 +402,23 @@ digraph {
 		OpenSource [penwidth=0]
 			Sofian -> KiCAD
 			KiCAD -> OpenSource
+		Virginie [penwidth=0]
+		Phantoms [penwidth=0]
+			Virginie -> Phantoms
 		Murgen [penwidth=0]
 		KiCAD [penwidth=0]
 			Murgen -> KiCAD
+		BlogJanice [penwidth=0]
+		"OpenSource Gel" [penwidth=0]
+			BlogJanice -> "OpenSource Gel"
 		Phantoms [penwidth=0]
 		"OpenSource Gel" [penwidth=0]
+		Publis [penwidth=0]
 			Phantoms -> "OpenSource Gel"
+			"OpenSource Gel" -> Publis
+		"OpenSource Gel" [penwidth=0]
+		"Analog Two" [penwidth=0]
+			"OpenSource Gel" -> "Analog Two"
 		OpenSource [penwidth=0]
 		GOSH [penwidth=0]
 			OpenSource -> GOSH

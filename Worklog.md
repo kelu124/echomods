@@ -127,35 +127,35 @@ Two other modules are being worked on, namely:
 Worklog -- Starting April 5th 2016
 -------
 
-#### 2016-04-05
+#### 2016-04-05 Captech
 
 * Validation of the approach by the Captech
 
-#### 2016-04-08
+#### 2016-04-08 Tracks of interest
 
 * Validation of tracks of interest
 
-#### 2016-04-15
+#### 2016-04-15 Tracks
 
 * Validation of tracks and their orders
 * Alexandr
 
-#### 2016-04-16
+#### 2016-04-16 uC
 
 * Studying microcontrolers... See  [microcontrollers](notes_uC.md)
 
-#### 2016-04-17
+#### 2016-04-17 PCB
 
 * Getting a first design for the pulser module
  
 ![A PCB for PCB](https://raw.githubusercontent.com/kelu124/echomods/master/tobo/viewme.png)
 
-#### 2016-04-18
+#### 2016-04-18 ADL5511
 
 * Playing a bit with ADL5511 : there's an EREF 
 * We use offset remover (suiveur + gain de 2.5), and second op will do amplification, cause envelope output swing is saturated at 1.2-1.3V, We can use 2..2,5 gain to deliver nice and neat 2,6 ..3V input swing for ADC. 
 
-#### 2016-04-20
+#### 2016-04-20 Modules
 
 ##### Previous Generation
 
@@ -184,7 +184,7 @@ Second generation of fun! Learning microcontrolers and advanced simulations
 * Getting a _TL-MR3040 TP-Link_ for a project PirateBox (an __echObox__ ?)
 * __2016 strategy__ being done
 
-#### 2016-04-25 Working IRL - motivation
+#### 2016-04-25 Working IRL and motivation
 
 * http://bengarvey.com/2016/04/24/real-work/ _How many times today did a customer notice something you did?_
 * http://www.stubbornella.org/content/2013/02/26/why-i-run-my-business-like-an-open-source-project/
@@ -245,12 +245,12 @@ Fun to read
 * http://electronics.stackexchange.com/questions/50577/what-ultrasonic-sensoremitter-should-i-use-for-my-medical-ultrasound-project
 * http://electronics.stackexchange.com/questions/129582/what-is-the-current-consumed-by-ultrasonic-sensors-transducers-1-2mhz-to-gener?rq=1 for power use
 
-#### 2016-05-02
+#### 2016-05-02 What
 
 * http://uk.businessinsider.com/interview-with-estonia-cio-taavi-kotka-2016-4
 
 
-#### 2016-05-03
+#### 2016-05-03 Max Hold Reset
 
 * http://hackaday.com/2016/04/29/saving-lives-with-open-source-electrocardiography/
 __Max-Hold-Reset__
@@ -270,31 +270,31 @@ ou peut etre encore mieux :
 * http://www.tradeofic.com/Circuit/4885-POSITIVE_PEAK_DETECTOR.html
 * PKD01 : trop lent
 
-#### 2016-05-07
+#### 2016-05-07 Websocket
 
 * https://forum.pjrc.com/threads/34095-Teensy-3-2-ESP8266-12Q-High-Speed-ADC-Websocket
 
-#### 2016-05-10
+#### 2016-05-10 KiCAD
 
 * https://contextualelectronics.com/gtb-kicad-4-0/ :  10 Part Tutorial On Designing/Building A PCB (Using FOSS)
 
-#### 2016-05-14
+#### 2016-05-14 Work in Indonesia
 
 * Off to Jakarta =)
 * Next prios : Feather and [ESP8266](notes_ESP8266.md)
 
-#### 2016-05-23
+#### 2016-05-23 Transducers
 
 * Restarting work with transducer and boards makers, Jan and Jerome
 
-#### 2016-05-24
+#### 2016-05-24 RPi
 
 * Bass inspiration : https://www.youtube.com/watch?v=6ZDTelKz4G0
 * Working on [Raspberry Pi Zero notes](notes_RPi0.md)
 * Updated existing notes on [microcontrollers](notes_uC.md) and the [ESP8266](notes_ESP8266.md)
 * Thinking about video / photos port to raspberry (even better than USB transfer, it manages quite high speed ( The two data lanes on the CSI-2 bus provide a theoretical 2 Gbps bandwidth, which approximates to around 5 MP resolution.  ) [here](http://www.petervis.com/Raspberry_PI/Raspberry_Pi_CSI/Raspberry_Pi_CSI_Camera_Module.html)
 
-#### 2016-05-25
+#### 2016-05-25 Markdown and downs
 
 * http://stackoverflow.com/questions/4823468/comments-in-markdown
 * Article on Projects http://teambit.io/blog/all-your-teammates-will-be-gone/
@@ -302,18 +302,18 @@ ou peut etre encore mieux :
 * http://www.certwise.com/blog/31-ways-know-project-doomed/
 * http://gettingreal.37signals.com/toc.php
 
-#### 2016-05-27
+#### 2016-05-27 Partenariats
 
 * Exploring the partnerships with J&J
 
-#### 2016-05-30
+#### 2016-05-30 ESP and such
 
 * http://www.esp8266.com/viewtopic.php?t=669&p=3624 HPSI on ESP8266
 * Nicolas from V.
 * Lancement des PCBs (Jerome)
 * Go for Piezos (Jan)
 
-#### 2016-05-31
+#### 2016-05-31 hackaday fun
 
 * Redirection de visiteurs de Hackaday vers nos ressources
 * Reflexion sur l'EMW3165 -- 8$, ADC à 2.4Msps, WiFi.
@@ -361,13 +361,13 @@ and *CG ?
 * Getting comments on scan conversion at [HAD](https://hackaday.io/project/9281-murgen/log/39271-ultrasound-and-scan-conversion/discussion-58228)
 
 
-#### 2016-06-06
+#### 2016-06-06 Weekly monday
 
 * Weekly meeting at the HD
 * Prof Charles and Zach start playing with Murgen, so I'm starting to experiment with Jekyll for murgen on the corresponding [Github murgen page](http://kelu124.github.io/murgen-dev-kit/)
 
 
-#### 2016-06-07
+#### 2016-06-07 Hall of fame
 
 * Preparing a hall of fame on echopen's wiki
 * Getting a copy of an excellent book : [buy here](http://www.lulu.com/shop/st%C3%A9phane-ribas-and-st%C3%A9phane-ubeda-and-patrick-guillaud/logiciels-et-objets-libres-animer-une-communaut%C3%A9-autour-dun-projet-ouvert/paperback/product-22702396.html)

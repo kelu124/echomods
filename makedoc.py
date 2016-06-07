@@ -49,7 +49,7 @@ def Svg2Png(svgfile):
 # Obtenir la liste des modules
 # -------------------------
 
-ExcludeDirs = ["include","tools",".git"]
+ExcludeDirs = ["include","tools",".git","gh-pages"]
 dirname = "./"
 ListOfDirs = os.listdir(dirname)  
 ModulesDirs = []
@@ -249,5 +249,45 @@ GraphMyMind = apply_styles(GraphMyMind, styles)
 
 GraphMyMind.render(GraphPath)
 Svg2Png(GraphPath)
+
+
+
+f = open("Worklog.md", 'r')
+ReadMehHtmlMarkdown=markdown.markdown( f.read() )
+f.close()
+#print ReadMehHtmlMarkdown
+
+# Getting the Desc of the Module
+pattern = r"<h4>(\d{4}-\d{2}-\d{2}.*)<\/h4>" # gets the titles
+results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+titre = r"(.?*)<\/h4>" # gets the titles
+resultstitre = re.findall(pattern, results[0], flags=0) 
+
+ListePosts = []
+for content in results:
+	pair = []
+	pattern2 = r""+content+"<\/h4>[\s\S]*?<h" # gets the titles
+	results2 = "<h4>"+re.findall(pattern2, ReadMehHtmlMarkdown, flags=0)[0]+"4>"
+	contenu = results2+"\n\n\n"
+	tmp = re.findall(pattern, contenu, flags=0)[0]
+	pair.append(tmp)
+	pair.append(contenu)
+	ListePosts.append(pair)
+#print ListePosts
+
+
+for item in ListePosts:
+	titre = str(item[0])
+	titre2=titre
+	titre = titre.replace(" ", "-")
+	adresse = "./gh-pages/_posts/"+titre+".html"
+	print adresse
+	postcontent = str(item[1])
+	entete = "--- <p>layout: post<p>title: "+titre2+"<p>---<p>"
+
+	text_file = open(adresse, "w")
+	text_file.write(entete+postcontent)
+	text_file.close()
+
 
 
