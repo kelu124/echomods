@@ -30,6 +30,12 @@ PCBs would not really matter, only to be sure they'd fit on a strip
 board. It would be interesting to have a form factor of the modules PCB
 comparable to one trinket pro =)
 
+### Adjusting the specs for a research module
+
+* 10ms between lines - 64 lines gives 640ms / image)
+* 200us at 2Msps is 400 points is 5600 bits is 700 bytes
+* 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s.. should be OK with ESP8266 ;)
+
 ### Details about the modules
 
 1\. HV+Pulser+MD0100 don't change. The module will need to have a SMA
@@ -38,7 +44,7 @@ connector (same as on existing board).
 2\. VGA + enveloppe + ADC
 
 * VGA+enveloppe detector can remain the same. I just need to remove the
-filter that is between the TestPoints4 and 5 and the transformer. The
+filter that is between t	he TestPoints4 and 5 and the transformer. The
 module output is the output of the ADL5511.
 * SPI can be replaced, this one was an overkill. 10Msps is too much, so
 instead a 2 or 3 Msps at 12 or 14 bits in SPI could be used on the ADC
@@ -67,66 +73,34 @@ What is expected is to break down logic blocks into modules that could be put on
 
 ### Still to do
 
-* TODO: Silkscreening with the murgen-series logo =)
-* TODO: Document the motherboard
-* TODO: 2 types to test
-* TODO: Mech-athon
-* TODO: Play with Highspeed SPI (BBB)
-* TODO: Autre SPI: Goblin - 2Msps SPI ADC
+* TODO: Mech-athon - Coming soon
+* TODO: Module: ESP8266+ADC
 * TODO: Design Croaker and Silent
-* TODO: contact Frederic Patat
+* TODO: Contact Frederic Patat
 * TODO: Add status to track progress of the works
 * TODO: Jan
 * TODO: Imprimer une tof a afficher
 * TODO: Contact Edgeflex
-* TODO: Cahier des charges modules
 * TODO: Schemas de fonctionnement des modules
 * TODO: Hack RPi0 CSI (Camera)
-* TODO: Module: ESP8266+ADC
-* TODO: Module: Detection
 * TODO: Voir PCMLab (Jussieu)
+
+### Ongoing
+
+* Ongoing: Document the motherboard -- thanks to Prof Charles
+* TODO: Goblin - 2Msps SPI ADC -- Play with BBB and RPi0 SPI
+
 ### Done
 
 * Done: schemas a taper, puis processing dans le makedoc.py
 * Done: A draft for the analog pulser, [Tobo](/tobo/) -- April 20th 2016
 * Done: [Automating Documentation](https://github.com/kelu124/echomods/blob/master/makedoc.py)
-
-## A rough draft
-
-### Table
-
-| Name | Title | Amplitude |
-|------|-------|-----------|
-|`ITF-A_gnd`|_Ground_|[0V]|
-|`ITF-B_5v`|_5V alimentation_|[5V, 5V]|
-|`ITF-C_amplified_raw_signal`|_Amplified raw signal_|[0V, 2.5V]|
-|`ITF-D_amplified_filtered_signal`|_Amplified filtered signal_|[0V, 2.5V]|
-|`ITF-E_signal_envelope`|_Signal envelope_|[0V, 2.5V]|
-|`ITF-F_12v`|_12V alimentation_|[12V, 12V]|
-|`ITF-G_gain_control`|_Amplifier gain_|[0V, 1V]|
-|`ITF-H_neg_12v`|_-12V alimentation_|[-12V, -12V]|
-|`ITF-I_pulse_on`|_Pulse on_|[0V, 3.3V-5V]|
-|`ITF-J_pulse_off`|_Pulse off_|[0V, 5V]|
-|`ITF-K_pulse_redpitaya`|_Pulse info for Redpitaya_|[0V, 3.3V]|
-|`ITF-L_18v_alimentation`|_18V external alimentation_|[15V, 20V]|
-|`ITF-M_abs_angle`|_Absolute tranducer position_||
-|`ITF-N_cc_motor_pwm`|_CC motor pwm_|[0V, 5V]|
-|`ITF-N_stepper_b2`|_Stepper motor B2 signal_|[-5V, 5V]|
-|`ITF-O_cc_motor_encoder`|_CC motor incremental encoder_|[0V, 5V]|
-|`ITF-O_stepper_b1`|_Stepper motor B1 signal_|[-5V, 5V]|
-|`ITF-P_stepper_a1`|_Stepper motor A1 signal_|[-5V, 5V]|
-|`ITF-Q_stepper_a2`|_Stepper motor A2 signal_|[-5V, 5V]|
-|`ITF-R_reserved`|_reserved track_||
-|`ITF-S_3_3v`|_3.3V alimentation_|[3.3V, 3.3V]|
+* Done: Cahier des charges modules - See __Adjusting the specs for a research module__ on this log
+* Done: Silkscreening with the murgen-series logo =)
+* Cancelled: Module: Detection (Merged in Goblin)
 
 
-### Pic
-
-#### Two modules:
-
-![Motherboard](/include/images/DSC_0284.JPG)
-
-#### Description
+### Description
 
 Board 1, aka [Tobo](/tobo/Readme.md):
 
@@ -150,35 +124,36 @@ Two other modules are being worked on, namely:
 * alimentation
 
 
-Worklog
+Worklog -- Starting April 5th 2016
 -------
 
-#### April 5th
+#### 2016-04-05
 
 Validation of the approach by the Captech
 
-#### April 8th
+#### 2016-04-08
 
-Validation of tracks of interest
+* Validation of tracks of interest
 
-#### April 15th 
+#### 2016-04-15
 
-Validation of tracks and their orders
-Alexandr
-#### April 16th 
+* Validation of tracks and their orders
+* Alexandr
 
-Studying microcontrolers... See below
+#### 2016-04-16
 
-#### April 17th
+* Studying microcontrolers... See  [microcontrollers](notes_uC.md)
+
+#### 2016-04-17
 
 ![A PCB for PCB](/tobo/images/us_#1_top.png)
 
-#### April 18th
+#### 2016-04-18
 
 * Playing a bit with ADL5511 : there's an EREF 
 * We use offset remover (suiveur + gain de 2.5), and second op will do amplification, cause envelope output swing is saturated at 1.2-1.3V, We can use 2..2,5 gain to deliver nice and neat 2,6 ..3V input swing for ADC. 
 
-#### April 20th
+#### 2016-04-20
 
 ##### Previous Generation
 
@@ -196,18 +171,18 @@ Second generation of fun! Learning microcontrolers and advanced simulations
 * Croaker: M3/M4 microcontroler 
 * Silent : physical emulateur
 
-#### April 23th
+#### 2016-04-23 Servos
 
-* A stepper based on a stepper : https://hackaday.io/project/11224-mechaduino (pour @bivi)
+* A stepper based on a servo : https://hackaday.io/project/11224-mechaduino (pour @bivi)
 
-#### April 24th
+#### 2016-04-24 Maintainers
 
 * Starting to document [Tobo](/tobo/Readme.md)
 * Reading __"Maintaining Open Source Projects"__ by Tute Costa : _A project maintainer should feel comfortable shaping the community, promoting the library, keeping good communication with different people, deciding when to release new versions, and prioritizing all these tasks._
 * Getting a _TL-MR3040 TP-Link_ for a project PirateBox (an __echObox__ ?)
 * __2016 strategy__ being done
 
-#### April 25th
+#### 2016-04-25 Working IRL - motivation
 
 * http://bengarvey.com/2016/04/24/real-work/ _How many times today did a customer notice something you did?_
 * http://www.stubbornella.org/content/2013/02/26/why-i-run-my-business-like-an-open-source-project/
@@ -219,14 +194,14 @@ _I define Real Work as_
 * Work that is a direct constraint to the completion of A
 * Work you have been uniquely hired to do.
 
-#### April 26th
+#### 2016-04-26 Motivation
 
 _"I am not a visionary, I'm an engineer," Torvalds says. "I'm perfectly happy with all the people who are walking around and just staring at the clouds ... but I'm looking at the ground, and I want to fix the pothole that's right in front of me before I fall in."_
 
 * http://gggritso.com/human-git-aliases
 * http://neo4j.com/blog/technical-documentation-graph/
 
-#### April 27th
+#### 2016-04-27 Documenting
 
 * Meetings (virginie)
 * Doc of modules : https://github.com/kelu124/echomods/
@@ -236,14 +211,14 @@ _"I am not a visionary, I'm an engineer," Torvalds says. "I'm perfectly happy wi
 * Premier module OK : (HV, + pulser) sources publiees (same github), fab-ready, quasi documente
 * Deuxieme module OK : (TGC, Enveloppe, ADC) sources publiees (same github), fab-ready, documentation en cours
 
-#### April 28th
+#### 2016-04-30 MBTI and DDS
 
 * Am an INTJ-A ... so what?
 * R-2R DDS -- =) MHz DDS with arduino ?
 * http://www.tek.com/blog/tutorial-digital-analog-conversion-%E2%80%93-r-2r-dac
 * https://hackaday.io/project/9469-misc-arm-projects/log/31489-quick-dirty-dds-for-around-1
 
-#### April 29th 
+#### 2016-04-29 Some stuff
 
 Fun to read
 
@@ -251,31 +226,29 @@ Fun to read
 * [Beard things...](http://www.smbc-comics.com/comics/1461854994-20160428.png)
 * Autodocumenting with [makedoc.py](https://github.com/kelu124/echomods/blob/master/makedoc.py) - which updates the [Readme.md](/Readme.md) automatically.
 
-#### April 30th 
+#### 2016-04-30 Graphs
 
 * Adding graphs for all modules with [makedoc.py](https://github.com/kelu124/echomods/blob/master/makedoc.py).
 * TODO: https://www.coursera.org/course/fin4devmooc
 * TODO: https://www.coursera.org/course/effectiveppp
 * TODO: https://www.coursera.org/course/healthcareinnovation
 
-##### Prez for May 2nd
+##### 2016-05-01 A bit of work
 
 * Done: TOBO and GOBLIN
 * Done: Autodocumentation
 * Comment gerer les transducers de Jan?
-* Projet Fantomes commence sur HAD
-
-#### May 1st
+* Projet Fantomes commence sur HAD : phantoms are starting to appear on [Hackaday](https://hackaday.io/project/11478-open-source-ultrasound-phantoms)
 
 * http://electronics.stackexchange.com/questions/50577/what-ultrasonic-sensoremitter-should-i-use-for-my-medical-ultrasound-project
 * http://electronics.stackexchange.com/questions/129582/what-is-the-current-consumed-by-ultrasonic-sensors-transducers-1-2mhz-to-gener?rq=1 for power use
 
-#### May 2nd
+#### 2016-05-02
 
 * http://uk.businessinsider.com/interview-with-estonia-cio-taavi-kotka-2016-4
 
 
-#### May 3rd
+#### 2016-05-03
 
 * http://hackaday.com/2016/04/29/saving-lives-with-open-source-electrocardiography/
 __Max-Hold-Reset__
@@ -286,7 +259,7 @@ ou peut etre encore mieux :
 * __Got it !!__ http://www.falstad.com/circuit/e-peak-detect.html
 * ESP8266: exploration: SPI-ADC+ESP.overclocked ? : http://stackoverflow.com/questions/37014547/esp8266-and-high-speed-external-adc
 
-#### May 4th
+#### 2016-05-04 May the fourth
 
 * http://stackoverflow.com/questions/13447538/how-to-avoid-overlapping-nodes-in-graphviz
 * http://stackoverflow.com/questions/3967600/how-to-prevent-edges-in-graphviz-to-overlap-each-other
@@ -295,30 +268,30 @@ ou peut etre encore mieux :
 * http://www.tradeofic.com/Circuit/4885-POSITIVE_PEAK_DETECTOR.html
 * PKD01 : trop lent
 
-#### May 7th 
+#### 2016-05-07
 
 * https://forum.pjrc.com/threads/34095-Teensy-3-2-ESP8266-12Q-High-Speed-ADC-Websocket
 
-#### May 10th
+#### 2016-05-10
 
 * https://contextualelectronics.com/gtb-kicad-4-0/ :  10 Part Tutorial On Designing/Building A PCB (Using FOSS)
 
-#### May 14th to 20th
+#### 2016-05-14
 
 * Off to Jakarta =)
-* Next prios : Feather and ESP8266
+* Next prios : Feather and [ESP8266](notes_ESP8266.md)
 
-#### May 23rd
+#### 2016-05-23
 
 * Restarting work with transducer and boards makers, Jan and Jerome
 
-#### May 24th 
+#### 2016-05-24
 
 * Bass inspiration : https://www.youtube.com/watch?v=6ZDTelKz4G0
 * Working on [Raspberry Pi Zero notes](notes_RPi0.md)
 * Updated existing notes on [microcontrollers](notes_uC.md) and the [ESP8266](notes_ESP8266.md)
 
-#### May 25th 
+#### 2016-05-25
 
 * http://stackoverflow.com/questions/4823468/comments-in-markdown
 * Article on Projects http://teambit.io/blog/all-your-teammates-will-be-gone/
@@ -326,18 +299,18 @@ ou peut etre encore mieux :
 * http://www.certwise.com/blog/31-ways-know-project-doomed/
 * http://gettingreal.37signals.com/toc.php
 
-#### May 27th
+#### 2016-05-27
 
 * Exploring the partnerships with J&J
 
-#### May 30th
+#### 2016-05-30
 
 * http://www.esp8266.com/viewtopic.php?t=669&p=3624 HPSI on ESP8266
 * Nicolas from V.
 * Lancement des PCBs (Jerome)
 * Go for Piezos (Jan)
 
-#### May 31st
+#### 2016-05-31
 
 * Redirection de visiteurs de Hackaday vers nos ressources
 * Reflexion sur l'EMW3165 -- 8$, ADC à 2.4Msps, WiFi.
@@ -346,6 +319,13 @@ ou peut etre encore mieux :
 * Pas possible de créeer le Wall of Contributors, tjrs ce probleme de reset de mot de passe, aucun email n'arrive.
 * TODO: réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) 
 * [EMW3165](notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
+
+#### 2016-06-04
+
+* Note d'application des timers par STM http://www.st.com/web/en/resource/technical/document/application_note/DM00042534.pdf
+* Un très gros bon post sur les timers : un mois de travail d'après l'auteur  http://embedded-lab.com/blog/stm32-timers/
+* Et son petit frère sur les ADC http://embedded-lab.com/blog/stm32-digital-analogue-converter-dac/
+
 
 ### Croaker
 

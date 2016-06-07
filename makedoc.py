@@ -17,6 +17,9 @@ from wand.api import library
 import wand.color
 import wand.image
 import Image
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 # -------------------------
 # Aide pour le graphe

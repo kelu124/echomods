@@ -10,3 +10,6 @@
 
 * BSP required : https://learn.adafruit.com/introducing-the-adafruit-wiced-feather-wifi/get-the-wiced-bsp
 
+## Setup ?
+
+* https://learn.adafruit.com/introducing-the-adafruit-wiced-feather-wifi/arduino-ide-setup
