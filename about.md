@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+That's a site for updating the worklog of the echomods project.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Built automatiquely : using makedoc.py generates the html files in the gh-pages branch, which are transformed with the createMD.sh script in the gh-branch.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[luc@echopen.org](mailto:luc@echopen.org)
