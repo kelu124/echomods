@@ -14,7 +14,7 @@ title: 2016-06-07 Hall of fame
     [GOSH](http://openhardware.science/gosh-manifesto/).. and finding a
     good [OSH journal](http://openhardware.science/2016/05/20/292/)
     which leads to there : <http://www.journals.elsevier.com/hardwarex>
--   Awesome DIY approach and techniques for ultrasound gel at
-    http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0134332.PDF
+-   Awesome DIY approach and techniques for [ultrasound
+    gel](http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0134332.PDF)
     -- already republished on HAD
 
