@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 2016-05-30-ESP-and-such
+title: 2016-05-30 ESP and such
 
 ---
 

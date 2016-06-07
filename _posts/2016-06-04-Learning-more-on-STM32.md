@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 2016-06-04-Learning-more-on-STM32
+title: 2016-06-04 Learning more on STM32
 
 ---
 

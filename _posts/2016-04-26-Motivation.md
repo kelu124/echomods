@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 2016-04-26-Motivation
+title: 2016-04-26 Motivation
 
 ---
 

@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 2016-06-06-Weekly-monday
+title: 2016-06-06 Weekly monday
 
 ---
 

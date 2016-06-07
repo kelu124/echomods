@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 2016-05-31-hackaday-fun
+title: 2016-05-31 hackaday fun
 
 ---
 
