@@ -2,7 +2,7 @@
 
 layout: post
 
-title:2016-06-07-Hall-of-fame
+title: 2016-06-07-Hall-of-fame
 
 ---
 

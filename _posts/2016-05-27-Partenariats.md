@@ -2,7 +2,7 @@
 
 layout: post
 
-title:2016-05-27-Partenariats
+title: 2016-05-27-Partenariats
 
 ---
 

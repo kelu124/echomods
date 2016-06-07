@@ -2,7 +2,7 @@
 
 layout: post
 
-title:2016-04-24-Maintainers
+title: 2016-04-24-Maintainers
 
 ---
 

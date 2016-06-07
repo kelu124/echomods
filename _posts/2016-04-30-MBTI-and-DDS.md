@@ -2,7 +2,7 @@
 
 layout: post
 
-title:2016-04-30-MBTI-and-DDS
+title: 2016-04-30-MBTI-and-DDS
 
 ---
 

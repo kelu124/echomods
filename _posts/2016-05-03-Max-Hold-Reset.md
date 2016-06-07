@@ -2,7 +2,7 @@
 
 layout: post
 
-title:2016-05-03-Max-Hold-Reset
+title: 2016-05-03-Max-Hold-Reset
 
 ---
 

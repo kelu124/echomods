@@ -2,7 +2,7 @@
 
 layout: post
 
-title:2016-04-25-Working-IRL-and-motivation
+title: 2016-04-25-Working-IRL-and-motivation
 
 ---
 
