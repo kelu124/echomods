@@ -7,3 +7,9 @@ find . -type f -name '*.html' -print0 | while IFS= read -r -d '' line; do
 done
 
 rm *.html
+
+find . -type f -name '*.md' -print0 | while IFS= read -r -d '' line; do
+	sed -i '/^####/d' "$line"
+done
+
+

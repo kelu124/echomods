@@ -1,4 +1,3 @@
-#### 2016-04-27 Documenting
 
 -   Meetings (virginie)
 -   Doc of modules : https://github.com/kelu124/echomods/
@@ -14,4 +13,3 @@
 -   Deuxieme module OK : (TGC, Enveloppe, ADC) sources publiees (same
     github), fab-ready, documentation en cours
 
-####

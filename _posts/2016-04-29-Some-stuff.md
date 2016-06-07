@@ -1,4 +1,3 @@
-#### 2016-04-29 Some stuff
 
 Fun to read
 
@@ -9,4 +8,3 @@ Fun to read
     [makedoc.py](https://github.com/kelu124/echomods/blob/master/makedoc.py) -
     which updates the [Readme.md](/Readme.md) automatically.
 
-####

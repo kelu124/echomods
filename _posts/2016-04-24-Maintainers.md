@@ -1,4 +1,3 @@
-#### 2016-04-24 Maintainers
 
 -   Starting to document [Tobo](/tobo/Readme.md)
 -   Reading **"Maintaining Open Source Projects"** by Tute Costa : *A
@@ -10,4 +9,3 @@
     **echObox** ?)
 -   **2016 strategy** being done
 
-####

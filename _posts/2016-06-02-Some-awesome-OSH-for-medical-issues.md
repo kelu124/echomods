@@ -1,4 +1,3 @@
-#### 2016-06-02 Some awesome OSH for medical issues
 
 An endoscope pill
 
@@ -27,4 +26,3 @@ and \*CG ?
 -   http://hackaday.com/2016/04/29/saving-lives-with-open-source-electrocardiography/
 -   http://hackaday.com/2016/03/13/ekg-business-card-warms-our-hearts/
 
-####
