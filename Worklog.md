@@ -355,9 +355,9 @@ and *CG ?
 
 #### 2016-06-04 Learning more on STM32
 
-* Note d'application des timers par STM http://www.st.com/web/en/resource/technical/document/application_note/DM00042534.pdf
-* Un très gros bon post sur les timers : un mois de travail d'après l'auteur  http://embedded-lab.com/blog/stm32-timers/
-* Et son petit frère sur les ADC http://embedded-lab.com/blog/stm32-digital-analogue-converter-dac/
+* [Note d'application des timers par STM](http://www.st.com/web/en/resource/technical/document/application_note/DM00042534.pdf)
+* Un très gros bon post sur les timers : un mois de travail d'après l'auteur - [post de blog](http://embedded-lab.com/blog/stm32-timers/)
+* Et son [petit frère sur les ADC](http://embedded-lab.com/blog/stm32-digital-analogue-converter-dac/)
 * Getting comments on scan conversion at [HAD](https://hackaday.io/project/9281-murgen/log/39271-ultrasound-and-scan-conversion/discussion-58228)
 
 
@@ -372,7 +372,7 @@ and *CG ?
 * Preparing a hall of fame on echopen's wiki
 * Getting a copy of an excellent book : [buy here](http://www.lulu.com/shop/st%C3%A9phane-ribas-and-st%C3%A9phane-ubeda-and-patrick-guillaud/logiciels-et-objets-libres-animer-une-communaut%C3%A9-autour-dun-projet-ouvert/paperback/product-22702396.html)
 * Reading more about open science hardware with [GOSH](http://openhardware.science/gosh-manifesto/).. and finding a good [OSH journal](http://openhardware.science/2016/05/20/292/) which leads to there : [http://www.journals.elsevier.com/hardwarex](http://www.journals.elsevier.com/hardwarex)
-* Awesome DIY approach and techniques for ultrasound gel at http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0134332.PDF -- already republished on HAD
+* Awesome DIY approach and techniques for [ultrasound gel](http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0134332.PDF) -- already republished on HAD
 
 
 uControllers and other stuff
