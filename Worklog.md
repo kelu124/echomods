@@ -375,6 +375,38 @@ and *CG ?
 * Awesome DIY approach and techniques for [ultrasound gel](http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0134332.PDF) -- already republished on HAD
 
 
+#### 2016-06-08 Zach
+
+* Semifinalist for HACKADAY's challenge !!
+* lending a hand to Zack on GitHub et al : https://github.com/ZTaylor39/murgen-dev-kit
+* Interrupts on Arduino for the emulator : https://learn.adafruit.com/multi-tasking-the-arduino-part-2/external-interrupts
+
+Some research on DACs:
+
+* DAC0800LCN 8-Bit D to A Converter -- http://www.makertronics.co.uk/images/detailed/5/Ext-2254-010.jpg?t=1437747336
+* http://forum.arduino.cc/index.php?topic=179410.0
+* http://www.ti.com.cn/cn/lit/ds/symlink/dac0800.pdf
+* http://hackaday.com/2011/02/17/your-first-digital-to-analog-converter-build/
+* Example : https://labarqui.wordpress.com/2012/07/03/emulador-de-notas/
+
+R2RlLadders
+
+* http://id.motd.org/pivot/entry.php?id=10
+* http://www.mouser.fr/Passive-Components/Resistors/Resistor-Networks-Arrays/_/N-e89l?P=1z0sqtq&Keyword=resistor+network&FS=True
+* http://store.digilentinc.com/pmodr2r-resistor-ladder-d-a-converter/
+
+#### 2016-06-09 Week end !
+
+And nothing.
+
+#### 2016-06-13 News
+
+* Moving forward with Zach
+* Creating a 8 bit R2R resistor ladder
+
+
+
+
 uControllers and other stuff
 -------
 
