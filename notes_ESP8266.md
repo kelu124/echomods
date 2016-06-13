@@ -1,6 +1,6 @@
 # ESP8266
 
-## Facts
+## Factss
  
 * throughput test : http://www.esp8266.com/viewtopic.php?f=5&t=245 + question posee sur http://www.esp8266.com/viewforum.php?f=6
 * Livre: http://neilkolban.com/tech/esp8266/
