@@ -16,8 +16,9 @@ digraph {
 		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) " [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		Tanter [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Nicolas Felix" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Hall Of Fame" [fillcolor=yellow penwidth=0 style="rounded,filled"]
-		DDSTest [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		ProdEdgeFlex [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		HAD [penwidth=0]
 		Murgen [penwidth=0]
@@ -367,14 +368,18 @@ digraph {
 		Todo [penwidth=0]
 		Comm [penwidth=0]
 		An [penwidth=0]
+		"Nicolas Felix" [penwidth=0]
 			Todo -> Comm
 			Comm -> An
+			An -> "Nicolas Felix"
 		Comm [penwidth=0]
 		Langevinium [penwidth=0]
 			Comm -> Langevinium
 		Comm [penwidth=0]
 		Tanter [penwidth=0]
 			Comm -> Tanter
+		"TODO: Tanter" [penwidth=0]
+		"TODO: Nicolas Felix" [penwidth=0]
 		Comm [penwidth=0]
 		P6 [penwidth=0]
 		V2 [penwidth=0]
@@ -395,7 +400,8 @@ digraph {
 		Wifi [penwidth=0]
 			WICED -> Wifi
 		"TODO: Hall Of Fame" [penwidth=0]
-		"TODO: DDSTest" [penwidth=0]
+		"Done: DDSTest" [penwidth=0]
+		"Done: DDSTestWith" [penwidth=0]
 		"TODO: ProdEdgeFlex" [penwidth=0]
 		Sofian [penwidth=0]
 		KiCAD [penwidth=0]
@@ -437,4 +443,31 @@ digraph {
 			DAC -> DDSTest
 			DDSTest -> Tests
 			Tests -> RPi0
+		Comm [penwidth=0]
+		Publication [penwidth=0]
+			Comm -> Publication
+		Murgen [penwidth=0]
+		Caskey [penwidth=0]
+		Zach [penwidth=0]
+			Murgen -> Caskey
+			Caskey -> Zach
+		GitHub [penwidth=0]
+		Zach [penwidth=0]
+			GitHub -> Zach
+		EMW3165 [penwidth=0]
+		Igor [penwidth=0]
+			EMW3165 -> Igor
+		HAD [penwidth=0]
+		"1000$" [penwidth=0]
+		Matos [penwidth=0]
+			HAD -> "1000$"
+			"1000$" -> Matos
+		Comm [penwidth=0]
+		AutresBlogs [penwidth=0]
+		Andre [penwidth=0]
+			Comm -> AutresBlogs
+			AutresBlogs -> Andre
+		DDSTest [penwidth=0]
+		AOP [penwidth=0]
+			DDSTest -> AOP
 }

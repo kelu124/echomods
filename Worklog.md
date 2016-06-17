@@ -410,6 +410,22 @@ And nothing.
 * This hack of a [eink display](https://davidgf.net/page/41/e-ink-wifi-display) is awesome. Hacking a STM32F103ZE and plugging a ESP8266
 * Working on [CSV images library](https://github.com/kelu124/murgen-dev-kit/tree/master/software/examples_csv) for images using the CSV+dict format
 
+#### 2016-06-17
+
+* Printing  with the thermal printer: a success with https://learn.adafruit.com/networked-thermal-printer-using-cups-and-raspberry-pi/network-printing
+* No news from Zach ?
+
+Shopping à faire: 1000$ = 840€
+
+* RPi0 : 42€
+* Lulu - book on opensource projects : 17€
+* Work on EMW3165: 230€
+* Transducteur : 150€
+* Matos en rab EdgeF: (125€)*3/4
+* Deux modules echomods : 110+140 (-125/4)€
+* Reste: 101€ for contigencies + SMA cables + matos (bois)
+
+
 
 uControllers and other stuff
 -------
@@ -565,9 +581,11 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * Igor->PCB
 * ESP8266->Tim->ReviewCode
 * WICED->KGhosh
-* Todo->Comm->An
+* Todo->Comm->An->Nicolas Felix
 * Comm->Langevinium
 * Comm->Tanter
+* TODO: Tanter
+* TODO: Nicolas Felix
 * Comm->P6->V2->FabLab->Voir PCMLab (Jussieu)
 * Partenariat->Edgeflex->Revenues->AutoFinancement
 * WICED->Wifi
@@ -575,7 +593,8 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 #### June 7th
 
 * TODO: Hall Of Fame
-* TODO: DDSTest
+* Done: DDSTest
+* Done: DDSTestWith
 * TODO: ProdEdgeFlex
 * Sofian->KiCAD->OpenSource
 * Virginie->Phantoms
@@ -587,3 +606,13 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * SendMiniCircuits->ProdEdgeFlex->Tests
 * ArduinoNano->DDSTest
 * DAC->DDSTest->Tests->RPi0
+
+#### June 17th
+
+* Comm->Publication
+* Murgen->Caskey->Zach
+* GitHub->Zach
+* EMW3165->Igor
+* HAD->1000$->Matos
+* Comm->AutresBlogs->Andre
+* DDSTest->AOP
