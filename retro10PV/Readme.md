@@ -26,13 +26,18 @@ The aim of this echOmod is to get the rotation and getting the piezos.
 
 ## Inputs
 
+* `ITF-N_cc_motor_pwm`
 * `ITF-A_gnd`
 * `ITF-N_cc_motor_pwm`
-* `ITF-mET_Transducer`
+* `ITF-mET_Piezo`
+* `Motor`
+* `Tri-Piezo Head`
 
 ## Outputs
 
-* `ITF-mET_Transducer`
+* `Motor`
+* `ITF-mET_Piezo`
+* `Tri-Piezo Head`
 
 # Key Components
 

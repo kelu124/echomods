@@ -14,7 +14,6 @@ Key interfaces, signals and alims will be available on each of the 19 tracks on 
 * [Tobo](/tobo/Readme.md): the __HV and pulser module__, based on a drafted close to Murgen. 
 * [Cletus](/cletus/Readme.md): the __piezo and servo module__. Did not change. 
 * [One-Eye](/oneeye/Readme.md) is the __MicroControler module__, to be working with Arduinos at first, such as the Trinket Pro.
-* [Retro-ATL10PV](/retro10PV/Readme.md) is the __Motor + Piezo__.
 * [Mogaba](/mogaba/Readme.md) is the __Alimentation Module__.
 * and ... the __motherboard__.
 
@@ -44,7 +43,7 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 |<img src='https://github.com/kelu124/echomods/blob/master/cletus/viewme.png' align='center' width='150'>|**[cletus](/cletus/Readme.md)**: The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.|ITF-A_gnd, ITF-B_5v, ITF-N_cc_motor_pwm, ITF-S_3_3v, ITF-mET_Transducer, ITF-mET_Piezo|ITF-mET_Piezo, ITF-mET_Transducer|
 |<img src='https://github.com/kelu124/echomods/blob/master/oneeye/viewme.png' align='center' width='150'>|**[oneeye](/oneeye/Readme.md)**: The module aims at making a microcontroler, for the moment the <code>ArduinoTrinketPro</code>, usable with the motherboard and the set of modules.|ITF-A_gnd, ITF-B_5v, ITF-S_3_3v|ITF-G_gain_control, ITF-I_pulse_on, ITF-J_pulse_off, ITF-N_cc_motor_pwm|
 |<img src='https://github.com/kelu124/echomods/blob/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed.|ITF-A_gnd, ITF-B_5v, ITF-S_3_3v, ITF-G_gain_control, ITF-C_amplified_raw_signal, ITF-E_signal_envelope, ITF-R_reserved, ITF-mET_SMA|ITF-C_amplified_raw_signal, ADL5511, ITF-E_signal_envelope, ITF-mEG_SPI|
-|<img src='https://github.com/kelu124/echomods/blob/master/retro10PV/viewme.png' align='center' width='150'>|**[retro10PV](/retro10PV/Readme.md)**: The aim of this echOmod is to get the rotation and getting the piezos.|ITF-A_gnd, ITF-N_cc_motor_pwm, ITF-mET_Transducer|ITF-mET_Transducer|
+|<img src='https://github.com/kelu124/echomods/blob/master/retro10PV/viewme.png' align='center' width='150'>|**[retro10PV](/retro10PV/Readme.md)**: The aim of this echOmod is to get the rotation and getting the piezos.|ITF-N_cc_motor_pwm, ITF-A_gnd, ITF-N_cc_motor_pwm, ITF-mET_Piezo, Motor, Tri-Piezo Head|Motor, ITF-mET_Piezo, Tri-Piezo Head|
 |<img src='https://github.com/kelu124/echomods/blob/master/mogaba/viewme.png' align='center' width='150'>|**[mogaba](/mogaba/Readme.md)**: The aim of this echOmod is to get 3.3V and 5V done.|ITF-mEM_Alimentation|ITF-A_gnd, ITF-B_5v, ITF-S_3_3v|
 
 
