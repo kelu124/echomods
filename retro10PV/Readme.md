@@ -56,26 +56,26 @@ The aim of this echOmod is to get the rotation and getting the piezos.
 
 ## What is inside?
 
-!(Opening)[/retro10PV/images/IMG_2405.JPG]
+![Opening](/retro10PV/images/IMG_2405.JPG)
 
-!(Details of the piezos)[/retro10PV/images/IMG_2401.JPG]
+![Details of the piezos](/retro10PV/images/IMG_2401.JPG)
 
-!(Exploding)[/retro10PV/images/20160307_213105_HDR.jpg]
+![Exploding](/retro10PV/images/20160307_213105_HDR.jpg)
 
 ## Cleaning and creation the connections
 
 
-!(Rewired)[/retro10PV/images/DSC_0683.JPG]
+![Rewired](/retro10PV/images/DSC_0683.JPG)
 
 ## Use of the probe
 
-!()[/retro10PV/images/DSC_0682.JPG]
+![](/retro10PV/images/DSC_0682.JPG)
 
 ## Signals
 
-!()[/retro10PV/images/DSC_0680.JPG]
+![](/retro10PV/images/DSC_0680.JPG)
 
-!()[/retro10PV/images/DSC_0681.JPG]
+![](/retro10PV/images/DSC_0681.JPG)
 
 # License
 

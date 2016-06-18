@@ -14,6 +14,7 @@ Key interfaces, signals and alims will be available on each of the 19 tracks on 
 * [Tobo](/tobo/Readme.md): the __HV and pulser module__, based on a drafted close to Murgen. 
 * [Cletus](/cletus/Readme.md): the __piezo and servo module__. Did not change. 
 * [One-Eye](/oneeye/Readme.md) is the __MicroControler module__, to be working with Arduinos at first, such as the Trinket Pro.
+* [Retro-ATL10PV](/retro10PV/Readme.md) is the __Motor + Piezo__.
 * [Mogaba](/mogaba/Readme.md) is the __Alimentation Module__.
 * and ... the __motherboard__.
 
