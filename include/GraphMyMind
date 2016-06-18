@@ -372,6 +372,12 @@ digraph {
 			Todo -> Comm
 			Comm -> An
 			An -> "Nicolas Felix"
+		Vermon [penwidth=0]
+		"Nicolas Felix" [penwidth=0]
+			Vermon -> "Nicolas Felix"
+		Vermon [penwidth=0]
+		An [penwidth=0]
+			Vermon -> An
 		Comm [penwidth=0]
 		Langevinium [penwidth=0]
 			Comm -> Langevinium

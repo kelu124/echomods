@@ -582,6 +582,8 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * ESP8266->Tim->ReviewCode
 * WICED->KGhosh
 * Todo->Comm->An->Nicolas Felix
+* Vermon->Nicolas Felix
+* Vermon->An
 * Comm->Langevinium
 * Comm->Tanter
 * TODO: Tanter
@@ -616,3 +618,4 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * HAD->1000$->Matos
 * Comm->AutresBlogs->Andre
 * DDSTest->AOP
+
