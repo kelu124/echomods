@@ -49,7 +49,7 @@ def Svg2Png(svgfile):
 # Obtenir la liste des modules
 # -------------------------
 
-ExcludeDirs = ["include","tools",".git","gh-pages"]
+ExcludeDirs = ["include","retired","tools",".git","gh-pages"]
 dirname = "./"
 ListOfDirs = os.listdir(dirname)  
 ModulesDirs = []
