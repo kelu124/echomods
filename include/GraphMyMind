@@ -1,5 +1,5 @@
 digraph {
-	graph [fontsize=26 label="my mind" layout=neato rankdir=BT]
+	graph [fontsize=26 label="my mind" layout=neato outputorder=edgesfirst rankdir=BT]
 		"Mech-athon - Coming soon" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Module- ESP8266+ADC" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Design Croaker and Silent" [fillcolor=yellow penwidth=0 style="rounded,filled"]
@@ -20,6 +20,7 @@ digraph {
 		"Nicolas Felix" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Hall Of Fame" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		ProdEdgeFlex [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Find PRS" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		HAD [penwidth=0]
 		Murgen [penwidth=0]
 			HAD -> Murgen
@@ -476,4 +477,20 @@ digraph {
 		DDSTest [penwidth=0]
 		AOP [penwidth=0]
 			DDSTest -> AOP
+		NextSteps [penwidth=0]
+		Industralisation [penwidth=0]
+		Bitmaker [penwidth=0]
+			NextSteps -> Industralisation
+			Industralisation -> Bitmaker
+		Industralisation [penwidth=0]
+		Vermon [penwidth=0]
+		"Nicolas F." [penwidth=0]
+			Industralisation -> Vermon
+			Vermon -> "Nicolas F."
+		Industralisation [penwidth=0]
+		PRS [penwidth=0]
+		"Find PRS" [penwidth=0]
+			Industralisation -> PRS
+			PRS -> "Find PRS"
+		"TODO: Find PRS" [penwidth=0]
 }

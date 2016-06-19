@@ -197,6 +197,7 @@ styles = {
         'label': 'my mind',
 	'layout':"neato",
 	'fontsize':"26",
+	'outputorder':'edgesfirst',
 	#"overlap":"false",
         'rankdir': 'BT',
     }

@@ -410,7 +410,7 @@ And nothing.
 * This hack of a [eink display](https://davidgf.net/page/41/e-ink-wifi-display) is awesome. Hacking a STM32F103ZE and plugging a ESP8266
 * Working on [CSV images library](https://github.com/kelu124/murgen-dev-kit/tree/master/software/examples_csv) for images using the CSV+dict format
 
-#### 2016-06-17
+#### 2016-06-17 Printing and budgets
 
 * Printing  with the thermal printer: a success with https://learn.adafruit.com/networked-thermal-printer-using-cups-and-raspberry-pi/network-printing
 * No news from Zach ?
@@ -425,7 +425,12 @@ Shopping à faire: 1000$ = 840€
 * Deux modules echomods : 110+140 (-125/4)€
 * Reste: 101€ for contigencies + SMA cables + matos (bois)
 
+#### 2016-06-18
 
+* Awesome [CapMED](https://docs.google.com/document/d/1GOPfu91g4AG9QSKEKXoJd4JmZWLB6M4NtTwfT9k_dX4/edit)
+* Retroengineering [a 10PV probe](https://github.com/kelu124/echomods/tree/master/retro10PV).. only 10PV? Ain't much.
+* Drinking beer
+* Admiring an [IA work at recontructing blade runner](https://medium.com/@Terrybroad/autoencoding-blade-runner-88941213abbe#.tn5whktwl)
 
 uControllers and other stuff
 -------
@@ -618,4 +623,11 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * HAD->1000$->Matos
 * Comm->AutresBlogs->Andre
 * DDSTest->AOP
+
+#### June 18th
+
+* NextSteps->Industralisation->Bitmaker
+* Industralisation->Vermon->Nicolas F.
+* Industralisation->PRS->Find PRS
+* TODO: Find PRS
 
