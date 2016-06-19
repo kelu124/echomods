@@ -5,7 +5,7 @@
 * Retroengineering of 10PV
 * version: V0.1
 * date: 18/06/2016
-* technology: Hacking the 10PV
+* technology: Hacking the ATL10PV
 * language: n/a
 * author: Kelu124
 
@@ -13,7 +13,7 @@
 
 ## What is it supposed to do ?
 
-The aim of this echOmod is to get the rotation and getting the piezos.
+The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former [ATL10PV](http://echopen.org/index.php/ATL_Access_10PV).
 
 ## How does it work: block diagram
 
@@ -56,9 +56,11 @@ The aim of this echOmod is to get the rotation and getting the piezos.
 
 ## Constraint and limits
 
-* Motor is a 12V... doesn't move below 10V ... using 300mA@10V
+* Motor is a 12V... doesn't move below 10V ... using 300mA@10V -- we could use a [5V to 12V DC/DC boost similar to this one](https://www.pololu.com/product/2117/specs). Could feed onto the 5V entry and leave on the 12V output. Can be found on Gotronics and such. Or the 12V could be delivered to the board itself.
 * 3 piezos are fixed frequency
 * Oil to be found to replace lost one =)
+
+
 # Discussions
 
 ## What is inside?
