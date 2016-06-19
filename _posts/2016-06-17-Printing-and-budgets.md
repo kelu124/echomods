@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 2016-06-17
+title: 2016-06-17 Printing and budgets
 
 ---
 
