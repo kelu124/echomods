@@ -57,6 +57,9 @@ The aim of this echOmod is to get the rotation and getting the piezos.
 
 ## Constraint and limits
 
+* Motor is a 12V... doesn't move below 10V ... using 300mA@10V
+* 3 piezos are fixed frequency
+* Oil to be found to replace lost one =)
 # Discussions
 
 ## What is inside?
