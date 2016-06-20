@@ -71,12 +71,9 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### TODO
 
-* Manage to feed it 12V
-
 ### DONE
 
-* Test if 12V OK
-* Find supplier
+* First test with Arduino Trinket
 
 ### People
 

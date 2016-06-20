@@ -432,6 +432,24 @@ Shopping à faire: 1000$ = 840€
 * Drinking beer
 * Admiring an [IA work at recontructing blade runner](https://medium.com/@Terrybroad/autoencoding-blade-runner-88941213abbe#.tn5whktwl)
 
+#### 2016-06-19 Hmm 
+
+* Followup with Zach
+* Ping Michael T
+* Ping Edgeflex: quid microcircuits
+
+Beaglebone black : Max SPI 32MHz
+* http://fr.mathworks.com/help/supportpkg/beagleboneio/ug/use-the-beaglebone-black-spi-interface-to-connect-to-a-device.html?requestedDomain=www.mathworks.com
+* http://beaglebone.cameon.net/home/reading-the-analog-inputs-adc
+* Comment faire un DAC à 1MHz http://www.mikrocontroller.net/attachment/147272/Figure_8_Datenblatt_DAC0800.png
+
+Available probes, one of which being a 10PV:
+
+* http://www.ebay.fr/itm/ATL-Access-10PV-5-7-5-10-MHz-Multi-Frequency-Transducer-3337-/291685156080?hash=item43e9ca44f0:m:md6YQd3EstKy9--Am0X2fdg
+* http://www.ebay.fr/itm/ATL-A6-3mhz-Ultrasound-Transducer-Probe-/282069422915?hash=item41aca5d343:g:F6wAAOSw~bFWKk9O
+
+
+
 uControllers and other stuff
 -------
 

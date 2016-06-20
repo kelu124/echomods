@@ -29,6 +29,7 @@ Mogaba, the power supply
 
 * `ITF-A_gnd`
 * `ITF-B_5v`
+* `ITF-F_12V`
 * `ITF-S_3_3v`
 
 ## Key Components

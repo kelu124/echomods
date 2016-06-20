@@ -14,6 +14,8 @@ digraph {
 		"ITF-J_pulse_off" -> tobo [nodesep=1 splines=line]
 	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
 		"ITF-S_3_3v" -> tobo [nodesep=1 splines=line]
+	"ITF-mET_Transducer" [fillcolor=green style="rounded,filled"]
+		"ITF-mET_Transducer" -> tobo [nodesep=1 splines=line]
 	"ITF-R_reserved" [fillcolor=yellow style="rounded,filled"]
 		tobo -> "ITF-R_reserved" [fillcolor=red nodesep=1 splines=line]
 	"ITF-mET_SMA" [fillcolor=green style="rounded,filled"]
@@ -82,6 +84,8 @@ digraph {
 		mogaba -> "ITF-A_gnd" [fillcolor=red nodesep=1 splines=line]
 	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]
 		mogaba -> "ITF-B_5v" [fillcolor=red nodesep=1 splines=line]
+	"ITF-F_12V" [fillcolor=yellow style="rounded,filled"]
+		mogaba -> "ITF-F_12V" [fillcolor=red nodesep=1 splines=line]
 	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
 		mogaba -> "ITF-S_3_3v" [fillcolor=red nodesep=1 splines=line]
 }

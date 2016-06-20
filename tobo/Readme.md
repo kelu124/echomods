@@ -29,6 +29,7 @@ Tobo: the HV-pulser
 * `ITF-I_pulse_on`
 * `ITF-J_pulse_off`
 * `ITF-S_3_3v`
+* `ITF-mET_Transducer` : signal coming back	
 
 ### Outputs
 
