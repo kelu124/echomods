@@ -94,7 +94,7 @@ for ReadMe in ListOfDirs:
 	f.close()
 
 	# Getting the Desc of the Module
-	pattern = r"</h2>([\s\S]*)<h2>How"
+	pattern = r"</h3>([\s\S]*)<h3>How"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<p>(.*?)</p>"
 	Desc = []
@@ -102,8 +102,8 @@ for ReadMe in ListOfDirs:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
 	Desc = Desc[0]
 
-	# Getting the Innards of the Module
-	pattern = r"block diagram</h2>([\s\S]*)<h1>IOs"
+	# Getting the Innards of the Module // inside the block diagram
+	pattern = r"block diagram</h3>([\s\S]*)<h2>About"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
 	Pairs = []
@@ -124,7 +124,7 @@ for ReadMe in ListOfDirs:
 	Svg2Png(ReadMe+'/source/blocks')
 
 	# Getting the Inputs of the Module
-	pattern = r"Inputs</h2>([\s\S]*)<h2>Outputs"
+	pattern = r"Inputs</h3>([\s\S]*)<h3>Outputs"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<code>(.*?)</code>"
 	Inputs = []
@@ -141,7 +141,7 @@ for ReadMe in ListOfDirs:
 
 
 	# Getting the Ouputs of the Module
-	pattern = r"Outputs</h2>([\s\S]*)<h1>Key"
+	pattern = r"Outputs</h3>([\s\S]*)<h2>Key"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<code>(.*?)</code>"
 	Outputs = []

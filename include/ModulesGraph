@@ -60,6 +60,8 @@ digraph {
 		goblin -> "ITF-mEG_SPI" [fillcolor=red nodesep=1 splines=line]
 	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
 		"ITF-A_gnd" -> retro10PV [nodesep=1 splines=line]
+	"ITF-F_12V" [fillcolor=yellow style="rounded,filled"]
+		"ITF-F_12V" -> retro10PV [nodesep=1 splines=line]
 	"ITF-N_cc_motor_pwm" [fillcolor=yellow style="rounded,filled"]
 		"ITF-N_cc_motor_pwm" -> retro10PV [nodesep=1 splines=line]
 	"ITF-mET_Transducer" [fillcolor=green style="rounded,filled"]
