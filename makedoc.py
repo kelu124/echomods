@@ -159,8 +159,51 @@ for ReadMe in ListOfDirs:
 
 	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
 
-
 TableDocTxt = TableModules+"\n\n"
+
+# -------------------------
+# Créer le tableau d'avancement
+# -------------------------
+
+TableAvancement = "# Progress on building the modules \n\n\n"
+
+TableAvancement += "| Name of module | ToDo | Done | Contrib | Progress |\n"
+TableAvancement += "|------|-------|----|------|------|\n"
+
+
+for ReadMe in ListOfDirs:
+	f = open(ReadMe+"/Readme.md", 'r')
+	ReadMehHtmlMarkdown=markdown.markdown( f.read() )
+	f.close()
+
+
+	# Getting the todo-list for the module
+	pattern = r"</h3>([\s\S]*)<h3>DONE"
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	patternCode = r"<li>(.*?)</li>"
+	for item in results:
+            todos = (map(str, re.findall(patternCode, item, flags=0)))
+	    TODO = ", ".join( todos )
+	# Getting the done-list for the module
+	pattern = r"</h3>([\s\S]*)<h3>People"
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	patternCode = r"<li>(.*?)</li>"
+	for item in results:
+            dones = (map(str, re.findall(patternCode, item, flags=0)))
+	    DONE = ", ".join( dones )
+	# Getting the peoplefor the module
+	pattern = r"</h3>([\s\S]*)<h2>License"
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	patternCode = r"<li>(.*?)</li>"
+	for item in results:
+            peoples = (map(str, re.findall(patternCode, item, flags=0)))
+	    PEOPLE = ", ".join( peoples )
+	# Getting the progress	
+	nbDone = len(dones)
+	nbTodo = len(todos)
+	PCProgress = (nbDone*100)/(nbTodo+nbDone)
+	
+	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+PEOPLE+"|"+str(PCProgress)+"% |\n"
 
 # -------------------------
 # Créer le graphe des modules
@@ -180,7 +223,7 @@ GraphModulesTxt = "\n# The modules organization \n\n"
 
 GraphModulesTxt += "![Graph](/include/ModulesGraph.png) \n\n"
 
-FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
+FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+TableAvancement+AddInterfacesDocTxt+AddLicenseDocTxt
 
 f = open("Readme.md","w+")
 f.write(FinalDoc)
