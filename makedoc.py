@@ -175,24 +175,23 @@ for ReadMe in ListOfDirs:
 	f = open(ReadMe+"/Readme.md", 'r')
 	ReadMehHtmlMarkdown=markdown.markdown( f.read() )
 	f.close()
-
-
+	print ReadMehHtmlMarkdown
 	# Getting the todo-list for the module
-	pattern = r"</h3>([\s\S]*)<h3>DONE"
+	pattern = r"Discussions</h2>([\s\S]*)<h3>DONE"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
 	for item in results:
             todos = (map(str, re.findall(patternCode, item, flags=0)))
 	    TODO = ", ".join( todos )
 	# Getting the done-list for the module
-	pattern = r"</h3>([\s\S]*)<h3>People"
+	pattern = r"DONE</h3>([\s\S]*)<h3>People"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
 	for item in results:
             dones = (map(str, re.findall(patternCode, item, flags=0)))
 	    DONE = ", ".join( dones )
 	# Getting the peoplefor the module
-	pattern = r"</h3>([\s\S]*)<h2>License"
+	pattern = r"People</h3>([\s\S]*)<h2>License"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
 	for item in results:
@@ -201,8 +200,10 @@ for ReadMe in ListOfDirs:
 	# Getting the progress	
 	nbDone = len(dones)
 	nbTodo = len(todos)
-	PCProgress = (nbDone*100)/(nbTodo+nbDone)
-	
+	if (nbTodo+nbDone)>0:
+		PCProgress = (nbDone*100)/(nbTodo+nbDone)
+	else:
+		PCProgress = "NA"
 	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+PEOPLE+"|"+str(PCProgress)+"% |\n"
 
 # -------------------------
