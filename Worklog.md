@@ -448,7 +448,21 @@ Available probes, one of which being a 10PV:
 * http://www.ebay.fr/itm/ATL-Access-10PV-5-7-5-10-MHz-Multi-Frequency-Transducer-3337-/291685156080?hash=item43e9ca44f0:m:md6YQd3EstKy9--Am0X2fdg
 * http://www.ebay.fr/itm/ATL-A6-3mhz-Ultrasound-Transducer-Probe-/282069422915?hash=item41aca5d343:g:F6wAAOSw~bFWKk9O
 
+#### 2016-06-21 Financing
 
+* http://www.fse.gouv.fr/archives/article/associations
+* http://www.centre-francais-fondations.org/ressources-pratiques/solliciter-le-soutien-dun-fonds-ou-dune-fondation
+* http://www.centre-francais-fondations.org/fondations-fonds-de-dotation/annuaire/annuaires-1
+* http://www.centre-francais-fondations.org/annuaire-des-fondations/5172
+* https://www.vivalto-sante.com/recherche-et-innovation/recherche-clinique/
+
+* http://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table
+* https://blog.bolt.io/demystifying-hardware-jargon-9d7a0cda9b55#.wbophjmdk
+
+#### 2016-06-22 Slides, and VDB
+
+* Resources sympas : http://bafflednerd.com/learn-python-online/
+* http://pandoc.org/README.html#producing-slide-shows-with-pandoc
 
 uControllers and other stuff
 -------

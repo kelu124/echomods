@@ -136,7 +136,10 @@ for ReadMe in ListOfDirs:
 		else:
 		    GraphModules.node(eachInput, style="rounded,filled", fillcolor="green")		
 		GraphModules.edge(eachInput, ReadMe, splines="line", nodesep="1")
-	inpoots = ", ".join( Inputs )
+	if len(Inputs) > 0:
+		inpoots = "<ul><li>"+"</li><li>".join( Inputs )+"</li></ul>"
+	else:
+		inpoots = ""
 	
 
 
@@ -153,8 +156,10 @@ for ReadMe in ListOfDirs:
 		else:
 		    GraphModules.node(eachOutput, style="rounded,filled", fillcolor="green")
 		GraphModules.edge(ReadMe, eachOutput, splines="line", nodesep="1", fillcolor="red")
-	outpoots = ", ".join( Outputs )
-
+	if len(Outputs) > 0:
+		outpoots = "<ul><li>"+"</li><li>".join( Outputs )+"</li></ul>"
+	else:
+		outpoots = ""
 
 
 	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
@@ -175,28 +180,37 @@ for ReadMe in ListOfDirs:
 	f = open(ReadMe+"/Readme.md", 'r')
 	ReadMehHtmlMarkdown=markdown.markdown( f.read() )
 	f.close()
-	print ReadMehHtmlMarkdown
+	#print ReadMehHtmlMarkdown
 	# Getting the todo-list for the module
 	pattern = r"Discussions</h2>([\s\S]*)<h3>DONE"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
 	for item in results:
             todos = (map(str, re.findall(patternCode, item, flags=0)))
-	    TODO = ", ".join( todos )
+	    if len(todos) > 0:
+		TODO = "<ul><li>"+"</li><li>".join( todos )+"</li></ul>"
+	    else:
+		TODO = ""
 	# Getting the done-list for the module
 	pattern = r"DONE</h3>([\s\S]*)<h3>People"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
 	for item in results:
             dones = (map(str, re.findall(patternCode, item, flags=0)))
-	    DONE = ", ".join( dones )
+	    if len(dones) > 0:
+		DONE = "<ul><li>"+"</li><li>".join( dones )+"</li></ul>"
+	    else:
+		DONE = ""
 	# Getting the peoplefor the module
 	pattern = r"People</h3>([\s\S]*)<h2>License"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
 	for item in results:
             peoples = (map(str, re.findall(patternCode, item, flags=0)))
-	    PEOPLE = ", ".join( peoples )
+	    if len(peoples) > 0:
+		PEOPLE = "<ul><li>"+"</li><li>".join( peoples )+"</li></ul>"
+	    else:
+		PEOPLE = ""
 	# Getting the progress	
 	nbDone = len(dones)
 	nbTodo = len(todos)
@@ -326,7 +340,7 @@ for item in ListePosts:
 	titre2=titre
 	titre = titre.replace(" ", "-")
 	adresse = "./gh-pages/_posts/"+titre+".html"
-	print adresse
+	#print adresse
 	postcontent = str(item[1])
 	entete = "--- <p>layout: post<p>title: "+titre2+"<p>---<p>"
 

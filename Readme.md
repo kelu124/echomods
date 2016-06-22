@@ -39,11 +39,11 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 
 | ThumbnailImage | Name | In | Out |
 |------|-------|----|------|
-|<img src='https://github.com/kelu124/echomods/blob/master/tobo/viewme.png' align='center' width='150'>|**[tobo](/tobo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|ITF-A_gnd, ITF-B_5v, ITF-I_pulse_on, ITF-J_pulse_off, ITF-S_3_3v, ITF-mET_Transducer|ITF-R_reserved, ITF-mET_SMA, ITF-mET_Transducer|
-|<img src='https://github.com/kelu124/echomods/blob/master/oneeye/viewme.png' align='center' width='150'>|**[oneeye](/oneeye/Readme.md)**: The module aims at making a microcontroler, for the moment the <code>ArduinoTrinketPro</code>, usable with the motherboard and the set of modules.|ITF-A_gnd, ITF-B_5v, ITF-S_3_3v|ITF-G_gain_control, ITF-I_pulse_on, ITF-J_pulse_off, ITF-N_cc_motor_pwm|
-|<img src='https://github.com/kelu124/echomods/blob/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed.|ITF-A_gnd, ITF-B_5v, ITF-S_3_3v, ITF-G_gain_control, ITF-C_amplified_raw_signal, ITF-E_signal_envelope, ITF-R_reserved, ITF-mET_SMA|ITF-C_amplified_raw_signal, ADL5511, ITF-E_signal_envelope, ITF-mEG_SPI|
-|<img src='https://github.com/kelu124/echomods/blob/master/retro10PV/viewme.png' align='center' width='150'>|**[retro10PV](/retro10PV/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former <a href="http://echopen.org/index.php/ATL_Access_10PV">ATL10PV</a>.|ITF-A_gnd, ITF-F_12V, ITF-N_cc_motor_pwm, ITF-mET_Transducer, Motor, Tri-Piezo Head|Motor, ITF-mET_Transducer, Tri-Piezo Head|
-|<img src='https://github.com/kelu124/echomods/blob/master/mogaba/viewme.png' align='center' width='150'>|**[mogaba](/mogaba/Readme.md)**: The aim of this echOmod is to get 3.3V and 5V done.|ITF-mEM_Alimentation|ITF-A_gnd, ITF-B_5v, ITF-F_12V, ITF-S_3_3v|
+|<img src='https://github.com/kelu124/echomods/blob/master/tobo/viewme.png' align='center' width='150'>|**[tobo](/tobo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-I_pulse_on</li><li>ITF-J_pulse_off</li><li>ITF-S_3_3v</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-R_reserved</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/oneeye/viewme.png' align='center' width='150'>|**[oneeye](/oneeye/Readme.md)**: The module aims at making a microcontroler, for the moment the <code>ArduinoTrinketPro</code>, usable with the motherboard and the set of modules.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-S_3_3v</li></ul>|<ul><li>ITF-G_gain_control</li><li>ITF-I_pulse_on</li><li>ITF-J_pulse_off</li><li>ITF-N_cc_motor_pwm</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-S_3_3v</li><li>ITF-G_gain_control</li><li>ITF-C_amplified_raw_signal</li><li>ITF-E_signal_envelope</li><li>ITF-R_reserved</li><li>ITF-mET_SMA</li></ul>|<ul><li>ITF-C_amplified_raw_signal</li><li>ADL5511</li><li>ITF-E_signal_envelope</li><li>ITF-mEG_SPI</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retro10PV/viewme.png' align='center' width='150'>|**[retro10PV](/retro10PV/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former <a href="http://echopen.org/index.php/ATL_Access_10PV">ATL10PV</a>.|<ul><li>ITF-A_gnd</li><li>ITF-F_12V</li><li>ITF-N_cc_motor_pwm</li><li>ITF-mET_Transducer</li><li>Motor</li><li>Tri-Piezo Head</li></ul>|<ul><li>Motor</li><li>ITF-mET_Transducer</li><li>Tri-Piezo Head</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/mogaba/viewme.png' align='center' width='150'>|**[mogaba](/mogaba/Readme.md)**: The aim of this echOmod is to get 3.3V and 5V done.|<ul><li>ITF-mEM_Alimentation</li></ul>|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-F_12V</li><li>ITF-S_3_3v</li></ul>|
 
 
 # Progress on building the modules 
@@ -51,11 +51,11 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 
 | Name of module | ToDo | Done | Contrib | Progress |
 |------|-------|----|------|------|
-|tobo|Send microcircuits to Edgeflex, Receive the module, Test it with different transducers, Publish the sources in KiCAD|Specs to write, Agreeing on the strips , Defining the ICs to use, Getting schematics|Sofian (for preparing the field with Murgen)|50% |
-|oneeye||First test with Arduino Trinket||100% |
-|goblin|Send microcircuits to Edgeflex, Receive the module, Plug it to a RPi0 or BBB or RPi or ..., Publish the sources in KiCAD|Specs to write, Agreeing on the strips , Defining the ICs to use, Getting schematics|Sofian (for preparing the field with Murgen)|50% |
-|retro10PV|||BiVi|NA% |
-|mogaba|Manage to feed it 12V|Test if 12V OK, Find supplier||66% |
+|tobo|<ul><li>Send microcircuits to Edgeflex</li><li>Receive the module</li><li>Test it with different transducers</li><li>Publish the sources in KiCAD</li></ul>|<ul><li>Specs to write</li><li>Agreeing on the strips </li><li>Defining the ICs to use</li><li>Getting schematics</li></ul>|<ul><li>Sofian (for preparing the field with Murgen)</li></ul>|50% |
+|oneeye||<ul><li>First test with Arduino Trinket</li></ul>||100% |
+|goblin|<ul><li>Send microcircuits to Edgeflex</li><li>Receive the module</li><li>Plug it to a RPi0 or BBB or RPi or ...</li><li>Publish the sources in KiCAD</li></ul>|<ul><li>Specs to write</li><li>Agreeing on the strips </li><li>Defining the ICs to use</li><li>Getting schematics</li></ul>|<ul><li>Sofian (for preparing the field with Murgen)</li></ul>|50% |
+|retro10PV|||<ul><li>BiVi</li></ul>|NA% |
+|mogaba|<ul><li>Manage to feed it 12V</li></ul>|<ul><li>Test if 12V OK</li><li>Find supplier</li></ul>||66% |
 # Interfaces table for the motherboard
 
 | Name | Title | Amplitude |
