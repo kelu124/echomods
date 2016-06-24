@@ -77,6 +77,8 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ## Discussions
 
+Some issues with the availability of the `HV7360`, living its end of life.
+
 ### TODO
 
 * Send microcircuits to Edgeflex
@@ -87,8 +89,8 @@ The aim of this echOmod is to get the HV Pulse done.
 ### DONE
 
 * Specs to write
-* Agreeing on the strips 
-* Defining the ICs to use
+* Agreeing on the strips/tracks 
+* Defining the ICs to use to pulse
 * Getting schematics
 
 ### People

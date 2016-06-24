@@ -244,10 +244,17 @@ f = open("Readme.md","w+")
 f.write(FinalDoc)
 f.close()
 
+# -------------------------
+# Create the slider
+# -------------------------
 
+f = open("gh-pages/ppt.md","w+")
+Presentation =  "# What do we do?\n"+HeaderDocTxt+"# Graping the modules \n"+GraphModulesTxt+"# Table Docs\n"+TableDocTxt+"# Progress\n"+TableAvancement
+f.write(Presentation)
+f.close()
 
 # -------------------------
-# ToCome: Graphing to add
+# Graph customised
 # -------------------------
 
 styles = {

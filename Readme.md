@@ -51,7 +51,7 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 
 | Name of module | ToDo | Done | Contrib | Progress |
 |------|-------|----|------|------|
-|tobo|<ul><li>Send microcircuits to Edgeflex</li><li>Receive the module</li><li>Test it with different transducers</li><li>Publish the sources in KiCAD</li></ul>|<ul><li>Specs to write</li><li>Agreeing on the strips </li><li>Defining the ICs to use</li><li>Getting schematics</li></ul>|<ul><li>Sofian (for preparing the field with Murgen)</li></ul>|50% |
+|tobo|<ul><li>Send microcircuits to Edgeflex</li><li>Receive the module</li><li>Test it with different transducers</li><li>Publish the sources in KiCAD</li></ul>|<ul><li>Specs to write</li><li>Agreeing on the strips/tracks </li><li>Defining the ICs to use to pulse</li><li>Getting schematics</li></ul>|<ul><li>Sofian (for preparing the field with Murgen)</li></ul>|50% |
 |oneeye||<ul><li>First test with Arduino Trinket</li></ul>||100% |
 |goblin|<ul><li>Send microcircuits to Edgeflex</li><li>Receive the module</li><li>Plug it to a RPi0 or BBB or RPi or ...</li><li>Publish the sources in KiCAD</li></ul>|<ul><li>Specs to write</li><li>Agreeing on the strips </li><li>Defining the ICs to use</li><li>Getting schematics</li></ul>|<ul><li>Sofian (for preparing the field with Murgen)</li></ul>|50% |
 |retro10PV|||<ul><li>BiVi</li></ul>|NA% |

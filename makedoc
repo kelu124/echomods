@@ -3,3 +3,4 @@
 python makedoc.py
 cd gh-pages/
 ./createMD.sh
+pandoc -t revealjs -s ppt.md -o ppt.html
