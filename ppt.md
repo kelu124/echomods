@@ -2,15 +2,17 @@
 % kelu124
 % June 24, 2016
  
-# What do we do?  {.fragile}
+# What do we do? {.allowframebreaks}
 
-## What is it?
+lol
+
+## What is it? {.allowframebreaks}
 
 The principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control. Four basic modules are considered. Each of this module will be landing on a motherboard, more or less a stripboard.
 
 Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules. These modules can have a form factor close to the arduino trinket pro, with a row of 19 pins on the side.
 
-## Modules
+## Modules {.allowframebreaks}
 
 lolz
 
@@ -31,7 +33,7 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 
 ![Modules organisation](..//include/images/modules.png)
  
-# Graping the modules
+# Graping the modules {.allowframebreaks}
  
 graphe
 
@@ -49,7 +51,7 @@ graphe
 
 lol2
  
-# Table Docs
+# Table Docs {.allowframebreaks}
 
 lol2
 
