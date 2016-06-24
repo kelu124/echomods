@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="kelu124">
+  <meta name="dcterms.date" content="2016-06-24">
+  <title>echOmods</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">echOmods</h1>
+  <h2 class="author">kelu124</h2>
+  <h3 class="date">June 24, 2016</h3>
+</section>
+
+<section id="what-do-we-do" class="slide level1 fragile">
+<h1>What do we do?</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p>The principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control. Four basic modules are considered. Each of this module will be landing on a motherboard, more or less a stripboard.</p>
+<p>Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules. These modules can have a form factor close to the arduino trinket pro, with a row of 19 pins on the side.</p>
+<h2 id="modules">Modules</h2>
+<p>lolz</p>
+</section>
+<section class="slide level1">
+
+<ul>
+<li><a href="/goblin/Readme.md">Goblin</a>: the <strong>analog processing module</strong>, was drafted as well during Murgen.</li>
+<li><a href="/tobo/Readme.md">Tobo</a>: the <strong>HV and pulser module</strong>, based on a drafted close to Murgen.</li>
+<li><a href="/cletus/Readme.md">Cletus</a>: the <strong>piezo and servo module</strong>. Did not change.</li>
+<li><a href="/oneeye/Readme.md">One-Eye</a> is the <strong>MicroControler module</strong>, to be working with Arduinos at first, such as the Trinket Pro.</li>
+<li><a href="/mogaba/Readme.md">Mogaba</a> is the <strong>Alimentation Module</strong>.</li>
+<li>and ... the <strong>motherboard</strong>.</li>
+</ul>
+<p>Other modules, such as Silent (<em>analog processing testing module</em>) and Croaker (<em>advanced microcontroler module</em>), are in the teaser stage... More to come later on =)</p>
+</section>
+<section class="slide level1">
+
+<h2 id="illustration">Illustration</h2>
+<figure>
+<img src="..//include/images/modules.png" alt="Modules organisation" /><figcaption>Modules organisation</figcaption>
+</figure>
+</section>
+<section id="graping-the-modules" class="slide level1">
+<h1>Graping the modules</h1>
+<p>graphe</p>
+<div class="fragment">
+<p>autre graphe</p>
+<h2 id="the-modules-organization">The modules organization</h2>
+<p>graphe</p>
+<figure>
+<img src="..//include/ModulesGraph.png" alt="Graph" /><figcaption>Graph</figcaption>
+</figure>
+<h2 id="lol">Lol</h2>
+<p>lol2</p>
+</div>
+</section>
+<section id="table-docs" class="slide level1">
+<h1>Table Docs</h1>
+<p>lol2</p>
+</section>
+<section id="a-recap-of-our-modules" class="slide level1">
+<h1>A recap of our modules</h1>
+<p>lol</p>
+</section>
+<section id="progress" class="slide level1">
+<h1>Progress</h1>
+<p>Table to add</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
