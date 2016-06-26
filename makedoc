@@ -3,4 +3,5 @@
 python makedoc.py
 cd gh-pages/
 ./createMD.sh
-pandoc -t revealjs -s ppt.md -o ppt.html
+pandoc -t revealjs -s ppt.md -o ppt.html --slide-level 2
+

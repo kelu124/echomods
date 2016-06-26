@@ -24,6 +24,7 @@ Mogaba, the power supply
 ### Inputs
 
 * `ITF-mEM_Alimentation`
+* `ITF-F_12V`
 
 ### Outputs
 
@@ -34,9 +35,7 @@ Mogaba, the power supply
 
 ## Key Components
 
-* `ADL5511`: Enveloppe detection 
-* `AD8331`: TGC
-* `AD7274`: 2Msps SPI ADC
+* The voltage regulation `BreadBoardAlim` module
 
 ## Information
 
@@ -68,6 +67,7 @@ The aim of this echOmod is to get 3.3V and 5V done.
 ### TODO
 
 * Manage to feed it 12V
+* Bring power to it through the 12V `ITF-F_12V` track 
 
 ### DONE
 

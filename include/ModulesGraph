@@ -80,6 +80,8 @@ digraph {
 		retro10PV -> "Tri-Piezo Head" [fillcolor=red nodesep=1 splines=line]
 	"ITF-mEM_Alimentation" [fillcolor=green style="rounded,filled"]
 		"ITF-mEM_Alimentation" -> mogaba [nodesep=1 splines=line]
+	"ITF-F_12V" [fillcolor=yellow style="rounded,filled"]
+		"ITF-F_12V" -> mogaba [nodesep=1 splines=line]
 	"ITF-A_gnd" [fillcolor=yellow style="rounded,filled"]
 		mogaba -> "ITF-A_gnd" [fillcolor=red nodesep=1 splines=line]
 	"ITF-B_5v" [fillcolor=yellow style="rounded,filled"]

@@ -14,7 +14,7 @@
 | 8 | [Arduino Otto](http://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-3rd-party-evaluation-tools/ard-otto-stm32.html) | STM32F469BIT6 | NoP | 3×12-bit, 2.4 MSPS ADC: up to 24 channels and 7.2 MSPS in triple interleaved mode | ?? | FAAAAT. Has Wifi through a ESP8266 | 
 | 9 | [NanoPi m3](http://nanopi.io/nanopi-m3.html) | Cortex-A53 S5P6818 SoC | ts dynamic frequency scales from 400M up to 1.4GHz. | ?? | ?? | Has WiFi | 
 | 10 | [BBC Microbit](https://www.element14.com/community/community/stem-academy/microbit) | ?? | NoP | Not really a uC for us... | ?? | ?? | 
-
+| 11 | [Nucleo F401RE ](http://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-nucleo/nucleo-f401re.html?icmp=nucleo-ipf_pron_pr-nucleo_feb2014) | STM32F401RE | ?? | Joris working with this one | ?? | ?? | 
 
 * Feather (inclus un m3) : STM32F205 + BCM43362 qui a un m3
 * Feather: meme chose que le photo, mais en compatible Arduino

@@ -102,7 +102,14 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ### TODO
 
+* Control the motor with a 12V PWM
+* Integrate 12V+PWM in the probe body
+* Put plugs into the probe body
+
 ### DONE
+
+* Repair the probe
+* Simplify it
 
 ### People
 
