@@ -1,0 +1,10 @@
+digraph {
+	"ITF-mEG_SPI" [style=rounded]
+	"Pi Zero" [style=rounded]
+	WiFi [style=rounded]
+		"ITF-mEG_SPI" -> "Pi Zero"
+		"Pi Zero" -> WiFi
+	"Pi Zero" [style=rounded]
+	Screen [style=rounded]
+		"Pi Zero" -> Screen
+}
