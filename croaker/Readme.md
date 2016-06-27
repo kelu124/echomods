@@ -78,6 +78,7 @@ The aim of this echOmod is to receive the signal and process it.
 * Getting some codes
 * Getting some images
 * Getting images onto a screen
+* Replace the work done by [OneEye](/oneeye/) by [Croaker](/croaker/).
 
 ### DONE
 

@@ -493,4 +493,24 @@ digraph {
 			Industralisation -> PRS
 			PRS -> "Find PRS"
 		"TODO: Find PRS" [penwidth=0]
+		"NF@V" [penwidth=0]
+		Conseil [penwidth=0]
+			"NF@V" -> Conseil
+		"NF@V" [penwidth=0]
+		Mecenat [penwidth=0]
+			"NF@V" -> Mecenat
+		"NF@V" [penwidth=0]
+		Experts [penwidth=0]
+		"TI/MAXIM/ANALOG&amp;Al" [penwidth=0]
+			"NF@V" -> Experts
+			Experts -> "TI/MAXIM/ANALOG&amp;Al"
+		"NF@V" [penwidth=0]
+		"Expert Normes" [penwidth=0]
+			"NF@V" -> "Expert Normes"
+		"NF@V" [penwidth=0]
+		IEEE [penwidth=0]
+			"NF@V" -> IEEE
+		Caskey [penwidth=0]
+		IEEE [penwidth=0]
+			Caskey -> IEEE
 }

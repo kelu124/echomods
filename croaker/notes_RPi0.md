@@ -16,6 +16,14 @@ Working ... with an external ADC. We need to test beforehands.
 
 * RPI +M3 : https://hackaday.io/project/11981-rppsoc-system-on-a-chip-for-the-raspberry-pi
 
+### SPI
+
+* https://www.raspberrypi.org/documentation/hardware/raspberrypi/spi/README.md
+* https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=130616
+* https://www.raspberrypi.org/forums/viewtopic.php?f=107&t=132494
+* https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=43442&p=347073
+* http://richardhayler.blogspot.fr/2016/02/getting-started-with-esp8266-iot-phat.html
+
 ### Resources pages
 
 * http://bobdavis321.blogspot.fr/2013/06/arduino-powered-3-million-samples-per.html
