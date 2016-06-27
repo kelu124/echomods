@@ -10,6 +10,9 @@ That's a site for updating the worklog of the echomods project.
 
 Built automatiquely : using makedoc.py generates the html files in the gh-pages branch, which are transformed with the createMD.sh script in the gh-branch.
 
+* Read more about the [documentation process](DocumentationProcess.html), in Reveal.js
+* Get to the [github repo](https://github.com/kelu124/echomods/).
+
 ### Contact me
 
 [luc@echopen.org](mailto:luc@echopen.org)
