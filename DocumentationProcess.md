@@ -56,13 +56,10 @@ It also highlights the _TODOs_
 
 All dated elements generate individual posts on the corresponding github page, here [http://kelu124.github.io/echomods/](http://kelu124.github.io/echomods/).
 
-## Mindmap
+## Mindmap {data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/GraphMyMind.png"}
 
 Worklog generates a [mindmap](https://github.com/kelu124/echomods/blob/master/include/GraphMyMind.png) of the concepts I have in mind at the moment.
 
----------
-
-![My Mindmap](https://raw.githubusercontent.com/kelu124/echomods/master/include/GraphMyMind.png)
 
 ## Using the Readme's
 
@@ -71,10 +68,8 @@ Worklog generates a [mindmap](https://github.com/kelu124/echomods/blob/master/in
 * They also update the table of progress
 * Last but not least, they create the graph representing how the modules work, internally, connecting the interfaces
 
-## Graph of links  {data-transition="zoom"}
+## Graph of links  {data-transition="zoom" data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/ModulesGraph.png"}
 
-
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/ModulesGraph.png)
 
 ## Table: modules {data-transition="slide-in fade-out"}
 
