@@ -487,6 +487,25 @@ Some ideas on RPi and SPI:
 * https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=43442&p=347073
 * http://richardhayler.blogspot.fr/2016/02/getting-started-with-esp8266-iot-phat.html
 
+#### 2016-06-30 Recycler un minitel
+
+Pour recycler un Minitel, ca se passe la
+* http://pila.fr/wordpress/?p=361
+* https://x0r.fr/blog/5
+
+
+#### 2016-06-30 New probes et al
+
+Deux sondes d'occasions assez sympa pour démontage et analyse (mécanique / materiaux / piezos):
+
+* http://www.ebay.com/itm/Philips-ATL-Access-A-3Mhz-Ultrasound-Scanhead-Transducer-Probe-/262496926313?hash=item3d1e093a69:g:psAAAOSwcL5XMe0n (50$)
+* http://www.ebay.com/itm/Hitachi-Ultrasound-Probe-EZU-PM3-/400943782280?hash=item5d5a1c9988:g:cdAAAOSwyQtVga8m (30$)
+
+IA and US:
+
+* http://sci-hub.cc/10.1109/TBCAS.2015.2431272
+
+
 uControllers and other stuff
 -------
 
@@ -534,12 +553,11 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 
 * HAD->Murgen
 * HAD->AutoFinancement->OpenSourceHardwareContest
-* Sofian->Murgen->Output Image
+* Sofian->Murgen
 * Serveur Matthieu->Output Image->Benchmark->Image processing->Jean-Francois
 * Image processing->Output Image->Print
 * Modules->Tester
 * Modules->Transducer
-* Modules->Mech
 * Mech->BiVi
 * echOmods->WoodBox->Arthur
 * WoodBox->LogoLaserCut
@@ -561,8 +579,7 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * HAD->Phantoms
 * Phantoms->Virginie->HAD
 * Phantoms->Static->HAD
-* Phantoms->Materials->RP-6400
-* Materials->Mech-athon
+* Phantoms->Materials->RP-6400->Latex->Virginie
 * Modules->Doc
 * Modules->Motherboard
 * Documentation->DocBuilder->BiVi
@@ -579,7 +596,7 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * FlyLabs->EdgeFlex
 * PRU->Up to 10Msps+
 * Acquisition->RedPitaya
-* Modules->Pedagogie->Aforp->Tao
+* Pedagogie->Aforp->Tao
 * Pedagogie->ESIA
 * Pedagogie->ENSCachan
 * Pedagogie->Isep->Frederic
@@ -636,10 +653,9 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 
 * Edgeflex->Modules Ready->PiZero->Modules SPI
 * Modules Ready->BBB->Modules SPI
-* Modules Ready->ESP8266->Modules SPI
+* ESP8266->Modules SPI
 * ESP8266->Igor->Code
 * Igor->PCB
-* ESP8266->Tim->ReviewCode
 * WICED->KGhosh
 * Todo->Comm->An->Nicolas Felix
 * Vermon->Nicolas Felix
@@ -649,7 +665,7 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * TODO: Tanter
 * TODO: Nicolas Felix
 * Comm->P6->V2->FabLab->Voir PCMLab (Jussieu)
-* Partenariat->Edgeflex->Revenues->AutoFinancement
+* Partenariat->Edgeflex->Revenues
 * WICED->Wifi
 
 #### June 7th
@@ -672,8 +688,8 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 #### June 17th
 
 * Comm->Publication
-* Murgen->Caskey->Zach
-* GitHub->Zach
+* Murgen->Caskey->Zach->Todo: Merge all doc
+* GitHub->Zach->Caskey
 * EMW3165->Igor
 * HAD->1000$->Matos
 * Comm->AutresBlogs->Andre
@@ -695,5 +711,17 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * NF@V->IEEE
 * Caskey->IEEE
 
+#### June 30th
+
+* HAD->HAD Followers->Gros->BBB Foundation->Financement
+* HAD Followers->Gros->Atmel Corporation
+* HAD Followers->Individus->anfractuosity->Chris->zymeter
+* HAD Followers->Gros->Texas Instruments
+* HAD Followers->Gros->TODO: Démarcher Gros
+* TODO: Démarcher Gros
+* Caskey->Partenariats->Gros->Experts
+* uC->Liste uC
+* Zach->PRU
+* Caskey->Vanderbilt
 
 

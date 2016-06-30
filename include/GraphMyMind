@@ -21,6 +21,7 @@ digraph {
 		"Hall Of Fame" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		ProdEdgeFlex [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Find PRS" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Démarcher Gros" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		HAD [penwidth=0]
 		Murgen [penwidth=0]
 			HAD -> Murgen
@@ -31,9 +32,7 @@ digraph {
 			AutoFinancement -> OpenSourceHardwareContest
 		Sofian [penwidth=0]
 		Murgen [penwidth=0]
-		"Output Image" [penwidth=0]
 			Sofian -> Murgen
-			Murgen -> "Output Image"
 		"Serveur Matthieu" [penwidth=0]
 		"Output Image" [penwidth=0]
 		Benchmark [penwidth=0]
@@ -54,9 +53,6 @@ digraph {
 		Modules [penwidth=0]
 		Transducer [penwidth=0]
 			Modules -> Transducer
-		Modules [penwidth=0]
-		Mech [penwidth=0]
-			Modules -> Mech
 		Mech [penwidth=0]
 		BiVi [penwidth=0]
 			Mech -> BiVi
@@ -139,11 +135,12 @@ digraph {
 		Phantoms [penwidth=0]
 		Materials [penwidth=0]
 		"RP-6400" [penwidth=0]
+		Latex [penwidth=0]
+		Virginie [penwidth=0]
 			Phantoms -> Materials
 			Materials -> "RP-6400"
-		Materials [penwidth=0]
-		"Mech-athon" [penwidth=0]
-			Materials -> "Mech-athon"
+			"RP-6400" -> Latex
+			Latex -> Virginie
 		Modules [penwidth=0]
 		Doc [penwidth=0]
 			Modules -> Doc
@@ -208,11 +205,9 @@ digraph {
 		Acquisition [penwidth=0]
 		RedPitaya [penwidth=0]
 			Acquisition -> RedPitaya
-		Modules [penwidth=0]
 		Pedagogie [penwidth=0]
 		Aforp [penwidth=0]
 		Tao [penwidth=0]
-			Modules -> Pedagogie
 			Pedagogie -> Aforp
 			Aforp -> Tao
 		Pedagogie [penwidth=0]
@@ -345,10 +340,8 @@ digraph {
 		"Modules SPI" [penwidth=0]
 			"Modules Ready" -> BBB
 			BBB -> "Modules SPI"
-		"Modules Ready" [penwidth=0]
 		ESP8266 [penwidth=0]
 		"Modules SPI" [penwidth=0]
-			"Modules Ready" -> ESP8266
 			ESP8266 -> "Modules SPI"
 		ESP8266 [penwidth=0]
 		Igor [penwidth=0]
@@ -358,11 +351,6 @@ digraph {
 		Igor [penwidth=0]
 		PCB [penwidth=0]
 			Igor -> PCB
-		ESP8266 [penwidth=0]
-		Tim [penwidth=0]
-		ReviewCode [penwidth=0]
-			ESP8266 -> Tim
-			Tim -> ReviewCode
 		WICED [penwidth=0]
 		KGhosh [penwidth=0]
 			WICED -> KGhosh
@@ -399,10 +387,8 @@ digraph {
 		Partenariat [penwidth=0]
 		Edgeflex [penwidth=0]
 		Revenues [penwidth=0]
-		AutoFinancement [penwidth=0]
 			Partenariat -> Edgeflex
 			Edgeflex -> Revenues
-			Revenues -> AutoFinancement
 		WICED [penwidth=0]
 		Wifi [penwidth=0]
 			WICED -> Wifi
@@ -456,11 +442,15 @@ digraph {
 		Murgen [penwidth=0]
 		Caskey [penwidth=0]
 		Zach [penwidth=0]
+		"Todo: Merge all doc" [penwidth=0]
 			Murgen -> Caskey
 			Caskey -> Zach
+			Zach -> Todo:" Merge all doc"
 		GitHub [penwidth=0]
 		Zach [penwidth=0]
+		Caskey [penwidth=0]
 			GitHub -> Zach
+			Zach -> Caskey
 		EMW3165 [penwidth=0]
 		Igor [penwidth=0]
 			EMW3165 -> Igor
@@ -513,4 +503,54 @@ digraph {
 		Caskey [penwidth=0]
 		IEEE [penwidth=0]
 			Caskey -> IEEE
+		HAD [penwidth=0]
+		"HAD Followers" [penwidth=0]
+		Gros [penwidth=0]
+		"BBB Foundation" [penwidth=0]
+		Financement [penwidth=0]
+			HAD -> "HAD Followers"
+			"HAD Followers" -> Gros
+			Gros -> "BBB Foundation"
+			"BBB Foundation" -> Financement
+		"HAD Followers" [penwidth=0]
+		Gros [penwidth=0]
+		"Atmel Corporation" [penwidth=0]
+			"HAD Followers" -> Gros
+			Gros -> "Atmel Corporation"
+		"HAD Followers" [penwidth=0]
+		Individus [penwidth=0]
+		anfractuosity [penwidth=0]
+		Chris [penwidth=0]
+		zymeter [penwidth=0]
+			"HAD Followers" -> Individus
+			Individus -> anfractuosity
+			anfractuosity -> Chris
+			Chris -> zymeter
+		"HAD Followers" [penwidth=0]
+		Gros [penwidth=0]
+		"Texas Instruments" [penwidth=0]
+			"HAD Followers" -> Gros
+			Gros -> "Texas Instruments"
+		"HAD Followers" [penwidth=0]
+		Gros [penwidth=0]
+		"TODO: Démarcher Gros" [penwidth=0]
+			"HAD Followers" -> Gros
+			Gros -> TODO:" Démarcher Gros"
+		"TODO: Démarcher Gros" [penwidth=0]
+		Caskey [penwidth=0]
+		Partenariats [penwidth=0]
+		Gros [penwidth=0]
+		Experts [penwidth=0]
+			Caskey -> Partenariats
+			Partenariats -> Gros
+			Gros -> Experts
+		uC [penwidth=0]
+		"Liste uC" [penwidth=0]
+			uC -> "Liste uC"
+		Zach [penwidth=0]
+		PRU [penwidth=0]
+			Zach -> PRU
+		Caskey [penwidth=0]
+		Vanderbilt [penwidth=0]
+			Caskey -> Vanderbilt
 }
