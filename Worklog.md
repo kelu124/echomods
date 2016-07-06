@@ -505,6 +505,41 @@ IA and US:
 
 * http://sci-hub.cc/10.1109/TBCAS.2015.2431272
 
+#### 2016-07-01 Meeting with Nicolas
+
+* Terribly instructive. Lots to learn.
+
+#### 2016-07-02 Strategy
+
+* Just doing it!
+* Key learning: will be having fun soon =)
+
+
+#### 2016-07-03 Playing with a trifrequency probe
+
+* Won the probe http://www.ebay.com/itm/Philips-ATL-Access-A-3Mhz-Ultrasound-Scanhead-Transducer-Probe-/262496926313?hash=item3d1e093a69:g:psAAAOSwcL5XMe0n (50$) -- that's a purely 3MHz probe, should be OK and we won't get too many issues with too high frequencies
+* Played with the ATL10PV at [https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/Session_9_ATL.md](https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/Session_9_ATL.md). Not good results, high frequency elements are buggy.
+* Any impact of the polarity of the pulse?? 
+* TODO: Compare the polarity by switching polarity.
+
+#### 2016-07-04 Meeting
+
+* Long one, instructive.
+*BBB : https://groups.google.com/forum/#!topic/beagleboard/3AFiCNtxGis and https://www.element14.com/community/external-link.jspa?url=http%3A%2F%2Fhipstercircuits.com%2Fbeaglebone-pru-ddr-memory-access-the-right-way%2F
+* Digging into https://developer.mbed.org/platforms/LPC1114FN28/:  a DIP M0
+
+#### 2016-07-05 RTL-SDR
+
+* Bivi's playing with RTL-SDR.. a simple short and one can get to the 0-30MHz, without any upverter. Fun. To explore.
+
+#### 2016-07-06 Making progress with EMW3165
+
+* With the help of Igor, preparing a UDP server of EMW3165 and getting a throughput of 9Mbit/s on average.
+* Getting one of the modules
+* Requesting Nicolas' help on getting HV7360LA (fab's suppliers are lost)
+* Thinking of the overall structure of the maker kit. I need a wooden box and an aquarium (plexiglass, glue = solvent cement)
+* Review of the HAD budget (probe, transducer, fab, et al?). Some euros may be saved.
+
 
 uControllers and other stuff
 -------
@@ -520,6 +555,8 @@ uControllers and other stuff
 
 In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
 
+In practice, we rather see 8Mbit/s, thats 1.2ms to send it. E
+
 #### Case of ESP8266
 
 Lower specs (for dev kit - 1 to 2 image / s OK)
@@ -530,7 +567,7 @@ Lower specs (for dev kit - 1 to 2 image / s OK)
 * Comm through SPI
 * 10ms between lines - 64 lines gives 640ms / image)
 * 200us at 2Msps is 400 points is 5600 bits is 700 bytes
-* 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s.. should be OK with ESP8266 ;)
+* 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s.. should be OK with ESP8266/EMW3165/equivalent ;)
 
 __More [ESP8266 notes](notes_ESP8266.md)__
 

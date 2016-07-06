@@ -16,6 +16,7 @@ digraph {
 		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) " [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Compare the polarity by switching polarity." [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		Tanter [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Nicolas Felix" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Hall Of Fame" [fillcolor=yellow penwidth=0 style="rounded,filled"]
