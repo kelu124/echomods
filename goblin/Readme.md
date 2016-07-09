@@ -2,6 +2,11 @@
 
 ![](/goblin/viewme.png)
 
+## Detailed view
+
+![](/goblin/images/GoblinModule.png)
+
+
 ## Name
 
 [`MDL-goblin_tgcenvadc`]()
