@@ -1,27 +1,33 @@
 digraph {
 	"ITF-G_gain_control" [style=rounded]
+	Goblin_Jumper2 [style=rounded]
 	AD8331 [style=rounded]
 	"ITF-C_amplified_raw_signal" [style=rounded]
 	ADL5511 [style=rounded]
 	"ITF-E_signal_envelope" [style=rounded]
+	AD8691 [style=rounded]
 	AD7274 [style=rounded]
 	"ITF-mEG_SPI" [style=rounded]
-		"ITF-G_gain_control" -> AD8331
+		"ITF-G_gain_control" -> Goblin_Jumper2
+		Goblin_Jumper2 -> AD8331
 		AD8331 -> "ITF-C_amplified_raw_signal"
 		"ITF-C_amplified_raw_signal" -> ADL5511
 		ADL5511 -> "ITF-E_signal_envelope"
-		"ITF-E_signal_envelope" -> AD7274
+		"ITF-E_signal_envelope" -> AD8691
+		AD8691 -> AD7274
 		AD7274 -> "ITF-mEG_SPI"
 	"ITF-R_reserved" [style=rounded]
+	Goblin_Jumper1 [style=rounded]
 	AD8331 [style=rounded]
-		"ITF-R_reserved" -> AD8331
+		"ITF-R_reserved" -> Goblin_Jumper1
+		Goblin_Jumper1 -> AD8331
 	"ITF-mET_SMA" [style=rounded]
-	AD8331 [style=rounded]
-		"ITF-mET_SMA" -> AD8331
+	Goblin_Jumper1 [style=rounded]
+		"ITF-mET_SMA" -> Goblin_Jumper1
 	"ITF-InternalPot1_gain_control" [style=rounded]
-	AD8331 [style=rounded]
-		"ITF-InternalPot1_gain_control" -> AD8331
+	Goblin_Jumper2 [style=rounded]
+		"ITF-InternalPot1_gain_control" -> Goblin_Jumper2
 	"ITF-InternalPot2_ADC_Vref" [style=rounded]
-	AD7274 [style=rounded]
-		"ITF-InternalPot2_ADC_Vref" -> AD7274
+	AD8691 [style=rounded]
+		"ITF-InternalPot2_ADC_Vref" -> AD8691
 }

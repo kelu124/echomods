@@ -78,11 +78,12 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 
 ![Block schema](/goblin/source/blocks.png)
 
-* `ITF-G_gain_control`->`AD8331`->`ITF-C_amplified_raw_signal`->`ADL5511`->`ITF-E_signal_envelope`->`AD7274`->`ITF-mEG_SPI`
-* `ITF-R_reserved`->`AD8331`
-* `ITF-mET_SMA`->`AD8331`
-* `ITF-InternalPot1_gain_control`->`AD8331`
-* `ITF-InternalPot2_ADC_Vref`->`AD7274`
+* `ITF-G_gain_control`->`Goblin_Jumper2`->`AD8331`->`ITF-C_amplified_raw_signal`->`ADL5511`->`ITF-E_signal_envelope`->`AD8691`->`ITF-Ext_Amplified`->`AD7274`->`ITF-mEG_SPI`
+* `ITF-R_reserved`->`Goblin_Jumper1`->`AD8331`
+* `ITF-mET_SMA`->`Goblin_Jumper1`
+* `ITF-InternalPot1_gain_control`->`Goblin_Jumper2`
+* `ITF-InternalPot2_ADC_Vref`->`AD8691`
+
 
 ## About the module
 
