@@ -18,4 +18,10 @@ digraph {
 	"ITF-mET_SMA" [style=rounded]
 	AD8331 [style=rounded]
 		"ITF-mET_SMA" -> AD8331
+	"ITF-InternalPot1_gain_control" [style=rounded]
+	AD8331 [style=rounded]
+		"ITF-InternalPot1_gain_control" -> AD8331
+	"ITF-InternalPot2_ADC_Vref" [style=rounded]
+	AD7274 [style=rounded]
+		"ITF-InternalPot2_ADC_Vref" -> AD7274
 }

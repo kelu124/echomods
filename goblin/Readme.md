@@ -6,6 +6,13 @@
 
 ![](/goblin/images/GoblinModule.png)
 
+### Explained
+
+![](/goblin/images/module/GoblinModule.png)
+
+### Schematics
+
+![](/goblin/images/module/schematics.png)
 
 ## Name
 
@@ -74,6 +81,8 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 * `ITF-G_gain_control`->`AD8331`->`ITF-C_amplified_raw_signal`->`ADL5511`->`ITF-E_signal_envelope`->`AD7274`->`ITF-mEG_SPI`
 * `ITF-R_reserved`->`AD8331`
 * `ITF-mET_SMA`->`AD8331`
+* `ITF-InternalPot1_gain_control`->`AD8331`
+* `ITF-InternalPot2_ADC_Vref`->`AD7274`
 
 ## About the module
 
