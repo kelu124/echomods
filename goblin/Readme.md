@@ -32,9 +32,11 @@ Goblin: a TGC-Envelop-ADC module
 * `ITF-B_5v`
 * `ITF-S_3_3v`
 * `ITF-G_gain_control`
+* `ITF-InternalPot1_gain_control`
 * `ITF-C_amplified_raw_signal` : because it's used internally
 * `ITF-E_signal_envelope` : because it's used internally
 * `ITF-R_reserved` : for the signal coming from the pulser (if through track R)
+* `ITF-InternalPot2_ADC_Vref`
 * `ITF-mET_SMA` : for the signal coming from the pulser (if through SMA)
 
 ### Outputs
@@ -53,11 +55,17 @@ Goblin: a TGC-Envelop-ADC module
 
 ### What is it supposed to do?
 
-The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed.
+The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed. 
 
-In order to test different solutions, this specific version of Goblin uses jumpers to select different inputs/outputs. 
+With more details, this [Goblin](/goblin/) board aims at getting a signal, and giving access to key points within the signal processing chain for ultrasound imaging, namely:
 
-First try at a SPI ADC. Using a 2 Msps one in order to catch only the enveloppe, to be tested with other uC, RPi or BBB. No more.
+* Getting access to a TGC
+* Getting the enveloppe of the signal
+* Cleaning the signal before feeding in the on-board SPI ADC
+
+All key signals are accessible, and jumpers, as well as pots, enable on-board fine-tuning of the signals. [See more details on the __testing session__, to see the behavior of the board on a oscillo](/goblin/2016-07-08.md).
+
+It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch only the enveloppe, to be tested with other uC, RPi or BBB. 
 
 ### How does it work: block diagram
 
@@ -82,6 +90,47 @@ First try at a SPI ADC. Using a 2 Msps one in order to catch only the enveloppe,
 * Little flexibility from the use of ICs.
 
 ## Constraint and limits
+
+### Tests
+
+
+#### Signal in vs Signal out of the TGC
+
+![](images/2016-07-08/TEK0003.JPG)
+
+#### Trying with different frequencies
+
+
+##### At 3 MHz
+
+![](images/2016-07-08/TEK0018.JPG)
+
+##### At 5MHz
+
+![](images/2016-07-08/TEK0016.JPG)
+
+##### At 7.5MHz
+
+![](images/2016-07-08/TEK0015.JPG)
+
+##### At 10MHz
+
+![](images/2016-07-08/TEK0017.JPG)
+
+#### Difference between enveloppe and ADC input?
+
+-> the offset is removed, there's also a small gain (x2).
+
+See below: there's an offset at the enveloppe detection (~RMS), which is removed. Enveloppe is 500mV before, comes at 1V+ afterwards.
+
+##### Before the AOP
+
+![](images/2016-07-08/TEK0011.JPG)
+
+##### After the AOP
+
+![](images/2016-07-08/TEK0010.JPG)
+
 
 ## Discussions
 
