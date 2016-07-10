@@ -6,6 +6,7 @@ digraph {
 	ADL5511 [style=rounded]
 	"ITF-E_signal_envelope" [style=rounded]
 	AD8691 [style=rounded]
+	"ITF-Ext_Amplified" [style=rounded]
 	AD7274 [style=rounded]
 	"ITF-mEG_SPI" [style=rounded]
 		"ITF-G_gain_control" -> Goblin_Jumper2
@@ -14,7 +15,8 @@ digraph {
 		"ITF-C_amplified_raw_signal" -> ADL5511
 		ADL5511 -> "ITF-E_signal_envelope"
 		"ITF-E_signal_envelope" -> AD8691
-		AD8691 -> AD7274
+		AD8691 -> "ITF-Ext_Amplified"
+		"ITF-Ext_Amplified" -> AD7274
 		AD7274 -> "ITF-mEG_SPI"
 	"ITF-R_reserved" [style=rounded]
 	Goblin_Jumper1 [style=rounded]
@@ -28,6 +30,11 @@ digraph {
 	Goblin_Jumper2 [style=rounded]
 		"ITF-InternalPot1_gain_control" -> Goblin_Jumper2
 	"ITF-InternalPot2_ADC_Vref" [style=rounded]
+	AD7274 [style=rounded]
+		"ITF-InternalPot2_ADC_Vref" -> AD7274
+	ADL5511 [style=rounded]
+	"Int-Offset" [style=rounded]
 	AD8691 [style=rounded]
-		"ITF-InternalPot2_ADC_Vref" -> AD8691
+		ADL5511 -> "Int-Offset"
+		"Int-Offset" -> AD8691
 }

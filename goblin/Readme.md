@@ -82,8 +82,8 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 * `ITF-R_reserved`->`Goblin_Jumper1`->`AD8331`
 * `ITF-mET_SMA`->`Goblin_Jumper1`
 * `ITF-InternalPot1_gain_control`->`Goblin_Jumper2`
-* `ITF-InternalPot2_ADC_Vref`->`AD8691`
-
+* `ITF-InternalPot2_ADC_Vref`->`AD7274`
+* `ADL5511`->`Int-Offset`->`AD8691`
 
 ## About the module
 
