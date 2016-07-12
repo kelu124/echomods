@@ -55,6 +55,7 @@ Goblin: a TGC-Envelop-ADC module
 * `ADL5511`: Enveloppe detection 
 * `AD8331`: TGC
 * `AD7274`: 2Msps SPI ADC
+* `AD8691`: OA
 
 ## Information
 
@@ -144,10 +145,9 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 
 ### TODO
 
-* Send microcircuits to Edgeflex
-* Receive the module
-* Plug it to a RPi0 or BBB or RPi or ...
-* Publish the sources in KiCAD
+* Plug it to a RPi0 or BBB or RPi or else.
+* or test it with the EMW3165.
+* Publish the sources in KiCAD (@Sofian maybe?)
 
 ### DONE
 
@@ -155,10 +155,13 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 * Agreeing on the strips 
 * Defining the ICs to use
 * Getting schematics
+* Send microcircuits to Edgeflex
+* Receive the module
 
 ### People
 
 * Sofian (for preparing the field with Murgen)
+* Vlad for his expertise with Altium
 
 ## License
 

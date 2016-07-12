@@ -71,14 +71,15 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 * Motor is a 12V... doesn't move below 10V ... using 300mA@10V -- we could use a [5V to 12V DC/DC boost similar to this one](https://www.pololu.com/product/2117/specs). Could feed onto the 5V entry and leave on the 12V output. Can be found on Gotronics and such. Or the 12V could be delivered to the board itself.
 * 3 piezos are fixed frequency
-* Oil to be found to replace lost one =)
+* Oil to be found to replace lost one =) Feeback: linseed oil seems good !
 
-
-## Discussions
+* Tested with murgen : not really pratical to use, maybe to be replaced with a simple 3MHz probe. [Read the full test on murgen's repo](https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/Session_9_ATL.md).
 
 * __It seems that the noise previously seen with the bitscope was due to the computer! Not to the bitscope.__
 * We have found an interesting doc: the ATL manual for the ultrasound machine - and specs for the whole set of transducers -- [found here](doc/4692-2615.pdf)
 
+
+## Discussions
 
 ### What is inside?
 
