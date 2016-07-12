@@ -100,6 +100,7 @@ for ReadMe in ListOfDirs:
 	Desc = []
 	for item in results:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
+	print Desc
 	Desc = Desc[0]
 
 	# Getting the Innards of the Module // inside the block diagram

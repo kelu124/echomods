@@ -2,6 +2,16 @@
 
 ![](/cletus/viewme.png)
 
+## Name
+
+[`MDL-echomods_servopiezo`]()
+
+## Title
+
+The object containing the different modules.
+
+## Description
+
 * The servo/transducer part of the echOmods
 * version: V0.1
 * date: 29/04/2016
@@ -9,19 +19,9 @@
 * language:  
 * author: Kelu124
 
-# Information
+## IOs
 
-## What is it supposed to do ?
-
-The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.
-
-## How does it work? 
-
-TODO: Faire un petit schema simplifie.
-
-# IOs
-
-## Inputs
+### Inputs
 
 * `ITF-A_gnd`
 * `ITF-B_5v`
@@ -30,33 +30,56 @@ TODO: Faire un petit schema simplifie.
 * `ITF-mET_Transducer` : for the signal coming out of the pulser (if through SMA)
 * `ITF-mET_Piezo` : connection to the piezo
 
-## Outputs
+### Outputs
 
 * `ITF-mET_Piezo` : connection to the piezo
 * `ITF-mET_Transducer` : for the signal coming out of the pulser (if through SMA)
 
-# Key Components
+## Key Components
 
-* `Servo`
-* `Transducer`
+* Servo
+* Piezo
 
+## Information
 
-# About the module
+### What is it supposed to do?
 
-## Pros
-
-* Servo controlled : easy
-
-## Cons
-
-* Slow
-
-## Constraint and limits
-
-# Discussions
+The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.
 
 
-# License
+### How does it work: block diagram
+
+![Block schema](/cletus/source/blocks.png)
+
+## About the module
+
+### Pros
+
+* Simple to use
+
+### Cons
+
+* Slow sweeping
+
+### Constraint and limits
+
+## Discussions
+
+
+### TODO
+
+* Choose the design once the modules are done
+* Get to work with Arthur
+
+### DONE
+
+* Checking Arthur availability
+
+### People
+
+* ?
+
+## License
 
 ## Cletus 
 
@@ -71,3 +94,5 @@ Copyright Kelu124 (luc@echopen.org / kelu124@gmail.com ) 2015-2018
 The following work is base on a previous TAPR project, [Murgen](https://github.com/kelu124/murgen-dev-kit) - and respects its TAPR license.
 
 Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2018
+
+
