@@ -2,21 +2,19 @@
 
 ![](/goblin/viewme.png)
 
-## Detailed view
-
-![](/goblin/images/GoblinModule.png)
-
-### Explained
-
-![](/goblin/images/module/GoblinModule.png)
-
-### Schematics
-
-![](/goblin/images/module/schematics.png)
-
 ## Name
 
 [`MDL-goblin_tgcenvadc`]()
+
+## Detailed view
+
+#### Explained
+
+![](/goblin/images/module/GoblinModule.png)
+
+#### Schematics
+
+![](/goblin/images/module/schematics.png)
 
 ## Title
 
@@ -62,7 +60,7 @@ Goblin: a TGC-Envelop-ADC module
 
 ### What is it supposed to do?
 
-The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed. 
+The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed, with all steps accessible to hackers. 
 
 With more details, this [Goblin](/goblin/) board aims at getting a signal, and giving access to key points within the signal processing chain for ultrasound imaging, namely:
 

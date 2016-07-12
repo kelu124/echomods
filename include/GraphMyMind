@@ -17,6 +17,8 @@ digraph {
 		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) " [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Compare the polarity by switching polarity." [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Getting samples and suppliers ? " [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"servo + transducer + mounting platform" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		Tanter [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Nicolas Felix" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Hall Of Fame" [fillcolor=yellow penwidth=0 style="rounded,filled"]
@@ -554,4 +556,43 @@ digraph {
 		Caskey [penwidth=0]
 		Vanderbilt [penwidth=0]
 			Caskey -> Vanderbilt
+		"NF@V" [penwidth=0]
+		ContactsNF [penwidth=0]
+		"FRANCE LIFE IMAGING" [penwidth=0]
+		MEDICEN [penwidth=0]
+		" A. Da Costa" [penwidth=0]
+		"26 Nov 2015" [penwidth=0]
+			"NF@V" -> ContactsNF
+			ContactsNF -> "FRANCE LIFE IMAGING"
+			"FRANCE LIFE IMAGING" -> MEDICEN
+			MEDICEN -> " A. Da Costa"
+			" A. Da Costa" -> "26 Nov 2015"
+		"FRANCE LIFE IMAGING" [penwidth=0]
+		Aviesan [penwidth=0]
+			"FRANCE LIFE IMAGING" -> Aviesan
+		"FRANCE LIFE IMAGING" [penwidth=0]
+		"Regine T." [penwidth=0]
+			"FRANCE LIFE IMAGING" -> "Regine T."
+		IEEE [penwidth=0]
+		"IEEE Tours" [penwidth=0]
+			IEEE -> "IEEE Tours"
+		"FRANCE LIFE IMAGING" [penwidth=0]
+		"Reunion 21 Sept." [penwidth=0]
+		"IEEE Tours" [penwidth=0]
+			"FRANCE LIFE IMAGING" -> "Reunion 21 Sept."
+			"Reunion 21 Sept." -> "IEEE Tours"
+		ContactsNF [penwidth=0]
+		"TI/MAXIM/ANALOG&amp;Al" [penwidth=0]
+		AD [penwidth=0]
+		Cedric [penwidth=0]
+			ContactsNF -> "TI/MAXIM/ANALOG&amp;Al"
+			"TI/MAXIM/ANALOG&amp;Al" -> AD
+			AD -> Cedric
+		ContactsNF [penwidth=0]
+		"TI/MAXIM/ANALOG&amp;Al" [penwidth=0]
+		Microchip [penwidth=0]
+		Thierry [penwidth=0]
+			ContactsNF -> "TI/MAXIM/ANALOG&amp;Al"
+			"TI/MAXIM/ANALOG&amp;Al" -> Microchip
+			Microchip -> Thierry
 }

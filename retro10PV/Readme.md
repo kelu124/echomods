@@ -76,6 +76,9 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ## Discussions
 
+* __It seems that the noise previously seen with the bitscope was due to the computer! Not to the bitscope.__
+* We have found an interesting doc: the ATL manual for the ultrasound machine - and specs for the whole set of transducers -- [found here](doc/4692-2615.pdf)
+
 
 ### What is inside?
 
@@ -86,7 +89,6 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 ![Exploding](/retro10PV/images/20160307_213105_HDR.jpg)
 
 ### Cleaning and creation the connections
-
 
 ![Rewired](/retro10PV/images/DSC_0683.JPG)
 
@@ -104,10 +106,10 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 * Control the motor with a 12V PWM
 * Integrate 12V+PWM in the probe body
-* Put plugs into the probe body
 
 ### DONE
 
+* Put plugs into the probe body
 * Repair the probe
 * Simplify it
 
