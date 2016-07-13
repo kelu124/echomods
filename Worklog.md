@@ -552,8 +552,7 @@ The ATL manual is available at : http://photos.medwrench.com/equipmentManuals/46
 * EMW3165 and SPI:
 * http://www.emw3165.com/viewtopic.php?t=4330&start=10 or (3$ http://www.ebay.com/itm/131627127638?_trksid=p2057872.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT )
 
-ebay
-
+* TODO: __some shopping on ebay__
 * http://www.ebay.com/itm/SPI-IIC-MPU-9250-9-Axis-Attitude-Gyro-Accelerator-Magnetometer-Sensor-Module-/131185485892?hash=item1e8b43a844:g:qXkAAOSwuzRXdx-~
 * http://www.ebay.com/itm/NodeMcu-Lua-ESP8266-CH340G-WIFI-Internet-Development-Board-Module-/161833537754?hash=item25ae07d0da:g:N-4AAOSwepZXSUtI
 * http://www.ebay.com/itm/Arduino-Shield-40pcs-20cm-male-to-female-Dupont-cables-/140741253413?hash=item20c4d51925:g:uSMAAOSwMNxXYPH7
@@ -575,6 +574,15 @@ ebay
 
 * Got and paid for a SM heavy backing transducer. Now, let's find what servo to use.
 * TODO: servo + transducer + mounting platform
+
+#### 2016-07-13 Some new stuff
+
+* __SPI__
+* https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial
+* essayer SPI avec les petits trucs funs
+* cables pour SPI a base de cables ethernets?
+* __STM32__: mise a jour du fichier uC avec [un nouveau STM32](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32f3-series/stm32f334/stm32f334r8.html) dans [Notes uC](/croaker/notes_uC.md)
+* __Contact AD__
 
 
 uControllers and other stuff

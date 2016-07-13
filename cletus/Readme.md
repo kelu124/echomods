@@ -68,12 +68,11 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 
 ### TODO
 
-* Choose the design once the modules are done
-* Get to work with Arthur
+* Chose the servo
 
 ### DONE
 
-* Checking Arthur availability
+* Get a 3.5MHz piezo
 
 ### People
 
