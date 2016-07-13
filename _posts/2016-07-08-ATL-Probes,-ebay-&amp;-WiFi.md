@@ -18,7 +18,7 @@ the 10PV folder)
 -   http://www.emw3165.com/viewtopic.php?t=4330&start=10 or (3\$
     http://www.ebay.com/itm/131627127638?\_trksid=p2057872.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT )
 
-ebay
+-   TODO: **some shopping on ebay**
 
 -   http://www.ebay.com/itm/SPI-IIC-MPU-9250-9-Axis-Attitude-Gyro-Accelerator-Magnetometer-Sensor-Module-/131185485892?hash=item1e8b43a844:g:qXkAAOSwuzRXdx-\~
 -   http://www.ebay.com/itm/NodeMcu-Lua-ESP8266-CH340G-WIFI-Internet-Development-Board-Module-/161833537754?hash=item25ae07d0da:g:N-4AAOSwepZXSUtI
