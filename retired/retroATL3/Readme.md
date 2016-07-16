@@ -92,6 +92,7 @@ An echo appears with [Murgen](https://github.com/kelu124/murgen-dev-kit), gain a
 
 * Finding the pins mapping
 * Motor in action
+* Insert a video =)
 * Get pictures
 
 ### DONE
