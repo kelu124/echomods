@@ -63,6 +63,23 @@ ListOfDirs = [x for x in ModulesDirs if x not in ExcludeDirs]
 for eachInput in ListOfDirs:
 	GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
 
+# -------------------------
+# Retired modules List
+# -------------------------
+
+ExcludeDirs = ["include","tools",".git","gh-pages"]
+dirname = "./retired"
+ListOfRetiredDirs = os.listdir(dirname)  
+print ListOfRetiredDirs
+RetiredModulesDirs = []
+# On itere
+for f in ListOfRetiredDirs:
+	if  os.path.isdir(f):
+		RetiredModulesDirs.append(f)
+# On retire les repertoires non modules
+
+
+print ListOfRetiredDirs
 
 # -------------------------
 # Files includes
@@ -100,7 +117,7 @@ for ReadMe in ListOfDirs:
 	Desc = []
 	for item in results:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
-	print Desc
+	#print Desc
 	Desc = Desc[0]
 
 	# Getting the Innards of the Module // inside the block diagram
@@ -166,6 +183,76 @@ for ReadMe in ListOfDirs:
 	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
 
 TableDocTxt = TableModules+"\n\n"
+
+
+
+# -------------------------
+# Retired Modules Table
+# -------------------------
+
+TableRetiredModules = "# A recap of our retired modules \n\n\n"
+
+TableRetiredModules += "| ThumbnailImage | Name | In | Out |\n"
+TableRetiredModules += "|------|-------|----|------|\n"
+
+for ReadMe in ListOfRetiredDirs:
+	f = open("./retired/"+ReadMe+"/Readme.md", 'r')
+	ReadMehHtmlMarkdown=markdown.markdown( f.read() )
+	f.close()
+
+	# Getting the Desc of the Module
+	pattern = r"</h3>([\s\S]*)<h3>How"
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	patternCode = r"<p>(.*?)</p>"
+	Desc = []
+	for item in results:
+	    Desc = map(str, re.findall(patternCode, item, flags=0))
+	print Desc
+	Desc = Desc[0]
+
+	# Getting the Innards of the Module // inside the block diagram
+	pattern = r"block diagram</h3>([\s\S]*)<h2>About"
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	patternCode = r"<li>(.*?)</li>"
+	Pairs = []
+	GraphThisModule = digraph()
+	for item in results:
+            Pairs= (map(str, re.findall(patternCode, item, flags=0)))
+	    for eachPair in Pairs:
+		eachPair = eachPair.replace("<code>", "")
+		eachPair = eachPair.replace("</code>", "")
+		Couples = eachPair.split("-&gt;")		
+
+	# Getting the Inputs of the Module
+	pattern = r"Inputs</h3>([\s\S]*)<h3>Outputs"
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	patternCode = r"<code>(.*?)</code>"
+	Inputs = []
+	for item in results:
+	    Inputs = map(str, re.findall(patternCode, item, flags=0))
+	if len(Inputs) > 0:
+		inpoots = "<ul><li>"+"</li><li>".join( Inputs )+"</li></ul>"
+	else:
+		inpoots = ""
+	
+
+
+	# Getting the Ouputs of the Module
+	pattern = r"Outputs</h3>([\s\S]*)<h2>Key"
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	patternCode = r"<code>(.*?)</code>"
+	Outputs = []
+	for item in results:
+	    Outputs = map(str, re.findall(patternCode, item, flags=0))
+	if len(Outputs) > 0:
+		outpoots = "<ul><li>"+"</li><li>".join( Outputs )+"</li></ul>"
+	else:
+		outpoots = ""
+
+
+	TableRetiredModules += "|<img src='https://github.com/kelu124/echomods/blob/master/retired/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/retired/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
+
+TableRetiredDocTxt = TableRetiredModules+"\n\n"
 
 # -------------------------
 # Créer le tableau d'avancement
@@ -239,7 +326,7 @@ GraphModulesTxt = "\n# The modules organization \n\n"
 
 GraphModulesTxt += "![Graph](/include/ModulesGraph.png) \n\n"
 
-FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+TableAvancement+AddInterfacesDocTxt+AddLicenseDocTxt
+FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+TableAvancement+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
 f = open("Readme.md","w+")
 f.write(FinalDoc)

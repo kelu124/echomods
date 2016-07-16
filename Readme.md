@@ -60,6 +60,16 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 |croaker|<ul><li>Choose the platform (BBB, RPi0, STM32, ... ?)</li><li>Getting some codes</li><li>Getting some images</li><li>Getting images onto a screen</li><li>Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a>.</li></ul>|<ul><li>Nothing</li></ul>|<ul><li>??</li></ul>|16% |
 |goblin|<ul><li>Check the power consumption</li><li>Check if 5V and 3.3V are stable</li><li>Plug it to a RPi0 or BBB or RPi or else.</li><li>or test it with the EMW3165.</li><li>Publish the sources in KiCAD (@Sofian maybe?)</li></ul>|<ul><li>Specs to write</li><li>Agreeing on the strips </li><li>Defining the ICs to use</li><li>Getting schematics</li><li>Send microcircuits to Edgeflex</li><li>Receive the module</li></ul>|<ul><li>Sofian (for preparing the field with Murgen)</li><li>Vlad for his expertise with Altium</li></ul>|54% |
 |mogaba|<ul><li>Manage to feed it 12V</li><li>Bring power to it through the 12V <code>ITF-F_12V</code> track </li></ul>|<ul><li>Test if 12V OK</li><li>Find supplier</li></ul>||50% |
+# A recap of our retired modules 
+
+
+| ThumbnailImage | Name | In | Out |
+|------|-------|----|------|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/elmo/viewme.png' align='center' width='150'>|**[elmo](/retired/elmo/Readme.md)**: The aim of this echOmod is to get be the microcontroller heart|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-E_signal_envelope</li></ul>|<ul><li>WiFi</li><li>Screen</li><li>ITF-G_gain_control</li><li>ITF-I_pulse_on</li><li>ITF-J_pulse_off</li><li>ITF-N_cc_motor_pwm</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/retroATL3/viewme.png' align='center' width='150'>|**[retroATL3](/retired/retroATL3/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former ATL3.|<ul><li>ITF-A_gnd</li><li>ITF-F_12V</li><li>ITF-N_cc_motor_pwm</li><li>ITF-mET_Transducer</li><li>Motor</li><li>Tri-Piezo Head</li></ul>|<ul><li>Motor</li><li>ITF-mET_Transducer</li><li>Tri-Piezo Head</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/retro10PV/viewme.png' align='center' width='150'>|**[retro10PV](/retired/retro10PV/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former <a href="http://echopen.org/index.php/ATL_Access_10PV">ATL10PV</a>.|<ul><li>ITF-A_gnd</li><li>ITF-F_12V</li><li>ITF-N_cc_motor_pwm</li><li>ITF-mET_Transducer</li><li>Motor</li><li>Tri-Piezo Head</li></ul>|<ul><li>Motor</li><li>ITF-mET_Transducer</li><li>Tri-Piezo Head</li></ul>|
+
+
 # Interfaces table for the motherboard
 
 | Name | Title | Amplitude |
