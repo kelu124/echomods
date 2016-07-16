@@ -5,7 +5,7 @@
 
 ## Name
 
-[`MDL-echomods-EMW3165`]()
+[`MDL-echomods-FeatherWICED`]()
 
 ## Title
 
@@ -13,10 +13,10 @@ Microcontroler and WiFi
 
 ## Description
 
-* Playing with EMW3165
+* Playing with FeatherWICED
 * version: V0.1
 * date: 18/07/2016
-* technology: EMW3165
+* technology: FeatherWICED
 * language: n/a
 * author: Kelu124
 
@@ -39,7 +39,7 @@ Microcontroler and WiFi
 
 ## Key Components
 
-* `EMW3165`
+* `FeatherWICED`
 
 ## Information
 
@@ -64,7 +64,7 @@ The aim of this echOmod is to get be the microcontroller heart
 
 ### Cons
 
-* EMW3165 IDE is difficult to manage
+* FeatherWICED IDE is difficult to manage
 
 ### Constraint and limits
 
