@@ -71,11 +71,13 @@ The aim of this echOmod is to get be the microcontroller heart
 * Readmore with [adafruit FWICED_Introduction](doc/FWICED_Introduction.pdf)
 * STM32 - [datasheet](doc/FWICED_STM32.pdf)
 
+
 ## Discussions
 
 ### TODO
 
 * Integrate more controls
+* `sudo usermod -aG dialout <myuser>`
 
 ### DONE
 
