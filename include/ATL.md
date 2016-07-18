@@ -8,7 +8,7 @@
 
 ## List of probes and details
 
-![](/include/ultramark/UltraMark-ListFull.png) 
+![](/include/ultramark/UltraMark-ListFull.png.png) 
 
 ![](/include/ultramark/UltraMark-ListShort.png) 
 

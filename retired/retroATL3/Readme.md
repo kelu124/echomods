@@ -84,9 +84,19 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ### Tests 
 
+#### Getting an echo
+
 An echo appears with [Murgen](https://github.com/kelu124/murgen-dev-kit), gain at 0.6V
 
 ![](images/TEK0005.JPG)
+
+#### Details of the probe
+
+![](images/DSC_0723.JPG)
+
+#### Refilling the probe
+
+![](images/DSC_0725.JPG)
 
 ### TODO
 
