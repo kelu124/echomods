@@ -19,6 +19,7 @@ digraph {
 		"Compare the polarity by switching polarity." [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Getting samples and suppliers ? " [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"servo + transducer + mounting platform" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"Presentation on Goblin's module" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		Tanter [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Nicolas Felix" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Hall Of Fame" [fillcolor=yellow penwidth=0 style="rounded,filled"]
