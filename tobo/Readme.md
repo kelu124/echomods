@@ -81,7 +81,6 @@ Some issues with the availability of the `HV7360`, living its end of life.
 
 ### TODO
 
-* Send microcircuits to Edgeflex
 * Receive the module
 * Test it with different transducers
 * Publish the sources in KiCAD
@@ -89,6 +88,7 @@ Some issues with the availability of the `HV7360`, living its end of life.
 ### DONE
 
 * Specs to write
+* Send microcircuits to Edgeflex
 * Agreeing on the strips/tracks 
 * Defining the ICs to use to pulse
 * Getting schematics

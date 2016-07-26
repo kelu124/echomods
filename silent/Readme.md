@@ -65,6 +65,12 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ## Discussions
 
+### Why a Teensy ?
+
+Simplement (TEENSY) pour émuler un signal.
+* https://www.pjrc.com/teensy/td_timing_elaspedMillis.html
+* https://forum.pjrc.com/attachment.php?attachmentid=2790&d=1413271011
+* Pin Change teensy: https://www.pjrc.com/teensy/interrupts.html
 
 ### TODO
 

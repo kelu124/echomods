@@ -638,6 +638,26 @@ SPI et BBB
 * Envoi a edgeflex d'un HV7360
 * Hellyeah : http://www.cnx-software.com/2016/07/21/google-research-prudaq-is-a-40msps-adc-data-acquisition-daq-cape-for-beaglebone-black-green/
 
+#### 2016-07-27 Apres Avignon
+
+Yeayyy! [Beagleboard fondation tweeted about Murgen](https://twitter.com/beagleboardorg/status/757815778447986688) -- that's driving traffic to github =) 
+
+High speed acquisition
+* PRUDAQ
+
+Slow Acquisition
+* tobo/goblin+cletus+BBB to drive the goblin ADC
+* tobo/goblin+cletus+kina to wirelessly stream
+
+I decided the emulation was going to be necessary to avoid playing all the time with piezos. It appears Teensy 3.2 can handle that.
+
+Choice of the servo:
+* http://www.hobbyking.com/hobbyking/store/__23158__Turnigy_8482_TGY_1267HV_Titanium_BB_DS_MG_Servo_14kg_0_10sec_57g.html
+* http://www.modmypi.com/electronics/motors-and-robotics/servo-motor-sg92r-micro
+
+More stuff about Phantoms: http://meritus.kopernika.pl/homemade-tastes-better/
+
+And ... working on the presentation: 
 
 
 

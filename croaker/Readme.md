@@ -65,8 +65,7 @@ The aim of this echOmod is to receive the signal and process it.
 
 ### Constraint and limits
 
-* A series of work has been done on ![EMW3165](notes_EMW3165.md),  ![ESP8266](notes_ESP8266.md), ![Raspberry Pi Zero](notes_RPi0.md), ![feather WICED](notes_feather_WICED.md), 
-
+* A series of work has been done on ![EMW3165](notes_EMW3165.md),  ![ESP8266](notes_ESP8266.md), ![Raspberry Pi Zero](notes_RPi0.md), ![feather WICED](notes_feather_WICED.md). The EMW3165 gave birth to __[Kina](/kina/)__ for slow speed wireless UDP streaming.
 * A recap of microcontrolers has been added [here](notes_uC.md)
 
 ## Discussions
@@ -74,15 +73,14 @@ The aim of this echOmod is to receive the signal and process it.
 
 ### TODO
 
-* Choose the platform (BBB, RPi0, STM32, ... ?)
-* Getting some codes
+* Getting some PRU code
 * Getting some images
 * Getting images onto a screen
 * Replace the work done by [OneEye](/oneeye/) by [Croaker](/croaker/).
 
 ### DONE
 
-* Nothing
+* Choose the platform (BBB, RPi0, STM32, ... ?) : that'll be BBB
 
 ### People
 

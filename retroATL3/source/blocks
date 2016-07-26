@@ -1,10 +1,14 @@
 digraph {
 	"ITF-mET_Transducer" [style=rounded]
+	ATL3 [style=rounded]
 	"Tri-Piezo Head" [style=rounded]
 	"ITF-mET_Transducer" [style=rounded]
-		"ITF-mET_Transducer" -> "Tri-Piezo Head"
+		"ITF-mET_Transducer" -> ATL3
+		ATL3 -> "Tri-Piezo Head"
 		"Tri-Piezo Head" -> "ITF-mET_Transducer"
 	"ITF-N_cc_motor_pwm" [style=rounded]
+	ATL3 [style=rounded]
 	Motor [style=rounded]
-		"ITF-N_cc_motor_pwm" -> Motor
+		"ITF-N_cc_motor_pwm" -> ATL3
+		ATL3 -> Motor
 }

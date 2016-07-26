@@ -260,8 +260,8 @@ TableRetiredDocTxt = TableRetiredModules+"\n\n"
 
 TableAvancement = "# Progress on building the modules \n\n\n"
 
-TableAvancement += "| Name of module | ToDo | Done  Progress |\n"
-TableAvancement += "|------|-------|----------|\n"
+TableAvancement += "| Name of module | ToDo | Done |  Progress |\n"
+TableAvancement += "|------|-------|----|-----|\n"
 
 
 for ReadMe in ListOfDirs:

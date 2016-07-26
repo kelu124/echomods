@@ -53,8 +53,8 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ![Block schema](source/blocks.png)
 
-* `ITF-mET_Transducer`->`Tri-Piezo Head`->`ITF-mET_Transducer`
-* `ITF-N_cc_motor_pwm`->`Motor`
+* `ITF-mET_Transducer`->`ATL3`->`Tri-Piezo Head`->`ITF-mET_Transducer`
+* `ITF-N_cc_motor_pwm`->`ATL3`->`Motor`
 
 
 ## About the module
@@ -82,13 +82,37 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ## Discussions
 
+### RealTime issues
+
+The motor spins too fast... damned. As seen in "rotating probe image", we can't really say when the probe is rotating or not.  So we'll need a way to check the speed of the motor.
+
+Having timestamped the bitscope acquisitions, there is a 20 +- 0.74 ms between each line.. a tad slow.
+
 ### Tests 
+
+Those were done with a bitscope at 5Msps.. with 'non-null' delays between each line.
 
 #### Getting an echo
 
 An echo appears with [Murgen](https://github.com/kelu124/murgen-dev-kit), gain at 0.6V
 
 ![](images/TEK0005.JPG)
+
+#### Getting an image while the probe is rotating
+
+![](software/data/20160721-100523.png)
+
+We don't really see much.. and it appears there is a slight delay 
+
+_This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-kit/worklog/), Worklog 11_
+
+#### Trying to sort out the details
+
+We see that the image is there, but we don't know when/where the image was taken.
+
+![](software/data/20160720-083810.png)
+
+_This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-kit/worklog/), Worklog 10_
 
 #### Details of the probe
 
@@ -100,16 +124,16 @@ An echo appears with [Murgen](https://github.com/kelu124/murgen-dev-kit), gain a
 
 ### TODO
 
-* Finding the pins mapping
-* Motor in action
-* Insert a video =)
-* Get pictures
+* Get RealTime acquisition
+* Acquire and build ultrasound pictures =)
 
 ### DONE
 
+* Finding the pins mapping
+* Motor in action
 * Refill Oil
 * Test echoes
-* Make Videos
+* [Make and insert a video: there](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging/log/42113-testing-murgen-with-a-market-probe)
 
 ### People
 

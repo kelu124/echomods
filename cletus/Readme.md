@@ -63,12 +63,19 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 
 ### Constraint and limits
 
+* Need to find a servo which frequency is above 100hz (100hz -> 10ms period -> 1 line per 10ms is quite close)
+
 ## Discussions
 
+### Choice of the servo
+
+* http://www.hobbyking.com/hobbyking/store/__23158__Turnigy_8482_TGY_1267HV_Titanium_BB_DS_MG_Servo_14kg_0_10sec_57g.html
+* http://www.modmypi.com/electronics/motors-and-robotics/servo-motor-sg92r-micro
 
 ### TODO
 
-* Chose the servo
+* Choose the servo (>100Hz)
+* Do the structure of the holder (3D design?)
 
 ### DONE
 
