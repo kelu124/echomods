@@ -34,6 +34,7 @@ The module streaming ADC data to UDP.
 * `WiFi UDP Stream`
 * `ITF-I_pulse_on`
 * `ITF-J_pulse_off`
+* `ITF-N_cc_motor_pwm`
 
 ## Key Components
 

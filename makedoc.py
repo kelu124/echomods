@@ -260,8 +260,8 @@ TableRetiredDocTxt = TableRetiredModules+"\n\n"
 
 TableAvancement = "# Progress on building the modules \n\n\n"
 
-TableAvancement += "| Name of module | ToDo | Done | Contrib | Progress |\n"
-TableAvancement += "|------|-------|----|------|------|\n"
+TableAvancement += "| Name of module | ToDo | Done  Progress |\n"
+TableAvancement += "|------|-------|----------|\n"
 
 
 for ReadMe in ListOfDirs:
@@ -306,7 +306,7 @@ for ReadMe in ListOfDirs:
 		PCProgress = (nbDone*100)/(nbTodo+nbDone)
 	else:
 		PCProgress = "NA"
-	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+PEOPLE+"|"+str(PCProgress)+"% |\n"
+	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+str(PCProgress)+"% |\n"
 
 # -------------------------
 # Créer le graphe des modules

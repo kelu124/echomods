@@ -37,16 +37,14 @@ Goblin: a TGC-Envelop-ADC module
 * `ITF-B_5v`
 * `ITF-S_3_3v`
 * `ITF-G_gain_control`
-* `ITF-InternalPot1_gain_control`
 * `ITF-C_amplified_raw_signal` : because it's used internally
 * `ITF-E_signal_envelope` : because it's used internally
 * `ITF-R_reserved` : for the signal coming from the pulser (if through track R)
-* `ITF-InternalPot2_ADC_Vref`
 * `ITF-mET_SMA` : for the signal coming from the pulser (if through SMA)
 
 ### Outputs
 
-* `ITF-C_amplified_raw_signal`: Amplified Raw Signal, post TGC, before `ADL5511`
+* `ITF-C_amplified_raw_signal`: Amplified Raw Signal, post TGC, before the enveloppe detection	
 * `ITF-E_signal_envelope`: enveloppe of the signal, post TGC
 * `ITF-mEG_SPI` : signal from the ADC
 
