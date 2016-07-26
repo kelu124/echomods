@@ -70,7 +70,7 @@ for eachInput in ListOfDirs:
 ExcludeDirs = ["include","tools",".git","gh-pages"]
 dirname = "./retired"
 ListOfRetiredDirs = os.listdir(dirname)  
-print ListOfRetiredDirs
+#print ListOfRetiredDirs
 RetiredModulesDirs = []
 # On itere
 for f in ListOfRetiredDirs:
@@ -79,7 +79,7 @@ for f in ListOfRetiredDirs:
 # On retire les repertoires non modules
 
 
-print ListOfRetiredDirs
+#print ListOfRetiredDirs
 
 # -------------------------
 # Files includes
@@ -207,7 +207,7 @@ for ReadMe in ListOfRetiredDirs:
 	Desc = []
 	for item in results:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
-	print Desc
+	#print Desc
 	Desc = Desc[0]
 
 	# Getting the Innards of the Module // inside the block diagram
@@ -324,7 +324,7 @@ Svg2Png(GraphPath)
 
 GraphModulesTxt = "\n# The modules organization \n\n"
 
-GraphModulesTxt += "![Graph](/include/ModulesGraph.png) \n\n"
+GraphModulesTxt += "![Graph](/include/sets/basic.png) \n\n"
 
 FinalDoc =  HeaderDocTxt+GraphModulesTxt+TableDocTxt+TableAvancement+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
