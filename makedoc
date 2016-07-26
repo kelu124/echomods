@@ -7,4 +7,7 @@ python makedoc.py
 cd gh-pages/
 ./createMD.sh
 pandoc -t revealjs -s ppt.md -o ppt.html --slide-level 2
-pandoc -t revealjs -s DocumentationProcess.md -o DocumentationProcess.html --slide-level 2   --variable theme="league" --variable transition="linear"
+pandoc -t revealjs -s DocumentationProcess.md -o DocumentationProcess.html --slide-level 2 --variable theme="league" --variable transition="linear"
+
+cp ../include/sets/sets_slides.md ./
+pandoc -t revealjs -s sets_slides.md -o sets_slides.html --slide-level 2

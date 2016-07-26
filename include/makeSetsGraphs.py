@@ -49,11 +49,15 @@ def Svg2Png(svgfile):
 # Et ... go !
 # -------------------------
 
+Slides = ""
+
 for file in os.listdir("./"):
     if file.endswith(".set.md"):
 	ListOfDirs = []
 	NomDuSet = file[:-7]
 	print "'"+NomDuSet+"'"
+	Slides = Slides + "\n### "+NomDuSet
+	Slides = Slides +"\r\n"+ "![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/"+NomDuSet+".png)"+"\r\n"
 	with open(file) as f:
 	    for line in f:
 		line = line.rstrip('\r\n').rstrip('\n')
@@ -65,6 +69,7 @@ for file in os.listdir("./"):
 	# Dans chaque sous-ensemble..
 	for eachInput in ListOfDirs:
 		GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
+		
 	for ReadMe in ListOfDirs:
 		f = open("./../"+ReadMe+"/Readme.md", 'r')
 		ReadMehHtmlMarkdown=markdown.markdown( f.read() )
@@ -133,3 +138,8 @@ for file in os.listdir("./"):
 		GraphPath = "./sets/"+NomDuSet
 		GraphModules.render(GraphPath)
 		Svg2Png(GraphPath)
+
+
+text_file = open("sets/sets_slides.md", "w")
+text_file.write(Slides)
+text_file.close()
