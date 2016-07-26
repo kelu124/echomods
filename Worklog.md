@@ -657,7 +657,7 @@ Choice of the servo:
 
 More stuff about Phantoms: http://meritus.kopernika.pl/homemade-tastes-better/
 
-And ... working on the presentation: 
+And ... working on the [2016 Summer presentation](https://github.com/kelu124/echomods/blob/master/include/20160720-Milestone.md). 
 
 
 

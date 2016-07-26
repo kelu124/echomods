@@ -74,11 +74,13 @@ Simplement (TEENSY) pour émuler un signal.
 
 ### TODO
 
-* 
+* Get a Teensy 3.2
+* Produce the code
+* Check the code
 
 ### DONE
 
-* 
+* Nothing
 
 ### People
 

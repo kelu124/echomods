@@ -11,3 +11,8 @@ pandoc -t revealjs -s DocumentationProcess.md -o DocumentationProcess.html --sli
 
 cp ../include/sets/sets_slides.md ./
 pandoc -t revealjs -s sets_slides.md -o sets_slides.html --slide-level 2
+
+cp ../include/20160720-Milestone.md ./
+pandoc -t revealjs -s 20160720-Milestone.md -o 20160720-Milestone.html --slide-level 2
+
+

@@ -144,15 +144,15 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 ### TODO
 
 * Check the power consumption
-* Check if 5V and 3.3V are stable
-* Plug it to a RPi0 or BBB or RPi or else.
-* or test it with the EMW3165.
+* Plug it to a [RPi0 or BBB or RPi](/croaker/) or else.
+* or test it with the [EMW3165](/kina/).
 * Publish the sources in KiCAD (@Sofian maybe?)
 
 ### DONE
 
 * Specs to write
 * Agreeing on the strips 
+* Check if 5V and 3.3V are stable
 * Defining the ICs to use
 * Getting schematics
 * Send microcircuits to Edgeflex
