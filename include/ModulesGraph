@@ -2,6 +2,7 @@ digraph {
 	sleepy [fillcolor=blue fontsize=22 shape=box style=filled]
 	tobo [fillcolor=blue fontsize=22 shape=box style=filled]
 	cletus [fillcolor=blue fontsize=22 shape=box style=filled]
+	doj [fillcolor=blue fontsize=22 shape=box style=filled]
 	oneeye [fillcolor=blue fontsize=22 shape=box style=filled]
 	croaker [fillcolor=blue fontsize=22 shape=box style=filled]
 	retroATL3 [fillcolor=blue fontsize=22 shape=box style=filled]
