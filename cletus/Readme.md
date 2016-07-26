@@ -37,8 +37,8 @@ The object containing the different modules.
 
 ## Key Components
 
-* Servo
-* Piezo
+* `Servo`
+* `Piezo`
 
 ## Information
 
@@ -51,7 +51,18 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 
 ![Block schema](/cletus/source/blocks.png)
 
+* `ITF-mET_Piezo`->`Piezo`->`ITF-mET_Piezo`
+* `ITF-N_cc_motor_pwm`->`Servo`
+* `ITF-B_5v`->`Servo`
+
 ## About the module
+
+### Discussion
+
+#### Choice of the servo
+
+* http://www.hobbyking.com/hobbyking/store/__23158__Turnigy_8482_TGY_1267HV_Titanium_BB_DS_MG_Servo_14kg_0_10sec_57g.html
+* http://www.modmypi.com/electronics/motors-and-robotics/servo-motor-sg92r-micro
 
 ### Pros
 
@@ -66,11 +77,6 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 * Need to find a servo which frequency is above 100hz (100hz -> 10ms period -> 1 line per 10ms is quite close)
 
 ## Discussions
-
-### Choice of the servo
-
-* http://www.hobbyking.com/hobbyking/store/__23158__Turnigy_8482_TGY_1267HV_Titanium_BB_DS_MG_Servo_14kg_0_10sec_57g.html
-* http://www.modmypi.com/electronics/motors-and-robotics/servo-motor-sg92r-micro
 
 ### TODO
 
