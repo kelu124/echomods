@@ -67,7 +67,7 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ### Why a Teensy ?
 
-Simplement (TEENSY) pour émuler un signal.
+Simplement (TEENSY) pour émuler un signal. A "high" speed DAC is required. Since the acquisition period is 200us, we should have say 2 periods over this, hence a period of 100us, that's a 10kHz signal we should see. At 20 pts per period, we should have roughly a 200kHz DAC.
 * https://www.pjrc.com/teensy/td_timing_elaspedMillis.html
 * https://forum.pjrc.com/attachment.php?attachmentid=2790&d=1413271011
 * Pin Change teensy: https://www.pjrc.com/teensy/interrupts.html
@@ -75,6 +75,7 @@ Simplement (TEENSY) pour émuler un signal.
 ### TODO
 
 * Get a Teensy 3.2
+* Try with a Feather (WICED?)
 * Produce the code
 * Check the code
 
