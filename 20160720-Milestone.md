@@ -1,6 +1,6 @@
 % Summer Milestone, Playing with modules
 % @kelu124
-% July 27, 2016
+% July 20, 2016
 
 ## Objective
 
@@ -11,7 +11,6 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 The modules are breadboard compatible functionnal elements of any ultrasound imaging systems.
 
 They have in common 19 interfaces available on a motherboard to easily access and understand the signal processing logic.
-
 
 ## What specs?
 
@@ -30,21 +29,27 @@ We aren't doing live imaging for doctors, rather.. building a cheap, open, syste
 * Roughly -- 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s .. which is clearly fine with WiFi UDP (or TCP ?) streaming.
 * We'll try to use only 3.3V and 5V - standard voltages.
 
-## Modules so far
+## High priority modules
 
-* _High priority:_
-    * [tobo](https://github.com/kelu124/echomods/tree/master/tobo): the HV and pulser module
-    * [cletus](https://github.com/kelu124/echomods/tree/master/cletus): interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.
-    * [goblin](https://github.com/kelu124/echomods/tree/master/goblin): getting the signal coming back from a transducer, and to deliver the signal, analogically processed.
-    * [mogaba](https://github.com/kelu124/echomods/tree/master/mogaba): getting 3.3V and 5V done.
+* [tobo](https://github.com/kelu124/echomods/tree/master/tobo): the HV and pulser module. PCB made.
+* [cletus](https://github.com/kelu124/echomods/tree/master/cletus): interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.
+* [goblin](https://github.com/kelu124/echomods/tree/master/goblin): getting the signal coming back from a transducer, and to deliver the signal, analogically processed. PCB made.
+* [silent](https://github.com/kelu124/echomods/tree/master/silent): emulating an enveloppe signal. Dev toolbox.
+* [mogaba](https://github.com/kelu124/echomods/tree/master/mogaba): getting 3.3V and 5V done.
 
-* _Lower priority:_
-    * [sleepy](https://github.com/kelu124/echomods/tree/master/sleepy): encasing the whole modules object in a neat case, making it transportable.
-    * doj: the motherboard itself.
+## Lower priority modules
 
-* _Retired modules:_
-    * retroATL3: hacking a ATL3. Rotative probe with 3MHz element.
-    * retro10PV: hacking a ATL10PV. Rotative probe with 5, 7.5 and 10MHz elements.
+* [sleepy](https://github.com/kelu124/echomods/tree/master/sleepy): encasing the whole modules object in a neat case, making it transportable.
+* [doj](https://github.com/kelu124/echomods/tree/master/doj): the motherboard itself.
+
+## Retired modules
+
+Those are retired modules. However, they contain useful info.
+
+* [retroATL3](https://github.com/kelu124/echomods/tree/master/retroATL3): hacking a ATL3. Rotative probe with 3MHz element.
+* [retro10PV](https://github.com/kelu124/echomods/tree/master/retro10PV): hacking a ATL10PV. Rotative probe with 5, 7.5 and 10MHz elements.
+
+ALong with a real time, high speed DAC (BBB-PRUDAQ ?), retroATL3 could be up and running again.
 
 ## Documentation
 
@@ -54,29 +59,35 @@ Documentation here is key. A website that builds itself based on proper, simple 
 
 Having played with acquisition, it appears that the BitScope is excellent for 5Msps acquisition - with Xms delays between transfers to PC. Need real time. Options are as follows:
 
-* Beaglebone: either using [Murgen](#TODO) onboard ADC (10Msps), or the PRUDAQ Board.
-* Beaglebone: bitbanging the Tobo ADC.
-* EMW3165: getting the UDP streaming
+* Beaglebone: either using [Murgen](https://github.com/kelu124/murgen-dev-kit/) (@TODO) onboard ADC (10Msps), or the [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller).
+* Beaglebone: bitbanging the [tobo's 3Msps ADC](https://github.com/kelu124/echomods/tree/master/tobo).
+* [EMW3165 - Kina ](https://github.com/kelu124/echomods/tree/master/kina): getting the UDP streaming. Would work only with the [servo-powered piezo](https://github.com/kelu124/echomods/tree/master/cletus) along with [goblin](https://github.com/kelu124/echomods/tree/master/goblin).
 
 ## Display
 
 Displays are key to see if each line behaves as it should - and of course for us to check if it works. The displays should be part of each module. Several possibilities
 
 * Getting the image displayed on a TFT
-* Maybe line by line on the 128x64 OLED screen (using the EMW3165 ?) [](#TODO)
+* Maybe line by line on the 128x64 OLED screen (using the [EMW3165](https://github.com/kelu124/echomods/tree/master/kina) ?) [](#TODO)
 
 ## Planning
 
-* Critical path 
-    * Aug 5th: starting the work =)
-    * Aug 15th: getting and debugging Tobo, the pulser
+* Critical path: pulser
+    * Aug 10th: starting the work =)
     * Aug 10th: high priority: getting a US pulser emulator [](#TODO)
-
-* medium priority
-    * Aug 20th: Getting the EMW3165 working [](#TODO)
-
+    * Aug 15th: getting and debugging Tobo, the pulser
+    * End of August: tested [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller)
+* medium priority: small DAC
+    * Aug 20th: Getting the [EMW3165 - Kina ](https://github.com/kelu124/echomods/tree/master/kina) working [](#TODO)
 * Low priority: 
-     * Aug 15th: having played with PRUDAQ - maybe with Goblin and retroATL3
+     * Aug 15th: having played with [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller) - maybe with Goblin and retroATL3
+
+## Community
+
+Two main steps:
+
+* Interfacing with echopen -> how to push the modules ?
+* Pursuing the documentation effort and community visibility with hackaday.
 
 ## Conclusion
 
@@ -87,11 +98,11 @@ Two outputs scheduled:
 
 ## Pending Work
 
-* Publishing automatically a presentation of the modules.. will need some inputs from the /include/ folder =)
-* getting a US pulser emulator
+* Publishing automatically a presentation/ppt of the modules.. will need some inputs from the /include/ folder =)
+* Getting a US pulser emulator ([silent](https://github.com/kelu124/echomods/tree/master/silent)) : Teensy, Feather Wiced?
 * Graph the different modules - and see to what functional block each belongs
      * Within, create sets for graphing
-* transcribing murgen, tobo and goblin to kicad
+* Transcribing murgen, tobo and goblin to kicad
 * Finding a good "Todo" list.
 
 ## Q&A
@@ -100,8 +111,8 @@ Ping me @kelu124 / kelu124@gmail.com !
 
 ## Names
 
-* __XXXX__ for the Beaglebone with PRUDAQ (to test with retroATL3)
-* Beaglebone with direct access to tobo (to test with retroATL3 - high prio) (cf Derek Molloy) -> Code to be put in Tobo
+* __ToadKiller__ for the Beaglebone with [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller) (to test with [retroATL3](https://github.com/kelu124/echomods/tree/master/retroATL3))
+* Beaglebone with direct access to tobo (to test with retroATL3 - high prio) (cf Derek Molloy) -> Code to be put in [tobo](https://github.com/kelu124/echomods/tree/master/tobo)
 * __Doj__ for the motherboard
-* __XXXX__ for the EMW3165 module
+* __Kina__ for the [EMW3165](https://github.com/kelu124/echomods/tree/master/kina) module
 

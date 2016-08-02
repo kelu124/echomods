@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="@kelu124">
-  <meta name="dcterms.date" content="2016-07-27">
+  <meta name="dcterms.date" content="2016-07-20">
   <title>Summer Milestone, Playing with modules</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -31,7 +31,7 @@
 <section>
   <h1 class="title">Summer Milestone, Playing with modules</h1>
   <h2 class="author"><span class="citation" data-cites="kelu124">@kelu124</span></h2>
-  <h3 class="date">July 27, 2016</h3>
+  <h3 class="date">July 20, 2016</h3>
 </section>
 
 <section id="objective" class="slide level2">
@@ -65,27 +65,31 @@
 <li>We'll try to use only 3.3V and 5V - standard voltages.</li>
 </ul>
 </section>
-<section id="modules-so-far" class="slide level2">
-<h1>Modules so far</h1>
+<section id="high-priority-modules" class="slide level2">
+<h1>High priority modules</h1>
 <ul>
-<li><em>High priority:</em>
-<ul>
-<li><a href="https://github.com/kelu124/echomods/tree/master/tobo">tobo</a>: the HV and pulser module</li>
+<li><a href="https://github.com/kelu124/echomods/tree/master/tobo">tobo</a>: the HV and pulser module. PCB made.</li>
 <li><a href="https://github.com/kelu124/echomods/tree/master/cletus">cletus</a>: interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.</li>
-<li><a href="https://github.com/kelu124/echomods/tree/master/goblin">goblin</a>: getting the signal coming back from a transducer, and to deliver the signal, analogically processed.</li>
+<li><a href="https://github.com/kelu124/echomods/tree/master/goblin">goblin</a>: getting the signal coming back from a transducer, and to deliver the signal, analogically processed. PCB made.</li>
+<li><a href="https://github.com/kelu124/echomods/tree/master/silent">silent</a>: emulating an enveloppe signal. Dev toolbox.</li>
 <li><a href="https://github.com/kelu124/echomods/tree/master/mogaba">mogaba</a>: getting 3.3V and 5V done.</li>
-</ul></li>
-<li><em>Lower priority:</em>
+</ul>
+</section>
+<section id="lower-priority-modules" class="slide level2">
+<h1>Lower priority modules</h1>
 <ul>
 <li><a href="https://github.com/kelu124/echomods/tree/master/sleepy">sleepy</a>: encasing the whole modules object in a neat case, making it transportable.</li>
-<li>doj: the motherboard itself.</li>
-</ul></li>
-<li><em>Retired modules:</em>
-<ul>
-<li>retroATL3: hacking a ATL3. Rotative probe with 3MHz element.</li>
-<li>retro10PV: hacking a ATL10PV. Rotative probe with 5, 7.5 and 10MHz elements.</li>
-</ul></li>
+<li><a href="https://github.com/kelu124/echomods/tree/master/doj">doj</a>: the motherboard itself.</li>
 </ul>
+</section>
+<section id="retired-modules" class="slide level2">
+<h1>Retired modules</h1>
+<p>Those are retired modules. However, they contain useful info.</p>
+<ul>
+<li><a href="https://github.com/kelu124/echomods/tree/master/retroATL3">retroATL3</a>: hacking a ATL3. Rotative probe with 3MHz element.</li>
+<li><a href="https://github.com/kelu124/echomods/tree/master/retro10PV">retro10PV</a>: hacking a ATL10PV. Rotative probe with 5, 7.5 and 10MHz elements.</li>
+</ul>
+<p>ALong with a real time, high speed DAC (BBB-PRUDAQ ?), retroATL3 could be up and running again.</p>
 </section>
 <section id="documentation" class="slide level2">
 <h1>Documentation</h1>
@@ -95,9 +99,9 @@
 <h1>Acquisition</h1>
 <p>Having played with acquisition, it appears that the BitScope is excellent for 5Msps acquisition - with Xms delays between transfers to PC. Need real time. Options are as follows:</p>
 <ul>
-<li>Beaglebone: either using <a href="#/TODO">Murgen</a> onboard ADC (10Msps), or the PRUDAQ Board.</li>
-<li>Beaglebone: bitbanging the Tobo ADC.</li>
-<li>EMW3165: getting the UDP streaming</li>
+<li>Beaglebone: either using <a href="https://github.com/kelu124/murgen-dev-kit/">Murgen</a> (<span class="citation" data-cites="TODO">@TODO</span>) onboard ADC (10Msps), or the <a href="https://github.com/kelu124/echomods/tree/master/toadkiller">PRUDAQ BBB Board</a>.</li>
+<li>Beaglebone: bitbanging the <a href="https://github.com/kelu124/echomods/tree/master/tobo">tobo's 3Msps ADC</a>.</li>
+<li><a href="https://github.com/kelu124/echomods/tree/master/kina">EMW3165 - Kina</a>: getting the UDP streaming. Would work only with the <a href="https://github.com/kelu124/echomods/tree/master/cletus">servo-powered piezo</a> along with <a href="https://github.com/kelu124/echomods/tree/master/goblin">goblin</a>.</li>
 </ul>
 </section>
 <section id="display" class="slide level2">
@@ -105,26 +109,35 @@
 <p>Displays are key to see if each line behaves as it should - and of course for us to check if it works. The displays should be part of each module. Several possibilities</p>
 <ul>
 <li>Getting the image displayed on a TFT</li>
-<li>Maybe line by line on the 128x64 OLED screen (using the EMW3165 ?) <a href="#/TODO"></a></li>
+<li>Maybe line by line on the 128x64 OLED screen (using the <a href="https://github.com/kelu124/echomods/tree/master/kina">EMW3165</a> ?) <a href="#/TODO"></a></li>
 </ul>
 </section>
 <section id="planning" class="slide level2">
 <h1>Planning</h1>
 <ul>
-<li>Critical path
+<li>Critical path: pulser
 <ul>
-<li>Aug 5th: starting the work =)</li>
-<li>Aug 15th: getting and debugging Tobo, the pulser</li>
+<li>Aug 10th: starting the work =)</li>
 <li>Aug 10th: high priority: getting a US pulser emulator <a href="#/TODO"></a></li>
+<li>Aug 15th: getting and debugging Tobo, the pulser</li>
+<li>End of August: tested <a href="https://github.com/kelu124/echomods/tree/master/toadkiller">PRUDAQ BBB Board</a></li>
 </ul></li>
-<li>medium priority
+<li>medium priority: small DAC
 <ul>
-<li>Aug 20th: Getting the EMW3165 working <a href="#/TODO"></a></li>
+<li>Aug 20th: Getting the <a href="https://github.com/kelu124/echomods/tree/master/kina">EMW3165 - Kina</a> working <a href="#/TODO"></a></li>
 </ul></li>
 <li>Low priority:
 <ul>
-<li>Aug 15th: having played with PRUDAQ - maybe with Goblin and retroATL3</li>
+<li>Aug 15th: having played with <a href="https://github.com/kelu124/echomods/tree/master/toadkiller">PRUDAQ BBB Board</a> - maybe with Goblin and retroATL3</li>
 </ul></li>
+</ul>
+</section>
+<section id="community" class="slide level2">
+<h1>Community</h1>
+<p>Two main steps:</p>
+<ul>
+<li>Interfacing with echopen -&gt; how to push the modules ?</li>
+<li>Pursuing the documentation effort and community visibility with hackaday.</li>
 </ul>
 </section>
 <section id="conclusion" class="slide level2">
@@ -138,13 +151,13 @@
 <section id="pending-work" class="slide level2">
 <h1>Pending Work</h1>
 <ul>
-<li>Publishing automatically a presentation of the modules.. will need some inputs from the /include/ folder =)</li>
-<li>getting a US pulser emulator</li>
+<li>Publishing automatically a presentation/ppt of the modules.. will need some inputs from the /include/ folder =)</li>
+<li>Getting a US pulser emulator (<a href="https://github.com/kelu124/echomods/tree/master/silent">silent</a>) : Teensy, Feather Wiced?</li>
 <li>Graph the different modules - and see to what functional block each belongs
 <ul>
 <li>Within, create sets for graphing</li>
 </ul></li>
-<li>transcribing murgen, tobo and goblin to kicad</li>
+<li>Transcribing murgen, tobo and goblin to kicad</li>
 <li>Finding a good &quot;Todo&quot; list.</li>
 </ul>
 </section>
@@ -155,10 +168,10 @@
 <section id="names" class="slide level2">
 <h1>Names</h1>
 <ul>
-<li><strong>XXXX</strong> for the Beaglebone with PRUDAQ (to test with retroATL3)</li>
-<li>Beaglebone with direct access to tobo (to test with retroATL3 - high prio) (cf Derek Molloy) -&gt; Code to be put in Tobo</li>
+<li><strong>ToadKiller</strong> for the Beaglebone with <a href="https://github.com/kelu124/echomods/tree/master/toadkiller">PRUDAQ BBB Board</a> (to test with <a href="https://github.com/kelu124/echomods/tree/master/retroATL3">retroATL3</a>)</li>
+<li>Beaglebone with direct access to tobo (to test with retroATL3 - high prio) (cf Derek Molloy) -&gt; Code to be put in <a href="https://github.com/kelu124/echomods/tree/master/tobo">tobo</a></li>
 <li><strong>Doj</strong> for the motherboard</li>
-<li><strong>XXXX</strong> for the EMW3165 module</li>
+<li><strong>Kina</strong> for the <a href="https://github.com/kelu124/echomods/tree/master/kina">EMW3165</a> module</li>
 </ul>
 </section>
     </div>
