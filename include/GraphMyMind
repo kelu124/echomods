@@ -592,4 +592,20 @@ digraph {
 			ContactsNF -> "TI/MAXIM/ANALOG&amp;Al"
 			"TI/MAXIM/ANALOG&amp;Al" -> Microchip
 			Microchip -> Thierry
+		NewModules [penwidth=0]
+		Kina [penwidth=0]
+			NewModules -> Kina
+		NewModules [penwidth=0]
+		Silent [penwidth=0]
+			NewModules -> Silent
+		NewModules [penwidth=0]
+		ToadKiller [penwidth=0]
+			NewModules -> ToadKiller
+		BBB [penwidth=0]
+		"Baptiste Pierrat" [penwidth=0]
+		FastPRU [penwidth=0]
+		UpTo3Msps [penwidth=0]
+			BBB -> "Baptiste Pierrat"
+			"Baptiste Pierrat" -> FastPRU
+			FastPRU -> UpTo3Msps
 }
