@@ -1,5 +1,5 @@
-% __Summer Milestone, playing with modules__
-% _@kelu124_
+% Summer Milestone, playing with modules
+% @kelu124
 % July 20, 2016
 
 ## Objective
@@ -8,13 +8,13 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 
 ## What are modules?
 
-The modules are breadboard compatible functionnal elements of any ultrasound imaging systems.
+The modules are breadboard compatible functionnal elements of any ultrasound imaging systems. They have in common 19 'public' interfaces available on a motherboard to easily access and understand the signal processing logic.
 
-They have in common 19 interfaces available on a motherboard to easily access and understand the signal processing logic.
+They are listed on the [echomod repo](https://github.com/kelu124/echomods/)
 
 ## What specs?
 
-We aren't doing live imaging for doctors, rather.. building a cheap, open, system. Therefore, we could use the following:
+We aren't doing live imaging for doctors, rather.. building a cheap, open, system. Therefore, we could use the following (more details in the specs detailed in the [Worklog](https://github.com/kelu124/echomods/blob/master/Worklog.md):
 
 * 3MHz ultrasound: travels fasts, has a low enough frequency to avoid using too quick elements (ADC, processing, ...)
      * This gives a depth from 2cm to 15cm.
@@ -41,7 +41,7 @@ We aren't doing live imaging for doctors, rather.. building a cheap, open, syste
 
 * [sleepy](https://github.com/kelu124/echomods/tree/master/sleepy): encasing the whole modules object in a neat case, making it transportable.
 * [doj](https://github.com/kelu124/echomods/tree/master/doj): the motherboard itself.
-* [Toadkiller](https://github.com/kelu124/echomods/tree/master/toadkiller): PRUDAQ BBB Board : that's a 2x10Msps (or up to 40Msps) board for the BBB. Could be useful for the [retroATL3](https://github.com/kelu124/echomods/tree/master/retroATL3).
+* [Toadkiller](https://github.com/kelu124/echomods/tree/master/toadkiller): PRUDAQ BBB Board : that's a 2x10Msps (or up to 40Msps) board for the BBB. Could be u	seful for the [retroATL3](https://github.com/kelu124/echomods/tree/master/retroATL3).
 * [Kina](https://github.com/kelu124/echomods/tree/master/kina): a Wifi module, based on the EMW3165 - a rough UDP-streaming ADC. For slow acquisition.
 
 ## Retired modules
