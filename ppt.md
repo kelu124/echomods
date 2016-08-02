@@ -83,5 +83,5 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 |toadkiller|<ul><li>Do the quick check up</li></ul>|<ul><li>Nothing</li></ul>|50% |
 |kina|<ul><li>Get the code up and running</li><li>Try to get the pulser there as well (timers)</li><li>Get several samples per position to average then stream</li><li>Output data to a 128x64 OLED screen</li></ul>|<ul><li>TODO</li></ul>|20% |
 |goblin|<ul><li>Check the power consumption</li><li>Plug it to a <a href="/croaker/">RPi0 or BBB or RPi</a> or else.</li><li>or test it with the <a href="/kina/">EMW3165</a>.</li><li>Publish the sources in KiCAD (@Sofian maybe?)</li></ul>|<ul><li>Specs to write</li><li>Agreeing on the strips </li><li>Check if 5V and 3.3V are stable</li><li>Defining the ICs to use</li><li>Getting schematics</li><li>Send microcircuits to Edgeflex</li><li>Receive the module</li></ul>|63% |
-|silent|<ul><li>Get a Teensy 3.2</li><li>Produce the code</li><li>Check the code</li></ul>|<ul><li>Nothing</li></ul>|25% |
+|silent|<ul><li>Get a Teensy 3.2</li><li>Try with a Feather (WICED?)</li><li>Produce the code</li><li>Check the code</li></ul>|<ul><li>Nothing</li></ul>|20% |
 |mogaba|<ul><li>Manage to feed it 12V</li><li>Bring power to it through the 12V <code>ITF-F_12V</code> track </li></ul>|<ul><li>Test if 12V OK</li><li>Find supplier</li></ul>|50% |

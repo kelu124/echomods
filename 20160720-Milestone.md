@@ -1,5 +1,5 @@
-% Summer Milestone, Playing with modules
-% @kelu124
+% __Summer Milestone, playing with modules__
+% _@kelu124_
 % July 20, 2016
 
 ## Objective
@@ -41,6 +41,8 @@ We aren't doing live imaging for doctors, rather.. building a cheap, open, syste
 
 * [sleepy](https://github.com/kelu124/echomods/tree/master/sleepy): encasing the whole modules object in a neat case, making it transportable.
 * [doj](https://github.com/kelu124/echomods/tree/master/doj): the motherboard itself.
+* [Toadkiller](https://github.com/kelu124/echomods/tree/master/toadkiller): PRUDAQ BBB Board : that's a 2x10Msps (or up to 40Msps) board for the BBB. Could be useful for the [retroATL3](https://github.com/kelu124/echomods/tree/master/retroATL3).
+* [Kina](https://github.com/kelu124/echomods/tree/master/kina): a Wifi module, based on the EMW3165 - a rough UDP-streaming ADC. For slow acquisition.
 
 ## Retired modules
 
