@@ -660,6 +660,12 @@ More stuff about Phantoms: http://meritus.kopernika.pl/homemade-tastes-better/
 And ... working on the [2016 Summer presentation](https://github.com/kelu124/echomods/blob/master/include/20160720-Milestone.md). 
 
 
+#### 2016-08-02 Last week, after a week holiday =)
+
+* Working on the [milestone presentation](http://kelu124.github.io/echomods/20160720-Milestone.html).
+* Received a 12V alim, the PRUDAQ, and pushed the issue with Silent onto github. Ongoing !
+
+
 
 
 uControllers and other stuff
@@ -891,3 +897,11 @@ __More [Raspberry Pi Zero notes](notes_RPi0.md)__
 * FRANCE LIFE IMAGING->Reunion 21 Sept.->IEEE Tours
 * ContactsNF->TI/MAXIM/ANALOG&Al->AD->Cedric
 * ContactsNF->TI/MAXIM/ANALOG&Al->Microchip->Thierry
+
+#### August 2nd
+
+* NewModules->Kina
+* NewModules->Silent
+* NewModules->ToadKiller
+* BBB->Baptiste Pierrat->FastPRU->UpTo3Msps
+

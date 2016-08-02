@@ -63,14 +63,21 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ### Constraint and limits
 
-## Discussions
-
 ### Why a Teensy ?
 
 Simplement (TEENSY) pour émuler un signal.
 * https://www.pjrc.com/teensy/td_timing_elaspedMillis.html
 * https://forum.pjrc.com/attachment.php?attachmentid=2790&d=1413271011
 * Pin Change teensy: https://www.pjrc.com/teensy/interrupts.html
+
+#### Why not a Feather WICED ?
+
+* Testing a blink : https://github.com/adafruit/Adafruit_WICED_Arduino/blob/master/examples/Hardware/GPIO/Blink/Blink.ino
+* Fading as well https://github.com/adafruit/Adafruit_WICED_Arduino/blob/master/examples/Hardware/PWM/Fading/Fading.ino
+* 2 DACS : see https://cdn-learn.adafruit.com/assets/assets/000/031/391/medium800/adafruit_products_WICEDPinout.jpg?1458753854 (A4 and SCK)
+
+
+## Discussions
 
 ### TODO
 
