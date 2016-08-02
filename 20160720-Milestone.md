@@ -8,13 +8,13 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 
 ## What are modules?
 
-The modules are breadboard compatible functionnal elements of any ultrasound imaging systems.
+The modules are breadboard compatible functionnal elements of any ultrasound imaging systems. They have in common 19 'public' interfaces available on a motherboard to easily access and understand the signal processing logic.
 
-They have in common 19 interfaces available on a motherboard to easily access and understand the signal processing logic.
+They are listed on the [echomod repo](https://github.com/kelu124/echomods/)
 
 ## What specs?
 
-We aren't doing live imaging for doctors, rather.. building a cheap, open, system. Therefore, we could use the following:
+We aren't doing live imaging for doctors, rather.. building a cheap, open, system. Therefore, we could use the following (more details in the specs detailed in the [Worklog](https://github.com/kelu124/echomods/blob/master/Worklog.md):
 
 * 3MHz ultrasound: travels fasts, has a low enough frequency to avoid using too quick elements (ADC, processing, ...)
      * This gives a depth from 2cm to 15cm.
