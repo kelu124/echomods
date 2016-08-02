@@ -1,10 +1,13 @@
 digraph {
 	"ITF-mEG_SPI" [style=rounded]
-	"Pi Zero" [style=rounded]
+	BBB [style=rounded]
 	WiFi [style=rounded]
-		"ITF-mEG_SPI" -> "Pi Zero"
-		"Pi Zero" -> WiFi
-	"Pi Zero" [style=rounded]
-	Screen [style=rounded]
-		"Pi Zero" -> Screen
+		"ITF-mEG_SPI" -> BBB
+		BBB -> WiFi
+	BBB [style=rounded]
+	"ITF-mED-TFT-Screen" [style=rounded]
+		BBB -> "ITF-mED-TFT-Screen"
+	BBB [style=rounded]
+	"ITF-mEC-WiFi-UDP-Stream" [style=rounded]
+		BBB -> "ITF-mEC-WiFi-UDP-Stream"
 }

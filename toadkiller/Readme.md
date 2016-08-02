@@ -30,7 +30,11 @@ This is the module to get high-speed (40Msps) signal acquisition.
 
 ### Outputs
 
-* `ITF-E_signal_envelope`
+* `WiFi UDP Stream`
+* `ITF-mED-TFT-Screen`
+* `ITF-I_pulse_on`
+* `ITF-J_pulse_off`
+* `ITF-N_cc_motor_pwm`
 
 ## Key Components
 
@@ -48,8 +52,9 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ![Block schema](/prudaq/source/blocks.png)
 
-* `ITF-B_5v`->`BBB`->`PRUDAQ`->`File`
-
+* `ITF-B_5v`->`BBB`->`PRUDAQ`->`BBB`->`File`
+* `ITF-E_signal_envelope`->`PRUDAQ`
+* `BBB`->`SPI`->`TFT Screen`
 
 ## About the module
 

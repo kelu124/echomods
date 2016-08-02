@@ -29,8 +29,10 @@ The controler heart of the echOmods
 
 ### Outputs
 
-* `Screen`
-* `WiFi`
+* `ITF-mED-TFT-Screen`
+* `ITF-mEC-WiFi-UDP-Stream`
+* `ITF-I_pulse_on`
+* `ITF-J_pulse_off`
 
 ## Key Components
 
@@ -49,9 +51,9 @@ The aim of this echOmod is to receive the signal and process it.
 
 ![Block schema](source/blocks.png)
 
-* `ITF-mEG_SPI`->`Pi Zero`->`WiFi`
-* `Pi Zero`->`Screen`
-
+* `ITF-mEG_SPI`->`BBB`->`WiFi`
+* `BBB`->`ITF-mED-TFT-Screen`
+* `BBB`->`ITF-mEC-WiFi-UDP-Stream`
 
 ## About the module
 

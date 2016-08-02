@@ -10,3 +10,6 @@
 
 ### basic
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/basic.png)
+
+### highspeed
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png)
