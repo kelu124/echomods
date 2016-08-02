@@ -51,11 +51,27 @@ Those are retired modules. However, they contain useful info.
 * [retroATL3](https://github.com/kelu124/echomods/tree/master/retroATL3): hacking a ATL3. Rotative probe with 3MHz element.
 * [retro10PV](https://github.com/kelu124/echomods/tree/master/retro10PV): hacking a ATL10PV. Rotative probe with 5, 7.5 and 10MHz elements.
 
-ALong with a real time, high speed DAC (BBB-PRUDAQ ?), retroATL3 could be up and running again.
+Along with a real time, high speed DAC (BBB-PRUDAQ ?), retroATL3 could be up and running again.
+
+## Proposed Set 1a: slow speed
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/basic.png)
+
+## Proposed Set 1b: slow speed, wireless
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/wifi-dev-kit.png)
+
+## Proposed Set 2: Emulated signal
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/emulated.png)
+
+## Proposed Set 3: High Speed acquisition 
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png)
 
 ## Documentation
 
-Documentation here is key. A website that builds itself based on proper, simple and un-redondant information is needed.
+Documentation here is key. A website that builds itself based on proper, simple and un-redondant information is needed... and this repo / presentation is a proof it's on the way ;)
 
 ## Acquisition
 
