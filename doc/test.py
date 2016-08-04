@@ -156,8 +156,8 @@ for eachDir in ListOfDirs:
 
 
 
-	TableChecks += "/<ul>|\r\n"
-	ReadmeChecks += "/<ul>|\r\n"
+	TableChecks += "</ul>|\r\n"
+	ReadmeChecks += "</ul>|\r\n"
 
 
 text_file = open("test_results.md", "w")
