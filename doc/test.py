@@ -58,7 +58,7 @@ TableChecks += "|------|-------|----|----------|----|\n"
 
 ReadmeChecks = "## Structure of the folders\n\n"
 ReadmeChecks += "| Module Name | Blocks | TODO | \n"
-ReadmeChecks += "|--|----|-------|\n"
+ReadmeChecks += "|------|------|-------|\n"
 
 # -------------------------
 # Iterons sur les modules
@@ -67,7 +67,7 @@ ReadmeChecks += "|--|----|-------|\n"
 for eachDir in ListOfDirs:
 	# Name of the module
 	TableChecks += "| "+eachDir+" |"
-	ReadmeChecks += "| "+eachDir
+	ReadmeChecks += "| "+eachDir+ " "
 	# Checking Readmes
 	if (os.path.isfile(dirname+"/"+eachDir+"/Readme.md")):
 		TableChecks += GreenMark + " Readme.md |"
@@ -165,7 +165,7 @@ text_file.write(TableChecks+ReadmeChecks)
 text_file.close()
 
 
-
+print ReadmeChecks
 
 
 
