@@ -26,8 +26,8 @@ from bs4 import BeautifulSoup
 # Get icons
 # -------------------------
 
-GreenMark = ":green_heart:"
-RedMark = ":broken_heart:"
+GreenMark = ":white_check_mark:"
+RedMark = ":no_entry:"
 WarningMark = ":warning:"
 
 # -------------------------
@@ -56,7 +56,7 @@ TableChecks = "## Structure of the folders\n\n"
 TableChecks += "| Module Name | ReadMe | ViewMe | Folders |Module Codename|\n"
 TableChecks += "|------|-------|-------|----|----------|----|\n"
 
-ReadmeChecks = "## Structure of the folders\n\n"
+ReadmeChecks = "## Contents of the Readme.md \n\n"
 ReadmeChecks += "| Module Name | Blocks | TODO | \n"
 ReadmeChecks += "|------|------|-------|\n"
 
