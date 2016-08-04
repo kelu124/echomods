@@ -51,10 +51,14 @@ for f in ListOfDirs:
 ListOfDirs = [x for x in ModulesDirs if x not in ExcludeDirs]
 
 
-TableChecks = "# A recap of our modules \n\n\n"
-TableChecks += "| Module Name | ReadMe | ViewMe | Folders | Blocks | TODO |\n"
-TableChecks += "|------|-------|----|----------|----|----|----|\n"
+TableChecks = "# Summary of the test \n\n\n"
+TableChecks = "## Structure of the folders\n\n"
+TableChecks += "| Module Name | ReadMe | ViewMe | Folders |\n"
+TableChecks += "|------|-------|----|----------|----|\n"
 
+ReadmeChecks = "## Structure of the folders\n\n"
+ReadmeChecks += "| Blocks | TODO | \n"
+ReadmeChecks += "|------|-------|\n"
 
 # -------------------------
 # Iterons sur les modules
@@ -99,7 +103,7 @@ for eachDir in ListOfDirs:
 	# Checks
 	#print ReadMehHtmlMarkdown
 	desc = soup.find_all("h2")
-	TableChecks += "<ul>"
+	ReadmeChecks += "|<ul>"
 	# NameCheck	
 	NameCheck = ""
 	for H2 in desc:
@@ -107,7 +111,8 @@ for eachDir in ListOfDirs:
 			NameCheck += "<li>"+GreenMark + " "+H2.find_next("p").text+"</li>"
 	if len(NameCheck)==0:
 		NameCheck += "<li>"+RedMark + " Name</li>"
-	TableChecks += NameCheck
+	ReadmeChecks += NameCheck
+
 
 	desc = soup.find_all("h3")
 	# Inputs	
@@ -125,37 +130,37 @@ for eachDir in ListOfDirs:
 			NameCheck += "<li>"+GreenMark + " "+str(len(H3.find_next("ul").find_all("li")))+" output(s) </li>"
 	if len(NameCheck)==0:
 		NameCheck += "<li>"+RedMark + " Outputs</li>"
-	TableChecks += NameCheck
-	TableChecks += "</ul>|"
+	ReadmeChecks += NameCheck
+	ReadmeChecks += "</ul>|"
 
-	TableChecks +=  "\r\n"
-	## ID TAGS
-	TableChecks += "<ul>"
-	# Outputs	
+	## TODOS
+	ReadmeChecks += "<ul>"
+	# Todo	
 	NameCheck = ""
 	for H3 in desc:
 		if "TODO" in H3.text:
 			NameCheck += "<li>"+GreenMark + " "+str(len(H3.find_next("ul").find_all("li")))+" todo(s) </li>"
 	if len(NameCheck)==0:
 		NameCheck += "<li>"+RedMark + " Todos</li>"
-	TableChecks += NameCheck
+	ReadmeChecks += NameCheck
 
-	# Dones	
+	# Done
 	NameCheck = ""
 	for H3 in desc:
 		if "DONE" in H3.text:
 			NameCheck += "<li>"+GreenMark + " "+str(len(H3.find_next("ul").find_all("li")))+" done(s) </li>"
 	if len(NameCheck)==0:
 		NameCheck += "<li>"+RedMark + " Todos</li>"
-	TableChecks += NameCheck
+	ReadmeChecks += NameCheck
 
 
 
-	TableChecks += "/<ul>|"
+	TableChecks += "/<ul>|\r\n"
+	ReadmeChecks += "/<ul>|\r\n"
 
 
 text_file = open("test_results.md", "w")
-text_file.write(TableChecks)
+text_file.write(TableChecks+ReadmeChecks)
 text_file.close()
 
 
