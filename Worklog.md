@@ -81,6 +81,7 @@ What is expected is to break down logic blocks into modules that could be put on
 * TODO: Schemas de fonctionnement des modules
 * TODO: Hack RPi0 CSI (Camera)
 * TODO: Voir PCMLab (Jussieu)
+* TODO: Finance
 
 ### Ongoing
 
@@ -666,6 +667,10 @@ And ... working on the [2016 Summer presentation](https://github.com/kelu124/ech
 * Received a 12V alim, the PRUDAQ, and pushed the issue with Silent onto github. Ongoing !
 
 
+#### 2016-08-04 Soon off
+
+* Working on the [finance file](https://github.com/kelu124/echomods/blob/master/include/Finance.md) --> still work to do !
+* Worked on the [doc-test script](https://github.com/kelu124/echomods/blob/master/doc/) to automatize the results of modules documentation tests -- [see an example with an error](https://github.com/kelu124/echomods/blob/master/example_fail.md)
 
 
 uControllers and other stuff

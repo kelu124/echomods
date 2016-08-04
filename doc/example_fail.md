@@ -1,6 +1,6 @@
 ## Structure of the folders
 
-| Module Name | ReadMe | ViewMe | Folders |Module Codename|
+| Module Name | Codename|ReadMe | ViewMe | Folders |
 |------|-------|-------|----|----------|----|
 | sleepy |:green_heart: Readme.md |:green_heart: OK |:green_heart: _source_|<li>:green_heart: MDL-echomods_case</li></ul>|
 | tobo |:green_heart: Readme.md |:green_heart: OK |:green_heart: _build_, _source_, _images_|<li>:green_heart: MDL-tobo_hvpulser</li></ul>|
@@ -11,7 +11,7 @@
 | retroATL3 |:green_heart: Readme.md |:green_heart: OK |:green_heart: _software_, _source_, _images_|<li>:green_heart: MDL-probe_retroATL3</li></ul>|
 | toadkiller |:green_heart: Readme.md |:green_heart: OK |:green_heart: _source_|<li>:green_heart: MDL-echomods_prudaq</li></ul>|
 | kina |:green_heart: Readme.md |:green_heart: OK |:green_heart: _source_|<li>:green_heart: MDL-echomods_UDP-slow-streamer</li></ul>|
-| goblin |:green_heart: Readme.md |:green_heart: OK |:green_heart: _datasheet_, _build_, _source_, _images_|<li>:green_heart: MDL-goblin_tgcenvadc</li></ul>|
+| goblin |:green_heart: Readme.md |:broken_heart: Failed |:green_heart: _datasheet_, _build_, _source_, _images_|<li>:green_heart: MDL-goblin_tgcenvadc</li></ul>|
 | silent |:green_heart: Readme.md |:green_heart: OK |:green_heart: _software_, _source_|<li>:green_heart: MDL-echomods_emulator</li></ul>|
 | mogaba |:green_heart: Readme.md |:green_heart: OK |:green_heart: _source_|<li>:green_heart: MDL-mogaba_small_powersupply</li></ul>|
 ## Structure of the folders

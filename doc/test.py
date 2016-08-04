@@ -41,7 +41,7 @@ ListOfDirs = os.listdir(dirname)
 ModulesDirs = []
 # On itere
 for f in ListOfDirs:
-	print dirname+"/"+f
+	#print dirname+"/"+f
 	if  os.path.isdir(dirname+"/"+f):
 		
 		ModulesDirs.append(f)
@@ -53,7 +53,7 @@ ListOfDirs = [x for x in ModulesDirs if x not in ExcludeDirs]
 
 TableChecks = "# Summary of the test \n\n\n"
 TableChecks = "## Structure of the folders\n\n"
-TableChecks += "| Module Name | Codename|ReadMe | ViewMe | Folders |\n"
+TableChecks += "| Module Name | ReadMe | ViewMe | Folders |Module Codename|\n"
 TableChecks += "|------|-------|-------|----|----------|----|\n"
 
 ReadmeChecks = "## Structure of the folders\n\n"
@@ -93,7 +93,7 @@ for eachDir in ListOfDirs:
 	else:
 		TableChecks += GreenMark +" _"+"_, _".join(LD)+"_"
 	TableChecks += "|"
-	print LD
+	#print LD
 
 	# Working on the doc itself
 	f = open(dirname+"/"+eachDir+"/Readme.md", 'r')
@@ -114,7 +114,7 @@ for eachDir in ListOfDirs:
 		NameCheck += "<li>"+RedMark + " Name</li>"
 	TableChecks += NameCheck
 
-	print soup
+	#print soup
 
 	desc = soup.find_all("h3")
 	# Inputs	
@@ -166,7 +166,7 @@ text_file.write(TableChecks+ReadmeChecks)
 text_file.close()
 
 
-print ReadmeChecks
+#print ReadmeChecks
 
 
 
