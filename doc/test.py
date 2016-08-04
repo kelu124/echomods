@@ -53,8 +53,8 @@ ListOfDirs = [x for x in ModulesDirs if x not in ExcludeDirs]
 
 TableChecks = "# Summary of the test \n\n\n"
 TableChecks = "## Structure of the folders\n\n"
-TableChecks += "| Module Name | ReadMe | ViewMe | Folders |\n"
-TableChecks += "|------|-------|----|----------|----|\n"
+TableChecks += "| Module Name | Codename|ReadMe | ViewMe | Folders |\n"
+TableChecks += "|------|-------|-------|----|----------|----|\n"
 
 ReadmeChecks = "## Structure of the folders\n\n"
 ReadmeChecks += "| Module Name | Blocks | TODO | \n"
@@ -112,8 +112,9 @@ for eachDir in ListOfDirs:
 			NameCheck += "<li>"+GreenMark + " "+H2.find_next("p").text+"</li>"
 	if len(NameCheck)==0:
 		NameCheck += "<li>"+RedMark + " Name</li>"
-	ReadmeChecks += NameCheck
+	TableChecks += NameCheck
 
+	print soup
 
 	desc = soup.find_all("h3")
 	# Inputs	
@@ -123,7 +124,7 @@ for eachDir in ListOfDirs:
 			NameCheck += "<li>"+GreenMark + " "+str(len(H3.find_next("ul").find_all("li")))+" input(s) </li>"
 	if len(NameCheck)==0:
 		NameCheck += "<li>"+RedMark + " Inputs</li>"
-	TableChecks += NameCheck
+	ReadmeChecks += NameCheck
 	# Outputs	
 	NameCheck = ""
 	for H3 in desc:
