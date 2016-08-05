@@ -15,7 +15,8 @@
 | 9 | [NanoPi m3](http://nanopi.io/nanopi-m3.html) | Cortex-A53 S5P6818 SoC | ts dynamic frequency scales from 400M up to 1.4GHz. | ?? | ?? | Has WiFi | 
 | 10 | [BBC Microbit](https://www.element14.com/community/community/stem-academy/microbit) | ?? | NoP | Not really a uC for us... | ?? | ?? | 
 | 11 | [Nucleo F401RE ](http://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-nucleo/nucleo-f401re.html?icmp=nucleo-ipf_pron_pr-nucleo_feb2014) | STM32F401RE | ?? | Joris working with this one | ?? | ?? | 
-| 12 | [](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32f3-series/stm32f334/stm32f334r8.html) | ?? | NoP | 12-bit ADC 5 MSPS  | 5-10$ | Analog and DSP with FPU ARM Cortex-M4 MCU with 64 Kbytes Flash, 72 MHz CPU, CCM, 12-bit ADC 5 MSPS | 
+| 12 | [stm32f3](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32f3-series/stm32f334/stm32f334r8.html) | ?? | NoP | 12-bit ADC 5 MSPS  | 5-10$ | Analog and DSP with FPU ARM Cortex-M4 MCU with 64 Kbytes Flash, 72 MHz CPU, CCM, 12-bit ADC 5 MSPS | 
+| 13|  [PIC32MZ](hhttp://eu.mouser.com/new/microchip/microchip-pic32mz-mcus/) | PIC32MZ | NoP | 12-bit, 28MSPS, 48-channel ADC module | 5$ | 200MHz/330 DMIPS, M-Class Core, DSP-enhanced core, 12-bit, 28MSPS, 48-channel ADC module | 
 
 * Feather (inclus un m3) : STM32F205 + BCM43362 qui a un m3
 * Feather: meme chose que le photo, mais en compatible Arduino
