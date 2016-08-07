@@ -72,23 +72,24 @@ Simplement (TEENSY) pour émuler un signal. A "high" speed DAC is required. Sinc
 
 #### Why not a Feather WICED ?
 
-* Testing a blink : https://github.com/adafruit/Adafruit_WICED_Arduino/blob/master/examples/Hardware/GPIO/Blink/Blink.ino
-* Fading as well https://github.com/adafruit/Adafruit_WICED_Arduino/blob/master/examples/Hardware/PWM/Fading/Fading.ino
-* 2 DACS : see https://cdn-learn.adafruit.com/assets/assets/000/031/391/medium800/adafruit_products_WICEDPinout.jpg?1458753854 (A4 and SCK)
+* [Fading](https://github.com/adafruit/Adafruit_WICED_Arduino/blob/master/examples/Hardware/PWM/Fading/Fading.ino) as well 
+* IT has two DACs : see [here](https://cdn-learn.adafruit.com/assets/assets/000/031/391/medium800/adafruit_products_WICEDPinout.jpg?1458753854) 
 
+With a simple code, managed to get a 1.8Mhz signal ( [code is here](software/featherWICED/SimpleSignalGenerator.ino) ).
+
+![](software/featherWICED/SimpleSignalGenerator.png)
 
 ## Discussions
 
 ### TODO
 
 * Get a Teensy 3.2
-* Try with a Feather (WICED?)
-* Produce the code
-* Check the code
+* Feather: work with an interrupt
+* Feather: remove the average value before inputing in Goblin 
 
 ### DONE
 
-* Nothing
+* Validated with a Feather WICED ([code](software/featherWICED/SimpleSignalGenerator.ino)).
 
 ### People
 

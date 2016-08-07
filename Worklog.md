@@ -670,6 +670,8 @@ And ... working on the [2016 Summer presentation](https://github.com/kelu124/ech
 #### 2016-08-04 Soon off
 
 * Working on the [finance file](https://github.com/kelu124/echomods/blob/master/include/Finance.md) --> still work to do !
+* Setting the stuff on for 1000$ from HAD
+* HD should have received the pulser module.. waiting for it =)
 * Worked on the [doc-test script](https://github.com/kelu124/echomods/blob/master/doc/) to automatize the results of modules documentation tests -- [see an example with an error](https://github.com/kelu124/echomods/blob/master/example_fail.md)
 
 
