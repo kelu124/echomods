@@ -49,7 +49,7 @@ def Svg2Png(svgfile):
 # Obtenir la liste des modules
 # -------------------------
 
-ExcludeDirs = ["include","retired","tools",".git","gh-pages"]
+ExcludeDirs = ["include","retired","tools",".git","gh-pages","doc"]
 dirname = "./"
 ListOfDirs = os.listdir(dirname)  
 ModulesDirs = []
@@ -118,6 +118,7 @@ for ReadMe in ListOfDirs:
 	for item in results:
 	    Desc = map(str, re.findall(patternCode, item, flags=0))
 	#print Desc
+	print ReadMe
 	Desc = Desc[0]
 
 	# Getting the Innards of the Module // inside the block diagram

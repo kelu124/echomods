@@ -7,6 +7,7 @@ digraph {
 		"Schemas de fonctionnement des modules" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Hack RPi0 CSI (Camera)" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Voir PCMLab (Jussieu)" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		Finance [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Goblin - 2Msps SPI ADC -- Play with BBB and RPi0 SPI" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/fin4devmooc" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow penwidth=0 style="rounded,filled"]

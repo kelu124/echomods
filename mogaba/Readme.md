@@ -83,11 +83,12 @@ Quality of the power supply is key: it can introduce noise in the final
 
 ### TODO
 
-* Manage to feed it 12V
-* Bring power to it through the 12V `ITF-F_12V` track 
+* benchmark power supplies 
 
 ### DONE
 
+* Manage to feed it 12V
+* Bring power to it through the 12V `ITF-F_12V` track 
 * Test if 12V OK
 * Find supplier
 

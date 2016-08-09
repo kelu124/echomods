@@ -70,8 +70,6 @@ Now with the actual modules
 
 ### TODO
 
-* Closed.
-
 ### DONE
 
 * Having the list of strips accessible

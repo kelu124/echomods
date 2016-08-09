@@ -15,7 +15,7 @@ This is the module which emulates the signal coming from the analog processing c
 * Teensy for its DAC.
 * version: V0.1
 * date: 26/07/2016
-* technology: Teensy 3.2
+* technology: Adafruit Feather
 * language: C
 * author: Kelu124
 
@@ -35,7 +35,7 @@ This is the module which emulates the signal coming from the analog processing c
 
 ## Key Components
 
-* `Teensy 3.2`
+* `Feather WICED`
 
 ## Information
 
@@ -48,8 +48,8 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ![Block schema](/silent/source/blocks.png)
 
-* `ITF-B_5v`->`Teensy 3.2`->`DAC`->`ITF-E_signal_envelope`
-* `ITF-I_pulse_on`->`Teensy 3.2`
+* `ITF-B_5v`->`Feather WICED`->`DAC`->`ITF-E_signal_envelope`
+* `ITF-I_pulse_on`->`Feather WICED`
 
 ## About the module
 
@@ -83,13 +83,14 @@ With a simple code, managed to get a 1.8Mhz signal ( [code is here](software/fea
 
 ### TODO
 
-* Get a Teensy 3.2
 * Feather: work with an interrupt
-* Feather: remove the average value before inputing in Goblin 
 
 ### DONE
 
+* write code for feather
+* publish this code
 * Validated with a Feather WICED ([code](software/featherWICED/SimpleSignalGenerator.ino)).
+* Feather: remove the average value before inputing in Goblin 
 
 ### People
 

@@ -14,13 +14,13 @@
 <ellipse fill="none" stroke="black" cx="46.1459" cy="-234" rx="46.2923" ry="18"/>
 <text text-anchor="middle" x="46.1459" y="-230.3" font-family="Times,serif" font-size="14.00">ITF&#45;B_5v</text>
 </g>
-<!-- Teensy 3.2 -->
-<g id="node2" class="node"><title>Teensy 3.2</title>
-<ellipse fill="none" stroke="black" cx="111.146" cy="-162" rx="50.0912" ry="18"/>
-<text text-anchor="middle" x="111.146" y="-158.3" font-family="Times,serif" font-size="14.00">Teensy 3.2</text>
+<!-- Feather WICED -->
+<g id="node2" class="node"><title>Feather WICED</title>
+<ellipse fill="none" stroke="black" cx="111.146" cy="-162" rx="68.7879" ry="18"/>
+<text text-anchor="middle" x="111.146" y="-158.3" font-family="Times,serif" font-size="14.00">Feather WICED</text>
 </g>
-<!-- ITF&#45;B_5v&#45;&gt;Teensy 3.2 -->
-<g id="edge1" class="edge"><title>ITF&#45;B_5v&#45;&gt;Teensy 3.2</title>
+<!-- ITF&#45;B_5v&#45;&gt;Feather WICED -->
+<g id="edge1" class="edge"><title>ITF&#45;B_5v&#45;&gt;Feather WICED</title>
 <path fill="none" stroke="black" d="M61.2216,-216.765C69.3891,-207.969 79.641,-196.928 88.7265,-187.144"/>
 <polygon fill="black" stroke="black" points="91.4609,-189.343 95.7006,-179.633 86.3313,-184.58 91.4609,-189.343"/>
 </g>
@@ -29,8 +29,8 @@
 <ellipse fill="none" stroke="black" cx="111.146" cy="-90" rx="29.4969" ry="18"/>
 <text text-anchor="middle" x="111.146" y="-86.3" font-family="Times,serif" font-size="14.00">DAC</text>
 </g>
-<!-- Teensy 3.2&#45;&gt;DAC -->
-<g id="edge2" class="edge"><title>Teensy 3.2&#45;&gt;DAC</title>
+<!-- Feather WICED&#45;&gt;DAC -->
+<g id="edge2" class="edge"><title>Feather WICED&#45;&gt;DAC</title>
 <path fill="none" stroke="black" d="M111.146,-143.697C111.146,-135.983 111.146,-126.712 111.146,-118.112"/>
 <polygon fill="black" stroke="black" points="114.646,-118.104 111.146,-108.104 107.646,-118.104 114.646,-118.104"/>
 </g>
@@ -49,10 +49,10 @@
 <ellipse fill="none" stroke="black" cx="176.146" cy="-234" rx="65.7887" ry="18"/>
 <text text-anchor="middle" x="176.146" y="-230.3" font-family="Times,serif" font-size="14.00">ITF&#45;I_pulse_on</text>
 </g>
-<!-- ITF&#45;I_pulse_on&#45;&gt;Teensy 3.2 -->
-<g id="edge4" class="edge"><title>ITF&#45;I_pulse_on&#45;&gt;Teensy 3.2</title>
-<path fill="none" stroke="black" d="M160.742,-216.411C152.566,-207.606 142.372,-196.628 133.356,-186.919"/>
-<polygon fill="black" stroke="black" points="135.809,-184.416 126.439,-179.47 130.679,-189.179 135.809,-184.416"/>
+<!-- ITF&#45;I_pulse_on&#45;&gt;Feather WICED -->
+<g id="edge4" class="edge"><title>ITF&#45;I_pulse_on&#45;&gt;Feather WICED</title>
+<path fill="none" stroke="black" d="M160.742,-216.411C152.684,-207.734 142.667,-196.946 133.749,-187.342"/>
+<polygon fill="black" stroke="black" points="136.26,-184.903 126.891,-179.956 131.131,-189.666 136.26,-184.903"/>
 </g>
 </g>
 </svg>

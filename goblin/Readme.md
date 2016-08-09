@@ -143,13 +143,14 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 
 ### TODO
 
-* Check the power consumption
+
 * Plug it to a [RPi0 or BBB or RPi](/croaker/) or else.
 * or test it with the [EMW3165](/kina/).
 * Publish the sources in KiCAD (@Sofian maybe?)
 
 ### DONE
 
+* Check the power consumption
 * Specs to write
 * Agreeing on the strips 
 * Check if 5V and 3.3V are stable
