@@ -75,6 +75,17 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ## Constraint and limits
 
+### Look of the schematics
+
+![](images/schema-tobo.png)
+
+and [a link to it](tobo_schematics.pdf)
+
+
+### Look of the actual board
+
+![](images/tobo-2.png)
+
 ## Discussions
 
 Some issues with the availability of the `HV7360`, living its end of life.

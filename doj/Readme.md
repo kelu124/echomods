@@ -23,10 +23,11 @@ The motherboard of the echomods
 
 ### Inputs
 
-*  
+* Power supply
+
 ### Outputs
 
-*  
+* Signal =)
 
 ## Key Components
 
@@ -36,8 +37,7 @@ The motherboard of the echomods
 
 ### What is it supposed to do?
 
-
-Getting a motherboard
+Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks.
 
 
 ### How does it work: block diagram
@@ -47,23 +47,37 @@ Getting a motherboard
 ### Pros
 
 * Half of a A4 sheet .. that's the target! 
+* Trying to fit onto a single stripboard
 
 ### Cons
 
-* Small..
+* Maybe can introduce noise.
 
 ### Constraint and limits
+
+#### Initial design
+
+As in mind 
+
+![](images/IMG_2607.JPG)
+
+Now with the actual modules
+
+![](images/doj-simple.png)
 
 ## Discussions
 
 
 ### TODO
 
-* Design
+* Closed.
 
 ### DONE
 
 * Having the list of strips accessible
+* Design
+* Assemble it
+* Test it
 
 ### People
 
@@ -71,7 +85,7 @@ Getting a motherboard
 
 ## License
 
-### Sleepy 
+### Doj 
 
 The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [doj](/doj/) module) are open hardware, and working with open-hardware components.
 
