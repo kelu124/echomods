@@ -313,7 +313,7 @@ for ReadMe in ListOfDirs:
 		PCProgress = ((nbDone)*100)/(nbTodo+nbDone-bonus)
 	else:
 		PCProgress = "NA"
-	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+str(PCProgress)+"% |\n"
+	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+str(PCProgress)+"% |\r\n"
 
 # -------------------------
 # Créer le graphe des modules
