@@ -67,6 +67,10 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ## Constraint and limits
 
+### Layout on the motherboard
+
+![](images/oneeye-trinket.png)
+
 ## Discussions
 
 ### TODO

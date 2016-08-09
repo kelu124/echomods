@@ -63,21 +63,32 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ### Constraint and limits
 
-### Why a Teensy ?
+#### Getting a signal 
 
-Simplement (TEENSY) pour émuler un signal. A "high" speed DAC is required. Since the acquisition period is 200us, we should have say 2 periods over this, hence a period of 100us, that's a 10kHz signal we should see. At 20 pts per period, we should have roughly a 200kHz DAC.
-* https://www.pjrc.com/teensy/td_timing_elaspedMillis.html
-* https://forum.pjrc.com/attachment.php?attachmentid=2790&d=1413271011
-* Pin Change teensy: https://www.pjrc.com/teensy/interrupts.html
+With a simple code on feather WICED, managed to get a 1.8 - 2Mhz signal ( [code is here](software/featherWICED/SimpleSignalGenerator.ino) ).
+
+![](software/featherWICED/SimpleSignalGenerator.png)
+
+#### Look of the module
+
+The pins needed to be rerouted, so an intermediary board was made ouf of stripboard
+
+![](images/silent.png)
+
 
 #### Why not a Feather WICED ?
 
 * [Fading](https://github.com/adafruit/Adafruit_WICED_Arduino/blob/master/examples/Hardware/PWM/Fading/Fading.ino) as well 
 * IT has two DACs : see [here](https://cdn-learn.adafruit.com/assets/assets/000/031/391/medium800/adafruit_products_WICEDPinout.jpg?1458753854) 
 
-With a simple code, managed to get a 1.8Mhz signal ( [code is here](software/featherWICED/SimpleSignalGenerator.ino) ).
 
-![](software/featherWICED/SimpleSignalGenerator.png)
+### Why not a Teensy ?
+
+Simplement (TEENSY) pour émuler un signal. A "high" speed DAC is required. Since the acquisition period is 200us, we should have say 2 periods over this, hence a period of 100us, that's a 10kHz signal we should see. At 20 pts per period, we should have roughly a 200kHz DAC.
+* https://www.pjrc.com/teensy/td_timing_elaspedMillis.html
+* https://forum.pjrc.com/attachment.php?attachmentid=2790&d=1413271011
+* Pin Change teensy: https://www.pjrc.com/teensy/interrupts.html
+
 
 ## Discussions
 
