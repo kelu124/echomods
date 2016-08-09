@@ -144,8 +144,8 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 ### TODO
 
 
-* :thought_balloon: Plug it to a [RPi0 or BBB or RPi](/croaker/) or else.
-* :thought_balloon: or test it with the [EMW3165](/kina/).
+* _BONUS!_ Plug it to a [RPi0 or BBB or RPi](/croaker/) or else.
+* _BONUS!_ or test it with the [EMW3165](/kina/).
 * Publish the sources in KiCAD (@Sofian maybe?)
 
 ### DONE

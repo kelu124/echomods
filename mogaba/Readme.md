@@ -83,7 +83,7 @@ Quality of the power supply is key: it can introduce noise in the final
 
 ### TODO
 
-* :thought_balloon: benchmark power supplies 
+* _BONUS!_ benchmark power supplies 
 
 ### DONE
 

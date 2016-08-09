@@ -260,7 +260,7 @@ TableRetiredDocTxt = TableRetiredModules+"\n\n"
 # -------------------------
 
 TableAvancement = "# Progress on building the modules \n\n\n"
-TableAvancement += "Note that the :thought_balloon: icon represents something that _could_ be done, and does not count as a strict TODO.\r\n"
+TableAvancement += "Note that the 'BONUS!' represents something that _could_ be done, and does not count as a strict TODO.\r\n"
 TableAvancement += "| Name of module | ToDo | Done |  Progress |\n"
 TableAvancement += "|------|-------|----|-----|\n"
 
@@ -282,7 +282,7 @@ for ReadMe in ListOfDirs:
 	    else:
 		TODO = ""
 	    for itemtodo in todos:
-		    if ":thought_balloon:" in itemtodo:
+		    if "BONUS!" in itemtodo:
 	 		bonus = bonus + 1
         #print bonus
 	# Getting the done-list for the module

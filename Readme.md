@@ -56,7 +56,7 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 # Progress on building the modules 
 
 
-Note that the :thought_balloon: icon represents something that _could_ be done, and does not count as a strict TODO.
+Note that the 'BONUS!' represents something that _could_ be done, and does not count as a strict TODO.
 | Name of module | ToDo | Done |  Progress |
 |------|-------|----|-----|
 |sleepy|<ul><li>Choose the design once the modules are done</li><li>Get to work with Arthur</li></ul>|<ul><li>Checking Arthur availability</li></ul>|33% |
@@ -65,12 +65,12 @@ Note that the :thought_balloon: icon represents something that _could_ be done, 
 |doj||<ul><li>Having the list of strips accessible</li><li>Design</li><li>Assemble it</li><li>Test it</li></ul>|100% |
 |oneeye||<ul><li>First test with Arduino Trinket</li></ul>|100% |
 |croaker|<ul><li>Getting some PRU code</li><li>Getting some images</li><li>Getting images onto a screen</li><li>Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a>.</li></ul>|<ul><li>Choose the platform (BBB, RPi0, STM32, ... ?) : that'll be BBB</li></ul>|20% |
-|retroATL3|<ul><li>:thought_balloon: Get RealTime acquisition</li><li>Acquire and build ultrasound pictures =)</li></ul>|<ul><li>Finding the pins mapping</li><li>Motor in action</li><li>Refill Oil</li><li>Test echoes</li><li><a href="https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging/log/42113-testing-murgen-with-a-market-probe">Make and insert a video: there</a></li></ul>|83% |
+|retroATL3|<ul><li><em>BONUS!</em> Get RealTime acquisition</li><li>Acquire and build ultrasound pictures =)</li></ul>|<ul><li>Finding the pins mapping</li><li>Motor in action</li><li>Refill Oil</li><li>Test echoes</li><li><a href="https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging/log/42113-testing-murgen-with-a-market-probe">Make and insert a video: there</a></li></ul>|83% |
 |toadkiller|<ul><li>Do the quick check up</li></ul>|<ul><li>Nothing</li></ul>|50% |
 |kina|<ul><li>Get the code up and running</li><li>Try to get the pulser there as well (timers)</li><li>Get several samples per position to average then stream</li><li>Output data to a 128x64 OLED screen</li></ul>|<ul><li>TODO</li></ul>|20% |
-|goblin|<ul><li>:thought_balloon: Plug it to a <a href="/croaker/">RPi0 or BBB or RPi</a> or else.</li><li>:thought_balloon: or test it with the <a href="/kina/">EMW3165</a>.</li><li>Publish the sources in KiCAD (@Sofian maybe?)</li></ul>|<ul><li>Check the power consumption</li><li>Specs to write</li><li>Agreeing on the strips </li><li>Check if 5V and 3.3V are stable</li><li>Defining the ICs to use</li><li>Getting schematics</li><li>Send microcircuits to Edgeflex</li><li>Receive the module</li></ul>|88% |
+|goblin|<ul><li><em>BONUS!</em> Plug it to a <a href="/croaker/">RPi0 or BBB or RPi</a> or else.</li><li><em>BONUS!</em> or test it with the <a href="/kina/">EMW3165</a>.</li><li>Publish the sources in KiCAD (@Sofian maybe?)</li></ul>|<ul><li>Check the power consumption</li><li>Specs to write</li><li>Agreeing on the strips </li><li>Check if 5V and 3.3V are stable</li><li>Defining the ICs to use</li><li>Getting schematics</li><li>Send microcircuits to Edgeflex</li><li>Receive the module</li></ul>|88% |
 |silent|<ul><li>Feather: work with an interrupt</li></ul>|<ul><li>write code for feather</li><li>publish this code</li><li>Validated with a Feather WICED (<a href="software/featherWICED/SimpleSignalGenerator.ino">code</a>).</li><li>Feather: remove the average value before inputing in Goblin </li></ul>|80% |
-|mogaba|<ul><li>:thought_balloon: benchmark power supplies </li></ul>|<ul><li>Manage to feed it 12V</li><li>Bring power to it through the 12V <code>ITF-F_12V</code> track </li><li>Test if 12V OK</li><li>Find supplier</li></ul>|100% |
+|mogaba|<ul><li><em>BONUS!</em> benchmark power supplies </li></ul>|<ul><li>Manage to feed it 12V</li><li>Bring power to it through the 12V <code>ITF-F_12V</code> track </li><li>Test if 12V OK</li><li>Find supplier</li></ul>|100% |
 # A recap of our retired modules 
 
 
