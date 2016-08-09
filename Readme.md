@@ -57,6 +57,8 @@ Other modules, such as Silent (_analog processing testing module_) and Croaker (
 
 
 Note that the 'BONUS!' represents something that _could_ be done, and does not count as a strict TODO.
+
+
 | Name of module | ToDo | Done |  Progress |
 |------|-------|----|-----|
 |sleepy|<ul><li>Choose the design once the modules are done</li><li>Get to work with Arthur</li></ul>|<ul><li>Checking Arthur availability</li></ul>|33% |

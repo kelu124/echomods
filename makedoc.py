@@ -260,7 +260,7 @@ TableRetiredDocTxt = TableRetiredModules+"\n\n"
 # -------------------------
 
 TableAvancement = "# Progress on building the modules \n\n\n"
-TableAvancement += "Note that the 'BONUS!' represents something that _could_ be done, and does not count as a strict TODO.\r\n"
+TableAvancement += "Note that the 'BONUS!' represents something that _could_ be done, and does not count as a strict TODO.\n\n\n"
 TableAvancement += "| Name of module | ToDo | Done |  Progress |\n"
 TableAvancement += "|------|-------|----|-----|\n"
 
