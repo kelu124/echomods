@@ -62,6 +62,23 @@ The aim of this echOmod is to get 3.3V and 5V done.
 
 ## Constraint and limits
 
+### Testing different alims
+
+Quality of the power supply is key: it can introduce noise in the final 
+
+#### 8V input, stabilized power supply
+
+![](/include/images/2016-08-09/TEK0004.JPG)
+
+#### 7.5V, "clean" power supply (Settable voltage)
+
+![](/include/images/2016-08-09/TEK0005.JPG)
+
+#### 12V, crappy power supply (amazon) 
+
+![](/include/images/2016-08-09/TEK0006.JPG)
+
+
 ## Discussions
 
 ### TODO

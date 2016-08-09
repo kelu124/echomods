@@ -675,6 +675,15 @@ And ... working on the [2016 Summer presentation](https://github.com/kelu124/ech
 * Worked on the [doc-test script](https://github.com/kelu124/echomods/blob/master/doc/) to automatize the results of modules documentation tests -- [see an example with an error](https://github.com/kelu124/echomods/blob/master/example_fail.md)
 
 
+
+#### 2016-08-08 First day
+
+* Received tobo !! yeayyy
+* Playing with Doj and assembling the board (tobo, goblin, oneeye and mogaba). Should be enough to get first images.
+* power seems OK, first pulses look nice
+* Todo: test with my transducer for Cletus, and with ATL3
+* Thanks to Virginie for her support on debugging Doj !!
+
 uControllers and other stuff
 -------
 
