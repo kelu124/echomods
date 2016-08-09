@@ -124,7 +124,7 @@ _This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-
 
 ### TODO
 
-* Get RealTime acquisition
+* :thought_balloon: Get RealTime acquisition
 * Acquire and build ultrasound pictures =)
 
 ### DONE

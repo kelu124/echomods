@@ -260,7 +260,7 @@ TableRetiredDocTxt = TableRetiredModules+"\n\n"
 # -------------------------
 
 TableAvancement = "# Progress on building the modules \n\n\n"
-
+TableAvancement += "Note that the :thought_balloon: icon represents something that _could be done, and does not count as a strict TODO.\r\n"
 TableAvancement += "| Name of module | ToDo | Done |  Progress |\n"
 TableAvancement += "|------|-------|----|-----|\n"
 
@@ -274,12 +274,17 @@ for ReadMe in ListOfDirs:
 	pattern = r"Discussions</h2>([\s\S]*)<h3>DONE"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
+	bonus = 0
 	for item in results:
             todos = (map(str, re.findall(patternCode, item, flags=0)))
 	    if len(todos) > 0:
 		TODO = "<ul><li>"+"</li><li>".join( todos )+"</li></ul>"
 	    else:
 		TODO = ""
+	    for itemtodo in todos:
+		    if ":thought_balloon:" in itemtodo:
+	 		bonus = bonus + 1
+        #print bonus
 	# Getting the done-list for the module
 	pattern = r"DONE</h3>([\s\S]*)<h3>People"
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
@@ -303,8 +308,9 @@ for ReadMe in ListOfDirs:
 	# Getting the progress	
 	nbDone = len(dones)
 	nbTodo = len(todos)
+
 	if (nbTodo+nbDone)>0:
-		PCProgress = (nbDone*100)/(nbTodo+nbDone)
+		PCProgress = ((nbDone)*100)/(nbTodo+nbDone-bonus)
 	else:
 		PCProgress = "NA"
 	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+str(PCProgress)+"% |\n"
