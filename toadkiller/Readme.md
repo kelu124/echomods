@@ -83,6 +83,24 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ### Constraint and limits
 
+#### The 0-2V limit
+
+The enveloppe signal (0-3.3V) coming from Goblin is clipped beforehands with 2 diodes, giving a 0-1.5V range with easy components.
+
+#### Learn more
+
+##### From BeagleLogic:
+
+* https://github.com/abhishek-kakkar/BeagleLogic/wiki/sysfs-attributes-Reference
+
+* https://github.com/abhishek-kakkar/BeagleLogic/wiki
+
+BeagleLogic can be used stand-alone for doing binary captures without any special client software.
+
+     dd if=/dev/beaglelogic of=mydump bs=1M count=1
+
+is sufficient to grab a binary dump, once sample rate has been configured via sysfs.
+
 
 ## Discussions
 

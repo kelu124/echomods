@@ -344,7 +344,7 @@ f.close()
 # -------------------------
 
 f = open("gh-pages/ppt.md","w+")
-Presentation =  "% Habits\n% John Doe\n% March 22, 2005\r\n \r\n"+"\n# What do we do?\r\n \r\n"+HeaderDocTxt+" \n# Graping the modules\r\n \r\n"+GraphModulesTxt+" \n# Table Docs\r\n"+TableDocTxt+"\r\n# Progress\r\n \r\n"+TableAvancement
+Presentation =  "% Habits\n% John Doe\n% March 22, 2005\r\n \r\n"+"\n# What do we do?\r\n \r\n"+HeaderDocTxt+" \n# Graphing the modules\r\n \r\n"+GraphModulesTxt+" \n# Table Docs\r\n"+TableDocTxt+"\r\n# Progress\r\n \r\n"+TableAvancement
 f.write(Presentation)
 f.close()
 

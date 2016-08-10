@@ -699,11 +699,11 @@ __High priority:__
 
 * Use PRUDAQ
     * Clip the signal between 0 and 2V
-* Get image
+* Get image from the [retroATL3](/retroATL3)
 
 __Medium Priority:__
 
-* Bitbang SPI directly
+* Bitbang Goblin's SPI directly
 * Resume documentation
 
 __Low Priority:__
@@ -711,6 +711,11 @@ __Low Priority:__
 * EMW3165 to move forward
 * Cletus for Servo + Piezo (and mech parts) - using SmartMaterials piezos
 
+#### 2016-08-10
+
+* Clipped the signal
+* Documentation ongoing
+* Received TFT+Servos
 
 uControllers and other stuff
 -------

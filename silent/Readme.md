@@ -118,7 +118,7 @@ Simplement (TEENSY) pour émuler un signal. A "high" speed DAC is required. Sinc
 * Remove Signal Bias
 * Validated with a Feather WICED ([code](/silent/software/featherWICED/SimpleSignalGenerator.ino)).
 * Feather: remove the average value before inputing in Goblin
-* (Check output with Goblin)[/silent/2016-08-09 SilentPlusTobo.md]
+* [Check output with Goblin](/silent/2016-08-09 SilentPlusTobo.md)
 
 ### People
 
