@@ -28,5 +28,5 @@
 | toadkiller |<ul><li>:white_check_mark: 4 input(s) </li><li>:white_check_mark: 5 output(s) </li></ul>|<ul><li>:white_check_mark: 1 todo(s) </li><li>:white_check_mark: 1 done(s) </li></ul>|
 | kina |<ul><li>:white_check_mark: 5 input(s) </li><li>:white_check_mark: 5 output(s) </li></ul>|<ul><li>:white_check_mark: 4 todo(s) </li><li>:white_check_mark: 1 done(s) </li></ul>|
 | goblin |<ul><li>:white_check_mark: 8 input(s) </li><li>:white_check_mark: 3 output(s) </li></ul>|<ul><li>:white_check_mark: 3 todo(s) </li><li>:white_check_mark: 8 done(s) </li></ul>|
-| silent |<ul><li>:white_check_mark: 5 input(s) </li><li>:white_check_mark: 1 output(s) </li></ul>|<ul><li>:white_check_mark: 1 todo(s) </li><li>:white_check_mark: 4 done(s) </li></ul>|
+| silent |<ul><li>:white_check_mark: 3 input(s) </li><li>:white_check_mark: 1 output(s) </li></ul>|<ul><li>:white_check_mark: 7 todo(s) </li><li>:white_check_mark: 7 done(s) </li></ul>|
 | mogaba |<ul><li>:white_check_mark: 2 input(s) </li><li>:white_check_mark: 4 output(s) </li></ul>|<ul><li>:white_check_mark: 1 todo(s) </li><li>:white_check_mark: 4 done(s) </li></ul>|

@@ -2,11 +2,17 @@ digraph {
 	"ITF-B_5v" [style=rounded]
 	"Feather WICED" [style=rounded]
 	DAC [style=rounded]
-	"ITF-E_signal_envelope" [style=rounded]
+	"Biais removal" [style=rounded]
+	"ITF-R_reserved" [style=rounded]
 		"ITF-B_5v" -> "Feather WICED"
 		"Feather WICED" -> DAC
-		DAC -> "ITF-E_signal_envelope"
-	"ITF-I_pulse_on" [style=rounded]
+		DAC -> "Biais removal"
+		"Biais removal" -> "ITF-R_reserved"
+	"ITF-J_pulse_off" [style=rounded]
+	"5V to 3.3V" [style=rounded]
+	B5 [style=rounded]
 	"Feather WICED" [style=rounded]
-		"ITF-I_pulse_on" -> "Feather WICED"
+		"ITF-J_pulse_off" -> "5V to 3.3V"
+		"5V to 3.3V" -> B5
+		B5 -> "Feather WICED"
 }

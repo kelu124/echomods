@@ -684,6 +684,34 @@ And ... working on the [2016 Summer presentation](https://github.com/kelu124/ech
 * Todo: test with my transducer for Cletus, and with ATL3
 * Thanks to Virginie for her support on debugging Doj !!
 
+#### 2016-08-09 Moving forward
+
+Roughly, all the modules are fine. Emulator is done and tested. Some tests today:
+
+* Test Analog Processing + ATL3
+    * -> https://github.com/kelu124/echomods/blob/master/goblin/2016-08-09.md
+* Test Emulateur de signal + Analog processing
+    * -> https://github.com/kelu124/echomods/blob/master/silent/Readme.md
+
+What the next steps are :
+
+__High priority:__
+
+* Use PRUDAQ
+    * Clip the signal between 0 and 2V
+* Get image
+
+__Medium Priority:__
+
+* Bitbang SPI directly
+* Resume documentation
+
+__Low Priority:__
+
+* EMW3165 to move forward
+* Cletus for Servo + Piezo (and mech parts) - using SmartMaterials piezos
+
+
 uControllers and other stuff
 -------
 
