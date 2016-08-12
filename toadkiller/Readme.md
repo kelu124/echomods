@@ -91,6 +91,8 @@ The enveloppe signal (0-3.3V) coming from Goblin is clipped beforehands with 2 d
 
 ##### From BeagleLogic:
 
+    grep -rnw '/path/to/somewhere/' -e "pattern"
+
 * https://github.com/abhishek-kakkar/BeagleLogic/wiki/sysfs-attributes-Reference
 
 * https://github.com/abhishek-kakkar/BeagleLogic/wiki
@@ -100,6 +102,19 @@ BeagleLogic can be used stand-alone for doing binary captures without any specia
      dd if=/dev/beaglelogic of=mydump bs=1M count=1
 
 is sufficient to grab a binary dump, once sample rate has been configured via sysfs.
+
+
+#### Install 
+
+* Image pour PRUDAQ : https://docs.google.com/uc?id=0B72G9e_R3TcnNGFZSEF4bDNYU00&export=download
+
+* https://raw.githubusercontent.com/RobertCNelson/boot-scripts/master/tools/eMMC/init-eMMC-flasher-v3.sh
+
+* https://github.com/google/prudaq/wiki/QuickStart#option-1-use-the-beaglelogic-system-image
+
+dd if=./beaglelogic-prudaq-system.img of=/dev/mmcblk0 bs=1M count=1
+
+http://elinux.org/Beagleboard:Expanding_File_System_Partition_On_A_microSD
 
 
 ## Discussions

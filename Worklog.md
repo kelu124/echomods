@@ -711,11 +711,18 @@ __Low Priority:__
 * EMW3165 to move forward
 * Cletus for Servo + Piezo (and mech parts) - using SmartMaterials piezos
 
-#### 2016-08-10
+#### 2016-08-10 Simple things
 
 * Clipped the signal
 * Documentation ongoing
 * Received TFT+Servos
+
+#### 2016-08-11 Small FPGA
+
+Awesome work: a FPGA on a RPi0 footprint
+* https://hackaday.io/project/13048-fleafpga-ohm-development-board
+
+
 
 uControllers and other stuff
 -------
