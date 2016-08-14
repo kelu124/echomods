@@ -1,4 +1,4 @@
-# Hacking an old ultrasound probe
+# Hacking an old ultrasound probe with a module dev-kit
 
 ## Brief
 
@@ -11,11 +11,13 @@ The modules have already been tested, but not the PRUDAQ. The advantage of the P
 
 ## Results
 
+Imaging a small 1cm side cubic dice.
+
 ![Results](sonde3V_1.gif)
 
 ## Materials requirements / BOM
 
-Some stuff, unexpensive to buy, to build a  -- _500$_
+Some stuff, unexpensive to buy, to build a ultrasound testing kit -- _500$_
 
 * A power supply giving 3.3V and 5V ([mogaba](/mogaba/)) -- _5$_
 * An analog processing ([goblin](/goblin/)) -- _130$_
@@ -45,7 +47,9 @@ The analog processing is managed by a [HV+pulser module](/tobo/) as well as an [
 
 ## Testing the ATL probe
 
-The PRUDAQ was setup to capture 32M of files at 10MHz (Jumper 1 on the external position). One can export the data with:
+The PRUDAQ was setup to capture 32M of files at 10MHz (Jumper 1 on the external position). The signal (the enveloppe) was clipped at 1.4V since the PRUDAQ only accepts a `[0-2V]` input.
+
+One can export the data, exposed from `/dev/beaglelogic` with:
 
 ````
 debian@beaglebone:~$ sudo dd if=/dev/beaglelogic of=sonde3V_1.bin bs=1M count=32
@@ -64,6 +68,10 @@ Analyzing the [binary dump](sonde3V_1.tar.bz2) provides the following image. We 
 Once the images segmented, we can isolate the images and scan-convert those. For the sake of experiment, I've been using a single simple nearest-neihghbour conversion:
 
 ![](sonde3V_1-4.csv-SC.png)
+
+# Functional blocks and modules
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png)
 
 # Next steps
 
