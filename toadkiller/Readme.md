@@ -116,6 +116,22 @@ dd if=./beaglelogic-prudaq-system.img of=/dev/mmcblk0 bs=1M count=1
 
 http://elinux.org/Beagleboard:Expanding_File_System_Partition_On_A_microSD
 
+#### Vitesse d'acquisition
+
+````
+debian@beaglebone:~$ sudo dd if=/dev/beaglelogic of=sonde3V_1.bin bs=1M count=3232+0 records in
+32+0 records out
+33554432 bytes (34 MB) copied, 0.939505 s, 35.7 MB/s
+debian@beaglebone:~$ sudo dd if=/dev/beaglelogic of=sonde3V_2.bin bs=1M count=32 
+32+0 records in
+32+0 records out
+33554432 bytes (34 MB) copied, 0.916971 s, 36.6 MB/s
+debian@beaglebone:~$ sudo dd if=/dev/beaglelogic of=sonde3V_3.bin bs=1M count=32 
+32+0 records in
+32+0 records out
+33554432 bytes (34 MB) copied, 0.939741 s, 35.7 MB/s
+debian@beaglebone:~$ exit
+````
 
 ## Discussions
 
