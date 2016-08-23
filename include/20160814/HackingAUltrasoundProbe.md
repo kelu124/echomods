@@ -11,7 +11,7 @@ The modules have already been tested, but not the PRUDAQ. The advantage of the P
 
 ## Results
 
-Imaging a small 1cm side cubic dice.
+Imaging a small 1cm side cubic dice: acquisition during 1s.
 
 ![Results](sonde3V_1.gif)
 
