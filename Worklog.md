@@ -722,6 +722,15 @@ __Low Priority:__
 Awesome work: a FPGA on a RPi0 footprint
 * https://hackaday.io/project/13048-fleafpga-ohm-development-board
 
+#### 2016-08-14 Acquiring a first image
+
+* Read some [on this page](/include/20160814/20160814-HackingAUltrasoundProbe.md): got an image from a ATL3 probe, a small metal cube in water.
+* Leaving for holidays =)
+
+#### 2016-08-22 Back from holidays
+	
+* Working with Virginie and Benoit to get images
+* Got to play with a [general multi tissue fantom](/include/20160812/20160822-Fantom.md): got an image from a ATL3 probe, of the fantom.
 
 
 uControllers and other stuff
