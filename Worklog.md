@@ -315,7 +315,7 @@ ou peut etre encore mieux :
 * Lancement des PCBs (Jerome)
 * Go for Piezos (Jan)
 
-#### 2016-05-31 hackaday fun
+#### 2016-05-31 Hackaday fun
 
 * Redirection de visiteurs de Hackaday vers nos ressources
 * Reflexion sur l'EMW3165 -- 8$, ADC à 2.4Msps, WiFi.
@@ -731,7 +731,7 @@ Awesome work: a FPGA on a RPi0 footprint
 	
 * Working with Virginie and Benoit to get images
 * Got to play with a [general multi tissue fantom](/include/20160812/20160822-Fantom.md): got an image from a ATL3 probe, of the fantom.
-
+* What about [using Kaggle as a data repo](http://blog.kaggle.com/2016/08/17/making-kaggle-the-home-of-open-data/) for open data ?
 
 uControllers and other stuff
 -------
