@@ -6,15 +6,6 @@
 
 [`MDL-goblin_tgcenvadc`]()
 
-## Detailed view
-
-#### Explained
-
-![](/goblin/images/module/GoblinModule.png)
-
-#### Schematics
-
-![](/goblin/images/module/schematics.png)
 
 ## Title
 
@@ -96,6 +87,16 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 * Takes a lot of space because of the modularity. Jumpers and pots could be removed.
 * Little flexibility from the use of ICs.
 
+### Detailed view
+
+#### Explained
+
+![](/goblin/images/module/GoblinModule.png)
+
+#### Schematics
+
+![](/goblin/images/module/schematics.png)
+
 ## Constraint and limits
 
 ### Tests
@@ -103,26 +104,26 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 
 #### Signal in vs Signal out of the TGC
 
-![](images/2016-07-08/TEK0003.JPG)
+![](/goblin/images/2016-07-08/TEK0003.JPG)
 
 #### Trying with different frequencies
 
 
 ##### At 3 MHz
 
-![](images/2016-07-08/TEK0018.JPG)
+![](/goblin/images/2016-07-08/TEK0018.JPG)
 
 ##### At 5MHz
 
-![](images/2016-07-08/TEK0016.JPG)
+![](/goblin/images/2016-07-08/TEK0016.JPG)
 
 ##### At 7.5MHz
 
-![](images/2016-07-08/TEK0015.JPG)
+![](/goblin/images/2016-07-08/TEK0015.JPG)
 
 ##### At 10MHz
 
-![](images/2016-07-08/TEK0017.JPG)
+![](/goblin/images/2016-07-08/TEK0017.JPG)
 
 #### Difference between enveloppe and ADC input?
 
@@ -132,11 +133,12 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 
 ##### Before the AOP
 
-![](images/2016-07-08/TEK0011.JPG)
+![](/goblin/images/2016-07-08/TEK0011.JPG)
 
 ##### After the AOP
 
-![](images/2016-07-08/TEK0010.JPG)
+![](/goblin/images/2016-07-08/TEK0010.JPG)
+
 
 
 ## Discussions

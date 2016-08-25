@@ -1,32 +1,28 @@
-# echomods
-
-Creating modules out of the murgen board
-
 ## What is it?
 
-The principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control. Four basic modules are considered. Each of this module will be landing on a motherboard, more or less a stripboard.
+__Creating modules to facilitate ultrasound hacking__ : the principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control.
 
-Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules. These modules can have a form factor close to the arduino trinket pro, with a row of 19 pins on the side.
+We have chosen to use a module approach to make sure that each key component inside ultrasound image processing can easily be replaced and compared with another module, while providing logical _logic blocks_ and corresponding interfaces for these modules to communicate.
 
-## Modules
+These modules can have a form factor close to classical breadboard electronic modules, with a row of 19 pins on the side.
 
-* [Goblin](/goblin/Readme.md): the __analog processing module__, was drafted as well during Murgen. 
-* [Tobo](/tobo/Readme.md): the __HV and pulser module__, based on a drafted close to Murgen. 
-* [Cletus](/cletus/Readme.md): the __piezo and servo module__. Did not change. 
-* [One-Eye](/oneeye/Readme.md) is the __MicroControler module__, to be working with Arduinos at first, such as the Trinket Pro.
-* [Mogaba](/mogaba/Readme.md) is the __Alimentation Module__.
-* and ... the __motherboard__.
-
-Other modules, such as Silent (_analog processing testing module_) and Croaker (_advanced microcontroler module_), are in the teaser stage... More to come later on =)
-
-## Illustration
-
-![Modules organisation](/include/images/modules.png)
+Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules. 
 
 
+## What does it look like?
+
+The modules sit on a breadboard, and communicate through the tracks laying below. The configuration represented below show the Basic dev kit.
+
+![](/include/20160814/IMG_3430.png)
 
 
+## Ultrasound hardware structure
 
+To produce an image, the modules have to create a [high voltage pulse](/tobo/), which excites a [transducer](/retroATL3/). Echoes coming from the body are amplified using a [TGC + LNA](/goblin/), which cleans the analog signal, which itself [gets digitalized](/toadkiller/). 
+
+The diagram is represented below:
+
+![](/include/images/blockdiagram.gif)
 
 
 

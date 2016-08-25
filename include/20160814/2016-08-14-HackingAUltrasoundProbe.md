@@ -13,7 +13,7 @@ The modules have already been tested, but not the PRUDAQ. The advantage of the P
 
 Imaging a small 1cm side cubic dice: acquisition during 1s.
 
-![Results](sonde3V_1.gif)
+![Results](/include/20160814/sonde3V_1.gif)
 
 ## Materials requirements / BOM
 
@@ -33,11 +33,11 @@ Need one of the custom boards? Message me at kelu124@gmail.com !
 
 ### Connecting the modules
 
-![](IMG_3430.png)
+![](/include/20160814/IMG_3430.png)
 
 ### Connecting the probe
 
-![](IMG_3428.png)
+![](/include/20160814/IMG_3428.png)
 
 # Hacking process
 
@@ -58,16 +58,16 @@ debian@beaglebone:~$ sudo dd if=/dev/beaglelogic of=sonde3V_1.bin bs=1M count=32
 33554432 bytes (34 MB) copied, 0.939505 s, 35.7 MB/s
 ````
 
-Analyzing the [binary dump](sonde3V_1.tar.bz2) provides the following image. We can see 10 full images, shot in 1s -- hence a rotation speed of the probe at 3.3V of around 10 rotation per seconds.
+Analyzing the [binary dump](/include/20160814/sonde3V_1.tar.bz2) provides the following image. We can see 10 full images, shot in 1s -- hence a rotation speed of the probe at 3.3V of around 10 rotation per seconds.
 
-![](sonde3V_1.png)
+![](/include/20160814/sonde3V_1.png)
 
 
 ## Scan conversion
 
 Once the images segmented, we can isolate the images and scan-convert those. For the sake of experiment, I've been using a single simple nearest-neihghbour conversion:
 
-![](sonde3V_1-4.csv-SC.png)
+![](/include/20160814/sonde3V_1-4.csv-SC.png)
 
 # Functional blocks and modules
 

@@ -19,7 +19,7 @@
 
 ### These Pierre Marechal
 
-* Transducteurs mono-élement pour l'imagerie ultrasonore haute résolution :  modéelisation, réalisation et caractérisation
+* Transducteurs mono-élement pour l'imagerie ultrasonore haute résolution :  modelisation, réalisation et caractérisation
 * Pierre Marechal
 * transducer
 * https://tel.archives-ouvertes.fr/file/index/docid/48361/filename/tel-00010031.pdf

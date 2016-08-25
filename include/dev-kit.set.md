@@ -1,10 +1,8 @@
-#Title: Dev Kit 0.1
-#Description: The default setting for the sets. Overkill at sampling but relatively easy to use.
+#Title: Dev Kit 0.1 -- Playing with an old probe and the PRUDAQ
+#Description: This setup uses relatively
 retroATL3
 toadkiller
-doj
 oneeye
-mogaba
 goblin
 tobo
 

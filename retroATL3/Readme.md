@@ -68,7 +68,7 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 * We have removed the position system : we don't have the encoding system
 * Tough to find a old ATL Access 3  probe
 
-### Constraint and limits
+## Constraint and limits
 
 * Motor is a 12V... doesn't move below 10V ... using 300mA@10V -- we could use a [5V to 12V DC/DC boost similar to this one](https://www.pololu.com/product/2117/specs). Could feed onto the 5V entry and leave on the 12V output. Can be found on Gotronics and such. Or the 12V could be delivered to the board itself.
 * How many pizeos??

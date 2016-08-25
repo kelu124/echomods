@@ -1,14 +1,21 @@
 #/bin/bash
 
-cd doc
-python test.py
-cd ../
-cd include
-python makeSetsGraphs.py
-cd ../
+# Creating the sets graphs
+
+#cd doc
+#python test.py
+#cd ../
+#cd include
+#python makeSetsGraphs.py
+#cd ../
+
+# Creating the docs
+
 python makedoc.py
 cd gh-pages/
 ./createMD.sh
+
+# Creating the slides
 
 pandoc -t revealjs -s ppt.md -o ppt.html --slide-level 2
 pandoc -t revealjs -s DocumentationProcess.md -o DocumentationProcess.html --slide-level 2 --variable theme="league" --variable transition="linear"

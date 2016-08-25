@@ -52,7 +52,7 @@ The aim of this echOmod is to encase the whole modules object in a neat case, ma
 
 * Maybe heavy
 
-### Constraint and limits
+## Constraint and limits
 
 ## Discussions
 

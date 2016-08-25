@@ -72,7 +72,7 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 
 * Slow sweeping
 
-### Constraint and limits
+## Constraint and limits
 
 * Need to find a servo which frequency is above 100hz (100hz -> 10ms period -> 1 line per 10ms is quite close)
 
@@ -93,7 +93,7 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 
 ## License
 
-## Cletus 
+### Cletus 
 
 The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (so Cletus) are open hardware, and working with open-hardware components.
 
@@ -101,7 +101,7 @@ Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
 Copyright Kelu124 (luc@echopen.org / kelu124@gmail.com ) 2015-2018
 
-## Based on 
+### Based on 
 
 The following work is base on a previous TAPR project, [Murgen](https://github.com/kelu124/murgen-dev-kit) - and respects its TAPR license.
 

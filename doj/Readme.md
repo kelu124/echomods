@@ -53,7 +53,7 @@ Getting a motherboard: that's fitting all the modules in an easy way, with an ea
 
 * Maybe can introduce noise.
 
-### Constraint and limits
+## Constraint and limits
 
 #### Initial design
 

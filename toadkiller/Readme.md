@@ -81,7 +81,7 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 * Round-robin sampling across the 8 analog inputs is tricky
 * As the previous section points out, you can buffer samples into the 512MB of main memory, but there's no way to get the samples into storage or off the board at the full 40MSPS data rate
 
-### Constraint and limits
+## Constraint and limits
 
 #### The 0-2V limit
 
