@@ -24,7 +24,18 @@ ___I'm lazy, how do I make the documentation process efficient, and as system-in
 * All-purpose __presentations__ such as this one
 * A __gitbook__ that can be [read here](https://kelu124.gitbooks.io/echomods/content/)
 
-#### Inputs
+#### Inputs (1/2)
+
+I want to:
+
+* not repeat myself
+* write once and only once each block of info
+
+Conclusion: creation of markdown "blocks" which will feed all the doc.
+
+
+
+#### Inputs (2/2)
 
 The script is working only with a couple of files:
 
