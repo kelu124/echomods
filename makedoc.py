@@ -551,6 +551,7 @@ def AddRawHURL(s):
 		s = s.replace("](/"+moduletrois+"/)", "](/Chapter3/"+moduletrois+".md)")	
 		s = s.replace("](/"+moduletrois+"/Readme.md)", "](/Chapter3/"+moduletrois+".md)")
 		s = s.replace("](/"+moduletrois+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduletrois+"/source/blocks.png)")	
+
 	return s.replace("![](/", "![]("+URL)
 
 

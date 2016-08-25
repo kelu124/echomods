@@ -14,3 +14,19 @@ Key interfaces, signals and alims will be available on each of the 19 tracks on 
 The modules sit on a breadboard, and communicate through the tracks laying below. The configuration represented below show the Basic dev kit.
 
 ![](/include/20160814/IMG_3430.png)
+
+## What does it cost?
+
+Even with the most expensive options, the basic kit, we're still below 500$.
+
+Some stuff, unexpensive to buy, to build a ultrasound testing kit, totals _500$_, as detailed below:
+
+* A power supply giving 3.3V and 5V ([mogaba](/mogaba/)) -- _5$_
+* An analog processing ([goblin](/goblin/)) -- _130$_
+* A high voltage pulser ([tobo](/tobo/)) -- _110$_
+* A motherboard ([doj](/doj/)) made out of stripboard  -- _10$_
+* A pulser ([oneeye](/oneeye/)) from a trinket pro  -- _20$_
+* An old ATL probe ([retroATL3](/retroATL3/)) -- _75$_
+* A beaglebone and PRUDAQ ([toadkiller](/toadkiller/)) -- _150$_
+
+Need one of the custom boards? Message me at kelu124@gmail.com !
