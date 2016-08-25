@@ -733,6 +733,11 @@ Awesome work: a FPGA on a RPi0 footprint
 * Got to play with a [general multi tissue fantom](/include/20160812/20160822-Fantom.md): got an image from a ATL3 probe, of the fantom.
 * What about [using Kaggle as a data repo](http://blog.kaggle.com/2016/08/17/making-kaggle-the-home-of-open-data/) for open data ?
 
+#### 2016-08-24 Finalizing the autodocumentation to gitbook
+	
+* Yeay!! Done. [Gitbook available on this page](https://kelu124.gitbooks.io/echomods/content/)
+
+
 uControllers and other stuff
 -------
 

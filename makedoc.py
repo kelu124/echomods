@@ -692,7 +692,7 @@ f.write(AddRawHURL(detailedNotesText)+"\n\n")
 f.close()
 
 f = open("gitbook/Chapter4/rawworklog.md","w+")
-f.write("# Raw worklog\n\n"+WorkLogLevel(MyLogs)+"\n\n")
+f.write("# Raw worklog\n\n"+AddRawHURL(WorkLogLevel(MyLogs))+"\n\n")
 f.close()
 
 # -------------------------
