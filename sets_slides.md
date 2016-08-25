@@ -11,5 +11,8 @@
 ### basic
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/basic.png)
 
+### dev-kit-emulated
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/dev-kit-emulated.png)
+
 ### highspeed
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png)

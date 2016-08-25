@@ -5,10 +5,8 @@ find . -type f -name '*.html' -print0 | while IFS= read -r -d '' line; do
 	pandoc -s -r html "$line" -o "$NAME"
 done
 
-rm *.html
-
 find . -type f -name '*.md' -print0 | while IFS= read -r -d '' line; do
 	sed -i '/^####/d' "$line"
 done
 
-
+rm *.html
