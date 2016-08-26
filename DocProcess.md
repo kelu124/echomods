@@ -23,6 +23,7 @@ ___I'm lazy, how do I make the documentation process efficient, and as system-in
 * A __Jekyll blog__  [on github-pages](http://kelu124.github.io/echomods/).
 * All-purpose __presentations__ such as this one
 * A __gitbook__ that can be [read here](https://kelu124.gitbooks.io/echomods/content/)
+* Simple vizualization of the work progress
 
 #### Inputs (1/2)
 
@@ -30,6 +31,8 @@ I want to:
 
 * not repeat myself
 * write once and only once each block of info
+* use the "modules" concepts : _seeds_ of information
+* use only text
 
 Conclusion: creation of markdown "blocks" which will feed all the doc.
 
@@ -80,13 +83,13 @@ It also highlights the _TODOs_ in the mindmap.
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/tobo/source/blocks.png)
 
 
-#### Tools used
+#### Toolchain
 
-* __gitbook__ to understand the project
-* __github__ to store all the docs
-* __Graphviz__ to generate graphs
-* __Pandoc__ to convert documentation between formats
+* __markdown / github__ to store all the docs
+* __gitbook__ to publish a general documentation
 * __gh-pages / Jekyll__ for the static site
+* __python / Graphviz__ to generate documentation / graphs
+* __Pandoc__ to convert documentation between formats
 * __Reveal.js__ for the presentations
 
 #### Conclusion
@@ -101,4 +104,4 @@ An efficient (err, lazy) way of documenting. Only one place to edit information,
 
 #### Q&A
 
-Or ping me @kelu124 / kelu124@gmail.com !
+Ping  @kelu124 / kelu124@gmail.com 
