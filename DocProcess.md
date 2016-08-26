@@ -24,6 +24,7 @@ ___I'm lazy, how do I make the documentation process efficient, and as system-in
 * All-purpose __presentations__ such as this one
 * A __gitbook__ that can be [read here](https://kelu124.gitbooks.io/echomods/content/)
 * Simple vizualization of the work progress
+* _All of this can be pushed directly to a __wiki__ as well_
 
 #### Inputs (1/2)
 
