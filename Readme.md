@@ -6,7 +6,7 @@ __Disclaimer__: though an engineer, this project is the first of its sort, I nev
 
 __Disclaimer #2__: ultrasound raises questions. In case you build a scanner, use caution and good sense!
 
-__Disclaimer #3__: Beware! It is a project which lives in the echopen community, not a project in the scope of echopen's association.
+__Disclaimer #3__: Beware! Though I am one of echopen's cofounders, this personnal pet-project lives in the echopen community, and is not a project in the scope of the echopen's association.
 
 
 
