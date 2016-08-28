@@ -8,6 +8,9 @@ These modules can have a form factor close to classical breadboard electronic mo
 
 Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules. 
 
+__Beware! It is a project which lives in the echopen community, not a project in the scope of echopen's association.__
+
+
 
 ## What does it look like?
 
