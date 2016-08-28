@@ -85,6 +85,10 @@ for f in ListOfRetiredDirs:
 # Files includes
 # -------------------------
 
+f = open("include/AddPitch.md",'r')
+pitch = f.read()
+f.close()
+
 HeaderDoc = open("include/AddEchomods.md")
 HeaderDocTxt = HeaderDoc.read()+"\n\n"
 HeaderDoc.close()
@@ -360,7 +364,7 @@ GraphModulesTxt = "\n# The modules organization \n\n"
 
 GraphModulesTxt += "![Graph](/include/sets/basic.png) \n\n"
 
-FinalDoc =  HeaderDocTxt+AddStructure+GraphModulesTxt+TableDocTxt+TableAvancement+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
+FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableDocTxt+TableAvancement+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
 f = open("Readme.md","w+")
 f.write(FinalDoc)
