@@ -77,15 +77,19 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 
 ### Pros
 
-* Only needs 5V and 3.3V
-* Energy use : TODO
+* Only needs 5V and 3.3V inputs.
+* Energy use is relatively low: at 9V, Tobo, Goblin, and a trinket pro ask for 180mA.
 * ADC V_REF is flexible: better resolution in output of the ADC
-* E_REF is being removed from the signal output, better than Murgen, where we lost 1.1V from the signal
+* E_REF is being removed from the signal output, better than Murgen, where we lost 1.1V from the signal range.
 
-### Cons
+### Cons: what to to make better
 
-* Takes a lot of space because of the modularity. Jumpers and pots could be removed.
-* Little flexibility from the use of ICs.
+* Takes a lot of space because of the modularity. Jumpers and pots could be removed, not to mention SMA.
+* The amplifier removing E_REF brings in some noise: a filter could be used there to remove to high frequencies.
+* The SMA brings little, but still a noise analysis could be done to assess the difference between routing the signal through a SMA cable or through the pins.
+* There are only two layers. A fourth one to connect each pin to the other pin on the same row, as well as a ground plane, could help with the noise.
+* Little flexibility from the use of ICs - but sufficient of sorts for our use.
+* The ADC is borderline in terms of speed of use. A higher sampling rate could be usefull.
 
 ### Detailed view
 
