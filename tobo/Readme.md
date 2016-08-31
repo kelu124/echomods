@@ -64,14 +64,16 @@ The aim of this echOmod is to get the HV Pulse done.
 
 * Only needs 5V and 3.3V
 * Energy use : TODO
-* ADC V_REF is flexible: using PulseOn and PulseOff
+* Using any logic voltage for PulseOn and PulseOff is a pplus
 * Can use the potentiometer to control the tension
 * Modularity through jumpers and SMA
 
 ### Cons
 
 * Takes a lot of space because of the modularity. SMA, jumpers and pots could be removed.
+* HV7360 seems to be running out, production may be stopping (on end of summer 2016). Need to find a replacement for it. 
 * Little flexibility from the use of ICs.
+* There's no impedance matching for the pulser to the transducer, could be better.
 
 ## Constraint and limits
 
