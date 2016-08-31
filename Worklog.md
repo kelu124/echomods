@@ -737,6 +737,30 @@ Awesome work: a FPGA on a RPi0 footprint
 	
 * Yeay!! Done. [Gitbook available on this page](https://kelu124.gitbooks.io/echomods/content/)
 
+#### 2016-08-26 Show and tell
+
+* Showing the documentation generation process on an apero at l'Hotel Dieu
+
+#### 2016-08-28 Sharp eye
+
+* Thanks to a question raised by a sharp-eye, I'm putting as a disclaimer that this project is not one supported by the echopen's association. Even if I'm a cofounder of echopen, this project is a personnal one, for the echopen community. Clarified with hackaday, not an issue for them wrt the prizes.
+
+#### 2016-08-29 Hey from Liberia
+
+* got contacted for a partnership to improve, build, and crowdsell a set of modules. Interesting!
+
+#### 2016-08-30 Some good news
+
+* Got some feedback of PRUDAQ's people on the doc, thanks to them for this contribution!
+* Zach's been back. Let's see what can be done.
+* Prof Charles is going to be in Paris: let's meet!
+* Been invited to speak at Hackaday's show for its prize on Nov 5th
+* Trying to get the latest HV7360 from MC.. seems difficult to say the least
+
+#### 2016-08-31 Habitat numerique
+
+* Thinking about the use of the _"Logiciel and Objets libres, animer une communaute autour d'un projet ouvert"_
+
 
 uControllers and other stuff
 -------
