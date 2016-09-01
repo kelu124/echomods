@@ -4,7 +4,7 @@
 
 1. Playing with the design and fab the modules: 3 to go in CMS (HV/TGC/MD, enveloppe detection, SPI ADC) and 2 in stripboard mode (alim, based on the breadboard 3.3V and 5V, as well as the controler, maybe an arduino nano at first) - and start the github repo / [echOmods](https://hackaday.io/project/10899-echomods) hackaday pages as well. Work on this with Sofian and Vlad. See also the [echOmods repo](https://github.com/kelu124/echomods/).
 2. Playing with an electronic emulator of the transducer - as well as an electronic model. Work on this with a partner/supplier.
-3. Play with a ultrasound durable fantom. Work on this with **staticdet5** (comment on HAD). Started a [project with Virginie and Static on HAD.io](https://hackaday.io/project/11478-open-source-ultrasound-phantoms).
+3. Play with a ultrasound durable fantom. Work on this with **staticdet5** (commnotes_ent on HAD). Started a [project with Virginie and Static on HAD.io](https://hackaday.io/project/11478-open-source-ultrasound-phantoms).
 4. Play with the BeagleBone PRUs. Work on this with Vanderbilt.
 5. Playing with some intelligent uC of FPGA. uC has my preference at first for ease of use. WifiMCU seems fun (has a 8$ STM32F411CE - 100MHz, 2.4Msps ADC, FPU, DSP instructions and WiFi to stream!) or the [Feather Wiced](https://www.adafruit.com/product/3056) (arduino IDE compatible, based on a 34$ STM32F205 ARM Cortex M3 processor running at 120MHz. Project codename would be [Croaker](https://github.com/kelu124/echomods/croaker), not created yet. Who's volunteering?
 
@@ -144,7 +144,7 @@ Worklog -- Starting April 5th 2016
 
 #### 2016-04-16 uC
 
-* Studying microcontrolers... See  [microcontrollers](notes_uC.md)
+* Studying microcontrolers... See  [microcontrollers](/croaker/notes_uC.md)
 
 #### 2016-04-17 PCB
 
@@ -283,7 +283,7 @@ ou peut etre encore mieux :
 #### 2016-05-14 Work in Indonesia
 
 * Off to Jakarta =)
-* Next prios : Feather and [ESP8266](notes_ESP8266.md)
+* Next prios : Feather and [ESP8266](/croaker/notes_ESP8266.md)
 
 #### 2016-05-23 Transducers
 
@@ -292,8 +292,8 @@ ou peut etre encore mieux :
 #### 2016-05-24 RPi
 
 * Bass inspiration : https://www.youtube.com/watch?v=6ZDTelKz4G0
-* Working on [Raspberry Pi Zero notes](notes_RPi0.md)
-* Updated existing notes on [microcontrollers](notes_uC.md) and the [ESP8266](notes_ESP8266.md)
+* Working on [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)
+* Updated existing notes on [microcontrollers](/croaker/notes_uC.md) and the [ESP8266](/croaker/notes_ESP8266.md)
 * Thinking about video / photos port to raspberry (even better than USB transfer, it manages quite high speed ( The two data lanes on the CSI-2 bus provide a theoretical 2 Gbps bandwidth, which approximates to around 5 MP resolution.  ) [here](http://www.petervis.com/Raspberry_PI/Raspberry_Pi_CSI/Raspberry_Pi_CSI_Camera_Module.html)
 
 #### 2016-05-25 Markdown and downs
@@ -323,7 +323,7 @@ ou peut etre encore mieux :
 * Petit truc sympa, mais pas encore sorti : un SoC pour le RPi : https://hackaday.io/project/11981-rppsoc-system-on-a-chip-for-the-raspberry-pi
 * Pas possible de créeer le Wall of Contributors, tjrs ce probleme de reset de mot de passe, aucun email n'arrive.
 * TODO: réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) 
-* [EMW3165](notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
+* [EMW3165](/croaker/notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
 
 #### 2016-06-02 Some awesome OSH for medical issues
 
@@ -796,11 +796,11 @@ Lower specs (for dev kit - 1 to 2 image / s OK)
 * 200us at 2Msps is 400 points is 5600 bits is 700 bytes
 * 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s.. should be OK with ESP8266/EMW3165/equivalent ;)
 
-__More [ESP8266 notes](notes_ESP8266.md)__
+__More [ESP8266 notes](/croaker/notes_ESP8266.md)__
 
 #### Case of Rasberry Zero
 
-__More [Raspberry Pi Zero notes](notes_RPi0.md)__
+__More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 
 ### Tofs
 
