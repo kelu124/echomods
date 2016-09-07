@@ -91,30 +91,27 @@ The enveloppe signal (0-3.3V) coming from Goblin is clipped beforehands with 2 d
 
 ##### From BeagleLogic:
 
-    grep -rnw '/path/to/somewhere/' -e "pattern"
-
-* https://github.com/abhishek-kakkar/BeagleLogic/wiki/sysfs-attributes-Reference
+Learning more about BeagleLogic: 
 
 * https://github.com/abhishek-kakkar/BeagleLogic/wiki
+* https://github.com/abhishek-kakkar/BeagleLogic/wiki/sysfs-attributes-Reference
 
 BeagleLogic can be used stand-alone for doing binary captures without any special client software.
 
      dd if=/dev/beaglelogic of=mydump bs=1M count=1
 
-is sufficient to grab a binary dump, once sample rate has been configured via sysfs.
+is sufficient to grab a binary dump, once sample rate has been configured. This can be done via sysfs, but in our case, I just used the onboard 10MHz clock, and selected it with the on-board clock-selection jumper.
 
 
 #### Install 
 
-* Image pour PRUDAQ : https://docs.google.com/uc?id=0B72G9e_R3TcnNGFZSEF4bDNYU00&export=download
+* The image that I used for this PRUDAQ module was available via [Abhishek on google docs](https://docs.google.com/uc?id=0B72G9e_R3TcnNGFZSEF4bDNYU00&export=download)
+* One can also use a [eMMC flashed](https://raw.githubusercontent.com/RobertCNelson/boot-scripts/master/tools/eMMC/init-eMMC-flasher-v3.sh)
+* and read the [quickstart](https://github.com/google/prudaq/wiki/QuickStart#option-1-use-the-beaglelogic-system-image),
 
-* https://raw.githubusercontent.com/RobertCNelson/boot-scripts/master/tools/eMMC/init-eMMC-flasher-v3.sh
+ dd if=./beaglelogic-prudaq-system.img of=/dev/mmcblk0 bs=1M count=1
 
-* https://github.com/google/prudaq/wiki/QuickStart#option-1-use-the-beaglelogic-system-image
-
-dd if=./beaglelogic-prudaq-system.img of=/dev/mmcblk0 bs=1M count=1
-
-http://elinux.org/Beagleboard:Expanding_File_System_Partition_On_A_microSD
+__ An interesting read to expend the file system__ : [Read more](http://elinux.org/Beagleboard:Expanding_File_System_Partition_On_A_microSD).
 
 #### Vitesse d'acquisition
 
@@ -137,11 +134,13 @@ debian@beaglebone:~$ exit
 
 ### TODO
 
-* Do the quick check up
+* Enhance the BBB to transform it into a ultrasound server
 
 ### DONE
 
-* Nothing
+* Do the quick check up
+* Acquire some data
+* Post some data
 
 ### People
 

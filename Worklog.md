@@ -776,6 +776,10 @@ Awesome work: a FPGA on a RPi0 footprint
 
 * An interesting VT100, USB-enabled - https://hackaday.io/project/13273-diy-vt100
 
+#### 2016-09-07 Back in Paris!
+
+* Best hardware I've seen so far : [Arduboy](https://www.seeedstudio.com/Crowdbuy-1.html). Both a controler, a platform to play with, an arduino, ...
+
 
 uControllers and other stuff
 -------

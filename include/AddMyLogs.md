@@ -15,7 +15,7 @@
 
 #### 2016-04-16 uC
 
-* Studying microcontrolers... See  [microcontrollers](notes_uC.md)
+* Studying microcontrolers... See  [microcontrollers](/croaker/notes_uC.md)
 
 #### 2016-04-17 PCB
 
@@ -154,7 +154,7 @@ ou peut etre encore mieux :
 #### 2016-05-14 Work in Indonesia
 
 * Off to Jakarta =)
-* Next prios : Feather and [ESP8266](notes_ESP8266.md)
+* Next prios : Feather and [ESP8266](/croaker/notes_ESP8266.md)
 
 #### 2016-05-23 Transducers
 
@@ -163,8 +163,8 @@ ou peut etre encore mieux :
 #### 2016-05-24 RPi
 
 * Bass inspiration : https://www.youtube.com/watch?v=6ZDTelKz4G0
-* Working on [Raspberry Pi Zero notes](notes_RPi0.md)
-* Updated existing notes on [microcontrollers](notes_uC.md) and the [ESP8266](notes_ESP8266.md)
+* Working on [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)
+* Updated existing notes on [microcontrollers](/croaker/notes_uC.md) and the [ESP8266](/croaker/notes_ESP8266.md)
 * Thinking about video / photos port to raspberry (even better than USB transfer, it manages quite high speed ( The two data lanes on the CSI-2 bus provide a theoretical 2 Gbps bandwidth, which approximates to around 5 MP resolution.  ) [here](http://www.petervis.com/Raspberry_PI/Raspberry_Pi_CSI/Raspberry_Pi_CSI_Camera_Module.html)
 
 #### 2016-05-25 Markdown and downs
@@ -194,7 +194,7 @@ ou peut etre encore mieux :
 * Petit truc sympa, mais pas encore sorti : un SoC pour le RPi : https://hackaday.io/project/11981-rppsoc-system-on-a-chip-for-the-raspberry-pi
 * Pas possible de créeer le Wall of Contributors, tjrs ce probleme de reset de mot de passe, aucun email n'arrive.
 * TODO: réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) 
-* [EMW3165](notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
+* [EMW3165](/croaker/notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
 
 #### 2016-06-02 Some awesome OSH for medical issues
 
@@ -607,5 +607,44 @@ Awesome work: a FPGA on a RPi0 footprint
 #### 2016-08-24 Finalizing the autodocumentation to gitbook
 	
 * Yeay!! Done. [Gitbook available on this page](https://kelu124.gitbooks.io/echomods/content/)
+
+#### 2016-08-26 Show and tell
+
+* Showing the documentation generation process on an apero at l'Hotel Dieu
+
+#### 2016-08-28 Sharp eye
+
+* Thanks to a question raised by a sharp-eye, I'm putting as a disclaimer that this project is not one supported by the echopen's association. Even if I'm a cofounder of echopen, this project is a personnal one, for the echopen community. Clarified with hackaday, not an issue for them wrt the prizes.
+
+#### 2016-08-29 Hey from Liberia
+
+* got contacted for a partnership to improve, build, and crowdsell a set of modules. Interesting!
+
+#### 2016-08-30 Some good news
+
+* Got some feedback of PRUDAQ's people on the doc, thanks to them for this contribution!
+* Zach's been back. Let's see what can be done.
+* Prof Charles is going to be in Paris: let's meet!
+* Been invited to speak at Hackaday's show for its prize on Nov 5th
+* Trying to get the latest HV7360 from MC.. seems difficult to say the least
+
+#### 2016-08-31 Habitat numerique
+
+* Thinking about the use of the _"Logiciel and Objets libres, animer une communaute autour d'un projet ouvert"_
+* Interesting : [STBone - BeagleBone form-factor STM32F427 board](http://ebrombaugh.studionebula.com/embedded/stbone/index.html)
+* Doing some thinking about [the servo part](/cletus/) -- should be integrating a feather + screen to help debug the output =)
+
+#### 2016-09-01 A ping from GroupGets
+
+* It’s not a surprise that our backers waste no time getting inventive. We were pleasantly surprised by a tweet to check out this novel application of PRUDAQ in a [DIY Ultrasound Imaging Platform](https://www.gitbook.com/read/book/kelu124/echomods). [_source_](http://us10.campaign-archive1.com/?u=0b4a06d3b16c2573ff89aa414&id=3c93652604&e=b8636f98a5).
+* Need to find a way to clarify a CLA if forking this repo to somewhere else
+
+#### 2016-09-02 JOH
+
+* Thinking of preparing an article for the JOH (or HardwareX ?)
+
+#### 2016-09-03 Cheers Sandeep!
+
+* An interesting VT100, USB-enabled - https://hackaday.io/project/13273-diy-vt100
 
 
