@@ -776,6 +776,16 @@ Awesome work: a FPGA on a RPi0 footprint
 
 * An interesting VT100, USB-enabled - https://hackaday.io/project/13273-diy-vt100
 
+#### 2016-09-08 AG of the assocation
+
+* Congrats @BiVi for the position ;)
+
+#### 2016-09-09 Random stuff as usual
+
+* Arduboy ? Awesome!
+* A design for [Sleepy](/sleepy/) is taking place.. wood rules =) Need a water tank though.
+* An awesome thing to automate physical interactions with https://www.tindie.com/products/hugs/tapster/
+
 
 uControllers and other stuff
 -------
