@@ -806,7 +806,7 @@ Would you like to support an existing project with your skills and expertise? Or
 #### 2016-09-07 Back in Paris!
 
 * Best hardware I've seen so far : [Arduboy](https://www.seeedstudio.com/Crowdbuy-1.html). Both a controler, a platform to play with, an arduino, ...
-=======
+
 #### 2016-09-08 AG of the assocation
 
 * Congrats @BiVi for the position ;)
@@ -815,9 +815,20 @@ Would you like to support an existing project with your skills and expertise? Or
 
 * Arduboy ? Awesome!
 * A design for [Sleepy](/sleepy/) is taking place.. wood rules =) Need a water tank though.
-* An awesome thing to automate physical interactions with https://www.tindie.com/products/hugs/tapster/
+* An awesome thing to automate physical interactions with a phone, using https://www.tindie.com/products/hugs/tapster/
 
+#### 2016-09-12 Thanks Adafruit
 
+* [Comm] : got cheers from [Adafruit, check this link =)](https://blog.adafruit.com/2016/09/12/murgen-open-source-ultrasound-imaging-with-beaglebone/)
+* Made some progress with a i2c 128x64 oled to debug the Feather ADC, using this [elegant doc](http://www.projetsdiy.fr/ssd1306-mini-ecran-oled-i2c-128x64-arduino/#.V9Zt5tGxU8o).
+* Getting up to 1Msps with the [Feather](/croaker/2016-09-10-Feather_ADC.md).
+* @TODO: makedoc should include a link checker.. everything starting with `](/` should be tested and checked if existing. That includes images.
+
+#### 2016-09-13 Stand alone echoes visualisation
+
+* Same, for today's date, at [Feather](/croaker/2016-09-10-Feather_ADC.md).
+
+=======
 
 uControllers and other stuff
 -------

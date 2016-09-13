@@ -634,6 +634,32 @@ Awesome work: a FPGA on a RPi0 footprint
 * Interesting : [STBone - BeagleBone form-factor STM32F427 board](http://ebrombaugh.studionebula.com/embedded/stbone/index.html)
 * Doing some thinking about [the servo part](/cletus/) -- should be integrating a feather + screen to help debug the output =)
 
+###### Resources:
+
+* https://opensource.com/health
+* http://innovations.bmj.com/content/early/2016/03/14/bmjinnov-2015-000080.full
+* https://cronfa.swan.ac.uk/Record/cronfa27203
+
+###### Blogs
+
+* https://dzone.com/articles/medical-capsule-robot-hardware-and-software-goes-o
+* http://www.open-electronics.org/vanderbilts-medical-capsule-robots-goes-open-source/
+* https://scicasts.com/healthcare-technology/2068-medical-devices/10270-engineers-open-source-medical-capsule-robot-technology/
+
+###### Support?
+
+http://www.opensourceimaging.org/
+
+Do you work on an open source project with potential application for MRI or other related medical research and technology? We will also highlight early stage projects (prior to a stable release and documentation) in order to improve collaboration at that early stage. Let us know and contact us at info@opensourceimaging.org.
+
+Would you like to support an existing project with your skills and expertise? Or do you have any more questions? Contact us at info@opensourceimaging.org.
+
+###### Forums a pinger pour un kit?
+
+* http://forum.arduino.cc/index.php?topic=236802.0
+* http://electronics.stackexchange.com/questions/50577/what-ultrasonic-sensoremitter-should-i-use-for-my-medical-ultrasound-project
+* http://www.ceus-now.com/what-ultrasonic-sensor-emitter-should-i-use-for-my-medical-ultrasound-project/
+
 #### 2016-09-01 A ping from GroupGets
 
 * It’s not a surprise that our backers waste no time getting inventive. We were pleasantly surprised by a tweet to check out this novel application of PRUDAQ in a [DIY Ultrasound Imaging Platform](https://www.gitbook.com/read/book/kelu124/echomods). [_source_](http://us10.campaign-archive1.com/?u=0b4a06d3b16c2573ff89aa414&id=3c93652604&e=b8636f98a5).
@@ -647,4 +673,31 @@ Awesome work: a FPGA on a RPi0 footprint
 
 * An interesting VT100, USB-enabled - https://hackaday.io/project/13273-diy-vt100
 
+
+#### 2016-09-07 Back in Paris!
+
+* Best hardware I've seen so far : [Arduboy](https://www.seeedstudio.com/Crowdbuy-1.html). Both a controler, a platform to play with, an arduino, ...
+
+#### 2016-09-08 AG of the assocation
+
+* Congrats @BiVi for the position ;)
+
+#### 2016-09-09 Random stuff as usual
+
+* Arduboy ? Awesome!
+* A design for [Sleepy](/sleepy/) is taking place.. wood rules =) Need a water tank though.
+* An awesome thing to automate physical interactions with a phone, using https://www.tindie.com/products/hugs/tapster/
+
+#### 2016-09-12 Thanks Adafruit
+
+* [Comm] : got cheers from [Adafruit, check this link =)](https://blog.adafruit.com/2016/09/12/murgen-open-source-ultrasound-imaging-with-beaglebone/)
+* Made some progress with a i2c 128x64 oled to debug the Feather ADC, using this [elegant doc](http://www.projetsdiy.fr/ssd1306-mini-ecran-oled-i2c-128x64-arduino/#.V9Zt5tGxU8o).
+* Getting up to 1Msps with the [Feather](/croaker/2016-09-10-Feather_ADC.md).
+* @TODO: makedoc should include a link checker.. everything starting with `](/` should be tested and checked if existing. That includes images.
+
+#### 2016-09-13 Stand alone echoes visualisation
+
+* Same, for today's date, at [Feather](/croaker/2016-09-10-Feather_ADC.md).
+
+=======
 
