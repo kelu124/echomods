@@ -828,6 +828,11 @@ Would you like to support an existing project with your skills and expertise? Or
 
 * Same, for today's date, at [Feather](/croaker/2016-09-10-Feather_ADC.md).
 
+#### 2016-09-14 With a servo
+
+* That is done. Videos to come.
+* Missing: sending through UDP.
+
 =======
 
 uControllers and other stuff
