@@ -833,6 +833,11 @@ Would you like to support an existing project with your skills and expertise? Or
 * That is done. Videos to come.
 * Missing: sending through UDP.
 
+#### 2016-09-16 Wifi
+
+* Connecting to wifi: done
+* Beers @Stalingrad, and chilling =)
+
 =======
 
 uControllers and other stuff
