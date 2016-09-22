@@ -32,6 +32,10 @@
 
  #include <libmaple/adc.h>
 
+## For getting more on the ADCs:
+
+* http://www.stm32duino.com/viewtopic.php?t=757&start=10
+
 
 
 

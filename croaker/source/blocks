@@ -1,13 +1,13 @@
 digraph {
-	"ITF-mEG_SPI" [style=rounded]
-	BBB [style=rounded]
+	"ITF-E_signal_envelope" [style=rounded]
+	"Feather WICED" [style=rounded]
 	WiFi [style=rounded]
-		"ITF-mEG_SPI" -> BBB
-		BBB -> WiFi
-	BBB [style=rounded]
+		"ITF-E_signal_envelope" -> "Feather WICED"
+		"Feather WICED" -> WiFi
+	"Feather WICED" [style=rounded]
 	"ITF-mED-TFT-Screen" [style=rounded]
-		BBB -> "ITF-mED-TFT-Screen"
-	BBB [style=rounded]
+		"Feather WICED" -> "ITF-mED-TFT-Screen"
+	"Feather WICED" [style=rounded]
 	"ITF-mEC-WiFi-UDP-Stream" [style=rounded]
-		BBB -> "ITF-mEC-WiFi-UDP-Stream"
+		"Feather WICED" -> "ITF-mEC-WiFi-UDP-Stream"
 }
