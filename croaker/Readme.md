@@ -78,6 +78,8 @@ The aim of this echOmod is to receive the signal and process it.
 
 In a nutshell: getting roughly 12bits, 2Msps+ ADC acquisition and Wifi-streaming, on a powerbank. [Read more here](/croaker/feather_tests/2016-09-10-Feather_ADC.md) for the details on the STM32 work.
 
+Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
+
 ### In images
 
 #### Out of the Croaker module
