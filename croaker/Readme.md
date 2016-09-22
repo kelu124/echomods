@@ -80,18 +80,20 @@ In a nutshell: getting roughly 12bits, 2Msps+ ADC acquisition and Wifi-streaming
 
 ### In images
 
-#### Following unprocessed signal, 
-
-![](/silent/Images/SilentOutput.JPG)
-
-#### After enveloppe detection
-
-![](/silent/Images/SilentEnveloppeFinal.JPG)
-
-
 #### Out of the Croaker module
 
 ![](/croaker/feather_tests/SilentAcqDualADC.png)
+
+#### Following unprocessed signal, 
+
+![](/silent/images/SilentOutput.JPG)
+
+#### After enveloppe detection
+
+![](/silent/images/SilentEnveloppeFinal.JPG)
+
+
+
 
 
 ## Discussions
