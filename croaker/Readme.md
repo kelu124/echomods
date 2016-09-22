@@ -8,14 +8,14 @@
 
 ## Title
 
-The controler heart of the echOmods
+The acquisition heart of the echOmods
 
 ## Description
 
-* A Pi/BBB/STM32...
-* version: V0.1
-* date: 27/06/2016
-* technology: n/a
+* A STM32...
+* version: V0.2
+* date: 22/09/2016
+* technology: STM32F205
 * language: n/a
 * author: Kelu124
 
@@ -25,19 +25,21 @@ The controler heart of the echOmods
 
 * `ITF-A_gnd`
 * `ITF-B_5v`
-* `ITF-mEG_SPI` : signal from the ADC
+* `ITF-E_signal_envelope`
+* `ITF-I_pulse_on`
+* `ITF-J_pulse_off`
 
 ### Outputs
 
 * `ITF-mED-TFT-Screen`
+* `ITF-mED-OLED-Screen`
 * `ITF-mEC-WiFi-UDP-Stream`
-* `ITF-I_pulse_on`
-* `ITF-J_pulse_off`
+
 
 ## Key Components
 
-* `BBB` : see notes
-* `Pi Zero` : see notes
+* `Feather WICED` : see notes
+
 
 ## Information
 
@@ -51,38 +53,58 @@ The aim of this echOmod is to receive the signal and process it.
 
 ![Block schema](source/blocks.png)
 
-* `ITF-mEG_SPI`->`BBB`->`WiFi`
-* `BBB`->`ITF-mED-TFT-Screen`
-* `BBB`->`ITF-mEC-WiFi-UDP-Stream`
+* `ITF-E_signal_envelope`->`Feather WICED`->`WiFi`
+* `Feather WICED`->`ITF-mED-TFT-Screen`
+* `Feather WICED`->`ITF-mEC-WiFi-UDP-Stream`
 
 ## About the module
 
 ### Pros
 
-* Building on existing techs and communities
+* Building on an existing STM32, compatible with the Arduino IDE
 
 ### Cons
 
-* Need to find a real-time solution
+* ADC is tough to master
 
 ## Constraint and limits
 
 * A series of work has been done on ![EMW3165](notes_EMW3165.md),  ![ESP8266](notes_ESP8266.md), ![Raspberry Pi Zero](notes_RPi0.md), ![feather WICED](notes_feather_WICED.md). The EMW3165 gave birth to __[Kina](/kina/)__ for slow speed wireless UDP streaming.
 * A recap of microcontrolers has been added [here](notes_uC.md)
 
+## As of 22/09/2016
+
+### Getting to work with two onboard ADCs. Getting a relatively nice signal.
+
+### In images
+
+#### Following unprocessed signal, 
+
+![](/silent/Images/SilentOutput.JPG)
+
+#### After enveloppe detection
+
+![](/silent/Images/SilentEnveloppeFinal.JPG)
+
+
+#### Out of the Croaker module
+
+![](/croaker/feather_tests/SilentAcqDualADC.png)
+
+
 ## Discussions
 
 
 ### TODO
 
-* Getting some PRU code
-* Getting some images
-* Getting images onto a screen
+
 * Replace the work done by [OneEye](/oneeye/) by [Croaker](/croaker/).
 
 ### DONE
 
-* Choose the platform (BBB, RPi0, STM32, ... ?) : that'll be BBB
+* Choose the platform (BBB, RPi0, STM32, ... ?) : that'll be a `Feather WICED`
+* Getting some images
+* Getting images onto a screen
 
 ### People
 

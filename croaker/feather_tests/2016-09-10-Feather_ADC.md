@@ -56,4 +56,55 @@ acquisition at 1.7Msps. Need to check what is really the speed of this acquisiti
 Seeing echoes as well from a real transducer =)
 
 
+## Being a bit more serious
+
+The code is here [ADC2UDP-Cleaning.ino](/croaker/feather_tests/ADC2UDP-Cleaning.ino).
+
+### Testing the speed of acquisition
+ 
+I got 24x128 points (data is [here](/croaker/data/128x24points.data), decimated 128 times: and I see 22.2 decimated points for a period of 300us. 
+
+![](/croaker/feather_tests/24x128pts.png)
+
+Thats 533 points per period. Since it's a 300us period, the overall acquisition speed is close to 1.776Msps at 12 bits, using only one ADC.
+
+### Getting an image with [Silent](/silent/) and Goblin
+
+#### Background
+
+Silent is the emulating module, which emulates a ultrasound piezo. It's output before Goblin, the analog processing module, is as follows:
+
+![](/silent/Images/SilentOutput.JPG)
+
+and after
+
+![](/silent/Images/SilentEnveloppeFinal.JPG)
+
+#### Acquisition
+
+The data was acquired with [Croaker](/croaker/) through the UDP streaming option. Lines are 128 points long (hence 72us long), and the value is coded over 12 bits, from 0-4095, corresponding to 0-3.3V. [Data is here](/croaker)
+
+![](/croaker/feather_tests/SilentAcq.png)
+
+Comparing with the source signal, it seems that we are late on acquisition: the trigger took some time.
+
+Peaks on the 3 smaller peaks afterwards are on points 82, 88 and 95. That's 6.5 points on average between each, or 3.66 us between each peak. In the config of Silent, we see that each is separated by roughly 7 us. That would mean the ADC speed varies. Needs to be explored.
+
+#### Next steps: getting more juice from the ADCs
+
+* http://www.stm32duino.com/viewtopic.php?t=757&start=10
+* Datasheets..
+
+New acquisition is as follows:
+
+![](/croaker/feather_tests/SilentAcqDualADC.png)
+
+The peaks get better resolved. [Data is here](/croaker/data/dualADC.data) -and [Arduino code is here](/croaker/feather_tests/2ADC2UDP.ino). Roughly doubling the sampling rate.
+
+* Video of the setup, showing the OLED screen showcasing the signal : https://www.youtube.com/watch?v=iyfDMsgAquI
+
+
+
+
+
 
