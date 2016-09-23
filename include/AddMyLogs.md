@@ -709,5 +709,13 @@ Would you like to support an existing project with your skills and expertise? Or
 * Connecting to wifi: done
 * Beers @Stalingrad, and chilling =)
 
+#### 2016-09-23 More speed for data acquisition and streaming
+
+* This is getting better. [Read the log on this repo](/croaker/feather_tests/2016-09-10-Feather_ADC.md). [Arduino IDE code is here](/croaker/feather_tests/2ADC2UDP.ino).
+
+#### 2016-09-23 Getting some raw images
+
+* Still this pulser issue, but the signal is correctly stored. [More to download here](/croaker/data/raw_data/). Captured through UDP streaming.
+
 =======
 

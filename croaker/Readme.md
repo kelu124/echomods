@@ -105,6 +105,8 @@ Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 
 
 * Replace the work done by [OneEye](/oneeye/) by [Croaker](/croaker/).
+* Get better total ADC speed with an iterleaved move
+* See how to compress data
 
 ### DONE
 
