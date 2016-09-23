@@ -23,11 +23,11 @@ What the next steps are :
 
 -   Use PRUDAQ
     -   Clip the signal between 0 and 2V
--   Get image
+-   Get image from the [retroATL3](/retroATL3)
 
 **Medium Priority:**
 
--   Bitbang SPI directly
+-   Bitbang Goblin's SPI directly
 -   Resume documentation
 
 **Low Priority:**

@@ -91,6 +91,7 @@ It also highlights the _TODOs_ in the mindmap.
 * __gh-pages / Jekyll__ for the static site
 * __python / Graphviz__ to generate documentation / graphs
 * __Pandoc__ to convert documentation between formats
+* __pywikibot__ to publish to a wiki
 * __Reveal.js__ for the presentations
 
 #### Conclusion
@@ -102,6 +103,16 @@ An efficient (err, lazy) way of documenting. Only one place to edit information,
 * All-purpose __presentations__
 * A __gitbook__
 
+#### TODO
+
+Experience
+
+* Work on the user experience
+* What flow to capture the visitor, and guide him?
+* --> Need a story
+
+Documentation compiler/tester
+* See an example [here](https://github.com/kelu124/echomods/blob/master/doc/example_fail.md)
 
 #### Q&A
 
