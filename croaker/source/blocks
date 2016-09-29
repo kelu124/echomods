@@ -8,6 +8,8 @@ digraph {
 	"ITF-mED-TFT-Screen" [style=rounded]
 		"Feather WICED" -> "ITF-mED-TFT-Screen"
 	"Feather WICED" [style=rounded]
+	WiFi [style=rounded]
 	"ITF-mEC-WiFi-UDP-Stream" [style=rounded]
-		"Feather WICED" -> "ITF-mEC-WiFi-UDP-Stream"
+		"Feather WICED" -> WiFi
+		WiFi -> "ITF-mEC-WiFi-UDP-Stream"
 }

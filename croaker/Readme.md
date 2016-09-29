@@ -55,7 +55,7 @@ The aim of this echOmod is to receive the signal and process it.
 
 * `ITF-E_signal_envelope`->`Feather WICED`->`WiFi`
 * `Feather WICED`->`ITF-mED-TFT-Screen`
-* `Feather WICED`->`ITF-mEC-WiFi-UDP-Stream`
+* `Feather WICED`->`WiFi`->`ITF-mEC-WiFi-UDP-Stream`
 
 ## About the module
 
@@ -72,7 +72,13 @@ The aim of this echOmod is to receive the signal and process it.
 * A series of work has been done on ![EMW3165](notes_EMW3165.md),  ![ESP8266](notes_ESP8266.md), ![Raspberry Pi Zero](notes_RPi0.md), ![feather WICED](notes_feather_WICED.md). The EMW3165 gave birth to __[Kina](/kina/)__ for slow speed wireless UDP streaming.
 * A recap of microcontrolers has been added [here](notes_uC.md)
 
-## As of 22/09/2016
+## Some images
+
+They can be [found here](/croaker/data/examples/). 
+
+They have been acquired with `nc -lu 5005` to listen to data coming from UDP port 5005, then translated in images using the [CreateCSV.py](/croaker/data/examples/CreateCSV.py) script, which creates the raw data files, ready to be processed, respecting the format, and scan converted using the [CreateSC.py](/croaker/data/examples/CreateSC.py) script for a nearest neighbour scan conversion.
+
+## Boosting the ADC work
 
 ### Getting to work with two onboard ADCs. Getting a relatively nice signal.
 
@@ -95,9 +101,6 @@ Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 ![](/silent/images/SilentEnveloppeFinal.JPG)
 
 
-
-
-
 ## Discussions
 
 
@@ -106,7 +109,6 @@ Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 
 * Replace the work done by [OneEye](/oneeye/) by [Croaker](/croaker/).
 * Get better total ADC speed with an iterleaved move
-* See how to compress data
 
 ### DONE
 
@@ -116,7 +118,7 @@ Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 
 ### People
 
-* ??
+* KGhosh
 
 ## License
 
