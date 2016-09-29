@@ -39,15 +39,15 @@ for fileOne in files:
 	dossiers.append(fileOne)
 print dossiers
 
-TableauImages = "|Image|Description|Download|\n"
-TableauImages += "|--|--|--|\n"
+TableauImages = "Image|Description|Download\n"
+TableauImages += "-----|-----|-----\n"
 for eachImage in dossiers:
 	file_names = sorted((fn for fn in os.listdir(eachImage) if fn.endswith('SC.png')))
 	images = [Image.open("./"+eachImage+"/"+fn) for fn in file_names]
 	# Correction needed: http://stackoverflow.com/questions/19149643/error-in-images2gif-py-with-globalpalette
 	filename = "./"+eachImage+".gif"
 	writeGif(filename, images, duration=0.05)
-	TableauImages += "|<img src='https://github.com/kelu124/echomods/blob/master/croaker/data/examples/"+eachImage+".gif'>|Description|Download|\n"
+	TableauImages += "<img src='https://github.com/kelu124/echomods/blob/master/croaker/data/examples/"+eachImage+".gif'>|Description|Download\n"
 
 
 
