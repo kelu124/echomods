@@ -501,7 +501,7 @@ for item in ListePosts:
 
 
 ModulesChaptDeux = ["tobo","retroATL3","mogaba","goblin","tobo","toadkiller"]
-ModulesChaptTrois = ["silent","cletus","croaker","kina","doj","sleepy"]
+ModulesChaptTrois = ["silent","cletus","croaker","doj","sleepy"]
 
 def GitBookizeModule(s,module):
 	t = s.split("\n## ")
@@ -545,15 +545,15 @@ def IncludeImage(s):
 	return s.replace("<img src='https://github.com/kelu124/echomods/blob/master/", "<img src='https://raw.githubusercontent.com/kelu124/echomods/master/")
 
 def AddRawHURL(s):
-
+	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
 	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/"
 	for moduledeux in ModulesChaptDeux:
-		s = s.replace("](/"+moduledeux+"/)", "](/Chapter2/"+moduledeux+".md)")	
+		s = s.replace("](/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")	
 		s = s.replace("](/"+moduledeux+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduledeux+"/source/blocks.png)")	
-		s = s.replace("](/"+moduledeux+"/Readme.md)", "](/Chapter2/"+moduledeux+".md)")
+		s = s.replace("](/"+moduledeux+"/Readme.md)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")
 	for moduletrois in ModulesChaptTrois:
-		s = s.replace("](/"+moduletrois+"/)", "](/Chapter3/"+moduletrois+".md)")	
-		s = s.replace("](/"+moduletrois+"/Readme.md)", "](/Chapter3/"+moduletrois+".md)")
+		s = s.replace("](/"+moduletrois+"/)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")	
+		s = s.replace("](/"+moduletrois+"/Readme.md)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")
 		s = s.replace("](/"+moduletrois+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduletrois+"/source/blocks.png)")	
 
 	return s.replace("![](/", "![]("+URL)
@@ -722,6 +722,14 @@ f = open("gitbook/Chapter5/images.md","w+")
 f.write("# Still images from murgen \n\n"+TableDataExamples+"\n\n")
 f.close()
 
+f = open("croaker/data/examples/Readme.md", 'r')
+Examples_croaker = f.read()
+f.close()
+
+f = open("gitbook/Chapter5/croaker_data.md","w+")
+f.write("# Images acquired using Croaker \n\n"+AddRawHURL(AddOneLevel(Examples_croaker))+"\n\n")
+f.close()
+
 
 Loops = ""
 f = open("include/20160814/2016-08-14-HackingAUltrasoundProbe.md", 'r')
@@ -765,6 +773,14 @@ f.close()
 
 f = open("gitbook/Chapter6/interfaces.md","w+")
 f.write("# List of modules Interfaces \n\n"+AddRawHURL(AddInterfacesDocTxt)+"\n\n")
+f.close()
+
+f = open("include/AddDocProcess.md", 'r')
+AddDocProcess = f.read()
+f.close()
+
+f = open("gitbook/Chapter6/documentationprocess.md","w+")
+f.write("# Automating documentation \n\n"+AddRawHURL(AddDocProcess)+"\n\n")
 f.close()
 
 # -------------------------

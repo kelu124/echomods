@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\bootloader\EWARM\Bootloader.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\COM.MXCHIP.BASIC\EWARM\COM.MXCHIP.BASIC.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

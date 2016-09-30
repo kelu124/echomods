@@ -1,0 +1,48 @@
+1. Connect Debug UART to PC and open serial port terminal software, like: Super terminal or secureCRT. This how to doc use secureCRT for demonstration.
+2. Pull down boot pin and reset the driver. MICO device will enter bootloader mode and print the command list:
+
+MICO Bootloader for EMW3162, HARDWARE_REVISION: 3162
++ command -------------------------+ function ------------+
+| 0:BOOTUPDATE    <-r>             | Update bootloader    |
+| 1:FWUPDATE      <-r>             | Update application   |
+| 2:DRIVERUPDATE  <-r>             | Update RF driver     |
+| 3:PARAUPDATE    <-r><-e>         | Update MICO settings |
+| 4:FLASHUPDATE   <-i><-s><-e><-r> |                      |
+|    <-start address><-end address>| Update flash content |
+| 5:MEMORYMAP                      | List flash memory map|
+| 6:BOOT                           | Excute application   |
+| 7:REBOOT                         | Reboot               |
++----------------------------------+----------------------+
+|    (C) COPYRIGHT 2014 MXCHIP Corporation  By William Xu |
+ Notes:
+ -e Erase only  -r Read from flash -i internal flash  -s SPI flash
+  -start flash start address -end flash start address
+ Example: Input "4 -i -start 0x400 -end 0x800": Update internal
+          flash from 0x400 to 0x800
+
+MXCHIP> 
+
+3. Input "2" and "enter" on this terminal. Terminal will output like this:
+
+MXCHIP> 2
+
+Updating RF driver......
+Waiting for the file to be sent ... (press 'a' to abort)
+CCCCCCCCCCCCCCCC
+
+4. Send RF driver file using Ymodem. Terminal will output like this:
+MXCHIP> 2
+
+Updating RF driver......
+Waiting for the file to be sent ... (press 'a' to abort)
+CCCCCCCCCCCCCCCCCCCCCCCC
+Starting ymodem transfer.  Press Ctrl+C to cancel.
+Transferring /Users/William/Develop/mxchipWNet Pro Demo@EMW316x/Library/RF driver/BCM43362-5.90.230.10.bin...
+  100%     208 KB       7 KB/sec    00:00:29       0 Errors  
+
+--------------------------------
+ Name: BCM43362-5.90.230.10.bin
+ Size: 213090     Bytes
+-------------------
+
+5. Release BOOT pin, and reset the MICO device.

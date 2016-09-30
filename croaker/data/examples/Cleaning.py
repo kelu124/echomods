@@ -21,8 +21,7 @@ for image in GlobCSV:
 	    os.mkdir(tmpImage)
 
 ListFiles = sorted(set(ListFiles))
-
-print ListFiles
+ 
 
 files = os.listdir("./")
 
@@ -35,9 +34,9 @@ for eachImage in ListFiles:
 files = os.listdir("./")
 dossiers = []
 for fileOne in files:
-    if(("2016" in fileOne) and ("gif" not in fileOne) ):
+    if(("2016" in fileOne) and ("gif" not in fileOne) and ("tar" not in fileOne) ):
 	dossiers.append(fileOne)
-print dossiers
+ 
 
 TableauImages = "Image|Description|Download\n"
 TableauImages += "-----|-----|-----\n"
@@ -47,7 +46,17 @@ for eachImage in dossiers:
 	# Correction needed: http://stackoverflow.com/questions/19149643/error-in-images2gif-py-with-globalpalette
 	filename = "./"+eachImage+".gif"
 	writeGif(filename, images, duration=0.05)
-	TableauImages += "<img src='https://github.com/kelu124/echomods/blob/master/croaker/data/examples/"+eachImage+".gif'>|Description|Download\n"
+	DescriptionFile = ""
+	with open("./"+eachImage+"/"+eachImage+"-0.csv", 'r') as echOpenLog:
+ 
+		for line in echOpenLog:
+		    if ("#description:" in line):
+ 
+			DescriptionFile = line.split("#description:")[1]
+	if (not len("DescriptionFile")):
+		DescriptionFile = "No description found"
+
+	TableauImages += "<img src='https://raw.githubusercontent.com/kelu124/echomods/master/croaker/data/examples/"+eachImage+".gif'>|"+DescriptionFile+"|[Download](https://raw.githubusercontent.com/kelu124/echomods/master/croaker/data/examples/"+eachImage+".tar.gz)\n"
 
 
 

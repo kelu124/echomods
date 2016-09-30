@@ -1,0 +1,55 @@
+{
+	
+	"folders":
+	[
+		{
+			"path": "../../../../include"
+		},
+		{
+			"path": "../../../../Platform"
+		},
+		{
+			"path": "../../../../Library"
+		},
+		{
+			"path": "../../../../Bootloader"
+		},
+		{
+			"path": "../../../../External"
+		},
+		{
+			"path": "../../../../Board/MiCOKit-3165"
+		}
+	],
+	"settings":
+	{
+		"sublimeclang_options":
+		[
+			"-Wno-typedef-redefinition",
+			"-Wno-unused-parameter",
+			"-Wno-empty-body",
+			"-Wno-attributes",
+			"-ferror-limit=0",
+			"-W",
+			"-c",
+			"-D__int64=long long",
+			"-D__pure=__attribute__((const))",
+			"-D__value_in_regs=__attribute__(())",
+			"-DBOOTLOADER",
+			"-DDebug",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/Bootloader/",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/External/",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/Platform/include/",
+			"-I/Users/William/Develop/mxchipWNet Pro Demo@EMW316x/Platform/Cortex-M3/",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/Platform/MCU/STM32F4xx/peripherals/",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/Platform/MCU/STM32F4xx/peripherals/Libraries/STM32F4xx_StdPeriph_Driver/",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/Platform/MCU/STM32F4xx/peripherals/Libraries/STM32F4xx_StdPeriph_Driver/inc",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/Board/MiCOKit-3165/",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/include/",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/MICO/",
+			"-I/Users/william/Develop/mxchipWNet Pro Demo@EMW316x/Library/support/",
+			"-I/Users/william/Develop/Clang_lib/Include/",
+			"-I/Users/william/Develop/Clang_lib/ARMCC/include/"
+		]
+	}
+}

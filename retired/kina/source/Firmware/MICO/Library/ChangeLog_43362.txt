@@ -1,0 +1,242 @@
+版本号：31620002.036
+日期：2015-07-23
+1. 增加主动扫描API：int mxchip_active_scan(char*ssid, int is_adv)
+		 ssid: 需要主动扫描的SSID
+		 is_adv: =1：高级扫描，扫描结果通过ApListAdvCallback返回。=0：普通扫描，扫描结果通过ApListCallback返回。
+2. Smart config的回调函数RptConfigmodeRslt会返回是什么方式配置成功的。使用network_InitTypeDef_st结构体的wifi_retry_interval返回。
+	 返回配置类型定义如下：
+typedef enum{
+  CONFIG_BY_NONE,
+  CONFIG_BY_EASYLINK_V2,         
+  CONFIG_BY_EASYLINK_PLUS,        
+  CONFIG_BY_EASYLINK_MINUS,          
+  CONFIG_BY_AIRKISS,             
+  CONFIG_BY_SOFT_AP,  
+  CONFIG_BY_WAC,   
+  CONFIG_BY_ALINK,
+} mico_config_source_t;	 
+
+版本号：31620002.035
+日期：2015-07-14
+1. 优化了DNS客户端，在首选DNS服务器不通的情况下之前会重试超过1分钟才使用备选DNS服务器，现在的做法是间隔1秒的周期性的使用首选DNS服务器和备选DNS服务器。
+2. 现在所有的配网方式合并为一体，修正了EasyLink可能配置错误的问题。
+
+版本号：31620002.034
+日期：2015-06-30
+1. 统一调整了产测输出，由库直接调用标注产测函数接口mxchip_mfg_test，判断逻辑始终是通过API：MicoShouldEnterMFGMode。
+2. 增加抓包的API：
+void set_sniffer_channel(int32_t nchannel);//设置抓包模式工作的通道
+int set_promiscuous_mode(void (*promiscuous_cb)(const uint8_t *data,
+						 const uint16_t len)) ;//启动抓包模式，参数是回调函数。启动以后默认工作在通道1.
+3. 按照阿里配网协议v1.2.0609版本实现了对中文编码的支持。
+
+版本号：31620002.032-smarttest
+日期：2015-06-23
+1. 合并了EasyLink V2，EasyLink Plus，Airkiss，ALINK和EasyLink Minus多种配置方式。通过函数：
+	int OpenAutoConfig(int timeout, int mode)启动配置
+			timeout是超时时间单位秒
+			mode是配置模式，采用bitmask方式，每个bit定义如下：
+enum {
+    MODE_EASYLINK = 1,
+    MODE_ALINK = 2,
+    MODE_AIRKISS = 4,
+    MODE_PROBEREQ = 8,
+    MODE_EASYLINKV2 = 0x10,
+};		
+			设置mode=0xFF启动自动配置模式，侦测到什么模式就以对应的模式进行配置。
+	int CloseAutoConfig(void)结束配置
+	
+	
+版本号：31620002.031
+日期：2015-05-19
+1. 新增API：void uap_dns_redirector(int enable)开关UAP的DNS Redirector功能。enable==true打开，否则关闭。默认是打开的。
+2. 修改了IOCTL的处理的流程，提高了稳定性；
+3. UDP socket发送数据不再使用TXPOOL，而是直接使用RAM，减少TXPOOL的开销。
+4. 支持5G芯片43341.
+
+版本号：31620002.030
+日期：2015-05-06
+1. 修正了M4中printf,sprintf函数无法处理浮点数的问题。
+2. 用户可以通过实现函数uint32_t host_platform_memory_wifi_nvram_size( void )，uint8_t* host_platform_read_wifi_nvram_image(int offset) 来自定义1062的wifi nvram值。不定义该函数就使用系统默认。
+3. 修改了API：wifi_reboot_event定义：void wifi_reboot_event(int type)。其中type包含：
+	 enum {
+    WIFI_ERROR_INIT = 1,       //WIFI初始化失败
+    WIFI_ERROR_NOGW,           //ARP无法访问到网关，网络可能发生异常
+    WIFI_ERROR_NOBUS_CREDIT,   //wifi底层驱动发生异常，无法发送数据。
+   };
+
+版本号：31620002.029
+日期：2015-04-17
+1. 修正了WIFI做StartAdvNetwork连接时AP连接成功但是DHCP失败的情况下，模块无法重新尝试连接的问题。
+2. 修正了IAR下printf函数调用到OS相关API可能出现异常的问题。重现方法：在_write函数中执行mico_rtos_get_semphore, 而其他地方都不set semphore，OS会出现异常。
+3. 增加了报告信息到Fog的功能。
+
+版本号：31620002.028
+日期：2015-04-14
+1. Easylink同时支持EasyLink模式和扫描抓取ssid模式。使用OpenEasylink的API，可以同时支持。
+2. Library去掉所有对OTP的判断。
+3. tasklist这个CLI现在打印出来的prio同MICO定义的优先级保持一致。
+4. Added API：mico_rtos_resume_thread.
+
+版本号：31620002.027
+日期：2015-03-25
+1. 修正了StartAdvNetwork连接非加密的AP是不会产生connected_ap_info的回调的问题。
+
+版本号：31620002.026
+日期：2015-03-17
+1. Fix Select max FD size can't support OS event FD. 之前最大的FD size是17，而OS event的fd从是16到23.
+2. Changed: TCP write return immediately and set errno to ENOMEM when memory low. 之前在内存不足的时候write会卡住，直到TCP_MAXRTX重试超时才能退出，需要较长时间。
+3. Change TX_POOL_SIZE from 7 to 2. 由于TX_POOL仅用于UDP发送和WIFI命令的发送，不需要如此多的memory，可以节省空间。
+4. Change TCP_MAXRTX from 12 to 5. 加快当TCP无法发送数据而返回错误的速度。
+5. Change Ali OUI to "\xD8\x96\xE0"
+6. 修正gethostbyname被多个task同时调用会返回失败的问题。
+		
+版本号：31620002.025
+日期：2015-03-11
+1. 支持阿里Beacon IE的配置模式：
+	该功能集成在OpenAlink API里面，当启动alink配置之后，就会检查Beacon IE，probe response中的特殊IE，也会按照阿里一键配网协议去抓包。
+	int alink_get_tpsk(uint8_t *ie,  char *tpsk) // 回调函数，当接收到这种beacon/Probe response数据包就调用这个函数，。
+		参数：ie指向该阿里特殊IE；tpsk用于返回密码。
+
+
+	
+版本号：31620002.024
+日期：2015-03-04
+1. 支持Easylin V3。int OpenEasylink3(void)、int CloseEasylink3(void)
+2. Added weak var：int CFG_PRIO_BITS; 设置不同MCU的mask bit。
+3. 增加weak API：wiced_bool_t host_platform_is_sdio_int_asserted(void);设置wwd_thread是否需要take semphore。在某些状态下不需要等待IRQ触发就直接去读取数据。
+
+版本号：31620002.023
+日期：2015-02-26
+1. 修正了EasyLink，Airkiss等无法获取超过32字节的Key。
+
+版本号：31620002.022
+日期：2015-02-10
+1. 由于同阿里的库存在API命名冲突，把阿里一键配置协议的API修改为：
+int OpenAlink(int timeout)
+int CloseAlink(void)
+2. gethostbyname增加了锁保护，保证了多任务下调用的安全性。
+3. 支持SDIO 1bit模式，需要用户定义变量：int sdio_1_bit_mode;0=默认4bit模式，1=1bit模式。
+
+版本号：31620002.021
+日期：2015-02-04
+1. 去除等待LSE的代码，RTC使用LSI作为源，去除对1062的32768的时钟，直接拉低。加快了初次上电的启动速度，但是WIFI的32k晶振没有了，可能会导致wifi低功耗模式下的功耗增加。
+
+版本号：31620002.020
+日期：2015-01-29
+1. 增加了一组用于调试用的CLI API。
+2. 提高了Airkiss的成功率，针对40MHz的路由器做了优化，提高了红米同TPlink的40MHz路由器的成功率；使用SSID的CRC值提高了配置速度和正确性。
+3. 增加API：int shutdown(int s, int how)用于开关socket，其中how定义如下：
+	 bit1=RX, bit2=TX；所以how==1表示关闭接收，how==2表示关闭发送，how==3表示关闭socket，等于close(s)。
+4. 支持阿里一键配置协议：void alink_start(int seconds)，启动配置，回调函数同EasyLink相同。void alink_stop(void)停止配置。
+5. 新增一组用于Detect MAC地址的API：
+			int start_mac_capture(int type)启动MAC地址捕捉功能，type==1表示通过SoftAP模式接收probe request方式获取MAC，这种模式可以连接AP。
+						type == 2表示通过Monitor模式通过接收广播地址来捕捉MAC，周期性的扫描每个channel 100ms。
+						其他type，返回-1.
+			回调函数：void mac_report_cb(uint8_t *mac)，mac指向捕捉到的MAC地址。
+			void stop_mac_capture(void)：停止捕捉MAC地址。
+
+版本号：31620002.019
+日期：2015-01-16
+1. 修正了FreeRTOS的BUG，可能出现锁无法工作，信号量无法等待预设的超时时间。
+2. Easylink Plus支持小MTU包格式，定位包在小MTU下的长度缩减，其中0x5AA,0x5AB,0x5AC这3个包的长度直接减少为0xAA,0xAB,0xAC，Index定位包的长度减少0x450。
+3. 修正了Airkiss对于SSID和Key长度很短会无法配置成功的问题；优化了Airkiss的配置成功率。
+4. 修正了频繁调用wlan_disconnect可能导致系统异常的问题。
+5. 修正了双模式下UDP发送广播数据无法每个接口都发送出去的问题。
+
+版本号：31620002.018
+日期：2014-12-23
+1. 优化了EasyLink Plus，Airkiss的成功率。
+2. 优化了连接AP容易失败的问题，join_fail的错误值更准确。
+3. 产测程序自动扫描。
+4. Healmonitor会检测Bus Credit，如果太长时间无法发送数据，会产生wifi_reboot_event.
+5. Socket的select支持event类型。
+
+版本号：31620002.017
+日期：2014-10-30
+1. 优化了库的内存开销：去掉了IO Work Thread，减少了work thread的Stack Size，减少了tcpip thread的stack size。
+2. 优化了Easylink Plus的发包模式，增加了发送序号帧，具有更好的配置成功率。
+3. 新增API：StartNetworkWithbssid用于连接需要做BSSID过滤的AP。其他联网API都不会检查AP的BSSID。
+4. 优化了联网的过程，减少了返回错误代码6的概率，增加了联网的成功率。
+5. 支持Airkiss。
+6. 新增回调函数：void mico_rtos_stack_overflow(char *taskname)用于提示线程的stack overflow。
+7. 用户程序新增全局变量：int mico_timer_queue_len = 5;用户可以自定义Timer队列的长度。
+
+版本号：31620002.016
+日期：2014-09-30
+1. Easylink 1.0 is replaced with easylink plus.
+2. 连接AP会检查BSSID的设置。
+3. 支持Ethernet Interface。
+4. MICO OS Timer可以在中断处理函数中执行。
+
+版本号：31620002.015
+日期：2014-08-26
+1. 实现了的WPS的支持。
+2. 修正了mico_rtos_push_to_queue不能在中断服务程序中执行的问题。
+
+版本号：31620002.014
+日期：2014-08-20
+1. 修正了在MCU低功耗模式下时间计算不准确的问题。
+2. 修正了双模式下，Station联网成功以后，SoftAP下面有新的客户端连接上来，就无法访问外网的问题。
+3. 修正了TCP Socket在non-blocking模式下发送数据的行为，之前是在这种模式下如果发送的数据包大于缓冲区的长度就直接返回失败，现在是发送当前缓冲区中能发送的字节数。
+
+版本号：31620002.013
+日期：2014-08-05
+1. 新增API用于设置和读取hostname。char *gethostname( char *name, int len )，char *sethostname( char *name )
+2. 修正了从一个路由器切换到另外一个路由器可能出现ARP缓存影响工作的问题，现在netif down的时候清除所有ARP缓存。
+3. 修正了在联网过程中无法扫描可能出错的问题。
+4. 修改了Healmonitor的工作机制，由之前的ping替换为现在的arping，原因是可能存在某些网关不允许ping。
+5. SoftAP模式下对所有的DNS请求都回复为模块的IP地址。
+6. 修正了EasyLink可能会配置错误的问题。
+7. 修正了TCP setsockopt无法配置TCP Keepalive时间间隔的问题。
+8. StartAdvNetwork可以不配置SSID只配置BSSID，通过BSSID进行联网。
+
+
+版本号：31620002.012
+日期：2014-06-27
+1. 新增API用于返回当前memory的使用情况。
+struct mxchip_mallinfo {
+  int num_of_chunks;  /* number of free chunks */
+  int total_memory;  /* maximum total allocated space */
+  int allocted_memory; /* total allocated space */
+  int free_memory; /* total free space */
+};
+struct mxchip_mallinfo* mico_memory_info(void);
+
+
+版本号：31620002.011
+日期：2014-06-10
+1. 新增API用于设置和读取RTC时间。
+typedef struct
+{
+    u8 sec;
+    u8 min;
+    u8 hr;
+    u8 weekday;/* 1-sunday... 7-saturday */
+    u8 date;
+    u8 month;
+    u8 year;
+}rtc_time_t;
+
+int mico_get_rtc_time(rtc_time_t* time);
+int mico_set_rtc_time(rtc_time_t* time);
+2. RTC在重启之后不会重新计时。
+
+版本号：31620002.010
+日期：2014-06-05
+1. 修正了AP的SSID为32个字节的时候，模块无法连接的问题。
+2. 新增一个socket option来设置TCP Server允许的最大连接数，当最大连接数到达这个最大值以后，新的连接请求到达，就会关闭一个最老的不活动的Client来接收新的连接请求。默认是5个。设置方式如下：
+  TCP_NODELAY = 0x01,    /* don't delay send to coalesce packets */
+  TCP_KEEPALIVE = 0x02,    /* send KEEPALIVE probes when idle for pcb->keep_idle milliseconds */
+  TCP_KEEPIDLE = 0x03,    /* set pcb->keep_idle  - Same as TCP_KEEPALIVE, but use seconds for get/setsockopt */
+  TCP_KEEPINTVL = 0x04,    /* set pcb->keep_intvl - Use seconds for get/setsockopt */
+  TCP_KEEPCNT = 0x05,    /* set pcb->keep_cnt   - Use number of probes sent for get/setsockopt */
+  TCP_CONN_NUM = 0x06,    /* get the connection num for a TCP server, can't set */
+  TCP_MAX_CONN_NUM = 0x07,/* get/set the connection num for a TCP server*/
+#define IPPROTO_TCP 6
+
+int opt;
+opt = 2;
+setsockopt(fd_listen, IPPROTO_TCP, TCP_MAX_CONN_NUM, &opt, sizeof(opt));
+
+

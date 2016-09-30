@@ -1,0 +1,62 @@
+{
+	
+	"folders":
+	[
+		{
+			"path": "../../../../include"
+		},
+		{
+			"path": "../../../../Platform"
+		},
+		{
+			"path": "../../../../Support"
+		},
+		{
+			"path": "../../../../Board/MiCOKit-3288"
+		},
+		{
+			"path": "../../../../Demos/COM.APPLE.HOMEKIT"
+		},
+		{
+			"path": "../../../../External"
+		},
+		{
+			"path": "../../../../MICO"
+		}
+	],
+	"settings":
+	{
+		"sublimeclang_options":
+		[
+			"-Wno-typedef-redefinition",
+			"-Wno-unused-parameter",
+			"-Wno-empty-body",
+			"-Wno-attributes",
+			"-ferror-limit=0",
+			"-W",
+			"-c",
+			"-D__int64=long long",
+			"-D__pure=__attribute__((const))",
+			"-D__value_in_regs=__attribute__(())",
+			"-DUSE_STDPERIPH_DRIVER",
+			"-DDEBUG",
+			"-I/Users/william/Develop/MiCO/Demos/COM.APPLE.HOMEKIT/",
+			"-I/Users/william/Develop/MiCO/External/",
+			"-I/Users/william/Develop/MiCO/Platform/",
+			"-I/Users/william/Develop/MiCO/Platform/include/",
+			"-I/Users/William/Develop/MiCO/Platform/Cortex-M4/",
+			"-I/Users/william/Develop/MiCO/Platform/MCU/",
+			"-I/Users/william/Develop/MiCO/Platform/drivers/spi_flash/",
+			"-I/Users/william/Develop/MiCO/Platform/MCU/STM32F4xx/",
+			"-I/Users/william/Develop/MiCO/Platform/MCU/STM32F4xx/peripherals/",
+			"-I/Users/william/Develop/MiCO/Platform/MCU/STM32F4xx/peripherals/Libraries/",
+			"-I/Users/william/Develop/MiCO/Platform/MCU/STM32F4xx/peripherals/Libraries/STM32F4xx_StdPeriph_Driver/inc/",
+			"-I/Users/william/Develop/MiCO/Board/MiCOKit-3288/",
+			"-I/Users/william/Develop/MiCO/include/",
+			"-I/Users/william/Develop/MiCO/MICO/",
+			"-I/Users/william/Develop/MiCO/Support/",
+			"-I/Users/william/Develop/Clang_lib/Include/",
+			"-I/Users/william/Develop/Clang_lib/ARMCC/include/"
+		]
+	}
+}

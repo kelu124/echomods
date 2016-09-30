@@ -1,0 +1,13 @@
+--mcu demo
+print("WiFiMCU firmware version")
+print(mcu.ver())
+print("mxchipWNet library version, MAC address, WLAN driver version")
+print(mcu.info())
+print("Get the memory status")
+print(mcu.mem())
+print("Get the stm32 chip ID (96 bits)")
+print(mcu.chipid())
+print("Get the WiFiMCU boot reason")
+print(mcu.bootreason())
+print("Reboot WiFiMCu")
+mcu.reboot()

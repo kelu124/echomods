@@ -151,7 +151,7 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 
 
 * _BONUS!_ Plug it to a [RPi0 or BBB or RPi](/croaker/) or else.
-* _BONUS!_ or test it with the [EMW3165](/kina/).
+* _BONUS!_ or test it with the [EMW3165](/retired/kina/).
 * Publish the sources in KiCAD (@Sofian maybe?)
 
 ### DONE
