@@ -1,3 +1,7 @@
+# CLAs
+
+[Online presentation](http://kelu124.github.io/echomods/CLA.html)
+
 ## Why a CLA?
 
 A CLA is a legal document in which you state you are entitled to contribute the code/documentation/translation to the project you’re contributing to and are willing to have it used in distributions and derivative works. This means that should there be any kind of legal issue in the future as to the origins and ownership of any particular piece of code, then that project has the necessary forms on file from the contributor(s) saying they were permitted to make this contribution.
@@ -10,13 +14,13 @@ The CLA also ensures that once you have provided a contribution, you cannot try 
 
 A CLA is _inbound_, when a License is _outbound_.
 
-_Ideally, the inbound=outbound: the contributor give the same rights to the project that the project gives to the user._
+_Ideally, the inbound=outbound: the contributor give the same rights to the project that the project gives to the user._ By default, if the contract does not define who will own the property, it is more likely than not that the person who wrote it will own it. 
 
 ## PI
 
 Two big families: 
 
-* Contributor License Agreement (CLA), the original contributor retains copyright ownership of their contributions, but grants the project a broad set of rights such that the project can incorporate and distribute the contributions as it needs to. By default, if the contract does not define who will own the property, it is more likely than not that the person who wrote it will own it.
+* Contributor License Agreement (CLA), the original contributor retains copyright ownership of their contributions, but grants the project a broad set of rights such that the project can incorporate and distribute the contributions as it needs to. 
 * a Copyright Assignment Agreement (CAA), the contributor actually transfers copyright ownership of the contributions to the project, who can then license it however they want since they own it
 
 * can assign the copyright in all contributions to the project owner; 
@@ -51,6 +55,7 @@ It means that IP remains the Contributor by default.
 ## Which contributors?
 
 Different use-cases:
+
 * paid: employees, contractors, ..
 * unpaid: individual contributors, researchers, teachers, doctors
 * unclear: partners, organizations, trainees, ... 
@@ -63,14 +68,15 @@ Different use-cases:
 ## Application to the murgen-modules project
 
 Suggestion:
+
 * Establishing a Canonical (IP-neutral) CLA
 * Submitting the work as part of the _medico-technical_ 
 * Add a contribution to echopen's board :)
 
 ## Read more
 
-http://ebb.org/bkuhn/blog/2014/06/09/do-not-need-cla.html
-http://oss-watch.ac.uk/resources/cla
+* http://ebb.org/bkuhn/blog/2014/06/09/do-not-need-cla.html
+* http://oss-watch.ac.uk/resources/cla
 
 
 

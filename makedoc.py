@@ -594,7 +594,7 @@ f.write(AddRawHURL(pitch))
 f.close()
 
 # -------------------------
-# Adding CHAPTER 1 : Basic kit
+# Adding CHAPTER 1 : Histoire et principe des ultrasons
 # -------------------------
 f = open("include/AddEngineering.md", 'r')
 AddEngineering = f.read()
@@ -659,6 +659,21 @@ for eachModule in ModulesChaptDeux:
 	f.close()
 	f = open("gitbook/Chapter2/murgensetup.md","w+")
 	f.write(AddRawHURL(MurgenIntro)+"\n\n")
+	f.close()
+
+	# Adding zach's work
+	Zach = ""
+	f = open("./../murgen-dev-kit/worklog/Zach/Zach.md", 'r')
+	Zach = f.read()
+	f.close()
+	f = open("./../murgen-dev-kit/worklog/Zach/2016-07-06.md", 'r')
+	Zach = Zach+"\n\n"+AddOneLevel(f.read())
+	f.close()
+	f = open("./../murgen-dev-kit/worklog/Zach/2016-06-22.md", 'r')
+	Zach = Zach+"\n\n"+AddOneLevel(f.read())
+	f.close()
+	f = open("gitbook/Chapter2/zach.md","w+")
+	f.write(AddRawMurgenURL(Zach)+"\n\n")
 	f.close()
 
 # -------------------------
