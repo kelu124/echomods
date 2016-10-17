@@ -4,6 +4,12 @@ A CLA is a legal document in which you state you are entitled to contribute the 
 
 The CLA also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date. People and companies can therefore use that software, confident that they will not be asked to stop using pieces of the code at a later date.
 
+## CLA and Licenses ?
+
+A CLA is _inbound_, when a License is _outbound_.
+
+_Ideally, the inbound=outbound: the contributor give the same rights to the project that the project gives to the user._
+
 ## PI
 
 By default, if the contract does not define who will own the property, it is more likely than not that the person who wrote it will own it.
@@ -12,13 +18,6 @@ Two big families: the contributor:
 
 * can assign the copyright in all contributions to the project owner; 
 * can grant an irrevocable licence to allow the project maintainer to use the contribution. 
-
-## Several cases
-
-Different use-cases:
-* paid: employees, contractors, ..
-* unpaid: individual contributors
-* unclear: partners, organizations, trainees, ...
 
 ## Canonical typical CLA
 
@@ -38,15 +37,33 @@ CLAs twist the empowering, community-oriented, enjoyable experience of FLOSS con
 
 Most projects use the same time-honored and successful mechanism used throughout the 35 year history of the Free Software community:  submissions using the normal means to contribute to the project — such as patches to the mailing list or pull and merge requests — indicate the contributors' assent for inclusion of that Contribution in the canonical version under the project's license.
 
-
 ## What link with echOpen's license
 
 __11. Patents.__
 
 _Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version._
 
-## Read more
+It means that IP remains the Contributor by default.
 
+## Which contributors?
+
+Different use-cases:
+* paid: employees, contractors, ..
+* unpaid: individual contributors, researchers, teachers, doctors
+* unclear: partners, organizations, trainees, ... 
+
+## Recommendation
+
+* Paid contributors give their copyright, but the project can allow the paid contributors to keep their copyrights
+* Unpaid contributors grant a a licence to use their contributions, unless they want to assign the copyright to the project
+
+## Application to the murgen-modules project
+
+Suggestion:
+* Establishing a Canonical (IP-neutral) CLA
+* Submitting the work as part of the _medico-technical_ 
+
+## Read more
 
 http://ebb.org/bkuhn/blog/2014/06/09/do-not-need-cla.html
 http://oss-watch.ac.uk/resources/cla
