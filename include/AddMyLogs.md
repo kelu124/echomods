@@ -709,13 +709,19 @@ Would you like to support an existing project with your skills and expertise? Or
 * Connecting to wifi: done
 * Beers @Stalingrad, and chilling =)
 
-#### 2016-09-23 More speed for data acquisition and streaming
+#### 2016-09-22 More speed for data acquisition and streaming
 
 * This is getting better. [Read the log on this repo](/croaker/feather_tests/2016-09-10-Feather_ADC.md). [Arduino IDE code is here](/croaker/feather_tests/2ADC2UDP.ino).
 
 #### 2016-09-23 Getting some raw images
 
-* Still this pulser issue, but the signal is correctly stored. [More to download here](/croaker/data/raw_data/). Captured through UDP streaming.
+* Still this pulser issue, but the signal is correctly stored. [More to download here](/croaker/data/examples/). Captured through UDP streaming.
+
+#### 2016-09-27 Processing the raw images
+
+*  Created the scripts to batch scan-convert and animate the images. [More to see/download here](/croaker/data/examples/)
+* Hopes to get the STM32 go faster =)
+* Adding the croaker work to the gitbook .. and cleaning some remaining broken links during doc generation.
 
 =======
 

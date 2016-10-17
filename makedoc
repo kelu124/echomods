@@ -17,12 +17,18 @@ cd gitbook
 grep -rli '](/' * | xargs -i@ sed -i 's/](\//](https\:\/\/github.com\/kelu124\/echomods\/tree\/master\//g' @
 cd ..
 
+# Preparation des PPT
+
+cp include/ppt_CLA.md gh-pages/ppt_CLA.md
+cp CLA.txt gitbook/CLA.txt
+
 cd gh-pages/
 ./createMD.sh
 
 # Creating the slides
 
 pandoc -t revealjs -s ppt.md -o ppt.html --slide-level 2
+pandoc -t revealjs -s ppt_CLA.md -o CLA.html --slide-level 2
 pandoc -t revealjs -s DocumentationProcess.md -o DocumentationProcess.html --slide-level 2 --variable theme="league" --variable transition="linear"
 
 cp ../include/sets/sets_slides.md ./

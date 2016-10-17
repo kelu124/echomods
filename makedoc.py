@@ -558,6 +558,16 @@ def AddRawHURL(s):
 
 	return s.replace("![](/", "![]("+URL)
 
+def AddRawMurgenURL(s):
+	ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
+
+	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
+	URL = "https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/"
+	for Session in ListOfMurgenSessions:
+		s = s.replace("](/worklog/"+Session+")", "]("+BaseURL+"/Chapter4/"+Session+")")	
+
+	s= re.sub('!\[.*\]', '![]', s)
+	return s.replace("![](/", "![]("+URL)
 
 # -------------------------
 # Gitbooking worklog
@@ -586,6 +596,15 @@ f.close()
 # -------------------------
 # Adding CHAPTER 1 : Basic kit
 # -------------------------
+f = open("include/AddEngineering.md", 'r')
+AddEngineering = f.read()
+f.close()
+
+
+f = open("gitbook/Chapter1/engineering.md","w+")
+f.write(IncludeImage(AddRawHURL(AddEngineering)))
+f.close()
+
 
 PrinciplesOfEchoes = ""
 f = open("include/AddPrinciples.md", 'r')
@@ -631,6 +650,16 @@ for eachModule in ModulesChaptDeux:
 	f.close()
 	
 
+	f = open("gitbook/Chapter2/"+eachModule+".md","w+")
+	f.write(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n")
+	f.close()
+
+	f = open("include/AddIntroMurgen.md", 'r')
+	MurgenIntro = f.read()
+	f.close()
+	f = open("gitbook/Chapter2/murgensetup.md","w+")
+	f.write(AddRawHURL(MurgenIntro)+"\n\n")
+	f.close()
 
 # -------------------------
 # Adding CHAPTER 3 : Notes and worklog
@@ -699,6 +728,24 @@ f.close()
 f = open("gitbook/Chapter4/rawworklog.md","w+")
 f.write("# Raw worklog\n\n"+AddRawHURL(WorkLogLevel(MyLogs))+"\n\n")
 f.close()
+
+# Adding murgen's work
+
+Sessions = []
+ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
+
+for SessionLog in ListOfMurgenSessions:
+	f = open("./../murgen-dev-kit/worklog/"+SessionLog, 'r')
+	Sessions.append(f.read())
+	f.close()
+ 
+for i in range(len(Sessions)):
+	Sessions[i] = AddRawMurgenURL(Sessions[i])
+
+for i in range(len(Sessions)):
+	f = open("gitbook/Chapter4/"+ListOfMurgenSessions[i], "w+")
+	f.write(Sessions[i]+"\n\n")
+	f.close()
 
 # -------------------------
 # Adding CHAPTER 5 : Data 
