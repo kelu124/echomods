@@ -12,9 +12,10 @@ _Ideally, the inbound=outbound: the contributor give the same rights to the proj
 
 ## PI
 
-By default, if the contract does not define who will own the property, it is more likely than not that the person who wrote it will own it.
+Two big families: 
 
-Two big families: the contributor:
+* Contributor License Agreement (CLA), the original contributor retains copyright ownership of their contributions, but grants the project a broad set of rights such that the project can incorporate and distribute the contributions as it needs to. By default, if the contract does not define who will own the property, it is more likely than not that the person who wrote it will own it.
+* a Copyright Assignment Agreement (CAA), the contributor actually transfers copyright ownership of the contributions to the project, who can then license it however they want since they own it
 
 * can assign the copyright in all contributions to the project owner; 
 * can grant an irrevocable licence to allow the project maintainer to use the contribution. 
@@ -55,13 +56,14 @@ Different use-cases:
 ## Recommendation
 
 * Paid contributors give their copyright, but the project can allow the paid contributors to keep their copyrights
-* Unpaid contributors grant a a licence to use their contributions, unless they want to assign the copyright to the project
+* Unpaid contributors grant a a licence to use their contributions, unless they want to assign the copyright to the project 
 
 ## Application to the murgen-modules project
 
 Suggestion:
 * Establishing a Canonical (IP-neutral) CLA
 * Submitting the work as part of the _medico-technical_ 
+* Add a contribution to echopen's board :)
 
 ## Read more
 
