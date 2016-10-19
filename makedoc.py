@@ -112,6 +112,9 @@ f.close()
 f = open("include/AddStructureDetails.md", 'r')
 AddStructureDetails = f.read()
 f.close()
+f = open("include/AdHocShoppingList.md", 'r')
+AddShoppingList = f.read()
+f.close()
 
 # -------------------------
 # Préparer un tableau de présentation
@@ -286,10 +289,12 @@ TableRetiredDocTxt = TableRetiredModules+"\n\n"
 # -------------------------
 
 TableAvancement = "# Progress on building the modules \n\n\n"
+TableAvancement += "## Module-wise \n\n\n"
 TableAvancement += "Note that the 'BONUS!' represents something that _could_ be done, and does not count as a strict TODO.\n\n\n"
 TableAvancement += "| Name of module | ToDo | Done |  Progress |\n"
 TableAvancement += "|------|-------|----|-----|\n"
 
+TODOsToShopping = ""
 
 for ReadMe in ListOfDirs:
 	f = open(ReadMe+"/Readme.md", 'r')
@@ -301,10 +306,14 @@ for ReadMe in ListOfDirs:
 	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 	patternCode = r"<li>(.*?)</li>"
 	bonus = 0
+ 
 	for item in results:
             todos = (map(str, re.findall(patternCode, item, flags=0)))
+ 
 	    if len(todos) > 0:
 		TODO = "<ul><li>"+"</li><li>".join( todos )+"</li></ul>"
+		for todo in todos:
+		    TODOsToShopping = TODOsToShopping+"* "+todo+" (in ["+ReadMe+"](/"+ReadMe+"/))\n"
 	    else:
 		TODO = ""
 	    for itemtodo in todos:
@@ -340,10 +349,18 @@ for ReadMe in ListOfDirs:
 	else:
 		PCProgress = "NA"
 	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+str(PCProgress)+"% |\r\n"
+TableAvancement +="\n\n"
+
+TODOsToShopping = AddShoppingList+TODOsToShopping+"\n\n"
 
 # Saving it in a file
 f = open("include/AddTableAvancement.md","w+")
 f.write(TableAvancement)
+f.close()
+
+# Saving it in a file
+f = open("include/AddShoppingList.md","w+")
+f.write(TODOsToShopping)
 f.close()
 
 # -------------------------
@@ -364,7 +381,7 @@ GraphModulesTxt = "\n# The modules organization \n\n"
 
 GraphModulesTxt += "![Graph](/include/sets/basic.png) \n\n"
 
-FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableDocTxt+TableAvancement+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
+FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableDocTxt+TableAvancement+TODOsToShopping+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
 f = open("Readme.md","w+")
 f.write(FinalDoc)
@@ -567,6 +584,9 @@ def AddRawMurgenURL(s):
 		s = s.replace("](/worklog/"+Session+")", "]("+BaseURL+"/Chapter4/"+Session+")")	
 
 	s= re.sub('!\[.*\]', '![]', s)
+
+	
+
 	return s.replace("![](/", "![]("+URL)
 
 # -------------------------
@@ -796,6 +816,16 @@ for i in range(len(Sessions)):
 	f.write(Sessions[i]+"\n\n")
 	f.close()
 
+WikiNotes = ""
+f = open("./../murgen-dev-kit/worklog/notes.md", 'r')
+WikiNotes = AddRawMurgenURL(f.read())
+f.close()
+
+f = open("gitbook/Chapter4/murgenworklog.md","w+")
+f.write(WikiNotes)
+f.close()
+
+
 # -------------------------
 # Adding CHAPTER 5 : Data 
 # -------------------------
@@ -885,6 +915,10 @@ f.close()
 
 f = open("gitbook/Chapter7/progress.md","w+")
 f.write("# The table of progress \n\n"+TableAvancement+"\n\n")
+f.close()
+
+f = open("gitbook/Chapter7/shoppingList.md","w+")
+f.write(TODOsToShopping+"\n\n")
 f.close()
 
 f = open("gitbook/Chapter7/license.md","w+")

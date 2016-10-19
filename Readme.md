@@ -79,6 +79,9 @@ The diagram is represented below:
 # Progress on building the modules 
 
 
+## Module-wise 
+
+
 Note that the 'BONUS!' represents something that _could_ be done, and does not count as a strict TODO.
 
 
@@ -95,6 +98,29 @@ Note that the 'BONUS!' represents something that _could_ be done, and does not c
 |goblin|<ul><li><em>BONUS!</em> Plug it to a <a href="/croaker/">RPi0 or BBB or RPi</a> or else.</li><li><em>BONUS!</em> or test it with the <a href="/retired/kina/">EMW3165</a>.</li><li>Publish the sources in KiCAD (@Sofian maybe?)</li></ul>|<ul><li>Check the power consumption</li><li>Specs to write</li><li>Agreeing on the strips </li><li>Check if 5V and 3.3V are stable</li><li>Defining the ICs to use</li><li>Getting schematics</li><li>Send microcircuits to Edgeflex</li><li>Receive the module</li></ul>|88% |
 |silent||<ul><li>Feather: <a href="/silent/software/featherWICED/SignalGenerator.ino">work with an interrupt</a></li><li>Write code for feather WICED</li><li>Publish this code</li><li>Remove Signal Bias</li><li>Validated with a Feather WICED (<a href="/silent/software/featherWICED/SimpleSignalGenerator.ino">code</a>).</li><li>Feather: remove the average value before inputing in Goblin</li><li><a href="/silent/2016-08-09 SilentPlusTobo.md">Check output with Goblin</a></li></ul>|100% |
 |mogaba|<ul><li><em>BONUS!</em> benchmark power supplies </li></ul>|<ul><li>Manage to feed it 12V</li><li>Bring power to it through the 12V <code>ITF-F_12V</code> track </li><li>Test if 12V OK</li><li>Find supplier</li></ul>|100% |
+
+
+## Shopping list
+
+Here's a couple of things we're working on, for which you could help as well.
+
+* Boosting the 6Msps croaker acquisition
+* Choose the design once the modules are done (in [sleepy](/sleepy/))
+* Get to work with Arthur (in [sleepy](/sleepy/))
+* Publish the sources in KiCAD (in [tobo](/tobo/))
+* Choose the servo (&gt;100Hz) (in [cletus](/cletus/))
+* Do the structure of the holder (3D design?) (in [cletus](/cletus/))
+* Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a>. (in [croaker](/croaker/))
+* Get better total ADC speed with an iterleaved move (in [croaker](/croaker/))
+* <em>BONUS!</em> Get RealTime acquisition (in [retroATL3](/retroATL3/))
+* Acquire and build ultrasound pictures =) (in [retroATL3](/retroATL3/))
+* Enhance the BBB to transform it into a ultrasound server (in [toadkiller](/toadkiller/))
+* <em>BONUS!</em> Plug it to a <a href="/croaker/">RPi0 or BBB or RPi</a> or else. (in [goblin](/goblin/))
+* <em>BONUS!</em> or test it with the <a href="/retired/kina/">EMW3165</a>. (in [goblin](/goblin/))
+* Publish the sources in KiCAD (@Sofian maybe?) (in [goblin](/goblin/))
+* <em>BONUS!</em> benchmark power supplies  (in [mogaba](/mogaba/))
+
+
 # A recap of our retired modules 
 
 
