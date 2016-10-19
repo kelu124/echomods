@@ -1,6 +1,7 @@
 
 
-## Template of Hardware Metapaper
+Template of Hardware Metapaper
+------
 
 For submission to the _Journal of Open Hardware_
 
@@ -8,34 +9,37 @@ To complete this template, please replace the blue text with your own. The paper
 
 # (1) Overview
 
-## ** ** Title
+## Title
 
-The title of the hardware paper should focus on the hardware, e.g. &quot;[type of hardware] to automate laboratory protocol X&quot; or &quot;Surface Trawl for Collecting Marine Microplastics.&quot; If the hardware is closely linked to a specific research paper, then &quot;[Hardware type] from [Paper Title]&quot; is appropriate. The title should relate to the functionality of the hardware and the area it relates, to rather than making claims about the usability or user characteristics of hardware, e.g. &quot;Easy-to-use&quot;. **A**  **low-cost,**  **module-based dev-kit**  **for**  **single-element ultrasound imaging**
+__A low-cost, module-based dev-kit for single-element ultrasound imaging__
 
 ## Paper authors
 
-1. Last name, first name; _(Lead/corresponding author first)_
-
-2. Last name, first name; _etc. __Luc K.__ JONVEAUX (Lead)_
+__Luc K. JONVEAUX (Lead)__
 
 ## Paper author roles and affiliations
 
-1. First author role and affiliation
-
-2. Second author role and affiliation _etc._
-
-_Note: One author can have multiple affiliations and affiliations can include &quot;independent&quot;.__Luc K. JONVEAUX (inde__p __en__ de __n__ t__)_
+__Luc K. JONVEAUX (independant maker)__
 
 ## Abstract
 
-A short (up to 250 words) summary of the hardware being described: what problem(s) the hardware addresses, what it does, how it technically/methodologically advances the state-of-the-art, how it was designed and implemented, and its applicability to other issues/research/areas of reuse.
+_A short (up to 250 words) summary of the hardware being described: what problem(s) the hardware addresses, what it does, how it technically/methodologically advances the state-of-the-art, how it was designed and implemented, and its applicability to other issues/research/areas of reuse._
+@todo
 
-|
 ## Metadata Overview
-_Please provide the following overview and self-assessment_Main design files: link to repository with design files and assembly instructionsFirst iteration as a beaglebone black cape : https://github.com/kelu124/murgen-dev-kit/ Second iteration of breadboard modules: https://github.com/kelu124/echomodsTarget group:e.g. secondary school students, layperson, undergraduate students, scientists in [discipline], trained engineers, use of professional servicesUltrasound researchers, engineering school students, students, general hackers, Skills required: For each main manufacturing method, provide information pairs (method - easy / advanced / specialist). E.g. desktop 3d printing - easy; surface mount PCB - advanced; injection moulding - specialistSurface mount PCB – advancedAssembly – easyReplication: Project has been replicated at time of publication? Include reference (possibly way of contact). Links to places where future builds and kits might be found (repository, group website, collaboration site, etc.).The first iteration was developed within echopen&#39;s community, and a first series of experimentation done in Vanderbilt University.Documentation for the second iteration of hardware has been released on github, on a separate repository. Kits might become available online._See section &quot;Build Details&quot; for more detail._
+
+* First iteration as a beaglebone black cape : https://github.com/kelu124/murgen-dev-kit/ 
+* Second iteration of breadboard modules: https://github.com/kelu124/echomods
+* Target group: Ultrasound researchers, engineering school students, students, general hackers, ...
+* Skills required: For each main manufacturing method, provide information pairs (method - easy / advanced / specialist). E.g. desktop 3d printing - easy; surface mount PCB - advanced; injection moulding - specialistSurface mount PCB – advancedAssembly – easy
+* Replication: The first iteration was developed within echopen&#39;s community, and a first series of experimentation done in Vanderbilt University.
+* Documentation for the second iteration of hardware has been released on github, on a separate repository. 
+* Kits might become available online.
+
 ## Keywords
-_(required)_ keyword 1; keyword 2; etc.Keywords should make it easy to identify who and what the hardware will be useful for. Maximum of 5 keywords. E.g.: microbiology; laboratory; microfluidics; single cell analysis; fluorescenceUltrasound, electronics, imaging, modules, |
-| --- |
+
+* Ultrasound, electronics, imaging, modules
+
 
 ## Introduction
 
@@ -51,13 +55,11 @@ A focus has been put on documentation and corresponding infrastructure. The proj
 
 ## Overall Implementation and design
 
-### Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials (Note: specific details on materials can be addressed in later section &quot;Availability of materials and methods&quot;). The use of diagrams and pictures of the assembled hardware is appropriate. Please also describe any variants and associated implementation differences.
+_Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials (Note: specific details on materials can be addressed in later section &quot;Availability of materials and methods&quot;). The use of diagrams and pictures of the assembled hardware is appropriate. Please also describe any variants and associated implementation differences._
 
-### Note: This is not meant to be an assembly instruction. Assembly instructions, detailed material lists, and construction files must be deposited in an appropriate repository (see Repositories document) and referenced in section &quot;Build Details&quot;.
+_Note: This is not meant to be an assembly instruction. Assembly instructions, detailed material lists, and construction files must be deposited in an appropriate repository (see Repositories document) and referenced in section &quot;Build Details&quot;._
 
-### Subsections
-
-### We encourage the use of subsections to highlight the modular functionality of the design or to highlight different design achievements. These questions might help you find appropriate subsections: What parts of the hardware could be used as a component of another project or a variation of this hardware? What solutions do you find most noteworthy given your experiences during the design iterations? What separate actions does the hardware perform?Choosing a module approach
+### Why the modules?
 
 The aim of the kit being to allow one to explore the mechanisms of ultrasound processing, and to replace elements of the processing chain as desired, a modularized approach was considered.
 
@@ -73,7 +75,7 @@ The kit requires a pulser component: to have the transducer emit a signal, a hig
 
 The kit then requires an &quot;analog processing&quot; component. After the acoustic wave leaves the transducer, echoes appear due to the acoustic impendance ruptures taking place in the medium being imaged. These echoes are captured by the transducer, and transformed back into a weak electrical signal, which needs to be processed. Classical processing includes filtering the signal around the central frequency of the transducer, then apply a low-noise amplification, then correcting the time-based attenuation. The image being the envelope of this last signal, one also needs to extract the envelope of this signal and pass this image to a digital convertor.
 
-An echo being typically a couple of periods long, the envelope of the signal, hence the ultrasound image, would have a 1 MHz frequency, which would required specific ADCs. Open hardware boards have onboard ADCs, but very few have ADCs above the Msps range,  This implies that an analog envelope detection takes place on the board.
+An echo being typically a couple of periods long, the envelope of the signal, hence the ultrasound image, would have a 1 MHz frequency, which would required specific ADCs. Open hardware boards have onboard ADCs, but very few have ADCs above the Msps range, This implies that an analog envelope detection takes place on the board.
 
 The repetition period chosen was 300us. This corresponds to an imaging depth of 230mm, more that was is required to image between 20 and 150 mm.
 
@@ -86,7 +88,7 @@ A first iteration of the hardware was embodied in a beaglebone-black extension (
 This first iteration permitted tests, and validated parts of the design. Despite its test points, this board did not provide all the insights that can be extracted from the hardware, so a redesign was considered, to expose all key inputs and outputs of the signal processing. For the sake of simplicity, a design of two modules emerged.
 
 - --One is the pulser module, where the high voltage and connection to the transducer lies.
-- --The other is the analog processing modules. A dual input for the clipped raw signal from the transducer was integrated, as well as different jumpers and pots, to control the VGA gain, as well as the ADC reference voltage. The high-speed ADC was removed, and replaced with a serial 2Msps ADC.
+- --The other is the analog processing modules. A dual input for the clipped raw signal from the transducer was integrated, as well as different jumpers and pots, to control the VGA gain, as well as the ADC reference voltage. The high-speed ADC was removed, and replaced with a onboard serial 2Msps ADC.
 
 The remaining modules are microcontrollers, processing units, or power supplies that can be easily obtained and easily modified and programmed.
 
@@ -111,26 +113,30 @@ Detail the general procedures in place for users to calibrate their hardware bef
 
 Note: Detailed instructions belong in documentation; here, provide insight into how and why the calibration is valid.
 
-### Subsections
+### Calibrating the signal
 
-### Calibration of ultrasound electrical signal processing requires a standard signal, which is difficult to provide if using a classical transducer. Moreover, due to the variety of transducers, it would be extremely difficult to obtain a standard setup and signal.A calibration tool has been built (the DAC module), based on a STM32F205 DAC. This permitted to &quot;record&quot; the calibration signal, and to simulate the behaviour of the pulser module.
+Calibration of ultrasound electrical signal processing requires a standard signal, which is difficult to provide if using a classical transducer. Moreover, due to the variety of transducers, it would be extremely difficult to obtain a standard setup and signal.A calibration tool has been built (the DAC module), based on a STM32F205 DAC. This permitted to &quot;record&quot; the calibration signal, and to simulate the behaviour of the pulser module.
 
 Calibration of the high-voltage level on the pulser module is done using an oscilloscope.
 
-### Finally, the gain level of the analog processing module is in the tests described below adjusted once and for all at the beginning of the experiment, to use the full range of output signal and obtain the best image possible. The level of gain can be selected, either from one input signal, or with a potentiometer, the choice between the two being made possible by a jumper.
+Finally, the gain level of the analog processing module is in the tests described below adjusted once and for all at the beginning of the experiment, to use the full range of output signal and obtain the best image possible. The level of gain can be selected, either from one input signal, or with a potentiometer, the choice between the two being made possible by a jumper.
 
-### We encourage the use of subsections within all sections to increase clarity.A home-made phantom was used to test the first iteration of the board. It was made of a gelatin phantom, with tapioca inclusions of two types (2mm and 8mm), the medium being contained in a condom. This type of phantom does not conserve well, and was not reused for the second iteration.
+### Developping a home-made reference material
+
+A home-made phantom was used to test the first iteration of the board. It was made of a gelatin phantom, with tapioca inclusions of two types (2mm and 8mm), the medium being contained in a condom. This type of phantom does not conserve well, and was not reused for the second iteration.
 
 ## General testing
 
-In this section, details can be provided on the testing of hardware functionalities, that are not directly essential for precision operation of the hardware in the given context (which are in turn, where applicable, handled under Calibration), such as automated movements to position the hardware, repeatability of tool exchanges, recyclability, water-tightness, weight or other possibly relevant characteristics. We encourage the authors to characterise all appropriate functionalities of the hardware, if not already described elsewhere (add reference instead). The testing should define the safe/reliable limits in which the components can be operated (e.g. step size and repeatability of linear motion, force ranges, ratio of devices with leaks when built in a workshop, etc). This will enhance the usability of the hardware or method in other contexts.General testing has been done, especially for the two modules:
+_In this section, details can be provided on the testing of hardware functionalities, that are not directly essential for precision operation of the hardware in the given context (which are in turn, where applicable, handled under Calibration), such as automated movements to position the hardware, repeatability of tool exchanges, recyclability, water-tightness, weight or other possibly relevant characteristics. We encourage the authors to characterise all appropriate functionalities of the hardware, if not already described elsewhere (add reference instead). The testing should define the safe/reliable limits in which the components can be operated (e.g. step size and repeatability of linear motion, force ranges, ratio of devices with leaks when built in a workshop, etc). This will enhance the usability of the hardware or method in other contexts._
+
+General testing has been done, especially for the two modules:
 
 - --For the pulser, the criteria of the tests were the duration of the pulse, which should match the input signals, as well as the voltage of the pulse, being set by a potentiometer. Tests were done using an oscilloscope.
 - --For the analog processing unit,the DAC module allowed a standard input to be processed, and the result of the processing analysed.
 
 General conditions of the tests were that of of a 150ns, 70V pulse for the pulser unit, with a repetition every 300us.
 
-_  __Again: Detailed instructions belong in documentation; here, provide a summary_ _ __ instead._
+_ __Again: Detailed instructions belong in documentation; here, provide a summary_ _ __ instead._
 
 # (3) Application
 
@@ -140,9 +146,7 @@ _Describe at least one example of an application of your hardware. This should i
 
 _Note: In the spirit of openness, we require authors to provide (or link to) datasets along with the submitted graphic representations. We do not impose arbitrary limits on inclusion of data so please include sufficient empirical detail and results to ensure your data can be easily verified, analysed and clearly interpreted by the wider scientific community._
 
-### Subsections
-
-### We encourage the demonstration of different use cases, divided by sub-sections to guide the reader.General case
+### General case
 
 The modules can be assembled in a minimum set using power-supply, pulser control, pulser module, and data acquisition.
 
@@ -210,9 +214,15 @@ IT is suggested that the pulser can be used in medical ultrasound image devices,
 
 The analogue processing module was tested for signals from 2MHz to 10MHz, with some distortion happening on the higher end of the bracket. However, it can be noted that, with the possibility to measure and control the inputs and outputs of between each processing unit, this module could possibly be used for signal demodulation.
 
-Modification of the home-made modules
+### Modification of the home-made modules
 
-Support
+The modules source code has been released, it is relatively easy for electronic engineers to reuse this code. 
+
+### Support
+
+This project benefits from an infrastructure that is completely open: github for the storage of files, and a gitbook to synthetize the complete documentation.
+
+
 
 # (4) Build Details
 
@@ -224,7 +234,9 @@ Most of the modules can be sourced from usual open-hardware online suppliers. Th
 
 ## Ease of build
 
-Have any measures been taken in the design to make the hardware easy to build for other users e.g. reduction of parts, features in the design to make the hardware assembly more reliable?When the first iteration had 4 layers, the two newly made modules are 2-layer designs, for the sake of simplicity.
+_Have any measures been taken in the design to make the hardware easy to build for other users e.g. reduction of parts, features in the design to make the hardware assembly more reliable?_
+
+When the first iteration had 4 layers, the two newly made modules are 2-layer designs, for the sake of simplicity.
 
 The design also relies on off-the-shelf ICs to limit the number of its components. A trade-off had to be found when some ICs were BGA ICs.
 
@@ -232,13 +244,13 @@ The non-custom modules can be found commercially, or built.
 
 ## Operating software and peripherals
 
-If hardware requires software, details on the operating software and programming language - Please include minimum version compatibility. Additional system requirements, e.g. memory, disk space, processor, input or output devices.
+_If hardware requires software, details on the operating software and programming language - Please include minimum version compatibility. Additional system requirements, e.g. memory, disk space, processor, input or output devices._
 
-If the hardware does not require software, detail any required supporting processes or protocols required for use.
+_If the hardware does not require software, detail any required supporting processes or protocols required for use._
 
 ## Dependencies
 
-E.g. other hardware or software projects, modular components, libraries, frameworks, incl. minimum version compatibility. Explicitly state if dependencies are proprietary / closed source.
+_E.g. other hardware or software projects, modular components, libraries, frameworks, incl. minimum version compatibility. Explicitly state if dependencies are proprietary / closed source._
 
 Most of the processing code is using python.
 
@@ -248,49 +260,36 @@ The Feather WICED module is using a
 
 ## Hardware documentation and files location:
 
-**Archive**** for hardware documentation and build files** (required. See _Repositories_ document for criteria, DocuBricks and alternative repositories.) _Note: We require the inclusion of modifiable design files as well as a detailed documentation of the functionality of the hardware with assembly instructions. This will be assessed as part of the journal peer review process._
+Archive for hardware documentation and build files (required. See _Repositories_ document for criteria, DocuBricks and alternative repositories.) _Note: We require the inclusion of modifiable design files as well as a detailed documentation of the functionality of the hardware with assembly instructions. This will be assessed as part of the journal peer review process._
 
-**Name:** The name of the archive
-
-**Persistent identifier:** e.g. DOI, etc.
-
-**Licence:** Open hardware license under which the documentation and files are licensed - see _Essential author information_ for more information
-
-**Publisher:** Name of the person who deposited the documentation
-
-**Date published:** dd/mm/yy
-
-**Modifiable design files** (if different from above)
-
-**Name:** The name of the emulation environment
-
-**Persistent identifier:** e.g. DOI, handle, PURL, etc.
-
-**Licence:** Open license under which the software is licensed here
-
-**Publisher:** Name of the person who deposited the documentation
-
-**Date published:** dd/mm/yy
-
-**Software code repository** (e.g. SourceForge, GitHub etc.) (required)
-
-**Name:** The name of the code repository
-
-**Identifier:** The identifier (or URI) used by the repository
-
-**Licence:** Open license under which the software is licensed
-
-**Date published:** dd/mm/yy
+* Name: The name of the archive
+* Persistent identifier: e.g. DOI, etc.
+* Licence: Open hardware license under which the documentation and files are licensed - see _Essential author information_ for more information
+* Publisher: Name of the person who deposited the documentation
+* Date published: dd/mm/yy
+* Modifiable design files (if different from above)
+* Name: The name of the emulation environment
+* Persistent identifier: e.g. DOI, handle, PURL, etc.
+* Licence: Open license under which the software is licensed here
+* Publisher: Name of the person who deposited the documentation
+* Date published: dd/mm/yy
+* Software code repository (e.g. SourceForge, GitHub etc.) (required)
+* Name: The name of the code repository
+* Identifier: The identifier (or URI) used by the repository
+* Licence: Open license under which the software is licensed
+* Date published: dd/mm/yy
 
 ### (5) Discussion
 
 ## Conclusions
 
-Conclusions, learned lessons from design iterations, learned lessons from use cases, summary of results.
+_Conclusions, learned lessons from design iterations, learned lessons from use cases, summary of results._
 
 ## Future Work
 
-Further work pursued by the authors or collaborators; known issues; suggestions for others to improve on the hardware design or testing,, given what you have learned from your design iterations.This set of modules shows that ultrasound imaging can profit from a usable dev-kit. Several points in this work however have to be reviewed, if not improved. Indeed:
+_Further work pursued by the authors or collaborators; known issues; suggestions for others to improve on the hardware design or testing,, given what you have learned from your design iterations._
+
+This set of modules shows that ultrasound imaging can profit from a usable dev-kit. Several points in this work however have to be reviewed, if not improved. Indeed:
 
 -1: The pulser component, the HV7360LA-G, will see its production stopped.
 
@@ -310,35 +309,36 @@ Further work pursued by the authors or collaborators; known issues; suggestions 
 
 ## Paper author contributions
 
-Task (e.g. design, assembly, use cases contribution, documentation, paper writing), contribution, author name.
+_Task (e.g. design, assembly, use cases contribution, documentation, paper writing), contribution, author name._
 
 ## Acknowledgements
 
-Please add any relevant acknowledgements to anyone else who supported the project in which the hardware was created, but did not work directly on the hardware itself.
+_Please add any relevant acknowledgements to anyone else who supported the project in which the hardware was created, but did not work directly on the hardware itself. Please list anyone who helped to create the hardware and software (who may also not be an author of this paper), including their roles and affiliations._
 
-Please list anyone who helped to create the hardware and software (who may also not be an author of this paper), including their roles and affiliations. A huge thanks to the friends in the community for their sharing their ideas and giving their support. Thanks as well to Prof Charles and Zach to have given a try at testing the first iteration, the Hackaday community forgiving me the chance to go to the 2016 finals, the echOpen community (Farad, Benoit, Vincent, Jerome, Virginie, Emilie and the others) to have kept me motivated!
+A huge thanks to the friends in the community for their sharing their ideas and giving their support. Thanks as well to Prof Charles and Zach to have given a try at testing the first iteration, the Hackaday community forgiving me the chance to go to the 2016 finals, the echOpen community (Farad, Benoit, Vincent, Jerome, Virginie, Emilie and the others) to have kept me motivated!
 
 ## Funding statement
 
-If the hardware resulted from funded research please give the funder and grant number.This project has been funded by personal funds, and supported by two prizes from the hackaday 2016 contest.
+_If the hardware resulted from funded research please give the funder and grant number._
+
+This project has been funded by personal funds, and supported by two prizes from the hackaday 2016 contest.
 
 ## Competing interests
 
-&quot;The authors declare that they have no competing interests.&quot;Though LJ is a founder of the echOpen&#39;s project, this work has been pursued individually,the echOpen association has no involvementwith this work. LJ is discussing the crowdfunding of these modules&#39; kits with a partner.
+&quot;The authors declare that they have no competing interests.&quot; Though LJ is a founder of the echOpen&#39;s project, this work has been pursued individually,the echOpen association has no involvementwith this work. LJ is discussing the crowdfunding of these modules&#39; kits with a partner.
 
 ## References
 
-Please enter references in the Vancouver style and include a DOI where available, citing them in the text with a number in square brackets, e.g.
+_Please enter references in the Vancouver style and include a DOI where available, citing them in the text with a number in square brackets, e.g._
 
-[1] Piwowar, H A 2011 Who Shares? Who Doesn&#39;t? Factors Associated with Openly Archiving Raw Research Data. PLoS ONE 6(7): e18657. DOI: http://dx.doi.org/10.1371/journal.pone.0018657.
+_[1] Piwowar, H A 2011 Who Shares? Who Doesn&#39;t? Factors Associated with Openly Archiving Raw Research Data. PLoS ONE 6(7): e18657. DOI: http://dx.doi.org/10.1371/journal.pone.0018657._
 
 ### Copyright notice
 
 Authors who publish with this journal agree to the following terms:
 
-Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/) that allows others to share the work with an acknowledgement of the work&#39;s authorship and initial publication in this journal.
-
-Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal&#39;s published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.
+* Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/) that allows others to share the work with an acknowledgement of the work&#39;s authorship and initial publication in this journal.
+* Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal&#39;s published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.
 
 By submitting this paper you agree to the terms of this Copyright Notice, which will apply to this submission if and when it is published by this journal.
 
