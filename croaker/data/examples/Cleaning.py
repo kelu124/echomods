@@ -40,6 +40,7 @@ for fileOne in files:
 
 TableauImages = "Image|Description|Download\n"
 TableauImages += "-----|-----|-----\n"
+Tmp=[]
 for eachImage in dossiers:
 	file_names = sorted((fn for fn in os.listdir(eachImage) if fn.endswith('SC.png')))
 	images = [Image.open("./"+eachImage+"/"+fn) for fn in file_names]
@@ -52,13 +53,15 @@ for eachImage in dossiers:
 		for line in echOpenLog:
 		    if ("#description:" in line):
  
-			DescriptionFile = line.split("#description:")[1]
+			DescriptionFile = line.split("#description:")[1].strip()
 	if (not len("DescriptionFile")):
 		DescriptionFile = "No description found"
 
+	Tmp.append(DescriptionFile)
+
 	TableauImages += "<img src='https://raw.githubusercontent.com/kelu124/echomods/master/croaker/data/examples/"+eachImage+".gif'>|"+DescriptionFile+"|[Download](https://raw.githubusercontent.com/kelu124/echomods/master/croaker/data/examples/"+eachImage+".tar.gz)\n"
 
-
+print Tmp
 
 f = open("./Intro.md", 'r')
 intro_files = f.read()

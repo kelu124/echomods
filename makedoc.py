@@ -518,7 +518,7 @@ for item in ListePosts:
 
 
 ModulesChaptDeux = ["tobo","retroATL3","mogaba","goblin","tobo","toadkiller"]
-ModulesChaptTrois = ["silent","cletus","croaker","doj","sleepy"]
+ModulesChaptTrois = ["silent","cletus","croaker","doj","sleepy","oneeye"]
 
 def GitBookizeModule(s,module):
 	t = s.split("\n## ")
