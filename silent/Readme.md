@@ -62,15 +62,15 @@ The aim of this echOmod is to simulate a raw signal that would come from the pie
 
 #### Getting a signal 
 
-With a simple code on feather WICED, managed to get a 1.8 - 2Mhz signal ( [code is here](software/featherWICED/SimpleSignalGenerator.ino) ).
+With a simple code on feather WICED, managed to get a 1.8 - 2Mhz signal ( [code is here](/silent/software/featherWICED/SimpleSignalGenerator.ino) ).
 
-![](software/featherWICED/SimpleSignalGenerator.png)
+![](/silent/software/featherWICED/SimpleSignalGenerator.png)
 
 #### Look of the module
 
 The pins needed to be rerouted, so an intermediary board was made ouf of stripboard
 
-![](images/silent.png)
+![](/silent/images/silent.png)
 
 The interrupt was brought done to 3.3V instead of the 5V coming from the trinket pro, routed to pin B5.
 
@@ -93,10 +93,10 @@ The interrupt was brought done to 3.3V instead of the 5V coming from the trinket
 
 If similar to the Feather M0Proto
 
-* #0 / RX - GPIO #0, also receive (input) pin for Serial1 and Interrupt #2
-* #1 / TX - GPIO #1, also transmit (output) pin for Serial1 and Interrupt #3
-* #2 / SDA - GPIO #2, also the I2C (Wire) data pin. There's no pull up on this pin by default so when using with I2C, you may need a 2.2K-10K pullup. Also Interrupt #1
-* #3 / SCL - GPIO #3, also the I2C (Wire) clock pin. There's no pull up on this pin by default so when using with I2C, you may need a 2.2K-10K pullup. Can also do PWM output and act as Interrupt #0.
+* `#0 / RX - GPIO #0`, also receive (input) pin for Serial1 and Interrupt 2
+* `#1 / TX - GPIO #1`, also transmit (output) pin for Serial1 and Interrupt 3
+* `#2 / SDA - GPIO #2`, also the I2C (Wire) data pin. There's no pull up on this pin by default so when using with I2C, you may need a 2.2K-10K pullup. Also Interrupt #1
+* `#3 / SCL - GPIO #3`, also the I2C (Wire) clock pin. There's no pull up on this pin by default so when using with I2C, you may need a 2.2K-10K pullup. Can also do PWM output and act as Interrupt 0.
 
 ### Why not a Teensy ?
 

@@ -654,6 +654,20 @@ for eachModule in ModulesChaptDeux:
 	f.write(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n")
 	f.close()
 
+	# Resume pour Murgen
+	MurgenSummary = "# The first iteration, Murgen\n\n"
+	f = open("include/AddMurgenSummary.md", 'r')
+	MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
+	f.close()
+	f = open("./../murgen-dev-kit/Readme.md", 'r')
+	MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
+	f.close()
+
+	f = open("gitbook/devkit0.md","w+")
+	f.write(AddRawMurgenURL(MurgenSummary)+"\n\n")
+	f.close()
+
+	# Resume technique de Murgen
 	f = open("include/AddIntroMurgen.md", 'r')
 	MurgenIntro = f.read()
 	f.close()
@@ -666,15 +680,35 @@ for eachModule in ModulesChaptDeux:
 	f = open("./../murgen-dev-kit/worklog/Zach/Zach.md", 'r')
 	Zach = f.read()
 	f.close()
-	f = open("./../murgen-dev-kit/worklog/Zach/2016-07-06.md", 'r')
-	Zach = Zach+"\n\n"+AddOneLevel(f.read())
-	f.close()
+
 	f = open("./../murgen-dev-kit/worklog/Zach/2016-06-22.md", 'r')
 	Zach = Zach+"\n\n"+AddOneLevel(f.read())
 	f.close()
+
+	f = open("./../murgen-dev-kit/worklog/Zach/2016-07-06.md", 'r')
+	Zach = Zach+"\n\n"+AddOneLevel(f.read())
+	f.close()
+
 	f = open("gitbook/Chapter2/zach.md","w+")
 	f.write(AddRawMurgenURL(Zach)+"\n\n")
 	f.close()
+
+
+	f = open("./../murgen-dev-kit/hardware/Readme.md", 'r')
+	MurgenHard = f.read()
+	f.close()
+	f = open("gitbook/Chapter2/murgenhardware.md","w+")
+	f.write(AddRawMurgenURL(MurgenHard)+"\n\n")
+	f.close()
+
+
+	f = open("./../murgen-dev-kit/software/Readme.md", 'r')
+	MurgenSoft = f.read()
+	f.close()
+	f = open("gitbook/Chapter2/murgensoftware.md","w+")
+	f.write(AddRawMurgenURL(MurgenSoft)+"\n\n")
+	f.close()
+
 
 # -------------------------
 # Adding CHAPTER 3 : Notes and worklog

@@ -1,6 +1,6 @@
-# CLAs
+# [Contributor License Agreement (CLA)](http://kelu124.github.io/echomods/CLA.html)
 
-[Online presentation](http://kelu124.github.io/echomods/CLA.html)
+
 
 ## Why a CLA?
 
