@@ -1,0 +1,3469 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="#item_4425">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1932-6203"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ross</foaf:surname>
+                        <foaf:givenname>Andrew B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>DeStigter</foaf:surname>
+                        <foaf:givenname>Kristen K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rielly</foaf:surname>
+                        <foaf:givenname>Matthew</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Souza</foaf:surname>
+                        <foaf:givenname>Sonia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morey</foaf:surname>
+                        <foaf:givenname>Gabriel Eli</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nelson</foaf:surname>
+                        <foaf:givenname>Melissa</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Silfen</foaf:surname>
+                        <foaf:givenname>Eric Z.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garra</foaf:surname>
+                        <foaf:givenname>Brian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Matovu</foaf:surname>
+                        <foaf:givenname>Alphonsus</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kawooya</foaf:surname>
+                        <foaf:givenname>Michael Grace</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4426"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ambulatory Care</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ambulatory Care Facilities</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Delivery, Obstetric</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Delivery of Health Care</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Health Facilities</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Patient Acceptance of Health Care</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Pregnancy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Prenatal Care</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Rural Population</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Uganda</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A low-cost ultrasound program leads to increased antenatal clinic visits and attended deliveries at a health care clinic in rural Uganda</dc:title>
+        <dcterms:abstract>BACKGROUND: In June of 2010, an antenatal ultrasound program to perform basic screening for high-risk pregnancies was introduced at a community health care center in rural Uganda. Whether the addition of ultrasound scanning to antenatal visits at the health center would encourage or discourage potential patients was unknown. Our study sought to evaluate trends in the numbers of antenatal visits and deliveries at the clinic, pre- and post-introduction of antenatal ultrasound to determine what effect the presence of ultrasound at the clinic had on these metrics.
+METHODS AND FINDINGS: Records at Nawanyago clinic were reviewed to obtain the number of antenatal visits and deliveries for the 42 months preceding the introduction of ultrasound and the 23 months following. The monthly mean deliveries and antenatal visits by category (first visit through fourth return visit) were compared pre- and post- ultrasound using a Kruskal-Wallis one-way ANOVA. Following the introduction of ultrasound, significant increases were seen in the number of mean monthly deliveries and antenatal visits. The mean number of monthly deliveries at the clinic increased by 17.0 (13.3-20.6, 95% CI) from a pre-ultrasound average of 28.4 to a post-ultrasound monthly average of 45.4. The number of deliveries at a comparison clinic remained flat over this same time period. The monthly mean number of antenatal visits increased by 97.4 (83.3-111.5, 95% CI) from a baseline monthly average of 133.5 to a post-ultrasound monthly mean of 231.0, with increases seen in all categories of antenatal visits.
+CONCLUSIONS: The availability of a low-cost antenatal ultrasound program may assist progress towards Millennium Development Goal 5 by encouraging women in a rural environment to come to a health care facility for skilled antenatal care and delivery assistance instead of utilizing more traditional methods.</dcterms:abstract>
+        <bib:pages>e78450</bib:pages>
+        <dc:date>2013</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 24205234
+PMCID: PMC3813603</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1932-6203">
+        <dc:title>PloS One</dc:title>
+        <prism:volume>8</prism:volume>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>PLoS ONE</dcterms:alternative>
+        <dc:identifier>DOI 10.1371/journal.pone.0078450</dc:identifier>
+        <dc:identifier>ISSN 1932-6203</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4426">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:16:43</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/24205234</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4427">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1471-2393"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ross</foaf:surname>
+                        <foaf:givenname>Andrew B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>DeStigter</foaf:surname>
+                        <foaf:givenname>Kristen K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Coutinho</foaf:surname>
+                        <foaf:givenname>Anastasia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Souza</foaf:surname>
+                        <foaf:givenname>Sonia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mwatha</foaf:surname>
+                        <foaf:givenname>Anthony</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Matovu</foaf:surname>
+                        <foaf:givenname>Alphonsus</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kawooya</foaf:surname>
+                        <foaf:givenname>Michael Grace</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Renny</foaf:surname>
+                        <foaf:givenname>Ssembatya</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4428"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Anemia</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Anthelmintics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Folic Acid</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>HIV Infections</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Iron</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Malaria</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Patient Acceptance of Health Care</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Pregnancy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Prenatal Care</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Preventive Health Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Rural Population</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Uganda</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ultrasonography, Prenatal</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Ancillary benefits of antenatal ultrasound: an association between the introduction of a low-cost ultrasound program and an increase in the numbers of women receiving recommended antenatal treatments</dc:title>
+        <dcterms:abstract>BACKGROUND: In June of 2010, an antenatal ultrasound program was introduced to perform basic screening examinations at a health care clinic in rural Uganda. The impact of the program on the existing antenatal care infrastructure including the proportion and number of women receiving recommended antenatal care at clinic visits was unknown. The aim of this study was to investigate the relationship between the advent of the ultrasound program and the proportion of women receiving recommended antenatal interventions at their clinic visits. Change in the absolute numbers of antenatal services provided was also assessed.
+METHODS: Records at the Nawanyago clinic were reviewed to determine the total numbers of women receiving specific interventions before and after the advent of the ultrasound program including HIV testing, intermittent preventive therapy for malaria, presumptive anti-parasitic treatment, and provision of iron and folate for anemia. The rate at which these interventions were provided (number of interventions per clinic visit) was also assessed. The differences in absolute numbers of antenatal interventions before and after the introduction of the ultrasound program were assessed using the Wilcoxon rank-sum test. Differences in intervention rate were assessed using negative binomial regression modeling.
+RESULTS: The mean monthly numbers of women receiving each of these interventions increased significantly with the greatest increase seen in numbers of women receiving anemia and deworming treatments at +113% and +102% respectively (p &lt; 0.001). The intervention rate increased for anemia treatment, deworming treatment, and 2nd dose of intermittent preventive therapy for malaria. A slight decrease in intervention rate was observed for 1st dose of malaria treatment with a rate ratio of 0.88 (0.79 - 0.98, 95% CI). Intervention rate for HIV testing was not significantly changed.
+CONCLUSION: The introduction of a low-cost antenatal ultrasound program at a health care clinic in rural Uganda was associated with increases in the number of women receiving specific recommended antenatal care interventions. Effect on intervention rates was mixed but showed an overall increase. The use of ultrasound in this context may provide a benefit to the maternal and neonatal health of the community.</dcterms:abstract>
+        <bib:pages>424</bib:pages>
+        <dc:date>2014</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Ancillary benefits of antenatal ultrasound</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 25522741
+PMCID: PMC4296687</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1471-2393">
+        <dc:title>BMC pregnancy and childbirth</dc:title>
+        <prism:volume>14</prism:volume>
+        <dcterms:alternative>BMC Pregnancy Childbirth</dcterms:alternative>
+        <dc:identifier>DOI 10.1186/s12884-014-0424-9</dc:identifier>
+        <dc:identifier>ISSN 1471-2393</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4428">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:16:54</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/25522741</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4421">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2052-0492"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenname>Kuo-Chih</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenname>Aming Chor-Ming</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chong</foaf:surname>
+                        <foaf:givenname>Chee-Fah</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenname>Tzong-Luen</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4422"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency medicine</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Musculoskeletal</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Point-of-care</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Soft tissue</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ultrasound</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>An overview of point-of-care ultrasound for soft tissue and musculoskeletal applications in the emergency department</dc:title>
+        <dcterms:abstract>BACKGROUND: The skin, soft tissue, and most parts of the musculoskeletal system are relatively superficial anatomical structures and ideal targets for ultrasound examination in the emergency departments. Soft tissue and musculoskeletal ultrasound applications are relatively underused compared to traditional emergency applications, such as trauma, abdominal aortic aneurysm, and chest and cardiovascular systems.
+MAIN TEXT: It is important to have knowledge about sonoanatomy and landmarks within the skin, soft tissue, and musculoskeletal systems. Portable machines equipped with high-resolution transducers are now available to fulfill this field of applications in many emergency departments. After needling practice, emergency physicians can not only diagnose and identify pathological findings but also provide interventional procedures and treatments. In this review, we will introduce point-of-care ultrasound (POCUS) applications regarding the soft tissue and musculoskeletal systems: soft tissue infections, joint effusions, foreign bodies, long bone fractures, muscle and tendon injuries, vascular occlusions, and procedures.
+CONCLUSIONS: With POCUS, emergency physicians can visualize the structures beneath the skin and provide better and safer cares in the emergency departments.</dcterms:abstract>
+        <bib:pages>55</bib:pages>
+        <dc:date>2016</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 27529031
+PMCID: PMC4983782</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2052-0492">
+        <dc:title>Journal of Intensive Care</dc:title>
+        <prism:volume>4</prism:volume>
+        <dcterms:alternative>J Intensive Care</dcterms:alternative>
+        <dc:identifier>DOI 10.1186/s40560-016-0173-0</dc:identifier>
+        <dc:identifier>ISSN 2052-0492</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4422">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:13:17</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/27529031</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4407">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1536-0253"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nations</foaf:surname>
+                        <foaf:givenname>Joel Anthony</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Browning</foaf:surname>
+                        <foaf:givenname>Robert F.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4408"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Military Medicine</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Traumatology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Wounds and Injuries</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Battlefield applications for handheld ultrasound</dc:title>
+        <dcterms:abstract>Combat medical care provides unique challenges and opportunities for military medical teams. The austerity of the environment severely limits access to many diagnostic and therapeutic tools. Because of their compact size, handheld ultrasound (US) machines are increasingly being used in these constrained environments. A growing body of literature documents the diagnostic utility of handheld US for trauma encountered in the battlefield. Furthermore, US guidance may assist in the performance of some procedures performed in battlefield medical care. This review will provide an overview of the history, current status, limitations and potential future of US utility for the battlefield.</dcterms:abstract>
+        <bib:pages>171-176</bib:pages>
+        <dc:date>Sep 2011</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 21873854</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1536-0253">
+        <dc:title>Ultrasound Quarterly</dc:title>
+        <prism:volume>27</prism:volume>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Ultrasound Q</dcterms:alternative>
+        <dc:identifier>DOI 10.1097/RUQ.0b013e31822b7c14</dc:identifier>
+        <dc:identifier>ISSN 1536-0253</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4408">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:10:51</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/21873854</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4387">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1555-7162"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khan</foaf:surname>
+                        <foaf:givenname>Hashim A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wineinger</foaf:surname>
+                        <foaf:givenname>Nathan E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Uddin</foaf:surname>
+                        <foaf:givenname>Poulina Q.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mehta</foaf:surname>
+                        <foaf:givenname>Hirsch S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rubenson</foaf:surname>
+                        <foaf:givenname>David S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Topol</foaf:surname>
+                        <foaf:givenname>Eric J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4388"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Bedside echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cardiology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cross-Sectional Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Handheld echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pocket mobile echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Can hospital rounds with pocket ultrasound by cardiologists reduce standard echocardiography?</dc:title>
+        <dcterms:abstract>BACKGROUND: Frequently, hospitalized patients are referred for transthoracic echocardiograms. The availability of a pocket mobile echocardiography device that can be incorporated on bedside rounds by cardiologists may be a useful and frugal alternative.
+METHODS: This was a cross-sectional study designed to compare the accuracy of pocket mobile echocardiography images with those acquired by transthoracic echocardiography in a sample of hospitalized patients. Each patient referred for echocardiography underwent pocket mobile echocardiography acquisition and interpretation by a senior cardiology fellow with level II training in echocardiography. Subsequently, transthoracic echocardiography was performed by skilled ultrasonographers and interpreted by experienced echocardiographers. Both groups were blinded to the results of the alternative imaging modality. Visualizability and accuracy for all key echocardiographic parameters (ejection fraction, wall motion abnormalities, left ventricular end-diastolic dimension, inferior vena cava size, aortic and mitral valve pathology, and pericardial effusion) were determined and compared between imaging modalities.
+RESULTS: A total of 240 hospitalized patients underwent echocardiography with pocket mobile echocardiography and transthoracic echocardiography. The mean age was 71 ± 17 years. Pocket mobile echocardiography imaging time was 6.3 ± 1.5 minutes. Sensitivity of pocket mobile echocardiography varied by parameter and was highest for aortic stenosis (97%) and lowest for aortic insufficiency (76%). Specificity also varied by parameter and was highest for mitral regurgitation (100%) and lowest for left ventricular ejection fraction (92%). Equivalence testing revealed the pocket mobile echocardiography outcomes to be significantly equivalent to the transthoracic echocardiography outcomes with no discernible differences in image quality between pocket mobile echocardiography and transthoracic echocardiography (P = 7.22 × 10(-7)). All outcomes remain significant after correcting for multiple testing using the false discovery rate.
+CONCLUSIONS: The results from rapid bedside pocket mobile echocardiography examinations performed by experienced cardiology fellows compared favorably with those from formal transthoracic echocardiography studies. For hospitalized patients, this finding could shift the burden of performing and interpreting the echocardiogram to the examining physician and reduce the number and cost associated with formal echocardiography studies.</dcterms:abstract>
+        <bib:pages>669.e1-7</bib:pages>
+        <dc:date>Jul 2014</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 24674919
+PMCID: PMC4074438</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1555-7162">
+        <dc:title>The American Journal of Medicine</dc:title>
+        <prism:volume>127</prism:volume>
+        <prism:number>7</prism:number>
+        <dcterms:alternative>Am. J. Med.</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.amjmed.2014.03.015</dc:identifier>
+        <dc:identifier>ISSN 1555-7162</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4388">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:08:04</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/24674919</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4372">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>The American Journal of Medicine</dc:title>
+                <prism:volume>129</prism:volume>
+                <prism:number>7</prism:number>
+                <dcterms:alternative>Am. J. Med.</dcterms:alternative>
+                <dc:identifier>DOI 10.1016/j.amjmed.2016.01.055</dc:identifier>
+                <dc:identifier>ISSN 1555-7162</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dalen</foaf:surname>
+                        <foaf:givenname>James E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4373"/>
+        <dc:title>Cardiac Examination: Stethoscope or Pocket Echo-Why Not Both?</dc:title>
+        <bib:pages>649-650</bib:pages>
+        <dc:date>Jul 2016</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Cardiac Examination</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 26953062</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_4373">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:06:20</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/26953062</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4431">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1432-0509"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stock</foaf:surname>
+                        <foaf:givenname>Konrad Friedrich</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klein</foaf:surname>
+                        <foaf:givenname>Bettina</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steubl</foaf:surname>
+                        <foaf:givenname>Dominik</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lersch</foaf:surname>
+                        <foaf:givenname>Christian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heemann</foaf:surname>
+                        <foaf:givenname>Uwe</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wagenpfeil</foaf:surname>
+                        <foaf:givenname>Stefan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eyer</foaf:surname>
+                        <foaf:givenname>Florian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clevert</foaf:surname>
+                        <foaf:givenname>Dir-Andre</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4432"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Abdominal ultrasound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Aged, 80 and over</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cross-Over Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency ultrasound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Examination time</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>handheld ultrasound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Middle Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pocket-size ultrasound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Prospective Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Random Allocation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Young Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Comparison of a pocket-size ultrasound device with a premium ultrasound machine: diagnostic value and time required in bedside ultrasound examination</dc:title>
+        <dcterms:abstract>PURPOSE: Time savings and clinical accuracy of a new miniature ultrasound device was investigated utilizing comparison with conventional high-end ultrasound instruments. Our objective was to determine appropriate usage and limitations of this diagnostic tool in internal medicine.
+METHODS: We investigated 28 patients from the internal-medicine department. Patients were examined with the Acuson P10 portable device and a Sonoline Antares instrument in a cross-over design. All investigations were carried out at the bedside; the results were entered on a standardized report form. The time for the ultrasound examination (transfer time, setting up and disassembly, switching on and off, and complete investigation time) was recorded separately.
+RESULTS: Mean time for overall examination per patient with the portable ultrasound device was shorter (25.0 ± 4.5 min) than with the high-end machine (29.4 ± 4.4 min; p &lt; 0.001). When measuring the size of liver, spleen, and kidneys, the values obtained differed significantly between portable device and the high-end instrument. In our study, we identified 113 pathological ultrasound findings with the high-end ultrasound machine, while 82 pathological findings (73%) were concordantly detected with the portable ultrasound device. The main diagnostic strengths of the portable device were in the detection of ascites (sensitivity 80%), diagnosis of fatty liver, and identification of severe parenchymal liver damage.
+CONCLUSIONS: The clinical utility of portable ultrasound machines is limited. There will be clinical roles for distinct clinical questions such as detection of ascites or pleural effusion when used by experienced examiners. However, sensitivity in detecting multiple pathologies is not comparable to high-end ultrasound machines.</dcterms:abstract>
+        <bib:pages>2861-2866</bib:pages>
+        <dc:date>Oct 2015</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Comparison of a pocket-size ultrasound device with a premium ultrasound machine</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 25805559</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1432-0509">
+        <dc:title>Abdominal Imaging</dc:title>
+        <prism:volume>40</prism:volume>
+        <prism:number>7</prism:number>
+        <dcterms:alternative>Abdom Imaging</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s00261-015-0406-z</dc:identifier>
+        <dc:identifier>ISSN 1432-0509</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4432">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:18:51</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/25805559</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4385">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1473-5695"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Charron</foaf:surname>
+                        <foaf:givenname>Cyril</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Templier</foaf:surname>
+                        <foaf:givenname>François</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goddet</foaf:surname>
+                        <foaf:givenname>Nathalie S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baer</foaf:surname>
+                        <foaf:givenname>Michel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vieillard-Baron</foaf:surname>
+                        <foaf:givenname>Antoine</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Group of Investigators of SAMU 92</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4386"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Aged, 80 and over</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Medical Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Heart Ventricles</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pericardial Effusion</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Prospective Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Reproducibility of Results</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Respiratory Insufficiency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Shock</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Vena Cava, Inferior</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ventricular Function, Left</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Difficulties encountered by physicians in interpreting focused echocardiography using a pocket ultrasound machine in prehospital emergencies</dc:title>
+        <dcterms:abstract>OBJECTIVE: Pocket ultrasound devices (PUDs) increase the scope of transthoracic echocardiography. We assessed the ability of emergency physicians (EPs) to obtain and interpret views using PUDs in prehospital emergencies.
+MATERIALS AND METHODS: Nine EPs underwent a 2-day training program focused on acquisition of four views and on evaluation of left ventricular function, right ventricular size, the inferior vena cava, and detection of pericardial effusion. Then, EPs used a PUD to perform transthoracic echocardiography in patients with shock or acute respiratory failure. The quality and interpretation of views were graded by an expert as not obtained/inadequate, adequate, or optimal. Agreement between the expert and the physicians was evaluated using Cohen's κ test.
+RESULTS: One hundred consecutive exams were evaluated in patients with shock or acute respiratory failure. Parasternal long-axis and short-axis views, and a subcostal view were not obtained or inadequate in 56, 54, and 54 patients, respectively. An apical four-chamber view was not obtained or inadequate in 33 patients. One, two, or three views were graded as adequate or optimal in 86, 65, and 35 patients. Agreement between physicians and experts for left ventricular systolic function, right ventricular size, and pericardial effusion was weak [κ 0.37 (0.17; 0.59), 0.27 (0.023; 0.53), and 0.33 (-0.008; 0.67)]. Agreement for inferior vena cava evaluation was very weak [0.13 (-0.17; 0.43)].
+CONCLUSION: After a very short training program, echocardiography using a PUD in prehospital emergencies was feasible in half of patients. Acquisition of technical skills is reasonable, but accurate evaluation of cardiac function may require more extensive training.</dcterms:abstract>
+        <bib:pages>17-22</bib:pages>
+        <dc:date>Feb 2015</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 24710113</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1473-5695">
+        <dc:title>European Journal of Emergency Medicine: Official Journal of the European Society for Emergency Medicine</dc:title>
+        <prism:volume>22</prism:volume>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Eur J Emerg Med</dcterms:alternative>
+        <dc:identifier>DOI 10.1097/MEJ.0000000000000153</dc:identifier>
+        <dc:identifier>ISSN 1473-5695</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4386">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:08:00</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/24710113</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4383">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0742-2822"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oh</foaf:surname>
+                        <foaf:givenname>J. K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Meloy</foaf:surname>
+                        <foaf:givenname>T. D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Seward</foaf:surname>
+                        <foaf:givenname>J. B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4384"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Algorithms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Chest Pain</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cost-Benefit Analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Dyspnea</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Service, Hospital</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Arrest</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Injuries</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Hypotension</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Myocardial Infarction</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Shock</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Echocardiography in the emergency room: is it feasible, beneficial, and cost-effective?</dc:title>
+        <dcterms:abstract>Echocardiography in the emergency room presents exciting practice possibilities that can facilitate prompt and reliable diagnostic evaluations in patients with suspected cardiovascular emergencies. Echocardiography has the diagnostic potentials to evaluate the entire spectrum of cardiovascular abnormalities short of delineating coronary anatomy and evaluation of the conduction system. By reliably assessing the global and regional function, visualizing the cardiovascular structures from multiple tomographic planes, and quantitating hemodynamic abnormalities, echocardiography should be able to assist emergency room physician's evaluation and triage of the patients with chest pain syndrome, unexplained dyspnea, hypotension, shock, chest trauma, and cardiac arrest, whereby hopefully minimizing the unnecessary admission to the hospital and facilitating inhospital evaluation of the admitted patients with echocardiographic information. However, the optimal echocardiography practice in the emergency room requires well trained sonographers and echocardiographers who can respond to the clinical needs at anytime. Whether an emergency room physician can perform and interpret echocardiographic examinations satisfactorily will depend on his/her level of training and continuing education in this area. Currently, there is no established guideline for performing echocardiography in the emergency room. Further clinical investigations are necessary to define the most optimal and economical utilization of this versatile imaging and hemodynamic diagnostic modality in the emergency room.</dcterms:abstract>
+        <bib:pages>163-170</bib:pages>
+        <dc:date>Mar 1995</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Echocardiography in the emergency room</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 10150427</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0742-2822">
+        <dc:title>Echocardiography (Mount Kisco, N.Y.)</dc:title>
+        <prism:volume>12</prism:volume>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Echocardiography</dcterms:alternative>
+        <dc:identifier>ISSN 0742-2822</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4384">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:07:48</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/10150427</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4367">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0032-5473"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Suarez</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lynn</foaf:surname>
+                        <foaf:givenname>A. H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4368"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Arteriovenous Fistula</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Auscultation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Diagnosis, Differential</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Kidney Diseases, Cystic</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Middle Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Renal Artery</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Renal Veins</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Echo-free renal masses on ultrasound: the stethoscope as an adjunct to their diagnosis</dc:title>
+        <dcterms:abstract>A patient with an intrarenal arteriovenous malformation is described. Ultrasound suggested this to be a renal cyst but auscultation revealed a loud bruit and, on the basis of this, arteriography rather than cyst puncture was carried out.</dcterms:abstract>
+        <bib:pages>363-364</bib:pages>
+        <dc:date>Apr 1985</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Echo-free renal masses on ultrasound</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 3895208
+PMCID: PMC2418227</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0032-5473">
+        <dc:title>Postgraduate Medical Journal</dc:title>
+        <prism:volume>61</prism:volume>
+        <prism:number>714</prism:number>
+        <dcterms:alternative>Postgrad Med J</dcterms:alternative>
+        <dc:identifier>ISSN 0032-5473</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4368">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:04:54</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/3895208</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4377">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1466-609X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Biais</foaf:surname>
+                        <foaf:givenname>Matthieu</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carrié</foaf:surname>
+                        <foaf:givenname>Cédric</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Delaunay</foaf:surname>
+                        <foaf:givenname>François</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morel</foaf:surname>
+                        <foaf:givenname>Nicolas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Revel</foaf:surname>
+                        <foaf:givenname>Philippe</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Janvier</foaf:surname>
+                        <foaf:givenname>Gérard</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4378"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Medical Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Service, Hospital</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Middle Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Prospective Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Evaluation of a new pocket echoscopic device for focused cardiac ultrasonography in an emergency setting</dc:title>
+        <dcterms:abstract>INTRODUCTION: In the emergency setting, focused cardiac ultrasound has become a fundamental tool for diagnostic, initial emergency treatment and triage decisions. A new ultra-miniaturized pocket ultrasound device (PUD) may be suited to this specific setting. Therefore, we aimed to compare the diagnostic ability of an ultra-miniaturized ultrasound device (Vscan™, GE Healthcare, Wauwatosa, WI) and of a conventional high-quality echocardiography system (Vivid S5™, GE Healthcare) for a cardiac focused ultrasonography in patients admitted to the emergency department.
+METHODS: During 4 months, patients admitted to our emergency department and requiring transthoracic echocardiography (TTE) were included in this single-center, prospective and observational study. Patients underwent TTE using a PUD and a conventional echocardiography system. Each examination was performed independently by a physician experienced in echocardiography, unaware of the results found by the alternative device. During the focused cardiac echocardiography, the following parameters were assessed: global cardiac systolic function, identification of ventricular enlargement or hypertrophy, assessment for pericardial effusion and estimation of the size and the respiratory changes of the inferior vena cava (IVC) diameter.
+RESULTS: One hundred fifty-one (151) patients were analyzed. With the tested PUD, the image quality was sufficient to perform focused cardiac ultrasonography in all patients. Examination using PUD adequately qualified with a very good agreement global left ventricular systolic dysfunction (κ = 0.87; 95%CI: 0.76-0.97), severe right ventricular dilation (κ = 0.87; 95%CI: 0.71-1.00), inferior vena cava dilation (κ = 0.90; 95%CI: 0.80-1.00), respiratory-induced variations in inferior vena cava size in spontaneous breathing (κ = 0.84; 95%CI: 0.71-0.98), pericardial effusion (κ = 0.75; 95%CI: 0.55-0.95) and compressive pericardial effusion (κ = 1.00; 95%CI: 1.00-1.00).
+CONCLUSIONS: In an emergency setting, this new ultraportable echoscope (PUD) was reliable for the real-time detection of focused cardiac abnormalities.</dcterms:abstract>
+        <bib:pages>R82</bib:pages>
+        <dc:date>2012</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 22583539
+PMCID: PMC3580625</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1466-609X">
+        <dc:title>Critical Care (London, England)</dc:title>
+        <prism:volume>16</prism:volume>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Crit Care</dcterms:alternative>
+        <dc:identifier>DOI 10.1186/cc11340</dc:identifier>
+        <dc:identifier>ISSN 1466-609X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4378">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:07:15</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/22583539</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4399">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1651-2227"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Browning Carmo</foaf:surname>
+                        <foaf:givenname>Kathryn</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lutz</foaf:surname>
+                        <foaf:givenname>Tracey</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Berry</foaf:surname>
+                        <foaf:givenname>Andrew</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kluckow</foaf:surname>
+                        <foaf:givenname>Martin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Evans</foaf:surname>
+                        <foaf:givenname>Nick</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4400"/>
+        <dc:title>Feasibility and utility of portable ultrasound during retrieval of sick term and late preterm infants</dc:title>
+        <dcterms:abstract>AIM: To determine the role of clinician performed ultrasound (CPU) during the retrieval and transport of critically ill term and near term newborns.
+METHODS: A neonatologist with portable ultrasound accompanied a sample of newborn retrievals to perform cardiac and cerebral ultrasound before and after transportation.
+RESULTS: 55 babies were studied. Median birth weight: 3350g (2220-5030g). CPU led to a change in the planned receiving hospital in ten babies. Eleven babies were suspected congenital heart disease (CHD) prior to retrieval: 8 confirmed CHD by CPU and 3 normal structure. One, transported to a children's hospital for cardiology review was confirmed as having normal structure; one, to a perinatal hospital where normal structure was confirmed and one baby died at the referring hospital and post mortem confirmed normal structure. In 5 babies with clinical pulmonary hypertension: CPU revealed unsuspected CHD. The destination was changed to a paediatric cardiology centre; avoiding a second retrieval. Eleven babies had evidence of haemodynamic compromise allowing targeting of inotropes.
+CONCLUSION: This is the first study of CPU during retrieval of high risk infants. Ultrasound in retrieval is feasible, allows accurate triage of babies to cardiac centres and may allow more accurate targeting of fluid and inotrope support. This article is protected by copyright. All rights reserved.</dcterms:abstract>
+        <dc:date>Sep 15, 2016</dc:date>
+        <z:language>ENG</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 27628296</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1651-2227">
+        <dc:title>Acta Paediatrica (Oslo, Norway: 1992)</dc:title>
+        <dcterms:alternative>Acta Paediatr.</dcterms:alternative>
+        <dc:identifier>DOI 10.1111/apa.13589</dc:identifier>
+        <dc:identifier>ISSN 1651-2227</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4400">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:09:37</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/27628296</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4379">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1097-6795"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Labovitz</foaf:surname>
+                        <foaf:givenname>Arthur J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Noble</foaf:surname>
+                        <foaf:givenname>Vicki E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bierig</foaf:surname>
+                        <foaf:givenname>Michelle</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goldstein</foaf:surname>
+                        <foaf:givenname>Steven A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jones</foaf:surname>
+                        <foaf:givenname>Robert</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kort</foaf:surname>
+                        <foaf:givenname>Smadar</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Porter</foaf:surname>
+                        <foaf:givenname>Thomas R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spencer</foaf:surname>
+                        <foaf:givenname>Kirk T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tayal</foaf:surname>
+                        <foaf:givenname>Vivek S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wei</foaf:surname>
+                        <foaf:givenname>Kevin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4380"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Blood Volume</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cardiac Pacing, Artificial</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cardiomegaly</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Chest Pain</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Curriculum</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Diagnosis, Differential</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Dyspnea</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Education, Medical, Graduate</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Electrodes, Implanted</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Service, Hospital</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Arrest</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Atria</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Heart Failure, Systolic</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Injuries</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Heart Ventricles</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Hypotension</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Internship and Residency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pericardial Effusion</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pericardiocentesis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Radiology Information Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sensitivity and Specificity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Shock, Cardiogenic</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Societies, Medical</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Thoracic Injuries</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ultrasonography, Interventional</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>United States</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Venous Pressure</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Focused cardiac ultrasound in the emergent setting: a consensus statement of the American Society of Echocardiography and American College of Emergency Physicians</dc:title>
+        <dcterms:abstract>The use of ultrasound has developed over the last 50 years into an indispensable first-line test for the cardiac evaluation of symptomatic patients. The technologic miniaturization and improvement in transducer technology, as well as the implementation of educational curriculum changes in residency training programs and specialty practice, have facilitated the integration of focused cardiac ultrasound into practice by specialties such as emergency medicine. In the emergency department, focused cardiac ultrasound has become a fundamental tool to expedite the diagnostic evaluation of the patient at the bedside and to initiate emergent treatment and triage decisions by the emergency physician.</dcterms:abstract>
+        <bib:pages>1225-1230</bib:pages>
+        <dc:date>Dec 2010</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Focused cardiac ultrasound in the emergent setting</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 21111923</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1097-6795">
+        <dc:title>Journal of the American Society of Echocardiography: Official Publication of the American Society of Echocardiography</dc:title>
+        <prism:volume>23</prism:volume>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>J Am Soc Echocardiogr</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.echo.2010.10.005</dc:identifier>
+        <dc:identifier>ISSN 1097-6795</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4380">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:07:35</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/21111923</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4393">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1540-8175"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kansal</foaf:surname>
+                        <foaf:givenname>Mayank</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kessler</foaf:surname>
+                        <foaf:givenname>Chad</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Frazin</foaf:surname>
+                        <foaf:givenname>Lee</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4394"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cardiovascular Diseases</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Chest Pain</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Critical Care</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Medical Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Service, Hospital</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Equipment Failure Analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Miniaturization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Reproducibility of Results</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Risk Assessment</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Risk Factors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sensitivity and Specificity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Triage</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Hand-held echocardiogram does not aid in triaging chest pain patients from the emergency department</dc:title>
+        <dcterms:abstract>BACKGROUND: Accurate triage of emergency department (ED) patients presenting with chest pain is a primary goal of the ED physician. In addition to standard clinical history and examination, a hand-held echocardiogram (HHE) may aid the emergency physician in making correct decisions. We tested the hypothesis that an HHE performed and interpreted by a cardiology fellow could help risk-stratify patients presenting to the ED with chest pain.
+METHODS: ED physicians evaluated 36 patients presenting with cardiovascular symptoms. Patients were then dispositioned to either an intensive care bed, a monitored bed, an unmonitored bed, or home. Following disposition, an HHE was performed and interpreted by a cardiology fellow to evaluate for cardiac function and pathology. The outcomes evaluated (1) a change in the level of care and (2) additional testing ordered as a result of the HHE.
+RESULTS: The HHE showed wall motion abnormalities in 31% (11 out of 36) of the studies, but the level of care did not change after HHE for any patients who presented with chest pain to the ED. No additional laboratory or imaging tests were ordered for any patients based on the results of the HHE. Eighty-six percent (31 out of 36) of the studies were of adequate quality for interpretation, and 32 out of 36 (89%) interpretations correlated with an attending overread.
+CONCLUSION: Despite the high prevalence of abnormal wall motion in this population, hand-held echocardiography performed in this ED setting did not aid in the risk stratification process of chest pain patients.</dcterms:abstract>
+        <bib:pages>625-629</bib:pages>
+        <dc:date>Jul 2009</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 19594811</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1540-8175">
+        <dc:title>Echocardiography (Mount Kisco, N.Y.)</dc:title>
+        <prism:volume>26</prism:volume>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>Echocardiography</dcterms:alternative>
+        <dc:identifier>DOI 10.1111/j.1540-8175.2008.00873.x</dc:identifier>
+        <dc:identifier>ISSN 1540-8175</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4394">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:08:47</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/19594811</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4389">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1129-4728"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mondillo</foaf:surname>
+                        <foaf:givenname>Sergio</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galderisi</foaf:surname>
+                        <foaf:givenname>Maurizio</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4390"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Medical Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Intensive Care Units</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Miniaturization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Predictive Value of Tests</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sensitivity and Specificity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Software</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Stethoscopes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ultrasonography, Doppler</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>[Hand-held echocardiography in clinical practice]</dc:title>
+        <dcterms:abstract>In the last years the industry has created echocardiographic portable machines of reduced size, available for a growing number of operators. After the first experiences of the '70s, hand-held echocardiography (HHE) is earned interesting commercial positions. The transportability of these machines allows to perform examinations outside the echo-lab and provides diagnostic information in heterogeneous locations such as intensive care unit, emergency room and outpatient structures, at the bedside and even in ambulance. HHE can be useful for detection of several pathologies including aortic aneurysms and left ventricular hypertrophy, regional wall motion abnormalities, pericardial and pleural effusion. To date, four main kinds of HHE can be distinguished: a first, high-cost variety, including miniaturized machines, equipped with instrumentations of standard echocardiography and even new softwares for tissue Doppler and myocardial contrast echocardiography; a second kind of machines of high level but not miniaturized; a third (intermediate level and low cost), and a fourth one (basic level and very low cost), including &quot;cardioscopes&quot; corresponding to the ultrasound stethoscope, able to complete efficaciously the clinical examination. The introduction of HHE opens controversy about its diagnostic accuracy, the opportunity to establish the clinical scenario where it should be utilized and the identification of the potential users and the needed competence level. Preliminary experiences show the possibility of improving and anticipating the diagnosis of several cardiac diseases but also the need to plan specific ultrasound training to avoid inappropriate use of HHE.</dcterms:abstract>
+        <bib:pages>265-271</bib:pages>
+        <dc:date>May 2005</dc:date>
+        <z:language>ita</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 15934422</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1129-4728">
+        <dc:title>Italian Heart Journal. Supplement: Official Journal of the Italian Federation of Cardiology</dc:title>
+        <prism:volume>6</prism:volume>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>Ital Heart J Suppl</dcterms:alternative>
+        <dc:identifier>ISSN 1129-4728</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4390">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:08:18</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/15934422</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4395">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0167-5273"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mondillo</foaf:surname>
+                        <foaf:givenname>Sergio</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giannotti</foaf:surname>
+                        <foaf:givenname>Giovanna</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Innelli</foaf:surname>
+                        <foaf:givenname>Pasquale</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ballo</foaf:surname>
+                        <foaf:givenname>Pier Carlo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galderisi</foaf:surname>
+                        <foaf:givenname>Maurizio</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4396"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Stethoscopes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Hand-held echocardiography: its use and usefulness</dc:title>
+        <dcterms:abstract>In recent years, several echocardiographic hand-held devices have been developed and are now available for a growing number of cardiologists. After the first clinical use 25 years ago, hand-held echocardiography (HHE) is now earning important commercial positions. Their transportability permits echo performance out the echo-labs and offers the possibility to make diagnosis in intensive care unit, emergency room, outpatient clinic, at the bedside, and even in ambulance. Experiences in the clinical setting have demonstrated the ability of HHE to detect multiple diseases including abdominal aortic aneurysms, left ventricular hypertrophy, regional wall motion abnormalities, pericardial and pleural effusions. At the present time, four varieties of HHE have to be recognized: the first includes high-cost, miniaturized machines, similar to the most advanced instrumentations, provided by new tools and imaging transfer systems; a second intermediate, middle-cost variety encompasses devices corresponding to standard echocardiography, but not miniaturized; according to the definition of the American Society of Echocardiography, a third and a fourth category comprise machines of weight lower than 2.7 kg, battery supplied and appropriately defined as &quot;portable cardioschopes&quot;, which can be utilized as a technical refinement of physical examination. The use of HHE opens main controversy concerning their diagnostic accuracy, the opportunity to establish in which clinical settings they should be used and the identification of both potential users and required competence level. Preliminary experiences show the possibility to improve and anticipate diagnosis of several cardiovascular diseases but also the need to plan specific ultrasound training to avoid incorrect use of HHE.</dcterms:abstract>
+        <bib:pages>1-5</bib:pages>
+        <dc:date>Jul 28, 2006</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Hand-held echocardiography</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 16087257</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0167-5273">
+        <dc:title>International Journal of Cardiology</dc:title>
+        <prism:volume>111</prism:volume>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Int. J. Cardiol.</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.ijcard.2005.07.002</dc:identifier>
+        <dc:identifier>ISSN 0167-5273</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4396">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:08:51</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/16087257</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4435">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1876-7591"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Silverman</foaf:surname>
+                        <foaf:givenname>Barry</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4436"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography, Doppler</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Diseases</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Physical Examination</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Handheld Ultrasound is a Valuble Bedside Tool Which Can Supplement the Bedside Cardiac Exam but not Replace It</dc:title>
+        <bib:pages>621-622</bib:pages>
+        <dc:date>May 2015</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 25937201</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1876-7591">
+        <dc:title>JACC. Cardiovascular imaging</dc:title>
+        <prism:volume>8</prism:volume>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>JACC Cardiovasc Imaging</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.jcmg.2014.12.027</dc:identifier>
+        <dc:identifier>ISSN 1876-7591</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4436">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:19:00</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/25937201</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4429">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>JACC. Cardiovascular imaging</dc:title>
+                <prism:volume>7</prism:volume>
+                <prism:number>10</prism:number>
+                <dcterms:alternative>JACC Cardiovasc Imaging</dcterms:alternative>
+                <dc:identifier>DOI 10.1016/j.jcmg.2014.05.011</dc:identifier>
+                <dc:identifier>ISSN 1876-7591</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mehta</foaf:surname>
+                        <foaf:givenname>Manish</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jacobson</foaf:surname>
+                        <foaf:givenname>Timothy</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peters</foaf:surname>
+                        <foaf:givenname>Dawn</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Le</foaf:surname>
+                        <foaf:givenname>Elizabeth</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chadderdon</foaf:surname>
+                        <foaf:givenname>Scott</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Allen</foaf:surname>
+                        <foaf:givenname>Allison J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Caughey</foaf:surname>
+                        <foaf:givenname>Aaron B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kaul</foaf:surname>
+                        <foaf:givenname>Sanjiv</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4430"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Aged, 80 and over</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>cardiac diagnosis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cost Savings</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography, Doppler</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Equipment Design</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>handheld ultrasound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Diseases</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Middle Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Physical Examination</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Prospective Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Young Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Handheld ultrasound versus physical examination in patients referred for transthoracic echocardiography for a suspected cardiac condition</dc:title>
+        <dcterms:abstract>OBJECTIVES: The purpose of this study was to test the hypothesis that handheld ultrasound (HHU) provides a more accurate diagnosis than physical examination in patients with suspected cardiovascular abnormalities and that its use thus reduces additional testing and overall costs.
+BACKGROUND: Despite the limitations of physical examination and the demonstrated superiority of HHU for detecting cardiac abnormalities, it is not routinely used for the bedside diagnosis of cardiac conditions.
+METHODS: Patients referred for a standard echocardiogram for common indications (cardiac function, murmur, stroke, arrhythmias, and miscellaneous) underwent physical examination and HHU by different cardiologists, who filled out a form that also included suggestions for additional testing, if necessary, based on their findings.
+RESULTS: Of 250 patients, 142 had an abnormal finding on standard echocardiogram. Of these, HHU correctly identified 117 patients (82%), and physical examination correctly identified 67 (47%, p &lt; 0.0001). HHU was superior to physical examination (p &lt; 0.0001) for both normal and abnormal cardiac function. It was also superior to physical examination in correctly identifying the presence of substantial valve disease (71% vs. 31%, p = 0.0003) and in identifying miscellaneous findings (47% vs. 3%, p &lt; 0.0001). Of 108 patients without any abnormalities on standard echocardiography, further testing was suggested for 89 (82%) undergoing physical examination versus only 60 (56%) undergoing HHU (p &lt; 0.0001). Cost modeling showed that HHU had an average cost of $644.43 versus an average cost of $707.44 for physical examination. This yielded a savings of $63.01 per patient when HHU was used versus physical examination.
+CONCLUSIONS: When used by cardiologists, HHU provides a more accurate diagnosis than physical examination for the majority of common cardiovascular abnormalities. The finding of no significant abnormality on HHU is also likely to result in less downstream testing and thus potentially reduce the overall cost for patients being evaluated for a cardiovascular diagnosis.</dcterms:abstract>
+        <bib:pages>983-990</bib:pages>
+        <dc:date>Oct 2014</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 25240450</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_4430">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:18:45</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/25240450</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4433">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1949-8349"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Phillips</foaf:surname>
+                        <foaf:givenname>Colin T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4434"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Education, Medical, Graduate</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>New Views: Handheld Ultrasound at the Bedside</dc:title>
+        <bib:pages>160-161</bib:pages>
+        <dc:date>Jun 2015</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>New Views</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 26221425
+PMCID: PMC4512780</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1949-8349">
+        <dc:title>Journal of Graduate Medical Education</dc:title>
+        <prism:volume>7</prism:volume>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>J Grad Med Educ</dcterms:alternative>
+        <dc:identifier>DOI 10.4300/JGME-D-14-00369.1</dc:identifier>
+        <dc:identifier>ISSN 1949-8349</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4434">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:18:55</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/26221425</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3733444/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-4819"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liebo</foaf:surname>
+                        <foaf:givenname>Max J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Israel</foaf:surname>
+                        <foaf:givenname>Rachel L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lillie</foaf:surname>
+                        <foaf:givenname>Elizabeth O.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenname>Michael R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rubenson</foaf:surname>
+                        <foaf:givenname>David S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Topol</foaf:surname>
+                        <foaf:givenname>Eric J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4376"/>
+        <link:link rdf:resource="#item_4375"/>
+        <dc:title>Pocket Mobile Echocardiography: The Next-Generation Stethoscope? A Comparison of Rapidly Acquired PME Images to Standard TTE</dc:title>
+        <dcterms:abstract>BACKGROUND
+A new miniature high-resolution pocket-mobile echocardiographic (PME) device has become available to clinicians, but there are no data available comparing this technology with standard transthoracic echo (TTE) examination.
+
+OBJECTIVE
+To assess the potential validity of PME imaging as a quick assessment of cardiovascular disease by direct comparison to standard TTE.
+
+DESIGN
+Ultrasonographers attempted to acquire seven standard echocardiography views with the PME prior to performing comprehensive standard TTEs. In blinded fashion, images from the two modalities were compared by two experienced echocardiographers and two cardiology fellows.
+
+PRIMARY FUNDING SOURCE
+This work was funded in part by Scripps Health and the NIH UL1 RR025774 (Scripps Translational Science Institute, Clinical and Translational Science Award).
+
+SETTING
+Scripps Clinic/Green Hospital
+
+PATIENTS
+97 consecutive unselected patients
+
+MEASUREMENTS
+Comparisons were made in regards to ejection fraction (EF), segmental wall motion abnormalities (WMA), left ventricular end-diastolic dimension (LVEDD), inferior vena cava (IVC) size, aortic and mitral valve pathology, and pericardial effusion.
+
+RESULTS
+PME images were adequate for interpretation of EF in 95% of the studies, LVEDD 95%, mitral valve 90%, WMA 83%, aortic valve 83%, and IVC 75%. Compared to standard TTE, PME interpretation by attendings and fellows had an accuracy of 97% and 93% for EF, respectively. Likewise, accuracy for WMA was 90% and 87% ; LVEDD 94% and 91%; aortic stenosis 97% and 95%; mitral abnormality 88% and 82%; and IVC size 81% and 74%.
+
+LIMITATIONS
+As this was a validation study of imaging alone, further evaluation with clinician image acquisition is needed.
+
+CONCLUSIONS
+PME images obtained rapidly by skilled ultrasonographers provide excellent visualization in the vast majority of patients and correlate well with standard, comprehensive TTE. Such validation needs to be extended to untrained clinicians in larger and diverse patient populations before broad dissemination of this technology can be recommended.</dcterms:abstract>
+        <bib:pages>33-38</bib:pages>
+        <dc:date>2011-7-5</dc:date>
+        <z:shortTitle>Pocket Mobile Echocardiography</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3733444/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-09-19 08:06:58</dcterms:dateSubmitted>
+        <z:libraryCatalog>PubMed Central</z:libraryCatalog>
+        <dc:description>PMID: 21727291
+PMCID: PMC3733444</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0003-4819">
+        <dc:title>Annals of internal medicine</dc:title>
+        <prism:volume>155</prism:volume>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Ann Intern Med</dcterms:alternative>
+        <dc:identifier>DOI 10.7326/0003-4819-155-1-201107050-00005</dc:identifier>
+        <dc:identifier>ISSN 0003-4819</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4376">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4376/Liebo et al. - 2011 - Pocket Mobile Echocardiography The Next-Generatio.pdf"/>
+        <dc:title>PubMed Central Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:06:58</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3733444/pdf/nihms-494013.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_4375">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed Central Link</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:06:58</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3733444/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4437">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1525-1497"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ojeda</foaf:surname>
+                        <foaf:givenname>Jason C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Colbert</foaf:surname>
+                        <foaf:givenname>James A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenname>Xinyi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McMahon</foaf:surname>
+                        <foaf:givenname>Graham T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Doubilet</foaf:surname>
+                        <foaf:givenname>Peter M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benson</foaf:surname>
+                        <foaf:givenname>Carol B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenname>Justina</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Katz</foaf:surname>
+                        <foaf:givenname>Joel T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yialamas</foaf:surname>
+                        <foaf:givenname>Maria A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4438"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Clinical Competence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers, Handheld</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Internal Medicine</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Internship and Residency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Physical Examination</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Pocket-sized ultrasound as an aid to physical diagnosis for internal medicine residents: a randomized trial</dc:title>
+        <dcterms:abstract>BACKGROUND: Proficiency and self-confidence in the physical examination is poor among internal medicine residents and interest in ultrasound technology has expanded.
+OBJECTIVE: We aimed to determine whether a pocket-sized ultrasound improves the diagnostic accuracy and confidence of residents after a 3-h training session and 1 month of independent practice.
+DESIGN: This was a randomized parallel group controlled trial.
+PARTICIPANTS: Forty internal medicine residents in a single program at an academic medical center participated in the study.
+INTERVENTION: Three hours of training on use of pocket-sized ultrasound was followed by 1 month of independent practice.
+MAIN MEASURES: The primary outcome was a comparison of the diagnostic accuracy of a physical exam alone versus a physical examination augmented with a pocket-sized ultrasound. Other outcomes included confidence in exam findings and a survey of attitudes towards the physical exam and the role of ultrasound.
+KEY RESULTS: Residents in the intervention group using a pocket-sized ultrasound correctly identified an average of 7.6 of the 17 abnormal findings (accuracy rate of 44.9 %). Those in the control group correctly identified an average of 6.4 abnormal findings (accuracy rate of 37.6 %, p = 0.11). Residents in the intervention group identified on average 15.9 findings as abnormal when no abnormality existed (false positive rate of 16.8 %). Those in the control group incorrectly identified an average of 15.5 positive findings (false positive rate of 16.3 %). There was no difference between groups regarding self-assessed confidence in physical examination. Residents in the intervention group identified 6.1 of 13 abnormal cardiac findings versus the control group's 4.5 of 13, an accuracy rate of 47.0 % versus 34.6 % (p = 0.023).
+CONCLUSIONS: The diagnostic ability of internal medicine residents did not significantly improve with use of a pocket-sized ultrasound device after a 3-h training session and 1 month of independent practice.
+TRIAL REGISTRATION: clinicaltrials.gov: number NCT01948076; URL http://clinicaltrials.gov/ct2/show/study/NCT01948076?term=ultrasound+physical+exam&amp;rank=2.</dcterms:abstract>
+        <bib:pages>199-206</bib:pages>
+        <dc:date>Feb 2015</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Pocket-sized ultrasound as an aid to physical diagnosis for internal medicine residents</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 25387438
+PMCID: PMC4314490</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1525-1497">
+        <dc:title>Journal of General Internal Medicine</dc:title>
+        <prism:volume>30</prism:volume>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>J Gen Intern Med</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s11606-014-3086-4</dc:identifier>
+        <dc:identifier>ISSN 1525-1497</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4438">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:19:06</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/25387438</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4397">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-9683"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vignon</foaf:surname>
+                        <foaf:givenname>P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4398"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Clinical Trials as Topic</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Miniaturization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Monitoring, Ambulatory</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>[Portable echocardiographs: useful or futile?]</dc:title>
+        <dcterms:abstract>Echocardiographic systems which are the size of a laptop computer are currently available. These hand-held ultrasound units are very easy to use at patient bedside in various clinical settings. According to the miniaturized devices, spectral Doppler may not be available and power Doppler may replace true color Doppler. Validation studies of hand-held echocardiography have been conducted in critically ill patients, in patients hospitalized in ward, but also in outpatients and as a screening tool for the detection of cardiac abnormalities in the community. Hand-held echocardiography appears to have important limitations in specific clinical settings, such as shock, pulmonary hypertension, assessment of valvulopathy or valvular prosthesis, dynamic left outflow tract obstruction, left ventricular restriction or construction. The miniaturized system with spectral Doppler capability has not yet been properly validated in these indications. At its present stage of development, hand-carried ultrasound units do not allow to perform a comprehensive examination which relies on the use of a full-feature system, especially when a precise hemodynamic evaluation is required. Diagnostic ability of hand-held echocardiography is similar to that of upper-end platforms for diagnoses based on two-dimensional imaging: left ventricular systolic function, detection of wall motion abnormalities, size of cardiac chambers, identification of pericardial or pleural effusions. Hand-carried ultrasound devices may be considered as a &quot;visual stethoscope&quot; which provides an extension of the physical examination, but not as a potential alternative to standard transthoracic echocardiography. Its large potential clinical field of use raises the concern of taylored training programs to intensivists which could be focused on goal-directed echocardiographic examinations.</dcterms:abstract>
+        <bib:pages>1202-1209</bib:pages>
+        <dc:date>Dec 2003</dc:date>
+        <z:language>fre</z:language>
+        <z:shortTitle>[Portable echocardiographs</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 15248447</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0003-9683">
+        <dc:title>Archives Des Maladies Du Coeur Et Des Vaisseaux</dc:title>
+        <prism:volume>96</prism:volume>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>Arch Mal Coeur Vaiss</dcterms:alternative>
+        <dc:identifier>ISSN 0003-9683</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4398">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:08:57</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/15248447</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4405">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1049-023X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shorter</foaf:surname>
+                        <foaf:givenname>Meghan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Macias</foaf:surname>
+                        <foaf:givenname>Darryl J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4406"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adolescent</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Child</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Earthquakes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Equipment Design</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Haiti</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Middle Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Pregnancy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Retrospective Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ultrasonography, Prenatal</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Wounds and Injuries</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Portable handheld ultrasound in austere environments: use in the Haiti disaster</dc:title>
+        <dcterms:abstract>INTRODUCTION: A 7.0 magnitude earthquake struck Haiti on January 12, 2010, resulting in 222,000 deaths and 300,000 injuries. Three weeks after the initial quake, the New Mexico Disaster Medical Assistance Team (NM DMAT-1) was deployed to Haiti for ongoing medical relief. During this deployment, a portable handheld ultrasound machine was tested for usefulness in aiding with patient care decisions.
+OBJECTIVE: The utility of portable ultrasound to help with triage and patient management decisions in a major disaster setting was evaluated.
+METHODS: Retrospective observational non-blinded images were obtained on 51 patients voluntarily presenting to the Gheskio Field clinic at Port-au-Prince. Ultrasound was used for evaluation of undifferentiated hypotension, torso trauma, pregnancy, non-traumatic abdominal pain, deep venous thrombosis and pulmonary embolism, and dyspnea-chest pain, as well as for assisting with procedures. Scans were obtained using a Signos personal handheld ultrasound machine with images stored on a microSD card. Qualitative data were reviewed to identify whether ultrasound influenced management decisions, and results were categorized in terms of percent of scans that influenced management.
+RESULTS: Fifty-one ultrasound scans on 50 patients were performed, with 35% interpreted as positive, 41% as negative, and 24% as equivocal. The highest yields of information were for abdominal ultrasound and ultrasound related to pregnancy. Ultrasound influenced decisions on patient care in 70% of scans. Most of these decisions were reflected in the clinician's confidence in discharging a patient with or without non-emergent follow-up.
+CONCLUSION: The use of a handheld portable ultrasound machine was effective for patient management decisions in resource-poor settings, and decreased the need to triage selected patients to higher levels of care. Ultrasound was very useful for evaluation of non-traumatic abdominal pain. Dynamic capability is necessary for ultrasound evaluation of undifferentiated hypotension and cardiac and lung examinations. Ultrasound also was useful for guidance during procedural applications, and for aiding in the diagnosis of parasitic diseases.</dcterms:abstract>
+        <bib:pages>172-177</bib:pages>
+        <dc:date>Apr 2012</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Portable handheld ultrasound in austere environments</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 22595772</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1049-023X">
+        <dc:title>Prehospital and Disaster Medicine</dc:title>
+        <prism:volume>27</prism:volume>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Prehosp Disaster Med</dcterms:alternative>
+        <dc:identifier>DOI 10.1017/S1049023X12000611</dc:identifier>
+        <dc:identifier>ISSN 1049-023X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4406">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:10:37</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/22595772</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4403">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0736-4679"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nelson</foaf:surname>
+                        <foaf:givenname>Bret P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Melnick</foaf:surname>
+                        <foaf:givenname>Edward R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>James</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4404"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Medical Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Feasibility Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Teleradiology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Wilderness Medicine</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Portable ultrasound for remote environments, Part I: Feasibility of field deployment</dc:title>
+        <dcterms:abstract>BACKGROUND: In field medical operations, rapid diagnosis and triage of seriously injured patients is critical. With significant bulk and cost constraints placed on all equipment, it is important that any medical devices deployed in the field demonstrate high utility, durability, and ease of use. When medical ultrasound was first used in patient care, machine cost, bulk, and steep learning curves prevented use outside of the radiology department. Now, lightweight portable ultrasound is widely employed at the bedside by emergency physicians. The techniques and equipment have recently been extrapolated out of the hospital setting in a wide variety of environments in an effort to increase diagnostic accuracy in the field.
+OBJECTIVES: In this review, deployment of lightweight portable ultrasound in the field (by emergency medical services, military operations, disaster relief, medical missions, and expeditions to austere environments) is examined. The feasibility of field deployment and experiences of clinicians using ultrasound in a host of environments are detailed. In addition, special technological considerations such as telemedicine and machine characteristics are reviewed.
+CONCLUSIONS: The use of lightweight portable ultrasound shows great promise in augmenting clinical assessment for field medical operations. Although the feasibility of the technology has been demonstrated in certain medical and trauma applications, further research is needed to determine the utility of ultrasound use for medical illness in the field.</dcterms:abstract>
+        <bib:pages>190-197</bib:pages>
+        <dc:date>Feb 2011</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Portable ultrasound for remote environments, Part I</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 20097500</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0736-4679">
+        <dc:title>The Journal of Emergency Medicine</dc:title>
+        <prism:volume>40</prism:volume>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>J Emerg Med</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.jemermed.2009.09.006</dc:identifier>
+        <dc:identifier>ISSN 0736-4679</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4404">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:10:19</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/20097500</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4411">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1365-3156"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Groen</foaf:surname>
+                        <foaf:givenname>Reinou S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leow</foaf:surname>
+                        <foaf:givenname>Jeffrey J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sadasivam</foaf:surname>
+                        <foaf:givenname>Vijay</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kushner</foaf:surname>
+                        <foaf:givenname>Adam L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4412"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Clinical Medicine</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Developing Countries</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Review: indications for ultrasound use in low- and middle-income countries</dc:title>
+        <dcterms:abstract>OBJECTIVE: To determine the indications for using ultrasound, in low- and middle-income countries (LMICs) and to assess whether its use alters clinical management.
+METHODS: Literature review. We conducted a Pubmed search on the clinical use of ultrasound in LMIC for articles published between January 2000 and December 2010, recording country of origin, speciality and whether ultrasound use led to a change in management.
+RESULTS: Fifty-eight articles were identified from 32 countries and represented nine specialties. Ultrasound was most commonly used for assisting with the diagnosis of obstetrical conditions, followed by intra-abdominal conditions such as liver abscesses and intussusceptions. Clinical management was altered in &gt;30% of cases.
+CONCLUSION: Ultrasound is a highly valuable diagnostic tool in LMICs and its use should be considered essential for all district medical facilities. The use could be applied more widely, eg., for tropical and non-communicable diseases. Additional research is needed to further characterize the impact of task shifting on ultrasound use in LMICs.</dcterms:abstract>
+        <bib:pages>1525-1535</bib:pages>
+        <dc:date>Dec 2011</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Review</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 21883723</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1365-3156">
+        <dc:title>Tropical medicine &amp; international health: TM &amp; IH</dc:title>
+        <prism:volume>16</prism:volume>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>Trop. Med. Int. Health</dcterms:alternative>
+        <dc:identifier>DOI 10.1111/j.1365-3156.2011.02868.x</dc:identifier>
+        <dc:identifier>ISSN 1365-3156</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4412">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:11:53</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/21883723</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4415">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1530-440X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hersh</foaf:surname>
+                        <foaf:givenname>W. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wallace</foaf:surname>
+                        <foaf:givenname>J. A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Patterson</foaf:surname>
+                        <foaf:givenname>P. K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shapiro</foaf:surname>
+                        <foaf:givenname>S. E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kraemer</foaf:surname>
+                        <foaf:givenname>D. F.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eilers</foaf:surname>
+                        <foaf:givenname>G. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chan</foaf:surname>
+                        <foaf:givenname>B. K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Greenlick</foaf:surname>
+                        <foaf:givenname>M. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Helfand</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4416"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adolescent</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Child</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Child, Preschool</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Evidence-Based Medicine</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Health Services Research</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Home Care Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Medicare</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Monitoring, Ambulatory</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Obstetrics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Pediatrics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Physician-Patient Relations</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Pregnancy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Self Care</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Technology Assessment, Biomedical</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Telemedicine</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>United States</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Telemedicine for the Medicare population: pediatric, obstetric, and clinician-indirect home interventions</dc:title>
+        <dcterms:abstract>BACKGROUND: This report is a supplement to an earlier evidence report, Telemedicine for the Medicare Population, which was intended to help policymakers weigh the evidence relevant to coverage of telemedicine services under Medicare. That report focused on telemedicine programs and clinical settings that had been used with or were likely to be applied to Medicare beneficiaries. While we prepared that report, it became apparent that there are also telemedicine studies among non-Medicare beneficiaries--e.g., children and pregnant women--that could inform policymakers and provide more comprehensive evidence of the state of the science regarding telemedicine applications. In addition, the first evidence report only partially included a class of telemedicine applications (called self-monitoring/testing telemedicine) in which the beneficiary used a home computer or modern-driven telephone system to either report information or access information and support from Internet resources and indirectly interact with a clinician. Self-monitoring/testing applications in the first report required direct interaction with a clinician. The goal of this report is to systematically review the evidence in the clinical areas of pediatric and obstetric telemedicine as well as home-based telemedicine where there is indirect involvement of the health care professional. (In this report, we will refer to the latter as clinician-indirect home telemedicine.) Specifically, the report summarizes scientific evidence on the diagnostic accuracy, access, clinical outcomes, satisfaction, and cost-effectiveness of services provided by telemedicine technologies for these patient groups. It also identifies gaps in the evidence and makes recommendations for evaluating telemedicine services for these populations in the future. The evidence is clustered according to three categories of telemedicine service defined in our original report: store-and-forward, self-monitoring/testing, and clinician-interactive services. The three clinical practice areas reviewed in this report are defined as follows. The term pediatric applies to any telemedicine study in which the sample consisted wholly or partially of persons aged 18 or younger, including studies with neonatal samples. The term obstetric applies to any telemedicine study in which the sample consisted entirely of women seeking pregnancy-related care. The term clinician-indirect home telemedicine applies to home-based telemedicine (called self-monitoring/testing in our original report) where a telemedicine application used in the home has only indirect involvement by the health care professional. Interactive home telemedicine was applied in this report to all patient populations.
+KEY QUESTIONS: The key questions that served as a guide for reviewing the literature in the evaluation of pediatric, obstetric, and clinician-indirect home telemedicine applications were derived by consensus among the evidence-review team based on the analytic framework established for the original evidence report. For the current report, the questions were applied to studies in all three practice areas as a whole group within each of the three categories of telemedicine services: store-and-forward; self-monitoring/testing; and clinician-interactive. The specific key questions were: 1. Does telemedicine result in comparable diagnosis and appropriateness of recommendations for management? 2. Does the availability of telemedicine provide comparable access to care? 3. Does telemedicine result in comparable health outcomes? 4. Does telemedicine result in comparable patient or clinician satisfaction with care? 5. Does telemedicine result in comparable costs of care and/or cost-effectiveness?
+METHODS: We searched for peer-reviewed literature using several bibliographic databases. In addition, we conducted hand searches of leading telemedicine journals and identified key papers from the reference lists of journal articles. For our original evidence report on telemedicine for the Medicare population, we designed a search to find any publications about telemedicine and used it to search the MEDLINE, CINAHL, and HealthSTAR databases for all years the databases were available. Through this process, we captured studies of pediatric, obstetric, and clinician-indirect home telemedicine; however, they were excluded from the original report since they were outside its scope. For this supplemental report, we reviewed our original search results and identified studies relevant to this report. We identified additional studies from the reference lists of included papers and from hand searching two peer-reviewed telemedicine publications, the Journal of Telemedicine and Telecare and Telemedicine Journal. We critically appraised the included studies for each study area and key question and discussed the strengths and limitations of the most important studies at weekly meetings of the research team. We also developed recommendations for research to address telemedicine knowledge gaps. To match these gaps with the capabilities of specific research methods, we classified the telemedicine services according to the type of evidence that would be needed to determine whether the specific goals of covering such services had been met. We emphasized the relationship between the type and level of evidence found in the systematic review of effectiveness and the types of studies that might be funded to address the gaps in knowledge in this growing field of research.
+FINDINGS: We identified a total of 28 eligible studies. In the new clinical areas, we found few studies in store-and-forward telemedicine. There is some evidence of comparable diagnosis and management decisions made using store-and-forward telemedicine from the areas of pediatric dental screening, pediatric ophthalmology, and neonatalogy. In self-monitoring/testing telemedicine for the areas of pediatrics, obstetrics, and clinician-indirect home telemedicine, there is evidence that access to care can be improved when patients and families have the opportunity to receive telehealth care at home rather than in-person care in a clinic or hospital. Access is particularly enhanced when the telehealth system enables timely communication between patients or families and care providers that allows self-management and necessary adjustments that may prevent hospitalization. There is some evidence that this form of telemedicine improves health outcomes, but the study sample sizes are usually small, and even when they are not, the treatment effects are small. There is also some evidence for the efficacy of clinician-interactive telemedicine, but the studies do not clearly define which technologies provide benefit or cost-efficiency. Some promising areas for diagnosis include emergency medicine, psychiatry, and cardiology. Most of the studies measuring access to care provide evidence that it is improved. Although none of these studies were randomized controlled trials, they provide some evidence of access improvement over prior conditions. Clinician-interactive telemedicine was the only area for which any cost studies were found. The three cost studies did not adequately demonstrate that telemedicine reduces costs of care (except comparing only selected costs). No study addressed cost-effectiveness.
+CONCLUSIONS: This supplemental report covering the areas of pediatrics, obstetrics, and indirect-clinician home telemedicine echoes the findings of our initial report for the Medicare domain, which is that while the use of telemedicine is small but growing, the evidence for its efficacy is incomplete. Many of the studies are small and/or methodologically limited, so it cannot be determined whether telemedicine is efficacious. Future studies should focus on the use of telemedicine in conditions where burden of illness and/or barriers to access for care are significant. Use of recent innovations in the design of randomized controlled trials for emerging technologies would lead to higher quality studies. Journals publishing telemedicine evaluation studies must set high standards for methodologic quality so that evidence reports need not rely on studies with marginal methodologies.</dcterms:abstract>
+        <bib:pages>1-32</bib:pages>
+        <dc:date>Aug 2001</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Telemedicine for the Medicare population</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 11569328
+PMCID: PMC4781051</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1530-440X">
+        <dc:title>Evidence Report/Technology Assessment (Summary)</dc:title>
+        <prism:number>24 Suppl</prism:number>
+        <dcterms:alternative>Evid Rep Technol Assess (Summ)</dcterms:alternative>
+        <dc:identifier>ISSN 1530-440X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4416">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:12:01</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/11569328</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4381">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1553-2712"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kennedy Hall</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Coffey</foaf:surname>
+                        <foaf:givenname>E. C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Herbst</foaf:surname>
+                        <foaf:givenname>Meghan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenname>Rachel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pare</foaf:surname>
+                        <foaf:givenname>Joseph R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andrew Taylor</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thomas</foaf:surname>
+                        <foaf:givenname>Sheeja</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moore</foaf:surname>
+                        <foaf:givenname>Chris L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4382"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Clinical Competence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Medical Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency Service, Hospital</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Heart Ventricles</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pericardial Effusion</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>United States</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Vena Cava, Inferior</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The &quot;5Es&quot; of emergency physician-performed focused cardiac ultrasound: a protocol for rapid identification of effusion, ejection, equality, exit, and entrance</dc:title>
+        <dcterms:abstract>Emergency physician (EP)-performed focused cardiac ultrasound (EP FOCUS) has been increasingly recognized as a crucial tool to help clinicians diagnose and treat potentially life-threatening conditions. The existing literature demonstrates a variety of EP FOCUS applications and protocols; however, EP FOCUS is not taught, practiced, or interpreted consistently between institutions. Drawing on over 12 years of experience in a large-volume, high-acuity academic emergency department, we have developed a protocol for teaching and performing EP FOCUS known as &quot;The 5Es,&quot; where each E represents a specific assessment for immediately relevant clinical information. These include pericardial effusion, qualitative left ventricular ejection, ventricular equality, exit (aortic root diameter), and entrance (inferior vena cava diameter and respirophasic variation). Each of these assessments has been well described in the emergency medicine literature and is within the scope of EP-performed echocardiography. This approach provides a reliable and easily recalled framework for assessing, teaching, and communicating EP FOCUS findings that are essential in caring for the patient in the emergency setting.</dcterms:abstract>
+        <bib:pages>583-593</bib:pages>
+        <dc:date>May 2015</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>The &quot;5Es&quot; of emergency physician-performed focused cardiac ultrasound</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 25903585</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1553-2712">
+        <dc:title>Academic Emergency Medicine: Official Journal of the Society for Academic Emergency Medicine</dc:title>
+        <prism:volume>22</prism:volume>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>Acad Emerg Med</dcterms:alternative>
+        <dc:identifier>DOI 10.1111/acem.12652</dc:identifier>
+        <dc:identifier>ISSN 1553-2712</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4382">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:07:43</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/25903585</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2170493/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0730-2347"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Singh</foaf:surname>
+                        <foaf:givenname>Siddharth</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goyal</foaf:surname>
+                        <foaf:givenname>Abha</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4371"/>
+        <link:link rdf:resource="#item_4370"/>
+        <dc:title>The Origin of Echocardiography</dc:title>
+        <dcterms:abstract>The original description of M-mode echocardiography in 1953, by Inge Edler (1911–2001) and his physicist friend Hellmuth Hertz, marked the beginning of a new diagnostic noninvasive technique. Edler used this technique primarily for the preoperative study of mitral stenosis and diagnosis of mitral regurgitation. His work was carried forward by cardiologists all over the world, who developed Doppler, 2-dimensional, contrast, and transesophageal echocardiography. These are now standard in cardiologic examinations. Edler also influenced neurologists and obstetricians at Lund University (Sweden) to use ultrasound in their fields. For his landmark discovery, Edler is recognized as the “Father of Echocardiography.”</dcterms:abstract>
+        <bib:pages>431-438</bib:pages>
+        <dc:date>2007</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2170493/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-09-19 08:06:04</dcterms:dateSubmitted>
+        <z:libraryCatalog>PubMed Central</z:libraryCatalog>
+        <dc:description>PMID: 18172524
+PMCID: PMC2170493</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0730-2347">
+        <dc:title>Texas Heart Institute Journal</dc:title>
+        <prism:volume>34</prism:volume>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Tex Heart Inst J</dcterms:alternative>
+        <dc:identifier>ISSN 0730-2347</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4371">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4371/Singh et Goyal - 2007 - The Origin of Echocardiography.pdf"/>
+        <dc:title>PubMed Central Full Text PDF</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:06:04</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2170493/pdf/20071200s00010p431.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_4370">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed Central Link</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:06:04</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2170493/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4417">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Tropical medicine &amp; international health: TM &amp; IH</dc:title>
+                <prism:volume>21</prism:volume>
+                <prism:number>3</prism:number>
+                <dcterms:alternative>Trop. Med. Int. Health</dcterms:alternative>
+                <dc:identifier>DOI 10.1111/tmi.12657</dc:identifier>
+                <dc:identifier>ISSN 1365-3156</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Becker</foaf:surname>
+                        <foaf:givenname>Dawn M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tafoya</foaf:surname>
+                        <foaf:givenname>Chelsea A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Becker</foaf:surname>
+                        <foaf:givenname>Sören L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kruger</foaf:surname>
+                        <foaf:givenname>Grant H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tafoya</foaf:surname>
+                        <foaf:givenname>Matthew J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Becker</foaf:surname>
+                        <foaf:givenname>Torben K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4418"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>clinical examination</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Developing Countries</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>diagnosis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>échographie</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Point-of-Care Systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>recursos</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>resource-constrained settings</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ressource</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonido</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ultrasonography, Prenatal</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ultrasound</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The use of portable ultrasound devices in low- and middle-income countries: a systematic review of the literature</dc:title>
+        <dcterms:abstract>OBJECTIVES: To review the scientific literature pertaining to the use of hand-carried and hand-held ultrasound devices in low- and middle-income countries (LMIC), with a focus on clinical applications, geographical areas of use, the impact on patient management and technical features of the devices used.
+METHODS: The electronic databases PubMed and Google Scholar were searched. No language or date restrictions were applied. Case reports and original research describing the use of hand-carried ultrasound devices in LMIC were included if agreed upon as relevant by two-reviewer consensus based on our predefined research questions.
+RESULTS: A total of 644 articles were found and screened, and 36 manuscripts were included for final review. Twenty-seven studies were original research articles, and nine were case reports. Several reports describe the successful diagnosis and management of difficult, often life-threatening conditions, using hand-carried and hand-held ultrasound. These portable ultrasound devices have also been studied for cardiac screening exams, as well as a rapid triage tool in rural areas and after natural disaster. Most applications focus on obstetrical and abdominal complaints. Portable ultrasound may have an impact on clinical management in up to 70% of all cases. However, no randomised controlled trials have evaluated the impact of ultrasound-guided diagnosis and treatment in resource-constrained settings. The exclusion of articles published in journals not listed in the large databases may have biased our results. Our findings are limited by the lack of higher quality evidence (e.g. controlled trials).
+CONCLUSIONS: Hand-carried and hand-held ultrasound is successfully being used to triage, diagnose and treat patients with a variety of complaints in LMIC. However, the quality of the current evidence is low. There is an urgent need to perform larger clinical trials assessing the impact of hand-carried ultrasound in LMIC.</dcterms:abstract>
+        <bib:pages>294-311</bib:pages>
+        <dc:date>Mar 2016</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>The use of portable ultrasound devices in low- and middle-income countries</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 26683523</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_4418">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:12:19</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/26683523</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4391">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1525-2167"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>DeCara</foaf:surname>
+                        <foaf:givenname>J. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lang</foaf:surname>
+                        <foaf:givenname>R. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koch</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bala</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Penzotti</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spencer</foaf:surname>
+                        <foaf:givenname>K. T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4392"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Aortic Valve Stenosis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cardiovascular Abnormalities</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Echocardiography</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Atria</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Heart Ventricles</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Hypertrophy, Left Ventricular</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Inservice Training</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Internship and Residency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Predictive Value of Tests</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sensitivity and Specificity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Severity of Illness Index</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ventricular Dysfunction, Right</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The use of small personal ultrasound devices by internists without formal training in echocardiography</dc:title>
+        <dcterms:abstract>AIMS: Hand-held ultrasound devices will probably be used for bedside cardiac diagnoses by internists without formal training in echocardiography. We compared the accuracy of hand-held ultrasound devices studies performed by expert echocardiographers vs internal medicine residents with brief training in echocardiography.
+METHODS AND RESULTS: Three internal medicine residents participated in an organized training program in echocardiographic principles, image acquisition, and interpretation. Subsequently, these residents and three echocardiographers imaged 300 patients with a hand-held ultrasound device. Sensitivity, specificity, positive and negative predictive values for internist- and echocardiographer-performed studies for the detection of cardiac abnormalities were compared using a full-featured exam as the gold standard. Resident- and echocardiographer-performed scans had similar overall sensitivity and specificity. There was a higher positive predictive value for the echocardiographer-performed scans. For clinically important findings (likely to affect patient care), sensitivity was slightly but significantly higher for the echocardiographer-performed scans. Clinically important findings most often missed by residents included regional wall motion abnormalities, intra-cardiac thrombus, right ventricular dysfunction and non-trivial pericardial effusions.
+CONCLUSION: Hand-held ultrasound devices provide useful screening tools for cardiac disease but should not replace a standard platform study. Training guidelines and competency evaluation are needed if these devices are to be used by non-echocardiographers for clinical decision-making.</dcterms:abstract>
+        <bib:pages>141-147</bib:pages>
+        <dc:date>Jun 2003</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 12749876</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1525-2167">
+        <dc:title>European Journal of Echocardiography: The Journal of the Working Group on Echocardiography of the European Society of Cardiology</dc:title>
+        <prism:volume>4</prism:volume>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Eur J Echocardiogr</dcterms:alternative>
+        <dc:identifier>ISSN 1525-2167</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4392">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:08:45</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/12749876</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4423">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Critical Care (London, England)</dc:title>
+                <prism:volume>20</prism:volume>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Crit Care</dcterms:alternative>
+                <dc:identifier>DOI 10.1186/s13054-016-1399-x</dc:identifier>
+                <dc:identifier>ISSN 1466-609X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Whitson</foaf:surname>
+                        <foaf:givenname>Micah R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mayo</foaf:surname>
+                        <foaf:givenname>Paul H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4424"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Critical Care</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Emergency medicine</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ultrasound</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Ultrasonography in the emergency department</dc:title>
+        <dcterms:abstract>Point-of-care ultrasonography (POCUS) is a useful imaging technique for the emergency medicine (EM) physician. Because of its growing use in EM, this article will summarize the historical development, the scope of practice, and some evidence supporting the current applications of POCUS in the adult emergency department. Bedside ultrasonography in the emergency department shares clinical applications with critical care ultrasonography, including goal-directed echocardiography, echocardiography during cardiac arrest, thoracic ultrasonography, evaluation for deep vein thrombosis and pulmonary embolism, screening abdominal ultrasonography, ultrasonography in trauma, and guidance of procedures with ultrasonography. Some applications of POCUS unique to the emergency department include abdominal ultrasonography of the right upper quadrant and appendix, obstetric, testicular, soft tissue/musculoskeletal, and ocular ultrasonography. Ultrasonography has become an integral part of EM over the past two decades, and it is an important skill which positively influences patient outcomes.</dcterms:abstract>
+        <bib:pages>227</bib:pages>
+        <dc:date>2016</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 27523885
+PMCID: PMC4983783</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_4424">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:13:26</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/27523885</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4419">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1742-271X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Purohit</foaf:surname>
+                        <foaf:givenname>Neeraj B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>King</foaf:surname>
+                        <foaf:givenname>Leonard J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4420"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>injuries</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>lower limb</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>sports</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ultrasound</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Ultrasound of lower limb sports injuries</dc:title>
+        <dcterms:abstract>Musculoskeletal ultrasound utilises high-frequency linear transducers to produce high-resolution images of soft tissue structures. It is an increasingly useful tool in the assessment of both acute and chronic musculoskeletal injuries; it is relatively cheap, portable and can be used to facilitate targeted injections. In this review paper, we aim to provide a summary on the normal and abnormal appearances of skeletal tissue in the setting of acute and chronic lower limb sporting injuries.</dcterms:abstract>
+        <bib:pages>149-157</bib:pages>
+        <dc:date>Aug 2015</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 27433251
+PMCID: PMC4760585</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1742-271X">
+        <dc:title>Ultrasound (Leeds, England)</dc:title>
+        <prism:volume>23</prism:volume>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Ultrasound</dcterms:alternative>
+        <dc:identifier>DOI 10.1177/1742271X15588809</dc:identifier>
+        <dc:identifier>ISSN 1742-271X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4420">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:13:14</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/27433251</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4401">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1550-9613"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spencer</foaf:surname>
+                        <foaf:givenname>Jacqueline K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adler</foaf:surname>
+                        <foaf:givenname>Ronald S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4402"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Community Health Services</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ghana</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Medical Missions, Official</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Miniaturization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ultrasonography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Utility of portable ultrasound in a community in Ghana</dc:title>
+        <dcterms:abstract>OBJECTIVE: In many developing countries, access to medical imaging is limited by availability of resources. Portable ultrasound shows great promise to meet the needs in these countries because it is transportable and relatively inexpensive, and it has a wide range of applications. As part of the Ghana Health Mission, Sekondi-Takoradi, Ghana, we explored the utility of ultrasound in primary care and hospital settings during March 2004. Our objective was to evaluate the clinical utility of a portable ultrasound machine in a variety of physical conditions and multiple clinical scenarios.
+METHODS: Ultrasound examinations were performed at 2 primary care sites and 2 hospitals using a portable ultrasound machine with linear and curved linear phased array transducers. Most ultrasound examinations were musculoskeletal, with the remainder being obstetric, pelvic, breast, vascular, abdominal, and genitourinary examinations.
+RESULTS: In clinic settings, musculoskeletal ultrasound represented 46% (16) of the ultrasound examinations performed, and 29% (10) of the cases were a combination of abdominal, pelvic, and genitourinary examinations. In hospital settings, abdominal, pelvic, and genitourinary ultrasound examinations combined were 56% (18), and musculoskeletal was 41% (13). Of the 67 ultrasound examinations performed, 81% (54) showed abnormal findings, 81% (54) were considered to add to the clinical diagnosis, and 40% (27) influenced medical care for the patients.
+CONCLUSIONS: This experience shows the usefulness of portable ultrasound examinations performed by a skilled radiologist in a clinical setting in Ghana; the challenge is to address how to best incorporate ultrasound into the current practice of medical professionals in developing countries.</dcterms:abstract>
+        <bib:pages>1735-1743</bib:pages>
+        <dc:date>Dec 2008</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 19022999</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1550-9613">
+        <dc:title>Journal of Ultrasound in Medicine: Official Journal of the American Institute of Ultrasound in Medicine</dc:title>
+        <prism:volume>27</prism:volume>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>J Ultrasound Med</dcterms:alternative>
+        <dc:identifier>ISSN 1550-9613</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4402">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dcterms:dateSubmitted>2016-09-19 08:10:05</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/19022999</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>

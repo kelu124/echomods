@@ -687,6 +687,16 @@ for eachModule in ModulesChaptDeux:
 	f.write(AddRawMurgenURL(MurgenSummary)+"\n\n")
 	f.close()
 
+	# Resume pour le wireless
+	WirelessSet = "# Wireless implementation of the modules\n\n"
+	f = open("include/AddWireless.md", 'r')
+	WirelessSet = WirelessSet+"\n\n"+AddOneLevel(f.read())
+	f.close()
+ 	f = open("gitbook/devkit11.md","w+")
+	f.write(AddRawHURL(WirelessSet)+"\n\n")
+	f.close()
+
+
 	# Resume technique de Murgen
 	f = open("include/AddIntroMurgen.md", 'r')
 	MurgenIntro = f.read()

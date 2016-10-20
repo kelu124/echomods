@@ -31,6 +31,8 @@ The modules sit on a breadboard, and communicate through the tracks laying below
 
 Even with the most expensive options, the basic kit, we're still below 500$.
 
+### The Beaglebone version: 500$
+
 Some stuff, unexpensive to buy, to build a ultrasound testing kit, totals _500$_, as detailed below:
 
 * A power supply giving 3.3V and 5V ([mogaba](/mogaba/)) -- _5$_
@@ -40,6 +42,17 @@ Some stuff, unexpensive to buy, to build a ultrasound testing kit, totals _500$_
 * A pulser ([oneeye](/oneeye/)) from a trinket pro  -- _20$_
 * An old ATL probe ([retroATL3](/retroATL3/)) -- _75$_
 * A beaglebone and PRUDAQ ([toadkiller](/toadkiller/)) -- _150$_
+
+### The arduino-like version: 400$
+
+* A power supply giving 3.3V and 5V ([mogaba](/mogaba/)) -- _5$_
+* An analog processing ([goblin](/goblin/)) -- _130$_
+* A high voltage pulser ([tobo](/tobo/)) -- _110$_
+* A motherboard ([doj](/doj/)) made out of stripboard  -- _10$_
+* A pulser ([oneeye](/oneeye/)) from a trinket pro  -- _20$_
+* Some transducer salvaged from ebay ([retroATL3](/retroATL3/)) -- _75$_
+* The STM32 module ([croaker](/croaker/)) -- _35$_
+* A servo and stuff ([cletus](/cletus/)) -- _15$_
 
 Need one of the custom boards? Message me at kelu124@gmail.com !
 
