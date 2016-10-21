@@ -4,14 +4,13 @@ Template of Hardware Metapaper
 ------
 
 For submission to the _Journal of Open Hardware_
-
-To complete this template, please replace the blue text with your own. The paper has five main sections: (1) Overview; (2) Quality Control; (3) Application (4) Build Details (5) Discussion.
+ 	
 
 # (1) Overview
 
 ## Title
 
-__A low-cost, module-based dev-kit for single-element ultrasound imaging__
+__A low-cost, arduino-like dev-kit for single-element ultrasound imaging__
 
 ## Paper authors
 
@@ -59,13 +58,26 @@ _Describe how the hardware was implemented/created, with relevant details of the
 
 _Note: This is not meant to be an assembly instruction. Assembly instructions, detailed material lists, and construction files must be deposited in an appropriate repository (see Repositories document) and referenced in section &quot;Build Details&quot;._
 
+### Using echoes
+
+Ultrasounds, high frequency sound waves, are used in medical application for both diagnosis and treatment of patients. Their frequencies can vary from 2 to approximately 15 MHz for regular imaging, sometimes higher frequencies are used for delicated, surface imaging.
+
+The ultrasound waves comes from the mechanical oscillations of a crystal in a transducer, excited by electrical pulses (which is called the piezoelectric effect). These pulses of sound are sent by the transducer, propagate through the different media being imaged, and then come back to the transducer as "reflected echoes". These reflected echoes are converted back into an electrical signal by the transducer and are further processed so to form the final image.
+
+![Principles of images](https://github.com/kelu124/echomods/raw/master/include/images/JOH/echoimaging.png)
+
+In general, these sound waves, as classical waves, are reflected at the interfaces between the tissues of different accoustic impendance (linked to the density of the medium), the strength of the echo being proportional to the difference in impedance. On the other hand, echoes are not produced if there is no accoustic difference, hence no impedance interface, between media. Homogenous fluidsare seen as echo-free structures.
+
+
 ### Why the modules?
 
 The aim of the kit being to allow one to explore the mechanisms of ultrasound processing, and to replace elements of the processing chain as desired, a modularized approach was considered.
 
+@todo: find article on modules/arduino
+
 Each module can be considered as a breakout board of the most central elements, intended for easy experimentation with usual equipment, such as breadboards and standard power supplies.
 
-Using modules also invites to conform to a standard exchange of information between the modules. As stripboards are a common material, it has been decided to make several signals exposed along 19 strips of the board. It can be noted that current modules leave most of the strips unused.
+Using modules also invites to conform to a standard exchange of information between the modules. As stripboards are a common material, it has been decided to make several signals exposed along 19 strips of the board, as per a standard format defined by the echOpen community. It can be noted that current modules leave most of the strips unused.
 
 ### Requirements
 
@@ -79,7 +91,7 @@ An echo being typically a couple of periods long, the envelope of the signal, he
 
 The repetition period chosen was 300us. This corresponds to an imaging depth of 230mm, more that was is required to image between 20 and 150 mm.
 
-### First iteration
+### A embedded-linux first iteration
 
 A first iteration of the hardware was embodied in a beaglebone-black extension (cape), where the cape 10Msps ADC would be tapping into the two PRUs to acquire the signal. A special attention was given to simplify power supply, limiting the inputs to 5V and 3.3V, the most common levels.
 
@@ -87,10 +99,12 @@ A first iteration of the hardware was embodied in a beaglebone-black extension (
 
 This first iteration permitted tests, and validated parts of the design. Despite its test points, this board did not provide all the insights that can be extracted from the hardware, so a redesign was considered, to expose all key inputs and outputs of the signal processing. For the sake of simplicity, a design of two modules emerged.
 
-- --One is the pulser module, where the high voltage and connection to the transducer lies.
-- --The other is the analog processing modules. A dual input for the clipped raw signal from the transducer was integrated, as well as different jumpers and pots, to control the VGA gain, as well as the ADC reference voltage. The high-speed ADC was removed, and replaced with a onboard serial 2Msps ADC.
+* One is the pulser module, where the high voltage and connection to the transducer lies.
+* The other is the analog processing modules. A dual input for the clipped raw signal from the transducer was integrated, as well as different jumpers and pots, to control the VGA gain, as well as the ADC reference voltage. The high-speed ADC was removed, and replaced with a onboard serial 2Msps ADC.
 
 The remaining modules are microcontrollers, processing units, or power supplies that can be easily obtained and easily modified and programmed.
+
+The latest set of modules is based on a wireless-enabled, arduino-compatible STM32 
 
 # (2) Quality control
 
@@ -313,19 +327,17 @@ _Task (e.g. design, assembly, use cases contribution, documentation, paper writi
 
 ## Acknowledgements
 
-_Please add any relevant acknowledgements to anyone else who supported the project in which the hardware was created, but did not work directly on the hardware itself. Please list anyone who helped to create the hardware and software (who may also not be an author of this paper), including their roles and affiliations._
-
-A huge thanks to the friends in the community for their sharing their ideas and giving their support. Thanks as well to Prof Charles and Zach to have given a try at testing the first iteration, the Hackaday community forgiving me the chance to go to the 2016 finals, the echOpen community (Farad, Benoit, Vincent, Jerome, Virginie, Emilie and the others) to have kept me motivated!
+A huge thanks to the friends in the community for their sharing their ideas and giving their support. Thanks as well to Prof Charles and Zach to have given a try at testing the first iteration, Sofian for his help on the hardware, the Hackaday community forgiving me the chance to go to the 2016 finals, the echOpen community (Farad, Benoit, Vincent, Jerome, Virginie, Emilie and the others) who has kept me motivated!
 
 ## Funding statement
-
-_If the hardware resulted from funded research please give the funder and grant number._
 
 This project has been funded by personal funds, and supported by two prizes from the hackaday 2016 contest.
 
 ## Competing interests
 
-&quot;The authors declare that they have no competing interests.&quot; Though LJ is a founder of the echOpen&#39;s project, this work has been pursued individually,the echOpen association has no involvementwith this work. LJ is discussing the crowdfunding of these modules&#39; kits with a partner.
+The authors declare that they have no competing interests.
+
+Though LJ is a founder of the echOpen&#39;s project, this work has been pursued individually,the echOpen association has no involvementwith this work. LJ is discussing the crowdfunding of these modules&#39; kits with a partner.
 
 ## References
 
