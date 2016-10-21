@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: D:\my_work\ALtium\us_#1\us_#1.PcbDoc
+DRC Rules Export File for PCB: C:\mydata\job\tobo\tobo\source\us_#1.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.00

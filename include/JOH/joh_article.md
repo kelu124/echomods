@@ -58,7 +58,12 @@ _Describe how the hardware was implemented/created, with relevant details of the
 
 _Note: This is not meant to be an assembly instruction. Assembly instructions, detailed material lists, and construction files must be deposited in an appropriate repository (see Repositories document) and referenced in section &quot;Build Details&quot;._
 
-### Using echoes
+### Towards simpler and smaller ultrasound devices
+
+Several publication point at the integration of such hardware in the scan head itself [3].
+
+
+### Using echoes for imaging
 
 Ultrasounds, high frequency sound waves, are used in medical application for both diagnosis and treatment of patients. Their frequencies can vary from 2 to approximately 15 MHz for regular imaging, sometimes higher frequencies are used for delicated, surface imaging.
 
@@ -68,28 +73,25 @@ The ultrasound waves comes from the mechanical oscillations of a crystal in a tr
 
 In general, these sound waves, as classical waves, are reflected at the interfaces between the tissues of different accoustic impendance (linked to the density of the medium), the strength of the echo being proportional to the difference in impedance. On the other hand, echoes are not produced if there is no accoustic difference, hence no impedance interface, between media. Homogenous fluidsare seen as echo-free structures.
 
-
-### Why the modules?
-
-The aim of the kit being to allow one to explore the mechanisms of ultrasound processing, and to replace elements of the processing chain as desired, a modularized approach was considered.
+### A modularized approach
 
 @todo: find article on modules/arduino
 
-Each module can be considered as a breakout board of the most central elements, intended for easy experimentation with usual equipment, such as breadboards and standard power supplies.
+The aim of the kit being to allow one to explore the mechanisms of ultrasound processing, and to replace elements of the processing chain as desired, a modularized approach was considered. Each module can be considered as a breakout board of the most central elements, intended for easy experimentation with usual equipment, such as breadboards and standard power supplies.
 
 Using modules also invites to conform to a standard exchange of information between the modules. As stripboards are a common material, it has been decided to make several signals exposed along 19 strips of the board, as per a standard format defined by the echOpen community. It can be noted that current modules leave most of the strips unused.
 
 ### Requirements
 
-A central element in the kit is the sensor, the ultrasound transducer. For the sake of simplicity, a frequency on the lower range of ultrasound imaging was chosen, as longer characteristic times would enable simpler actuators and slower ADCs. A frequency of 3.5MHz was chosen, with a focal distance of 70mm.
+State-of-the-art publication show a common structure for the different ultrasound systems [3]. One can note that recent developments, and research, show the feasibility to produce compact ultrasound imaging devices, which can interface with a smartphone [8], wirelessly or through USB [21].
 
-The kit requires a pulser component: to have the transducer emit a signal, a high voltage pulse, precisely controlled in amplitude and in time, needs to reach the transducer.
+A central element in the kit is the sensor, the ultrasound transducer. For the sake of simplicity, a frequency on the lower range of ultrasound imaging was chosen. Larger characteristic period enable simpler, slower controls and ADCs. A frequency of 3.5MHz was chosen, with a focal distance of 70mm, which is commonly used for obstetric and gynaecological imaging. As a consequence, we chose a repetition period chosen was 300us. This corresponds to an imaging depth of 230mm, more that was is required to image between 20 and 150 mm.
+
+The kit requires a pulser component: to have the transducer emit a signal, a high voltage pulse, precisely controlled in amplitude and in time, needs to reach the transducer. We chose off-the-shelf components after bibliography and research. Existing ICs exist, such as the MAX14808 [8], but are relatively complex, as they are octal or quad chain components.
 
 The kit then requires an &quot;analog processing&quot; component. After the acoustic wave leaves the transducer, echoes appear due to the acoustic impendance ruptures taking place in the medium being imaged. These echoes are captured by the transducer, and transformed back into a weak electrical signal, which needs to be processed. Classical processing includes filtering the signal around the central frequency of the transducer, then apply a low-noise amplification, then correcting the time-based attenuation. The image being the envelope of this last signal, one also needs to extract the envelope of this signal and pass this image to a digital convertor.
 
-An echo being typically a couple of periods long, the envelope of the signal, hence the ultrasound image, would have a 1 MHz frequency, which would required specific ADCs. Open hardware boards have onboard ADCs, but very few have ADCs above the Msps range, This implies that an analog envelope detection takes place on the board.
-
-The repetition period chosen was 300us. This corresponds to an imaging depth of 230mm, more that was is required to image between 20 and 150 mm.
+On the digitization side, an echo being typically a couple of periods long, the envelope of the signal, hence the ultrasound image, would have a 1 MHz frequency, which would required specific ADCs. Open hardware boards have onboard ADCs, but very few have ADCs above the Msps range, This implies that an analog envelope detection takes place on the board. However, we have used an existing open-source 40Msps DAQ on one of the modules, and have as well tried a 6Msps arduino IDE-compatible microcontroler to acquire the signal and stream it over wifi. 
 
 ### A embedded-linux first iteration
 
@@ -97,7 +99,9 @@ A first iteration of the hardware was embodied in a beaglebone-black extension (
 
 ### Designs of modules
 
-This first iteration permitted tests, and validated parts of the design. Despite its test points, this board did not provide all the insights that can be extracted from the hardware, so a redesign was considered, to expose all key inputs and outputs of the signal processing. For the sake of simplicity, a design of two modules emerged.
+This first iteration permitted tests, and validated parts of the design. Despite its test points, this board did not provide all the insights that can be extracted from the hardware, so a redesign was considered, to expose all key inputs and outputs of the signal processing. While existing compact elements exists, such as the AFE5808 (which which include low  noise amplifiers (LNA)  and  analog­ to-digital converters )[8], we prefered  using separate ICs, so that the user can measure exactly the target signal.
+ 
+For the sake of simplicity, a design of two separated modules emerged.
 
 * One is the pulser module, where the high voltage and connection to the transducer lies.
 * The other is the analog processing modules. A dual input for the clipped raw signal from the transducer was integrated, as well as different jumpers and pots, to control the VGA gain, as well as the ADC reference voltage. The high-speed ADC was removed, and replaced with a onboard serial 2Msps ADC.
@@ -112,7 +116,7 @@ The latest set of modules is based on a wireless-enabled, arduino-compatible STM
 
 Describe all relevant safety issues or reference to a risk assessment if included in the hardware documentation. Detail what safety considerations have been included in the hardware design and how these features have been tested, including any official safety standards or criteria that were used in this assessment. If appropriate, discuss the wider context of use of the hardware and safety issues or risks that may arise in the use environment.Most of the modules are found on usual open-source hardware procurement websites. However, the two modules specifically developed for this project fail to enter this category.
 
-One of the modules uses a DC-booster,which can raise the voltage it delivers above 100V.
+One of the modules uses a DC-booster, which can raise the voltage it delivers above 100V.
 However, design has limited high-voltage to specific points within the module, and to the SMA connector going to the transducer. The other pins of the module have inputs/outputs that range in the [-5V ; 5V] bracket.
 
 During the tests that took place, the full setup, without the motor, did not use more than 170mA at 9V. The ATL3 probe, alimented at 3.3V, brought the total power envelopeto 330mA at 9V.
@@ -131,13 +135,17 @@ Note: Detailed instructions belong in documentation; here, provide insight into 
 
 Calibration of ultrasound electrical signal processing requires a standard signal, which is difficult to provide if using a classical transducer. Moreover, due to the variety of transducers, it would be extremely difficult to obtain a standard setup and signal.A calibration tool has been built (the DAC module), based on a STM32F205 DAC. This permitted to &quot;record&quot; the calibration signal, and to simulate the behaviour of the pulser module.
 
-Calibration of the high-voltage level on the pulser module is done using an oscilloscope.
+Qualification and calibration of the high-voltage level on the pulser module is done using an oscilloscope.
 
-Finally, the gain level of the analog processing module is in the tests described below adjusted once and for all at the beginning of the experiment, to use the full range of output signal and obtain the best image possible. The level of gain can be selected, either from one input signal, or with a potentiometer, the choice between the two being made possible by a jumper.
+Finally, the gain level of the analog processing module is in the tests described below adjusted once and for all at the beginning of the experiment, to use the full range of output signal and obtain the best image possible. The level of gain can be selected, either from one input signal, coming from an external DAC for example, or with a potentiometer, the choice between the two being made possible by a jumper.
 
 ### Developping a home-made reference material
 
-A home-made phantom was used to test the first iteration of the board. It was made of a gelatin phantom, with tapioca inclusions of two types (2mm and 8mm), the medium being contained in a condom. This type of phantom does not conserve well, and was not reused for the second iteration.
+A home-made phantom was used to test the first iteration of the board. It was made of a gelatin phantom, with tapioca inclusions of two types (2mm and 8mm), the medium being contained in a condom (as in the picture below). 
+
+![The condom phantom](https://github.com/kelu124/echomods/raw/master/include/images/JOH/phantom.jpg)
+
+This type of phantom does not conserve well, and was not reused for the second iteration.
 
 ## General testing
 
@@ -145,8 +153,8 @@ _In this section, details can be provided on the testing of hardware functionali
 
 General testing has been done, especially for the two modules:
 
-- --For the pulser, the criteria of the tests were the duration of the pulse, which should match the input signals, as well as the voltage of the pulse, being set by a potentiometer. Tests were done using an oscilloscope.
-- --For the analog processing unit,the DAC module allowed a standard input to be processed, and the result of the processing analysed.
+* For the pulser, the criteria of the tests were the duration of the pulse, which should match the input signals, as well as the voltage of the pulse, being set by a potentiometer. Tests were done using an oscilloscope.
+* For the analog processing unit,the DAC module allowed a standard input to be processed, and the result of the processing analysed.
 
 General conditions of the tests were that of of a 150ns, 70V pulse for the pulser unit, with a repetition every 300us.
 
@@ -204,9 +212,9 @@ Whereas the second iteration of the hardware, the images obtained with the PRUDA
 
 ### Datasets
 
-- --A small library of images obtained with the first iteration is available at : [https://github.com/kelu124/murgen-dev-kit/tree/master/software/examples](https://github.com/kelu124/murgen-dev-kit/tree/master/software/examples)
-- --Full data from the phantom imaging can be found on [https://github.com/kelu124/echomods/blob/master/include/20160822/2016-08-22-Fantom.md](https://github.com/kelu124/echomods/blob/master/include/20160822/2016-08-22-Fantom.md),
-- --The data corresponding to the image of the dice can be found at [https://github.com/kelu124/echomods/blob/master/include/20160814/2016-08-14-HackingAUltrasoundProbe.md](https://github.com/kelu124/echomods/blob/master/include/20160814/2016-08-14-HackingAUltrasoundProbe.md) .
+* A small library of images obtained on home-made phantoms with the first iteration is available at : [https://github.com/kelu124/murgen-dev-kit/tree/master/software/examples](https://github.com/kelu124/murgen-dev-kit/tree/master/software/examples)
+* Full data from the regular phantom imaging can be found on [https://github.com/kelu124/echomods/blob/master/include/20160822/2016-08-22-Fantom.md](https://github.com/kelu124/echomods/blob/master/include/20160822/2016-08-22-Fantom.md),
+* The data corresponding to the image of the dice can be found at [https://github.com/kelu124/echomods/blob/master/include/20160814/2016-08-14-HackingAUltrasoundProbe.md](https://github.com/kelu124/echomods/blob/master/include/20160814/2016-08-14-HackingAUltrasoundProbe.md) .
 
 ## Reuse potential and adaptability
 
@@ -216,35 +224,48 @@ _Please provide your thoughts on the adaptability of the hardware design. What t
 
 _Also you must include details of what support mechanisms there are in place for this hardware and software (even if there is no support or support community)._
 
+### Application for non-destructive testing (NDT)
+
+The technology developped here does not differ from the technology used in NDT. Therefore, the whole set of modules can be used as-is in NDT, or its design can be adapted to NDT requirements.
+
 ### High speed DAC
 
 Having worked with the DAC module enables one to be able to work on the acquisition system, based on a known-signal input. This enables repeatability of the input, contrarly to images that are usually capture using a probe on a ultrasound phantom. This DAC can go up to 2MHz, on a limited voltage range, and could be used in testing analog signals processing
 
 ### Pulser
 
-IT is suggested that the pulser can be used in medical ultrasound image devices, but can also can be used for NDT, or for test applications. Its up to 35 MHz operating frequency and 2 ns matched delay times allow higher frequencies uses.
+IT is suggested that the pulser can be used in medical ultrasound image devices, or for test applications. Its up to 35 MHz operating frequency and 2 ns matched delay times allow higher frequencies uses, such as superficial imaging or doppler analyses [1].
 
 ### Analog processing
 
 The analogue processing module was tested for signals from 2MHz to 10MHz, with some distortion happening on the higher end of the bracket. However, it can be noted that, with the possibility to measure and control the inputs and outputs of between each processing unit, this module could possibly be used for signal demodulation.
 
+### High-speed, wireless DAQ
+
+The wireless DAQ module we built can go up to 6Msps, with a 10-bit resolution, on a [0;3.3V] input range, and can work on a battery, as there is a battery management system already built-in. This module could therefore be used in systems where rapid acquisition and wireless streaming need to be used. For example, for Software Defined Radio (SDR), this module can be used after the demodulation step.
+
 ### Modification of the home-made modules
 
 The modules source code has been released, it is relatively easy for electronic engineers to reuse this code. 
 
+### Other uses
+
+Apart from the well-know obstetrics and gynecology uses, ultrasound devices have been developped for several uses, which the current hardware could support, such as: doppler ultrasonography, constrast ultrasonography, molecular ultrasonography, elastography, non destructing testing, bladder measurement, ... . An interesting one, suggested by Richard et al [3], would be to provide visual biofeedback to stroke victims relearning to control muscles.
+
+
+### A low-cost option
+
+Apart from the wireless-enable microcontroler at 35$, the two custom modules components cost 60 and 85 euros respectively. This low-cost lifts the barrier of high-cost equipment purchase, and hance facilitates the reuse of these designs.
+
 ### Support
 
-This project benefits from an infrastructure that is completely open: github for the storage of files, and a gitbook to synthetize the complete documentation.
-
-
+This project benefits from an infrastructure that is completely open: github for the storage of files, and a gitbook to synthetize the complete documentation. A mailing-list gathers the community of different contributors, friends, .. which enables a community-based support.
 
 # (4) Build Details
 
 ## Availability of materials and methods
 
-_Summarise what materials have been used to construct the hardware and what methods to process the materials as well as the assembly. Provide more details or references where important materials or methods are non-standard, not globally available or produced only by one manufacturer._
-
-Most of the modules can be sourced from usual open-hardware online suppliers. The two specific modules can either be produced with a proper surface mount equipment, or the manufacturing files sent to a fab. They may also become available through a crowdfunding platform. The HV7360 becoming obsolete, it will be necessary to find a replacement for it.
+Most of the modules can be sourced from usual, well known open-hardware online suppliers.  Moreover, the two specific modules can either be produced with a proper surface mount equipment, or the manufacturing files sent to a fab. They may also become available through a crowdfunding platform. The HV7360 becoming obsolete, a new version of the board has been published.
 
 ## Ease of build
 
@@ -256,42 +277,36 @@ The design also relies on off-the-shelf ICs to limit the number of its component
 
 The non-custom modules can be found commercially, or built.
 
+Most of systems are FPGA (or DSP) based, especially for higher imaging frequencies [4][5], as well as using multiple-element transducers [7] -while maintaining costs and power consumption low. We considered that programming FPGA (even DSPs) was a steep requirement for non-specialists, hence we focused on alternatives. However, it can be noted that a FPGA module could be developped to interface with existing modules.  
+
 ## Operating software and peripherals
 
-_If hardware requires software, details on the operating software and programming language - Please include minimum version compatibility. Additional system requirements, e.g. memory, disk space, processor, input or output devices._
+The hardware has modules that require software to operate. These modules relie on the arduino IDE, and their code was compiled using Arduino IDE 1.6.9. For the wireless module, the WICED BSP version used was 0.5.5.
 
-_If the hardware does not require software, detail any required supporting processes or protocols required for use._
+To collect the data, the beaglebone module simply uses the beaglebone black with its PRUDAQ cape installed, where the data being acquired is available on a device (/dev/beaglelogic). With the wireless module, any wifi-enabled device can acquire the UDP stream. 
 
 ## Dependencies
 
 _E.g. other hardware or software projects, modular components, libraries, frameworks, incl. minimum version compatibility. Explicitly state if dependencies are proprietary / closed source._
 
-Most of the processing code is using python.
-
-The Beaglebone module is using a
-
-The Feather WICED module is using a
+* Most of the processing code is using Python 2.7, which is _GPL-compatible_.
+* The Beaglebone module is using a BeagleBone Black, which is under a _Creative Commons Attribution-Share Alike 3.0_ license.
+* The Feather WICED module is, Open Hardware and Open Source for its software.
+* The code for the arduino-compatible modules is developped under Arduino IDE.
+* The two boards developped under this project are following the Open Hardware TAPR license.
+* The source documents for these two boards was originally developped using Altium (proprietary), but the source is being ported to KiCad, which is under a GNU General Public License(GPL) version 3.
 
 ## Hardware documentation and files location:
 
-Archive for hardware documentation and build files (required. See _Repositories_ document for criteria, DocuBricks and alternative repositories.) _Note: We require the inclusion of modifiable design files as well as a detailed documentation of the functionality of the hardware with assembly instructions. This will be assessed as part of the journal peer review process._
+@todo Archive for hardware documentation and build files (required. See _Repositories_ document for criteria, DocuBricks and alternative repositories.) _Note: We require the inclusion of modifiable design files as well as a detailed documentation of the functionality of the hardware with assembly instructions. This will be assessed as part of the journal peer review process._
 
-* Name: The name of the archive
-* Persistent identifier: e.g. DOI, etc.
-* Licence: Open hardware license under which the documentation and files are licensed - see _Essential author information_ for more information
-* Publisher: Name of the person who deposited the documentation
-* Date published: dd/mm/yy
+* Name: Github repository for the ultrasound arduino-like modules
+* Persistent identifier: https://github.com/kelu124/echomods/
+* Licence: TAPR Open hardware license under which the documentation and files are licensed
+* Publisher: Luc JONVEAUX
+* Date published: 31/10/16
 * Modifiable design files (if different from above)
-* Name: The name of the emulation environment
-* Persistent identifier: e.g. DOI, handle, PURL, etc.
-* Licence: Open license under which the software is licensed here
-* Publisher: Name of the person who deposited the documentation
-* Date published: dd/mm/yy
-* Software code repository (e.g. SourceForge, GitHub etc.) (required)
-* Name: The name of the code repository
-* Identifier: The identifier (or URI) used by the repository
-* Licence: Open license under which the software is licensed
-* Date published: dd/mm/yy
+
 
 # (5) Discussion
 
@@ -305,21 +320,16 @@ _Further work pursued by the authors or collaborators; known issues; suggestions
 
 This set of modules shows that ultrasound imaging can profit from a usable dev-kit. Several points in this work however have to be reviewed, if not improved. Indeed:
 
--1: The pulser component, the HV7360LA-G, will see its production stopped.
+* In general, the design of the boards can be greatly improved. For example, having only two layers on the current design may be a source of noise. Moreover, applying a RF net to the board or using a RF shield for the sensitive parts may be an idea.
+* The pulser-module design uses only two inputs, and one high voltage source. However, the chip enables more complex uses as a pulser, which can be further explored.
+* The PRUDAQ has a real-time access to the digital information, as well as a linux userspace. Further programming would enable the beaglebone plateform to be a real server and controller of the setup.
+* The modules are slightly too wide for a breadboard: an effort could be done to make the pins available on a standard breadboard.
+* A whole field left unexplored so far is that of the transducer. As the key sensor in the kit, it would be interesting to explore relevant technologies to develop a low-cost, good-enough transducer.
+* The transducer at the moment lies in water. For ease of work, scan head will have to be developped. A difficulty will be to determine the  acoustic window material and its thickness. Several works already give pointers in that sense. [1]
+* For these high frequencies, a robust scan head can be used to obtain 130 fps, with light-weight transducer, and magnetic drive mechanism [2]. A bimorph actuator would be sufficient to drive the imaging transducer [4][5] immerged in the probe. The advantage of such a scanning device would be to precisely know the position of the line being imaged, while being cheaper, and more robust as there are no mechanical parts. An other alternative would be a ultrasound motor [6].
+* An additional module could link the ADC with a USB interface, providing as well the power for the other modules. We have shown that our modules can be run with a power bank, and previous work show is it possible to stay within the USB power enveloppe [3].
 
--2: Having only two layers on the current design may be a source of noise. Moreover, applying a RF net to the sensitive parts may be an idea.
-
-- 3: As a proof of concept, the image is not processed in quasi-realtime, and the framerate is not up to video standards. This can be improved.
-
-- The Pulser designs uses only two inputs, and one high voltage source. However, the chip enables more complex uses as a pulser, which can be further explored.
-
-- The DAC speed is limited to the Msps range. Having a better resolution would help with respect to exploring higher-frequency ultrasound imaging.
-
-- The PRUDAQ has a real-time access to the digital information, as well as a linux userspace. Further programming would enable the beaglebone plateform to be a real server and controller of the setup.
-
-- The modules are slightly too wide for a breadboard: an effort could be done to make the pins available on a standard breadboard.
-
-- A whole field left unexplored so far is that of the transducer. As the key sensor in the kit, it would be interesting to explore relevant technologies to develop a low-cost, good-enough transducer.
+Having a set of unexpensive arduino-like modules will support the development of ultrasound imaging research, and provide the keys to the researchers, makers and curious-minded persons to explore this field.
 
 ## Paper author contributions
 
@@ -337,47 +347,35 @@ This project has been funded by personal funds, and supported by two prizes from
 
 The authors declare that they have no competing interests.
 
-Though LJ is a founder of the echOpen&#39;s project, this work has been pursued individually,the echOpen association has no involvementwith this work. LJ is discussing the crowdfunding of these modules&#39; kits with a partner.
+Though LJ is a founder of the echOpen&#39;s project, this work has been pursued individually,the echOpen association has no involvement with this work. LJ is discussing the crowdfunding of these modules&#39; kits with a partner.
 
 ## References
 
-_Please enter references in the Vancouver style and include a DOI where available, citing them in the text with a number in square brackets, e.g._
+@todelete _Please enter references in the Vancouver style and include a DOI where available, citing them in the text with a number in square brackets, e.g._
 
-[1] Richard WD, Zar DM, Solek R. A low-cost B-mode USB ultrasound probe. Ultrason Imaging. janv 2008;30(1):21‑8.
+1. Erickson S, Kruse D, Ferrara K. A hand-held, high frequency ultrasound scanner. In IEEE; 2001 [cité 21 oct 2016]. p. 1465‑8. Disponible sur: http://ieeexplore.ieee.org/document/991996/
+2. Lei Sun, Richard WD, Cannata JM, Feng CC, Johnson JA, Yen JT, et al. A High-Frame Rate High-Frequency Ultrasonic System for Cardiac Imaging in Mice. IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control. août 2007;54(8):1648‑55. 
+3. Richard WD, Zar DM, Solek R. A low-cost B-mode USB ultrasound probe. Ultrason Imaging. janv 2008;30(1):21‑8. 
+4. Bezanson AB, Adamson R, Brown JA. A low-cost high frame-rate piezoelectric scanning mechanism for high-frequency ultrasound systems. In IEEE; 2011 [cité 21 oct 2016]. p. 458‑61. Disponible sur: http://ieeexplore.ieee.org/document/6293658/
+5. Brown JA, Leadbetter J, Leung M, Bezanson A, Adamson R. A low cost open source high frame-rate high-frequency imaging system. In IEEE; 2013 [cité 21 oct 2016]. p. 549‑52. Disponible sur: http://ieeexplore.ieee.org/document/6725177/
+6. Carotenuto R, Caliano G, Caronti A, Savoia A, Pappalardo M. Very fast scanning probe for ophthalmic echography using an ultrasound motor. In IEEE; 2004 [cité 21 oct 2016]. p. 1310‑3. Disponible sur: http://ieeexplore.ieee.org/document/1418032/
+7. Lee Y, Kang J, Sunmi Yeo, Lee J, Kim G-D, Yoo Y, et al. A new smart probe system for a tablet PC-based point-of-care ultrasound imaging system: Feasibility study. In IEEE; 2014 [cité 21 oct 2016]. p. 1611‑4. Disponible sur: http://ieeexplore.ieee.org/document/6931891/
+8. Ahn S, Kang J, Kim P, Lee G, Jeong E, Jung W, et al. Smartphone-based portable ultrasound imaging system: Prototype implementation and evaluation. In IEEE; 2015 [cité 21 oct 2016]. p. 1‑4. Disponible sur: http://ieeexplore.ieee.org/document/7329474/
+9. Ranganathan K, Santy MK, Fuller MI, Zhou S, Blalock TN, Hossack JA, et al. A prototype low-cost handheld ultrasound imaging system. In: Walker WF, Emelianov SY, éditeurs. 2004 [cité 21 oct 2016]. p. 24. Disponible sur: http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.537724
+10. Leveques P. Architecture d’un processeur dédié aux traitements de signaux ultrasoniques en temps réel en vue d’une intégration sur puce. [Internet]. [École Polytechnique de Montréal]; 2011. Disponible sur: https://publications.polymtl.ca/509/
+11. Chan V, Perlas A. Basics of Ultrasound Imaging. In: Narouze SN, éditeur. Atlas of Ultrasound-Guided Procedures in Interventional Pain Management [Internet]. New York, NY: Springer New York; 2011 [cité 21 oct 2016]. p. 13‑9. Disponible sur: http://link.springer.com/10.1007/978-1-4419-1681-5_2
+12. Baran JM, Webster JG. Design of low-cost portable ultrasound systems: Review. In IEEE; 2009 [cité 21 oct 2016]. p. 792‑5. Disponible sur: http://ieeexplore.ieee.org/document/5332754/
+13. Saijo Y, Nitta S, Kobayashi K, Arai H, Nemoto Y. Development of an ultra-portable echo device connected to USB port. Ultrasonics. avr 2004;42(1-9):699‑703. 
+14. Sharma JK. Development of a wide band front end echo sounder receiver circuit. 2015; Disponible sur: http://urn.nb.no/URN:NBN:no-51835
+15. Carotenuto R, Caliano G, Caronti A, Savoia A, Pappalardo M. Fast scanning probe for ophthalmic echography using an ultrasound motor. IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control. nov 2005;52(11):2039‑46. 
+16. Bharath R, Kumar P, Dusa C, Akkala V, Puli S, Ponduri H, et al. FPGA-Based Portable Ultrasound Scanning System with Automatic Kidney Detection. Journal of Imaging. 4 déc 2015;1(1):193‑219. 
+17. Dusa C, Rajalakshmi P, Puli S, Desai UB, Merchant SN. Low complex, programmable FPGA based 8-channel ultrasound transmitter for medical imaging researches. In IEEE; 2014 [cité 21 oct 2016]. p. 252‑6. Disponible sur: http://ieeexplore.ieee.org/document/7001850/
+18. Raj JR, Rahman SMK, Anand S. Microcontroller USB interfacing with MATLAB GUI for low cost medical ultrasound scanners. Engineering Science and Technology, an International Journal. juin 2016;19(2):964‑9. 
+19. Hendy AM, Hassan M, Eldeeb R, Kholy D, Youssef A-B, Kadah YM. PC-based modular digital ultrasound imaging system. In IEEE; 2009 [cité 21 oct 2016]. p. 1330‑3. Disponible sur: http://ieeexplore.ieee.org/document/5441904/
+20. Chiang AM, Chang PP, Broadstone SR. PC-based ultrasound imaging system in a probe. In IEEE; 2000 [cité 21 oct 2016]. p. 1255‑60. Disponible sur: http://ieeexplore.ieee.org/document/921551/
+21. Kyu Cheol Kim, Min Jae Kim, Hyun Suk Joo, Wooyoul Lee, Changhan Yoon, Tai-Kyong Song, et al. Smartphone-based portable ultrasound imaging system: A primary result. In IEEE; 2013 [cité 21 oct 2016]. p. 2061‑3. Disponible sur: http://ieeexplore.ieee.org/document/6725301/
 
-[2] Brown JA, Leadbetter J, Leung M, Bezanson A, Adamson R. A low cost open source high frame-rate high-frequency imaging system. In IEEE; 2013 [cité 21 oct 2016]. p. 549‑52\. Disponible sur: http://ieeexplore.ieee.org/document/6725177/
 
-[3] Lee Y, Kang J, Sunmi Yeo, Lee J, Kim G-D, Yoo Y, et al. A new smart probe system for a tablet PC-based point-of-care ultrasound imaging system: Feasibility study. In IEEE; 2014 [cité 21 oct 2016]. p. 1611‑4\. Disponible sur: http://ieeexplore.ieee.org/document/6931891/
-
-[4] Fuller MI, Blalock TN, Hossack JA, Walker WF. A portable, low-cost, highly integrated, 3D medical ultrasound system. In IEEE; 2003 [cité 21 oct 2016]. p. 38‑41\. Disponible sur: http://ieeexplore.ieee.org/document/1293352/
-
-[5] Ranganathan K, Santy MK, Fuller MI, Zhou S, Blalock TN, Hossack JA, et al. A prototype low-cost handheld ultrasound imaging system. In: Walker WF, Emelianov SY, éditeurs. 2004 [cité 21 oct 2016]. p. 24\. Disponible sur: http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.537724
-
-[6] Leveques P. Architecture d’un processeur dédié aux traitements de signaux ultrasoniques en temps réel en vue d’une intégration sur puce. [Internet]. [École Polytechnique de Montréal]; 2011\. Disponible sur: https://publications.polymtl.ca/509/
-
-[7] Chan V, Perlas A. Basics of Ultrasound Imaging. In: Narouze SN, éditeur. Atlas of Ultrasound-Guided Procedures in Interventional Pain Management [Internet]. New York, NY: Springer New York; 2011 [cité 21 oct 2016]. p. 13‑9\. Disponible sur: http://link.springer.com/10.1007/978-1-4419-1681-5_2
-
-[8] Sharma JK. Development of a wide band front end echo sounder receiver circuit. 2015; Disponible sur: http://urn.nb.no/URN:NBN:no-51835
-
-[9] Carotenuto R, Caliano G, Caronti A, Savoia A, Pappalardo M. Fast scanning probe for ophthalmic echography using an ultrasound motor. IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control. nov 2005;52(11):2039‑46.
-
-[10] Bharath R, Kumar P, Dusa C, Akkala V, Puli S, Ponduri H, et al. FPGA-Based Portable Ultrasound Scanning System with Automatic Kidney Detection. Journal of Imaging. 4 déc 2015;1(1):193‑219.
-
-[11] ADAM J. iPHONE ULTRASOUND [Internet]. 2012\. Disponible sur: https://courses.engr.illinois.edu/ece445/getfile.asp?id=5167
-
-[12] Dusa C, Rajalakshmi P, Puli S, Desai UB, Merchant SN. Low complex, programmable FPGA based 8-channel ultrasound transmitter for medical imaging researches. In IEEE; 2014 [cité 21 oct 2016]. p. 252‑6\. Disponible sur: http://ieeexplore.ieee.org/document/7001850/
-
-[13] Raj JR, Rahman SMK, Anand S. Microcontroller USB interfacing with MATLAB GUI for low cost medical ultrasound scanners. Engineering Science and Technology, an International Journal. juin 2016;19(2):964‑9.
-
-[14] Hendy AM, Hassan M, Eldeeb R, Kholy D, Youssef A-B, Kadah YM. PC-based modular digital ultrasound imaging system. In IEEE; 2009 [cité 21 oct 2016]. p. 1330‑3\. Disponible sur: http://ieeexplore.ieee.org/document/5441904/
-
-[15] Chiang AM, Chang PP, Broadstone SR. PC-based ultrasound imaging system in a probe. In IEEE; 2000 [cité 21 oct 2016]. p. 1255‑60\. Disponible sur: http://ieeexplore.ieee.org/document/921551/
-
-[16] Kyu Cheol Kim, Min Jae Kim, Hyun Suk Joo, Wooyoul Lee, Changhan Yoon, Tai-Kyong Song, et al. Smartphone-based portable ultrasound imaging system: A primary result. In IEEE; 2013 [cité 21 oct 2016]. p. 2061‑3\. Disponible sur: http://ieeexplore.ieee.org/document/6725301/
-
-[17] Ahn S, Kang J, Kim P, Lee G, Jeong E, Jung W, et al. Smartphone-based portable ultrasound imaging system: Prototype implementation and evaluation. In IEEE; 2015 [cité 21 oct 2016]. p. 1‑4\. Disponible sur: http://ieeexplore.ieee.org/document/7329474/
-
-[18] Carotenuto R, Caliano G, Caronti A, Savoia A, Pappalardo M. Very fast scanning probe for ophthalmic echography using an ultrasound motor. In IEEE; 2004 [cité 21 oct 2016]. p. 1310‑3\. Disponible sur: http://ieeexplore.ieee.org/document/1418032/
 
 
 ### Copyright notice

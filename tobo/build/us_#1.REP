@@ -1,88 +1,258 @@
 *************************************************************
-FileName = us_#1.PcbDoc
-ODB++ directory structure
+FileName = us_#1.GBR
+AutoAperture = True
 *************************************************************
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\matrix\matrix
+Generating : Top Layer
+      File : us_#1.GTL
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\profile
+    Adding Layer      : Top Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\stephdr
+    Adding Layer      : Mechanical 1
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\attrlist
+    Adding Layer      : Multi-Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\topoverlay\features
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\topoverlay\attrlist
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\toppaste\features
+*************************************************************
+Generating : Bottom Layer
+      File : us_#1.GBL
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\toppaste\attrlist
+    Adding Layer      : Bottom Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\topsolder\features
+    Adding Layer      : Mechanical 1
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\topsolder\attrlist
+    Adding Layer      : Multi-Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\top\features
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\top\attrlist
+Used DCodes :
+    D11
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\bottom\features
+*************************************************************
+Generating : Top Overlay
+      File : us_#1.GTO
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\bottom\attrlist
+    Adding Layer      : Top Overlay
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\bottomsolder\features
+    Adding Layer      : Mechanical 1
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\bottomsolder\attrlist
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\bottompaste\features
+Used DCodes :
+    D17
+    D39
+    D40
+    D41
+*************************************************************
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\bottompaste\attrlist
+*************************************************************
+Generating : Top Paste
+      File : us_#1.GTP
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\bottomoverlay\features
+    Adding Layer      : Top Paste
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\bottomoverlay\attrlist
+    Adding Layer      : Mechanical 1
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\drill\features
+    Adding Layer      : Top Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\drill\attrlist
+    Adding Layer      : Multi-Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\drill\tools
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\keepout\features
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D17
+*************************************************************
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\keepout\attrlist
+*************************************************************
+Generating : Top Solder
+      File : us_#1.GTS
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical1\features
+    Adding Layer      : Top Solder
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical1\attrlist
+    Adding Layer      : Mechanical 1
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical8\features
+    Adding Layer      : Top Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical8\attrlist
+    Adding Layer      : Multi-Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical13\features
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical13\attrlist
+Used DCodes :
+    D17
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+*************************************************************
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical14\features
+*************************************************************
+Generating : Bottom Solder
+      File : us_#1.GBS
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical14\attrlist
+    Adding Layer      : Bottom Solder
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical15\features
+    Adding Layer      : Mechanical 1
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\mechanical15\attrlist
+    Adding Layer      : Bottom Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\comp_+_top\features
+    Adding Layer      : Multi-Layer
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\comp_+_top\components
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\comp_+_bot\features
+Used DCodes :
+    D17
+    D43
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\comp_+_bot\components
+*************************************************************
+Generating : Bottom Paste
+      File : us_#1.GBP
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\rout\features
+    Adding Layer      : Bottom Paste
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\layers\rout\tools
+    Adding Layer      : Mechanical 1
 
-Generated File : D:\my_work\ALtium\us_#1\Project Outputs for us_#1\odb\steps\pcb\eda\data
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D17
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : us_#1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D17
+    D39
+    D40
+    D66
+    D67
+    D68
+    D69
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : us_#1.GD1
+
+    Adding Layer      : Mechanical 1
+
+    Adding Drill Pair : Bottom Layer-Top Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D17
+    D69
+    D70
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : us_#1.GG1
+
+    Adding Layer      : Mechanical 1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D17
+    D69
+*************************************************************
 
