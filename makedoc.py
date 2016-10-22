@@ -20,101 +20,41 @@ import Image
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-
-# -------------------------
-# Aide pour le graphe
-# -------------------------
-
-graph = functools.partial(gv.Graph, format='svg')
-digraph = functools.partial(gv.Digraph, format='svg')
+from bs4 import BeautifulSoup 
+from doc.mkdoc import *
+ 
 
 GraphModules = digraph()
 
-def Svg2Png(svgfile):
-	output_filename = svgfile+'.png'
-	input_filename = svgfile+'.svg'
-
-	svg_file = open(input_filename,"r")
-
-	with wand.image.Image() as image:
-	    with wand.color.Color('transparent') as background_color:
-		library.MagickSetBackgroundColor(image.wand, background_color.resource) 
-	    image.read(blob=svg_file.read())
-	    png_image = image.make_blob("png32")
-
-	with open(output_filename, "wb") as out:
-	    out.write(png_image)
 
 # -------------------------
 # Obtenir la liste des modules
 # -------------------------
 
-ExcludeDirs = ["include","retired","tools",".git","gh-pages","doc","gitbook"]
-dirname = "./"
-ListOfDirs = os.listdir(dirname)  
-ModulesDirs = []
-# On itere
-for f in ListOfDirs:
-	if  os.path.isdir(f):
-		ModulesDirs.append(f)
-# On retire les repertoires non modules
-ListOfDirs = [x for x in ModulesDirs if x not in ExcludeDirs]
-
+ListOfDirs = GetListofModules("./")
 for eachInput in ListOfDirs:
 	GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
+print ListOfDirs
 
 # -------------------------
 # Retired modules List
 # -------------------------
 
-ExcludeDirs = ["include","tools",".git","gh-pages"]
-dirname = "./retired"
-ListOfRetiredDirs = os.listdir(dirname)  
-#print ListOfRetiredDirs
-RetiredModulesDirs = []
-# On itere
-for f in ListOfRetiredDirs:
-	if  os.path.isdir(f):
-		RetiredModulesDirs.append(f)
-# On retire les repertoires non modules
-
-
-#print ListOfRetiredDirs
+ListOfRetiredDirs = GetListofModules("./retired")
+print ListOfRetiredDirs
 
 # -------------------------
 # Files includes
 # -------------------------
 
-f = open("include/AddPitch.md",'r')
-pitch = f.read()
-f.close()
-
-HeaderDoc = open("include/AddEchomods.md")
-HeaderDocTxt = HeaderDoc.read()+"\n\n"
-HeaderDoc.close()
-
-AddInterfacesDoc = open("include/AddInterfaces.md")
-AddInterfacesDocTxt = AddInterfacesDoc.read()+"\n\n"
-AddInterfacesDoc.close()
-
-AddLicenseDoc = open("include/AddLicense.md")
-AddLicenseDocTxt = AddLicenseDoc.read()+"\n\n"
-AddLicenseDoc.close()
-
-f = open("include/AddPrinciples.md", 'r')
-AddPrinciples = f.read()
-f.close()
-
-f = open("include/AddStructure.md", 'r')
-AddStructure = f.read()
-f.close()
-
-f = open("include/AddStructureDetails.md", 'r')
-AddStructureDetails = f.read()
-f.close()
-f = open("include/AdHocShoppingList.md", 'r')
-AddShoppingList = f.read()
-f.close()
+pitch = getText("include/AddPitch.md")
+HeaderDocTxt = getText("include/AddEchomods.md")
+AddInterfacesDocTxt= getText("include/AddInterfaces.md")
+AddLicenseDocTxt = getText("include/AddLicense.md")
+AddPrinciples = getText("include/AddPrinciples.md")
+AddStructure = getText("include/AddStructure.md")
+AddStructureDetails = getText("include/AddStructureDetails.md")
+AddShoppingList = getText("include/AdHocShoppingList.md")
 
 # -------------------------
 # Préparer un tableau de présentation
@@ -123,15 +63,20 @@ f.close()
 TableModules = "# A recap of our modules \n\n\n"
 TableModulesShort = "# A recap of our modules \n\n\n"
 
-TableModules += "| ThumbnailImage | Name | In | Out |\n"
-TableModules += "|------|-------|----|------|\n"
-TableModulesShort += "| ThumbnailImage | Name | \n"
-TableModulesShort += "|------|-------| \n"
+TableModules += "| ThumbnailImage | Name | In | Out |\n|------|-------|----|------|\n"
+TableModulesShort += "| ThumbnailImage | Name | \n|------|-------| \n"
 
 for ReadMe in ListOfDirs:
-	f = open(ReadMe+"/Readme.md", 'r')
-	ReadMehHtmlMarkdown=markdown.markdown( f.read() )
-	f.close()
+	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
+
+
+	# OK - Check real name
+	ModuleNomenclature = getHs(soup,"h2","Name")
+	if len(ModuleNomenclature)>0: 
+	    NameCheck = "["+ReadMe+ "] "+GreenMark+" 01. Real name found: "+ModuleNomenclature.find_next("code").text
+	    log.append(NameCheck)
+	if len(NameCheck)==0:
+	    log.append("["+ReadMe+ "] "+RedMark+" 01. No Real name found ")
 
 	# Getting the Desc of the Module
 	pattern = r"</h3>([\s\S]*)<h3>How"
@@ -144,91 +89,81 @@ for ReadMe in ListOfDirs:
 	print ReadMe
 	Desc = Desc[0]
 
-	# Getting the Innards of the Module // inside the block diagram
-	pattern = r"block diagram</h3>([\s\S]*)<h2>About"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
-	patternCode = r"<li>(.*?)</li>"
-	Pairs = []
+	# OK - Getting the Innards of the Module // inside the block diagram
 	GraphThisModule = digraph()
-	for item in results:
-            Pairs= (map(str, re.findall(patternCode, item, flags=0)))
-	    for eachPair in Pairs:
-		eachPair = eachPair.replace("<code>", "")
-		eachPair = eachPair.replace("</code>", "")
-		Couples = eachPair.split("-&gt;")		
-		for single in Couples:
-		    GraphThisModule.node(single, style="rounded")
-		# Add the edge		
-		for k in range(len(Couples)-1):
-		    GraphThisModule.edge(Couples[k], Couples[k+1])
-		# GraphModules.render('include/'+ReadMe)
-	GraphThisModule.render(ReadMe+'/source/blocks')
-	Svg2Png(ReadMe+'/source/blocks')
-
-	# Getting the Inputs of the Module
-	pattern = r"Inputs</h3>([\s\S]*)<h3>Outputs"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
-	patternCode = r"<code>(.*?)</code>"
-	Inputs = []
-	for item in results:
-	    Inputs = map(str, re.findall(patternCode, item, flags=0))
-	    for eachInput in Inputs:
-		if "ITF-m" not in eachInput:
-		    GraphModules.node(eachInput, style="rounded,filled", fillcolor="yellow")
-		else:
-		    GraphModules.node(eachInput, style="rounded,filled", fillcolor="green")		
-		GraphModules.edge(eachInput, ReadMe, splines="line", nodesep="1")
-	if len(Inputs) > 0:
-		inpoots = "<ul><li>"+"</li><li>".join( Inputs )+"</li></ul>"
+	Paires =  returnHList(soup,"h3","block diagram")
+   	if (len(Paires) > 0):
+		GraphModule(Paires,GraphThisModule,ReadMe)
+		log.append("["+ReadMe+ "] "+GreenMark+" 01. Block diagram OK")
 	else:
-		inpoots = ""
-	
+	    	log.append("["+ReadMe+ "] "+RedMark+" 01. No block diagram section ")
 
-
-	# Getting the Ouputs of the Module
-	pattern = r"Outputs</h3>([\s\S]*)<h2>Key"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
-	patternCode = r"<code>(.*?)</code>"
-	Outputs = []
-	for item in results:
-	    Outputs = map(str, re.findall(patternCode, item, flags=0))
-	    for eachOutput in Outputs:
-		if "ITF-m" not in eachOutput:
-		    GraphModules.node(eachOutput, style="rounded,filled", fillcolor="yellow")
+	# OK - Getting the Inputs of the Module
+	ItemList =  returnHList(soup,"h3","Inputs")
+	Module = []
+ 	for OneIO in ItemList:
+		codes = getCode(OneIO)
+		if len(codes) > 0:
+		    for EachIO in codes:
+			Module.append(EachIO)
+	if len(Module)>0:
+	    inpoots = "<ul>"
+	    for item in Module:
+		inpoots += "<li>"+item+"</li>"
+		if "ITF-m" not in item:
+		    GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
 		else:
-		    GraphModules.node(eachOutput, style="rounded,filled", fillcolor="green")
-		GraphModules.edge(ReadMe, eachOutput, splines="line", nodesep="1", fillcolor="red")
-	if len(Outputs) > 0:
-		outpoots = "<ul><li>"+"</li><li>".join( Outputs )+"</li></ul>"
-	else:
-		outpoots = ""
+		    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
+		GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
+	    inpoots += "</ul>"
+	    log.append("["+ReadMe+ "] "+GreenMark+" "+str(len(ItemList))+" input(s)")
+	if len(ItemList)==0:
+	    log.append("["+ReadMe+ "] "+RedMark+" 02. No inputs ")
+
+
+	# OK - Getting the Outputs of the Module
+	ItemList =  returnHList(soup,"h3","Outputs")
+	Module = []
+ 	for OneIO in ItemList:
+		codes = getCode(OneIO)
+		if len(codes) > 0:
+		    for EachIO in codes:
+			Module.append(EachIO)
+	if len(Module)>0:
+	    outpoots = "<ul>"
+	    for item in Module:
+		outpoots += "<li>"+item+"</li>"
+		if "ITF-m" not in item:
+		    GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
+		else:
+		    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
+		GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
+	    outpoots += "</ul>"
+	    log.append("["+ReadMe+ "] "+GreenMark+" "+str(len(ItemList))+" output(s)")
+	if len(ItemList)==0:
+	    log.append("["+ReadMe+ "] "+RedMark+" 02. No outputs ")
 
 
 	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
 
 	TableModulesShort +=  "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|\n"
 
-TableDocTxt = TableModules+"\n\n"
-
 
 # Saving it in a file
-f = open("include/AddModulesSummary.md","w+")
-f.write(TableDocTxt)
-f.close()
+OpenWrite(TableModules+"\n\n","include/AddModulesSummary.md")
+
 
 # -------------------------
 # Retired Modules Table
 # -------------------------
 
 TableRetiredModules = "# A recap of our retired modules \n\n\n"
-
 TableRetiredModules += "| ThumbnailImage | Name | In | Out |\n"
 TableRetiredModules += "|------|-------|----|------|\n"
 
 for ReadMe in ListOfRetiredDirs:
-	f = open("./retired/"+ReadMe+"/Readme.md", 'r')
-	ReadMehHtmlMarkdown=markdown.markdown( f.read() )
-	f.close()
+
+	[soup,ReadMehHtmlMarkdown] = returnSoup("./retired/"+ReadMe+"/Readme.md")
 
 	# Getting the Desc of the Module
 	pattern = r"</h3>([\s\S]*)<h3>How"
@@ -381,7 +316,7 @@ GraphModulesTxt = "\n# The modules organization \n\n"
 
 GraphModulesTxt += "![Graph](/include/sets/basic.png) \n\n"
 
-FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableDocTxt+TableAvancement+TODOsToShopping+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
+FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableModules+TableAvancement+TODOsToShopping+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
 f = open("Readme.md","w+")
 f.write(FinalDoc)
@@ -392,7 +327,7 @@ f.close()
 # -------------------------
 
 f = open("gh-pages/ppt.md","w+")
-Presentation =  "% Habits\n% John Doe\n% March 22, 2005\r\n \r\n"+"\n# What do we do?\r\n \r\n"+HeaderDocTxt+" \n# Graphing the modules\r\n \r\n"+GraphModulesTxt+" \n# Table Docs\r\n"+TableDocTxt+"\r\n# Progress\r\n \r\n"+TableAvancement
+Presentation =  "% Habits\n% John Doe\n% March 22, 2005\r\n \r\n"+"\n# What do we do?\r\n \r\n"+HeaderDocTxt+" \n# Graphing the modules\r\n \r\n"+GraphModulesTxt+" \n# Table Docs\r\n"+TableModules+"\r\n# Progress\r\n \r\n"+TableAvancement
 f.write(Presentation)
 f.close()
 
@@ -411,17 +346,7 @@ styles = {
     }
 }
 
-def apply_styles(graph, styles):
-    graph.graph_attr.update(
-        ('graph' in styles and styles['graph']) or {}
-    )
-    graph.node_attr.update(
-        ('nodes' in styles and styles['nodes']) or {}
-    )
-    graph.edge_attr.update(
-        ('edges' in styles and styles['edges']) or {}
-    )
-    return graph
+
 
 
 # -------------------------
@@ -517,77 +442,9 @@ for item in ListePosts:
 
 
 
-ModulesChaptDeux = ["tobo","retroATL3","mogaba","goblin","tobo","toadkiller"]
-ModulesChaptTrois = ["silent","cletus","croaker","doj","sleepy","oneeye"]
-
-def GitBookizeModule(s,module):
-	t = s.split("\n## ")
-	del t[1]
-	titreModule = t[1]
-	titreModule = titreModule.replace("\n","").replace("Title","")
-	del t[1]
-	del t[1]
-	del t[1]
-	del t[1]
-	del t[-1]
-	del t[-1]
-	del t[0]	
-	joiner = "\n## "
-	u = joiner.join(t)
-
-	u = "## "+u.replace("![Block schema](source/blocks.png)","![Block schema](https://raw.githubusercontent.com/kelu124/echomods/master/"+module+"/source/blocks.png)")
 
 
-	HeaderModule = "# "+titreModule+ "\n\n ## What does it look like? \n\n <img src='https://raw.githubusercontent.com/kelu124/echomods/master/"+module+"/viewme.png' align='center' width='150'>\n\n"
 
-	u = HeaderModule+ u
-	return u
-
-
-def SearchString(s, leader, trailer):
-  end_of_leader = s.index(leader) + len(leader)
-  start_of_trailer = s.index(trailer, end_of_leader)
-  return s[end_of_leader:start_of_trailer]
-
-def AddOneLevel(s):
-	return s.replace("# ", "## ")
-
-def AddTwoLevels(s):
-	return s.replace("# ", "### ")
-
-def WorkLogLevel(s):
-	return s.replace("#### ", "## ")
-
-def IncludeImage(s):
-	return s.replace("<img src='https://github.com/kelu124/echomods/blob/master/", "<img src='https://raw.githubusercontent.com/kelu124/echomods/master/")
-
-def AddRawHURL(s):
-	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
-	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/"
-	for moduledeux in ModulesChaptDeux:
-		s = s.replace("](/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")	
-		s = s.replace("](/"+moduledeux+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduledeux+"/source/blocks.png)")	
-		s = s.replace("](/"+moduledeux+"/Readme.md)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")
-	for moduletrois in ModulesChaptTrois:
-		s = s.replace("](/"+moduletrois+"/)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")	
-		s = s.replace("](/"+moduletrois+"/Readme.md)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")
-		s = s.replace("](/"+moduletrois+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduletrois+"/source/blocks.png)")	
-
-	return s.replace("![](/", "![]("+URL)
-
-def AddRawMurgenURL(s):
-	ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
-
-	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
-	URL = "https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/"
-	for Session in ListOfMurgenSessions:
-		s = s.replace("](/worklog/"+Session+")", "]("+BaseURL+"/Chapter4/"+Session+")")	
-
-	s= re.sub('!\[.*\]', '![]', s)
-
-	
-
-	return s.replace("![](/", "![]("+URL)
 
 # -------------------------
 # Gitbooking worklog
@@ -840,27 +697,16 @@ f.close()
 # Adding CHAPTER 5 : Data 
 # -------------------------
 
-f = open("include/AddFormatRules.md", 'r')
-DataFormat = f.read()
-f.close()
 
-f = open("gitbook/Chapter5/dataformat.md","w+")
-f.write("# DataFormat \n\n"+AddRawHURL(DataFormat)+"\n\n")
-f.close()
+DataFormat = getText("include/AddFormatRules.md")
+OpenWrite("# DataFormat \n\n"+AddRawHURL(DataFormat)+"\n\n","gitbook/Chapter5/dataformat.md")
 
-f = open("./../murgen-dev-kit/software/examples/Readme.md", 'r')
-Examples = f.read()
-f.close()
-
-Examples = Examples.split("# ")
+Examples = getText("./../murgen-dev-kit/software/examples/Readme.md").split("# ")
 TableDataExamples = "# "+Examples[-1]
-f = open("gitbook/Chapter5/images.md","w+")
-f.write("# Still images from murgen \n\n"+TableDataExamples+"\n\n")
-f.close()
+OpenWrite("# Still images from murgen \n\n"+TableDataExamples+"\n\n","gitbook/Chapter5/images.md")
 
-f = open("croaker/data/examples/Readme.md", 'r')
-Examples_croaker = f.read()
-f.close()
+
+Examples_croaker=getText("croaker/data/examples/Readme.md")
 
 f = open("gitbook/Chapter5/croaker_data.md","w+")
 f.write("# Images acquired using Croaker \n\n"+AddRawHURL(AddOneLevel(Examples_croaker))+"\n\n")
@@ -887,19 +733,16 @@ f.close()
 # -------------------------
 
 
-f = open("include/Bibliography.md", 'r')
-articles = f.read()
-f.close()
+
+
+articles=getText("include/Bibliography.md")
 
 f = open("gitbook/Chapter6/articles.md","w+")
 f.write("# Bibliography \n\n"+AddRawHURL(articles)+"\n\n")
 f.close()
 
-f = open("./../murgen-dev-kit/worklog/bibliographie.md", 'r')
-electronics = f.read()
-f.close()
 
-electronics = electronics.replace("# Our setup\n","")
+electronics = getText("./../murgen-dev-kit/worklog/bibliographie.md").replace("# Our setup\n","")
 
 
 f = open("gitbook/Chapter6/components.md","w+")
@@ -933,6 +776,17 @@ f.close()
 
 f = open("gitbook/Chapter7/license.md","w+")
 f.write(AddLicenseDocTxt+"\n\n")
+f.close()
+
+
+# -------------------------
+# Saving the compilation log
+# -------------------------
+
+
+f = open("doc/log.md","w+")
+log.sort()
+f.write("\n".join( log ))
 f.close()
 
 

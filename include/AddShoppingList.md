@@ -3,6 +3,7 @@
 Here's a couple of things we're working on, for which you could help as well.
 
 * Boosting the 6Msps croaker acquisition
+
 * Choose the design once the modules are done (in [sleepy](/sleepy/))
 * Get to work with Arthur (in [sleepy](/sleepy/))
 * Publish the sources in KiCAD (in [tobo](/tobo/))

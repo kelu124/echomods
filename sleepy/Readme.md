@@ -23,10 +23,11 @@ The object containing the different modules.
 
 ### Inputs
 
-*  
+*  `None`
+
 ### Outputs
 
-*  
+*  `None`
 
 ## Key Components
 

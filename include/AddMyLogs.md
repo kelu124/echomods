@@ -723,5 +723,47 @@ Would you like to support an existing project with your skills and expertise? Or
 * Hopes to get the STM32 go faster =)
 * Adding the croaker work to the gitbook .. and cleaning some remaining broken links during doc generation.
 
+#### 2016-10-02 VIdeo for hackaday contest
+
+* Done in halong bay
+
+#### 2016-10-20 Meeting and such
+
+* Meeting at HD, milestone with Bitmakers
+* USB key that does Pulser, Acquisition : http://www.lecoeur-electronique.net/cariboost_files/us-key_r4_0.pdf
+
+#### 2016-10-21 Update of Tobo
+
+* [The pulser module](/tobo/) used a HV7360, which went from a LFGA to a CABGA. The gerbers were updated accordingly.
+
+#### 2016-10-22 End of week
+
+* Trouvé au hasard : "One material with exceptional acoustic properties is TPX (polymethylpentene) [Westlake Plastics Company,  Lenni,  PA]. Pour une sonde à 35MHz, mais ca peut donner des pistes de suppliers. (Ref 10.1109/ULTSYM.2001.991996)
+* Article being written at https://gist.github.com/kelu124/af9e3b39b0ba8bed3bde250489635fa6
+* Onboarding Pouya =)
+
+@todo Next week:
+
+* 6Msps
+* Sourcing transducer
+* Sourcing materials + integration makefile par set
+* Compiler output
+
+##### @perso : faire un eink tablet
+
+* http://the-digital-reader.com/2015/02/16/wifi-connected-e-ink-display/
+* http://the-digital-reader.com/2012/09/18/meet-the-kindle-ereader-audiobook-player-weather-station/
+* https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=ED060SC4+
+* http://spritesmods.com/?art=einkdisplay&page=3
+* http://hackaday.com/2015/02/16/wi-fi-connected-e-ink-display/
+* http://hackaday.com/tag/esp8266/
+* http://hackaday.com/2016/06/12/an-improved-wifi-connected-e-ink-display/
+
+#### 2016-10-23 Geeking
+
+* Over engineering ? https://d262ilb51hltx0.cloudfront.net/max/800/1*xzS-UkYtNOgzPvpkHGwRbQ.png ^^
+* Found an interesting octal transmit board : http://www.ti.com/tool/TX-SDK-V2
+* Update of the [references list](/include/references.md)
+
 =======
 
