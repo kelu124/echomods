@@ -31,7 +31,7 @@ _A short (up to 250 words) summary of the hardware being described: what problem
 * Second iteration of breadboard modules: https://github.com/kelu124/echomods
 * Target group: Ultrasound researchers, engineering school students, students, general hackers, ...
 * Skills required: For each main manufacturing method, provide information pairs (method - easy / advanced / specialist). E.g. desktop 3d printing - easy; surface mount PCB - advanced; injection moulding - specialistSurface mount PCB – advancedAssembly – easy
-* Replication: The first iteration was developed within echopen&#39;s community, and a first series of experimentation done in Vanderbilt University.
+* Replication: The first iteration was developed within community, and a first series of experimentation done in Vanderbilt University.
 * Documentation for the second iteration of hardware has been released on github, on a separate repository. 
 * Kits might become available online.
 
