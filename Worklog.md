@@ -871,6 +871,23 @@ Would you like to support an existing project with your skills and expertise? Or
 * Article being written at https://gist.github.com/kelu124/af9e3b39b0ba8bed3bde250489635fa6
 * Onboarding Pouya =)
 
+@todo Next week:
+
+* 6Msps
+* Sourcing transducer
+* Sourcing materials + integration makefile par set
+* Compiler output
+
+##### @perso : faire un eink tablet
+
+* http://the-digital-reader.com/2015/02/16/wifi-connected-e-ink-display/
+* http://the-digital-reader.com/2012/09/18/meet-the-kindle-ereader-audiobook-player-weather-station/
+* https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=ED060SC4+
+* http://spritesmods.com/?art=einkdisplay&page=3
+* http://hackaday.com/2015/02/16/wi-fi-connected-e-ink-display/
+* http://hackaday.com/tag/esp8266/
+* http://hackaday.com/2016/06/12/an-improved-wifi-connected-e-ink-display/
+
 
 =======
 

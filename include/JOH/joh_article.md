@@ -69,7 +69,7 @@ Ultrasounds, high frequency sound waves, are used in medical application for bot
 
 The ultrasound waves comes from the mechanical oscillations of a crystal in a transducer, excited by electrical pulses (which is called the piezoelectric effect). These pulses of sound are sent by the transducer, propagate through the different media being imaged, and then come back to the transducer as "reflected echoes". These reflected echoes are converted back into an electrical signal by the transducer and are further processed so to form the final image.
 
-![Principles of images](https://github.com/kelu124/echomods/raw/master/include/images/JOH/echoimaging.png)
+![Principles of images](https://raw.githubusercontent.com/kelu124/echomods/master/include/images/JOH/echoimaging.png)
 
 In general, these sound waves, as classical waves, are reflected at the interfaces between the tissues of different accoustic impendance (linked to the density of the medium), the strength of the echo being proportional to the difference in impedance. On the other hand, echoes are not produced if there is no accoustic difference, hence no impedance interface, between media. Homogenous fluidsare seen as echo-free structures.
 
@@ -143,7 +143,7 @@ Finally, the gain level of the analog processing module is in the tests describe
 
 A home-made phantom was used to test the first iteration of the board. It was made of a gelatin phantom, with tapioca inclusions of two types (2mm and 8mm), the medium being contained in a condom (as in the picture below). 
 
-![The condom phantom](https://github.com/kelu124/echomods/raw/master/include/images/JOH/phantom.jpg)
+![The condom phantom](https://raw.githubusercontent.com/kelu124/echomods/master/include/images/JOH/phantom.jpg)
 
 This type of phantom does not conserve well, and was not reused for the second iteration.
 
