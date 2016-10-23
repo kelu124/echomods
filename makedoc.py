@@ -30,6 +30,11 @@ GraphModules = digraph()
 # -------------------------
 # Obtenir la liste des modules
 # -------------------------
+MDFiles = GetGeneratedFiles("./")
+
+OpenWrite("* "+"\n* ".join(MDFiles[0]),"include/GeneratedFiles.md")
+OpenWrite("* "+"\n* ".join(MDFiles[1]),"include/ManualFiles.md")
+
 
 ListOfDirs = GetListofModules("./")
 for eachInput in ListOfDirs:
@@ -295,14 +300,10 @@ TableAvancement +="\n\n"
 TODOsToShopping = AddShoppingList+TODOsToShopping+"\n\n"
 
 # Saving it in a file
-f = open("include/AddTableAvancement.md","w+")
-f.write(TableAvancement)
-f.close()
+OpenWrite(TableAvancement,"include/AddTableAvancement.md")
 
 # Saving it in a file
-f = open("include/AddShoppingList.md","w+")
-f.write(TODOsToShopping)
-f.close()
+OpenWrite(TODOsToShopping,"include/AddShoppingList.md")
 
 # -------------------------
 # Créer le graphe des modules
