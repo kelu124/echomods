@@ -285,7 +285,7 @@ def CreateKits(path,pathmodules):
 		ListOfDirs = []
 
 		NomDuSet = file[:-7]
-		log.append("[SET] Added `"+NomDuSet+"`\r\n")
+		log.append("[SET] Added `"+NomDuSet+"`\n")
 		Slides = Slides + "### "+NomDuSet+"\n\n<ul>"
 		with open(path+file) as f:
 		    for line in f:
