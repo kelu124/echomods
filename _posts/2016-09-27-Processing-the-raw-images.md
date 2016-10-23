@@ -13,5 +13,3 @@ title: 2016-09-27 Processing the raw images
 -   Adding the croaker work to the gitbook .. and cleaning some
     remaining broken links during doc generation.
 
-=======
-
