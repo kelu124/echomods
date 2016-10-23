@@ -1,7 +1,3 @@
-__[MDL cletus]__ :no_entry: Cost missing
-
-__[MDL cletus]__ :no_entry: Sourcing missing
-
 __[MDL cletus]__ :white_check_mark: 01. Block diagram OK
 
 __[MDL cletus]__ :white_check_mark: 01. Real name found: MDL-echomods_servopiezo
@@ -10,7 +6,7 @@ __[MDL cletus]__ :white_check_mark: 2 output(s)
 
 __[MDL cletus]__ :white_check_mark: 6 input(s)
 
-__[MDL cletus]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL cletus]__ :white_check_mark: Metadata (version, date, technology, cost, sourcing, language, author)
 
 __[MDL croaker]__ :white_check_mark: 01. Block diagram OK
 
@@ -58,10 +54,6 @@ __[MDL oneeye]__ :white_check_mark: 4 output(s)
 
 __[MDL oneeye]__ :white_check_mark: Metadata (version, cost, sourcing, date, technology, language, author)
 
-__[MDL retroATL3]__ :no_entry: Cost missing
-
-__[MDL retroATL3]__ :no_entry: Sourcing missing
-
 __[MDL retroATL3]__ :white_check_mark: 01. Block diagram OK
 
 __[MDL retroATL3]__ :white_check_mark: 01. Real name found: MDL-probe_retroATL3
@@ -70,7 +62,7 @@ __[MDL retroATL3]__ :white_check_mark: 3 output(s)
 
 __[MDL retroATL3]__ :white_check_mark: 6 input(s)
 
-__[MDL retroATL3]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL retroATL3]__ :white_check_mark: Metadata (version, date, cost, sourcing, technology, language, author)
 
 __[MDL silent]__ :no_entry: Cost missing
 

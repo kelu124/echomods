@@ -16,6 +16,8 @@ Retrohacking the ATL Access 3 probe
 * Retroengineering of ATL Access 3
 * version: V0.1
 * date: 15/07/2016
+* cost:75$
+* sourcing:Recycling a probe from [ebay](http://www.ebay.fr/sch/i.html?_odkw=%22atl+access%22+probe&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X%22atl+access%22+.TRS0&_nkw=%22atl+access%22+&_sacat=0)
 * technology: Hacking the ATL Access 3
 * language: n/a
 * author: Kelu124

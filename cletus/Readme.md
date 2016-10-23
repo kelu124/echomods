@@ -16,6 +16,8 @@ The object containing the different modules.
 * version: V0.1
 * date: 29/04/2016
 * technology:  
+* cost:80$
+* sourcing:Recycling a transducer from ebay 
 * language:  
 * author: Kelu124
 
