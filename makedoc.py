@@ -69,37 +69,42 @@ TableModulesShort += "| ThumbnailImage | Name | \n|------|-------| \n"
 for ReadMe in ListOfDirs:
 	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
 
+	#print getParam(ReadMe,"ds")
+	ModuleDesc = returnHList(soup,"h2","Description")
+	if len(GetParams(ModuleDesc)) > 0:
+		Parameter = "[MDL "+ReadMe+ "] "+GreenMark+" Metadata ("
+		Parameter += ", ".join(GetParams(ModuleDesc))+")"
+		log.append(Parameter)
+	else:
+		log.append("[MDL "+ReadMe+ "] "+RedMark+"Metadata missing")
 
+	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
 	# OK - Check real name
 	ModuleNomenclature = getHs(soup,"h2","Name")
 	if len(ModuleNomenclature)>0: 
-	    NameCheck = "["+ReadMe+ "] "+GreenMark+" 01. Real name found: "+ModuleNomenclature.find_next("code").text
+	    NameCheck = "[MDL "+ReadMe+ "] "+GreenMark+" 01. Real name found: "+ModuleNomenclature.find_next("code").text
 	    log.append(NameCheck)
 	if len(NameCheck)==0:
-	    log.append("["+ReadMe+ "] "+RedMark+" 01. No Real name found ")
-
+	    log.append("[MDL "+ReadMe+ "] "+RedMark+" 01. No Real name found ")
+ 
+	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
 	# Getting the Desc of the Module
-	pattern = r"</h3>([\s\S]*)<h3>How"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
-	patternCode = r"<p>(.*?)</p>"
-	Desc = []
-	for item in results:
-	    Desc = map(str, re.findall(patternCode, item, flags=0))
-	#print Desc
-	print ReadMe
-	Desc = Desc[0]
+	ModuleDesc = getHs(soup,"h3","What is it supposed to do?")
+	Desc = ModuleDesc.find_next("p").text
 
+	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
 	# OK - Getting the Innards of the Module // inside the block diagram
 	GraphThisModule = digraph()
 	Paires =  returnHList(soup,"h3","block diagram")
    	if (len(Paires) > 0):
 		GraphModule(Paires,GraphThisModule,ReadMe)
-		log.append("["+ReadMe+ "] "+GreenMark+" 01. Block diagram OK")
+		log.append("[MDL "+ReadMe+ "] "+GreenMark+" 01. Block diagram OK")
 	else:
-	    	log.append("["+ReadMe+ "] "+RedMark+" 01. No block diagram section ")
+	    	log.append("[MDL "+ReadMe+ "] "+RedMark+" 01. No block diagram section ")
 
 	# OK - Getting the Inputs of the Module
 	ItemList =  returnHList(soup,"h3","Inputs")
+	inpoots = ""
 	Module = []
  	for OneIO in ItemList:
 		codes = getCode(OneIO)
@@ -116,14 +121,15 @@ for ReadMe in ListOfDirs:
 		    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
 		GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
 	    inpoots += "</ul>"
-	    log.append("["+ReadMe+ "] "+GreenMark+" "+str(len(ItemList))+" input(s)")
+	    log.append("[MDL "+ReadMe+ "] "+GreenMark+" "+str(len(ItemList))+" input(s)")
 	if len(ItemList)==0:
-	    log.append("["+ReadMe+ "] "+RedMark+" 02. No inputs ")
+	    log.append("[MDL "+ReadMe+ "] "+RedMark+" 02. No inputs ")
 
 
 	# OK - Getting the Outputs of the Module
 	ItemList =  returnHList(soup,"h3","Outputs")
 	Module = []
+	outpoots = ""
  	for OneIO in ItemList:
 		codes = getCode(OneIO)
 		if len(codes) > 0:
@@ -139,9 +145,9 @@ for ReadMe in ListOfDirs:
 		    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
 		GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
 	    outpoots += "</ul>"
-	    log.append("["+ReadMe+ "] "+GreenMark+" "+str(len(ItemList))+" output(s)")
+	    log.append("[MDL "+ReadMe+ "] "+GreenMark+" "+str(len(ItemList))+" output(s)")
 	if len(ItemList)==0:
-	    log.append("["+ReadMe+ "] "+RedMark+" 02. No outputs ")
+	    log.append("[MDL "+ReadMe+ "] "+RedMark+" 02. No outputs ")
 
 
 	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
@@ -306,21 +312,16 @@ GraphPath = 'include/ModulesGraph'
 GraphModules.render(GraphPath)
 Svg2Png(GraphPath)
 
-
 # -------------------------
 # Créer le ReadMe
 # -------------------------
 
-
 GraphModulesTxt = "\n# The modules organization \n\n"
-
 GraphModulesTxt += "![Graph](/include/sets/basic.png) \n\n"
 
 FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableModules+TableAvancement+TODOsToShopping+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
-f = open("Readme.md","w+")
-f.write(FinalDoc)
-f.close()
+OpenWrite(FinalDoc,"Readme.md")
 
 # -------------------------
 # Create the slider
@@ -330,23 +331,6 @@ f = open("gh-pages/ppt.md","w+")
 Presentation =  "% Habits\n% John Doe\n% March 22, 2005\r\n \r\n"+"\n# What do we do?\r\n \r\n"+HeaderDocTxt+" \n# Graphing the modules\r\n \r\n"+GraphModulesTxt+" \n# Table Docs\r\n"+TableModules+"\r\n# Progress\r\n \r\n"+TableAvancement
 f.write(Presentation)
 f.close()
-
-# -------------------------
-# Graph customised
-# -------------------------
-
-styles = {
-    'graph': {
-        'label': 'my mind',
-	'layout':"neato",
-	'fontsize':"26",
-	'outputorder':'edgesfirst',
-	#"overlap":"false",
-        'rankdir': 'BT',
-    }
-}
-
-
 
 
 # -------------------------
@@ -366,9 +350,7 @@ pattern = r"<li>TODO: (.*?)</li>"
 results = re.findall(pattern, WorkLogMd, flags=0) 
 for item in results:
     GraphMyMind.node(item.replace(':', '-'), style="rounded,filled", fillcolor="yellow", penwidth="0")
-    #GraphMyMind.edge("ToDo", item.replace(':', '-'))
 
-# Getting the Innards of the Module
 pattern = r"Graphing</h3>([\s\S]*)</ul>"
 results = re.findall(pattern, WorkLogMd, flags=0) 
 patternCode = r"<li>(.*?)</li>"
@@ -403,16 +385,13 @@ WorkLogText = f.read()
 ReadMehHtmlMarkdown=markdown.markdown( WorkLogText )
 f.close()
 
-# Getting the Desc of the Module
-pattern = r"<h4>(\d{4}-\d{2}-\d{2}.*)<\/h4>" # gets the titles
+# Getting the title of the article
+pattern = r"<h4>(\d{4}-\d{2}-\d{2}.*)<\/h4>" # gets the contents
 results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
 titre = r"(.?*)<\/h4>" # gets the titles
 resultstitre = re.findall(pattern, results[0], flags=0) 
 
-print resultstitre
-
 ListePosts = []
-
 for content in results:
 	pair = []
 	pattern2 = r""+content+"<\/h4>[\s\S]*?<h" # gets the titles
@@ -436,6 +415,9 @@ for item in ListePosts:
 	text_file.write(entete+postcontent)
 	text_file.close()
 
+log.append("[WEB Blog] "+str(len(ListePosts))+" posts added")
+
+
 # -------------------------------------------------- #
 #                    Gitbooking                      #
 # -------------------------------------------------- #
@@ -451,24 +433,15 @@ for item in ListePosts:
 # -------------------------
 
 MyLogs =  SearchString(WorkLogText,"-------","uControllers")
+OpenWrite(MyLogs,"include/AddMyLogs.md")
 
-# Saving it in a file
-f = open("include/AddMyLogs.md","w+")
-f.write(MyLogs)
-f.close()
 
 # -------------------------
 # Preface
 # -------------------------
 
-f = open("include/AddPitch.md",'r')
-pitch = f.read()
-f.close()
+CopyGitBookFile("include/AddPitch.md","gitbook/README.md")
 
-
-f = open("gitbook/README.md","w+")
-f.write(AddRawHURL(pitch))
-f.close()
 
 # -------------------------
 # Adding CHAPTER 1 : Histoire et principe des ultrasons
@@ -628,9 +601,6 @@ for root, subdirs, files in os.walk(walk_dir):
 		if ("notes_" in filename):
 			notesLogs.append(file_path)
 
-print DetailedLogs
-print notesLogs
-
 detailedLogText = "# Detailed logs of experiments\n\n"
 for detailedlog in DetailedLogs:
 	Adddetailedlog = open(detailedlog)
@@ -668,7 +638,6 @@ f.close()
 # Adding murgen's work
 
 Sessions = []
-ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
 
 for SessionLog in ListOfMurgenSessions:
 	f = open("./../murgen-dev-kit/worklog/"+SessionLog, 'r')
@@ -688,9 +657,7 @@ f = open("./../murgen-dev-kit/worklog/notes.md", 'r')
 WikiNotes = AddRawMurgenURL(f.read())
 f.close()
 
-f = open("gitbook/Chapter4/murgenworklog.md","w+")
-f.write(WikiNotes)
-f.close()
+OpenWrite(WikiNotes,"gitbook/Chapter4/murgenworklog.md")
 
 
 # -------------------------
@@ -736,10 +703,7 @@ f.close()
 
 
 articles=getText("include/Bibliography.md")
-
-f = open("gitbook/Chapter6/articles.md","w+")
-f.write("# Bibliography \n\n"+AddRawHURL(articles)+"\n\n")
-f.close()
+OpenWrite("# Bibliography \n\n"+AddRawHURL(articles)+"\n\n","gitbook/Chapter6/articles.md")
 
 
 electronics = getText("./../murgen-dev-kit/worklog/bibliographie.md").replace("# Our setup\n","")
@@ -766,28 +730,20 @@ f.close()
 # Adding CHAPTER 7 : Contributing
 # -------------------------
 
-f = open("gitbook/Chapter7/progress.md","w+")
-f.write("# The table of progress \n\n"+TableAvancement+"\n\n")
-f.close()
-
-f = open("gitbook/Chapter7/shoppingList.md","w+")
-f.write(TODOsToShopping+"\n\n")
-f.close()
-
-f = open("gitbook/Chapter7/license.md","w+")
-f.write(AddLicenseDocTxt+"\n\n")
-f.close()
-
+OpenWrite("# The table of progress \n\n"+TableAvancement+"\n\n","gitbook/Chapter7/progress.md")
+OpenWrite(TODOsToShopping+"\n\n","gitbook/Chapter7/shoppingList.md")
+OpenWrite(AddLicenseDocTxt+"\n\n","gitbook/Chapter7/license.md")
 
 # -------------------------
 # Saving the compilation log
 # -------------------------
 
+ResultKits = CreateKits("./include/","./")
+log = log+ResultKits
 
-f = open("doc/log.md","w+")
+# -------------------------
+# Saving the compilation log
+# -------------------------
+
 log.sort()
-f.write("\n".join( log ))
-f.close()
-
-
-
+OpenWrite("\n".join( log ),"doc/log.md")

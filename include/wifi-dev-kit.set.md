@@ -1,7 +1,7 @@
 #Title: Wireless Dev Kit
 #Description: The default setting for the sets
 cletus
-kina
+croaker
 mogaba
 goblin
 tobo

@@ -1,42 +1,62 @@
-[cletus] :white_check_mark: 01. Block diagram OK
-[cletus] :white_check_mark: 01. Real name found: MDL-echomods_servopiezo
-[cletus] :white_check_mark: 2 output(s)
-[cletus] :white_check_mark: 6 input(s)
-[croaker] :white_check_mark: 01. Block diagram OK
-[croaker] :white_check_mark: 01. Real name found: MDL-probe_echomods_controler_croaker
-[croaker] :white_check_mark: 3 output(s)
-[croaker] :white_check_mark: 5 input(s)
-[doj] :white_check_mark: 01. Block diagram OK
-[doj] :white_check_mark: 01. Real name found: MDL-echomods_motherboard
-[goblin] :white_check_mark: 01. Block diagram OK
-[goblin] :white_check_mark: 01. Real name found: MDL-goblin_tgcenvadc
-[goblin] :white_check_mark: 3 output(s)
-[goblin] :white_check_mark: 8 input(s)
-[mogaba] :white_check_mark: 01. Block diagram OK
-[mogaba] :white_check_mark: 01. Real name found: MDL-mogaba_small_powersupply
-[mogaba] :white_check_mark: 2 input(s)
-[mogaba] :white_check_mark: 4 output(s)
-[oneeye] :white_check_mark: 01. Block diagram OK
-[oneeye] :white_check_mark: 01. Real name found: MDL-oneeye_controlunit
-[oneeye] :white_check_mark: 3 input(s)
-[oneeye] :white_check_mark: 4 output(s)
-[retroATL3] :white_check_mark: 01. Block diagram OK
-[retroATL3] :white_check_mark: 01. Real name found: MDL-probe_retroATL3
-[retroATL3] :white_check_mark: 3 output(s)
-[retroATL3] :white_check_mark: 6 input(s)
-[silent] :white_check_mark: 01. Block diagram OK
-[silent] :white_check_mark: 01. Real name found: MDL-echomods_emulator
-[silent] :white_check_mark: 1 output(s)
-[silent] :white_check_mark: 3 input(s)
-[sleepy] :white_check_mark: 01. Block diagram OK
-[sleepy] :white_check_mark: 01. Real name found: MDL-echomods_case
-[sleepy] :white_check_mark: 1 input(s)
-[sleepy] :white_check_mark: 1 output(s)
-[toadkiller] :white_check_mark: 01. Block diagram OK
-[toadkiller] :white_check_mark: 01. Real name found: MDL-echomods_prudaq
-[toadkiller] :white_check_mark: 4 input(s)
-[toadkiller] :white_check_mark: 5 output(s)
-[tobo] :white_check_mark: 01. Block diagram OK
-[tobo] :white_check_mark: 01. Real name found: MDL-tobo_hvpulser
-[tobo] :white_check_mark: 3 output(s)
-[tobo] :white_check_mark: 6 input(s)
+[MDL cletus] :white_check_mark: 01. Block diagram OK
+[MDL cletus] :white_check_mark: 01. Real name found: MDL-echomods_servopiezo
+[MDL cletus] :white_check_mark: 2 output(s)
+[MDL cletus] :white_check_mark: 6 input(s)
+[MDL cletus] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL croaker] :white_check_mark: 01. Block diagram OK
+[MDL croaker] :white_check_mark: 01. Real name found: MDL-probe_echomods_controler_croaker
+[MDL croaker] :white_check_mark: 3 output(s)
+[MDL croaker] :white_check_mark: 5 input(s)
+[MDL croaker] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL doj] :white_check_mark: 01. Block diagram OK
+[MDL doj] :white_check_mark: 01. Real name found: MDL-echomods_motherboard
+[MDL doj] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL goblin] :white_check_mark: 01. Block diagram OK
+[MDL goblin] :white_check_mark: 01. Real name found: MDL-goblin_tgcenvadc
+[MDL goblin] :white_check_mark: 3 output(s)
+[MDL goblin] :white_check_mark: 8 input(s)
+[MDL goblin] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL mogaba] :white_check_mark: 01. Block diagram OK
+[MDL mogaba] :white_check_mark: 01. Real name found: MDL-mogaba_small_powersupply
+[MDL mogaba] :white_check_mark: 2 input(s)
+[MDL mogaba] :white_check_mark: 4 output(s)
+[MDL mogaba] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL oneeye] :white_check_mark: 01. Block diagram OK
+[MDL oneeye] :white_check_mark: 01. Real name found: MDL-oneeye_controlunit
+[MDL oneeye] :white_check_mark: 3 input(s)
+[MDL oneeye] :white_check_mark: 4 output(s)
+[MDL oneeye] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL retroATL3] :white_check_mark: 01. Block diagram OK
+[MDL retroATL3] :white_check_mark: 01. Real name found: MDL-probe_retroATL3
+[MDL retroATL3] :white_check_mark: 3 output(s)
+[MDL retroATL3] :white_check_mark: 6 input(s)
+[MDL retroATL3] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL silent] :white_check_mark: 01. Block diagram OK
+[MDL silent] :white_check_mark: 01. Real name found: MDL-echomods_emulator
+[MDL silent] :white_check_mark: 1 output(s)
+[MDL silent] :white_check_mark: 3 input(s)
+[MDL silent] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL sleepy] :white_check_mark: 01. Block diagram OK
+[MDL sleepy] :white_check_mark: 01. Real name found: MDL-echomods_case
+[MDL sleepy] :white_check_mark: 1 input(s)
+[MDL sleepy] :white_check_mark: 1 output(s)
+[MDL sleepy] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL toadkiller] :white_check_mark: 01. Block diagram OK
+[MDL toadkiller] :white_check_mark: 01. Real name found: MDL-echomods_prudaq
+[MDL toadkiller] :white_check_mark: 4 input(s)
+[MDL toadkiller] :white_check_mark: 5 output(s)
+[MDL toadkiller] :white_check_mark: Metadata (version, date, technology, language, author)
+[MDL tobo] :white_check_mark: 01. Block diagram OK
+[MDL tobo] :white_check_mark: 01. Real name found: MDL-tobo_hvpulser
+[MDL tobo] :white_check_mark: 3 output(s)
+[MDL tobo] :white_check_mark: 6 input(s)
+[MDL tobo] :white_check_mark: Metadata (version, date, technology, language, author)
+[SET] Added `basic`
+[SET] Added `dev-kit-emulated`
+[SET] Added `dev-kit`
+[SET] Added `emulated`
+[SET] Added `highspeed`
+[SET] Added `wifi-dev-kit`
+[WEB Blog] 94 posts added
+
+[](@autogenerated - invisible comment)
