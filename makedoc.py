@@ -72,20 +72,20 @@ for ReadMe in ListOfDirs:
 	#print getParam(ReadMe,"ds")
 	ModuleDesc = returnHList(soup,"h2","Description")
 	if len(GetParams(ModuleDesc)) > 0:
-		Parameter = "[MDL "+ReadMe+ "] "+GreenMark+" Metadata ("
+		Parameter = "__[MDL "+ReadMe+ "]__ "+GreenMark+" Metadata ("
 		Parameter += ", ".join(GetParams(ModuleDesc))+")"
-		log.append(Parameter)
+		log.append(Parameter+"\n")
 	else:
-		log.append("[MDL "+ReadMe+ "] "+RedMark+"Metadata missing")
+		log.append("__[MDL "+ReadMe+ "]__ "+RedMark+"Metadata missing"+"\n")
 
 	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
 	# OK - Check real name
 	ModuleNomenclature = getHs(soup,"h2","Name")
 	if len(ModuleNomenclature)>0: 
-	    NameCheck = "[MDL "+ReadMe+ "] "+GreenMark+" 01. Real name found: "+ModuleNomenclature.find_next("code").text
+	    NameCheck = "__[MDL "+ReadMe+ "]__ "+GreenMark+" 01. Real name found: "+ModuleNomenclature.find_next("code").text+"\n"
 	    log.append(NameCheck)
 	if len(NameCheck)==0:
-	    log.append("[MDL "+ReadMe+ "] "+RedMark+" 01. No Real name found ")
+	    log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 01. No Real name found "+"\n")
  
 	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
 	# Getting the Desc of the Module
@@ -98,9 +98,9 @@ for ReadMe in ListOfDirs:
 	Paires =  returnHList(soup,"h3","block diagram")
    	if (len(Paires) > 0):
 		GraphModule(Paires,GraphThisModule,ReadMe)
-		log.append("[MDL "+ReadMe+ "] "+GreenMark+" 01. Block diagram OK")
+		log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" 01. Block diagram OK"+"\n")
 	else:
-	    	log.append("[MDL "+ReadMe+ "] "+RedMark+" 01. No block diagram section ")
+	    	log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 01. No block diagram section "+"\n")
 
 	# OK - Getting the Inputs of the Module
 	ItemList =  returnHList(soup,"h3","Inputs")
@@ -121,9 +121,9 @@ for ReadMe in ListOfDirs:
 		    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
 		GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
 	    inpoots += "</ul>"
-	    log.append("[MDL "+ReadMe+ "] "+GreenMark+" "+str(len(ItemList))+" input(s)")
+	    log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" "+str(len(ItemList))+" input(s)"+"\n")
 	if len(ItemList)==0:
-	    log.append("[MDL "+ReadMe+ "] "+RedMark+" 02. No inputs ")
+	    log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 02. No inputs "+"\n")
 
 
 	# OK - Getting the Outputs of the Module
@@ -145,9 +145,9 @@ for ReadMe in ListOfDirs:
 		    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
 		GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
 	    outpoots += "</ul>"
-	    log.append("[MDL "+ReadMe+ "] "+GreenMark+" "+str(len(ItemList))+" output(s)")
+	    log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" "+str(len(ItemList))+" output(s)"+"\n")
 	if len(ItemList)==0:
-	    log.append("[MDL "+ReadMe+ "] "+RedMark+" 02. No outputs ")
+	    log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 02. No outputs "+"\n")
 
 
 	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
@@ -415,7 +415,7 @@ for item in ListePosts:
 	text_file.write(entete+postcontent)
 	text_file.close()
 
-log.append("[WEB Blog] "+str(len(ListePosts))+" posts added")
+log.append("__[WEB Blog]__ "+str(len(ListePosts))+" posts added"+"\n")
 
 
 # -------------------------------------------------- #
