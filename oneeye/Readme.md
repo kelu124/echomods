@@ -14,6 +14,8 @@ One-eye, the controler
 
 * The controler heart of the echOmods
 * version: V0.1
+* cost:10$
+* sourcing:from [Adafruit](https://www.adafruit.com/product/2000)
 * date: 26/04/2016
 * technology: Module-compatible
 * language: Altium

@@ -16,6 +16,8 @@ Goblin: a TGC-Envelop-ADC module
 * The analog signal-processing heart of the echOmods
 * version: V0.1
 * date: 24/04/2016
+* cost:150$
+* sourcing:Custom made, get the [Gerbers](/goblin/source/), or contact @kelu124
 * technology: Module-compatible, Homemade PCB, ICs based on `AD8331` and `ADL5511`
 * language: Altium
 * author: Kelu124

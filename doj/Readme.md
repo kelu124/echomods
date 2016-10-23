@@ -17,6 +17,8 @@ The motherboard of the echomods
 * date: 26/07/2016
 * technology: n/a
 * language: n/a
+* cost:5$
+* sourcing:Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard)
 * author: Kelu124
 
 ## IOs

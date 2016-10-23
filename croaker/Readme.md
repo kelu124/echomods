@@ -17,6 +17,8 @@ The acquisition heart of the echOmods
 * date: 22/09/2016
 * technology: STM32F205
 * language: n/a
+* cost:35$
+* sourcing:Get from [Adafruit](https://www.adafruit.com/products/3056)
 * author: Kelu124
 
 ## IOs

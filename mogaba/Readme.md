@@ -16,6 +16,8 @@ Mogaba, the power supply
 * version: V0.1
 * date: 
 * technology:
+* cost:5$
+* sourcing:Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+)
 * language: 
 * author: Kelu124
 

@@ -141,20 +141,6 @@ def getHs(soupH,h,hText):
                				nextSib = nextSib.nextSibling
 	return Text
 
-# -------------------------
-# Getting a parameter from a module
-# -------------------------
-
-def getParam(Module,Parameter):
-	Param = "Missing parameter for "+Parameter
-	Parameter=Parameter+":"
-	soupModule = returnSoup(Module+"/Readme.md")[0]
-	LIs = soupModule.find_all("li")
-	for eachParam in LIs:
-		if (eachParam.text.startswith(Parameter)):
-			Param = eachParam.text
-	Param = Param.replace(Parameter, '').strip()
-	return Param
 
 
 
@@ -309,14 +295,31 @@ def GetParams(ListOfItems):
 	results += re.findall(pattern, str(item), flags=0) 
     return results
 
+def getParam(Module,Parameter):
+	Param = "Missing parameter for "+Parameter
+	Parameter=Parameter+":"
+	soupModule = returnSoup(Module+"/Readme.md")[0]
+	LIs = soupModule.find_all("li")
+	for eachParam in LIs:
+		if (eachParam.text.startswith(Parameter)):
+			Param = eachParam.text
+	Param = Param.replace(Parameter, '').strip()
+	return Param
+
+# -------------------------
+# Getting a parameter from a module
+# -------------------------
+
 def CreateKits(path,pathmodules):
 	Slides = ""
+
 	log = []
-	KitModuleFile = []
+
 	for file in os.listdir(path):
 	    if file.endswith(".set.md"):
+		CostOfSet = ""
 		ListOfDirs = []
-
+		KitModuleFile = []
 		NomDuSet = file[:-7]
 		log.append("__[SET]__ Added `"+NomDuSet+"`\n")
 		Slides = Slides + "### "+NomDuSet+"\n\n<ul>"
@@ -330,19 +333,43 @@ def CreateKits(path,pathmodules):
 		for item in KitModuleFile:
 			item = item.replace("#", "")
 			Slides += "<li>"+item+"</li>\n"
+			CostOfSet += "<li>"+item+"</li>\n"
+		CostOfSet += "\n\n"
 		Slides += "</ul>" +"\n\n### "+NomDuSet+": diagram\n\n![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/"+NomDuSet+".png)"+"\r\n\n"
 
 		GraphModules = digraph()
 		# Dans chaque sous-ensemble..
 		for eachInput in ListOfDirs:
+			ModuleCost = ""
+			ModuleSourcing = ""
 			GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
 			ReadMe = eachInput
 
-			ReadMehHtmlMarkdown = returnSoup("./"+ReadMe+"/Readme.md")[1]
-			soupSet = returnSoup("./"+ReadMe+"/Readme.md")[0]
+			ReadMehHtmlMarkdown = returnSoup("./"+eachInput+"/Readme.md")[1]
+			soupSet = returnSoup("./"+eachInput+"/Readme.md")[0]
+
 			# Getting the Desc of the Module
-			ModuleDesc = getHs(soupSet,"h3","What is it supposed to do?")
-			Desc = ModuleDesc.find_next("p").text
+			ModuleTitle = getHs(soupSet,"h2","Title").text
+
+			#print ModuleDesc
+
+			with open("./"+eachInput+"/Readme.md") as FileContent:
+				for line in FileContent:  #iterate over the file one line at a time(memory efficient)
+					if "* cost:" in line:
+						patternCode = r"cost:(.*?)$"
+						ModuleCost = re.findall(patternCode, line, flags=0)[0]
+					if "* sourcing:" in line:
+						patternCode = r"\* sourcing:(.*?)$"
+						ModuleSourcing = re.findall(patternCode, line, flags=0)[0]
+
+			if (len(ModuleCost)  and len(ModuleSourcing)):
+				CostOfSet += "* "+ModuleTitle+" (["+eachInput+"](/"+eachInput
+				CostOfSet += "/)) -- get for _"+ModuleCost+"_ (Where? " + ModuleSourcing+")\n"
+			if len(ModuleCost) == 0:
+				log.append("__[MDL "+eachInput+"]__ "+ RedMark+" Cost missing\n")
+			if len(ModuleSourcing) == 0:
+				log.append("__[MDL "+eachInput+"]__ "+ RedMark+" Sourcing missing\n")
+
 
 			# Getting the Innards of the Module // inside the block diagram
 			pattern = r"block diagram</h3>([\s\S]*)<h2>About"
@@ -399,8 +426,10 @@ def CreateKits(path,pathmodules):
 
 
 			GraphPath = path+"/sets/"+NomDuSet
-			GraphModules.render(GraphPath)
-			Svg2Png(GraphPath)
+			GraphModules.render(GraphPath)	
+			Svg2Png(GraphPath) 
+
+			OpenWrite(CostOfSet,path+"/sets/"+NomDuSet+".cost.md")
 
 	# Writing the slides
 	OpenWrite(Slides,path+"sets/sets_slides.md")

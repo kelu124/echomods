@@ -13,7 +13,9 @@ Tobo: the HV-pulser
 ## Description
 
 * The HV-Pulser of the echOmods
-* version: V0.1
+* version: V0.2
+* cost:120$
+* sourcing:Custom made, get the [Gerbers](/tobo/source/), or contact @kelu124
 * date: 24/04/2016
 * technology: Module-compatible, Homemade PCB, ICs based on `HV7360` and `R05-100B`
 * language: Altium

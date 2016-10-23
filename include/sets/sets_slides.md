@@ -10,9 +10,7 @@
 
 ### wifi-dev-kit
 
-<ul><li>Title: echOmods emulated</li>
-<li>Description: uC pings emulator and streams feedback</li>
-<li>Title: Wireless Dev Kit</li>
+<ul><li>Title: Wireless Dev Kit</li>
 <li>Description: The default setting for the sets</li>
 </ul>
 
@@ -20,67 +18,9 @@
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/wifi-dev-kit.png)
 
-### dev-kit
-
-<ul><li>Title: echOmods emulated</li>
-<li>Description: uC pings emulator and streams feedback</li>
-<li>Title: Wireless Dev Kit</li>
-<li>Description: The default setting for the sets</li>
-<li>Title: Dev Kit 0.1 -- Playing with an old probe and the PRUDAQ</li>
-<li>Description: This setup uses relatively</li>
-</ul>
-
-### dev-kit: diagram
-
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/dev-kit.png)
-
-### basic
-
-<ul><li>Title: echOmods emulated</li>
-<li>Description: uC pings emulator and streams feedback</li>
-<li>Title: Wireless Dev Kit</li>
-<li>Description: The default setting for the sets</li>
-<li>Title: Dev Kit 0.1 -- Playing with an old probe and the PRUDAQ</li>
-<li>Description: This setup uses relatively</li>
-<li>Title: echOmods 101</li>
-<li>Description: The default setting for the sets</li>
-</ul>
-
-### basic: diagram
-
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/basic.png)
-
-### dev-kit-emulated
-
-<ul><li>Title: echOmods emulated</li>
-<li>Description: uC pings emulator and streams feedback</li>
-<li>Title: Wireless Dev Kit</li>
-<li>Description: The default setting for the sets</li>
-<li>Title: Dev Kit 0.1 -- Playing with an old probe and the PRUDAQ</li>
-<li>Description: This setup uses relatively</li>
-<li>Title: echOmods 101</li>
-<li>Description: The default setting for the sets</li>
-<li>Title: Dev Kit 0.1 - emulated</li>
-<li>Description: The default setting for the sets. Overkill at sampling but relatively easy to use. Emulator instead of the probe.</li>
-</ul>
-
-### dev-kit-emulated: diagram
-
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/dev-kit-emulated.png)
-
 ### highspeed
 
-<ul><li>Title: echOmods emulated</li>
-<li>Description: uC pings emulator and streams feedback</li>
-<li>Title: Wireless Dev Kit</li>
-<li>Description: The default setting for the sets</li>
-<li>Title: Dev Kit 0.1 -- Playing with an old probe and the PRUDAQ</li>
-<li>Description: This setup uses relatively</li>
-<li>Title: echOmods 101</li>
-<li>Description: The default setting for the sets</li>
-<li>Title: Dev Kit 0.1 - emulated</li>
-<li>Description: The default setting for the sets. Overkill at sampling but relatively easy to use. Emulator instead of the probe.</li>
-<li>Title: HighSpeed</li>
+<ul><li>Title: HighSpeed</li>
 <li>Description: ATL3 set ?</li>
 </ul>
 

@@ -15,6 +15,8 @@ This is the module to get high-speed (40Msps) signal acquisition.
 * PRUDAQ
 * version: V0.1
 * date: 02/08/2016
+* cost:79$
+* sourcing: A bundle at 169$ from [Groupgets](https://groupgets.com/manufacturers/getlab/products/prudaq) or as a [standalone](https://store.groupgets.com/#!/p/68936091) at 79$ 
 * technology: PRUDAQ
 * language: Who knows?
 * author: Kelu124

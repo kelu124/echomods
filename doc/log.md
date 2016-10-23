@@ -1,3 +1,7 @@
+__[MDL cletus]__ :no_entry: Cost missing
+
+__[MDL cletus]__ :no_entry: Sourcing missing
+
 __[MDL cletus]__ :white_check_mark: 01. Block diagram OK
 
 __[MDL cletus]__ :white_check_mark: 01. Real name found: MDL-echomods_servopiezo
@@ -16,13 +20,13 @@ __[MDL croaker]__ :white_check_mark: 3 output(s)
 
 __[MDL croaker]__ :white_check_mark: 5 input(s)
 
-__[MDL croaker]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL croaker]__ :white_check_mark: Metadata (version, date, technology, language, cost, sourcing, author)
 
 __[MDL doj]__ :white_check_mark: 01. Block diagram OK
 
 __[MDL doj]__ :white_check_mark: 01. Real name found: MDL-echomods_motherboard
 
-__[MDL doj]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL doj]__ :white_check_mark: Metadata (version, date, technology, language, cost, sourcing, author)
 
 __[MDL goblin]__ :white_check_mark: 01. Block diagram OK
 
@@ -32,7 +36,7 @@ __[MDL goblin]__ :white_check_mark: 3 output(s)
 
 __[MDL goblin]__ :white_check_mark: 8 input(s)
 
-__[MDL goblin]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL goblin]__ :white_check_mark: Metadata (version, date, cost, sourcing, technology, language, author)
 
 __[MDL mogaba]__ :white_check_mark: 01. Block diagram OK
 
@@ -42,7 +46,7 @@ __[MDL mogaba]__ :white_check_mark: 2 input(s)
 
 __[MDL mogaba]__ :white_check_mark: 4 output(s)
 
-__[MDL mogaba]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL mogaba]__ :white_check_mark: Metadata (version, date, technology, cost, sourcing, language, author)
 
 __[MDL oneeye]__ :white_check_mark: 01. Block diagram OK
 
@@ -52,7 +56,11 @@ __[MDL oneeye]__ :white_check_mark: 3 input(s)
 
 __[MDL oneeye]__ :white_check_mark: 4 output(s)
 
-__[MDL oneeye]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL oneeye]__ :white_check_mark: Metadata (version, cost, sourcing, date, technology, language, author)
+
+__[MDL retroATL3]__ :no_entry: Cost missing
+
+__[MDL retroATL3]__ :no_entry: Sourcing missing
 
 __[MDL retroATL3]__ :white_check_mark: 01. Block diagram OK
 
@@ -63,6 +71,10 @@ __[MDL retroATL3]__ :white_check_mark: 3 output(s)
 __[MDL retroATL3]__ :white_check_mark: 6 input(s)
 
 __[MDL retroATL3]__ :white_check_mark: Metadata (version, date, technology, language, author)
+
+__[MDL silent]__ :no_entry: Cost missing
+
+__[MDL silent]__ :no_entry: Sourcing missing
 
 __[MDL silent]__ :white_check_mark: 01. Block diagram OK
 
@@ -92,7 +104,7 @@ __[MDL toadkiller]__ :white_check_mark: 4 input(s)
 
 __[MDL toadkiller]__ :white_check_mark: 5 output(s)
 
-__[MDL toadkiller]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL toadkiller]__ :white_check_mark: Metadata (version, date, cost, sourcing, technology, language, author)
 
 __[MDL tobo]__ :white_check_mark: 01. Block diagram OK
 
@@ -102,13 +114,7 @@ __[MDL tobo]__ :white_check_mark: 3 output(s)
 
 __[MDL tobo]__ :white_check_mark: 6 input(s)
 
-__[MDL tobo]__ :white_check_mark: Metadata (version, date, technology, language, author)
-
-__[SET]__ Added `basic`
-
-__[SET]__ Added `dev-kit-emulated`
-
-__[SET]__ Added `dev-kit`
+__[MDL tobo]__ :white_check_mark: Metadata (version, cost, sourcing, date, technology, language, author)
 
 __[SET]__ Added `emulated`
 
