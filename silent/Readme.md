@@ -15,6 +15,8 @@ This is the module which emulates the signal coming from the analog processing c
 * Teensy for its DAC.
 * version: V0.1
 * date: 26/07/2016
+* cost:35$
+* sourcing:Get from [Adafruit](https://www.adafruit.com/products/3056)
 * technology: Adafruit Feather
 * language: C
 * author: Kelu124

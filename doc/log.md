@@ -64,10 +64,6 @@ __[MDL retroATL3]__ :white_check_mark: 6 input(s)
 
 __[MDL retroATL3]__ :white_check_mark: Metadata (version, date, cost, sourcing, technology, language, author)
 
-__[MDL silent]__ :no_entry: Cost missing
-
-__[MDL silent]__ :no_entry: Sourcing missing
-
 __[MDL silent]__ :white_check_mark: 01. Block diagram OK
 
 __[MDL silent]__ :white_check_mark: 01. Real name found: MDL-echomods_emulator
@@ -76,7 +72,7 @@ __[MDL silent]__ :white_check_mark: 1 output(s)
 
 __[MDL silent]__ :white_check_mark: 3 input(s)
 
-__[MDL silent]__ :white_check_mark: Metadata (version, date, technology, language, author)
+__[MDL silent]__ :white_check_mark: Metadata (version, date, cost, sourcing, technology, language, author)
 
 __[MDL sleepy]__ :white_check_mark: 01. Block diagram OK
 
