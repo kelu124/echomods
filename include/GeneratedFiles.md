@@ -38,6 +38,7 @@
 * ./gitbook/Chapter5/dataformat.md
 * ./gitbook/Chapter5/images.md
 * ./gitbook/Chapter5/loops.md
+* ./gitbook/Chapter6/academicbiblio.md
 * ./gitbook/Chapter6/articles.md
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/documentationprocess.md

@@ -230,7 +230,14 @@ def CopyFile(From,To):
 	return OpenWrite(getText(From),To)
 
 def CopyGitBookFile(From,To):
-	return OpenWrite(AddRawHURL(getText(From)),To)
+	text = getText(From)
+	result = []
+	for line in text:
+		if not line.startswith("%"):
+			result.append(line)
+	result = "\r\n".join(result)
+	return OpenWrite(AddRawHURL(result),To)
+
 def CopyGitBookMurgenFile(From,To):
 	return OpenWrite(AddRawMurgenURL(getText(From)),To)
 

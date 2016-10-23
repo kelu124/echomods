@@ -337,7 +337,7 @@ _Task (e.g. design, assembly, use cases contribution, documentation, paper writi
 
 ## Acknowledgements
 
-A huge thanks to the friends in the community for their sharing their ideas and giving their support. Thanks as well to Prof Charles and Zach to have given a try at testing the first iteration, Sofian for his help on the hardware, the Hackaday community forgiving me the chance to go to the 2016 finals, the echOpen community (Farad, Benoit, Vincent, Jerome, Virginie, Emilie and the others) who has kept me motivated!
+A huge thanks to the friends in the community for their sharing their ideas and giving their support. Thanks as well to Prof Charles and Zach to have given a try at testing the first iteration, Sofian for his help on the hardware, the Hackaday community forgiving me the chance to go to the 2016 finals, Nicolas for his interest, the echOpen community (Farad, Benoit, Vincent, Jerome, Virginie, Emilie and the others) who has kept me motivated!
 
 ## Funding statement
 
@@ -373,10 +373,6 @@ Though LJ is a founder of the echOpen&#39;s project, this work has been pursued 
 18. Raj JR, Rahman SMK, Anand S. Microcontroller USB interfacing with MATLAB GUI for low cost medical ultrasound scanners. Engineering Science and Technology, an International Journal. juin 2016;19(2):964‑9. 
 19. Hendy AM, Hassan M, Eldeeb R, Kholy D, Youssef A-B, Kadah YM. PC-based modular digital ultrasound imaging system. In IEEE; 2009 [cité 21 oct 2016]. p. 1330‑3. Disponible sur: http://ieeexplore.ieee.org/document/5441904/
 20. Chiang AM, Chang PP, Broadstone SR. PC-based ultrasound imaging system in a probe. In IEEE; 2000 [cité 21 oct 2016]. p. 1255‑60. Disponible sur: http://ieeexplore.ieee.org/document/921551/
-
-
-
-
 
 ### Copyright notice
 

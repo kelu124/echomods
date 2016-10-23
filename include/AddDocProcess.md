@@ -37,8 +37,6 @@ I want to:
 
 Conclusion: creation of [markdown "blocks"](https://github.com/kelu124/echomods/blob/master/include/ManualFiles.md) which will feed all the generated docs (see a list [here](https://github.com/kelu124/echomods/blob/master/include/GeneratedFiles.md)).
 
-
-
 #### Inputs (2/2)
 
 The script is working only with a couple of files:
@@ -61,25 +59,19 @@ The script is working only with a couple of files:
 
 The worklog is used to generate the gitbook, the blog, and to generate a mindmap of concepts.
 
-It also highlights the _TODOs_ in the mindmap.
-
-
-
-#### Graph of links  {data-transition="zoom" data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/ModulesGraph.png"}
-
-#### Gitbook {data-transition="slide-in fade-out"}
+#### Assembling a gitbook
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/images/table_gitbook.png)
 
-#### Table: modules {data-transition="slide-in fade-out"}
+#### The modules at a glance
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/images/table_modules.png)
 
-#### Table: progress {data-transition="fade-in slide-out"}
+#### Progress at a glance
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/images/table_progress.png)
 
-#### Block diagram  {data-transition="fade-in slide-out"}
+#### Block diagram 
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/tobo/source/blocks.png)
 
@@ -104,7 +96,6 @@ An efficient (err, lazy) way of documenting. Only one place to edit information,
 * A __gitbook__
 
 The documentation compiler  becomes a [debugger](https://github.com/kelu124/echomods/blob/master/doc/log.md)
-
 #### TODO
 
 Experience
