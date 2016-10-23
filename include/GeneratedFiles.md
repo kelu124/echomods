@@ -5,6 +5,7 @@
 * ./include/AddTableAvancement.md
 * ./include/GeneratedFiles.md
 * ./include/ManualFiles.md
+* ./include/sets/KitCosts.md
 * ./include/sets/emulated.cost.md
 * ./include/sets/highspeed.cost.md
 * ./include/sets/sets_slides.md

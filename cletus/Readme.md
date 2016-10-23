@@ -8,7 +8,7 @@
 
 ## Title
 
-The object containing the different modules.
+Simply the servo and transducer module
 
 ## Description
 
@@ -17,7 +17,7 @@ The object containing the different modules.
 * date: 29/04/2016
 * technology:  
 * cost:80$
-* sourcing:Recycling a transducer from ebay 
+* sourcing:Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22))
 * language:  
 * author: Kelu124
 

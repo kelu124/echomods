@@ -20,8 +20,8 @@
 
 ### highspeed
 
-<ul><li>Title: HighSpeed</li>
-<li>Description: ATL3 set ?</li>
+<ul><li>Title: The Beaglebone version, along with an hacked probe</li>
+<li>Description: Some stuff, unexpensive to buy, to build a ultrasound testing kit, totalling less than _500$_.</li>
 </ul>
 
 ### highspeed: diagram

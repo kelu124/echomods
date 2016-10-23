@@ -312,7 +312,7 @@ def getParam(Module,Parameter):
 
 def CreateKits(path,pathmodules):
 	Slides = ""
-
+	AllCosts = "# What does it cost?\n\n"
 	log = []
 
 	for file in os.listdir(path):
@@ -330,15 +330,31 @@ def CreateKits(path,pathmodules):
 				ListOfDirs.append(line)
 			if len(line)>1 and line.startswith("#"):
 				KitModuleFile.append(line)
+		SetName = ""
+		SetDescription = ""
+
 		for item in KitModuleFile:
+			if "#Title:" in str(item):
+				patternCode = r"#Title:(.*?)$"
+				if (re.findall(patternCode, str(item), flags=0)):
+					SetName = "## "+re.findall(patternCode, str(item), flags=0)[0]
+					
+			if "#Description:" in str(item):
+				patternCode = r"Description:(.*?)$"
+				if (re.findall(patternCode, str(item), flags=0)):
+					SetDescription = re.findall(patternCode, str(item), flags=0)[0]
+
 			item = item.replace("#", "")
 			Slides += "<li>"+item+"</li>\n"
-			CostOfSet += "<li>"+item+"</li>\n"
+
+		CostOfSet += SetName+"\n\n"+SetDescription.strip()+"\n"
 		CostOfSet += "\n\n"
 		Slides += "</ul>" +"\n\n### "+NomDuSet+": diagram\n\n![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/"+NomDuSet+".png)"+"\r\n\n"
 
 		GraphModules = digraph()
 		# Dans chaque sous-ensemble..
+		PrixSet = 0
+
 		for eachInput in ListOfDirs:
 			ModuleCost = ""
 			ModuleSourcing = ""
@@ -358,6 +374,7 @@ def CreateKits(path,pathmodules):
 					if "* cost:" in line:
 						patternCode = r"cost:(.*?)$"
 						ModuleCost = re.findall(patternCode, line, flags=0)[0]
+						PrixSet += int(''.join(c for c in ModuleCost if c.isdigit()))
 					if "* sourcing:" in line:
 						patternCode = r"\* sourcing:(.*?)$"
 						ModuleSourcing = re.findall(patternCode, line, flags=0)[0]
@@ -370,7 +387,7 @@ def CreateKits(path,pathmodules):
 			if len(ModuleSourcing) == 0:
 				log.append("__[MDL "+eachInput+"]__ "+ RedMark+" Sourcing missing\n")
 
-
+			
 			# Getting the Innards of the Module // inside the block diagram
 			pattern = r"block diagram</h3>([\s\S]*)<h2>About"
 			results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
@@ -428,10 +445,16 @@ def CreateKits(path,pathmodules):
 			GraphPath = path+"/sets/"+NomDuSet
 			GraphModules.render(GraphPath)	
 			Svg2Png(GraphPath) 
-
-			OpenWrite(CostOfSet,path+"/sets/"+NomDuSet+".cost.md")
-
+		CostOfSet+="\n\n_Total cost of the set: "+str(PrixSet)+"$_\n\n"
+		OpenWrite(CostOfSet,path+"/sets/"+NomDuSet+".cost.md")
+		AllCosts += CostOfSet
 	# Writing the slides
 	OpenWrite(Slides,path+"sets/sets_slides.md")
+	OpenWrite(AllCosts,path+"sets/KitCosts.md")
+
+
+
+
+
 	return log
 

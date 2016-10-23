@@ -53,7 +53,7 @@ print ListOfRetiredDirs
 # -------------------------
 
 pitch = getText("include/AddPitch.md")
-HeaderDocTxt = getText("include/AddEchomods.md")
+HeaderDocTxt = getText("include/AddEchomods.md")+getText("include/sets/KitCosts.md")
 AddInterfacesDocTxt= getText("include/AddInterfaces.md")
 AddLicenseDocTxt = getText("include/AddLicense.md")
 AddPrinciples = getText("include/AddPrinciples.md")
@@ -748,3 +748,4 @@ log = log+ResultKits
 
 log.sort()
 OpenWrite("\n".join( log ),"doc/log.md")
+

@@ -61,4 +61,7 @@ digraph {
 	"ITF-S_3_3v" [fillcolor=yellow style="rounded,filled"]
 		"ITF-S_3_3v" -> mogaba [nodesep=1 splines=line]
 		mogaba -> "ITF-S_3_3v" [fillcolor=red nodesep=1 splines=line]
+	doj [fillcolor=blue fontsize=22 shape=box style=filled]
+		doj -> "
+" [fillcolor=red nodesep=1 splines=line]
 }
