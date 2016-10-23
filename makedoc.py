@@ -423,12 +423,6 @@ log.append("__[WEB Blog]__ "+str(len(ListePosts))+" posts added"+"\n")
 #                    Gitbooking                      #
 # -------------------------------------------------- #
 
-
-
-
-
-
-
 # -------------------------
 # Gitbooking worklog
 # -------------------------
@@ -447,21 +441,14 @@ CopyGitBookFile("include/AddPitch.md","gitbook/README.md")
 # -------------------------
 # Adding CHAPTER 1 : Histoire et principe des ultrasons
 # -------------------------
-f = open("include/AddEngineering.md", 'r')
-AddEngineering = f.read()
-f.close()
 
-
-f = open("gitbook/Chapter1/engineering.md","w+")
-f.write(IncludeImage(AddRawHURL(AddEngineering)))
-f.close()
-
+AddEngineering = getText("include/AddEngineering.md")
+OpenWrite(IncludeImage(AddRawHURL(AddEngineering)),"gitbook/Chapter1/engineering.md")
 
 PrinciplesOfEchoes = ""
 f = open("include/AddPrinciples.md", 'r')
 PrinciplesOfEchoes += f.read()
 f.close()
-
 f = open("include/AddStructure.md", 'r')
 PrinciplesOfEchoes += f.read()
 f.close()
@@ -469,106 +456,59 @@ f = open("include/AddStructureDetails.md", 'r')
 PrinciplesOfEchoes += f.read()
 f.close()
 
-f = open("gitbook/Chapter1/principles.md","w+")
-f.write(IncludeImage(AddRawHURL(PrinciplesOfEchoes)))
-f.close()
-
-
-f = open("gitbook/Chapter1/modules.md","w+")
-f.write(AddRawHURL(HeaderDocTxt))
-f.close()
+OpenWrite(IncludeImage(AddRawHURL(PrinciplesOfEchoes)),"gitbook/Chapter1/principles.md")
+OpenWrite(AddRawHURL(HeaderDocTxt),"gitbook/Chapter1/modules.md")
 
 # list of modules
-
-f = open("gitbook/Chapter1/listofmodules.md","w+")
-f.write(IncludeImage(AddRawHURL(TableModulesShort)))
-f.close()
+OpenWrite(IncludeImage(AddRawHURL(TableModulesShort)),"gitbook/Chapter1/listofmodules.md")
 
 
 # -------------------------
 # Adding CHAPTER 2 : Basic kit
 # -------------------------
 
-
 for eachModule in ModulesChaptDeux:
+	ModuleDesc = getText(eachModule+"/Readme.md")
+	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
 
-	f = open(eachModule+"/Readme.md", 'r')
-	ModuleDesc = f.read()
-	f.close()
+# Resume pour Murgen
+MurgenSummary = "# The first iteration, Murgen\n\n"
+f = open("include/AddMurgenSummary.md", 'r')
+MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
+f.close()
+f = open("./../murgen-dev-kit/Readme.md", 'r')
+MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
+f.close()
+OpenWrite(AddRawMurgenURL(MurgenSummary)+"\n\n","gitbook/devkit0.md")
 
-	f = open("gitbook/Chapter2/"+eachModule+".md","w+")
-	f.write(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n")
-	f.close()
-	
-
-	f = open("gitbook/Chapter2/"+eachModule+".md","w+")
-	f.write(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n")
-	f.close()
-
-	# Resume pour Murgen
-	MurgenSummary = "# The first iteration, Murgen\n\n"
-	f = open("include/AddMurgenSummary.md", 'r')
-	MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
-	f.close()
-	f = open("./../murgen-dev-kit/Readme.md", 'r')
-	MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
-	f.close()
-
-	f = open("gitbook/devkit0.md","w+")
-	f.write(AddRawMurgenURL(MurgenSummary)+"\n\n")
-	f.close()
-
-	# Resume pour le wireless
-	WirelessSet = "# Wireless implementation of the modules\n\n"
-	f = open("include/AddWireless.md", 'r')
-	WirelessSet = WirelessSet+"\n\n"+AddOneLevel(f.read())
-	f.close()
- 	f = open("gitbook/devkit11.md","w+")
-	f.write(AddRawHURL(WirelessSet)+"\n\n")
-	f.close()
+# Resume pour le wireless
 
 
-	# Resume technique de Murgen
-	f = open("include/AddIntroMurgen.md", 'r')
-	MurgenIntro = f.read()
-	f.close()
-	f = open("gitbook/Chapter2/murgensetup.md","w+")
-	f.write(AddRawHURL(MurgenIntro)+"\n\n")
-	f.close()
+WirelessSet = "# Wireless implementation of the modules\n\n"+"\n\n"+AddOneLevel(getText("include/AddWireless.md"))
+OpenWrite(AddRawHURL(WirelessSet)+"\n\n","gitbook/devkit11.md")
 
-	# Adding zach's work
-	Zach = ""
-	f = open("./../murgen-dev-kit/worklog/Zach/Zach.md", 'r')
-	Zach = f.read()
-	f.close()
+# Resume technique de Murgen
+OpenWrite(AddRawHURL(getText("include/AddIntroMurgen.md"))+"\n\n","gitbook/Chapter2/murgensetup.md")
 
-	f = open("./../murgen-dev-kit/worklog/Zach/2016-06-22.md", 'r')
-	Zach = Zach+"\n\n"+AddOneLevel(f.read())
-	f.close()
+# Adding zach's work
+Zach = ""
+f = open("./../murgen-dev-kit/worklog/Zach/Zach.md", 'r')
+Zach = f.read()
+f.close()
 
-	f = open("./../murgen-dev-kit/worklog/Zach/2016-07-06.md", 'r')
-	Zach = Zach+"\n\n"+AddOneLevel(f.read())
-	f.close()
+f = open("./../murgen-dev-kit/worklog/Zach/2016-06-22.md", 'r')
+Zach = Zach+"\n\n"+AddOneLevel(f.read())
+f.close()
 
-	f = open("gitbook/Chapter2/zach.md","w+")
-	f.write(AddRawMurgenURL(Zach)+"\n\n")
-	f.close()
+f = open("./../murgen-dev-kit/worklog/Zach/2016-07-06.md", 'r')
+Zach = Zach+"\n\n"+AddOneLevel(f.read())
+f.close()
 
 
-	f = open("./../murgen-dev-kit/hardware/Readme.md", 'r')
-	MurgenHard = f.read()
-	f.close()
-	f = open("gitbook/Chapter2/murgenhardware.md","w+")
-	f.write(AddRawMurgenURL(MurgenHard)+"\n\n")
-	f.close()
+OpenWrite(AddRawMurgenURL(Zach)+"\n\n","gitbook/Chapter2/zach.md")
+OpenWrite(AddRawMurgenURL(getText("./../murgen-dev-kit/hardware/Readme.md"))+"\n\n","gitbook/Chapter2/murgenhardware.md")
+OpenWrite(AddRawMurgenURL(getText("./../murgen-dev-kit/software/Readme.md"))+"\n\n","gitbook/Chapter2/murgensoftware.md")
 
-
-	f = open("./../murgen-dev-kit/software/Readme.md", 'r')
-	MurgenSoft = f.read()
-	f.close()
-	f = open("gitbook/Chapter2/murgensoftware.md","w+")
-	f.write(AddRawMurgenURL(MurgenSoft)+"\n\n")
-	f.close()
 
 
 # -------------------------
@@ -576,15 +516,8 @@ for eachModule in ModulesChaptDeux:
 # -------------------------
 
 for eachModule in ModulesChaptTrois:
-
-	f = open(eachModule+"/Readme.md", 'r')
-	ModuleDesc = f.read()
-	f.close()
-
-	f = open("gitbook/Chapter3/"+eachModule+".md","w+")
-	f.write(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n")
-	f.close()
-
+	ModuleDesc = getText(eachModule+"/Readme.md")
+	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
 
 # -------------------------
 # Adding CHAPTER 4 : Notes and worklog
@@ -619,46 +552,25 @@ for detailednote in notesLogs:
 	Adddetailednote.close()
 
 # Saving it in a file
+OpenWrite("# Introduction to the Chapter 4\n\n","gitbook/Chapter4/README.md")
+OpenWrite(AddRawHURL(detailedLogText)+"\n\n","gitbook/Chapter4/detailedlog.md")
+OpenWrite(AddRawHURL(detailedNotesText)+"\n\n","gitbook/Chapter4/detailednotes.md")
+OpenWrite("# Raw worklog\n\n"+AddRawHURL(WorkLogLevel(MyLogs))+"\n\n","gitbook/Chapter4/rawworklog.md")
 
-f = open("gitbook/Chapter4/README.md","w+")
-f.write("# Introduction to the Chapter 4\n\n")
-f.close()
-
-f = open("gitbook/Chapter4/detailedlog.md","w+")
-f.write(AddRawHURL(detailedLogText)+"\n\n")
-f.close()
-
-f = open("gitbook/Chapter4/detailednotes.md","w+")
-f.write(AddRawHURL(detailedNotesText)+"\n\n")
-f.close()
-
-f = open("gitbook/Chapter4/rawworklog.md","w+")
-f.write("# Raw worklog\n\n"+AddRawHURL(WorkLogLevel(MyLogs))+"\n\n")
-f.close()
 
 # Adding murgen's work
 
 Sessions = []
-
 for SessionLog in ListOfMurgenSessions:
 	f = open("./../murgen-dev-kit/worklog/"+SessionLog, 'r')
 	Sessions.append(f.read())
 	f.close()
- 
 for i in range(len(Sessions)):
-	Sessions[i] = AddRawMurgenURL(Sessions[i])
+	OpenWrite(AddRawMurgenURL(Sessions[i])+"\n\n","gitbook/Chapter4/"+ListOfMurgenSessions[i])
+# And the log
+CopyGitBookMurgenFile("./../murgen-dev-kit/worklog/notes.md","gitbook/Chapter4/murgenworklog.md")
 
-for i in range(len(Sessions)):
-	f = open("gitbook/Chapter4/"+ListOfMurgenSessions[i], "w+")
-	f.write(Sessions[i]+"\n\n")
-	f.close()
 
-WikiNotes = ""
-f = open("./../murgen-dev-kit/worklog/notes.md", 'r')
-WikiNotes = AddRawMurgenURL(f.read())
-f.close()
-
-OpenWrite(WikiNotes,"gitbook/Chapter4/murgenworklog.md")
 
 
 # -------------------------
@@ -673,13 +585,8 @@ Examples = getText("./../murgen-dev-kit/software/examples/Readme.md").split("# "
 TableDataExamples = "# "+Examples[-1]
 OpenWrite("# Still images from murgen \n\n"+TableDataExamples+"\n\n","gitbook/Chapter5/images.md")
 
-
 Examples_croaker=getText("croaker/data/examples/Readme.md")
-
-f = open("gitbook/Chapter5/croaker_data.md","w+")
-f.write("# Images acquired using Croaker \n\n"+AddRawHURL(AddOneLevel(Examples_croaker))+"\n\n")
-f.close()
-
+OpenWrite("# Images acquired using Croaker \n\n"+AddRawHURL(AddOneLevel(Examples_croaker))+"\n\n","gitbook/Chapter5/croaker_data.md")
 
 Loops = ""
 f = open("include/20160814/2016-08-14-HackingAUltrasoundProbe.md", 'r')
@@ -689,44 +596,24 @@ f = open("include/20160822/2016-08-22-Fantom.md", 'r')
 Loops += f.read() + "\n\n"
 f.close()
 
-
-f = open("gitbook/Chapter5/loops.md","w+")
-f.write("# Adding videos \n\n There are two loops saved so far. \n\n"+AddRawHURL(AddOneLevel(Loops))+"\n\n")
-f.close()
-
-
+OpenWrite("# Adding videos \n\n There are two loops saved so far. \n\n"+AddRawHURL(AddOneLevel(Loops))+"\n\n","gitbook/Chapter5/loops.md")
 
 # -------------------------
 # Adding CHAPTER 6 : Biblio 
 # -------------------------
 
-
-
-
 articles=getText("include/Bibliography.md")
 OpenWrite("# Bibliography \n\n"+AddRawHURL(articles)+"\n\n","gitbook/Chapter6/articles.md")
 
-
 electronics = getText("./../murgen-dev-kit/worklog/bibliographie.md").replace("# Our setup\n","")
+OpenWrite("# Our choice of electronics \n\n"+electronics+"\n\n","gitbook/Chapter6/components.md")
 
+OpenWrite("# List of modules Interfaces \n\n"+AddRawHURL(AddInterfacesDocTxt)+"\n\n","gitbook/Chapter6/interfaces.md")
 
-f = open("gitbook/Chapter6/components.md","w+")
-f.write("# Our choice of electronics \n\n"+electronics+"\n\n")
-f.close()
+AddDocProcess =getText("include/AddDocProcess.md")
+OpenWrite("# Automating documentation \n\n"+AddRawHURL(AddDocProcess)+"\n\n","gitbook/Chapter6/documentationprocess.md")
 
-
-f = open("gitbook/Chapter6/interfaces.md","w+")
-f.write("# List of modules Interfaces \n\n"+AddRawHURL(AddInterfacesDocTxt)+"\n\n")
-f.close()
-
-f = open("include/AddDocProcess.md", 'r')
-AddDocProcess = f.read()
-f.close()
-
-f = open("gitbook/Chapter6/documentationprocess.md","w+")
-f.write("# Automating documentation \n\n"+AddRawHURL(AddDocProcess)+"\n\n")
-f.close()
-
+CopyGitBookFile("include/biblio/Readme.md","gitbook/Chapter6/academicbiblio.md")
 # -------------------------
 # Adding CHAPTER 7 : Contributing
 # -------------------------
@@ -734,6 +621,7 @@ f.close()
 OpenWrite("# The table of progress \n\n"+TableAvancement+"\n\n","gitbook/Chapter7/progress.md")
 OpenWrite(TODOsToShopping+"\n\n","gitbook/Chapter7/shoppingList.md")
 OpenWrite(AddLicenseDocTxt+"\n\n","gitbook/Chapter7/license.md")
+CopyGitBookFile("CLA.md","gitbook/CLA.md")
 
 # -------------------------
 # Saving the compilation log

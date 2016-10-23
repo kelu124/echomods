@@ -14,6 +14,17 @@
 * ./croaker/notes_feather_WICED.md
 * ./croaker/notes_uC.md
 * ./doj/Readme.md
+* ./gitbook/Chapter1/readme.md
+* ./gitbook/Chapter2/basicdevkit.md
+* ./gitbook/Chapter2/readme.md
+* ./gitbook/Chapter2/results.md
+* ./gitbook/Chapter3/readme.md
+* ./gitbook/Chapter5/readme.md
+* ./gitbook/Chapter6/readme.md
+* ./gitbook/Chapter7/readme.md
+* ./gitbook/GLOSSARY.md
+* ./gitbook/SUMMARY.md
+* ./gitbook/devkit1.md
 * ./goblin/2016-07-08.md
 * ./goblin/2016-07-15.md
 * ./goblin/2016-08-09.md
@@ -28,6 +39,7 @@
 * ./include/AddEngineering.md
 * ./include/AddFormatRules.md
 * ./include/AddInterfaces.md
+* ./include/AddIntro.md
 * ./include/AddIntroMurgen.md
 * ./include/AddLicense.md
 * ./include/AddMurgenSummary.md

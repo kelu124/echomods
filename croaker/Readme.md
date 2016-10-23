@@ -37,19 +37,15 @@ The acquisition heart of the echOmods
 * `ITF-mED-OLED-Screen`
 * `ITF-mEC-WiFi-UDP-Stream`
 
-
 ## Key Components
 
 * `Feather WICED` : see notes
-
 
 ## Information
 
 ### What is it supposed to do?
 
-
 The aim of this echOmod is to receive the signal and process it.
-
 
 ### How does it work: block diagram
 
@@ -102,12 +98,9 @@ Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 
 ![](/silent/images/SilentEnveloppeFinal.JPG)
 
-
 ## Discussions
 
-
 ### TODO
-
 
 * Replace the work done by [OneEye](/oneeye/) by [Croaker](/croaker/).
 * Get better total ADC speed with an iterleaved move
@@ -120,7 +113,7 @@ Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 
 ### People
 
-* KGhosh
+* Kelu124
 
 ## License
 

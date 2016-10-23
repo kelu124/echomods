@@ -4,7 +4,7 @@
 
 ### Read more about [ATL10 PV](/retired/retro10PV)
 
-### Read more about [ATL3 PV](/retired/retroATL3)
+### Read more about [ATL Access 3](/retroATL3)
 
 ## List of probes and details
 

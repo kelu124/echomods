@@ -867,7 +867,7 @@ Would you like to support an existing project with your skills and expertise? Or
 
 #### 2016-10-22 End of week
 
-* Trouvé au hasard : "One material with exceptional acoustic properties is TPX (polymethylpentene) [Westlake Plastics Company,  Lenni,  PA]. Pour une sonde à 35MHz, mais ca peut donner des pistes de suppliers. (Ref 10.1109/ULTSYM.2001.991996)
+* Trouve au hasard : "One material with exceptional acoustic properties is TPX (polymethylpentene) [Westlake Plastics Company,  Lenni,  PA]. Pour une sonde à 35MHz, mais ca peut donner des pistes de suppliers. (Ref 10.1109/ULTSYM.2001.991996)
 * Article being written at https://gist.github.com/kelu124/af9e3b39b0ba8bed3bde250489635fa6
 * Onboarding Pouya =)
 
@@ -890,9 +890,17 @@ Would you like to support an existing project with your skills and expertise? Or
 
 #### 2016-10-23 Geeking
 
-* Over engineering ? https://d262ilb51hltx0.cloudfront.net/max/800/1*xzS-UkYtNOgzPvpkHGwRbQ.png ^^
+* Over engineering ? https://d262ilb51hltx0.cloudfront.net/max/800/1*xzS-UkYtNOgzPvpkHGwRbQ.png 
 * Found an interesting octal transmit board : http://www.ti.com/tool/TX-SDK-V2
 * Update of the [references list](/include/references.md)
+
+#### 2016-10-24 Geeking II
+
+* arduino legos : awesome form factor https://twitter.com/bwshockley/status/789971893356900352
+* Paris on t'aime http://www.konbini.com/fr/tendances-2/paris-mairie-video-anne-hidalgo/
+* http://www.npr.org/2016/10/21/498734538/black-mirror-is-back-reflecting-our-technological-fears
+* http://www.bandits-mages.com/rencontres2016/ressources/
+* Darkness https://www.poetryfoundation.org/poems-and-poets/poems/detail/43825
 
 =======
 

@@ -35,7 +35,7 @@ I want to:
 * use the "modules" concepts : _seeds_ of information
 * use only text
 
-Conclusion: creation of markdown "blocks" which will feed all the doc.
+Conclusion: creation of [markdown "blocks"](https://github.com/kelu124/echomods/blob/master/include/ManualFiles.md) which will feed all the generated docs (see a list [here](https://github.com/kelu124/echomods/blob/master/include/GeneratedFiles.md)).
 
 
 
@@ -103,6 +103,8 @@ An efficient (err, lazy) way of documenting. Only one place to edit information,
 * All-purpose __presentations__
 * A __gitbook__
 
+The documentation compiler  becomes a [debugger](https://github.com/kelu124/echomods/blob/master/doc/log.md)
+
 #### TODO
 
 Experience
@@ -111,8 +113,7 @@ Experience
 * What flow to capture the visitor, and guide him?
 * --> Need a story
 
-Documentation compiler/tester
-* See an example [here](https://github.com/kelu124/echomods/blob/master/doc/example_fail.md)
+
 
 #### Q&A
 

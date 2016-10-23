@@ -20,7 +20,7 @@ cd ..
 # Preparation des PPT
 
 cp include/ppt_CLA.md gh-pages/ppt_CLA.md
-cp CLA.md gitbook/CLA.md
+
 
 cd gh-pages/
 ./createMD.sh

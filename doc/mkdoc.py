@@ -101,7 +101,6 @@ def apply_styles(graph, styles):
 
 
 def GetListofModules(dirname):
-
 	ListOfDirs = os.listdir(dirname)  
 	ModulesDirs = []
 	for f in ListOfDirs:
@@ -113,8 +112,6 @@ def GetListofModules(dirname):
 	else:
 		f = [x for x in ModulesDirs if x not in ExcludeDirs]
 	return f
-
-
 
 def getText(path):
 	f = open(path,'r')
@@ -140,10 +137,6 @@ def getHs(soupH,h,hText):
 					Text.append(nextSib)
                				nextSib = nextSib.nextSibling
 	return Text
-
-
-
-
 
 def returnHList(soup,h,hText):
 	ListItem = []
@@ -238,6 +231,8 @@ def CopyFile(From,To):
 
 def CopyGitBookFile(From,To):
 	return OpenWrite(AddRawHURL(getText(From)),To)
+def CopyGitBookMurgenFile(From,To):
+	return OpenWrite(AddRawMurgenURL(getText(From)),To)
 
 def GraphModule(Paires,GraphThisModule,ReadMe):
         for eachPair in Paires:
@@ -260,17 +255,12 @@ def GraphModule(Paires,GraphThisModule,ReadMe):
 # -------------------------
 
 def GetGeneratedFiles(path):
-
 	ManualFiles = []
 	AutoFiles = []
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.md'))]
-
-	ExcludeDirs = ["tools",".git","gh-pages","doc","gitbook","retired"]
-
+	ExcludeDirs = ["tools",".git","gh-pages","doc","retired"]
 	f = [x for x in results if x.split("/")[1] not in ExcludeDirs]
-
 	for eachMd in f:
-
 		with open(eachMd) as FileContent:
 			found = False
 			for line in FileContent:  #iterate over the file one line at a time(memory efficient)
@@ -307,7 +297,7 @@ def getParam(Module,Parameter):
 	return Param
 
 # -------------------------
-# Getting a parameter from a module
+# Create the kits
 # -------------------------
 
 def CreateKits(path,pathmodules):
