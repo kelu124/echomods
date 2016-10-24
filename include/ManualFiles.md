@@ -2,6 +2,11 @@
 * ./CodeOfConduct.md
 * ./Worklog.md
 * ./cletus/Readme.md
+* ./cletus/suppliers/Readme.md
+* ./cletus/suppliers/piezo-specs.md
+* ./cletus/suppliers/supplier-americanpiezo.md
+* ./cletus/suppliers/supplier-piezotech.md
+* ./cletus/suppliers/supplier-smartmaterials.md
 * ./croaker/Readme.md
 * ./croaker/data/examples/Intro.md
 * ./croaker/data/examples/Readme.md

@@ -4,4 +4,5 @@ silent
 croaker
 mogaba
 doj
-	
+goblin
+
