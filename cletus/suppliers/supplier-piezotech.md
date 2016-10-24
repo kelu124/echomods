@@ -6,8 +6,8 @@
 
 ### Status
 
-* Deja contactes
-* A relancer
+* Deja contactes en 2015
+* @tofollowup
 
 ### Notes
 
