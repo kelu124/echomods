@@ -5,16 +5,15 @@
 
 # What do we do?
  
-## What is it?
+## What are the arduino-like ultrasound module ?
 
 __Creating modules to facilitate ultrasound hacking__ : the principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control.
 
 We have chosen to use a module approach to make sure that each key component inside ultrasound image processing can easily be replaced and compared with another module, while providing logical _logic blocks_ and corresponding interfaces for these modules to communicate. There's a module for [high-voltage pulsing](/tobo/), one for the [transducer](/retroATL3/), one for the [analog processing](/goblin/), one for [data acquisiton](/toadkiller/), ... and many more!
 
-These modules can have a form factor close to classical breadboard electronic modules, with a row of 19 pins on the side.
+## What images does it give ?
 
-Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules. 
-
+![](/include/20161016/2619341460036774092.png)
 
 ## What does it look like?
 
@@ -117,7 +116,7 @@ Note that the 'BONUS!' represents something that _could_ be done, and does not c
 |doj||<ul><li>Having the list of strips accessible</li><li>Design</li><li>Assemble it</li><li>Test it</li></ul>|100% |
 |oneeye||<ul><li>First test with Arduino Trinket</li></ul>|100% |
 |croaker|<ul><li>Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a>.</li><li>Get better total ADC speed with an iterleaved move</li></ul>|<ul><li>Choose the platform (BBB, RPi0, STM32, ... ?) : that'll be a <code>Feather WICED</code></li><li>Getting some images</li><li>Getting images onto a screen</li></ul>|60% |
-|retroATL3|<ul><li><em>BONUS!</em> Get RealTime acquisition</li><li>Acquire and build ultrasound pictures =)</li></ul>|<ul><li>Finding the pins mapping</li><li>Motor in action</li><li>Refill Oil</li><li>Test echoes</li><li><a href="https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging/log/42113-testing-murgen-with-a-market-probe">Make and insert a video: there</a></li></ul>|83% |
+|retroATL3|<ul><li><em>BONUS!</em> Get RealTime acquisition</li></ul>|<ul><li>Finding the pins mapping</li><li>Acquire and build ultrasound pictures =)</li><li>Motor in action</li><li>Refill Oil</li><li>Test echoes</li><li><a href="https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging/log/42113-testing-murgen-with-a-market-probe">Make and insert a video: there</a></li></ul>|100% |
 |toadkiller|<ul><li>Enhance the BBB to transform it into a ultrasound server</li></ul>|<ul><li>Do the quick check up</li><li>Acquire some data</li><li>Post some data</li></ul>|75% |
 |goblin|<ul><li><em>BONUS!</em> Plug it to a <a href="/croaker/">RPi0 or BBB or RPi</a> or else.</li><li><em>BONUS!</em> or test it with the <a href="/retired/kina/">EMW3165</a>.</li><li>Publish the sources in KiCAD (@Sofian maybe?)</li></ul>|<ul><li>Check the power consumption</li><li>Specs to write</li><li>Agreeing on the strips </li><li>Check if 5V and 3.3V are stable</li><li>Defining the ICs to use</li><li>Getting schematics</li><li>Send microcircuits to Edgeflex</li><li>Receive the module</li></ul>|88% |
 |silent||<ul><li>Feather: <a href="/silent/software/featherWICED/SignalGenerator.ino">work with an interrupt</a></li><li>Write code for feather WICED</li><li>Publish this code</li><li>Remove Signal Bias</li><li>Validated with a Feather WICED (<a href="/silent/software/featherWICED/SimpleSignalGenerator.ino">code</a>).</li><li>Feather: remove the average value before inputing in Goblin</li><li><a href="/silent/2016-08-09 SilentPlusTobo.md">Check output with Goblin</a></li></ul>|100% |
