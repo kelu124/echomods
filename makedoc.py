@@ -435,7 +435,8 @@ OpenWrite(MyLogs,"include/AddMyLogs.md")
 # Preface
 # -------------------------
 
-CopyGitBookFile("include/AddPitch.md","gitbook/README.md")
+Preface = AddOneLevel(getText("include/AddPitch.md")) + "\n" + getText("include/AddEchomods.md") 
+OpenWrite(Preface,"gitbook/README.md")
 
 
 # -------------------------

@@ -902,6 +902,12 @@ Would you like to support an existing project with your skills and expertise? Or
 * http://www.bandits-mages.com/rencontres2016/ressources/
 * Darkness https://www.poetryfoundation.org/poems-and-poets/poems/detail/43825
 
+#### 2016-10-25 Financing through ebooks
+
+* e-book generation at a. : https://medium.com/@aayushu/how-i-make-400-a-month-in-passive-income-by-self-publishing-68fa948edff5#.8h9udy2ad
+
+
+
 =======
 
 uControllers and other stuff

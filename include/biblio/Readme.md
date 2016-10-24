@@ -1,4 +1,4 @@
-1. Erickson S, Kruse D, Ferrara K. A hand-held, high frequency ultrasound scanner. In IEEE; 2001 [cité 21 oct 2016]. p. 1465‑8. Disponible sur: http://ieeexplore.ieee.org/document/991996/
+	1. Erickson S, Kruse D, Ferrara K. A hand-held, high frequency ultrasound scanner. In IEEE; 2001 [cité 21 oct 2016]. p. 1465‑8. Disponible sur: http://ieeexplore.ieee.org/document/991996/
 2. Lei Sun, Richard WD, Cannata JM, Feng CC, Johnson JA, Yen JT, et al. A High-Frame Rate High-Frequency Ultrasonic System for Cardiac Imaging in Mice. IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control. août 2007;54(8):1648‑55. 
 3. Richard WD, Zar DM, Solek R. A low-cost B-mode USB ultrasound probe. Ultrason Imaging. janv 2008;30(1):21‑8. 
 4. Bezanson AB, Adamson R, Brown JA. A low-cost high frame-rate piezoelectric scanning mechanism for high-frequency ultrasound systems. In IEEE; 2011 [cité 21 oct 2016]. p. 458‑61. Disponible sur: http://ieeexplore.ieee.org/document/6293658/
@@ -19,5 +19,6 @@
 19. Hendy AM, Hassan M, Eldeeb R, Kholy D, Youssef A-B, Kadah YM. PC-based modular digital ultrasound imaging system. In IEEE; 2009 [cité 21 oct 2016]. p. 1330‑3. Disponible sur: http://ieeexplore.ieee.org/document/5441904/
 20. Chiang AM, Chang PP, Broadstone SR. PC-based ultrasound imaging system in a probe. In IEEE; 2000 [cité 21 oct 2016]. p. 1255‑60. Disponible sur: http://ieeexplore.ieee.org/document/921551/
 21. Kyu Cheol Kim, Min Jae Kim, Hyun Suk Joo, Wooyoul Lee, Changhan Yoon, Tai-Kyong Song, et al. Smartphone-based portable ultrasound imaging system: A primary result. In IEEE; 2013 [cité 21 oct 2016]. p. 2061‑3. Disponible sur: http://ieeexplore.ieee.org/document/6725301/
+
 
 

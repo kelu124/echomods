@@ -84,13 +84,31 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ## Discussions
 
-### RealTime issues
+### Good images achieved! [RESOLVED]
+
+[Please refer to this log to read more about how we got this image](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md). Here's an example of the image we got:
+
+![](/include/20160814/sonde3V_1-4.csv-SC.png)
+
+#### Real time achieved
+
+Getting realtime information (with no stupid data transfer delays) gives continuous images.
+
+![](/include/20160814/sonde3V_1.png)
+
+#### Reconstructing one loop
+
+With which one can reconstruct a movie:
+
+![](/include/20160814/sonde3V_1.gif)
+
+### RealTime issues [RESOLVED]
 
 The motor spins too fast... damned. As seen in "rotating probe image", we can't really say when the probe is rotating or not.  So we'll need a way to check the speed of the motor.
 
 Having timestamped the bitscope acquisitions, there is a 20 +- 0.74 ms between each line.. a tad slow.
 
-### Tests 
+### Tests  [RESOLVED]
 
 Those were done with a bitscope at 5Msps.. with 'non-null' delays between each line.
 
@@ -98,11 +116,11 @@ Those were done with a bitscope at 5Msps.. with 'non-null' delays between each l
 
 An echo appears with [Murgen](https://github.com/kelu124/murgen-dev-kit), gain at 0.6V
 
-![](images/TEK0005.JPG)
+![](/retroATL3/images/TEK0005.JPG)
 
 #### Getting an image while the probe is rotating
 
-![](software/data/20160721-100523.png)
+![](/retroATL3/software/data/20160721-100523.png)
 
 We don't really see much.. and it appears there is a slight delay 
 
@@ -112,26 +130,26 @@ _This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-
 
 We see that the image is there, but we don't know when/where the image was taken.
 
-![](software/data/20160720-083810.png)
+![](/retroATL3/software/data/20160720-083810.png)
 
 _This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-kit/worklog/), Worklog 10_
 
 #### Details of the probe
 
-![](images/DSC_0723.JPG)
+![](/retroATL3/images/DSC_0723.JPG)
 
 #### Refilling the probe
 
-![](images/DSC_0725.JPG)
+![](/retroATL3/images/DSC_0725.JPG)
 
 ### TODO
 
 * _BONUS!_ Get RealTime acquisition
-* Acquire and build ultrasound pictures =)
 
 ### DONE
 
 * Finding the pins mapping
+* Acquire and build ultrasound pictures =)
 * Motor in action
 * Refill Oil
 * Test echoes
