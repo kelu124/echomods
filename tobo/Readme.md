@@ -73,7 +73,7 @@ The aim of this echOmod is to get the HV Pulse done.
 ### Cons
 
 * Takes a lot of space because of the modularity. SMA, jumpers and pots could be removed.
-* HV7360 seems to be running out, production may be stopping (on end of summer 2016). Need to find a replacement for it. 
+
 * Little flexibility from the use of ICs.
 * There's no impedance matching for the pulser to the transducer, could be better.
 
@@ -92,7 +92,7 @@ and [a link to it](tobo_schematics.pdf)
 
 ## Discussions
 
-Some issues with the availability of the `HV7360`, living its end of life.
+* Some issues with the availability of the `HV7360`, living its end of life. The latest version of [Altium](/source/tobo/Altium/) and [Kicad](/source/tobo/Kicad/) source files should show the new [HV7360 CABGA](/source/tobo/datasheets/HV7360_CABGA.pdf).
 
 ### TODO
 
@@ -102,6 +102,7 @@ Some issues with the availability of the `HV7360`, living its end of life.
 ### DONE
 
 * Writing specs 
+* HV7360 has been updated
 * Sending microcircuits to Edgeflex
 * Agreeing on the strips/tracks 
 * Defining the ICs to use to pulse

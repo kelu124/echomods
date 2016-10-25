@@ -62,7 +62,7 @@ With more details, this [Goblin](/goblin/) board aims at getting a signal, and g
 
 All key signals are accessible, and jumpers, as well as pots, enable on-board fine-tuning of the signals. [See more details on the __testing session__, to see the behavior of the board on a oscillo](/goblin/2016-07-08.md).
 
-It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch only the enveloppe, to be tested with other uC, RPi or BBB. 
+It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch only the enveloppe, to be tested with other uC, RPi or BBB. Test have been also done with [6MSps, arduino IDE-compatible, STM32](/croaker/). 
 
 ### How does it work: block diagram
 
@@ -81,8 +81,8 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 
 * Only needs 5V and 3.3V inputs.
 * Energy use is relatively low: at 9V, Tobo, Goblin, and a trinket pro ask for 180mA.
-* ADC V_REF is flexible: better resolution in output of the ADC
-* E_REF is being removed from the signal output, better than Murgen, where we lost 1.1V from the signal range.
+* _ADC V_REF_ is flexible: better resolution in output of the ADC
+* _E_REF_ is being removed from the signal output, better than Murgen, where we lost 1.1V from the signal range.
 
 ### Cons: what to to make better
 
@@ -91,7 +91,8 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 * The SMA brings little, but still a noise analysis could be done to assess the difference between routing the signal through a SMA cable or through the pins.
 * There are only two layers. A fourth one to connect each pin to the other pin on the same row, as well as a ground plane, could help with the noise.
 * Little flexibility from the use of ICs - but sufficient of sorts for our use.
-* The ADC is borderline in terms of speed of use. A higher sampling rate could be usefull.
+* The [ADC](/goblin/datasheets/AD7274 - 7273 7276.pdf) is borderline in terms of speed of use. A higher sampling rate could be useful.
+* There was a bug with the [ADL5511](/goblin/datasheets/ADL5511.pdf): need to know how it shuts down.
 
 ### Detailed view
 
