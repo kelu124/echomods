@@ -34,7 +34,10 @@ MDFiles = GetGeneratedFiles("./")
 
 OpenWrite("* "+"\n* ".join(MDFiles[0]),"include/GeneratedFiles.md")
 OpenWrite("* "+"\n* ".join(MDFiles[1]),"include/ManualFiles.md")
-
+for mdFile in MDFiles[0]:
+	log=log+CheckLink(mdFile)
+for mdFile in MDFiles[1]:
+	log=log+CheckLink(mdFile)
 
 ListOfDirs = GetListofModules("./")
 for eachInput in ListOfDirs:
@@ -44,6 +47,9 @@ print ListOfDirs
 # -------------------------
 # Retired modules List
 # -------------------------
+
+ListeOfPython = GetPythonFiles("./")
+log = log+CheckPythonFile(ListeOfPython)
 
 ListOfRetiredDirs = GetListofModules("./retired")
 print ListOfRetiredDirs
@@ -435,7 +441,7 @@ OpenWrite(MyLogs,"include/AddMyLogs.md")
 # Preface
 # -------------------------
 
-Preface = AddOneLevel(getText("include/AddPitch.md")) + "\n" + getText("include/AddEchomods.md") 
+Preface = AddRawHURL(AddOneLevel(getText("include/AddPitch.md")) + "\n" + getText("include/AddEchomods.md")) 
 OpenWrite(Preface,"gitbook/README.md")
 
 

@@ -1,3 +1,44 @@
+__[Links]__ :no_entry: `./Readme.md` : Link to non-existing file `./include/sets/basic.png`
+__[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./croaker/2016-09-10-Feather_ADC.md`
+__[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./croaker/2016-09-10-Feather_ADC.md`
+__[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/20160812/20160822-Fantom.md`
+__[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/20160814/20160814-HackingAUltrasoundProbe.md`
+__[Links]__ :no_entry: `./croaker/Readme.md` : Error in link definition, non-absolute path in link to `source/blocks.png`
+__[Links]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Link to non-existing file `./silent/Images/SilentEnveloppeFinal.JPG`
+__[Links]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Link to non-existing file `./silent/Images/SilentOutput.JPG`
+__[Links]__ :no_entry: `./croaker/notes_STM32F205_ref_manual.md` : Link to non-existing file `./croaker/en.CD00225773_STM32F2x5_RefManual.pdf`
+__[Links]__ :no_entry: `./doj/Readme.md` : Error in link definition, non-absolute path in link to `images/IMG_2607.JPG`
+__[Links]__ :no_entry: `./doj/Readme.md` : Error in link definition, non-absolute path in link to `images/doj-simple.png`
+__[Links]__ :no_entry: `./goblin/2016-07-08.md` : Error in link definition, non-absolute path in link to `images/2016-07-08/TEK0003.JPG`
+__[Links]__ :no_entry: `./goblin/2016-07-08.md` : Error in link definition, non-absolute path in link to `images/2016-07-08/TEK0010.JPG`
+__[Links]__ :no_entry: `./goblin/2016-07-08.md` : Error in link definition, non-absolute path in link to `images/2016-07-08/TEK0011.JPG`
+__[Links]__ :no_entry: `./goblin/2016-07-08.md` : Error in link definition, non-absolute path in link to `images/2016-07-08/TEK0015.JPG`
+__[Links]__ :no_entry: `./goblin/2016-07-08.md` : Error in link definition, non-absolute path in link to `images/2016-07-08/TEK0016.JPG`
+__[Links]__ :no_entry: `./goblin/2016-07-08.md` : Error in link definition, non-absolute path in link to `images/2016-07-08/TEK0017.JPG`
+__[Links]__ :no_entry: `./goblin/2016-07-08.md` : Error in link definition, non-absolute path in link to `images/2016-07-08/TEK0018.JPG`
+__[Links]__ :no_entry: `./include/20160720-Milestone.md` : Error in link definition, non-absolute path in link to `#TODO`
+__[Links]__ :no_entry: `./include/20160720-Milestone.md` : Error in link definition, non-absolute path in link to `#TODO`
+__[Links]__ :no_entry: `./include/20160720-Milestone.md` : Error in link definition, non-absolute path in link to `#TODO`
+__[Links]__ :no_entry: `./include/20160822/2016-08-22-Fantom.md` : Link to non-existing file `./include/20160822/20160822-205141.data`
+__[Links]__ :no_entry: `./include/AddIntro.md` : Error in link definition, non-absolute path in link to `module`
+__[Links]__ :no_entry: `./include/AddMurgenSummary.md` : Error in link definition, non-absolute path in link to `Chapter2/murgensetup.html`
+__[Links]__ :no_entry: `./include/AddMurgenSummary.md` : Error in link definition, non-absolute path in link to `Chapter2/zach.html`
+__[Links]__ :no_entry: `./include/AddMurgenSummary.md` : Error in link definition, non-absolute path in link to `Chapter5/images.html`
+__[Links]__ :no_entry: `./include/AddMyLogs.md` : Link to non-existing file `./croaker/2016-09-10-Feather_ADC.md`
+__[Links]__ :no_entry: `./include/AddMyLogs.md` : Link to non-existing file `./croaker/2016-09-10-Feather_ADC.md`
+__[Links]__ :no_entry: `./include/AddMyLogs.md` : Link to non-existing file `./include/20160812/20160822-Fantom.md`
+__[Links]__ :no_entry: `./include/AddMyLogs.md` : Link to non-existing file `./include/20160814/20160814-HackingAUltrasoundProbe.md`
+__[Links]__ :no_entry: `./include/AddWireless.md` : Error in link definition, non-absolute path in link to `module`
+__[Links]__ :no_entry: `./oneeye/Readme.md` : Error in link definition, non-absolute path in link to `images/oneeye-trinket.png`
+__[Links]__ :no_entry: `./oneeye/Readme.md` : Link to non-existing folder `./oneye/`
+__[Links]__ :no_entry: `./retroATL3/Readme.md` : Error in link definition, non-absolute path in link to `source/blocks.png`
+__[Links]__ :no_entry: `./retroATL3/Readme.md` : Link to non-existing file `./retired/retroATL3/viewme.png`
+__[Links]__ :no_entry: `./retroATL3/Readme.md` : Link to non-existing folder `./RetroATL3/`
+__[Links]__ :no_entry: `./silent/2016-08-02.md` : Error in link definition, non-absolute path in link to `software/featherWICED/SimpleSignalGenerator.ino`
+__[Links]__ :no_entry: `./silent/2016-08-02.md` : Error in link definition, non-absolute path in link to `software/featherWICED/SimpleSignalGenerator.png`
+__[Links]__ :no_entry: `./silent/Readme.md` : Link to non-existing file `./silent/2016-08-09 SilentPlusTobo.md`
+__[Links]__ :no_entry: `./toadkiller/Readme.md` : Link to non-existing file `./prudaq/source/blocks.png`
+__[Links]__ :no_entry: `./tobo/Readme.md` : Link to non-existing file `./source/tobo/datasheets/HV7360_CABGA.pdf`
 __[MDL cletus]__ :white_check_mark: 01. Block diagram OK
 
 __[MDL cletus]__ :white_check_mark: 01. Real name found: MDL-echomods_servopiezo
@@ -104,12 +145,64 @@ __[MDL tobo]__ :white_check_mark: 6 input(s)
 
 __[MDL tobo]__ :white_check_mark: Metadata (version, cost, sourcing, date, technology, language, author)
 
+__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Header error 
+__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Missing Author 
+__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Missing Copyright 
+__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Missing License
+__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Missing description
+__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Header error 
+__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Missing Author 
+__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Missing Copyright 
+__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Missing License
+__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Missing description
+__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Header error 
+__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Missing Author 
+__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Missing Copyright 
+__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Missing License
+__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Missing description
+__[Python]__ :no_entry: `./doc/__init__.py` : Missing Author 
+__[Python]__ :no_entry: `./doc/__init__.py` : Missing Copyright 
+__[Python]__ :no_entry: `./doc/__init__.py` : Missing License
+__[Python]__ :no_entry: `./doc/__init__.py` : Missing description
+__[Python]__ :no_entry: `./doc/test.py` : Missing Author 
+__[Python]__ :no_entry: `./doc/test.py` : Missing Copyright 
+__[Python]__ :no_entry: `./doc/test.py` : Missing License
+__[Python]__ :no_entry: `./doc/test.py` : Missing description
+__[Python]__ :no_entry: `./makedoc.py` : Missing Author 
+__[Python]__ :no_entry: `./makedoc.py` : Missing Copyright 
+__[Python]__ :no_entry: `./makedoc.py` : Missing License
+__[Python]__ :no_entry: `./makedoc.py` : Missing description
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-client.py` : Header error 
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-client.py` : Missing Author 
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-client.py` : Missing Copyright 
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-client.py` : Missing License
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-client.py` : Missing description
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-server.py` : Header error 
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-server.py` : Missing Author 
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-server.py` : Missing Copyright 
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-server.py` : Missing License
+__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-server.py` : Missing description
+__[Python]__ :no_entry: `./retroATL3/software/BitscopeAcquisitionScript.py` : Header error 
+__[Python]__ :no_entry: `./retroATL3/software/BitscopeAcquisitionScript.py` : Missing Author 
+__[Python]__ :no_entry: `./retroATL3/software/BitscopeAcquisitionScript.py` : Missing Copyright 
+__[Python]__ :no_entry: `./retroATL3/software/BitscopeAcquisitionScript.py` : Missing License
+__[Python]__ :no_entry: `./retroATL3/software/BitscopeAcquisitionScript.py` : Missing description
+__[Python]__ :no_entry: `./toadkiller/software/test_file.py` : Header error 
+__[Python]__ :no_entry: `./toadkiller/software/test_file.py` : Missing Author 
+__[Python]__ :no_entry: `./toadkiller/software/test_file.py` : Missing Copyright 
+__[Python]__ :no_entry: `./toadkiller/software/test_file.py` : Missing License
+__[Python]__ :no_entry: `./toadkiller/software/test_file.py` : Missing description
+__[Python]__ :no_entry: `./toadkiller/software/test_file_3periods.py` : Header error 
+__[Python]__ :no_entry: `./toadkiller/software/test_file_3periods.py` : Missing Author 
+__[Python]__ :no_entry: `./toadkiller/software/test_file_3periods.py` : Missing Copyright 
+__[Python]__ :no_entry: `./toadkiller/software/test_file_3periods.py` : Missing License
+__[Python]__ :no_entry: `./toadkiller/software/test_file_3periods.py` : Missing description
 __[SET]__ Added `emulated`
 
 __[SET]__ Added `highspeed`
 
 __[SET]__ Added `wifi-dev-kit`
 
-__[WEB Blog]__ 96 posts added
+__[WEB Blog]__ 97 posts added
 
 [](@autogenerated - invisible comment)

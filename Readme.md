@@ -1,7 +1,11 @@
 # What is this project?
 
-This project has a specific target of providing a __low-cost, open source technological kit to allow scientists, academics, hackers, makers or OSHW fans to hack their way to ultrasound imaging__ - below 500$ - at home, with no specific equipment required.
+This project has a specific target of providing a __low-cost, open source technological kit to allow scientists, academics, hackers, makers or OSHW fans to hack their way to ultrasound imaging__ - below 500$ - at home, with no specific equipment required. For complementary sources of information, you can visit:
 
+* the [github repo](https://github.com/kelu124/echomods/), for the source files, raw data and raw experiment logs;
+* the [online manual/book](https://www.gitbook.com/book/kelu124/echomods/details) for a easily readable and searchable archive of the whole work;
+* the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format.
+ 
 __Disclaimer__: though an engineer, this project is the first of its sort, I never did something related. Bear with us, and the discovery process, but I'm happy to learn on the way =)
 
 __Disclaimer #2__: ultrasound raises questions. In case you build a scanner, use caution and good sense!
@@ -121,7 +125,7 @@ Note that the 'BONUS!' represents something that _could_ be done, and does not c
 | Name of module | ToDo | Done |  Progress |
 |------|-------|----|-----|
 |sleepy|<ul><li>Choose the design once the modules are done</li><li>Get to work with Arthur</li></ul>|<ul><li>Checking Arthur availability</li></ul>|33% |
-|tobo|<ul><li>Some issues with the availability of the <code>HV7360</code>, living its end of life. The latest version of <a href="/source/tobo/Altium/">Altium</a> and <a href="/source/tobo/Kicad/">Kicad</a> source files should show the new <a href="/source/tobo/datasheets/HV7360_CABGA.pdf">HV7360 CABGA</a>.</li><li>Publish the sources in KiCAD</li></ul>|<ul><li>Writing specs </li><li>HV7360 has been updated</li><li>Sending microcircuits to Edgeflex</li><li>Agreeing on the strips/tracks </li><li>Defining the ICs to use to pulse</li><li>Getting schematics</li><li>Publishing schematics</li><li>Receive the module</li><li>Test it with different transducers</li></ul>|81% |
+|tobo|<ul><li>Publish the sources in KiCAD</li></ul>|<ul><li>Writing specs </li><li>HV7360 has been updated</li><li>Sending microcircuits to Edgeflex</li><li>Agreeing on the strips/tracks </li><li>Defining the ICs to use to pulse</li><li>Getting schematics</li><li>Publishing schematics</li><li>Receive the module</li><li>Test it with different transducers</li></ul>|90% |
 |cletus|<ul><li>Choose the servo (&gt;100Hz)</li><li>Do the structure of the holder (3D design?)</li></ul>|<ul><li>Get a 3.5MHz piezo</li></ul>|33% |
 |doj||<ul><li>Having the list of strips accessible</li><li>Design</li><li>Assemble it</li><li>Test it</li></ul>|100% |
 |oneeye||<ul><li>First test with Arduino Trinket</li></ul>|100% |
@@ -141,7 +145,6 @@ Here's a couple of things we're working on, for which you could help as well.
 
 * Choose the design once the modules are done (in [sleepy](/sleepy/))
 * Get to work with Arthur (in [sleepy](/sleepy/))
-* Some issues with the availability of the <code>HV7360</code>, living its end of life. The latest version of <a href="/source/tobo/Altium/">Altium</a> and <a href="/source/tobo/Kicad/">Kicad</a> source files should show the new <a href="/source/tobo/datasheets/HV7360_CABGA.pdf">HV7360 CABGA</a>. (in [tobo](/tobo/))
 * Publish the sources in KiCAD (in [tobo](/tobo/))
 * Choose the servo (&gt;100Hz) (in [cletus](/cletus/))
 * Do the structure of the holder (3D design?) (in [cletus](/cletus/))

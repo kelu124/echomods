@@ -767,6 +767,7 @@ Would you like to support an existing project with your skills and expertise? Or
 
 #### 2016-10-24 Geeking II
 
+* Skype with wayne.edu -- maybe modules ?
 * arduino legos : awesome form factor https://twitter.com/bwshockley/status/789971893356900352
 * Paris on t'aime http://www.konbini.com/fr/tendances-2/paris-mairie-video-anne-hidalgo/
 * http://www.npr.org/2016/10/21/498734538/black-mirror-is-back-reflecting-our-technological-fears
@@ -778,6 +779,14 @@ Would you like to support an existing project with your skills and expertise? Or
 * e-book generation at a. : https://medium.com/@aayushu/how-i-make-400-a-month-in-passive-income-by-self-publishing-68fa948edff5#.8h9udy2ad
 
 
+#### 2016-10-26 Playing with a photon
+
+* http://arduino.stackexchange.com/questions/12079/compatibility-between-particle-photon-and-arduino
+* http://arduino.stackexchange.com/questions/30551/using-arduino-ide-on-the-particle-photon
+* https://store.particle.io/ 19$ le photon
+* Chopper un ESP32 ?
+* Chopper un photon chez hackspark?
+* Follow up with Zach - modules?
 
 =======
 
