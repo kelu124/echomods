@@ -52,7 +52,7 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### How does it work: block diagram
 
-![Block schema](source/blocks.png)
+![Block schema](/tobo/source/blocks.png)
 
 * `ITF-I_pulse_on`->`HV7360`
 * `ITF-J_pulse_off`->`HV7360`
@@ -81,18 +81,22 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### Look of the schematics
 
-![](images/schema-tobo.png)
+![](/tobo/images/schema-tobo.png)
 
-and [a link to it](tobo_schematics.pdf)
+and [a link to it](/tobo/tobo_schematics.pdf)
 
 
 ### Look of the actual board
 
-![](images/tobo-2.png)
+![](/tobo/images/tobo-2.png)
+
+### Availability of HV7360
+
+* Some issues with the availability of the `HV7360`, living its end of life. The latest version of [Altium](/source/tobo/Altium/) and [Kicad](/source/tobo/Kicad/) source files should show the new [HV7360 CABGA](/source/tobo/datasheets/HV7360_CABGA.pdf).
+* However, this latest should be available officially in Jan 2017.
 
 ## Discussions
 
-* Some issues with the availability of the `HV7360`, living its end of life. The latest version of [Altium](/source/tobo/Altium/) and [Kicad](/source/tobo/Kicad/) source files should show the new [HV7360 CABGA](/source/tobo/datasheets/HV7360_CABGA.pdf).
 
 ### TODO
 
