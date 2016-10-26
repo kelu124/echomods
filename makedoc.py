@@ -35,9 +35,9 @@ MDFiles = GetGeneratedFiles("./")
 OpenWrite("* "+"\n* ".join(MDFiles[0]),"include/GeneratedFiles.md")
 OpenWrite("* "+"\n* ".join(MDFiles[1]),"include/ManualFiles.md")
 for mdFile in MDFiles[0]:
-	log=log+CheckLink(mdFile)
+	log=log+CheckLink(mdFile,True)
 for mdFile in MDFiles[1]:
-	log=log+CheckLink(mdFile)
+	log=log+CheckLink(mdFile,False)
 
 ListOfDirs = GetListofModules("./")
 for eachInput in ListOfDirs:
