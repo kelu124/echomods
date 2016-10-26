@@ -336,7 +336,6 @@ def CheckLink(path):
 				if not (os.path.isdir("."+link)):
 					log.append("__[Links]__ "+RedMark+" `"+path+"` : Link to non-existing folder `."+link+"`")
 			    if (link.startswith("/")) and not (link.endswith("/")):
-				print link
 				if not (os.path.exists("."+link)):
 					log.append("__[Links]__ "+RedMark+" `"+path+"` : Link to non-existing file `."+link+"`")
 	return log
