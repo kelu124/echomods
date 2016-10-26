@@ -642,5 +642,5 @@ log = log+ResultKits
 # -------------------------
 
 log.sort()
-OpenWrite("\n".join( log ),"doc/log.md")
+OpenWrite("\r\n".join( log ),"doc/log.md")
 
