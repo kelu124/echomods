@@ -6,6 +6,7 @@ Here's a couple of things we're working on, for which you could help as well.
 
 * Choose the design once the modules are done (in [sleepy](/sleepy/))
 * Get to work with Arthur (in [sleepy](/sleepy/))
+* Some issues with the availability of the <code>HV7360</code>, living its end of life. The latest version of <a href="/source/tobo/Altium/">Altium</a> and <a href="/source/tobo/Kicad/">Kicad</a> source files should show the new <a href="/source/tobo/datasheets/HV7360_CABGA.pdf">HV7360 CABGA</a>. (in [tobo](/tobo/))
 * Publish the sources in KiCAD (in [tobo](/tobo/))
 * Choose the servo (&gt;100Hz) (in [cletus](/cletus/))
 * Do the structure of the holder (3D design?) (in [cletus](/cletus/))
