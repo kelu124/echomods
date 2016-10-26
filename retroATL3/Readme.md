@@ -1,7 +1,6 @@
 # Module: RetroATL3
 
 ![](/retroATL3/viewme.png)
-![](/retired/retroATL3/viewme.png)
 
 ## Name
 
@@ -163,7 +162,7 @@ _This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-
 
 ### RetroATL3 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [RetroATL3](/RetroATL3/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [RetroATL3](/retroATL3/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

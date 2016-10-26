@@ -52,7 +52,7 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ### How does it work: block diagram
 
-![Block schema](/prudaq/source/blocks.png)
+![Block schema](/toadkiller/source/blocks.png)
 
 * `ITF-B_5v`->`BBB`->`PRUDAQ`->`BBB`->`File`
 * `ITF-E_signal_envelope`->`PRUDAQ`

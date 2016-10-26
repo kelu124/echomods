@@ -724,13 +724,13 @@ Awesome work: a FPGA on a RPi0 footprint
 
 #### 2016-08-14 Acquiring a first image
 
-* Read some [on this page](/include/20160814/20160814-HackingAUltrasoundProbe.md): got an image from a ATL3 probe, a small metal cube in water.
+* Read some [on this page](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md): got an image from a ATL3 probe, a small metal cube in water.
 * Leaving for holidays =)
 
 #### 2016-08-22 Back from holidays
 	
 * Working with Virginie and Benoit to get images
-* Got to play with a [general multi tissue fantom](/include/20160812/20160822-Fantom.md): got an image from a ATL3 probe, of the fantom.
+* Got to play with a [general multi tissue fantom](/include/20160822/20160822-Fantom.md): got an image from a ATL3 probe, of the fantom.
 * What about [using Kaggle as a data repo](http://blog.kaggle.com/2016/08/17/making-kaggle-the-home-of-open-data/) for open data ?
 
 #### 2016-08-24 Finalizing the autodocumentation to gitbook
@@ -821,12 +821,12 @@ Would you like to support an existing project with your skills and expertise? Or
 
 * [Comm] : got cheers from [Adafruit, check this link =)](https://blog.adafruit.com/2016/09/12/murgen-open-source-ultrasound-imaging-with-beaglebone/)
 * Made some progress with a i2c 128x64 oled to debug the Feather ADC, using this [elegant doc](http://www.projetsdiy.fr/ssd1306-mini-ecran-oled-i2c-128x64-arduino/#.V9Zt5tGxU8o).
-* Getting up to 1Msps with the [Feather](/croaker/2016-09-10-Feather_ADC.md).
+* Getting up to 1Msps with the [Feather](/croaker/feather_tests/2016-09-10-Feather_ADC.md).
 * @TODO: makedoc should include a link checker.. everything starting with `](/` should be tested and checked if existing. That includes images.
 
 #### 2016-09-13 Stand alone echoes visualisation
 
-* Same, for today's date, at [Feather](/croaker/2016-09-10-Feather_ADC.md).
+* Same, for today's date, at [Feather](/croaker/feather_tests/2016-09-10-Feather_ADC.md).
 
 #### 2016-09-14 With a servo
 

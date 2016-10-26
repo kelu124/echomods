@@ -74,11 +74,11 @@ Thats 533 points per period. Since it's a 300us period, the overall acquisition 
 
 Silent is the emulating module, which emulates a ultrasound piezo. It's output before Goblin, the analog processing module, is as follows:
 
-![](/silent/Images/SilentOutput.JPG)
+![](/silent/images/SilentOutput.JPG)
 
 and after
 
-![](/silent/Images/SilentEnveloppeFinal.JPG)
+![](/silent/images/SilentEnveloppeFinal.JPG)
 
 #### Acquisition
 

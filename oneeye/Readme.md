@@ -71,7 +71,7 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### Layout on the motherboard
 
-![](images/oneeye-trinket.png)
+![](/oneeye/images/oneeye-trinket.png)
 
 ## Discussions
 
@@ -89,7 +89,7 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [One-Eye](/oneye/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [One-Eye](/oneeye/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

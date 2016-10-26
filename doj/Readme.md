@@ -18,7 +18,7 @@ The motherboard of the echomods
 * technology: n/a
 * language: n/a
 * cost:5$
-* sourcing:Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard	)
+* sourcing:Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard)
 * author: Kelu124
 
 ## IOs
@@ -61,11 +61,11 @@ Getting a motherboard: that's fitting all the modules in an easy way, with an ea
 
 As in mind 
 
-![](images/IMG_2607.JPG)
+![](/doj/images/IMG_2607.JPG)
 
 Now with the actual modules
 
-![](images/doj-simple.png)
+![](/doj/images/doj-simple.png)
 
 ## Discussions
 

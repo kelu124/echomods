@@ -1,6 +1,6 @@
 = Notes on the STM32F205 Reference manual =
 
-[Source PDF](/croaker/en.CD00225773_STM32F2x5_RefManual.pdf).
+[Source PDF](/croaker/datasheets/en.CD00225773_STM32F2x5_RefManual.pdf).
 
 == ADC ==
 

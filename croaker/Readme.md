@@ -49,7 +49,7 @@ The aim of this echOmod is to receive the signal and process it.
 
 ### How does it work: block diagram
 
-![Block schema](source/blocks.png)
+![Block schema](/croaker/source/blocks.png)
 
 * `ITF-E_signal_envelope`->`Feather WICED`->`WiFi`
 * `Feather WICED`->`ITF-mED-TFT-Screen`
