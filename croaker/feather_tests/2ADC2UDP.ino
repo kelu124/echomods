@@ -1,14 +1,13 @@
 /*
-
-  Jean-Pierre Redonnet
-  inphilly@gmail.com
-  Version 0.2 - July 26th,2015
-
-  Fast dual conversion with ADC1 + ADC2
-
-  Licence: GNU GPL 2
+	Author: Kelu124
+	Copyright 2016
+	Repo:https://github.com/kelu124/echomods/tree/master/croaker
+	Contributor:Jean-Pierre Redonnet inphilly@gmail.com for his "Fast dual conversion with ADC1 + ADC2"
+	Adapted to STM32F205 of the Feather WICED 
+	Licence: GNU GPL 2
 
 */
+
 
 // DISPLAY
 #include <Servo.h>
@@ -173,7 +172,8 @@ void acquire_trigged() {
       // Wait the end of the conversion
       while (!(ADC1->regs->SR & ADC_SR_EOC)) ;
       while (!(ADC2->regs->SR & ADC_SR_EOC)) ;
-      //get the values converted
+      //get the values converted from the two ADCs.
+      // they are sharing the same channel, in interleaved mode
       val1[i] = (int16)(ADC1->regs->DR & ADC_DR_DATA);
       val2[i] = (int16)(ADC2->regs->DR & ADC_DR_DATA);
       i++;
@@ -182,11 +182,7 @@ void acquire_trigged() {
 
     i = 0;
     value = 0;
-    //display.clearDisplay();
     while (i < 128 ) {
-      //Serial.print(val1[i]);
-      //Serial.print(": ");
-      //display.drawFastVLine(i, 0, (value)/1.5, WHITE);
       j = 0;
       while (j < DECIMATION ) {
         GlobalLine[i] += val1[DECIMATION * i + j];

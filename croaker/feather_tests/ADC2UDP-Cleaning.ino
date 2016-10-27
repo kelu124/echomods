@@ -25,7 +25,6 @@ AdafruitUDP udp;
 // the IP of your server -- type "nc -lu 5005" to get the image
 IPAddress server_ip(192, 168, 1, 9);
 
-char *BUFFER = "lol";
 
 // Servo
 Servo myservo;
@@ -70,6 +69,7 @@ void setup() {
   myservo.write(60);
   // Pins
   pinMode(led3, OUTPUT);
+  // The ADCs pins
   pinMode(sensorPin1, INPUT_ANALOG);
   pinMode(sensorPin2, INPUT_ANALOG);
   // Display
@@ -89,24 +89,14 @@ void setup() {
     GlobalLine[i] = 0;
     i++;
   }
-/*
-  i = 0;
-  while (i < 7809) {
-    Image[i] = 0;
-    i++;
-  }
-*/
+
   // We configure the ADC1 and ADC2
-  //1.5µs sample time
-  //adc_set_prescaler(RCC_ADCPRE_PCLK_DIV_2); // the following lines replaces the above
   rcc_set_prescaler(RCC_PRESCALER_ADC, RCC_ADCPRE_PCLK_DIV_2);
 
-  adc_set_sample_rate(ADC1, ADC_SMPR_1_5); // there's no ADC_SMPR_1_5 for
-  //  adc_set_sample_rate(ADC2, ADC_SMPR_3);
+  adc_set_sample_rate(ADC1, ADC_SMPR_1_5);
 
   //6=0110 for dual regular simultaneous mode
   ADC1->regs->CR1 |= 6 << 16;
-
   //only one input in the sequence for both ADC
   adc_set_reg_seqlen(ADC1, 1);
   adc_set_reg_seqlen(ADC2, 1);
@@ -115,7 +105,7 @@ void setup() {
   ADC1->regs->SQR1 |= 0;
   ADC1->regs->SQR2 = 0;
   ADC1->regs->SQR3 = 1; //00000.00000.00001
-  //channel 2 (PA2) on ADC2
+  //channel 2 (PA1) on ADC2
   ADC2->regs->SQR1 |= 0;
   ADC2->regs->SQR2 = 0; //00000.00000.00000
   ADC2->regs->SQR3 = 2; //00000.00000.00010
@@ -127,19 +117,16 @@ void setup() {
 
   }
 
-
-
   waitFlag = 0;
   delay(500);
 
+  starting UDP
   udp.begin(LOCAL_PORT);
-
   udp.beginPacket(server_ip, LOCAL_PORT);
   udp.print("Connected to you: ");// send with newline
   udp.println(IPAddress(Feather.localIP()));
   udp.endPacket();
-
-
+  // trigging 
   pinMode(TRIG_PIN, INPUT_PULLDOWN);
   attachInterrupt(TRIG_PIN, acquire_trigged, RISING);
 
@@ -164,8 +151,6 @@ void acquire_trigged() {
       while (!(ADC1->regs->SR & ADC_SR_EOC)) ;
       //get the values converted
       val1[i] = (int16)(ADC1->regs->DR & ADC_DR_DATA);
-
-      //next
       i++;
     }
 
