@@ -75,6 +75,10 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 * `ITF-InternalPot2_ADC_Vref`->`AD7274`
 * `ADL5511`->`Int-Offset`->`AD8691`
 
+This can be summarized below - all the signals represented are accessible via separate on-board pins:
+
+![Principle of goblin](/goblin/images/slide_principle.png)
+
 ## About the module
 
 ### Pros
