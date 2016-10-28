@@ -1,5 +1,14 @@
+
 /*
-  Analog input, analog output, serial output
+	Author: Tom Igoe
+	Copyright 2009
+	"Analog input, analog output, serial output" 
+	Licence: GNU GPL 2
+
+*/
+
+/*
+  
 
   Reads an analog input pin, maps the result to a range from 0 to
   65535 and uses the result to set the pulse width modulation (PWM) of
@@ -15,7 +24,7 @@
   * LED connected from digital pin 9 to ground
 
   created 29 Dec. 2008
-  by Tom Igoe
+  by 
 
   ported to Maple
   by LeafLabs

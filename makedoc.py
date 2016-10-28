@@ -7,6 +7,13 @@
 # Requires GraphViz and Wand
 # -------------------------
 
+'''Description: script to build autodocumentation.'''
+
+__author__      = "kelu124"
+__copyright__   = "Copyright 2016, Kelu124"
+__license__ 	= "cc-by-sa/4.0/"
+
+
 import os
 import markdown
 import re
@@ -32,8 +39,8 @@ GraphModules = digraph()
 # -------------------------
 MDFiles = GetGeneratedFiles("./")
 MDFiles = GetGeneratedFiles("./")
-OpenWrite("* "+"\n* ".join(MDFiles[0]),"include/GeneratedFiles.md")
-OpenWrite("* "+"\n* ".join(MDFiles[1]),"include/ManualFiles.md")
+OpenWrite("* "+"\n* ".join(MDFiles[0]),"include/FilesList/GeneratedFiles.md")
+OpenWrite("* "+"\n* ".join(MDFiles[1]),"include/FilesList/ManualFiles.md")
 for mdFile in MDFiles[0]:
 	log=log+CheckLink(mdFile,True)
 for mdFile in MDFiles[1]:
@@ -50,8 +57,10 @@ print ListOfDirs
 
 ListeOfPython = GetPythonFiles("./")
 log = log+CheckPythonFile(ListeOfPython)
+OpenWrite("* "+"\n* ".join(ListeOfPython),"include/FilesList/PythonFiles.md")
 ListeOfArduino = GetInoFiles("./")
 log = log+CheckInoFile(ListeOfArduino)
+OpenWrite("* "+"\n* ".join(ListeOfArduino),"include/FilesList/ArduinoFiles.md")
 
 ListOfRetiredDirs = GetListofModules("./retired")
 print ListOfRetiredDirs

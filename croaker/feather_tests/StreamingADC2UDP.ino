@@ -1,12 +1,11 @@
 /*
-
-  Jean-Pierre Redonnet
-  inphilly@gmail.com
-  Version 0.2 - July 26th,2015
-
-  Fast dual conversion with ADC1 + ADC2
-
-  Licence: GNU GPL 2
+	Author: Kelu124
+	Copyright 2016
+	Repo:https://github.com/kelu124/echomods/tree/master/croaker
+	Contributor:Jean-Pierre Redonnet inphilly@gmail.com for his "Fast dual conversion with ADC1 + ADC2"
+	Adapted to STM32F205 of the Feather WICED 
+	First test to get the UDP working
+	Licence: GNU GPL 2
 
 */
 

@@ -53,8 +53,10 @@
 * ./include/AddMyLogs.md
 * ./include/AddShoppingList.md
 * ./include/AddTableAvancement.md
-* ./include/GeneratedFiles.md
-* ./include/ManualFiles.md
+* ./include/FilesList/ArduinoFiles.md
+* ./include/FilesList/GeneratedFiles.md
+* ./include/FilesList/ManualFiles.md
+* ./include/FilesList/PythonFiles.md
 * ./include/sets/KitCosts.md
 * ./include/sets/emulated.cost.md
 * ./include/sets/highspeed.cost.md

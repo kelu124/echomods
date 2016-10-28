@@ -1,4 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# -------------------------
+# (c) kelu124
+# cc-by-sa/4.0/
+# -------------------------
+
 '''report.py -- BitLib 2.0 Capture Device Report Generator (Python)'''
+# Based on http://www.bitscope.com/software/library/report.py.html
+
+__author__      = "kelu124"
+__copyright__   = "Copyright 2016, Kelu124"
+__license__ 	= "cc-by-sa/4.0/"
 
 from bitlib import *
 import datetime

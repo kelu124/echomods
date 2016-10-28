@@ -7,6 +7,12 @@
 # Requires GraphViz and Wand
 # -------------------------
 
+'''Description: script to build autodocumentation. module for autodocumentation generation.'''
+
+__author__      = "kelu124"
+__copyright__   = "Copyright 2016, Kelu124"
+__license__ 	= "cc-by-sa/4.0/"
+
 import os
 from glob import glob
 import markdown
@@ -22,6 +28,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 from bs4 import BeautifulSoup
+
+
 
 # -------------------------
 # Get icons for compiler log
@@ -284,7 +292,6 @@ def GetPythonFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.py'))]
 	ExcludeDirs = ["tools",".git","gh-pages"] 
 	PythonFilesList = [x for x in results if x.split("/")[1] not in ExcludeDirs]
-
 	return PythonFilesList
 
 def GetInoFiles(path):

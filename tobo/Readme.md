@@ -92,7 +92,7 @@ and [a link to it](/tobo/tobo_schematics.pdf)
 
 ### Availability of HV7360
 
-* Some issues with the availability of the `HV7360`, living its end of life. The latest version of [Altium](/tobo/source/Altium/) and [Kicad](/source/tobo/Kicad/) source files should show the new [HV7360 CABGA](/tobo/source/datasheets/HV7360_CABGA.pdf).
+* Some issues with the availability of the `HV7360`, living its end of life. The latest version of [Altium](/tobo/source/Altium/) and [Kicad](/source/tobo/Kicad/) source files should show the new [HV7360 CABGA](/tobo/datasheets/HV7360_CABGA.pdf).
 * However, this latest should be available officially in Jan 2017.
 
 ## Discussions
@@ -100,8 +100,6 @@ and [a link to it](/tobo/tobo_schematics.pdf)
 
 ### TODO
 
-
-* Publish the sources in KiCAD
 
 ### DONE
 
@@ -114,6 +112,7 @@ and [a link to it](/tobo/tobo_schematics.pdf)
 * Publishing schematics
 * Receive the module
 * Test it with different transducers
+* Publish the sources in KiCAD
 
 ### People
 
