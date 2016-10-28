@@ -1,6 +1,10 @@
 # [Contributor License Agreement (CLA)](http://kelu124.github.io/echomods/CLA.html)
 
+## Inputs / outputs
 
+A __license__ grants "outbound" rights to the user of of project. But the project does not give copyrights to the user.
+
+A __CLA__ enables a contributor to grant "inbound" rights to the project.
 
 ## Why a CLA?
 

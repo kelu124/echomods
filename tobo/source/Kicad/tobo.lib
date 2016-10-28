@@ -1,0 +1,820 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 3.3VA
+#
+DEF 3.3VA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "3.3VA" -150 -100 50 H V L CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X 3.3VA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# AD7274
+#
+DEF ~AD7274 U 0 40 Y Y 1 F N
+F0 "U" 250 150 60 H V L CNN
+F1 "AD7274" 0 -700 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "" -200 -2300 60 H I L CNN
+F4 "AD7274" 100 -550 60 H V L CNN "Comment"
+F5 "adc serial" 0 -800 60 H I L CNN "Description"
+DRAW
+S 0 -450 550 50 0 1 0 f
+X V+ 1 -200 -50 200 R 50 50 1 1 P
+X SDATA 2 750 -50 200 L 50 50 1 1 P
+X ~CS 3 750 -250 200 L 50 50 1 1 P
+X AGND 4 -200 -350 200 R 50 50 1 1 P
+X Vref 5 -200 -150 200 R 50 50 1 1 P
+X SCLK 6 750 -150 200 L 50 50 1 1 P
+X DGND 7 750 -350 200 L 50 50 1 1 P
+X IN 8 -200 -250 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AD8331ARQZ
+#
+DEF ~AD8331ARQZ U 0 40 Y Y 1 F N
+F0 "U" 250 150 60 H V L CNN
+F1 "AD8331ARQZ" -200 -1300 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "" -200 -2000 60 H I L CNN
+F4 "Yes" -200 -1400 60 H I L CNN "Mounted"
+F5 "SOP, 20-Leads, Body 8.66x3.91mm, Pitch 0.64mm, IPC Medium Density" -200 -1500 60 H I L CNN "PackageDescription"
+F6 "Ultralow Noise VGAs with Preamplifier and Programmable RIN" -200 -1600 60 H I L CNN "Part Description"
+F7 "AD8331ARQZ" -200 -1700 60 H I L CNN "Part Number"
+F8 "20" -200 -1800 60 H I L CNN "Pin Count"
+F9 "Yes" 300 -1800 60 H I L CNN "SMD"
+F10 "No" 550 -1800 60 H I L CNN "Socket"
+F11 "Analog & Interface" -200 -1900 60 H I L CNN "Table"
+F12 "S. Jafar" -200 800 60 H I L CNN "Author"
+F13 "QSOP-20" -200 700 60 H I L CNN "Case"
+F14 "Standard" 300 700 60 H I L CNN "Component Kind"
+F15 "Standard" 800 700 60 H I L CNN "Component Type"
+F16 "1.75mm" 1300 700 60 H I L CNN "ComponentHeight"
+F17 "12/20/2015" -200 600 60 H I L CNN "CreateDate"
+F18 "AD8331ARQZ" -200 500 60 H I L CNN "Device"
+F19 "1/6/2016" 450 600 60 H I L CNN "LatestRevisionDate"
+F20 "ANALOG DEVICES" -200 400 60 H I L CNN "Manufacturer"
+F21 "AD8331ARQZ" 650 400 60 H I L CNN "Manufacturer Part Number"
+F22 "AD8331ARQZ" 0 -1150 60 H V L CNN "Comment"
+DRAW
+S 0 -1050 600 50 0 1 0 f
+X LMD 1 800 -50 200 L 50 50 1 1 P
+X INH 2 800 -150 200 L 50 50 1 1 P
+X VPSL 3 800 -250 200 L 50 50 1 1 P
+X LON 4 800 -350 200 L 50 50 1 1 P
+X LOP 5 800 -450 200 L 50 50 1 1 P
+X COML 6 800 -550 200 L 50 50 1 1 P
+X VIP 7 800 -650 200 L 50 50 1 1 P
+X VIN 8 800 -750 200 L 50 50 1 1 P
+X MODE 9 800 -850 200 L 50 50 1 1 P
+X GAIN 10 800 -950 200 L 50 50 1 1 P
+X COMM 20 -200 -50 200 R 50 50 1 1 P
+X VCM 11 -200 -950 200 R 50 50 1 1 P
+X RCLMP 12 -200 -850 200 R 50 50 1 1 P
+X HILO 13 -200 -750 200 R 50 50 1 1 P
+X VPOS 14 -200 -650 200 R 50 50 1 1 P
+X VOH 15 -200 -550 200 R 50 50 1 1 P
+X VOL 16 -200 -450 200 R 50 50 1 1 P
+X COMM 17 -200 -350 200 R 50 50 1 1 P
+X ENBV 18 -200 -250 200 R 50 50 1 1 P
+X ENB 19 -200 -150 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AD8691
+#
+DEF ~AD8691 U 0 40 Y Y 1 F N
+F0 "U" 250 150 60 H V L CNN
+F1 "AD8691" 0 -700 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "" -200 -2300 60 H I L CNN
+F4 "AD8691" 100 -550 60 H V L CNN "Comment"
+DRAW
+S 0 -350 550 50 0 1 0 f
+X OUT 1 750 -150 200 L 50 50 1 1 P
+X V- 2 750 -250 200 L 50 50 1 1 P
+X IN+ 3 -200 -50 200 R 50 50 1 1 P
+X IN- 4 -200 -250 200 R 50 50 1 1 P
+X V+ 5 750 -50 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ADL5511ACPZ-R7
+#
+DEF ~ADL5511ACPZ-R7 U 0 40 Y Y 1 F N
+F0 "U" 250 150 60 H V L CNN
+F1 "ADL5511ACPZ-R7" -200 -1600 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\ADL5511ACPZ-R7.pdf" -200 -2300 60 H I L CNN
+F4 "Yes" -200 -1700 60 H I L CNN "Mounted"
+F5 "QFN, 0.50mm Pitch, Square; 16 Pin, 3.00mm L X 3.00mm W X 0.80mm H Body (w/Thermal Tab 1.75 X 1.75mm),  IPC Medium Density" -200 -1800 60 H I L CNN "PackageDescription"
+F6 "DC to 6 GHz Envelope and TruPwr RMS Detector" -200 -1900 60 H I L CNN "Part Description"
+F7 "ADL5511ACPZ-R7" -200 -2000 60 H I L CNN "Part Number"
+F8 "17" -200 -2100 60 H I L CNN "Pin Count"
+F9 "Yes" 300 -2100 60 H I L CNN "SMD"
+F10 "No" 550 -2100 60 H I L CNN "Socket"
+F11 "Analog & Interface" -200 -2200 60 H I L CNN "Table"
+F12 "CERN DEM JLC" -200 800 60 H I L CNN "Author"
+F13 "QFN16" -200 700 60 H I L CNN "Case"
+F14 "Standard" 200 700 60 H I L CNN "Component Kind"
+F15 "Standard" 700 700 60 H I L CNN "Component Type"
+F16 "0.8mm" 1200 700 60 H I L CNN "ComponentHeight"
+F17 "11/15/2012" -200 600 60 H I L CNN "CreateDate"
+F18 "ADL5511ACPZ-R7" -200 500 60 H I L CNN "Device"
+F19 "11/15/2012" 450 600 60 H I L CNN "LatestRevisionDate"
+F20 "ANALOG DEVICES" -200 400 60 H I L CNN "Manufacturer"
+F21 "ADL5511ACPZ-R7" 650 400 60 H I L CNN "Manufacturer Part Number"
+F22 "ADL5511ACPZ-R7" 0 -1350 60 H V L CNN "Comment"
+F23 "DC to 6 GHz Envelope and TruPwr RMS Detector" -200 -2400 60 H I L CNN "Description"
+DRAW
+S 0 -1250 550 50 0 1 0 f
+X FLT3 1 -200 -650 200 R 50 50 1 1 P
+X RFIN 2 -200 -250 200 R 50 50 1 1 I
+X FLT1 3 -200 -450 200 R 50 50 1 1 P
+X ENBL 4 -200 -50 200 R 50 50 1 1 I
+X COMM 5 -200 -1050 200 R 50 50 1 1 W
+X NC 6 750 -750 200 L 50 50 1 1 N
+X NC 7 750 -850 200 L 50 50 1 1 N
+X NC 8 750 -950 200 L 50 50 1 1 N
+X EREF 9 750 -450 200 L 50 50 1 1 O
+X VENV 10 750 -250 200 L 50 50 1 1 O
+X VRMS 11 750 -50 200 L 50 50 1 1 O
+X NC 12 750 -1050 200 L 50 50 1 1 N
+X NC 13 750 -1150 200 L 50 50 1 1 N
+X FLT4 14 -200 -750 200 R 50 50 1 1 P
+X VPOS 15 -200 -950 200 R 50 50 1 1 W
+X FLT2 16 -200 -550 200 R 50 50 1 1 P
+X EP 17 -200 -1150 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# AGND
+#
+DEF AGND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "AGND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X AGND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# BAT64-04W
+#
+DEF ~BAT64-04W D 0 0 Y N 2 F N
+F0 "D" 0 150 60 H V L CNN
+F1 "BAT64-04W" 400 400 60 H I L CNN
+F2 "SOT65P210X100-3N" 1050 400 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT64-04W.pdf" -150 -850 60 H I L CNN
+F4 "Yes" -200 -250 60 H I L CNN "Mounted"
+F5 "SOT323, 0.65mm pitch; 3 pin, 1.25mm W X 2.00mm L, IPC Medium Density" -200 -1050 60 H I L CNN "PackageDescription"
+F6 "Silicon Schottky Double Diode" -200 -350 60 H I L CNN "Part Description"
+F7 "BAT64-04W" -200 -450 60 H I L CNN "Part Number"
+F8 "3" -200 -550 60 H I L CNN "Pin Count"
+F9 "250mW" -50 -550 60 H I L CNN "Power"
+F10 "Yes" 300 -550 60 H I L CNN "SMD"
+F11 "No" 550 -550 60 H I L CNN "Socket"
+F12 "Diodes" -200 -650 60 H I L CNN "Table"
+F13 "40V" -200 -750 60 H I L CNN "Voltage"
+F14 "CERN DEM JMW" -200 800 60 H I L CNN "Author"
+F15 "SOT323" -200 700 60 H I L CNN "Case"
+F16 "Standard" 350 700 60 H I L CNN "Component Kind"
+F17 "Standard" 850 700 60 H I L CNN "Component Type"
+F18 "1mm" 800 -950 60 H I L CNN "ComponentHeight"
+F19 "1/8/2009" -200 600 60 H I L CNN "CreateDate"
+F20 "BAT64-04W" 150 -950 60 H I L CNN "Device"
+F21 "1/8/2009" 450 600 60 H I L CNN "LatestRevisionDate"
+F22 "INFINEON" -200 500 60 H I L CNN "Manufacturer"
+F23 "BAT64-04W" -200 400 60 H I L CNN "Manufacturer Part Number"
+F24 "BAT64-04W" 250 150 60 H V L CNN "Comment"
+F25 "Diode" -200 -950 60 H I L CNN "Description"
+DRAW
+P 2 0 1 0 200 -80 200 80 N
+P 6 0 1 0 0 0 0 80 200 0 0 -80 0 0 200 0 N
+X COMAC 1 -200 0 200 R 50 50 1 1 P
+X C 3 400 0 200 L 50 50 1 1 P
+X C 2 400 0 200 L 50 50 2 1 P
+X COMAC 3 -200 0 200 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor
+#
+DEF ~Capacitor C 0 0 N N 1 F N
+F0 "C" -50 350 60 H V L CNN
+F1 "Capacitor" -50 -250 60 H I L CNN
+F2 "footprint:SM0603_3D_cap" -180 330 60 H I C CNN
+F3 "" -80 430 60 H I C CNN
+F4 "1nF" -50 250 60 H V L CNN "Value"
+F5 "17-Jul-2002" -50 -350 60 H I L CNN "LatestRevisionDate"
+F6 "Re-released for DXP Platform." -50 -450 60 H I L CNN "LatestRevisionNote"
+F7 "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing" -50 -550 60 H I L CNN "PackageDescription"
+F8 "RAD-0.3" -50 -650 60 H I L CNN "PackageReference"
+F9 "8-Jun-2000" -50 -750 60 H I L CNN "Published"
+F10 "Altium Limited" -50 -850 60 H I L CNN "Publlisher"
+F11 "Capacitor  0603 inch" -50 -950 60 H I L CNN "Description"
+F12 "cap0603" -50 -1050 60 H I L CNN "Comment"
+DRAW
+P 2 0 1 0 0 -160 0 160 N
+P 2 0 1 0 50 -160 50 160 N
+X ~ 1 -200 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_polar
+#
+DEF ~Capacitor_polar C 0 0 N N 1 F N
+F0 "C" -250 150 60 H V L CNN
+F1 "Capacitor_polar" 1000 750 60 H I L CNN
+F2 "footprint:CAPMP3528X210N" 0 350 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CTE-LESR_AVX_TPS.pdf" 0 450 60 H I L CNN
+F4 "CERN DEM JLC" 0 1650 60 H I L CNN "Author"
+F5 "B" 0 1550 60 H I L CNN "Case"
+F6 "Standard" 150 1550 60 H I L CNN "Component Kind"
+F7 "Standard" 650 1750 60 H I L CNN "Component Type"
+F8 "5/5/2008" 0 1450 60 H I L CNN "CreateDate"
+F9 "1/20/2009" 550 1650 60 H I L CNN "LatestRevisionDate"
+F10 "GENERIC" 0 1350 60 H I L CNN "Manufacturer"
+F11 "CTE3528-21_10UF_16V_10%_LESR0800" 0 850 60 H I L CNN "Manufacturer Part Number"
+F12 "2.1mm" 0 1150 60 H I L CNN "Manufacturer1 ComponentHeight"
+F13 "AVX" 400 1350 60 H I L CNN "Manufacturer1 Example"
+F14 "TPSB106K016R0800" 650 1350 60 H I L CNN "Manufacturer1 Part Number"
+F15 "Yes" 150 750 60 H I L CNN "Mounted"
+F16 "Low ESR 0R8 Solid Tantalum Chip Capacitor" 0 950 60 H I L CNN "Part Description"
+F17 "CTE3528-21_10UF_16V_10%_LESR0800" 0 1250 60 H I L CNN "part Number"
+F18 "2" 0 750 60 H I L CNN "Pin Count"
+F19 "Yes" 0 1050 60 H I L CNN "SMD"
+F20 "No" 400 950 60 H I L CNN "Socket"
+F21 "Preffered" 600 950 60 H I L CNN "Status"
+F22 "Capacitors SMD" 1100 950 60 H I L CNN "Table"
+F23 "±10%" 0 650 60 H I L CNN "Tolerance"
+F24 "10uF" 150 150 60 H V L CNN "Value"
+F25 "16V" 350 850 60 H I L CNN "Voltage"
+F26 "Polarised capacitor" 450 750 60 H I C CNN "Description"
+DRAW
+T 0 -50 -100 60 0 0 0 + Normal 0 C C
+P 2 0 1 0 0 -160 0 160 N
+P 2 0 1 0 50 -160 50 160 N
+X ~ 1 -200 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode
+#
+DEF ~Diode D 0 0 N N 1 F N
+F0 "D" 0 150 60 H V L CNN
+F1 "Diode" 100 400 60 H I L CNN
+F2 "DIOM5027X244N" 400 400 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\ES1D.pdf" -150 -850 60 H I L CNN
+F4 "Yes" -200 -250 60 H I L CNN "Mounted"
+F5 "DO-214-AC/SMA  Molded Diode, Body 5.0x2.7mm, IPC Medium Density" -200 -1050 60 H I L CNN "PackageDescription"
+F6 "Fast Rectifier" -200 -350 60 H I L CNN "Part Description"
+F7 "ES1D" -200 -450 60 H I L CNN "Part Number"
+F8 "2" -200 -550 60 H I L CNN "Pin Count"
+F9 "1A" -50 -550 60 H I L CNN "Power"
+F10 "Yes" 300 -550 60 H I L CNN "SMD"
+F11 "No" 550 -550 60 H I L CNN "Socket"
+F12 "Diodes" -200 -650 60 H I L CNN "Table"
+F13 "200V" -200 -750 60 H I L CNN "Voltage"
+F14 "CERN DEM JLC" -200 800 60 H I L CNN "Author"
+F15 "DO-214AC" -200 700 60 H I L CNN "Case"
+F16 "Standard" 350 700 60 H I L CNN "Component Kind"
+F17 "Standard" 850 700 60 H I L CNN "Component Type"
+F18 "2.44mm" 500 -950 60 H I L CNN "ComponentHeight"
+F19 "5/6/2008" -200 600 60 H I L CNN "CreateDate"
+F20 "ES1D" 150 -950 60 H I L CNN "Device"
+F21 "5/6/2008" 450 600 60 H I L CNN "LatestRevisionDate"
+F22 "FAIRCHILD SEMICONDUCTOR" -200 500 60 H I L CNN "Manufacturer"
+F23 "ES1D" -200 400 60 H I L CNN "Manufacturer Part Number"
+F24 "ES1D" 250 150 60 H V L CNN "Comment"
+F25 "Diode" -200 -950 60 H I L CNN "Description"
+DRAW
+P 2 0 1 0 200 -80 200 80 N
+P 6 0 1 0 0 0 0 80 200 0 0 -80 0 0 200 0 N
+X C 1 400 0 200 L 50 50 1 1 P
+X A 2 -200 0 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# HV7360LA-G
+#
+DEF ~HV7360LA-G U 0 40 Y Y 1 F N
+F0 "U" 250 150 60 H V L CNN
+F1 "HV7360LA-G" -200 -1700 60 H I L CNN
+F2 "BGA22C50P9X14_500X700X105" 650 500 60 H I L CNN
+F3 "" -200 -2400 60 H I L CNN
+F4 "Yes" -200 -1800 60 H I L CNN "Mounted"
+F5 "High Speed, ±100V 2.5A Two or Three Level Ultrasound Pulser" -200 -1900 60 H I L CNN "PackageDescription"
+F6 "High Speed, ±100V 2.5A Two or Three Level Ultrasound Pulser" -200 -2000 60 H I L CNN "Part Description"
+F7 "HV7360LA-G" -200 -2100 60 H I L CNN "Part Number"
+F8 "22" -200 -2200 60 H I L CNN "Pin Count"
+F9 "Yes" 300 -2200 60 H I L CNN "SMD"
+F10 "No" 550 -2200 60 H I L CNN "Socket"
+F11 "Analog & Interface" -200 -2300 60 H I L CNN "Table"
+F12 "S. Jafar" -200 800 60 H I L CNN "Author"
+F13 "LFGA-22" -200 700 60 H I L CNN "Case"
+F14 "Standard" 300 700 60 H I L CNN "Component Kind"
+F15 "Standard" 800 700 60 H I L CNN "Component Type"
+F16 "0.85mm" 1300 700 60 H I L CNN "ComponentHeight"
+F17 "12/20/2015" -200 600 60 H I L CNN "CreateDate"
+F18 "HV7360LA-G" -200 500 60 H I L CNN "Device"
+F19 "1/6/2016" 450 600 60 H I L CNN "LatestRevisionDate"
+F20 "Supertex inc." -200 400 60 H I L CNN "Manufacturer"
+F21 "HV7360LA-G" 650 400 60 H I L CNN "Manufacturer Part Number"
+F22 "HV7360LA-G" 0 -1450 60 H V L CNN "Comment"
+DRAW
+S 0 -1350 600 50 0 1 0 f
+X GND A1 -200 -950 200 R 50 50 1 1 P
+X SP2 P1 800 -850 200 L 50 50 1 1 P
+X IND A2 -200 -650 200 R 50 50 1 1 P
+X VL2 B2 -200 -1250 200 R 50 50 1 1 P
+X DP2 P2 800 -950 200 L 50 50 1 1 P
+X INC A3 -200 -550 200 R 50 50 1 1 P
+X DN2 P3 800 -1050 200 L 50 50 1 1 P
+X VSS A4 -200 -1050 200 R 50 50 1 1 P
+X VH F4 800 -50 200 L 50 50 1 1 P
+X SN2 P4 800 -1150 200 L 50 50 1 1 P
+X VDD A6 -200 -850 200 R 50 50 1 1 P
+X SP1 P6 800 -350 200 L 50 50 1 1 P
+X INB A7 -200 -450 200 R 50 50 1 1 P
+X VL3 F7 800 -150 200 L 50 50 1 1 P
+X DP1 P7 800 -450 200 L 50 50 1 1 P
+X INA A8 -200 -350 200 R 50 50 1 1 P
+X VL1 B8 -200 -1150 200 R 50 50 1 1 P
+X DN1 P8 800 -550 200 L 50 50 1 1 P
+X PE A9 -200 -150 200 R 50 50 1 1 P
+X SN1 P9 800 -650 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# HVOUT
+#
+DEF HVOUT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "HVOUT" -150 -100 50 H V L CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X HVOUT 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Header19
+#
+DEF ~Header19 K 0 0 N Y 1 F N
+F0 "K" 0 400 60 H V L CNN
+F1 "Header19" 0 -1700 60 H I L CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 400 60 H I C CNN
+F4 "PLS_2.54mm-19" 0 -1800 60 H I L CNN "Comment"
+DRAW
+T 900 100 -600 60 0 1 0 2.54~mm~pin~row Normal 0 C C
+S 0 300 200 -1600 0 1 0 f
+X 1 1 400 250 200 L 50 50 1 1 P
+X 2 2 400 150 200 L 50 50 1 1 P
+X 3 3 400 50 200 L 50 50 1 1 P
+X 4 4 400 -50 200 L 50 50 1 1 P
+X 5 5 400 -150 200 L 50 50 1 1 P
+X 6 6 400 -250 200 L 50 50 1 1 P
+X 7 7 400 -350 200 L 50 50 1 1 P
+X 8 8 400 -450 200 L 50 50 1 1 P
+X 9 9 400 -550 200 L 50 50 1 1 P
+X 10 10 400 -650 200 L 50 50 1 1 P
+X 11 11 400 -750 200 L 50 50 1 1 P
+X 12 12 400 -850 200 L 50 50 1 1 P
+X 13 13 400 -950 200 L 50 50 1 1 P
+X 14 14 400 -1050 200 L 50 50 1 1 P
+X 15 15 400 -1150 200 L 50 50 1 1 P
+X 16 16 400 -1250 200 L 50 50 1 1 P
+X 17 17 400 -1350 200 L 50 50 1 1 P
+X 18 18 400 -1450 200 L 50 50 1 1 P
+X 19 19 400 -1550 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header6
+#
+DEF ~Header6 K 0 0 N Y 1 F N
+F0 "K" 0 400 60 H V L CNN
+F1 "Header6" 0 -400 60 H I L CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "6 pin vertical 2mm" 0 -500 60 H I L CNN "Description"
+F5 "Molex_89400_061" 0 -600 60 H I L CNN "Comment"
+DRAW
+T 900 100 0 60 0 1 0 89400 Normal 0 C C
+S 0 300 200 -300 0 1 0 f
+X 1 1 400 250 200 L 50 50 1 1 P
+X 2 2 400 150 200 L 50 50 1 1 P
+X 3 3 400 50 200 L 50 50 1 1 P
+X 4 4 400 -50 200 L 50 50 1 1 P
+X 5 5 400 -150 200 L 50 50 1 1 P
+X 6 6 400 -250 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Inductor
+#
+DEF ~Inductor L 0 0 N N 1 F N
+F0 "L" -200 150 60 H V L CNN
+F1 "Inductor" -200 -150 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "" -150 250 60 H I L CNN
+F4 "75R@100MHz" -200 -750 60 H I L CNN "Value"
+F5 "Yes" -200 -250 60 H I L CNN "Mounted"
+F6 "SMD EMIFIL Suppression Chip Ferrite Bead" -200 -350 60 H I L CNN "Part Description"
+F7 "IND0805_MURATA_BLM21BB750SN1D" -200 -450 60 H I L CNN "Part Number"
+F8 "2" -200 -550 60 H I L CNN "Pin Count"
+F9 "700mA" -50 -550 60 H I L CNN "Power"
+F10 "0.16R" 450 -550 60 H I C CNN "Resistance"
+F11 "Yes" 650 -550 60 H I L CNN "SMD"
+F12 "No" 850 -550 60 H I L CNN "Socket"
+F13 "None" 1000 -550 60 H I L CNN "Status"
+F14 "Inductors SMD" -200 -650 60 H I L CNN "Table"
+F15 "chip inductance" 150 -850 60 H I C CNN "Description"
+F16 "120nH" 200 150 60 H V C CNN "Inductance"
+F17 "±25%" 500 -650 60 H I L CNN "Tolerance"
+F18 "S. Jafar" -200 700 60 H I L CNN "Author"
+F19 "0805" -200 600 60 H I L CNN "Case"
+F20 "Standard" 100 600 60 H I L CNN "Component Kind"
+F21 "Standard" 600 600 60 H I L CNN "Component Type"
+F22 "1.05mm" -200 500 60 H I L CNN "Component Height"
+F23 "12/21/2015" -200 400 60 H I L CNN "CreateDate"
+F24 "12/21/2015" 450 400 60 H I L CNN "LatestRevisionDate"
+F25 "MURATA" -200 300 60 H I L CNN "Manfucaturer"
+F26 "BLM21BB750SN1D" 250 300 60 H I L CNN "Manfucaturer Part Number"
+DRAW
+A -120 0 40 1 1799 0 1 0 N -80 0 -160 0
+A -40 0 40 1 1799 0 1 0 N 0 0 -80 0
+A 40 0 40 1 1799 0 1 0 N 80 0 0 0
+A 120 0 40 1 1799 0 1 0 N 160 0 80 0
+X ~ 1 -350 0 190 R 50 50 1 1 P
+X ~ 2 350 0 190 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper
+#
+DEF ~Jumper Jumper 0 0 N Y 1 F N
+F0 "Jumper" 0 100 60 H V L CNN
+F1 "Jumper" -200 -450 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "" -200 -1050 60 H I L CNN
+F4 "Yes" -200 -550 60 H I L CNN "Mounted"
+F5 "3 Contact 0.5\" Pitch Single-In-Line Vertical Header" -200 -650 60 H I L CNN "Part Description"
+F6 "SULLINS_GRPB031VWVN" -200 -750 60 H I L CNN "Part Number"
+F7 "3" -200 -850 60 H I L CNN "Pin Count"
+F8 "No" 300 -850 60 H I L CNN "SMD"
+F9 "None" -200 450 60 H I L CNN "Status"
+F10 "Miscellaneous" -200 -950 60 H I L CNN "Table"
+F11 "No" 550 -850 60 H I L CNN "Socket"
+F12 "S. Jafar" -200 550 60 H I L CNN "Author"
+F13 "Standard" 200 450 60 H I L CNN "Component Kind"
+F14 "Standard" 700 450 60 H I L CNN "Component Type"
+F15 "4mm" 1200 450 60 H I L CNN "ComponentHeight"
+F16 "12/29/2015" -200 350 60 H I L CNN "CreateDate"
+F17 "12/29/2015" 450 350 60 H I L CNN "LatestRevisionDate"
+F18 "SULLINS" -200 250 60 H I L CNN "Manufacturer"
+F19 "GRPB031VWVN" 650 250 60 H I L CNN "Manufacturer Part Number"
+F20 "Connector 3 Male" -200 -1050 60 H I L CNN "Description"
+DRAW
+S 0 -300 250 0 0 1 0 f
+P 2 0 1 0 0 -250 50 -250 N
+P 2 0 1 0 0 -150 50 -150 N
+P 2 0 1 0 0 -50 50 -50 N
+P 2 0 1 20 50 -250 100 -250 N
+P 2 0 1 20 50 -150 100 -150 N
+P 2 0 1 20 50 -50 100 -50 N
+X 1 1 -200 -50 200 R 50 50 1 1 B
+X 2 2 -200 -150 200 R 50 50 1 1 B
+X 3 3 -200 -250 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# MD0100N8-G
+#
+DEF ~MD0100N8-G IC 0 40 Y Y 1 F N
+F0 "IC" 150 150 60 H V L CNN
+F1 "MD0100N8-G" -200 -900 60 H I L CNN
+F2 "SOT89" 550 500 60 H I L CNN
+F3 "" -200 -1600 60 H I L CNN
+F4 "Yes" -200 -1000 60 H I L CNN "Mounted"
+F5 "SOT89-3, 3-Leads, Body 2.44x4.5mm" -200 -1100 60 H I L CNN "PackageDescription"
+F6 "Ultra-Sound HV Switch" -200 -1200 60 H I L CNN "Part Description"
+F7 "MD0100N8-G" -200 -1300 60 H I L CNN "Part Number"
+F8 "4" -200 -1400 60 H I L CNN "Pin Count"
+F9 "Yes" 300 -1400 60 H I L CNN "SMD"
+F10 "No" 550 -1400 60 H I L CNN "Socket"
+F11 "Analog & Interface" -200 -1500 60 H I L CNN "Table"
+F12 "S. Jafar" -200 800 60 H I L CNN "Author"
+F13 "SOT89" -200 700 60 H I L CNN "Case"
+F14 "Standard" 200 700 60 H I L CNN "Component Kind"
+F15 "Standard" 700 700 60 H I L CNN "Component Type"
+F16 "1.6mm" 1200 700 60 H I L CNN "ComponentHeight"
+F17 "12/20/2015" -200 600 60 H I L CNN "CreateDate"
+F18 "MD0100N8-G" -200 500 60 H I L CNN "Device"
+F19 "1/6/2016" 450 600 60 H I L CNN "LatestRevisionDate"
+F20 "Supertex inc." -200 400 60 H I L CNN "Manufacturer"
+F21 "MD0100N8-G" 550 400 60 H I L CNN "Manufacturer Part Number"
+F22 "MD0100N8-G" 0 -650 60 H V L CNN "Comment"
+F23 "3-Ultra-Sound HV Switch 1=A 2=COM 3=B" -200 -1600 60 H I L CNN "Description"
+DRAW
+S 0 -300 400 50 0 1 0 f
+X A 1 -200 -50 200 R 50 50 1 1 I
+X COM 2 200 -500 200 U 50 50 1 1 I
+X B 3 600 -50 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# R05-100B
+#
+DEF ~R05-100B IC 0 40 Y Y 1 F N
+F0 "IC" 250 150 60 H V L CNN
+F1 "R05-100B" -200 -1200 60 H I L CNN
+F2 "PWS_RECOM_R05-100B" 400 500 60 H I L CNN
+F3 "" -200 -1900 60 H I L CNN
+F4 "Yes" -200 -1300 60 H I L CNN "Mounted"
+F5 "55-135V 5W Power Supply, Body 32x21mm" -200 -1400 60 H I L CNN "PackageDescription"
+F6 "+5VDC to +55-135VDC 5W Power Supply" -200 -1500 60 H I L CNN "Part Description"
+F7 "R05-100B" -200 -1600 60 H I L CNN "Part Number"
+F8 "12" -200 -1700 60 H I L CNN "Pin Count"
+F9 "No" 300 -1700 60 H I L CNN "SMD"
+F10 "No" 550 -1700 60 H I L CNN "Socket"
+F11 "None" 2250 2150 60 H I L CNN "Status"
+F12 "Power Supplies" -200 -1800 60 H I L CNN "Table"
+F13 "S. Jafar" -200 800 60 H I L CNN "Author"
+F14 "Standard" -200 700 60 H I L CNN "Component Kind"
+F15 "Standard" 300 700 60 H I L CNN "Component Type"
+F16 "9.4mm" 800 700 60 H I L CNN "ComponentHeight"
+F17 "12/21/2015" -200 600 60 H I L CNN "CreateDate"
+F18 "R05-100B" -200 500 60 H I L CNN "Device"
+F19 "12/21/2015" 450 600 60 H I L CNN "LatestRevisionDate"
+F20 "RECOM POWER" -200 400 60 H I L CNN "Manufacturer"
+F21 "R05-100B" 650 400 60 H I L CNN "Manufacturer Part Number"
+F22 "R05-100B" 0 -1050 60 H V L CNN "Comment"
+DRAW
+S 0 -950 600 50 0 1 0 f
+X VIN- 2 -200 -650 200 R 50 50 1 1 P
+X VIN- 3 -200 -550 200 R 50 50 1 1 P
+X ADJ 8 800 -550 200 L 50 50 1 1 P
+X VREF 9 800 -750 200 L 50 50 1 1 O
+X COM 10 800 -450 200 L 50 50 1 1 W
+X VOUT 12 800 -50 200 L 50 50 1 1 w
+X VIN+ 22 -200 -50 200 R 50 50 1 1 W
+X VOUT 13 800 -150 200 L 50 50 1 1 w
+X VIN+ 23 -200 -150 200 R 50 50 1 1 W
+X COM 15 800 -350 200 L 50 50 1 1 W
+X VREF 16 800 -850 200 L 50 50 1 1 O
+X ADJ 17 800 -650 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RF_Transformer_1
+#
+DEF ~RF_Transformer_1 TR 0 0 N Y 1 F N
+F0 "TR" 150 100 60 H V L CNN
+F1 "RF_Transformer_1" 0 -600 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "" 50 250 60 H I L CNN
+F4 "1:1" 0 -1200 60 H I L CNN "Value"
+F5 "Yes" 0 -700 60 H I L CNN "Mounted"
+F6 "50 Ohms 0.015 To 300MHz RF Transformers" 0 -800 60 H I L CNN "Part Description"
+F7 "XFMR_MINI-CIRCUITS_T1-6T-KK81" 0 -900 60 H I L CNN "Part Number"
+F8 "5" 0 -1000 60 H I L CNN "Pin Count"
+F9 "Yes" 150 -1000 60 H I L CNN "SMD"
+F10 "No" 400 -1000 60 H I L CNN "Socket"
+F11 "None" 600 -1000 60 H I L CNN "Status"
+F12 "Transformers" 0 -1100 60 H I L CNN "Table"
+F13 "50 Ohm 0.015 To 300MHz RF Transformers" 1000 -1300 60 H I C CNN "Description"
+F14 "S. Jafar" 0 700 60 H I L CNN "Author"
+F15 "Standard" 0 600 60 H I L CNN "Component Kind"
+F16 "Standard" 500 600 60 H I L CNN "Component Type"
+F17 "6.6mm" 0 500 60 H I L CNN "ComponentHeight"
+F18 "12/22/2015" 0 400 60 H I L CNN "CreateDate"
+F19 "1/10/2016" 650 400 60 H I L CNN "LatestRevisionDate"
+F20 "MINI-CIRCUITS" 0 300 60 H I L CNN "Manfucaturer"
+F21 "T1-6T-KK81" 700 300 60 H I L CNN "Manfucaturer Part Number"
+DRAW
+A 140 -375 25 -899 899 0 0 0 N 140 -400 140 -350
+A 140 -325 25 -899 899 0 0 0 N 140 -350 140 -300
+A 140 -275 25 -899 899 0 0 0 N 140 -300 140 -250
+A 140 -225 25 -899 899 0 0 0 N 140 -250 140 -200
+A 320 -375 25 901 -901 0 0 0 N 320 -350 320 -400
+A 320 -325 25 901 -901 0 0 0 N 320 -300 320 -350
+A 320 -275 25 901 -901 0 0 0 N 320 -250 320 -300
+A 320 -225 25 901 -901 0 0 0 N 320 -200 320 -250
+C 180 -170 10 0 0 0 F
+C 280 -170 10 0 0 0 F
+T 0 250 -80 60 0 0 0 PRI Normal 0 L C
+T 0 40 -80 60 0 0 0 SEC Normal 0 L C
+S 0 -450 450 0 0 0 0 f
+P 2 0 0 0 0 -400 140 -400 N
+P 2 0 0 0 0 -300 140 -300 N
+P 2 0 0 0 0 -200 140 -200 N
+P 2 0 0 0 210 -400 210 -200 N
+P 2 0 0 0 250 -400 250 -200 N
+P 2 0 0 0 450 -400 320 -400 N
+P 2 0 0 0 450 -200 320 -200 N
+X 1 1 -200 -400 200 R 50 50 1 1 P
+X 2 2 -200 -300 200 R 50 50 1 1 P
+X 3 3 -200 -200 200 R 50 50 1 1 P
+X 4 4 650 -200 200 L 50 50 1 1 P
+X 5 5 650 -300 200 L 50 50 1 1 P
+X 6 6 650 -400 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor
+#
+DEF ~Resistor R 0 0 N N 1 F N
+F0 "R" -200 150 60 H V L CNN
+F1 "Resistor" -200 -150 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_NIC_NRC.pdf" -150 -850 60 H I L CNN
+F4 "4k7" -200 -950 60 H I L CNN "Value"
+F5 "Yes" -200 -250 60 H I L CNN "Mounted"
+F6 "General Purpose Thick Film Chip Resistor" -200 -350 60 H I L CNN "Part Description"
+F7 "R1206_4K7_1%_0.25W_100PPM" -200 -450 60 H I L CNN "Part Number"
+F8 "2" -200 -550 60 H I L CNN "Pin Count"
+F9 "0.25W" -50 -550 60 H I L CNN "Power"
+F10 "Yes" 300 -550 60 H I L CNN "SMD"
+F11 "No" 550 -550 60 H I L CNN "Socket"
+F12 "Preffered" 750 -550 60 H I L CNN "Status"
+F13 "Resistors SMD" -200 -650 60 H I L CNN "Table"
+F14 "±100ppm/°C" -200 -750 60 H I L CNN "TC"
+F15 "1%" 0 0 60 H V C CNN "Tolerance_Show"
+F16 "±1%" 550 -750 60 H I L CNN "Tolerance"
+F17 "CERN DEM JLC" -200 800 60 H I L CNN "Author"
+F18 "1206" -200 700 60 H I L CNN "Case"
+F19 "Standard" 100 700 60 H I L CNN "Component Kind"
+F20 "Standard" 600 700 60 H I L CNN "Component Type"
+F21 "12/3/2007" -200 600 60 H I L CNN "CreateDate"
+F22 "3/13/2008" 450 600 60 H I L CNN "LatestRevisionDate"
+F23 "GENERIC" -200 500 60 H I L CNN "Manufacturer"
+F24 "R1206_4K7_1%_0.25W_100PPM" -200 400 60 H I L CNN "Manufacturer Part Number"
+F25 "0.65mm" -200 300 60 H I L CNN "Manufacturer1 ComponentHeight"
+F26 "NIC COMPONENT" 250 300 60 H I L CNN "Manufacturer1 Example"
+F27 "NRC12F4701TRF" 1100 300 60 H I L CNN "Manufacturer1 PartNumber"
+F28 "1k1" 50 150 60 H V L CNN "Comment"
+F29 "Res_0603_1%_EU" -200 -1050 60 H I L CNN "Description"
+DRAW
+S -200 -80 200 80 0 1 0 N
+X ~ 1 -400 0 200 R 50 50 1 1 P
+X ~ 2 400 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SMA
+#
+DEF ~SMA J 0 0 N N 1 F N
+F0 "J" 0 100 60 H V L CNN
+F1 "SMA" -200 -300 60 H I L CNN
+F2 "footprint:AMPHENOL_132357-11" -250 150 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\AMPHENOL_132357-11.pdf" -200 -900 60 H I L CNN
+F4 "Yes" -200 -400 60 H I L CNN "Mounted"
+F5 "SMA End Launch Jack for 1.58mm PCB, 50 Ohm, Flat Tab Contact" -200 -500 60 H I L CNN "Part Description"
+F6 "AMPHENOL_132357-11" -200 -600 60 H I L CNN "Part Number"
+F7 "2" -200 -700 60 H I L CNN "Pin Count"
+F8 "No" 550 -700 60 H I L CNN "Socket"
+F9 "None" -200 450 60 H I L CNN "Status"
+F10 "AMPHENOL" -200 -800 60 H I L CNN "Table"
+F11 "Yes" 300 -700 60 H I L CNN "SMD"
+F12 "CERN DEM JLC" -200 550 60 H I L CNN "Author"
+F13 "SMA" 1800 1900 60 H I L CNN "Family"
+F14 "5/14/2012" 450 350 60 H I L CNN "LatestRevisionDate"
+F15 "AMPHENOL" -200 250 60 H I L CNN "Manufacturer"
+F16 "132357-11" 650 250 60 H I L CNN "Manufacturer Part Number"
+F17 "Standard" 200 450 60 H I L CNN "Component Kind"
+F18 "SMA" 400 -800 60 H I L CNN "Comment"
+F19 "Standard" 700 450 60 H I L CNN "Component Type"
+F20 "7.92mm" 1200 450 60 H I L CNN "ComponentHeight"
+F21 "5/14/2012" -200 350 60 H I L CNN "CreateDate"
+DRAW
+A 50 -50 50 901 -901 0 1 8 N 50 0 50 -100
+A 50 -50 25 901 -901 0 1 8 N 50 -25 50 -75
+P 2 0 1 8 0 -50 25 -50 N
+P 2 0 1 8 25 -100 0 -150 N
+X 1 1 -200 -50 200 R 50 50 1 1 B
+X 2 2 -200 -150 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# TP
+#
+DEF ~TP TP 0 0 N N 1 F N
+F0 "TP" 50 150 60 H V L CNN
+F1 "TP" -200 -150 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\NICOMATIC_C12000B.pdf" -200 -750 60 H I L CNN
+F4 "Yes" -200 -250 60 H I L CNN "Mounted"
+F5 "SMD Test Point" -200 -350 60 H I L CNN "Part Description"
+F6 "NICOMATIC_C12000B" -200 -450 60 H I L CNN "Part Number"
+F7 "1" -200 -550 60 H I L CNN "Pin Count"
+F8 "Yes" 0 -550 60 H I L CNN "SMD"
+F9 "No" 250 -550 60 H I L CNN "Socket"
+F10 "None" 450 -550 60 H I L CNN "Status"
+F11 "Miscellaneous" -200 -650 60 H I L CNN "Table"
+F12 "CERN DEM JLC" -200 800 60 H I L CNN "Author"
+F13 "Test Point" -200 700 60 H I L CNN "Family"
+F14 "Standard" 350 700 60 H I L CNN "Component Kind"
+F15 "Standard" 850 700 60 H I L CNN "Component Type"
+F16 "1.5mm" -200 300 60 H I L CNN "ComponentHeight"
+F17 "3/25/2009" -200 600 60 H I L CNN "CreateDate"
+F18 "3/25/2009" 450 600 60 H I L CNN "LatestRevisionDate"
+F19 "NICOMATIC" -200 500 60 H I L CNN "Manufacturer"
+F20 "C12000B" -200 400 60 H I L CNN "Manufacturer Part Number"
+F21 "Test Point" 400 -850 60 H I L CNN "Comment"
+F22 "Test Point" -200 -850 60 H I L CNN "Description"
+DRAW
+C 250 0 50 0 0 0 N
+X ~ 1 0 0 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TrimPot
+#
+DEF ~TrimPot P 0 0 N N 1 F N
+F0 "P" -200 150 60 H V L CNN
+F1 "TrimPot" -200 -400 60 H I L CNN
+F2 "" -250 150 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\TRIM_BOURNS_3223W.pdf" -150 -1100 60 H I L CNN
+F4 "5k" -200 -1200 60 H I L CNN "Value"
+F5 "Yes" -200 -500 60 H I L CNN "Mounted"
+F6 "11 Turns SMD Trimpot® Trimming Potentiometer (Top Adjust)" -200 -600 60 H I L CNN "Part Description"
+F7 "TRIM_11T_5K_BOURNS_3223W-1-502E" -200 -700 60 H I L CNN "Part Number"
+F8 "3" -200 -800 60 H I L CNN "Pin Count"
+F9 "0.125W" -50 -800 60 H I L CNN "Power"
+F10 "Yes" 300 -800 60 H I L CNN "SMD"
+F11 "No" 550 -800 60 H I L CNN "Socket"
+F12 "Potentiometers SMD" -200 -900 60 H I L CNN "Table"
+F13 "±100ppm/°C" -200 -1000 60 H I L CNN "TC"
+F14 "±20%" 550 -1000 60 H I L CNN "Tolerance"
+F15 "CERN DEM JLC" -200 800 60 H I L CNN "Author"
+F16 "3223W" -200 700 60 H I L CNN "Case"
+F17 "Standard" 200 700 60 H I L CNN "Component Kind"
+F18 "Standard" 700 700 60 H I L CNN "Component Type"
+F19 "4.16mm" 1200 700 60 H I L CNN "ComponentHeight"
+F20 "3/31/2011" -200 600 60 H I L CNN "CreateDate"
+F21 "12/18/2012" 450 600 60 H I L CNN "LatestRevisionDate"
+F22 "BOURNS" -200 500 60 H I L CNN "Manufacturer"
+F23 "3223W-1-502E" -200 400 60 H I L CNN "Manufacturer Part Number"
+F24 "5k" 50 150 60 H V L CNN "Comment"
+F25 "Trimming Potentiometer" -200 -1300 60 H I L CNN "Description"
+DRAW
+S -200 -80 200 80 0 1 0 N
+P 2 0 1 0 -150 0 -50 -50 N
+P 2 0 1 0 -150 0 -50 50 N
+P 2 0 1 0 0 -80 -50 -180 N
+P 2 0 1 0 0 -80 50 -180 N
+P 2 0 1 0 150 0 -150 0 N
+X CCW 1 400 0 200 L 50 50 1 1 P
+X W 2 0 -300 210 U 50 50 1 1 P
+X CW 3 -400 0 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VDD_3.3V
+#
+DEF VDD_3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "VDD_3.3V" -150 -100 50 H V L CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X VDD_3.3V 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# VDD_5V
+#
+DEF VDD_5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "VDD_5V" -150 -100 50 H V L CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X VDD_5V 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
