@@ -281,13 +281,18 @@ def GetGeneratedFiles(path):
 	return [AutoFiles,ManualFiles]
 
 def GetPythonFiles(path):
-	ManualFiles = []
-	AutoFiles = []
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.py'))]
 	ExcludeDirs = ["tools",".git","gh-pages"] 
 	PythonFilesList = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 
 	return PythonFilesList
+
+def GetInoFiles(path):
+	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.ino'))]
+	ExcludeDirs = ["tools",".git","gh-pages"] 
+	InoFiles = [x for x in results if x.split("/")[1] not in ExcludeDirs]
+
+	return InoFiles
 
 def CheckPythonFile(files):
 	## See http://stackoverflow.com/questions/1523427/what-is-the-common-header-format-of-python-files for an idea 
@@ -318,6 +323,34 @@ def CheckPythonFile(files):
 			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing Copyright ")
 		    if (ErrorConditions[3]):
 			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing License")
+	return log
+
+def CheckInoFile(files):
+	log = []
+	for InoFile in files:
+		with open(InoFile) as f:
+		    lN = 0
+		    # Description, author, copyright, license
+		    ErrorConditions = [True, True, True, True]
+		    for line in f:
+			if ("Description:") in line:
+				ErrorConditions[1]=False
+			if ("Author:") in line:
+				ErrorConditions[2]=False
+			if ("License:") in line:
+				ErrorConditions[3]=False
+			if ("Copyright") in line:
+				ErrorConditions[0]=False
+			line = line.rstrip('\r\n').rstrip('\n')
+			lN+=1
+		    if (ErrorConditions[0]):
+			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing description")
+		    if (ErrorConditions[1]):
+			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing Author ")
+		    if (ErrorConditions[2]):
+			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing Copyright ")
+		    if (ErrorConditions[3]):
+			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing License")
 	return log
 
 def CheckLink(path,autogen):

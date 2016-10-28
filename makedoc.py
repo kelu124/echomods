@@ -31,7 +31,7 @@ GraphModules = digraph()
 # Obtenir la liste des modules
 # -------------------------
 MDFiles = GetGeneratedFiles("./")
-
+MDFiles = GetGeneratedFiles("./")
 OpenWrite("* "+"\n* ".join(MDFiles[0]),"include/GeneratedFiles.md")
 OpenWrite("* "+"\n* ".join(MDFiles[1]),"include/ManualFiles.md")
 for mdFile in MDFiles[0]:
@@ -50,6 +50,8 @@ print ListOfDirs
 
 ListeOfPython = GetPythonFiles("./")
 log = log+CheckPythonFile(ListeOfPython)
+ListeOfArduino = GetInoFiles("./")
+log = log+CheckInoFile(ListeOfArduino)
 
 ListOfRetiredDirs = GetListofModules("./retired")
 print ListOfRetiredDirs

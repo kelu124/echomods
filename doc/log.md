@@ -1,3 +1,123 @@
+__[Arduino]__ :no_entry: `./croaker/feather_tests/2ADC2UDP.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/2ADC2UDP.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/ADC2UDP-Cleaning.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/ADC2UDP-Cleaning.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/ReadPins.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/ReadPins.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/ReadPins.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/ReadPins.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1Msps.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1Msps.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1Msps.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1Msps.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1MspsDisplayTrigged.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1MspsDisplayTrigged.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1MspsDisplayTrigged.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1MspsDisplayTrigged.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1MspsServo.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1MspsServo.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1MspsServo.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/Registers1MspsServo.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/StreamingADC2UDP.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/StreamingADC2UDP.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/StreamingADC2UDP.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./croaker/feather_tests/StreamingADC2UDP.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/Calibration/Calibration.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/Calibration/Calibration.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/Calibration/Calibration.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/Calibration/Calibration.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/Interrupts.example.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/Interrupts.example.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/Interrupts.example.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/Interrupts.example.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/SignalGenerator/SignalGenerator.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/SignalGenerator/SignalGenerator.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/SignalGenerator/SignalGenerator.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/SignalGenerator/SignalGenerator.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/SimpleSignalGenerator.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/SimpleSignalGenerator.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/SimpleSignalGenerator.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/SimpleSignalGenerator.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/ScanNetworks.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/ScanNetworks.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/ScanNetworks.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/ScanNetworks.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/dimming.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/dimming.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/dimming.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/dimming.ino` : Missing description
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/sawtooth.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/sawtooth.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/sawtooth.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./silent/software/featherWICED/examples/sawtooth.ino` : Missing description
+
 __[Links]__ :no_entry: `./Readme.md` : Link to non-existing file `./include/sets/basic.png` _(@autogenerated)_
 
 __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/20160822/20160822-Fantom.md`
@@ -29,6 +149,8 @@ __[Links]__ :no_entry: `./silent/2016-08-02.md` : Error in link definition, non-
 __[Links]__ :no_entry: `./silent/2016-08-02.md` : Error in link definition, non-absolute path in link to `software/featherWICED/SimpleSignalGenerator.png`
 
 __[Links]__ :no_entry: `./silent/Readme.md` : Link to non-existing file `./silent/2016-08-09 SilentPlusTobo.md`
+
+__[Links]__ :no_entry: `./silent/Readme.md` : Link to non-existing file `./silent/software/featherWICED/SignalGenerator.ino`
 
 __[Links]__ :no_entry: `./tobo/Readme.md` : Link to non-existing file `./tobo/source/datasheets/HV7360_CABGA.pdf`
 
