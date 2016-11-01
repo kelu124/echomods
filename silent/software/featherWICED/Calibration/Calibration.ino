@@ -2,7 +2,7 @@
 	Author: Kelu124
 	Copyright 2016
 	Repo:https://github.com/kelu124/echomods/tree/master/silent
-	Quick signal emulator for Feather. Non-symetric signal. For calibration purpose
+	Description: Quick signal emulator for Feather. Non-symetric signal. For calibration purpose
 	Licence: GNU GPL 2
 
 */

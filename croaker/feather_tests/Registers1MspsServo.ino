@@ -3,7 +3,8 @@
 	Copyright 2016
 	Repo:https://github.com/kelu124/echomods/tree/master/silent
 	Contributor:Jean-Pierre Redonnet inphilly@gmail.com for his "Fast dual conversion with ADC1 + ADC2"
-	Adapted to STM32F205 of the Feather WICED. Getting 1Msps
+	Description:  Getting 1Msps
+	Adapted to STM32F205 of the Feather WICED.
 	Licence: GNU GPL 2
 
 */

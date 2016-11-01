@@ -4,6 +4,7 @@
 	Repo:https://github.com/kelu124/echomods/tree/master/croaker
 	Contributor:Jean-Pierre Redonnet inphilly@gmail.com for his "Fast dual conversion with ADC1 + ADC2"
 	Adapted to STM32F205 of the Feather WICED 
+	Description: 2ADCs acquire signal at 2Msps and stream over UDP
 	Licence: GNU GPL 2
 
 */

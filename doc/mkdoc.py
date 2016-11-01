@@ -344,7 +344,7 @@ def CheckInoFile(files):
 				ErrorConditions[1]=False
 			if ("Author:") in line:
 				ErrorConditions[2]=False
-			if ("License:") in line:
+			if ("Licence:") in line:
 				ErrorConditions[3]=False
 			if ("Copyright") in line:
 				ErrorConditions[0]=False
