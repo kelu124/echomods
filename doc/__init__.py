@@ -5,7 +5,7 @@
 # GPLv3
 # -------------------------
 
-''' Description: empty file for doc module declaration.'''
+'''Description: empty file for doc module declaration.'''
 
 __author__      = "kelu124"
 __copyright__   = "Copyright 2016, Kelu124"

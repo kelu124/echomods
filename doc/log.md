@@ -6,12 +6,6 @@ __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/201
 
 __[Links]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Link to non-existing file `./croaker/feather_tests/Registers1Msps.ino`
 
-__[Links]__ :no_entry: `./include/20160720-Milestone.md` : Error in link definition, non-absolute path in link to `#TODO`
-
-__[Links]__ :no_entry: `./include/20160720-Milestone.md` : Error in link definition, non-absolute path in link to `#TODO`
-
-__[Links]__ :no_entry: `./include/20160720-Milestone.md` : Error in link definition, non-absolute path in link to `#TODO`
-
 __[Links]__ :no_entry: `./include/20160822/2016-08-22-Fantom.md` : Link to non-existing file `./include/20160822/20160822-205141.data`
 
 __[Links]__ :no_entry: `./include/AddIntro.md` : Error in link definition, non-absolute path in link to `module`
@@ -192,8 +186,6 @@ __[MDL tobo]__ :white_check_mark: 6 input(s)
 
 __[MDL tobo]__ :white_check_mark: Metadata (version, cost, sourcing, date, technology, language, author)
 
-
-__[Python]__ :no_entry: `./doc/__init__.py` : Missing description
 
 __[SET]__ Added `emulated`
 

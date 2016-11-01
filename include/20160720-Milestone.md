@@ -86,17 +86,17 @@ Having played with acquisition, it appears that the BitScope is excellent for 5M
 Displays are key to see if each line behaves as it should - and of course for us to check if it works. The displays should be part of each module. Several possibilities
 
 * Getting the image displayed on a TFT
-* Maybe line by line on the 128x64 OLED screen (using the [EMW3165](https://github.com/kelu124/echomods/tree/master/kina) ?) [](#TODO)
+* Maybe line by line on the 128x64 OLED screen (using the [EMW3165](https://github.com/kelu124/echomods/tree/master/kina) ?) (@TODO)
 
 ## Planning
 
 * Critical path: pulser
     * Aug 10th: starting the work =)
-    * Aug 10th: high priority: getting a US pulser emulator [](#TODO)
+    * Aug 10th: high priority: getting a US pulser emulator (@TODO)
     * Aug 15th: getting and debugging Tobo, the pulser
     * End of August: tested [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller)
 * medium priority: small DAC
-    * Aug 20th: Getting the [EMW3165 - Kina ](https://github.com/kelu124/echomods/tree/master/kina) working [](#TODO)
+    * Aug 20th: Getting the [EMW3165 - Kina ](https://github.com/kelu124/echomods/tree/master/kina) working (@TODO)
 * Low priority: 
      * Aug 15th: having played with [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller) - maybe with Goblin and retroATL3
 
