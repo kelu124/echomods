@@ -6,19 +6,19 @@ A __license__ grants "outbound" rights to the user of of project. But the projec
 
 A __CLA__ enables a contributor to grant "inbound" rights to the project.
 
-## Why a CLA?
-
-A CLA is a legal document in which you state you are entitled to contribute the code/documentation/translation to the project you’re contributing to and are willing to have it used in distributions and derivative works. This means that should there be any kind of legal issue in the future as to the origins and ownership of any particular piece of code, then that project has the necessary forms on file from the contributor(s) saying they were permitted to make this contribution.
-
-## CLA is a safety (bis)
-
-The CLA also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date. People and companies can therefore use that software, confident that they will not be asked to stop using pieces of the code at a later date.
-
 ## CLA and Licenses ?
 
 A CLA is _inbound_, when a License is _outbound_.
 
 _Ideally, the inbound=outbound: the contributor give the same rights to the project that the project gives to the user._ By default, if the contract does not define who will own the property, it is more likely than not that the person who wrote it will own it. 
+
+## Why a CLA?
+
+A CLA is a legal document in which you state _you are entitled to contribute the code/documentation/translation to the project_ you’re contributing to and  that _you are willing to have it used in distributions and derivative works_. This means that should there be any kind of legal issue in the future as to the origins and ownership of any particular piece of code, then that project has the necessary forms on file from the contributor(s) saying they were permitted to make this contribution.
+
+## CLA is a safety (bis)
+
+Moreover, the CLA also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date. People and companies can therefore use that software, confident that they will not be asked to stop using pieces of the code at a later date.
 
 ## PI
 
@@ -47,6 +47,10 @@ CLAs twist the empowering, community-oriented, enjoyable experience of FLOSS con
 ## Simpler?
 
 Most projects use the same time-honored and successful mechanism used throughout the 35 year history of the Free Software community:  submissions using the normal means to contribute to the project — such as patches to the mailing list or pull and merge requests — indicate the contributors' assent for inclusion of that Contribution in the canonical version under the project's license.
+
+## Copyright transfer necessary?
+
+_No_. A license to _to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contribution_ is enough to grant the recipients the essentials rights to use the contribution.
 
 ## What link with echOpen's license
 
