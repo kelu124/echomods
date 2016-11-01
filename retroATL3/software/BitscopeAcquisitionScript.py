@@ -5,7 +5,7 @@
 # cc-by-sa/4.0/
 # -------------------------
 
-'''report.py -- BitLib 2.0 Capture Device Report Generator (Python)'''
+'''Description: BitLib 2.0 Capture Device Report Generator (Python)'''
 # Based on http://www.bitscope.com/software/library/report.py.html
 
 __author__      = "kelu124"

@@ -1,8 +1,6 @@
 * ./makedoc.py
 * ./doc/__init__.py
 * ./doc/mkdoc.py
-* ./retired/kina/source/Scripts/udp-server.py
-* ./retired/kina/source/Scripts/udp-client.py
 * ./croaker/data/examples/Cleaning.py
 * ./croaker/data/examples/CreateCSV.py
 * ./croaker/data/examples/CreateSC.py

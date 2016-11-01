@@ -269,49 +269,9 @@ __[MDL tobo]__ :white_check_mark: 6 input(s)
 __[MDL tobo]__ :white_check_mark: Metadata (version, cost, sourcing, date, technology, language, author)
 
 
-__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Header error 
-
-__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Missing Author 
-
-__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Missing Copyright 
-
-__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Missing License
-
-__[Python]__ :no_entry: `./croaker/data/examples/Cleaning.py` : Missing description
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Header error 
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Missing Author 
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Missing Copyright 
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Missing License
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateCSV.py` : Missing description
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Header error 
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Missing Author 
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Missing Copyright 
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Missing License
-
-__[Python]__ :no_entry: `./croaker/data/examples/CreateSC.py` : Missing description
-
 __[Python]__ :no_entry: `./doc/__init__.py` : Header error 
 
 __[Python]__ :no_entry: `./doc/__init__.py` : Missing description
-
-__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-client.py` : Missing description
-
-__[Python]__ :no_entry: `./retired/kina/source/Scripts/udp-server.py` : Missing description
-
-__[Python]__ :no_entry: `./retroATL3/software/BitscopeAcquisitionScript.py` : Missing description
-
-__[Python]__ :no_entry: `./toadkiller/software/test_file.py` : Missing description
-
-__[Python]__ :no_entry: `./toadkiller/software/test_file_3periods.py` : Missing description
 
 __[SET]__ Added `emulated`
 

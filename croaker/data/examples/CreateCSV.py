@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# -------------------------
+# (c) kelu124
+# cc-by-sa/4.0/
+# -------------------------
+
+'''Description: Creating the CVS from a log file.'''
+
+__author__      = "kelu124"
+__copyright__   = "Copyright 2016, Kelu124"
+__license__ 	= "cc-by-sa/4.0/"
+
 import sys
 import numpy as np
 from numpy.fft import fft2, ifft2, fft, ifft

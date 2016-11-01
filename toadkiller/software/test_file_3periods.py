@@ -4,7 +4,8 @@
 # (c) kelu124
 # cc-by-sa/4.0/
 # -------------------------
-"""test_file_3periods.py: showing content of a PRUDAQ binary dump over 3 periods."""
+
+'''Description: showing content of a PRUDAQ binary dump over 3 periods.'''
 
 __author__      = "kelu124"
 __copyright__   = "Copyright 2016, Kelu124"

@@ -5,7 +5,7 @@
 # cc-by-sa/4.0/
 # -------------------------
 
-"""test_file.py: showing content of a PRUDAQ binary dump."""
+'''Description: showing content of a PRUDAQ binary dump.'''
 
 __author__      = "kelu124"
 __copyright__   = "Copyright 2016, Kelu124"

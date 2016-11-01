@@ -1103,7 +1103,7 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 #### June 17th
 
 * Comm->Publication
-* Murgen->Caskey->Zach->Todo: Merge all doc
+* Murgen->Caskey->Zach->Todo Merge all doc
 * GitHub->Zach->Caskey
 * EMW3165->Igor
 * HAD->1000$->Matos
@@ -1132,7 +1132,7 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * HAD Followers->Gros->Atmel Corporation
 * HAD Followers->Individus->anfractuosity->Chris->zymeter
 * HAD Followers->Gros->Texas Instruments
-* HAD Followers->Gros->TODO: Démarcher Gros
+* HAD Followers->Gros->TODO Démarcher Gros
 * TODO: Démarcher Gros
 * Caskey->Partenariats->Gros->Experts
 * uC->Liste uC
