@@ -1,8 +1,9 @@
-
 /*
-	Author: Tom Igoe
-	Copyright 2009
-	"Analog input, analog output, serial output" 
+	Author: Kelu124, Tom Igoe
+	Copyright 2016
+	Repo:https://github.com/kelu124/echomods/tree/master/croaker
+	Contributor:Tom Igoe for his "Analog input, analog output, serial output" 
+	Description: Reading pins
 	Licence: GNU GPL 2
 
 */

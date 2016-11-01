@@ -4,7 +4,6 @@
 * ./croaker/feather_tests/StreamingADC2UDP.ino
 * ./croaker/feather_tests/2ADC2UDP.ino
 * ./croaker/feather_tests/Registers1MspsDisplayTrigged.ino
-* ./croaker/feather_tests/Registers1Msps.ino
 * ./croaker/feather_tests/ReadPins.ino
 * ./croaker/feather_tests/ADC2UDP-Cleaning.ino
 * ./silent/software/featherWICED/SimpleSignalGenerator.ino

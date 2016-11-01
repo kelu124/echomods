@@ -3,7 +3,7 @@
 	Copyright 2016
 	Repo:https://github.com/kelu124/echomods/tree/master/croaker
 	Contributor:Jean-Pierre Redonnet inphilly@gmail.com for his "Fast dual conversion with ADC1 + ADC2"
-	Trying to get to work with direct ADC registers 
+	Description: Trying to get to work with direct ADC registers 
 	Licence: GNU GPL 2
 
 */
