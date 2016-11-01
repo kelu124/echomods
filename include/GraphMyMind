@@ -443,10 +443,10 @@ digraph {
 		Murgen [penwidth=0]
 		Caskey [penwidth=0]
 		Zach [penwidth=0]
-		"Todo: Merge all doc" [penwidth=0]
+		"Todo Merge all doc" [penwidth=0]
 			Murgen -> Caskey
 			Caskey -> Zach
-			Zach -> Todo:" Merge all doc"
+			Zach -> "Todo Merge all doc"
 		GitHub [penwidth=0]
 		Zach [penwidth=0]
 		Caskey [penwidth=0]
@@ -534,9 +534,9 @@ digraph {
 			Gros -> "Texas Instruments"
 		"HAD Followers" [penwidth=0]
 		Gros [penwidth=0]
-		"TODO: Démarcher Gros" [penwidth=0]
+		"TODO Démarcher Gros" [penwidth=0]
 			"HAD Followers" -> Gros
-			Gros -> TODO:" Démarcher Gros"
+			Gros -> "TODO Démarcher Gros"
 		"TODO: Démarcher Gros" [penwidth=0]
 		Caskey [penwidth=0]
 		Partenariats [penwidth=0]

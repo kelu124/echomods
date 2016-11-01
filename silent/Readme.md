@@ -114,13 +114,13 @@ Simplement (TEENSY) pour émuler un signal. A "high" speed DAC is required. Sinc
 
 ### DONE
 
-* Feather: [work with an interrupt](/silent/software/featherWICED/SignalGenerator.ino)
+* Feather: [work with an interrupt](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino)
 * Write code for feather WICED
 * Publish this code
 * Remove Signal Bias
 * Validated with a Feather WICED ([code](/silent/software/featherWICED/SimpleSignalGenerator.ino)).
 * Feather: remove the average value before inputing in Goblin
-* [Check output with Goblin](/silent/2016-08-09 SilentPlusTobo.md)
+* [Check output with Goblin](/silent/2016-08-09-SilentPlusTobo.md)
 
 ### People
 

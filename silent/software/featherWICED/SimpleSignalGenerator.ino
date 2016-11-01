@@ -1,8 +1,16 @@
+/*
+	Author: Kelu124
+	Copyright 2016
+	Repo:https://github.com/kelu124/echomods/tree/master/silent
+	Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
+	Licence: GNU GPL 2
+
+*/
+
 #include <libmaple/dac.h>
 
 /*
-Quick signal emulator for Feather
-70us period
+
 */
 
 uint32_t i = 0;

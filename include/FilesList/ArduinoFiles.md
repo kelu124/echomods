@@ -7,7 +7,6 @@
 * ./croaker/feather_tests/Registers1Msps.ino
 * ./croaker/feather_tests/ReadPins.ino
 * ./croaker/feather_tests/ADC2UDP-Cleaning.ino
-* ./silent/software/featherWICED/Interrupts.example.ino
 * ./silent/software/featherWICED/SimpleSignalGenerator.ino
 * ./silent/software/featherWICED/Calibration/Calibration.ino
 * ./silent/software/featherWICED/SignalGenerator/SignalGenerator.ino

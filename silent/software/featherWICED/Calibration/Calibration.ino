@@ -1,9 +1,14 @@
+/*
+	Author: Kelu124
+	Copyright 2016
+	Repo:https://github.com/kelu124/echomods/tree/master/silent
+	Quick signal emulator for Feather. Non-symetric signal. For calibration purpose
+	Licence: GNU GPL 2
+
+*/
 #include <libmaple/dac.h>
 
-/*
-  Quick signal emulator for Feather
-  70us period
-*/
+
 
 const int  TRIG_PIN = PB5;
 uint32_t i = 0;
