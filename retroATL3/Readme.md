@@ -52,7 +52,7 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ### How does it work: block diagram
 
-![Block schema](source/blocks.png)
+![Block schema](/retroATL3/source/blocks.png)
 
 * `ITF-mET_Transducer`->`ATL3`->`Tri-Piezo Head`->`ITF-mET_Transducer`
 * `ITF-N_cc_motor_pwm`->`ATL3`->`Motor`

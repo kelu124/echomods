@@ -1,9 +1,11 @@
 * ./Readme.md
 * ./gitbook/CLA.md
+* ./gitbook/Chapter1/Readme.md
 * ./gitbook/Chapter1/engineering.md
 * ./gitbook/Chapter1/listofmodules.md
 * ./gitbook/Chapter1/modules.md
 * ./gitbook/Chapter1/principles.md
+* ./gitbook/Chapter2/Readme.md
 * ./gitbook/Chapter2/goblin.md
 * ./gitbook/Chapter2/mogaba.md
 * ./gitbook/Chapter2/murgenhardware.md
@@ -13,6 +15,7 @@
 * ./gitbook/Chapter2/toadkiller.md
 * ./gitbook/Chapter2/tobo.md
 * ./gitbook/Chapter2/zach.md
+* ./gitbook/Chapter3/Readme.md
 * ./gitbook/Chapter3/cletus.md
 * ./gitbook/Chapter3/croaker.md
 * ./gitbook/Chapter3/doj.md
@@ -20,6 +23,7 @@
 * ./gitbook/Chapter3/silent.md
 * ./gitbook/Chapter3/sleepy.md
 * ./gitbook/Chapter4/README.md
+* ./gitbook/Chapter4/Readme.md
 * ./gitbook/Chapter4/Session_1.md
 * ./gitbook/Chapter4/Session_2.md
 * ./gitbook/Chapter4/Session_3.md
@@ -34,15 +38,18 @@
 * ./gitbook/Chapter4/detailednotes.md
 * ./gitbook/Chapter4/murgenworklog.md
 * ./gitbook/Chapter4/rawworklog.md
+* ./gitbook/Chapter5/Readme.md
 * ./gitbook/Chapter5/croaker_data.md
 * ./gitbook/Chapter5/dataformat.md
 * ./gitbook/Chapter5/images.md
 * ./gitbook/Chapter5/loops.md
+* ./gitbook/Chapter6/Readme.md
 * ./gitbook/Chapter6/academicbiblio.md
 * ./gitbook/Chapter6/articles.md
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/documentationprocess.md
 * ./gitbook/Chapter6/interfaces.md
+* ./gitbook/Chapter7/Readme.md
 * ./gitbook/Chapter7/license.md
 * ./gitbook/Chapter7/progress.md
 * ./gitbook/Chapter7/shoppingList.md

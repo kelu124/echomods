@@ -29,14 +29,8 @@
 * ./croaker/notes_feather_WICED.md
 * ./croaker/notes_uC.md
 * ./doj/Readme.md
-* ./gitbook/Chapter1/readme.md
 * ./gitbook/Chapter2/basicdevkit.md
-* ./gitbook/Chapter2/readme.md
 * ./gitbook/Chapter2/results.md
-* ./gitbook/Chapter3/readme.md
-* ./gitbook/Chapter5/readme.md
-* ./gitbook/Chapter6/readme.md
-* ./gitbook/Chapter7/readme.md
 * ./gitbook/GLOSSARY.md
 * ./gitbook/SUMMARY.md
 * ./gitbook/devkit1.md
@@ -50,6 +44,7 @@
 * ./include/20160822/2016-08-22-Fantom.md
 * ./include/ATL.md
 * ./include/AdHocShoppingList.md
+* ./include/AddChaptersIntro.md
 * ./include/AddDocProcess.md
 * ./include/AddEchomods.md
 * ./include/AddEngineering.md

@@ -8,7 +8,7 @@
 
 * Contact in 2015 (NA). 
 * 275$/deux with off-the-shelf components
-* @tocontact
+* @contacted, followup on 2/1/16
 
 ### Notes
  

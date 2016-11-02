@@ -10,7 +10,7 @@ For the fun of it, I also put a small 128x60 monochrome screen, to see what the 
 
 ## Examples
 
-### Plugin in the servo+transducer module ([Cletus](module))
+### Plugin in the servo+transducer module ([Cletus](/cletus/))
 
 Organizing the modules
 

@@ -2,12 +2,12 @@
 
 * Name: STI
 * Site:  sti-ultrasound.com
-* Contact: 
+* Contact: info@sti-ultrasound.com
 
 ### Status
 
 * Listed in 2015, not contacted
-* @tocontact
+* @contacted, @followup on 2/1/16
 
 ### Notes
  

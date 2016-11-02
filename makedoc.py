@@ -641,6 +641,20 @@ OpenWrite(TODOsToShopping+"\n\n","gitbook/Chapter7/shoppingList.md")
 OpenWrite(AddLicenseDocTxt+"\n\n","gitbook/Chapter7/license.md")
 CopyGitBookFile("CLA.md","gitbook/CLA.md")
 
+
+# -------------------------
+# Adding Readmes (chapters intros)
+# -------------------------
+
+[soup,ReadMehHtmlMarkdown] = returnSoup("./include/AddChaptersIntro.md")
+for i in range(7):
+	i = i+1
+	#print getParam(ReadMe,"ds")
+	TextChapter = getHs(soup,"h4","Chapter"+str(i)).text
+	print "Chapter"+str(i)
+	OpenWrite("### "+str(i)+". "+TextChapter+"\n\n","gitbook/Chapter"+str(i)+"/Readme.md")
+
+
 # -------------------------
 # Saving the compilation log
 # -------------------------

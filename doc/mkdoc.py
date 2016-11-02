@@ -143,6 +143,7 @@ def getHs(soupH,h,hText):
  				nextSib = H.find_next(True)
    				while nextSib is not None and h not in nextSib.name :
 					Text.append(nextSib)
+					#print nextSib.text
                				nextSib = nextSib.nextSibling
 	return Text
 

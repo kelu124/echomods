@@ -114,7 +114,7 @@ Simplement (TEENSY) pour émuler un signal. A "high" speed DAC is required. Sinc
 
 ### DONE
 
-* Feather: [work with an interrupt](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino)
+* Feather: [work with an interrupt](/silent/software/featherWICED/SignalGenerator.ino)
 * Write code for feather WICED
 * Publish this code
 * Remove Signal Bias
