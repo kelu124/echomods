@@ -294,7 +294,6 @@ _E.g. other hardware or software projects, modular components, libraries, framew
 * Licence: TAPR Open hardware license under which the documentation and files are licensed
 * Publisher: Luc JONVEAUX
 * Date published: 31/10/16
-* Modifiable design files (if different from above)
 
 
 # (5) Discussion
@@ -305,11 +304,11 @@ _Conclusions, learned lessons from design iterations, learned lessons from use c
 
 As a first try to hardware by the author, this work has been an endlessly source of learning.
 
-
 We finally obtained a cheap (400$) set of modules for ultrasound imaging, leveraging on existing open-source hardware and integrated circuits.
 Power consumption fitting within a USB power envelope, it can easily be powered by off-the-shelf 5V power banks, as well as a small design (A5 format) and light weight, allow for the easy of manipulation. 
 
-Wireless transfer also enable 
+The modules allow for surprisingly good images at this level of complexity. The module design, as building blocks, will allow users to use the existing sets of modules, then tailor each different module, if necessary, to their own requirements.
+
 
 
 ## Future Work

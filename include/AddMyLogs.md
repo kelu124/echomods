@@ -788,6 +788,11 @@ Would you like to support an existing project with your skills and expertise? Or
 * Chopper un photon chez hackspark?
 * Follow up with Zach - modules?
 
+#### 2016-11-01 On Tindie
+
+* Check out https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/
+
+
 =======
 
 

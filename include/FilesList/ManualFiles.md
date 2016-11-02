@@ -43,6 +43,7 @@
 * ./goblin/2016-07-08.md
 * ./goblin/2016-07-15.md
 * ./goblin/2016-08-09.md
+* ./goblin/2016-10-26_Zach.md
 * ./goblin/Readme.md
 * ./include/20160720-Milestone.md
 * ./include/20160814/2016-08-14-HackingAUltrasoundProbe.md
