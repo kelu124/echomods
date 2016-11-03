@@ -60,6 +60,7 @@
 * ./include/AddMyLogs.md
 * ./include/AddShoppingList.md
 * ./include/AddTableAvancement.md
+* ./include/FilesList/AllFiles.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md

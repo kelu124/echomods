@@ -1,3 +1,5 @@
+## Manually written files
+
 * [./CLA.md](/CLA.md): 
 * [./CodeOfConduct.md](/CodeOfConduct.md): Full worklog of the modules
 * [./Worklog.md](/Worklog.md): 
@@ -80,5 +82,106 @@
 * [./sleepy/Readme.md](/sleepy/Readme.md): 
 * [./toadkiller/Readme.md](/toadkiller/Readme.md): 
 * [./tobo/Readme.md](/tobo/Readme.md): 
+
+## Arduino files
+
+* [Registers1MspsServo.ino](/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps
+* [Registers.ino](/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registers
+* [Registers1Msps-AcquireAsMuchAsPossible.ino](/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino): Unused version
+* [StreamingADC2UDP.ino](/croaker/feather_tests/StreamingADC2UDP.ino): First test to get the UDP working
+* [2ADC2UDP.ino](/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP
+* [Registers1MspsDisplayTrigged.ino](/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.
+* [ReadPins.ino](/croaker/feather_tests/ReadPins.ino): Reading pins
+* [ADC2UDP-Cleaning.ino](/croaker/feather_tests/ADC2UDP-Cleaning.ino): 
+* [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
+* [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose
+* [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
+
+## Python files
+
+* [makedoc.py](/makedoc.py): script to build autodocumentation.
+* [__init__.py](/doc/__init__.py): empty file for doc module declaration.
+* [mkdoc.py](/doc/mkdoc.py): if ("Description") in line:
+* [Cleaning.py](/croaker/data/examples/Cleaning.py): Cleaning the repo and building the image library.
+* [CreateCSV.py](/croaker/data/examples/CreateCSV.py): Creating the CVS from a log file.
+* [CreateSC.py](/croaker/data/examples/CreateSC.py): Takes a log file and creatse the Scan Converted image.
+* [BitscopeAcquisitionScript.py](/retroATL3/software/BitscopeAcquisitionScript.py): BitLib 2.0 Capture Device Report Generator (Python)
+* [test_file.py](/toadkiller/software/test_file.py): showing content of a PRUDAQ binary dump.
+* [test_file_3periods.py](/toadkiller/software/test_file_3periods.py): showing content of a PRUDAQ binary dump over 3 periods.
+
+## Auto generated files
+
+* ./Readme.md
+* ./gitbook/CLA.md
+* ./gitbook/Chapter1/Readme.md
+* ./gitbook/Chapter1/engineering.md
+* ./gitbook/Chapter1/listofmodules.md
+* ./gitbook/Chapter1/modules.md
+* ./gitbook/Chapter1/principles.md
+* ./gitbook/Chapter2/Readme.md
+* ./gitbook/Chapter2/goblin.md
+* ./gitbook/Chapter2/mogaba.md
+* ./gitbook/Chapter2/murgenhardware.md
+* ./gitbook/Chapter2/murgensetup.md
+* ./gitbook/Chapter2/murgensoftware.md
+* ./gitbook/Chapter2/retroATL3.md
+* ./gitbook/Chapter2/toadkiller.md
+* ./gitbook/Chapter2/tobo.md
+* ./gitbook/Chapter2/zach.md
+* ./gitbook/Chapter3/Readme.md
+* ./gitbook/Chapter3/cletus.md
+* ./gitbook/Chapter3/croaker.md
+* ./gitbook/Chapter3/doj.md
+* ./gitbook/Chapter3/oneeye.md
+* ./gitbook/Chapter3/silent.md
+* ./gitbook/Chapter3/sleepy.md
+* ./gitbook/Chapter4/README.md
+* ./gitbook/Chapter4/Readme.md
+* ./gitbook/Chapter4/Session_1.md
+* ./gitbook/Chapter4/Session_2.md
+* ./gitbook/Chapter4/Session_3.md
+* ./gitbook/Chapter4/Session_4.md
+* ./gitbook/Chapter4/Session_4b.md
+* ./gitbook/Chapter4/Session_5.md
+* ./gitbook/Chapter4/Session_6.md
+* ./gitbook/Chapter4/Session_7.md
+* ./gitbook/Chapter4/Session_8.md
+* ./gitbook/Chapter4/Session_9_ATL.md
+* ./gitbook/Chapter4/detailedlog.md
+* ./gitbook/Chapter4/detailednotes.md
+* ./gitbook/Chapter4/murgenworklog.md
+* ./gitbook/Chapter4/rawworklog.md
+* ./gitbook/Chapter5/Readme.md
+* ./gitbook/Chapter5/croaker_data.md
+* ./gitbook/Chapter5/dataformat.md
+* ./gitbook/Chapter5/images.md
+* ./gitbook/Chapter5/loops.md
+* ./gitbook/Chapter6/Readme.md
+* ./gitbook/Chapter6/academicbiblio.md
+* ./gitbook/Chapter6/articles.md
+* ./gitbook/Chapter6/components.md
+* ./gitbook/Chapter6/documentationprocess.md
+* ./gitbook/Chapter6/interfaces.md
+* ./gitbook/Chapter7/Readme.md
+* ./gitbook/Chapter7/license.md
+* ./gitbook/Chapter7/progress.md
+* ./gitbook/Chapter7/shoppingList.md
+* ./gitbook/README.md
+* ./gitbook/devkit0.md
+* ./gitbook/devkit11.md
+* ./include/AddModulesSummary.md
+* ./include/AddMyLogs.md
+* ./include/AddShoppingList.md
+* ./include/AddTableAvancement.md
+* ./include/FilesList/AllFiles.md
+* ./include/FilesList/ArduinoFiles.md
+* ./include/FilesList/GeneratedFiles.md
+* ./include/FilesList/ManualFiles.md
+* ./include/FilesList/PythonFiles.md
+* ./include/sets/KitCosts.md
+* ./include/sets/emulated.cost.md
+* ./include/sets/highspeed.cost.md
+* ./include/sets/sets_slides.md
+* ./include/sets/wifi-dev-kit.cost.md
 
 [](@autogenerated - invisible comment)

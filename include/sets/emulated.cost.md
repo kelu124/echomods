@@ -7,7 +7,7 @@ uC pings emulator and streams feedback
 * The acquisition heart of the echOmods ([croaker](/croaker/)) -- get for _35$_ (Where? Get from [Adafruit](https://www.adafruit.com/products/3056))
 * Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * The motherboard of the echomods ([doj](/doj/)) -- get for _5$_ (Where? Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard))
-* Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _150$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or contact @kelu124)
+* Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _150$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 
 
 _Total cost of the set: 230$_

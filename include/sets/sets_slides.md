@@ -1,6 +1,7 @@
 ### emulated
 
 <ul><li>Title: echOmods emulated</li>
+<li>[](@description Set file to generate the emulated set)</li>
 <li>Description: uC pings emulator and streams feedback</li>
 </ul>
 

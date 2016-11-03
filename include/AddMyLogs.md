@@ -792,6 +792,9 @@ Would you like to support an existing project with your skills and expertise? Or
 
 * Check out https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/
 
+#### 2016-11-03 Having fun with batteries
+
+* https://hackaday.io/project/16358-pix-e-gif-camera
 
 =======
 

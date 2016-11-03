@@ -38,9 +38,21 @@ GraphModules = digraph()
 # Obtenir la liste des modules
 # -------------------------
 MDFiles = GetGeneratedFiles("./")
-MDFiles = GetGeneratedFiles("./")
-OpenWrite("* "+"\n* ".join(MDFiles[0]),"include/FilesList/GeneratedFiles.md")
-OpenWrite("* "+"\n* ".join(MDFiles[1]),"include/FilesList/ManualFiles.md")
+log = log+MDFiles[3]
+GenFiles = "* "+"\n* ".join(MDFiles[0])
+OpenWrite(GenFiles,"include/FilesList/GeneratedFiles.md")
+
+
+MdLog = ""
+ListeOfManualFiles = MDFiles[1]
+ListeOfManualFilesDesc = MDFiles[2]
+for i in range(len(MDFiles[1])):
+
+	MdLog += "* ["+ListeOfManualFiles[i]+"]("+ListeOfManualFiles[i][1:]+"): "+ListeOfManualFilesDesc[i]+"\n"
+OpenWrite(MdLog,"include/FilesList/ManualFiles.md")
+
+
+
 for mdFile in MDFiles[0]:
 	log=log+CheckLink(mdFile,True)
 for mdFile in MDFiles[1]:
@@ -51,16 +63,45 @@ for eachInput in ListOfDirs:
 	GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
 print ListOfDirs
 
+
+
+
+
+# -------------------------
+# Source code listing
+# -------------------------
+
+PythonLog = ""
+ListeOfPython = GetPythonFiles("./")
+PythonFiles = CheckPythonFile(ListeOfPython)
+log = log+PythonFiles[0]
+
+for i in range(len(PythonFiles[1])):
+	PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i] +"\n"
+OpenWrite(PythonLog,"include/FilesList/PythonFiles.md")
+
+InoLog = ""
+ListeOfArduino = GetInoFiles("./")
+InoFi = CheckInoFile(ListeOfArduino)
+log = log+InoFi[0]
+for i in range(len(InoFi[1])):
+
+	InoLog += "* ["+ListeOfArduino[i].split("/")[-1]+"]("+ListeOfArduino[i][1:]+"): "+InoFi[1][i]+"\n"
+OpenWrite(InoLog,"include/FilesList/ArduinoFiles.md")
+
+AllFilesLog = ""
+AllFilesLog += "## Manually written files\n\n"+MdLog+"\n"
+AllFilesLog += "## Arduino files\n\n"+InoLog+"\n"
+AllFilesLog += "## Python files\n\n"+PythonLog+"\n"
+AllFilesLog += "## Auto generated files\n\n"+GenFiles+"\n"
+
+OpenWrite(AllFilesLog,"include/FilesList/AllFiles.md")
+
+
 # -------------------------
 # Retired modules List
 # -------------------------
 
-ListeOfPython = GetPythonFiles("./")
-log = log+CheckPythonFile(ListeOfPython)
-OpenWrite("* "+"\n* ".join(ListeOfPython),"include/FilesList/PythonFiles.md")
-ListeOfArduino = GetInoFiles("./")
-log = log+CheckInoFile(ListeOfArduino)
-OpenWrite("* "+"\n* ".join(ListeOfArduino),"include/FilesList/ArduinoFiles.md")
 
 ListOfRetiredDirs = GetListofModules("./retired")
 print ListOfRetiredDirs
@@ -651,7 +692,7 @@ for i in range(7):
 	i = i+1
 	#print getParam(ReadMe,"ds")
 	TextChapter = getHs(soup,"h4","Chapter"+str(i)).text
-	print "Chapter"+str(i)
+	#print "Chapter"+str(i)
 	OpenWrite("### "+str(i)+". "+TextChapter+"\n\n","gitbook/Chapter"+str(i)+"/Readme.md")
 
 

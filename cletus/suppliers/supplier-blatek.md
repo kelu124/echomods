@@ -8,6 +8,7 @@
 
 * Deja contactes en 2015
 * @contacted, @followup on 2/1/16
+* Retour 2/1/16: be back with quotes
 
 ### Notes
 

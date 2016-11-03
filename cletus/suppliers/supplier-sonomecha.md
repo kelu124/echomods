@@ -28,3 +28,15 @@ should be make the criteria by the mold size and sintering process of ceramics.
 
 
 ![](/cletus/suppliers/sonomecha/quote.png)
+
+
+#### Feedback in 2016 for 3 different piezos
+
+* With the said specs:
+    * 3.5MHz. $400/ea
+    * 5MHz $400/ea
+    * 7.5MHz $450/ea
+* Required 2pcs each
+* Diameter as your specs.
+* Bandwidth:70-80%
+* Delivery:6-8wks
