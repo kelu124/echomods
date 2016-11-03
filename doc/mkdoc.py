@@ -140,9 +140,9 @@ def getHs(soupH,h,hText):
 		allH = soupH.find_all(h)
 		for H in allH:
 			if hText in H:
-				#print hText+" found"
  				nextSib = H.find_next(True)
    				while nextSib is not None and h not in nextSib.name :
+ 
 					Text.append(nextSib)
 					#print nextSib.text
                				nextSib = nextSib.nextSibling

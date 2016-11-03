@@ -691,13 +691,36 @@ CopyGitBookFile("CLA.md","gitbook/CLA.md")
 # Adding Readmes (chapters intros)
 # -------------------------
 
-[soup,ReadMehHtmlMarkdown] = returnSoup("./include/AddChaptersIntro.md")
+
 for i in range(7):
+	AddChaptersIntro = getText("./include/AddChaptersIntro.md")
+	linesChapters = AddChaptersIntro.split("\n")
 	i = i+1
-	#print getParam(ReadMe,"ds")
-	TextChapter = getHs(soup,"h4","Chapter"+str(i)).text
-	#print "Chapter"+str(i)
-	OpenWrite("### "+str(i)+". "+TextChapter+"\n\n","gitbook/Chapter"+str(i)+"/Readme.md")
+	ResultatChapter = []
+	DebutFound = False
+
+	for line in linesChapters:
+		print line
+
+		
+		if "#### Chapter" in line:			
+			if ("Chapter"+str(i)) in line:
+				DebutFound = True
+				print "Found Chapter"
+				print line
+			else:
+				print "Fin chapter"
+				DebutFound = False
+
+
+		if DebutFound:
+			print line
+			ResultatChapter.append(line)
+
+	print ResultatChapter
+
+	OpenWrite("\n".join(ResultatChapter)+"\n\n","gitbook/Chapter"+str(i)+"/Readme.md")
+
 
 
 # -------------------------
