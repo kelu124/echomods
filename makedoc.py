@@ -45,7 +45,9 @@ OpenWrite(GenFiles,"include/FilesList/GeneratedFiles.md")
 
 MdLog = ""
 ListeOfManualFiles = MDFiles[1]
+
 ListeOfManualFilesDesc = MDFiles[2]
+
 for i in range(len(MDFiles[1])):
 
 	MdLog += "* ["+ListeOfManualFiles[i]+"]("+ListeOfManualFiles[i][1:]+"): "+ListeOfManualFilesDesc[i]+"\n"
@@ -673,6 +675,8 @@ AddDocProcess =getText("include/AddDocProcess.md")
 OpenWrite("# Automating documentation \n\n"+AddRawHURL(AddDocProcess)+"\n\n","gitbook/Chapter6/documentationprocess.md")
 
 CopyGitBookFile("include/biblio/Readme.md","gitbook/Chapter6/academicbiblio.md")
+CopyGitBookFile("include/FilesList/AllFiles.md","gitbook/Chapter6/fileslist.md")
+
 # -------------------------
 # Adding CHAPTER 7 : Contributing
 # -------------------------

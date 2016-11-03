@@ -219,7 +219,10 @@ def AddRawHURL(s):
 		s = s.replace("](/"+moduletrois+"/Readme.md)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")
 		s = s.replace("](/"+moduletrois+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduletrois+"/source/blocks.png)")	
 
-	return s.replace("![](/", "![]("+URL)
+	s.replace("![](/", "![]("+URL)
+	s = s.replace("](/","](https://github.com/kelu124/echomods/blob/master/")
+
+	return s
 
 def AddRawMurgenURL(s):
 	ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
@@ -301,8 +304,8 @@ def GetGeneratedFiles(path):
 			if (not found) and (not foundDesc):
 				log.append("__[MD Files]__ "+RedMark+" `"+eachMd+"` : Missing description")
 
-	AutoFiles.sort()
-	ManualFiles.sort()
+	#AutoFiles.sort()
+	#ManualFiles.sort()
 	return [AutoFiles,ManualFiles,ManualDesc,log]
 
 def GetPythonFiles(path):
