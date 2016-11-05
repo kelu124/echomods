@@ -46,9 +46,11 @@ _An overview of the hardware, what it does, how it was produced, and the researc
 
 Ultrasound imaging has evolved since the first ultrasound machine appeared. The first machines were using single-transducers techniques, coupled to mechanical scanning. This technology was then replaced by more resource-consuming transducer-array-based probes – with the exception of endo probes, where the physical size of the probe is a limiting factor.
 
-Mechanical scanning has its limitation, but also its strengths: the single element means that corresponding analog electronics are simplified, and the cost reduced. Moreover, with progress made in different technical fields, mechanical probes are seen on the market again.Search found little to no documentation of previous research to rebuild these mechanical ultrasound imaging machine functions.
+Mechanical scanning has its limitation, but also its strengths: the single element means that corresponding analog electronics are simplified, and the cost reduced. Moreover, with progress made in different technical fields, mechanical probes are seen on the market again. Search found little to no documentation of previous research to rebuild these mechanical ultrasound imaging machine functions.
 
-The aim of this work is to provide pieces of kit to allow anyone to understand and recreate the inside of an ultrasound machine. Each electronic module takes the place of a function in the signal processing chain, or allows tapping into the different signals circulating between the blocks. We have chosen to use a module approach to make sure that each key component inside ultrasound image processing can easily be replaced and compared with another module.
+To the best of the authors knowledge, there are no open-source hardware design nor electronics  accessible online, even if there are several open-source software initiatives (like PLUS) or focus-ultrasound control systems (like Vanderbilt's Open-Source Small-Animal MR-Guided Focused Ultrasound System), or articles suggesting electronics architecture for ultrasound systems. So far, state of the art systems cannot be built with abundant modular components.
+
+To bridge this gap, this work  provides pieces of kit to allow anyone to understand and recreate the inside of an ultrasound machine. Each electronic module takes the place of a function in the signal processing chain, or allows tapping into the different signals circulating between the blocks. We have chosen to use a module approach to make sure that each key component inside ultrasound image processing can easily be replaced and compared with another module.
 
 A focus has been put on documentation and corresponding infrastructure. The project&#39;s documentation is backed by a script, extracting relevant information from the work logs in the repository, allowing a continuous update of information.
 
@@ -110,7 +112,15 @@ For the sake of simplicity, a design of two separated modules emerged.
 
 The remaining modules are microcontrollers, processing units, or power supplies that can be easily obtained and easily modified and programmed.
 
-The latest set of modules is based on a wireless-enabled, arduino-compatible STM32 
+The latest set of modules is based on a wireless-enabled, arduino-compatible STM32, which has a 6Msps on-board ADC, strictly compatible with the analog processing module for the enveloppe detection.
+
+### A selection of integrated ICs
+
+To save on costs and complexity, and to ensure the robustness of the designs, the two modules being designed leverage existing ICs:
+
+* The pulser module requires both a high-voltage source, and a pulser control. These functions used the R05-100B to generate a stable high-voltage, which level is determined by a potentiometer, and a HV7360 to precisely control the pulse level and duration.
+* The analog processing uses a single channel ultrasound Time gain compensation IC, the AD8331, which gain can be controlled by an external 0 to 1V track. The amplified signal is fed into a RF envelope detector, the ADL5511. The enveloppe is the debiaised with a AD8691 amplifier and optimized for the last item, the 12-bit, 3Msps ADC AD7274.
+
 
 # (2) Quality control
 
@@ -132,6 +142,10 @@ If the hardware is used for measurements, please detail here how the reliability
 Detail the general procedures in place for users to calibrate their hardware before or during use. What methods can be used to relate user generated data to data from other sources?
 
 Note: Detailed instructions belong in documentation; here, provide insight into how and why the calibration is valid.
+
+### Emulating the signal
+
+In order to obtain repeatible signals, the DAC of a arduino-compatible board was used and integrated on a separate module. This module is capable to simulate a 2MHz signal, using an arbitrary signal profile. This signal can be used to characterize the analog processing module, as well as the DAQ modules. 
 
 ### Calibrating the signal
 
