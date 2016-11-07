@@ -23,7 +23,13 @@ __Luc K. JONVEAUX (independant maker)__
 ## Abstract
 
 _A short (up to 250 words) summary of the hardware being described: what problem(s) the hardware addresses, what it does, how it technically/methodologically advances the state-of-the-art, how it was designed and implemented, and its applicability to other issues/research/areas of reuse._
-@todo
+
+Ultrasound imaging is developping an open-source ecosystem – especially for software frameworks. Little exists on the open-hardware side. Hence a focus was put on producing easy-to-use technological (hardware and software) kit to allow anyone - scientists, academics, hackers, makers to have a experimental setup for ultrasound imaging at a low cost, at home, with no specific equipment required.
+
+To this end, open source, arduino-like modules have been developped to build a simple, but complete, single channel analog front-end system, where all intermediary signals are readily accessible by the user. A single-channel architecture allows to avoid the beamforming head, though it limits the quality of the image obtained, and brings robustness to the system. Moreover, complex RF processing, being shifted to the analog side, limits the quality of the final image.
+
+There were tested with repurposed ultrasound mechanical scanheads, as well as repurposed medical imaging transducers, and provided interesting images. Moreover, such modules could also be used in RF projects, non-destructive projects, low-cost medical imaging projects.
+ 
 
 ## Metadata Overview
 
@@ -68,19 +74,15 @@ Several publication point at the integration of such hardware in the scan head i
 
 Ultrasounds, high frequency sound waves, are used in medical application for both diagnosis and treatment of patients. Their frequencies can vary from 2 to approximately 15 MHz for regular imaging, sometimes higher frequencies are used for delicated, surface imaging.
 
-The ultrasound waves comes from the mechanical oscillations of a crystal in a transducer, excited by electrical pulses (which is called the piezoelectric effect). These pulses of sound are sent by the transducer, propagate through the different media being imaged, and then come back to the transducer as "reflected echoes". These reflected echoes are converted back into an electrical signal by the transducer and are further processed so to form the final image.
+The ultrasound waves comes from the mechanical oscillations of a crystal in a transducer, excited by electrical pulses (which is called the piezoelectric effect). These pulses of sound are sent by the transducer, propagate through the different media being imaged, and then come back to the transducer as "reflected echoes" when they meet an interface. These reflected echoes are converted back into an electrical signal by the transducer and are further processed so to form the final image.
 
-![Principles of images](https://raw.githubusercontent.com/kelu124/echomods/master/include/images/JOH/echoimaging.png)
+![Principles of ultrasound imaging](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/UT_principe.svg/512px-UT_principe.svg.png)
 
 In general, these sound waves, as classical waves, are reflected at the interfaces between the tissues of different accoustic impendance (linked to the density of the medium), the strength of the echo being proportional to the difference in impedance. On the other hand, echoes are not produced if there is no accoustic difference, hence no impedance interface, between media. Homogenous fluidsare seen as echo-free structures.
 
 ### A modularized approach
 
-@todo: find article on modules/arduino
-
 The aim of the kit being to allow one to explore the mechanisms of ultrasound processing, and to replace elements of the processing chain as desired, a modularized approach was considered. Each module can be considered as a breakout board of the most central elements, intended for easy experimentation with usual equipment, such as breadboards and standard power supplies.
-
-Using modules also invites to conform to a standard exchange of information between the modules. As stripboards are a common material, it has been decided to make several signals exposed along 19 strips of the board, as per a standard format defined by the echOpen community. It can be noted that current modules leave most of the strips unused.
 
 ### Requirements
 
@@ -172,9 +174,8 @@ General testing has been done, especially for the two modules:
 * For the pulser, the criteria of the tests were the duration of the pulse, which should match the input signals, as well as the voltage of the pulse, being set by a potentiometer. Tests were done using an oscilloscope.
 * For the analog processing unit,the DAC module allowed a standard input to be processed, and the result of the processing analysed.
 
-General conditions of the tests were that of of a 150ns, 70V pulse for the pulser unit, with a repetition every 300us.
+General conditions of the tests were that of a 150ns, 70V-pulse for the pulser unit, with a repetition every 300us. The gain setting on the analog processing board was set to maximize the range of the signal and match it to the DAQ unit.
 
-_ __Again: Detailed instructions belong in documentation; here, provide a summary_ _ __ instead._
 
 # (3) Application
 
@@ -184,19 +185,21 @@ _Describe at least one example of an application of your hardware. This should i
 
 _Note: In the spirit of openness, we require authors to provide (or link to) datasets along with the submitted graphic representations. We do not impose arbitrary limits on inclusion of data so please include sufficient empirical detail and results to ensure your data can be easily verified, analysed and clearly interpreted by the wider scientific community._
 
-### General case
+### General use case
 
 The modules can be assembled in a minimum set using power-supply, pulser control, pulser module, and data acquisition.
 
-Setup with the first iteration, the beaglebone cape
+The Beaglebone cape setup is relatively  simple. The pulser control was realized using a Trinket Pro (point A), controlling the board (B). The data was acquired with a Bitscope.
 
-The pulser control was realized using a Trinket Pro (point A), controlling the board (B).
+![](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/Images/Session_7/PhysicalSpace.png)
 
-@todoimage
+Setup with the second iteration, the modules were used with a vintage probe fond on ebay and the Beaglebone PRUDAQ cape, replacing the bitscope.
 
-Setup with the second iteration, the modules
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/IMG_3430.png) 
 
-@todoimage
+With the wireless setting, the setup simplifies, and only need to be powered with a USB cable.
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/croaker/images/kit-overaview.png)
 
 ### Testing a single element transducer
 
@@ -296,15 +299,14 @@ _E.g. other hardware or software projects, modular components, libraries, framew
 * The Beaglebone module is using a BeagleBone Black, which is under a _Creative Commons Attribution-Share Alike 3.0_ license.
 * The Feather WICED module is, Open Hardware and Open Source for its software.
 * The code for the arduino-compatible modules is developped under Arduino IDE.
-* The two boards developped under this project are following the Open Hardware TAPR license.
-* The source documents for these two boards was originally developped using Altium (proprietary), but the source is being ported to KiCad, which is under a GNU General Public License(GPL) version 3.
+* The two boards developped under this project are following the Open Hardware TAPR license. 
+* The source documents for these two boards was originally developped using Altium (proprietary), but the source has been ported to KiCad, which is under a GNU General Public License(GPL) version 3.
 
 ## Hardware documentation and files location:
 
-@todo Archive for hardware documentation and build files (required. See _Repositories_ document for criteria, DocuBricks and alternative repositories.) _Note: We require the inclusion of modifiable design files as well as a detailed documentation of the functionality of the hardware with assembly instructions. This will be assessed as part of the journal peer review process._
-
 * Name: Github repository for the ultrasound arduino-like modules
 * Persistent identifier: https://github.com/kelu124/echomods/
+* Filetypes: both boards are available in Altium and in Kicad format
 * Licence: TAPR Open hardware license under which the documentation and files are licensed
 * Publisher: Luc JONVEAUX
 * Date published: 31/10/16
@@ -322,8 +324,6 @@ We finally obtained a cheap (400$) set of modules for ultrasound imaging, levera
 Power consumption fitting within a USB power envelope, it can easily be powered by off-the-shelf 5V power banks, as well as a small design (A5 format) and light weight, allow for the easy of manipulation. 
 
 The modules allow for surprisingly good images at this level of complexity. The module design, as building blocks, will allow users to use the existing sets of modules, then tailor each different module, if necessary, to their own requirements.
-
-
 
 ## Future Work
 
