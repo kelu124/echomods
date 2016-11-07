@@ -496,7 +496,7 @@ OpenWrite(MyLogs,"include/AddMyLogs.md")
 # -------------------------
 
 Preface = AddRawHURL(AddOneLevel(getText("include/AddPitch.md")) + "\n" + getText("include/AddEchomods.md")) 
-OpenWrite(Preface,"gitbook/README.md")
+OpenWrite(IncludeImage(Preface),"gitbook/README.md")
 
 
 # -------------------------
@@ -546,7 +546,7 @@ OpenWrite(AddRawMurgenURL(MurgenSummary)+"\n\n","gitbook/devkit0.md")
 
 
 WirelessSet = "# Wireless implementation of the modules\n\n"+"\n\n"+AddOneLevel(getText("include/AddWireless.md"))
-OpenWrite(AddRawHURL(WirelessSet)+"\n\n","gitbook/devkit11.md")
+OpenWrite(IncludeImage(AddRawHURL(WirelessSet))+"\n\n","gitbook/devkit11.md")
 
 # Resume technique de Murgen
 OpenWrite(AddRawHURL(getText("include/AddIntroMurgen.md"))+"\n\n","gitbook/Chapter2/murgensetup.md")

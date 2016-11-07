@@ -796,6 +796,11 @@ Would you like to support an existing project with your skills and expertise? Or
 
 * https://hackaday.io/project/16358-pix-e-gif-camera
 
+#### 2016-11-05 State of the art
+
+* https://github.com/RemediOSM/UltraSound
+* https://github.com/sigurdstorve/OpenBCSim to generate US images
+
 =======
 
 

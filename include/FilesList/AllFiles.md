@@ -15,6 +15,7 @@
 * [./cletus/suppliers/supplier-blatek.md](/cletus/suppliers/supplier-blatek.md): 
 * [./cletus/suppliers/supplier-americanpiezo.md](/cletus/suppliers/supplier-americanpiezo.md): 
 * [./cletus/suppliers/supplier-sonicconcepts.md](/cletus/suppliers/supplier-sonicconcepts.md): 
+* [./cletus/suppliers/supplier-ndtxducer.md](/cletus/suppliers/supplier-ndtxducer.md): 
 * [./cletus/suppliers/supplier-piezotech.md](/cletus/suppliers/supplier-piezotech.md): 
 * [./cletus/suppliers/supplier-ut.md](/cletus/suppliers/supplier-ut.md): 
 * [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): 
