@@ -21,3 +21,6 @@
 ![](/cletus/suppliers/blatek/structure.png)
 
 ![](/cletus/suppliers/blatek/table.png)
+
+
+* __Rmq:__  Based on your focal zone requirement you need the transducers with a F# about 6 to achieve the results you need. I used a formulae as below,-3dB focal zone =7.1 x wavelength x F#^2, here F#=focal length/aperture

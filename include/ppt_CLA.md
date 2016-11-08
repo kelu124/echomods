@@ -1,5 +1,12 @@
 # [Contributor License Agreement (CLA)](http://kelu124.github.io/echomods/CLA.html)
 
+## Can I reuse a contribution to an open-source project on another project?
+
+Well... it depends. 
+
+* If the contributor keeps his/her copyright, and grants the project an irrevocable license to use his contribution, the contributor can share this contribution with other projects.
+* If the contributor assignts the copyright to the project, s.he may not be able to reuse this on other projects.
+
 ## Inputs / outputs
 
 A __license__ grants "outbound" rights to the user of of project. But the project does not give copyrights to the user.
@@ -10,7 +17,7 @@ A __CLA__ enables a contributor to grant "inbound" rights to the project.
 
 A CLA is _inbound_, when a License is _outbound_.
 
-_Ideally, the inbound=outbound: the contributor give the same rights to the project that the project gives to the user._ By default, if the contract does not define who will own the property, it is more likely than not that the person who wrote it will own it. 
+_Ideally, __inbound=outbound__: the contributor give the same rights to the project that the project gives to the user._ By default, if the contract does not define who will own the property, it is more likely than not that the person who wrote it will own it. 
 
 ## Why a CLA?
 
@@ -30,11 +37,19 @@ Two big families:
 * can assign the copyright in all contributions to the project owner; 
 * can grant an irrevocable licence to allow the project maintainer to use the contribution. 
 
+## Why granting an irrevocable license?
+
+* Sustainable for the project
+* Allows the contributor to use his/her contribution on other projects, especially true for general-use contribution 
+* the project recognizes the work of a pro-bono contributor compared to paid-for service-providers
+
+## Examples of CLA
+
 ## Canonical typical CLA
 
 As of August 2011, Canonical is requesting contributions be licensed under a Harmony Contribution Licence Agreement, rather than the copyright being assigned to Canonical. With the Harmony CLA, _"the contributor gives Canonical a licence to use their contributions. The contributor continues to own the copyright in the contribution, with full rights to re-use, re-distribute, and continue modifying the contributed code, allowing them to also share that contribution with other projects."_
 
-## Apache
+## Apache CLA
 
 All contributors of ideas, code, or documentation to any Apache projects _complete, sign, and submit (via fax or email) an Individual Contributor License Agreement (ICLA)_. __The purpose of this agreement is to clearly define the terms under which intellectual property has been contributed to the Project and thereby allow us to defend the project should there be a legal dispute regarding the software at some future time__. _A signed ICLA is required to be on file before an individual is given commit rights to a project_.
 
@@ -70,8 +85,10 @@ Different use-cases:
 
 ## Recommendation
 
+Recognize the pro-bono contributions by leaving the author's copyright (but him/her granting a license to the project), to distinguish this contribution from paid-for contribution:
+
 * Paid contributors give their copyright, but the project can allow the paid contributors to keep their copyrights
-* Unpaid contributors grant a a licence to use their contributions, unless they want to assign the copyright to the project 
+* Unpaid contributors grant a a licence to use their contributions by default, unless they want to assign the copyright to the project. 
 
 ## Application to the murgen-modules project
 
@@ -80,6 +97,10 @@ Suggestion:
 * Establishing a Canonical (IP-neutral) CLA
 * Submitting the work as part of the _medico-technical_ 
 * Add a contribution to echopen's board :)
+
+## Questions to jurist:
+
+* What is different between assigning copyrights to the project, and granting the _non-exclusive, worldwide, royalty-free patent license_ ?
 
 ## Read more
 
