@@ -83,6 +83,10 @@ Different use-cases:
 * unpaid: individual contributors, researchers, teachers, doctors
 * unclear: partners, organizations, trainees, ... 
 
+## An example: a public research group
+
+A public lab contributes to a project. It is paid by public fund. Can it assign the copyright of his/her contribution to a third party?
+
 ## Recommendation
 
 Recognize the pro-bono contributions by leaving the author's copyright (but him/her granting a license to the project), to distinguish this contribution from paid-for contribution:
@@ -101,6 +105,8 @@ Suggestion:
 ## Questions to jurist:
 
 * What is different between assigning copyrights to the project, and granting the _non-exclusive, worldwide, royalty-free patent license_ ?
+* A public lab contributes to a project. It is paid by public fund. Can it assign the copyright of his/her contribution to a third party?
+* Is it necessary to have same CLAs for all types of contributors?
 
 ## Read more
 
