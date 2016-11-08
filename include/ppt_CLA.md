@@ -7,6 +7,10 @@ Well... it depends.
 * If the contributor keeps his/her copyright, and grants the project an irrevocable license to use his contribution, the contributor can share this contribution with other projects.
 * If the contributor assignts the copyright to the project, s.he may not be able to reuse this on other projects.
 
+## What is a CLA ?
+
+_"A Contributor Licence Agreement (CLA) is strongly recommended when accepting third party contributions to an open development project, such as an open source software project. In order to redistribute contributions, it is necessary to ensure that the project has the necessary rights to do so. A Contributor Licence Agreement is a lightweight agreement, signed by the copyright holder, that grants the necessary rights for the contribution to be redistributed as part of the project."_ [OSS Watch](http://oss-watch.ac.uk/resources/cla)
+
 ## Inputs / outputs
 
 A __license__ grants "outbound" rights to the user of of project. But the project does not give copyrights to the user.
