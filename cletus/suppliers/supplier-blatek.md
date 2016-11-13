@@ -6,9 +6,9 @@
 
 ### Status
 
-* Deja contactes en 2015
-* @contacted, @followup on 2/1/16
+* Deja contactes en 2015 
 * Retour 2/1/16: be back with quotes
+* Feedback OK - waiting input from team
 
 ### Notes
 

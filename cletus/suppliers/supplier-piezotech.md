@@ -6,8 +6,7 @@
 
 ### Status
 
-* Deja contactes en 2015
-* @contacted, @followup on 2/1/16
+* Deja contactes en 2015 
 * Retour 2/1/16: need the [query sheet](/cletus/suppliers/meggitt/query.pdf)
 
 ### Notes

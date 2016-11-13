@@ -61,6 +61,10 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 
 ### Discussion
 
+#### Suppliers ?
+
+A list of suppliers and some details is [available here](/cletus/suppliers/).
+
 #### Choice of the servo
 
 * http://www.hobbyking.com/hobbyking/store/__23158__Turnigy_8482_TGY_1267HV_Titanium_BB_DS_MG_Servo_14kg_0_10sec_57g.html

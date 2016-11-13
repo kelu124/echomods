@@ -1,4 +1,5 @@
 * ./Readme.md
+* ./cletus/suppliers/Readme.md
 * ./include/AddTableAvancement.md
 * ./include/AddShoppingList.md
 * ./include/AddModulesSummary.md

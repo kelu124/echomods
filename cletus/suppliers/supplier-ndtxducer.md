@@ -6,11 +6,12 @@
 
 ### Status
 
-* Recommanded by Okos ( amlynchyk@okos.com )
-* @contacted, followup on 4/11/16
+* Feedback OK (4/11/16) - waiting input from team
 
 ### Notes
  
+* Recommanded by Okos ( amlynchyk@okos.com )
+
 #### 1st Proposal
 
 Attached is drawing for one of the transducers we make with UHF connector.

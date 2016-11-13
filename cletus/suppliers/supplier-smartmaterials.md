@@ -8,7 +8,7 @@
 
 * Contact for echomods modules and bitmakers probe
 * Deja contactes en 2015
-* @contacted, @followup on 2/1/16 
+* Not available for us
 
 ### Notes
 

@@ -19,7 +19,6 @@
 * [./cletus/suppliers/supplier-piezotech.md](/cletus/suppliers/supplier-piezotech.md): 
 * [./cletus/suppliers/supplier-ut.md](/cletus/suppliers/supplier-ut.md): 
 * [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): 
-* [./cletus/suppliers/Readme.md](/cletus/suppliers/Readme.md): 
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): 
 * [./cletus/suppliers/piezo-specs.md](/cletus/suppliers/piezo-specs.md): 
 * [./doj/Readme.md](/doj/Readme.md): 
@@ -113,6 +112,7 @@
 ## Auto generated files
 
 * ./Readme.md
+* ./cletus/suppliers/Readme.md
 * ./include/AddTableAvancement.md
 * ./include/AddShoppingList.md
 * ./include/AddModulesSummary.md

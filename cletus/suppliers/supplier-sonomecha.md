@@ -8,7 +8,7 @@
 
 * Contact in 2015 (NA). 
 * 275$/deux with off-the-shelf components
-* @contacted, followup on 2/1/16
+* Feedback OK - waiting input from team
 
 ### Notes
  
@@ -40,3 +40,8 @@ should be make the criteria by the mold size and sintering process of ceramics.
 * Diameter as your specs.
 * Bandwidth:70-80%
 * Delivery:6-8wks
+
+#### 10/11/16
+
+* Also regarding 3.5MHz transducer, we can offer $250 per unit as sample 2-3 min.quantity. 
+* For 50 units, we can offer $150.

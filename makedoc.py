@@ -34,9 +34,18 @@ from doc.mkdoc import *
 GraphModules = digraph()
 
 
+
+Suppliers = GetSuppliersList("cletus/suppliers/")
+OpenWrite("# Status of suppliers\n\n"+Suppliers,"cletus/suppliers/Readme.md")
+
+
+
+
 # -------------------------
 # Obtenir la liste des modules
 # -------------------------
+
+
 MDFiles = GetGeneratedFiles("./")
 log = log+MDFiles[3]
 GenFiles = "* "+"\n* ".join(MDFiles[0])

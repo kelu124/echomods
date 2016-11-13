@@ -6,7 +6,7 @@
 
 ### Status
 
-* Contact in 2015 (NA). 
+* Contact in 2015 (NA)
 * @contacted, @followup on 2/1/16
 
 ### Notes

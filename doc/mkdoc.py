@@ -267,6 +267,31 @@ def GraphModule(Paires,GraphThisModule,ReadMe):
 	Svg2Png(ReadMe+'/source/blocks')
 
 
+# -------------------------
+# Check update suppliers
+# -------------------------
+
+def GetSuppliersList(path):
+	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], 'sup*.md'))]
+	Text = ""
+	for eachSupplier in results:
+		[soup,ReadMehHtmlMarkdown] = returnSoup(eachSupplier)
+		#print getParam(ReadMe,"ds")
+		Infos = returnHList(soup,"h3","Info")
+		NameSupplier = ""
+		SiteSupplier = ""
+		for info in Infos:
+			if "Name:" in info.text:
+				NameSupplier = info.text.replace("Name:", "").strip()
+			if "Site:" in info.text:
+				SiteSupplier = info.text.replace("Site:", "").strip()
+		Text += "\n* ["+NameSupplier+"]("+SiteSupplier+"): "
+		Status = returnHList(soup,"h3","Status")
+		for status in Status:
+			Text += status.text.replace("</li>", "").replace("<li>", "")+", "
+	Text += "\n\n"
+
+	return Text	
 
 # -------------------------
 # Check auto-files
