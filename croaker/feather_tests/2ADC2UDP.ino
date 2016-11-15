@@ -12,9 +12,12 @@
 		B5 will be the trigger
 		C7 to control the servo (the other pins of servo to be connected on GND and probably 5V)		
 
-	OLED screen:
+	OLED screen vs global pinout (feather at https://cdn-learn.adafruit.com/assets/assets/000/031/391/medium800/adafruit_products_WICEDPinout.jpg?1458753854 )
 		GND on GND
-		@todo tocomplete
+		VCC on 5V
+		SCL on Feather SCL1
+		SDA on Feather SDA1
+
 */
 
 
