@@ -28,7 +28,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 from bs4 import BeautifulSoup
-
+import urllib2
 
 
 # -------------------------
@@ -102,6 +102,16 @@ def apply_styles(graph, styles):
     )
     return graph
 
+# -------------------------
+# Get Murgen Stats
+# -------------------------
+
+def GetMurgenStats():
+	MurgenURL = "https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging"
+	page = urllib2.urlopen(MurgenURL)
+	soup = BeautifulSoup(page.read())
+	print soup.find_all("div","section-profile-stats")[0]
+#div content-left section-profile-stats
 
 # -------------------------
 # Gestion des modules
@@ -293,7 +303,7 @@ def GetSuppliersList(path):
 
 	return Text	
 
-# -------------------------
+# -------------------------	
 # Check auto-files
 # Check other files
 # -------------------------

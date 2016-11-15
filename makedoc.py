@@ -39,7 +39,7 @@ Suppliers = GetSuppliersList("cletus/suppliers/")
 OpenWrite("# Status of suppliers\n\n"+Suppliers,"cletus/suppliers/Readme.md")
 
 
-
+# echo = GetMurgenStats()
 
 # -------------------------
 # Obtenir la liste des modules

@@ -7,6 +7,14 @@
 	Description: 2ADCs acquire signal at 2Msps and stream over UDP
 	Licence: GNU GPL 2
 
+	Pins:
+		A1 will be the channel being sampled
+		B5 will be the trigger
+		C7 to control the servo (the other pins of servo to be connected on GND and probably 5V)		
+
+	OLED screen:
+		GND on GND
+		@todo tocomplete
 */
 
 
@@ -19,12 +27,15 @@
 
 // Wifi
 #include <adafruit_feather.h>
+// Enter your own WLAN SSID and Passwords
 #define WLAN_SSID     "XX"
 #define WLAN_PASS     "XX"
 #define ENC_TYPE ENC_TYPE_WPA2_AES
 const uint16_t LOCAL_PORT = 5005;
 AdafruitUDP udp;
-// the IP of your server -- type "nc -lu 5005" to get the image
+
+// the IP of your server -- type "nc -lu 5005" to get the image on the server
+// and nc -lu 5005 > output.csv to accumulate data in a CSV file
 IPAddress server_ip(192, 168, 1, 9);
 
  

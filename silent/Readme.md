@@ -62,6 +62,15 @@ The aim of this echOmod is to simulate a raw signal that would come from the pie
 
 ## Constraint and limits
 
+#### Setup the module
+
+1. Install Arduino-IDE according to the adafruit page on the Feather WICED [starting here](https://learn.adafruit.com/introducing-the-adafruit-wiced-feather-wifi/get-the-wiced-bsp).
+2. Flash the WICED libs
+3. Install the [Generator arduino code](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino)
+4. Connect the trigger on B5 -- `TRIG_PIN = PB5;`
+5. Biaised output will be on A4 (`DAC_CH1`), you can remove the biais with a capa in series (681 / 680pf works) 
+6. Output will be a small (+-50mV) output mimicking an 2MHz decreasing signal, along with 3 peaks of 1 period, 2 periods and 4 periods, of decreasing intensity.
+
 #### Getting a signal 
 
 With a simple code on feather WICED, managed to get a 1.8 - 2Mhz signal ( [code is here](/silent/software/featherWICED/SimpleSignalGenerator.ino) ).
