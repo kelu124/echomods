@@ -1,4 +1,4 @@
-# Notes on the STM32F205 Reference manual 
+# Notes on the STM32F205 Reference manual  [](@description Notes on the STM32F205 for quick ADCs)
 
 * [Source PDF : reference Manual](/croaker/datasheets/en.CD00225773_STM32F2x5_RefManual.pdf).
 * [Other interesting : STM32TM’s ADC modes and their applications](/croaker/datasheets/en.CD00258017.pdf)

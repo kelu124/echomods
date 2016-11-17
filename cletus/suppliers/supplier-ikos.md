@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: OKOS
 * Site: www.okos.com/transducers

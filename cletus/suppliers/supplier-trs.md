@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: TRS-Tech
 * Site:  http://www.trstechnologies.com/

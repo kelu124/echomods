@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: NDTXducer
 * Site: http://www.ndtxducer.com/

@@ -6,33 +6,33 @@
 * [./sleepy/Readme.md](/sleepy/Readme.md): 
 * [./tobo/Readme.md](/tobo/Readme.md): 
 * [./cletus/Readme.md](/cletus/Readme.md): 
-* [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): 
-* [./cletus/suppliers/supplier-sti.md](/cletus/suppliers/supplier-sti.md): 
-* [./cletus/suppliers/supplier-smartmaterials.md](/cletus/suppliers/supplier-smartmaterials.md): 
-* [./cletus/suppliers/supplier-piezocom.md](/cletus/suppliers/supplier-piezocom.md): 
-* [./cletus/suppliers/supplier-sonomecha.md](/cletus/suppliers/supplier-sonomecha.md): 
-* [./cletus/suppliers/supplier-piezosolution.md](/cletus/suppliers/supplier-piezosolution.md): 
-* [./cletus/suppliers/supplier-blatek.md](/cletus/suppliers/supplier-blatek.md): 
-* [./cletus/suppliers/supplier-americanpiezo.md](/cletus/suppliers/supplier-americanpiezo.md): 
-* [./cletus/suppliers/supplier-sonicconcepts.md](/cletus/suppliers/supplier-sonicconcepts.md): 
-* [./cletus/suppliers/supplier-ndtxducer.md](/cletus/suppliers/supplier-ndtxducer.md): 
-* [./cletus/suppliers/supplier-piezotech.md](/cletus/suppliers/supplier-piezotech.md): 
-* [./cletus/suppliers/supplier-ut.md](/cletus/suppliers/supplier-ut.md): 
-* [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): 
-* [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): 
+* [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): supplier source file
+* [./cletus/suppliers/supplier-sti.md](/cletus/suppliers/supplier-sti.md): supplier source file
+* [./cletus/suppliers/supplier-smartmaterials.md](/cletus/suppliers/supplier-smartmaterials.md): supplier source file
+* [./cletus/suppliers/supplier-piezocom.md](/cletus/suppliers/supplier-piezocom.md): supplier source file
+* [./cletus/suppliers/supplier-sonomecha.md](/cletus/suppliers/supplier-sonomecha.md): supplier source file
+* [./cletus/suppliers/supplier-piezosolution.md](/cletus/suppliers/supplier-piezosolution.md): supplier source file
+* [./cletus/suppliers/supplier-blatek.md](/cletus/suppliers/supplier-blatek.md): supplier source file
+* [./cletus/suppliers/supplier-americanpiezo.md](/cletus/suppliers/supplier-americanpiezo.md): supplier source file
+* [./cletus/suppliers/supplier-sonicconcepts.md](/cletus/suppliers/supplier-sonicconcepts.md): supplier source file
+* [./cletus/suppliers/supplier-ndtxducer.md](/cletus/suppliers/supplier-ndtxducer.md): supplier source file
+* [./cletus/suppliers/supplier-piezotech.md](/cletus/suppliers/supplier-piezotech.md): supplier source file
+* [./cletus/suppliers/supplier-ut.md](/cletus/suppliers/supplier-ut.md): supplier source file
+* [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): supplier source file
+* [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file
 * [./cletus/suppliers/piezo-specs.md](/cletus/suppliers/piezo-specs.md): 
 * [./doj/Readme.md](/doj/Readme.md): 
 * [./oneeye/Readme.md](/oneeye/Readme.md): 
-* [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): 
-* [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): 
-* [./croaker/notes_ESP32.md](/croaker/notes_ESP32.md): 
+* [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
+* [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs
+* [./croaker/notes_ESP32.md](/croaker/notes_ESP32.md): Notes on ESP32
 * [./croaker/notes_uC.md](/croaker/notes_uC.md): 
-* [./croaker/notes_feather_WICED.md](/croaker/notes_feather_WICED.md): 
-* [./croaker/notes_RPi0.md](/croaker/notes_RPi0.md): 
+* [./croaker/notes_feather_WICED.md](/croaker/notes_feather_WICED.md): Random notes on WICED
+* [./croaker/notes_RPi0.md](/croaker/notes_RPi0.md): Random notes on RPi0
 * [./croaker/Readme.md](/croaker/Readme.md): 
-* [./croaker/notes_EMW3165.md](/croaker/notes_EMW3165.md): 
+* [./croaker/notes_EMW3165.md](/croaker/notes_EMW3165.md): Fun about EMW3165
 * [./croaker/feather_tests/2016-09-10-Feather_ADC.md](/croaker/feather_tests/2016-09-10-Feather_ADC.md): 
-* [./croaker/data/examples/Intro.md](/croaker/data/examples/Intro.md): 
+* [./croaker/data/examples/Intro.md](/croaker/data/examples/Intro.md): Croaker text header on images
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md): 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md): 
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): 

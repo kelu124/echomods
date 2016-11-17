@@ -1,7 +1,7 @@
-### Info
+### Info  [](@description supplier source file)
 
 * Name: Blatek
-* Site: blatek.com
+* Site: http://blatek.com
 * Contact: sales@blatek.com, Dr. Geng <geng@blatek.com> (VP/CTO), Randy Cyron <randyc@blatek.com>, Kevin Knarr <kevink@blatek.com>
 
 ### Status

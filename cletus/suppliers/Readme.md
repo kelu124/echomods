@@ -2,12 +2,12 @@
 
 
 * [TRS-Tech](http://www.trstechnologies.com/): Listed in 2015, not contacted, @contacted, @followup on 2/1/16, 
-* [STI](sti-ultrasound.com): Listed in 2015, not contacted, @contacted, @followup on 2/1/16, 
-* [Smart Materials](smart-material.com): Contact for echomods modules and bitmakers probe, Deja contactes en 2015, Not available for us, 
+* [STI](http://sti-ultrasound.com): Listed in 2015, not contacted, @contacted, @followup on 2/1/16, 
+* [Smart Materials](http://smart-material.com): Contact for echomods modules and bitmakers probe, Deja contactes en 2015, Not available for us, 
 * [piezo.com](http://www.piezo.com/): Listed in 2015, not contacted, @contacted, @followup on 2/1/16, 
 * [SonoMecha](http://www.sonomecha.com/): Contact in 2015 (NA). , 275$/deux with off-the-shelf components, Feedback OK - waiting input from team, 
 * [PiezoSolutions](http://www.piezosolutions.net/): Contact in 2015 (NA), @contacted, @followup on 2/1/16, 
-* [Blatek](blatek.com): Deja contactes en 2015 , Retour 2/1/16: be back with quotes, Feedback OK - waiting input from team, 
+* [Blatek](http://blatek.com): Deja contactes en 2015 , Retour 2/1/16: be back with quotes, Feedback OK - waiting input from team, 
 * [American Piezo (APC)](americanpiezo.com): Deja contactes en 2015, @contacted, @followup on 2/1/16, 
 * [SonicConcepts](http://www.sonicconcepts.com/): Contact in 2015 and 2016  , Feedback OK - waiting input from team, 
 * [NDTXducer](http://www.ndtxducer.com/): Feedback OK (4/11/16) - waiting input from team, 

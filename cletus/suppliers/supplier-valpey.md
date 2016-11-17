@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: Valpey
 * Site: www.ctsvalpey.com/

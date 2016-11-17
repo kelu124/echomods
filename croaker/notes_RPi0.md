@@ -1,4 +1,4 @@
-# RPi0 Oscilloscope
+# RPi0 Oscilloscope [](@description Random notes on RPi0)
 
 ## Ressources
 

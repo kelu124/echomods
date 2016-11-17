@@ -801,6 +801,16 @@ Would you like to support an existing project with your skills and expertise? Or
 * https://github.com/RemediOSM/UltraSound
 * https://github.com/sigurdstorve/OpenBCSim to generate US images
 
+
+#### 2016-11-15 Some lag, new job
+
+Just started a new job 10 days back, so I lagged a bit. However, some news!
+
+* Sold two boards so far on [tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) - which also gave opportunities to discuss with people: awesome.
+* Lent a [emulator module](/silent/) to echOpen for their testing, and updated doc.
+* Auto documentation moved forward! Plenty of new debug options in the [doc generation journal](/doc/log.md)
+
+
 =======
 
 

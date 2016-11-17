@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: PiezoSolutions
 * Site: http://www.piezosolutions.net/

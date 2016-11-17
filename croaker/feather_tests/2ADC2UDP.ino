@@ -7,16 +7,21 @@
 	Description: 2ADCs acquire signal at 2Msps and stream over UDP
 	Licence: GNU GPL 2
 
-	Pins:
+	Pins ( feather at https://cdn-learn.adafruit.com/assets/assets/000/031/391/medium800/adafruit_products_WICEDPinout.jpg?1458753854 )
 		A1 will be the channel being sampled
 		B5 will be the trigger
 		C7 to control the servo (the other pins of servo to be connected on GND and probably 5V)		
 
-	OLED screen vs global pinout (feather at https://cdn-learn.adafruit.com/assets/assets/000/031/391/medium800/adafruit_products_WICEDPinout.jpg?1458753854 )
+	OLED screen vs global pinout 
+
 		GND on GND
 		VCC on 5V
 		SCL on Feather SCL1
 		SDA on Feather SDA1
+
+	Buy (on Amzn for example):
+		Feather: http://amzn.to/2eGzlbG - 48€
+		OLED: http://amzn.to/2gi0vHl - 9€
 
 */
 

@@ -13,12 +13,12 @@ The acquisition heart of the echOmods
 ## Description
 
 * A STM32...
-* version: V0.2
-* date: 22/09/2016
+* version: V0.3
+* date: 15/11/2016
 * technology: STM32F205
 * language: n/a
 * cost:35$
-* sourcing:Get from [Adafruit](https://www.adafruit.com/products/3056)
+* sourcing:Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl)
 * author: Kelu124
 
 ## IOs
@@ -82,7 +82,7 @@ They have been acquired with `nc -lu 5005` to listen to data coming from UDP por
 
 ### Getting to work with two onboard ADCs. Getting a relatively nice signal.
 
-In a nutshell: getting roughly 12bits, 2Msps+ ADC acquisition and Wifi-streaming, on a powerbank. [Read more here](/croaker/feather_tests/2016-09-10-Feather_ADC.md) for the details on the STM32 work.
+In a nutshell: getting roughly 12bits, 2Msps+ ADC acquisition and Wifi-streaming, on a powerbank. [Read more here](/croaker/feather_tests/2016-09-10-Feather_ADC.md) for the details on the STM32 work. [Arduino code here, with details for setup](/croaker/feather_tests/2ADC2UDP.ino).
 
 Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 

@@ -1,7 +1,7 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: STI
-* Site:  sti-ultrasound.com
+* Site:  http://sti-ultrasound.com
 * Contact: info@sti-ultrasound.com
 
 ### Status

@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: American Piezo (APC)
 * Site: americanpiezo.com

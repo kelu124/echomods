@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: SonicConcepts
 * Site: http://www.sonicconcepts.com/

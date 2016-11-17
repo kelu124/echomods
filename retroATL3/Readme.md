@@ -83,6 +83,14 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ## Discussions
 
+### Where to source?
+
+Mostly ebay:
+* 60$ for 1 probe - - http://www.ebay.com/itm/ATL-Access-C-3-0-MHZ-12-7mm-dia-Ultrasound-Transducer-P-N-101-25909-72-3862-/111898969844?hash=item1a0db2c6f4:m:mY5GvKHR7qPhPuufxAHnjyA
+* 290$ for 2 probes - 2x ATL Access A  (3MHz) - http://www.ebay.com/itm/ATL-Access-A-Ultrasound-Probe-LOT-2-/131588905820?hash=item1ea34f5b5c:g:COUAAOSwyQtV3Xkg
+* 5MHz @ http://www.ebay.com/itm/ATL-Access-A-5-0MHz-12-7mm-Dia-6cm-FP-Ultrasound-Probe-3359-/111904941527?hash=item1a0e0de5d7:m:m35HcHQafc7p8BdFvI01GZg (104$)
+
+
 ### Good images achieved! [RESOLVED]
 
 [Please refer to this log to read more about how we got this image](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md). Here's an example of the image we got:

@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: PiezoTechnologies
 * Site: http://www.piezotechnologies.com/documents/120710-material-data-sheet.aspx

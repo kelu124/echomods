@@ -1,7 +1,7 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: Smart Materials
-* Site: smart-material.com
+* Site: http://smart-material.com
 * Contact: j.kunzmann@smart-material.com
 
 ### Status

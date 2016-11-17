@@ -1,4 +1,4 @@
-### Info
+### Info [](@description supplier source file)
 
 * Name: SonoMecha
 * Site: http://www.sonomecha.com/
