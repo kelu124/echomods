@@ -54,7 +54,7 @@ Ultrasound imaging has evolved since the first ultrasound machine appeared. The 
 
 Mechanical scanning has its limitation, but also its strengths: the single element means that corresponding analog electronics are simplified, and the cost reduced. Moreover, with progress made in different technical fields, mechanical probes are seen on the market again. Search found little to no documentation of previous research to rebuild these mechanical ultrasound imaging machine functions.
 
-To the best of the authors knowledge, there are no open-source hardware design nor electronics  accessible online, even if there are several open-source software initiatives (like PLUS) or focus-ultrasound control systems (like Vanderbilt's Open-Source Small-Animal MR-Guided Focused Ultrasound System), or articles suggesting electronics architecture for ultrasound systems. So far, state of the art systems cannot be built with abundant modular components.
+To the best of the authors knowledge, there are no open-source hardware design nor electronics  accessible online, even if there are several open-source software initiatives (like PLUS) or focus-ultrasound control systems (like Vanderbilt's Open-Source Small-Animal MR-Guided Focused Ultrasound System), or articles suggesting electronics architecture for ultrasound systems. In 2009, Tortoli et al [21] created a 64-channel open platform, with a relatively complex architecture. So far, state of the art systems cannot be built with abundant modular and easily assembled components.
 
 To bridge this gap, this work  provides pieces of kit to allow anyone to understand and recreate the inside of an ultrasound machine. Each electronic module takes the place of a function in the signal processing chain, or allows tapping into the different signals circulating between the blocks. We have chosen to use a module approach to make sure that each key component inside ultrasound image processing can easily be replaced and compared with another module.
 
@@ -386,6 +386,7 @@ Though LJ is a founder of the echOpen&#39;s project, this work has been pursued 
 18. Raj JR, Rahman SMK, Anand S. Microcontroller USB interfacing with MATLAB GUI for low cost medical ultrasound scanners. Engineering Science and Technology, an International Journal. juin 2016;19(2):964‑9. 
 19. Hendy AM, Hassan M, Eldeeb R, Kholy D, Youssef A-B, Kadah YM. PC-based modular digital ultrasound imaging system. In IEEE; 2009 [cité 21 oct 2016]. p. 1330‑3. Disponible sur: http://ieeexplore.ieee.org/document/5441904/
 20. Chiang AM, Chang PP, Broadstone SR. PC-based ultrasound imaging system in a probe. In IEEE; 2000 [cité 21 oct 2016]. p. 1255‑60. Disponible sur: http://ieeexplore.ieee.org/document/921551/
+21. Tortoli P, Bassi L, Boni E, Dallai A, Guidi F, Ricci S. ULA-OP: an advanced open platform for ultrasound research, IEEE Trans Ultrason Ferroelectr Freq Control. 2009 Oct;56(10):2207-16, (10.1109/TUFFC.2009.1303.)
 
 ### Copyright notice
 
