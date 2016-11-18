@@ -1,5 +1,6 @@
 # Murgen: the first iteration of the ultrasound dev-kit in a nutshell
 
+[](@description BOM, first steps and results of the murgen board)
 
 ## Preparing the electronics
 

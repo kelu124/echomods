@@ -6,6 +6,9 @@
 # -------------------------
 # Requires GraphViz and Wand
 # -------------------------
+# Use ./makedoc.py full  
+# to have the graphs generated
+# -------------------------
 
 '''Description: script to build autodocumentation.'''
 

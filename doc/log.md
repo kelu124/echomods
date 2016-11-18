@@ -50,15 +50,11 @@ __[MD Files]__ :no_entry: `./cletus/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./cletus/suppliers/piezo-specs.md` : Missing description
 
-__[MD Files]__ :no_entry: `./croaker/Readme.md` : Missing description
-
 __[MD Files]__ :no_entry: `./croaker/data/examples/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Missing description
 
 __[MD Files]__ :no_entry: `./croaker/notes_uC.md` : Missing description
-
-__[MD Files]__ :no_entry: `./doj/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./gitbook/Chapter2/basicdevkit.md` : Missing description
 
@@ -76,8 +72,6 @@ __[MD Files]__ :no_entry: `./include/20160814/2016-08-14-HackingAUltrasoundProbe
 
 __[MD Files]__ :no_entry: `./include/20160822/2016-08-22-Fantom.md` : Missing description
 
-__[MD Files]__ :no_entry: `./include/ATL.md` : Missing description
-
 __[MD Files]__ :no_entry: `./include/AdHocShoppingList.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddDocProcess.md` : Missing description
@@ -92,15 +86,11 @@ __[MD Files]__ :no_entry: `./include/AddInterfaces.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddIntro.md` : Missing description
 
-__[MD Files]__ :no_entry: `./include/AddIntroMurgen.md` : Missing description
-
 __[MD Files]__ :no_entry: `./include/AddLicense.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddMurgenSummary.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddPrinciples.md` : Missing description
-
-__[MD Files]__ :no_entry: `./include/AddStructure.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddStructureDetails.md` : Missing description
 
@@ -128,13 +118,9 @@ __[MD Files]__ :no_entry: `./mogaba/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./oneeye/Readme.md` : Missing description
 
-__[MD Files]__ :no_entry: `./retroATL3/Readme.md` : Missing description
-
 __[MD Files]__ :no_entry: `./silent/2016-08-02.md` : Missing description
 
 __[MD Files]__ :no_entry: `./silent/2016-08-09-SilentPlusTobo.md` : Missing description
-
-__[MD Files]__ :no_entry: `./silent/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./silent/notes_R2R_DAC.md` : Missing description
 

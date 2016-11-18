@@ -1,4 +1,4 @@
-# Module: Croaker
+# Module: Croaker [](@description Analog processing module readme)
 
 ![](/croaker/viewme.png)
 

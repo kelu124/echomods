@@ -1,4 +1,4 @@
-# Module: Silent
+# Module: Silent [](@description Main doc for the ultrasound signal emulator)
 
 ![](/silent/viewme.png)
 
