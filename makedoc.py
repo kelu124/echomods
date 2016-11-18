@@ -30,10 +30,20 @@ sys.setdefaultencoding('utf-8')
 from bs4 import BeautifulSoup 
 from doc.mkdoc import *
  
+FullSVG = 0
 
-GraphModules = digraph()
+# -------------------------
+# arguments
+# -------------------------
 
+if (len(sys.argv) > 0):
+	for element in sys.argv:
+		if "full" in element:
+			FullSVG = 1
 
+# -------------------------
+# Manage suppliers
+# -------------------------
 
 Suppliers = GetSuppliersList("cletus/suppliers/")
 OpenWrite("# Status of suppliers\n\n"+Suppliers,"cletus/suppliers/Readme.md")
@@ -45,6 +55,7 @@ OpenWrite("# Status of suppliers\n\n"+Suppliers,"cletus/suppliers/Readme.md")
 # Obtenir la liste des modules
 # -------------------------
 
+GraphModules = digraph()
 
 MDFiles = GetGeneratedFiles("./")
 log = log+MDFiles[3]
@@ -171,7 +182,7 @@ for ReadMe in ListOfDirs:
 	GraphThisModule = digraph()
 	Paires =  returnHList(soup,"h3","block diagram")
    	if (len(Paires) > 0):
-		GraphModule(Paires,GraphThisModule,ReadMe)
+		GraphModule(Paires,GraphThisModule,ReadMe,FullSVG)
 		log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" 01. Block diagram OK"+"\n")
 	else:
 	    	log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 01. No block diagram section "+"\n")
@@ -379,8 +390,9 @@ OpenWrite(TODOsToShopping,"include/AddShoppingList.md")
 # -------------------------
 
 GraphPath = 'include/ModulesGraph'
-GraphModules.render(GraphPath)
-Svg2Png(GraphPath)
+if FullSVG:
+	GraphModules.render(GraphPath)
+	Svg2Png(GraphPath)
 
 # -------------------------
 # Créer le ReadMe
@@ -439,8 +451,9 @@ for item in results:
 GraphPath = 'include/GraphMyMind'
 GraphMyMind = apply_styles(GraphMyMind, styles)
 
-GraphMyMind.render(GraphPath)
-Svg2Png(GraphPath)
+if FullSVG:
+	GraphMyMind.render(GraphPath)
+	Svg2Png(GraphPath)
 
 
 
@@ -736,7 +749,7 @@ for i in range(7):
 # Saving the compilation log
 # -------------------------
 
-ResultKits = CreateKits("./include/","./")
+ResultKits = CreateKits("./include/","./",FullSVG)
 log = log+ResultKits
 
 # -------------------------

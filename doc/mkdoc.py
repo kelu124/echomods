@@ -263,7 +263,7 @@ def CopyGitBookFile(From,To):
 def CopyGitBookMurgenFile(From,To):
 	return OpenWrite(AddRawMurgenURL(getText(From)),To)
 
-def GraphModule(Paires,GraphThisModule,ReadMe):
+def GraphModule(Paires,GraphThisModule,ReadMe,FullSVG):
         for eachPair in Paires:
 	    eachPair = eachPair.text
 	    if ("->" in eachPair):
@@ -273,8 +273,9 @@ def GraphModule(Paires,GraphThisModule,ReadMe):
 		# Add the edge		
 		for k in range(len(Couples)-1):
 		    GraphThisModule.edge(Couples[k], Couples[k+1])
-	GraphThisModule.render(ReadMe+'/source/blocks')
-	Svg2Png(ReadMe+'/source/blocks')
+	if FullSVG:
+		GraphThisModule.render(ReadMe+'/source/blocks')
+		Svg2Png(ReadMe+'/source/blocks')
 
 
 # -------------------------
@@ -480,7 +481,7 @@ def getParam(Module,Parameter):
 # Create the kits
 # -------------------------
 
-def CreateKits(path,pathmodules):
+def CreateKits(path,pathmodules,FullSVG):
 	Slides = ""
 	AllCosts = "# What does it cost?\n\n"
 	log = []
@@ -613,8 +614,9 @@ def CreateKits(path,pathmodules):
 
 
 			GraphPath = path+"/sets/"+NomDuSet
-			GraphModules.render(GraphPath)	
-			Svg2Png(GraphPath) 
+			if FullSVG:
+				GraphModules.render(GraphPath)	
+				Svg2Png(GraphPath) 
 		CostOfSet+="\n\n_Total cost of the set: "+str(PrixSet)+"$_\n\n"
 		OpenWrite(CostOfSet,path+"/sets/"+NomDuSet+".cost.md")
 		AllCosts += CostOfSet
