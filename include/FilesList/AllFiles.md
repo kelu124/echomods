@@ -97,7 +97,7 @@
 * [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose
 * [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
 
-## 0Python files
+## Python files
 
 * [makedoc.py](/makedoc.py): script to build autodocumentation.
 * [__init__.py](/doc/__init__.py): empty file for doc module declaration.
