@@ -97,7 +97,7 @@
 * [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose
 * [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
 
-## Python files
+## 0Python files
 
 * [makedoc.py](/makedoc.py): script to build autodocumentation.
 * [__init__.py](/doc/__init__.py): empty file for doc module declaration.
@@ -109,7 +109,7 @@
 * [test_file.py](/toadkiller/software/test_file.py): showing content of a PRUDAQ binary dump.
 * [test_file_3periods.py](/toadkiller/software/test_file_3periods.py): showing content of a PRUDAQ binary dump over 3 periods.
 
-## Auto generated files
+## 74 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md

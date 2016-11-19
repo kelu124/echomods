@@ -3,12 +3,6 @@
 * [Source PDF : reference Manual](/croaker/datasheets/en.CD00225773_STM32F2x5_RefManual.pdf).
 * [Other interesting : STM32TM’s ADC modes and their applications](/croaker/datasheets/en.CD00258017.pdf)
 
-## Calibration
-
-Using the feather WICED to produce a waveform:
-
-![](/silent/software/featherWICED/CalibrationDAC.png)
-
 ## ADC 
 
 * Configurable DMA data storage in Dual/Triple ADC mode
@@ -28,6 +22,14 @@ It is possible to perform faster conversion by reducing the ADC resolution. The 
 * 8 bits: 3 + 8 = 11 ADCCLK cycles
 * 6 bits: 3 + 6 = 9 ADCCLK cycles
 
+## Calibration
+
+Using the feather WICED to produce a waveform:
+
+![](/silent/software/featherWICED/CalibrationDAC.png)
+
+
+
 
 ### Versions of code so far
 
@@ -45,3 +47,65 @@ When the DMA mode is enabled (DMA bit set to 1 in the ADC_CR2 register), after e
 * MULTI[4:0]: Multi ADC mode selection
 * 10001 to 11001: Triple mode: ADC1, 2 and 3 working together
 * 10111: interleaved mode only
+
+### Comment on the code
+
+
+#### Initialization of the ADC
+
+```c
+  // We configure the ADC1 and ADC2
+  //1.5µs sample time
+  //adc_set_prescaler(RCC_ADCPRE_PCLK_DIV_2); // the following lines replaces the above
+  rcc_set_prescaler(RCC_PRESCALER_ADC, RCC_ADCPRE_PCLK_DIV_2);
+  adc_set_sample_rate(ADC1, ADC_SMPR_1_5);
+  adc_set_sample_rate(ADC2, ADC_SMPR_1_5);
+  //  adc_set_sample_rate(ADC2, ADC_SMPR_3);
+
+  //6=0110 for dual regular simultaneous mode
+  // FOR STM32F1 -- DUALMOD[3:0]: Dual mode selection is on ADC control register 1 (ADC_CR1) // Bits 19:16 DUALMOD[3:0]: Dual mode selection
+  ADC1->regs->CR1 |= 7 << 16;
+  // change to 6 for original setting
+
+  //only one input in the sequence for both ADC
+  adc_set_reg_seqlen(ADC1, 1);
+  adc_set_reg_seqlen(ADC2, 1);
+  adc_set_reg_seqlen(ADC3, 1);
+  // Aiming at Interleaved mode on 1 channel in continuous conversion mode: triple ADC mode
+  //channel 1 (PA1) on ADC1
+  ADC1->regs->SQR1 |= 0;
+  ADC1->regs->SQR2 = 0;
+  ADC1->regs->SQR3 = 1; //00000.00000.00001
+  //channel 1 (PA1) on ADC2
+  ADC2->regs->SQR1 |= 0;
+  ADC2->regs->SQR2 = 0; //00000.00000.00000
+  ADC2->regs->SQR3 = 1; //00000.00000.00010
+  //channel 1 (PA1) on ADC3
+  ADC3->regs->SQR1 |= 0;
+  ADC3->regs->SQR2 = 0; //00000.00000.00000
+  ADC3->regs->SQR3 = 1; //00000.00000.00010
+```
+
+
+#### Acquisition
+
+Acquisition takes place in a loop, where 2*BUFFERSIZE data is acquired. Values from ADC1 and ADC2 go into val1 and val2.
+
+```c
+    while (i < BUFFERSIZE) {
+      // ADC : page 212 to 254 in the reference manual
+
+      //start conversion
+      ADC1->regs->CR2 |= ADC_CR2_SWSTART;
+      ADC2->regs->CR2 |= ADC_CR2_SWSTART;
+
+      // Wait the end of the conversion
+      while (!(ADC1->regs->SR & ADC_SR_EOC)) ;
+      while (!(ADC2->regs->SR & ADC_SR_EOC)) ;
+      //get the values converted from the two ADCs.
+      // they are sharing the same channel, in interleaved mode
+      val1[i] = (int16)(ADC1->regs->DR & ADC_DR_DATA);
+      val2[i] = (int16)(ADC2->regs->DR & ADC_DR_DATA);
+      i++;
+   }
+```

@@ -118,7 +118,7 @@ AllFilesLog = ""
 AllFilesLog += "## Manually written files\n\n"+MdLog+"\n"
 AllFilesLog += "## Arduino files\n\n"+InoLog+"\n"
 AllFilesLog += "## Python files\n\n"+PythonLog+"\n"
-AllFilesLog += "## Auto generated files\n\n"+GenFiles+"\n"
+AllFilesLog += "## "+str(len(MDFiles[0]))+" Auto generated files\n\n"+GenFiles+"\n"
 
 OpenWrite(AllFilesLog,"include/FilesList/AllFiles.md")
 
