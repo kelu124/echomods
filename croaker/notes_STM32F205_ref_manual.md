@@ -3,6 +3,13 @@
 * [Source PDF : reference Manual](/croaker/datasheets/en.CD00225773_STM32F2x5_RefManual.pdf).
 * [Other interesting : STM32TM’s ADC modes and their applications](/croaker/datasheets/en.CD00258017.pdf)
 
+* [Inspiration for the code](http://microcontroleurs.blogspot.fr/2015/07/realisation-dune-carte-dacquision-moins.html)
+
+Discussions are taking place to use the max speed on the Feather WICED:
+
+* [See on Adafruit GithubRepo](https://github.com/adafruit/Adafruit_WICED_Arduino/issues/58) 
+* [on adafruit forums](https://forums.adafruit.com/viewtopic.php?f=57&p=527280)
+
 ## ADC 
 
 * Configurable DMA data storage in Dual/Triple ADC mode
@@ -55,19 +62,20 @@ When the DMA mode is enabled (DMA bit set to 1 in the ADC_CR2 register), after e
 
 ```c
   // We configure the ADC1 and ADC2
-  //1.5µs sample time
-  //adc_set_prescaler(RCC_ADCPRE_PCLK_DIV_2); // the following lines replaces the above
+  // Setting max sampling rate
   rcc_set_prescaler(RCC_PRESCALER_ADC, RCC_ADCPRE_PCLK_DIV_2);
   adc_set_sample_rate(ADC1, ADC_SMPR_1_5);
   adc_set_sample_rate(ADC2, ADC_SMPR_1_5);
   //  adc_set_sample_rate(ADC2, ADC_SMPR_3);
 
   //6=0110 for dual regular simultaneous mode
-  // FOR STM32F1 -- DUALMOD[3:0]: Dual mode selection is on ADC control register 1 (ADC_CR1) // Bits 19:16 DUALMOD[3:0]: Dual mode selection
+  // FOR STM32F1 -- DUALMOD[3:0]: Dual mode selection is on ADC control register 1 (ADC_CR1) - has to be changed
+  // Bits 19:16 DUALMOD[3:0]: Dual mode selection
+  // 7 is for interleaved mode.
   ADC1->regs->CR1 |= 7 << 16;
-  // change to 6 for original setting
 
-  //only one input in the sequence for both ADC
+  //only one input in the sequence for both ADC: the channel 1
+
   adc_set_reg_seqlen(ADC1, 1);
   adc_set_reg_seqlen(ADC2, 1);
   adc_set_reg_seqlen(ADC3, 1);
@@ -102,10 +110,12 @@ Acquisition takes place in a loop, where 2*BUFFERSIZE data is acquired. Values f
       // Wait the end of the conversion
       while (!(ADC1->regs->SR & ADC_SR_EOC)) ;
       while (!(ADC2->regs->SR & ADC_SR_EOC)) ;
-      //get the values converted from the two ADCs.
-      // they are sharing the same channel, in interleaved mode
+
+      // Get the values converted from the two ADCs.
+      // They are sharing the same channel, in interleaved mode
       val1[i] = (int16)(ADC1->regs->DR & ADC_DR_DATA);
       val2[i] = (int16)(ADC2->regs->DR & ADC_DR_DATA);
       i++;
    }
 ```
+
