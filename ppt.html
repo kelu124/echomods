@@ -34,12 +34,15 @@
   <h3 class="date">March 22, 2005</h3>
 </section>
 
-<section><section id="what-do-we-do" class="titleslide slide level1"><h1>What do we do?</h1></section><section id="what-is-it" class="slide level2">
-<h1>What is it?</h1>
+<section><section id="what-do-we-do" class="titleslide slide level1"><h1>What do we do?</h1></section><section id="what-are-the-arduino-like-ultrasound-module" class="slide level2">
+<h1>What are the arduino-like ultrasound module ?</h1>
 <p><strong>Creating modules to facilitate ultrasound hacking</strong> : the principles of the echOmods is to enable a full chain of ultrasound image processing and hardware control.</p>
 <p>We have chosen to use a module approach to make sure that each key component inside ultrasound image processing can easily be replaced and compared with another module, while providing logical <em>logic blocks</em> and corresponding interfaces for these modules to communicate. There's a module for <a href="/tobo/">high-voltage pulsing</a>, one for the <a href="/retroATL3/">transducer</a>, one for the <a href="/goblin/">analog processing</a>, one for <a href="/toadkiller/">data acquisiton</a>, ... and many more!</p>
-<p>These modules can have a form factor close to classical breadboard electronic modules, with a row of 19 pins on the side.</p>
-<p>Key interfaces, signals and alims will be available on each of the 19 tracks on the motherboard, and will enable communication between modules. However, some tracks can be unused by the modules.</p>
+</section><section id="what-images-does-it-give" class="slide level2">
+<h1>What images does it give ?</h1>
+<figure>
+<img src="/include/20161016/2619341460036774092.png" />
+</figure>
 </section><section id="what-does-it-look-like" class="slide level2">
 <h1>What does it look like?</h1>
 <p>The modules sit on a breadboard, and communicate through the tracks laying below. The configuration represented below show the Basic dev kit.</p>
@@ -52,19 +55,20 @@
 <p>uC pings emulator and streams feedback</p>
 <ul>
 <li>This is the module which emulates the signal coming from the analog processing chain. (<a href="/silent/">silent</a>) -- get for <em>35$</em> (Where? Get from <a href="https://www.adafruit.com/products/3056">Adafruit</a>)</li>
-<li>The acquisition heart of the echOmods (<a href="/croaker/">croaker</a>) -- get for <em>35$</em> (Where? Get from <a href="https://www.adafruit.com/products/3056">Adafruit</a>)</li>
+<li>The acquisition heart of the echOmods (<a href="/croaker/">croaker</a>) -- get for <em>35$</em> (Where? Get Feather from <a href="http://amzn.to/2eGzlbG">Amz</a> or <a href="https://www.adafruit.com/products/3056">Adafruit</a>. <a href="http://amzn.to/2gi0vHl">OLED at Amz</a>)</li>
 <li>Mogaba, the power supply (<a href="/mogaba/">mogaba</a>) -- get for <em>5$</em> (Where? Anywhere, or eg <a href="https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&amp;field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+">Amazon?</a>)</li>
 <li>The motherboard of the echomods (<a href="/doj/">doj</a>) -- get for <em>5$</em> (Where? Anywhere for <a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&amp;field-keywords=stripboard&amp;rh=n%3A667846011%2Ck%3Astripboard">stripboard</a>)</li>
+<li>Goblin: a TGC-Envelop-ADC module (<a href="/goblin/">goblin</a>) -- get for <em>150$</em> (Where? Custom made, get the <a href="/goblin/source/">Gerbers</a>, or <a href="https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/">on Tindie</a>, or contact <span class="citation" data-cites="kelu124">@kelu124</span>)</li>
 </ul>
-<p><em>Total cost of the set: 80$</em></p>
+<p><em>Total cost of the set: 230$</em></p>
 </section><section id="wireless-dev-kit" class="slide level2">
 <h1>Wireless Dev Kit</h1>
 <p>The default setting for the sets</p>
 <ul>
 <li>Simply the servo and transducer module (<a href="/cletus/">cletus</a>) -- get for <em>80$</em> (Where? Recycling a transducer from ebay, servo from anywhere (<a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&amp;field-keywords=%22SG90+9G%22">Amazon?</a>))</li>
-<li>The acquisition heart of the echOmods (<a href="/croaker/">croaker</a>) -- get for <em>35$</em> (Where? Get from <a href="https://www.adafruit.com/products/3056">Adafruit</a>)</li>
+<li>The acquisition heart of the echOmods (<a href="/croaker/">croaker</a>) -- get for <em>35$</em> (Where? Get Feather from <a href="http://amzn.to/2eGzlbG">Amz</a> or <a href="https://www.adafruit.com/products/3056">Adafruit</a>. <a href="http://amzn.to/2gi0vHl">OLED at Amz</a>)</li>
 <li>Mogaba, the power supply (<a href="/mogaba/">mogaba</a>) -- get for <em>5$</em> (Where? Anywhere, or eg <a href="https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&amp;field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+">Amazon?</a>)</li>
-<li>Goblin: a TGC-Envelop-ADC module (<a href="/goblin/">goblin</a>) -- get for <em>150$</em> (Where? Custom made, get the <a href="/goblin/source/">Gerbers</a>, or contact <span class="citation" data-cites="kelu124">@kelu124</span>)</li>
+<li>Goblin: a TGC-Envelop-ADC module (<a href="/goblin/">goblin</a>) -- get for <em>150$</em> (Where? Custom made, get the <a href="/goblin/source/">Gerbers</a>, or <a href="https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/">on Tindie</a>, or contact <span class="citation" data-cites="kelu124">@kelu124</span>)</li>
 <li>Tobo: the HV-pulser (<a href="/tobo/">tobo</a>) -- get for <em>120$</em> (Where? Custom made, get the <a href="/tobo/source/">Gerbers</a>, or contact <span class="citation" data-cites="kelu124">@kelu124</span>)</li>
 </ul>
 <p><em>Total cost of the set: 390$</em></p>
@@ -75,7 +79,7 @@
 <li>Retrohacking the ATL Access 3 probe (<a href="/retroATL3/">retroATL3</a>) -- get for <em>75$</em> (Where? Recycling a probe from <a href="http://www.ebay.fr/sch/i.html?_odkw=%22atl+access%22+probe&amp;_osacat=0&amp;_from=R40&amp;_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X%22atl+access%22+.TRS0&amp;_nkw=%22atl+access%22+&amp;_sacat=0">ebay</a>)</li>
 <li>This is the module to get high-speed (40Msps) signal acquisition. (<a href="/toadkiller/">toadkiller</a>) -- get for _79<span class="math inline"><em></em><sub>(</sub><em>W</em><em>h</em><em>e</em><em>r</em><em>e</em>?<em>A</em><em>b</em><em>u</em><em>n</em><em>d</em><em>l</em><em>e</em><em>a</em><em>t</em>169</span> from <a href="https://groupgets.com/manufacturers/getlab/products/prudaq">Groupgets</a> or as a <a href="https://store.groupgets.com/#!/p/68936091">standalone</a> at 79$ )</li>
 <li>Mogaba, the power supply (<a href="/mogaba/">mogaba</a>) -- get for <em>5$</em> (Where? Anywhere, or eg <a href="https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&amp;field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+">Amazon?</a>)</li>
-<li>Goblin: a TGC-Envelop-ADC module (<a href="/goblin/">goblin</a>) -- get for <em>150$</em> (Where? Custom made, get the <a href="/goblin/source/">Gerbers</a>, or contact <span class="citation" data-cites="kelu124">@kelu124</span>)</li>
+<li>Goblin: a TGC-Envelop-ADC module (<a href="/goblin/">goblin</a>) -- get for <em>150$</em> (Where? Custom made, get the <a href="/goblin/source/">Gerbers</a>, or <a href="https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/">on Tindie</a>, or contact <span class="citation" data-cites="kelu124">@kelu124</span>)</li>
 <li>Tobo: the HV-pulser (<a href="/tobo/">tobo</a>) -- get for <em>120$</em> (Where? Custom made, get the <a href="/tobo/source/">Gerbers</a>, or contact <span class="citation" data-cites="kelu124">@kelu124</span>)</li>
 <li>The motherboard of the echomods (<a href="/doj/">doj</a>) -- get for <em>5$</em> (Where? Anywhere for <a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&amp;field-keywords=stripboard&amp;rh=n%3A667846011%2Ck%3Astripboard">stripboard</a>)</li>
 <li>One-eye, the controler (<a href="/oneeye/">oneeye</a>) -- get for <em>10$</em> (Where? from <a href="https://www.adafruit.com/product/2000">Adafruit</a>)</li>
@@ -106,16 +110,13 @@ Get to work with Arthur
 Checking Arthur availability
 </li>
 </ul>
-|33% | |tobo|
-<ul>
-<li>
-Publish the sources in KiCAD
-</li>
-</ul>
-|
+|33% | |tobo||
 <ul>
 <li>
 Writing specs
+</li>
+<li>
+HV7360 has been updated
 </li>
 <li>
 Sending microcircuits to Edgeflex
@@ -138,8 +139,11 @@ Receive the module
 <li>
 Test it with different transducers
 </li>
+<li>
+Publish the sources in KiCAD
+</li>
 </ul>
-|88% | |cletus|
+|100% | |cletus|
 <ul>
 <li>
 Choose the servo (&gt;100Hz)
@@ -201,14 +205,14 @@ Getting images onto a screen
 <li>
 <em>BONUS!</em> Get RealTime acquisition
 </li>
-<li>
-Acquire and build ultrasound pictures =)
-</li>
 </ul>
 |
 <ul>
 <li>
 Finding the pins mapping
+</li>
+<li>
+Acquire and build ultrasound pictures =)
 </li>
 <li>
 Motor in action
@@ -223,7 +227,7 @@ Test echoes
 <a href="https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging/log/42113-testing-murgen-with-a-market-probe">Make and insert a video: there</a>
 </li>
 </ul>
-|83% | |toadkiller|
+|100% | |toadkiller|
 <ul>
 <li>
 Enhance the BBB to transform it into a ultrasound server
@@ -301,7 +305,7 @@ Validated with a Feather WICED (<a href="/silent/software/featherWICED/SimpleSig
 Feather: remove the average value before inputing in Goblin
 </li>
 <li>
-<a href="/silent/2016-08-09 SilentPlusTobo.md">Check output with Goblin</a>
+<a href="/silent/2016-08-09-SilentPlusTobo.md">Check output with Goblin</a>
 </li>
 </ul>
 |100% | |mogaba|

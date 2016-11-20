@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="kelu124">
+  <meta name="dcterms.date" content="2016-08-25">
+  <title>Documentation Process, updated</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Documentation Process, updated</h1>
+  <h2 class="author">kelu124</h2>
+  <h3 class="date">August 25, 2016</h3>
+</section>
+
+<section id="open-source-documentation" class="slide level4">
+<h1>Open-source documentation</h1>
+<ul>
+<li>assists people getting started with it</li>
+<li>identifies the problem it's solving</li>
+<li>gives a high level impression of the feel or focus of the project and its solution</li>
+<li>helps the project developer(s) validate that the product they're writing makes sense</li>
+<li>shows that the developer(s) care enough and will actively maintain or steward community maintenance over time</li>
+<li>plenty more.</li>
+</ul>
+</section>
+<section id="what-is-this-presentation" class="slide level4">
+<h1>What is this presentation?</h1>
+<p>I have been working on a open-source hardware project and documentation is key. A question remains.</p>
+<p><strong><em>I'm lazy, how do I make the documentation process efficient, and as system-independant as possible?</em></strong></p>
+</section>
+<section id="what-do-i-want-to-automatize" class="slide level4">
+<h1>What do I want to automatize?</h1>
+<ul>
+<li>A <strong><a href="http://github.com/kelu124/echomods/">github documentation</a></strong></li>
+<li>A <strong>Jekyll blog</strong> <a href="http://kelu124.github.io/echomods/">on github-pages</a>.</li>
+<li>All-purpose <strong>presentations</strong> such as this one</li>
+<li>A <strong>gitbook</strong> that can be <a href="https://kelu124.gitbooks.io/echomods/content/">read here</a></li>
+<li>Simple vizualization of the work progress</li>
+<li><em>All of this can be pushed directly to a <strong>wiki</strong> as well</em></li>
+</ul>
+</section>
+<section id="inputs-12" class="slide level4">
+<h1>Inputs (1/2)</h1>
+<p>I want to:</p>
+<ul>
+<li>not repeat myself</li>
+<li>write once and only once each block of info</li>
+<li>use the &quot;modules&quot; concepts : <em>seeds</em> of information</li>
+<li>use only text</li>
+</ul>
+<p>Conclusion: creation of markdown &quot;blocks&quot; which will feed all the doc.</p>
+</section>
+<section id="inputs-22" class="slide level4">
+<h1>Inputs (2/2)</h1>
+<p>The script is working only with a couple of files:</p>
+<ul>
+<li>One <strong>worklog.md</strong> file</li>
+<li>One <strong>ReadMe</strong> per module</li>
+<li>Some Worklog files, dated <strong>.md</strong> files.</li>
+<li>Some specific content files, in __/include/Add*.md__</li>
+</ul>
+</section>
+<section id="using-the-files" class="slide level4">
+<h1>Using the files</h1>
+<ul>
+<li>These files are used to generate the overall documentation</li>
+<li>The files create the table of modules at <strong>/Readme.md</strong></li>
+<li>They update the <strong>gitbook</strong></li>
+<li>They also update the <strong>table of progress</strong></li>
+<li>They create the graph of links between the modules</li>
+<li>Last but not least, they create <strong>the graphs</strong> representing how the modules work, internally, connecting the interfaces</li>
+</ul>
+</section>
+<section id="using-worklog" class="slide level4">
+<h1>Using Worklog</h1>
+<p>The worklog is used to generate the gitbook, the blog, and to generate a mindmap of concepts.</p>
+<p>It also highlights the <em>TODOs</em> in the mindmap.</p>
+</section>
+<section id="graph-of-links" class="slide level4" data-transition="zoom" data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/ModulesGraph.png">
+<h1>Graph of links</h1>
+</section>
+<section id="gitbook" class="slide level4" data-transition="slide-in fade-out">
+<h1>Gitbook</h1>
+<figure>
+<img src="https://raw.githubusercontent.com/kelu124/echomods/master/include/images/table_gitbook.png" />
+</figure>
+</section>
+<section id="table-modules" class="slide level4" data-transition="slide-in fade-out">
+<h1>Table: modules</h1>
+<figure>
+<img src="https://raw.githubusercontent.com/kelu124/echomods/master/include/images/table_modules.png" />
+</figure>
+</section>
+<section id="table-progress" class="slide level4" data-transition="fade-in slide-out">
+<h1>Table: progress</h1>
+<figure>
+<img src="https://raw.githubusercontent.com/kelu124/echomods/master/include/images/table_progress.png" />
+</figure>
+</section>
+<section id="block-diagram" class="slide level4" data-transition="fade-in slide-out">
+<h1>Block diagram</h1>
+<figure>
+<img src="https://raw.githubusercontent.com/kelu124/echomods/master/tobo/source/blocks.png" />
+</figure>
+</section>
+<section id="toolchain" class="slide level4">
+<h1>Toolchain</h1>
+<ul>
+<li><strong>markdown / github</strong> to store all the docs</li>
+<li><strong>gitbook</strong> to publish a general documentation</li>
+<li><strong>gh-pages / Jekyll</strong> for the static site</li>
+<li><strong>python / Graphviz</strong> to generate documentation / graphs</li>
+<li><strong>Pandoc</strong> to convert documentation between formats</li>
+<li><strong>pywikibot</strong> to publish to a wiki</li>
+<li><strong>Reveal.js</strong> for the presentations</li>
+</ul>
+</section>
+<section id="conclusion" class="slide level4">
+<h1>Conclusion</h1>
+<p>An efficient (err, lazy) way of documenting. Only one place to edit information, will be updated everywhere, even in this presentation! The outputs are ever-updated documents, such as :</p>
+<ul>
+<li>A <strong>github documentation</strong></li>
+<li>A <strong>Jekyll blog</strong> on github-pages</li>
+<li>All-purpose <strong>presentations</strong></li>
+<li>A <strong>gitbook</strong></li>
+</ul>
+</section>
+<section id="todo" class="slide level4">
+<h1>TODO</h1>
+<p>Experience</p>
+<ul>
+<li>Work on the user experience</li>
+<li>What flow to capture the visitor, and guide him?</li>
+<li>--&gt; Need a story</li>
+</ul>
+<p>Documentation compiler/tester * See an example <a href="https://github.com/kelu124/echomods/blob/master/doc/example_fail.md">here</a></p>
+</section>
+<section id="qa" class="slide level4">
+<h1>Q&amp;A</h1>
+<p>Ping <span class="citation" data-cites="kelu124">@kelu124</span> / kelu124@gmail.com</p>
+<p><a href="@autogenerated%20-%20invisible%20comment"></a></p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

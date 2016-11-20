@@ -1,13 +1,12 @@
-pandoc -t revealjs -s DocProcess.md -o DocProcess.html --slide-level 4 --variable theme="black" --variable transition="linear"
+#/bin/bash
 
-pandoc -t revealjs -s ppt.md -o ppt.html --slide-level 2
+find ./ -iname "ppt_*md" | \
+while read I; do
+   pandoc -t revealjs -s "$I"  -o "`basename "$I" .md`.html"
+done
 
-pandoc -t revealjs -s DocumentationProcess.md -o DocumentationProcess.html --slide-level 2 --variable theme="league" --variable transition="linear"
 
-cp ../include/sets/sets_slides.md ./
-pandoc -t revealjs -s sets_slides.md -o sets_slides.html --slide-level 2
-
-cp ../include/20160720-Milestone.md ./
-pandoc -t revealjs -s 20160720-Milestone.md -o 20160720-Milestone.html --slide-level 2
-
+# pandoc -t revealjs -s sets_slides.md -o sets_slides.html --slide-level 2
+# pandoc -t revealjs -s 20160720-Milestone.md -o 20160720-Milestone.html --slide-level 2
+# pandoc -t revealjs -s ppt_CLA.md -o ppt_CLA.html --slide-level 2
 
