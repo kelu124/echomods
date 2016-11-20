@@ -51,8 +51,20 @@ if (len(sys.argv) > 0):
 Suppliers = GetSuppliersList("cletus/suppliers/")
 OpenWrite("# Status of suppliers\n\n"+Suppliers,"cletus/suppliers/Readme.md")
 
-
 # echo = GetMurgenStats()
+
+# -------------------------
+# Presentations
+# -------------------------
+
+
+PPTz = GetPptFiles("./")
+PPTFiles = ""
+for i in range(len(PPTz)):
+	PPTName = PPTz[i].split("/")[-1]
+	PPTFiles += "* ["+PPTName+"]("+PPTz[i][1:]+") - see [Presentation online](http://kelu124.github.io/murgen-dev-kit/"+PPTName.split(".")[0]+".html)\n"
+	CopyGitBookFile(PPTz[i][1:],"gh-pages/"+PPTz[i].split("/")[-1]) 
+OpenWrite(PPTFiles,"include/FilesList/PPTFiles.md")
 
 # -------------------------
 # Obtenir la liste des modules
@@ -64,6 +76,9 @@ MDFiles = GetGeneratedFiles("./")
 log = log+MDFiles[3]
 GenFiles = "* "+"\n* ".join(MDFiles[0])
 OpenWrite(GenFiles,"include/FilesList/GeneratedFiles.md")
+
+
+
 
 
 MdLog = ""
@@ -118,6 +133,7 @@ AllFilesLog = ""
 AllFilesLog += "## Manually written files\n\n"+MdLog+"\n"
 AllFilesLog += "## Arduino files\n\n"+InoLog+"\n"
 AllFilesLog += "## Python files\n\n"+PythonLog+"\n"
+AllFilesLog += "## Presentation files\n\n"+PPTFiles+"\n"
 AllFilesLog += "## "+str(len(MDFiles[0]))+" Auto generated files\n\n"+GenFiles+"\n"
 
 OpenWrite(AllFilesLog,"include/FilesList/AllFiles.md")

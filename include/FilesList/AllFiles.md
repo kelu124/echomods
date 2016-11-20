@@ -40,13 +40,14 @@
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set
 * [./include/NamesOfModules.md](/include/NamesOfModules.md): 
 * [./include/AddLicense.md](/include/AddLicense.md): 
-* [./include/20160720-Milestone.md](/include/20160720-Milestone.md): 
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project
 * [./include/references.md](/include/references.md): 
 * [./include/wifi-dev-kit.set.md](/include/wifi-dev-kit.set.md): 
+* [./include/ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md): 
 * [./include/AddMurgenSummary.md](/include/AddMurgenSummary.md): 
 * [./include/AddDocProcess.md](/include/AddDocProcess.md): 
 * [./include/AddIntro.md](/include/AddIntro.md): 
+* [./include/ppt_DocProcess.md](/include/ppt_DocProcess.md): 
 * [./include/AddEchomods.md](/include/AddEchomods.md): 
 * [./include/Bibliography.md](/include/Bibliography.md): Some resources
 * [./include/AddStructureDetails.md](/include/AddStructureDetails.md): 
@@ -60,6 +61,7 @@
 * [./include/ppt_CLA.md](/include/ppt_CLA.md): 
 * [./include/highspeed.set.md](/include/highspeed.set.md): 
 * [./include/AddChaptersIntro.md](/include/AddChaptersIntro.md): Introduction to the gitbook chapters
+* [./include/ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md): 
 * [./include/20160822/2016-08-22-Fantom.md](/include/20160822/2016-08-22-Fantom.md): 
 * [./include/biblio/Readme.md](/include/biblio/Readme.md): 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md): 
@@ -109,7 +111,14 @@
 * [test_file.py](/toadkiller/software/test_file.py): showing content of a PRUDAQ binary dump.
 * [test_file_3periods.py](/toadkiller/software/test_file_3periods.py): showing content of a PRUDAQ binary dump over 3 periods.
 
-## 74 Auto generated files
+## Presentation files
+
+* [ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md) - see [Presentation online](http://kelu124.github.io/murgen-dev-kit/ppt_DocumentationProcess.html)
+* [ppt_DocProcess.md](/include/ppt_DocProcess.md) - see [Presentation online](http://kelu124.github.io/murgen-dev-kit/ppt_DocProcess.html)
+* [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/murgen-dev-kit/ppt_CLA.html)
+* [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/murgen-dev-kit/ppt_20160720-Milestone.html)
+
+## 75 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -119,6 +128,7 @@
 * ./include/AddMyLogs.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/PythonFiles.md
+* ./include/FilesList/PPTFiles.md
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md

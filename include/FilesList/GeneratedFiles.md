@@ -6,6 +6,7 @@
 * ./include/AddMyLogs.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/PythonFiles.md
+* ./include/FilesList/PPTFiles.md
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md

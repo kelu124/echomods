@@ -945,6 +945,13 @@ Just started a new job 10 days back, so I lagged a bit. However, some news!
     * http://forum.arduino.cc/index.php?topic=177489.0
 * Posted something on reddit as well: https://www.reddit.com/r/UltraResearchers/comments/5dc13w/ultrasound_imaging_open_hardware_devkit/
 
+#### 2016-11-20 Week end
+
+* Shipped a first module!
+* Worked on a review of the autodoc generation script
+* Submission of a summary (or soon to be JOH article) to arXiv
+* Discussions with http://www.ibme.ox.ac.uk/research/non-invasive-therapy-drug-delivery/people/dphils/visa-suomi for interesting applications =)
+
 =======
 
 uControllers and other stuff

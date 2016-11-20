@@ -357,6 +357,13 @@ def GetInoFiles(path):
 
 	return InoFiles
 
+def GetPptFiles(path):
+	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], 'ppt_*.md'))]
+	ExcludeDirs = ["tools",".git","gh-pages"] 
+	PptFiles = [x for x in results if x.split("/")[1] not in ExcludeDirs]
+
+	return PptFiles
+
 def CheckPythonFile(files):
 	## See http://stackoverflow.com/questions/1523427/what-is-the-common-header-format-of-python-files for an idea 
 	log = []

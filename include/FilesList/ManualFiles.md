@@ -38,13 +38,14 @@
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set
 * [./include/NamesOfModules.md](/include/NamesOfModules.md): 
 * [./include/AddLicense.md](/include/AddLicense.md): 
-* [./include/20160720-Milestone.md](/include/20160720-Milestone.md): 
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project
 * [./include/references.md](/include/references.md): 
 * [./include/wifi-dev-kit.set.md](/include/wifi-dev-kit.set.md): 
+* [./include/ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md): 
 * [./include/AddMurgenSummary.md](/include/AddMurgenSummary.md): 
 * [./include/AddDocProcess.md](/include/AddDocProcess.md): 
 * [./include/AddIntro.md](/include/AddIntro.md): 
+* [./include/ppt_DocProcess.md](/include/ppt_DocProcess.md): 
 * [./include/AddEchomods.md](/include/AddEchomods.md): 
 * [./include/Bibliography.md](/include/Bibliography.md): Some resources
 * [./include/AddStructureDetails.md](/include/AddStructureDetails.md): 
@@ -58,6 +59,7 @@
 * [./include/ppt_CLA.md](/include/ppt_CLA.md): 
 * [./include/highspeed.set.md](/include/highspeed.set.md): 
 * [./include/AddChaptersIntro.md](/include/AddChaptersIntro.md): Introduction to the gitbook chapters
+* [./include/ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md): 
 * [./include/20160822/2016-08-22-Fantom.md](/include/20160822/2016-08-22-Fantom.md): 
 * [./include/biblio/Readme.md](/include/biblio/Readme.md): 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md): 
