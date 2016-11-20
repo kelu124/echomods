@@ -62,7 +62,7 @@ PPTz = GetPptFiles("./")
 PPTFiles = ""
 for i in range(len(PPTz)):
 	PPTName = PPTz[i].split("/")[-1]
-	PPTFiles += "* ["+PPTName+"]("+PPTz[i][1:]+") - see [Presentation online](http://kelu124.github.io/murgen-dev-kit/"+PPTName.split(".")[0]+".html)\n"
+	PPTFiles += "* ["+PPTName+"]("+PPTz[i][1:]+") - see [Presentation online](http://kelu124.github.io/echomods/"+PPTName.split(".")[0]+".html)\n"
 	CopyGitBookFile(PPTz[i][1:],"gh-pages/"+PPTz[i].split("/")[-1]) 
 OpenWrite(PPTFiles,"include/FilesList/PPTFiles.md")
 
