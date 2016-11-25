@@ -822,6 +822,14 @@ Just started a new job 10 days back, so I lagged a bit. However, some news!
 * Worked on a review of the autodoc generation script
 * Submission of a summary (or soon to be JOH article) to arXiv
 * Discussions with http://www.ibme.ox.ac.uk/research/non-invasive-therapy-drug-delivery/people/dphils/visa-suomi for interesting applications =)
+* Follow up with Fouad & Sven
+
+
+#### 2016-11-20 Terrible
+
+Two awesome articles
+* Portable low cost ultrasound imaging system: M. Sobhani contacted =)
+* A low-cost high-fidelity ultrasound simulator with the inertial tracking of the probe pose
 
 =======
 
