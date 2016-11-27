@@ -79,6 +79,16 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ## Constraint and limits
 
+### The pulser-control
+
+![](/tobo/images/TEK0006.JPG)
+
+### With and without a pulser - no impedance adaptation
+
+![](/tobo/images/TEK0008.JPG)
+
+![](/tobo/images/TEK0007.JPG)
+
 ### Look of the schematics
 
 ![](/tobo/images/schema-tobo.png)
