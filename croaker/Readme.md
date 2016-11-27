@@ -55,9 +55,7 @@ The aim of this echOmod is to receive the signal and process it.
 * `Feather WICED`->`ITF-mED-TFT-Screen`
 * `Feather WICED`->`WiFi`->`ITF-mEC-WiFi-UDP-Stream`
 
-Principles:
 
-![](/silent/images/TEK0009.JPG)
 
 ## About the module
 
@@ -94,23 +92,6 @@ Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 
 #### In vs Out : in a nutshell
 
-![](/silent/images/TEK0009.JPG)
-
-![](/silent/images/TEK0010.JPG)
-
-#### Comparing the signals: amplified signal vs enveloppe detected
-
-The overall signal
-
-![](/silent/images/TEK0000.JPG)
-
-Details
-
-![](/silent/images/TEK0000.JPG)
-
-Details on the peaks
-
-![](/silent/images/TEK0000.JPG)
 
 #### Out of the Croaker module
 

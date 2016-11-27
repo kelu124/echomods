@@ -79,6 +79,10 @@ This can be summarized below - all the signals represented are accessible via se
 
 ![Principle of goblin](/goblin/images/slide_principle.png)
 
+Input/Output:
+
+![](/goblin/images/TEK0009.JPG)
+
 ## About the module
 
 ### Pros
@@ -103,6 +107,26 @@ This can be summarized below - all the signals represented are accessible via se
 #### Explained
 
 ![](/goblin/images/module/GoblinModule.png)
+
+#### In/Out
+
+![](/goblin/images/TEK0009.JPG)
+
+![](/goblin/images/TEK0010.JPG)
+
+#### Comparing the signals: amplified signal vs enveloppe detected
+
+The overall signal
+
+![](/goblin/images/TEK0000.JPG)
+
+Details
+
+![](/goblin/images/TEK0002.JPG)
+
+Details on the peaks
+
+![](/goblin/images/TEK0005.JPG)
 
 #### Schematics
 
