@@ -960,6 +960,23 @@ Two awesome articles
 * Portable low cost ultrasound imaging system: M. Sobhani contacted =)
 * A low-cost high-fidelity ultrasound simulator with the inertial tracking of the probe pose
 
+#### 2016-12-01 arXiv
+
+* Published! https://arxiv.org/find/all/1/all:+AND+ultrasound+arduino/0/1/0/all/0/1
+
+#### 2016-12-06 Press review
+
+* Working on a press review, [can be seen here](/include/AddPressReview.md)
+* @todo: AddPressReview to the main page here, and on the gitbook
+* @todo review the latex article on arXiv, especially with respect to references
+* Need to ping Jerome for the BGA update of HV7360
+* @todo too:
+    * Servo + Feather
+    * Servo + BBB + enveloppe
+    * Servo + ADC on board + RPi0
+    * Servo + BBB + raw signal
+    * BBB + probe
+
 =======
 
 uControllers and other stuff
