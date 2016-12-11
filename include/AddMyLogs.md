@@ -847,6 +847,16 @@ Two awesome articles
     * Servo + ADC on board + RPi0
     * Servo + BBB + raw signal
     * BBB + probe
+* @todo CERN !
+
+#### 2016-12-11 Just moved in
+
+Just moved in to the new flat! Exhausting =) Other interesting things: 
+* https://hackaday.io/project/7225-low-cost-x-ray-systems-for-developing-nations
+
+#### 2016-12-08 Connecting
+
+* Chatting with Gnusha
 
 =======
 
