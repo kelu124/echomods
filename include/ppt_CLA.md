@@ -31,9 +31,6 @@ Two big families:
 * Contributor License Agreement (CLA), the original contributor retains copyright ownership of their contributions, but grants the project a broad set of rights such that the project can incorporate and distribute the contributions as it needs to. 
 * a Copyright Assignment Agreement (CAA), the contributor actually transfers copyright ownership of the contributions to the project, who can then license it however they want since they own it
 
-* can assign the copyright in all contributions to the project owner; 
-* can grant an irrevocable licence to allow the project maintainer to use the contribution. 
-
 ## Why granting an irrevocable license?
 
 * Sustainable for the project
