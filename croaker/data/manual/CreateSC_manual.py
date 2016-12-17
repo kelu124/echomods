@@ -47,8 +47,10 @@ SortedTable = Tableau
 
 
 print SortedTable
+print len(SortedTable)
+print len(SortedTable[0])
 
-for i in range(231): # les lignes
+for i in range(len(SortedTable)): # les lignes
     print i
     del SortedTable[i][-1]
 

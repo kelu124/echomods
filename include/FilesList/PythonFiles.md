@@ -1,9 +1,11 @@
 * [makedoc.py](/makedoc.py): script to build autodocumentation.
 * [__init__.py](/doc/__init__.py): empty file for doc module declaration.
 * [mkdoc.py](/doc/mkdoc.py): if ("Description") in line:
+* [rebuild.py](/croaker/data/20161217/raw_data/rebuild.py): 
 * [CreateSC_manual.py](/croaker/data/manual/CreateSC_manual.py): Takes a log file and creatse the Scan Converted image.
 * [CreateCSV2.py](/croaker/data/manual/CreateCSV2.py): Creating the CVS from a log file.
 * [plotcsv.py](/croaker/data/manual/plotcsv.py): XX.
+* [rebuild.py](/croaker/data/manual/rebuild.py): 
 * [Cleaning.py](/croaker/data/examples/Cleaning.py): Cleaning the repo and building the image library.
 * [CreateCSV.py](/croaker/data/examples/CreateCSV.py): Creating the CVS from a log file.
 * [CreateSC.py](/croaker/data/examples/CreateSC.py): Takes a log file and creatse the Scan Converted image.

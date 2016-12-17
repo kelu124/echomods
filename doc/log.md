@@ -50,6 +50,8 @@ __[MD Files]__ :no_entry: `./cletus/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./cletus/suppliers/piezo-specs.md` : Missing description
 
+__[MD Files]__ :no_entry: `./croaker/data/20161217/20161217-TestingArduinoAndPhantom.md` : Missing description
+
 __[MD Files]__ :no_entry: `./croaker/data/examples/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Missing description
@@ -294,6 +296,26 @@ __[MDL tobo]__ :white_check_mark: 6 input(s)
 
 __[MDL tobo]__ :white_check_mark: Metadata (version, cost, sourcing, date, technology, language, author)
 
+
+__[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Header error 
+
+__[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Missing Author 
+
+__[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Missing Copyright 
+
+__[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Missing License
+
+__[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Missing description
+
+__[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Header error 
+
+__[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing Author 
+
+__[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing Copyright 
+
+__[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing License
+
+__[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing description
 
 __[SET]__ Added `emulated`
 

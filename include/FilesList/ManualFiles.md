@@ -30,6 +30,7 @@
 * [./croaker/Readme.md](/croaker/Readme.md): Analog processing module readme
 * [./croaker/notes_EMW3165.md](/croaker/notes_EMW3165.md): Fun about EMW3165
 * [./croaker/feather_tests/2016-09-10-Feather_ADC.md](/croaker/feather_tests/2016-09-10-Feather_ADC.md): 
+* [./croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): 
 * [./croaker/data/examples/Intro.md](/croaker/data/examples/Intro.md): Croaker text header on images
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md): 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md): 

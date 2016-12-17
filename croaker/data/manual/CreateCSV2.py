@@ -86,7 +86,7 @@ Baseline=np.zeros(shape=(PointsPerLine))
 AverageNumber = 10
 for i in range(10):
     for j in range(PointsPerLine):
-	Baseline[j] += int(Tableau[i][j])
+	Baseline[j] +=  int(Tableau[i][j])
 
 #del Baseline[0]
 #del Baseline[0]
@@ -96,7 +96,7 @@ numFullImages = 0
 for i in range(NbOfLines):
     for j in range(PointsPerLine):
 	if (j>1):
-	    SortedTable[i][j] = abs(SortedTable[i][j] - 0.97*Baseline[j]) 
+	    SortedTable[i][j] = abs(SortedTable[i][j] - 0.9*Baseline[j]) 
 	elif (j==0):
 	    numImages = SortedTable[i][j] + 1
 	    if (numImages>numFullImages):
