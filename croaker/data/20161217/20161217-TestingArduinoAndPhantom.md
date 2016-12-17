@@ -44,7 +44,9 @@ and scan converted it:
 ## Conclusion
 
 * The acquisition is not too bad, even using an arduino
-* 
+* The servo may be the limiting element in terms of lateral resolution
+    * the breadboard pitch is 0.1 inch, 2.54mm. We resolve this.
+* There is an issue with repetition echoes: it may be worth waiting more than 300us between shooting lines.
 
 
 ## Next steps
