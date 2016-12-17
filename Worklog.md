@@ -978,14 +978,22 @@ Two awesome articles
     * BBB + probe
 * @todo CERN !
 
+#### 2016-12-08 Connecting
+
+* Chatting with Gnusha
+
 #### 2016-12-11 Just moved in
 
 Just moved in to the new flat! Exhausting =) Other interesting things: 
 * https://hackaday.io/project/7225-low-cost-x-ray-systems-for-developing-nations
 
-#### 2016-12-08 Connecting
+#### 2016-12-17 Breadboard phantom
 
-* Chatting with Gnusha
+* Done some tests with a breadboard phantom: [read more here](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md).
+* Still moving in the new flat, getting accustomed to the new job.. and still need to sort the hacking tools in a limited space in the new flat =)
+* Interesting competition : Clarius got its approval. Also noted the SONON 300C.
+* Having fun with mapping a community using slack. On another repo.
+* Published some update on the ML.
 
 =======
 

@@ -21,8 +21,8 @@ The classical one. Using the [pulser](/tobo/) module, [analog processing](/gobli
 
 Script used were:
 
-* nc -lu 5005 > 20161217-222737.data -- to acquire the [raw data](/croaker/data/20161217/raw_data/20161217-222737.data) streamed by the arduino on port 5005
-* python CreateCSV2.py 20161217-222737.data -- using the [CreateCSV2](/croaker/data/manual/CreateCSV2.py) script to generate proper data using the good format from the raw data file. 
+* `nc -lu 5005 > 20161217-222737.data` -- to acquire the [raw data](/croaker/data/20161217/raw_data/20161217-222737.data) streamed by the arduino on port 5005
+* `python CreateCSV2.py 20161217-222737.data` -- using the [CreateCSV2](/croaker/data/manual/CreateCSV2.py) script to generate proper data using the good format from the raw data file. This was later consolidated in a single image.
 
 ## Raw images
 
@@ -47,6 +47,8 @@ and scan converted it:
 ![](/croaker/data/20161217/20161217-222737-SC.png)
 
 ## Conclusion
+
+![](/croaker/data/20161217/20161217-222737-commented.png)
 
 * The acquisition is not too bad, even using an arduino
 * The servo may be the limiting element in terms of lateral resolution
