@@ -1,5 +1,10 @@
 # 2016-12-17 -- Lab Log
 
+## Aim of the work
+
+* **Test the (lower-speed) acquisition using an arduino's ADC (~2Msps), which also streams over wifi, over UDP.**
+* **Build and test a very basic, yet accurate, phantom**
+
 ## Setup
 
 The classical one. Using the [pulser](/tobo/) module, [analog processing](/goblin/) module, and a [arduino-like](/croaker) to capture and stream the data. Piezo moved by a servo ([module](/cletus/)).
