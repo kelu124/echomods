@@ -725,7 +725,12 @@ CopyGitBookFile("include/FilesList/AllFiles.md","gitbook/Chapter6/fileslist.md")
 OpenWrite("# The table of progress \n\n"+TableAvancement+"\n\n","gitbook/Chapter7/progress.md")
 OpenWrite(TODOsToShopping+"\n\n","gitbook/Chapter7/shoppingList.md")
 OpenWrite(AddLicenseDocTxt+"\n\n","gitbook/Chapter7/license.md")
+
+
 CopyGitBookFile("CLA.md","gitbook/CLA.md")
+
+
+CopyGitBookFile("croaker/data/20161217/20161217-TestingArduinoAndPhantom.md","gitbook/Chapter4/newphantom.md")
 
 
 # -------------------------
