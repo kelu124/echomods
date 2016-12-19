@@ -1,4 +1,4 @@
-# 2016-12-17 -- Lab Log
+# 2016-12-17 -- Lab Log [](@description Acquisition on a new phantom with an arduino)
 
 ## Aim of the work
 

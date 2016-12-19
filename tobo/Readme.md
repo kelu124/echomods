@@ -15,7 +15,7 @@ Tobo: the HV-pulser
 * The HV-Pulser of the echOmods
 * version: V0.2
 * cost:120$
-* sourcing:Custom made, get the [Gerbers](/tobo/source/), or contact @kelu124
+* sourcing:Custom made, get the [Gerbers](/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124
 * date: 24/04/2016
 * technology: Module-compatible, Homemade PCB, ICs based on `HV7360` and `R05-100B`
 * language: Altium

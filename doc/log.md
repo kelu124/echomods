@@ -50,8 +50,6 @@ __[MD Files]__ :no_entry: `./cletus/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./cletus/suppliers/piezo-specs.md` : Missing description
 
-__[MD Files]__ :no_entry: `./croaker/data/20161217/20161217-TestingArduinoAndPhantom.md` : Missing description
-
 __[MD Files]__ :no_entry: `./croaker/data/examples/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Missing description

@@ -32,7 +32,7 @@
 * [./croaker/Readme.md](/croaker/Readme.md): Analog processing module readme
 * [./croaker/notes_EMW3165.md](/croaker/notes_EMW3165.md): Fun about EMW3165
 * [./croaker/feather_tests/2016-09-10-Feather_ADC.md](/croaker/feather_tests/2016-09-10-Feather_ADC.md): 
-* [./croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): 
+* [./croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino
 * [./croaker/data/examples/Intro.md](/croaker/data/examples/Intro.md): Croaker text header on images
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md): 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md): 
@@ -125,7 +125,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 75 Auto generated files
+## 76 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -158,6 +158,7 @@
 * ./gitbook/Chapter4/Session_8.md
 * ./gitbook/Chapter4/Session_4b.md
 * ./gitbook/Chapter4/rawworklog.md
+* ./gitbook/Chapter4/newphantom.md
 * ./gitbook/Chapter4/detailednotes.md
 * ./gitbook/Chapter4/Readme.md
 * ./gitbook/Chapter4/murgenworklog.md

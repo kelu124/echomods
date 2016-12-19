@@ -29,6 +29,7 @@
 * ./gitbook/Chapter4/Session_8.md
 * ./gitbook/Chapter4/Session_4b.md
 * ./gitbook/Chapter4/rawworklog.md
+* ./gitbook/Chapter4/newphantom.md
 * ./gitbook/Chapter4/detailednotes.md
 * ./gitbook/Chapter4/Readme.md
 * ./gitbook/Chapter4/murgenworklog.md

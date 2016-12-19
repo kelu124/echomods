@@ -5,7 +5,7 @@ This project has a specific target of providing a __low-cost, open source techno
 * the [github repo](https://github.com/kelu124/echomods/), for the source files, raw data and raw experiment logs;
 * the [online manual/book](https://www.gitbook.com/book/kelu124/echomods/details) for a easily readable and searchable archive of the whole work;
 * the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format;
-* the [Tindie store](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) for the analog processing unit.
+* the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [pulser](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/).
  
 __Disclaimer__: though an engineer, this project is the first of its sort, I never did something related. Bear with us, and the discovery process, but I'm happy to learn on the way =)
 

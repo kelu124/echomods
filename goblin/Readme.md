@@ -17,7 +17,7 @@ Goblin: a TGC-Envelop-ADC module
 * version: V0.1
 * date: 24/04/2016
 * cost:150$
-* sourcing:Custom made, get the [Gerbers](/goblin/source/), or [on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124
+* sourcing:Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124
 * technology: Module-compatible, Homemade PCB, ICs based on `AD8331` and `ADL5511`
 * language: Altium
 * author: Kelu124
