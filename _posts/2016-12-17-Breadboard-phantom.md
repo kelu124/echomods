@@ -17,5 +17,3 @@ title: 2016-12-17 Breadboard phantom
 -   Having fun with mapping a community using slack. On another repo.
 -   Published some update on the ML.
 
-=======
-
