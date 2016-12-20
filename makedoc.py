@@ -728,6 +728,7 @@ OpenWrite(AddLicenseDocTxt+"\n\n","gitbook/Chapter7/license.md")
 
 
 CopyGitBookFile("CLA.md","gitbook/CLA.md")
+CopyGitBookFile("include/AddDevices.md","gitbook/Chapter6/otherprobes.md")
 
 
 CopyGitBookFile("croaker/data/20161217/20161217-TestingArduinoAndPhantom.md","gitbook/Chapter4/newphantom.md")
