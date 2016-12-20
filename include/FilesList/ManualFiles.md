@@ -41,6 +41,7 @@
 * [./include/AddLicense.md](/include/AddLicense.md): 
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project
 * [./include/references.md](/include/references.md): 
+* [./include/AddDevices.md](/include/AddDevices.md): 
 * [./include/wifi-dev-kit.set.md](/include/wifi-dev-kit.set.md): 
 * [./include/ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md): 
 * [./include/AddMurgenSummary.md](/include/AddMurgenSummary.md): 

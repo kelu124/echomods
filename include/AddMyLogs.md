@@ -866,6 +866,11 @@ Just moved in to the new flat! Exhausting =) Other interesting things:
 * Having fun with mapping a community using slack. On another repo.
 * Published some update on the ML.
 
+#### 2016-12-19 Adding devices
+
+* See [the list of similar handheld, low cost devices](/include/AddDevices.md)
+* Integration of previous steps in the gitbook
+
 =======
 
 
