@@ -99,15 +99,23 @@ Recognize the pro-bono contributions by leaving the author's copyright (but him/
 * Paid contributors give their copyright, but the project can allow the paid contributors to keep their copyrights
 * Unpaid contributors grant a a licence to use their contributions by default, unless they want to assign the copyright to the project. 
 
-## Application to the murgen-modules project
+## Application to the murgen / modules project
 
-Suggestion:
+Suggestion to the echopen association:
 
 * Establishing a Canonical (IP-neutral) CLA
-* Submitting the work as part of the _medico-technical_ 
-* Add a contribution to echopen's board :)
+* Kelu124 to submit the work 
+* Add a contribution to echopen :)
 
-## Questions to jurist:
+## Actions from echOpen association
+
+* Confirm echopen wants Copyright assignment, and publicly mention it
+* Grant all-rights license to contributor for its contribution
+* Contributor to keep its title of author
+* Collect statement from contributor that he grants the copyrights to the asso
+
+
+## Questions to jurist
 
 * What is different between assigning copyrights to the project, and granting the _non-exclusive, worldwide, royalty-free patent license_ ?
 * A public lab contributes to a project. It is paid by public fund. Can it assign the copyright of his/her contribution to a third party?

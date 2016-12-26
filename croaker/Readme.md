@@ -117,12 +117,15 @@ Later on, in december, I got it work with a [breadboard phantom](/croaker/data/2
 
 * Replace the work done by [OneEye](/oneeye/) by [Croaker](/croaker/).
 * Get better total ADC speed with an iterleaved move
+* Develop a Cletus+Croaker way of working with a gyroscope+accelerometer
+* Have croaker generate its own AP
 
 ### DONE
 
-* Choose the platform (BBB, RPi0, STM32, ... ?) : that'll be a `Feather WICED`
+* Choose the platform ([BBB](/toadkiller/), RPi0, [STM32](/croaker/), ... ?) : that'll be a `Feather WICED` for this iteration of croaker
 * Getting some images
 * Getting images onto a screen
+* Getting good resolution images -- see the [breadboard phantom](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md)
 
 ### People
 

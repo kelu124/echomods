@@ -68,6 +68,7 @@
 * ./gitbook/Chapter2/tobo.md
 * ./gitbook/Chapter2/Readme.md
 * ./gitbook/Chapter6/components.md
+* ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/fileslist.md
 * ./gitbook/Chapter6/academicbiblio.md
 * ./gitbook/Chapter6/documentationprocess.md

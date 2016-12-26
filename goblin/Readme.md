@@ -14,12 +14,12 @@ Goblin: a TGC-Envelop-ADC module
 ## Description
 
 * The analog signal-processing heart of the echOmods
-* version: V0.1
-* date: 24/04/2016
-* cost:150$
+* version: V0.2
+* date: 25/12/2016
+* cost:149$
 * sourcing:Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124
 * technology: Module-compatible, Homemade PCB, ICs based on `AD8331` and `ADL5511`
-* language: Altium
+* language: Altium, Kicad
 * author: Kelu124
 
 ## IOs
@@ -183,7 +183,7 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 
 * _BONUS!_ Plug it to a [RPi0 or BBB or RPi](/croaker/) or else.
 * _BONUS!_ or test it with the [EMW3165](/retired/kina/).
-* Publish the sources in KiCAD (@Sofian maybe?)
+
 
 ### DONE
 
@@ -195,6 +195,7 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 * Getting schematics
 * Send microcircuits to Edgeflex
 * Receive the module
+* Publish the sources in KiCAD (@Sofian maybe?)
 
 ### People
 

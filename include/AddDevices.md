@@ -56,3 +56,16 @@ Wireless, chinese / brandless ?
 
 ![](http://www.sonostarmed.com/uploads/160707/1-160FG6151L39.jpg)
 
+
+### Sonimage P3 - Konica Sonimage - removable head
+
+![](https://cloudfront.cloudinary.com/healthmanagement-org/image/upload/f_auto,fl_lossy/v1429761676/cw/00101954_cw_image.jpg)
+
+### UScan -- signosRT
+
+![](http://www.signosticsmedical.com/wp-content/uploads/2016/05/Gallery_Uscan_3.jpg)
+
+### BestScan S3
+
+![](http://www.bmv.cc/imageRepository/8a5e3cd4-2a9a-4514-b081-89eb5229f3a1.jpg)
+
