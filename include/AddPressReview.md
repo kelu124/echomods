@@ -10,6 +10,10 @@
 * 2016-11-05: [Why is the Philips Lumify (ultrasound for smartphone) not available for consumers?](https://www.quora.com/Why-is-the-Philips-Lumify-ultrasound-for-smartphone-not-available-for-consumers)
 * 2016-11-06: [A benchmark for hardware documentation](https://www.quora.com/What-are-the-sites-where-you-can-upload-Open-Source-hardware-projects)
 * 2016-11-09: [Weekly Roundup #11 – New Maker Products](http://mickmake.com/archives/1115)
+* 2016-11-16: [Would it be possible make a DIY medical imaging kit, something that can do an internal body scan like an MRI or ultrasound, for less than USD 500?](https://www.quora.com/Would-it-be-possible-make-a-DIY-medical-imaging-kit-something-that-can-do-an-internal-body-scan-like-an-MRI-or-ultrasound-for-less-than-USD-500)
+* 2016-11-29: [A low-cost, arduino-like dev-kit for single-element ultrasound imaging](https://arxiv.org/abs/1611.10174) @ arXiv
 * 2016-12-01: [Build DIY Ultrasound Machine Under 500 USD](https://thecustomizewindows.com/2016/12/build-diy-ultrasound-machine-under-500/)
-
+* 2016-12-19: [Mentioned on Tindie Blog - An Ultrasound Experimentation Board](http://blog.tindie.com/2016/12/ultrasound-experimentation-board/)
+* 2016-12-20: [Why Are Ultrasound Machines So Expensive? (maori.geek.nz) on HN](https://news.ycombinator.com/item?id=13230741) - mentioned in the comments. The whole series of comments of HN readers, as well as the [liesnstartup post](http://liesandstartuppr.blogspot.fr/2016/12/why-are-medical-ultrasound-systems-so.html) are very rich.
+* 2016-12-27: [Review of MaoriGeek'as article on Geektimes](https://geektimes.ru/post/284144/)
 

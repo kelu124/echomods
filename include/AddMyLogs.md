@@ -871,6 +871,38 @@ Just moved in to the new flat! Exhausting =) Other interesting things:
 * See [the list of similar handheld, low cost devices](/include/AddDevices.md)
 * Integration of previous steps in the gitbook
 
+#### 2016-12-26 Raw ideas
+
+* Max RPi speed : http://d-fence.sytes.net/raspberry-pis-gpio-speed/  @todo --> do it with the Rpi0
+    * http://codeandlife.com/2015/03/25/raspberry-pi-2-vs-1-gpio-benchmark/
+    * Using the same experimental setup, the Raspberry Pi 2 is about 2 to three times faster. The fastest is still the C native library, topping out at just under 42 MHz. 
+* Thinking of 20E-214 and moving to Alibaba for wireless probes. Will F.'s support reach?
+* Using Vitamins for the gyro's probe. What name still for it? Longinus?
+
+#### 2016-12-29 Moving forward
+
+* Getting to think of the 20E-214 ones =)
+* Chat with 1Tech, and the guy Patrice. Motivating.
+* Trying to get some stuff from the arduino, namely to get it work as a server. [Far from being finished, on it](croaker/feather_tests/2Msps_Server.ino).
+
+#### 2017-01-02 Merry new year
+
+* 20E
+    * Getting a propal from PR
+    * Fouad offering to test the 7.5MHz linear
+    * Me to check other suppliers
+* Some modules finaly added to the [echopen's community medkit repo](https://github.com/echopen/PRJ-medtec_kit/) and added a config, the [wireless 1.1 config](https://github.com/echopen/PRJ-medtec_kit/tree/master/configurations/CFG-arduino_servo).
+* Added a version of my [jupyter notebook to explore the dataquarium data](https://github.com/kelu124/PRJ-medtec_sigproc/blob/6412c4ce4da4fe8f3ea1a4144fe389d411b0b80e/dataquarium/explore.ipynb) from the dataset released end of Dec '16.
+
+#### 2017-01-10 Heated debate on ultrasound prices
+
+* Some info on HN : 
+    * a great discussion on hardware at https://news.ycombinator.com/item?id=13230741
+    * https://patents.google.com/patent/US4446395A
+    * a blog post by NF at http://liesandstartuppr.blogspot.fr/2016/12/why-are-medical-ultrasound-systems-so.html 
+* https://github.com/MedtechDiagnostics/video2dcm
+* Bonus? http://liesandstartuppr.blogspot.fr/2016/12/quick-guide-to-spotting-non-existent.html
+
 =======
 
 
