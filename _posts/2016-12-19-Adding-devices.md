@@ -11,5 +11,3 @@ title: 2016-12-19 Adding devices
     devices](/include/AddDevices.md)
 -   Integration of previous steps in the gitbook
 
-=======
-
