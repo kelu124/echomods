@@ -1045,8 +1045,7 @@ _“We do not grow absolutely, chronologically. We grow sometimes in one dimensi
 * Added some details (better raw image quality) to the [SigProc 101](https://github.com/kelu124/PRJ-medtec_sigproc/blob/master/SigProc_101/SigProc-101.ipynb) jupyter notebook. 
 * Interesting paper on [Theory of Change](http://www.cdra.org.za/uploads/1/1/1/6/111664/threefold_theory_of_change_-_and_implications_for_pme_-_doug_reeler_of_the_cdra.pdf).
 * Peter confirms the probe is on its way.
-* JOH article: first comments received. Harsh, but good to move forward!
-
+* JOH article: first comments received. Harsh, but good to move forward! And adding a couple of images, better introduction, ...
 
 =======
 
