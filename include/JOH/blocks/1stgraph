@@ -1,0 +1,6 @@
+digraph {
+	graph [fontsize=26 label="my mind" overlap=false rankdir=LR splines=ortho]
+		"1stgraph" [style=rounded]
+		kikoo [style=rounded]
+			"1stgraph" -> kikoo
+}

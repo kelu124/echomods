@@ -1,0 +1,6 @@
+digraph {
+	graph [fontsize=26 label="my mind" overlap=false rankdir=LR splines=ortho]
+		analog [style=rounded]
+		digital [style=rounded]
+			analog -> digital
+}

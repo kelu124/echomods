@@ -1,0 +1,4 @@
+T/R Switch->Transducer->T/R Switch
+T/R Switch->LNA->VGA->ADC->Controler->HV Transmitter
+Controler->VGA
+High Voltage->HV Transmitter->T/R Switch

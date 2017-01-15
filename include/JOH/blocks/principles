@@ -1,0 +1,27 @@
+digraph {
+	graph [fontsize=26 label="my mind" overlap=false rankdir=LR splines=ortho]
+		"T/R Switch" [style=rounded]
+		Transducer [style=rounded]
+		"T/R Switch" [style=rounded]
+			"T/R Switch" -> Transducer
+			Transducer -> "T/R Switch"
+		"T/R Switch" [style=rounded]
+		LNA [style=rounded]
+		VGA [style=rounded]
+		ADC [style=rounded]
+		Controler [style=rounded]
+		"HV Transmitter" [style=rounded]
+			"T/R Switch" -> LNA
+			LNA -> VGA
+			VGA -> ADC
+			ADC -> Controler
+			Controler -> "HV Transmitter"
+		Controler [style=rounded]
+		VGA [style=rounded]
+			Controler -> VGA
+		"High Voltage" [style=rounded]
+		"HV Transmitter" [style=rounded]
+		"T/R Switch" [style=rounded]
+			"High Voltage" -> "HV Transmitter"
+			"HV Transmitter" -> "T/R Switch"
+}

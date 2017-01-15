@@ -1,0 +1,6 @@
+digraph {
+	graph [fontsize=26 label="my mind" overlap=false rankdir=LR splines=ortho]
+		"Arduino Logic" [style=rounded]
+		HV7360 [style=rounded]
+			"Arduino Logic" -> HV7360
+}

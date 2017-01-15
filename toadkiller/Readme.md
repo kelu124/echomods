@@ -132,6 +132,29 @@ debian@beaglebone:~$ sudo dd if=/dev/beaglelogic of=sonde3V_3.bin bs=1M count=32
 debian@beaglebone:~$ exit
 ````
 
+### Cloning the card
+
+#### For verbose
+
+* Install pv dialog
+
+ (pv -n /dev/mmcblk0 | dd of=~/mmcblk0.img bs=1M conv=notrunc,noerror) 2>&1 | dialog --gauge "Running dd command (cloning), please wait..." 10 70 0
+
+#### Not verbose
+
+* Creating the compressed image
+
+ dd if=/dev/mmcblk0 | gzip > ~/mmcblk0.img.gzip
+
+* Unzipping it (Where _sdx_ is your SD card.)
+
+gzip -dc /path/to/image.gz | dd of=/dev/sdx
+
+For a working customized image, [follow this link](https://drive.google.com/file/d/0B71ZoToGBAC1WHFZT1gyV0xHbzg/view?usp=sharing).
+
+
+
+
 ## Discussions
 
 ### TODO
