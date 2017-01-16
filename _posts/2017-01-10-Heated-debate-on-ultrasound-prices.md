@@ -17,5 +17,3 @@ title: 2017-01-10 Heated debate on ultrasound prices
 -   Bonus?
     http://liesandstartuppr.blogspot.fr/2016/12/quick-guide-to-spotting-non-existent.html
 
-=======
-
