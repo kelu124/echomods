@@ -718,6 +718,10 @@ OpenWrite("# Automating documentation \n\n"+AddRawHURL(AddDocProcess)+"\n\n","gi
 CopyGitBookFile("include/biblio/Readme.md","gitbook/Chapter6/academicbiblio.md")
 CopyGitBookFile("include/FilesList/AllFiles.md","gitbook/Chapter6/fileslist.md")
 
+# Product work
+CopyGitBookFile("/include/fda.gov/Readme.md","gitbook/Chapter6/fda.md")
+CopyGitBookFile("/include/vscan/Readme.md","gitbook/Chapter6/vscan.md")
+
 # -------------------------
 # Adding CHAPTER 7 : Contributing
 # -------------------------
