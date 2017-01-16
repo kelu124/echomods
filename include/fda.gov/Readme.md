@@ -1,6 +1,6 @@
 # Mapping
 
-![](/include/fda.gov/fda.svg)
+![](/include/fda.gov/fda.png)
 
 All FDA requests for approval are available on the FDA website. To ask for an approval, the entity requesting the approval base themselves on previous devices, the "predicates". It's therefore quite easy to map the predicates graph ... see above.
 
