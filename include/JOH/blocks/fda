@@ -1,0 +1,90 @@
+digraph {
+	graph [fontsize=26 label="Mapping FDA 501(k)" overlap=false rankdir=LR splines=ortho]
+		K052331 [style=rounded]
+		K063761 [style=rounded]
+			K052331 -> K063761
+		K052410 [style=rounded]
+		K063761 [style=rounded]
+			K052410 -> K063761
+		K020353 [style=rounded]
+		K063761 [style=rounded]
+			K020353 -> K063761
+		K994096 [style=rounded]
+		K063761 [style=rounded]
+			K994096 -> K063761
+		K020112 [style=rounded]
+		K090505 [style=rounded]
+			K020112 -> K090505
+		K063761 [style=rounded]
+		K090505 [style=rounded]
+			K063761 -> K090505
+		K021628 [style=rounded]
+		K090505 [style=rounded]
+			K021628 -> K090505
+		K152758 [style=rounded]
+		K161588 [style=rounded]
+			K152758 -> K161588
+		K112122 [style=rounded]
+		K161588 [style=rounded]
+			K112122 -> K161588
+		K092756 [style=rounded]
+		K140693 [style=rounded]
+			K092756 -> K140693
+		K113690 [style=rounded]
+		K140693 [style=rounded]
+			K113690 -> K140693
+		K112122 [style=rounded]
+		K140693 [style=rounded]
+			K112122 -> K140693
+		K070907 [style=rounded]
+		K102153 [style=rounded]
+			K070907 -> K102153
+		K092756 [style=rounded]
+		K102153 [style=rounded]
+			K092756 -> K102153
+		K090505 [style=rounded]
+		K102153 [style=rounded]
+			K090505 -> K102153
+		K030191 [style=rounded]
+		K070907 [style=rounded]
+			K030191 -> K070907
+		K012191 [style=rounded]
+		K030191 [style=rounded]
+			K012191 -> K030191
+		K994373 [style=rounded]
+		K030191 [style=rounded]
+			K994373 -> K030191
+		K993624 [style=rounded]
+		K030191 [style=rounded]
+			K993624 -> K030191
+		K151339 [style=rounded]
+		K163138 [style=rounded]
+			K151339 -> K163138
+		K152899 [style=rounded]
+		K163138 [style=rounded]
+			K152899 -> K163138
+		K153626 [style=rounded]
+		K163138 [style=rounded]
+			K153626 -> K163138
+		K133833 [style=rounded]
+		K152899 [style=rounded]
+			K133833 -> K152899
+		K120321 [style=rounded]
+		K152899 [style=rounded]
+			K120321 -> K152899
+		K120321 [style=rounded]
+		K133833 [style=rounded]
+			K120321 -> K133833
+		K132304 [style=rounded]
+		K133833 [style=rounded]
+			K132304 -> K133833
+		K070907 [style=rounded]
+		K133833 [style=rounded]
+			K070907 -> K133833
+		K102153 [style=rounded]
+		K133833 [style=rounded]
+			K102153 -> K133833
+		K043535 [style=rounded]
+		K120321 [style=rounded]
+			K043535 -> K120321
+}

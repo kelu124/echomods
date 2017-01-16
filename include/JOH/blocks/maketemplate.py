@@ -39,7 +39,7 @@ digraph = functools.partial(gv.Digraph, format='svg')
 
 styles = {
     'graph': {
-        'label': 'my mind',
+        'label': 'Mapping FDA 501(k)',
 	#'layout':"neato",
 	'fontsize':"26",
 	"splines":"ortho",
