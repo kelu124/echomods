@@ -69,7 +69,10 @@
 * [./include/biblio/Readme.md](/include/biblio/Readme.md): 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md): 
 * [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md): 
+* [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): 
 * [./include/JOH/joh_article.md](/include/JOH/joh_article.md): 
+* [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md): 
+* [./include/vscan/Readme.md](/include/vscan/Readme.md): 
 * [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes
 * [./toadkiller/Readme.md](/toadkiller/Readme.md): 
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together
@@ -116,6 +119,7 @@
 * [Cleaning.py](/croaker/data/examples/Cleaning.py): Cleaning the repo and building the image library.
 * [CreateCSV.py](/croaker/data/examples/CreateCSV.py): Creating the CVS from a log file.
 * [CreateSC.py](/croaker/data/examples/CreateSC.py): Takes a log file and creatse the Scan Converted image.
+* [maketemplate.py](/include/JOH/blocks/maketemplate.py): 
 * [BitscopeAcquisitionScript.py](/retroATL3/software/BitscopeAcquisitionScript.py): BitLib 2.0 Capture Device Report Generator (Python)
 * [test_file.py](/toadkiller/software/test_file.py): showing content of a PRUDAQ binary dump.
 * [test_file_3periods.py](/toadkiller/software/test_file_3periods.py): showing content of a PRUDAQ binary dump over 3 periods.

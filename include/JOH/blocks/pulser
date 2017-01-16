@@ -1,5 +1,5 @@
 digraph {
-	graph [fontsize=26 label="Mapping FDA 501(k)" overlap=false rankdir=LR splines=ortho]
+	graph [fontsize=26 label="Mapping FDA 510(k)" overlap=false rankdir=LR splines=ortho]
 		"Arduino Logic" [style=rounded]
 		HV7360 [style=rounded]
 			"Arduino Logic" -> HV7360
