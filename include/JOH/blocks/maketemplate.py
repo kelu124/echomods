@@ -43,7 +43,7 @@ styles = {
 	#'layout':"neato",
 	'fontsize':"26",
 	"splines":"ortho",
-	#'outputorder':'edgesfirst',
+	'outputorder':'edgesfirst',
 	"rankdir":"LR",
 	"overlap":"false",
         #'rankdir': 'BT',

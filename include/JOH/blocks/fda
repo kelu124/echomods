@@ -1,5 +1,5 @@
 digraph {
-	graph [fontsize=26 label="Mapping FDA 510(k)" overlap=false rankdir=LR splines=ortho]
+	graph [fontsize=26 label="Mapping FDA 510(k)" outputorder=edgesfirst overlap=false rankdir=LR splines=ortho]
 		K052331 [style=rounded]
 		K063761 [style=rounded]
 			K052331 -> K063761
@@ -123,13 +123,39 @@ digraph {
 		K100598 [style=rounded]
 		K151339 [style=rounded]
 			K100598 -> K151339
+		K142017 [style=rounded]
+		K152209 [style=rounded]
+			K142017 -> K152209
+		K133454 [style=rounded]
+		K152209 [style=rounded]
+			K133454 -> K152209
+		K072797 [style=rounded]
+		K092756 [style=rounded]
+			K072797 -> K092756
+		K091164 [style=rounded]
+		K092756 [style=rounded]
+			K091164 -> K092756
+		K063761 [style=rounded]
+		K092756 [style=rounded]
+			K063761 -> K092756
+		K092756 [label="GE VScan" fillcolor=yellow shape=box style=filled]
+		K152209 [label="Sonosite X" fillcolor=yellow shape=box style=filled]
+		K071134 [style=rounded]
+		K113156 [style=rounded]
+			K071134 -> K113156
+		K082098 [style=rounded]
+		K113156 [style=rounded]
+			K082098 -> K113156
 		K133833 [label=Nuvis fillcolor=yellow shape=box style=filled]
+		K133454 [label="SonoSite Edge" fillcolor=yellow shape=box style=filled]
 		K152899 [label=Lumify fillcolor=yellow shape=box style=filled]
 		K043535 [label=Clearview fillcolor=yellow shape=box style=filled]
+		K120321 [label="Clearview 350" fillcolor=yellow shape=box style=filled]
 		K030191 [label="Terason 2000" fillcolor=yellow shape=box style=filled]
 		K070907 [label="Interson USB" fillcolor=yellow shape=box style=filled]
 		K102153 [label=Mobisante fillcolor=yellow shape=box style=filled]
 		K140693 [label="VScan Dual Probe" fillcolor=yellow shape=box style=filled]
 		K151339 [label="SONON 300C" fillcolor=yellow shape=box style=filled]
 		K153626 [label="SonoSite Edge II" fillcolor=yellow shape=box style=filled]
+		K113156 [label="SonoSite Edge" fillcolor=yellow shape=box style=filled]
 }

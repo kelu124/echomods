@@ -10,6 +10,11 @@
 <title>%3</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-77 248,-77 248,4 -4,4"/>
 <text text-anchor="middle" x="122" y="-12.2" font-family="Times,serif" font-size="26.00">Mapping FDA 510(k)</text>
+<!-- analog&#45;&gt;digital -->
+<g id="edge1" class="edge"><title>analog&#45;&gt;digital</title>
+<path fill="none" stroke="black" d="M105.348,-55C105.348,-55 131.157,-55 131.157,-55"/>
+<polygon fill="black" stroke="black" points="131.157,-58.5001 141.157,-55 131.157,-51.5001 131.157,-58.5001"/>
+</g>
 <!-- analog -->
 <g id="node1" class="node"><title>analog</title>
 <ellipse fill="none" stroke="black" cx="70.8529" cy="-55" rx="34.394" ry="18"/>
@@ -19,11 +24,6 @@
 <g id="node2" class="node"><title>digital</title>
 <ellipse fill="none" stroke="black" cx="174.447" cy="-55" rx="33.2948" ry="18"/>
 <text text-anchor="middle" x="174.447" y="-51.3" font-family="Times,serif" font-size="14.00">digital</text>
-</g>
-<!-- analog&#45;&gt;digital -->
-<g id="edge1" class="edge"><title>analog&#45;&gt;digital</title>
-<path fill="none" stroke="black" d="M105.348,-55C105.348,-55 131.157,-55 131.157,-55"/>
-<polygon fill="black" stroke="black" points="131.157,-58.5001 141.157,-55 131.157,-51.5001 131.157,-58.5001"/>
 </g>
 </g>
 </svg>

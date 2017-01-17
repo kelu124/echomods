@@ -10,6 +10,11 @@
 <title>%3</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-77 248,-77 248,4 -4,4"/>
 <text text-anchor="middle" x="122" y="-12.2" font-family="Times,serif" font-size="26.00">Mapping FDA 510(k)</text>
+<!-- Arduino Logic&#45;&gt;HV7360 -->
+<g id="edge1" class="edge"><title>Arduino Logic&#45;&gt;HV7360</title>
+<path fill="none" stroke="black" d="M126.495,-55C126.495,-55 151.871,-55 151.871,-55"/>
+<polygon fill="black" stroke="black" points="151.871,-58.5001 161.871,-55 151.87,-51.5001 151.871,-58.5001"/>
+</g>
 <!-- Arduino Logic -->
 <g id="node1" class="node"><title>Arduino Logic</title>
 <ellipse fill="none" stroke="black" cx="63.0536" cy="-55" rx="63.0888" ry="18"/>
@@ -19,11 +24,6 @@
 <g id="node2" class="node"><title>HV7360</title>
 <ellipse fill="none" stroke="black" cx="203.044" cy="-55" rx="40.8928" ry="18"/>
 <text text-anchor="middle" x="203.044" y="-51.3" font-family="Times,serif" font-size="14.00">HV7360</text>
-</g>
-<!-- Arduino Logic&#45;&gt;HV7360 -->
-<g id="edge1" class="edge"><title>Arduino Logic&#45;&gt;HV7360</title>
-<path fill="none" stroke="black" d="M126.495,-55C126.495,-55 151.871,-55 151.871,-55"/>
-<polygon fill="black" stroke="black" points="151.871,-58.5001 161.871,-55 151.87,-51.5001 151.871,-58.5001"/>
 </g>
 </g>
 </svg>

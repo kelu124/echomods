@@ -10,6 +10,11 @@
 <title>%3</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-77 248,-77 248,4 -4,4"/>
 <text text-anchor="middle" x="122" y="-12.2" font-family="Times,serif" font-size="26.00">Mapping FDA 510(k)</text>
+<!-- 1stgraph&#45;&gt;kikoo -->
+<g id="edge1" class="edge"><title>1stgraph&#45;&gt;kikoo</title>
+<path fill="none" stroke="black" d="M114.705,-55C114.705,-55 140.323,-55 140.323,-55"/>
+<polygon fill="black" stroke="black" points="140.323,-58.5001 150.323,-55 140.323,-51.5001 140.323,-58.5001"/>
+</g>
 <!-- 1stgraph -->
 <g id="node1" class="node"><title>1stgraph</title>
 <ellipse fill="none" stroke="black" cx="73.4527" cy="-55" rx="40.8928" ry="18"/>
@@ -19,11 +24,6 @@
 <g id="node2" class="node"><title>kikoo</title>
 <ellipse fill="none" stroke="black" cx="180.946" cy="-55" rx="30.5947" ry="18"/>
 <text text-anchor="middle" x="180.946" y="-51.3" font-family="Times,serif" font-size="14.00">kikoo</text>
-</g>
-<!-- 1stgraph&#45;&gt;kikoo -->
-<g id="edge1" class="edge"><title>1stgraph&#45;&gt;kikoo</title>
-<path fill="none" stroke="black" d="M114.705,-55C114.705,-55 140.323,-55 140.323,-55"/>
-<polygon fill="black" stroke="black" points="140.323,-58.5001 150.323,-55 140.323,-51.5001 140.323,-58.5001"/>
 </g>
 </g>
 </svg>

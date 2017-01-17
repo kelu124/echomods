@@ -10,25 +10,10 @@
 <title>%3</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-223 757.249,-223 757.249,4 -4,4"/>
 <text text-anchor="middle" x="376.625" y="-12.2" font-family="Times,serif" font-size="26.00">Mapping FDA 510(k)</text>
-<!-- T/R Switch -->
-<g id="node1" class="node"><title>T/R Switch</title>
-<ellipse fill="none" stroke="black" cx="51.3454" cy="-174" rx="51.1914" ry="18"/>
-<text text-anchor="middle" x="51.3454" y="-170.3" font-family="Times,serif" font-size="14.00">T/R Switch</text>
-</g>
-<!-- Transducer -->
-<g id="node2" class="node"><title>Transducer</title>
-<ellipse fill="none" stroke="black" cx="188.736" cy="-201" rx="50.0912" ry="18"/>
-<text text-anchor="middle" x="188.736" y="-197.3" font-family="Times,serif" font-size="14.00">Transducer</text>
-</g>
 <!-- T/R Switch&#45;&gt;Transducer -->
 <g id="edge1" class="edge"><title>T/R Switch&#45;&gt;Transducer</title>
 <path fill="none" stroke="black" d="M89.6165,-186C89.6165,-186 150.69,-186 150.69,-186"/>
 <polygon fill="black" stroke="black" points="150.69,-189.5 160.69,-186 150.69,-182.5 150.69,-189.5"/>
-</g>
-<!-- LNA -->
-<g id="node3" class="node"><title>LNA</title>
-<ellipse fill="none" stroke="black" cx="188.736" cy="-147" rx="28.6953" ry="18"/>
-<text text-anchor="middle" x="188.736" y="-143.3" font-family="Times,serif" font-size="14.00">LNA</text>
 </g>
 <!-- T/R Switch&#45;&gt;LNA -->
 <g id="edge3" class="edge"><title>T/R Switch&#45;&gt;LNA</title>
@@ -40,30 +25,15 @@
 <path fill="none" stroke="black" d="M151.194,-189C151.194,-189 90.1262,-189 90.1262,-189"/>
 <polygon fill="black" stroke="black" points="90.1262,-185.5 80.1262,-189 90.1261,-192.5 90.1262,-185.5"/>
 </g>
-<!-- VGA -->
-<g id="node4" class="node"><title>VGA</title>
-<ellipse fill="none" stroke="black" cx="304.679" cy="-147" rx="29.795" ry="18"/>
-<text text-anchor="middle" x="304.679" y="-143.3" font-family="Times,serif" font-size="14.00">VGA</text>
-</g>
 <!-- LNA&#45;&gt;VGA -->
 <g id="edge4" class="edge"><title>LNA&#45;&gt;VGA</title>
 <path fill="none" stroke="black" d="M217.396,-147C217.396,-147 264.732,-147 264.732,-147"/>
 <polygon fill="black" stroke="black" points="264.732,-150.5 274.732,-147 264.732,-143.5 264.732,-150.5"/>
 </g>
-<!-- ADC -->
-<g id="node5" class="node"><title>ADC</title>
-<ellipse fill="none" stroke="black" cx="399.824" cy="-189" rx="29.4969" ry="18"/>
-<text text-anchor="middle" x="399.824" y="-185.3" font-family="Times,serif" font-size="14.00">ADC</text>
-</g>
 <!-- VGA&#45;&gt;ADC -->
 <g id="edge5" class="edge"><title>VGA&#45;&gt;ADC</title>
 <path fill="none" stroke="black" d="M305.249,-165.143C305.249,-171.461 305.249,-177 305.249,-177 305.249,-177 367.889,-177 367.889,-177"/>
 <polygon fill="black" stroke="black" points="367.889,-180.5 377.889,-177 367.889,-173.5 367.889,-180.5"/>
-</g>
-<!-- Controler -->
-<g id="node6" class="node"><title>Controler</title>
-<ellipse fill="none" stroke="black" cx="523.566" cy="-147" rx="44.393" ry="18"/>
-<text text-anchor="middle" x="523.566" y="-143.3" font-family="Times,serif" font-size="14.00">Controler</text>
 </g>
 <!-- ADC&#45;&gt;Controler -->
 <g id="edge6" class="edge"><title>ADC&#45;&gt;Controler</title>
@@ -75,11 +45,6 @@
 <path fill="none" stroke="black" d="M481.88,-141C481.88,-141 342.987,-141 342.987,-141"/>
 <polygon fill="black" stroke="black" points="342.987,-137.5 332.987,-141 342.987,-144.5 342.987,-137.5"/>
 </g>
-<!-- HV Transmitter -->
-<g id="node7" class="node"><title>HV Transmitter</title>
-<ellipse fill="none" stroke="black" cx="685.655" cy="-101" rx="67.6881" ry="18"/>
-<text text-anchor="middle" x="685.655" y="-97.3" font-family="Times,serif" font-size="14.00">HV Transmitter</text>
-</g>
 <!-- Controler&#45;&gt;HV Transmitter -->
 <g id="edge7" class="edge"><title>Controler&#45;&gt;HV Transmitter</title>
 <path fill="none" stroke="black" d="M524.249,-128.934C524.249,-119.541 524.249,-110 524.249,-110 524.249,-110 616.927,-110 616.927,-110"/>
@@ -90,15 +55,50 @@
 <path fill="none" stroke="black" d="M617.87,-101C454.468,-101 52.2491,-101 52.2491,-101 52.2491,-101 52.2491,-145.955 52.2491,-145.955"/>
 <polygon fill="black" stroke="black" points="48.7492,-145.955 52.2491,-155.955 55.7492,-145.955 48.7492,-145.955"/>
 </g>
-<!-- High Voltage -->
-<g id="node8" class="node"><title>High Voltage</title>
-<ellipse fill="none" stroke="black" cx="523.566" cy="-55" rx="58.4896" ry="18"/>
-<text text-anchor="middle" x="523.566" y="-51.3" font-family="Times,serif" font-size="14.00">High Voltage</text>
-</g>
 <!-- High Voltage&#45;&gt;HV Transmitter -->
 <g id="edge9" class="edge"><title>High Voltage&#45;&gt;HV Transmitter</title>
 <path fill="none" stroke="black" d="M575.249,-63.5815C575.249,-74.5117 575.249,-92 575.249,-92 575.249,-92 616.896,-92 616.896,-92"/>
 <polygon fill="black" stroke="black" points="616.896,-95.5001 626.896,-92 616.896,-88.5001 616.896,-95.5001"/>
+</g>
+<!-- T/R Switch -->
+<g id="node1" class="node"><title>T/R Switch</title>
+<ellipse fill="none" stroke="black" cx="51.3454" cy="-174" rx="51.1914" ry="18"/>
+<text text-anchor="middle" x="51.3454" y="-170.3" font-family="Times,serif" font-size="14.00">T/R Switch</text>
+</g>
+<!-- Transducer -->
+<g id="node2" class="node"><title>Transducer</title>
+<ellipse fill="none" stroke="black" cx="188.736" cy="-201" rx="50.0912" ry="18"/>
+<text text-anchor="middle" x="188.736" y="-197.3" font-family="Times,serif" font-size="14.00">Transducer</text>
+</g>
+<!-- LNA -->
+<g id="node3" class="node"><title>LNA</title>
+<ellipse fill="none" stroke="black" cx="188.736" cy="-147" rx="28.6953" ry="18"/>
+<text text-anchor="middle" x="188.736" y="-143.3" font-family="Times,serif" font-size="14.00">LNA</text>
+</g>
+<!-- VGA -->
+<g id="node4" class="node"><title>VGA</title>
+<ellipse fill="none" stroke="black" cx="304.679" cy="-147" rx="29.795" ry="18"/>
+<text text-anchor="middle" x="304.679" y="-143.3" font-family="Times,serif" font-size="14.00">VGA</text>
+</g>
+<!-- ADC -->
+<g id="node5" class="node"><title>ADC</title>
+<ellipse fill="none" stroke="black" cx="399.824" cy="-189" rx="29.4969" ry="18"/>
+<text text-anchor="middle" x="399.824" y="-185.3" font-family="Times,serif" font-size="14.00">ADC</text>
+</g>
+<!-- Controler -->
+<g id="node6" class="node"><title>Controler</title>
+<ellipse fill="none" stroke="black" cx="523.566" cy="-147" rx="44.393" ry="18"/>
+<text text-anchor="middle" x="523.566" y="-143.3" font-family="Times,serif" font-size="14.00">Controler</text>
+</g>
+<!-- HV Transmitter -->
+<g id="node7" class="node"><title>HV Transmitter</title>
+<ellipse fill="none" stroke="black" cx="685.655" cy="-101" rx="67.6881" ry="18"/>
+<text text-anchor="middle" x="685.655" y="-97.3" font-family="Times,serif" font-size="14.00">HV Transmitter</text>
+</g>
+<!-- High Voltage -->
+<g id="node8" class="node"><title>High Voltage</title>
+<ellipse fill="none" stroke="black" cx="523.566" cy="-55" rx="58.4896" ry="18"/>
+<text text-anchor="middle" x="523.566" y="-51.3" font-family="Times,serif" font-size="14.00">High Voltage</text>
 </g>
 </g>
 </svg>
