@@ -18,6 +18,7 @@ digraph {
 		K063761 [style=rounded]
 		K090505 [style=rounded]
 			K063761 -> K090505
+		K063761 [label="ACUSON P10" fillcolor=yellow shape=box style=filled]
 		K021628 [style=rounded]
 		K090505 [style=rounded]
 			K021628 -> K090505
@@ -45,6 +46,7 @@ digraph {
 		K090505 [style=rounded]
 		K102153 [style=rounded]
 			K090505 -> K102153
+		K090505 [label="Signostics Speq" fillcolor=yellow shape=box style=filled]
 		K030191 [style=rounded]
 		K070907 [style=rounded]
 			K030191 -> K070907
@@ -66,6 +68,7 @@ digraph {
 		K153626 [style=rounded]
 		K163138 [style=rounded]
 			K153626 -> K163138
+		K163138 [label=Clarius fillcolor=yellow shape=box style=filled]
 		K133833 [style=rounded]
 		K152899 [style=rounded]
 			K133833 -> K152899
@@ -120,4 +123,13 @@ digraph {
 		K100598 [style=rounded]
 		K151339 [style=rounded]
 			K100598 -> K151339
+		K133833 [label=Nuvis fillcolor=yellow shape=box style=filled]
+		K152899 [label=Lumify fillcolor=yellow shape=box style=filled]
+		K043535 [label=Clearview fillcolor=yellow shape=box style=filled]
+		K030191 [label="Terason 2000" fillcolor=yellow shape=box style=filled]
+		K070907 [label="Interson USB" fillcolor=yellow shape=box style=filled]
+		K102153 [label=Mobisante fillcolor=yellow shape=box style=filled]
+		K140693 [label="VScan Dual Probe" fillcolor=yellow shape=box style=filled]
+		K151339 [label="SONON 300C" fillcolor=yellow shape=box style=filled]
+		K153626 [label="SonoSite Edge II" fillcolor=yellow shape=box style=filled]
 }

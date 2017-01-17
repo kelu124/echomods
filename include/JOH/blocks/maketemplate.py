@@ -97,13 +97,22 @@ def GraphModule(Paires,GraphThisModule):
 	for k in range(len(Couples)-1):
 	    GraphThisModule.edge(Couples[k], Couples[k+1].strip())
 
-def GetFiles(path):
-	return [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.template'))]
+def GraphLabel(Paires,GraphThisModule):
+    #print Paires
+    if (":" in Paires):
+   	Couples = Paires.split(":")
+	Couples = [word.strip() for word in Couples]
+        GraphThisModule.node(Couples[0], label=Couples[1], style="filled", fillcolor="yellow", shape="box")
+
+
+
+def GetFiles(path,extension):
+	return [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.'+extension))]
 	 
 
 
 
-List = GetFiles("./")
+List = GetFiles("./","template")
 
 print List
 
@@ -114,7 +123,10 @@ for item in List:
 	    GraphModules = digraph()
 	    output = f.readlines()
 	    for line in output:
-		GraphModule(line,GraphModules)
+		if ("->" in line):
+			GraphModule(line,GraphModules)
+		if (":" in line):
+			GraphLabel(line,GraphModules)
 	    name = item.split("./")[1].split(".")[0]
 
 	    apply_styles(GraphModules,styles)
