@@ -1,3 +1,7 @@
+% TODOS
+% * references to the pictures
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %2345678901234567890123456789012345678901234567890123456789012345678901234567890
 %    1     2     3     4     5     6     7     8
@@ -28,7 +32,7 @@
 %\usepackage{amssymb} % assumes amsmath package installed
 
 \title{\LARGE \bf
-A low-cost, arduino-like development kit for single-element ultrasound imaging*
+A low-cost, Arduino-like development kit for single-element ultrasound imaging*
 }
 
 %\author{ \parbox{3 in}{\centering Huibert Kwakernaak*
@@ -67,9 +71,9 @@ A low-cost, arduino-like development kit for single-element ultrasound imaging*
 
 Ultrasound imaging is developing an open-source ecosystem – especially for software frameworks. Little exists on the open-hardware side. Hence a focus was put on producing easy-to-use technological (hardware and software) kit to allow anyone - scientists, academics, hackers, makers to have a experimental setup for ultrasound imaging at a low cost, at home, with no specific equipment required. The development of this work parallels that of medical systems in the 80’s where analog techniques and using single-sensor devices were prominent.
 
-To this end, open source, arduino-like modules have been developed to build a simple, but complete, single channel analog front-end system, where all intermediary signals are readily accessible by the user. A single-channel architecture allows to avoid the beam-forming head, though it limits the quality of the image obtained, and brings robustness to the system. Moreover, complex RF processing, being shifted to the analog side, limits the quality of the final image.
+To this end, two open source, arduino-like modules have been developed to build a simple, but complete, single channel analog front-end system, where all intermediary signals are readily accessible by the user. A single-channel architecture allows to avoid the beamforming overhead, though it limits the quality of the image obtained, and brings simplicity to the system. 
 
-There were tested with re-purposed ultrasound mechanical scanner heads, as well as re-purposed medical imaging transducers, and provided interesting images. Moreover, such modules could also be used in RF projects, non-destructive projects, low-cost medical imaging projects.
+The modules were tested in a context of medical ultrasound imaging, using re-purposed ultrasound mechanical scanner heads, as well as re-purposed medical imaging transducers, and with different digital acquisition systems, providing interesting images. Such modules could also be used in RF projects, non-destructive control fprojects, low-cost medical imaging projects.
 
 \end{abstract}
 
@@ -81,9 +85,9 @@ There were tested with re-purposed ultrasound mechanical scanner heads, as well 
 
 Ultrasound imaging has evolved since the first ultrasound machine appeared. The first machines were using single-sensor (transducers) techniques, coupled to mechanical scanning \cite{IntrotoUS}. 
 
-Mechanical scanning has its limitation, but also its strengths: a single signal channel, linked to a single sensor, means that corresponding electronics are simplified, and the cost reduced. Moreover, with progress made in different technical fields, mechanical probes are seen on the market again. Search found little to no documentation of previous research to rebuild these mechanical ultrasound imaging machine functions.
+Mechanical scanning has its limitation, but also its strengths: a single signal channel, linked to a single sensor, means that corresponding electronics are simplified, and the cost reduced. Moreover, with progress made in different technical fields, mechanical probes are seen on the market again. Search in academic research, and open-electronics resources, yielded little to no documentation of previous research to rebuild these mechanical ultrasound imaging machine functions.
 
-To the best of the authors knowledge, there are no open-source hardware design nor electronics accessible online for the analog-processing component. To bridge this gap, this work provides pieces of kit to allow anyone to understand and recreate the electronic core of an ultrasound machine. 
+To the best of the authors knowledge, there are no open-source hardware design nor electronics accessible online for the analog-processing component. To bridge this gap, this work provides modules to allow anyone to understand and recreate the electronic core of an ultrasound machine. 
 
 \begin{figure}%[tbhp]
 \centering
@@ -103,7 +107,7 @@ This kit consists in several modules mainly built from easily available componen
 
 \subsection{A module approach}
 
-We have chosen to use a module approach to make sure that each key component inside ultrasound image processing can easily be replaced and compared with another module. Each electronic module takes the place of a function in the signal processing chain, or allows tapping into the different signals circulating between the blocks.
+We have chosen a modular approach to make sure that each key component inside ultrasound image processing can easily be replaced and compared with another module. Each electronic module takes the place of a function in the signal processing chain, or allows tapping into the different signals circulating between the blocks.
 
 We have considered readily available open-source modules and recycled components (probes) to provide the user with bricks with which to build a basic non-medical ultrasound imaging tool. 
 
@@ -117,10 +121,6 @@ A strong focus has been put on documentation and corresponding infrastructure. T
 
 \section{Overall Implementation and design}
 
-\subsection{Simpler and smaller ultrasound devices}
-
-Several publication point at the integration of such hardware in the scan head itself, and describe prototypes of single element transducers \cite{c4,c5,c9} or piezo arrays \cite{c1,c3,c7}, in integrated, hand-held devices. 
-
 \subsection{Using echoes for imaging}
 
 Ultrasounds, high frequency sound waves, are used in medical application for both diagnosis and treatment of patients. Their frequencies can vary from 2 to approximately 15 MHz for regular imaging, sometimes higher frequencies are used for a finer surface imaging.
@@ -130,7 +130,7 @@ The ultrasound waves comes from the mechanical oscillations of a crystal in a tr
 \begin{figure}%[tbhp]
 \centering
 \includegraphics[width=.8\linewidth]{principles.pdf}
-\caption{Principles of ultrasound.}
+\caption{Principle of flaw detection with ultrasound. A void in the solid material reflects some energy back to the transducer, which is detected and displayed. Source: wikimedia}
 %\label{fig:principles}
 \end{figure}
 
@@ -144,11 +144,11 @@ The aim of the kit being to allow one to explore the mechanisms of ultrasound pr
 
 \subsection{Requirements}
 
-As mentioned, there is no open-source electronic analog system for ultrasound imaging. There are however several open-source software initiatives (like PLUS) or focus-ultrasound control systems (like Vanderbilt's Open-Source Small-Animal MR-Guided Focused Ultrasound System), or articles suggesting electronics architecture for ultrasound systems. In 2009, Tortoli et al [21] created a 64-channel open platform, with a relatively complex architecture. So far, state of the art systems cannot be built with abundant modular and easily assembled components. A simpler 4-channel acquisition setup was built with an annular array, but no automated movement A more recent approach combines relatively a 4-channel\cite{c22}, similar to our design, coupled to a Raspberry Pi. Other DIY approaches include signal generators \cite{c23}.
+As mentioned, there is no open-source electronic analog system for ultrasound imaging. There are however several open-source software initiatives (like PLUS) or focus-ultrasound control systems (like Vanderbilt's Open-Source Small-Animal MR-Guided Focused Ultrasound System), or articles suggesting electronics architecture for ultrasound systems. In 2009, Tortoli et al [21] created a 64-channel open platform, with a relatively complex architecture. So far, state of the art systems cannot be built with abundant modular and easily assembled components. A simpler 4-channel acquisition setup was built with an annular array, but no automated movement. A more recent approach combines relatively a 4-channel\cite{c22}, similar to our design, coupled to a Raspberry Pi. Other DIY approaches include signal generators \cite{c23}.
 
 State-of-the-art publication show a common structure for the different ultrasound systems [3], which has been summarized in the first figure. One can note that recent developments, and research, show the feasibility to produce compact ultrasound imaging devices, which can interface with a smartphone \cite{c8}, wirelessly or through USB \cite{c20}.
 
-A central element in the kit is the sensor, the ultrasound transducer. As we chose a single-channel processing unit, the transducer is a mono-element piezoelectric. This element has a fixed focal depth. For the sake of simplicity, a frequency on the lower range of ultrasound imaging was chosen. Larger characteristic period enable simpler, slower controls and ADCs. A frequency of 3.5MHz was chosen, with a focal distance of 70mm, which is commonly used for obstetric and gynecological imaging. As a consequence, we chose a repetition period chosen was 300us. This corresponds to an imaging depth of 230mm, more that was is required to image between 20 and 150 mm. This project focused also on single element transducers to avoid developing a more complex beam-former component. The drawback is slow scanning, mechanical fragility, and insensitivity \cite{c12}. To increased the framerate, several transducers and corresponding connections can be integrating in a sweeping or rotating scan head \cite{c13}, as it was done on previous mechanical probes.
+A central element in the kit is the sensor, the ultrasound transducer. As we chose a single-channel processing unit, the transducer is a mono-element piezoelectric. This element has a fixed focal depth. For the sake of simplicity, a frequency on the lower range of ultrasound imaging was chosen. Larger characteristic period enable simpler, slower controls and ADCs. A frequency of 3.5MHz was chosen, with a focal distance of 70mm, which is commonly used for obstetric and gynecological imaging. As a consequence, we chose a repetition period of 300us. This corresponds to an imaging depth of 230mm, more that was required to image between 20 and 150 mm. This project focused also on single element transducers to avoid developing a more complex beam-former component. The drawback is slow scanning, mechanical fragility, and insensitivity \cite{c12}. To increase the framerate, several transducers and corresponding connections can be integrating in a sweeping or rotating scan head \cite{c13}, as it was done on previous mechanical probes.
 
 The kit requires a pulser component: to have the transducer emit a signal, a high voltage pulse, precisely controlled in amplitude and in time, needs to reach the transducer. We chose off-the-shelf components after bibliography and research. Existing ICs exist, such as the MAX14808 [8], but are relatively complex, as they are octal or quad chain components.
 
@@ -165,7 +165,17 @@ A first iteration of the hardware was embodied in a beaglebone-black extension (
 
 \subsection{Designs of modules}
 
-This first iteration permitted tests, and validated parts of the design. Despite its test points, this board did not provide all the insights that can be extracted from the hardware, so a redesign was considered, to expose all key inputs and outputs of the signal processing. While existing compact elements exists, such as the AFE5808 (which which include low noise amplifiers (LNA) and analog-to-digital converters (ADCs) )\cite{c8}, we preferred using separate ICs, so that the user can measure exactly the target signal.
+Three iterations were done during the length of the project: 
+
+\begin{itemize} 
+\item A first single-board analog design was tested with a BitScope.
+\item The second design was using the two TPM and APM modules, with a medical probe on the one side, and a Beaglebone Digital Acquisition board on the other.
+\item The third design is simpler, using the two modules, with a simple transducer for the sensor, and a arduino-compatible microcontroler, with an appropriate ADC, and with wireless capabilities.
+\end{itemize}
+
+\subsection{A first integrated board}
+
+This first iteration permitted tests, and validated parts of the design. Despite its test points, this board did not provide all the insights that can be extracted from the hardware, so a redesign was considered, to expose all key inputs and outputs of the signal processing. While existing compact elements exists, such as the AFE5808 (which include low noise amplifiers (LNA) and analog-to-digital converters (ADCs) \cite{c8}, we preferred using separate ICs, so that the user can measure exactly the target signal.
 
 \begin{figure}%[tbhp]
 \centering
@@ -174,6 +184,8 @@ This first iteration permitted tests, and validated parts of the design. Despite
 \label{fig:single}
 \end{figure}
 
+\subsection{A second approach}
+
 For the sake of simplicity, a design of two separated modules emerged.
 
 \begin{itemize} 
@@ -181,7 +193,11 @@ For the sake of simplicity, a design of two separated modules emerged.
 \item The other is the Analog Processing Module (APM). A dual input for the clipped raw signal from the transducer was integrated, as well as different jumpers and pots, to control the variable gain amplifiers (VGA) gain, as well as the ADC reference voltage. The high-speed ADC was removed, and replaced with a on-board serial 2Msps ADC.
 \end{itemize}
 
-The remaining modules are micro-controllers, processing units, or power supplies that can be easily obtained and easily modified and programmed.
+The remaining elements of the kits are micro-controllers, processing units, or power supplies that can be easily obtained and easily modified and programmed.
+
+To test the two APM and TPM modules, we used a commercial ultrasound probe and a beaglebone-based acquisition board.
+
+\subsection{A third iteration}
 
 The latest set of modules is based on a wireless-enabled, arduino-compatible STM32, which has a 6 Msps on-board ADC, strictly compatible with the analog processing module for the envelope detection.
 
@@ -199,7 +215,7 @@ To save on costs and complexity, and to ensure the robustness of the designs, th
 \subsection{Safety}
 Most of the modules are found on usual open-source hardware procurement websites. However, the two modules specifically developed for this project fail to enter this category.
 
-One of the modules uses a DC-booster, which can raise the voltage it delivers above 100V, as the R05-100B can deliver up to 134VDC. However, design has limited high-voltage to specific points within the module, and to the SMA connector going to the transducer. The other pins of the module have inputs/outputs that range in the [-5V ; 5V] bracket. During the tests that took place, the full setup, without the motor, did not use more than 170 mA at 9V. The ATL3 probe, alimented at 3.3V, brought the total power envelope to 330mA at 9V. The difference of stimulating the transducer caused a 5 mA at 9V difference.
+One of the modules uses a DC-booster, which can raise the voltage it delivers above 100V, as the R05-100B can deliver up to 134VDC. Design has limited high-voltage to specific points within the module, and to the SMA connector going to the transducer. The other pins of the module have inputs/outputs that range in the [-5V ; 5V] bracket. During the tests that took place, the full setup, without the motor, did not use more than 170 mA at 9V. The ATL3 probe, alimented at 3.3V, brought the total power envelope to 330mA at 9V. The difference of stimulating the transducer caused a 5 mA at 9V difference.
 
 Other safety issues when applied to humans\cite{SafeUse}. There are indeed very strict regulations on ultrasound equipment for use on humans due to both thermal and mechanical effects of ultrasound on tissue such as overheating, and mechanical breaking of tissue structures. We understand that no medical scanners can be sold on the market without having undergone strict measurements and reporting routines (e.g. the FDA in USA and similar institutions elsewhere). 
 
@@ -214,7 +230,7 @@ In order to obtain repeatable signals, the DAC of a arduino-compatible board was
 
 \subsection{Calibrating the signal}
 
-Calibration of ultrasound electrical signal processing requires a standard signal, which is difficult to provide if using a classical transducer. Moreover, due to the variety of transducers, it would be extremely difficult to obtain a standard setup and signal.A calibration tool has been built (the DAC module), based on a STM32F205 DAC. This permitted to record the calibration signal, and to simulate the behavior of the Transducer Pulser Module (TPM).
+Calibration of ultrasound electrical signal processing requires a standard signal, which is difficult to provide using a classical transducer. Moreover, due to the variety of transducers, it would be extremely difficult to obtain a standard setup and signal. A calibration tool has been built (the DAC module), based on a STM32F205 DAC. This permitted to record the calibration signal, and to simulate the behavior of the Transducer Pulser Module (TPM).
 
 Qualification and calibration of the high-voltage level on the TPM is done using an oscilloscope.
 
@@ -222,7 +238,7 @@ Finally, the gain level of the analog processing module is in the tests describe
 
 \subsection{Developing a home-made reference material}
 
-A home-made phantom was used to test the first iteration of the board. It was made of a gelatin phantom, with tapioca inclusions of two types (2mm and 8mm), the medium being contained in a condom (as in the picture above). This type of phantom does not conserve well, and was not reused for the second iteration.
+A home-made phantom was used to test the first iteration of the board. It was made of a gelatin phantom, with tapioca inclusions of two types (2mm and 8mm), the medium being contained in a condom (as in the picture above). This type of phantom does not conserve well, and was not reused for the second iteration. Tapioca and gelatin are used as they are close in terms of ultrasound properties to human body.
 
 \begin{figure}%[tbhp]
 \centering
@@ -231,13 +247,26 @@ A home-made phantom was used to test the first iteration of the board. It was ma
 \label{fig:phantom}
 \end{figure}
 
+
+\subsection{Developing a wirephantom}
+
+The gelating phantom is useful in terms of obtaining images showing volumes. However, this type of phantom does not conserve well, and does not provide repeatible images. To this purpose, we have developped a very simple stripboard phantom, made of off-the-shelf electronic components, see~Figure~\ref{fig:wirephantom}. 
+
+\begin{figure}%[tbhp]
+\centering
+\includegraphics[width=.8\linewidth]{wirephantom}
+\caption{Using a wire phantom to determine the resolution of the device}
+\label{fig:wirephantom}
+\end{figure}
+
+
 \subsection{General testing}
 
 General testing has been done, especially for the two modules:
 
 \begin{itemize}
 \item For the Transducer Pulser Module (TPM), the criteria of the tests were the duration of the pulse, which should match the input signals, as well as the voltage of the pulse, being set by a potentiometer. Tests were done using an oscilloscope.
-\item For the analog processing unit,the DAC module allowed a standard input to be processed, and the result of the processing analyzed.
+\item For the analog processing unit, the DAC module allowed a standard input to be processed, and the result of the processing analyzed.
 \end{itemize}
 
 General conditions of the tests were that of a 150ns, 70V-pulse for the Transducer Pulser Module (TPM), with a repetition every 300us. The gain setting on the analog processing board was set to maximize the range of the signal and match it to the DAQ unit.
@@ -245,6 +274,8 @@ General conditions of the tests were that of a 150ns, 70V-pulse for the Transduc
 \section{Application}
 
 \subsection{Use case(s)}
+
+These modules can be used in any setup requiring the excitation of the transducer, and further receiving and processing of the ultrasound signals. In our case, we have shown that they are working with commercial probes as well as single elements.
 
 \subsection{General use case}
 
@@ -281,17 +312,15 @@ With the wireless setting, the setup simplifies, and only need to be powered wit
 
 \subsubsection{Testing with single element transducer}
 
-A first test was done using a single-element transducer, salvaged from a used endovaginal S-VRW77AK ultrasound probe. The transducer was moved by a basic servomotor controlled by a Trinket Pro 5V, which doubled as the controller sending the pulse commands. Data was acquired on the first iteration at 5Msps with a bitscope unit (BS10). Noise kept the SNR low, but nonetheless provided a source of data, and permitted to assess the performances of the different blocks.
+A first test was done using a single-element transducer, salvaged from a used endovaginal S-VRW77AK ultrasound probe. The transducer was moved by a basic servomotor controlled by a Trinket Pro 5V, which doubled as the controller sending the pulse commands. Data was acquired on the first iteration at 5Msps with a bitscope unit (BS10). Noise kept the SNR low, but nonetheless provided a source of data, and permitted to assess the performances of the different blocks. See Figure~\ref{fig:phantom} for the phantom, and Figure~\ref{fig:workspace} for the setup. Image type is detailed in Figure~\ref{fig:single}.
 
 \subsubsection{Testing using a commercial transducer}
 
-The dev-kit has been tested with a ATL-3 probe found on ebay. This mechanical probe has 3 rotating transducers, a characteristic of this series of ATL probes. The ATL Access 3 probe connector to the transducers is extremely simple, and consists in a BNC cable. The other connectors pins may correspond to the control of the probe motor. The probe's motor was connected to a 3.3V, allowing the transducers to rotate freely in the body of the probe. The probe also includes outputs exposing the motor control, ensuring that the excitation of transmitter pulses us synchronized with the rotation, so that each line appears in the same direction in space for each rotation of the probe. In our case, we have seen that the transducers rotate relatively uniformly with a 3.3V supply from the voltage regulator. Minor adjustments in images were done in software to obtain a consistent video loop.
+The dev-kit has been tested with a ATL-3 probe found online. This mechanical probe has 3 rotating transducers, a characteristic of this series of ATL probes. The ATL Access 3 probe connector to the transducers is simple, and consists in a BNC cable. The other connector pins may correspond to the control of the probe motor. The probe's motor was connected to a 3.3V, allowing the transducers to rotate freely in the body of the probe. The probe also includes outputs exposing the motor control, ensuring that the excitation of transmitter pulses us synchronized with the rotation, so that each line appears in the same direction in space for each rotation of the probe. In our case, we have seen that the transducers rotate relatively uniformly with a 3.3V supply from the voltage regulator. Minor adjustments in images were done in software to obtain a consistent video loop.
 
-A first acquisition try took place using a bitscope micro (BS10), similarly to the previous application. However, the interval between two captures did not lead to satisfactory acquisitions. A second try was done using the PRUDAQ, a faster, real-time acquisition unit, designed as an extension of the beaglebone. The PRUDAQ was connected to the amplified envelope signal of the analog processing module, clipped at 1.4V to protect the DAQ input. 32MB were acquired,
+A first test took place using a bitscope micro (BS10), similarly to the previous application. However, the time interval between two captures was not consistent due to buffer transfer delays and did not lead to satisfactory acquisitions. A second try was done using the PRUDAQ, a faster, real-time acquisition unit, designed as an extension of the beaglebone. The PRUDAQ was connected to the amplified envelope signal of the analog processing module, clipped at 1.4V to protect the DAQ input. 32MB were acquired. With 32MB containing two signals encored over 16 bits each, there are 8388608 points of data, or approximately 839ms. With a pulser set at 300us intervals, we should see around 2796 lines of data, which was the case. Rebuilding the image, we could see close to 12 full images,for a framerate of 14 fps, meaning that the motor was at approximately 290rpm.
 
-With 32MB containing two signals encored over 16 bits each, there is 8388608 points of data, or approximately 839ms. With a pulser set at 300us intervals, we should see around 2796 lines of data, which was the case. Rebuilding the image, we could see close to 12 full images,for a framerate of 14 fps, meaning that the motor was at approximately 290rpm.
-
-The setup was used on a ultrasound phantom, as well as on a small dice (10mm side), as seen on the image above.
+The setup was used on a ultrasound phantom, as well as on a small dice (10mm side), as seen on the image above, see Figure~\ref{fig:retroATL}.
 
 \begin{figure}%[tbhp]
 \centering
@@ -300,7 +329,17 @@ The setup was used on a ultrasound phantom, as well as on a small dice (10mm sid
 \label{fig:retroATL}
 \end{figure}
 
-Further testing was done with a ATL 10PV, 
+\subsubsection{Testing with a arduino}
+
+The last test was done using a piezo-element controlled by the Adafruit Feather WICED. The image obtained is shown in Figure~\ref{fig:wirelessimage}. We show that with a 2Msps acquisition, we can resolve the pitch between the different wires of the phantom.
+
+\begin{figure}%[tbhp]
+\centering
+\includegraphics[width=.8\linewidth]{wireless}
+\caption{Example of image acquired with the PRUDAQ and a ATL 3 probe}
+\label{fig:wirelessimage}
+\end{figure}
+
 
 \subsubsection{Datasets}
 
@@ -321,19 +360,19 @@ The technology developed here does not differ from the technology used in NDT. T
 
 \subsubsection{Application for transducer professionals} 
 
-Often, ultrasound equipment repair professionals need to check each element in probe-arrays, and thus only need a single channel equipment. This kit would possibly be useful in this purpose. 
+Often, ultrasound equipment repair professionals need to check each element in probe-arrays, and thus only need a single channel equipment. These modules would possibly be useful for this purpose. 
 
 \subsubsection{High speed DAC}
 
-Having worked with the DAC module enables one to be able to work on the acquisition system, based on a known-signal input. This enables repeatability of the input, contrarily to images that are usually capture using a probe on a ultrasound phantom. This DAC can go up to 2MHz, on a limited voltage range, and could be used in testing analog signals processing
+Having worked with the DAC module enables one to be able to work on the acquisition system, based on a known-signal input. This enables repeatability of the input, contrarily to images that are usually captured using a probe on a ultrasound phantom. This DAC can go up to 2MHz, on a limited voltage range, and could be used in testing analog signals processing
 
 \subsubsection{Pulser}
 
-IT is suggested that the pulser can be used in medical ultrasound image devices, or for test applications. Its up to 35 MHz operating frequency and 2 ns matched delay times allow higher frequencies uses, such as superficial imaging or doppler analyses \cite{c1}.
+It is suggested that the pulser can be used in medical ultrasound image devices, or for test applications. Its up to 35 MHz operating frequency and 2 ns matched delay times allow higher frequencies uses, such as superficial imaging or doppler analyses \cite{c1}.
 
 \subsubsection{Analog processing}
 
-The analogue processing module was tested for signals from 2MHz to 10MHz, with some distortion happening on the higher end of the bracket. However, it can be noted that, with the possibility to measure and control the inputs and outputs of between each processing unit, this module could possibly be used for signal demodulation.
+The analogue processing module was tested for signals from 2MHz to 10MHz, with some distortion happening on the higher end of the bracket. However, it can be noted that, with the possibility to measure and control the inputs and outputs between each processing unit, this module could possibly be used for signal demodulation.
 
 \subsubsection{High-speed, wireless DAQ}
 
@@ -349,7 +388,7 @@ Apart from the well-know obstetrics and gynecology uses, ultrasound devices have
 
 \subsubsection{A low-cost option}
 
-Apart from the wireless-enable micro-controller at 35\$, the two custom modules components cost 60 and 85 euros respectively. This low-cost lifts the barrier of high-cost equipment purchase, and hence facilitates the reuse of these designs.
+Apart from the wireless-enable micro-controller at 35\$, the two custom modules components bill of materials cost 60\$ and 85\$ respectively. This low-cost lifts the barrier of high-cost equipment purchase, and hence facilitates the reuse of these designs.
 
 \subsection{Support} 
 
@@ -383,7 +422,7 @@ To collect the data, the beaglebone module simply uses the beaglebone black with
 
 \item Most of the processing code is using Python 2.7, which is GPL-compatible.
 \item The Beaglebone module is using a BeagleBone Black, which is under a Creative Commons Attribution-Share Alike 3.0 license.
-\item The Feather WICED module is, Open Hardware and Open Source for its software.
+\item The Feather WICED module is Open Hardware, and Open Source for its software.
 \item The code for the arduino-compatible modules is developed under Arduino IDE.
 \item The two boards developed under this project are following the Open Hardware TAPR license. 
 \item The source documents for these two boards was originally developed using Altium (proprietary), but the source has been ported to KiCad, which is under a GNU General Public License(GPL) version 3.
@@ -429,10 +468,10 @@ This set of modules shows that ultrasound imaging can profit from a usable dev-k
 \begin{itemize}
 \item In general, the design of the boards can be greatly improved. For example, having only two layers on the current design may be a source of noise. Moreover, applying a RF net to the board or using a RF shield for the sensitive parts may be an idea.
 \item The pulser-module design uses only two inputs, and one high voltage source. However, the chip enables more complex uses as a pulser, which can be further explored.
-\item The PRUDAQ has a real-time access to the digital information, as well as a linux userspace. Further programming would enable the beaglebone plateform to be a real server and controller of the setup.
+\item The PRUDAQ has a real-time access to the digital information, as well as a Linux userspace. Further programming would enable the beaglebone platform to be a real server and controller of the setup.
 \item The modules are slightly too wide for a breadboard: an effort could be done to make the pins available on a standard breadboard.
 \item A whole field left unexplored so far is that of the transducer. As the key sensor in the kit, it would be interesting to explore relevant technologies to develop a low-cost, good-enough transducer.
-\item The transducer at the moment lies in water. For ease of work, scan head will have to be developed. A difficulty will be to determine the acoustic window material and its thickness. Several works already give pointers in that sense \cite{c1}.
+\item The transducer at the moment lies in water. For ease of working, probes or scan head will have to be developed. A difficulty will be to determine the acoustic window material and its thickness. Several works already give pointers in that sense \cite{c1}.
 \item An additional module would be a wire phantom, use to qualify the images obtain with such a system. Wire phantoms are commonly used [9], where 20 micrometer wire would be used.
 \item A multiplexer module can be used, to interface this single channel kit with an array probe. Doing this would permit to do synthetic aperture imaging, and to characterize as well each element in the array.
 \item From a software point of view, the modules could be wirelessly controlled, leveraging the existing wireless communication channel, so that researchers can use a single unit for a laboratory, controlled from personal computers.
@@ -452,7 +491,7 @@ A huge thanks to the friends in the community for their sharing their ideas and 
 
 \subsection*{Funding statement}
 
-This project has been funded by personal funds, and supported by two prizes from the hackaday 2016 contest.
+This project has been funded by personal funds, and supported by two prizes from the Hackaday 2016 contest.
 
 \subsection*{Competing interests}
 
