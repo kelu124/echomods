@@ -1047,6 +1047,16 @@ _“We do not grow absolutely, chronologically. We grow sometimes in one dimensi
 * Peter confirms the probe is on its way.
 * JOH article: first comments received. Harsh, but good to move forward! And adding a couple of images, better introduction, ...
 
+
+#### 2017-02-11 Diverse
+
+* Moving things forward with the [JOH article](/include/JOH/source/main.tex)
+* Testing the [RPi0 max GPIO speed](/goblin/pi0/Readme.md) to try it with the goblin ADC
+* Full day meeting for PRJ methodo.
+
+
+
+
 =======
 
 uControllers and other stuff
