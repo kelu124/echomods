@@ -1,7 +1,7 @@
 ### Info [](@description supplier source file)
 
 * Name: American Piezo (APC)
-* Site: americanpiezo.com
+* Site: http://americanpiezo.com
 * Contact: sales@americanpiezo.com, jzahnd@americanpiezo.com
 
 ### Status

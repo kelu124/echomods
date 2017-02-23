@@ -1,4 +1,4 @@
-# Module: Cletus
+# Module: Cletus  [](@description Piezo+Servo module)
 
 ![](/cletus/viewme.png)
 

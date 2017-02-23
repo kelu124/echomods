@@ -3,9 +3,9 @@
 * [./CLA.md](/CLA.md): 
 * [./Worklog.md](/Worklog.md): Full worklog of the modules
 * [./CodeOfConduct.md](/CodeOfConduct.md): 
-* [./sleepy/Readme.md](/sleepy/Readme.md): 
+* [./sleepy/Readme.md](/sleepy/Readme.md): Casing of the modules - readme
 * [./tobo/Readme.md](/tobo/Readme.md): 
-* [./cletus/Readme.md](/cletus/Readme.md): 
+* [./cletus/Readme.md](/cletus/Readme.md): Piezo+Servo module
 * [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): supplier source file
 * [./cletus/suppliers/supplier-sti.md](/cletus/suppliers/supplier-sti.md): supplier source file
 * [./cletus/suppliers/supplier-smartmaterials.md](/cletus/suppliers/supplier-smartmaterials.md): supplier source file
@@ -22,7 +22,7 @@
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file
 * [./cletus/suppliers/piezo-specs.md](/cletus/suppliers/piezo-specs.md): 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme
-* [./oneeye/Readme.md](/oneeye/Readme.md): 
+* [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
 * [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs
 * [./croaker/notes_ESP32.md](/croaker/notes_ESP32.md): Notes on ESP32
@@ -69,27 +69,28 @@
 * [./include/biblio/Readme.md](/include/biblio/Readme.md): 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md): 
 * [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md): 
-* [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): 
+* [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov
 * [./include/JOH/joh_article.md](/include/JOH/joh_article.md): 
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md): 
 * [./include/vscan/Readme.md](/include/vscan/Readme.md): 
 * [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes
-* [./toadkiller/Readme.md](/toadkiller/Readme.md): 
+* [./toadkiller/Readme.md](/toadkiller/Readme.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together
 * [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016
 * [./goblin/2016-10-26_Zach.md](/goblin/2016-10-26_Zach.md): Zach's worklog, simplified, on murgen
 * [./goblin/Readme.md](/goblin/Readme.md): Goblin description
+* [./goblin/pi0/Readme.md](/goblin/pi0/Readme.md): 
 * [./gitbook/SUMMARY.md](/gitbook/SUMMARY.md): 
 * [./gitbook/GLOSSARY.md](/gitbook/GLOSSARY.md): 
 * [./gitbook/devkit1.md](/gitbook/devkit1.md): 
 * [./gitbook/Chapter2/results.md](/gitbook/Chapter2/results.md): 
 * [./gitbook/Chapter2/basicdevkit.md](/gitbook/Chapter2/basicdevkit.md): 
-* [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): 
+* [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin)
 * [./silent/notes_R2R_DAC.md](/silent/notes_R2R_DAC.md): 
-* [./silent/2016-08-02.md](/silent/2016-08-02.md): 
+* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator
 * [./silent/Readme.md](/silent/Readme.md): Main doc for the ultrasound signal emulator
-* [./mogaba/Readme.md](/mogaba/Readme.md): 
+* [./mogaba/Readme.md](/mogaba/Readme.md): Off-the shelf power supply module - Readme
 
 ## Arduino files
 
@@ -100,7 +101,7 @@
 * [2ADC2UDP.ino](/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP
 * [Registers1MspsDisplayTrigged.ino](/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.
 * [ReadPins.ino](/croaker/feather_tests/ReadPins.ino): Reading pins
-* [2Msps_Server.ino](/croaker/feather_tests/2Msps_Server.ino): 
+* [2Msps_Server.ino](/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it
 * [ADC2UDP-Cleaning.ino](/croaker/feather_tests/ADC2UDP-Cleaning.ino): 
 * [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
 * [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose

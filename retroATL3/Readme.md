@@ -71,8 +71,11 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ## Constraint and limits
 
-* Motor is a 12V... doesn't move below 10V ... using 300mA@10V -- we could use a [5V to 12V DC/DC boost similar to this one](https://www.pololu.com/product/2117/specs). Could feed onto the 5V entry and leave on the 12V output. Can be found on Gotronics and such. Or the 12V could be delivered to the board itself.
-* How many pizeos??
+* __BEWARE! Only for ATL PV10__ Motor is a 12V... doesn't move below 10V ... using 300mA@10V -- we could use a [5V to 12V DC/DC boost similar to this one](https://www.pololu.com/product/2117/specs). Could feed onto the 5V entry and leave on the 12V output. Can be found on Gotronics and such. Or the 12V could be delivered to the board itself.
+
+* For using the ATL Access 3, the 3.3V can be used directly from the [power supply](/mogaba/) -- see [this page](https://kelu124.gitbooks.io/echomods/content/Chapter2/basicdevkit.html).
+
+* How many pizeos -- there are 3 =)
 * Oil to be found to replace lost one =) Feeback: linseed oil seems good !
 
 * Tested with murgen : not really pratical to use, maybe to be replaced with a simple 3MHz probe. [Read the full test on murgen's repo](https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/Session_9_ATL.md).
@@ -149,9 +152,20 @@ _This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-
 
 ![](/retroATL3/images/DSC_0725.JPG)
 
+### Want to know more about electrical impedance?
+
+Some resources:
+
+* http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc
+* http://alejandria.ccm.itesm.mx/biblioteca/digital/liele/pcmc.pdf
+
+* Impedance matching? See https://www.ncbi.nlm.nih.gov/pubmed/23443705
+
 ### TODO
 
 * _BONUS!_ Get RealTime acquisition
+* Determine the impedance of the transducer seen by [tobo](/tobo/) (@ulb ?)
+* Do some impedance matching (@ulb ?)
 
 ### DONE
 

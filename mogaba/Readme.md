@@ -1,4 +1,4 @@
-# Module: Mogaba
+# Module: Mogaba  [](@description Off-the shelf power supply module - Readme)
 
 ![](/mogaba/viewme.png)
 

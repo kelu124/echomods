@@ -5,7 +5,7 @@
 * [2ADC2UDP.ino](/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP
 * [Registers1MspsDisplayTrigged.ino](/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.
 * [ReadPins.ino](/croaker/feather_tests/ReadPins.ino): Reading pins
-* [2Msps_Server.ino](/croaker/feather_tests/2Msps_Server.ino): 
+* [2Msps_Server.ino](/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it
 * [ADC2UDP-Cleaning.ino](/croaker/feather_tests/ADC2UDP-Cleaning.ino): 
 * [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
 * [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose

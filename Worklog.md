@@ -1054,8 +1054,21 @@ _“We do not grow absolutely, chronologically. We grow sometimes in one dimensi
 * Testing the [RPi0 max GPIO speed](/goblin/pi0/Readme.md) to try it with the goblin ADC
 * Full day meeting for PRJ methodo.
 
+#### 2017-02-12 Diverse
 
+* Fun: http://hirelofty.com/blog/how-build-slack-bot-mimics-your-colleague/
+* Playing with markov chains : http://agiliq.com/blog/2009/06/generating-pseudo-random-text-with-markov-chains-u/
 
+#### 2017-02-19 Update to Doj and such
+
+* Thinking about an update for a neat, silkcreened, well designed motherboard. Would be excellent for Altay, Felix and maybe 
+* Been doing some progress about the HV - working with Lorena to get one on board. I'll have 2 pulsers, will ask for 3. In total I'll still be able to send to (Afreen/Felix/Altay) + one for the GroupGet friends. Would leave me with one. 
+* Afreen still working on the feather, after contacting the PRUDAQ guys.
+* Get Felix on Slack?
+* Call scheduled with Fouad on tuesday
+* Making progress on 20e214 - control of the probe OK. Display remaining, then CSV saving.
+* Taking more time about the Slack bot: lower priority
+* Update by Tobey: he found a way to compare PDFs.
 
 =======
 
@@ -1071,9 +1084,9 @@ uControllers and other stuff
 * 150 us acquisition, single channel
 * 6 Msps interleaved mode
 
-In 150 us you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
+In 150 us (one line) you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
 
-In practice, we rather see 8Mbit/s, thats 1.2ms to send it. E
+In practice, we rather see 8Mbit/s, thats 1.2ms to send it. 
 
 #### Case of ESP8266
 

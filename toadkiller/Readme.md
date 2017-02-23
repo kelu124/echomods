@@ -1,4 +1,4 @@
-# Module: ToadKiller dog
+# Module: ToadKiller dog  [](@description Acquiring data through a BeagleBone 40Msps PRUDAQ - readme)
 
 ![](/toadkiller/viewme.png)
 

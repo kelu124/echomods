@@ -1,4 +1,4 @@
-# Module: oneeye
+# Module: oneeye  [](@description Standalone pulser control unit - readme)
 
 ![](/oneeye/viewme.png)
 

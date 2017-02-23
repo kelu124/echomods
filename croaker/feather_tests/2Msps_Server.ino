@@ -3,6 +3,7 @@
   Copyright 2016
   Repo:https://github.com/kelu124/echomods/tree/master/croaker
   Contributor:Jean-Pierre Redonnet inphilly@gmail.com for his "Fast dual conversion with ADC1 + ADC2"
+  Description: Getting data at 2Msps and streaming it 
   Adapted to STM32F205 of the Feather WICED
   Licence: GNU GPL 2
 

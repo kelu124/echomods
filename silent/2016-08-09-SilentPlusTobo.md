@@ -1,4 +1,4 @@
-# Progress from 2016-08-09
+# Progress from 2016-08-09  [](@description Different steps of Signal emulation  (silent) being processed (by goblin) )
 
 * Managed to get the proper code to emit the lines only when PULSE_OFF starts (beginning of the image normally)
 * It emits a decreasing signal (enveloppe down) and a couple of pulses
