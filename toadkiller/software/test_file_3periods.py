@@ -15,8 +15,9 @@ import struct
 import matplotlib.pyplot as plt
 import numpy as np
 
+BinFile = "afreen.bin"
 
-bytes_read = open("rawsignal.bindump", "rb").read()
+bytes_read = open(BinFile, "rb").read()
 
 i = 0
 k = 0
@@ -24,9 +25,9 @@ data = []
 autredata = []
 lb = 0
 hb = 0
-with open("rawsignal.bindump", "rb") as f:
+with open(BinFile, "rb") as f:
     byte = f.read(1)
-    while byte != "" and k < (6*12000):
+    while byte != "" and k < (24*12000):
         # Do stuff with byte.
         byte = f.read(1)
 	if len(byte)>0:
