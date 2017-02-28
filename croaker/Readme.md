@@ -80,6 +80,13 @@ They can be [found here](/croaker/data/examples/).
 
 They have been acquired with `nc -lu 5005` to listen to data coming from UDP port 5005, then translated in images using the [CreateCSV.py](/croaker/data/examples/CreateCSV.py) script, which creates the raw data files, ready to be processed, respecting the format, and scan converted using the [CreateSC.py](/croaker/data/examples/CreateSC.py) script for a nearest neighbour scan conversion.
 
+## Locating the image
+
+To find the IP of the board on your local network, you can type:
+
+ sudo nmap -sn 192.168.1.0/24
+
+
 ## Boosting the ADC work
 
 ### Getting to work with two onboard ADCs. Getting a relatively nice signal.
