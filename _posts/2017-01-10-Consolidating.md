@@ -32,5 +32,3 @@ the present. We are made up of layers, cells, constellations.”*
 -   JOH article: first comments received. Harsh, but good to move
     forward! And adding a couple of images, better introduction, ...
 
-=======
-
