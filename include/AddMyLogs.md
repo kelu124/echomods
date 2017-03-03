@@ -941,6 +941,16 @@ _“We do not grow absolutely, chronologically. We grow sometimes in one dimensi
 * Taking more time about the Slack bot: lower priority
 * Update by Tobey: he found a way to compare PDFs.
 
+
+#### 2017-03-01 RPi0
+
+See [this log](/goblin/pi0/HighSpeedBurstADC.md)
+
+#### 2017-03-02 RPi0  bis
+
+Given RPi0 capabilities in terms of [GPIOs](/croaker/notes_RPi0.md) - why not push it to 20Msps, 8 bits, for the cape?
+
+
 =======
 
 

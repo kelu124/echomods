@@ -30,10 +30,11 @@ SignosRT Handheld Ultrasound, possible mechanical sweeping, monoelement?
 
 ### SonoSite NanonMaxx(ATL)
 
-
+SonoSite NanonMaxx(ATL)
 
 ### Siemens Acuson P10 Handheld Ultrasound 
 
+Siemens Acuson P10 Handheld Ultrasound 
 
 ### Sonostar device (UProbe-2)
 
@@ -42,21 +43,22 @@ Wireless, chinese / brandless ?
 
 ### Sonostar #2 (UProbe-1)
 
+Sonostar #2 (UProbe-1)
 
 ### Sonostart #3 (UProbe-20) with USB  -- aka MSLPU39
 
-
+Sonostart #3 (UProbe-20) with USB  -- aka MSLPU39
 
 
 ### Sonimage P3 - Konica Sonimage - removable head
 
-
+Sonimage P3 - Konica Sonimage - removable head
 
 ### UScan -- signosRT
 
-
+UScan -- signosRT
 
 ### BestScan S3
 
-
+BestScan S3
 

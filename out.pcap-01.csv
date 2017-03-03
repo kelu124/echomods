@@ -1,0 +1,6 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+54:4A:16:27:FF:E7, 2017-03-01 21:22:58, 2017-03-01 21:22:58, 13,  54, WPA2WPA , CCMP TKIP,PSK, -45,        2,        0,   0.  0.  0.  0,  14, SV-1 GMBFLA126, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+

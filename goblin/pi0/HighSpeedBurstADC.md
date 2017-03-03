@@ -23,4 +23,7 @@ Some inspiration [from earlier](/croaker/notes_RPi0.md)
 
 * Other level shifter? http://www.nxp.com/documents/data_sheet/P82B96.pdf
 
+## Step 2 : SMD? 
+
+Given RPi0 capabilities in terms of [GPIOs](/croaker/notes_RPi0.md) - why not push it to 20Msps, 8 bits, for the cape?
 

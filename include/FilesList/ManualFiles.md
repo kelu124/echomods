@@ -78,6 +78,7 @@
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016
 * [./goblin/2016-10-26_Zach.md](/goblin/2016-10-26_Zach.md): Zach's worklog, simplified, on murgen
 * [./goblin/Readme.md](/goblin/Readme.md): Goblin description
+* [./goblin/pi0/HighSpeedBurstADC.md](/goblin/pi0/HighSpeedBurstADC.md): 
 * [./goblin/pi0/Readme.md](/goblin/pi0/Readme.md): 
 * [./gitbook/SUMMARY.md](/gitbook/SUMMARY.md): 
 * [./gitbook/GLOSSARY.md](/gitbook/GLOSSARY.md): 

@@ -1,0 +1,13 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+54:4A:16:27:FF:E7, 2017-03-01 21:24:01, 2017-03-01 21:24:01, 13,  54, WPA2WPA , CCMP TKIP,PSK, -41,        3,        0,   0.  0.  0.  0,  14, SV-1 GMBFLA126, 
+68:A3:78:88:86:AD, 2017-03-01 21:24:01, 2017-03-01 21:24:01, 11,  54, WPA , CCMP TKIP,PSK, -57,        1,        0,   0.  0.  0.  0,  14, freebox_Goutte, 
+4A:F9:DC:39:15:1F, 2017-03-01 21:24:01, 2017-03-01 21:24:01, 13,  54, WPA , CCMP, MGT, -67,        1,        0,   0.  0.  0.  0,  15, FreeWifi_secure, 
+4A:F9:DC:39:15:1C, 2017-03-01 21:24:01, 2017-03-01 21:24:01, 13,  54, WPA , CCMP TKIP,PSK, -67,        1,        0,   0.  0.  0.  0,  11, WIFI_berjou, 
+4A:F9:DC:39:15:1E, 2017-03-01 21:24:01, 2017-03-01 21:24:01, 13,  54, OPN ,       ,   , -68,        2,        0,   0.  0.  0.  0,   8, FreeWifi, 
+5C:33:8E:CF:0F:13, 2017-03-01 21:24:00, 2017-03-01 21:24:00,  1,  54, WPA2WPA , CCMP TKIP,PSK, -66,        1,        0,   0.  0.  0.  0,   7, LAPIBAR, 
+48:83:C7:56:71:60, 2017-03-01 21:24:00, 2017-03-01 21:24:00,  6,  54, WPA2WPA , CCMP,PSK, -29,        1,        0,   0.  0.  0.  0,  13, Bbox-089C716D, 
+48:83:C7:56:71:64, 2017-03-01 21:23:41, 2017-03-01 21:24:59, 44,  54, WPA2WPA , CCMP,PSK, -43,     1612,        0,   0.  0.  0.  0,  18, Bbox-089C716D-5GHz, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+
