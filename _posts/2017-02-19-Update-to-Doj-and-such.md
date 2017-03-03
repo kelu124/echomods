@@ -22,5 +22,3 @@ title: 2017-02-19 Update to Doj and such
 -   Taking more time about the Slack bot: lower priority
 -   Update by Tobey: he found a way to compare PDFs.
 
-=======
-
