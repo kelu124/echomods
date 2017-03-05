@@ -27,3 +27,14 @@ Some inspiration [from earlier](/croaker/notes_RPi0.md)
 
 Given RPi0 capabilities in terms of [GPIOs](/croaker/notes_RPi0.md) - why not push it to 20Msps, 8 bits, for the cape?
 
+
+
+## Other ideas
+
+wiringPi is a PIN based GPIO library, however it does have a couple of functions that let you read up to 8 bits at a time from 2 different sets of pin (which overlap). If you're on a Pi v1 then digitalReadByte() reads in the 32-bits of the first register and does some bit fiddling to give you an 8-bit value based on the inputs of the first 8 usable GPIO pins. On a 40-pin Pi, you also have digitlaReadByte2() which reads an 8-bit value from 8 consecutive pins which only involves a single shift. See the source code to work out the actual pins. (and there is writeByte too)
+
+* https://www.raspberrypi.org/forums/viewtopic.php?t=175645&p=1122820
+
+Running it and its taking about 0.94 seconds on a v1 Pi @ 900Mhz so that's a little over 10 million digitalWrites per second. I think that's fast enough for you
+
+
