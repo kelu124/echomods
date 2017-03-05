@@ -1,0 +1,1771 @@
+Fri Feb 24 09:53:54 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 09:53:54 Saved as file BACKUP1.MAX
+Fri Feb 24 09:53:54 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 09:53:54 UserDiv from Layout.INI for AutoECO: 60
+Fri Feb 24 09:53:54 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 09:53:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Fri Feb 24 09:53:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Fri Feb 24 09:53:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 09:53:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Fri Feb 24 09:53:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Fri Feb 24 09:53:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Fri Feb 24 09:53:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Fri Feb 24 09:53:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Fri Feb 24 09:53:55 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Fri Feb 24 09:53:56 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Fri Feb 24 09:53:56 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Fri Feb 24 09:53:56 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Fri Feb 24 09:53:56 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Fri Feb 24 09:53:56 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Fri Feb 24 09:53:56 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Fri Feb 24 09:53:56 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Fri Feb 24 09:53:56 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 09:53:56 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:53:56 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:53:56 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:53:56 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:53:56 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:54:07 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:54:07 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:05 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:06 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:55:35 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:36 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:37 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:38 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:55:41 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:41 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 09:55:50 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:53 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:54 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 09:55:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 09:55:55 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:55:55 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:56:05 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 09:56:06 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Fri Feb 24 09:56:10 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:56:11 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:56:12 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 09:56:13 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 09:56:31 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:56:31 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:56:31 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 09:56:31 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 09:56:32 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 09:56:32 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 09:56:32 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:23:43 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:23:43 Saved as file BACKUP1.MAX
+Fri Feb 24 11:23:43 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:23:46 UserDiv from Layout.INI for AutoECO: 60
+Fri Feb 24 11:23:46 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Fri Feb 24 11:23:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 11:23:47 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 11:23:47 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Fri Feb 24 11:23:47 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Fri Feb 24 11:23:47 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Fri Feb 24 11:23:47 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Fri Feb 24 11:23:47 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Fri Feb 24 11:23:47 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Fri Feb 24 11:23:47 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Fri Feb 24 11:23:47 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Fri Feb 24 11:23:47 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Fri Feb 24 11:23:48 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Fri Feb 24 11:23:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Fri Feb 24 11:23:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 11:23:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:23:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:23:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:23:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:23:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 11:23:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 11:23:52 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 11:23:52 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 11:23:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Fri Feb 24 11:23:54 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Fri Feb 24 11:23:55 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 11:23:57 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Fri Feb 24 11:23:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Fri Feb 24 11:23:59 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Fri Feb 24 11:23:59 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 11:24:00 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Fri Feb 24 11:24:05 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 11:24:06 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 11:24:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:24:09 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 11:24:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 11:24:17 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:24:17 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:24:17 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:24:17 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 11:24:17 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:24:19 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:24:19 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:24:20 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:24:29 Error code 5200.306
+Fri Feb 24 11:24:29 Saved as file Backup0.max
+Fri Feb 24 11:24:29 Windows which were open at time of error:
+Fri Feb 24 11:24:29 	ActiveWindow: Library Manager
+Fri Feb 24 11:24:29 End-of-list
+Fri Feb 24 11:24:30 Loaded file BACKUP0.MAX
+Fri Feb 24 11:30:48 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:30:48 Saved as file BACKUP1.MAX
+Fri Feb 24 11:30:48 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:30:49 UserDiv from Layout.INI for AutoECO: 60
+Fri Feb 24 11:30:49 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Fri Feb 24 11:30:49 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 11:30:49 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 11:30:50 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 11:30:50 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 11:30:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 11:30:59 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Fri Feb 24 11:31:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 11:31:05 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Fri Feb 24 11:31:06 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 11:31:07 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 11:31:08 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 11:31:09 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 11:41:04 Saved as file BACKUP1.MAX
+Fri Feb 24 11:51:04 Saved as file BACKUP1.MAX
+Fri Feb 24 12:01:05 Saved as file BACKUP1.MAX
+Fri Feb 24 12:11:05 Saved as file BACKUP1.MAX
+Fri Feb 24 12:21:05 Saved as file BACKUP1.MAX
+Fri Feb 24 12:31:05 Saved as file BACKUP1.MAX
+Fri Feb 24 12:41:06 Saved as file BACKUP1.MAX
+Fri Feb 24 12:51:06 Saved as file BACKUP1.MAX
+Fri Feb 24 12:51:35 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 12:51:35 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 12:51:35 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 12:51:35 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 12:51:35 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 12:51:36 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 12:51:36 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 12:51:36 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 13:01:36 Saved as file BACKUP1.MAX
+Fri Feb 24 13:11:37 Saved as file BACKUP1.MAX
+Fri Feb 24 13:21:37 Saved as file BACKUP1.MAX
+Fri Feb 24 13:31:37 Saved as file BACKUP1.MAX
+Fri Feb 24 13:41:37 Saved as file BACKUP1.MAX
+Fri Feb 24 13:51:38 Saved as file BACKUP1.MAX
+Fri Feb 24 14:01:38 Saved as file BACKUP1.MAX
+Fri Feb 24 14:03:21 Error code 5200.306
+Fri Feb 24 14:03:21 Saved as file Backup0.max
+Fri Feb 24 14:03:21 Windows which were open at time of error:
+Fri Feb 24 14:03:21 	ActiveWindow: Library Manager
+Fri Feb 24 14:03:21 End-of-list
+Fri Feb 24 14:03:21 Loaded file BACKUP0.MAX
+Fri Feb 24 14:04:00 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:04:00 Saved as file BACKUP1.MAX
+Fri Feb 24 14:04:00 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:04:01 UserDiv from Layout.INI for AutoECO: 60
+Fri Feb 24 14:04:01 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Fri Feb 24 14:04:01 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:04:01 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 14:04:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 14:04:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 14:04:09 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Fri Feb 24 14:04:09 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 14:04:10 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 14:04:10 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 14:04:13 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:20 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 14:04:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 14:04:34 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:34 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:34 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:34 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:04:34 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:04:36 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:04:36 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:04:36 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:07:24 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:07:24 Saved as file BACKUP1.MAX
+Fri Feb 24 14:07:24 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:07:25 UserDiv from Layout.INI for AutoECO: 60
+Fri Feb 24 14:07:25 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Fri Feb 24 14:07:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 14:07:26 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 14:07:26 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 14:07:40 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:07:48 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 14:07:55 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:07:58 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:07:58 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:07:58 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:12:45 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:12:45 Saved as file BACKUP1.MAX
+Fri Feb 24 14:12:45 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:12:45 UserDiv from Layout.INI for AutoECO: 60
+Fri Feb 24 14:12:45 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Fri Feb 24 14:12:45 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Fri Feb 24 14:12:45 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Fri Feb 24 14:12:46 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Feb 24 14:12:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Fri Feb 24 14:12:46 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:12:46 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:14:37 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:14:39 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:14:42 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Feb 24 14:23:00 Saved as file BACKUP1.MAX
+Fri Feb 24 14:33:00 Saved as file BACKUP1.MAX
+Fri Feb 24 14:43:00 Saved as file BACKUP1.MAX
+Fri Feb 24 14:53:01 Saved as file BACKUP1.MAX
+Fri Feb 24 15:03:01 Saved as file BACKUP1.MAX
+Fri Feb 24 15:13:01 Saved as file BACKUP1.MAX
+Fri Feb 24 15:23:01 Saved as file BACKUP1.MAX
+Fri Feb 24 15:33:02 Saved as file BACKUP1.MAX
+Fri Feb 24 15:43:02 Saved as file BACKUP1.MAX
+Fri Feb 24 15:53:02 Saved as file BACKUP1.MAX
+Fri Feb 24 16:03:03 Saved as file BACKUP1.MAX
+Fri Feb 24 16:07:22 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:12:08 Saved as file BACKUP1.MAX
+Sat Feb 25 17:12:09 Error code 0034.912 (266)
+Sat Feb 25 17:12:10 Saved as file Backup0.max
+Sat Feb 25 17:12:10 Windows which were open at time of error:
+Sat Feb 25 17:12:10 	ActiveWindow: &Design
+Sat Feb 25 17:12:10 	Icon: &Components
+Sat Feb 25 17:12:10 	Icon: &Nets
+Sat Feb 25 17:12:10 	Icon: Post Proces&s
+Sat Feb 25 17:12:10 End-of-list
+Sat Feb 25 17:12:33 Loaded file BACKUP0.MAX
+Sat Feb 25 17:13:48 Saved as file ~undo.max
+Sat Feb 25 17:22:33 Saved as file BACKUP1.MAX
+Sat Feb 25 17:32:34 Saved as file BACKUP1.MAX
+Sat Feb 25 17:34:28 Error code 5200.306
+Sat Feb 25 17:34:28 Saved as file Backup0.max
+Sat Feb 25 17:34:28 Windows which were open at time of error:
+Sat Feb 25 17:34:28 	ActiveWindow: Library Manager
+Sat Feb 25 17:34:28 End-of-list
+Sat Feb 25 17:34:28 Loaded file BACKUP0.MAX
+Sat Feb 25 17:37:14 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:37:14 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:37:15 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:37:15 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:37:15 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:39:18 Saved as file BACKUP1.MAX
+Sat Feb 25 17:39:18 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:39:18 UserDiv from Layout.INI for AutoECO: 60
+Sat Feb 25 17:39:18 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Sat Feb 25 17:39:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Sat Feb 25 17:39:18 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Sat Feb 25 17:39:18 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:39:18 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:40:12 Saved as file BACKUP1.MAX
+Sat Feb 25 17:40:12 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:40:12 UserDiv from Layout.INI for AutoECO: 60
+Sat Feb 25 17:40:12 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Sat Feb 25 17:40:12 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Sat Feb 25 17:40:12 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Sat Feb 25 17:40:12 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:40:12 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sat Feb 25 17:44:04 Saved as file BACKUP1.MAX
+Sat Feb 25 17:44:53 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:06 Saved as file BACKUP1.MAX
+Mon Feb 27 20:17:06 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:07 UserDiv from Layout.INI for AutoECO: 60
+Mon Feb 27 20:17:07 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Mon Feb 27 20:17:07 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Mon Feb 27 20:17:07 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Mon Feb 27 20:17:07 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:08 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:23 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:24 Saved as file ~undo.max
+Mon Feb 27 20:17:42 Saved as file BACKUP1.MAX
+Mon Feb 27 20:17:42 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:42 UserDiv from Layout.INI for AutoECO: 60
+Mon Feb 27 20:17:42 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Mon Feb 27 20:17:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Mon Feb 27 20:17:42 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Mon Feb 27 20:17:42 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:17:42 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:20:25 Saved as file BACKUP1.MAX
+Mon Feb 27 20:20:25 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:20:25 UserDiv from Layout.INI for AutoECO: 60
+Mon Feb 27 20:20:25 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Mon Feb 27 20:20:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Mon Feb 27 20:20:25 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Mon Feb 27 20:20:25 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:20:25 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:21:42 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:25:03 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:25:10 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:25:10 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:25:11 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 20:25:14 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Mon Feb 27 20:25:18 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:25:22 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:25:25 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:28:22 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:28:24 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Mon Feb 27 20:28:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:28:30 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:28:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:28:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:28:41 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:28:44 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:28:46 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:29:57 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:29:57 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:29:58 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:30:00 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:30:17 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:30:17 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:30:19 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 20:30:35 Saved as file BACKUP1.MAX
+Mon Feb 27 20:34:04 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:34:22 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:34:22 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:34:22 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 20:34:22 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 21:42:31 Saved as file BACKUP1.MAX
+Mon Feb 27 21:42:31 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 21:42:32 UserDiv from Layout.INI for AutoECO: 60
+Mon Feb 27 21:42:32 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Mon Feb 27 21:42:32 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Mon Feb 27 21:42:32 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Mon Feb 27 21:42:32 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 21:42:33 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 21:50:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:50:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:50:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:50:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:50:37 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Mon Feb 27 21:50:40 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Mon Feb 27 21:50:44 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:13 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:13 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:13 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:13 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:13 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:14 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:14 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:21 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:21 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:21 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:21 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:23 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 21:51:24 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Mon Feb 27 21:51:25 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Mon Feb 27 21:51:25 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:51:27 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Mon Feb 27 21:53:00 Saved as file BACKUP1.MAX
+Mon Feb 27 21:56:19 Saved as file BACKUP1.MAX
+Mon Feb 27 21:56:19 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 21:56:19 UserDiv from Layout.INI for AutoECO: 60
+Mon Feb 27 21:56:19 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Mon Feb 27 21:56:19 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Mon Feb 27 21:56:19 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Mon Feb 27 21:56:20 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Mon Feb 27 21:56:20 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 21:56:20 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 22:03:30 Saved as file BACKUP1.MAX
+Mon Feb 27 22:07:22 Error code 5200.306
+Mon Feb 27 22:07:22 Saved as file Backup0.max
+Mon Feb 27 22:07:22 Windows which were open at time of error:
+Mon Feb 27 22:07:22 	ActiveWindow: Library Manager
+Mon Feb 27 22:07:22 End-of-list
+Mon Feb 27 22:07:22 Loaded file BACKUP0.MAX
+Mon Feb 27 22:07:28 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 22:10:03 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Mon Feb 27 22:13:30 Saved as file BACKUP1.MAX
+Mon Feb 27 22:23:31 Saved as file BACKUP1.MAX
+Mon Feb 27 22:33:31 Saved as file BACKUP1.MAX
+Mon Feb 27 22:43:31 Saved as file BACKUP1.MAX
+Mon Feb 27 22:53:32 Saved as file BACKUP1.MAX
+Mon Feb 27 23:03:32 Saved as file BACKUP1.MAX
+Fri Mar 03 00:56:11 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Fri Mar 03 00:56:11 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Fri Mar 03 00:56:13 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Fri Mar 03 00:56:14 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Fri Mar 03 00:56:18 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Fri Mar 03 00:56:20 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Fri Mar 03 01:05:41 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:06:20 Saved as file BACKUP1.MAX
+Fri Mar 03 01:11:41 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:11:41 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:11:41 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:15:12 Saved as file ~undo.max
+Fri Mar 03 01:15:56 Saved as file ~undo.max
+Fri Mar 03 01:15:56 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:16:20 Saved as file BACKUP1.MAX
+Fri Mar 03 01:23:17 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:23:18 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:23:18 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:23:18 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:25:08 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:26:15 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:26:50 Saved as file BACKUP1.MAX
+Fri Mar 03 01:30:52 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:32:46 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:34:03 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:34:03 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Fri Mar 03 01:35:05 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:01:07 Saved as file BACKUP1.MAX
+Sun Mar 05 11:01:07 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:01:08 UserDiv from Layout.INI for AutoECO: 60
+Sun Mar 05 11:01:08 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Sun Mar 05 11:01:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Sun Mar 05 11:01:08 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Sun Mar 05 11:01:08 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:01:08 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:02:28 Saved as file BACKUP1.MAX
+Sun Mar 05 11:06:27 Saved as file BACKUP1.MAX
+Sun Mar 05 11:06:27 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:06:27 UserDiv from Layout.INI for AutoECO: 60
+Sun Mar 05 11:06:27 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\HUUTAN.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\IC PIN.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN _HOANGLONGU.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN LAYOUT BETA 3.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THU VIEN.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TRANSITROR.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\TUHOA.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD FULL\THU VIEN.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\HEADER.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ANALOGBAR.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\DIP48.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\L298.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LAYOUT LIBRARY MANUAL.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LOGO_CLB_ROBOT.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\LQFP48.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_01012012.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_25022012.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PTN78020.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\ROBOTCLUB_2.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR1.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THUVIEN OR2.LLB
+Sun Mar 05 11:06:27 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\TQFP44.LLB
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON100T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BCON156T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\BGA.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\CLCC.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON050T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DCON085T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050F.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIMM050T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIN.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100B.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DIP100T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\DSUBT_HD.LLB
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ECON100T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\FBUS.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ISA.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\JUMPER.LLB
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LAYOUT.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\LCON100T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PC104.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCI.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON100T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PCON156T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PGA.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\PLCC.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUAD.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\QUADB.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RELAY.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\RF.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SBUS.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050F.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM050T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100F.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIMM100T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SIP.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SM.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOG.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\SOJ.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\STIFF.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TELE.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_AXIAL.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CAP_P.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_CYLND.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DIODE.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_DISC.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TM_RAD.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TO.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\TRAINING.LLB
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\VRES.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\WCON100T.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\XT.llb
+Sun Mar 05 11:06:27 Loaded file C:\Program Files\Orcad\Layout_Plus\library\ZIGZAG.llb
+Sun Mar 05 11:06:27 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:06:27 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:06:27 Loaded file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 11:12:59 Saved as file BACKUP1.MAX
+Sun Mar 05 11:16:55 Saved as file BACKUP1.MAX
+Sun Mar 05 11:22:59 Saved as file BACKUP1.MAX
+Sun Mar 05 11:26:55 Saved as file BACKUP1.MAX
+Sun Mar 05 11:32:59 Saved as file BACKUP1.MAX
+Sun Mar 05 11:36:55 Saved as file BACKUP1.MAX
+Sun Mar 05 11:42:59 Saved as file BACKUP1.MAX
+Sun Mar 05 11:46:56 Saved as file BACKUP1.MAX
+Sun Mar 05 11:53:00 Saved as file BACKUP1.MAX
+Sun Mar 05 11:56:56 Saved as file BACKUP1.MAX
+Sun Mar 05 12:03:00 Saved as file BACKUP1.MAX
+Sun Mar 05 12:06:56 Saved as file BACKUP1.MAX
+Sun Mar 05 12:12:22 Saved as file ~undo.max
+Sun Mar 05 12:13:00 Saved as file BACKUP1.MAX
+Sun Mar 05 12:13:38 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:13:39 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:16:00 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:16:00 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:16:56 Saved as file BACKUP1.MAX
+Sun Mar 05 12:23:01 Saved as file BACKUP1.MAX
+Sun Mar 05 12:26:57 Saved as file BACKUP1.MAX
+Sun Mar 05 12:33:01 Saved as file BACKUP1.MAX
+Sun Mar 05 12:36:57 Saved as file BACKUP1.MAX
+Sun Mar 05 12:43:01 Saved as file BACKUP1.MAX
+Sun Mar 05 12:46:57 Saved as file BACKUP1.MAX
+Sun Mar 05 12:52:21 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:52:21 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:52:22 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:53:02 Saved as file BACKUP1.MAX
+Sun Mar 05 12:54:37 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:54:41 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 12:54:41 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 12:54:46 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\PAYITFORWARD_FOOTPRINT_270311.LLB
+Sun Mar 05 12:54:48 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 12:56:09 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:56:58 Saved as file BACKUP1.MAX
+Sun Mar 05 12:58:54 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 12:59:10 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 13:01:16 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 13:01:16 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 13:01:19 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 13:05:32 Saved as file BACKUP1.MAX
+Sun Mar 05 13:15:32 Saved as file BACKUP1.MAX
+Sun Mar 05 13:25:32 Saved as file BACKUP1.MAX
+Sun Mar 05 13:35:33 Saved as file BACKUP1.MAX
+Sun Mar 05 13:45:33 Saved as file BACKUP1.MAX
+Sun Mar 05 13:55:33 Saved as file BACKUP1.MAX
+Sun Mar 05 14:05:34 Saved as file BACKUP1.MAX
+Sun Mar 05 14:15:34 Saved as file BACKUP1.MAX
+Sun Mar 05 14:25:34 Saved as file BACKUP1.MAX
+Sun Mar 05 14:35:35 Saved as file BACKUP1.MAX
+Sun Mar 05 14:45:35 Saved as file BACKUP1.MAX
+Sun Mar 05 14:55:35 Saved as file BACKUP1.MAX
+Sun Mar 05 15:05:35 Saved as file BACKUP1.MAX
+Sun Mar 05 15:14:56 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 17:04:00 Saved as file ~undo.max
+Sun Mar 05 17:04:18 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 17:04:18 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 17:05:00 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 17:05:01 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 17:07:12 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 17:07:12 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 17:07:27 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 17:09:51 Saved as file BACKUP1.MAX
+Sun Mar 05 17:19:51 Saved as file BACKUP1.MAX
+Sun Mar 05 17:29:52 Saved as file BACKUP1.MAX
+Sun Mar 05 17:39:52 Saved as file BACKUP1.MAX
+Sun Mar 05 17:49:52 Saved as file BACKUP1.MAX
+Sun Mar 05 17:59:52 Saved as file BACKUP1.MAX
+Sun Mar 05 18:07:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:37 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:07:38 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:09:53 Saved as file BACKUP1.MAX
+Sun Mar 05 18:10:29 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 18:11:23 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 18:11:57 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 18:19:53 Saved as file BACKUP1.MAX
+Sun Mar 05 18:29:53 Saved as file BACKUP1.MAX
+Sun Mar 05 18:39:54 Saved as file BACKUP1.MAX
+Sun Mar 05 18:41:02 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 18:42:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:42:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:42:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:42:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:42:41 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Sun Mar 05 18:42:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Sun Mar 05 18:42:43 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 18:42:44 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 18:42:44 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:42:45 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:44:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:44:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:44:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:44:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:44:39 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Sun Mar 05 18:44:39 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 18:44:40 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 18:44:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:44:42 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:45:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:45:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:45:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:45:40 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:45:42 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Sun Mar 05 18:45:43 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\THACHANH_LCD.LLB
+Sun Mar 05 18:45:43 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 18:45:44 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 18:45:44 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:45:47 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:07 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:07 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:07 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:07 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LINHKIEN.LLB
+Sun Mar 05 18:47:08 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 18:47:09 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:10 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:12 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:12 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:12 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:12 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:42 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:42 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:42 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:42 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:43 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\THU VIEN ORCAD\LAYOUT LIBRARY MANUAL.LLB
+Sun Mar 05 18:47:44 Loaded file D:\PROJECTS\PCBLIBS\ORCAD PROJ\LIB\MYMODULE\25X6ADJ\MODULE25X6.LLB
+Sun Mar 05 18:47:47 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:48 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:47:50 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Sun Mar 05 18:48:50 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:11:37 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:11:37 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:11:37 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:20:49 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:20:50 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:20:50 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:27:53 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:27:53 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:27:53 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:28:12 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:28:13 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:28:13 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:30:28 Saved as file BACKUP1.MAX
+Sun Mar 05 23:34:52 Saved as file D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX

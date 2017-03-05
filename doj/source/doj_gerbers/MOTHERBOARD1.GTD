@@ -1,0 +1,104 @@
+{Environment
+	{FilesPath  D:\JOBS\UPWORKS\MOTHERBOARD1}
+}
+{Layers
+	{Layer  1
+		{File        MOTHERBOARD1.TOP}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Cyan}
+		{DrawColor   Cyan}
+		{Type        Top}
+	}
+	{Layer  2
+		{File        MOTHERBOARD1.GND}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  gray50}
+		{DrawColor   gray50}
+		{Type        Plane}
+	}
+	{Layer  3
+		{File        MOTHERBOARD1.PWR}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16green}
+		{DrawColor   vga16green}
+		{Type        Plane}
+	}
+	{Layer  4
+		{File        MOTHERBOARD1.BOT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Bottom}
+	}
+	{Layer  5
+		{File        MOTHERBOARD1.SMT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
+	}
+	{Layer  6
+		{File        MOTHERBOARD1.SMB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16yellow}
+		{DrawColor   vga16yellow}
+		{Type        Other}
+	}
+	{Layer  7
+		{File        MOTHERBOARD1.SST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  White}
+		{DrawColor   White}
+		{Type        Other}
+	}
+	{Layer  8
+		{File        MOTHERBOARD1.AST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
+	}
+	{Layer  9
+		{File        MOTHERBOARD1.DRD}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Other}
+	}
+}
+{Format Gerber
+	{Dialect           RS274X}
+	{m.n               3.4}
+	{Mode              Absolute}
+	{ZeroSuppression   Leading}
+	{Terminator        0x2a, 0xD, 0xA}
+	{Metric            No}
+	{Modal             No}
+	{UserData          Yes}
+	{Nets              No}
+	{Gcmds             Yes}
+	{CharSet           ASCII}
+	{Arcs360           No}
+	{ArcsModal         Yes}
+	{HonorCrLf         No}
+	{Comments          Yes}
+	{Flags             0}
+}

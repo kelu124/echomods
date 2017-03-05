@@ -21,6 +21,7 @@
 * [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): supplier source file
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file
 * [./cletus/suppliers/piezo-specs.md](/cletus/suppliers/piezo-specs.md): 
+* [./doj/brief.md](/doj/brief.md): 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme
 * [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266

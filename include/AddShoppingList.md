@@ -21,7 +21,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * Do some impedance matching (@ulb ?) (in [retroATL3](/retroATL3/))
 * Enhance the BBB to transform it into a ultrasound server (in [toadkiller](/toadkiller/))
 * <em>BONUS!</em> Plug it to a <a href="/croaker/">RPi0 or BBB or RPi</a> or else. (in [goblin](/goblin/))
-* <em>BONUS!</em> or test it with the <a href="/retired/kina/">EMW3165</a>. (in [goblin](/goblin/))
+* Connect the ADC to a RPi0 (in [goblin](/goblin/))
 * <em>BONUS!</em> benchmark power supplies  (in [mogaba](/mogaba/))
 
 

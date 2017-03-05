@@ -91,6 +91,7 @@ Input/Output:
 * Energy use is relatively low: at 9V, Tobo, Goblin, and a trinket pro ask for 180mA.
 * _ADC V_REF_ is flexible: better resolution in output of the ADC
 * _E_REF_ is being removed from the signal output, better than Murgen, where we lost 1.1V from the signal range.
+* ADC is http://fr.farnell.com/jst-japan-solderless-terminals/b6b-ph-k-s-lf-sn/embase-entree-sup-6-voies/dp/9492453?MER=sy-me-pd-mi-alte -- what appropriate connector ? http://fr.farnell.com/jst-japan-solderless-terminals/vhr-6n/boitier-connecteur-rcpt-6pos-1/dp/2399220 ?
 
 ### Cons: what to to make better
 
@@ -174,16 +175,17 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 
 ![](/goblin/images/2016-07-08/TEK0010.JPG)
 
+### Idea for onboard ADC
+
+The AD7273/AD7274 are high speed, low power, 10-/12-bit, single supply ADCs, respectively. The parts can be operated from a 2.35 V to 3.6 V supply. When operated from any supply voltage within this range, the AD7273/AD7274 are capable of throughput rates of 3 MSPS when provided with a 48 MHz clock. 
 
 
 ## Discussions
 
 ### TODO
 
-
 * _BONUS!_ Plug it to a [RPi0 or BBB or RPi](/croaker/) or else.
-* _BONUS!_ or test it with the [EMW3165](/retired/kina/).
-
+* Connect the ADC to a RPi0
 
 ### DONE
 
@@ -196,6 +198,7 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 * Send microcircuits to Edgeflex
 * Receive the module
 * Publish the sources in KiCAD (@Sofian maybe?)
+* CANCELLED - Test it with the [EMW3165](/retired/kina/).
 
 ### People
 

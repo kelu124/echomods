@@ -1,0 +1,247 @@
+Post Processor Report
+OrCAD FILE: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.MAX
+Sun Mar 05 23:31:54 2017
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.TOP
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.TOP:
+---------------------------------------------------------
+D10:  0.0650 ROUND  --       0 Draws,      99 Flashes
+D11:  0.0650 SQUARE --       0 Draws,       5 Flashes
+D12:  0.0800 ROUND  --       0 Draws,     133 Flashes
+D13:  0.0800 SQUARE --       0 Draws,       5 Flashes
+D14:  0.0750 ROUND  --       0 Draws,       2 Flashes
+D15:  0.0750 SQUARE --       0 Draws,       1 Flashes
+D16:  0.0531 x 0.0157 RECTANGLE -----       5 Flashes
+D17:  0.0709 ROUND  --       0 Draws,      14 Flashes
+D18:  0.0790 SQUARE --       0 Draws,       1 Flashes
+D19:  0.0709 SQUARE --       0 Draws,       1 Flashes
+D20:  0.0700 ROUND  --       0 Draws,      27 Flashes
+D21:  0.0700 SQUARE --       0 Draws,       1 Flashes
+D22:  0.1380 ROUND  --       0 Draws,       4 Flashes
+D23:  0.0100 ROUND  --      51 Draws,       0 Flashes
+D24:  0.0200 ROUND  --    4609 Draws,       0 Flashes
+D25:  0.0500 ROUND  --       0 Draws,       2 Flashes
+D26:  0.0120 ROUND  --      21 Draws,       0 Flashes
+D27:  0.0180 ROUND  --      19 Draws,       0 Flashes
+D28:  0.0080 ROUND  --      14 Draws,       0 Flashes
+---------------------------------------------------------
+ 19 D-Codes      -----    4714 Draws,     300 Flashes
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.BOT
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.BOT:
+---------------------------------------------------------
+D10:  0.0650 ROUND  --       0 Draws,      99 Flashes
+D11:  0.0650 SQUARE --       0 Draws,       5 Flashes
+D12:  0.0800 ROUND  --       0 Draws,     133 Flashes
+D13:  0.0800 SQUARE --       0 Draws,       5 Flashes
+D14:  0.0750 ROUND  --       0 Draws,       2 Flashes
+D15:  0.0750 SQUARE --       0 Draws,       1 Flashes
+D16:  0.0531 x 0.0157 RECTANGLE -----       5 Flashes
+D17:  0.0709 ROUND  --       0 Draws,      14 Flashes
+D18:  0.0790 SQUARE --       0 Draws,       1 Flashes
+D19:  0.0709 SQUARE --       0 Draws,       1 Flashes
+D20:  0.0700 ROUND  --       0 Draws,      27 Flashes
+D21:  0.0700 SQUARE --       0 Draws,       1 Flashes
+D22:  0.1380 ROUND  --       0 Draws,       4 Flashes
+D23:  0.0100 ROUND  --     235 Draws,       0 Flashes
+D25:  0.0500 ROUND  --       0 Draws,       2 Flashes
+D26:  0.0120 ROUND  --     520 Draws,       0 Flashes
+D27:  0.0180 ROUND  --      75 Draws,       0 Flashes
+D28:  0.0080 ROUND  --       7 Draws,       0 Flashes
+D29:  0.0140 ROUND  --       1 Draws,       0 Flashes
+---------------------------------------------------------
+ 19 D-Codes      -----     838 Draws,     300 Flashes
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.GND
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.GND:
+---------------------------------------------------------
+D10:  0.0650 ROUND  --       0 Draws,      99 Flashes
+D11:  0.0650 SQUARE --       0 Draws,       6 Flashes
+D17:  0.0709 ROUND  --       0 Draws,       7 Flashes
+D20:  0.0700 ROUND  --       0 Draws,     162 Flashes
+D21:  0.0700 SQUARE --       0 Draws,       2 Flashes
+D22:  0.1380 ROUND  --       0 Draws,       4 Flashes
+D24:  0.0200 ROUND  --       4 Draws,       0 Flashes
+D30:  0.0680 ROUND  --       0 Draws,       6 Flashes
+D31:  0.0157 SQUARE --       0 Draws,       5 Flashes
+D32:  0.0650 x 0.0790 OBLONG    -----       7 Flashes
+D33:  0.0750 ROUND  --       0 Draws,       2 Flashes
+---------------------------------------------------------
+ 11 D-Codes      -----       4 Draws,     300 Flashes
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.PWR
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.PWR:
+---------------------------------------------------------
+D10:  0.0650 ROUND  --       0 Draws,      99 Flashes
+D11:  0.0650 SQUARE --       0 Draws,       6 Flashes
+D17:  0.0709 ROUND  --       0 Draws,       7 Flashes
+D20:  0.0700 ROUND  --       0 Draws,     162 Flashes
+D21:  0.0700 SQUARE --       0 Draws,       2 Flashes
+D22:  0.1380 ROUND  --       0 Draws,       4 Flashes
+D24:  0.0200 ROUND  --       4 Draws,       0 Flashes
+D30:  0.0680 ROUND  --       0 Draws,       6 Flashes
+D31:  0.0157 SQUARE --       0 Draws,       5 Flashes
+D32:  0.0650 x 0.0790 OBLONG    -----       7 Flashes
+D33:  0.0750 ROUND  --       0 Draws,       2 Flashes
+---------------------------------------------------------
+ 11 D-Codes      -----       4 Draws,     300 Flashes
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.SMT
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.SMT:
+---------------------------------------------------------
+D14:  0.0750 ROUND  --       0 Draws,      97 Flashes
+D15:  0.0750 SQUARE --       0 Draws,       4 Flashes
+D17:  0.0709 ROUND  --       0 Draws,       7 Flashes
+D31:  0.0157 SQUARE --       0 Draws,       5 Flashes
+D34:  0.0730 ROUND  --       0 Draws,       2 Flashes
+D35:  0.0730 SQUARE --       0 Draws,       2 Flashes
+D36:  0.0880 ROUND  --       0 Draws,     133 Flashes
+D37:  0.0880 SQUARE --       0 Draws,       5 Flashes
+D38:  0.0830 ROUND  --       0 Draws,       2 Flashes
+D39:  0.0830 SQUARE --       0 Draws,       1 Flashes
+D40:  0.0730 x 0.0870 OBLONG    -----       7 Flashes
+D41:  0.0670 SQUARE --       0 Draws,       1 Flashes
+D42:  0.0780 ROUND  --       0 Draws,      27 Flashes
+D43:  0.0780 SQUARE --       0 Draws,       1 Flashes
+D44:  0.1980 ROUND  --       0 Draws,       4 Flashes
+D45:  0.0010 ROUND  --       8 Draws,       0 Flashes
+D46:  0.0550 ROUND  --       0 Draws,       2 Flashes
+---------------------------------------------------------
+ 17 D-Codes      -----       8 Draws,     300 Flashes
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.SMB
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.SMB:
+---------------------------------------------------------
+D14:  0.0750 ROUND  --       0 Draws,      97 Flashes
+D15:  0.0750 SQUARE --       0 Draws,       4 Flashes
+D17:  0.0709 ROUND  --       0 Draws,       7 Flashes
+D31:  0.0157 SQUARE --       0 Draws,       5 Flashes
+D34:  0.0730 ROUND  --       0 Draws,       2 Flashes
+D35:  0.0730 SQUARE --       0 Draws,       2 Flashes
+D36:  0.0880 ROUND  --       0 Draws,     133 Flashes
+D37:  0.0880 SQUARE --       0 Draws,       5 Flashes
+D38:  0.0830 ROUND  --       0 Draws,       2 Flashes
+D39:  0.0830 SQUARE --       0 Draws,       1 Flashes
+D40:  0.0730 x 0.0870 OBLONG    -----       7 Flashes
+D41:  0.0670 SQUARE --       0 Draws,       1 Flashes
+D42:  0.0780 ROUND  --       0 Draws,      27 Flashes
+D43:  0.0780 SQUARE --       0 Draws,       1 Flashes
+D44:  0.1980 ROUND  --       0 Draws,       4 Flashes
+D46:  0.0550 ROUND  --       0 Draws,       2 Flashes
+---------------------------------------------------------
+ 16 D-Codes      -----       0 Draws,     300 Flashes
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.SST
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.SST:
+---------------------------------------------------------
+D23:  0.0100 ROUND  --      36 Draws,       0 Flashes
+D26:  0.0120 ROUND  --       4 Draws,       0 Flashes
+D28:  0.0080 ROUND  --     257 Draws,       0 Flashes
+D45:  0.0010 ROUND  --       9 Draws,       0 Flashes
+D47:  0.0157 ROUND  --       5 Draws,       0 Flashes
+D48:  0.0150 ROUND  --      21 Draws,       0 Flashes
+D49:  0.0040 ROUND  --      24 Draws,       0 Flashes
+D50:  0.0050 ROUND  --       5 Draws,       0 Flashes
+D51:  0.0118 ROUND  --      34 Draws,       0 Flashes
+---------------------------------------------------------
+  9 D-Codes      -----     395 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.AST
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.AST:
+---------------------------------------------------------
+D24:  0.0200 ROUND  --       4 Draws,       0 Flashes
+D28:  0.0080 ROUND  --       8 Draws,       0 Flashes
+D52:  0.0340 ROUND  --       0 Draws,       2 Flashes
+D53:  0.0350 ROUND  --       0 Draws,       2 Flashes
+---------------------------------------------------------
+  4 D-Codes      -----      12 Draws,       4 Flashes
+
+*********************************************************
+
+Output file: D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.DRD
+
+Aperture totals for D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.DRD:
+---------------------------------------------------------
+D23:  0.0100 ROUND  --    2224 Draws,       0 Flashes
+D24:  0.0200 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----    2228 Draws,       0 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.0650 ROUND  --       0 Draws,     396 Flashes
+D11:  0.0650 SQUARE --       0 Draws,      22 Flashes
+D12:  0.0800 ROUND  --       0 Draws,     266 Flashes
+D13:  0.0800 SQUARE --       0 Draws,      10 Flashes
+D14:  0.0750 ROUND  --       0 Draws,     198 Flashes
+D15:  0.0750 SQUARE --       0 Draws,      10 Flashes
+D16:  0.0531 x 0.0157 RECTANGLE -----      10 Flashes
+D17:  0.0709 ROUND  --       0 Draws,      56 Flashes
+D18:  0.0790 SQUARE --       0 Draws,       2 Flashes
+D19:  0.0709 SQUARE --       0 Draws,       2 Flashes
+D20:  0.0700 ROUND  --       0 Draws,     378 Flashes
+D21:  0.0700 SQUARE --       0 Draws,       6 Flashes
+D22:  0.1380 ROUND  --       0 Draws,      16 Flashes
+D23:  0.0100 ROUND  --    2546 Draws,       0 Flashes
+D24:  0.0200 ROUND  --    4625 Draws,       0 Flashes
+D25:  0.0500 ROUND  --       0 Draws,       4 Flashes
+D26:  0.0120 ROUND  --     545 Draws,       0 Flashes
+D27:  0.0180 ROUND  --      94 Draws,       0 Flashes
+D28:  0.0080 ROUND  --     286 Draws,       0 Flashes
+D29:  0.0140 ROUND  --       1 Draws,       0 Flashes
+D30:  0.0680 ROUND  --       0 Draws,      12 Flashes
+D31:  0.0157 SQUARE --       0 Draws,      20 Flashes
+D32:  0.0650 x 0.0790 OBLONG    -----      14 Flashes
+D33:  0.0750 ROUND  --       0 Draws,       4 Flashes
+D34:  0.0730 ROUND  --       0 Draws,       4 Flashes
+D35:  0.0730 SQUARE --       0 Draws,       4 Flashes
+D36:  0.0880 ROUND  --       0 Draws,     266 Flashes
+D37:  0.0880 SQUARE --       0 Draws,      10 Flashes
+D38:  0.0830 ROUND  --       0 Draws,       4 Flashes
+D39:  0.0830 SQUARE --       0 Draws,       2 Flashes
+D40:  0.0730 x 0.0870 OBLONG    -----      14 Flashes
+D41:  0.0670 SQUARE --       0 Draws,       2 Flashes
+D42:  0.0780 ROUND  --       0 Draws,      54 Flashes
+D43:  0.0780 SQUARE --       0 Draws,       2 Flashes
+D44:  0.1980 ROUND  --       0 Draws,       8 Flashes
+D45:  0.0010 ROUND  --      17 Draws,       0 Flashes
+D46:  0.0550 ROUND  --       0 Draws,       4 Flashes
+D47:  0.0157 ROUND  --       5 Draws,       0 Flashes
+D48:  0.0150 ROUND  --      21 Draws,       0 Flashes
+D49:  0.0040 ROUND  --      24 Draws,       0 Flashes
+D50:  0.0050 ROUND  --       5 Draws,       0 Flashes
+D51:  0.0118 ROUND  --      34 Draws,       0 Flashes
+D52:  0.0340 ROUND  --       0 Draws,       2 Flashes
+D53:  0.0350 ROUND  --       0 Draws,       2 Flashes
+---------------------------------------------------------
+ 44 D-Codes      -----    8203 Draws,    1804 Flashes
+
+
+No warnings or errors.

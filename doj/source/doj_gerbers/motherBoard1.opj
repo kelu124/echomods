@@ -1,0 +1,163 @@
+(ExpressProject "motherBoard1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\motherboard1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (FLDSTUFF_Scope "0")
+    (FLDSTUFF_Action "0")
+    (FLDSTUFF_Report_File "D:\JOBS\UPWORKS\motherBoard1\motherboard1.RPT")
+    (FLDSTUFF_Update_File "D:\JOBS\UPWORKS\motherBoard1\motherboard1.UPD")
+    (FLDSTUFF__Uppercase_Result_Property "FALSE")
+    (FLDSTUFF_Uppercase_Update_Property "FALSE")
+    (FLDSTUFF_Uppercase_Unconditionally "FALSE")
+    (FLDSTUFF_Visibility "0")
+    (FLDSTUFF_inst_or_occurrence "0")
+    (FLDSTUFF_Create_Report_File "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File "D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "MOTHERBOARD1.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (TRUE)
+    (LAYOUT_Units "0")
+    (TRUE)
+    (TRUE)
+    ( "TRUE"))
+  (Folder "Outputs"
+    (File ".\motherboard1.drc"
+      (Type "Report"))
+    (File ".\motherboard1.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("HEADER 10X2"
+      (FullPartName "HEADER 10X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20X2"
+      (FullPartName "HEADER 20X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (WICED
+      (FullPartName "WICED.Normal")
+      (LibraryName "D:\JOBS\UPWORKS\MOTHERBOARD1\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4"
+      (FullPartName "HEADER 4.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 19"
+      (FullPartName "HEADER 19.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TRINKET
+      (FullPartName "TRINKET.Normal")
+      (LibraryName "D:\JOBS\UPWORKS\MOTHERBOARD1\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (OLED
+      (FullPartName "OLED.Normal")
+      (LibraryName "D:\JOBS\UPWORKS\MOTHERBOARD1\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (PS
+      (FullPartName "PS.Normal")
+      (LibraryName "D:\JOBS\UPWORKS\MOTHERBOARD1\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (GOBLIN
+      (FullPartName "GOBLIN.Normal")
+      (LibraryName "D:\JOBS\UPWORKS\MOTHERBOARD1\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TOBO
+      (FullPartName "TOBO.Normal")
+      (LibraryName "D:\JOBS\UPWORKS\MOTHERBOARD1\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "D:\JOBS\UPWORKS\motherBoard1\motherboard1.dsn")
+      (Path "Design Resources" "D:\JOBS\UPWORKS\motherBoard1\motherboard1.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "D:\JOBS\UPWORKS\motherBoard1\motherboard1.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "D:\JOBS\UPWORKS\motherBoard1\library1.olb")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\JOBS\UPWORKS\motherBoard1\motherboard1.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 453"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 1057 44 524")
+        (Scroll "0 0")
+        (Zoom "96")
+        (Occurrence "/"))
+      (Path "D:\JOBS\UPWORKS\MOTHERBOARD1\MOTHERBOARD1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Big Boy")
+  (ISPCBBASICLICENSE "false"))

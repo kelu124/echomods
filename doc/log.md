@@ -54,6 +54,8 @@ __[MD Files]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : 
 
 __[MD Files]__ :no_entry: `./croaker/notes_uC.md` : Missing description
 
+__[MD Files]__ :no_entry: `./doj/brief.md` : Missing description
+
 __[MD Files]__ :no_entry: `./gitbook/Chapter2/basicdevkit.md` : Missing description
 
 __[MD Files]__ :no_entry: `./gitbook/Chapter2/results.md` : Missing description
