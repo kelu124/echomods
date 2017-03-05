@@ -22,16 +22,16 @@ A single "breakout board" several elements:
 
 ### Overall board is
 
-! [](/croaker/images/kit-overall.png)
+![](/croaker/images/kit-overall.png)
 
 ### Full board is
 
-! [](/doj/images/doj-loaded.jpg)
+![](/doj/images/doj-loaded.jpg)
 
 
 ### Empty board is
 
-! [](/doj/images/doj-unloaded.jpg)
+![](/doj/images/doj-unloaded.jpg)
 
 
 ## Connection between modules
@@ -60,7 +60,7 @@ Double header not connected to anything (tracks cut). Double header for breakout
 
 Should look like this:
 
-![](/doj/pcb_test.png)
+![](/doj/images/pcb_test.png)
 
 
 
