@@ -89,6 +89,27 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 The enveloppe signal (0-3.3V) coming from Goblin is clipped beforehands with 2 diodes, giving a 0-1.5V range with easy components.
 
+#### Testing the [analog processing board](/goblin/) with the PRUDAQ
+
+Data sampled at 10Msps on the [PRUDAQ](/toadkiller/) on both channels.
+
+See the Jupyter notebook [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
+
+Data is saved [here](/toadkiller/data/test_enveloppe/dual_entry.bin). It's 32Mb of sampling at 10 Msps.
+
+
+##### Signal in / signal out
+
+The signal sent in is 50mVpp, the carier is at 2MHz. Linear decrease from t0 to the end.
+
+![](/toadkiller/data/test_enveloppe/SigInSigOut.png)
+
+##### Details at the enveloppe level
+
+The period of the signal is 2 MHz. The first peak has 1 period, the second 2, height is half of the first peak, and the 3rd has 3 periods, height 1/4th of the first peak. 
+
+![](/toadkiller/data/test_enveloppe/Details.png)
+
 #### Learn more
 
 ##### From BeagleLogic:

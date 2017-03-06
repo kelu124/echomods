@@ -8,7 +8,7 @@
 
 * Deja contactes en 2015 
 * Retour 2/1/16: be back with quotes
-* Feedback OK - waiting input from team
+* march-2017: button type transducer with a PCB lid
 
 ### Notes
 
@@ -24,3 +24,7 @@
 
 
 * __Rmq:__  Based on your focal zone requirement you need the transducers with a F# about 6 to achieve the results you need. I used a formulae as below,-3dB focal zone =7.1 x wavelength x F#^2, here F#=focal length/aperture
+
+#### 2016
+
+_We propose a button type transducer with a PCB lid which has two soldering pads on it._

@@ -7,7 +7,7 @@
 ### Status
 
 * Deja contactes en 2015
-* @contacted, @followup on 2/1/16
+* ~ $300 each for small Qty ( 2 or 3 of each Fq)
 
 ### Notes
 
@@ -18,3 +18,7 @@
 * From Jeff: Crystal @67$, Casing at 250$. The minimum order for Crystals is Qty 10.
 
 ![](/cletus/suppliers/americanpiezo/structure.png)
+
+#### November 2016
+
+_I will need to check and see what we have in stock. We are pretty busy right now and we are off on Holiday next Thursday and Friday. It may take me a week or two to get everything together for quoting your request. If we use crystals we have in stock, then the cost would be ~ $300 each for small Qty ( 2 or 3 of each Fq)._

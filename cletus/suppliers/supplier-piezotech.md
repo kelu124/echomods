@@ -8,6 +8,8 @@
 
 * Deja contactes en 2015 
 * Retour 2/1/16: need the [query sheet](/cletus/suppliers/meggitt/query.pdf)
+* 19/12/16: feedback required.
+* march-17: follow up done.
 
 ### Notes
 

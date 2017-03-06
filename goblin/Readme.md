@@ -137,10 +137,20 @@ Details on the peaks
 
 ### Tests
 
+#### Access to raw data
 
-#### Signal in vs Signal out of the TGC
+Data sampled at 10Msps on the [PRUDAQ](/toadkiller/) on both channels.
 
-![](/goblin/images/2016-07-08/TEK0003.JPG)
+See the Jupyter notebook [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
+
+Data is saved [here](/toadkiller/data/test_enveloppe/dual_entry.bin). It's 32Mb of sampling at 10 Msps. Full repo for the [measure test](/toadkiller/data/test_enveloppe/). Let's check the Signal In vs Signal Out:
+
+![](/toadkiller/data/test_enveloppe/SigInSigOut.png)
+
+with details:
+
+![](/toadkiller/data/test_enveloppe/Details.png)
+
 
 #### Trying with different frequencies
 
@@ -190,6 +200,7 @@ The AD7273/AD7274 are high speed, low power, 10-/12-bit, single supply ADCs, res
 ### DONE
 
 * Check the power consumption
+* [Testing the in and out signals](/toadkiller/data/test_enveloppe/) of the board with the prudaq.
 * Specs to write
 * Agreeing on the strips 
 * Check if 5V and 3.3V are stable

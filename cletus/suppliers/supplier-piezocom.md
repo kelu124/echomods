@@ -7,7 +7,9 @@
 ### Status
 
 * Listed in 2015, not contacted
-* @contacted, @followup on 2/1/16
+* @contacted, @followup on 2/1/16. No answer (march-17).
 
 ### Notes
  
+No answer (march-17).
+

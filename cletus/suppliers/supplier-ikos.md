@@ -8,8 +8,11 @@
 ### Status
 
 * Contact in 2015 (NA). Anastasiya Mlynchyk  (External Sales & Executive Assistant)
-* Feedback OK - waiting input from team
+* Won't do -> redirected to [NDTX](/cletus/suppliers/supplier-ndtxducer.md).
 
 ### Notes
  
 Redirected the query to Valdemar NDTXducer <valdemar@ndtxducer.com>
+
+
+

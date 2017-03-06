@@ -7,7 +7,8 @@
 ### Status
 
 * Contact in 2015 (NA). 
-* @contacted, @followup on 2/1/16
+* No answer, mar-17.
 
 ### Notes
  
+No answer, mar-17.

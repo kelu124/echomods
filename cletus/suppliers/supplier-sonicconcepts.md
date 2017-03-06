@@ -7,7 +7,7 @@
 ### Status
 
 * Contact in 2015 and 2016  
-* Feedback OK - waiting input from team
+* 1,000 unit quantities they can see this costing as low as $250 per unit.  
 
 ### Notes
  
