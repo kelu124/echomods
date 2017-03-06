@@ -117,6 +117,9 @@ __ An interesting read to expend the file system__ : [Read more](http://elinux.o
 
 #### Vitesse d'acquisition
 
+sudo dd if=/dev/beaglelogic of=dual_entry.bin bs=1M
+
+
 ````
 debian@beaglebone:~$ sudo dd if=/dev/beaglelogic of=sonde3V_1.bin bs=1M count=3232+0 records in
 32+0 records out

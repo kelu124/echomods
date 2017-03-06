@@ -18,7 +18,7 @@
 * [./cletus/suppliers/supplier-ut.md](/cletus/suppliers/supplier-ut.md): supplier source file
 * [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): supplier source file
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file
-* [./cletus/suppliers/piezo-specs.md](/cletus/suppliers/piezo-specs.md): 
+* [./cletus/suppliers/specs/piezo-specs.md](/cletus/suppliers/specs/piezo-specs.md): 
 * [./doj/brief.md](/doj/brief.md): 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme
 * [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
@@ -74,6 +74,7 @@
 * [./include/vscan/Readme.md](/include/vscan/Readme.md): 
 * [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes
 * [./toadkiller/Readme.md](/toadkiller/Readme.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme
+* [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md): 
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together
 * [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016

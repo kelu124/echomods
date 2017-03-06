@@ -20,7 +20,7 @@
 * [./cletus/suppliers/supplier-ut.md](/cletus/suppliers/supplier-ut.md): supplier source file
 * [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): supplier source file
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file
-* [./cletus/suppliers/piezo-specs.md](/cletus/suppliers/piezo-specs.md): 
+* [./cletus/suppliers/specs/piezo-specs.md](/cletus/suppliers/specs/piezo-specs.md): 
 * [./doj/brief.md](/doj/brief.md): 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme
 * [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
@@ -76,6 +76,7 @@
 * [./include/vscan/Readme.md](/include/vscan/Readme.md): 
 * [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes
 * [./toadkiller/Readme.md](/toadkiller/Readme.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme
+* [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md): 
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together
 * [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016
@@ -125,7 +126,8 @@
 * [maketemplate.py](/include/JOH/blocks/maketemplate.py): 
 * [BitscopeAcquisitionScript.py](/retroATL3/software/BitscopeAcquisitionScript.py): BitLib 2.0 Capture Device Report Generator (Python)
 * [test_file.py](/toadkiller/software/test_file.py): showing content of a PRUDAQ binary dump.
-* [test_file_3periods.py](/toadkiller/software/test_file_3periods.py): showing content of a PRUDAQ binary dump over 3 periods.
+* [test_file_3periods.py](/toadkiller/software/test_file_3periods.py): showing content of a PRUDAQ binary dump for a dual channel acquisition.
+* [test_dual_entry.py](/toadkiller/data/test_enveloppe/test_dual_entry.py): showing content of a PRUDAQ binary dump over 3 periods.
 
 ## Presentation files
 

@@ -5,7 +5,7 @@
 # cc-by-sa/4.0/
 # -------------------------
 
-'''Description: showing content of a PRUDAQ binary dump over 3 periods.'''
+'''Description: showing content of a PRUDAQ binary dump for a dual channel acquisition.'''
 
 __author__      = "kelu124"
 __copyright__   = "Copyright 2016, Kelu124"
@@ -15,7 +15,7 @@ import struct
 import matplotlib.pyplot as plt
 import numpy as np
 
-BinFile = "afreen.bin"
+BinFile = "dual_entry.bin"
 
 bytes_read = open(BinFile, "rb").read()
 
@@ -27,7 +27,7 @@ lb = 0
 hb = 0
 with open(BinFile, "rb") as f:
     byte = f.read(1)
-    while byte != "" and k < (24*12000):
+    while byte != "" and k < (3*12000):
         # Do stuff with byte.
         byte = f.read(1)
 	if len(byte)>0:
@@ -39,7 +39,6 @@ with open(BinFile, "rb") as f:
 			lb = ord(byte)
 		elif (i==1):
 			hb = ord(byte)
-		elif (i==2):
 			data.append(hb*256+lb)
 		#print i
 
