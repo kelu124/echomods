@@ -20,6 +20,8 @@ Some inspiration [from earlier](/croaker/notes_RPi0.md)
 * http://www.instructables.com/id/PiScope-Raspberry-Pi-based-Oscilloscope/  -- [see PDF](/goblin/pi0/PiScope.pdf).
 
 
+* http://nutsvolts.texterity.com/nutsvolts/201510?pg=36#pg36 
+
 
 * Other level shifter? http://www.nxp.com/documents/data_sheet/P82B96.pdf
 

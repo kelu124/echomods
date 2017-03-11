@@ -1016,10 +1016,11 @@ Just moved in to the new flat! Exhausting =) Other interesting things:
 
 #### 2017-01-02 Merry new year
 
-* 20E
+* 20E214
     * Getting a propal from PR
     * Fouad offering to test the 7.5MHz linear
     * Me to check other suppliers
+
 * Some modules finaly added to the [echopen's community medkit repo](https://github.com/echopen/PRJ-medtec_kit/) and added a config, the [wireless 1.1 config](https://github.com/echopen/PRJ-medtec_kit/tree/master/configurations/CFG-arduino_servo).
 * Added a version of my [jupyter notebook to explore the dataquarium data](https://github.com/kelu124/PRJ-medtec_sigproc/blob/6412c4ce4da4fe8f3ea1a4144fe389d411b0b80e/dataquarium/explore.ipynb) from the dataset released end of Dec '16.
 
@@ -1079,16 +1080,25 @@ See [this log](/goblin/pi0/HighSpeedBurstADC.md)
 
 Given RPi0 capabilities in terms of [GPIOs](/croaker/notes_RPi0.md) - why not push it to 20Msps, 8 bits, for the cape?
 
+
+#### 2017-03-05 Grmbl netty
+
+Netty isn't nice... but just got my article accepted by JOH !
+
 #### 2017-03-06 Further work
 
 * Updated the [suppliers repo](/cletus/suppliers/Readme.md)
-* Testing the [goblin](/goblin/) In/out transfer function on the [emulator](/silent/) signal: [read here](/toadkiller/data/test_enveloppe/).
+* Testing the [goblin](/goblin/) In/out transfer function on the [emulator](/silent/) signal: [read here](/toadkiller/data/test_enveloppe/). The more I play with Jupyter notebooks, the more I like it.
 
 * Thinking about the 15 - 20 - 25 Msps pHAT.
-* Moving forward with the Netty issue at @20e214
+* Moving forward with the Netty issue at [@20e214](http://github.com/20e214/)
 
 * Fun pHAT : IR : https://hackaday.io/project/20178-anavi-infrared-phat
 * Radio pHAT : https://hackaday.io/project/20199-empedocles
+
+* Interesting read: https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54#.kxsh35e7i
+
+![](https://imgs.xkcd.com/comics/unpublished_discoveries.png)
 
 
 =======

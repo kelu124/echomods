@@ -17,6 +17,7 @@
 * Contact with Dr. Geng
 * We do have a 3.5 MHz transducer. This transducer has a very low profile (4mm) and the active diameter is 17 mm. the focal length is 125 mm. The overall diameter is 19.5 mm. 
 * Price 350$ / pc, 100USD as bottom line for bigger volumes.
+* For 3 frequencies, would go down from 199 to 249$ 
 
 ![](/cletus/suppliers/blatek/structure.png)
 
@@ -28,3 +29,18 @@
 #### 2016
 
 _We propose a button type transducer with a PCB lid which has two soldering pads on it._
+
+* 3.5 MHz Model, focal zone between 50 and 150 mm
+    * Qty 5: $499 each
+    * Qty 100: $335 each
+    * Qty 1000: $199 each
+* 5 MHz Model, focal zone between 30 and 105 mm
+    * Qty 5: $549 each
+    * Qty 100: $360 each
+    * Qty 1000: $224 each
+* 7.5 MHz Model, focal zone between 10 and 75 mm.
+    * Qty 5: $599 each
+    * Qty 100: $380 each
+    * Qty 1000: $249 each
+
+

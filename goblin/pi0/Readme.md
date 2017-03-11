@@ -27,3 +27,4 @@ Max speed seems to be 33.33MHz, up from 25MHz from the Rpi.
 * Ethernet over USB does not work really good
 * sudo nmap -sn 192.168.1.0/24 to help find the RPi0 on the network
 
+
