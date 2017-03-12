@@ -93,6 +93,13 @@ Mostly ebay:
 * 290$ for 2 probes - 2x ATL Access A  (3MHz) - http://www.ebay.com/itm/ATL-Access-A-Ultrasound-Probe-LOT-2-/131588905820?hash=item1ea34f5b5c:g:COUAAOSwyQtV3Xkg
 * 5MHz @ http://www.ebay.com/itm/ATL-Access-A-5-0MHz-12-7mm-Dia-6cm-FP-Ultrasound-Probe-3359-/111904941527?hash=item1a0e0de5d7:m:m35HcHQafc7p8BdFvI01GZg (104$)
 
+### How to connect the motor?
+
+I have not used any feedback action, just tried to provide a constant voltage.
+
+![](/retroATL3/images/motor_pins.jpg)
+
+Using 160mA@4V
 
 ### Good images achieved! [RESOLVED]
 
