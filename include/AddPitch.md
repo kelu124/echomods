@@ -13,4 +13,4 @@ __Disclaimer #2__: ultrasound raises questions. In case you build a scanner, use
 
 __Disclaimer #3__: Beware! Though I am one of echopen's cofounders, this personnal pet-project lives in the echopen community, and is not a project in the scope of the echopen's association.
 
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.377054.svg)](https://doi.org/10.5281/zenodo.377054)
