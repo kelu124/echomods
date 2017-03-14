@@ -8,8 +8,9 @@
 
 * Deja contactes en 2015 
 * Retour 2/1/16: need the [query sheet](/cletus/suppliers/meggitt/query.pdf)
-* 19/12/16: feedback required.
-* march-17: follow up done.
+* 19/12/16: feedback required
+* march-17: follow up done
+* march-17: can't produce (see details below).
 
 ### Notes
 
@@ -27,3 +28,5 @@
 #### Sheet
 
 * To provode more details on the required piezo : [Download](/cletus/suppliers/meggitt/query.pdf)
+
+* Unfortunately we must decline the opportunity to quote.  The parts you require are currently outside of our capabilities.  As your project continues, we would be interested to learn of your progress and how your needs may evolve.

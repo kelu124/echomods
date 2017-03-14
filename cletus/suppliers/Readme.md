@@ -11,7 +11,7 @@
 * [American Piezo (APC)](http://americanpiezo.com): Deja contactes en 2015, ~ $300 each for small Qty ( 2 or 3 of each Fq), 
 * [SonicConcepts](http://www.sonicconcepts.com/): Contact in 2015 and 2016  , 1,000 unit quantities they can see this costing as low as $250 per unit.  , 
 * [NDTXducer](http://www.ndtxducer.com/): Quote OK. From 277$ to 320$., 
-* [PiezoTechnologies](http://www.piezotechnologies.com/documents/120710-material-data-sheet.aspx): Deja contactes en 2015 , Retour 2/1/16: need the query sheet, 19/12/16: feedback required., march-17: follow up done., 
+* [PiezoTechnologies](http://www.piezotechnologies.com/documents/120710-material-data-sheet.aspx): Deja contactes en 2015 , Retour 2/1/16: need the query sheet, 19/12/16: feedback required, march-17: follow up done, march-17: can't produce (see details below)., 
 * [Ultrasound Transducer](http://www.ultrasoundtransducers.com/): Contact in 2015 (NA). , No answer, mar-17., 
 * [Valpey](www.ctsvalpey.com/): Contact in 2015 (NA), No answer, mar-17., 
 * [OKOS](www.okos.com/transducers): Contact in 2015 (NA). Anastasiya Mlynchyk  (External Sales & Executive Assistant), Won't do -> redirected to NDTX., 
