@@ -51,6 +51,7 @@
 * [./include/AddDocProcess.md](/include/AddDocProcess.md): 
 * [./include/AddIntro.md](/include/AddIntro.md): 
 * [./include/ppt_DocProcess.md](/include/ppt_DocProcess.md): 
+* [./include/AddHistory.md](/include/AddHistory.md): 
 * [./include/AddEchomods.md](/include/AddEchomods.md): 
 * [./include/Bibliography.md](/include/Bibliography.md): Some resources
 * [./include/AddStructureDetails.md](/include/AddStructureDetails.md): 
@@ -136,7 +137,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 79 Auto generated files
+## 80 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -196,6 +197,7 @@
 * ./gitbook/Chapter1/listofmodules.md
 * ./gitbook/Chapter1/principles.md
 * ./gitbook/Chapter1/engineering.md
+* ./gitbook/Chapter1/history.md
 * ./gitbook/Chapter1/Readme.md
 * ./gitbook/Chapter2/toadkiller.md
 * ./gitbook/Chapter2/murgenhardware.md

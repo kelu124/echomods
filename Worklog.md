@@ -1100,6 +1100,20 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 ![](https://imgs.xkcd.com/comics/unpublished_discoveries.png)
 
+#### 2017-03-12 DOIs for releases
+
+* While preparing the article, I've been invited to "save" of copy of the repo into Zenodo ([see the backup](https://zenodo.org/record/377054). And I've got a nice Zenodo link!
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.377054.svg)](https://doi.org/10.5281/zenodo.377054)
+
+* Taking time on 20e214... still sucking at 20e214.
+* Waiting for the CA3306E to reach !
+
+#### 2017-03-19 Finish Doj
+
+* Working on [Doj](/doj) and releasing the KiCad definitive code - available on [OSHPark](https://oshpark.com/shared_projects/2taE6p4M).
+* PCB of the RPi0 high-speed ADC is ongoing !
+* Getting the last touches to the JOH article.
 
 =======
 

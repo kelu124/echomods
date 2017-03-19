@@ -23,12 +23,14 @@ Getting a raspberry acquire a [0;3.3V] signal at 10Msps+, trigged.
 
 ### BOM
 
-* CA3306E
-* CMOS 74HC4050 -- 74HC4050 Hex Non-Inverting Buffer (http://fr.hobbytronics.co.uk/74hc4050)
+* ADC: CA3306E
+* Level shifter: TXB0108 - (see Aliexpress)[https://fr.aliexpress.com/item/8-Channel-8-Bit-Logic-Level-Bi-directional-Converter-Module-TXB0108/32656538404.html?spm=2114.13010608.0.0.yokhl0] or CMOS 74HC4050 -- 74HC4050 Hex Non-Inverting Buffer (http://fr.hobbytronics.co.uk/74hc4050).
 
 * 2x 0.1µF
 * 1x 0.2µF
 * 1x 10µF
+
+
 
 ### Some links, working with BiVi ?
 

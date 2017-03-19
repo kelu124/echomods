@@ -544,6 +544,8 @@ OpenWrite(IncludeImage(Preface),"gitbook/README.md")
 # Adding CHAPTER 1 : Histoire et principe des ultrasons
 # -------------------------
 
+CopyGitBookFile("include/AddHistory.md","gitbook/Chapter1/history.md")
+
 AddEngineering = getText("include/AddEngineering.md")
 OpenWrite(IncludeImage(AddRawHURL(AddEngineering)),"gitbook/Chapter1/engineering.md")
 

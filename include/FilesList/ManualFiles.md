@@ -49,6 +49,7 @@
 * [./include/AddDocProcess.md](/include/AddDocProcess.md): 
 * [./include/AddIntro.md](/include/AddIntro.md): 
 * [./include/ppt_DocProcess.md](/include/ppt_DocProcess.md): 
+* [./include/AddHistory.md](/include/AddHistory.md): 
 * [./include/AddEchomods.md](/include/AddEchomods.md): 
 * [./include/Bibliography.md](/include/Bibliography.md): Some resources
 * [./include/AddStructureDetails.md](/include/AddStructureDetails.md): 
