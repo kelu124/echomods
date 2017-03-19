@@ -28,5 +28,3 @@ title: 2017-03-06 Further work
 
 ![](https://imgs.xkcd.com/comics/unpublished_discoveries.png)
 
-=======
-
