@@ -1,4 +1,4 @@
-# Module: Doj [](@description Motherboard readme)
+# Module: Doj ![](@description Motherboard readme)
 
 ![](/doj/viewme.png)
 
@@ -18,7 +18,7 @@ The motherboard of the echomods
 * technology: n/a
 * language: n/a
 * cost:5$
-* sourcing:Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard)
+* sourcing:Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M).
 * author: Kelu124
 
 ## IOs
@@ -57,7 +57,7 @@ Getting a motherboard: that's fitting all the modules in an easy way, with an ea
 
 ## Constraint and limits
 
-#### Initial design
+### Initial design
 
 As in mind 
 
@@ -67,6 +67,22 @@ Now with the actual modules
 
 ![](/doj/images/doj-simple.png)
 
+### Adding new modules
+
+#### Loaded
+
+![](/doj/images/doj-loaded.jpg)
+
+#### Unloaded
+
+![](/doj/images/doj-unloaded.jpg)
+
+### PCB
+
+With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming from the [brief](/doj/brief.md).
+
+![](/doj/images/oshp.png)
+
 ## Discussions
 
 
@@ -74,6 +90,7 @@ Now with the actual modules
 
 ### DONE
 
+* [PCB on OSHPark](https://oshpark.com/shared_projects/2taE6p4M)
 * Having the list of strips accessible
 * Design
 * Assemble it
