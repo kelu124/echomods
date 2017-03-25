@@ -42,7 +42,7 @@ We aren't doing live imaging for doctors, rather.. building a cheap, open, syste
 * [sleepy](https://github.com/kelu124/echomods/tree/master/sleepy): encasing the whole modules object in a neat case, making it transportable.
 * [doj](https://github.com/kelu124/echomods/tree/master/doj): the motherboard itself.
 * [Toadkiller](https://github.com/kelu124/echomods/tree/master/toadkiller): PRUDAQ BBB Board : that's a 2x10Msps (or up to 40Msps) board for the BBB. Could be u	seful for the [retroATL3](https://github.com/kelu124/echomods/tree/master/retroATL3).
-* [Kina](https://github.com/kelu124/echomods/tree/master/kina): a Wifi module, based on the EMW3165 - a rough UDP-streaming ADC. For slow acquisition.
+* [Hannin](https://github.com/kelu124/echomods/tree/master/hannin): a Wifi module, based on the EMW3165 - a rough UDP-streaming ADC. For slow acquisition.
 
 ## Retired modules
 
@@ -79,14 +79,14 @@ Having played with acquisition, it appears that the BitScope is excellent for 5M
 
 * Beaglebone: either using [Murgen](https://github.com/kelu124/murgen-dev-kit/) (@TODO) onboard ADC (10Msps), or the [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller).
 * Beaglebone: bitbanging the [tobo's 3Msps ADC](https://github.com/kelu124/echomods/tree/master/tobo).
-* [EMW3165 - Kina ](https://github.com/kelu124/echomods/tree/master/kina): getting the UDP streaming. Would work only with the [servo-powered piezo](https://github.com/kelu124/echomods/tree/master/cletus) along with [goblin](https://github.com/kelu124/echomods/tree/master/goblin).
+* [EMW3165 - Hannin ](https://github.com/kelu124/echomods/tree/master/hannin): getting the UDP streaming. Would work only with the [servo-powered piezo](https://github.com/kelu124/echomods/tree/master/cletus) along with [goblin](https://github.com/kelu124/echomods/tree/master/goblin).
 
 ## Display
 
 Displays are key to see if each line behaves as it should - and of course for us to check if it works. The displays should be part of each module. Several possibilities
 
 * Getting the image displayed on a TFT
-* Maybe line by line on the 128x64 OLED screen (using the [EMW3165](https://github.com/kelu124/echomods/tree/master/kina) ?) (@TODO)
+* Maybe line by line on the 128x64 OLED screen (using the [EMW3165](https://github.com/kelu124/echomods/tree/master/hannin) ?) (@TODO)
 
 ## Planning
 
@@ -96,7 +96,7 @@ Displays are key to see if each line behaves as it should - and of course for us
     * Aug 15th: getting and debugging Tobo, the pulser
     * End of August: tested [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller)
 * medium priority: small DAC
-    * Aug 20th: Getting the [EMW3165 - Kina ](https://github.com/kelu124/echomods/tree/master/kina) working (@TODO)
+    * Aug 20th: Getting the [EMW3165 - Hannin ](https://github.com/kelu124/echomods/tree/master/hannin) working (@TODO)
 * Low priority: 
      * Aug 15th: having played with [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller) - maybe with Goblin and retroATL3
 
@@ -132,5 +132,5 @@ Ping me @kelu124 / kelu124@gmail.com !
 * __ToadKiller__ for the Beaglebone with [PRUDAQ BBB Board](https://github.com/kelu124/echomods/tree/master/toadkiller) (to test with [retroATL3](https://github.com/kelu124/echomods/tree/master/retroATL3))
 * Beaglebone with direct access to tobo (to test with retroATL3 - high prio) (cf Derek Molloy) -> Code to be put in [tobo](https://github.com/kelu124/echomods/tree/master/tobo)
 * __Doj__ for the motherboard
-* __Kina__ for the [EMW3165](https://github.com/kelu124/echomods/tree/master/kina) module
+* __Hannin__ for the [EMW3165](https://github.com/kelu124/echomods/tree/master/hannin) module
 

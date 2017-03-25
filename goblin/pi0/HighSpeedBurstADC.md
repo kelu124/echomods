@@ -15,7 +15,14 @@ Getting a raspberry acquire a [0;3.3V] signal at 10Msps+, trigged.
 * PD : GPIO12
 * For the input, the input (after the rectifier) should also be connected to GPIO 5.
 
-* Status of the position of the probe: on GPIO 6 ?
+Some tracks
+
+* PWM for servo on GPIO 6 - and track P14
+* Pon 3.3 - Track P16 - trigger on GPIO 13
+
+* P12 is RPiN - connecteed to GPIO5
+
+
 
 ![](/goblin/pi0/images/GPIO.png)
 

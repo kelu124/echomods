@@ -519,7 +519,7 @@ High speed acquisition
 
 Slow Acquisition
 * tobo/goblin+cletus+BBB to drive the goblin ADC
-* tobo/goblin+cletus+kina to wirelessly stream
+* tobo/goblin+cletus+hannin to wirelessly stream
 
 I decided the emulation was going to be necessary to avoid playing all the time with piezos. It appears Teensy 3.2 can handle that.
 
@@ -983,9 +983,25 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-03-19 Finish Doj
 
 * Working on [Doj](/doj) and releasing the KiCad definitive code - available on [OSHPark](https://oshpark.com/shared_projects/2taE6p4M).
-* PCB of the RPi0 high-speed ADC is ongoing !
+* PCB of the [RPi0 high-speed ADC](https://github.com/kelu124/bomanz) is ongoing !
 * Getting the last touches to the JOH article.
 
+#### 2017-03-20 Doj ... unfinished
+
+* Indeed. Forgot to add a ADC input directly from a strip, two strips for PulseOn and PulseOff, and a way to control the servo from the Pi.
+* Also starting the new season of the HackadayPrize =) 
+* Still some issues with [bomanz (on HAD)](https://hackaday.io/project/20455-20msps-adc-raspberrypi-extension-bomanz) PCB. Some pads suck. I guess I'll order the board from OSHPark along with [Doj's](/doj/) and solder all these tiny stuff. Not so many actually.
+
+#### 2017-03-21 Moving forward
+
+* Posted the Chinese probe project on Hackaday. Will play with the probe using a RPi framework. Should do the trick =)
+* Following up on [6Msps upgrade](/croaker/), [mother board seem OK, silkscreen to do](/doj/), then [Pi1](https://github.com/kelu124/bomanz) and _Pi2_ to follow.
+* [History](/include/AddHistory.md) to develop.
+
+#### 2017-03-22 JOH ongoing !
+
+* Got published! http://openhardware.metajnl.com/articles/10.5334/joh.2/
+* HAD some great projects: https://hackaday.io/tfogarty and https://hackaday.io/project/19685-early-and-low-cost-detection-of-heart-failure
 =======
 
 

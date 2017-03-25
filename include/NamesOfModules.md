@@ -31,6 +31,6 @@ Others
 
 * Sleepy:
 * Lady:
-* Kina:
+* Hannin:
 * Blade:
 * Suvrin

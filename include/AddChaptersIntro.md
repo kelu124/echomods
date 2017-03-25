@@ -43,7 +43,7 @@ Even if the modules described earlier were sufficient to start imaging, the foll
 * [Signal emulator](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.md)
 * [Slow transducer](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.md)
 * [Slow processing](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md)
-* [Wireless acquisition](https://kelu124.gitbooks.io/echomods/content/Chapter3/kina.md)
+* [Wireless acquisition](https://kelu124.gitbooks.io/echomods/content/Chapter3/hannin.md)
 * [Motherboard](https://kelu124.gitbooks.io/echomods/content/Chapter3/doj.md)
 * [Wood encasing](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.md)
 * [Sourcing the modules](sourcing.md)

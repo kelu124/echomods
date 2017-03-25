@@ -48,7 +48,7 @@ ModulesChaptTrois = ["silent","cletus","croaker","doj","sleepy","oneeye"]
 
 ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
 
-ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook"]
+ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz"]
 ExcludeDirsRetired = ExcludeDirs+["retired"]
 
 

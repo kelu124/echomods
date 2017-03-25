@@ -1,6 +1,6 @@
-# Module: Kina
+# Module: Hannin
 
-![](/retired/kina/viewme.png)
+![](/retired/hannin/viewme.png)
 
 ## Name
 
@@ -50,7 +50,7 @@ The aim of this echOmod is to acquire the enveloppe of the signal and stream it.
 
 ### How does it work: block diagram
 
-![Block schema](/retired/kina/source/blocks.png)
+![Block schema](/retired/hannin/source/blocks.png)
 
 * `ITF-I_pulse_on`->`EMW3165`->`WiFi UDP Stream`
 * `EMW3165`->`SPI`->`OLED 128x64 screen`
@@ -90,7 +90,7 @@ The aim of this echOmod is to acquire the enveloppe of the signal and stream it.
 
 ### Sleepy 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Kina](/retired/kina/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Hannin](/retired/hannin/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
