@@ -14,7 +14,7 @@ that's driving traffic to github =)
 High speed acquisition \* PRUDAQ
 
 Slow Acquisition *tobo/goblin+cletus+BBB to drive the goblin ADC*
-tobo/goblin+cletus+kina to wirelessly stream
+tobo/goblin+cletus+hannin to wirelessly stream
 
 I decided the emulation was going to be necessary to avoid playing all
 the time with piezos. It appears Teensy 3.2 can handle that.
