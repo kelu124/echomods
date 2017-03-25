@@ -1002,6 +1002,11 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Got published! http://openhardware.metajnl.com/articles/10.5334/joh.2/
 * HAD some great projects: https://hackaday.io/tfogarty and https://hackaday.io/project/19685-early-and-low-cost-detection-of-heart-failure
+
+#### 2017-03-25 Studious week end
+
+* Some great discussion on use of doppler for heart issues, [notes being here](/include/20170325/). Interesting DIY vintage doppler to do!
+
 =======
 
 

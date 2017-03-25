@@ -21,6 +21,7 @@
 * [./cletus/suppliers/specs/piezo-specs.md](/cletus/suppliers/specs/piezo-specs.md): 
 * [./doj/brief.md](/doj/brief.md): 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme
+* [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md): 
 * [./bomanz/Readme.md](/bomanz/Readme.md): Bomanz description
 * [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
@@ -70,6 +71,7 @@
 * [./include/biblio/Readme.md](/include/biblio/Readme.md): 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md): 
 * [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md): 
+* [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md): 
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov
 * [./include/JOH/joh_article.md](/include/JOH/joh_article.md): 
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md): 
