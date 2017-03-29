@@ -189,13 +189,13 @@ def GitBookizeModule(s,module):
 	del t[1]
 	del t[1]
 	del t[1]
-	del t[-1]
+	#del t[-1]
 	del t[-1]
 	del t[0]	
 	joiner = "\n## "
 	u = joiner.join(t)
 	u = "## "+u.replace("![Block schema](source/blocks.png)","![Block schema](https://raw.githubusercontent.com/kelu124/echomods/master/"+module+"/source/blocks.png)")
-	HeaderModule = "# "+titreModule+ "\n\n ## What does it look like? \n\n <img src='https://raw.githubusercontent.com/kelu124/echomods/master/"+module+"/viewme.png' align='center' width='150'>\n\n"
+	HeaderModule = "# "+titreModule+ "\n\n## What does it look like? \n\n <img src='https://raw.githubusercontent.com/kelu124/echomods/master/"+module+"/viewme.png' align='center' width='150'>\n\n"
 	u = HeaderModule+ u
 	return u
 
