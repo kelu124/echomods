@@ -140,9 +140,9 @@ With which one can reconstruct a movie:
 
 
 
-#### ATL PV10: a more difficult probe to test
+#### [ATL PV10](/retired/retro10PV/): a more difficult probe to test
 
-* __BEWARE! Only for ATL PV10__ Motor is a 12V... doesn't move below 10V ... using 300mA@10V -- we could use a [5V to 12V DC/DC boost similar to this one](https://www.pololu.com/product/2117/specs). Could feed onto the 5V entry and leave on the 12V output. Can be found on Gotronics and such. Or the 12V could be delivered to the board itself.
+* __BEWARE! Only for [ATL PV10](/retired/retro10PV/)__ Motor is a 12V... doesn't move below 10V ... using 300mA@10V -- we could use a [5V to 12V DC/DC boost similar to this one](https://www.pololu.com/product/2117/specs). Could feed onto the 5V entry and leave on the 12V output. Can be found on Gotronics and such. Or the 12V could be delivered to the board itself.
 
 
 * Tested with murgen : not really pratical to use, maybe to be replaced with a simple 3MHz probe (which we have done with this [retro probe](/retroATL3/). [Read the full test on murgen's repo](https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/Session_9_ATL.md).
@@ -166,7 +166,7 @@ _This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-
 
 ##### Trying to sort out the details
 
-We see that the image is there, but we don't know when/where the image was taken.
+We see that the image is there, but we don't know when/where the image was taken. See the [reference page for this old probe](/retired/retro10PV/).
 
 ![](/retroATL3/software/data/20160720-083810.png)
 
