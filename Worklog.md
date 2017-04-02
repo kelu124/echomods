@@ -1138,6 +1138,15 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Put all the information on [the Trove](https://gitlab.com/kelu124/theTrove) temporarly before uploading to the main repo.
 * Updated the [Doj](/doj/), [Bomanz](https://github.com/kelu124/bomanz),  and [the CA3306E](https://github.com/kelu124/bomanz/tree/master/CA3306E) board. Ordered as well on OSHPark, finally!
 
+#### 2017-03-30 Peaceful for once
+
+* Maybe have a demo of the ATL3+modules to Loic this we
+* HV7360 new gen should be ok
+* someone more on the waitling list for the pulser
+* getting some likes on the https://hackaday.io/project/20533-hacking-a-chinese-wireless-ultrasound-probe 
+* boards are on their ways..
+* so it's quiet !
+
 
 =======
 

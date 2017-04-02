@@ -1,6 +1,6 @@
 # Module: Retro10PV
 
-![](/retro10PV/viewme.png)
+![](/retired/retro10PV/viewme.png)
 
 ## Name
 
@@ -50,7 +50,7 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ### How does it work: block diagram
 
-![Block schema](source/blocks.png)
+![Block schema](/retired/retro10PV/source/blocks.png)
 
 * `ITF-mET_Transducer`->`Tri-Piezo Head`->`ITF-mET_Transducer`
 * `ITF-N_cc_motor_pwm`->`Motor`
@@ -76,32 +76,32 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 * Tested with murgen : not really pratical to use, maybe to be replaced with a simple 3MHz probe. [Read the full test on murgen's repo](https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/Session_9_ATL.md).
 
 * __It seems that the noise previously seen with the bitscope was due to the computer! Not to the bitscope.__
-* We have found an interesting doc: the ATL manual for the ultrasound machine - and specs for the whole set of transducers -- [found here](doc/4692-2615.pdf)
+* We have found an interesting doc: the ATL manual for the ultrasound machine - and specs for the whole set of transducers -- [found here](/retired/retro10PV/doc/4692-2615.pdf)
 
 
 ## Discussions
 
 ### What is inside?
 
-![Opening](/retro10PV/images/IMG_2405.JPG)
+![Opening](/retired/retro10PV/images/IMG_2405.JPG)
 
-![Details of the piezos](/retro10PV/images/IMG_2401.JPG)
+![Details of the piezos](/retired/retro10PV/images/IMG_2401.JPG)
 
-![Exploding](/retro10PV/images/20160307_213105_HDR.jpg)
+![Exploding](/retired/retro10PV/images/20160307_213105_HDR.jpg)
 
 ### Cleaning and creation the connections
 
-![Rewired](/retro10PV/images/DSC_0683.JPG)
+![Rewired](/retired/retro10PV/images/DSC_0683.JPG)
 
 ### Use of the probe
 
-![](/retro10PV/images/DSC_0682.JPG)
+![](/retired/retro10PV/images/DSC_0682.JPG)
 
 ### Signals
 
-![](/retro10PV/images/DSC_0680.JPG)
+![](/retired/retro10PV/images/DSC_0680.JPG)
 
-![](/retro10PV/images/DSC_0681.JPG)
+![](/retired/retro10PV/images/DSC_0681.JPG)
 
 ### TODO
 
