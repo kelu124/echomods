@@ -1009,6 +1009,26 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Put all the information on [the Trove](https://gitlab.com/kelu124/theTrove) temporarly before uploading to the main repo.
 * Updated the [Doj](/doj/), [Bomanz](https://github.com/kelu124/bomanz),  and [the CA3306E](https://github.com/kelu124/bomanz/tree/master/CA3306E) board. Ordered as well on OSHPark, finally!
 
+#### 2017-03-30 Peaceful for once
+
+* Maybe have a demo of the ATL3+modules to Loic this we
+* HV7360 new gen should be ok
+* someone more on the waitling list for the pulser
+* getting some likes on the https://hackaday.io/project/20533-hacking-a-chinese-wireless-ultrasound-probe 
+* boards are on their ways..
+* so it's quiet !
+
+#### 2017-04-04 Chinese probe SDK
+
+* Moving forward! Capturing some images [from the probe, trying videos](https://github.com/kelu124/kina/blob/master/20170404-Crunching_Video)
+
+
+#### 2017-04-06 Purple
+
+* Got some PCBs for Bomanz, for both [high speed](https://github.com/kelu124/bomanz/blob/master/images/20170406_124950.jpg) and [CA3306E](https://github.com/kelu124/bomanz/blob/master/images/20170406_124914.jpg) ADCs.
+* Got some PCB for [Doj, and tested those](/doj/20170406-PCBs.md)!
+
+
 
 =======
 

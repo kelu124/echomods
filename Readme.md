@@ -5,7 +5,8 @@ This project has a specific target of providing a __low-cost, open source techno
 * the [github repo](https://github.com/kelu124/echomods/), for the source files, raw data and raw experiment logs;
 * the [online manual/book](https://www.gitbook.com/book/kelu124/echomods/details) for a easily readable and searchable archive of the whole work;
 * the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format;
-* the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [pulser](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/).
+* an [article summarizing the experiment on the Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) - [DOI:10.5334/joh.2]( http://doi.org/10.5334/joh.2);
+* the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [pulser](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or [the motherboard](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).
  
 __Disclaimer__: though an engineer, this project is the first of its sort, I never did something related. Bear with us, and the discovery process, but I'm happy to learn on the way =)
 
@@ -130,7 +131,7 @@ Note that the 'BONUS!' represents something that _could_ be done, and does not c
 |sleepy|<ul><li>Choose the design once the modules are done</li><li>Get to work with Arthur</li></ul>|<ul><li>Checking Arthur availability</li></ul>|33% |
 |tobo||<ul><li>Writing specs </li><li>HV7360 has been updated</li><li>Sending microcircuits to Edgeflex</li><li>Agreeing on the strips/tracks </li><li>Defining the ICs to use to pulse</li><li>Getting schematics</li><li>Publishing schematics</li><li>Receive the module</li><li>Test it with different transducers</li><li>Publish the sources in KiCAD</li></ul>|100% |
 |cletus|<ul><li>Choose the servo (&gt;100Hz)</li><li>Do the structure of the holder (3D design?)</li></ul>|<ul><li>Get a 3.5MHz piezo</li></ul>|33% |
-|doj||<ul><li><a href="https://oshpark.com/shared_projects/2taE6p4M">PCB on OSHPark</a></li><li>Having the list of strips accessible</li><li>Design</li><li>Assemble it</li><li>Test it</li></ul>|100% |
+|doj|<ul><li>Change the viewme</li><li>Remove power supply from v2 - smaller board</li><li>Add a level shifter been Pon 3.3 and 5 and Poff 3.3 and 5</li><li>Add the corresponding 5V -&gt; 3.3V regulator</li><li>A bit more space around the Pi0/PiW headers</li><li>Proper silkscreening around the Pi0 headers (they are reversed)</li></ul>|<ul><li><a href="https://oshpark.com/shared_projects/2taE6p4M">PCB on OSHPark</a></li><li>Having the list of strips accessible</li><li>Design</li><li>Assemble it</li><li>Test it</li></ul>|45% |
 |oneeye||<ul><li>First test with Arduino Trinket</li></ul>|100% |
 |croaker|<ul><li>Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a> - that is, pulse control.</li><li>Get better total ADC speed with an iterleaved move</li><li>Develop a Cletus+Croaker way of working with a gyroscope+accelerometer.</li><li>Have Croaker generate its own AP</li></ul>|<ul><li>Choose the platform (<a href="/toadkiller/">BBB</a>, RPi0, <a href="/croaker/">STM32</a>, ... ?) : that'll be a <code>Feather WICED</code> for this iteration of Croaker</li><li>Getting some images</li><li>Getting images onto a screen</li><li>Getting good resolution images -- see the <a href="/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md">breadboard phantom</a></li></ul>|50% |
 |retroATL3|<ul><li>Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a> - that is, pulse control.</li><li>Get better total ADC speed with an iterleaved move</li><li>Develop a Cletus+Croaker way of working with a gyroscope+accelerometer.</li><li>Have Croaker generate its own AP</li></ul>|<ul><li>Finding the pins mapping</li><li>Acquire and build ultrasound pictures =)</li><li>Motor in action</li><li>Refill Oil</li><li>Test echoes</li><li><a href="https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging/log/42113-testing-murgen-with-a-market-probe">Make and insert a video: there</a></li></ul>|60% |
@@ -153,6 +154,12 @@ Here's a couple of things we're working on, for which you could help as well.
 * Get to work with Arthur (in [sleepy](/sleepy/))
 * Choose the servo (&gt;100Hz) (in [cletus](/cletus/))
 * Do the structure of the holder (3D design?) (in [cletus](/cletus/))
+* Change the viewme (in [doj](/doj/))
+* Remove power supply from v2 - smaller board (in [doj](/doj/))
+* Add a level shifter been Pon 3.3 and 5 and Poff 3.3 and 5 (in [doj](/doj/))
+* Add the corresponding 5V -&gt; 3.3V regulator (in [doj](/doj/))
+* A bit more space around the Pi0/PiW headers (in [doj](/doj/))
+* Proper silkscreening around the Pi0 headers (they are reversed) (in [doj](/doj/))
 * Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a> - that is, pulse control. (in [croaker](/croaker/))
 * Get better total ADC speed with an iterleaved move (in [croaker](/croaker/))
 * Develop a Cletus+Croaker way of working with a gyroscope+accelerometer. (in [croaker](/croaker/))

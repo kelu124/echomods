@@ -1147,10 +1147,17 @@ Netty isn't nice... but just got my article accepted by JOH !
 * boards are on their ways..
 * so it's quiet !
 
-#### #### 2017-04-06 Purple
+#### 2017-04-04 Chinese probe SDK
+
+* Moving forward! Capturing some images [from the probe, trying videos](https://github.com/kelu124/kina/blob/master/20170404-Crunching_Video)
+
+
+#### 2017-04-06 Purple
 
 * Got some PCBs for Bomanz, for both [high speed](https://github.com/kelu124/bomanz/blob/master/images/20170406_124950.jpg) and [CA3306E](https://github.com/kelu124/bomanz/blob/master/images/20170406_124914.jpg) ADCs.
 * Got some PCB for [Doj, and tested those](/doj/20170406-PCBs.md)!
+
+
 
 =======
 

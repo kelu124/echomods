@@ -13,12 +13,12 @@ The motherboard of the echomods
 ## Description
 
 * A stripboard
-* version: V0.1
-* date: 26/07/2016
-* technology: n/a
-* language: n/a
+* version: V0.2
+* date: 04/04/2016
+* technology: pcb
+* language: kicad
 * cost:5$
-* sourcing:Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M).
+* sourcing:Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) if you can order by 3. Or [straight from Tindie](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).
 * author: Kelu124
 
 ## IOs
@@ -87,6 +87,13 @@ With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming fro
 
 
 ### TODO
+
+* Change the viewme
+* Remove power supply from v2 - smaller board
+* Add a level shifter been Pon 3.3 and 5 and Poff 3.3 and 5
+* Add the corresponding 5V -> 3.3V regulator
+* A bit more space around the Pi0/PiW headers
+* Proper silkscreening around the Pi0 headers (they are reversed)
 
 ### DONE
 
