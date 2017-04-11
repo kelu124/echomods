@@ -18,5 +18,3 @@ title: 2017-03-25 Studious week end
     CA3306E](https://github.com/kelu124/bomanz/tree/master/CA3306E) board.
     Ordered as well on OSHPark, finally!
 
-=======
-
