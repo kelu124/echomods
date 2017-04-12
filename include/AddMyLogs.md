@@ -1028,6 +1028,11 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Got some PCBs for Bomanz, for both [high speed](https://github.com/kelu124/bomanz/blob/master/images/20170406_124950.jpg) and [CA3306E](https://github.com/kelu124/bomanz/blob/master/images/20170406_124914.jpg) ADCs.
 * Got some PCB for [Doj, and tested those](/doj/20170406-PCBs.md)!
 
+#### 2017-04-12 Mounted boards!
+
+* Playing with DICOMs on Kina, should be ported to all images. [Example of code](https://github.com/kelu124/kina/blob/master/20170411-DICOM.ipynb) yields [funny dicoms](http://www.dicomlibrary.com/meddream/?study=1.2.826.0.1.3680043.8.1055.1.20170411215409237.878569250.8160869).
+* [Here's what the ADCs boards look like](https://github.com/kelu124/bomanz/blob/master/images/20170406_124950.jpg).
+
 
 
 =======

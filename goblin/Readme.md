@@ -63,7 +63,7 @@ With more details, this [Goblin](/goblin/) board aims at getting a signal, and g
 All key signals are accessible, and jumpers, as well as pots, enable on-board fine-tuning of the signals. [See more details on the __testing session__, to see the behavior of the board on a oscillo](/goblin/2016-07-08.md).
 
 It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch only the enveloppe, to be tested with other uC, RPi or BBB. Test have been also done with [6MSps, arduino IDE-compatible, STM32](/croaker/). 
-
+	
 ### How does it work: block diagram
 
 ![Block schema](/goblin/source/blocks.png)
@@ -77,7 +77,7 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 
 This can be summarized below - all the signals represented are accessible via separate on-board pins:
 
-![Principle of goblin](/goblin/images/slide_principle.png)
+![](/goblin/images/slide_principle.png)
 
 Input/Output:
 
