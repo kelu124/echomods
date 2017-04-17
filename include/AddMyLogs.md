@@ -1033,7 +1033,25 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Playing with DICOMs on Kina, should be ported to all images. [Example of code](https://github.com/kelu124/kina/blob/master/20170411-DICOM.ipynb) yields [funny dicoms](http://www.dicomlibrary.com/meddream/?study=1.2.826.0.1.3680043.8.1055.1.20170411215409237.878569250.8160869).
 * [Here's what the ADCs boards look like](https://github.com/kelu124/bomanz/blob/master/images/20170406_124950.jpg).
 
+#### 2017-04-13 Error, that's hot
 
+* Tantalum capacitor: not in reverse! Never!! What are the odds that I put all 3 capacitors on 2 different boards _all in reverse_ ?
+
+#### 2017-04-15 Capacitors connected
+
+* That's well and done. Shall be trying this week end!
+* Got 50$ bonus from OSHPark... yeay!!
+* Tweet proposed by _"Cool, well if you want to release it as a product or anything then let us know and we'd be happy to help :-)"_ @PiSupply
+
+
+#### 2017-04-17 End of week end	
+
+* Working on the [press review](/include/AddPressReview.md)
+* Backing HIDIOT : HIDIOT Kickstarter Edition Kit
+
+* Where to do next PCBs?
+    * http://www.pcbcart.com
+    * 
 
 =======
 

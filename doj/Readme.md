@@ -89,11 +89,12 @@ With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming fro
 ### TODO
 
 * Change the viewme
-* Remove power supply from v2 - smaller board
+* Adapt power supply from v2 - smaller board footprint
 * Add a level shifter been Pon 3.3 and 5 and Poff 3.3 and 5
-* Add the corresponding 5V -> 3.3V regulator
 * A bit more space around the Pi0/PiW headers
 * Proper silkscreening around the Pi0 headers (they are reversed)
+* Jumper for the ADC in.. and selector (enveloppe and amplified signal) (either to Feather or to ADC .. and dedicated pin on Rpi)
+* SPI from RPi to Oled... or SPI to screen (to be checked in both case) .. or both kept, there are two SPI
 
 ### DONE
 

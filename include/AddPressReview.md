@@ -1,5 +1,7 @@
 ## Press review
 
+### Articles
+
 * 2016-02-22: [Why are Ultrasound Machines So Expensive?](http://www.maori.geek.nz/why-are-ultrasound-machines-so-expensive/)
 * 2016-04-12: [A Developer's Kit for Medical Ultrasound](http://hackaday.com/2016/04/12/a-developers-kit-for-medical-ultrasound/)
 * 2016-04-17: [Самодельный сканер УЗИ получил первые изображения](https://geektimes.ru/post/274478/)
@@ -16,4 +18,6 @@
 * 2016-12-19: [Mentioned on Tindie Blog - An Ultrasound Experimentation Board](http://blog.tindie.com/2016/12/ultrasound-experimentation-board/)
 * 2016-12-20: [Why Are Ultrasound Machines So Expensive? (maori.geek.nz) on HN](https://news.ycombinator.com/item?id=13230741) - mentioned in the comments. The whole series of comments of HN readers, as well as the [liesnstartup post](http://liesandstartuppr.blogspot.fr/2016/12/why-are-medical-ultrasound-systems-so.html) are very rich.
 * 2016-12-27: [Review of MaoriGeek'as article on Geektimes](https://geektimes.ru/post/284144/)
+* 2017-03-21: [Project published as an article on MetaJNL](http://openhardware.metajnl.com/articles/10.5334/joh.2/)
+* 2017-04-01: [Ultrasound on kakoni](https://github.com/kakoni/awesome-health)
 
