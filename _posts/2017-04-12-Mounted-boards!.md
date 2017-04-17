@@ -15,5 +15,3 @@ title: 2017-04-12 Mounted boards!
 -   [Here's what the ADCs boards look
     like](https://github.com/kelu124/bomanz/blob/master/images/20170406_124950.jpg).
 
-=======
-
