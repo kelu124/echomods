@@ -46,6 +46,7 @@
 * ./gitbook/Chapter3/oneeye.md
 * ./gitbook/Chapter3/sleepy.md
 * ./gitbook/Chapter3/doj.md
+* ./gitbook/Chapter3/tomtom.md
 * ./gitbook/Chapter3/croaker.md
 * ./gitbook/Chapter3/Readme.md
 * ./gitbook/Chapter7/Readme.md

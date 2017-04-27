@@ -1090,8 +1090,8 @@
 <path fill="none" stroke="black" d="M-749.881,286.118C-750.099,286.176 -750.317,286.234 -750.534,286.293"/>
 <polygon fill="black" stroke="black" points="-749.725,289.699 -760.29,288.904 -751.535,282.937 -749.725,289.699"/>
 </g>
-<!-- NewModules&#45;&gt;Kina -->
-<g id="edge216" class="edge"><title>NewModules&#45;&gt;Kina</title>
+<!-- NewModules&#45;&gt;Hannin -->
+<g id="edge216" class="edge"><title>NewModules&#45;&gt;Hannin</title>
 <path fill="none" stroke="black" d="M523.132,-676.102C523.183,-676.11 523.235,-676.118 523.286,-676.126"/>
 <polygon fill="black" stroke="black" points="513.019,-678.069 523.44,-676.15 514.097,-671.152 513.019,-678.069"/>
 </g>
@@ -2215,10 +2215,10 @@
 <ellipse fill="none" stroke="black" stroke-width="0" cx="470.844" cy="-667.987" rx="58.4896" ry="18"/>
 <text text-anchor="middle" x="470.844" y="-664.287" font-family="Times,serif" font-size="14.00">NewModules</text>
 </g>
-<!-- Kina -->
-<g id="node221" class="node"><title>Kina</title>
-<ellipse fill="none" stroke="black" stroke-width="0" cx="546.725" cy="-679.764" rx="27.8951" ry="18"/>
-<text text-anchor="middle" x="546.725" y="-676.064" font-family="Times,serif" font-size="14.00">Kina</text>
+<!-- Hannin -->
+<g id="node221" class="node"><title>Hannin</title>
+<ellipse fill="none" stroke="black" stroke-width="0" cx="546.725" cy="-679.764" rx="36.2938" ry="18"/>
+<text text-anchor="middle" x="546.725" y="-676.064" font-family="Times,serif" font-size="14.00">Hannin</text>
 </g>
 <!-- Silent -->
 <g id="node222" class="node"><title>Silent</title>

@@ -1,0 +1,17 @@
+digraph {
+	"ITF-C_amplified_raw_signal" [style=rounded]
+	Bomanz [style=rounded]
+		"ITF-C_amplified_raw_signal" -> Bomanz
+	"ITF-E_signal_envelope" [style=rounded]
+	Bomanz [style=rounded]
+		"ITF-E_signal_envelope" -> Bomanz
+	RPi [style=rounded]
+	"ITF-I_pulse_on" [style=rounded]
+		RPi -> "ITF-I_pulse_on"
+	RPi [style=rounded]
+	"ITF-J_pulse_off" [style=rounded]
+		RPi -> "ITF-J_pulse_off"
+	RPi [style=rounded]
+	"ITF-N_cc_motor_pwm" [style=rounded]
+		RPi -> "ITF-N_cc_motor_pwm"
+}

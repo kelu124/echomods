@@ -146,7 +146,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 80 Auto generated files
+## 81 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -196,6 +196,7 @@
 * ./gitbook/Chapter3/oneeye.md
 * ./gitbook/Chapter3/sleepy.md
 * ./gitbook/Chapter3/doj.md
+* ./gitbook/Chapter3/tomtom.md
 * ./gitbook/Chapter3/croaker.md
 * ./gitbook/Chapter3/Readme.md
 * ./gitbook/Chapter7/Readme.md

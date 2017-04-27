@@ -594,8 +594,8 @@ digraph {
 			"TI/MAXIM/ANALOG&amp;Al" -> Microchip
 			Microchip -> Thierry
 		NewModules [penwidth=0]
-		Kina [penwidth=0]
-			NewModules -> Kina
+		Hannin [penwidth=0]
+			NewModules -> Hannin
 		NewModules [penwidth=0]
 		Silent [penwidth=0]
 			NewModules -> Silent
