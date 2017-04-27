@@ -20,4 +20,4 @@
 * 2016-12-27: [Review of MaoriGeek'as article on Geektimes](https://geektimes.ru/post/284144/)
 * 2017-03-21: [Project published as an article on MetaJNL](http://openhardware.metajnl.com/articles/10.5334/joh.2/)
 * 2017-04-01: [Ultrasound on kakoni](https://github.com/kakoni/awesome-health)
-
+* 2017-04-16: [Bomanz on OSHPark](https://blog.oshpark.com/2017/04/15/high-speed-adc-phat-for-raspberry-pi/)

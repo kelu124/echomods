@@ -1178,9 +1178,16 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Working on the [press review](/include/AddPressReview.md)
 * Backing HIDIOT : HIDIOT Kickstarter Edition Kit
 
+* Yeayy! [Bomanz on OSHPark](https://blog.oshpark.com/2017/04/15/high-speed-adc-phat-for-raspberry-pi/)
+
 * Where to do next PCBs?
     * http://www.pcbcart.com
-    * 
+
+#### 2017-04-23 Playing with ADC
+
+* Playing with ADC.. got the first results with the CA3306E board! See https://github.com/kelu124/bomanz/blob/master/CA3306E/20170422-FirstAcqs.ipynb
+* Played with Loic on the RF modules
+* @todo dig into https://www.ncbi.nlm.nih.gov/pubmed/23853268
 
 =======
 

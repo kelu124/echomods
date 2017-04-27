@@ -6,15 +6,59 @@ __[Links]__ :no_entry: `./Worklog.md` : Error in link definition, non-absolute p
 
 __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/20160822/20160822-Fantom.md`
 
+__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/Makefile`
+
+__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/ca3306.c`
+
+__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/getSample.cpp`
+
+__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/piscope.txt`
+
+__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/prepareModules.sh`
+
+__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/data/1MHz.data`
+
+__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./images/20170422-FirstAcqs.png`
+
+__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./pdf/CA3306.pdf`
+
+__[Links]__ :no_entry: `./bomanz/20170423-PlayingAD9214.md` : Error in link definition, non-absolute path in link to `pdf/adc08200.pdf`
+
+__[Links]__ :no_entry: `./bomanz/20170423-PlayingAD9214.md` : Link to non-existing file `./images/PRUDAQ-5.0-schematic.png`
+
+__[Links]__ :no_entry: `./bomanz/20170423-PlayingAD9214.md` : Link to non-existing file `./pdf/AD9201.pdf`
+
+__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p620.png`
+
+__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p621.png`
+
+__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p622.png`
+
+__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p623.png`
+
+__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p624.png`
+
+__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p625.png`
+
+__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p626.png`
+
+__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./20170417-PlayingWithCA3306E.md`
+
+__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./CA3306E/20170422-FirstAcqs.ipynb`
+
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170406_124914.jpg`
 
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170406_124950.jpg`
 
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170412_231408.jpg`
 
+__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170422-FirstAcqs.png`
+
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/bomanz_pcb.png`
 
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/bomanz_pcb.png`
+
+__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./pdf/CA3306.pdf`
 
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./source/blocks.png`
 
@@ -58,9 +102,17 @@ __[Links]__ :no_entry: `./include/AddWireless.md` : Error in link definition, no
 
 __[Links]__ :no_entry: `./silent/Readme.md` : Link to non-existing file `./silent/software/featherWICED/SignalGenerator.ino`
 
+__[Links]__ :no_entry: `./tomtom/Readme.md` : Link to non-existing file `./tomtom/source/blocks.png`
+
 __[MD Files]__ :no_entry: `./CLA.md` : Missing description
 
 __[MD Files]__ :no_entry: `./CodeOfConduct.md` : Missing description
+
+__[MD Files]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Missing description
+
+__[MD Files]__ :no_entry: `./bomanz/20170423-PlayingAD9214.md` : Missing description
+
+__[MD Files]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./cletus/suppliers/specs/piezo-specs.md` : Missing description
 
@@ -159,6 +211,8 @@ __[MD Files]__ :no_entry: `./silent/notes_R2R_DAC.md` : Missing description
 __[MD Files]__ :no_entry: `./toadkiller/data/test_enveloppe/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./tobo/Readme.md` : Missing description
+
+__[MD Files]__ :no_entry: `./tomtom/20170425-ExploringGPIOs.md` : Missing description
 
 __[MDL cletus]__ :white_check_mark: 01. Block diagram OK
 
@@ -319,6 +373,21 @@ __[MDL tobo]__ :white_check_mark: 6 input(s)
 __[MDL tobo]__ :white_check_mark: Metadata (version, cost, sourcing, date, technology, language, author)
 
 
+__[MDL tomtom]__ :white_check_mark: 01. Block diagram OK
+
+
+__[MDL tomtom]__ :white_check_mark: 01. Real name found: MDL-rpiEchomods
+
+
+__[MDL tomtom]__ :white_check_mark: 4 input(s)
+
+
+__[MDL tomtom]__ :white_check_mark: 5 output(s)
+
+
+__[MDL tomtom]__ :white_check_mark: Metadata (version, date, technology, language, cost, sourcing, author)
+
+
 __[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Header error 
 
 __[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Missing Author 
@@ -350,6 +419,6 @@ __[SET]__ Added `highspeed`
 __[SET]__ Added `wifi-dev-kit`
 
 
-__[WEB Blog]__ 134 posts added
+__[WEB Blog]__ 135 posts added
 
 [](@autogenerated - invisible comment)

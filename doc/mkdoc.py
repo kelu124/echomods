@@ -44,7 +44,7 @@ WarningMark = ":warning:"
 ValidH = ["h1","h2","h3","h4","h5"]
 
 ModulesChaptDeux = ["tobo","retroATL3","mogaba","goblin","tobo","toadkiller"]
-ModulesChaptTrois = ["silent","cletus","croaker","doj","sleepy","oneeye"]
+ModulesChaptTrois = ["silent","cletus","croaker","doj","sleepy","oneeye","tomtom"]
 
 ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
 

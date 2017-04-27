@@ -21,11 +21,16 @@
 * [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): supplier source file
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file
 * [./cletus/suppliers/specs/piezo-specs.md](/cletus/suppliers/specs/piezo-specs.md): 
+* [./tomtom/20170425-ExploringGPIOs.md](/tomtom/20170425-ExploringGPIOs.md): 
+* [./tomtom/Readme.md](/tomtom/Readme.md): Analog processing module readme
 * [./doj/20170406-PCBs.md](/doj/20170406-PCBs.md): 
 * [./doj/brief.md](/doj/brief.md): 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme
 * [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md): 
+* [./bomanz/20170423-PlayingAD9214.md](/bomanz/20170423-PlayingAD9214.md): 
 * [./bomanz/Readme.md](/bomanz/Readme.md): Bomanz description
+* [./bomanz/20170417-PlayingWithCA3306E.md](/bomanz/20170417-PlayingWithCA3306E.md): 
+* [./bomanz/CA3306E/1991-Mag/Readme.md](/bomanz/CA3306E/1991-Mag/Readme.md): 
 * [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
 * [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs
