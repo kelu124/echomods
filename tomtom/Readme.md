@@ -54,7 +54,7 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 ![Block schema](/tomtom/source/blocks.png)
 
 * `ITF-C_amplified_raw_signal`->`Bomanz`
-* `ITF-E_signal_envelope`->`Bomanz`
+* `ITF-E_signal_envelope`->`Bomanz`->`RPi`
 * `RPi`->`ITF-I_pulse_on`
 * `RPi`->`ITF-J_pulse_off`
 * `RPi`->`ITF-N_cc_motor_pwm`
@@ -78,6 +78,7 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 ## Mapping the pins
 
 @todo : mapping the pins shared between PWM, pHAT and tracks
+* [Testing GPIOs](/tomtom/20170425-ExploringGPIOs.md)
 
 ## Discussions
 

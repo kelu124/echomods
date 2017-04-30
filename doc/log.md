@@ -102,8 +102,6 @@ __[Links]__ :no_entry: `./include/AddWireless.md` : Error in link definition, no
 
 __[Links]__ :no_entry: `./silent/Readme.md` : Link to non-existing file `./silent/software/featherWICED/SignalGenerator.ino`
 
-__[Links]__ :no_entry: `./tomtom/Readme.md` : Link to non-existing file `./tomtom/source/blocks.png`
-
 __[MD Files]__ :no_entry: `./CLA.md` : Missing description
 
 __[MD Files]__ :no_entry: `./CodeOfConduct.md` : Missing description
