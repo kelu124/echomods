@@ -6,6 +6,8 @@ Updating Doj for a PCB v2
 
 __As small as possible.__
 
+* Silkscreen to update (REnv and AmpSignal are reversed)
+
 * Adapt power supply from v2 - smaller board footprint
     * Good footprint this time
     * through holes
@@ -29,6 +31,8 @@ __As small as possible.__
     * 0-3.3V for enveloppe
     * Raw signal
     * Raw signal, shifted
+
+* Jumper for the Servo control
 
 * SPI from RPi to Oled... or SPI to screen (to be checked in both case) .. or both kept, there are two SPI
 

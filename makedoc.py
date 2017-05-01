@@ -723,6 +723,8 @@ CopyGitBookFile("include/FilesList/AllFiles.md","gitbook/Chapter6/fileslist.md")
 # Product work
 CopyGitBookFile("/include/fda.gov/Readme.md","gitbook/Chapter6/fda.md")
 CopyGitBookFile("/include/vscan/Readme.md","gitbook/Chapter6/vscan.md")
+# Friend work
+CopyGitBookFile("/include/c_will/Readme.md","gitbook/Chapter6/c_will.md")
 
 # -------------------------
 # Adding CHAPTER 7 : Contributing

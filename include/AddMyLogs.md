@@ -1060,6 +1060,12 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Played with Loic on the RF modules
 * @todo dig into https://www.ncbi.nlm.nih.gov/pubmed/23853268
 
+#### 2017-04-30 Playing with ADC - v2
+
+* https://github.com/kelu124/bomanz/blob/master/20170430-PushingADCLimits.md and at the bottom of it.. the next steps (for tomorrow? ;) )
+* from @rbo http://linuxgizmos.com/google-assistant-sdk-dev-preview-brings-voice-agent-to-the-raspberry-pi/
+* Bomanz on Hackaday http://hackaday.com/2017/04/30/hackaday-prize-entry-high-speed-sampling-for-the-raspberry-pi/
+
 =======
 
 
