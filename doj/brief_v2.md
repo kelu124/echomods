@@ -40,7 +40,7 @@ __As small as possible.__
 
 ![](/doj/images/20170504_215628.jpg)
 
-> + Track 12 (RPin) must only be connected to the header on the right ( on its GPIO 05). 
+> + Track 12 (RPin) must only be connected to the header on the right ( on its GPIO 05).  
 
 
 ## Tracks
