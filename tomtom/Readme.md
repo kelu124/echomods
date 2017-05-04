@@ -86,6 +86,7 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 
 * Test the PWM
 * Testing the limits of ADC acquisition (speed / bits)
+* Save images as DICOMs
 
 ### DONE
 
