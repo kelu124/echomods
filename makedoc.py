@@ -616,12 +616,16 @@ OpenWrite(AddRawMurgenURL(getText("./../murgen-dev-kit/software/Readme.md"))+"\n
 
 
 # -------------------------
-# Adding CHAPTER 3 : Notes and worklog
+# Adding CHAPTER 3 : Modules
 # -------------------------
 
 for eachModule in ModulesChaptTrois:
 	ModuleDesc = getText(eachModule+"/Readme.md")
 	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
+
+
+CopyGitBookBomanzFile("bomanz/Readme.md","gitbook/Chapter3/bomanz.md")
+CopyGitBookBomanzFile("bomanz/20170430-PushingADCLimits.md","gitbook/Chapter3/bomanz2.md")
 
 # -------------------------
 # Adding CHAPTER 4 : Notes and worklog

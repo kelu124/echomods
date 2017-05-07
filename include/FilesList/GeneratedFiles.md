@@ -42,6 +42,7 @@
 * ./gitbook/Chapter5/Readme.md
 * ./gitbook/Chapter5/loops.md
 * ./gitbook/Chapter3/cletus.md
+* ./gitbook/Chapter3/bomanz.md
 * ./gitbook/Chapter3/silent.md
 * ./gitbook/Chapter3/oneeye.md
 * ./gitbook/Chapter3/sleepy.md

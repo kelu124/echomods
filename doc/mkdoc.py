@@ -231,6 +231,18 @@ def AddRawHURL(s):
 
 	s = s.replace("![](/", "![]("+URL)
 
+	s = GHubToGBook(s)
+
+	return s
+
+def GHubToGBook(s):
+
+	for module in ModulesChaptDeux:
+		s = s.replace("](https://github.com/kelu124/echomods/tree/master/"+module+"/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter2/"+module+".html)")
+	for module in ModulesChaptTrois:
+		s = s.replace("](https://github.com/kelu124/echomods/tree/master/"+module+"/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter3/"+module+".html)")
+
+	s = s.replace("](https://github.com/kelu124/bomanz/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter3/bomanz.html)")	
 
 	return s
 
@@ -243,6 +255,15 @@ def AddRawMurgenURL(s):
 	s= re.sub('!\[.*\]', '![]', s)
 	return s.replace("![](/", "![]("+URL)
 
+def AddRawBomanzURL(s):
+	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
+	URL = "https://raw.githubusercontent.com/kelu124/bomanz/master/"
+	PyNb = "https://github.com/kelu124/bomanz/blob/master"
+	s= re.sub('!\[.*\]', '![]', s)
+	s = s.replace("![](/", "![]("+URL)
+	s = s.replace("](/", "]("+PyNb+"/")
+	s= GHubToGBook(s)
+	return s
 
 def OpenWrite(Write,Open):
 	f = open(Open,"w+")
@@ -262,6 +283,9 @@ def CopyGitBookFile(From,To):
 
 def CopyGitBookMurgenFile(From,To):
 	return OpenWrite(AddRawMurgenURL(getText(From)),To)
+
+def CopyGitBookBomanzFile(From,To):
+	return OpenWrite(AddRawBomanzURL(getText(From)),To)
 
 def GraphModule(Paires,GraphThisModule,ReadMe,FullSVG):
         for eachPair in Paires:
