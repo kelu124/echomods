@@ -75,7 +75,21 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 
 * @todo
 
-## Mapping the pins
+## Work
+
+### Checking if it works with the [pulser](/tobo/)
+
+It does! Pulses are :
+
+![](/tobo/images/2017/TEK0008.JPG)
+
+and the ouput of the pulser is:
+
+![](/tobo/images/2017/TEK0009.JPG)
+
+
+
+### Mapping the pins
 
 @todo : mapping the pins shared between PWM, pHAT and tracks
 * [Testing GPIOs](/tomtom/20170425-ExploringGPIOs.md)
@@ -87,6 +101,7 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 * Test the PWM
 * Testing the limits of ADC acquisition (speed / bits)
 * Save images as DICOMs
+* Understand why some GPIOs do not have lower values at 0..
 
 ### DONE
 
