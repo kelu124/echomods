@@ -20,6 +20,7 @@
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file
 * [./cletus/suppliers/specs/piezo-specs.md](/cletus/suppliers/specs/piezo-specs.md): 
 * [./tomtom/20170425-ExploringGPIOs.md](/tomtom/20170425-ExploringGPIOs.md): 
+* [./tomtom/DicomHandler.md](/tomtom/DicomHandler.md): 
 * [./tomtom/Readme.md](/tomtom/Readme.md): Analog processing module readme
 * [./doj/20170406-PCBs.md](/doj/20170406-PCBs.md): 
 * [./doj/brief.md](/doj/brief.md): 

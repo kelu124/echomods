@@ -32,6 +32,10 @@ __[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-exi
 
 __[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./ADC08200/20170430-ADC08200-FirstAcqs.ipynb`
 
+__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./ADC08200/20170430-ADC08200-FirstAcqs.ipynb`
+
+__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./ADC08200/20170501-TestingVref.ipynb`
+
 __[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./images/20170422-detailedFFT.png`
 
 __[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./images/ADC08200-Noise.png`
@@ -77,6 +81,12 @@ __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./image
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170412_231408.jpg`
 
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170422-FirstAcqs.png`
+
+__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/ADC08200piezoFFTed.png`
+
+__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/BomanzVSCroaker.png`
+
+__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/SilentSigs.jpg`
 
 __[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/bomanz_pcb.png`
 
@@ -241,6 +251,8 @@ __[MD Files]__ :no_entry: `./toadkiller/data/test_enveloppe/Readme.md` : Missing
 __[MD Files]__ :no_entry: `./tobo/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./tomtom/20170425-ExploringGPIOs.md` : Missing description
+
+__[MD Files]__ :no_entry: `./tomtom/DicomHandler.md` : Missing description
 
 __[MDL cletus]__ :white_check_mark: 01. Block diagram OK
 

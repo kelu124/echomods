@@ -22,6 +22,7 @@
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file
 * [./cletus/suppliers/specs/piezo-specs.md](/cletus/suppliers/specs/piezo-specs.md): 
 * [./tomtom/20170425-ExploringGPIOs.md](/tomtom/20170425-ExploringGPIOs.md): 
+* [./tomtom/DicomHandler.md](/tomtom/DicomHandler.md): 
 * [./tomtom/Readme.md](/tomtom/Readme.md): Analog processing module readme
 * [./doj/20170406-PCBs.md](/doj/20170406-PCBs.md): 
 * [./doj/brief.md](/doj/brief.md): 
@@ -150,7 +151,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 81 Auto generated files
+## 82 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -226,6 +227,7 @@
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/vscan.md
+* ./gitbook/Chapter6/c_will.md
 * ./gitbook/Chapter6/fileslist.md
 * ./gitbook/Chapter6/academicbiblio.md
 * ./gitbook/Chapter6/documentationprocess.md

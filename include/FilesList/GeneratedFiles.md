@@ -72,6 +72,7 @@
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/vscan.md
+* ./gitbook/Chapter6/c_will.md
 * ./gitbook/Chapter6/fileslist.md
 * ./gitbook/Chapter6/academicbiblio.md
 * ./gitbook/Chapter6/documentationprocess.md

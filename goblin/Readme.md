@@ -101,7 +101,7 @@ Input/Output:
 * There are only two layers. A fourth one to connect each pin to the other pin on the same row, as well as a ground plane, could help with the noise.
 * Little flexibility from the use of ICs - but sufficient of sorts for our use.
 * The [ADC](/goblin/datasheets/AD7274 - 7273 7276.pdf) is borderline in terms of speed of use. A higher sampling rate could be useful.
-* There was a bug with the [ADL5511](/goblin/datasheets/ADL5511.pdf): need to know how it shuts down.
+* There was a bug 	with the [ADL5511](/goblin/datasheets/ADL5511.pdf): need to know how it shuts down.
 
 ### Detailed view
 

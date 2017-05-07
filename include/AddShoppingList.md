@@ -13,6 +13,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * Do the structure of the holder (3D design?) (in [cletus](/cletus/))
 * Test the PWM (in [tomtom](/tomtom/))
 * Testing the limits of ADC acquisition (speed / bits) (in [tomtom](/tomtom/))
+* Save images as DICOMs (in [tomtom](/tomtom/))
 * Change the viewme (in [doj](/doj/))
 * Adapt power supply from v2 - smaller board footprint (in [doj](/doj/))
 * Add a level shifter been Pon 3.3 and 5 and Poff 3.3 and 5 (in [doj](/doj/))
