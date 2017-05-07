@@ -12,5 +12,3 @@ title: 2017-04-23 Playing with ADC
 -   Played with Loic on the RF modules
 -   @todo dig into https://www.ncbi.nlm.nih.gov/pubmed/23853268
 
-=======
-
