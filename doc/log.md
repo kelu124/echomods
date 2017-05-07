@@ -252,6 +252,8 @@ __[MD Files]__ :no_entry: `./tobo/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./tomtom/20170425-ExploringGPIOs.md` : Missing description
 
+__[MD Files]__ :no_entry: `./tomtom/20170506-RPiAndTobo.md` : Missing description
+
 __[MD Files]__ :no_entry: `./tomtom/DicomHandler.md` : Missing description
 
 __[MDL cletus]__ :white_check_mark: 01. Block diagram OK
