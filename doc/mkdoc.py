@@ -380,8 +380,8 @@ def GetPythonFiles(path):
 def GetJupyFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.ipynb'))]
 	ExcludeDirs = ["tools",".git","gh-pages"] 
-	JupyFiles = [x for x in results if x.split("/")[1] not in ExcludeDirs]
-
+	ResJupy = [x for x in results if ".ipynb_checkpoints" not in x]
+	JupyFiles = [x for x in ResJupy if x.split("/")[1] not in ExcludeDirs]
 	return JupyFiles
 
 def GetInoFiles(path):

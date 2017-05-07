@@ -462,6 +462,16 @@ __[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing description
 
 __[Python]__ :no_entry: `./include/JOH/blocks/maketemplate.py` : Missing description
 
+__[Python]__ :no_entry: `./tomtom/ADC08200.py` : Header error 
+
+__[Python]__ :no_entry: `./tomtom/ADC08200.py` : Missing Author 
+
+__[Python]__ :no_entry: `./tomtom/ADC08200.py` : Missing Copyright 
+
+__[Python]__ :no_entry: `./tomtom/ADC08200.py` : Missing License
+
+__[Python]__ :no_entry: `./tomtom/ADC08200.py` : Missing description
+
 __[SET]__ Added `emulated`
 
 
