@@ -77,6 +77,8 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### TODO
 
+* Find the code back
+
 ### DONE
 
 * First test with Arduino Trinket
