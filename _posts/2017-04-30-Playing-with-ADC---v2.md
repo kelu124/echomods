@@ -14,5 +14,3 @@ title: 2017-04-30 Playing with ADC - v2
 -   Bomanz on Hackaday
     http://hackaday.com/2017/04/30/hackaday-prize-entry-high-speed-sampling-for-the-raspberry-pi/
 
-=======
-
