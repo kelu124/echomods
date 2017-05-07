@@ -120,21 +120,30 @@ for i in range(len(PythonFiles[1])):
 	PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i] +"\n"
 OpenWrite(PythonLog,"include/FilesList/PythonFiles.md")
 
+ListeOfJupy = GetJupyFiles("./") 
+
+JupyLog = ""
+for i in range(len(ListeOfJupy)):
+	JupyLog += "* ["+ListeOfJupy[i].split("/")[-1]+"]("+ListeOfJupy[i][1:]+")\n"
+OpenWrite(JupyLog,"include/FilesList/JupyFiles.md")
+
 InoLog = ""
 ListeOfArduino = GetInoFiles("./")
 InoFi = CheckInoFile(ListeOfArduino)
 log = log+InoFi[0]
 for i in range(len(InoFi[1])):
-
 	InoLog += "* ["+ListeOfArduino[i].split("/")[-1]+"]("+ListeOfArduino[i][1:]+"): "+InoFi[1][i]+"\n"
 OpenWrite(InoLog,"include/FilesList/ArduinoFiles.md")
 
 AllFilesLog = ""
 AllFilesLog += "## Manually written files\n\n"+MdLog+"\n"
 AllFilesLog += "## Arduino files\n\n"+InoLog+"\n"
+AllFilesLog += "## Jupyter files\n\n"+JupyLog+"\n"
 AllFilesLog += "## Python files\n\n"+PythonLog+"\n"
 AllFilesLog += "## Presentation files\n\n"+PPTFiles+"\n"
 AllFilesLog += "## "+str(len(MDFiles[0]))+" Auto generated files\n\n"+GenFiles+"\n"
+
+AllFilesLog = AddRawHURL(AllFilesLog)
 
 OpenWrite(AllFilesLog,"include/FilesList/AllFiles.md")
 

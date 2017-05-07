@@ -6,6 +6,7 @@
 * ./include/AddMyLogs.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/PythonFiles.md
+* ./include/FilesList/JupyFiles.md
 * ./include/FilesList/PPTFiles.md
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
@@ -42,6 +43,7 @@
 * ./gitbook/Chapter5/Readme.md
 * ./gitbook/Chapter5/loops.md
 * ./gitbook/Chapter3/cletus.md
+* ./gitbook/Chapter3/bomanz2.md
 * ./gitbook/Chapter3/bomanz.md
 * ./gitbook/Chapter3/silent.md
 * ./gitbook/Chapter3/oneeye.md

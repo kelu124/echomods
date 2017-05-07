@@ -3,9 +3,9 @@
 * [./CLA.md](/CLA.md): 
 * [./Worklog.md](/Worklog.md): Full worklog of the modules
 * [./CodeOfConduct.md](/CodeOfConduct.md): 
-* [./sleepy/Readme.md](/sleepy/Readme.md): Casing of the modules - readme
-* [./tobo/Readme.md](/tobo/Readme.md): 
-* [./cletus/Readme.md](/cletus/Readme.md): Piezo+Servo module
+* [./sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.html): Casing of the modules - readme
+* [./tobo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.html): 
+* [./cletus/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.html): Piezo+Servo module
 * [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): supplier source file
 * [./cletus/suppliers/supplier-sti.md](/cletus/suppliers/supplier-sti.md): supplier source file
 * [./cletus/suppliers/supplier-smartmaterials.md](/cletus/suppliers/supplier-smartmaterials.md): supplier source file
@@ -24,25 +24,25 @@
 * [./tomtom/20170506-RPiAndTobo.md](/tomtom/20170506-RPiAndTobo.md): 
 * [./tomtom/20170425-ExploringGPIOs.md](/tomtom/20170425-ExploringGPIOs.md): 
 * [./tomtom/DicomHandler.md](/tomtom/DicomHandler.md): 
-* [./tomtom/Readme.md](/tomtom/Readme.md): Analog processing module readme
+* [./tomtom/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/tomtom.html): Analog processing module readme
 * [./doj/20170406-PCBs.md](/doj/20170406-PCBs.md): 
 * [./doj/brief.md](/doj/brief.md): 
 * [./doj/brief_v2.md](/doj/brief_v2.md): 
-* [./doj/Readme.md](/doj/Readme.md): Motherboard readme
+* [./doj/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/doj.html): Motherboard readme
 * [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md): 
 * [./bomanz/20170423-PlayingAD9214.md](/bomanz/20170423-PlayingAD9214.md): 
 * [./bomanz/Readme.md](/bomanz/Readme.md): Bomanz description
 * [./bomanz/20170430-PushingADCLimits.md](/bomanz/20170430-PushingADCLimits.md): 
 * [./bomanz/20170417-PlayingWithCA3306E.md](/bomanz/20170417-PlayingWithCA3306E.md): 
 * [./bomanz/CA3306E/1991-Mag/Readme.md](/bomanz/CA3306E/1991-Mag/Readme.md): 
-* [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
+* [./oneeye/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.html): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
 * [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs
 * [./croaker/notes_ESP32.md](/croaker/notes_ESP32.md): Notes on ESP32
 * [./croaker/notes_uC.md](/croaker/notes_uC.md): 
 * [./croaker/notes_feather_WICED.md](/croaker/notes_feather_WICED.md): Random notes on WICED
 * [./croaker/notes_RPi0.md](/croaker/notes_RPi0.md): Random notes on RPi0
-* [./croaker/Readme.md](/croaker/Readme.md): Analog processing module readme
+* [./croaker/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.html): Analog processing module readme
 * [./croaker/notes_EMW3165.md](/croaker/notes_EMW3165.md): Fun about EMW3165
 * [./croaker/feather_tests/2016-09-10-Feather_ADC.md](/croaker/feather_tests/2016-09-10-Feather_ADC.md): 
 * [./croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino
@@ -89,14 +89,14 @@
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md): 
 * [./include/c_will/Readme.md](/include/c_will/Readme.md): 
 * [./include/vscan/Readme.md](/include/vscan/Readme.md): 
-* [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes
-* [./toadkiller/Readme.md](/toadkiller/Readme.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme
+* [./retroATL3/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html): Main doc source for hacking ATL probes
+* [./toadkiller/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.html): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme
 * [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md): 
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together
 * [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016
 * [./goblin/2016-10-26_Zach.md](/goblin/2016-10-26_Zach.md): Zach's worklog, simplified, on murgen
-* [./goblin/Readme.md](/goblin/Readme.md): Goblin description
+* [./goblin/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html): Goblin description
 * [./goblin/pi0/HighSpeedBurstADC.md](/goblin/pi0/HighSpeedBurstADC.md): 
 * [./goblin/pi0/Readme.md](/goblin/pi0/Readme.md): 
 * [./gitbook/SUMMARY.md](/gitbook/SUMMARY.md): 
@@ -107,8 +107,8 @@
 * [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin)
 * [./silent/notes_R2R_DAC.md](/silent/notes_R2R_DAC.md): 
 * [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator
-* [./silent/Readme.md](/silent/Readme.md): Main doc for the ultrasound signal emulator
-* [./mogaba/Readme.md](/mogaba/Readme.md): Off-the shelf power supply module - Readme
+* [./silent/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html): Main doc for the ultrasound signal emulator
+* [./mogaba/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/mogaba.html): Off-the shelf power supply module - Readme
 
 ## Arduino files
 
@@ -124,6 +124,21 @@
 * [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
 * [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose
 * [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz
+
+## Jupyter files
+
+* [20170422-FirstAcqs.ipynb](/bomanz/CA3306E/20170422-FirstAcqs.ipynb)
+* [20170430-EmulatorTest.ipynb](/bomanz/CA3306E/20170430-EmulatorTest.ipynb)
+* [20170430-EmulatorTest-checkpoint.ipynb](/bomanz/CA3306E/.ipynb_checkpoints/20170430-EmulatorTest-checkpoint.ipynb)
+* [20170422-FirstAcqs-checkpoint.ipynb](/bomanz/CA3306E/.ipynb_checkpoints/20170422-FirstAcqs-checkpoint.ipynb)
+* [20170501-TestingVref.ipynb](/bomanz/ADC08200/20170501-TestingVref.ipynb)
+* [20170430-ADC08200-FirstAcqs.ipynb](/bomanz/ADC08200/20170430-ADC08200-FirstAcqs.ipynb)
+* [20170430-ADC08200-FirstAcqs-checkpoint.ipynb](/bomanz/ADC08200/.ipynb_checkpoints/20170430-ADC08200-FirstAcqs-checkpoint.ipynb)
+* [20170501-TestingVref-checkpoint.ipynb](/bomanz/ADC08200/.ipynb_checkpoints/20170501-TestingVref-checkpoint.ipynb)
+* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb)
+* [20170502-DICOMizingCroakerData-checkpoint.ipynb](/croaker/data/20161217/.ipynb_checkpoints/20170502-DICOMizingCroakerData-checkpoint.ipynb)
+* [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
+* [In-Out-checkpoint.ipynb](/toadkiller/data/test_enveloppe/.ipynb_checkpoints/In-Out-checkpoint.ipynb)
 
 ## Python files
 
@@ -152,7 +167,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 83 Auto generated files
+## 85 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -162,6 +177,7 @@
 * ./include/AddMyLogs.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/PythonFiles.md
+* ./include/FilesList/JupyFiles.md
 * ./include/FilesList/PPTFiles.md
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
@@ -198,6 +214,7 @@
 * ./gitbook/Chapter5/Readme.md
 * ./gitbook/Chapter5/loops.md
 * ./gitbook/Chapter3/cletus.md
+* ./gitbook/Chapter3/bomanz2.md
 * ./gitbook/Chapter3/bomanz.md
 * ./gitbook/Chapter3/silent.md
 * ./gitbook/Chapter3/oneeye.md

@@ -1195,6 +1195,11 @@ Netty isn't nice... but just got my article accepted by JOH !
 * from @rbo http://linuxgizmos.com/google-assistant-sdk-dev-preview-brings-voice-agent-to-the-raspberry-pi/
 * Bomanz on Hackaday http://hackaday.com/2017/04/30/hackaday-prize-entry-high-speed-sampling-for-the-raspberry-pi/
 
+#### 2017-05-05 Moving forward
+
+* Been testing new iteration of Tobo with new HV7360. Pulser works with the [pulser control](/oneeye/)
+* Testing the pulser with the [RPi Control](/tomtom/)
+
 =======
 
 uControllers and other stuff

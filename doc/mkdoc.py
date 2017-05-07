@@ -239,8 +239,11 @@ def GHubToGBook(s):
 
 	for module in ModulesChaptDeux:
 		s = s.replace("](https://github.com/kelu124/echomods/tree/master/"+module+"/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter2/"+module+".html)")
+		s = s.replace("io/echomods/content/Chapter2/"+module+".md)","io/echomods/content/Chapter2/"+module+".html)")
+
 	for module in ModulesChaptTrois:
 		s = s.replace("](https://github.com/kelu124/echomods/tree/master/"+module+"/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter3/"+module+".html)")
+		s = s.replace("io/echomods/content/Chapter3/"+module+".md)","io/echomods/content/Chapter3/"+module+".html)")
 
 	s = s.replace("](https://github.com/kelu124/bomanz/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter3/bomanz.html)")	
 
@@ -374,11 +377,17 @@ def GetPythonFiles(path):
 	PythonFilesList = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 	return PythonFilesList
 
+def GetJupyFiles(path):
+	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.ipynb'))]
+	ExcludeDirs = ["tools",".git","gh-pages"] 
+	JupyFiles = [x for x in results if x.split("/")[1] not in ExcludeDirs]
+
+	return JupyFiles
+
 def GetInoFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.ino'))]
 	ExcludeDirs = ["tools",".git","gh-pages"] 
 	InoFiles = [x for x in results if x.split("/")[1] not in ExcludeDirs]
-
 	return InoFiles
 
 def GetPptFiles(path):
@@ -457,6 +466,7 @@ def CheckInoFile(files):
 			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing License")
 		InoDesc.append(InoD)
 	return log, InoDesc
+
 
 def CheckLink(path,autogen):
 	log = []

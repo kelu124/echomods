@@ -4,6 +4,7 @@ python makedoc.py
 
 # Cleaning the links to github
 cd gitbook
+grep -rli '](/bomanz' * | xargs -i@ sed -i 's/](\/bomanz\//](https\:\/\/github.com\/kelu124\/bomanz\/tree\/master\//g' @
 grep -rli '](/' * | xargs -i@ sed -i 's/](\//](https\:\/\/github.com\/kelu124\/echomods\/tree\/master\//g' @
 cd ..
 
