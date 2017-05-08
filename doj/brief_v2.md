@@ -96,3 +96,10 @@ Check the RPins - see below and above
 #define BIT4_PIN2 24
 #define BIT5_PIN2 21
 ```
+
+## Power footprint 
+
+![](/doj/images/20170508_192712.jpg)
+
+![](/doj/images/20170508_192840.jpg)
+

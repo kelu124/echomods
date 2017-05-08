@@ -82,12 +82,15 @@ A list of suppliers and some details is [available here](/cletus/suppliers/).
 
 * Need to find a servo which frequency is above 100hz (100hz -> 10ms period -> 1 line per 10ms is quite close)
 
+Removing the noise?
+
+![](/cletus/images/Arduino_Servo_Filters.jpg)
+
 ## Discussions
 
 ### TODO
 
-* Choose the servo (>100Hz)
-* Do the structure of the holder (3D design?)
+* Remove the jitter (see image in Rdme)
 
 ### DONE
 
