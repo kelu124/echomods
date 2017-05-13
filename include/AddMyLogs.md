@@ -838,16 +838,16 @@ Two awesome articles
 #### 2016-12-06 Press review
 
 * Working on a press review, [can be seen here](/include/AddPressReview.md)
-* @todo: AddPressReview to the main page here, and on the gitbook
-* @todo review the latex article on arXiv, especially with respect to references
+* @done: AddPressReview to the main page here, and on the gitbook
+* @done: review the latex article on arXiv, especially with respect to references
 * Need to ping Jerome for the BGA update of HV7360
-* @todo too:
+* @done too:
     * Servo + Feather
     * Servo + BBB + enveloppe
     * Servo + ADC on board + RPi0
     * Servo + BBB + raw signal
     * BBB + probe
-* @todo CERN !
+* @done CERN !
 
 #### 2016-12-08 Connecting
 
@@ -873,7 +873,7 @@ Just moved in to the new flat! Exhausting =) Other interesting things:
 
 #### 2016-12-26 Raw ideas
 
-* Max RPi speed : http://d-fence.sytes.net/raspberry-pis-gpio-speed/  @todo --> do it with the Rpi0
+* Max RPi speed : http://d-fence.sytes.net/raspberry-pis-gpio-speed/  @done --> do it with the Rpi0
     * http://codeandlife.com/2015/03/25/raspberry-pi-2-vs-1-gpio-benchmark/
     * Using the same experimental setup, the Raspberry Pi 2 is about 2 to three times faster. The fastest is still the C native library, topping out at just under 42 MHz. 
 * Thinking of 20E-214 and moving to Alibaba for wireless probes. Will F.'s support reach?
@@ -1058,7 +1058,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Playing with ADC.. got the first results with the CA3306E board! See https://github.com/kelu124/bomanz/blob/master/CA3306E/20170422-FirstAcqs.ipynb
 * Played with Loic on the RF modules
-* @todo dig into https://www.ncbi.nlm.nih.gov/pubmed/23853268
+* @todo dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
 
 #### 2017-04-30 Playing with ADC - v2
 
@@ -1069,7 +1069,17 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-05-05 Moving forward
 
 * Been testing new iteration of Tobo with new HV7360. Pulser works with the [pulser control](/oneeye/)
-* Testing the pulser with the [RPi Control](/tomtom/)
+* Testing the pulser with the [RPi Control](/tomtom/) see [the notebook](/tomtom/20170507-TomTomTests.ipynb).
+
+#### 2017-05-13 Some new stuff
+
+* PCBs for [Doj V2](/doj/source/v2.0-kicad) - [see what it looks like](/doj/images/doj-v2.png) are ordered
+* @todo contact Sonopen / microsonix
+* Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
+* @todo add Felix, Will + Jp, Charles, Md+Afreen
+* @todo add OSH license
+* @todo start an order for pulsers
+* @todo start a [quickstart](/include/AddUSSDK.md) 
 
 =======
 

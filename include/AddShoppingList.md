@@ -9,8 +9,7 @@ Here's a couple of things we're working on, for which you could help as well.
 
 * Choose the design once the modules are done (in [sleepy](/sleepy/))
 * Get to work with Arthur (in [sleepy](/sleepy/))
-* Choose the servo (&gt;100Hz) (in [cletus](/cletus/))
-* Do the structure of the holder (3D design?) (in [cletus](/cletus/))
+* Remove the jitter (see image in Rdme) (in [cletus](/cletus/))
 * Test the PWM (in [tomtom](/tomtom/))
 * Testing the limits of ADC acquisition (speed / bits) (in [tomtom](/tomtom/))
 * Save images as DICOMs (in [tomtom](/tomtom/))

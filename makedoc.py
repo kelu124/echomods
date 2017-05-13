@@ -575,6 +575,11 @@ OpenWrite(AddRawHURL(HeaderDocTxt),"gitbook/Chapter1/modules.md")
 # list of modules
 OpenWrite(IncludeImage(AddRawHURL(TableModulesShort)),"gitbook/Chapter1/listofmodules.md")
 
+# -------------------------
+# Adding Quickstart
+# -------------------------
+
+CopyGitBookFile("include/AddUSSDK.md","gitbook/Chapter1/QuickStart.md")
 
 # -------------------------
 # Adding CHAPTER 2 : Basic kit

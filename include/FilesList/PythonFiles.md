@@ -1,7 +1,6 @@
 * [makedoc.py](/makedoc.py): script to build autodocumentation.
 * [__init__.py](/doc/__init__.py): empty file for doc module declaration.
 * [mkdoc.py](/doc/mkdoc.py): if ("Description") in line:
-* [ADC08200.py](/tomtom/ADC08200.py): 
 * [ADC08200.py](/bomanz/ADC08200/ADC08200.py): 
 * [rebuild.py](/croaker/data/20161217/raw_data/rebuild.py): 
 * [CreateSC_manual.py](/croaker/data/manual/CreateSC_manual.py): Takes a log file and creatse the Scan Converted image.
