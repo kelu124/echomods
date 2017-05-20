@@ -153,7 +153,7 @@ With which one can reconstruct a movie:
 ##### Getting an echo
 
 An echo appears with [Murgen](https://github.com/kelu124/murgen-dev-kit), gain at 0.6V
-s
+
 ![](/retroATL3/images/TEK0005.JPG)
 
 ##### Getting an image while the probe is rotating

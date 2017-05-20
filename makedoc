@@ -11,8 +11,6 @@ cd ..
 cd gh-pages/
 ./createMD.sh
 ./makeprez
-
-
 git add * -v
 git commit -m "Autopush"
 git push
@@ -23,8 +21,15 @@ git add * -v
 git commit -m "Autopush"
 git push
 
+cd ../bomanz/
+git add * -v
+git commit -m "Autopush"
+git push
+
 cd ../
 
 git add * -v
 git commit -m "Autopush"
 git push
+
+

@@ -1205,10 +1205,38 @@ Netty isn't nice... but just got my article accepted by JOH !
 * PCBs for [Doj V2](/doj/source/v2.0-kicad) - [see what it looks like](/doj/images/doj-v2.png) are ordered
 * @todo contact Sonopen / microsonix
 * Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
-* @todo add Felix, Will + Jp, Charles, Md+Afreen
+* @todo add Felix, Will + Jp, Charles, Md+Afreen, Pouya, Visa
 * @todo add OSH license
 * @todo start an order for pulsers
 * @todo start a [quickstart](/include/AddUSSDK.md) 
+* 2E: 54+148.96 = 202.96
+* [Different systems](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3158704/#!po=51.8182)
+* LT todos:
+    * Using an adapter for the motors control of the ATL probes
+    * Using a 3 to 8 CMUT with a multiplexer =)
+    * Adding a pulse control from the kernel module / driver for bomanz
+
+#### 2017-05-15 Interleaved on RPi.
+
+* Still about the [RPi0 high-speed ADC](https://github.com/kelu124/bomanz/) : if I can't get above 10Msps due to a memory copy time, I may be able to double the speed by having 2 ADCs interleaved... it's to test!
+* Some answers for the CMUT stuff.. let's see if it's going somewhere !
+* ATL probes connectors are LEMO 18 or 19 pin.
+
+#### 2017-05-16 More todos.
+
+* Discussing with groupgets
+* Some guys forking the [Kina](https://github.com/kelu124/kina/) repo =)
+
+
+#### 2017-05-19 Bomanz interleaved
+
+* PCBs sent for a [High Speed ADC pHAT v3](https://github.com/kelu124/bomanz/tree/master/AD9200). This time, two interleaved AD9200s.
+
+#### 2017-05-20 Working on ATL3
+
+* [Managed to get a peak into a ATL probe](/retroATL3/2017-05-20_APeakInside.md) - update to the [ATL probe](/retroATL3/).
+* Working on the offset
+
 
 =======
 
