@@ -171,9 +171,14 @@ We see that the image is there, but we don't know when/where the image was taken
 ![](/retroATL3/software/data/20160720-083810.png)
 
 _This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-kit/worklog/), Worklog 10_
+
 ##### Tests  [RESOLVED]
 
 Those were done with a bitscope at 5Msps.. with 'non-null' delays between each line.
+
+### What ICs are inside the head?
+
+And how are the signals prepared? See [this work](/retroATL3/2017-05-20_APeakInside.md) for pictures of the ICs inside, and for the type of signals inside the head of the probe. 
 
 ### Want to know more about electrical impedance?
 
@@ -186,12 +191,14 @@ Some resources:
 
 ### TODO
 
-* _BONUS!_ Get RealTime acquisition
 * Determine the impedance of the transducer seen by [tobo](/tobo/) (@ulb ?)
-* Do some impedance matching (@ulb ?)
+* Do a logic control of the probe
+* Do some impedance matching (@ulb ? @will ?)
+* Finding more precise pins mapping 
 
 ### DONE
 
+* _BONUS!_ Get RealTime acquisition
 * Finding the pins mapping
 * Acquire and build ultrasound pictures =)
 * Motor in action
@@ -201,7 +208,7 @@ Some resources:
 
 ### People
 
-* ?
+* @eiffel for playing with hardware together 
 
 ## License
 
