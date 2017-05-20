@@ -28,11 +28,13 @@
 * [./doj/brief_v2.md](/doj/brief_v2.md): 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme
 * [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md): 
+* [./bomanz/RPins.md](/bomanz/RPins.md): 
 * [./bomanz/20170423-PlayingAD9214.md](/bomanz/20170423-PlayingAD9214.md): 
 * [./bomanz/Readme.md](/bomanz/Readme.md): Bomanz description
 * [./bomanz/20170430-PushingADCLimits.md](/bomanz/20170430-PushingADCLimits.md): 
 * [./bomanz/20170417-PlayingWithCA3306E.md](/bomanz/20170417-PlayingWithCA3306E.md): 
 * [./bomanz/CA3306E/1991-Mag/Readme.md](/bomanz/CA3306E/1991-Mag/Readme.md): 
+* [./bomanz/AD9200/Readme.md](/bomanz/AD9200/Readme.md): 
 * [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
 * [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs
@@ -88,6 +90,7 @@
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md): 
 * [./include/c_will/Readme.md](/include/c_will/Readme.md): 
 * [./include/vscan/Readme.md](/include/vscan/Readme.md): 
+* [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md): 
 * [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes
 * [./toadkiller/Readme.md](/toadkiller/Readme.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme
 * [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md): 

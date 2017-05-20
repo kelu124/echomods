@@ -30,11 +30,13 @@
 * [./doj/brief_v2.md](/doj/brief_v2.md): 
 * [./doj/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/doj.html): Motherboard readme
 * [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md): 
+* [./bomanz/RPins.md](/bomanz/RPins.md): 
 * [./bomanz/20170423-PlayingAD9214.md](/bomanz/20170423-PlayingAD9214.md): 
 * [./bomanz/Readme.md](/bomanz/Readme.md): Bomanz description
 * [./bomanz/20170430-PushingADCLimits.md](/bomanz/20170430-PushingADCLimits.md): 
 * [./bomanz/20170417-PlayingWithCA3306E.md](/bomanz/20170417-PlayingWithCA3306E.md): 
 * [./bomanz/CA3306E/1991-Mag/Readme.md](/bomanz/CA3306E/1991-Mag/Readme.md): 
+* [./bomanz/AD9200/Readme.md](/bomanz/AD9200/Readme.md): 
 * [./oneeye/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.html): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
 * [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs
@@ -90,6 +92,7 @@
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md): 
 * [./include/c_will/Readme.md](/include/c_will/Readme.md): 
 * [./include/vscan/Readme.md](/include/vscan/Readme.md): 
+* [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md): 
 * [./retroATL3/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html): Main doc source for hacking ATL probes
 * [./toadkiller/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.html): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme
 * [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md): 
@@ -163,7 +166,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 85 Auto generated files
+## 86 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -229,6 +232,7 @@
 * ./gitbook/Chapter1/engineering.md
 * ./gitbook/Chapter1/history.md
 * ./gitbook/Chapter1/Readme.md
+* ./gitbook/Chapter1/QuickStart.md
 * ./gitbook/Chapter2/toadkiller.md
 * ./gitbook/Chapter2/murgenhardware.md
 * ./gitbook/Chapter2/murgensetup.md

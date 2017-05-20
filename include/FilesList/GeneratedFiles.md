@@ -62,6 +62,7 @@
 * ./gitbook/Chapter1/engineering.md
 * ./gitbook/Chapter1/history.md
 * ./gitbook/Chapter1/Readme.md
+* ./gitbook/Chapter1/QuickStart.md
 * ./gitbook/Chapter2/toadkiller.md
 * ./gitbook/Chapter2/murgenhardware.md
 * ./gitbook/Chapter2/murgensetup.md
