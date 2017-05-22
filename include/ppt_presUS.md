@@ -36,18 +36,18 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 
 ## Example of a probe image  {data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png"}
 
-## Proof of concept! Done
+## Proof of concept
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/doj/images/doj_v2_notes.jpg)
 
 ## Limitation and opportunity
 
-Limits 
+__Limits__
 
 * Material is not certified
 * Probe sensor limits the quality
 
-Opportunity
+__Opportunity__
 
 * Using a smartphone
 * An open plat-form!
