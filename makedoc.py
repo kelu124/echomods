@@ -641,6 +641,9 @@ for eachModule in ModulesChaptTrois:
 CopyGitBookBomanzFile("bomanz/Readme.md","gitbook/Chapter3/bomanz.md")
 CopyGitBookBomanzFile("bomanz/20170430-PushingADCLimits.md","gitbook/Chapter3/bomanz2.md")
 
+
+CopyGitBookFile("retroATL3/2017-05-20_APeakInside.md","gitbook/Chapter3/atl_more.md")
+
 # -------------------------
 # Adding CHAPTER 4 : Notes and worklog
 # -------------------------
