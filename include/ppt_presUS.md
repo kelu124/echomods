@@ -36,6 +36,22 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 
 ## Example of a probe image  {data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png"}
 
+## Proof of concept! Done
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/doj/images/doj_v2_notes.jpg)
+
+## Limitation and opportunity
+
+Limits 
+
+* Material is not certified
+* Probe sensor limits the quality
+
+Opportunity
+
+* Using a smartphone
+* An open plat-form!
+
 ## Lessons
 
 * _Build the tools you need_ 
@@ -56,7 +72,8 @@ Build the tools you need..
 
 ## Documentation
 
-Documentation here is key. A website that builds itself based on proper, simple and un-redondant information is needed... and this repo / presentation is a proof it's on the way ;)
+* Documentation here is key. 
+* A website that builds itself based on proper, simple and un-redondant information is needed. 
 
 ## Doing and sharing
 
@@ -69,7 +86,8 @@ Documentation here is key. A website that builds itself based on proper, simple 
 
 * Certification
 * Sensors sourcing
-
+* Moving forward !
+ 
 ## We can discuss how
 
 * to do a working dev-kit
