@@ -16,6 +16,11 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 * Having a modular "approach"
 * Simplify !
 
+## Signals
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/goblin/images/slide_principle.png)
+
+
 ## Architecture
 
 ![](http://openhardware.metajnl.com/articles/10.5334/joh.2/joh-1-2-g1.png)
