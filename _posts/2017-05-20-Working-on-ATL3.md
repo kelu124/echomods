@@ -12,5 +12,3 @@ title: 2017-05-20 Working on ATL3
     probe](/retroATL3/).
 -   Working on the offset
 
-=======
-
