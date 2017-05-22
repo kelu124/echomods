@@ -1108,6 +1108,9 @@ Netty isn't nice... but just got my article accepted by JOH !
 * [Managed to get a peak into a ATL probe](/retroATL3/2017-05-20_APeakInside.md) - update to the [ATL probe](/retroATL3/).
 * Working on the offset
 
+#### 2017-05-22 Testing Doj v2
+
+* Got the PCBs and [tested them](/doj/20170522-DojV2tests.md). Yeayyy, they work! Slight hiccup with the ADC, nothing dramatic though =)
 
 =======
 

@@ -46,6 +46,7 @@
 * ./gitbook/Chapter3/bomanz2.md
 * ./gitbook/Chapter3/bomanz.md
 * ./gitbook/Chapter3/silent.md
+* ./gitbook/Chapter3/atl_more.md
 * ./gitbook/Chapter3/oneeye.md
 * ./gitbook/Chapter3/sleepy.md
 * ./gitbook/Chapter3/doj.md
