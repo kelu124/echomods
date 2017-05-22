@@ -6,14 +6,19 @@
 
 The objective of this project is to propose an open-source, low-cost dev-kit ultrasound imaging  to allow scientists, academics, hackers, makers or OSHW fans to hack their way to ultrasound imaging.
 
-## A first image (March 2016)
+## Bases of ultrasound imaging
 
-![](https://github.com/kelu124/murgen-dev-kit/raw/master/worklog/Images/Session_7/MurgenComparative.png)
+![](http://openhardware.metajnl.com/articles/10.5334/joh.2/joh-1-2-g2.png)
 
 ## What tech approach ?
 
 * Going back to the time when ultrasound was all mechanical.
 * Having a modular "approach"
+* Simplify !
+
+## Architecture
+
+![](http://openhardware.metajnl.com/articles/10.5334/joh.2/joh-1-2-g1.png)
 
 ## Cost of the set: 325$
 
@@ -24,13 +29,13 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 * ADC Pi Hat: 40$ 
 * Pi: 10$
 
-## Example of a probe image  {data-transition="zoom" data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png"}
+## Example of a probe image  {data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png"}
 
 ## Lessons
 
-* _Acquisition_
-* _Documentation_
-* _Doing and sharing_
+* _Build the tools you need_ 
+* _Document_
+* _Do and share_
 
 
 ## Acquisition
@@ -41,6 +46,8 @@ Build the tools you need..
 * BitScope
 * STM32 (Feather WICED)
 * ... __custom made__!
+
+* Emulation & calibration tools
 
 ## Documentation
 
