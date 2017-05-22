@@ -4,7 +4,7 @@
 
 ## Objective
 
-The objective of this project is to propose an open-source, low-cost dev-kit ultrasound imaging  to allow scientists, academics, hackers, makers or OSHW fans to hack their way to ultrasound imaging.
+The objective of this project is to propose an open-source, low-cost dev-kit ultrasound imaging __to allow scientists, academics, hackers, makers or open hardware fans to hack ultrasound imaging__.
 
 ## Bases of ultrasound imaging
 
@@ -59,9 +59,9 @@ __Opportunity__
 * _Do and share_
 
 
-## Acquisition
+## Build the tools you need..
 
-Build the tools you need..
+Acquisition
 
 * BeagleBone DAQ
 * BitScope
@@ -82,15 +82,16 @@ Build the tools you need..
 * A summary on Journal of Open Hardware (thanks GOSH!)
 * Tindie for sharing "extra" boards
 
-## Pending issues
+## Possible issues for medical biohacking
 
 * Certification
 * Sensors sourcing
-* Moving forward !
+* Reliability of the device
+* Training of users
  
 ## We can discuss how
 
-* to do a working dev-kit
+* to do a working dev-kit to share knowledge
 * implement and efficient (err, lazy) way of documenting. 
 * share with a community
 * better understand your "product"
@@ -100,4 +101,4 @@ Build the tools you need..
 
 Ping me @kelu124 / kelu124@gmail.com !
 
-
+Presentation at [bit.ly/biohackingcameroun_luc](http://bit.ly/biohackingcameroun_luc)
