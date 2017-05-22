@@ -24,23 +24,27 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 * ADC Pi Hat: 40$ 
 * Pi: 10$
 
-## Example of a probe image
+## Example of a probe image  {data-transition="zoom" data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png"}
 
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png)
+## Lessons
 
+* _Acquisition_
+* _Documentation_
+* _Doing and sharing_
 
-
-## Documentation
-
-Documentation here is key. A website that builds itself based on proper, simple and un-redondant information is needed... and this repo / presentation is a proof it's on the way ;)
 
 ## Acquisition
+
+Build the tools you need..
 
 * BeagleBone DAQ
 * BitScope
 * STM32 (Feather WICED)
 * ... __custom made__!
 
+## Documentation
+
+Documentation here is key. A website that builds itself based on proper, simple and un-redondant information is needed... and this repo / presentation is a proof it's on the way ;)
 
 ## Doing and sharing
 
