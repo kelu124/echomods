@@ -34,10 +34,18 @@ The objective of this project is to propose an open-source, low-cost dev-kit ult
 * High voltage module: 80$ of components
 * Analog processing module: 80$ of components
 * PCBs: 40$
-* ADC Pi Hat: 40$ 
-* Pi: 10$
+* Acquisition Raspberry Pi: 40$ 
+* Raspberry Pi: 10$
 
 ## Example of a probe image  {data-background="https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png"}
+
+## Usage examples
+
+* 2-D mode imaging
+* Measurements (bladder, ...)
+* Biofeedback for stroke recovery
+* Doppler
+* ...
 
 ## Limitation and opportunity
 
@@ -97,6 +105,18 @@ Acquisition
 * share with a community
 * better understand your "product"
 
+## Other approaches?
+
+* Re-using and improving hardware
+* Using old hardware for new approaches
+
+## Improving a ["rogue" probe](https://github.com/kelu124/kina/)
+
+![](https://cdn.hackaday.io/images/28321490131782990.jpg)
+
+## Using differently
+
+![](https://ae01.alicdn.com/kf/HTB1U4rfPFXXXXbRXFXXq6xXFXXXL/Prenatal-font-b-Fetal-b-font-font-b-Doppler-b-font-LCD-Screen-Backlight-Built-in.jpg)
 
 ## Q&A
 
