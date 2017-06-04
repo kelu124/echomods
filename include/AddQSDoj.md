@@ -11,7 +11,8 @@ The PCB can be ordered on [OSHPark](https://oshpark.com/shared_projects/bdv4Rw1z
 
 #### Example of Doj v2 powered through Raspberry USB 	
 
-![](/doj/images/doj_v2_notes.jpg)
+![](/doj/images/20170406_214508.jpg)
+
 
 
 ### Doj v2
@@ -24,7 +25,7 @@ The PCB can be ordered on [OSHPark](https://oshpark.com/shared_projects/rAatPbRg
 
 #### Example of Doj v2 powered through the [Feather](/goblin/) module
 
-![](/doj/images/20170406_214508.jpg)
+![](/doj/images/doj_v2_notes.jpg)
 
 
 
