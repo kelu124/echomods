@@ -50,11 +50,13 @@
 * [./croaker/data/examples/Intro.md](/croaker/data/examples/Intro.md): Croaker text header on images
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md): 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md): 
+* [./include/AddQSGoblin.md](/include/AddQSGoblin.md): 
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): BOM, first steps and results of the murgen board
 * [./include/AddInterfaces.md](/include/AddInterfaces.md): 
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set
 * [./include/NamesOfModules.md](/include/NamesOfModules.md): 
 * [./include/AddLicense.md](/include/AddLicense.md): 
+* [./include/AddQSDoj.md](/include/AddQSDoj.md): 
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project
 * [./include/references.md](/include/references.md): 
 * [./include/AddDevices.md](/include/AddDevices.md): 
@@ -72,6 +74,7 @@
 * [./include/Finance.md](/include/Finance.md): 
 * [./include/ppt_presUS.md](/include/ppt_presUS.md): 
 * [./include/ATL.md](/include/ATL.md): Resources on ATL3 probes
+* [./include/AddQSTobo.md](/include/AddQSTobo.md): 
 * [./include/AddStructure.md](/include/AddStructure.md): Short description of the organization of modules
 * [./include/AddEngineering.md](/include/AddEngineering.md): 
 * [./include/AdHocShoppingList.md](/include/AdHocShoppingList.md): 

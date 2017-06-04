@@ -581,6 +581,12 @@ OpenWrite(IncludeImage(AddRawHURL(TableModulesShort)),"gitbook/Chapter1/listofmo
 
 CopyGitBookFile("include/AddUSSDK.md","gitbook/Chapter1/QuickStart.md")
 
+AddQS  = "# Quick start\n\n" + getText("include/AddQSDoj.md")
+AddQS  += "\n\n" + getText("include/AddQSGoblin.md") + "\n\n"
+AddQS  += "\n\n" + getText("include/AddQSTobo.md") + "\n\n"
+
+OpenWrite(IncludeImage(AddRawHURL(AddQS)),"gitbook/Chapter1/SDKAssembly.md")
+
 # -------------------------
 # Adding CHAPTER 2 : Basic kit
 # -------------------------
@@ -776,24 +782,20 @@ for i in range(7):
 	DebutFound = False
 
 	for line in linesChapters:
-		print line
 
 		
 		if "#### Chapter" in line:			
 			if ("Chapter"+str(i)) in line:
 				DebutFound = True
-				print "Found Chapter"
-				print line
+				
 			else:
-				print "Fin chapter"
 				DebutFound = False
 
 
 		if DebutFound:
-			print line
 			ResultatChapter.append(line)
 
-	print ResultatChapter
+
 
 	OpenWrite("\n".join(ResultatChapter)+"\n\n","gitbook/Chapter"+str(i)+"/Readme.md")
 

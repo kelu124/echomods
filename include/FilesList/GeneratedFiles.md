@@ -61,6 +61,7 @@
 * ./gitbook/Chapter1/listofmodules.md
 * ./gitbook/Chapter1/principles.md
 * ./gitbook/Chapter1/engineering.md
+* ./gitbook/Chapter1/SDKAssembly.md
 * ./gitbook/Chapter1/history.md
 * ./gitbook/Chapter1/Readme.md
 * ./gitbook/Chapter1/QuickStart.md

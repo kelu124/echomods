@@ -52,11 +52,13 @@
 * [./croaker/data/examples/Intro.md](/croaker/data/examples/Intro.md): Croaker text header on images
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md): 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md): 
+* [./include/AddQSGoblin.md](/include/AddQSGoblin.md): 
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): BOM, first steps and results of the murgen board
 * [./include/AddInterfaces.md](/include/AddInterfaces.md): 
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set
 * [./include/NamesOfModules.md](/include/NamesOfModules.md): 
 * [./include/AddLicense.md](/include/AddLicense.md): 
+* [./include/AddQSDoj.md](/include/AddQSDoj.md): 
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project
 * [./include/references.md](/include/references.md): 
 * [./include/AddDevices.md](/include/AddDevices.md): 
@@ -74,6 +76,7 @@
 * [./include/Finance.md](/include/Finance.md): 
 * [./include/ppt_presUS.md](/include/ppt_presUS.md): 
 * [./include/ATL.md](/include/ATL.md): Resources on ATL3 probes
+* [./include/AddQSTobo.md](/include/AddQSTobo.md): 
 * [./include/AddStructure.md](/include/AddStructure.md): Short description of the organization of modules
 * [./include/AddEngineering.md](/include/AddEngineering.md): 
 * [./include/AdHocShoppingList.md](/include/AdHocShoppingList.md): 
@@ -137,6 +140,7 @@
 * [20170422-FirstAcqs.ipynb](/bomanz/CA3306E/20170422-FirstAcqs.ipynb)
 * [20170430-EmulatorTest.ipynb](/bomanz/CA3306E/20170430-EmulatorTest.ipynb)
 * [20170501-TestingVref.ipynb](/bomanz/ADC08200/20170501-TestingVref.ipynb)
+* [ReviewDriver.ipynb](/bomanz/ADC08200/ReviewDriver.ipynb)
 * [20170430-ADC08200-FirstAcqs.ipynb](/bomanz/ADC08200/20170430-ADC08200-FirstAcqs.ipynb)
 * [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb)
 * [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
@@ -169,7 +173,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 87 Auto generated files
+## 88 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -234,6 +238,7 @@
 * ./gitbook/Chapter1/listofmodules.md
 * ./gitbook/Chapter1/principles.md
 * ./gitbook/Chapter1/engineering.md
+* ./gitbook/Chapter1/SDKAssembly.md
 * ./gitbook/Chapter1/history.md
 * ./gitbook/Chapter1/Readme.md
 * ./gitbook/Chapter1/QuickStart.md
