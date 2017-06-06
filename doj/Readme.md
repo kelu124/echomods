@@ -13,8 +13,8 @@ The motherboard of the echomods
 ## Description
 
 * A stripboard
-* version: V0.2
-* date: 04/04/2016
+* version: V2.0
+* date: 04/06/2017
 * technology: pcb
 * language: kicad
 * cost:5$
@@ -33,13 +33,13 @@ The motherboard of the echomods
 
 ## Key Components
 
-* Strip Board
+* PCB
 
 ## Information
 
 ### What is it supposed to do?
 
-Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See [this](/doj/source/v1.2-kicad/) for 
+Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See [this](/doj/source/2.0-kicad) for the Kicad files.
 
 
 ### How does it work: block diagram
@@ -48,8 +48,7 @@ Getting a motherboard: that's fitting all the modules in an easy way, with an ea
 
 ### Pros
 
-* Half of a A4 sheet .. that's the target! 
-* Trying to fit onto a single stripboard
+* Half of a A4 sheet .. that's the target!  
 
 ### Cons
 
@@ -57,7 +56,7 @@ Getting a motherboard: that's fitting all the modules in an easy way, with an ea
 
 ## Constraint and limits
 
-### Initial design
+### v1.0: Initial design
 
 As in mind 
 
@@ -67,7 +66,7 @@ Now with the actual modules
 
 ![](/doj/images/doj-simple.png)
 
-### Adding new modules
+### v1.1: Adding new modules
 
 #### Loaded
 
@@ -77,11 +76,19 @@ Now with the actual modules
 
 ![](/doj/images/doj-unloaded.jpg)
 
-### PCB
+### v1.2: PCB 
 
 With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming from the [brief](/doj/brief.md).
 
 ![](/doj/images/oshp.png)
+
+### v2.0: A clean PCB for rasbperry
+
+![](/doj/images/doj-v2.png)
+
+![](/doj/images/doj_v2.jpg)
+
+
 
 ## Discussions
 
@@ -89,12 +96,6 @@ With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming fro
 ### TODO
 
 * Change the viewme
-* Adapt power supply from v2 - smaller board footprint
-* Add a level shifter been Pon 3.3 and 5 and Poff 3.3 and 5
-* A bit more space around the Pi0/PiW headers
-* Proper silkscreening around the Pi0 headers (they are reversed)
-* Jumper for the ADC in.. and selector (enveloppe and amplified signal) (either to Feather or to ADC .. and dedicated pin on Rpi)
-* SPI from RPi to Oled... or SPI to screen (to be checked in both case) .. or both kept, there are two SPI
 
 ### DONE
 
@@ -103,6 +104,13 @@ With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming fro
 * Design
 * Assemble it
 * Test it
+* Adapt power supply from v2 - smaller board footprint
+* Add a level shifter been Pon 3.3 and 5 and Poff 3.3 and 5
+* A bit more space around the Pi0/PiW headers
+* Proper silkscreening around the Pi0 headers (they are reversed)
+* Jumper for the ADC in.. and selector (enveloppe and amplified signal) (either to Feather or to ADC .. and dedicated pin on Rpi)
+* SPI from RPi to Oled... or SPI to screen (to be checked in both case) .. or both kept, there are two SPI
+
 
 ### People
 

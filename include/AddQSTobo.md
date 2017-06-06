@@ -10,12 +10,11 @@ Read more on [the dedicated page](/tobo/).
 
 ### Controlling the pulser
 
-The pulser is controled by a double signal, one, _PulseOn_, to start the pulse, and the other, _PulseOff_, to bring the pulse back to 0. The PulseOn and signal output are represented below.
-
-![](/tobo/images/TEK0008.JPG)
+The pulser is controled by a double signal, one, _PulseOn_, to start the pulse, and the other, _PulseOff_, to bring the pulse back to 0. 
 
 Resources for controlling the pulser can be seen using a [dedicated arduino control](/oneeye/) with [this code](/oneeye/oneye_pulser.ino) (for example, to be adjusted), or with a [raspberry pi](/tomtom/20170506-RPiAndTobo.md). You can of course try other ways!
 
+The _PulseOn_, _PulseOff_ and signal output are represented below.
 
 ### Controls
 
