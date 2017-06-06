@@ -48,6 +48,8 @@ The module aims at making a microcontroler, for the moment the `ArduinoTrinketPr
 
 As the controler the module is at the heart of the control interfaces, and in the case of the echOmod set of modules, in the Pulser controls (signals I and J), as well as the Gain Control and the servo control (hence position).
 
+A simple arduino code is [presented here](/oneeye/oneye_pulser.ino).
+
 ### How does it work: block diagram
 
 ![Block schema](/oneeye/source/blocks.png)
