@@ -19,7 +19,7 @@ Project finance
 * 2016 Nov 16	: 	-93$ 	(ATL C, eBay, P/N 101-25909-72 (3862))
 * 2016 Dec 14	: 	-839$	(Edgeflex, 5x Goblin)
 
-Results: -110$
+__Results: -110$__
 
 ## 2017
 
@@ -29,7 +29,20 @@ Results: -110$
 * 2017 Mar 26	:	-211$	(OSHPark, Doj+Bomanz+CA3306)
 * 2017 Mar 29	:	-89$	(Adafruit, Huzzah+Trinket+..)
 
-Results: -118$ (and 1 tobo, 3 goblin left, 3x[Doj,Bomanz,CA3306] left)
+__Results: -118$__ (3 goblin left, 3x[Doj,Bomanz,CA3306] left) - 1 tobo scrapped.
 
-## Total today
+## 2017-06-05
+
+* 2017 Apr 24	: 	- 120$  (Edgelex, 1 tobo, new HV) 
+* 2017 May 15	: 	- 480$  (Edgelex, 4 tobo) 
+* 2017 May 26	: 	- 15$ 	(OSHPark, 3x Bomanz 2x20)
+* 2017 May 26	: 	- 60$ 	(Digikey, Bomanz 1x, soldering stuff)
+* 2017 Jun 05	:	+ 150$	(Charles, AFE - sent along one doj v2.0 + one pulser, unpaid yet)
+* 2017 Jun 02	:	+ 370$	(Rene, Tobo,Goblin,Doj v2.0)
+* 2017 Jun 01	:	+ 360$	(Jay, Tobo,Goblin,Doj v1.0)
+* 2017 Apr 12	:	+ 50$	(Felix, Doj v1.2)
+
+__Results:__ +255$ (2 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set for me ;) )
+
+
 

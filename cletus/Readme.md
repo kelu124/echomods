@@ -91,6 +91,7 @@ Removing the noise?
 ### TODO
 
 * Remove the jitter (see image in Rdme)
+* Include [notes](/cletus/2017-06-08_FindingSuppliers.md)
 
 ### DONE
 
