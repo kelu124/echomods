@@ -17,5 +17,3 @@ title: 2017-05-29 Testing Doj v2
 -   @todo Add a documentation server
 -   @todo Display IP on the OLED.
 
-=======
-
