@@ -3,6 +3,7 @@
 * [./CodeOfConduct.md](/CodeOfConduct.md): 
 * [./sleepy/Readme.md](/sleepy/Readme.md): Casing of the modules - readme
 * [./tobo/Readme.md](/tobo/Readme.md): 
+* [./cletus/2017-06-08_FindingSuppliers.md](/cletus/2017-06-08_FindingSuppliers.md): 
 * [./cletus/Readme.md](/cletus/Readme.md): Piezo+Servo module
 * [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): supplier source file
 * [./cletus/suppliers/supplier-sti.md](/cletus/suppliers/supplier-sti.md): supplier source file

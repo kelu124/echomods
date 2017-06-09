@@ -5,6 +5,7 @@
 * [./CodeOfConduct.md](/CodeOfConduct.md): 
 * [./sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.html): Casing of the modules - readme
 * [./tobo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.html): 
+* [./cletus/2017-06-08_FindingSuppliers.md](/cletus/2017-06-08_FindingSuppliers.md): 
 * [./cletus/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.html): Piezo+Servo module
 * [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): supplier source file
 * [./cletus/suppliers/supplier-sti.md](/cletus/suppliers/supplier-sti.md): supplier source file
