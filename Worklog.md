@@ -1256,8 +1256,8 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo Include some cletus remarks (sourcing) on gitbook
 * @todo convert all previous images to dicom
 * @todo answer some questions online for RPI + ultrasound
-* @todo add @todos to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html))
-* Test YAML data on Markdown files
+* @todo add @todos to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
+* @todo Test YAML data on Markdown files
 
 
 =======
