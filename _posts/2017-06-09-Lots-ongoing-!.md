@@ -19,5 +19,3 @@ title: 2017-06-09 Lots ongoing !
     by means of a grep -&gt; temp file
 -   @todo Test YAML data on Markdown files
 
-=======
-
