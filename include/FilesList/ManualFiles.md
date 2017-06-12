@@ -3,6 +3,9 @@
 * [./CodeOfConduct.md](/CodeOfConduct.md): 
 * [./sleepy/Readme.md](/sleepy/Readme.md): Casing of the modules - readme
 * [./tobo/Readme.md](/tobo/Readme.md): 
+* [./elmo/RPins.md](/elmo/RPins.md): 
+* [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ
+* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md): 
 * [./cletus/2017-06-08_FindingSuppliers.md](/cletus/2017-06-08_FindingSuppliers.md): 
 * [./cletus/Readme.md](/cletus/Readme.md): Piezo+Servo module
 * [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): supplier source file
@@ -30,13 +33,6 @@
 * [./doj/brief_v2.md](/doj/brief_v2.md): 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme
 * [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md): 
-* [./bomanz/RPins.md](/bomanz/RPins.md): 
-* [./bomanz/20170423-PlayingAD9214.md](/bomanz/20170423-PlayingAD9214.md): 
-* [./bomanz/Readme.md](/bomanz/Readme.md): Bomanz description
-* [./bomanz/20170430-PushingADCLimits.md](/bomanz/20170430-PushingADCLimits.md): 
-* [./bomanz/20170417-PlayingWithCA3306E.md](/bomanz/20170417-PlayingWithCA3306E.md): 
-* [./bomanz/CA3306E/1991-Mag/Readme.md](/bomanz/CA3306E/1991-Mag/Readme.md): 
-* [./bomanz/AD9200/Readme.md](/bomanz/AD9200/Readme.md): 
 * [./oneeye/Readme.md](/oneeye/Readme.md): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
 * [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs

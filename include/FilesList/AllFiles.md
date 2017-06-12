@@ -5,6 +5,9 @@
 * [./CodeOfConduct.md](/CodeOfConduct.md): 
 * [./sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.html): Casing of the modules - readme
 * [./tobo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.html): 
+* [./elmo/RPins.md](/elmo/RPins.md): 
+* [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ
+* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md): 
 * [./cletus/2017-06-08_FindingSuppliers.md](/cletus/2017-06-08_FindingSuppliers.md): 
 * [./cletus/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.html): Piezo+Servo module
 * [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): supplier source file
@@ -32,13 +35,6 @@
 * [./doj/brief_v2.md](/doj/brief_v2.md): 
 * [./doj/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/doj.html): Motherboard readme
 * [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md): 
-* [./bomanz/RPins.md](/bomanz/RPins.md): 
-* [./bomanz/20170423-PlayingAD9214.md](/bomanz/20170423-PlayingAD9214.md): 
-* [./bomanz/Readme.md](/bomanz/Readme.md): Bomanz description
-* [./bomanz/20170430-PushingADCLimits.md](/bomanz/20170430-PushingADCLimits.md): 
-* [./bomanz/20170417-PlayingWithCA3306E.md](/bomanz/20170417-PlayingWithCA3306E.md): 
-* [./bomanz/CA3306E/1991-Mag/Readme.md](/bomanz/CA3306E/1991-Mag/Readme.md): 
-* [./bomanz/AD9200/Readme.md](/bomanz/AD9200/Readme.md): 
 * [./oneeye/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.html): Standalone pulser control unit - readme
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266
 * [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs
@@ -123,6 +119,7 @@
 ## Arduino files
 
 * [tobo_pulser.ino](/tobo/source/tobo_pulser.ino): 
+* [arduino.ino](/elmo/data/arduino/arduino.ino): 
 * [oneye_pulser.ino](/oneeye/oneye_pulser.ino): 
 * [Registers1MspsServo.ino](/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps
 * [Registers.ino](/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registers
@@ -139,12 +136,10 @@
 
 ## Jupyter files
 
+* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb)
+* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb)
+* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb)
 * [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb)
-* [20170422-FirstAcqs.ipynb](/bomanz/CA3306E/20170422-FirstAcqs.ipynb)
-* [20170430-EmulatorTest.ipynb](/bomanz/CA3306E/20170430-EmulatorTest.ipynb)
-* [20170501-TestingVref.ipynb](/bomanz/ADC08200/20170501-TestingVref.ipynb)
-* [ReviewDriver.ipynb](/bomanz/ADC08200/ReviewDriver.ipynb)
-* [20170430-ADC08200-FirstAcqs.ipynb](/bomanz/ADC08200/20170430-ADC08200-FirstAcqs.ipynb)
 * [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb)
 * [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
 
@@ -153,7 +148,6 @@
 * [makedoc.py](/makedoc.py): script to build autodocumentation.
 * [__init__.py](/doc/__init__.py): empty file for doc module declaration.
 * [mkdoc.py](/doc/mkdoc.py): if ("Description") in line:
-* [ADC08200.py](/bomanz/ADC08200/ADC08200.py): 
 * [rebuild.py](/croaker/data/20161217/raw_data/rebuild.py): 
 * [CreateSC_manual.py](/croaker/data/manual/CreateSC_manual.py): Takes a log file and creatse the Scan Converted image.
 * [CreateCSV2.py](/croaker/data/manual/CreateCSV2.py): Creating the CVS from a log file.

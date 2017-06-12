@@ -579,13 +579,13 @@ OpenWrite(IncludeImage(AddRawHURL(TableModulesShort)),"gitbook/Chapter1/listofmo
 # Adding Quickstart
 # -------------------------
 
-CopyGitBookFile("include/AddUSSDK.md","gitbook/Chapter1/QuickStart.md")
+AddQS  =  getText("include/AddUSSDK.md")+"\n\n"
 
 AddQS  = "# Quick start\n\n" + getText("include/AddQSDoj.md")
 AddQS  += "\n\n" + getText("include/AddQSGoblin.md") + "\n\n"
 AddQS  += "\n\n" + getText("include/AddQSTobo.md") + "\n\n"
 
-OpenWrite(IncludeImage(AddRawHURL(AddQS)),"gitbook/Chapter1/SDKAssembly.md")
+OpenWrite(IncludeImage(AddRawHURL(AddQS)),"gitbook/Chapter1/QuickStart.md")
 
 # -------------------------
 # Adding CHAPTER 2 : Basic kit

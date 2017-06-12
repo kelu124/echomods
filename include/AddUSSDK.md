@@ -41,9 +41,17 @@ So, on with this project, and see if cross-pollination works =)
 * an [ADC cape](https://github.com/kelu124/bomanz/)
 * and some extras such as headers, jumpers, and a smallish OLED screen
 
-### Todo
+For the transducer, one can use either a [ATL mechanical probe](/retroATL3/) for example, or a [piezo + servo setup](/cletus). 
 
-@todo @tocome once it comes back from OSHPark
+## Example of a setup with a servo
+
+![](/elmo/data/arduino/setup.png)
+
+This is a picture from a [first test](/elmo/data/arduino/20170611-arduino.md) with all custom made modules, including raspberry ADC.
+
+
+
+
 
 
 

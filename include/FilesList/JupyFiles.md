@@ -1,9 +1,7 @@
+* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb)
+* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb)
+* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb)
 * [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb)
-* [20170422-FirstAcqs.ipynb](/bomanz/CA3306E/20170422-FirstAcqs.ipynb)
-* [20170430-EmulatorTest.ipynb](/bomanz/CA3306E/20170430-EmulatorTest.ipynb)
-* [20170501-TestingVref.ipynb](/bomanz/ADC08200/20170501-TestingVref.ipynb)
-* [ReviewDriver.ipynb](/bomanz/ADC08200/ReviewDriver.ipynb)
-* [20170430-ADC08200-FirstAcqs.ipynb](/bomanz/ADC08200/20170430-ADC08200-FirstAcqs.ipynb)
 * [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb)
 * [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
 
