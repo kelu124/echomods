@@ -6,7 +6,7 @@
 * [./sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.html): Casing of the modules - readme
 * [./tobo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.html): 
 * [./elmo/RPins.md](/elmo/RPins.md): 
-* [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ
+* [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ
 * [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md): 
 * [./cletus/2017-06-08_FindingSuppliers.md](/cletus/2017-06-08_FindingSuppliers.md): 
 * [./cletus/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.html): Piezo+Servo module
@@ -170,7 +170,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 88 Auto generated files
+## 89 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -248,6 +248,7 @@
 * ./gitbook/Chapter2/zach.md
 * ./gitbook/Chapter2/goblin.md
 * ./gitbook/Chapter2/tobo.md
+* ./gitbook/Chapter2/elmo.md
 * ./gitbook/Chapter2/Readme.md
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/otherprobes.md

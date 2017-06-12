@@ -581,7 +581,7 @@ OpenWrite(IncludeImage(AddRawHURL(TableModulesShort)),"gitbook/Chapter1/listofmo
 
 AddQS  =  getText("include/AddUSSDK.md")+"\n\n"
 
-AddQS  = "# Quick start\n\n" + getText("include/AddQSDoj.md")
+AddQS  += "# Quick start\n\n" + getText("include/AddQSDoj.md")
 AddQS  += "\n\n" + getText("include/AddQSGoblin.md") + "\n\n"
 AddQS  += "\n\n" + getText("include/AddQSTobo.md") + "\n\n"
 
@@ -644,8 +644,8 @@ for eachModule in ModulesChaptTrois:
 	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
 
 
-CopyGitBookBomanzFile("bomanz/Readme.md","gitbook/Chapter3/bomanz.md")
-CopyGitBookBomanzFile("bomanz/20170430-PushingADCLimits.md","gitbook/Chapter3/bomanz2.md")
+CopyGitBookBomanzFile("../bomanz/Readme.md","gitbook/Chapter3/bomanz.md")
+CopyGitBookBomanzFile("../bomanz/20170430-PushingADCLimits.md","gitbook/Chapter3/bomanz2.md")
 
 
 CopyGitBookFile("retroATL3/2017-05-20_APeakInside.md","gitbook/Chapter3/atl_more.md")

@@ -74,6 +74,7 @@
 * ./gitbook/Chapter2/zach.md
 * ./gitbook/Chapter2/goblin.md
 * ./gitbook/Chapter2/tobo.md
+* ./gitbook/Chapter2/elmo.md
 * ./gitbook/Chapter2/Readme.md
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/otherprobes.md

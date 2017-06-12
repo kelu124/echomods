@@ -1,5 +1,13 @@
 __[Arduino]__ :no_entry: `./croaker/feather_tests/ADC2UDP-Cleaning.ino` : Missing Author 
 
+__[Arduino]__ :no_entry: `./elmo/data/arduino/arduino.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./elmo/data/arduino/arduino.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./elmo/data/arduino/arduino.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./elmo/data/arduino/arduino.ino` : Missing description
+
 __[Arduino]__ :no_entry: `./oneeye/oneye_pulser.ino` : Missing Author 
 
 __[Arduino]__ :no_entry: `./oneeye/oneye_pulser.ino` : Missing Copyright 
@@ -20,115 +28,23 @@ __[Links]__ :no_entry: `./Readme.md` : Link to non-existing file `./include/sets
 
 __[Links]__ :no_entry: `./Worklog.md` : Error in link definition, non-absolute path in link to `croaker/feather_tests/2Msps_Server.ino`
 
+__[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./elmo/data/arduino/20170609-NewADC.ipynb`
+
 __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/20160822/20160822-Fantom.md`
-
-__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/Makefile`
-
-__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/ca3306.c`
-
-__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/getSample.cpp`
-
-__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/piscope.txt`
-
-__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/code/prepareModules.sh`
-
-__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./CA3306E/data/1MHz.data`
-
-__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./images/20170422-FirstAcqs.png`
-
-__[Links]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Link to non-existing file `./pdf/CA3306.pdf`
-
-__[Links]__ :no_entry: `./bomanz/20170423-PlayingAD9214.md` : Error in link definition, non-absolute path in link to `pdf/adc08200.pdf`
-
-__[Links]__ :no_entry: `./bomanz/20170423-PlayingAD9214.md` : Link to non-existing file `./images/PRUDAQ-5.0-schematic.png`
-
-__[Links]__ :no_entry: `./bomanz/20170423-PlayingAD9214.md` : Link to non-existing file `./pdf/AD9201.pdf`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./ADC08200/20170430-ADC08200-FirstAcqs.ipynb`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./ADC08200/20170430-ADC08200-FirstAcqs.ipynb`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./ADC08200/20170430-ADC08200-FirstAcqs.ipynb`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./ADC08200/20170501-TestingVref.ipynb`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./images/20170422-detailedFFT.png`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./images/ADC08200-Noise.png`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./images/ADC08200piezoFFTed.png`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./images/ADC08200silentADC.png`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./images/ADC08200silentADCfft.png`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./images/offset_good_GSmall.JPG`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./offset/20170430_172456.jpg`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./offset/20170430_175050.jpg`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing file `./offset/offset_good_GSmall.JPG`
-
-__[Links]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Link to non-existing folder `./offset/`
-
-__[Links]__ :no_entry: `./bomanz/AD9200/Readme.md` : Link to non-existing file `./AD9200/bot-3d.png`
-
-__[Links]__ :no_entry: `./bomanz/AD9200/Readme.md` : Link to non-existing file `./AD9200/top-3d.png`
-
-__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p620.png`
-
-__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p621.png`
-
-__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p622.png`
-
-__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p623.png`
-
-__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p624.png`
-
-__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p625.png`
-
-__[Links]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Link to non-existing file `./CA3306/1991-Mag/p626.png`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./20170417-PlayingWithCA3306E.md`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./CA3306E/20170422-FirstAcqs.ipynb`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170406_124914.jpg`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170406_124950.jpg`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170412_231408.jpg`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/20170422-FirstAcqs.png`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/ADC08200piezoFFTed.png`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/BomanzVSCroaker.png`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/SilentSigs.jpg`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/bomanz_pcb.png`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/bomanz_pcb.png`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./images/drawing.png`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./pdf/CA3306.pdf`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing file `./source/blocks.png`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing folder `./ADC08200/`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing folder `./CA3306E/`
-
-__[Links]__ :no_entry: `./bomanz/Readme.md` : Link to non-existing folder `./source/kicad/`
 
 __[Links]__ :no_entry: `./cletus/2017-06-08_FindingSuppliers.md` : Error in link definition, non-absolute path in link to `retroATL3/2017-05-20_APeakInside.md`
 
 __[Links]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Link to non-existing file `./croaker/feather_tests/Registers1Msps.ino`
 
 __[Links]__ :no_entry: `./doj/Readme.md` : Link to non-existing file `./doj/source/2.0-kicad`
+
+__[Links]__ :no_entry: `./elmo/Readme.md` : Link to non-existing file `./elmo/source/blocks.png`
+
+__[Links]__ :no_entry: `./elmo/Readme.md` : Link to non-existing file `./elmo/viewme.png`
+
+__[Links]__ :no_entry: `./elmo/data/arduino/20170611-arduino.md` : Link to non-existing file `./elmo/data/arduino/read.cpp`
+
+__[Links]__ :no_entry: `./elmo/data/arduino/20170611-arduino.md` : Link to non-existing file `./elmo/data/arduino/scope.c`
 
 __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `../CLA.md`
 
@@ -158,6 +74,8 @@ __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definitio
 
 __[Links]__ :no_entry: `./include/AddMyLogs.md` : Error in link definition, non-absolute path in link to `croaker/feather_tests/2Msps_Server.ino` _(@autogenerated)_
 
+__[Links]__ :no_entry: `./include/AddMyLogs.md` : Link to non-existing file `./elmo/data/arduino/20170609-NewADC.ipynb` _(@autogenerated)_
+
 __[Links]__ :no_entry: `./include/AddMyLogs.md` : Link to non-existing file `./include/20160822/20160822-Fantom.md` _(@autogenerated)_
 
 __[Links]__ :no_entry: `./include/AddWireless.md` : Error in link definition, non-absolute path in link to `module`
@@ -167,18 +85,6 @@ __[Links]__ :no_entry: `./silent/Readme.md` : Link to non-existing file `./silen
 __[MD Files]__ :no_entry: `./CLA.md` : Missing description
 
 __[MD Files]__ :no_entry: `./CodeOfConduct.md` : Missing description
-
-__[MD Files]__ :no_entry: `./bomanz/20170417-PlayingWithCA3306E.md` : Missing description
-
-__[MD Files]__ :no_entry: `./bomanz/20170423-PlayingAD9214.md` : Missing description
-
-__[MD Files]__ :no_entry: `./bomanz/20170430-PushingADCLimits.md` : Missing description
-
-__[MD Files]__ :no_entry: `./bomanz/AD9200/Readme.md` : Missing description
-
-__[MD Files]__ :no_entry: `./bomanz/CA3306E/1991-Mag/Readme.md` : Missing description
-
-__[MD Files]__ :no_entry: `./bomanz/RPins.md` : Missing description
 
 __[MD Files]__ :no_entry: `./cletus/2017-06-08_FindingSuppliers.md` : Missing description
 
@@ -199,6 +105,10 @@ __[MD Files]__ :no_entry: `./doj/brief.md` : Missing description
 __[MD Files]__ :no_entry: `./doj/brief_v2.md` : Missing description
 
 __[MD Files]__ :no_entry: `./doj/source/v1.2-kicad/Readme.md` : Missing description
+
+__[MD Files]__ :no_entry: `./elmo/RPins.md` : Missing description
+
+__[MD Files]__ :no_entry: `./elmo/data/arduino/20170611-arduino.md` : Missing description
 
 __[MD Files]__ :no_entry: `./gitbook/Chapter2/basicdevkit.md` : Missing description
 
@@ -343,6 +253,21 @@ __[MDL doj]__ :white_check_mark: 01. Real name found: MDL-echomods_motherboard
 __[MDL doj]__ :white_check_mark: Metadata (version, date, technology, language, cost, sourcing, author)
 
 
+__[MDL elmo]__ :white_check_mark: 01. Block diagram OK
+
+
+__[MDL elmo]__ :white_check_mark: 01. Real name found: MDL-DAQ_AD9200
+
+
+__[MDL elmo]__ :white_check_mark: 2 input(s)
+
+
+__[MDL elmo]__ :white_check_mark: 3 output(s)
+
+
+__[MDL elmo]__ :white_check_mark: Metadata (version, date, cost, sourcing, technology, language, author)
+
+
 __[MDL goblin]__ :white_check_mark: 01. Block diagram OK
 
 
@@ -478,16 +403,6 @@ __[MDL tomtom]__ :white_check_mark: 5 output(s)
 __[MDL tomtom]__ :white_check_mark: Metadata (version, date, technology, language, cost, sourcing, author)
 
 
-__[Python]__ :no_entry: `./bomanz/ADC08200/ADC08200.py` : Header error 
-
-__[Python]__ :no_entry: `./bomanz/ADC08200/ADC08200.py` : Missing Author 
-
-__[Python]__ :no_entry: `./bomanz/ADC08200/ADC08200.py` : Missing Copyright 
-
-__[Python]__ :no_entry: `./bomanz/ADC08200/ADC08200.py` : Missing License
-
-__[Python]__ :no_entry: `./bomanz/ADC08200/ADC08200.py` : Missing description
-
 __[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Header error 
 
 __[Python]__ :no_entry: `./croaker/data/20161217/raw_data/rebuild.py` : Missing Author 
@@ -519,6 +434,6 @@ __[SET]__ Added `highspeed`
 __[SET]__ Added `wifi-dev-kit`
 
 
-__[WEB Blog]__ 145 posts added
+__[WEB Blog]__ 146 posts added
 
 [](@autogenerated - invisible comment)
