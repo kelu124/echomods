@@ -39,7 +39,7 @@ This kit consists of several modules mainly built from easily available componen
 
 A modular approach was chosen to ensure that each key component inside the ultrasound image processing can easily be replaced and compared with another module. Each electronic module takes the place of a function in the signal processing chain or allows tapping into the different signals circulating between the blocks. 
 
-## Approach
+### Approach
 
 * Mono element, one channel, one ADC
 * Approach: module
@@ -47,23 +47,30 @@ A modular approach was chosen to ensure that each key component inside the ultra
 
 * Costs
 
-## DAQs
+## Experiments
+
+### Setup
+
+![](Images)
+
+## Different DAQs
 
 STM32 - PRUDAQ - now myDAQ
 
 ![](Comparatif Bitscope / PRUDAQ / STM32 / ADC)
 
-## Results
+## Results / images
 
 
+## So what?
 
-## Big lessons
+### Big lessons
 
 * Start with common elements
 * Accept challenges
 * Share
 
-## Next steps
+### Next steps
 
 On a hardware side..
 * The pulser-module design uses only two inputs and one high voltage source. However, the chip enables more complex uses as a pulser, which can be further explored.

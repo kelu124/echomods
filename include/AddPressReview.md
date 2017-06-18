@@ -22,3 +22,5 @@
 * 2017-04-01: [Ultrasound on kakoni](https://github.com/kakoni/awesome-health)
 * 2017-04-16: [Bomanz on OSHPark](https://blog.oshpark.com/2017/04/15/high-speed-adc-phat-for-raspberry-pi/)
 * 2017-04-30: [Bomanz on Hackaday](http://hackaday.com/2017/04/30/hackaday-prize-entry-high-speed-sampling-for-the-raspberry-pi/)
+* 2017-06-18: [Some publicity from OSHPark](https://twitter.com/oshpark/status/875691181228908550)
+

@@ -1,11 +1,13 @@
 digraph {
-	"ITF-E_signal_envelope" [style=rounded]
+	"ITF-3_ENV" [style=rounded]
 	"Feather WICED" [style=rounded]
 	WiFi [style=rounded]
-		"ITF-E_signal_envelope" -> "Feather WICED"
+		"ITF-3_ENV" -> "Feather WICED"
 		"Feather WICED" -> WiFi
+	"ITF-10_Poff" [style=rounded]
 	"Feather WICED" [style=rounded]
 	"ITF-mED-TFT-Screen" [style=rounded]
+		"ITF-10_Poff" -> "Feather WICED"
 		"Feather WICED" -> "ITF-mED-TFT-Screen"
 	"Feather WICED" [style=rounded]
 	WiFi [style=rounded]

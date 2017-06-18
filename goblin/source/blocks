@@ -1,27 +1,27 @@
 digraph {
-	"ITF-G_gain_control" [style=rounded]
+	"ITF-7_GAIN" [style=rounded]
 	Goblin_Jumper2 [style=rounded]
 	AD8331 [style=rounded]
 	"ITF-C_amplified_raw_signal" [style=rounded]
 	ADL5511 [style=rounded]
-	"ITF-E_signal_envelope" [style=rounded]
+	"ITF-3_ENV" [style=rounded]
 	AD8691 [style=rounded]
 	"ITF-Ext_Amplified" [style=rounded]
 	AD7274 [style=rounded]
 	"ITF-mEG_SPI" [style=rounded]
-		"ITF-G_gain_control" -> Goblin_Jumper2
+		"ITF-7_GAIN" -> Goblin_Jumper2
 		Goblin_Jumper2 -> AD8331
 		AD8331 -> "ITF-C_amplified_raw_signal"
 		"ITF-C_amplified_raw_signal" -> ADL5511
-		ADL5511 -> "ITF-E_signal_envelope"
-		"ITF-E_signal_envelope" -> AD8691
+		ADL5511 -> "ITF-3_ENV"
+		"ITF-3_ENV" -> AD8691
 		AD8691 -> "ITF-Ext_Amplified"
 		"ITF-Ext_Amplified" -> AD7274
 		AD7274 -> "ITF-mEG_SPI"
-	"ITF-R_reserved" [style=rounded]
+	"ITF-18_Raw" [style=rounded]
 	Goblin_Jumper1 [style=rounded]
 	AD8331 [style=rounded]
-		"ITF-R_reserved" -> Goblin_Jumper1
+		"ITF-18_Raw" -> Goblin_Jumper1
 		Goblin_Jumper1 -> AD8331
 	"ITF-mET_SMA" [style=rounded]
 	Goblin_Jumper1 [style=rounded]

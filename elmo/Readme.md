@@ -43,7 +43,7 @@ Using a dual ADC raspberry extension for 20Msps+ DAQ
 ### What is it supposed to do?
 
 
-The aim of this module is to achieve 10Msps, ideally 20Msps, at 9bits or more.
+The aim of this module is to achieve 10Msps, ideally 20Msps, at 9bits or more. Inspired from the [Bomanz]() project as well, which tried several high-speed ADCs setup for Raspberry Pi.
 
 
 ### How does it work: block diagram

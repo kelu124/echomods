@@ -3,9 +3,11 @@ digraph {
 	Bomanz [style=rounded]
 		"ITF-C_amplified_raw_signal" -> Bomanz
 	"ITF-E_signal_envelope" [style=rounded]
+	Jumper [style=rounded]
 	Bomanz [style=rounded]
 	RPi [style=rounded]
-		"ITF-E_signal_envelope" -> Bomanz
+		"ITF-E_signal_envelope" -> Jumper
+		Jumper -> Bomanz
 		Bomanz -> RPi
 	RPi [style=rounded]
 	"ITF-I_pulse_on" [style=rounded]
@@ -16,4 +18,9 @@ digraph {
 	RPi [style=rounded]
 	"ITF-N_cc_motor_pwm" [style=rounded]
 		RPi -> "ITF-N_cc_motor_pwm"
+	RPi [style=rounded]
+	"/dev/charnode" [style=rounded]
+	Wifi [style=rounded]
+		RPi -> "/dev/charnode"
+		"/dev/charnode" -> Wifi
 }

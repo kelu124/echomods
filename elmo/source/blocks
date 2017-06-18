@@ -1,0 +1,22 @@
+digraph {
+	"Raw Signal" [style=rounded]
+	"ITF-12_RPIn" [style=rounded]
+	ADC [style=rounded]
+	Buffer [style=rounded]
+	Pi [style=rounded]
+	"Signal Digitalized" [style=rounded]
+		"Raw Signal" -> "ITF-12_RPIn"
+		"ITF-12_RPIn" -> ADC
+		ADC -> Buffer
+		Buffer -> Pi
+		Pi -> "Signal Digitalized"
+	"ITF-4_RawSig" [style=rounded]
+	"ITF-12_RPIn" [style=rounded]
+		"ITF-4_RawSig" -> "ITF-12_RPIn"
+	"ITF-11_OffSig" [style=rounded]
+	"ITF-12_RPIn" [style=rounded]
+		"ITF-11_OffSig" -> "ITF-12_RPIn"
+	"ITF-3_ENV" [style=rounded]
+	"ITF-12_RPIn" [style=rounded]
+		"ITF-3_ENV" -> "ITF-12_RPIn"
+}

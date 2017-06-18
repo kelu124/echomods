@@ -1,16 +1,16 @@
 digraph {
-	"ITF-B_5v" [style=rounded]
+	"ITF-2_VDD_5V" [style=rounded]
 	ArduinoTrinketPro [style=rounded]
-	"ITF-G_gain_control" [style=rounded]
-		"ITF-B_5v" -> ArduinoTrinketPro
-		ArduinoTrinketPro -> "ITF-G_gain_control"
+	"ITF-7_GAIN " [style=rounded]
+		"ITF-2_VDD_5V" -> ArduinoTrinketPro
+		ArduinoTrinketPro -> "ITF-7_GAIN "
 	ArduinoTrinketPro [style=rounded]
-	"ITF-I_pulse_on" [style=rounded]
-		ArduinoTrinketPro -> "ITF-I_pulse_on"
+	"ITF-9_Pon " [style=rounded]
+		ArduinoTrinketPro -> "ITF-9_Pon "
 	ArduinoTrinketPro [style=rounded]
-	"ITF-J_pulse_off" [style=rounded]
-		ArduinoTrinketPro -> "ITF-J_pulse_off"
+	"ITF-10_Poff " [style=rounded]
+		ArduinoTrinketPro -> "ITF-10_Poff "
 	ArduinoTrinketPro [style=rounded]
-	"ITF-N_cc_motor_pwm" [style=rounded]
-		ArduinoTrinketPro -> "ITF-N_cc_motor_pwm"
+	"ITF-14_PWM " [style=rounded]
+		ArduinoTrinketPro -> "ITF-14_PWM "
 }
