@@ -14,6 +14,7 @@
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md
 * ./include/sets/sets_slides.md
+* ./include/sets/PiDAQ.cost.md
 * ./include/sets/KitCosts.md
 * ./include/sets/emulated.cost.md
 * ./gitbook/CLA.md
@@ -76,6 +77,7 @@
 * ./gitbook/Chapter2/tobo.md
 * ./gitbook/Chapter2/elmo.md
 * ./gitbook/Chapter2/Readme.md
+* ./gitbook/Chapter2/basicdevkit.md
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/vscan.md

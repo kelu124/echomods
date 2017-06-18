@@ -50,6 +50,7 @@
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md): 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md): 
 * [./include/AddQSGoblin.md](/include/AddQSGoblin.md): 
+* [./include/AddBasicDevKit.md](/include/AddBasicDevKit.md): 
 * [./include/PiDAQ.set.md](/include/PiDAQ.set.md): 
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): BOM, first steps and results of the murgen board
 * [./include/AddInterfaces.md](/include/AddInterfaces.md): 
@@ -82,6 +83,7 @@
 * [./include/AddWireless.md](/include/AddWireless.md): 
 * [./include/ppt_CLA.md](/include/ppt_CLA.md): 
 * [./include/highspeed.set.md](/include/highspeed.set.md): 
+* [./include/AddBasicDevKitResults.md](/include/AddBasicDevKitResults.md): 
 * [./include/AddPressReview.md](/include/AddPressReview.md): 
 * [./include/AddUSSDK.md](/include/AddUSSDK.md): 
 * [./include/AddChaptersIntro.md](/include/AddChaptersIntro.md): Introduction to the gitbook chapters
@@ -111,7 +113,6 @@
 * [./gitbook/GLOSSARY.md](/gitbook/GLOSSARY.md): 
 * [./gitbook/devkit1.md](/gitbook/devkit1.md): 
 * [./gitbook/Chapter2/results.md](/gitbook/Chapter2/results.md): 
-* [./gitbook/Chapter2/basicdevkit.md](/gitbook/Chapter2/basicdevkit.md): 
 * [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin)
 * [./silent/notes_R2R_DAC.md](/silent/notes_R2R_DAC.md): 
 * [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator
@@ -174,7 +175,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 89 Auto generated files
+## 91 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -192,6 +193,7 @@
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md
 * ./include/sets/sets_slides.md
+* ./include/sets/PiDAQ.cost.md
 * ./include/sets/KitCosts.md
 * ./include/sets/emulated.cost.md
 * ./gitbook/CLA.md
@@ -254,6 +256,7 @@
 * ./gitbook/Chapter2/tobo.md
 * ./gitbook/Chapter2/elmo.md
 * ./gitbook/Chapter2/Readme.md
+* ./gitbook/Chapter2/basicdevkit.md
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/vscan.md

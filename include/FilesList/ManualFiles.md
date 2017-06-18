@@ -48,6 +48,7 @@
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md): 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md): 
 * [./include/AddQSGoblin.md](/include/AddQSGoblin.md): 
+* [./include/AddBasicDevKit.md](/include/AddBasicDevKit.md): 
 * [./include/PiDAQ.set.md](/include/PiDAQ.set.md): 
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): BOM, first steps and results of the murgen board
 * [./include/AddInterfaces.md](/include/AddInterfaces.md): 
@@ -80,6 +81,7 @@
 * [./include/AddWireless.md](/include/AddWireless.md): 
 * [./include/ppt_CLA.md](/include/ppt_CLA.md): 
 * [./include/highspeed.set.md](/include/highspeed.set.md): 
+* [./include/AddBasicDevKitResults.md](/include/AddBasicDevKitResults.md): 
 * [./include/AddPressReview.md](/include/AddPressReview.md): 
 * [./include/AddUSSDK.md](/include/AddUSSDK.md): 
 * [./include/AddChaptersIntro.md](/include/AddChaptersIntro.md): Introduction to the gitbook chapters
@@ -109,7 +111,6 @@
 * [./gitbook/GLOSSARY.md](/gitbook/GLOSSARY.md): 
 * [./gitbook/devkit1.md](/gitbook/devkit1.md): 
 * [./gitbook/Chapter2/results.md](/gitbook/Chapter2/results.md): 
-* [./gitbook/Chapter2/basicdevkit.md](/gitbook/Chapter2/basicdevkit.md): 
 * [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin)
 * [./silent/notes_R2R_DAC.md](/silent/notes_R2R_DAC.md): 
 * [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator

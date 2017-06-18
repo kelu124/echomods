@@ -607,9 +607,22 @@ OpenWrite(AddRawMurgenURL(MurgenSummary)+"\n\n","gitbook/devkit0.md")
 
 # Resume pour le wireless
 
-
-WirelessSet = "# Wireless implementation of the modules\n\n"+"\n\n"+AddOneLevel(getText("include/AddWireless.md"))
+WirelessSet = "# Wireless implementation of the modules\n\n"+"\n\n"
+WirelessSet += AddOneLevel(getText("include/AddWireless.md"))+"\n\n"
+WirelessSet += AddOneLevel(getText("include/sets/wifi-dev-kit.cost.md"))+"\n\n"
+WirelessSet += AddOneLevel(getText("croaker/data/20161217/20161217-TestingArduinoAndPhantom.md"))+"\n\n"
 OpenWrite(IncludeImage(AddRawHURL(WirelessSet))+"\n\n","gitbook/devkit11.md")
+
+# Resume pour le basicdevkit
+
+BasicKit = "# Basic Dev Kit with BeagleBone\n\n"+"\n\n"
+BasicKit += AddOneLevel(getText("include/AddBasicDevKit.md"))+"\n\n"
+BasicKit += AddOneLevel(getText("include/sets/highspeed.cost.md"))+"\n\n"
+BasicKit +=    AddOneLevel(getText("include/AddBasicDevKitResults.md"))+"\n\n"
+
+OpenWrite(IncludeImage(AddRawHURL(BasicKit))+"\n\n","gitbook/Chapter2/basicdevkit.md")
+
+
 
 # Resume technique de Murgen
 OpenWrite(AddRawHURL(getText("include/AddIntroMurgen.md"))+"\n\n","gitbook/Chapter2/murgensetup.md")

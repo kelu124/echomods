@@ -80,6 +80,8 @@ __[Links]__ :no_entry: `./include/AddMyLogs.md` : Link to non-existing file `./i
 
 __[Links]__ :no_entry: `./include/AddWireless.md` : Error in link definition, non-absolute path in link to `module`
 
+__[Links]__ :no_entry: `./include/RPiHSDK.md` : Error in link definition, non-absolute path in link to `Comparatif Bitscope / PRUDAQ / STM32 / ADC`
+
 __[Links]__ :no_entry: `./silent/Readme.md` : Link to non-existing file `./silent/software/featherWICED/SignalGenerator.ino`
 
 __[MD Files]__ :no_entry: `./CLA.md` : Missing description
@@ -110,8 +112,6 @@ __[MD Files]__ :no_entry: `./elmo/RPins.md` : Missing description
 
 __[MD Files]__ :no_entry: `./elmo/data/arduino/20170611-arduino.md` : Missing description
 
-__[MD Files]__ :no_entry: `./gitbook/Chapter2/basicdevkit.md` : Missing description
-
 __[MD Files]__ :no_entry: `./gitbook/Chapter2/results.md` : Missing description
 
 __[MD Files]__ :no_entry: `./gitbook/GLOSSARY.md` : Missing description
@@ -131,6 +131,10 @@ __[MD Files]__ :no_entry: `./include/20160822/2016-08-22-Fantom.md` : Missing de
 __[MD Files]__ :no_entry: `./include/20170325/20170325-Doppler.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AdHocShoppingList.md` : Missing description
+
+__[MD Files]__ :no_entry: `./include/AddBasicDevKit.md` : Missing description
+
+__[MD Files]__ :no_entry: `./include/AddBasicDevKitResults.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddDevices.md` : Missing description
 
