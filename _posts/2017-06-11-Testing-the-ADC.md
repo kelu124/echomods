@@ -15,5 +15,3 @@ title: 2017-06-11 Testing the ADC
 -   Debbugging the [ADC
     inputs](/elmo/data/arduino/20170609-NewADC.ipynb)
 
-=======
-
