@@ -25,14 +25,16 @@ The acquisition heart of the echOmods
 
 ### Inputs
 
-* `ITF-A_gnd`
-* `ITF-B_5v`
-* `ITF-E_signal_envelope`
-* `ITF-I_pulse_on`
-* `ITF-J_pulse_off`
+
+* `ITF-3_ENV`
+* `ITF-10_Poff`
+* `ITF-9_Pon`
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
 
 ### Outputs
 
+* `ITF-19_3.3V`
 * `ITF-mED-TFT-Screen`
 * `ITF-mED-OLED-Screen`
 * `ITF-mEC-WiFi-UDP-Stream`
@@ -45,14 +47,14 @@ The acquisition heart of the echOmods
 
 ### What is it supposed to do?
 
-The aim of this echOmod is to receive the signal and process it.
+The aim of this echOmod is to receive the signal and process it, then stream it over wifi. 
 
 ### How does it work: block diagram
 
 ![Block schema](/croaker/source/blocks.png)
 
-* `ITF-E_signal_envelope`->`Feather WICED`->`WiFi`
-* `Feather WICED`->`ITF-mED-TFT-Screen`
+* `ITF-3_ENV`->`Feather WICED`->`WiFi`
+* `ITF-10_Poff`->`Feather WICED`->`ITF-mED-TFT-Screen`
 * `Feather WICED`->`WiFi`->`ITF-mEC-WiFi-UDP-Stream`
 
 

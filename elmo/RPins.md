@@ -1,6 +1,6 @@
 # Summary of the pins
 
-ADC de 9 bits
+2x9 bits ADCs
 
 http://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png
 

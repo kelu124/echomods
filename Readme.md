@@ -108,18 +108,18 @@ The diagram is represented below:
 | ThumbnailImage | Name | In | Out |
 |------|-------|----|------|
 |<img src='https://github.com/kelu124/echomods/blob/master/sleepy/viewme.png' align='center' width='150'>|**[sleepy](/sleepy/Readme.md)**: The aim of this echOmod is to encase the whole modules object in a neat case, making it transportable.|<ul><li>None</li></ul>|<ul><li>None</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/tobo/viewme.png' align='center' width='150'>|**[tobo](/tobo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-I_pulse_on</li><li>ITF-J_pulse_off</li><li>ITF-S_3_3v</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-R_reserved</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/elmo/viewme.png' align='center' width='150'>|**[elmo](/elmo/Readme.md)**: The aim of this module is to achieve 10Msps, ideally 20Msps, at 9bits or more.|<ul><li>ITF-A_gnd</li><li>ITF-F_12V</li></ul>|<ul><li>Motor</li><li>ITF-mET_Transducer</li><li>Tri-Piezo Head</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/tobo/viewme.png' align='center' width='150'>|**[tobo](/tobo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-19_3.3V</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-18_Raw</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/elmo/viewme.png' align='center' width='150'>|**[elmo](/elmo/Readme.md)**: The aim of this module is to achieve 10Msps, ideally 20Msps, at 9bits or more.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-19_3.3V</li><li>ITF-12_RPIn</li></ul>|<ul><li>Signal Digitalized</li></ul>|
 |<img src='https://github.com/kelu124/echomods/blob/master/cletus/viewme.png' align='center' width='150'>|**[cletus](/cletus/Readme.md)**: The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-N_cc_motor_pwm</li><li>ITF-S_3_3v</li><li>ITF-mET_Transducer</li><li>ITF-mET_Piezo</li></ul>|<ul><li>ITF-mET_Piezo</li><li>ITF-mET_Transducer</li></ul>|
 |<img src='https://github.com/kelu124/echomods/blob/master/tomtom/viewme.png' align='center' width='150'>|**[tomtom](/tomtom/Readme.md)**: The aim of this echOmod is to digitalize the signal, and to control the pulser, servo, ...|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-E_signal_envelope</li><li>ITF-I_pulse_on</li></ul>|<ul><li>ITF-I_pulse_on</li><li>ITF-J_pulse_off</li><li>ITF-C_amplified_raw_signal</li><li>ITF-E_signal_envelope</li><li>ITF-N_cc_motor_pwm</li></ul>|
 |<img src='https://github.com/kelu124/echomods/blob/master/doj/viewme.png' align='center' width='150'>|**[doj](/doj/Readme.md)**: Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See this for the Kicad files.|||
-|<img src='https://github.com/kelu124/echomods/blob/master/oneeye/viewme.png' align='center' width='150'>|**[oneeye](/oneeye/Readme.md)**: The module aims at making a microcontroler, for the moment the ArduinoTrinketPro, usable with the motherboard and the set of modules.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-S_3_3v</li></ul>|<ul><li>ITF-G_gain_control</li><li>ITF-I_pulse_on</li><li>ITF-J_pulse_off</li><li>ITF-N_cc_motor_pwm</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/croaker/viewme.png' align='center' width='150'>|**[croaker](/croaker/Readme.md)**: The aim of this echOmod is to receive the signal and process it.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-E_signal_envelope</li><li>ITF-I_pulse_on</li><li>ITF-J_pulse_off</li></ul>|<ul><li>ITF-mED-TFT-Screen</li><li>ITF-mED-OLED-Screen</li><li>ITF-mEC-WiFi-UDP-Stream</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/oneeye/viewme.png' align='center' width='150'>|**[oneeye](/oneeye/Readme.md)**: The module aims at making a microcontroler, for the moment the ArduinoTrinketPro, usable with the motherboard and the set of modules.|<ul><li>ITF-3_ENV</li><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li></ul>|<ul><li>ITF-7_GAIN</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-14_PWM</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/croaker/viewme.png' align='center' width='150'>|**[croaker](/croaker/Readme.md)**: The aim of this echOmod is to receive the signal and process it, then stream it over wifi. |<ul><li>ITF-3_ENV</li><li>ITF-10_Poff</li><li>ITF-9_Pon</li><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li></ul>|<ul><li>ITF-19_3.3V</li><li>ITF-mED-TFT-Screen</li><li>ITF-mED-OLED-Screen</li><li>ITF-mEC-WiFi-UDP-Stream</li></ul>|
 |<img src='https://github.com/kelu124/echomods/blob/master/retroATL3/viewme.png' align='center' width='150'>|**[retroATL3](/retroATL3/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former ATL3.|<ul><li>ITF-A_gnd</li><li>ITF-F_12V</li><li>ITF-N_cc_motor_pwm</li><li>ITF-mET_Transducer</li><li>Motor</li><li>Tri-Piezo Head</li></ul>|<ul><li>Motor</li><li>ITF-mET_Transducer</li><li>Tri-Piezo Head</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/toadkiller/viewme.png' align='center' width='150'>|**[toadkiller](/toadkiller/Readme.md)**: The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw signal) that would come from the piezo and analog chain.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-S_3_3v</li><li>ITF-E_signal_envelope</li></ul>|<ul><li>WiFi UDP Stream</li><li>ITF-mED-TFT-Screen</li><li>ITF-I_pulse_on</li><li>ITF-J_pulse_off</li><li>ITF-N_cc_motor_pwm</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed, with all steps accessible to hackers. |<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-S_3_3v</li><li>ITF-G_gain_control</li><li>ITF-C_amplified_raw_signal</li><li>ITF-E_signal_envelope</li><li>ITF-R_reserved</li><li>ITF-mET_SMA</li></ul>|<ul><li>ITF-C_amplified_raw_signal</li><li>ITF-E_signal_envelope</li><li>ITF-mEG_SPI</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/silent/viewme.png' align='center' width='150'>|**[silent](/silent/Readme.md)**: The aim of this echOmod is to simulate a raw signal that would come from the piezo and analog chain.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-J_pulse_off</li></ul>|<ul><li>ITF-R_reserved</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/mogaba/viewme.png' align='center' width='150'>|**[mogaba](/mogaba/Readme.md)**: The aim of this echOmod is to get 3.3V and 5V done.|<ul><li>ITF-mEM_Alimentation</li><li>ITF-F_12V</li></ul>|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-F_12V</li><li>ITF-S_3_3v</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/toadkiller/viewme.png' align='center' width='150'>|**[toadkiller](/toadkiller/Readme.md)**: The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw signal) that would come from the piezo and analog chain.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-19_3.3V</li><li>ITF-3_ENV</li></ul>|<ul><li>WiFi UDP Stream</li><li>ITF-mED-TFT-Screen</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-14_PWM</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed, with all steps accessible to hackers. |<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-7_GAIN</li><li>ITF-4_RawSig</li><li>ITF-3_ENV</li><li>ITF-18_Raw</li><li>ITF-mET_SMA</li></ul>|<ul><li>ITF-4_RawSig</li><li>ITF-3_ENV_signal_envelope</li><li>ITF-mEG_SPI</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/silent/viewme.png' align='center' width='150'>|**[silent](/silent/Readme.md)**: The aim of this echOmod is to simulate a raw signal that would come from the piezo and analog chain.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-17_POff3</li></ul>|<ul><li>ITF-18_Raw</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/mogaba/viewme.png' align='center' width='150'>|**[mogaba](/mogaba/Readme.md)**: The aim of this echOmod is to get 3.3V and 5V done.|<ul><li>ITF-mEM_Alimentation</li></ul>|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-19_3.3V</li></ul>|
 # Progress on building the modules 
 
 
@@ -187,30 +187,64 @@ Here's a couple of things we're working on, for which you could help as well.
 
 # Interfaces table for the motherboard
 
-| Name | Title | Amplitude |
-|------|-------|-----------|
-|`ITF-A_gnd`|_Ground_|[0V]|
-|`ITF-B_5v`|_5V alimentation_|[5V, 5V]|
-|`ITF-C_amplified_raw_signal`|_Amplified raw signal_|[0V, 2.5V]|
-|`ITF-D_amplified_filtered_signal`|_Amplified filtered signal_|[0V, 2.5V]|
-|`ITF-E_signal_envelope`|_Signal envelope_|[0V, 2.5V]|
-|`ITF-F_12v`|_12V alimentation_|[12V, 12V]|
-|`ITF-G_gain_control`|_Amplifier gain_|[0V, 1V]|
-|`ITF-H_neg_12v`|_-12V alimentation_|[-12V, -12V]|
-|`ITF-I_pulse_on`|_Pulse on_|[0V, 3.3V-5V]|
-|`ITF-J_pulse_off`|_Pulse off_|[0V, 5V]|
-|`ITF-K_pulse_redpitaya`|_Pulse info for Redpitaya_|[0V, 3.3V]|
-|`ITF-L_18v_alimentation`|_18V external alimentation_|[15V, 20V]|
-|`ITF-M_abs_angle`|_Absolute tranducer position_||
-|`ITF-N_cc_motor_pwm`|_CC motor pwm_|[0V, 5V]|
-|`ITF-N_stepper_b2`|_Stepper motor B2 signal_|[-5V, 5V]|
-|`ITF-O_cc_motor_encoder`|_CC motor incremental encoder_|[0V, 5V]|
-|`ITF-O_stepper_b1`|_Stepper motor B1 signal_|[-5V, 5V]|
-|`ITF-P_stepper_a1`|_Stepper motor A1 signal_|[-5V, 5V]|
-|`ITF-Q_stepper_a2`|_Stepper motor A2 signal_|[-5V, 5V]|
-|`ITF-R_reserved`|_reserved track_||
-|`ITF-S_3_3v`|_3.3V alimentation_|[3.3V, 3.3V]|
+| Name | Title | Amplitude | Raspberry GPIO | 
+|------|-------|-----------|-----------|
+|`ITF-1_GND`|_Ground_|[0V]||
+|`ITF-2_VDD_5V`|_5V alimentation_|[5V, 5V]||
+|`ITF-3_ENV`|_Enveloppe of the signal_|[0V, 2.5V]||
+|`ITF-4_RawSig`|_Amplified filtered signal_|[0V, 2.5V]||
+|`ITF-5_RENV`|_Raw signal envelope_|[VREF, 2.5V]||
+|`ITF-6_P6`|_ OLED SDA_|[0V, 3V]|  GPIO 02 |
+|`ITF-7_GAIN`|_Amplifier gain control_|[0V, 1V]||
+|`ITF-8_P8`|_-Pi OLED SCL_|[0V, 3V]| GPIO03|
+|`ITF-9_Pon`|_Pulse on_|[0V, 5V]| Jumper to connect to GPIO 23 |
+|`ITF-10_Poff`|_Pulse off_|[0V, 5V]| Jumper to connect to GPIO 24 |
+|`ITF-11_OffSig`|_Signal offset by Vref/2_|[0V, 3.3V]||
+|`ITF-12_RPIn`|_Pi ADC DAQ_|[0V, 3.3V]|GPIO 05|
+|`ITF-13_P13`|_Unused_|||
+|`ITF-14_PWM`|_Servo PWM_|[0V, 3.3V]|GPIO 06|
+|`ITF-15_GPIO21`|_GPIO21 connection_|| GPIO 21|
+|`ITF-16_POn3`|_Pulse On 3V_|[0V, 3.3V]| GPIO 23|
+|`ITF-17_POff3`|_Pulse Off 3V_|[0V, 3.3V]| GPIO 24|
+|`ITF-18_Raw`|_Raw signal fro transducer_|[-5V, 5V]||
+|`ITF-19_3.3V`|_3.3V alimentation_|[3.3V, 3.3V]||
 
+# Interfaces for Raspberry Pi
+
+```
+-> Core
+#define ADC_CLK	 4
+#define RPIn	 5
+#define PWM	 6
+#define Puls_ON	 23
+#define Puls_OFF 24
+#define TRACKER	 21
+-> Optional
+#define oled_sda 2
+#define oled_sdc 3
+
+//ADC 1
+#define BIT0_PIN 16
+#define BIT1_PIN 17
+#define BIT2_PIN 18
+#define BIT3_PIN 19
+#define BIT4_PIN 20
+#define BIT5_PIN 22
+#define BIT6_PIN 25
+#define BIT7_PIN 26
+#define BIT8_PIN 27
+
+//ADC 2 (leaves SPI0 free)
+#define BIT0_PIN 7
+#define BIT1_PIN 8
+#define BIT2_PIN 9
+#define BIT3_PIN 10
+#define BIT4_PIN 11
+#define BIT5_PIN 12
+#define BIT6_PIN 13
+#define BIT7_PIN 14
+#define BIT8_PIN 15
+```
 
 # License
 

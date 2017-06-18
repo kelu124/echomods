@@ -8,16 +8,16 @@
 
 ## Title
 
-Retrohacking the ATL Access 3 probe
+Using a dual ADC raspberry extension for 20Msps+ DAQ
 
 ## Description
 
 * High speed ADC pHAT
 * version: V1.3
 * date: 10/06/2017
-* cost:75$
-* sourcing:OSHPark
-* technology: AD9200
+* cost:45$
+* sourcing:OSHPark, MAcroFab
+* technology: SMD, AD9200
 * language: n/a
 * author: Kelu124
 
@@ -25,14 +25,14 @@ Retrohacking the ATL Access 3 probe
 
 ### Inputs
 
-* `ITF-A_gnd`
-* `ITF-F_12V`
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
+* `ITF-19_3.3V`
+* `ITF-12_RPIn`
 
 ### Outputs
 
-* `Motor`
-* `ITF-mET_Transducer`
-* `Tri-Piezo Head`
+* `Signal Digitalized`
 
 ## Key Components
 
@@ -50,8 +50,10 @@ The aim of this module is to achieve 10Msps, ideally 20Msps, at 9bits or more.
 
 ![Block schema](/elmo/source/blocks.png)
 
-* `Raw Signal`->`ADC`->`Buffer`->`Pi` 
-
+* `Raw Signal`->`ITF-12_RPIn`->`ADC`->`Buffer`->`Pi`->`Signal Digitalized`
+* `ITF-4_RawSig`->`ITF-12_RPIn`
+* `ITF-11_OffSig`->`ITF-12_RPIn`
+* `ITF-3_ENV`->`ITF-12_RPIn`
 
 ## About the module
 

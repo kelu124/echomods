@@ -26,14 +26,12 @@ Mogaba, the power supply
 ### Inputs
 
 * `ITF-mEM_Alimentation`
-* `ITF-F_12V`
 
 ### Outputs
 
-* `ITF-A_gnd`
-* `ITF-B_5v`
-* `ITF-F_12V`
-* `ITF-S_3_3v`
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
+* `ITF-19_3.3V`
 
 ## Key Components
 

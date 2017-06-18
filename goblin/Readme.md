@@ -26,19 +26,18 @@ Goblin: a TGC-Envelop-ADC module
 
 ### Inputs
 
-* `ITF-A_gnd`
-* `ITF-B_5v`
-* `ITF-S_3_3v`
-* `ITF-G_gain_control`
-* `ITF-C_amplified_raw_signal` : because it's used internally
-* `ITF-E_signal_envelope` : because it's used internally
-* `ITF-R_reserved` : for the signal coming from the pulser (if through track R)
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
+* `ITF-7_GAIN`
+* `ITF-4_RawSig` : because it's used internally
+* `ITF-3_ENV` : because it's used internally
+* `ITF-18_Raw` : for the signal coming from the pulser (if through track 18)
 * `ITF-mET_SMA` : for the signal coming from the pulser (if through SMA)
 
 ### Outputs
 
-* `ITF-C_amplified_raw_signal`: Amplified Raw Signal, post TGC, before the enveloppe detection	
-* `ITF-E_signal_envelope`: enveloppe of the signal, post TGC
+* `ITF-4_RawSig`: Amplified Raw Signal, post TGC, before the enveloppe detection	
+* `ITF-3_ENV_signal_envelope`: enveloppe of the signal, post TGC
 * `ITF-mEG_SPI` : signal from the ADC
 
 ## Key Components
@@ -68,8 +67,8 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 
 ![Block schema](/goblin/source/blocks.png)
 
-* `ITF-G_gain_control`->`Goblin_Jumper2`->`AD8331`->`ITF-C_amplified_raw_signal`->`ADL5511`->`ITF-E_signal_envelope`->`AD8691`->`ITF-Ext_Amplified`->`AD7274`->`ITF-mEG_SPI`
-* `ITF-R_reserved`->`Goblin_Jumper1`->`AD8331`
+* `ITF-7_GAIN`->`Goblin_Jumper2`->`AD8331`->`ITF-C_amplified_raw_signal`->`ADL5511`->`ITF-3_ENV`->`AD8691`->`ITF-Ext_Amplified`->`AD7274`->`ITF-mEG_SPI`
+* `ITF-18_Raw`->`Goblin_Jumper1`->`AD8331`
 * `ITF-mET_SMA`->`Goblin_Jumper1`
 * `ITF-InternalPot1_gain_control`->`Goblin_Jumper2`
 * `ITF-InternalPot2_ADC_Vref`->`AD7274`

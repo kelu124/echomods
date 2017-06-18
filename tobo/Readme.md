@@ -31,16 +31,16 @@ Tobo: the HV-pulser
 
 ### Inputs
 
-* `ITF-A_gnd`
-* `ITF-B_5v`
-* `ITF-I_pulse_on`
-* `ITF-J_pulse_off`
-* `ITF-S_3_3v`
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
+* `ITF-9_Pon` 
+* `ITF-10_Poff` 
+* `ITF-19_3.3V`
 * `ITF-mET_Transducer` : signal coming back	
 
 ### Outputs
 
-* `ITF-R_reserved` : for the signal coming from the transducer
+* `ITF-18_Raw`  : for the signal coming from the transducer
 * `ITF-mET_SMA` : for the signal coming out to the signal processing (if through SMA)
 * `ITF-mET_Transducer` : for the signal coming out of the pulser (if through SMA)
 
@@ -59,11 +59,11 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ![Block schema](/tobo/source/blocks.png)
 
-* `ITF-I_pulse_on`->`HV7360`
-* `ITF-J_pulse_off`->`HV7360`
-* `ITF-B_5v`->`R05-100B`->`HV7360`->`ITF-mET_Transducer`
+* `ITF-9_Pon`->`HV7360`
+* `ITF-10_Poff`->`HV7360`
+* `ITF-2_VDD_5V`->`R05-100B`->`HV7360`->`ITF-mET_Transducer`
 * `ITF-mET_Transducer`->`ITF-mET_SMA`
-* `ITF-mET_Transducer`->`ITF-R_reserved`
+* `ITF-mET_Transducer`->`ITF-18_Raw`
 
 ## About the module
 

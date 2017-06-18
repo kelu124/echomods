@@ -25,16 +25,18 @@ One-eye, the controler
 
 ### Inputs
 
-* `ITF-A_gnd`
-* `ITF-B_5v`
-* `ITF-S_3_3v`
+* `ITF-3_ENV`
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
+
 
 ### Outputs
 
-* `ITF-G_gain_control`
-* `ITF-I_pulse_on`
-* `ITF-J_pulse_off`
-* `ITF-N_cc_motor_pwm`
+* `ITF-7_GAIN` 
+* `ITF-9_Pon` 
+* `ITF-10_Poff` 
+* `ITF-14_PWM` 
+
 
 ## Key Components
 
@@ -54,10 +56,10 @@ A simple arduino code is [presented here](/oneeye/oneye_pulser.ino).
 
 ![Block schema](/oneeye/source/blocks.png)
 
-* `ITF-B_5v`->`ArduinoTrinketPro`->`ITF-G_gain_control`
-* `ArduinoTrinketPro`->`ITF-I_pulse_on`
-* `ArduinoTrinketPro`->`ITF-J_pulse_off`
-* `ArduinoTrinketPro`->`ITF-N_cc_motor_pwm`
+* `ITF-2_VDD_5V`->`ArduinoTrinketPro`->`ITF-7_GAIN` 
+* `ArduinoTrinketPro`->`ITF-9_Pon` 
+* `ArduinoTrinketPro`->`ITF-10_Poff` 
+* `ArduinoTrinketPro`->`ITF-14_PWM` 
 
 ## About the module
 

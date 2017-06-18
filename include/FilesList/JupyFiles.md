@@ -1,6 +1,8 @@
 * [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb)
+* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb)
 * [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb)
 * [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb)
+* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)
 * [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb)
 * [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb)
 * [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)

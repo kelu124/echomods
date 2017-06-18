@@ -14,7 +14,7 @@ The Pi Heart of the echOmods
 
 * A Pi W - wireless!
 * version: V0.1
-* date: 25/04/2016
+* date: 25/04/2017
 * technology: RPiW
 * language: python / kernel
 * cost:10$
@@ -54,11 +54,11 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 ![Block schema](/tomtom/source/blocks.png)
 
 * `ITF-C_amplified_raw_signal`->`Bomanz`
-* `ITF-E_signal_envelope`->`Bomanz`->`RPi`
+* `ITF-E_signal_envelope`->`Jumper`->`Bomanz`->`RPi`
 * `RPi`->`ITF-I_pulse_on`
 * `RPi`->`ITF-J_pulse_off`
 * `RPi`->`ITF-N_cc_motor_pwm`
-
+* `RPi`->`/dev/charnode`->`Wifi`
 
 
 ## About the module

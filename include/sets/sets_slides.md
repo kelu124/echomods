@@ -1,3 +1,13 @@
+### PiDAQ
+
+<ul><li>Title: Raspberry Dev Kit</li>
+<li>Description: Using a Pi for the kit</li>
+</ul>
+
+### PiDAQ: diagram
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/PiDAQ.png)
+
 ### emulated
 
 <ul><li>Title: echOmods emulated</li>

@@ -48,6 +48,7 @@
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md): 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md): 
 * [./include/AddQSGoblin.md](/include/AddQSGoblin.md): 
+* [./include/PiDAQ.set.md](/include/PiDAQ.set.md): 
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): BOM, first steps and results of the murgen board
 * [./include/AddInterfaces.md](/include/AddInterfaces.md): 
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set
@@ -75,6 +76,7 @@
 * [./include/AddStructure.md](/include/AddStructure.md): Short description of the organization of modules
 * [./include/AddEngineering.md](/include/AddEngineering.md): 
 * [./include/AdHocShoppingList.md](/include/AdHocShoppingList.md): 
+* [./include/RPiHSDK.md](/include/RPiHSDK.md): 
 * [./include/AddWireless.md](/include/AddWireless.md): 
 * [./include/ppt_CLA.md](/include/ppt_CLA.md): 
 * [./include/highspeed.set.md](/include/highspeed.set.md): 

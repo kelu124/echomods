@@ -25,18 +25,18 @@ This is the module to get high-speed (40Msps) signal acquisition.
 
 ### Inputs
 
-* `ITF-A_gnd`
-* `ITF-B_5v`
-* `ITF-S_3_3v`
-* `ITF-E_signal_envelope`
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
+* `ITF-19_3.3V`
+* `ITF-3_ENV`
 
 ### Outputs
 
 * `WiFi UDP Stream`
 * `ITF-mED-TFT-Screen`
-* `ITF-I_pulse_on`
-* `ITF-J_pulse_off`
-* `ITF-N_cc_motor_pwm`
+* `ITF-9_Pon` 
+* `ITF-10_Poff` 
+* `ITF-14_PWM` 
 
 ## Key Components
 

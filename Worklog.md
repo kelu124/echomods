@@ -1266,6 +1266,13 @@ Netty isn't nice... but just got my article accepted by JOH !
 * A summary of the [Pi HAT test with the modules to image](/elmo/data/arduino/20170611-arduino.md) and the [notebook](/elmo/data/arduino/20170611-arduino.ipynb).
 * Debbugging the [ADC inputs](/elmo/data/arduino/20170609-NewADC.ipynb)
 
+#### 2017-06-13 Getting into signal processing 
+
+* Managed to get the offset by inserting a 100pF capa in series with input
+* Testing the ADC now with the Offset, see [notebook](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)
+* [RPi Article](/include/RPiHSDK.md) to be started
+
+
 =======
 
 uControllers and other stuff

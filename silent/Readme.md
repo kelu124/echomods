@@ -25,13 +25,13 @@ This is the module which emulates the signal coming from the analog processing c
 
 ### Inputs
 
-* `ITF-A_gnd`
-* `ITF-B_5v`
-* `ITF-J_pulse_off`
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
+* `ITF-17_POff3`
 
 ### Outputs
 
-* `ITF-R_reserved` which is a raw signal
+* `ITF-18_Raw` which is a raw signal
 
 ## Key Components
 
@@ -47,8 +47,8 @@ The aim of this echOmod is to simulate a raw signal that would come from the pie
 
 ![Block schema](/silent/source/blocks.png)
 
-* `ITF-B_5v`->`Feather WICED`->`DAC`->`Biais removal`->`ITF-R_reserved`
-* `ITF-J_pulse_off`->`5V to 3.3V`->`B5`->`Feather WICED`
+* `ITF-2_VDD_5V`->`Feather WICED`->`DAC`->`Biais removal`->`ITF-18_Raw`
+* `ITF-17_POff3`->`B5`->`Feather WICED`
 
 ## About the module
 
