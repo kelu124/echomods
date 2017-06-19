@@ -88,6 +88,18 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ![](/retroATL3/images/DSC_0723.JPG)
 
+#### What are the pins ?
+
+The pins layout is numbered below. The following pins have been identified:
+
+* Pins 9 and 10 are for motor control
+* GND are pins 2, 4 and 14
+* VCC for counter is on pin 17
+* CounterSignal is on pin 18
+
+
+![](/retroATL3/images/pins.png)
+
 #### Replacing the oil
 
 
@@ -126,7 +138,7 @@ Having timestamped the bitscope acquisitions, there is a 20 +- 0.74 ms between e
 
 #### Real time achieved
 
-Getting realtime information (with no stupid data transfer delays) gives continuous images.
+Getting realtime information (with no stupid data transfer delays) gives continuous images, using a [Beaglebone PRUDAQ](/toadkiller/).
 
 ![](/include/20160814/sonde3V_1.png)
 
@@ -136,33 +148,6 @@ With which one can reconstruct a movie:
 
 ![](/include/20160814/sonde3V_1.gif)
 
-
-
-
-
-#### [ATL PV10](/retired/retro10PV/): a more difficult probe to test
-
-* __BEWARE! Only for [ATL PV10](/retired/retro10PV/)__ Motor is a 12V... doesn't move below 10V ... using 300mA@10V -- we could use a [5V to 12V DC/DC boost similar to this one](https://www.pololu.com/product/2117/specs). Could feed onto the 5V entry and leave on the 12V output. Can be found on Gotronics and such. Or the 12V could be delivered to the board itself.
-
-
-* Tested with murgen : not really pratical to use, maybe to be replaced with a simple 3MHz probe (which we have done with this [retro probe](/retroATL3/). [Read the full test on murgen's repo](https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/Session_9_ATL.md).
-
-* __It seems that the noise previously seen with the bitscope was due to the computer! Not to the bitscope.__
-
-
-##### Getting an echo
-
-An echo appears with [Murgen](https://github.com/kelu124/murgen-dev-kit), gain at 0.6V
-
-![](/retroATL3/images/TEK0005.JPG)
-
-##### Getting an image while the probe is rotating
-
-![](/retroATL3/software/data/20160721-100523.png)
-
-We don't really see much.. and it appears there is a slight delay 
-
-_This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-kit/worklog/), Worklog 11_
 
 ##### Trying to sort out the details
 
