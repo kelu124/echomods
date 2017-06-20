@@ -51,6 +51,7 @@
 * [./include/AddBasicDevKit.md](/include/AddBasicDevKit.md): 
 * [./include/PiDAQ.set.md](/include/PiDAQ.set.md): 
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): BOM, first steps and results of the murgen board
+* [./include/AddBench.md](/include/AddBench.md): 
 * [./include/AddInterfaces.md](/include/AddInterfaces.md): 
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set
 * [./include/NamesOfModules.md](/include/NamesOfModules.md): 

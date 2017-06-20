@@ -53,6 +53,7 @@
 * [./include/AddBasicDevKit.md](/include/AddBasicDevKit.md): 
 * [./include/PiDAQ.set.md](/include/PiDAQ.set.md): 
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): BOM, first steps and results of the murgen board
+* [./include/AddBench.md](/include/AddBench.md): 
 * [./include/AddInterfaces.md](/include/AddInterfaces.md): 
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set
 * [./include/NamesOfModules.md](/include/NamesOfModules.md): 
@@ -175,7 +176,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 91 Auto generated files
+## 93 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -233,6 +234,7 @@
 * ./gitbook/Chapter3/tomtom.md
 * ./gitbook/Chapter3/croaker.md
 * ./gitbook/Chapter3/Readme.md
+* ./gitbook/Chapter7/pressreview.md
 * ./gitbook/Chapter7/Readme.md
 * ./gitbook/Chapter7/license.md
 * ./gitbook/Chapter7/progress.md
@@ -260,6 +262,7 @@
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/vscan.md
+* ./gitbook/Chapter6/bench.md
 * ./gitbook/Chapter6/c_will.md
 * ./gitbook/Chapter6/fileslist.md
 * ./gitbook/Chapter6/academicbiblio.md

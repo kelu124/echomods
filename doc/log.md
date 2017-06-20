@@ -38,8 +38,6 @@ __[Links]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Lin
 
 __[Links]__ :no_entry: `./doj/Readme.md` : Link to non-existing file `./doj/source/2.0-kicad`
 
-__[Links]__ :no_entry: `./elmo/Readme.md` : Link to non-existing file `./elmo/source/blocks.png`
-
 __[Links]__ :no_entry: `./elmo/Readme.md` : Link to non-existing file `./elmo/viewme.png`
 
 __[Links]__ :no_entry: `./elmo/data/arduino/20170611-arduino.md` : Link to non-existing file `./elmo/data/arduino/read.cpp`
@@ -81,6 +79,8 @@ __[Links]__ :no_entry: `./include/AddMyLogs.md` : Link to non-existing file `./i
 __[Links]__ :no_entry: `./include/AddWireless.md` : Error in link definition, non-absolute path in link to `module`
 
 __[Links]__ :no_entry: `./include/RPiHSDK.md` : Error in link definition, non-absolute path in link to `Comparatif Bitscope / PRUDAQ / STM32 / ADC`
+
+__[Links]__ :no_entry: `./include/RPiHSDK.md` : Error in link definition, non-absolute path in link to `Images`
 
 __[Links]__ :no_entry: `./silent/Readme.md` : Link to non-existing file `./silent/software/featherWICED/SignalGenerator.ino`
 
@@ -135,6 +135,8 @@ __[MD Files]__ :no_entry: `./include/AdHocShoppingList.md` : Missing description
 __[MD Files]__ :no_entry: `./include/AddBasicDevKit.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddBasicDevKitResults.md` : Missing description
+
+__[MD Files]__ :no_entry: `./include/AddBench.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddDevices.md` : Missing description
 

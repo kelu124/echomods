@@ -54,6 +54,7 @@
 * ./gitbook/Chapter3/tomtom.md
 * ./gitbook/Chapter3/croaker.md
 * ./gitbook/Chapter3/Readme.md
+* ./gitbook/Chapter7/pressreview.md
 * ./gitbook/Chapter7/Readme.md
 * ./gitbook/Chapter7/license.md
 * ./gitbook/Chapter7/progress.md
@@ -81,6 +82,7 @@
 * ./gitbook/Chapter6/components.md
 * ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/vscan.md
+* ./gitbook/Chapter6/bench.md
 * ./gitbook/Chapter6/c_will.md
 * ./gitbook/Chapter6/fileslist.md
 * ./gitbook/Chapter6/academicbiblio.md
