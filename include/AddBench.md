@@ -8,6 +8,7 @@
 * TPS61170 [10] Boost convertor
 * MAX5025 [11] - interesting setup
 * NMT0572SC [19] up to 72V
+* LT3958 [21] -> 5V to 48V
 
 ### Pulsers
 
@@ -17,6 +18,8 @@
 * MD1210 + TC2320 [8]
 * HV7360 [0]
 * LM96550 [10]
+* TC6320 [21] bipolar pulse
+
 
 ### Multiplexer / Switch
 
@@ -26,11 +29,13 @@
 * ADG426 (Analog multiplexer) [17]
 * AD8182 [18] 2-to-1 multiplexers
 * HV748 [19]
+* ADG707 [20]
 
 ### TGC
 
 * AD8332 [8]
 * AD8331 [0] [18] [19] 
+* SMA231 [21] as LNAs
 
 ### Enveloppe detection
 
@@ -43,13 +48,15 @@
 * AFE5851 [13]
 * AD9273 [15]
 * AD9272-65EBZ [16]
+* AFE5818 [21] for the capsule
 
 ### ADCs
 
 * AD9279 [5]
-* ADC10040 [8]
+* ADC10040 [8] - à 20MSPS sur 10 bit
 * AD9233 [14]
 * ADS826 [17]
+* ADS5517 [21]
 
 ### Amplifier
 
@@ -61,7 +68,7 @@
 * FDC1005-FDD15005 [18]
 * AD8009 [18] : adder
 
-### FPGA 
+### FPGA / CPLD / DSP ...
 
 * Spartan6 LX150 [3]
 * CycloneII2C70F672 + TMS320C6416 [7]
@@ -74,7 +81,10 @@
 * XC5VSX35T “Virtex 5” FPGA + TMS320DM6446 + XC2C256 [13]
 * Altera EP3C10 [14]
 * Virtex-4  Xilinx  FPGA + TMs320c6455[16]
-* Virtex-4 FPGa  [17]
+* Virtex-4 FPGA  [17]
+* XCR3064XL [20]
+* Cyclone IV, EP4CE115F29 [21]
+* CC3200 Wifi [21] 
 
 ### Phantom
 
@@ -91,6 +101,9 @@ Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/ma
 * http://www.ndt.net/forum/thread.php?admin=&forenID=0&msgID=54166&rootID=54166
 * http://ntsu.net.au/software_controlled_ultrasonic_systems.html
 * http://www.tribosonics.com/pages/products/small-ultrasonic-system.htm
+* http://sci-hub.cc/10.1177/016173460803000104 has a nice picture of a interson pcb + xilinx
+
+
 
 [0]: https://github.com/kelu124/echomods/ "this project :)"
 [1]: https://www.duo.uio.no/bitstream/handle/10852/47813/Sharma_2015.pdf "Shatin Sharma Thesis"
@@ -112,3 +125,5 @@ Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/ma
 [17]: http://sci-hub.cc/10.1109/TUFFC.2012.2351 "An FPGA-based ultrasound imaging system using capacitive micromachined ultrasonic transducers."
 [18]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2330166/ "High-frequency Ultrasound Doppler System for Biomedical Applications with a 30 MHz Linear Array"
 [19]: www.mdpi.com/1424-8220/16/10/1681/pdf "Design and Implementation of an Electronic Front-End Based on Square Wave Excitation for Ultrasonic Torsional Guided Wave Viscosity Sensor"
+[20]: https://www.ncbi.nlm.nih.gov/pubmed/18269987 "Experimental system Prototype of a Portable, Low-Cost, C-scan Ultrasound Imaging Device - 10.1109/TBME.2007.903517"
+[21]: http://sci-hub.cc/10.1109/TMI.2017.2699973 "Development of a mechanical scanning device with high-frequency ultrasound transducer for ultrasonic capsule endoscopy"

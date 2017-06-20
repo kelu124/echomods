@@ -32,7 +32,7 @@ Ultrasound imaging has evolved since the first ultrasound machine appeared. The 
 
 ![](http://openhardware.metajnl.com/articles/10.5334/joh.2/joh-1-2-g1.png/?action=download)
 
-This kit consists of several modules mainly built from easily available components. Two electronic modules were specifically designed to provide the basic development kit. 
+This kit consists of several modules mainly built from easily available components - after a short benchmark of [existing ICs](https://kelu124.gitbooks.io/echomods/content/Chapter6/bench.html). Two electronic modules were specifically designed to provide the basic development kit. 
 
 * the Transducer Pulser Module (TPM): designed to provide a precise high-voltage pulse, necessary to excite the sensor, while remaining robust enough to be controlled by an Arduino;
 * the Analog Processing Module (APM): designed to correctly process the raw ultrasound electric signal, while easily exposing all intermediary signals, and exposing a digital output to the user.
@@ -72,12 +72,23 @@ STM32 - PRUDAQ - now myDAQ
 
 ### Next steps
 
-On a hardware side..
+On a hardware side:
+
 * The pulser-module design uses only two inputs and one high voltage source. However, the chip enables more complex uses as a pulser, which can be further explored.
 * A multiplexer module can be used, to interface this single channel kit with an array probe. Doing this would permit to do synthetic aperture imaging, and to characterize as well each element in the array.
 * A whole field left unexplored so far is that of the transducer. As the key sensor in the kit, it would be interesting to explore relevant technologies to develop an open and accessible transducer.
+* Quite interestingly, it would be interesting to merge all modules once again on one RaspberryPi3-compatible hat
 
 On a software side:
+
 * The Raspberry Pi can be used a bit more. From a software point of view, the modules could be wirelessly controlled, leveraging the existing wireless communication channel, so that researchers can use a single unit for a laboratory, controlled from personal computers.
 * The images will need to be stored in a DICOM-compatible format. 
+
+
+### Articles refering to a Raspberry Pi challenge
+
+* [ ] http://www.ndt.net/forum/thread.php?&rootID=56263
+* [ ] https://www.raspberrypi.org/forums/viewtopic.php?f=37&t=96679
+* [ ] https://www.reddit.com/r/raspberry_pi/comments/5mwgm9/anyone_use_a_raspberry_pi_to_make_a_diy_ultrasound/
+* [ ] https://raspberrypi.stackexchange.com/questions/37013/using-pi-to-read-1-mhz-analog-ultrasound-signals
 

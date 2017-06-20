@@ -161,6 +161,12 @@ _This data comes from the [Murgen project](http://github.com/kelu124/murgen-dev-
 
 Those were done with a bitscope at 5Msps.. with 'non-null' delays between each line.
 
+### Find a connector
+
+BNC female to SMA male
+
+* https://www.amazon.com/uxcell-Adapter-Connector-Antenna-Pigtail/dp/B007PPHUO2
+
 ### What ICs are inside the head?
 
 And how are the signals prepared? See [this work](/retroATL3/2017-05-20_APeakInside.md) for pictures of the ICs inside, and for the type of signals inside the head of the probe. 
