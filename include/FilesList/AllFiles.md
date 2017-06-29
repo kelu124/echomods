@@ -5,6 +5,7 @@
 * [./CodeOfConduct.md](/CodeOfConduct.md):   _File not used._
 * [./sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.html): Casing of the modules - readme  _File not used._
 * [./tobo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.html):  File used in: [`/Worklog.md`](/Worklog.md)
+* [./tobo/alt.tobo/Readme.md](/tobo/alt.tobo/Readme.md):   _File not used._
 * [./elmo/RPins.md](/elmo/RPins.md):   _File not used._
 * [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ  _File not used._
 * [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddQSTobo.md`](/include/AddQSTobo.md), [`/include/AddUSSDK.md`](/include/AddUSSDK.md)
@@ -89,15 +90,17 @@
 * [./include/AddUSSDK.md](/include/AddUSSDK.md):  File used in: [`/Worklog.md`](/Worklog.md)
 * [./include/AddChaptersIntro.md](/include/AddChaptersIntro.md): Introduction to the gitbook chapters  _File not used._
 * [./include/ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md):   _File not used._
-* [./include/20160822/2016-08-22-Fantom.md](/include/20160822/2016-08-22-Fantom.md):  File used in: [`/include/JOH/joh_article.md`](/include/JOH/joh_article.md)
+* [./include/20160822/2016-08-22-Fantom.md](/include/20160822/2016-08-22-Fantom.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/include/JOH/joh_article.md`](/include/JOH/joh_article.md)
 * [./include/biblio/Readme.md](/include/biblio/Readme.md):   _File not used._
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md):  File used in: [`/include/use_case_biblio/Readme.md`](/include/use_case_biblio/Readme.md)
 * [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/include/JOH/joh_article.md`](/include/JOH/joh_article.md), [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html)
 * [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md):   _File not used._
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov  _File not used._
+* [./include/community/Zach/Readme.md](/include/community/Zach/Readme.md): Zach's worklog, simplified, on murgen  _File not used._
+* [./include/community/Marc/Readme.md](/include/community/Marc/Readme.md):   _File not used._
+* [./include/community/WillT/Readme.md](/include/community/WillT/Readme.md):   _File not used._
 * [./include/JOH/joh_article.md](/include/JOH/joh_article.md):   _File not used._
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md):   _File not used._
-* [./include/c_will/Readme.md](/include/c_will/Readme.md):   _File not used._
 * [./include/vscan/Readme.md](/include/vscan/Readme.md):   _File not used._
 * [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html)
 * [./retroATL3/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html): Main doc source for hacking ATL probes  _File not used._
@@ -106,7 +109,6 @@
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together File used in: [`/Worklog.md`](/Worklog.md)
 * [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin File used in: [`/Worklog.md`](/Worklog.md), [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md)
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016 File used in: [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md), [`/goblin/2016-07-08.md`](/goblin/2016-07-08.md), [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html)
-* [./goblin/2016-10-26_Zach.md](/goblin/2016-10-26_Zach.md): Zach's worklog, simplified, on murgen  _File not used._
 * [./goblin/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html): Goblin description File used in: [`/Worklog.md`](/Worklog.md)
 * [./goblin/pi0/HighSpeedBurstADC.md](/goblin/pi0/HighSpeedBurstADC.md):  File used in: [`/Worklog.md`](/Worklog.md)
 * [./goblin/pi0/Readme.md](/goblin/pi0/Readme.md):  File used in: [`/Worklog.md`](/Worklog.md)
@@ -124,7 +126,6 @@
 
 * [tobo_pulser.ino](/tobo/source/tobo_pulser.ino):  _File not used._
 * [arduino.ino](/elmo/data/arduino.ino): File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)
-* [arduino.ino](/elmo/data/arduino/arduino.ino): File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)
 * [oneye_pulser.ino](/oneeye/oneye_pulser.ino): File used in: [`/oneeye/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.html)
 * [Registers1MspsServo.ino](/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps _File not used._
 * [Registers.ino](/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registersFile used in: [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
@@ -133,7 +134,7 @@
 * [2ADC2UDP.ino](/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDPFile used in: [`/Worklog.md`](/Worklog.md), [`/croaker/notes_STM32F205_ref_manual.md`](/croaker/notes_STM32F205_ref_manual.md), [`/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.html), [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
 * [Registers1MspsDisplayTrigged.ino](/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.File used in: [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
 * [ReadPins.ino](/croaker/feather_tests/ReadPins.ino): Reading pinsFile used in: [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
-* [2Msps_Server.ino](/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it _File not used._
+* [2Msps_Server.ino](/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming itFile used in: [`/Worklog.md`](/Worklog.md)
 * [ADC2UDP-Cleaning.ino](/croaker/feather_tests/ADC2UDP-Cleaning.ino): File used in: [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
 * [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHzFile used in: [`/silent/2016-08-02.md`](/silent/2016-08-02.md), [`/silent/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html)
 * [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose _File not used._
@@ -141,7 +142,7 @@
 
 ## Jupyter files
 
-* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb)File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb) _File not used._* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb)File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb) _File not used._* [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)File used in: [`/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.html), [`/toadkiller/data/test_enveloppe/Readme.md`](/toadkiller/data/test_enveloppe/Readme.md), [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html)
+* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb)File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb) _File not used._* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb)File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb) _File not used._* [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)File used in: [`/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.html), [`/toadkiller/data/test_enveloppe/Readme.md`](/toadkiller/data/test_enveloppe/Readme.md), [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html)
 ## Python files
 
 * [makedoc.py](/makedoc.py): script to build autodocumentation.File used in: [`/Worklog.md`](/Worklog.md)

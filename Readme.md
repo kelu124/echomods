@@ -208,6 +208,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * put probe on the setup
 * set the gain on the AFE 
 * use the GetSuppliersList function to list equipment suppliers
+* map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
+* get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 
 
 # A recap of our retired modules 

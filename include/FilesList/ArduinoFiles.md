@@ -1,6 +1,5 @@
 * [tobo_pulser.ino](/tobo/source/tobo_pulser.ino):  _File not used._
 * [arduino.ino](/elmo/data/arduino.ino): File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)
-* [arduino.ino](/elmo/data/arduino/arduino.ino): File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)
 * [oneye_pulser.ino](/oneeye/oneye_pulser.ino): File used in: [`/oneeye/Readme.md`](/oneeye/Readme.md)
 * [Registers1MspsServo.ino](/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps _File not used._
 * [Registers.ino](/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registersFile used in: [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
@@ -9,7 +8,7 @@
 * [2ADC2UDP.ino](/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDPFile used in: [`/Worklog.md`](/Worklog.md), [`/croaker/notes_STM32F205_ref_manual.md`](/croaker/notes_STM32F205_ref_manual.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
 * [Registers1MspsDisplayTrigged.ino](/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.File used in: [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
 * [ReadPins.ino](/croaker/feather_tests/ReadPins.ino): Reading pinsFile used in: [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
-* [2Msps_Server.ino](/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it _File not used._
+* [2Msps_Server.ino](/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming itFile used in: [`/Worklog.md`](/Worklog.md)
 * [ADC2UDP-Cleaning.ino](/croaker/feather_tests/ADC2UDP-Cleaning.ino): File used in: [`/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/croaker/feather_tests/2016-09-10-Feather_ADC.md)
 * [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHzFile used in: [`/silent/2016-08-02.md`](/silent/2016-08-02.md), [`/silent/Readme.md`](/silent/Readme.md)
 * [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose _File not used._
