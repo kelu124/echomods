@@ -1,5 +1,13 @@
 __[Arduino]__ :no_entry: `./croaker/feather_tests/ADC2UDP-Cleaning.ino` : Missing Author 
 
+__[Arduino]__ :no_entry: `./elmo/data/arduino.ino` : Missing Author 
+
+__[Arduino]__ :no_entry: `./elmo/data/arduino.ino` : Missing Copyright 
+
+__[Arduino]__ :no_entry: `./elmo/data/arduino.ino` : Missing License
+
+__[Arduino]__ :no_entry: `./elmo/data/arduino.ino` : Missing description
+
 __[Arduino]__ :no_entry: `./elmo/data/arduino/arduino.ino` : Missing Author 
 
 __[Arduino]__ :no_entry: `./elmo/data/arduino/arduino.ino` : Missing Copyright 
@@ -39,6 +47,8 @@ __[Links]__ :no_entry: `./croaker/feather_tests/2016-09-10-Feather_ADC.md` : Lin
 __[Links]__ :no_entry: `./doj/Readme.md` : Link to non-existing file `./doj/source/2.0-kicad`
 
 __[Links]__ :no_entry: `./elmo/Readme.md` : Link to non-existing file `./elmo/viewme.png`
+
+__[Links]__ :no_entry: `./elmo/data/arduino/20170611-arduino.md` : Link to non-existing file `./elmo/data/arduino/20170612-ArduinoFFTed.ipynb`
 
 __[Links]__ :no_entry: `./elmo/data/arduino/20170611-arduino.md` : Link to non-existing file `./elmo/data/arduino/read.cpp`
 
@@ -433,6 +443,16 @@ __[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing License
 
 __[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing description
 
+__[Python]__ :no_entry: `./elmo/data/arduino.py` : Header error 
+
+__[Python]__ :no_entry: `./elmo/data/arduino.py` : Missing Author 
+
+__[Python]__ :no_entry: `./elmo/data/arduino.py` : Missing Copyright 
+
+__[Python]__ :no_entry: `./elmo/data/arduino.py` : Missing License
+
+__[Python]__ :no_entry: `./elmo/data/arduino.py` : Missing description
+
 __[Python]__ :no_entry: `./include/JOH/blocks/maketemplate.py` : Missing description
 
 __[SET]__ Added `PiDAQ`
@@ -447,6 +467,204 @@ __[SET]__ Added `highspeed`
 __[SET]__ Added `wifi-dev-kit`
 
 
-__[WEB Blog]__ 148 posts added
+__[Unrefed file]__ :no_entry: `/CodeOfConduct.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/specs/piezo-specs.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-americanpiezo.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-blatek.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-ikos.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-piezocom.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-piezosolution.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-piezotech.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-smartmaterials.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-sonicconcepts.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-sonomecha.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-sti.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-trs.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-ut.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-valpey.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/data/examples/Cleaning.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/data/examples/Intro.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/data/examples/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/data/manual/CreateSC_manual.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/data/manual/plotcsv.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/data/manual/rebuild.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/feather_tests/2Msps_Server.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/feather_tests/Registers1MspsServo.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/feather_tests/StreamingADC2UDP.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/notes_ESP32.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/croaker/notes_STM32F205_ref_manual.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doc/__init__.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doc/mkdoc.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doj/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doj/brief_v2.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doj/source/v1.2-kicad/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/RPins.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/data/20170609-NewADC.ipynb` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/data/20170613-TestWithRawSignal.ipynb` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/gitbook/Chapter2/results.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/gitbook/GLOSSARY.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/gitbook/SUMMARY.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/gitbook/devkit1.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/goblin/2016-10-26_Zach.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/20170325/20170325-Doppler.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AdHocShoppingList.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddBasicDevKit.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddBasicDevKitResults.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddChaptersIntro.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddDocProcess.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddEchomods.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddEngineering.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddFormatRules.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddInterfaces.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddIntro.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddIntroMurgen.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddLicense.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddMurgenSummary.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddPitch.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddPrinciples.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddQSDoj.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddQSGoblin.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddQSTobo.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddStructure.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddStructureDetails.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/AddWireless.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/Bibliography.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/JOH/blocks/maketemplate.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/JOH/comments/feedbackoncomments.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/JOH/joh_article.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/NamesOfModules.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/PiDAQ.set.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/biblio/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/c_will/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/emulated.set.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/fda.gov/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/highspeed.set.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/ppt_20160720-Milestone.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/ppt_CLA.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/ppt_DocProcess.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/ppt_DocumentationProcess.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/ppt_presUS.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/vscan/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/include/wifi-dev-kit.set.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retroATL3/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retroATL3/software/BitscopeAcquisitionScript.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/silent/2016-08-02.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/silent/notes_R2R_DAC.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/silent/software/featherWICED/Calibration/Calibration.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/sleepy/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/toadkiller/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/toadkiller/data/test_enveloppe/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/toadkiller/data/test_enveloppe/test_dual_entry.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/toadkiller/software/test_file.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/toadkiller/software/test_file_3periods.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/tobo/source/tobo_pulser.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/tomtom/20170506-RPiAndTobo.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/tomtom/DicomHandler.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/tomtom/Readme.md` : No references of this file. 
+
+__[WEB Blog]__ 150 posts added
 
 [](@autogenerated - invisible comment)

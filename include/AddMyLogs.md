@@ -742,12 +742,12 @@ Would you like to support an existing project with your skills and expertise? Or
 * Article being written at https://gist.github.com/kelu124/af9e3b39b0ba8bed3bde250489635fa6
 * Onboarding Pouya =)
 
-@todo Next week:
+Next week:
 
-* 6Msps
-* Sourcing transducer
-* Sourcing materials + integration makefile par set
-* Compiler output
+* @todo 6Msps on the [STM32](/croaker/)
+* @todo Sourcing transducer
+* (done) Sourcing materials + integration makefile par set
+* (done) Compiler output
 
 ##### @perso : faire un eink tablet
 
@@ -1145,6 +1145,24 @@ Netty isn't nice... but just got my article accepted by JOH !
 * http://gnusha.org/~gnusha/logs/html/2016-06-06.log.html as  reminder of former tests
 
 #### 2017-06-19 Finishing the RPi Doc
+
+* [Nothing](/include/RPiHSDK.md) much to do / say
+* Added a [benchmark for components](/include/AddBench.md)
+* Some ideas more to promote this product for A-mode tools
+* http://hackaday.com/2017/06/19/twenty-iot-builds-that-just-won-1000-in-the-hackaday-prize/ =)
+* http://www.ebay.com/itm/41139-5-7-5-MHZ-ENDOVAGINAL-ULTRASOUND-TRANSDUCER-PROBE-142252/391810622241?_trksid=p2047675.c100005.m1851&_trkparms=aid%3D222007%26algo%3DSIM.MBE%26ao%3D2%26asc%3D41376%26meid%3D7c8962ca8fe34037884411c7eaad4a6c%26pid%3D100005%26rk%3D2%26rkt%3D6%26sd%3D252386695621 : array ?
+* http://www.ebay.com/itm/ATL-MFI-7-5-5-0MHz-Cat-4000-0271-03-EndoRectal-Probe-3316-/111904974005?hash=item1a0e0e64b5:m:mkMb5fsyIlR5o1t1srcqOwA
+* Awesome capsule work: http://sci-hub.cc/10.1109/TMI.2017.2699973
+
+#### 2017-06-22 Consolidating ideas
+
+* Hussain: I have 5MHz PZT with 10mm diameter and 0.4mm thickness . I made the backing and matching layers, also I used fluorosilicone rubber for acoustic lens.
+
+#### 2017-06-26 More interest
+
+* @todo put probe on the setup
+* @todo set the gain on the AFE 
+* @todo use the GetSuppliersList function to list equipment suppliers
 
 
 =======

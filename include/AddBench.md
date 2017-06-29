@@ -3,100 +3,100 @@
 
 ### HV
 
-* R05-100B [2] [0]
+* R05-100B ([2]) ([0])
 * MAX1771
-* TPS61170 [10] Boost convertor
-* MAX5025 [11] - interesting setup
-* NMT0572SC [19] up to 72V
-* LT3958 [21] -> 5V to 48V
+* TPS61170 ([10]) Boost convertor
+* MAX5025 ([11]) - interesting setup
+* NMT0572SC ([19]) up to 72V
+* LT3958 ([21]) -> 5V to 48V
 
 ### Pulsers
 
-* MAX14808 [3] [9]
-* TC7320  [5] + MD1810 [5]
-* MD1213  + TC6320 [1]
-* MD1210 + TC2320 [8]
-* HV7360 [0]
-* LM96550 [10]
-* TC6320 [21] bipolar pulse
+* MAX14808 ([3]) ([9])
+* TC7320  ([5]) + MD1810 ([5])
+* MD1213  + TC6320 ([1])
+* MD1210 + TC2320 ([8])
+* HV7360 ([0])
+* LM96550 ([10])
+* TC6320 ([21]) bipolar pulse
 
 
 ### Multiplexer / Switch
 
-* HV2901 [3] 32-output high voltage MUX chip 
-* TX810 [10]
-* ADG1434 SPDT or ADG333A [17] for MEMS  
-* ADG426 (Analog multiplexer) [17]
-* AD8182 [18] 2-to-1 multiplexers
-* HV748 [19]
-* ADG707 [20]
+* HV2901 ([3]) 32-output high voltage MUX chip 
+* TX810 ([10])
+* ADG1434 SPDT or ADG333A ([17]) for MEMS  
+* ADG426 (Analog multiplexer) ([17])
+* AD8182 ([18]) 2-to-1 multiplexers
+* HV748 ([19])
+* ADG707 ([20])
 
 ### TGC
 
-* AD8332 [8]
-* AD8331 [0] [18] [19] 
-* SMA231 [21] as LNAs
+* AD8332 ([8])
+* AD8331 ([0]) ([18]) ([19]) 
+* SMA231 ([21]) as LNAs
 
 ### Enveloppe detection
 
-* ADL5511 [0]
+* ADL5511 ([0])
 
 ### Analog Front end
 
-* AFE5808 [3] [9]
-* AFE5801 [10]
-* AFE5851 [13]
-* AD9273 [15]
-* AD9272-65EBZ [16]
-* AFE5818 [21] for the capsule
+* AFE5808 ([3]) ([9])
+* AFE5801 ([10])
+* AFE5851 ([13])
+* AD9273 ([15])
+* AD9272-65EBZ ([16])
+* AFE5818 ([21]) for the capsule
 
 ### ADCs
 
-* AD9279 [5]
-* ADC10040 [8] - à 20MSPS sur 10 bit
-* AD9233 [14]
-* ADS826 [17]
-* ADS5517 [21]
+* AD9279 ([5])
+* ADC10040 ([8]) - à 20MSPS sur 10 bit
+* AD9233 ([14])
+* ADS826 ([17])
+* ADS5517 ([21])
 
 ### Amplifier
 
-* MAX4107 [18]
+* MAX4107 ([18])
 
 ### Beamformer
 
-* LM96570 [4]
-* FDC1005-FDD15005 [18]
-* AD8009 [18] : adder
+* LM96570 ([4])
+* FDC1005-FDD15005 ([18])
+* AD8009 ([18]) : adder
 
 ### FPGA / CPLD / DSP ...
 
-* Spartan6 LX150 [3]
-* CycloneII2C70F672 + TMS320C6416 [7]
-* Spartan-3 [6]
-* TMS320C6416 [5]
-* TMS320C6455 [7]
-* XC3S1500L-FG320, FPGA Xilinx [8]
-* Spartan 6 LX150, Xilinx Inc. [9]
-* Altera Cyclone III FPGA [10]
-* XC5VSX35T “Virtex 5” FPGA + TMS320DM6446 + XC2C256 [13]
-* Altera EP3C10 [14]
-* Virtex-4  Xilinx  FPGA + TMs320c6455[16]
-* Virtex-4 FPGA  [17]
-* XCR3064XL [20]
-* Cyclone IV, EP4CE115F29 [21]
-* CC3200 Wifi [21] 
+* Spartan6 LX150 ([3])
+* CycloneII2C70F672 + TMS320C6416 ([7])
+* Spartan-3 ([6])
+* TMS320C6416 ([5])
+* TMS320C6455 ([7])
+* XC3S1500L-FG320, FPGA Xilinx ([8])
+* Spartan 6 LX150, Xilinx Inc. ([9])
+* Altera Cyclone III FPGA ([10])
+* XC5VSX35T “Virtex 5” FPGA + TMS320DM6446 + XC2C256 ([13])
+* Altera EP3C10 ([14])
+* Virtex-4  Xilinx  FPGA + TMs320c6455[16])
+* Virtex-4 FPGA  ([17])
+* XCR3064XL ([20])
+* Cyclone IV, EP4CE115F29 ([21])
+* CC3200 Wifi ([21]) 
 
 ### Phantom
 
-* Model 040GSE, CIRS,  USA [3]
-* Model 539 Multipurpose US Phantom [5]
-* ATS539.    ATS    Laboratories [9]
+* Model 040GSE, CIRS,  USA ([3])
+* Model 539 Multipurpose US Phantom ([5])
+* ATS539.    ATS    Laboratories ([9])
 
 Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/bibliographie.md) for the basis of this work =) 
 
 ## Suppliers
 
-* US-SPI [14]
+* US-SPI ([14])
 * http://dghtechnology.com/product/scanmate-a/
 * http://www.ndt.net/forum/thread.php?admin=&forenID=0&msgID=54166&rootID=54166
 * http://ntsu.net.au/software_controlled_ultrasonic_systems.html

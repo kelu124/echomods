@@ -78,6 +78,31 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 
 ## Work
 
+### Installation
+
+* The image of the SD card for a PiW, along with the kernel module, scripts and all, is [available here](). Login 'pi' and password 'root'. Bad, I know. Change your wifi details in the `/etc/wpa_supplicant/wpa_supplicant.conf`. Once the pi has booted, you can _ssh pi@raspberrypi.local_ to connect to it. This [procedure rocks](https://raspberrypi.stackexchange.com/questions/1686/how-do-i-set-up-ssh-keys-to-log-into-my-rpi) to get your ssh keys on the device and not be bothered anymore.
+
+* The image was created with 
+
+```
+ sudo dd if=/dev/sdc of=./rpi_kernel_module.img bs=1M
+ gzip rpi_kernel_module.img
+```
+
+to flash it, (replacing the rdisk1 by the appropriate disk)
+
+```
+ gzip -dc rpi_kernel_module.img.gz | sudo dd of=/dev/rdisk1 bs=1m
+```
+
+The module is already compiled. It must be inserted by 
+
+```
+ ./run.sh
+```
+
+The module on the image creates the two pulses and listens to the ADC (if plugged in). It can be used as a standalone tool to test the pulser module, provided both jumpers on Doj v2 J2 jumpers connect Pon to Pon3 and Poff to Poff3.
+
 ### Checking if it works with the [pulser](/tobo/)
 
 It does! Pulses are :

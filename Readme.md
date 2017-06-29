@@ -166,6 +166,7 @@ Here's a couple of things we're working on, for which you could help as well.
 
 * Boosting the [6Msps croaker](/croaker/) acquisition (see Wayne?) to the full 6Msps 
 
+### Todos from Modules
 * Choose the design once the modules are done (in [sleepy](/sleepy/))
 * Get to work with Arthur (in [sleepy](/sleepy/))
 * Remove the jitter (see image in Rdme) (in [cletus](/cletus/))
@@ -185,6 +186,28 @@ Here's a couple of things we're working on, for which you could help as well.
 * <em>BONUS!</em> Plug it to a <a href="/croaker/">RPi0 or BBB or RPi</a> or else. (in [goblin](/goblin/))
 * Connect the ADC to a RPi0 (in [goblin](/goblin/))
 * <em>BONUS!</em> benchmark power supplies  (in [mogaba](/mogaba/))
+
+
+### Todos from worklog
+* 6Msps on the [STM32](/croaker/)
+* Sourcing transducer
+* dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
+* contact Sonopen / microsonix
+* add Felix, Will + Jp, Charles, Md+Afreen, Pouya, Visa
+* add OSH license
+* start an order for pulsers
+* start a [quickstart](/include/AddUSSDK.md) 
+* Add a documentation server
+* Display IP on the OLED.
+* Need to have a look at this RPI GPIO DMA - https://github.com/hzeller/rpi-gpio-dma-demo
+* Include some cletus remarks (sourcing) on gitbook
+* convert all previous images to dicom
+* answer some questions online for RPI + ultrasound
+* add s to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
+* Test YAML data on Markdown files
+* put probe on the setup
+* set the gain on the AFE 
+* use the GetSuppliersList function to list equipment suppliers
 
 
 # A recap of our retired modules 

@@ -77,7 +77,7 @@ log = log+MDFiles[3]
 GenFiles = "* "+"\n* ".join(MDFiles[0])
 OpenWrite(GenFiles,"include/FilesList/GeneratedFiles.md")
 
-
+NbMDManuels = len(MDFiles[1])
 
 
 
@@ -87,14 +87,19 @@ ListeOfManualFiles = MDFiles[1]
 ListeOfManualFilesDesc = MDFiles[2]
 
 for i in range(len(MDFiles[1])):
+	MdLog += "* ["+ListeOfManualFiles[i]+"]("+ListeOfManualFiles[i][1:]+"): "+ListeOfManualFilesDesc[i]+" "
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfManualFiles[i][1:],MDFiles[4],MDFiles[1])
+	MdLog += CheckRef[0]
+	log = log+CheckRef[1]
+	MdLog +="\n"
 
-	MdLog += "* ["+ListeOfManualFiles[i]+"]("+ListeOfManualFiles[i][1:]+"): "+ListeOfManualFilesDesc[i]+"\n"
 OpenWrite(MdLog,"include/FilesList/ManualFiles.md")
 
 
-
+# check auto files
 for mdFile in MDFiles[0]:
 	log=log+CheckLink(mdFile,True)
+# check manual files
 for mdFile in MDFiles[1]:
 	log=log+CheckLink(mdFile,False)
 
@@ -117,14 +122,22 @@ PythonFiles = CheckPythonFile(ListeOfPython)
 log = log+PythonFiles[0]
 
 for i in range(len(PythonFiles[1])):
-	PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i] +"\n"
+	PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i] 
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfPython[i][1:],MDFiles[4],MDFiles[1])
+	PythonLog += CheckRef[0]
+	log = log+CheckRef[1]
+	PythonLog +="\n"
 OpenWrite(PythonLog,"include/FilesList/PythonFiles.md")
 
 ListeOfJupy = GetJupyFiles("./") 
 
 JupyLog = ""
 for i in range(len(ListeOfJupy)):
-	JupyLog += "* ["+ListeOfJupy[i].split("/")[-1]+"]("+ListeOfJupy[i][1:]+")\n"
+	JupyLog += "* ["+ListeOfJupy[i].split("/")[-1]+"]("+ListeOfJupy[i][1:]+")"
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfJupy[i][1:],MDFiles[4],MDFiles[1])
+	JupyLog += CheckRef[0]
+	log = log+CheckRef[1]
+	PythonLog +="\n"
 OpenWrite(JupyLog,"include/FilesList/JupyFiles.md")
 
 InoLog = ""
@@ -132,7 +145,12 @@ ListeOfArduino = GetInoFiles("./")
 InoFi = CheckInoFile(ListeOfArduino)
 log = log+InoFi[0]
 for i in range(len(InoFi[1])):
-	InoLog += "* ["+ListeOfArduino[i].split("/")[-1]+"]("+ListeOfArduino[i][1:]+"): "+InoFi[1][i]+"\n"
+	InoLog += "* ["+ListeOfArduino[i].split("/")[-1]+"]("+ListeOfArduino[i][1:]+"): "+InoFi[1][i]
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfArduino[i][1:],MDFiles[4],MDFiles[1])
+	InoLog += CheckRef[0]
+	log = log+CheckRef[1]
+	InoLog +="\n"
+
 OpenWrite(InoLog,"include/FilesList/ArduinoFiles.md")
 
 AllFilesLog = ""
@@ -348,7 +366,7 @@ TableAvancement += "Note that the 'BONUS!' represents something that _could_ be 
 TableAvancement += "| Name of module | ToDo | Done |  Progress |\n"
 TableAvancement += "|------|-------|----|-----|\n"
 
-TODOsToShopping = ""
+TODOsToShopping = "### Todos from Modules\n"
 
 for ReadMe in ListOfDirs:
 	f = open(ReadMe+"/Readme.md", 'r')
@@ -405,7 +423,15 @@ for ReadMe in ListOfDirs:
 	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+str(PCProgress)+"% |\r\n"
 TableAvancement +="\n\n"
 
-TODOsToShopping = AddShoppingList+TODOsToShopping+"\n\n"
+# Getting Todos from the worklog
+WorklogTodos = "\n\n### Todos from worklog\n"
+with open("Worklog.md") as f:
+    for line in f:
+        if "@todo" in line:
+		WorklogTodos += line.replace("@todo","").replace("  "," ")
+
+
+TODOsToShopping = AddShoppingList+TODOsToShopping+WorklogTodos+"\n\n"
 
 # Saving it in a file
 OpenWrite(TableAvancement,"include/AddTableAvancement.md")

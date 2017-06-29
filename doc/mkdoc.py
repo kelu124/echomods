@@ -339,6 +339,7 @@ def GetSuppliersList(path):
 def GetGeneratedFiles(path):
 	ManualFiles = []
 	ManualDesc = []
+	ManualContent = []
 	AutoFiles = []
 	log = []
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.md'))]
@@ -349,6 +350,7 @@ def GetGeneratedFiles(path):
 		with open(eachMd) as FileContent:
 			found = False
 			foundDesc= False
+			FileContenu = ""
 			for line in FileContent:  #iterate over the file one line at a time(memory efficient)
 			    if tagAuto in line:
 				found = True
@@ -357,19 +359,36 @@ def GetGeneratedFiles(path):
 				start = '\[\]\(@description'
 				end = '\)'
 				Desc = re.search('%s(.*)%s' % (start, end), line).group(1).strip()
-
+			    FileContenu += line
 				#  Pitch/Intro of the project)
 			if not found:
 				ManualFiles.append(eachMd)
 				ManualDesc.append(Desc)	
+				ManualContent.append(FileContenu)
 			else: 
 				AutoFiles.append(eachMd)
 			if (not found) and (not foundDesc):
 				log.append("__[MD Files]__ "+RedMark+" `"+eachMd+"` : Missing description")
 
+			
 	#AutoFiles.sort()
 	#ManualFiles.sort()
-	return [AutoFiles,ManualFiles,ManualDesc,log]
+	return [AutoFiles,ManualFiles,ManualDesc,log,ManualContent]
+
+def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
+	InRef = []
+	log = []
+	StringData = ""
+	for k in range(NdFiles):
+		if PathRefedFile in ContentFiles[k]: 
+			InRef.append("[`"+PathRefingFile[k][1:]+"`]("+PathRefingFile[k][1:]+")")
+	if len(InRef):
+		StringData = "File used in: "+", ".join(InRef)
+		#print InRef
+	else:
+		StringData = " _File not used._"
+		log.append("__[Unrefed file]__ "+RedMark+" `"+PathRefedFile+"` : No references of this file. ")
+	return StringData, log
 
 def GetPythonFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.py'))]
