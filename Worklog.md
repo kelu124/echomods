@@ -730,7 +730,7 @@ Awesome work: a FPGA on a RPi0 footprint
 #### 2016-08-22 Back from holidays
 	
 * Working with Virginie and Benoit to get images
-* Got to play with a [general multi tissue fantom](/include/20160822/20160822-Fantom.md): got an image from a ATL3 probe, of the fantom.
+* Got to play with a [general multi tissue fantom](/include/20160822/2016-08-22-Fantom.md): got an image from a ATL3 probe, of the fantom.
 * What about [using Kaggle as a data repo](http://blog.kaggle.com/2016/08/17/making-kaggle-the-home-of-open-data/) for open data ?
 
 #### 2016-08-24 Finalizing the autodocumentation to gitbook
@@ -1012,7 +1012,7 @@ Just moved in to the new flat! Exhausting =) Other interesting things:
 
 * Getting to think of the 20E-214 ones =)
 * Chat with 1Tech, and the guy Patrice. Motivating.
-* Trying to get some stuff from the arduino, namely to get it work as a server. [Far from being finished, on it](croaker/feather_tests/2Msps_Server.ino).
+* Trying to get some stuff from the arduino, namely to get it work as a server. [Far from being finished, on it](/croaker/feather_tests/2Msps_Server.ino).
 
 #### 2017-01-02 Merry new year
 
@@ -1293,6 +1293,9 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo set the gain on the AFE 
 * @todo use the GetSuppliersList function to list equipment suppliers
 
+
+* @todo map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
+* @todo get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 
 =======
 

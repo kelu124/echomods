@@ -39,7 +39,7 @@ The motherboard of the echomods
 
 ### What is it supposed to do?
 
-Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See [this](/doj/source/2.0-kicad) for the Kicad files.
+Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See [this](/doj/source/2.0-kicad/) for the Kicad files.
 
 
 ### How does it work: block diagram

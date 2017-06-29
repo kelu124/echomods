@@ -82,9 +82,9 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 
 ### Installation
 
-* The image of the SD card for a PiW, along with the kernel module, scripts and all, is [available here](). Login 'pi' and password 'root'. Bad, I know. Change your wifi details in the `/etc/wpa_supplicant/wpa_supplicant.conf`. Once the pi has booted, you can _ssh pi@raspberrypi.local_ to connect to it. This [procedure rocks](https://raspberrypi.stackexchange.com/questions/1686/how-do-i-set-up-ssh-keys-to-log-into-my-rpi) to get your ssh keys on the device and not be bothered anymore.
+* The image of the SD card for a PiW, along with the kernel module, scripts and all, is [available here](http://kghosh.me/img/rpi_kernel_module.img.gz). Login 'pi' and password 'root'. Bad, I know. Change your wifi details in the `/etc/wpa_supplicant/wpa_supplicant.conf`. Once the pi has booted, you can _ssh pi@raspberrypi.local_ to connect to it. This [procedure rocks](https://raspberrypi.stackexchange.com/questions/1686/how-do-i-set-up-ssh-keys-to-log-into-my-rpi) to get your ssh keys on the device and not be bothered anymore.
 
-* The image was created with 
+* The [image](http://kghosh.me/img/rpi_kernel_module.img.gz) was created with 
 
 ```
  sudo dd if=/dev/sdc of=./rpi_kernel_module.img bs=1M
