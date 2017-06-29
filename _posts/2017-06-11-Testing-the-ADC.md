@@ -12,6 +12,5 @@ title: 2017-06-11 Testing the ADC
 -   A summary of the [Pi HAT test with the modules to
     image](/elmo/data/arduino/20170611-arduino.md) and the
     [notebook](/elmo/data/arduino/20170611-arduino.ipynb).
--   Debbugging the [ADC
-    inputs](/elmo/data/arduino/20170609-NewADC.ipynb)
+-   Debbugging the [ADC inputs](/elmo/data/20170609-NewADC.ipynb)
 

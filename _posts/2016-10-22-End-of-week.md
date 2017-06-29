@@ -15,10 +15,10 @@ title: 2016-10-22 End of week
     https://gist.github.com/kelu124/af9e3b39b0ba8bed3bde250489635fa6
 -   Onboarding Pouya =)
 
-@todo Next week:
+Next week:
 
--   6Msps
--   Sourcing transducer
--   Sourcing materials + integration makefile par set
--   Compiler output
+-   @todo 6Msps on the [STM32](/croaker/)
+-   @todo Sourcing transducer
+-   (done) Sourcing materials + integration makefile par set
+-   (done) Compiler output
 
