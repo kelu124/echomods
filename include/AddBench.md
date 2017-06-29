@@ -7,7 +7,7 @@
 * MAX1771
 * TPS61170 ([10]) Boost convertor
 * MAX5025 ([11]) - interesting setup
-* NMT0572SC ([19]) up to 72V
+* NMT0572SC ([19]) up to 72V --- 24, 48 and 72V V
 * LT3958 ([21]) -> 5V to 48V
 
 ### Pulsers
