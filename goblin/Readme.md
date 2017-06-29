@@ -114,6 +114,9 @@ Input/Output:
 
 ![](/goblin/images/TEK0010.JPG)
 
+See more details of the [acquisition of in/out of the module, using the PRUDAQ Module](/toadkiller/data/test_enveloppe/Readme.md).
+
+
 #### Comparing the signals: amplified signal vs enveloppe detected
 
 The overall signal

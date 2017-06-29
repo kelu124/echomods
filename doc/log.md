@@ -414,10 +414,10 @@ __[MDL tomtom]__ :white_check_mark: 01. Block diagram OK
 __[MDL tomtom]__ :white_check_mark: 01. Real name found: MDL-rpiEchomods
 
 
-__[MDL tomtom]__ :white_check_mark: 4 input(s)
+__[MDL tomtom]__ :white_check_mark: 4 output(s)
 
 
-__[MDL tomtom]__ :white_check_mark: 5 output(s)
+__[MDL tomtom]__ :white_check_mark: 5 input(s)
 
 
 __[MDL tomtom]__ :white_check_mark: Metadata (version, date, technology, language, cost, sourcing, author)

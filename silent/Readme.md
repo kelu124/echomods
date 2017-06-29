@@ -73,7 +73,7 @@ The aim of this echOmod is to simulate a raw signal that would come from the pie
 
 #### Getting a signal 
 
-With a simple code on feather WICED, managed to get a 1.8 - 2Mhz signal ( [code is here](/silent/software/featherWICED/SimpleSignalGenerator.ino) ).
+With a simple code on feather WICED, managed to get a 1.8 - 2Mhz signal ( [code is here](/silent/software/featherWICED/SimpleSignalGenerator.ino) ) - and [worklog is here](/silent/2016-08-02.md).
 
 ![](/silent/software/featherWICED/SimpleSignalGenerator.png)
 

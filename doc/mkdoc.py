@@ -387,7 +387,10 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 		#print InRef
 	else:
 		StringData = " _File not used._"
-		log.append("__[Unrefed file]__ "+RedMark+" `"+PathRefedFile+"` : No references of this file. ")
+		if "/include/" in PathRefedFile:
+			log.append("__[Unrefed file]__ "+WarningMark+" `"+PathRefedFile+"` : No references of this file (in _include_). ")
+		else:
+			log.append("__[Unrefed file]__ "+RedMark+" `"+PathRefedFile+"` : No references of this file. ")
 	return StringData, log
 
 def GetPythonFiles(path):

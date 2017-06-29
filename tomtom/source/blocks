@@ -1,20 +1,25 @@
 digraph {
-	"ITF-C_amplified_raw_signal" [style=rounded]
-	Bomanz [style=rounded]
-		"ITF-C_amplified_raw_signal" -> Bomanz
-	"ITF-E_signal_envelope" [style=rounded]
+	"ITF-15_GPIO21" [style=rounded]
+	RPi [style=rounded]
+		"ITF-15_GPIO21" -> RPi
+	"ITF-4_RawSig" [style=rounded]
 	Jumper [style=rounded]
-	Bomanz [style=rounded]
+	"ADC Cape (elmo)" [style=rounded]
+		"ITF-4_RawSig" -> Jumper
+		Jumper -> "ADC Cape (elmo)"
+	"ITF-3_ENV" [style=rounded]
+	Jumper [style=rounded]
+	"ADC Cape  (elmo)" [style=rounded]
 	RPi [style=rounded]
-		"ITF-E_signal_envelope" -> Jumper
-		Jumper -> Bomanz
-		Bomanz -> RPi
+		"ITF-3_ENV" -> Jumper
+		Jumper -> "ADC Cape  (elmo)"
+		"ADC Cape  (elmo)" -> RPi
 	RPi [style=rounded]
-	"ITF-I_pulse_on" [style=rounded]
-		RPi -> "ITF-I_pulse_on"
+	"ITF-16_POn3" [style=rounded]
+		RPi -> "ITF-16_POn3"
 	RPi [style=rounded]
-	"ITF-J_pulse_off" [style=rounded]
-		RPi -> "ITF-J_pulse_off"
+	"ITF-11_OffSig" [style=rounded]
+		RPi -> "ITF-11_OffSig"
 	RPi [style=rounded]
 	"ITF-N_cc_motor_pwm" [style=rounded]
 		RPi -> "ITF-N_cc_motor_pwm"

@@ -25,23 +25,23 @@ The Pi Heart of the echOmods
 
 ### Inputs
 
-* `ITF-A_gnd`
-* `ITF-B_5v`
-* `ITF-E_signal_envelope`
+* `ITF-1_GND`
+* `ITF-2_VDD_5V`
+* `ITF-3_ENV`
 * `ITF-I_pulse_on`
+* `ITF-15_GPIO21`
 
 ### Outputs
 
-* `ITF-I_pulse_on` : on 3.3V
-* `ITF-J_pulse_off`: on 3.3V
-* `ITF-C_amplified_raw_signal`: Amplified Raw Signal, post TGC, before the enveloppe detection	
-* `ITF-E_signal_envelope`: enveloppe of the signal, post TGC
-* `ITF-N_cc_motor_pwm`
+* `ITF-16_POn3` : on 3.3V
+* `ITF-11_OffSig`: on 3.3V
+* `ITF-14_PWM`: Amplified Raw Signal, post TGC, before the enveloppe detection	
+* `Wifi`
 
 ## Key Components
 
 * `RPi` : see notes
-* `Bomanz`: the ADC pHAT
+* `elmo`: the ADC pHAT
 
 ## Information
 
@@ -53,10 +53,11 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 
 ![Block schema](/tomtom/source/blocks.png)
 
-* `ITF-C_amplified_raw_signal`->`Bomanz`
-* `ITF-E_signal_envelope`->`Jumper`->`Bomanz`->`RPi`
-* `RPi`->`ITF-I_pulse_on`
-* `RPi`->`ITF-J_pulse_off`
+* `ITF-15_GPIO21`->`RPi`
+* `ITF-4_RawSig`->`Jumper`->`ADC Cape (elmo)`
+* `ITF-3_ENV`->`Jumper`->`ADC Cape  (elmo)`->`RPi`
+* `RPi`->`ITF-16_POn3`
+* `RPi`->`ITF-11_OffSig`
 * `RPi`->`ITF-N_cc_motor_pwm`
 * `RPi`->`/dev/charnode`->`Wifi`
 
