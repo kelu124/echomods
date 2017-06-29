@@ -23,7 +23,7 @@
 * [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): supplier source file  _File not used._
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file  _File not used._
 * [./cletus/suppliers/specs/piezo-specs.md](/cletus/suppliers/specs/piezo-specs.md):   _File not used._
-* [./tomtom/20170506-RPiAndTobo.md](/tomtom/20170506-RPiAndTobo.md):   _File not used._
+* [./tomtom/20170506-RPiAndTobo.md](/tomtom/20170506-RPiAndTobo.md):  File used in: [`/tomtom/Readme.md`](/tomtom/Readme.md)
 * [./tomtom/20170425-ExploringGPIOs.md](/tomtom/20170425-ExploringGPIOs.md):  File used in: [`/tomtom/Readme.md`](/tomtom/Readme.md)
 * [./tomtom/DicomHandler.md](/tomtom/DicomHandler.md):   _File not used._
 * [./tomtom/Readme.md](/tomtom/Readme.md): Analog processing module readme  _File not used._
@@ -100,7 +100,7 @@
 * [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/retroATL3/Readme.md`](/retroATL3/Readme.md)
 * [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes  _File not used._
 * [./toadkiller/Readme.md](/toadkiller/Readme.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme  _File not used._
-* [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md):   _File not used._
+* [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md):  File used in: [`/goblin/Readme.md`](/goblin/Readme.md)
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together File used in: [`/Worklog.md`](/Worklog.md)
 * [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin File used in: [`/Worklog.md`](/Worklog.md), [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md)
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016 File used in: [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md), [`/goblin/2016-07-08.md`](/goblin/2016-07-08.md), [`/goblin/Readme.md`](/goblin/Readme.md)
@@ -114,7 +114,7 @@
 * [./gitbook/Chapter2/results.md](/gitbook/Chapter2/results.md):   _File not used._
 * [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin) File used in: [`/silent/Readme.md`](/silent/Readme.md)
 * [./silent/notes_R2R_DAC.md](/silent/notes_R2R_DAC.md):   _File not used._
-* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator  _File not used._
+* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator File used in: [`/silent/Readme.md`](/silent/Readme.md)
 * [./silent/Readme.md](/silent/Readme.md): Main doc for the ultrasound signal emulator File used in: [`/Worklog.md`](/Worklog.md)
 * [./mogaba/Readme.md](/mogaba/Readme.md): Off-the shelf power supply module - Readme File used in: [`/Worklog.md`](/Worklog.md)
 

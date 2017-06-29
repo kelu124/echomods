@@ -25,7 +25,7 @@
 * [./cletus/suppliers/supplier-valpey.md](/cletus/suppliers/supplier-valpey.md): supplier source file  _File not used._
 * [./cletus/suppliers/supplier-ikos.md](/cletus/suppliers/supplier-ikos.md): supplier source file  _File not used._
 * [./cletus/suppliers/specs/piezo-specs.md](/cletus/suppliers/specs/piezo-specs.md):   _File not used._
-* [./tomtom/20170506-RPiAndTobo.md](/tomtom/20170506-RPiAndTobo.md):   _File not used._
+* [./tomtom/20170506-RPiAndTobo.md](/tomtom/20170506-RPiAndTobo.md):  File used in: [`/tomtom/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/tomtom.html)
 * [./tomtom/20170425-ExploringGPIOs.md](/tomtom/20170425-ExploringGPIOs.md):  File used in: [`/tomtom/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/tomtom.html)
 * [./tomtom/DicomHandler.md](/tomtom/DicomHandler.md):   _File not used._
 * [./tomtom/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/tomtom.html): Analog processing module readme  _File not used._
@@ -102,7 +102,7 @@
 * [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html)
 * [./retroATL3/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html): Main doc source for hacking ATL probes  _File not used._
 * [./toadkiller/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.html): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme  _File not used._
-* [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md):   _File not used._
+* [./toadkiller/data/test_enveloppe/Readme.md](/toadkiller/data/test_enveloppe/Readme.md):  File used in: [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html)
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together File used in: [`/Worklog.md`](/Worklog.md)
 * [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin File used in: [`/Worklog.md`](/Worklog.md), [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md)
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016 File used in: [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md), [`/goblin/2016-07-08.md`](/goblin/2016-07-08.md), [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html)
@@ -116,7 +116,7 @@
 * [./gitbook/Chapter2/results.md](/gitbook/Chapter2/results.md):   _File not used._
 * [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin) File used in: [`/silent/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html)
 * [./silent/notes_R2R_DAC.md](/silent/notes_R2R_DAC.md):   _File not used._
-* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator  _File not used._
+* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator File used in: [`/silent/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html)
 * [./silent/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html): Main doc for the ultrasound signal emulator File used in: [`/Worklog.md`](/Worklog.md)
 * [./mogaba/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/mogaba.html): Off-the shelf power supply module - Readme File used in: [`/Worklog.md`](/Worklog.md)
 
@@ -141,7 +141,7 @@
 
 ## Jupyter files
 
-* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb)File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb) _File not used._* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb) _File not used._* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb)File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb) _File not used._* [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)File used in: [`/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.html), [`/toadkiller/data/test_enveloppe/Readme.md`](/toadkiller/data/test_enveloppe/Readme.md), [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html)
+* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb)File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb) _File not used._* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb)File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md)* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb)File used in: [`/Worklog.md`](/Worklog.md)* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb) _File not used._* [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)File used in: [`/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.html), [`/toadkiller/data/test_enveloppe/Readme.md`](/toadkiller/data/test_enveloppe/Readme.md), [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html)
 ## Python files
 
 * [makedoc.py](/makedoc.py): script to build autodocumentation.File used in: [`/Worklog.md`](/Worklog.md)

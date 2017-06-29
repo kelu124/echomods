@@ -9,17 +9,22 @@ digraph {
 		Jumper -> "ADC Cape (elmo)"
 	"ITF-3_ENV" [style=rounded]
 	Jumper [style=rounded]
-	"ADC Cape  (elmo)" [style=rounded]
+	"ADC Cape (elmo)" [style=rounded]
 	RPi [style=rounded]
 		"ITF-3_ENV" -> Jumper
-		Jumper -> "ADC Cape  (elmo)"
-		"ADC Cape  (elmo)" -> RPi
+		Jumper -> "ADC Cape (elmo)"
+		"ADC Cape (elmo)" -> RPi
 	RPi [style=rounded]
 	"ITF-16_POn3" [style=rounded]
 		RPi -> "ITF-16_POn3"
 	RPi [style=rounded]
+	"ITF-17_POff3" [style=rounded]
+		RPi -> "ITF-17_POff3"
 	"ITF-11_OffSig" [style=rounded]
-		RPi -> "ITF-11_OffSig"
+	Jumper [style=rounded]
+	"ADC Cape (elmo)" [style=rounded]
+		"ITF-11_OffSig" -> Jumper
+		Jumper -> "ADC Cape (elmo)"
 	RPi [style=rounded]
 	"ITF-N_cc_motor_pwm" [style=rounded]
 		RPi -> "ITF-N_cc_motor_pwm"

@@ -28,13 +28,13 @@ The Pi Heart of the echOmods
 * `ITF-1_GND`
 * `ITF-2_VDD_5V`
 * `ITF-3_ENV`
-* `ITF-I_pulse_on`
 * `ITF-15_GPIO21`
 
 ### Outputs
 
 * `ITF-16_POn3` : on 3.3V
-* `ITF-11_OffSig`: on 3.3V
+* `ITF-16_POn3` : on 3.3V
+* `ITF-17_POff3`: on 3.3V
 * `ITF-14_PWM`: Amplified Raw Signal, post TGC, before the enveloppe detection	
 * `Wifi`
 
@@ -55,9 +55,10 @@ The aim of this echOmod is to digitalize the signal, and to control the pulser, 
 
 * `ITF-15_GPIO21`->`RPi`
 * `ITF-4_RawSig`->`Jumper`->`ADC Cape (elmo)`
-* `ITF-3_ENV`->`Jumper`->`ADC Cape  (elmo)`->`RPi`
+* `ITF-3_ENV`->`Jumper`->`ADC Cape (elmo)`->`RPi`
 * `RPi`->`ITF-16_POn3`
-* `RPi`->`ITF-11_OffSig`
+* `RPi`->`ITF-17_POff3`
+* `ITF-11_OffSig`->`Jumper`->`ADC Cape (elmo)`
 * `RPi`->`ITF-N_cc_motor_pwm`
 * `RPi`->`/dev/charnode`->`Wifi`
 
@@ -114,7 +115,7 @@ and the ouput of the pulser is:
 
 ![](/tobo/images/2017/TEK0009.JPG)
 
-
+(see the [worklog here](/tomtom/20170506-RPiAndTobo.md)).
 
 ### Mapping the pins
 

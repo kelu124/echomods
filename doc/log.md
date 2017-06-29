@@ -36,8 +36,6 @@ __[Links]__ :no_entry: `./Readme.md` : Link to non-existing file `./include/sets
 
 __[Links]__ :no_entry: `./Worklog.md` : Error in link definition, non-absolute path in link to `croaker/feather_tests/2Msps_Server.ino`
 
-__[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./elmo/data/arduino/20170609-NewADC.ipynb`
-
 __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/20160822/20160822-Fantom.md`
 
 __[Links]__ :no_entry: `./cletus/2017-06-08_FindingSuppliers.md` : Error in link definition, non-absolute path in link to `retroATL3/2017-05-20_APeakInside.md`
@@ -414,10 +412,10 @@ __[MDL tomtom]__ :white_check_mark: 01. Block diagram OK
 __[MDL tomtom]__ :white_check_mark: 01. Real name found: MDL-rpiEchomods
 
 
-__[MDL tomtom]__ :white_check_mark: 4 output(s)
+__[MDL tomtom]__ :white_check_mark: 4 input(s)
 
 
-__[MDL tomtom]__ :white_check_mark: 5 input(s)
+__[MDL tomtom]__ :white_check_mark: 5 output(s)
 
 
 __[MDL tomtom]__ :white_check_mark: Metadata (version, date, technology, language, cost, sourcing, author)
@@ -541,8 +539,6 @@ __[Unrefed file]__ :no_entry: `/elmo/RPins.md` : No references of this file.
 
 __[Unrefed file]__ :no_entry: `/elmo/Readme.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/elmo/data/20170609-NewADC.ipynb` : No references of this file. 
-
 __[Unrefed file]__ :no_entry: `/elmo/data/20170613-TestWithRawSignal.ipynb` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/gitbook/Chapter2/results.md` : No references of this file. 
@@ -555,91 +551,9 @@ __[Unrefed file]__ :no_entry: `/gitbook/devkit1.md` : No references of this file
 
 __[Unrefed file]__ :no_entry: `/goblin/2016-10-26_Zach.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/include/20170325/20170325-Doppler.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AdHocShoppingList.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddBasicDevKit.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddBasicDevKitResults.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddChaptersIntro.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddDocProcess.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddEchomods.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddEngineering.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddFormatRules.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddInterfaces.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddIntro.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddIntroMurgen.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddLicense.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddMurgenSummary.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddPitch.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddPrinciples.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddQSDoj.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddQSGoblin.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddQSTobo.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddStructure.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddStructureDetails.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/AddWireless.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/Bibliography.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/JOH/blocks/maketemplate.py` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/JOH/comments/feedbackoncomments.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/JOH/joh_article.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/NamesOfModules.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/PiDAQ.set.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/biblio/Readme.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/c_will/Readme.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/emulated.set.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/fda.gov/Readme.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/highspeed.set.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/ppt_20160720-Milestone.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/ppt_CLA.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/ppt_DocProcess.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/ppt_DocumentationProcess.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/ppt_presUS.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/vscan/Readme.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/include/wifi-dev-kit.set.md` : No references of this file. 
-
 __[Unrefed file]__ :no_entry: `/retroATL3/Readme.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/retroATL3/software/BitscopeAcquisitionScript.py` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/silent/2016-08-02.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/silent/notes_R2R_DAC.md` : No references of this file. 
 
@@ -649,8 +563,6 @@ __[Unrefed file]__ :no_entry: `/sleepy/Readme.md` : No references of this file.
 
 __[Unrefed file]__ :no_entry: `/toadkiller/Readme.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/toadkiller/data/test_enveloppe/Readme.md` : No references of this file. 
-
 __[Unrefed file]__ :no_entry: `/toadkiller/data/test_enveloppe/test_dual_entry.py` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/toadkiller/software/test_file.py` : No references of this file. 
@@ -659,11 +571,89 @@ __[Unrefed file]__ :no_entry: `/toadkiller/software/test_file_3periods.py` : No 
 
 __[Unrefed file]__ :no_entry: `/tobo/source/tobo_pulser.ino` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/tomtom/20170506-RPiAndTobo.md` : No references of this file. 
-
 __[Unrefed file]__ :no_entry: `/tomtom/DicomHandler.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/tomtom/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :warning: `/include/20170325/20170325-Doppler.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AdHocShoppingList.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddBasicDevKit.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddBasicDevKitResults.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddChaptersIntro.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddDocProcess.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddEchomods.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddEngineering.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddFormatRules.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddInterfaces.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddIntro.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddIntroMurgen.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddLicense.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddMurgenSummary.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddPitch.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddPrinciples.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddQSDoj.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddQSGoblin.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddQSTobo.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddStructure.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddStructureDetails.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddWireless.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/Bibliography.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/JOH/blocks/maketemplate.py` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/JOH/comments/feedbackoncomments.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/JOH/joh_article.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/NamesOfModules.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/PiDAQ.set.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/biblio/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/c_will/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/emulated.set.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/fda.gov/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/highspeed.set.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/ppt_20160720-Milestone.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/ppt_CLA.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/ppt_DocProcess.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/ppt_DocumentationProcess.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/ppt_presUS.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/vscan/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/wifi-dev-kit.set.md` : No references of this file (in _include_). 
 
 __[WEB Blog]__ 150 posts added
 
