@@ -375,6 +375,25 @@ def GetGeneratedFiles(path):
 	#ManualFiles.sort()
 	return [AutoFiles,ManualFiles,ManualDesc,log,ManualContent]
 
+
+def GetIncludes (InitialText, filez, contentz,origin):
+	log = []
+	pattern = r'@kelu include\((.*?)\)'
+	results = re.findall(pattern, InitialText, flags=0) 
+	GoodResults = ["."+x for x in results]
+	for item in GoodResults:
+		if item in filez:
+			k = filez.index(item)
+			toreplace = "@kelu include("+item[1:]+")"
+			InitialText = InitialText.replace(toreplace,contentz[k])
+			print toreplace
+		else:
+			InitialText = InitialText.replace("@kelu include("+item[1:]+")","ERROR")
+			print "Include error: "+origin+" for "+item
+			log += "[INCLUDE] Error with "+origin+"\n\n"
+	return InitialText,log
+
+
 def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 	InRef = []
 	log = []

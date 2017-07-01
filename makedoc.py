@@ -82,8 +82,8 @@ NbMDManuels = len(MDFiles[1])
 
 
 MdLog = ""
-ListeOfManualFiles = MDFiles[1]
 
+ListeOfManualFiles = MDFiles[1]
 ListeOfManualFilesDesc = MDFiles[2]
 
 for i in range(len(MDFiles[1])):
@@ -606,12 +606,20 @@ OpenWrite(IncludeImage(AddRawHURL(TableModulesShort)),"gitbook/Chapter1/listofmo
 # -------------------------
 
 AddQS  =  getText("include/AddUSSDK.md")+"\n\n"
-
 AddQS  += "# Quick start\n\n" + getText("include/AddQSDoj.md")
 AddQS  += "\n\n" + getText("include/AddQSGoblin.md") + "\n\n"
 AddQS  += "\n\n" + getText("include/AddQSTobo.md") + "\n\n"
-
 OpenWrite(IncludeImage(AddRawHURL(AddQS)),"gitbook/Chapter1/QuickStart.md")
+
+# -------------------------
+# Adding RPi article
+# -------------------------
+
+RPI = GetIncludes(getText("include/RPiHSDK.md"),  MDFiles[1], MDFiles[4],"include/RPiHSDK.md")
+OpenWrite(IncludeImage(AddRawHURL(RPI[0])),"gitbook/RPI_article.md")
+
+log += RPI[1]
+
 
 # -------------------------
 # Adding CHAPTER 2 : Basic kit
@@ -791,7 +799,7 @@ CopyGitBookFile("include/fda.gov/Readme.md","gitbook/Chapter6/fda.md")
 CopyGitBookFile("include/AddBench.md","gitbook/Chapter6/bench.md")
 CopyGitBookFile("include/vscan/Readme.md","gitbook/Chapter6/vscan.md")
 # Friend work
-CopyGitBookFile("include/c_will/Readme.md","gitbook/Chapter6/c_will.md")
+CopyGitBookFile("include/community/WillT/Readme.md","gitbook/Chapter6/c_will.md")
 
 # -------------------------
 # Adding CHAPTER 7 : Contributing

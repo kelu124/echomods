@@ -29,9 +29,9 @@ At the end, the modules also allowed to test some [ATL probes](/retroATL3/) (mor
 
 ## Hackaday
 
-Apart from GitHub where I wanted to store code, source and images, I also wanted to document the day to day work. Hackaday was a good option, and I put [Murgen on Hackaday.io](http://hackaday.com/2016/04/12/a-developers-kit-for-medical-ultrasound/).
+Apart from GitHub where I wanted to store code, source and images, I also wanted to document the day to day work. Hackaday was a good option, and I put [Murgen on Hackaday.io](http://hackaday.com/2016/04/12/a-developers-kit-for-medical-ultrasound/). The funny thing is I didn't know I would get out of it, but it appeared the work won two 1000$-prizes. 
 
-The funny thing is I didn't know I would get out of it, but it appeared the work won two 1000$-prizes. 
+Later on, I've been putting the HSDK project on HAD as well as the [20Msps pHAT]
 
 ## Documenting
 
@@ -42,5 +42,7 @@ When reading around GOSH discussions in Sept '16, I learnt the Journal of Open H
 ## Simplifying
 
 That's the idea behind the [Raspberry-based Ultrasound SDK](https://hackaday.io/project/10899-a-debugger-for-ultrasound-imaging).
+
+
 
 

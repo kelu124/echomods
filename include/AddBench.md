@@ -1,9 +1,12 @@
 # Benchmarking components
 
+The aim of this document is to reference the different articles and papers that had precious information on the components used on their respective boards. 
+
+The different Integrated Circuits (ICs) used in these papers are listed here. In bold are the ones used in the present modules.
 
 ### HV
 
-* R05-100B ([2]) ([0])
+* __R05-100B__ ([2]) ([0])
 * MAX1771
 * TPS61170 ([10]) Boost convertor
 * MAX5025 ([11]) - interesting setup
@@ -16,7 +19,7 @@
 * TC7320  ([5]) + MD1810 ([5])
 * MD1213  + TC6320 ([1])
 * MD1210 + TC2320 ([8])
-* HV7360 ([0])
+* __HV7360__ ([0])
 * LM96550 ([10])
 * TC6320 ([21]) bipolar pulse
 
@@ -34,12 +37,12 @@
 ### TGC
 
 * AD8332 ([8])
-* AD8331 ([0]) ([18]) ([19]) 
+* __AD8331__ ([0]) ([18]) ([19]) 
 * SMA231 ([21]) as LNAs
 
-### Enveloppe detection
+### Analog enveloppe detection
 
-* ADL5511 ([0])
+* __ADL5511__ ([0])
 
 ### Analog Front end
 
@@ -90,13 +93,13 @@
 
 * Model 040GSE, CIRS,  USA ([3])
 * Model 539 Multipurpose US Phantom ([5])
-* ATS539.    ATS    Laboratories ([9])
+* Model ATS539, ATS Laboratories ([9])
 
 Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/master/worklog/bibliographie.md) for the basis of this work =) 
 
 ## Suppliers
 
-* US-SPI ([14])
+* US-SPI ([14]): an interesting tool from LeCoeur electronics.
 * http://dghtechnology.com/product/scanmate-a/
 * http://www.ndt.net/forum/thread.php?admin=&forenID=0&msgID=54166&rootID=54166
 * http://ntsu.net.au/software_controlled_ultrasonic_systems.html

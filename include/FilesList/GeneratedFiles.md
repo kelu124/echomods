@@ -20,6 +20,7 @@
 * ./gitbook/CLA.md
 * ./gitbook/README.md
 * ./gitbook/devkit0.md
+* ./gitbook/RPI_article.md
 * ./gitbook/devkit11.md
 * ./gitbook/Chapter4/Session_6.md
 * ./gitbook/Chapter4/Session_1.md

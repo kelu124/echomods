@@ -206,10 +206,14 @@ Here's a couple of things we're working on, for which you could help as well.
 * add s to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
 * Test YAML data on Markdown files
 * put probe on the setup
-* set the gain on the AFE 
+* set the gain on the AFE using Doj v1.2
 * use the GetSuppliersList function to list equipment suppliers
 * map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
 * get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
+* Add contributor map to RPI doc
+* Add different images from acquisitions to RPI doc
+* Add the _@kelu include("/include/AddUSSDK.md")_ function to makedoc --> use for the RPI doc (contributor, set costs, intro ... and readmore)
+* Complete the AddHistory with links for HAD
 
 
 # A recap of our retired modules 

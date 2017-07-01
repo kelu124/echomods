@@ -61,7 +61,6 @@
 * [./include/AddLicense.md](/include/AddLicense.md):   _File not used._
 * [./include/AddQSDoj.md](/include/AddQSDoj.md):   _File not used._
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project  _File not used._
-* [./include/references.md](/include/references.md):  File used in: [`/Worklog.md`](/Worklog.md)
 * [./include/AddDevices.md](/include/AddDevices.md):  File used in: [`/Worklog.md`](/Worklog.md)
 * [./include/wifi-dev-kit.set.md](/include/wifi-dev-kit.set.md):   _File not used._
 * [./include/ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md):   _File not used._
@@ -87,7 +86,7 @@
 * [./include/highspeed.set.md](/include/highspeed.set.md):   _File not used._
 * [./include/AddBasicDevKitResults.md](/include/AddBasicDevKitResults.md):   _File not used._
 * [./include/AddPressReview.md](/include/AddPressReview.md):  File used in: [`/Worklog.md`](/Worklog.md)
-* [./include/AddUSSDK.md](/include/AddUSSDK.md):  File used in: [`/Worklog.md`](/Worklog.md)
+* [./include/AddUSSDK.md](/include/AddUSSDK.md): Using a Raspberry Pi to image File used in: [`/Worklog.md`](/Worklog.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md)
 * [./include/AddChaptersIntro.md](/include/AddChaptersIntro.md): Introduction to the gitbook chapters  _File not used._
 * [./include/ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md):   _File not used._
 * [./include/20160822/2016-08-22-Fantom.md](/include/20160822/2016-08-22-Fantom.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/include/JOH/joh_article.md`](/include/JOH/joh_article.md)
@@ -179,7 +178,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 93 Auto generated files
+## 94 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -203,6 +202,7 @@
 * ./gitbook/CLA.md
 * ./gitbook/README.md
 * ./gitbook/devkit0.md
+* ./gitbook/RPI_article.md
 * ./gitbook/devkit11.md
 * ./gitbook/Chapter4/Session_6.md
 * ./gitbook/Chapter4/Session_1.md
