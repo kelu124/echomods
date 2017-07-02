@@ -7,6 +7,7 @@
 
 The aim of this project is to build a small ultrasound imaging hardware and software development kit, with the specific goal of:
 
+- building an _analog "debugging tool"_ to explore ultrasound imaging systems. 
 - consolidating [existing hardware research](http://openhardware.metajnl.com/articles/10.5334/joh.2/);
 - simplifing / lowering the cost of the kit;
 - providing a benchmark of ultrasound systems;
@@ -14,34 +15,30 @@ The aim of this project is to build a small ultrasound imaging hardware and soft
 - having a server which provides raw ultrasound data, and for ultrasound imaging, can deliver standard DICOM files;
 - having a kit that can be used for pedagogical and academic purposes - not to mention people who want to understand ultrasound!
 
-Previous project has prooved the feasibility of the hardware, but was not simple enough. Let's keep the momentum, and apply this dev kit to other projects as well - such as dopplers, non-destructive testing, using piezos as sensors.
+Previous project has shown the feasibility of the hardware, but was not simple enough. Let's keep the momentum, and use this dev kit in other projects as well - such as dopplers or non-destructive testing, different projects using piezos as sensors.
 
 
 ### Way of work
 
-The objective is simple - it's to build an _analog "debugging tool"_ to explore ultrasound systems. Several previous setups were tested with Murgen (the previous iteration), and the proof was made that it's possible to have a small ultrasound scanner in one's garage. But it's also exciting to build the tools and explore the different components.. and that's what this project aims at exploring.
-
-Hardware is basically already built: previous lessons from [Murgen](https://hackaday.io/project/9281-murgen) bring the analog front end and pulsers, there's also a [probe emulator](/silent/): what remains is :
-
-* First, to _remove overkills on the modules_, and SIMPLIFY everything, making it more robust and more user friendly.
-* Secondly, to _develop a good driver for the Raspberry Pi_, to control the hardware, and develop a good enough server API.
-
-So, on with this project, and see if cross-pollination works =) 
+The objective is simple - 
 
 ## Architecture
 
 Ultrasound imaging has evolved since the first ultrasound machine appeared. The first devices were using single-sensor (transducers) techniques, coupled with mechanical scanning - hence allowing a single signal processing channel. The architecture of such systems, as shown below, is well-known and formed the basis of ultrasound imaging.
 
-<p align="center"> 
+
 ![](http://openhardware.metajnl.com/articles/10.5334/joh.2/joh-1-2-g1.png/?action=download)
-</p>
+
 
 This kit consists of several modules mainly built from easily available components - after a short benchmark of [existing ICs](https://kelu124.gitbooks.io/echomods/content/Chapter6/bench.html). Two electronic modules were specifically designed to provide the basic development kit. 
 
-* the Transducer Pulser Module (TPM): designed to provide a precise high-voltage pulse, necessary to excite the sensor, while remaining robust enough to be controlled by an Arduino;
-* the Analog Processing Module (APM): designed to correctly process the raw ultrasound electric signal, while easily exposing all intermediary signals, and exposing a digital output to the user.
+* the __Transducer Pulser Module (TPM)__: designed to provide a precise high-voltage pulse, necessary to excite the sensor, while remaining robust enough to be controlled by an Arduino;
+* the __Analog Processing Module (APM)__: designed to correctly process the raw ultrasound electric signal, while easily exposing all intermediary signals, and exposing a digital output to the user
+* the __RPi high-speed ADC__ uses two interleaved AD9200, clocked with the RPi, which reads at 11Msps, leading to an effective 22Msps acquisition speed (bottleneck being the RPi memcpy). The signals can be read as is (eg in case of analog enveloppe detection) or offset by Vref/2 (to acquire the raw signal). Due to the GPIO necessary to run the modules, we are left with 2x9 GPIO left, resulting in a 22Msps, 9 bit ADC. One or two logic signals can also be sampled.
 
 A modular approach was chosen to ensure that each key component inside the ultrasound image processing can easily be replaced and compared with another module. Each electronic module takes the place of a function in the signal processing chain or allows tapping into the different signals circulating between the blocks. 
+
+Previous experiments have been done, to get images using different digital acquisition systems, such as a bitscope, a STM32, or a high-speed ADC for beaglebone. The Raspberry Pi was retained in the end for its ease of use, its price, and community working on it - increasing the potential reach of the project. 
 
 ## Assembly guide 
 

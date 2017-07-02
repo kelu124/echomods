@@ -44,12 +44,12 @@
 * [./croaker/data/examples/Intro.md](/croaker/data/examples/Intro.md): Croaker text header on images File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./croaker/data/examples/Readme.md](/croaker/data/examples/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/AddFormatRules.md](/include/AddFormatRules.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
-* [./include/FuturePR.md](/include/FuturePR.md):   _File not used._
+* [./include/FuturePR.md](/include/FuturePR.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/AddQSGoblin.md](/include/AddQSGoblin.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/AddBasicDevKit.md](/include/AddBasicDevKit.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/PiDAQ.set.md](/include/PiDAQ.set.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/AddIntroMurgen.md](/include/AddIntroMurgen.md): BOM, first steps and results of the murgen board File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
-* [./include/AddBench.md](/include/AddBench.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
+* [./include/AddBench.md](/include/AddBench.md):  File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/AddInterfaces.md](/include/AddInterfaces.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/NamesOfModules.md](/include/NamesOfModules.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
@@ -92,12 +92,12 @@
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/community/Zach/Readme.md](/include/community/Zach/Readme.md): Zach's worklog, simplified, on murgen File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/community/Marc/Readme.md](/include/community/Marc/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
-* [./include/community/Felix/Readme.md](/include/community/Felix/Readme.md):   _File not used._
-* [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):   _File not used._
-* [./include/community/Afreen/Readme.md](/include/community/Afreen/Readme.md):   _File not used._
+* [./include/community/Felix/Readme.md](/include/community/Felix/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
+* [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
+* [./include/community/Afreen/Readme.md](/include/community/Afreen/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/community/WillT/Readme.md](/include/community/WillT/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
-* [./include/community/Jay/Readme.md](/include/community/Jay/Readme.md):   _File not used._
-* [./include/community/Kelu/Readme.md](/include/community/Kelu/Readme.md):   _File not used._
+* [./include/community/Jay/Readme.md](/include/community/Jay/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
+* [./include/community/Kelu/Readme.md](/include/community/Kelu/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/JOH/joh_article.md](/include/JOH/joh_article.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)
 * [./include/vscan/Readme.md](/include/vscan/Readme.md):  File used in: [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md), [`/include/FilesList/ManualFiles.md`](/include/FilesList/ManualFiles.md)

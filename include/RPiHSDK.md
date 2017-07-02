@@ -9,14 +9,11 @@
 ## Experiments
 
 
-### Building the modules and choosing the DAQ
+### Benchmark of acquisition
 
-To save on costs and limit complexity, and to ensure the robustness of the designs, the two designed modules leverage existing ICs, based on a review of the [components used in the litterature](/include/AddBench.md):
+The first acquisition, used as a reference, is through the ADCs of a STM32F205 (feather WICED) - reaching a whooping 1.7Msps (didn't master the interleaved mode..). Even at these speeds, one can see some features of an ultrasound image, on a wire-phantom. However, resolution isn't that great, let's see if that can be improved?
 
-* The Transducer Pulser Module (TPM) requires both a high-voltage source, and a pulser control. These functions used the Recom Power R05-100B DC/DC Regulated Converter with single-output, to generate a stable high-voltage, which level is determined by a potentiometer, and a Supertex HV7360, High Speed Two or Three Level Ultrasound Pulser, to precisely control the pulse level and duration.
-* The mono-channel Analog Processing Module (APM) uses a single channel ultrasound Time Gain Compensation (TGC) integrated circuit, the Analog Devices AD8331, Ultralow Noise VGA with Preamplifier, which gain can be controlled by an external 0 to 1V track. The amplified signal is fed into a RF envelope detector, the Analog Devices ADL5511, RF envelope and TruPwr rms detector. The envelope is the unbiased with an Analog Devices AD8691 Series Precision Amplifier, and optimized for the last item, the Analog Devices AD7274, a 12-bit, 3 Msps Analog to Digital Converters.
-
-Previous experiments have been done, to get images using different digital acquisition systems, such as a bitscope, a STM32, or a high-speed ADC for beaglebone. The Raspberry Pi was retained in the end for its ease of use, its price, and community working on it - increasing the potential reach of the project. 
+![](/croaker/data/20161217/20161217-222737-commented.png)
 
 ### Example of the experiment setup
 
@@ -26,7 +23,7 @@ It can be noted that the ADC used in the experiments below is running at half it
 
 This is a picture from a [first test](/elmo/data/arduino/20170611-arduino.md) with all custom made modules, including raspberry ADC.
 
-## Results / images
+### Results / images
 
 I'm getting similar images using the analog enveloppe detection, compared to the digital enveloppe detection, as described below, again on the wire phantom:
 
@@ -36,9 +33,11 @@ And with the analog enveloppe detection:
 
 ![](/elmo/data/arduino/EnveloppeLineEnveloppe.jpg) 
 
-This is to be compared to the signal I got from the STM32 integrated ADC
+### Next steps: plugging the Pi to an existing probe
 
-![](/croaker/data/20161217/20161217-222737-commented.png)
+A beaglebone black had been used with its high-speed DAQ to be connected to an existing mechanical probe. The next step will be to interface the Pi to this probe, to see if one can get the same quality of image, and produce a ultrasound loop.
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1.gif) 
 
 ## What's next?
 
