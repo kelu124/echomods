@@ -196,8 +196,7 @@ The AD7273/AD7274 are high speed, low power, 10-/12-bit, single supply ADCs, res
 
 ### TODO
 
-* _BONUS!_ Plug it to a [RPi0 or BBB or RPi](/croaker/) or else.
-* Connect the ADC to a RPi0
+
 
 ### DONE
 
@@ -211,7 +210,9 @@ The AD7273/AD7274 are high speed, low power, 10-/12-bit, single supply ADCs, res
 * Send microcircuits to Edgeflex
 * Receive the module
 * Publish the sources in KiCAD (@Sofian maybe?)
-* CANCELLED - Test it with the [EMW3165](/retired/hannin/).
+* CANCELLED - Test it with the [EMW3165](/retired/hannin/)
+* Plug it to a [RPi0](/elmo/) or [BBB](/toadkiller/) or [STM32](/croaker/)
+* Connect the ADC to a RPi0
 
 ### People
 
