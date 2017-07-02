@@ -15,5 +15,3 @@ title: 2017-07-01 More interest
 -   @todo Complete the AddHistory with links for HAD
 -   @todo add benchmark to gitbook resources
 
-=======
-
