@@ -17,21 +17,21 @@ The first acquisition, used as a reference, is through the ADCs of a STM32F205 (
 
 ![](/croaker/data/20161217/20161217-222737-commented.png)
 
-### Example of the experiment setup
+### The Raspberry Pi experiment setup
 
-It can be noted that the ADC used in the experiments below is running at half its acquisition speed, due to a blunder - soldering two pins of the second ADC together. However, the 9-bit, 11Msps ADC works relatively well.
+It can be noted that the ADC used in the experiments below is running at half its acquisition speed, due to a blunder - soldering two pins of the second ADC together. However, the 9-bit, 11Msps ADC works relatively well to analyse the raw signal as well as the enveloppe.
 
 ![](/elmo/data/arduino/setup.png)
 
 This is a picture from a [first test](/elmo/data/arduino/20170611-arduino.md) with all custom made modules, including raspberry ADC.
 
-### Results / images
+### Some results: signals and images
 
-I'm getting similar images using the analog enveloppe detection, compared to the digital enveloppe detection, as described below, again on the wire phantom:
+I'm getting similar images using the analog enveloppe detection (acquired by the DAQ, through a track exposed on the Analog Processing Module), compared to the digital enveloppe detection, as described below, again on the wire phantom:
 
 ![](/elmo/data/arduinoffset/LineImageEnveloppe.jpg) 
 
-And with the analog enveloppe detection:
+The same procedure was applied to acquire the enveloppe created through the analog enveloppe detection, exposed on the Analog Processing Module:
 
 ![](/elmo/data/arduino/EnveloppeLineEnveloppe.jpg) 
 
@@ -78,8 +78,7 @@ A summary of the contributor is detailed below:
 
 Want to learn more? You can join the [slack channel](https://join.slack.com/usdevkit/shared_invite/MTkxODU5MjU0NjI1LTE0OTY1ODgxMDEtMmYyZTliZDBlZA) if you want to discuss, but there are plenty of other sources:
 
-* Obviously, you can __read the [online manual/book](https://www.gitbook.com/book/kelu124/echomods/details)__ for a easily readable and searchable archive of the whole work;
-* You can also __fork the [project repo](https://github.com/kelu124/echomods/)__, for the source files, raw data and raw experiment logs;
-* or explore the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format;
-* __Want a scientific article?__ Have a look at the [article summarizing the experiment on the Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) - [DOI:10.5334/joh.2]( http://doi.org/10.5334/joh.2);
-* __Want to buy the modules and make your own setup?__ Visit the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [pulser](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or [the motherboard](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).
+* Obviously, you can __read the [online manual/book](https://www.gitbook.com/book/kelu124/echomods/details)__ for a easily readable and searchable archive of the whole work
+* You can also __fork the [project repo](https://github.com/kelu124/echomods/)__, for the source files, raw data and raw experiment logs or explore the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format
+* __Want a scientific article?__ Have a look at the [article summarizing the experiment on the Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) - [DOI:10.5334/joh.2]( http://doi.org/10.5334/joh.2)
+* __Want to buy the modules and make your own setup?__ Visit the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [pulser](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or [the motherboard](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/). Ping me on [Slack](https://join.slack.com/usdevkit/shared_invite/MTkxODU5MjU0NjI1LTE0OTY1ODgxMDEtMmYyZTliZDBlZA) if there's no stock remaining.
