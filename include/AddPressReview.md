@@ -6,7 +6,6 @@
 * 2016-04-12: [A Developer's Kit for Medical Ultrasound](http://hackaday.com/2016/04/12/a-developers-kit-for-medical-ultrasound/)
 * 2016-04-17: [Самодельный сканер УЗИ получил первые изображения](https://geektimes.ru/post/274478/)
 * 2016-04-19: [Open Source DIY Ultrasound](http://timbuktuchronicles.blogspot.fr/2016/04/open-source-diy-ultrasound.html)
-* 2016-04-19: [A low-cost, arduino-like dev-kit for single-element ultrasound imaging](https://arxiv.org/abs/1611.10174)
 * 2016-09-12: [Murgen: Open Source ultrasound imaging](https://beagleboardfoundation.wordpress.com/2016/09/03/murgen-open-source-ultrasound-imaging/)
 * 2016-09-12: [Murgen: Open Source ultrasound imaging with BeagleBone](https://blog.adafruit.com/2016/09/12/murgen-open-source-ultrasound-imaging-with-beaglebone/)
 * 2016-11-05: [Why is the Philips Lumify (ultrasound for smartphone) not available for consumers?](https://www.quora.com/Why-is-the-Philips-Lumify-ultrasound-for-smartphone-not-available-for-consumers)
@@ -24,4 +23,4 @@
 * 2017-04-30: [Bomanz on Hackaday](http://hackaday.com/2017/04/30/hackaday-prize-entry-high-speed-sampling-for-the-raspberry-pi/)
 * 2017-06-18: [Some publicity from OSHPark](https://twitter.com/oshpark/status/875691181228908550)
 * 2017-06-20: [ADC pHAT won some prize =)](http://hackaday.com/2017/06/19/twenty-iot-builds-that-just-won-1000-in-the-hackaday-prize/)
-
+* 2017-07-02: [Best Product Entry: A HSDK for Ultrasound Imaging](http://hackaday.com/2017/07/02/best-product-entry-a-hsdk-for-ultrasound-imaging/)

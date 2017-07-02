@@ -24,23 +24,18 @@ Here's a couple of things we're working on, for which you could help as well.
 * Sourcing transducer
 * dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
 * contact Sonopen / microsonix
-* add Felix, Will + Jp, Charles, Md+Afreen, Pouya, Visa
+* add Visa (possibly Pouya)
+* map interested (green) and users (blue)
 * Add a documentation server
 * Display IP on the OLED.
 * Need to have a look at this RPI GPIO DMA - https://github.com/hzeller/rpi-gpio-dma-demo
 * Include some cletus remarks (sourcing) on gitbook
 * convert all previous images to dicom
 * answer some questions online for RPI + ultrasound
-* Test YAML data on Markdown files
 * put probe on the setup
 * set the gain on the AFE using Doj v1.2
 * use the GetSuppliersList function to list equipment suppliers
-* map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
 * get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
-* Add contributor map to RPI doc
-* Add different images from acquisitions to RPI doc
-* Complete the AddHistory with links for HAD
-* add benchmark to gitbook resources
 
 
 

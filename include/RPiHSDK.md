@@ -37,7 +37,7 @@ The same procedure was applied to acquire the enveloppe created through the anal
 
 ### Next steps: plugging the Pi to an existing probe
 
-A beaglebone black had been used with its high-speed DAQ to be connected to an existing mechanical probe. The next step will be to interface the Pi to this probe, to see if one can get the same quality of image, and produce a ultrasound loop.
+A beaglebone black had been used with its [high-speed DAQ](/toadkiller/) to be connected to an existing mechanical probe. The next step will be to interface the Pi to this probe, to see if one can get the same quality of image, and produce a ultrasound loop.
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1.gif) 
 
@@ -51,26 +51,26 @@ A beaglebone black had been used with its high-speed DAQ to be connected to an e
 
 ## What's next?
 
-On a hardware side:
+On a __hardware side__:
 
 * The pulser-module design uses only two inputs and one high voltage source. However, the chip enables more complex uses as a pulser, which can be further explored.
 * A multiplexer module can be used, to interface this single channel kit with an array probe. Doing this would permit to do synthetic aperture imaging, and to characterize as well each element in the array.
 * A whole field left unexplored so far is that of the transducer. As the key sensor in the kit, it would be interesting to explore relevant technologies to develop an open and accessible transducer.
-* Quite interestingly, it would be interesting to merge all modules once again on one RaspberryPi3-compatible hat
+* Quite interestingly, I would love to merge all modules once again on one RaspberryPi3-compatible hat. I want still to cut some costs on the pulser side and increase its robustness.
 
-On a software side:
+On a __software side__:
 
 * The Raspberry Pi can be used a bit more. From a software point of view, the modules could be wirelessly controlled, leveraging the existing wireless communication channel, so that researchers can use a single unit for a laboratory, controlled from personal computers.
 * The images will need to be stored in a DICOM-compatible format. 
 
-On the OSH contribution part to the community:
+On the __OSH side project__ - the contribution of a tool to the community:
 
 * A campaign should start soon to make the ADC accessible. It seems there's a demand for high speed DAQ there. Just need to confirm the PCBA.
 
 
 ### Who's working on this?
 
-A summary of the contributor is detailed below:
+A summary of the contributors using the modules (or having ordered them) is detailed below. Some continents are still to be represented!
 
 ![](/include/community/map.jpg)
 

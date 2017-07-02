@@ -1076,7 +1076,9 @@ Netty isn't nice... but just got my article accepted by JOH !
 * PCBs for [Doj V2](/doj/source/v2.0-kicad) - [see what it looks like](/doj/images/doj-v2.png) are ordered
 * @todo contact Sonopen / microsonix
 * Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
-* @todo add Felix, Will + Jp, Charles, Md+Afreen, Pouya, Visa
+* @done add Felix, Will + Jp, Charles, Md+Afreen
+* @todo add Visa (possibly Pouya)
+* @todo map interested (green) and users (blue)
 * @done add OSH license
 * @done start an order for pulsers
 * @done start a [quickstart](/include/AddUSSDK.md) 
@@ -1128,7 +1130,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo convert all previous images to dicom
 * @todo answer some questions online for RPI + ultrasound
 * @done add the at todos to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
-* @todo Test YAML data on Markdown files
+* @done Test YAML data on Markdown files (see contributors)
 
 #### 2017-06-11 Testing the ADC
 
@@ -1163,21 +1165,21 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo put probe on the setup
 * @todo set the gain on the AFE using Doj v1.2
 * @todo use the GetSuppliersList function to list equipment suppliers
-* @todo map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
+* @done map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
 * @todo get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 
 #### 2017-07-01 More interest
 
-* @todo Add contributor map to RPI doc
-* @todo Add different images from acquisitions to RPI doc
+* @done Add contributor map to RPI doc
+* @done Add different images from acquisitions to RPI doc
 * @done Add the _@kelu include("/include/AddUSSDK.md")_ function to makedoc --> use for the RPI doc (contributor, set costs, intro ... and readmore)
-* @todo Complete the AddHistory with links for HAD
-* @todo add benchmark to gitbook resources
+* @done Complete the AddHistory with links for HAD
+* @done add benchmark to gitbook resources
 
 #### 2017-07-02 Testing the probe
 
 * Testing the counter for probe turns - see in the [probe readme](/retroATL3/) or see _Using this [arduino code](/retroATL3/data/32u4-ATL3_interface.ino) and  [results are here](/retroATL3/data/20170702-TestATLDuinoTerface.ipynb)_.
-
+* Added the [Pi article](https://kelu124.gitbooks.io/echomods/content/RPI.html) - support from Marc / Thomas ?
 =======
 
 

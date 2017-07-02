@@ -132,6 +132,8 @@ __[Links]__ :no_entry: `./include/AddWireless.md` : Error in link definition, no
 
 __[Links]__ :no_entry: `./include/AddWireless.md` : Link to non-existing folder `./toadkiller/`
 
+__[Links]__ :no_entry: `./include/RPiHSDK.md` : Link to non-existing folder `./toadkiller/`
+
 __[Links]__ :no_entry: `./include/community/WillT/Readme.md` : Link to non-existing file `./include/c_will/board.jpg`
 
 __[Links]__ :no_entry: `./include/community/WillT/Readme.md` : Link to non-existing file `./include/c_will/cylindrical.BMP`
