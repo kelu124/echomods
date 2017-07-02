@@ -693,7 +693,7 @@ Would you like to support an existing project with your skills and expertise? Or
 * [Comm] : got cheers from [Adafruit, check this link =)](https://blog.adafruit.com/2016/09/12/murgen-open-source-ultrasound-imaging-with-beaglebone/)
 * Made some progress with a i2c 128x64 oled to debug the Feather ADC, using this [elegant doc](http://www.projetsdiy.fr/ssd1306-mini-ecran-oled-i2c-128x64-arduino/#.V9Zt5tGxU8o).
 * Getting up to 1Msps with the [Feather](/croaker/feather_tests/2016-09-10-Feather_ADC.md).
-* @TODO: makedoc should include a link checker.. everything starting with `](/` should be tested and checked if existing. That includes images.
+* @done: makedoc should include a link checker.. everything starting with `](/` should be tested and checked if existing. That includes images.
 
 #### 2016-09-13 Stand alone echoes visualisation
 
@@ -1077,9 +1077,9 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo contact Sonopen / microsonix
 * Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
 * @todo add Felix, Will + Jp, Charles, Md+Afreen, Pouya, Visa
-* @todo add OSH license
-* @todo start an order for pulsers
-* @todo start a [quickstart](/include/AddUSSDK.md) 
+* @done add OSH license
+* @done start an order for pulsers
+* @done start a [quickstart](/include/AddUSSDK.md) 
 * 2E: 54+148.96 = 202.96
 * [Different systems](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3158704/#!po=51.8182)
 * LT todos:
@@ -1127,7 +1127,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo Include some cletus remarks (sourcing) on gitbook
 * @todo convert all previous images to dicom
 * @todo answer some questions online for RPI + ultrasound
-* @todo add @todos to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
+* @done add the at todos to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
 * @todo Test YAML data on Markdown files
 
 #### 2017-06-11 Testing the ADC
@@ -1166,12 +1166,15 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
 * @todo get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 
-#### 2017-06-26 More interest
+#### 2017-07-01 More interest
 
 * @todo Add contributor map to RPI doc
 * @todo Add different images from acquisitions to RPI doc
-* @todo Add the _@kelu include("/include/AddUSSDK.md")_ function to makedoc --> use for the RPI doc (contributor, set costs, intro ... and readmore)
+* @done Add the _@kelu include("/include/AddUSSDK.md")_ function to makedoc --> use for the RPI doc (contributor, set costs, intro ... and readmore)
 * @todo Complete the AddHistory with links for HAD
+* @todo add benchmark to gitbook resources
+
+
 =======
 
 

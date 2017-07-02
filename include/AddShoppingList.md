@@ -25,16 +25,12 @@ Here's a couple of things we're working on, for which you could help as well.
 * dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
 * contact Sonopen / microsonix
 * add Felix, Will + Jp, Charles, Md+Afreen, Pouya, Visa
-* add OSH license
-* start an order for pulsers
-* start a [quickstart](/include/AddUSSDK.md) 
 * Add a documentation server
 * Display IP on the OLED.
 * Need to have a look at this RPI GPIO DMA - https://github.com/hzeller/rpi-gpio-dma-demo
 * Include some cletus remarks (sourcing) on gitbook
 * convert all previous images to dicom
 * answer some questions online for RPI + ultrasound
-* add s to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
 * Test YAML data on Markdown files
 * put probe on the setup
 * set the gain on the AFE using Doj v1.2
@@ -43,8 +39,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 * Add contributor map to RPI doc
 * Add different images from acquisitions to RPI doc
-* Add the _@kelu include("/include/AddUSSDK.md")_ function to makedoc --> use for the RPI doc (contributor, set costs, intro ... and readmore)
 * Complete the AddHistory with links for HAD
+* add benchmark to gitbook resources
 
 
 

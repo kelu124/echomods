@@ -29,15 +29,13 @@ At the end, the modules also allowed to test some [ATL probes](/retroATL3/) (mor
 
 ## Hackaday
 
-Apart from GitHub where I wanted to store code, source and images, I also wanted to document the day to day work. Hackaday was a good option, and I put [Murgen on Hackaday.io](http://hackaday.com/2016/04/12/a-developers-kit-for-medical-ultrasound/). The funny thing is I didn't know I would get out of it, but it appeared the work won two 1000$-prizes. 
-
-Later on, I've been putting the HSDK project on HAD as well as the [20Msps pHAT]
+Apart from GitHub where I wanted to store code, source and images, I also wanted to document the day to day work. Hackaday was a good option, and I put [Murgen on Hackaday.io](http://hackaday.com/2016/04/12/a-developers-kit-for-medical-ultrasound/). The funny thing is I didn't know I would get out of it, but it appeared the work won two 1000$-prizes. Later on, I've been putting the HSDK project on HAD as well as the [20Msps pHAT](https://hackaday.io/project/20455-20msps-adc-raspberrypi-hat) and the following of the [dev kit (the hardware-software dev kit)](https://hackaday.io/project/10899-a-hsdk-for-ultrasound-imaging).
 
 ## Documenting
 
-Documenting started on github obviously, I also started a [gitbook](https://kelu124.gitbooks.io/echomods/content/) later on - and as I' quite the lazy one, nothing of it is written by hand. Just 
+Documenting started on github obviously, I also started a [gitbook](https://kelu124.gitbooks.io/echomods/content/) later on - and as I' quite the lazy one, nothing of it is written by hand. Most of it is compiled through a python documentation assistant. 
 
-When reading around GOSH discussions in Sept '16, I learnt the Journal of Open Hardware would start something.. so an article started to make its way out. A first draft got out on ArXiv on Dec '16, and the [final version of the article got published](http://openhardware.metajnl.com/articles/10.5334/joh.2/) in March '17 - a year after the first tests of Murgen =)
+On the scientific publication side, when reading around GOSH discussions in Sept '16, I learnt the Journal of Open Hardware would start something.. so an article started to make its way out. A first draft got out on ArXiv on Dec '16, and the [final version of the article got published](http://openhardware.metajnl.com/articles/10.5334/joh.2/) in March '17 - a year after the first tests of Murgen =)
 
 ## Simplifying
 

@@ -98,30 +98,6 @@ __[Links]__ :no_entry: `./include/20160814/2016-08-14-HackingAUltrasoundProbe.md
 
 __[Links]__ :no_entry: `./include/20160822/2016-08-22-Fantom.md` : Link to non-existing folder `./mogaba/`
 
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `articles.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `basicdevkit.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `components.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `goblin.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `interfaces.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `mogaba.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `mogaba.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `progress.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `results.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `retroATL3.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `toadkiller.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `tobo.md`
-
 __[Links]__ :no_entry: `./include/AddEchomods.md` : Link to non-existing folder `./toadkiller/`
 
 __[Links]__ :no_entry: `./include/AddHistory.md` : Link to non-existing folder `./toadkiller/`
