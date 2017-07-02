@@ -12,7 +12,9 @@ title: 2017-05-13 Some new stuff
 -   @todo contact Sonopen / microsonix
 -   Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear
     Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
--   @todo add Felix, Will + Jp, Charles, Md+Afreen, Pouya, Visa
+-   @done add Felix, Will + Jp, Charles, Md+Afreen
+-   @todo add Visa (possibly Pouya)
+-   @todo map interested (green) and users (blue)
 -   @done add OSH license
 -   @done start an order for pulsers
 -   @done start a [quickstart](/include/AddUSSDK.md)
