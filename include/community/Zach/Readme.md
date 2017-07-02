@@ -1,3 +1,10 @@
+---
+who: Zach
+place: Nashville, TN 37235, États-Unis
+pos: 36.1447034,-86.8026551
+entity: Vanderbilt University
+---
+
 # 2016-10-26_Zach Implementing image processing techniques [](@description Zach's worklog, simplified, on murgen)
 
 Data is received at each angle. It then undergoes processing to reconstruct it into an image. Each stage of image processing will be demonstrated.

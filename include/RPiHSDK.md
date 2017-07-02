@@ -1,27 +1,30 @@
-# Raspberry Pi based ultrasound imaging
+# Building a Raspberry Pi based ultrasound imaging development platform
+
+![](/elmo/data/arduinoffset/LineImageEnveloppe.jpg)
 
 @kelu include(/include/AddUSSDK.md)
 
 @kelu include(/include/sets/PiDAQ.cost.md)
 
-
 ## Experiments
 
-### Example of a setup with a servo
+
+### Building the modules and choosing the DAQ
+
+To save on costs and limit complexity, and to ensure the robustness of the designs, the two designed modules leverage existing ICs, based on a review of the [components used in the litterature](/include/AddBench.md):
+
+* The Transducer Pulser Module (TPM) requires both a high-voltage source, and a pulser control. These functions used the Recom Power R05-100B DC/DC Regulated Converter with single-output, to generate a stable high-voltage, which level is determined by a potentiometer, and a Supertex HV7360, High Speed Two or Three Level Ultrasound Pulser, to precisely control the pulse level and duration.
+* The mono-channel Analog Processing Module (APM) uses a single channel ultrasound Time Gain Compensation (TGC) integrated circuit, the Analog Devices AD8331, Ultralow Noise VGA with Preamplifier, which gain can be controlled by an external 0 to 1V track. The amplified signal is fed into a RF envelope detector, the Analog Devices ADL5511, RF envelope and TruPwr rms detector. The envelope is the unbiased with an Analog Devices AD8691 Series Precision Amplifier, and optimized for the last item, the Analog Devices AD7274, a 12-bit, 3 Msps Analog to Digital Converters.
+
+Previous experiments have been done, to get images using different digital acquisition systems, such as a bitscope, a STM32, or a high-speed ADC for beaglebone. The Raspberry Pi was retained in the end for its ease of use, its price, and community working on it - increasing the potential reach of the project. 
+
+### Example of the experiment setup
+
+It can be noted that the ADC used in the experiments below is running at half its acquisition speed, due to a blunder - soldering two pins of the second ADC together. However, the 9-bit, 11Msps ADC works relatively well.
 
 ![](/elmo/data/arduino/setup.png)
 
 This is a picture from a [first test](/elmo/data/arduino/20170611-arduino.md) with all custom made modules, including raspberry ADC.
-
-### Setup
-
-![](Images)
-
-## Different DAQs
-
-STM32 - PRUDAQ - now myDAQ
-
-![](Comparatif Bitscope / PRUDAQ / STM32 / ADC)
 
 ## Results / images
 
@@ -29,6 +32,7 @@ I'm getting similar images using the analog enveloppe detection, compared to the
 
 ![](/elmo/data/arduinoffset/LineImageEnveloppe.jpg) 
 
+And with the analog enveloppe detection:
 
 ![](/elmo/data/arduino/EnveloppeLineEnveloppe.jpg) 
 
@@ -36,7 +40,7 @@ This is to be compared to the signal I got from the STM32 integrated ADC
 
 ![](/croaker/data/20161217/20161217-222737-commented.png)
 
-## So what?
+## What's next?
 
 ### Big lessons
 
@@ -59,20 +63,8 @@ On a software side:
 * The images will need to be stored in a DICOM-compatible format. 
 
 
-### Articles refering to a Raspberry Pi challenge
+### Who's working on this?
 
-* [ ] http://www.ndt.net/forum/thread.php?&rootID=56263
-* [ ] https://www.raspberrypi.org/forums/viewtopic.php?f=37&t=96679
-* [ ] https://www.reddit.com/r/raspberry_pi/comments/5mwgm9/anyone_use_a_raspberry_pi_to_make_a_diy_ultrasound/
-* [ ] https://raspberrypi.stackexchange.com/questions/37013/using-pi-to-read-1-mhz-analog-ultrasound-signals
-* [ ] https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=50230
-* [ ] https://www.raspberrypi.org/forums/viewtopic.php?f=31&t=39475
-* [ ] https://raspberrypi.stackexchange.com/questions/4129/is-pi-powerful-enough-for-an-oscilloscope-project
+A summary of the contributor is detailed below:
 
-
-* [ ] https://raspberrypi.stackexchange.com/questions/53139/parallel-data-adc-with-gpio
-* [ ] https://www.raspberrypi.org/forums/viewtopic.php?f=37&t=96679
-* [ ] http://projects-raspberry.com/projects/medical-health-based-projects/
-* [ ] http://innovations.bmj.com/content/early/2016/03/14/bmjinnov-2015-000080
-
-* https://circuitdigest.com/microcontroller-projects/raspberry-pi-adc-tutorial
+![](/include/community/map.jpg)

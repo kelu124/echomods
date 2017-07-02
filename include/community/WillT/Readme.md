@@ -1,3 +1,10 @@
+---
+who: Will
+place: Au
+pos: -32.9765844,151.5492712
+entity: Au
+---
+
 # Will's system
 
 ## Exchanges

@@ -100,6 +100,15 @@ The pins layout is numbered below. The following pins have been identified:
 
 ![](/retroATL3/images/pins.png)
 
+#### Testing the counter for probe turns
+
+Using this [arduino code](/retroATL3/data/32u4-ATL3_interface.ino) and  [results are here](/retroATL3/data/20170702-TestATLDuinoTerface.ipynb). Some stuff still to do:
+
+* In the code, adding a marker for the beginning of a number
+* Are 6 bit sufficient?
+* Better control of the pulse counter.
+
+
 #### Replacing the oil
 
 
