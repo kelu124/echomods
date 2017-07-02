@@ -17,7 +17,6 @@
 * ./include/sets/PiDAQ.cost.md
 * ./include/sets/KitCosts.md
 * ./include/sets/emulated.cost.md
-* ./gitbook/CLA.md
 * ./gitbook/README.md
 * ./gitbook/devkit0.md
 * ./gitbook/RPI_article.md

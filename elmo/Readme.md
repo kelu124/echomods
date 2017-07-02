@@ -90,6 +90,14 @@ At least for the moment, now I need to order the PCBs and some components.
 
 -> BOM is around 30$ components, 5$ OSHPark PCB.. that's quite neat.
 
+#### Raw signal acquisition and enveloppe with this ADC pHAT
+
+![](elmo/data/arduino/LineImageEnveloppe.jpg)
+
+
+![](elmo/data/arduinoffset/LineImageEnveloppe.jpg)
+
+
 #### First acquisitions:
 
 See the [jupyter notebook](/elmo/data/20170609-NewADC-v3.ipynb):
@@ -112,9 +120,13 @@ __Bottom in 3D__
 ### TODO
 
 * Lots
+* Produce a batch of [rev2 elmo](/elmo/sources/ADCpHat_r2.zip)
 ### DONE
 
 * Getting a board an soldering some ADCs
+* Understand GPIO [mem mapping](/elmo/data/20170609-NewADC.ipynb)
+* Get raw data with [offset vref/2](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)
+* Tests with a single ADC at 11Msps
 
 ### People
 

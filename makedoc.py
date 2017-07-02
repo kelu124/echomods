@@ -88,7 +88,7 @@ ListeOfManualFilesDesc = MDFiles[2]
 
 for i in range(len(MDFiles[1])):
 	MdLog += "* ["+ListeOfManualFiles[i]+"]("+ListeOfManualFiles[i][1:]+"): "+ListeOfManualFilesDesc[i]+" "
-	CheckRef = CreateRefFiles(NbMDManuels,ListeOfManualFiles[i][1:],MDFiles[4],MDFiles[1])
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfManualFiles[i][1:],MDFiles[4],MDFiles[5])
 	MdLog += CheckRef[0]
 	log = log+CheckRef[1]
 	MdLog +="\n"
@@ -123,7 +123,7 @@ log = log+PythonFiles[0]
 
 for i in range(len(PythonFiles[1])):
 	PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i] 
-	CheckRef = CreateRefFiles(NbMDManuels,ListeOfPython[i][1:],MDFiles[4],MDFiles[1])
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfPython[i][1:],MDFiles[4],MDFiles[5])
 	PythonLog += CheckRef[0]
 	log = log+CheckRef[1]
 	PythonLog +="\n"
@@ -134,7 +134,7 @@ ListeOfJupy = GetJupyFiles("./")
 JupyLog = ""
 for i in range(len(ListeOfJupy)):
 	JupyLog += "* ["+ListeOfJupy[i].split("/")[-1]+"]("+ListeOfJupy[i][1:]+")"
-	CheckRef = CreateRefFiles(NbMDManuels,ListeOfJupy[i][1:],MDFiles[4],MDFiles[1])
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfJupy[i][1:],MDFiles[4],MDFiles[5])
 	JupyLog += CheckRef[0]
 	log = log+CheckRef[1]
 	PythonLog +="\n"
@@ -146,7 +146,7 @@ InoFi = CheckInoFile(ListeOfArduino)
 log = log+InoFi[0]
 for i in range(len(InoFi[1])):
 	InoLog += "* ["+ListeOfArduino[i].split("/")[-1]+"]("+ListeOfArduino[i][1:]+"): "+InoFi[1][i]
-	CheckRef = CreateRefFiles(NbMDManuels,ListeOfArduino[i][1:],MDFiles[4],MDFiles[1])
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfArduino[i][1:],MDFiles[4],MDFiles[5])
 	InoLog += CheckRef[0]
 	log = log+CheckRef[1]
 	InoLog +="\n"
@@ -615,8 +615,11 @@ OpenWrite(IncludeImage(AddRawHURL(AddQS)),"gitbook/Chapter1/QuickStart.md")
 # Adding RPi article
 # -------------------------
 
-RPI = GetIncludes(getText("include/RPiHSDK.md"),  MDFiles[1], MDFiles[4],"include/RPiHSDK.md")
-OpenWrite(IncludeImage(AddRawHURL(RPI[0])),"gitbook/RPI_article.md")
+RPI = GetIncludes(getText("include/RPiHSDK.md"),  MDFiles[5], MDFiles[4],"include/RPiHSDK.md")
+
+RPI_article = RPI[0]
+
+OpenWrite(IncludeImage(AddRawHURL(RPI_article)),"gitbook/RPI_article.md")
 
 log += RPI[1]
 
@@ -810,7 +813,7 @@ OpenWrite(TODOsToShopping+"\n\n","gitbook/Chapter7/shoppingList.md")
 OpenWrite(AddLicenseDocTxt+"\n\n","gitbook/Chapter7/license.md")
 
 
-CopyGitBookFile("CLA.md","gitbook/CLA.md")
+#CopyGitBookFile("CLA.md","gitbook/CLA.md")
 CopyGitBookFile("include/AddDevices.md","gitbook/Chapter6/otherprobes.md")
 
 CopyGitBookFile("include/AddPressReview.md","gitbook/Chapter7/pressreview.md")

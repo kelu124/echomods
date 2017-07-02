@@ -43,9 +43,10 @@ RedMark = ":no_entry:"
 WarningMark = ":warning:"
 ValidH = ["h1","h2","h3","h4","h5"]
 
-ModulesChaptDeux = ["tobo","retroATL3","mogaba","goblin","tobo","toadkiller","elmo"]
-ModulesChaptTrois = ["silent","cletus","croaker","doj","sleepy","oneeye","tomtom"]
-
+ModulesChaptDeux = ["tobo","retroATL3","goblin","tobo","elmo"]
+ModulesChaptDeuxRT = ["mogaba","toadkiller"]
+ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom"]
+ModulesChaptTroisRT= ["sleepy","oneeye"]
 ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
 
 ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz"]
@@ -224,10 +225,21 @@ def AddRawHURL(s):
 		s = s.replace("](/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")	
 		s = s.replace("](/"+moduledeux+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduledeux+"/source/blocks.png)")	
 		s = s.replace("](/"+moduledeux+"/Readme.md)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")
+	for moduledeux in ModulesChaptDeuxRT:
+		s = s.replace("](/retired/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")	
+		s = s.replace("](/retired/"+moduledeux+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduledeux+"/source/blocks.png)")	
+		s = s.replace("](/retired/"+moduledeux+"/Readme.md)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")
+
 	for moduletrois in ModulesChaptTrois:
 		s = s.replace("](/"+moduletrois+"/)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")	
 		s = s.replace("](/"+moduletrois+"/Readme.md)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")
 		s = s.replace("](/"+moduletrois+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduletrois+"/source/blocks.png)")	
+
+	for moduletrois in ModulesChaptTroisRT:
+		s = s.replace("](/retired/"+moduletrois+"/)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")	
+		s = s.replace("](/retired/"+moduletrois+"/Readme.md)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")
+		s = s.replace("](/retired/"+moduletrois+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduletrois+"/source/blocks.png)")
+
 
 	s = s.replace("![](/", "![]("+URL)
 
@@ -340,6 +352,8 @@ def GetGeneratedFiles(path):
 	ManualFiles = []
 	ManualDesc = []
 	ManualContent = []
+	AllMDContent = []
+	AllFilesList = []
 	AutoFiles = []
 	log = []
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.md'))]
@@ -364,16 +378,17 @@ def GetGeneratedFiles(path):
 			if not found:
 				ManualFiles.append(eachMd)
 				ManualDesc.append(Desc)	
-				ManualContent.append(FileContenu)
 			else: 
 				AutoFiles.append(eachMd)
 			if (not found) and (not foundDesc):
 				log.append("__[MD Files]__ "+RedMark+" `"+eachMd+"` : Missing description")
 
-			
+			AllFilesList.append(eachMd)
+			AllMDContent.append(FileContenu)
+
 	#AutoFiles.sort()
 	#ManualFiles.sort()
-	return [AutoFiles,ManualFiles,ManualDesc,log,ManualContent]
+	return [AutoFiles,ManualFiles,ManualDesc,log,AllMDContent,AllFilesList]
 
 
 def GetIncludes (InitialText, filez, contentz,origin):
@@ -614,15 +629,22 @@ def CreateKits(path,pathmodules,FullSVG):
 			GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
 			ReadMe = eachInput
 
-			ReadMehHtmlMarkdown = returnSoup("./"+eachInput+"/Readme.md")[1]
-			soupSet = returnSoup("./"+eachInput+"/Readme.md")[0]
+
+			if (eachInput in ModulesChaptDeuxRT) or (eachInput in ModulesChaptTroisRT):
+				pathMdl = "retired/"+eachInput
+			else:
+				pathMdl = eachInput
+
+			ReadMehHtmlMarkdown = returnSoup("./"+pathMdl+"/Readme.md")[1]
+
+			soupSet = returnSoup("./"+pathMdl+"/Readme.md")[0]
 
 			# Getting the Desc of the Module
 			ModuleTitle = getHs(soupSet,"h2","Title").text
 
 			#print ModuleDesc
 
-			with open("./"+eachInput+"/Readme.md") as FileContent:
+			with open("./"+pathMdl+"/Readme.md") as FileContent:
 				for line in FileContent:  #iterate over the file one line at a time(memory efficient)
 					if "* cost:" in line:
 						patternCode = r"cost:(.*?)$"

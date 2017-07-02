@@ -2,15 +2,16 @@
 
 @kelu include(/include/AddUSSDK.md)
 
-### Approach
+@kelu include(/include/sets/PiDAQ.cost.md)
 
-* Mono element, one channel, one ADC
-* Approach: module
-* 3 modules to be designed
-
-* Costs
 
 ## Experiments
+
+### Example of a setup with a servo
+
+![](/elmo/data/arduino/setup.png)
+
+This is a picture from a [first test](/elmo/data/arduino/20170611-arduino.md) with all custom made modules, including raspberry ADC.
 
 ### Setup
 

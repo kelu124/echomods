@@ -1,0 +1,16 @@
+digraph {
+	"ITF-2_VDD_5V" [style=rounded]
+	ArduinoTrinketPro [style=rounded]
+	"ITF-7_GAIN " [style=rounded]
+		"ITF-2_VDD_5V" -> ArduinoTrinketPro
+		ArduinoTrinketPro -> "ITF-7_GAIN "
+	ArduinoTrinketPro [style=rounded]
+	"ITF-9_Pon " [style=rounded]
+		ArduinoTrinketPro -> "ITF-9_Pon "
+	ArduinoTrinketPro [style=rounded]
+	"ITF-10_Poff " [style=rounded]
+		ArduinoTrinketPro -> "ITF-10_Poff "
+	ArduinoTrinketPro [style=rounded]
+	"ITF-14_PWM " [style=rounded]
+		ArduinoTrinketPro -> "ITF-14_PWM "
+}
