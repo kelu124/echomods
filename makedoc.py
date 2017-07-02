@@ -354,7 +354,7 @@ for ReadMe in ListOfRetiredDirs:
 
 	TableRetiredModules += "|<img src='https://github.com/kelu124/echomods/blob/master/retired/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/retired/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
 
-TableRetiredDocTxt = TableRetiredModules+"\n\n"
+TableRetiredDocTxt = "\n\n"+TableRetiredModules+"\n\n"
 
 # -------------------------
 # Créer le tableau d'avancement
@@ -599,7 +599,7 @@ OpenWrite(IncludeImage(AddRawHURL(PrinciplesOfEchoes)),"gitbook/Chapter1/princip
 OpenWrite(AddRawHURL(HeaderDocTxt),"gitbook/Chapter1/modules.md")
 
 # list of modules
-OpenWrite(IncludeImage(AddRawHURL(TableModulesShort)),"gitbook/Chapter1/listofmodules.md")
+OpenWrite(IncludeImage(AddRawHURL(TableModulesShort+"\n\n"+TableRetiredDocTxt)),"gitbook/Chapter1/listofmodules.md")
 
 # -------------------------
 # Adding Quickstart
@@ -619,7 +619,7 @@ RPI = GetIncludes(getText("include/RPiHSDK.md"),  MDFiles[5], MDFiles[4],"includ
 
 RPI_article = RPI[0]
 
-OpenWrite(IncludeImage(AddRawHURL(RPI_article)),"gitbook/RPI_article.md")
+OpenWrite(IncludeImage(AddRawHURL(RPI_article)),"gitbook/RPI.md")
 
 log += RPI[1]
 

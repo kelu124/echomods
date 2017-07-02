@@ -66,6 +66,12 @@ __[Links]__ :no_entry: `./doj/20170522-DojV2tests.md` : Link to non-existing fol
 
 __[Links]__ :no_entry: `./doj/Readme.md` : Link to non-existing folder `./doj/source/2.0-kicad/`
 
+__[Links]__ :no_entry: `./elmo/Readme.md` : Error in link definition, non-absolute path in link to `elmo/data/arduino/LineImageEnveloppe.jpg`
+
+__[Links]__ :no_entry: `./elmo/Readme.md` : Error in link definition, non-absolute path in link to `elmo/data/arduinoffset/LineImageEnveloppe.jpg`
+
+__[Links]__ :no_entry: `./elmo/Readme.md` : Link to non-existing file `./elmo/sources/ADCpHat_r2.zip`
+
 __[Links]__ :no_entry: `./goblin/Readme.md` : Link to non-existing file `./toadkiller/data/test_enveloppe/Details.png`
 
 __[Links]__ :no_entry: `./goblin/Readme.md` : Link to non-existing file `./toadkiller/data/test_enveloppe/In-Out.ipynb`
@@ -90,8 +96,6 @@ __[Links]__ :no_entry: `./include/20160814/2016-08-14-HackingAUltrasoundProbe.md
 
 __[Links]__ :no_entry: `./include/20160822/2016-08-22-Fantom.md` : Link to non-existing folder `./mogaba/`
 
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `../CLA.md`
-
 __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `articles.md`
 
 __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `basicdevkit.md`
@@ -104,13 +108,13 @@ __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definitio
 
 __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `mogaba.md`
 
+__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `mogaba.md`
+
 __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `progress.md`
 
 __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `results.md`
 
 __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `retroATL3.md`
-
-__[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `sourcing.md`
 
 __[Links]__ :no_entry: `./include/AddChaptersIntro.md` : Error in link definition, non-absolute path in link to `toadkiller.md`
 
