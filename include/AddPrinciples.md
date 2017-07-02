@@ -12,7 +12,7 @@ The ultrasound waves (pulses of sound) are sent from the transducer, propagate t
 
 Ultrasound waves are reflected at the surfaces between the tissues of different density, the reflection being proportional to the difference in impedance. If the difference in density is increased, the proportion of reflected sound is increased and the proportion of transmitted sound is proportionately decreased.
 
-If the difference in tissue density is very different, then sound is completely reflected, resulting in total acoustic shadowing. Acoustic shadowing is present behind bones, calculi (stones in kidneys, gallbladder, etc.) and air (intestinal gas) (See Fig. 1 with acoustic shadowing).
+If the difference in tissue density is very different, then sound is completely reflected, resulting in total acoustic shadowing. Acoustic shadowing is present behind bones, calculi (stones in kidneys, gallbladder, etc.) and air (intestinal gas).
 
 Echoes are not produced if there is no difference in a tissue or between tissues. Homogenous fluids like blood, bile, urine, contents of simple cysts, ascites and pleural effusion are seen as echo-free structures.
 

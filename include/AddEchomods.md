@@ -6,12 +6,14 @@ We have chosen to use a module approach to make sure that each key component ins
 
 ## What images does it give ?
 
-![](/include/20161016/2619341460036774092.png)
+![](/elmo/data/arduinoffset/LineImageEnveloppe.jpg)
 
 ## What does it look like?
 
 The modules sit on a breadboard, and communicate through the tracks laying below. The configuration represented below show the Basic dev kit.
 
-![](/include/20160814/IMG_3430.png)
+![](/doj/images/doj_v2_notes.jpg)
 
+and used in a wider context:
 
+![](/elmo/data/arduino/setup.png)

@@ -17,11 +17,6 @@ The aim of this project is to build a small ultrasound imaging hardware and soft
 
 Previous project has shown the feasibility of the hardware, but was not simple enough. Let's keep the momentum, and use this dev kit in other projects as well - such as dopplers or non-destructive testing, different projects using piezos as sensors.
 
-
-### Way of work
-
-The objective is simple - 
-
 ## Architecture
 
 Ultrasound imaging has evolved since the first ultrasound machine appeared. The first devices were using single-sensor (transducers) techniques, coupled with mechanical scanning - hence allowing a single signal processing channel. The architecture of such systems, as shown below, is well-known and formed the basis of ultrasound imaging.
