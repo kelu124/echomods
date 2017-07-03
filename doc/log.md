@@ -250,6 +250,10 @@ __[MD Files]__ :no_entry: `./include/AddQSGoblin.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddQSTobo.md` : Missing description
 
+__[MD Files]__ :no_entry: `./include/AddStats.md` : Missing description
+
+__[MD Files]__ :no_entry: `./include/AddStatsFull.md` : Missing description
+
 __[MD Files]__ :no_entry: `./include/AddStructureDetails.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/AddWireless.md` : Missing description
@@ -465,6 +469,16 @@ __[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing License
 
 __[Python]__ :no_entry: `./croaker/data/manual/rebuild.py` : Missing description
 
+__[Python]__ :no_entry: `./doc/createStats.py` : Header error 
+
+__[Python]__ :no_entry: `./doc/createStats.py` : Missing Author 
+
+__[Python]__ :no_entry: `./doc/createStats.py` : Missing Copyright 
+
+__[Python]__ :no_entry: `./doc/createStats.py` : Missing License
+
+__[Python]__ :no_entry: `./doc/createStats.py` : Missing description
+
 __[Python]__ :no_entry: `./elmo/data/arduino.py` : Header error 
 
 __[Python]__ :no_entry: `./elmo/data/arduino.py` : Missing Author 
@@ -488,6 +502,14 @@ __[SET]__ Added `highspeed`
 
 __[SET]__ Added `wifi-dev-kit`
 
+
+__[Unrefed file]__ :no_entry: `/doc/Untitled.ipynb` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doc/createStats.py` : No references of this file. 
+
+__[Unrefed file]__ :warning: `/include/AddStats.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/AddStatsFull.md` : No references of this file (in _include_). 
 
 __[WEB Blog]__ 152 posts added
 

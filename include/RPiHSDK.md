@@ -25,6 +25,8 @@ It can be noted that the ADC used in the experiments below is running at half it
 
 This is a picture from a [first test](/elmo/data/arduino/20170611-arduino.md) with all custom made modules, including raspberry ADC.
 
+The image is created from a wire phantom, based on a stripboard with a 2.54mm pitch. Wire phantoms are often used as calibration devices, and to assess the lateral and axial resolution of a sensor.
+
 ### Some results: signals and images
 
 I'm getting similar images using the analog enveloppe detection (acquired by the DAQ, through a track exposed on the Analog Processing Module), compared to the digital enveloppe detection, as described below, again on the wire phantom:

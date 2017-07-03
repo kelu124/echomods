@@ -85,6 +85,8 @@ static ssize_t device_write(struct file *, const char *, size_t, loff_t *);
 #define Puls_OFF 24
 
 
+#define PPWWMM 6
+#define VU 21
 #define MY_NOP(__N)                 __asm ("nop");    // or sth like "MOV R0,R0"
 
 
@@ -269,6 +271,9 @@ int init_module(void)
 	INP_GPIO(BIT6_PIN2);
 	INP_GPIO(BIT7_PIN2);
 	INP_GPIO(BIT8_PIN2);
+
+        INP_GPIO(VU);
+        INP_GPIO(PPWWMM);
 
 	OUT_GPIO(Puls_ON);
 	OUT_GPIO(Puls_OFF);

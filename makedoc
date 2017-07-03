@@ -1,5 +1,10 @@
 #/bin/bash
 # Creating the docs
+
+cd doc/
+python createStats.py
+cd ../
+
 python makedoc.py
 
 # Cleaning the links to github
