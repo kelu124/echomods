@@ -5,6 +5,8 @@ pos: -32.9765844,151.5492712
 entity: Au
 ---
 
+-> [a blog](http://www.wtom.co/uni-project/fyp-board-finished-almost/)
+
 # Will's system
 
 ## Exchanges

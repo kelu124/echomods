@@ -24,3 +24,4 @@
 * 2017-06-18: [Some publicity from OSHPark](https://twitter.com/oshpark/status/875691181228908550)
 * 2017-06-20: [ADC pHAT won some prize =)](http://hackaday.com/2017/06/19/twenty-iot-builds-that-just-won-1000-in-the-hackaday-prize/)
 * 2017-07-02: [Best Product Entry: A HSDK for Ultrasound Imaging](http://hackaday.com/2017/07/02/best-product-entry-a-hsdk-for-ultrasound-imaging/)
+* 2017-07-03: [DIY Ultrasound imaging](http://embedded-lab.com/blog/diy-ultrasound-imaging/)

@@ -1,6 +1,6 @@
 * [makedoc.py](/makedoc.py): script to build autodocumentation.File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md)
 * [__init__.py](/doc/__init__.py): empty file for doc module declaration.File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md)
-* [createStats.py](/doc/createStats.py):  _File not used._
+* [createStats.py](/doc/createStats.py): File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md)
 * [mkdoc.py](/doc/mkdoc.py): if ("Description") in line:File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md)
 * [arduino.py](/elmo/data/arduino.py): File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md)
 * [test_file.py](/retired/toadkiller/software/test_file.py): showing content of a PRUDAQ binary dump.File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/AllFiles.md`](/include/FilesList/AllFiles.md)

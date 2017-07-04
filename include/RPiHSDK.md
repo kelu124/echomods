@@ -2,6 +2,13 @@
 
 ![](/elmo/data/arduinoffset/LineImageEnveloppe.jpg)
 
+## Disclaimers
+
+* __Disclaimer #0__: __This is not a medical ultrasound scanner__! It's a development kit - possible immediate use as a NDT (non destructive testing) tool, for example in metallurgical crack analysis =)
+* __Disclaimer #1__: though an engineer, this project is the first of its sort, I never did something related. It's all but a finalized product!
+* __Disclaimer #2__: Ultrasound raises questions. In case you build a scanner, use caution and good sense!
+
+
 @kelu include(/include/AddUSSDK.md)
 
 @kelu include(/include/sets/PiDAQ.cost.md)
