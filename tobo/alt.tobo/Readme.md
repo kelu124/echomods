@@ -19,4 +19,14 @@ Signal back from the diod is to be clipped by [MD0100](http://ww1.microchip.com/
 
 ### Power use:
 
-The pulser sends with a 500us repeat, 10mA at 5V. So power may not be an issue here.
+The pulser sends with a 500us repeat, 3mA at 5V. So power may not be an issue here.
+
+
+
+### Components
+
+* HV: NMT0572SC
+* Pulser : MD1213 and TC6320 -> see [Fig.6 here, bipolar 3 level pulser](http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf). [TC6320, undamped](http://ww1.microchip.com/downloads/en/DeviceDoc/tc6320.pdf), detailed here.
+  * I'd like both devices to be always on.
+  * For the damper part, I'd need only 1 control pin (GPIO21).
+* Protection: MD0100+diods -- should be enough, see [bottom of page 1, or Fig 9](http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf)

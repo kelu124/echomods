@@ -36,6 +36,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * set the gain on the AFE using Doj v1.2
 * use the GetSuppliersList function to list equipment suppliers
 * get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
+* Add PCBA
 
 
 

@@ -1309,6 +1309,26 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Testing the counter for probe turns - see in the [probe readme](/retroATL3/) or see _Using this [arduino code](/retroATL3/data/32u4-ATL3_interface.ino) and  [results are here](/retroATL3/data/20170702-TestATLDuinoTerface.ipynb)_.
 * Added the [Pi article](https://kelu124.gitbooks.io/echomods/content/RPI.html) - support from Marc / Thomas ?
+
+#### 2017-07-05 China
+
+* Doing some analysis of the [CN producers](/include/AddCNPCBA.md)
+* @todo Add PCBA
+* Back in touch with GroupGets
+* attiny84 ([pinout](http://42bots.com/wp-content/uploads/2014/01/ATTiny84-ATTiny44-pinout.png)): 12 pins: 
+  * Config 1
+    * 2 pins pour communiquer avec le RPi (maybe only 1) to address the multiplexer. Send 4bits pour multi 1, Send 4bits pour multi 2 = 1 byte. Reception: 1 byte retour + que des 1. Cf [here](http://www.ernstc.dk/arduino/tinycom.html	)
+    * 4 pins pour 1 multiplexer -> leds
+    * 4 pins pour l'autre multiplexer -> leds 
+    * 1 pin pour DAC
+  * Config 2
+    * 2 pins pour communiquer
+    * 4 pins pour les multiplexer
+    * 2 pins pour les enablers
+    * 1 pin for VGA :)
+* Maybe ATtiny2313  ?
+
+
 =======
 
 uControllers and other stuff

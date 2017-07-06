@@ -10,8 +10,11 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 * MAX1771
 * TPS61170 ([10]) Boost convertor
 * MAX5025 ([11]) - interesting setup
-* NMT0572SC ([19]) up to 72V --- 24, 48 and 72V V
+* NMT0572SC ([19]) up to 72V --- 24, 48 and 72V V - 14€ -- seems OK
 * LT3958 ([21]) -> 5V to 48V
+* AN-H59DB1 is a high voltage DC/DC converter for HV748 ;)
+*  1470-1353-5-ND  https://www.digikey.com/product-detail/en/xp-power/IA0524S/1470-1353-5-ND/4487734 à +-24
+* LTC3813: http://cds.linear.com/docs/en/datasheet/3813fb.pdf 100V Current Mode Synchronous Step-Up Controller
 
 ### Pulsers
 
@@ -22,20 +25,26 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 * __HV7360__ ([0])
 * LM96550 ([10])
 * TC6320 ([21]) bipolar pulse
+* LM96550 Ultrasound Transmit Pulser, Output pulses +-50V
 
+* STHV748 Quad ± 90 V, ± 2 A, 3/5 levels, high speed ultrasound pulser [Datasheet](http://www.st.com/content/ccc/resource/technical/document/datasheet/a9/7f/a3/46/99/65/42/02/CD00226856.pdf/files/CD00226856.pdf/jcr:content/translations/en.CD00226856.pdf) 22$.. ([22]) ([23]) and octal with STHV800 
+
+* HV732DB1 High Speed ±100V 2A - interesting pulser ( http://www.mouser.com/catalog/specsheets/HV732DB1.pdf ) 
 
 ### Multiplexer / Switch
 
-* HV2901 ([3]) 32-output high voltage MUX chip 
+* FANTASTIC : [test](http://www.prnewswire.com/news-releases/mps-launched-180v-16-channel-analog-switch-multiplexer-for-ultrasound-applications-that-requires-no-high-voltage-supplies-300427205.html)
+* HV2901 ([3]) 32-output high voltage MUX chip -- differential supply of 200V. [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/hv2901.pdf)
 * TX810 ([10])
 * ADG1434 SPDT or ADG333A ([17]) for MEMS  
-* ADG426 (Analog multiplexer) ([17])
+* ADG426 (Analog multiplexer) ([17]) -- max entry at 44V [datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADG406_407_426.pdf)
 * AD8182 ([18]) 2-to-1 multiplexers
-* HV748 ([19])
+* HV748 ([19]) - Four-Channel, High Speed, ±75V 1.25A Ultrasound Pulser
 * ADG707 ([20])
+* MAX4968
 
 ### TGC
-
+AN-H59DB1 is a high voltage DC/DC converter
 * AD8332 ([8])
 * __AD8331__ ([0]) ([18]) ([19]) 
 * SMA231 ([21]) as LNAs
@@ -47,11 +56,12 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 ### Analog Front end
 
 * AFE5808 ([3]) ([9])
-* AFE5801 ([10])
+* AFE5801 ([10]) -  8-Channel Variable-Gain Amplifier (VGA) With Octal High-Speed ADC (Rev. D) 
 * AFE5851 ([13])
-* AD9273 ([15])
+* AD9273 ([15]) : Octal LNA/VGA/AAF/ADC  and Crosspoint Switch
 * AD9272-65EBZ ([16])
 * AFE5818 ([21]) for the capsule
+* AFE5804 
 
 ### ADCs
 
@@ -88,7 +98,7 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 * XCR3064XL ([20])
 * Cyclone IV, EP4CE115F29 ([21])
 * CC3200 Wifi ([21]) 
-
+* FPGA Stratix IV 70 GX ([22])
 ### Phantom
 
 * Model 040GSE, CIRS,  USA ([3])
@@ -130,3 +140,6 @@ Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/ma
 [19]: www.mdpi.com/1424-8220/16/10/1681/pdf "Design and Implementation of an Electronic Front-End Based on Square Wave Excitation for Ultrasonic Torsional Guided Wave Viscosity Sensor"
 [20]: https://www.ncbi.nlm.nih.gov/pubmed/18269987 "Experimental system Prototype of a Portable, Low-Cost, C-scan Ultrasound Imaging Device - 10.1109/TBME.2007.903517"
 [21]: http://sci-hub.cc/10.1109/TMI.2017.2699973 "Development of a mechanical scanning device with high-frequency ultrasound transducer for ultrasonic capsule endoscopy"
+[22]: http://ieeexplore.ieee.org/abstract/document/7728843/ "A GPU-based ultrasound Phased-Array research system for non-destructive testing 10.1109/ULTSYM.2016.7728843"
+[23]: http://ieeexplore.ieee.org/abstract/document/7319210/ "ARTSENSTouch - A portable device for evaluation of carotid artery stiffness 10.1109/EMBC.2015.7319210"
+[24]: "Design of a multiple-rail high-voltage power supply for ultrasound scanners"
