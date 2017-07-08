@@ -1,5 +1,14 @@
 ### Some stats
 
+* __HSDK__: 1900 views, 71 followers, 26 likes
+* __Murgen__: 26600 views, 600 followers, 154 likes
+* __ADC cape__: 3900 views, 38 followers, 37 likes
+* __JOH publication__: 824 views and 112 downloads.
+
+--- 2017-07-08 16:26:31.170392
+
+### Some stats
+
 * __HSDK__: 1800 views, 68 followers, 24 likes
 * __Murgen__: 26500 views, 597 followers, 154 likes
 * __ADC cape__: 3900 views, 38 followers, 37 likes

@@ -3,6 +3,8 @@
 
 ## Introduction
 
+This project has a specific target of providing a __low-cost, open source technological kit to allow scientists, academics, hackers, makers or OSHW fans to hack their way to ultrasound imaging__ - below 500$ - at home, with no specific equipment required. 
+
 ### Objective
 
 The aim of this project is to build a small ultrasound imaging hardware and software development kit, with the specific goal of:

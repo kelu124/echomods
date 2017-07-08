@@ -580,6 +580,7 @@ OpenWrite(IncludeImage(Preface),"gitbook/README.md")
 # -------------------------
 
 CopyGitBookFile("include/AddHistory.md","gitbook/Chapter1/history.md")
+CopyGitBookFile("/WordOfCaution.md","gitbook/caution.md")
 
 AddEngineering = getText("include/AddEngineering.md")
 OpenWrite(IncludeImage(AddRawHURL(AddEngineering)),"gitbook/Chapter1/engineering.md")

@@ -2,20 +2,30 @@
 
 ![](/elmo/data/arduinoffset/LineImageEnveloppe.jpg)
 
-## Disclaimers
-
-* __Disclaimer #0__: __This is not a medical ultrasound scanner__! It's a development kit - possible immediate use as a NDT (non destructive testing) tool, for example in metallurgical crack analysis =)
-* __Disclaimer #1__: though an engineer, this project is the first of its sort, I never did something related. It's all but a finalized product!
-* __Disclaimer #2__: Ultrasound raises questions. In case you build a scanner, use caution and good sense!
-
-
 @kelu include(/include/AddUSSDK.md)
 
-@kelu include(/include/sets/PiDAQ.cost.md)
+## Disclaimers
+
+* __Disclaimer #0__: __This is not a medical ultrasound scanner__! It's a development kit that can be used for pedagogical and academic purposes - possible immediate use as a non-destructive testing (NDT) tool, for example in metallurgical crack analysis. As in all electronics, be [careful](/WordOfCaution.md).
+* __Disclaimer #1__: though an engineer, this project is the first of its sort, I never did something related. It's all but a finalized product.
+* __Disclaimer #2__: Ultrasound raises questions. In case you build a scanner, use caution and good sense!
 
 @kelu include(/include/AddPrinciples.md)
 
 ## Experiments
+
+### What can be done with this hardware?
+
+This dev kit has been developped for pedagogical purposes, to understand how ultrasound imaging and non-desctrucive testing work. This structure can be used to develop:
+
+* other modalities of ultrasound imaging - and be used as a platform for A-mode, or B-mode imaging; 
+* it can also be used for array imaging - the modules can be used with a multiplexer for do synthetic aperture beamforming; 
+* new signal processing methods;
+* test transducers - which can be used as well for maintenance and repairs of ultrasound probes;
+* other non-destructive testing apparatus.
+
+
+Why are you doing this ? or besides pedagogical uses of your prototype, we want to know if you are thinking about other applications ? Where your prototype can be more useful? In Africa for example, can your prototype solve some problems? 
 
 
 ### Benchmark of acquisition
@@ -33,6 +43,10 @@ It can be noted that the ADC used in the experiments below is running at half it
 This is a picture from a [first test](/elmo/data/arduino/20170611-arduino.md) with all custom made modules, including raspberry ADC.
 
 The image is created from a wire phantom, based on a stripboard with a 2.54mm pitch. Wire phantoms are often used as calibration devices, and to assess the lateral and axial resolution of a sensor.
+
+### Costs of the materials
+
+@kelu include(/include/sets/PiDAQ.cost.md)
 
 ### Some results: signals and images
 
@@ -91,3 +105,7 @@ Want to learn more? You can join the [slack channel](https://join.slack.com/usde
 * You can also __fork the [project repo](https://github.com/kelu124/echomods/)__, for the source files, raw data and raw experiment logs or explore the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format
 * __Want a scientific article?__ Have a look at the [article summarizing the experiment on the Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) - [DOI:10.5334/joh.2]( http://doi.org/10.5334/joh.2)
 * __Want to buy the modules and make your own setup?__ Visit the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [pulser](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or [the motherboard](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/). Ping me on [Slack](https://join.slack.com/usdevkit/shared_invite/MTkxODU5MjU0NjI1LTE0OTY1ODgxMDEtMmYyZTliZDBlZA) if there's no stock remaining.
+
+#### Articles
+
+Under CC-BY-4.0, [main article here](https://openhardware.metajnl.com/articles/10.5334/joh.2/) 

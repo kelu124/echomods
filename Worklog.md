@@ -1328,6 +1328,18 @@ Netty isn't nice... but just got my article accepted by JOH !
     * 1 pin for VGA :)
 * Maybe ATtiny2313  ?
 
+#### 2017-07-08 Doc 'n test
+
+* Received the cable for the probe
+  * @todo fill in probe if necessary
+  * @todo test
+* @todo fill in /wordofcaution.md
+* @todo integrate thomas remarks in RPi
+* @todo update ppt_us with links all around
+* Templates
+  * [ ] AddPitch.md.tpl
+  * [ ] Add TPL list
+* Nice patent : https://www.google.com/patents/US4246792
 
 =======
 

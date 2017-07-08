@@ -8,11 +8,10 @@ This project has a specific target of providing a __low-cost, open source techno
 * an [article summarizing the experiment on the Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) - [DOI:10.5334/joh.2]( http://doi.org/10.5334/joh.2);
 * the [slack channel if you want to discuss](https://join.slack.com/usdevkit/shared_invite/MTkxODU5MjU0NjI1LTE0OTY1ODgxMDEtMmYyZTliZDBlZA);
 * the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [pulser](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or [the motherboard](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).
- 
-__Disclaimer__: though an engineer, this project is the first of its sort, I never did something related. Bear with us, and the discovery process, but I'm happy to share my learning on the way =)
-
-__Disclaimer #2__: Ultrasound raises questions. In case you build a scanner, use caution and good sense!
-
-__Disclaimer #3__: Beware! Though I am one of echopen's cofounders, this personnal is a personnal pet-project.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.377054.svg)](https://doi.org/10.5281/zenodo.377054)
+
+* __Disclaimer #0__: __This is not a medical ultrasound scanner__! It's a development kit that can be used for pedagogical and academic purposes - possible immediate use as a non-destructive testing (NDT) tool, for example in metallurgical crack analysis. As in all electronics, be [careful](/WordOfCaution.md).
+* __Disclaimer #1__: though an engineer, this project is the first of its sort, I never did something related. It's all but a finalized product.
+* __Disclaimer #2__: Ultrasound raises questions. In case you build a scanner, use caution and good sense!
+* __Disclaimer #3__: Though I am one of echopen's cofounders, this personnal is a personnal pet-project.
