@@ -53,30 +53,30 @@ __Limits__
 
 * Material is not certified
 * Probe sensor limits the quality
+* Be [careful](https://kelu124.gitbooks.io/echomods/content/caution.html)!
 
 __Opportunity__
 
-* Using a smartphone
+* Using a [Raspberry is cool](https://kelu124.gitbooks.io/echomods/content/RPI.html)!
 * An open plat-form!
 
 ## Lessons
 
 What I learned tinkering with stuff
 
-* _Build the tools you need_ 
-* _Document_
-* _Do and share_
+1. _Build the tools you need_ 
+2. _Document_
+3. _Do and share_
 
 
 ## Build the tools you need..
 
 Acquisition
 
-* BeagleBone DAQ
+* BeagleBone [PRU-DAQ](https://github.com/kelu124/echomods/blob/master/retired/toadkiller/Readme.md)
 * BitScope
-* STM32 (Feather WICED)
-* ... __custom made__!
-
+* STM32 [Feather WICED](https://github.com/kelu124/echomods/tree/master/goblin)
+* ... __custom made__ with a [raspberry](https://github.com/kelu124/echomods/blob/master/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)!
 * Emulation & calibration tools
 
 ## Documentation
@@ -91,7 +91,7 @@ Acquisition
 * A summary on [Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) (thanks GOSH!)
 * [Tindie](https://www.tindie.com/stores/kelu124/) for sharing "extra" boards
 
-## Possible issues for medical biohacking
+## Issues for "real" medical biohacking and towards medical uses
 
 * Certification
 * Sensors sourcing
@@ -121,6 +121,10 @@ Acquisition
 ## Q&A
 
 Ping me @kelu124 / kelu124@gmail.com !
+
+* Read more on the [gitbook](https://kelu124.gitbooks.io/echomods/content/)
+* Fork [this work on github](https://github.com/kelu124/echomods/)
+* Buy some modules on [Tindie](https://www.tindie.com/stores/kelu124/)
 
 Presentation at [bit.ly/biohackingcameroun_luc](http://bit.ly/biohackingcameroun_luc)
 
