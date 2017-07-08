@@ -3,7 +3,9 @@
 * ./include/AddTableAvancement.md
 * ./include/AddShoppingList.md
 * ./include/AddModulesSummary.md
+* ./include/RPiHSDK.md
 * ./include/AddMyLogs.md
+* ./include/FilesList/TPLFiles.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/PythonFiles.md
 * ./include/FilesList/JupyFiles.md
@@ -20,6 +22,7 @@
 * ./gitbook/RPI.md
 * ./gitbook/README.md
 * ./gitbook/devkit0.md
+* ./gitbook/caution.md
 * ./gitbook/devkit11.md
 * ./gitbook/Chapter4/Session_6.md
 * ./gitbook/Chapter4/Session_1.md

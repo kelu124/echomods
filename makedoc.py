@@ -109,6 +109,30 @@ for eachInput in ListOfDirs:
 print ListOfDirs
 
 
+# -------------------------
+#
+# -------------------------
+
+TPLLog = ""
+ListeOfTPL = GetTPLFiles("./")
+
+
+
+for i in range(len(ListeOfTPL)):
+	TPLLog += "* ["+ListeOfTPL[i].split("/")[-1]+"]("+ListeOfTPL[i][1:]+"): "+ListeOfTPL[i] 
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfTPL[i][1:],MDFiles[4],MDFiles[5])
+	TPLLog += CheckRef[0]
+	log = log+CheckRef[1]
+	TPLLog +="\n"
+	## 
+	print "-- "+ListeOfTPL[i][2:]
+	RPI = GetIncludes(getText(ListeOfTPL[i][2:]),  MDFiles[5], MDFiles[4],ListeOfTPL[i][2:])
+	RPI_article = RPI[0]
+	OpenWrite(IncludeImage(AddRawHURL(RPI_article)),ListeOfTPL[i][2:].split(".tp")[0])
+	log += RPI[1]
+
+OpenWrite(TPLLog,"include/FilesList/TPLFiles.md")
+
 
 
 
@@ -616,14 +640,11 @@ OpenWrite(IncludeImage(AddRawHURL(AddQS)),"gitbook/Chapter1/QuickStart.md")
 # Adding RPi article
 # -------------------------
 
-RPI = GetIncludes(getText("include/RPiHSDK.md"),  MDFiles[5], MDFiles[4],"include/RPiHSDK.md")
-
-RPI_article = RPI[0]
-
-OpenWrite(IncludeImage(AddRawHURL(RPI_article)),"gitbook/RPI.md")
-
-log += RPI[1]
-
+# RPI = GetIncludes(getText("include/RPiHSDK.md"),  MDFiles[5], MDFiles[4],"include/RPiHSDK.md")
+# RPI_article = RPI[0]
+# OpenWrite(IncludeImage(AddRawHURL(RPI_article)),"gitbook/RPI.md")
+# log += RPI[1]
+CopyGitBookFile("include/RPiHSDK.md","gitbook/RPI.md")
 
 # -------------------------
 # Adding CHAPTER 2 : Basic kit

@@ -1204,12 +1204,12 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Received the cable for the probe
   * @todo fill in probe if necessary
   * @todo test
-* @todo fill in /wordofcaution.md
-* @todo integrate thomas remarks in RPi
+* @done fill in /wordofcaution.md
+* @done integrate thomas remarks in RPi
 * @todo update ppt_us with links all around
 * Templates
   * [ ] AddPitch.md.tpl
-  * [ ] Add TPL list
+  * [ ] @done Add TPL list
 * Nice patent : https://www.google.com/patents/US4246792
 
 =======

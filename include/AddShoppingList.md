@@ -39,8 +39,6 @@ Here's a couple of things we're working on, for which you could help as well.
 * Add PCBA
  * fill in probe if necessary
  * test
-* fill in /wordofcaution.md
-* integrate thomas remarks in RPi
 * update ppt_us with links all around
 
 

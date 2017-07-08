@@ -408,19 +408,19 @@ def GetIncludes (InitialText, filez, contentz,origin):
 			log += "[INCLUDE] Error with "+origin+"\n\n"
 	return InitialText,log
 
-
+ 
 def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 	InRef = []
 	log = []
 	StringData = ""
 	for k in range(NdFiles):
-		if PathRefedFile in ContentFiles[k]: 
+		if (PathRefedFile in ContentFiles[k]) and ("/include/FilesList/" not in ContentFiles[k]): 
 			InRef.append("[`"+PathRefingFile[k][1:]+"`]("+PathRefingFile[k][1:]+")")
 	if len(InRef):
-		StringData = "File used in: "+", ".join(InRef)
+		StringData = ". File used in: "+", ".join(InRef)+".\n"
 		#print InRef
 	else:
-		StringData = " _File not used._"
+		StringData = ". _File not used._\n"
 		if "/include/" in PathRefedFile:
 			log.append("__[Unrefed file]__ "+WarningMark+" `"+PathRefedFile+"` : No references of this file (in _include_). ")
 		else:
@@ -432,6 +432,13 @@ def GetPythonFiles(path):
 	ExcludeDirs = ["tools",".git","gh-pages"] 
 	PythonFilesList = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 	return PythonFilesList
+
+def GetTPLFiles(path):
+	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.tpl'))]
+	ExcludeDirs = ["tools",".git","gh-pages","gitbook"] 
+	PythonFilesList = [x for x in results if x.split("/")[1] not in ExcludeDirs]
+	return PythonFilesList
+
 
 def GetJupyFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.ipynb'))]
