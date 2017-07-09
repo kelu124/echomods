@@ -1331,8 +1331,8 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-07-08 Doc 'n test
 
 * Received the cable for the probe
-  * @todo fill in probe if necessary
-  * @todo test
+  * @todo fill in probe if necessary -> need oil in it
+  * @done test -> to redo
 * @done fill in /wordofcaution.md
 * @done integrate thomas remarks in RPi
 * @todo update ppt_us with links all around

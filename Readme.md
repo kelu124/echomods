@@ -192,8 +192,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * use the GetSuppliersList function to list equipment suppliers
 * get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 * Add PCBA
- * fill in probe if necessary
- * test
+ * fill in probe if necessary -> need oil in it
 * update ppt_us with links all around
 
 

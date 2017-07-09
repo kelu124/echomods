@@ -1202,15 +1202,22 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-07-08 Doc 'n test
 
 * Received the cable for the probe
-  * @todo fill in probe if necessary
-  * @todo test
+  * @todo fill in probe if necessary -> need oil in it
+  * @done test -> to redo
 * @done fill in /wordofcaution.md
 * @done integrate thomas remarks in RPi
 * @todo update ppt_us with links all around
 * Templates
   * [ ] AddPitch.md.tpl
-  * [ ] @done Add TPL list
+  * [x] @done Add TPL list
 * Nice patent : https://www.google.com/patents/US4246792
+
+* Updated the first draft of the [tobo.alt](/tobo/alt.tobo/draft.alt.tobo.v0.01pdf)
+
+#### 2017-07-09 ADC boosting
+
+* Awesome paper - how to [boost the ADC](https://www.ncbi.nlm.nih.gov/pubmed/28368803) - https://www.ncbi.nlm.nih.gov/pubmed/28368803
+
 
 =======
 

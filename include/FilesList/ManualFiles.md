@@ -1,4 +1,4 @@
-* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md).
 
 * [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/include/AddPitch.md`](/include/AddPitch.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md).
 
@@ -8,9 +8,9 @@
 
 * [./elmo/RPins.md](/elmo/RPins.md):  . _File not used._
 
-* [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddQSTobo.md`](/include/AddQSTobo.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddQSTobo.md`](/include/AddQSTobo.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./cletus/2017-06-08_FindingSuppliers.md](/cletus/2017-06-08_FindingSuppliers.md):  . File used in: [`/Readme.md`](/Readme.md), [`/cletus/Readme.md`](/cletus/Readme.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md).
 
@@ -68,7 +68,7 @@
 
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266 . File used in: [`/Worklog.md`](/Worklog.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [./croaker/notes_STM32F205_ref_manual.md](/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . _File not used._
 
 * [./croaker/notes_ESP32.md](/croaker/notes_ESP32.md): Notes on ESP32 . _File not used._
 
@@ -78,13 +78,13 @@
 
 * [./croaker/notes_RPi0.md](/croaker/notes_RPi0.md): Random notes on RPi0 . File used in: [`/Worklog.md`](/Worklog.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./croaker/Readme.md](/croaker/Readme.md): Analog processing module readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./croaker/Readme.md](/croaker/Readme.md): Analog processing module readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./croaker/notes_EMW3165.md](/croaker/notes_EMW3165.md): Fun about EMW3165 . File used in: [`/Worklog.md`](/Worklog.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./croaker/feather_tests/2016-09-10-Feather_ADC.md](/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [./croaker/feather_tests/2016-09-10-Feather_ADC.md](/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./croaker/data/examples/Intro.md](/croaker/data/examples/Intro.md): Croaker text header on images . _File not used._
 
