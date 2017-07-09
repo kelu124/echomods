@@ -44,5 +44,7 @@ __Results: -118$__ (3 goblin left, 3x[Doj,Bomanz,CA3306] left) - 1 tobo scrapped
 
 __Results:__ +255$ (2 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set for me ;) )
 
+## 2017-07-03
 
+* 2017 Jun 30   : 	+ 920$ 	(HAD Prize)
 

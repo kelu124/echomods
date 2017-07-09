@@ -6,14 +6,14 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 
 ### HV
 
-* __R05-100B__ ([2]) ([0])
+* __R05-100B__ ([2]) ([0]) : efficient but expensive. Going to shift to something else for tobo.alt, maybe this one..
+* NMT0572SC ([19]) up to 72V --- 24, 48 and 72V V - 14€ -- seems OK
 * MAX1771
 * TPS61170 ([10]) Boost convertor
 * MAX5025 ([11]) - interesting setup
-* NMT0572SC ([19]) up to 72V --- 24, 48 and 72V V - 14€ -- seems OK
 * LT3958 ([21]) -> 5V to 48V
 * AN-H59DB1 is a high voltage DC/DC converter for HV748 ;)
-*  1470-1353-5-ND  https://www.digikey.com/product-detail/en/xp-power/IA0524S/1470-1353-5-ND/4487734 à +-24
+* 1470-1353-5-ND  https://www.digikey.com/product-detail/en/xp-power/IA0524S/1470-1353-5-ND/4487734 à +-24
 * LTC3813: http://cds.linear.com/docs/en/datasheet/3813fb.pdf 100V Current Mode Synchronous Step-Up Controller
 
 ### Pulsers
@@ -22,13 +22,12 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 * TC7320  ([5]) + MD1810 ([5])
 * MD1213  + TC6320 ([1])
 * MD1210 + TC2320 ([8])
-* __HV7360__ ([0])
+* __HV7360__ ([0]) and/or HV7361  ([27])  ([Application note](http://ww1.microchip.com/downloads/en/DeviceDoc/20005570A.pdf))
 * LM96550 ([10])
 * TC6320 ([21]) bipolar pulse
 * LM96550 Ultrasound Transmit Pulser, Output pulses +-50V
-
+* TC6320 ([25])  ([26])
 * STHV748 Quad ± 90 V, ± 2 A, 3/5 levels, high speed ultrasound pulser [Datasheet](http://www.st.com/content/ccc/resource/technical/document/datasheet/a9/7f/a3/46/99/65/42/02/CD00226856.pdf/files/CD00226856.pdf/jcr:content/translations/en.CD00226856.pdf) 22$.. ([22]) ([23]) and octal with STHV800 
-
 * HV732DB1 High Speed ±100V 2A - interesting pulser ( http://www.mouser.com/catalog/specsheets/HV732DB1.pdf ) 
 
 ### Multiplexer / Switch
@@ -46,7 +45,7 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 ### TGC
 AN-H59DB1 is a high voltage DC/DC converter
 * AD8332 ([8])
-* __AD8331__ ([0]) ([18]) ([19]) 
+* __AD8331__ ([0]) ([18]) ([19])   ([25])  ([26])
 * SMA231 ([21]) as LNAs
 
 ### Analog enveloppe detection
@@ -62,6 +61,7 @@ AN-H59DB1 is a high voltage DC/DC converter
 * AD9272-65EBZ ([16])
 * AFE5818 ([21]) for the capsule
 * AFE5804 
+* AD9230  ([25])
 
 ### ADCs
 
@@ -99,6 +99,8 @@ AN-H59DB1 is a high voltage DC/DC converter
 * Cyclone IV, EP4CE115F29 ([21])
 * CC3200 Wifi ([21]) 
 * FPGA Stratix IV 70 GX ([22])
+* Cyclone-V 5CGXFC7D7F31C8N  ([25])
+
 ### Phantom
 
 * Model 040GSE, CIRS,  USA ([3])
@@ -115,8 +117,6 @@ Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/ma
 * http://ntsu.net.au/software_controlled_ultrasonic_systems.html
 * http://www.tribosonics.com/pages/products/small-ultrasonic-system.htm
 * http://sci-hub.cc/10.1177/016173460803000104 has a nice picture of a interson pcb + xilinx
-
-
 
 [0]: https://github.com/kelu124/echomods/ "this project :)"
 [1]: https://www.duo.uio.no/bitstream/handle/10852/47813/Sharma_2015.pdf "Shatin Sharma Thesis"
@@ -142,4 +142,7 @@ Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/ma
 [21]: http://sci-hub.cc/10.1109/TMI.2017.2699973 "Development of a mechanical scanning device with high-frequency ultrasound transducer for ultrasonic capsule endoscopy"
 [22]: http://ieeexplore.ieee.org/abstract/document/7728843/ "A GPU-based ultrasound Phased-Array research system for non-destructive testing 10.1109/ULTSYM.2016.7728843"
 [23]: http://ieeexplore.ieee.org/abstract/document/7319210/ "ARTSENSTouch - A portable device for evaluation of carotid artery stiffness 10.1109/EMBC.2015.7319210"
-[24]: "Design of a multiple-rail high-voltage power supply for ultrasound scanners"
+[24]: http://ieeexplore.ieee.org/document/6932182/ "Design of a multiple-rail high-voltage power supply for ultrasound scanners 10.1109/ULTSYM.2014.0304"
+[25]: https://www.ncbi.nlm.nih.gov/pubmed/28368803 "A delayed-excitation data acquisition method for high-frequency ultrasound imaging 10.1109/TBME.2017.2687948"
+[26]: http://www.tandfonline.com/doi/abs/10.1080/10402004.2016.1146974?journalCode=utrb20 "Ultrasonic Measurement of Cylindrical Roller–Bearing Lubricant Film Distribution with Two Juxtaposed Transducers"
+[27]: http://mgh-courses.ece.gatech.edu/ece6414/S17/Projects/Team8_Draft2_ECE6414_S17.pdf "A Low Power System-on-a-Chip for Ultrasonic Non-Invasive Vein Detection"
