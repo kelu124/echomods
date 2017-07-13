@@ -83,7 +83,7 @@ static ssize_t device_write(struct file *, const char *, size_t, loff_t *);
 // Pulser
 #define Puls_ON	 23
 #define Puls_OFF 24
-
+#define MaxBit 31
 
 #define PPWWMM 6
 #define VU 21
@@ -175,6 +175,8 @@ static void readScope(){
 
 	struct timespec ts_start,ts_stop;
 	//Start time
+
+        GPIO_SET = 1 << MaxBit;
 
 set_current_state(TASK_UNINTERRUPTIBLE);
 

@@ -295,9 +295,11 @@ int init_module(void)
 	INP_GPIO(BIT7_PIN2);
 	INP_GPIO(BIT8_PIN2);
 
+	// these two used as inputs
         INP_GPIO(VU);
         INP_GPIO(PPWWMM);
 
+	// two pulsers
 	OUT_GPIO(Puls_ON);
 	OUT_GPIO(Puls_OFF);
 

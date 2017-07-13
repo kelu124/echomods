@@ -126,18 +126,19 @@ and the ouput of the pulser is:
 
 ### TODO
 
-
-* Testing the limits of ADC acquisition (speed / bits)
 * Save images as DICOMs
-* Understand why some GPIOs do not have lower values at 0..
-* MixedGadget => [Storage + ethernet](http://isticktoit.net/?p=1383) or [this](https://gist.github.com/gbaman/50b6cca61dd1c3f88f41) or [that](https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/overview).
-* Set pins to down [on boot](https://raspberrypi.stackexchange.com/questions/4664/setting-gpio-value-on-boot)
+
+
 
 ### DONE
 
 * Developping a CA3306E version of [the 10Msps ADC pHAT](https://github.com/kelu124/bomanz/blob/master/CA3306E/20170422-FirstAcqs.ipynb) for testing.
+* Testing the limits of ADC acquisition (speed / bits)
+* Understand why some GPIOs do not have lower values at 0..
+* Set pins to down [on boot](https://raspberrypi.stackexchange.com/questions/4664/setting-gpio-value-on-boot)
 * Dev a version of the [ADC08200](https://github.com/kelu124/bomanz/blob/master/ADC08200/)
 * Create a kernel module
+* _(Still to be explored)_ MixedGadget => [Storage + ethernet](http://isticktoit.net/?p=1383) or [this](https://gist.github.com/gbaman/50b6cca61dd1c3f88f41) or [that](https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/overview).
 * Test the [PWM](http://www.toptechboy.com/raspberry-pi/raspberry-pi-lesson-28-controlling-a-servo-on-raspberry-pi-with-python/)
 
 ### People

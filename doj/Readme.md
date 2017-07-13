@@ -95,13 +95,14 @@ With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming fro
 
 ### TODO
 
-* Change the viewme
+
 
 ### DONE
 
 * [PCB on OSHPark](https://oshpark.com/shared_projects/2taE6p4M)
 * Having the list of strips accessible
 * Design
+* Change the viewme
 * Assemble it
 * Test it
 * Adapt power supply from v2 - smaller board footprint

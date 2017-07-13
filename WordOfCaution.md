@@ -13,3 +13,14 @@ One of the modules uses a DC-booster, which can raise the voltage it delivers ab
 Other safety issues when applied to humans. There are indeed very strict regulations on ultrasound equipment for use in humans due to both thermal and mechanical effects of ultrasound on tissue such as overheating, and mechanical breaking of tissue structures. We understand that no medical scanners can be sold on the market without having undergone strict measurements and reporting routines (e.g. the FDA in USA and similar institutions elsewhere).
 
 However, the present modules do not aim at providing a medical ultrasound imaging system to a doctor, nor is suitable for tests on living beings, and hence does not need to fulfill the same requirements as a medical device.
+
+## Safety uses of ultrasounds
+
+
+So I noticed the comments on the hack a day nomination thing mentioned that high power ultrasound can cause deep tissue burns.
+
+I assume it's not a problem in this case, the pulser doesn't look powerful enough for that, but I'm wondering if maybe some links to safety information might be in order somewhere.
+
+I mean obviously nowhere on the page does it say to use it on humans, but it might be worth pointing to something like, "here are the failure modes that can cause injury"
+
+
