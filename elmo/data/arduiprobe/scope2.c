@@ -55,7 +55,7 @@ static ssize_t device_write(struct file *, const char *, size_t, loff_t *);
 
 //How many samples to capture
 #define SAMPLE_SIZE 	5000
-#define REPEAT_SIZE 	20
+#define REPEAT_SIZE 	200
 
 //Define GPIO Pins
 

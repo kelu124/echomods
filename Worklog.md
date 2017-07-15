@@ -1352,6 +1352,12 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo 
 * https://petapixel.com/2013/03/13/the-helsinki-bus-station-theory-finding-your-own-vision-in-photography/ : excellent article on finding your way.
 
+#### 2017-07-14 ADC boosting
+
+* New tester at http://www.usultratek.com/PDF/PicoPulser.pdf
+* Testing [double ADCs interleaved](https://github.com/kelu124/echomods/blob/master/elmo/data/20170713-TwoADCs.ipynb)
+* Cleaning the RPi: https://raspberrypi.stackexchange.com/questions/4745/how-to-uninstall-x-server-and-desktop-manager-when-running-as-headless-server
+
 =======
 
 uControllers and other stuff
