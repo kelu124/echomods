@@ -75,6 +75,11 @@ The aim of this module is to achieve 10Msps, ideally 20Msps, at 9bits or more. I
 
 ### Discussions
 
+#### Let's start with the end: it works!
+
+Testing the module with the [signal emulator module](/silent/), which yields a signal at 1.9MHz, it well seen at 1.9MHz, with a sampling speed equal to two times this freq, ie 24Msps ! See the details below:
+
+![](/elmo/data/twoadcs.jpg)
 
 #### Problem and solution
 
