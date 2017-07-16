@@ -1348,8 +1348,8 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Awesome paper - how to [boost the ADC](https://www.ncbi.nlm.nih.gov/pubmed/28368803) - https://www.ncbi.nlm.nih.gov/pubmed/28368803
 * Testing a counter with the [32u4](/elmo/data/arduiprobe/20170709-Repeats.ipynb) -- see  [data](/elmo/data/arduiprobe/data/)
-* @todo order tobo.alt
-* @todo 
+* @todo order tobo.alt 
+* @todo board pulser + processing + ADC for RPi
 * https://petapixel.com/2013/03/13/the-helsinki-bus-station-theory-finding-your-own-vision-in-photography/ : excellent article on finding your way.
 
 #### 2017-07-14 ADC boosting
@@ -1357,6 +1357,11 @@ Netty isn't nice... but just got my article accepted by JOH !
 * New tester at http://www.usultratek.com/PDF/PicoPulser.pdf
 * Testing [double ADCs interleaved](https://github.com/kelu124/echomods/blob/master/elmo/data/20170713-TwoADCs.ipynb)
 * Cleaning the RPi: https://raspberrypi.stackexchange.com/questions/4745/how-to-uninstall-x-server-and-desktop-manager-when-running-as-headless-server
+
+#### 2017-07-15 Probe et al
+
+* Testing the [probe + elmo setup: here](/elmo/data20170715-ProbeTest.ipynb)
+
 
 =======
 
