@@ -1074,10 +1074,10 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-05-13 Some new stuff
 
 * PCBs for [Doj V2](/doj/source/v2.0-kicad) - [see what it looks like](/doj/images/doj-v2.png) are ordered
-* @todo contact Sonopen / microsonix
+* @done contact Sonopen / microsonix
 * Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
 * @done add Felix, Will + Jp, Charles, Md+Afreen
-* @todo add Visa (possibly Pouya)
+* @todo add Visa, possibly Pouya and Thoùas
 * @todo map interested (green) and users (blue)
 * @done add OSH license
 * @done start an order for pulsers
@@ -1128,7 +1128,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo Need to have a look at this RPI GPIO DMA  - https://github.com/hzeller/rpi-gpio-dma-demo
 * @todo Include some cletus remarks (sourcing) on gitbook
 * @todo convert all previous images to dicom
-* @todo answer some questions online for RPI + ultrasound
+* @done answer some questions online for RPI + ultrasound
 * @done add the at todos to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
 * @done Test YAML data on Markdown files (see contributors)
 
@@ -1166,7 +1166,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @todo set the gain on the AFE using Doj v1.2
 * @todo use the GetSuppliersList function to list equipment suppliers
 * @done map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
-* @todo get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
+* @done get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 
 #### 2017-07-01 More interest
 
@@ -1202,11 +1202,12 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-07-08 Doc 'n test
 
 * Received the cable for the probe
-  * @todo fill in probe if necessary -> need oil in it
-  * @done test -> to redo
+  * @todo fill in probe if necessary -> need oil in it (see AMZ)
+  * @done test probe with oil -> to redo
+* @todo Test UHF probe
 * @done fill in /wordofcaution.md
 * @done integrate thomas remarks in RPi
-* @todo update ppt_us with links all around
+* @done update ppt_us with links all around
 * Templates
   * [ ] AddPitch.md.tpl
   * [x] @done Add TPL list
@@ -1217,6 +1218,20 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-07-09 ADC boosting
 
 * Awesome paper - how to [boost the ADC](https://www.ncbi.nlm.nih.gov/pubmed/28368803) - https://www.ncbi.nlm.nih.gov/pubmed/28368803
+* Testing a counter with the [32u4](/elmo/data/arduiprobe/20170709-Repeats.ipynb) -- see  [data](/elmo/data/arduiprobe/data/)
+* @todo order tobo.alt 
+* @todo board pulser + processing + ADC for RPi
+* https://petapixel.com/2013/03/13/the-helsinki-bus-station-theory-finding-your-own-vision-in-photography/ : excellent article on finding your way.
+
+#### 2017-07-14 ADC boosting
+
+* New tester at http://www.usultratek.com/PDF/PicoPulser.pdf
+* Testing [double ADCs interleaved](https://github.com/kelu124/echomods/blob/master/elmo/data/20170713-TwoADCs.ipynb)
+* Cleaning the RPi: https://raspberrypi.stackexchange.com/questions/4745/how-to-uninstall-x-server-and-desktop-manager-when-running-as-headless-server
+
+#### 2017-07-15 Probe et al
+
+* Testing the [probe + elmo setup: here](/elmo/data20170715-ProbeTest.ipynb)
 
 
 =======

@@ -7,12 +7,7 @@ Here's a couple of things we're working on, for which you could help as well.
 ### Todos from Modules
 * Remove the jitter (see image in Rdme) (in [cletus](/cletus/))
 * Include <a href="/cletus/2017-06-08_FindingSuppliers.md">notes</a> (in [cletus](/cletus/))
-* Testing the limits of ADC acquisition (speed / bits) (in [tomtom](/tomtom/))
 * Save images as DICOMs (in [tomtom](/tomtom/))
-* Understand why some GPIOs do not have lower values at 0.. (in [tomtom](/tomtom/))
-* MixedGadget =&gt; <a href="http://isticktoit.net/?p=1383">Storage + ethernet</a> or <a href="https://gist.github.com/gbaman/50b6cca61dd1c3f88f41">this</a> or <a href="https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/overview">that</a>. (in [tomtom](/tomtom/))
-* Set pins to down <a href="https://raspberrypi.stackexchange.com/questions/4664/setting-gpio-value-on-boot">on boot</a> (in [tomtom](/tomtom/))
-* Change the viewme (in [doj](/doj/))
 * Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a> - that is, pulse control. (in [croaker](/croaker/))
 * Get better total ADC speed with an iterleaved move (in [croaker](/croaker/))
 * Develop a Cletus+Croaker way of working with a gyroscope+accelerometer. (in [croaker](/croaker/))
@@ -23,22 +18,21 @@ Here's a couple of things we're working on, for which you could help as well.
 * 6Msps on the [STM32](/croaker/)
 * Sourcing transducer
 * dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
-* contact Sonopen / microsonix
-* add Visa (possibly Pouya)
+* add Visa, possibly Pouya and Thoùas
 * map interested (green) and users (blue)
 * Add a documentation server
 * Display IP on the OLED.
 * Need to have a look at this RPI GPIO DMA - https://github.com/hzeller/rpi-gpio-dma-demo
 * Include some cletus remarks (sourcing) on gitbook
 * convert all previous images to dicom
-* answer some questions online for RPI + ultrasound
 * put probe on the setup
 * set the gain on the AFE using Doj v1.2
 * use the GetSuppliersList function to list equipment suppliers
-* get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 * Add PCBA
- * fill in probe if necessary -> need oil in it
-* update ppt_us with links all around
+ * fill in probe if necessary -> need oil in it (see AMZ)
+* Test UHF probe
+* order tobo.alt 
+* board pulser + processing + ADC for RPi
 
 
 

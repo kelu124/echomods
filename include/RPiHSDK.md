@@ -151,7 +151,7 @@ _Total cost of the set: 404$_
 
 ### Some results: signals and images
 
-I'm getting similar images using the analog enveloppe detection (acquired by the DAQ, through a track exposed on the Analog Processing Module), compared to the digital enveloppe detection, as described below, again on the wire phantom:
+I'm getting similar images using the analog enveloppe detection (acquired by the [DAQ](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), through a track exposed on the Analog Processing Module), compared to the digital enveloppe detection, as described below, again on the wire phantom:
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/elmo/data/arduinoffset/LineImageEnveloppe.jpg) 
 
@@ -159,11 +159,17 @@ The same procedure was applied to acquire the enveloppe created through the anal
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/elmo/data/arduino/EnveloppeLineEnveloppe.jpg) 
 
-### Next steps: plugging the Pi to an existing probe
+### Plugging the Pi to an existing probe
 
-A beaglebone black had been used with its [high-speed DAQ](/toadkiller/) to be connected to an existing mechanical probe. The next step will be to interface the Pi to this probe, to see if one can get the same quality of image, and produce a ultrasound loop.
+A beaglebone black had been used with its [high-speed DAQ](/toadkiller/) to be connected to an existing mechanical probe. The next step has been to interface the Pi to this probe through the [24Msps Pi ADC pHAT](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), to see if one can get the same quality of image, and produce a ultrasound loop. 
 
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1.gif) 
+It produced in the end actually good images:
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/elmo/data/Imgs/pic_probeX.data.jpg)
+
+along with details of the processing chain (see the [work jupyter notebook](/elmo/data/20170715-ProbeTest.ipynb)):
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/elmo/data/Imgs/Processing_probeX.data.jpg)
 
 ### Lessons on the way
 
