@@ -678,6 +678,7 @@ BasicKit = "# Basic Dev Kit with BeagleBone\n\n"+"\n\n"
 BasicKit += AddOneLevel(getText("include/AddBasicDevKit.md"))+"\n\n"
 BasicKit += AddOneLevel(getText("include/sets/highspeed.cost.md"))+"\n\n"
 BasicKit +=    AddOneLevel(getText("include/AddBasicDevKitResults.md"))+"\n\n"
+OpenWrite(BasicKit+"\n\n","include/basicdevkit.md")
 
 OpenWrite(IncludeImage(AddRawHURL(BasicKit))+"\n\n","gitbook/Chapter2/basicdevkit.md")
 

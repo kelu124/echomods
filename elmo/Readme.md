@@ -16,7 +16,7 @@ Using a dual ADC raspberry extension for 20Msps+ DAQ
 * version: V1.3
 * date: 10/06/2017
 * cost:45$
-* sourcing:OSHPark, MAcroFab
+* sourcing:OSHPark, MacroFab
 * technology: SMD, AD9200
 * language: n/a
 * author: Kelu124

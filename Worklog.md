@@ -1362,6 +1362,9 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Testing the [probe + elmo setup: here](/elmo/data20170715-ProbeTest.ipynb)
 
+#### 2017-07-18 Further tests with servo
+
+* [Testing with the servo](/elmo/data/arduiphantom/Readme.md) and [the notebook](/elmo/data/arduiphantom/20170718-Servo.ipynb)
 
 =======
 
