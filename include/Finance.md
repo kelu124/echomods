@@ -47,4 +47,7 @@ __Results:__ +255$ (2 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set 
 ## 2017-07-03
 
 * 2017 Jun 30   : 	+ 920$ 	(HAD Prize)
+* 2017 Jul 17	:	+ 337$	(Marc, my set)
+* 2017 Jul 22	:	+ XXX	Caskey rest
+
 
