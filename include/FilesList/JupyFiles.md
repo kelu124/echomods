@@ -1,19 +1,20 @@
-* [Untitled.ipynb](/doc/Untitled.ipynb). _File not used._
-* [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). _File not used._
-* [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md).
-* [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). _File not used._
-* [20170713-TwoADCs.ipynb](/elmo/data/20170713-TwoADCs.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
-* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb). File used in: [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
-* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb). _File not used._
-* [20170711-TwoADCs.ipynb](/elmo/data/20170711-TwoADCs.ipynb). _File not used._
-* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](/elmo/Readme.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
-* [20170709-Repeats.ipynb](/elmo/data/arduiprobe/20170709-Repeats.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
-* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
-* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
-* [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
-* [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). _File not used._
-* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb). _File not used._
-* [MappingCommunity.ipynb](/include/community/MappingCommunity.ipynb). _File not used._
-* [20170702-TestATLDuinoTerface.ipynb](/retroATL3/data/20170702-TestATLDuinoTerface.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [Untitled.ipynb](/doc/Untitled.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170713-TwoADCs.ipynb](/elmo/data/20170713-TwoADCs.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb). File used in: [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170711-TwoADCs.ipynb](/elmo/data/20170711-TwoADCs.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](/elmo/Readme.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170709-Repeats.ipynb](/elmo/data/arduiprobe/20170709-Repeats.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170718-Servo.ipynb](/elmo/data/arduiphantom/20170718-Servo.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduiphantom/Readme.md`](/elmo/data/arduiphantom/Readme.md).
+* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [MappingCommunity.ipynb](/include/community/MappingCommunity.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170702-TestATLDuinoTerface.ipynb](/retroATL3/data/20170702-TestATLDuinoTerface.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 [](@autogenerated - invisible comment)

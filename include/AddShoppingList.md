@@ -33,6 +33,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * Test UHF probe
 * order tobo.alt 
 * board pulser + processing + ADC for RPi
+* add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
+* get orders from Sam CN.
 
 
 

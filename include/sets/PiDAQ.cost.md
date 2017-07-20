@@ -5,7 +5,7 @@ Using a simpler linux-enabled controler (the all-powerful Pi in its RPi 0 or Pi 
 
 * Simply the servo and transducer module ([cletus](/cletus/)) -- get for _80$_ (Where? Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22)))
 * The Pi Heart of the echOmods ([tomtom](/tomtom/)) -- get for _10$_ (Where?  Get the Pi W from [plenty of sources](https://www.raspberrypi.org/products/pi-zero-w/))
-* Using a dual ADC raspberry extension for 20Msps+ DAQ ([elmo](/elmo/)) -- get for _45$_ (Where? OSHPark, MAcroFab)
+* Using a dual ADC raspberry extension for 20Msps+ DAQ ([elmo](/elmo/)) -- get for _45$_ (Where? OSHPark, MacroFab)
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 * Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 

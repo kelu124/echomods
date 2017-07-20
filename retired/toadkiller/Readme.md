@@ -1,6 +1,6 @@
 # Module: ToadKiller dog  [](@description Acquiring data through a BeagleBone 40Msps PRUDAQ - readme)
 
-![](/toadkiller/viewme.png)
+![](/retired/toadkiller/viewme.png)
 
 ## Name
 
@@ -52,7 +52,7 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 ### How does it work: block diagram
 
-![Block schema](/toadkiller/source/blocks.png)
+![Block schema](/retired/toadkiller/source/blocks.png)
 
 * `ITF-B_5v`->`BBB`->`PRUDAQ`->`BBB`->`File`
 * `ITF-E_signal_envelope`->`PRUDAQ`
@@ -89,26 +89,26 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 The enveloppe signal (0-3.3V) coming from Goblin is clipped beforehands with 2 diodes, giving a 0-1.5V range with easy components.
 
-#### Testing the [analog processing board](/goblin/) with the PRUDAQ
+#### Testing the [analog processing board](/retired/goblin/) with the PRUDAQ
 
-Data sampled at 10Msps on the [PRUDAQ](/toadkiller/) on both channels.
+Data sampled at 10Msps on the [PRUDAQ](/retired/toadkiller/) on both channels.
 
-See the Jupyter notebook [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
+See the Jupyter notebook [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb)
 
-Data is saved [here](/toadkiller/data/test_enveloppe/dual_entry.bin). It's 32Mb of sampling at 10 Msps.
+Data is saved [here](/retired/toadkiller/data/test_enveloppe/dual_entry.bin). It's 32Mb of sampling at 10 Msps.
 
 
 ##### Signal in / signal out
 
 The signal sent in is 50mVpp, the carier is at 2MHz. Linear decrease from t0 to the end.
 
-![](/toadkiller/data/test_enveloppe/SigInSigOut.png)
+![](/retired/toadkiller/data/test_enveloppe/SigInSigOut.png)
 
 ##### Details at the enveloppe level
 
 The period of the signal is 2 MHz. The first peak has 1 period, the second 2, height is half of the first peak, and the 3rd has 3 periods, height 1/4th of the first peak. 
 
-![](/toadkiller/data/test_enveloppe/Details.png)
+![](/retired/toadkiller/data/test_enveloppe/Details.png)
 
 #### Learn more
 
@@ -200,7 +200,7 @@ For a working customized image, [follow this link](https://drive.google.com/file
 
 ### Silent 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [toadkiller](/toadkiller/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [toadkiller](/retired/toadkiller/) module) are open hardware, and working with open-hardware components.
 
 ### Based on 
 

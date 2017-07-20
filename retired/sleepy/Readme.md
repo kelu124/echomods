@@ -1,6 +1,6 @@
 # Module: Sleepy  [](@description Casing of the modules - readme)
 
-![](/sleepy/viewme.png)
+![](/retired/sleepy/viewme.png)
 
 ## Name
 
@@ -75,7 +75,7 @@ The aim of this echOmod is to encase the whole modules object in a neat case, ma
 
 ### Sleepy 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [sleepy](/sleepy/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [sleepy](/retired/sleepy/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

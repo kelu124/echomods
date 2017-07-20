@@ -1,6 +1,6 @@
 # Module: oneeye  [](@description Standalone pulser control unit - readme)
 
-![](/oneeye/viewme.png)
+![](/retired/oneeye/viewme.png)
 
 ## Name
 
@@ -50,11 +50,11 @@ The module aims at making a microcontroler, for the moment the `ArduinoTrinketPr
 
 As the controler the module is at the heart of the control interfaces, and in the case of the echOmod set of modules, in the Pulser controls (signals I and J), as well as the Gain Control and the servo control (hence position).
 
-A simple arduino code is [presented here](/oneeye/oneye_pulser.ino).
+A simple arduino code is [presented here](/retired/oneeye/oneye_pulser.ino).
 
 ### How does it work: block diagram
 
-![Block schema](/oneeye/source/blocks.png)
+![Block schema](/retired/oneeye/source/blocks.png)
 
 * `ITF-2_VDD_5V`->`ArduinoTrinketPro`->`ITF-7_GAIN` 
 * `ArduinoTrinketPro`->`ITF-9_Pon` 
@@ -75,7 +75,7 @@ A simple arduino code is [presented here](/oneeye/oneye_pulser.ino).
 
 ### Layout on the motherboard
 
-![](/oneeye/images/oneeye-trinket.png)
+![](/retired/oneeye/images/oneeye-trinket.png)
 
 ## Discussions
 
@@ -95,7 +95,7 @@ A simple arduino code is [presented here](/oneeye/oneye_pulser.ino).
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [One-Eye](/oneeye/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [One-Eye](/retired/oneeye/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

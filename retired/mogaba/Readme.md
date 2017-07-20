@@ -1,6 +1,6 @@
 # Module: Mogaba  [](@description Off-the shelf power supply module - Readme)
 
-![](/mogaba/viewme.png)
+![](/retired/mogaba/viewme.png)
 
 ## Name
 
@@ -45,7 +45,7 @@ The aim of this echOmod is to get 3.3V and 5V done.
 
 ### How does it work: block diagram
 
-![Block schema](/mogaba/source/blocks.png)
+![Block schema](/retired/mogaba/source/blocks.png)
 
 * `ITF-mEM_Alimentation`->`BreadBoardAlim`->`ITF-B_5v`
 * `BreadBoardAlim`->`ITF-B_3_3v`
@@ -68,15 +68,15 @@ Quality of the power supply is key: it can introduce noise in the final
 
 #### 8V input, stabilized power supply
 
-![](/include/images/2016-08-09/TEK0004.JPG)
+![](/retired/include/images/2016-08-09/TEK0004.JPG)
 
 #### 7.5V, "clean" power supply (Settable voltage)
 
-![](/include/images/2016-08-09/TEK0005.JPG)
+![](/retired/include/images/2016-08-09/TEK0005.JPG)
 
 #### 12V, crappy power supply (amazon) 
 
-![](/include/images/2016-08-09/TEK0006.JPG)
+![](/retired/include/images/2016-08-09/TEK0006.JPG)
 
 
 ## Discussions
@@ -100,7 +100,7 @@ Quality of the power supply is key: it can introduce noise in the final
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Mogaba](/mogaba/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Mogaba](/retired/mogaba/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

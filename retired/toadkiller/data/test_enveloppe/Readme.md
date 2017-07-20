@@ -1,14 +1,14 @@
-# Testing the specs of the In / out for the [analog processing board](/goblin/)
+# Testing the specs of the In / out for the [analog processing board](/retired/goblin/)
 
 ## Test of the analog processing board
 
-Data sampled at 10Msps on the [PRUDAQ](/toadkiller/) on both channels.
+Data sampled at 10Msps on the [PRUDAQ](/retired/toadkiller/) on both channels.
 
 ## Code
 
-See the Jupyter notebook [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
+See the Jupyter notebook [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb)
 
-Data is saved [here](/toadkiller/data/test_enveloppe/dual_entry.bin). It's 32Mb of sampling at 10 Msps.
+Data is saved [here](/retired/toadkiller/data/test_enveloppe/dual_entry.bin). It's 32Mb of sampling at 10 Msps.
 
 Part of the data is the signal going in the board, the second part is what comes out of the probe.
 
@@ -21,10 +21,10 @@ Remarks :
 
 The signal sent in is 50mVpp, the carier is at 2MHz. Linear decrease from t0 to the end.
 
-![](/toadkiller/data/test_enveloppe/SigInSigOut.png)
+![](/retired/toadkiller/data/test_enveloppe/SigInSigOut.png)
 
 ### Details at the enveloppe level
 
 The period of the signal is 2 MHz. The first peak has 1 period, the second 2, height is half of the first peak, and the 3rd has 3 periods, height 1/4th of the first peak. 
 
-![](/toadkiller/data/test_enveloppe/Details.png)
+![](/retired/toadkiller/data/test_enveloppe/Details.png)

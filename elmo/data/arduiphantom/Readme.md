@@ -36,3 +36,7 @@ The setup is as follows:
 ![](/elmo/images/20170717_223857.jpg)
 
 Images.. processing is ongoing =)
+
+-> See this [jupyter notebook to see](/elmo/data/arduiphantom/20170718-Servo.ipynb) the progress. The issue here is to align the beginning of the lines together to have a consistent delay at first.
+
+

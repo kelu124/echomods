@@ -122,7 +122,7 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 
 ### Retro10PV 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [retro10PV](/retro10PV/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [retro10PV](/retired/retro10PV/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
