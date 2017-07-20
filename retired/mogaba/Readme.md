@@ -68,15 +68,15 @@ Quality of the power supply is key: it can introduce noise in the final
 
 #### 8V input, stabilized power supply
 
-![](/retired/include/images/2016-08-09/TEK0004.JPG)
+![](/retired/mogaba/include/images/2016-08-09/TEK0004.JPG)
 
 #### 7.5V, "clean" power supply (Settable voltage)
 
-![](/retired/include/images/2016-08-09/TEK0005.JPG)
+![](/retired/mogaba/include/images/2016-08-09/TEK0005.JPG)
 
 #### 12V, crappy power supply (amazon) 
 
-![](/retired/include/images/2016-08-09/TEK0006.JPG)
+![](/retired/mogaba/include/images/2016-08-09/TEK0006.JPG)
 
 
 ## Discussions
