@@ -19,13 +19,13 @@ Imaging a small 1cm side cubic dice: acquisition during 1s.
 
 Some stuff, unexpensive to buy, to build a ultrasound testing kit -- _500$_
 
-* A power supply giving 3.3V and 5V ([mogaba](/mogaba/)) -- _5$_
+* A power supply giving 3.3V and 5V ([mogaba](/retired/mogaba/)) -- _5$_
 * An analog processing ([goblin](/goblin/)) -- _130$_
 * A high voltage pulser ([tobo](/tobo/)) -- _110$_
 * A motherboard ([doj](/doj/)) made out of stripboard  -- _10$_
-* A pulser ([oneeye](/oneeye/)) from a trinket pro  -- _20$_
+* A pulser ([oneeye](/retired/oneeye/)) from a trinket pro  -- _20$_
 * An old ATL probe ([retroATL3](/retroATL3/)) -- _75$_
-* A beaglebone and PRUDAQ ([toadkiller](/toadkiller/)) -- _150$_
+* A beaglebone and PRUDAQ ([toadkiller](/retired/toadkiller/)) -- _150$_
 
 Need one of the custom boards? Message me at kelu124@gmail.com !
 

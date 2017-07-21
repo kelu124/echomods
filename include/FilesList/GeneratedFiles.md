@@ -3,8 +3,8 @@
 * ./include/AddTableAvancement.md
 * ./include/AddShoppingList.md
 * ./include/AddModulesSummary.md
-* ./include/RPiHSDK.md
 * ./include/AddMyLogs.md
+* ./include/basicdevkit.md
 * ./include/FilesList/TPLFiles.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/PythonFiles.md

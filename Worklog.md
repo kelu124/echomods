@@ -167,8 +167,8 @@ Worklog -- Starting April 5th 2016
 
 * [Goblin](/goblin/Readme.md): the analog heart, was drafted as well during Murgen. 
 * [Tobo](/tobo/Readme.md): the HV/pulser, based on a drafted close to Murgen. 
-* [One-Eye](/oneeye/Readme.md): MicroControler - Arduinos
-* [Mogaba](/mogaba/Readme.md): Alimentation
+* [One-Eye](/retired/oneeye/Readme.md): MicroControler - Arduinos
+* [Mogaba](/retired/mogaba/Readme.md): Alimentation
 
 Second generation of fun! Learning microcontrolers and advanced simulations
 
@@ -814,7 +814,7 @@ Would you like to support an existing project with your skills and expertise? Or
 #### 2016-09-09 Random stuff as usual
 
 * Arduboy ? Awesome!
-* A design for [Sleepy](/sleepy/) is taking place.. wood rules =) Need a water tank though.
+* A design for [Sleepy](/retired/sleepy/) is taking place.. wood rules =) Need a water tank though.
 * An awesome thing to automate physical interactions with a phone, using https://www.tindie.com/products/hugs/tapster/
 
 #### 2016-09-12 Thanks Adafruit
@@ -1088,7 +1088,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-03-06 Further work
 
 * Updated the [suppliers repo](/cletus/suppliers/Readme.md)
-* Testing the [goblin](/goblin/) In/out transfer function on the [emulator](/silent/) signal: [read here](/toadkiller/data/test_enveloppe/). The more I play with Jupyter notebooks, the more I like it.
+* Testing the [goblin](/goblin/) In/out transfer function on the [emulator](/silent/) signal: [read here](/retired/toadkiller/data/test_enveloppe/). The more I play with Jupyter notebooks, the more I like it.
 
 * Thinking about the 15 - 20 - 25 Msps pHAT.
 * Moving forward with the Netty issue at [@20e214](http://github.com/20e214/)
@@ -1197,7 +1197,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 #### 2017-05-05 Moving forward
 
-* Been testing new iteration of Tobo with new HV7360. Pulser works with the [pulser control](/oneeye/)
+* Been testing new iteration of Tobo with new HV7360. Pulser works with the [pulser control](/retired/oneeye/)
 * Testing the pulser with the [RPi Control](/tomtom/) see [the notebook](/tomtom/20170507-TomTomTests.ipynb).
 
 #### 2017-05-13 Some new stuff
@@ -1368,6 +1368,17 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Power in a [piezo element](https://electronics.stackexchange.com/questions/317873/electrical-power-in-piezoelectric-transducer)
 * @todo add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
 * @todo get orders from Sam CN.
+
+#### 2017-07-21 News from Newcastle
+
+* [Interesting article on synthetic aperture  - PDF](/include/biblio/burckhardt1974.pdf)
+* [New article from Neasham - PDF](/include/biblio/10.1109@TBCAS.2017.2695240.pdf) -- some sources for good references
+  * Tech insights: using a 12Msps ADC for a 4MHz piezo and a 4 FPS - software limited, using a Voice Coil Motor (VCM -- see "Design and optimization of a voice coil motor with a rotary actuator for an ultrasound scanner," by same author )  for low noise, 15cm deep, 200 lines over 50°, 96V pulses, using synthetic aperture focusing on sig proc -- and they have already been doing in FDA compliant in vivo testing, Table III shows tech specs achieved.
+  * Also introduces some _"low-cost devices recently entering the market include the Interson SeeMore probe, the SunBright SUN-806F and the Telemed MicrUs, which can be purchased between $1.5k and $3k."_.
+
+TODOs:
+* @todo remove gitbook MD files from the log
+* @todo link to files in the log (python)
 
 =======
 

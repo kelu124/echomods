@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The aim of this set of modules is to remove the "heavy-weight" beaglebone black and its DAQ ([toadkiller module](/toadkiller/)) and to replace it with a small arduino like, capable of acquiring 6Msps and stream it over wifi, while leveraging the arduino IDE.
+The aim of this set of modules is to remove the "heavy-weight" beaglebone black and its DAQ ([toadkiller module](/retired/toadkiller/)) and to replace it with a small arduino like, capable of acquiring 6Msps and stream it over wifi, while leveraging the arduino IDE.
 
 Of course, due to its limitation, it cannot properly sample the raw signal coming back from the transducer, but with the help of the [analog processing module](/goblin/), the enveloppe of the signal, ie the bones of the ultrasound image, is ready to be acquired.
 

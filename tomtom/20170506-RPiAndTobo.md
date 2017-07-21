@@ -2,7 +2,7 @@
 
 ### Target to be achieved:
 
-The pulses from the [initial pulser controler](/oneeye/). First pulse is 125ns wide, the second 8us wide.
+The pulses from the [initial pulser controler](/retired/oneeye/). First pulse is 125ns wide, the second 8us wide.
 
 ![](/tobo/images/2017/TEK0000.JPG)
 

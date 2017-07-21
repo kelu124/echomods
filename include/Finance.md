@@ -23,11 +23,11 @@ __Results: -110$__
 
 ## 2017
 
-* 2017 Feb 5	: 	+183$	(Felix, Tindie, Analog)
-* 2017 Mar 15	: 	+183$	(Felix, Tindie, Pulser)
-* 2017 Mar 26	:	-74$	(ATL3L, eBay, P/N 101-24900-60 (3865))
-* 2017 Mar 26	:	-211$	(OSHPark, Doj+Bomanz+CA3306)
-* 2017 Mar 29	:	-89$	(Adafruit, Huzzah+Trinket+..)
+* 2017 Feb 5	: 	+ 183$	(Felix, Tindie, Analog)
+* 2017 Mar 15	: 	+ 183$	(Felix, Tindie, Pulser)
+* 2017 Mar 26	:	- 74$	(ATL3L, eBay, P/N 101-24900-60 (3865))
+* 2017 Mar 26	:	- 211$	(OSHPark, Doj+Bomanz+CA3306)
+* 2017 Mar 29	:	- 89$	(Adafruit, Huzzah+Trinket+..)
 
 __Results: -118$__ (3 goblin left, 3x[Doj,Bomanz,CA3306] left) - 1 tobo scrapped.
 
@@ -47,7 +47,16 @@ __Results:__ +255$ (2 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set 
 ## 2017-07-03
 
 * 2017 Jun 30   : 	+ 920$ 	(HAD Prize)
-* 2017 Jul 17	:	+ 337$	(Marc, my set)
-* 2017 Jul 22	:	+ XXX	Caskey rest
+* 2017 Jul 17	:	+ 337$	(Marc, my set of Gob/Tob)
+* 2017 Jul 22	:	+ 219$	(Caskey rest)
 
+__Results:__ +1731$ (1 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set for me ;) )
+
+* Use foreseen	:	-1850$
+  * CN fab test	:	-1253$ for 5x[Tobo.alt, Gob.lite, Bomanz.vf)
+  * Get parts	:	- 600$
+    * Board 	:	- 350$
+    * Battery	:	- 50$
+    * Probe: 	:	- 200$  
+* Remaining	:	- 120$
 

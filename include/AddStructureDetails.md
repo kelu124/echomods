@@ -14,7 +14,7 @@ The LNA in the receiver must have excellent noise performance and sufficient gai
 The VGA, sometimes called a time gain control (TGC) amplifier, provides the receiver with sufficient dynamic range over the full receive cycle. Ultrasound signals propagate in the body at approximately 1540 meters per second and attenuate at a rate of about 1.4dB/cm-MHz roundtrip. Immediately after an acoustic transmit pulse, the received "echo" signal at the LNA's input can be as large as 0.5VP-P. This signal quickly decays to the thermal noise floor of the transducer element. The dynamic range required to receive this signal is approximately 100dB to 110dB, and is well beyond the range of a realistic ADC. As a result, a VGA is used to map this signal into the ADC. A VGA with approximately 30dB to 40dB of gain is necessary to map the received signal into a typical 12-bit ADC used in this application. The gain is ramped as a function of time (i.e., "time gain control") to accomplish this dynamic range mapping.
 
 
-### Anti-Alias Filter (AAF) and ADC ([see the module](/toadkiller/))
+### Anti-Alias Filter (AAF) and ADC ([see the module](/retired/toadkiller/))
 
 The AAF in the receive chain keeps high-frequency noise and extraneous signals that are beyond the normal maximum imaging frequencies from being aliased back to baseband by the ADC. Many times an adjustable AAF is provided in the design. To avoid aliasing and to preserve the time-domain response of the signal, the filter itself needs to attenuate signals beyond the first Nyquist zone. For this reason Butterworth or higher-order Bessel filters are used.
 

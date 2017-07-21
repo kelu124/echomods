@@ -8,7 +8,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * Remove the jitter (see image in Rdme) (in [cletus](/cletus/))
 * Include <a href="/cletus/2017-06-08_FindingSuppliers.md">notes</a> (in [cletus](/cletus/))
 * Save images as DICOMs (in [tomtom](/tomtom/))
-* Replace the work done by <a href="/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a> - that is, pulse control. (in [croaker](/croaker/))
+* Replace the work done by <a href="/retired/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a> - that is, pulse control. (in [croaker](/croaker/))
 * Get better total ADC speed with an iterleaved move (in [croaker](/croaker/))
 * Develop a Cletus+Croaker way of working with a gyroscope+accelerometer. (in [croaker](/croaker/))
 * Have Croaker generate its own AP (in [croaker](/croaker/))
@@ -35,6 +35,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * board pulser + processing + ADC for RPi
 * add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
 * get orders from Sam CN.
+* remove gitbook MD files from the log
+* link to files in the log (python)
 
 
 

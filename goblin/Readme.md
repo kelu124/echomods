@@ -114,7 +114,7 @@ Input/Output:
 
 ![](/goblin/images/TEK0010.JPG)
 
-See more details of the [acquisition of in/out of the module, using the PRUDAQ Module](/toadkiller/data/test_enveloppe/Readme.md).
+See more details of the [acquisition of in/out of the module, using the PRUDAQ Module](/retired/toadkiller/data/test_enveloppe/Readme.md).
 
 
 #### Comparing the signals: amplified signal vs enveloppe detected
@@ -141,17 +141,17 @@ Details on the peaks
 
 #### Access to raw data
 
-Data sampled at 10Msps on the [PRUDAQ](/toadkiller/) on both channels.
+Data sampled at 10Msps on the [PRUDAQ](/retired/toadkiller/) on both channels.
 
-See the Jupyter notebook [In-Out.ipynb](/toadkiller/data/test_enveloppe/In-Out.ipynb)
+See the Jupyter notebook [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb)
 
-Data is saved [here](/toadkiller/data/test_enveloppe/dual_entry.bin). It's 32Mb of sampling at 10 Msps. Full repo for the [measure test](/toadkiller/data/test_enveloppe/). Let's check the Signal In vs Signal Out:
+Data is saved [here](/retired/toadkiller/data/test_enveloppe/dual_entry.bin). It's 32Mb of sampling at 10 Msps. Full repo for the [measure test](/retired/toadkiller/data/test_enveloppe/). Let's check the Signal In vs Signal Out:
 
-![](/toadkiller/data/test_enveloppe/SigInSigOut.png)
+![](/retired/toadkiller/data/test_enveloppe/SigInSigOut.png)
 
 with details:
 
-![](/toadkiller/data/test_enveloppe/Details.png)
+![](/retired/toadkiller/data/test_enveloppe/Details.png)
 
 
 #### Trying with different frequencies
@@ -201,7 +201,7 @@ The AD7273/AD7274 are high speed, low power, 10-/12-bit, single supply ADCs, res
 ### DONE
 
 * Check the power consumption
-* [Testing the in and out signals](/toadkiller/data/test_enveloppe/) of the board with the prudaq.
+* [Testing the in and out signals](/retired/toadkiller/data/test_enveloppe/) of the board with the prudaq.
 * Specs to write
 * Agreeing on the strips 
 * Check if 5V and 3.3V are stable
@@ -211,7 +211,7 @@ The AD7273/AD7274 are high speed, low power, 10-/12-bit, single supply ADCs, res
 * Receive the module
 * Publish the sources in KiCAD (@Sofian maybe?)
 * CANCELLED - Test it with the [EMW3165](/retired/hannin/)
-* Plug it to a [RPi0](/elmo/) or [BBB](/toadkiller/) or [STM32](/croaker/)
+* Plug it to a [RPi0](/elmo/) or [BBB](/retired/toadkiller/) or [STM32](/croaker/)
 * Connect the ADC to a RPi0
 
 ### People

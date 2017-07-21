@@ -124,14 +124,14 @@ Later on, in december, I got it work with a [breadboard phantom](/croaker/data/2
 
 ### TODO
 
-* Replace the work done by [OneEye](/oneeye/) by [Croaker](/croaker/) - that is, pulse control.
+* Replace the work done by [OneEye](/retired/oneeye/) by [Croaker](/croaker/) - that is, pulse control.
 * Get better total ADC speed with an iterleaved move
 * Develop a Cletus+Croaker way of working with a gyroscope+accelerometer.
 * Have Croaker generate its own AP
 
 ### DONE
 
-* Choose the platform ([BBB](/toadkiller/), RPi0, [STM32](/croaker/), ... ?) : that'll be a `Feather WICED` for this iteration of Croaker
+* Choose the platform ([BBB](/retired/toadkiller/), RPi0, [STM32](/croaker/), ... ?) : that'll be a `Feather WICED` for this iteration of Croaker
 * Getting some images
 * Getting images onto a screen
 * Getting good resolution images -- see the [breadboard phantom](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md)

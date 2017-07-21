@@ -73,7 +73,7 @@ The aim of this echOmod is to get the mechanical movement of the piezos. Salvage
 ## Constraint and limits
 
 
-* For using the ATL Access 3, the 3.3V can be used directly from the [power supply](/mogaba/) -- see [this page](https://kelu124.gitbooks.io/echomods/content/Chapter2/basicdevkit.html).
+* For using the ATL Access 3, the 3.3V can be used directly from the [power supply](/retired/mogaba/) -- see [this page](https://kelu124.gitbooks.io/echomods/content/Chapter2/basicdevkit.html).
 
 
 
@@ -147,7 +147,7 @@ Having timestamped the bitscope acquisitions, there is a 20 +- 0.74 ms between e
 
 #### Real time achieved
 
-Getting realtime information (with no stupid data transfer delays) gives continuous images, using a [Beaglebone PRUDAQ](/toadkiller/).
+Getting realtime information (with no stupid data transfer delays) gives continuous images, using a [Beaglebone PRUDAQ](/retired/toadkiller/).
 
 ![](/include/20160814/sonde3V_1.png)
 
