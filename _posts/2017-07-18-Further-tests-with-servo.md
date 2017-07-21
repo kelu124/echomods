@@ -16,5 +16,3 @@ title: 2017-07-18 Further tests with servo
     to the alt.pulser board
 -   @todo get orders from Sam CN.
 
-=======
-
