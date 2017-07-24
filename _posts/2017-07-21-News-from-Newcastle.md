@@ -36,5 +36,3 @@ TODOs:
 -   @todo quickstart installs and tests (see Charles email)
 -   @todo finish the [Word of Caution MD](/WordOfCaution.md)
 
-=======
-
