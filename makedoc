@@ -26,12 +26,12 @@ git add * -v
 git commit -m "Autopush"
 git push
 
-cd ../bomanz/
+cd ../../bomanz/
 git add * -v
 git commit -m "Autopush"
 git push
 
-cd ../
+cd ../echomods/
 
 git add * -v
 git commit -m "Autopush"
