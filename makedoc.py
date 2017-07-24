@@ -657,7 +657,7 @@ for eachModule in ModulesChaptDeux:
 	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
 
 for eachModule in ModulesChaptDeuxRT:
-	ModuleDesc = getText("/retired/"+eachModule+"/Readme.md")
+	ModuleDesc = getText("./retired/"+eachModule+"/Readme.md")
 	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
 
 # Resume pour Murgen
@@ -723,7 +723,7 @@ for eachModule in ModulesChaptTrois:
 	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
 
 for eachModule in ModulesChaptTroisRT:
-	ModuleDesc = getText("/retired/"+eachModule+"/Readme.md")
+	ModuleDesc = getText("./retired/"+eachModule+"/Readme.md")
 	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
 
 CopyGitBookBomanzFile("../bomanz/Readme.md","gitbook/Chapter3/bomanz.md")
