@@ -22,9 +22,19 @@ title: 2017-07-21 News from Newcastle
 -   Also introduces some *"low-cost devices recently entering the market
     include the Interson SeeMore probe, the SunBright SUN-806F and the
     Telemed MicrUs, which can be purchased between \$1.5k and \$3k."*.
+-   [Feasibility of Swept Synthetic Aperture Ultrasound Imaging -
+    PDF](/include/biblio/bottenus2016.pdf)
+-   [Design and Optimisation of a Voice Coil Motor (VCM) with a Rotary
+    Actuator for an Ultrasound Scanner -
+    PDF](/include/biblio/smith2015.pdf)
 
-TODOs: *@todo remove gitbook MD files from the log* @todo link to files
-in the log (python)
+TODOs:
+
+-   @todo remove gitbook MD files from the log
+-   @todo link to files in the log (python)
+-   @todo put back good ino for pulser
+-   @todo quickstart installs and tests (see Charles email)
+-   @todo finish the [Word of Caution MD](/WordOfCaution.md)
 
 =======
 
