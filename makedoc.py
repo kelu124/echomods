@@ -658,7 +658,7 @@ for eachModule in ModulesChaptDeux:
 
 for eachModule in ModulesChaptDeuxRT:
 	ModuleDesc = getText("./retired/"+eachModule+"/Readme.md")
-	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
+	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,"retired/"+eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
 
 # Resume pour Murgen
 MurgenSummary = "# The first iteration, Murgen\n\n"
@@ -724,7 +724,7 @@ for eachModule in ModulesChaptTrois:
 
 for eachModule in ModulesChaptTroisRT:
 	ModuleDesc = getText("./retired/"+eachModule+"/Readme.md")
-	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
+	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,"retired/"+eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
 
 CopyGitBookBomanzFile("../bomanz/Readme.md","gitbook/Chapter3/bomanz.md")
 CopyGitBookBomanzFile("../bomanz/20170430-PushingADCLimits.md","gitbook/Chapter3/bomanz2.md")
