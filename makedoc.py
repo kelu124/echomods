@@ -623,6 +623,8 @@ f.close()
 OpenWrite(IncludeImage(AddRawHURL(PrinciplesOfEchoes)),"gitbook/Chapter1/principles.md")
 OpenWrite(AddRawHURL(HeaderDocTxt),"gitbook/Chapter1/modules.md")
 
+CopyGitBookFile("include/NDT.md","gitbook/Chapter1/ndt.md")
+
 # list of modules
 OpenWrite(IncludeImage(AddRawHURL(TableModulesShort+"\n\n"+TableRetiredDocTxt)),"gitbook/Chapter1/listofmodules.md")
 

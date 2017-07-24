@@ -5,7 +5,7 @@
 
 * "there is DICOM meta-data that includes the resolution in the PixelWidth tag".
 
-## Resoureces
+## Resources
 
 ```
 file_meta.MediaStorageSOPClassUID = 'Ultrasound Image Storage'

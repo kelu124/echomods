@@ -49,6 +49,9 @@ ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom"]
 ModulesChaptTroisRT= ["sleepy","oneeye"]
 ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
 
+ToBeReplaced = ["/include/NDT.md"]
+Replaced = ["/Chapter1/ndt.md"]
+
 ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz"]
 ExcludeDirsRetired = ExcludeDirs+["retired"]
 
@@ -220,7 +223,10 @@ def IncludeImage(s):
 
 def AddRawHURL(s):
 	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
-	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/"
+	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/" 
+	for o in range(len(ToBeReplaced)):
+		s = s.replace("]("+ToBeReplaced[o]+")", "]("+BaseURL+Replaced[o]+")")
+
 	for moduledeux in ModulesChaptDeux:
 		s = s.replace("](/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")	
 		s = s.replace("](/"+moduledeux+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduledeux+"/source/blocks.png)")	

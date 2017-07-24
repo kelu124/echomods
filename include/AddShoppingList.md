@@ -37,6 +37,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * get orders from Sam CN.
 * remove gitbook MD files from the log
 * link to files in the log (python)
+* put back good ino for pulser
+* quickstart installs and tests (see Charles email)
+* finish the [Word of Caution MD](/WordOfCaution.md)
 
 
 

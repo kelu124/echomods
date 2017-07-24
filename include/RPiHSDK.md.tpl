@@ -6,7 +6,7 @@
 
 ## Disclaimers
 
-* __Disclaimer #0__: __This is not a medical ultrasound scanner__! It's a development kit that can be used for pedagogical and academic purposes - possible immediate use as a non-destructive testing (NDT) tool, for example in metallurgical crack analysis. As in all electronics, be [careful](/WordOfCaution.md).
+* __Disclaimer #0__: __This is not a medical ultrasound scanner__! It's a development kit that can be used for pedagogical and academic purposes - possible immediate use as a non-destructive testing ([NDT](/include/NDT.md)) tool, for example in metallurgical crack analysis. As in all electronics, be [careful](/WordOfCaution.md).
 * __Disclaimer #1__: though an engineer, this project is the first of its sort, I never did something related. It's all but a finalized product.
 * __Disclaimer #2__: Ultrasound raises questions. In case you build a scanner, use caution and good sense!
 
