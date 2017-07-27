@@ -12,5 +12,3 @@ title: 2017-07-24 Where is Ivan
 -   Mechanical sweeping probe image from
     http://www.mdpi.com/1424-8220/14/11/20825/htm
 
-=======
-
