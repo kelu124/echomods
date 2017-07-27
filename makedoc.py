@@ -126,9 +126,12 @@ for i in range(len(ListeOfTPL)):
 	TPLLog +="\n"
 	## 
 	print "-- "+ListeOfTPL[i][2:]
-	RPI = GetIncludes(getText(ListeOfTPL[i][2:]),  MDFiles[5], MDFiles[4],ListeOfTPL[i][2:])
-	RPI_article = RPI[0]
-	OpenWrite(IncludeImage(AddRawHURL(RPI_article)),ListeOfTPL[i][2:].split(".tp")[0])
+	for i in range(1):
+		# Doing it twice for tpl using tpl-generated files
+		RPI = GetIncludes(getText(ListeOfTPL[i][2:]),  MDFiles[5], MDFiles[4],ListeOfTPL[i][2:])
+		RPI_article = RPI[0]
+		OpenWrite(IncludeImage(RPI_article),ListeOfTPL[i][2:].split(".tp")[0])
+
 	log += RPI[1]
 
 OpenWrite(TPLLog,"include/FilesList/TPLFiles.md")
@@ -632,11 +635,9 @@ OpenWrite(IncludeImage(AddRawHURL(TableModulesShort+"\n\n"+TableRetiredDocTxt)),
 # Adding Quickstart
 # -------------------------
 
-AddQS  =  getText("include/AddUSSDK.md")+"\n\n"
-AddQS  += "# Quick start\n\n" + getText("include/AddQSDoj.md")
-AddQS  += "\n\n" + getText("include/AddQSGoblin.md") + "\n\n"
-AddQS  += "\n\n" + getText("include/AddQSTobo.md") + "\n\n"
-OpenWrite(IncludeImage(AddRawHURL(AddQS)),"gitbook/Chapter1/QuickStart.md")
+
+
+CopyGitBookFile("include/QuickStart.md","gitbook/Chapter1/QuickStart.md")
 
 # -------------------------
 # Adding RPi article

@@ -4,7 +4,7 @@ Servo myServo;
 
 int pos = 14;
 int pinServo = 12; //analog pin 12
-int pinInterrup = 10; //analog pin 12
+int pinInterrup = 10; //analog pin 12 
 int pinLED = 13;
 int pinLEDSD = 8;
 int LEDStatus = 0;
@@ -29,7 +29,8 @@ void setup() {
   digitalWrite(pinLED, LEDStatus);
 
 
-  attachInterrupt(2, updatePos, RISING);
+  attachInterrupt(2, updatePos, RISING); // actually, interrupt #2 is on GPIO #0
+// #0 / RX - GPIO #0, also receive (input) pin for Serial1 and Interrupt #2
 
   digitalWrite(pinServo, LOW);
   digitalWrite(pinPWM, LOW);

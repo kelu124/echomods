@@ -16,11 +16,6 @@ However, the present modules do not aim at providing a medical ultrasound imagin
 
 ## Safety uses of ultrasounds
 
-
-So I noticed the comments on the hack a day nomination thing mentioned that high power ultrasound can cause deep tissue burns.
-
-I assume it's not a problem in this case, the pulser doesn't look powerful enough for that, but I'm wondering if maybe some links to safety information might be in order somewhere.
-
-I mean obviously nowhere on the page does it say to use it on humans, but it might be worth pointing to something like, "here are the failure modes that can cause injury"
+High power ultrasound can cause deep tissue burns. Limit yourself with a 500mA 5V supply and you should be relatively safe!
 
 

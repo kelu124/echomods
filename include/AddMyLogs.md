@@ -1263,6 +1263,11 @@ TODOs:
 * https://docs.google.com/document/d/1xvLWDbp0x6z0Ft3AsfxjIsLUNsg5smkTcYb1g4WVo5U/edit
 * Mechanical sweeping probe image from http://www.mdpi.com/1424-8220/14/11/20825/htm
 
+#### 2017-07-26 GitHub searches
+
+* hv7360 -user:kelu124 -org:ech	open -org:echopenHQ
+* ad9273 -user:kelu124 -org:echopen -org:echopenHQ check for FPGA for probe..
+
 
 =======
 

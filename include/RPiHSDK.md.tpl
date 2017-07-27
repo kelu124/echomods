@@ -115,3 +115,8 @@ Want to learn more? You can join the [slack channel](https://join.slack.com/usde
 #### Articles
 
 Under CC-BY-4.0, [main article here](https://openhardware.metajnl.com/articles/10.5334/joh.2/) 
+
+
+#### Some stats
+
+@kelu include(/include/AddStats.md)

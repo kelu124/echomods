@@ -4,13 +4,15 @@
 
 * [./tobo/Readme.md](/tobo/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
+* [./tobo/QuickStart.md](/tobo/QuickStart.md):  . _File not used._
+
 * [./tobo/alt.tobo/Readme.md](/tobo/alt.tobo/Readme.md):  . _File not used._
 
 * [./elmo/RPins.md](/elmo/RPins.md):  . _File not used._
 
 * [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddQSTobo.md`](/include/AddQSTobo.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/tobo/QuickStart.md`](/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./elmo/data/arduiphantom/Readme.md](/elmo/data/arduiphantom/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
@@ -66,6 +68,8 @@
 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
+* [./doj/QuickStart.md](/doj/QuickStart.md):  . _File not used._
+
 * [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md):  . _File not used._
 
 * [./croaker/notes_ESP8266.md](/croaker/notes_ESP8266.md): Notes on ESP8266 . File used in: [`/Worklog.md`](/Worklog.md), [`/croaker/Readme.md`](/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
@@ -98,8 +102,6 @@
 
 * [./include/NDT.md](/include/NDT.md):  . _File not used._
 
-* [./include/AddQSGoblin.md](/include/AddQSGoblin.md):  . _File not used._
-
 * [./include/AddBasicDevKit.md](/include/AddBasicDevKit.md):  . _File not used._
 
 * [./include/PiDAQ.set.md](/include/PiDAQ.set.md):  . _File not used._
@@ -117,8 +119,6 @@
 * [./include/NamesOfModules.md](/include/NamesOfModules.md):  . _File not used._
 
 * [./include/AddLicense.md](/include/AddLicense.md):  . _File not used._
-
-* [./include/AddQSDoj.md](/include/AddQSDoj.md):  . _File not used._
 
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project . _File not used._
 
@@ -155,8 +155,6 @@
 * [./include/AddCNPCBA.md](/include/AddCNPCBA.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./include/ATL.md](/include/ATL.md): Resources on ATL3 probes . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddHistory.md`](/include/AddHistory.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
-
-* [./include/AddQSTobo.md](/include/AddQSTobo.md):  . _File not used._
 
 * [./include/AddStats.md](/include/AddStats.md):  . _File not used._
 
@@ -227,6 +225,8 @@
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016 . _File not used._
 
 * [./goblin/Readme.md](/goblin/Readme.md): Goblin description . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+
+* [./goblin/QuickStart.md](/goblin/QuickStart.md):  . _File not used._
 
 * [./goblin/pi0/HighSpeedBurstADC.md](/goblin/pi0/HighSpeedBurstADC.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 

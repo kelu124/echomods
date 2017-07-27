@@ -1,3 +1,5 @@
+* [QuickStart.md.tpl](/include/QuickStart.md.tpl): ./include/QuickStart.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+
 * [RPiHSDK.md.tpl](/include/RPiHSDK.md.tpl): ./include/RPiHSDK.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 

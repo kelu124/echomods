@@ -8,16 +8,19 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 
 * __R05-100B__ ([2]) ([0]) : efficient but expensive. Going to shift to something else for tobo.alt, maybe this one..
 * NMT0572SC ([19]) up to 72V --- 24, 48 and 72V V - 14€ -- seems OK
+* Interessant for tobo.alt.bis - 2.60€ ! __HV9110NG__ AN-H59DB1 is a high voltage DC/DC converter for HV748 ;)  Based on HV9110NG ([30]) et AN-H59 too
 * MAX1771
 * TPS61170 ([10]) Boost convertor
 * MAX5025 ([11]) - interesting setup
 * LT3958 ([21]) -> 5V to 48V
-* AN-H59DB1 is a high voltage DC/DC converter for HV748 ;)
 * 1470-1353-5-ND  https://www.digikey.com/product-detail/en/xp-power/IA0524S/1470-1353-5-ND/4487734 à +-24
 * LTC3813: http://cds.linear.com/docs/en/datasheet/3813fb.pdf 100V Current Mode Synchronous Step-Up Controller
+* LT3032 -- +-20V output [datasheet eval board](http://www.st.com/content/ccc/resource/technical/document/data_brief/cc/f0/24/f8/8b/2b/42/53/DM00218354.pdf/files/DM00218354.pdf/jcr:content/translations/en.DM00218354.pdf)
+* mcp1661 up to 32V ([31]) - mic3172
 
 ### Pulsers
 
+* LM96551 ([28])
 * MAX14808 ([3]) ([9])
 * TC7320  ([5]) + MD1810 ([5])
 * MD1213  + TC6320 ([1])
@@ -32,6 +35,7 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 
 ### Multiplexer / Switch
 
+* LM96530 ([28])
 * FANTASTIC : [test](http://www.prnewswire.com/news-releases/mps-launched-180v-16-channel-analog-switch-multiplexer-for-ultrasound-applications-that-requires-no-high-voltage-supplies-300427205.html)
 * HV2901 ([3]) 32-output high voltage MUX chip -- differential supply of 200V. [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/hv2901.pdf)
 * TX810 ([10])
@@ -47,6 +51,7 @@ AN-H59DB1 is a high voltage DC/DC converter
 * AD8332 ([8])
 * __AD8331__ ([0]) ([18]) ([19])   ([25])  ([26])
 * SMA231 ([21]) as LNAs
+* VCA8500 ([28])
 
 ### Analog enveloppe detection
 
@@ -70,6 +75,7 @@ AN-H59DB1 is a high voltage DC/DC converter
 * AD9233 ([14])
 * ADS826 ([17])
 * ADS5517 ([21])
+* AD9467  ([28])
 
 ### Amplifier
 
@@ -77,9 +83,10 @@ AN-H59DB1 is a high voltage DC/DC converter
 
 ### Beamformer
 
-* LM96570 ([4])
+* LM96570 ([4])  ([28])
 * FDC1005-FDD15005 ([18])
 * AD8009 ([18]) : adder
+
 
 ### FPGA / CPLD / DSP ...
 
@@ -118,6 +125,11 @@ Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/ma
 * http://www.tribosonics.com/pages/products/small-ultrasonic-system.htm
 * http://sci-hub.cc/10.1177/016173460803000104 has a nice picture of a interson pcb + xilinx
 
+## Probes
+
+Kretz-Technik (eg S-VRW77AK-IPx7 )
+
+
 [0]: https://github.com/kelu124/echomods/ "this project :)"
 [1]: https://www.duo.uio.no/bitstream/handle/10852/47813/Sharma_2015.pdf "Shatin Sharma Thesis"
 [2]: https://github.com/kelu124/murgen-dev-kit "murgen"
@@ -136,7 +148,7 @@ Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/ma
 [15]: https://github.com/20E214/uprobe "Opening a chinese probe"
 [16]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5079523/ "FPGA-Based Reconfigurable Processor for Ultrafast Interlaced Ultrasound and Photoacoustic Imaging - 10.1109/TUFFC.2012.2335" 
 [17]: http://sci-hub.cc/10.1109/TUFFC.2012.2351 "An FPGA-based ultrasound imaging system using capacitive micromachined ultrasonic transducers."
-[18]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2330166/ "High-frequency Ultrasound Doppler System for Biomedical Applications with a 30 MHz Linear Array"
+[18]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2330166/ "High-frequenhttp://ww1.microchip.com/downloads/en/AppNotes/AN-H59.pdfcy Ultrasound Doppler System for Biomedical Applications with a 30 MHz Linear Array"
 [19]: www.mdpi.com/1424-8220/16/10/1681/pdf "Design and Implementation of an Electronic Front-End Based on Square Wave Excitation for Ultrasonic Torsional Guided Wave Viscosity Sensor"
 [20]: https://www.ncbi.nlm.nih.gov/pubmed/18269987 "Experimental system Prototype of a Portable, Low-Cost, C-scan Ultrasound Imaging Device - 10.1109/TBME.2007.903517"
 [21]: http://sci-hub.cc/10.1109/TMI.2017.2699973 "Development of a mechanical scanning device with high-frequency ultrasound transducer for ultrasonic capsule endoscopy"
@@ -146,3 +158,10 @@ Thanks to the [Murgen project](https://github.com/kelu124/murgen-dev-kit/blob/ma
 [25]: https://www.ncbi.nlm.nih.gov/pubmed/28368803 "A delayed-excitation data acquisition method for high-frequency ultrasound imaging 10.1109/TBME.2017.2687948"
 [26]: http://www.tandfonline.com/doi/abs/10.1080/10402004.2016.1146974?journalCode=utrb20 "Ultrasonic Measurement of Cylindrical Roller–Bearing Lubricant Film Distribution with Two Juxtaposed Transducers"
 [27]: http://mgh-courses.ece.gatech.edu/ece6414/S17/Projects/Team8_Draft2_ECE6414_S17.pdf "A Low Power System-on-a-Chip for Ultrasonic Non-Invasive Vein Detection"
+[28]: http://file.scirp.org/Html/1-7600391_58398.htm "Reconfigurable Ultrasonic Testing System Development Using Programmable Analog Front-End and Reconfigurable System-on-Chip Hardware"
+[29]: http://www.st.com/content/ccc/resource/technical/document/data_brief/cc/f0/24/f8/8b/2b/42/53/DM00218354.pdf/files/DM00218354.pdf/jcr:content/translations/en.DM00218354.pdf "STHV748 eval board"
+[30]: http://ww1.microchip.com/downloads/en/AppNotes/AN-H59.pdf "AN-H59DB1  High Voltage Dc/dc Converter For Supertex Ultrasound Transmitter Demoboards "
+
+
+[31]: http://www.microchip.com.tw/Data_CD/Treelink%20June%2010%202016.pdf "List of DCDC boosts"
+

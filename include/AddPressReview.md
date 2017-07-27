@@ -28,5 +28,5 @@
 * 2017-07-02: [Best Product Entry: A HSDK for Ultrasound Imaging](http://hackaday.com/2017/07/02/best-product-entry-a-hsdk-for-ultrasound-imaging/)
 * 2017-07-03: [DIY Ultrasound imaging](http://embedded-lab.com/blog/diy-ultrasound-imaging/)
 * 2017-07-04: [Ultrasound Imaging with Raspberry Pi](https://blog.oshpark.com/2017/07/04/best-product-entry-a-hsdk-for-ultrasound-imaging/)
-
+* 2017-07-10: [Open ultrasound for africa](http://openhardware.science/2017/07/10/lafrique-a-lassaut-du-biohacking-pour-la-sante-makery/)
 * 2017-07-14: [Adafruit: A HSDK for ultrasound imaging #piday #raspberrypi @Raspberry_Pi](https://blog.adafruit.com/2017/07/14/a-hsdk-for-ultrasound-imaging-piday-raspberrypi-raspberry_pi/)

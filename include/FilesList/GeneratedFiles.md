@@ -4,6 +4,7 @@
 * ./include/AddShoppingList.md
 * ./include/AddModulesSummary.md
 * ./include/RPiHSDK.md
+* ./include/QuickStart.md
 * ./include/AddMyLogs.md
 * ./include/basicdevkit.md
 * ./include/FilesList/TPLFiles.md
