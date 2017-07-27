@@ -126,7 +126,7 @@ for i in range(len(ListeOfTPL)):
 	TPLLog +="\n"
 	## 
 	print "-- "+ListeOfTPL[i][2:]
-	for i in range(1):
+	for pp in range(1):
 		# Doing it twice for tpl using tpl-generated files
 		RPI = GetIncludes(getText(ListeOfTPL[i][2:]),  MDFiles[5], MDFiles[4],ListeOfTPL[i][2:])
 		RPI_article = RPI[0]
