@@ -14,6 +14,7 @@ Goblin: a TGC-Envelop-ADC module
 ## Description
 
 * The analog signal-processing heart of the echOmods
+* Setup? Have a look at the [quick start guide](/goblin/QuickStart.md)
 * version: V0.2
 * date: 25/12/2016
 * cost:149$

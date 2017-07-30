@@ -18,6 +18,7 @@ Tobo: the HV-pulser
 ## Description
 
 * The HV-Pulser of the echOmods
+* Setup? Have a look at the [quick start guide](/tobo/QuickStart.md)
 * version: V0.2
 * cost:120$
 * sourcing:Custom made, get the [Gerbers](/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124
@@ -113,6 +114,11 @@ and [a link to it](/tobo/tobo_schematics.pdf)
 
 * Some issues with the availability of the `HV7360`, living its end of life. The latest version of [Altium](/tobo/source/Altium/) and [Kicad](/tobo/source/Kicad/) source files should show the new [HV7360 CABGA](/tobo/datasheets/HV7360_CABGA.pdf).
 * However, this latest should be available officially in Jan 2017.
+
+
+### Setting up the module
+
+Setup? Have a look at the [quick start guide](/tobo/QuickStart.md) on how to prepare the pulser.
 
 ## Discussions
 

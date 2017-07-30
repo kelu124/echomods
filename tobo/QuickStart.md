@@ -16,9 +16,11 @@ __Note__: The setup presented here was with the [Raspberry Pi + ADC setup](/elmo
 
 The _PulseOn_, _PulseOff_ and signal output are represented below.
 
-### Controls
+## Calibration and tests
 
 Yellow is PulseOn, Blue is PulseOff. The logic is also 3.3V and 5V tolerant. Here, the control signals were produced with a raspberry pi. 
+
+__For the sake of testing, keep PulseOn as long as your pulse needs to be, but keep PulseOff (or "Damper") on for something around 5 - 10 us.__
 
 
 #### Controls

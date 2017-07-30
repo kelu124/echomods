@@ -4,7 +4,7 @@
 
 * [arduino.ino](/elmo/data/arduiprobe/arduino.ino): . _File not used._
 
-* [oneye_pulser.ino](/retired/oneeye/oneye_pulser.ino): . _File not used._
+* [oneye_pulser.ino](/retired/oneeye/oneye_pulser.ino): . File used in: [`/retired/oneeye/Readme.md`](/retired/oneeye/Readme.md).
 
 * [Registers1MspsServo.ino](/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps. _File not used._
 

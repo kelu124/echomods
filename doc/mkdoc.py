@@ -363,7 +363,7 @@ def GetGeneratedFiles(path):
 	AutoFiles = []
 	log = []
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.md'))]
-	ExcludeDirs = ["tools",".git","gh-pages","doc","retired"]
+	ExcludeDirs = ["tools",".git","gh-pages","doc"]
 	f = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 	for eachMd in f:
 		Desc = ""
@@ -427,7 +427,7 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 		#print InRef
 	else:
 		StringData = ". _File not used._\n"
-		if "/include/" in PathRefedFile:
+		if ("/include/" in PathRefedFile) and not ("/gitbook/" in PathRefedFile):
 			log.append("__[Unrefed file]__ "+WarningMark+" `"+PathRefedFile+"` : No references of this file (in _include_). ")
 		else:
 			log.append("__[Unrefed file]__ "+RedMark+" `"+PathRefedFile+"` : No references of this file. ")

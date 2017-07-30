@@ -12,8 +12,9 @@ The motherboard of the echomods
 
 ## Description
 
-* A stripboard
-* version: V2.0
+* The motherboard for the modules
+* Setup? Have a look at the [quick start guide](/doj/QuickStart.md)
+* Latest version: V2.0
 * date: 04/06/2017
 * technology: pcb
 * language: kicad
