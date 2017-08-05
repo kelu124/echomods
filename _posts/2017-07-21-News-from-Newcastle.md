@@ -34,5 +34,5 @@ TODOs:
 -   @todo link to files in the log (python)
 -   @todo put back good ino for pulser
 -   @todo quickstart installs and tests (see Charles email)
--   @todo finish the [Word of Caution MD](/WordOfCaution.md)
+-   @done finish the [Word of Caution MD](/WordOfCaution.md)
 
