@@ -1,4 +1,4 @@
-* [tobo_pulser.ino](/tobo/source/tobo_pulser.ino): . _File not used._
+* [tobo_pulser.ino](/tobo/source/tobo_pulser.ino): . File used in: [`/tobo/QuickStart.md`](/tobo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md).
 
 * [arduino.ino](/elmo/data/arduino.ino): . File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
 

@@ -7,6 +7,7 @@
 * ./include/QuickStart.md
 * ./include/AddMyLogs.md
 * ./include/basicdevkit.md
+* ./include/AllLogs.md
 * ./include/FilesList/TPLFiles.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/PythonFiles.md
@@ -42,6 +43,7 @@
 * ./gitbook/Chapter4/murgenworklog.md
 * ./gitbook/Chapter4/Session_9_ATL.md
 * ./gitbook/Chapter4/Session_4.md
+* ./gitbook/Chapter4/AllLogs.md
 * ./gitbook/Chapter4/Session_2.md
 * ./gitbook/Chapter5/dataformat.md
 * ./gitbook/Chapter5/croaker_data.md

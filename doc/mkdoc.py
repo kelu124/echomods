@@ -291,6 +291,7 @@ def OpenWrite(Write,Open):
 	f.write(Write+"\n"+tagAuto)
 	return f.close()
 
+
 def CopyFile(From,To):
 	return OpenWrite(getText(From),To)
 
@@ -348,6 +349,77 @@ def GetSuppliersList(path):
 	Text += "\n\n"
 
 	return Text	
+
+
+def GetLogs(path):
+	d = {}
+
+	d[20160306] = ["./gitbook/content/Chapter4/Session_1.md"]
+	d[20160311] = ["./gitbook/content/Chapter4/Session_2.md"]
+	d[20160315] = ["./gitbook/content/Chapter4/Session_3.md"]
+	d[20160319] = ["./gitbook/content/Chapter4/Session_4.md"]
+	d[20160319] += ["./gitbook/content/Chapter4/Session_4b.md"]
+	d[20160320] = ["./gitbook/content/Chapter4/Session_5.md"]
+	d[20160328] = ["./gitbook/content/Chapter4/Session_6.md"]
+	d[20160403] = ["./gitbook/content/Chapter4/Session_7.md"]
+	d[20160503] = ["./gitbook/content/Chapter4/Session_8.md"]
+	d[20160703] = ["./gitbook/content/Chapter4/Session_9.md"]
+
+	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.*'))]
+	ExcludeDirs = ["tools",".git","doc"]
+	f = [x for x in results if x.split("/")[1] not in ExcludeDirs]
+	for eachMd in f:
+	    if ( (".ipynb_checkpoints" not in eachMd) and (".html" not in eachMd) ):
+		if (eachMd.split("/")[-1].startswith("2017") or eachMd.split("/")[-1].startswith("2016") or eachMd.split("/")[-1].startswith("2015") ):
+		        Date = int(eachMd.split("/")[-1].replace("-","")[:8])
+			#print eachMd +"  -  " + str(Date)
+			if Date in d:
+				d[Date] += [eachMd]
+			else:
+				d[Date] = [eachMd]
+
+	with open("include/AddPressReview.md") as FileContent:
+	    for line in FileContent:  #iterate over the file one line at a time(memory efficient)
+		if "*" in line:
+			url = line[line.find("(")+1:line.find(")")]
+			Date = int(line.replace("* ","").replace("-","")[:8])
+			if Date in d:
+				d[Date] += [url]
+			else:
+				d[Date] = [url]
+	return d
+
+def CreateWorkLog(d):
+	log = "# History \n\n"
+	keys = sorted(d, reverse=True)
+	for key in keys:
+		date = str(key)
+		log += "\n * __"+date[0:4]+"-"+date[4:6]+"-"+date[6:8]+"__:"
+		LogOfTheDay = []
+
+		for item in d[key]:
+			if ("/gitbook/" in item):
+				link = "["+item.split("/")[-1]+"](https://kelu124.gitbooks.io/echomods"+item[17:].split(".")[0]+".html)"
+				LogOfTheDay.append(link)
+			elif ("http" in item):
+				link = "[link from "+item.split("/")[2]+"]("+item+")"
+				LogOfTheDay.append(link)
+				#print link
+			elif ("/gh-pages/_posts/" in item):
+				url ="http://kelu124.github.io/echomods/"+item.split("/")[-1]
+				link = "[worklog of the day]("+url+")"
+				LogOfTheDay.append(link)
+			else:
+			    if (len(item)):
+				url = "https://github.com/kelu124/echomods/tree/master"+item[1:]
+				text = item.split("/")[-1]
+				link = "["+text+"]("+url+")"
+				LogOfTheDay.append(link)
+				#m = 0
+
+		log += ", ".join(LogOfTheDay)
+
+	return AddRawHURL(log)
 
 # -------------------------	
 # Check auto-files

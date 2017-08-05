@@ -16,7 +16,7 @@ __author__      = "kelu124"
 __copyright__   = "Copyright 2016, Kelu124"
 __license__ 	= "cc-by-sa/4.0/"
 
-
+import time
 import os
 import markdown
 import re
@@ -52,6 +52,11 @@ Suppliers = GetSuppliersList("cletus/suppliers/")
 OpenWrite("# Status of suppliers\n\n"+Suppliers,"cletus/suppliers/Readme.md")
 
 # echo = GetMurgenStats()
+
+d = GetLogs("./")
+OpenWrite ( CreateWorkLog(d) , "include/AllLogs.md")
+
+CopyGitBookFile("include/AllLogs.md","gitbook/Chapter4/AllLogs.md") 
 
 # -------------------------
 # Presentations

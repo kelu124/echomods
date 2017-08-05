@@ -12,6 +12,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * Get better total ADC speed with an iterleaved move (in [croaker](/croaker/))
 * Develop a Cletus+Croaker way of working with a gyroscope+accelerometer. (in [croaker](/croaker/))
 * Have Croaker generate its own AP (in [croaker](/croaker/))
+* TBD (in [loftus](/loftus/))
 
 
 ### Todos from worklog
@@ -39,7 +40,10 @@ Here's a couple of things we're working on, for which you could help as well.
 * link to files in the log (python)
 * put back good ino for pulser
 * quickstart installs and tests (see Charles email)
-* finish the [Word of Caution MD](/WordOfCaution.md)
+* Adding the descs for modules and power needs
+* Removing double Autogen tags
+* Main readme as TPL
+* DICOM rest of images
 
 
 
