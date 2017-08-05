@@ -5,8 +5,7 @@
   This example code is in the public domain. Inspired from Blink.
  */
 
- 
-int pos = 60;    // variable to store the servo position 
+
  
 void setup() 
 { 
@@ -16,16 +15,15 @@ void setup()
  
 void loop() 
 { 
-  for(pos = 60; pos < 120; pos += 1) // goes from 60 degrees to 120 degrees 
-  {                                  // in steps of 1 degree 
-    PORTB = B00001000;               // Pin 11
-    delayMicroseconds(pos);          // microsecondes
-    PORTB = B00010000;               // Pin 12 = pulse positif
-    __asm__("nop\n\t");
+
+    // Creating the pulse
+    PORTB = B00010000;               // Pin 12 = Pon pulse
+    __asm__("nop\n\t");		     // wait only
     PORTB = B00100000;               // Pin 13  = pulse negatif
-    //delayMicroseconds(1);
-    __asm__("nop\n\t""nop\n\t");
-    __asm__("nop\n\t""nop\n\t");
+    delayMicroseconds(10);
+    //__asm__("nop\n\t""nop\n\t");
+    //__asm__("nop\n\t""nop\n\t");
     PORTB = B00000000;
-  }
+    delayMicroseconds(500);
+
 } 

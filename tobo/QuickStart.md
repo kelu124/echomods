@@ -20,7 +20,7 @@ The _PulseOn_, _PulseOff_ and signal output are represented below.
 
 Yellow is PulseOn, Blue is PulseOff. The logic is also 3.3V and 5V tolerant. Here, the control signals were produced with a raspberry pi. 
 
-__For the sake of testing, keep PulseOn as long as your pulse needs to be, but keep PulseOff (or "Damper") on for something around 5 - 10 us.__
+__For the sake of testing, keep PulseOn as long as your pulse needs to be, but keep PulseOff (or "Damper") on for something around 5 - 10 us.__ You can test for example with the [simple code here](/tobo/source/tobo_pulser.ino), inspired from the retired pulse control [OneEye](/retired/oneeye/).
 
 
 #### Controls
