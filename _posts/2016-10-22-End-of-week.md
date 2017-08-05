@@ -18,7 +18,7 @@ title: 2016-10-22 End of week
 Next week:
 
 -   @todo 6Msps on the [STM32](/croaker/)
--   @todo Sourcing transducer
+-   @done Sourcing transducer (in [cletus](/cletus/) )
 -   (done) Sourcing materials + integration makefile par set
 -   (done) Compiler output
 

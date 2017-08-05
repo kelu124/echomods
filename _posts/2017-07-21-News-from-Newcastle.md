@@ -32,7 +32,7 @@ TODOs:
 
 -   @todo remove gitbook MD files from the log
 -   @todo link to files in the log (python)
--   @todo put back good ino for pulser
--   @todo quickstart installs and tests (see Charles email)
+-   @done put back good ino for pulser
+-   @done quickstart installs and tests (see Charles email)
 -   @done finish the [Word of Caution MD](/WordOfCaution.md)
 

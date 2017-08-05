@@ -13,7 +13,7 @@ title: 2017-07-09 ADC boosting
 -   Testing a counter with the
     [32u4](/elmo/data/arduiprobe/20170709-Repeats.ipynb) -- see
     [data](/elmo/data/arduiprobe/data/)
--   @todo order tobo.alt
+-   @done order tobo.alt
 -   @todo board pulser + processing + ADC for RPi
 -   https://petapixel.com/2013/03/13/the-helsinki-bus-station-theory-finding-your-own-vision-in-photography/
     : excellent article on finding your way.
