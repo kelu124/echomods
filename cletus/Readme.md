@@ -46,7 +46,7 @@ Simply the servo and transducer module
 
 ### What is it supposed to do?
 
-The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.
+The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain. More to come with the [Loftus head](/loftus/source/s3/Readme.md).
 
 
 ### How does it work: block diagram

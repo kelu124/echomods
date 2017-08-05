@@ -180,6 +180,17 @@ BNC female to SMA male
 
 And how are the signals prepared? See [this work](/retroATL3/2017-05-20_APeakInside.md) for pictures of the ICs inside, and for the type of signals inside the head of the probe. 
 
+### Signals ?
+
+There's going to need to signal hacks to remove constant components from the signals
+
+![](/retroATL3/images/ICsInHead/orange.JPG)
+
+![](/retroATL3/images/ICsInHead/vert.JPG)
+
+![](/retroATL3/images/ICsInHead/violet.JPG)
+
+
 ### Want to know more about electrical impedance?
 
 Some resources:

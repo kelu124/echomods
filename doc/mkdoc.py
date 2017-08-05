@@ -288,7 +288,8 @@ def AddRawBomanzURL(s):
 
 def OpenWrite(Write,Open):
 	f = open(Open,"w+")
-	f.write(Write+"\n"+tagAuto)
+	Write.replace(tagAuto,"")
+	f.write(Write+"\n\n"+tagAuto)
 	return f.close()
 
 
@@ -394,7 +395,7 @@ def CreateWorkLog(d):
 	keys = sorted(d, reverse=True)
 	for key in keys:
 		date = str(key)
-		log += "\n * __"+date[0:4]+"-"+date[4:6]+"-"+date[6:8]+"__:"
+		log += "\n * __"+date[0:4]+"-"+date[4:6]+"-"+date[6:8]+"__: "
 		LogOfTheDay = []
 
 		for item in d[key]:
@@ -499,10 +500,12 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 		#print InRef
 	else:
 		StringData = ". _File not used._\n"
-		if ("/include/" in PathRefedFile) and not ("/gitbook/" in PathRefedFile):
+		if ("/include/" in PathRefedFile):
 			log.append("__[Unrefed file]__ "+WarningMark+" `"+PathRefedFile+"` : No references of this file (in _include_). ")
 		else:
+		    if (not ("/gitbook/" in PathRefedFile)):
 			log.append("__[Unrefed file]__ "+RedMark+" `"+PathRefedFile+"` : No references of this file. ")
+		    
 	return StringData, log
 
 def GetPythonFiles(path):
