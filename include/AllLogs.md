@@ -2,6 +2,8 @@
 
 
  * __2017-08-05__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-05-Moving-forward-towards-the.md)
+ * __2017-08-04__: [20170804_141110.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141110.jpg), [20170804_141348.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141348.jpg), [20170804_141235.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141235.jpg), [20170804_141119.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141119.jpg)
+ * __2017-08-01__: [20170801_134819.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134819.jpg), [20170801_134824.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134824.jpg), [20170801_134829.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134829.jpg)
  * __2017-07-28__: [worklog of the day](http://kelu124.github.io/echomods/2017-07-28-Thinking-of-an-end.md)
  * __2017-07-27__: [20170727-D.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Felix/20170727-D.jpg), [20170727-B.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Felix/20170727-B.jpg), [20170727-A.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Felix/20170727-A.jpg), [20170727-C.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Felix/20170727-C.jpg), [link from news.ycombinator.com](https://news.ycombinator.com/item?id=14869138)
  * __2017-07-26__: [worklog of the day](http://kelu124.github.io/echomods/2017-07-26-GitHub-searches.md)
