@@ -175,10 +175,9 @@ Here's a couple of things we're working on, for which you could help as well.
 
 ### Todos from worklog
 * 6Msps on the [STM32](/croaker/)
-* Sourcing transducer
 * dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
-* add Visa, possibly Pouya and Thoùas
-* map interested (green) and users (blue)
+* add Visa, possibly Pouya and Thomas as contributors
+* map interested (green) 
 * Add a documentation server
 * Display IP on the OLED.
 * Need to have a look at this RPI GPIO DMA - https://github.com/hzeller/rpi-gpio-dma-demo
@@ -188,18 +187,12 @@ Here's a couple of things we're working on, for which you could help as well.
 * set the gain on the AFE using Doj v1.2
 * use the GetSuppliersList function to list equipment suppliers
 * Add PCBA
- * fill in probe if necessary -> need oil in it (see AMZ)
 * Test UHF probe
-* order tobo.alt 
 * board pulser + processing + ADC for RPi
 * add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
 * get orders from Sam CN.
 * remove gitbook MD files from the log
 * link to files in the log (python)
-* put back good ino for pulser
-* quickstart installs and tests (see Charles email)
-* Adding the descs for modules and power needs
-* Removing double Autogen tags
 * Main readme as TPL
 * DICOM rest of images
 

@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# -------------------------
+# (c) kelu124
+# cc-by-sa/4.0/
+# -------------------------
+
+'''Description: Takes croaker streamed CSVs and creates the total image + JPGs.'''
+
+__author__      = "kelu124"
+__copyright__   = "Copyright 2016, Kelu124"
+__license__ 	= "cc-by-sa/4.0/"
+
 import sys
 import numpy as np
 from operator import itemgetter, attrgetter
@@ -6,7 +19,6 @@ from math import *
 import math
 import scipy.misc
 # Prend en argument un fichier .data
-
 
 
 data = "20161217-222737-"

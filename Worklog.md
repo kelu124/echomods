@@ -1681,7 +1681,7 @@ Would you like to support an existing project with your skills and expertise? Or
 Next week:
 
 * @todo 6Msps on the [STM32](/croaker/)
-* @todo Sourcing transducer
+* @done Sourcing transducer (in [cletus](/cletus/) )
 * (done) Sourcing materials + integration makefile par set
 * (done) Compiler output
 
@@ -2013,8 +2013,9 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @done contact Sonopen / microsonix
 * Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
 * @done add Felix, Will + Jp, Charles, Md+Afreen
-* @todo add Visa, possibly Pouya and Thoùas
-* @todo map interested (green) and users (blue)
+* @todo add Visa, possibly Pouya and Thomas as contributors
+* @todo map interested (green) 
+* @done map users (blue)
 * @done add OSH license
 * @done start an order for pulsers
 * @done start a [quickstart](/include/AddUSSDK.md) 
@@ -2138,7 +2139,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-07-08 Doc 'n test
 
 * Received the cable for the probe
-  * @todo fill in probe if necessary -> need oil in it (see AMZ)
+  * @done fill in probe if necessary -> need oil in it (see AMZ)
   * @done test probe with oil -> to redo
 * @todo Test UHF probe
 * @done fill in /wordofcaution.md
@@ -2155,7 +2156,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Awesome paper - how to [boost the ADC](https://www.ncbi.nlm.nih.gov/pubmed/28368803) - https://www.ncbi.nlm.nih.gov/pubmed/28368803
 * Testing a counter with the [32u4](/elmo/data/arduiprobe/20170709-Repeats.ipynb) -- see  [data](/elmo/data/arduiprobe/data/)
-* @todo order tobo.alt 
+* @done order tobo.alt 
 * @todo board pulser + processing + ADC for RPi
 * https://petapixel.com/2013/03/13/the-helsinki-bus-station-theory-finding-your-own-vision-in-photography/ : excellent article on finding your way.
 
@@ -2189,8 +2190,8 @@ TODOs:
 
 * @todo remove gitbook MD files from the log
 * @todo link to files in the log (python)
-* @todo put back good ino for pulser
-* @todo quickstart installs and tests (see Charles email)
+* @done put back good ino for pulser
+* @done quickstart installs and tests (see Charles email)
 * @done finish the [Word of Caution MD](/WordOfCaution.md)
 
 #### 2017-07-24 Where is IvanTch
@@ -2225,8 +2226,8 @@ Nice to have:
 
 * Added something about [the S3 probe](/loftus/source/s3/) 
 
-* @todo Adding the descs for modules and power needs
-* @todo Removing double Autogen tags
+* @done Adding the descs for modules and power needs
+* @done Removing double Autogen tags
 * @todo Main readme as TPL
 * @todo DICOM rest of images
 

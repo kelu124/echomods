@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# -------------------------
+# (c) kelu124
+# cc-by-sa/4.0/
+# -------------------------
+
+'''Description: Creates stats from different sites'''
+
+__author__      = "kelu124"
+__copyright__   = "Copyright 2016, Kelu124"
+__license__ 	= "cc-by-sa/4.0/"
+
 from urllib2 import urlopen
 import bs4 as BeautifulSoup
 import os
@@ -29,14 +42,14 @@ for k in range(len(names)):
     t = th(soup.find("span", {"title": "View Count"}).text)
     u = th(soup.find("span", {"title": "Followers"}).text)
     v = th(soup.find("span", {"title": "Likes"}).text)
-    ResString += "* __"+names[k]+"__: "+str(t)+ " views, "+str(u)+ " followers, "+str(v)+ " likes\n"
+    ResString += "* __["+names[k]+"]("+url[k]+")__: "+str(t)+ " views, "+str(u)+ " followers, "+str(v)+ " likes\n"
 
 urlJOH = "https://openhardware.metajnl.com/articles/10.5334/joh.2/metrics/#views"
 html = urlopen(urlJOH).read()
 soup = BeautifulSoup.BeautifulSoup(html, "lxml")
 t = th(soup.find("li", {"class": "metrics-slab views"}).text.strip().split("\n")[0])
 u = th(soup.find("li", {"class": "metrics-slab downloads"}).text.strip().split("\n")[0])
-ResString += "* __JOH publication__: "+str(t)+" views and "+str(u)+" downloads.\n\n"
+ResString += "* __[JOH publication]("+urlJOH+")__: "+str(t)+" views and "+str(u)+" downloads.\n\n"
 
 
 
