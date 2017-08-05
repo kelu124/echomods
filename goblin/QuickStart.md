@@ -22,3 +22,7 @@ Apply a small voltage on Raw Track with jumpers rightly positioned (A). You shou
 BEWARE! Only apply small voltages to input (less than 1 Vpp ideally, here calibration was done with 60mVpp signals) 
 
 ![](/goblin/images/slide_principle.png)
+
+## If not using a motherboard, connections are detailed below:
+
+![](/goblin/images/rawtracks.png)
