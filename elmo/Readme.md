@@ -97,10 +97,10 @@ At least for the moment, now I need to order the PCBs and some components.
 
 #### Raw signal acquisition and enveloppe with this ADC pHAT
 
-![](elmo/data/arduino/LineImageEnveloppe.jpg)
+![](/elmo/data/arduino/LineImageEnveloppe.jpg)
 
 
-![](elmo/data/arduinoffset/LineImageEnveloppe.jpg)
+![](/elmo/data/arduinoffset/LineImageEnveloppe.jpg)
 
 
 #### First acquisitions:
@@ -125,7 +125,8 @@ __Bottom in 3D__
 ### TODO
 
 * Lots
-* Produce a batch of [rev2 elmo](/elmo/sources/ADCpHat_r2.zip)
+* Produce a batch of [rev2 elmo](/elmo/source/ADCpHat_r2.zip)
+
 ### DONE
 
 * Getting a board an soldering some ADCs

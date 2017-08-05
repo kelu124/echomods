@@ -287,10 +287,8 @@ echOpen discussion
 
 #### 2015-12-11
 
-* Update the * Culture*  repertory in our drive :p
-* [ Piezo
-    suppliers](:Category:Transducer#Transducer_suppliers "wikilink") on
-    their way
+* Update the _Culture_  repertory in our drive :p
+* Piezo    suppliers on     their way
 * Mapping the DITSO resources - update
 * Apero !
 
@@ -333,11 +331,8 @@ echOpen discussion
 * Progress A / S
 * Caracterisation du piezo :
   * http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc
-  * http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF ou
- en local sur : [:File:APPENDIX
- C.PDF](:File:APPENDIX_C.PDF "wikilink")
-  * http://www.vtvt.ece.vt.edu/research/papers/08sas.pdf ou en
- local sur : [:File:08sas.pdf](:File:08sas.pdf "wikilink")
+  * http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF 
+  * http://www.vtvt.ece.vt.edu/research/papers/08sas.pdf  
 
 #### 2015-12-27
 
@@ -351,8 +346,7 @@ echOpen discussion
 #### 2015-12-28
 
 * Back from festive period ! But no slack:
-  * First iteration of A (though no buffers [:File:Top
- View.jpg](:File:Top_View.jpg "wikilink") ) -- buffers as
+  * First iteration of A  -- buffers as
  74AC541MTC ?
   * Schematics and BOMs from S
   * Cacophony everywhere
@@ -633,7 +627,7 @@ Some others
   * Aloka ASU-32H-3.5 Mechanical Probe --
  http://www.ebay.com/itm/Aloka-ASU-32H-3-5-Mechanical-Probe-/190660257677
   * ATL-ADR-5-5-MHz-7-mm-Ultrasound-Transducer-Probe-for-UM-4-7081
-  * [ATL Access 10PV](ATL_Access_10PV "wikilink") is a sector array
+  * ATL Access 10PV is a sector array
  ultrasound transducer probe. The ATL Access 10PV is a
  mult-frequency probe with a range of 5.0, 7.5 and 10.0 Mhz. --
  http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313.TR0.TRC0.H0.XATL+Access+10PV.TRS0&_nkw=ATL+Access+10PV&_sacat=0
@@ -858,19 +852,13 @@ Some others
 
 #### 2016-04-05
 
-* TODO: creer les liens sur le software/readme -&gt;
-    [Software (murgen-dev-kit)](Software_(murgen-dev-kit) "wikilink")
-    vers les fichiers sources
+* TODO: creer les liens sur le software/readme     vers les fichiers sources
 
 #### 2016-04-07
 
 * trying some docs at
     https://github.com/kelu124/murgen-dev-kit/blob/master/hardware/doc/murgen-dev-kit.markdown
-* starting with the modules.. should start a [Worklog - the module
-    approach](Worklog_-_the_module_approach "wikilink") page based on
-    the [Challenge: the module
-    approach](Challenge:_the_module_approach "wikilink") page... coming
-    soon?
+* starting with the modules..
 
 #### 2016-04-08 Nice reads and al
 
