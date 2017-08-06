@@ -1,4 +1,4 @@
-# Testing the specs of the In / out for the [analog processing board](/retired/goblin/)
+# Testing the specs of the In / out for the [analog processing board](/goblin/)
 
 ## Test of the analog processing board
 

@@ -60,7 +60,7 @@ The same procedure was applied to acquire the enveloppe created through the anal
 
 ### Plugging the Pi to an existing probe
 
-A beaglebone black had been used with its [high-speed DAQ](/toadkiller/) to be connected to an existing [mechanical probe](/retroATL3/), with [some results](https://kelu124.gitbooks.io/echomods/content/Chapter2/basicdevkit.html). The next step has been to interface the Pi to this probe through the [24Msps Pi ADC pHAT](/elmo/), to see if one can get the same quality of image, and produce a ultrasound loop. The setup looks as below:
+A beaglebone black had been used with its [high-speed DAQ](/retired/toadkiller/) to be connected to an existing [mechanical probe](/retroATL3/), with [some results](https://kelu124.gitbooks.io/echomods/content/Chapter2/basicdevkit.html). The next step has been to interface the Pi to this probe through the [24Msps Pi ADC pHAT](/elmo/), to see if one can get the same quality of image, and produce a ultrasound loop. The setup looks as below:
 
 ![](/elmo/images/20170717_210209.jpg)
 

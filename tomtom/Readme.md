@@ -117,9 +117,12 @@ and the ouput of the pulser is:
 
 (see the [worklog here](/tomtom/20170506-RPiAndTobo.md)).
 
+### Using an oled screen
+
+exploration is [detailed here](/tomtom/screen.md).
+
 ### Mapping the pins
 
-@todo : mapping the pins shared between PWM, pHAT and tracks
 * [Testing GPIOs](/tomtom/20170425-ExploringGPIOs.md)
 
 ## Discussions
@@ -132,6 +135,7 @@ and the ouput of the pulser is:
 
 ### DONE
 
+* Mapping the pins shared between PWM, pHAT and tracks
 * Developping a CA3306E version of [the 10Msps ADC pHAT](https://github.com/kelu124/bomanz/blob/master/CA3306E/20170422-FirstAcqs.ipynb) for testing.
 * Testing the limits of ADC acquisition (speed / bits)
 * Understand why some GPIOs do not have lower values at 0..

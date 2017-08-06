@@ -89,7 +89,7 @@ The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw sign
 
 The enveloppe signal (0-3.3V) coming from Goblin is clipped beforehands with 2 diodes, giving a 0-1.5V range with easy components.
 
-#### Testing the [analog processing board](/retired/goblin/) with the PRUDAQ
+#### Testing the [analog processing board](/goblin/) with the PRUDAQ
 
 Data sampled at 10Msps on the [PRUDAQ](/retired/toadkiller/) on both channels.
 
