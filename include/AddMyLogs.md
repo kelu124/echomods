@@ -43,8 +43,6 @@
 	*  Better ADC at LTC2315-12
 	*  DAC: a simple DAC i2c
 
-echOpen discussion
-
 *  Pro/Cons of a shield compared to FPGA/microcontrolleur
 
 
@@ -339,7 +337,6 @@ Let's cut it to 500kHz ?
     this
     [GDoc](https://docs.google.com/spreadsheets/d/1HbeRCOVrJFWL29VbagtKip8LvDqiuHKvDMe9bzmxfmM)
 
-![](http://wiki.echopen.org/images/0/01/Dt160120.gif)
 
 #### 2016-01-20
 
@@ -423,13 +420,6 @@ Let's cut it to 500kHz ?
 #### 2016-02-13 Release of Gob
 
 * Lots under way..
-* [Goblin](http://murgen.echopen.org/pcbs-have-reached/) being
-    released
-  * A 2 layer PCB.. easier
-  * Less components, less expensive
-  * However, needs to be tested !
-
-
 
 * * * Required* * : we need to sit with electronics experts to check how
     Murgen, Tobo, Goblin, and Mira can merge - for a modular board -
@@ -686,9 +676,6 @@ Some others
 * TODO:
   * MFab - plan
 * Presentations tonight!
-* OUIDIDIT ! First presentation of echopen's working prototype
-  * https://storify.com/ForTheFuture/firstech
-  * http://www.makery.info/2016/03/29/echopen-lance-une-sonde-dechographie-open-source/
 * Getting good echoes with the TGC maxed!
 * Playing with bitscope / issue from the noise / usb plugin
     got !
@@ -1037,7 +1024,6 @@ and *CG ?
 
 #### 2016-06-07 Hall of fame
 
-* Preparing a hall of fame on echopen's wiki
 * Getting a copy of an excellent book : [buy here](http://www.lulu.com/shop/st%C3%A9phane-ribas-and-st%C3%A9phane-ubeda-and-patrick-guillaud/logiciels-et-objets-libres-animer-une-communaut%C3%A9-autour-dun-projet-ouvert/paperback/product-22702396.html)
 * Reading more about open science hardware with [GOSH](http://openhardware.science/gosh-manifesto/).. and finding a good [OSH journal](http://openhardware.science/2016/05/20/292/) which leads to there : [http://www.journals.elsevier.com/hardwarex](http://www.journals.elsevier.com/hardwarex)
 * Awesome DIY approach and techniques for [ultrasound gel](http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0134332.PDF) -- already republished on HAD
@@ -1602,7 +1588,6 @@ Next week:
 Just started a new job 10 days back, so I lagged a bit. However, some news!
 
 * Sold two boards so far on [tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) - which also gave opportunities to discuss with people: awesome.
-* Lent a [emulator module](/silent/) to echOpen for their testing, and updated doc.
 * Auto documentation moved forward! Plenty of new debug options in the [doc generation journal](/doc/log.md)
 * Some metadata on md files on board
 * Trying to get 2 probes on ebay for testing purposes
@@ -1704,7 +1689,6 @@ Just moved in to the new flat! Exhausting =) Other interesting things:
 _“We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another; unevenly. We grow partially. We are relative. We are mature in one realm, childish in another. The past, present, and future mingle and pull us backward, forward, or fix us in the present. We are made up of layers, cells, constellations.”_
 
 * Presentation to [ESPGG](https://twitter.com/ESPGG/status/819967641607606272), participated to.
-* Proposing echOpen to be joined by WU 
 * Hardware: 
     * went to solder some stuff at HD
     * UltrasHound -- moving forward
@@ -2089,6 +2073,9 @@ Nice to have:
 * @done Removing double Autogen tags
 * @todo Main readme as TPL
 * @todo DICOM rest of images
+
+* @todo test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
+
 
 =======
 

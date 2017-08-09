@@ -37,6 +37,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * link to files in the log (python)
 * Main readme as TPL
 * DICOM rest of images
+* test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
 
 
 
