@@ -2219,6 +2219,9 @@ Nice to have:
 * @todo Main readme as TPL
 * @todo DICOM rest of images
 
+* @todo test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
+
+
 =======
 
 uControllers and other stuff

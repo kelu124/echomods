@@ -14,4 +14,4 @@ This project has a specific target of providing a __low-cost, open source techno
 * __Disclaimer #0__: __This is not a medical ultrasound scanner__! It's a development kit that can be used for pedagogical and academic purposes - possible immediate use as a non-destructive testing (NDT) tool, for example in metallurgical crack analysis. As in all electronics, be [careful](/WordOfCaution.md).
 * __Disclaimer #1__: though an engineer, this project is the first of its sort, I never did something related. It's all but a finalized product.
 * __Disclaimer #2__: Ultrasound raises questions. In case you build a scanner, use caution and good sense!
-* __Disclaimer #3__: Though I am one of echopen's cofounders, this personnal is a personnal pet-project.
+* __Disclaimer #3__: This project is not part of echopen.

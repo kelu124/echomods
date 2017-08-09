@@ -143,11 +143,11 @@ The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
-Copyright Kelu124 (luc@echopen.org / kelu124@gmail.com ) 2015-2018
+Copyright Kelu124 (kelu124@gmail.com) 2015-2018
 
 ### Based on 
 
 The following work is base on a previous TAPR project, [Murgen](https://github.com/kelu124/murgen-dev-kit) - and respects its TAPR license.
 
-Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2018
+Copyright Kelu124 (kelu124@gmail.com) 2015-2018
 
