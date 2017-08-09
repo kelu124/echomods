@@ -13,8 +13,6 @@ news!
 -   Sold two boards so far on
     [tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) -
     which also gave opportunities to discuss with people: awesome.
--   Lent a [emulator module](/silent/) to echOpen for their testing, and
-    updated doc.
 -   Auto documentation moved forward! Plenty of new debug options in the
     [doc generation journal](/doc/log.md)
 -   Some metadata on md files on board

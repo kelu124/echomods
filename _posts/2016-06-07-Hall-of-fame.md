@@ -7,7 +7,6 @@ title: 2016-06-07 Hall of fame
 ---
 
 
--   Preparing a hall of fame on echopen's wiki
 -   Getting a copy of an excellent book : [buy
     here](http://www.lulu.com/shop/st%C3%A9phane-ribas-and-st%C3%A9phane-ubeda-and-patrick-guillaud/logiciels-et-objets-libres-animer-une-communaut%C3%A9-autour-dun-projet-ouvert/paperback/product-22702396.html)
 -   Reading more about open science hardware with

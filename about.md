@@ -15,4 +15,4 @@ Built automatiquely : using makedoc.py generates the html files in the gh-pages 
 
 ### Contact me
 
-[luc@echopen.org](mailto:luc@echopen.org)
+[kelu124](mailto:kelu124ATgmail.com)

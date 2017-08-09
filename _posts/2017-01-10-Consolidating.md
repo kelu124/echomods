@@ -16,7 +16,6 @@ the present. We are made up of layers, cells, constellations.”*
 -   Presentation to
     [ESPGG](https://twitter.com/ESPGG/status/819967641607606272),
     participated to.
--   Proposing echOpen to be joined by WU
 -   Hardware:
     -   went to solder some stuff at HD
     -   UltrasHound -- moving forward
