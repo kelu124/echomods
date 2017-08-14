@@ -23,6 +23,7 @@
 * 2017-04-01: [Ultrasound on kakoni](https://github.com/kakoni/awesome-health)
 * 2017-04-16: [Bomanz on OSHPark](https://blog.oshpark.com/2017/04/15/high-speed-adc-phat-for-raspberry-pi/)
 * 2017-04-30: [Bomanz on Hackaday](http://hackaday.com/2017/04/30/hackaday-prize-entry-high-speed-sampling-for-the-raspberry-pi/)
+* 2017-05-15: [Development of a Portable and Inexpensive Ultrasound Imaging Device for Use in the Developing World](https://www.youngscientistjournal.org/article/development-of-a-portable-and-inexpensive-ultrasound-imaging-device-for-use-in-the-developing-world)
 * 2017-06-18: [Some publicity from OSHPark](https://twitter.com/oshpark/status/875691181228908550)
 * 2017-06-20: [ADC pHAT won some prize =)](http://hackaday.com/2017/06/19/twenty-iot-builds-that-just-won-1000-in-the-hackaday-prize/)
 * 2017-07-02: [Best Product Entry: A HSDK for Ultrasound Imaging](http://hackaday.com/2017/07/02/best-product-entry-a-hsdk-for-ultrasound-imaging/)

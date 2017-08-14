@@ -2205,6 +2205,10 @@ Nice to have:
 
 * @todo test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
 
+#### 2017-08-14  
+
+* Zach's work has [been published](https://www.youngscientistjournal.org/article/development-of-a-portable-and-inexpensive-ultrasound-imaging-device-for-use-in-the-developing-world) on https://www.youngscientistjournal.org/article/development-of-a-portable-and-inexpensive-ultrasound-imaging-device-for-use-in-the-developing-world =)
+* Got the probe -- need to open it and explore it =) (or [here](/include/community/Zach/ZTaylor.pdf) in local).
 
 =======
 
