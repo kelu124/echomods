@@ -2194,7 +2194,7 @@ Nice to have:
  
 * A slack bot? It would be fun to have a supporting bot to answer queries, like "where are the elements benchmarked, how do you process dicom, ..."
 
-#### 2017-08-05 Moving forward towards the 
+#### 2017-08-05 Moving forward towards the board
 
 * Added something about [the S3 probe](/loftus/source/s3/) 
 
@@ -2205,10 +2205,19 @@ Nice to have:
 
 * @todo test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
 
-#### 2017-08-14  
+#### 2017-08-14 Zach
 
 * Zach's work has [been published](https://www.youngscientistjournal.org/article/development-of-a-portable-and-inexpensive-ultrasound-imaging-device-for-use-in-the-developing-world) on https://www.youngscientistjournal.org/article/development-of-a-portable-and-inexpensive-ultrasound-imaging-device-for-use-in-the-developing-world =)
 * Got the probe -- need to open it and explore it =) (or [here](/include/community/Zach/ZTaylor.pdf) in local).
+
+#### 2017-08-17 Some RPi code
+
+Working to get a transducer schema?
+
+* http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF
+* http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc
+
+* Check python scripts from Mark
 
 =======
 
