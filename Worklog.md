@@ -2216,44 +2216,52 @@ Working to get a transducer schema?
 
 * http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF
 * http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc
+* Add http://datasheet.octopart.com/MD1210DB1-Supertex-datasheet-164548.pdf in bench - theres a RC circuit to simulate a transducer
 
 * Check python scripts from Mark
 
-=======
+Documenting pictures:
 
-uControllers and other stuff
--------
+* https://stackoverflow.com/questions/936937/which-exif-tag-to-store-keyword-tag-for-a-photo  - LocalCaption
+* https://photo.stackexchange.com/questions/52515/whats-a-good-exif-metadata-field-to-store-a-general-url-about-photo-topic-conte -- Caption-Abstract/Description // Headline
+* https://sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.html  -- ImageDescription
 
 
-### Croaker
+#### 2017-08-21 Remaining time
 
-#### Case of Feather WICED
- 
-* 12 bits ADC
-* 150 us acquisition, single channel
-* 6 Msps interleaved mode
+Got 3 months left (see 28/7), let's do... a __MASTER TODO__ !
 
-In 150 us (one line) you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
-
-In practice, we rather see 8Mbit/s, thats 1.2ms to send it. 
-
-#### Case of ESP8266
-
-Lower specs (for dev kit - 1 to 2 image / s OK)
-
-* SPI is 40MHz
-* 14 bit
-* 2 Msps
-* Comm through SPI
-* 10ms between lines - 64 lines gives 640ms / image)
-* 200us at 2Msps is 400 points is 5600 bits is 700 bytes
-* 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s.. should be OK with ESP8266/EMW3165/equivalent ;)
-
-__More [ESP8266 notes](/croaker/notes_ESP8266.md)__
-
-#### Case of Rasberry Zero
+* __Test board__
+   * Get DSO by 10/9
+   * Get signals by 30/9
+   * See ICs and get a summary by end of oct.
+* __CNFab__
+   * Get maps
+   * Send maps
+   * Receive alt.tobo and lite.gobs by 15/9
+   * Test those
+   * Put them on tindie with ADC pHATs
+* __Gob__
+   * Start order with EF
+   * Benchmark UF
+* __atl.tobo.cheap__
+   * 31/8: Start design
+   * 10/9: Get it to MF
+   * 10/10: get it and Test before 20/10
+* __Single board__
+   * Get alt.tobo.cheap tested
+   * Start design by 10/10
+   * Get sent to macrofab by 25/10
+   * Receive board by 25/11
 
 __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
+
+#### 2017-08-24 Some more ideas
+
+* Getting a 18650 battery (x2)
+* Getting battery board (x2) - board and tofs -- see https://hackspark.fr/fr/electronique/puissance-et-energie/stockage-batteries.html & battery holders
+* Touch sensors
+* https://hackspark.fr/fr/12mm-domed-push-button-pack.html // https://hackspark.fr/fr/joystick-breakout-module.html // https://hackspark.fr/fr/mini-sliding-switch-dpdt-6-terminals-0-3a-6vdc-2-positions-2mm.html
 
 ### Tofs
 

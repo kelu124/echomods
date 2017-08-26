@@ -103,7 +103,9 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ![](/tobo/images/schema-tobo.png)
 
-and [a link to it](/tobo/tobo_schematics.pdf)
+and [a link to it](/tobo/tobo_schematics.pdf) (plus some bonus with the [map](/tobo/tobo_map.PDF)). 
+
+Source files include [Altium](/tobo/source/Tobo-Altium-II.zip) and [KiCad](/tobo/source/Tobo-Kicad.zip) - along with the [BOM](/tobo/source/tobo_bom.xls).
 
 
 ### Look of the actual board
@@ -119,6 +121,14 @@ and [a link to it](/tobo/tobo_schematics.pdf)
 ### Setting up the module
 
 Setup? Have a look at the [quick start guide](/tobo/QuickStart.md) on how to prepare the pulser.
+
+### On the way towards a simpler board
+
+![](/tobo/alt.tobo/pulser-3d.png)
+
+[The alt design](/tobo/alt.tobo/) (and the corresponding [the schematics](/tobo/alt.tobo/draft.alt.tobo.v0.01pdf)  + [BOM](/tobo/alt.tobo/BOM.xls) ).
+
+
 
 ## Discussions
 
