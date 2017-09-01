@@ -2263,6 +2263,14 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * Touch sensors
 * https://hackspark.fr/fr/12mm-domed-push-button-pack.html // https://hackspark.fr/fr/joystick-breakout-module.html // https://hackspark.fr/fr/mini-sliding-switch-dpdt-6-terminals-0-3a-6vdc-2-positions-2mm.html
 
+#### 2017-08-28 Not much time
+
+* not much time, but let's see. The board design is making progress.
+    * Basically, need to review the pinout for the RPi Header
+* Got the DSO, will do some tests
+* Will start investigating a minima with the tobo.alt design
+* Image tagging with http://tilloy.net/dev/pyexiv2/tutorial.html
+
 ### Tofs
 
 ![Cartes](/include/images/600px-Cartes.png)
