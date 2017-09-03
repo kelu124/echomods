@@ -65,7 +65,7 @@ CopyGitBookFile("include/AllLogs.md","gitbook/Chapter4/AllLogs.md")
 GenFiles =  "# Getting images\n"
 ImgList = GetImgFiles("./")
 for k in ImgList:
-	CreateImgTags("."+k)
+	Tags = CreateImgTags("."+k)
 	
 OpenWrite(GenFiles,"include/FilesList/ImgFiles.md")
 

@@ -53,6 +53,7 @@
 * ./gitbook/Chapter5/loops.md
 * ./gitbook/Chapter3/cletus.md
 * ./gitbook/Chapter3/bomanz2.md
+* ./gitbook/Chapter3/loftus.md
 * ./gitbook/Chapter3/bomanz.md
 * ./gitbook/Chapter3/silent.md
 * ./gitbook/Chapter3/atl_more.md

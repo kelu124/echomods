@@ -194,7 +194,7 @@ def CreateImgTags(ImgSrc):
 	
 	# ModulesList 
 	# ModulesRetiredList
-	print ImgSrc
+	edited = 0
 	metadata = pyexiv2.ImageMetadata(ImgSrc)
 	metadata.read()
 
@@ -202,51 +202,70 @@ def CreateImgTags(ImgSrc):
 	try:
     		metadata['Exif.Image.DateTime']
 	except KeyError:
-    		print os.path.getmtime(ImgSrc) 
+		#edited = 1
+		1+ 1
+    		#print os.path.getmtime(ImgSrc) 
 
 	# Main Module
 	try:
     		metadata['Exif.Image.Software']
 	except KeyError:
+		edited = 1
+		print 'Exif.Image.Software'
 		if any(ext in ImgSrc for ext in ModulesList):
 			metadata['Exif.Image.Software'] = ImgSrc.split("/")[1]
 		elif any(ext in ImgSrc for ext in ModulesRetiredList):
 			metadata['Exif.Image.Software'] = ImgSrc.split("/")[2]
+		else:
+			metadata['Exif.Image.Software'] = "ToTag"
 
 	# Artist
 	try:
     		metadata['Exif.Image.Artist']
 	except KeyError:
+		edited = 1
+		print 'Exif.Image.Artist'
 		if ("/include/community/" in ImgSrc):
 			Author = ImgSrc.replace("/include/community/","")
 			AuthorName = Author.split("/")[0][1:]
 			print AuthorName
 		else:
 			AuthorName = "kelu124"
-		metadata['Exif.Image.Artist'] = "kelu124"
+		metadata['Exif.Image.Artist'] = AuthorName
+
 	# FilePath
 	try:
 		metadata['Exif.Photo.MakerNote']
 	except KeyError:
+		edited = 1
+		print 'Exif.Photo.MakerNote'
 		if "TEK0" in ImgSrc:
 			metadata['Exif.Photo.MakerNote'] = "oscilloscope"
-		if any(ext in ImgSrc for ext in ("2016","2017","2018")):
+		elif any(ext in ImgSrc for ext in ("2016","2017","2018")):
 			metadata['Exif.Photo.MakerNote'] = "picture"
-		if ("iewme.png" in ImgSrc):
+		elif ("iewme.png" in ImgSrc):
 			metadata['Exif.Photo.MakerNote'] = "thumbnail"
+		else:
+			metadata['Exif.Photo.MakerNote'] = "ToTag"
 	# FilePath
 	try:
     		metadata['Exif.Image.DocumentName']
 	except KeyError:
+
+		edited = 1
     		metadata['Exif.Image.DocumentName'] = ImgSrc
 
 	# Description
 	try:
     		metadata['Exif.Image.ImageHistory']
 	except KeyError:
+
+		edited = 1
 		metadata['Exif.Image.ImageHistory'] = "Coming from a project aiming at open-sourcing ultrasound imaging hardware - see https://kelu124.gitbooks.io/echomods/content/"
 
-	metadata.write()
+	if edited:
+		print edited,ImgSrc
+		metadata.write()
 
 	return metadata
 
