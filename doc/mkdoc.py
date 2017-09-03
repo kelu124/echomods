@@ -192,6 +192,8 @@ def getCode(string):
 
 def CreateImgTags(ImgSrc):
 	
+	# Use Make, Model
+
 	# ModulesList 
 	# ModulesRetiredList
 	edited = 0
@@ -219,13 +221,24 @@ def CreateImgTags(ImgSrc):
 		else:
 			metadata['Exif.Image.Software'] = "ToTag"
 
+	DefaultTag = ["A310","8.3","26.1.B","9.3.2"]
+
+	if any(ext in metadata['Exif.Image.Software'].value for ext in DefaultTag):
+		edited = 1
+		if any(ext in ImgSrc for ext in ModulesList):
+			metadata['Exif.Image.Software'] = ImgSrc.split("/")[1]
+		elif any(ext in ImgSrc for ext in ModulesRetiredList):
+			metadata['Exif.Image.Software'] = ImgSrc.split("/")[2]
+		else:
+			metadata['Exif.Image.Software'] = "ToTag"
+
 	# Artist
 	try:
     		metadata['Exif.Image.Artist']
 	except KeyError:
 		edited = 1
 		print 'Exif.Image.Artist'
-		if ("/include/community/" in ImgSrc):
+		if ("community" in ImgSrc):
 			Author = ImgSrc.replace("/include/community/","")
 			AuthorName = Author.split("/")[0][1:]
 			print AuthorName
@@ -233,7 +246,7 @@ def CreateImgTags(ImgSrc):
 			AuthorName = "kelu124"
 		metadata['Exif.Image.Artist'] = AuthorName
 
-	# FilePath
+	# Category
 	try:
 		metadata['Exif.Photo.MakerNote']
 	except KeyError:
@@ -247,6 +260,14 @@ def CreateImgTags(ImgSrc):
 			metadata['Exif.Photo.MakerNote'] = "thumbnail"
 		else:
 			metadata['Exif.Photo.MakerNote'] = "ToTag"
+
+	DefaultTag = ["Apple iOS","0100"]
+	if any(ext in metadata['Exif.Photo.MakerNote'].value for ext in DefaultTag):
+		edited = 1
+		metadata['Exif.Photo.MakerNote'] = "ToTag"
+
+
+
 	# FilePath
 	try:
     		metadata['Exif.Image.DocumentName']
@@ -269,6 +290,18 @@ def CreateImgTags(ImgSrc):
 
 	return metadata
 
+def GetTags(Tag):
+	TagValue = []
+	# 'Exif.Image.Artist' --> Author
+	# 'Exif.Image.Software' --> Modules
+	# 'Exif.Photo.MakerNote' --> category
+	Tag.read()
+
+	TagValue.append( Tag['Exif.Image.Artist'].value )
+	TagValue.append( Tag['Exif.Image.Software'].value )
+	TagValue.append( str(Tag['Exif.Photo.MakerNote'].value) )
+
+	return TagValue
 # -------------------------
 # Preparing gitbook
 # -------------------------

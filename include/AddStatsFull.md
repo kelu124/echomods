@@ -1,6 +1,15 @@
 ### Some stats
 
 * __[HSDK](https://hackaday.io/project/10899)__: 2600 views, 77 followers, 30 likes
+* __[Murgen](https://hackaday.io/project/9281)__: 27500 views, 647 followers, 158 likes
+* __[ADC cape](https://hackaday.io/project/20455)__: 4100 views, 38 followers, 37 likes
+* __[JOH publication](https://openhardware.metajnl.com/articles/10.5334/joh.2/metrics/#views)__: 1290 views and 164 downloads.
+
+--- 2017-09-03 23:19:10.795819
+
+### Some stats
+
+* __[HSDK](https://hackaday.io/project/10899)__: 2600 views, 77 followers, 30 likes
 * __[Murgen](https://hackaday.io/project/9281)__: 27500 views, 646 followers, 158 likes
 * __[ADC cape](https://hackaday.io/project/20455)__: 4100 views, 38 followers, 37 likes
 * __[JOH publication](https://openhardware.metajnl.com/articles/10.5334/joh.2/metrics/#views)__: 1290 views and 164 downloads.

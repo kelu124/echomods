@@ -1,9 +1,15 @@
 # History 
 
 
+ * __2017-09-02__: [worklog of the day](http://kelu124.github.io/echomods/2017-09-02-Making-the-images-better.md)
  * __2017-08-31__: [20170831-TestImages.ipynb](https://github.com/kelu124/echomods/tree/master/include/images/20170831-TestImages.ipynb)
+ * __2017-08-28__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-28-Not-much-time.md)
+ * __2017-08-24__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-24-Some-more-ideas.md)
+ * __2017-08-21__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-21-Remaining-time.md)
  * __2017-08-18__: [20170818_162039.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170818_162039.jpg), [20170818_152031.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170818_152031.jpg), [20170818_151838.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170818_151838.jpg)
- * __2017-08-05__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-05-Moving-forward-towards-the.md)
+ * __2017-08-17__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-17-Some-RPi-code.md)
+ * __2017-08-14__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-14-Zach.md)
+ * __2017-08-05__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-05-Moving-forward-towards-the-board.md), [worklog of the day](http://kelu124.github.io/echomods/2017-08-05-Moving-forward-towards-the.md)
  * __2017-08-04__: [20170804_141110.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141110.jpg), [20170804_141348.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141348.jpg), [20170804_141235.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141235.jpg), [20170804_141119.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141119.jpg)
  * __2017-08-01__: [20170801_134819.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134819.jpg), [20170801_134824.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134824.jpg), [20170801_134829.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134829.jpg)
  * __2017-07-28__: [worklog of the day](http://kelu124.github.io/echomods/2017-07-28-Thinking-of-an-end.md)

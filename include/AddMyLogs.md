@@ -2145,6 +2145,8 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 #### 2017-09-02 Making the images better
 
 * Adding metadata to the images
+* explore:
+    * ImageDescription
 
 =======
 

@@ -634,10 +634,6 @@ __[Unrefed file]__ :warning: `/include/NamesOfModules.md` : No references of thi
 
 __[Unrefed file]__ :warning: `/include/PiDAQ.set.md` : No references of this file (in _include_). 
 
-__[Unrefed file]__ :warning: `/include/QuickStart.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/RPiHSDK.md.tpl` : No references of this file (in _include_). 
-
 __[Unrefed file]__ :warning: `/include/biblio/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/Afreen/Readme.md` : No references of this file (in _include_). 

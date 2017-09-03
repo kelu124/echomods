@@ -66,6 +66,7 @@ GenFiles =  "# Getting images\n"
 ImgList = GetImgFiles("./")
 for k in ImgList:
 	Tags = CreateImgTags("."+k)
+	GenFiles+= "* __"+k+"__: "+", ".join(GetTags(Tags))+"\n"
 	
 OpenWrite(GenFiles,"include/FilesList/ImgFiles.md")
 
