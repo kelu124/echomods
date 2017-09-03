@@ -62,6 +62,17 @@ CopyGitBookFile("include/AllLogs.md","gitbook/Chapter4/AllLogs.md")
 # Presentations
 # -------------------------
 
+GenFiles =  "# Getting images\n"
+ImgList = GetImgFiles("./")
+for k in ImgList:
+	CreateImgTags("."+k)
+	
+OpenWrite(GenFiles,"include/FilesList/ImgFiles.md")
+
+# -------------------------
+# Presentations
+# -------------------------
+
 
 PPTz = GetPptFiles("./")
 PPTFiles = ""

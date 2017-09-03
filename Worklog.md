@@ -2271,6 +2271,46 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * Will start investigating a minima with the tobo.alt design
 * Image tagging with http://tilloy.net/dev/pyexiv2/tutorial.html
 
+#### 2017-09-02 Making the images better
+
+* Adding metadata to the images
+
+=======
+
+uControllers and other stuff
+-------
+
+
+### Croaker
+
+#### Case of Feather WICED
+ 
+* 12 bits ADC
+* 150 us acquisition, single channel
+* 6 Msps interleaved mode
+
+In 150 us (one line) you will get 6x12x150 = 10800 bits of data. On Wi-Fi speed 54Mb/s it will take 10800/54000000=0.0002s (200us) to send these data.
+
+In practice, we rather see 8Mbit/s, thats 1.2ms to send it. 
+
+#### Case of ESP8266
+
+Lower specs (for dev kit - 1 to 2 image / s OK)
+
+* SPI is 40MHz
+* 14 bit
+* 2 Msps
+* Comm through SPI
+* 10ms between lines - 64 lines gives 640ms / image)
+* 200us at 2Msps is 400 points is 5600 bits is 700 bytes
+* 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s.. should be OK with ESP8266/EMW3165/equivalent ;)
+
+__More [ESP8266 notes](/croaker/notes_ESP8266.md)__
+
+#### Case of Rasberry Zero
+
+__More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
+
 ### Tofs
 
 ![Cartes](/include/images/600px-Cartes.png)

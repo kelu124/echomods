@@ -2065,7 +2065,7 @@ Nice to have:
  
 * A slack bot? It would be fun to have a supporting bot to answer queries, like "where are the elements benchmarked, how do you process dicom, ..."
 
-#### 2017-08-05 Moving forward towards the 
+#### 2017-08-05 Moving forward towards the board
 
 * Added something about [the S3 probe](/loftus/source/s3/) 
 
@@ -2076,6 +2076,75 @@ Nice to have:
 
 * @todo test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
 
+#### 2017-08-14 Zach
+
+* Zach's work has [been published](https://www.youngscientistjournal.org/article/development-of-a-portable-and-inexpensive-ultrasound-imaging-device-for-use-in-the-developing-world) on https://www.youngscientistjournal.org/article/development-of-a-portable-and-inexpensive-ultrasound-imaging-device-for-use-in-the-developing-world =)
+* Got the probe -- need to open it and explore it =) (or [here](/include/community/Zach/ZTaylor.pdf) in local).
+
+#### 2017-08-17 Some RPi code
+
+Working to get a transducer schema?
+
+* http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF
+* http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc
+* Add http://datasheet.octopart.com/MD1210DB1-Supertex-datasheet-164548.pdf in bench - theres a RC circuit to simulate a transducer
+
+* Check python scripts from Mark
+
+Documenting pictures:
+
+* https://stackoverflow.com/questions/936937/which-exif-tag-to-store-keyword-tag-for-a-photo  - LocalCaption
+* https://photo.stackexchange.com/questions/52515/whats-a-good-exif-metadata-field-to-store-a-general-url-about-photo-topic-conte -- Caption-Abstract/Description // Headline
+* https://sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.html  -- ImageDescription
+
+
+#### 2017-08-21 Remaining time
+
+Got 3 months left (see 28/7), let's do... a __MASTER TODO__ !
+
+* __Test board__
+   * Get DSO by 10/9
+   * Get signals by 30/9
+   * See ICs and get a summary by end of oct.
+* __CNFab__
+   * Get maps
+   * Send maps
+   * Receive alt.tobo and lite.gobs by 15/9
+   * Test those
+   * Put them on tindie with ADC pHATs
+* __Gob__
+   * Start order with EF
+   * Benchmark UF
+* __atl.tobo.cheap__
+   * 31/8: Start design
+   * 10/9: Get it to MF
+   * 10/10: get it and Test before 20/10
+* __Single board__
+   * Get alt.tobo.cheap tested
+   * Start design by 10/10
+   * Get sent to macrofab by 25/10
+   * Receive board by 25/11
+
+__More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
+
+#### 2017-08-24 Some more ideas
+
+* Getting a 18650 battery (x2)
+* Getting battery board (x2) - board and tofs -- see https://hackspark.fr/fr/electronique/puissance-et-energie/stockage-batteries.html & battery holders
+* Touch sensors
+* https://hackspark.fr/fr/12mm-domed-push-button-pack.html // https://hackspark.fr/fr/joystick-breakout-module.html // https://hackspark.fr/fr/mini-sliding-switch-dpdt-6-terminals-0-3a-6vdc-2-positions-2mm.html
+
+#### 2017-08-28 Not much time
+
+* not much time, but let's see. The board design is making progress.
+    * Basically, need to review the pinout for the RPi Header
+* Got the DSO, will do some tests
+* Will start investigating a minima with the tobo.alt design
+* Image tagging with http://tilloy.net/dev/pyexiv2/tutorial.html
+
+#### 2017-09-02 Making the images better
+
+* Adding metadata to the images
 
 =======
 

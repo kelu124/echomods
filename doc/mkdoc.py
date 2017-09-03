@@ -17,6 +17,7 @@ import os
 from glob import glob
 import markdown
 import re
+import pyexiv2
 import graphviz as gv
 import functools
 # Wand for SVG to PNG Conversion
@@ -43,10 +44,15 @@ RedMark = ":no_entry:"
 WarningMark = ":warning:"
 ValidH = ["h1","h2","h3","h4","h5"]
 
-ModulesChaptDeux = ["tobo","retroATL3","goblin","tobo","elmo"]
+ModulesChaptDeux = ["tobo","retroATL3","goblin","elmo"]
 ModulesChaptDeuxRT = ["mogaba","toadkiller"]
-ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom"]
+ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom","loftus"]
+
 ModulesChaptTroisRT= ["sleepy","oneeye"]
+
+ModulesList = ModulesChaptDeux+ModulesChaptTrois
+ModulesRetiredList = ModulesChaptDeuxRT+ModulesChaptTroisRT
+
 ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.md","Session_4b.md","Session_5.md","Session_6.md","Session_7.md","Session_8.md","Session_9_ATL.md",]
 
 ToBeReplaced = ["/include/NDT.md"]
@@ -179,6 +185,70 @@ def getCode(string):
 	for item in string.find_all("code"):
 		ListOfCodes.append(item.text)
 	return ListOfCodes
+
+# -------------------------
+# Processing images
+# -------------------------
+
+def CreateImgTags(ImgSrc):
+	
+	# ModulesList 
+	# ModulesRetiredList
+	print ImgSrc
+	metadata = pyexiv2.ImageMetadata(ImgSrc)
+	metadata.read()
+
+	# Datetime
+	try:
+    		metadata['Exif.Image.DateTime']
+	except KeyError:
+    		print os.path.getmtime(ImgSrc) 
+
+	# Main Module
+	try:
+    		metadata['Exif.Image.Software']
+	except KeyError:
+		if any(ext in ImgSrc for ext in ModulesList):
+			metadata['Exif.Image.Software'] = ImgSrc.split("/")[1]
+		elif any(ext in ImgSrc for ext in ModulesRetiredList):
+			metadata['Exif.Image.Software'] = ImgSrc.split("/")[2]
+
+	# Artist
+	try:
+    		metadata['Exif.Image.Artist']
+	except KeyError:
+		if ("/include/community/" in ImgSrc):
+			Author = ImgSrc.replace("/include/community/","")
+			AuthorName = Author.split("/")[0][1:]
+			print AuthorName
+		else:
+			AuthorName = "kelu124"
+		metadata['Exif.Image.Artist'] = "kelu124"
+	# FilePath
+	try:
+		metadata['Exif.Photo.MakerNote']
+	except KeyError:
+		if "TEK0" in ImgSrc:
+			metadata['Exif.Photo.MakerNote'] = "oscilloscope"
+		if any(ext in ImgSrc for ext in ("2016","2017","2018")):
+			metadata['Exif.Photo.MakerNote'] = "picture"
+		if ("iewme.png" in ImgSrc):
+			metadata['Exif.Photo.MakerNote'] = "thumbnail"
+	# FilePath
+	try:
+    		metadata['Exif.Image.DocumentName']
+	except KeyError:
+    		metadata['Exif.Image.DocumentName'] = ImgSrc
+
+	# Description
+	try:
+    		metadata['Exif.Image.ImageHistory']
+	except KeyError:
+		metadata['Exif.Image.ImageHistory'] = "Coming from a project aiming at open-sourcing ultrasound imaging hardware - see https://kelu124.gitbooks.io/echomods/content/"
+
+	metadata.write()
+
+	return metadata
 
 # -------------------------
 # Preparing gitbook
@@ -527,6 +597,16 @@ def GetJupyFiles(path):
 	ResJupy = [x for x in results if ".ipynb_checkpoints" not in x]
 	JupyFiles = [x for x in ResJupy if x.split("/")[1] not in ExcludeDirs]
 	return JupyFiles
+
+def GetImgFiles(path):
+	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.jpg'))]
+	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.png'))]
+	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.JPG'))]
+	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.PNG'))]
+	ExcludeDirs = ["tools",".git","gh-pages","old"] 
+	ImgFiles = [x[1:] for x in results if x.split("/")[1] not in ExcludeDirs]
+	
+	return ImgFiles
 
 def GetInoFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.ino'))]

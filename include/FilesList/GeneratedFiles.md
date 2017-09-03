@@ -9,6 +9,7 @@
 * ./include/basicdevkit.md
 * ./include/AllLogs.md
 * ./include/FilesList/TPLFiles.md
+* ./include/FilesList/ImgFiles.md
 * ./include/FilesList/ArduinoFiles.md
 * ./include/FilesList/PythonFiles.md
 * ./include/FilesList/JupyFiles.md
