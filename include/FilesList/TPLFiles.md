@@ -1,6 +1,6 @@
-* [QuickStart.md.tpl](/include/QuickStart.md.tpl): ./include/QuickStart.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+* [QuickStart.md.tpl](/include/QuickStart.md.tpl): ./include/QuickStart.md.tpl. _File not used._
 
-* [RPiHSDK.md.tpl](/include/RPiHSDK.md.tpl): ./include/RPiHSDK.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+* [RPiHSDK.md.tpl](/include/RPiHSDK.md.tpl): ./include/RPiHSDK.md.tpl. _File not used._
 
 
 

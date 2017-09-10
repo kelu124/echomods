@@ -190,10 +190,28 @@ def getCode(string):
 # Processing images
 # -------------------------
 
-def CreateImgTags(ImgSrc):
-	
-	# Use Make, Model
 
+def ListJPGfromBMP(path):
+	# Gets BMP, makes PNG
+	ListBMP = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.BMP'))]
+	for bmpImg in ListBMP:
+		img = Image.open(bmpImg)
+		ImgPath = os.path.dirname(bmpImg)
+		ImgName = bmpImg.split("/")[-1].split(".")[0]
+		NewPath = ImgPath+"/"+ImgName+".png"
+
+		if not os.path.isfile(NewPath):
+			if "IMAG" in bmpImg:
+				new_img = img.resize( (800, 480) )
+				new_img.save(NewPath, 'png')
+			else:
+				img.save( NewPath, 'png')
+
+	 return ListBMP
+
+
+def CreateImgTags(ImgSrc):
+	# Use Make, Model
 	# ModulesList 
 	# ModulesRetiredList
 	edited = 0
@@ -218,6 +236,8 @@ def CreateImgTags(ImgSrc):
 			metadata['Exif.Image.Software'] = ImgSrc.split("/")[1]
 		elif any(ext in ImgSrc for ext in ModulesRetiredList):
 			metadata['Exif.Image.Software'] = ImgSrc.split("/")[2]
+		elif "/s3/" in ImgSrc:
+			metadata['Exif.Image.Software'] = "s3"
 		else:
 			metadata['Exif.Image.Software'] = "ToTag"
 
@@ -252,7 +272,7 @@ def CreateImgTags(ImgSrc):
 	except KeyError:
 		edited = 1
 		print 'Exif.Photo.MakerNote'
-		if "TEK0" in ImgSrc:
+		if any(ext in ImgSrc for ext in ("TEK0","IMAG0")): 
 			metadata['Exif.Photo.MakerNote'] = "oscilloscope"
 		elif any(ext in ImgSrc for ext in ("2016","2017","2018")):
 			metadata['Exif.Photo.MakerNote'] = "picture"
@@ -289,6 +309,7 @@ def CreateImgTags(ImgSrc):
 		metadata.write()
 
 	return metadata
+
 
 def GetTags(Tag):
 	TagValue = []

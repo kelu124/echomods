@@ -33,8 +33,8 @@ __Results: -118$__ (3 goblin left, 3x[Doj,Bomanz,CA3306] left) - 1 tobo scrapped
 
 ## 2017-06-05
 
-* 2017 Apr 24	: 	- 120$  (Edgelex, 1 tobo, new HV) 
-* 2017 May 15	: 	- 480$  (Edgelex, 4 tobo) 
+* 2017 Apr 24	: 	- 120$  (Edgeflex, 1 tobo, new HV) 
+* 2017 May 15	: 	- 480$  (Edgeflex, 4 tobo) 
 * 2017 May 26	: 	- 15$ 	(OSHPark, 3x Bomanz 2x20)
 * 2017 May 26	: 	- 60$ 	(Digikey, Bomanz 1x, soldering stuff)
 * 2017 Jun 05	:	+ 150$	(Charles, AFE - sent along one doj v2.0 + one pulser, unpaid yet)

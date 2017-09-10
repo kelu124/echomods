@@ -296,6 +296,8 @@ __[MD Files]__ :no_entry: `./include/ppt_DocumentationProcess.md` : Missing desc
 
 __[MD Files]__ :no_entry: `./include/ppt_presUS.md` : Missing description
 
+__[MD Files]__ :no_entry: `./include/s3/Readme.md` : Missing description
+
 __[MD Files]__ :no_entry: `./include/use_case_biblio/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/vscan/Readme.md` : Missing description
@@ -548,35 +550,45 @@ __[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-ut.md` : No references
 
 __[Unrefed file]__ :no_entry: `/cletus/suppliers/supplier-valpey.md` : No references of this file. 
 
+__[Unrefed file]__ :no_entry: `/croaker/data/examples/Cleaning.py` : No references of this file. 
+
 __[Unrefed file]__ :no_entry: `/croaker/data/examples/Intro.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/croaker/data/examples/Readme.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/croaker/data/manual/CreateSC_manual.py` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/croaker/feather_tests/Registers1MspsServo.ino` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/croaker/data/manual/plotcsv.py` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/croaker/feather_tests/StreamingADC2UDP.ino` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/croaker/data/manual/rebuild.py` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/croaker/notes_ESP32.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/croaker/notes_STM32F205_ref_manual.md` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/doc/__init__.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doc/createStats.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doc/mkdoc.py` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/doj/brief_v2.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/doj/source/v1.2-kicad/Readme.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/elmo/data/arduiprobe/arduino.ino` : No references of this file. 
-
 __[Unrefed file]__ :no_entry: `/goblin/QuickStart.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/retired/hannin/source/Firmware/README.md` : No references of this file. 
 
+__[Unrefed file]__ :no_entry: `/retired/toadkiller/data/test_enveloppe/Readme.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/toadkiller/data/test_enveloppe/test_dual_entry.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/toadkiller/software/test_file.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/toadkiller/software/test_file_3periods.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retroATL3/software/BitscopeAcquisitionScript.py` : No references of this file. 
+
 __[Unrefed file]__ :no_entry: `/silent/notes_R2R_DAC.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/silent/software/featherWICED/Calibration/Calibration.ino` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/tobo/alt.tobo/Readme.md` : No references of this file. 
 
@@ -628,11 +640,17 @@ __[Unrefed file]__ :warning: `/include/Bibliography.md` : No references of this 
 
 __[Unrefed file]__ :warning: `/include/FuturePR.md` : No references of this file (in _include_). 
 
+__[Unrefed file]__ :warning: `/include/JOH/blocks/maketemplate.py` : No references of this file (in _include_). 
+
 __[Unrefed file]__ :warning: `/include/JOH/comments/feedbackoncomments.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/NamesOfModules.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/PiDAQ.set.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/QuickStart.md.tpl` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/RPiHSDK.md.tpl` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/biblio/Readme.md` : No references of this file (in _include_). 
 
@@ -644,7 +662,13 @@ __[Unrefed file]__ :warning: `/include/community/Jay/Readme.md` : No references 
 
 __[Unrefed file]__ :warning: `/include/community/Kelu/Readme.md` : No references of this file (in _include_). 
 
+__[Unrefed file]__ :warning: `/include/community/MappingCommunity.ipynb` : No references of this file (in _include_). 
+
 __[Unrefed file]__ :warning: `/include/community/Marc/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/Marc/precise.py` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/Marc/spi.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/NickRene/Readme.md` : No references of this file (in _include_). 
 
@@ -662,11 +686,13 @@ __[Unrefed file]__ :warning: `/include/highspeed.set.md` : No references of this
 
 __[Unrefed file]__ :warning: `/include/murgen_notes.md` : No references of this file (in _include_). 
 
+__[Unrefed file]__ :warning: `/include/s3/Readme.md` : No references of this file (in _include_). 
+
 __[Unrefed file]__ :warning: `/include/vscan/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/wifi-dev-kit.set.md` : No references of this file (in _include_). 
 
-__[WEB Blog]__ 246 posts added
+__[WEB Blog]__ 247 posts added
 
 
 [](@autogenerated - invisible comment)

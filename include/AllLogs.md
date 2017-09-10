@@ -1,8 +1,11 @@
 # History 
 
 
+ * __2017-09-08__: [20170908_101051.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170908_101051.jpg), [20170908_101105.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170908_101105.jpg)
+ * __2017-09-04__: [20170904_153256.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170904_153256.jpg), [20170904_153316.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170904_153316.jpg)
  * __2017-09-02__: [worklog of the day](http://kelu124.github.io/echomods/2017-09-02-Making-the-images-better.md)
  * __2017-08-31__: [20170831-TestImages.ipynb](https://github.com/kelu124/echomods/tree/master/include/images/20170831-TestImages.ipynb)
+ * __2017-08-30__: [20170830_150632.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170830_150632.jpg)
  * __2017-08-28__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-28-Not-much-time.md)
  * __2017-08-24__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-24-Some-more-ideas.md)
  * __2017-08-21__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-21-Remaining-time.md)

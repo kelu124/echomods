@@ -59,8 +59,10 @@ OpenWrite ( CreateWorkLog(d) , "include/AllLogs.md")
 CopyGitBookFile("include/AllLogs.md","gitbook/Chapter4/AllLogs.md") 
 
 # -------------------------
-# Presentations
+# Preparing Images
 # -------------------------
+
+ListJPGfromBMP("./")
 
 GenFiles =  "# Getting images\n"
 ImgList = GetImgFiles("./")
