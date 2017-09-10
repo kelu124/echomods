@@ -11,5 +11,3 @@ title: 2017-09-02 Making the images better
 -   explore:
     -   ImageDescription
 
-=======
-
