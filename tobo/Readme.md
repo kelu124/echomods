@@ -124,9 +124,9 @@ Setup? Have a look at the [quick start guide](/tobo/QuickStart.md) on how to pre
 
 ### On the way towards a simpler board
 
-![](/tobo/alt.tobo/pulser-3d.png)
+![](/tobo/alt.tobo/alt.tobo/pulser-3d.png)
 
-[The alt design](/tobo/alt.tobo/) (and the corresponding [the schematics](/tobo/alt.tobo/draft.alt.tobo.v0.01pdf)  + [BOM](/tobo/alt.tobo/BOM.xls) ).
+[The alt design](/tobo/alt.tobo/) (and the corresponding [the schematics](/tobo/alt.tobo/draft.alt.tobo.v0.01pdf)  + [BOM](/tobo/alt.tobo/alt.tobo/BOM.xls) ).
 
 
 

@@ -67,7 +67,7 @@ Analyzing the [binary dump](/include/20160814/sonde3V_1.tar.bz2) provides the fo
 
 Once the images segmented, we can isolate the images and scan-convert those. For the sake of experiment, I've been using a single simple nearest-neihghbour conversion:
 
-![](/include/20160814/sonde3V_1-4.csv-SC.png)
+![](/include/20160814/20160814-sonde3V_1-4.csv-SC.png)
 
 # Functional blocks and modules
 

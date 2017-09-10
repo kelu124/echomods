@@ -19,13 +19,13 @@ I will definitely publish my results and hardware documentation on github and ha
 
 Quite impressed with those plots! What is the large pulse at the start, is it related to the transmission or is it a reflection? I was thinking of getting the LTC5507 as it is smaller and stocked by a local supplier, but the ADL5511 seems to have a much more linear output, so I'll definitely use it instead of the cheaper option. I've decided I'll include the HV7360, because it'll make it much easier to compare different waveforms. I don't think I'll attempt any impedance matching to the transducer. I would use a smith chart, but I actually haven't been able to determine the characteristics of either of my sensors. In fact, I've attached some strange plots I got of how the transducers respond to a simple 1V pk-pk 3-5MHz sine sweep. My rectangular transducer favours higher frequencies, but didn't appear to actually resonate at any point, while the cylindrical one resonates at exactly 4MHz and rolls off at either extreme. Both tests were conducted simply by plugging a BNC splitter into a signal generator and attaching both the transducer and oscilloscope. If you happen to have some rough values for an electrical model (I would be extremely grateful!) you can easily use a smith chart online or on paper to calculate the matching network required.
 
-![](/include/c_will/industrialsensors.png)
+![](/include/community/WillT/industrialsensors.png)
 
 
-![](/include/c_will/cylindrical.BMP)
+![](/include/community/WillT/cylindrical.png)
 
 
-![](/include/c_will/rectangular.BMP)
+![](/include/community/WillT/rectangular.png)
 
 Finally, I was curious about your choice of components for the receiver side. Did you choose the AD8331 and then choose a differential op-amp as a consequence, or is there a specific reason you used a differential op-amp? I don't have a great deal of experience in the area of amplifier design. Are there any special requirements to the balun transformer? Sorry to level so many questions at you, it's exciting to have a design to sanity check against before I send my own board off in the next few days.
 
@@ -86,7 +86,7 @@ I'm running into data throughput issues with my setup, because the 20MSPS ADC is
 
 I actually haven't yet been able to do my preliminary performance tests, because for some strange reason the DAC is drawing half an amp at 3.3V and quickly overheats. I suspect it may already be dead for this reason, but it actually still works correctly when I turn off the power and connect the data and clock pins normally. This is by far the strangest thing I've seen so far in my degree, as it even outputs it's full rated +/- 1V. However, due to drawing power from (presumably) the data and clock lines, the output is very distorted. This could also just be a case of me connecting the data bus backwards, I've done that a few times already. For the moment, I may need to run it in this state and deal with the fact it's sending garbage to the transducer, because I need to make sure nothing else on the board is faulty. I suppose I'll then replace the chip or replace the DAC entirely with an R/2R resistor ladder, which actually worked fine previously.
 
-![](/include/c_will/board.jpg)
+![](/include/community/WillT/board.jpg)
 
 I am hopeful that the DAC (top left) is the only dodgy component, potentially killed by my hot air gun. If other things are also broken, that could prove quite inconvenient this late into the project.
 As always, I greatly appreciate your ongoing documentation of your project. Do you happen to have any full sets of data from the ADC when looking at a real object? I suppose if I can't get my board to function correctly the next best thing I can do is get sample data to compare the simulations to.

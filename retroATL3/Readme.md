@@ -137,7 +137,7 @@ Using 160mA@4V
 
 [Please refer to this log to read more about how we got this image](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md). Here's an example of the image we got:
 
-![](/include/20160814/sonde3V_1-4.csv-SC.png)
+![](/include/20160814/20160814-sonde3V_1-4.csv-SC.png)
 
 ### RealTime issues [RESOLVED]
 

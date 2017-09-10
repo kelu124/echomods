@@ -97,8 +97,11 @@ At least for the moment, now I need to order the PCBs and some components.
 
 #### Raw signal acquisition and enveloppe with this ADC pHAT
 
-![](/elmo/data/arduino/LineImageEnveloppe.jpg)
+With the enveloppe
 
+![](/elmo/data/arduino/EnveloppeLineEnveloppe.jpg)
+
+With the raw signal
 
 ![](/elmo/data/arduinoffset/LineImageEnveloppe.jpg)
 
