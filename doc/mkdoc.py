@@ -13,6 +13,7 @@ __author__      = "kelu124"
 __copyright__   = "Copyright 2016, Kelu124"
 __license__ 	= "cc-by-sa/4.0/"
 
+import chardet   
 import os
 from glob import glob
 import markdown
@@ -207,7 +208,7 @@ def ListJPGfromBMP(path):
 			else:
 				img.save( NewPath, 'png')
 
-	 return ListBMP
+	return ListBMP
 
 
 def CreateImgTags(ImgSrc):
@@ -241,7 +242,7 @@ def CreateImgTags(ImgSrc):
 		else:
 			metadata['Exif.Image.Software'] = "ToTag"
 
-	DefaultTag = ["A310","8.3","26.1.B","9.3.2"]
+	DefaultTag = ["A310","8.3","26.1.B","9.3.2","Adobe Photoshop"]
 
 	if any(ext in metadata['Exif.Image.Software'].value for ext in DefaultTag):
 		edited = 1
@@ -267,26 +268,33 @@ def CreateImgTags(ImgSrc):
 		metadata['Exif.Image.Artist'] = AuthorName
 
 	# Category
-	try:
-		metadata['Exif.Photo.MakerNote']
-	except KeyError:
-		edited = 1
-		print 'Exif.Photo.MakerNote'
-		if any(ext in ImgSrc for ext in ("TEK0","IMAG0")): 
-			metadata['Exif.Photo.MakerNote'] = "oscilloscope"
-		elif any(ext in ImgSrc for ext in ("2016","2017","2018")):
-			metadata['Exif.Photo.MakerNote'] = "picture"
-		elif ("iewme.png" in ImgSrc):
-			metadata['Exif.Photo.MakerNote'] = "thumbnail"
-		else:
-			metadata['Exif.Photo.MakerNote'] = "ToTag"
+
+	edited = 1
+	print 'Exif.Photo.MakerNote'
+	
+	if any(ext in ImgSrc for ext in ("TEK0","IMAG0")):
+				metadata['Exif.Photo.MakerNote'] = "oscilloscope"
+	elif ("iewme.png" in ImgSrc):
+		metadata['Exif.Photo.MakerNote'] = "thumbnail"
+	elif any(ext in ImgSrc for ext in ("2016","2017","2018")): 
+				metadata['Exif.Photo.MakerNote'] = "picture"
+	else:
+		metadata['Exif.Photo.MakerNote'] = "ToTag"
 
 	DefaultTag = ["Apple iOS","0100"]
 	if any(ext in metadata['Exif.Photo.MakerNote'].value for ext in DefaultTag):
 		edited = 1
 		metadata['Exif.Photo.MakerNote'] = "ToTag"
 
+	MaNo = metadata['Exif.Photo.MakerNote'].value
+	try:
+		MaNo.decode('utf-8',"strict")
 
+	except UnicodeError:
+		# MakerNote sometimes bugs
+		print ImgSrc+" : "+str(metadata['Exif.Photo.MakerNote'])
+		edited = 1
+		metadata['Exif.Photo.MakerNote'] = "ToTag"
 
 	# FilePath
 	try:
@@ -676,6 +684,8 @@ def GetImgFiles(path):
 	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.png'))]
 	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.JPG'))]
 	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.PNG'))]
+	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.JPEG'))]
+	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.jpeg'))]
 	ExcludeDirs = ["tools",".git","gh-pages","old"] 
 	ImgFiles = [x[1:] for x in results if x.split("/")[1] not in ExcludeDirs]
 	

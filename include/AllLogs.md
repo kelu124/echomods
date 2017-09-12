@@ -1,6 +1,7 @@
 # History 
 
 
+ * __2017-09-09__: [worklog of the day](http://kelu124.github.io/echomods/2017-09-09-Playing-with-the-probe.md)
  * __2017-09-08__: [20170908_101051.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170908_101051.jpg), [20170908_101105.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170908_101105.jpg)
  * __2017-09-04__: [20170904_153256.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170904_153256.jpg), [20170904_153316.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20170904_153316.jpg)
  * __2017-09-02__: [worklog of the day](http://kelu124.github.io/echomods/2017-09-02-Making-the-images-better.md)
