@@ -14,7 +14,7 @@
 
 ## ADC
  
-* Jumper to select SPI ADC (goblin) or 14 bit 20Msps ADC (onboard)
+* Jumper to select SPI ADC (goblin) or 14 bit 30Msps ADC (onboard - that can work from 10Msps upwards)
 * If 20Msps ADC:
     * Jumper to select _Raw Signal_ or _Enveloppe_ . If RawSignal, to be offset by Vref/2.
 * If SPI ADC:
@@ -26,7 +26,7 @@
 ## TGC (ex goblin board)
 
 * MD0100 or equivalent for protection of VGC
-* Jumper : to select gain from pot (as per goblin) or from external (0 to 1V) as per goblin
+* Jumper : to select gain from pot (as per goblin) or from external (0 to 1V - connected to the 6x2 header Gain) as per goblin
 
 ## HV (ex tobo board)
 
@@ -39,8 +39,7 @@
 
 ## Other
 
-* Two SPI headers free
-* One 5x2 header for add-ons (Pon, Poff, 5V, TGC, GND, SDA, SCL, 3V, PWM, Tracker)
+* One 6x2 header for add-ons (Pon, Poff, 5V, 3.3V, Gain, TGC, GND, SDA, SCL, 3V, PWM, Tracker)
 
 ## Capa touch
 

@@ -268,18 +268,20 @@ def CreateImgTags(ImgSrc):
 		metadata['Exif.Image.Artist'] = AuthorName
 
 	# Category
-
-	edited = 1
-	print 'Exif.Photo.MakerNote'
-	
-	if any(ext in ImgSrc for ext in ("TEK0","IMAG0")):
-				metadata['Exif.Photo.MakerNote'] = "oscilloscope"
-	elif ("iewme.png" in ImgSrc):
-		metadata['Exif.Photo.MakerNote'] = "thumbnail"
-	elif any(ext in ImgSrc for ext in ("2016","2017","2018")): 
-				metadata['Exif.Photo.MakerNote'] = "picture"
-	else:
-		metadata['Exif.Photo.MakerNote'] = "ToTag"
+	try:
+		metadata['Exif.Photo.MakerNote']
+	except KeyError:
+		edited = 1
+		print 'Exif.Photo.MakerNote'
+		
+		if any(ext in ImgSrc for ext in ("TEK0","IMAG0")):
+					metadata['Exif.Photo.MakerNote'] = "oscilloscope"
+		elif ("iewme.png" in ImgSrc):
+			metadata['Exif.Photo.MakerNote'] = "thumbnail"
+		elif any(ext in ImgSrc for ext in ("2016","2017","2018")): 
+					metadata['Exif.Photo.MakerNote'] = "picture"
+		else:
+			metadata['Exif.Photo.MakerNote'] = "ToTag"
 
 	DefaultTag = ["Apple iOS","0100"]
 	if any(ext in metadata['Exif.Photo.MakerNote'].value for ext in DefaultTag):

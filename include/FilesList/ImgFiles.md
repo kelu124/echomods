@@ -57,6 +57,8 @@
 * __/include/devkit2.0/20170529_203924_notes.jpg__: kelu124, ToTag, picture
 * __/include/devkit2.0/20170529_203924.jpg__: kelu124, ToTag, picture
 * __/include/20161016/1600px-shield_v2.jpg__: kelu124, ToTag, picture
+* __/include/cn_fab/face.jpg__: kelu124, ToTag, ToTag
+* __/include/cn_fab/pile.jpg__: kelu124, ToTag, ToTag
 * __/include/simdev/miniature__ultrasonic_pulser_receiver_with_TOF_output.jpg__: kelu124, ToTag, ToTag
 * __/include/community/map.jpg__: map.jpg, ToTag, ToTag
 * __/include/community/Taylor/20170801_134819.jpg__: Taylor, ToTag, picture

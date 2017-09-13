@@ -220,6 +220,8 @@ __[MD Files]__ :no_entry: `./include/NamesOfModules.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/PiDAQ.set.md` : Missing description
 
+__[MD Files]__ :no_entry: `./include/UniBoard.md` : Missing description
+
 __[MD Files]__ :no_entry: `./include/biblio/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/community/Afreen/Readme.md` : Missing description
@@ -605,6 +607,8 @@ __[Unrefed file]__ :warning: `/include/PiDAQ.set.md` : No references of this fil
 __[Unrefed file]__ :warning: `/include/QuickStart.md.tpl` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/RPiHSDK.md.tpl` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/UniBoard.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/biblio/Readme.md` : No references of this file (in _include_). 
 
