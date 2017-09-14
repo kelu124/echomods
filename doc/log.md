@@ -256,6 +256,8 @@ __[MD Files]__ :no_entry: `./include/ppt_presUS.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/s3/Readme.md` : Missing description
 
+__[MD Files]__ :no_entry: `./include/s3/counter/Readme.md` : Missing description
+
 __[MD Files]__ :no_entry: `./include/use_case_biblio/Readme.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/vscan/Readme.md` : Missing description
@@ -639,6 +641,8 @@ __[Unrefed file]__ :warning: `/include/highspeed.set.md` : No references of this
 __[Unrefed file]__ :warning: `/include/murgen_notes.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/s3/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/s3/counter/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/vscan/Readme.md` : No references of this file (in _include_). 
 

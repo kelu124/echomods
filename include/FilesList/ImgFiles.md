@@ -336,6 +336,11 @@
 * __/include/ultramark/UltraMark-ListFull.png.png__: kelu124, ToTag, ToTag
 * __/include/simdev/trib_137_04_042202_f003.png__: kelu124, ToTag, ToTag
 * __/include/s3/pulser/IMAG001.png__: kelu124, s3, oscilloscope
+* __/include/s3/counter/IMAG008.png__: kelu124, s3, oscilloscope
+* __/include/s3/counter/IMAG003.png__: kelu124, s3, oscilloscope
+* __/include/s3/counter/IMAG007.png__: kelu124, s3, oscilloscope
+* __/include/s3/counter/IMAG004.png__: kelu124, s3, oscilloscope
+* __/include/s3/counter/IMAG009.png__: kelu124, s3, oscilloscope
 * __/include/sets/PiDAQ.png__: kelu124, ToTag, ToTag
 * __/include/sets/highspeed.png__: kelu124, ToTag, ToTag
 * __/include/sets/emulated.png__: kelu124, ToTag, ToTag

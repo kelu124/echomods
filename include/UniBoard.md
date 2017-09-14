@@ -39,7 +39,7 @@
 
 ## Other
 
-* One 6x2 header for add-ons (Pon, Poff, 5V, 3.3V, Gain, TGC, GND, SDA, SCL, 3V, PWM, Tracker)
+* One 6x2 header for add-ons (Pon, Poff, 5V, 3.3V, Gain, TGC, GND, SDA, SCL, 3V, PWM, Tracker). Silkscreen for the different items
 
 ## Capa touch
 

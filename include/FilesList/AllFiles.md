@@ -214,6 +214,8 @@
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._
 
+* [./include/s3/counter/Readme.md](/include/s3/counter/Readme.md):  . _File not used._
+
 * [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov . _File not used._
