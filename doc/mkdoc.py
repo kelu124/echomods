@@ -298,6 +298,13 @@ def CreateImgTags(ImgSrc):
 		edited = 1
 		metadata['Exif.Photo.MakerNote'] = "ToTag"
 
+	# Image description
+	try:
+    		metadata['Exif.Image.ImageDescription']
+	except KeyError:
+		edited = 1
+    		metadata['Exif.Image.ImageDescription'] = "ToTag"
+
 	# FilePath
 	try:
     		metadata['Exif.Image.DocumentName']
@@ -326,13 +333,16 @@ def GetTags(Tag):
 	# 'Exif.Image.Artist' --> Author
 	# 'Exif.Image.Software' --> Modules
 	# 'Exif.Photo.MakerNote' --> category
+	# 'Exif.Image.ImageDescription' --> description
 	Tag.read()
 
 	TagValue.append( Tag['Exif.Image.Artist'].value )
 	TagValue.append( Tag['Exif.Image.Software'].value )
+	TagValue.append( str(Tag['Exif.Image.ImageDescription'].value) )
 	TagValue.append( str(Tag['Exif.Photo.MakerNote'].value) )
 
 	return TagValue
+	
 # -------------------------
 # Preparing gitbook
 # -------------------------

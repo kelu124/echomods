@@ -1,6 +1,4 @@
-% My finance
-% kelu124
-% September 15, 2017
+[](@description The project accounting book)
 
 # Expenses
 
