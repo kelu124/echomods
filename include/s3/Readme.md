@@ -4,7 +4,7 @@
 
 ICs:
 
-* __ADC12020__: TI - 12-Bit, 20-MSPS Analog-to-Digital Converter
+* __ADC12020__: TI - 12-Bit, 20-MSPS Analog-to-Digital Converter ( [datasheet](/include/s3/datasheets/adc12020.pdf) )
 * __333L AU1Q__: could be a LMH6551Q Differential, High Speed Op Amp
 * __AD9740__: 10-Bit, 210 MSPS TxDAC
 * __DRV8834__ : Dual-Bridge Stepper or DC Motor Driver

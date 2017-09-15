@@ -1,3 +1,7 @@
+% My finance
+% kelu124
+% September 15, 2017
+
 # Expenses
 
 Project finance
@@ -50,7 +54,7 @@ __Results:__ +255$ (2 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set 
 * 2017 Jul 17	:	+ 337$	(Marc, my set of Gob/Tob)
 * 2017 Jul 22	:	+ 219$	(Caskey rest)
 
-__Results:__ +1731$ (1 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set for me ;) )
+__Results:__ +1731$ (1 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and zero set for me ;) )
 
 * Use foreseen	:	-1850$
   * CN fab test	:	-1253$ for 5x[Tobo.alt, Gob.lite, Bomanz.vf)
@@ -58,5 +62,8 @@ __Results:__ +1731$ (1 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set
     * Board 	:	- 350$
     * Battery	:	- 50$
     * Probe: 	:	- 200$  
-* Remaining	:	- 120$
+  * 3 gobs (EF)	:	- 450$
+* Remaining	:	- 470$
+
+
 
