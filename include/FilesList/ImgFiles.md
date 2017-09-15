@@ -39,7 +39,7 @@
 * __/doj/images/20170504_215628.jpg__: kelu124, doj, ToTag, picture
 * __/doj/images/20170406_214508.jpg__: kelu124, doj, croaker, tobo, oneeye, goblin, Showcasing the pulser emulator with the other modules., picture
 * __/doj/images/doj_v2_notes.jpg__: kelu124, doj, ToTag, ToTag
-* __/doj/images/doj_v2_supply.jpg__: kelu124, doj, ToTag, ToTag
+* __/doj/images/doj_v2_supply.jpg__: kelu124, mogaba, doj, tomtom, elmo, tobo, goblin, Setup with Raspberry Pi 0 and the second iteration of ADC., ToTag
 * __/doj/images/20170504_204421.jpg__: kelu124, doj, ToTag, picture
 * __/doj/images/20170508_192712.jpg__: kelu124, doj, ToTag, picture
 * __/doj/images/doj_v2.jpg__: kelu124, doj, ToTag, ToTag
@@ -52,7 +52,7 @@
 * __/retired/retro10PV/images/20160307_213105_HDR.jpg__: kelu124, ToTag, ToTag, picture
 * __/retired/retro10PV/images/20160307_214950_HDR.jpg__: kelu124, ToTag, ToTag, picture
 * __/retired/retro10PV/images/20160307_212954.jpg__: kelu124, ToTag, ToTag, picture
-* __/croaker/data/20161217/pixels.jpg__: kelu124, croaker, ToTag, picture
+* __/croaker/data/20161217/pixels.jpg__: kelu124, wirephantom, Calculation of the resolution of the image obtained with croaker., picture
 * __/croaker/data/20161217/raw_data/20161217-222737-img.jpg__: kelu124, croaker, ToTag, picture
 * __/include/devkit2.0/20170529_203924_notes.jpg__: kelu124, ToTag, ToTag, picture
 * __/include/devkit2.0/20170529_203924.jpg__: kelu124, ToTag, ToTag, picture
@@ -100,7 +100,7 @@
 * __/include/vscan/major-components-19-lg.jpg__: kelu124, ToTag, ToTag, ToTag
 * __/retroATL3/data/20170702_181426.jpg__: kelu124, retroATL3, ToTag, picture
 * __/retroATL3/images/pic.jpg__: kelu124, retroATL3, ToTag, ToTag
-* __/retroATL3/images/motor_pins.jpg__: kelu124, retroATL3, ToTag, ToTag
+* __/retroATL3/images/motor_pins.jpg__: kelu124, retroATL3, Finding the motor's pins., ToTag
 * __/retroATL3/images/other_pins.jpg__: kelu124, retroATL3, ToTag, ToTag
 * __/retroATL3/images/ICsInHead/20170520_132651.jpg__: kelu124, retroATL3, ToTag, picture
 * __/retroATL3/images/ICsInHead/20170520_133319.jpg__: kelu124, retroATL3, ToTag, picture
@@ -112,7 +112,7 @@
 * __/retroATL3/images/ICsInHead/20170520_132617.jpg__: kelu124, retroATL3, ToTag, picture
 * __/retroATL3/images/ICsInHead/20170520_134634.jpg__: kelu124, retroATL3, ToTag, picture
 * __/retroATL3/images/ICsInHead/20170520_132702.jpg__: kelu124, retroATL3, ToTag, picture
-* __/goblin/images/QS_goblin.jpg__: kelu124, goblin, ToTag, ToTag
+* __/goblin/images/QS_goblin.jpg__: kelu124, goblin, How setting up the goblin board: quickstart., ToTag
 * __/goblin/images/module/ModuleA.jpg__: kelu124, goblin, ToTag, ToTag
 * __/goblin/images/module/ModuleB.jpg__: kelu124, goblin, ToTag, ToTag
 * __/goblin/images/module/ModuleC.jpg__: kelu124, goblin, ToTag, ToTag
@@ -239,7 +239,7 @@
 * __/croaker/data/20161217/scan-converted/20161217-222737-1.csv-DEC1-SC.png__: kelu124, croaker, ToTag, picture
 * __/croaker/data/20161217/images/result.png__: kelu124, croaker, ToTag, picture
 * __/croaker/data/20161217/images/all_raw.png__: kelu124, croaker, ToTag, picture
-* __/croaker/data/manual/20161217-222737-1.png__: kelu124, croaker, ToTag, picture
+* __/croaker/data/manual/20161217-222737-1.png__: kelu124, wirephantom, Image obtained with a croaker based setup of the wire phantom., picture
 * __/croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1.png__: kelu124, croaker, ToTag, picture
 * __/croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1-SC.png__: kelu124, croaker, ToTag, picture
 * __/croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1.png__: kelu124, croaker, ToTag, picture
@@ -394,7 +394,7 @@
 * __/goblin/images/tgc.png__: kelu124, goblin, ToTag, ToTag
 * __/goblin/images/us_#2_top.png__: kelu124, goblin, ToTag, ToTag
 * __/goblin/images/us_#2_bottom.png__: kelu124, goblin, ToTag, ToTag
-* __/goblin/images/slide_principle.png__: kelu124, goblin, ToTag, ToTag
+* __/goblin/images/slide_principle.png__: kelu124, goblin, silent, Showing the analog processing board capacity (goblin) using a signal from the piezo emulator (silent)., ToTag
 * __/goblin/images/module/GoblinModule.png__: kelu124, goblin, ToTag, ToTag
 * __/goblin/images/module/schematics.png__: kelu124, goblin, ToTag, ToTag
 * __/loftus/viewme.png__: kelu124, loftus, ToTag, thumbnail
@@ -439,13 +439,13 @@
 * __/retired/retro10PV/images/DSC_0681.JPG__: kelu124, ToTag, ToTag, ToTag
 * __/retired/retro10PV/images/IMG_2402.JPG__: kelu124, ToTag, ToTag, ToTag
 * __/retired/mogaba/images/IMG_3423.JPG__: kelu124, mogaba, ToTag, ToTag
-* __/croaker/data/20161217/images/DSC_1177.JPG__: kelu124, croaker, ToTag, picture
+* __/croaker/data/20161217/images/DSC_1177.JPG__: kelu124, wirephantom, Picture of the wirephantom, picture
 * __/croaker/data/20161217/images/DSC_1175.JPG__: kelu124, croaker, ToTag, picture
-* __/croaker/data/20161217/images/DSC_1181.JPG__: kelu124, croaker, ToTag, picture
-* __/croaker/data/20161217/images/DSC_1176.JPG__: kelu124, croaker, ToTag, picture
+* __/croaker/data/20161217/images/DSC_1181.JPG__: kelu124, wirephantom, Picture of the wirephantom, top view., picture
+* __/croaker/data/20161217/images/DSC_1176.JPG__: kelu124, wirephantom, mogaba, croaker, tobo, goblin, oneeye, Overall setup using a stripboard as the motherboard. Controled by croaker + oneeye., picture
 * __/croaker/images/IMG_3492.JPG__: kelu124, croaker, ToTag, ToTag
-* __/croaker/images/IMG_3487.JPG__: kelu124, croaker, ToTag, ToTag
-* __/croaker/images/IMG_3491.JPG__: kelu124, croaker, ToTag, ToTag
+* __/croaker/images/IMG_3487.JPG__: kelu124, cletus, croaker, A piezo on a servo, ToTag
+* __/croaker/images/IMG_3491.JPG__: kelu124, croaker, mogaba, tobo, goblin, oneeye, An overview of the STM32 croaker based acquisition + streaming platform, with OLED display., ToTag
 * __/include/images/DSC_0284.JPG__: kelu124, ToTag, ToTag, ToTag
 * __/include/images/notes/DSC_0665.JPG__: kelu124, ToTag, ToTag, ToTag
 * __/include/images/notes/DSC_0659.JPG__: kelu124, ToTag, ToTag, ToTag
@@ -465,10 +465,10 @@
 * __/retroATL3/images/IMG_2405.JPG__: kelu124, retroATL3, ToTag, ToTag
 * __/retroATL3/images/IMG_2404.JPG__: kelu124, retroATL3, ToTag, ToTag
 * __/retroATL3/images/IMG_2401.JPG__: kelu124, retroATL3, ToTag, ToTag
-* __/retroATL3/images/TEK0005.JPG__: kelu124, retroATL3, ToTag, oscilloscope
-* __/retroATL3/images/IMG_2402.JPG__: kelu124, retroATL3, ToTag, ToTag
+* __/retroATL3/images/TEK0005.JPG__: kelu124, retroATL3, goblin, Getting the enveloppe from a signal obtained with the retroATL3., oscilloscope
+* __/retroATL3/images/IMG_2402.JPG__: kelu124, retroATL3, Details of the translucent head., ToTag
 * __/retroATL3/images/DSC_0725.JPG__: kelu124, retroATL3, ToTag, ToTag
-* __/retroATL3/images/IMG_2403.JPG__: kelu124, retroATL3, ToTag, ToTag
+* __/retroATL3/images/IMG_2403.JPG__: kelu124, retroATL3, Details of the head., ToTag
 * __/retroATL3/images/IMG_2400.JPG__: kelu124, retroATL3, ToTag, ToTag
 * __/retroATL3/images/DSC_0723.JPG__: kelu124, retroATL3, ToTag, ToTag
 * __/retroATL3/images/ICsInHead/vert.JPG__: kelu124, retroATL3, ToTag, ToTag
@@ -479,7 +479,7 @@
 * __/goblin/pi0/images/TEK0000.JPG__: kelu124, goblin, ToTag, oscilloscope
 * __/goblin/pi0/images/TEK0001.JPG__: kelu124, goblin, ToTag, oscilloscope
 * __/goblin/images/TEK0002.JPG__: kelu124, goblin, ToTag, oscilloscope
-* __/goblin/images/TEK0009.JPG__: kelu124, goblin, ToTag, oscilloscope
+* __/goblin/images/TEK0009.JPG__: kelu124, silent, goblin, Comparing raw signal in to the enveloppe detected., oscilloscope
 * __/goblin/images/TEK0005.JPG__: kelu124, goblin, ToTag, oscilloscope
 * __/goblin/images/TEK0000.JPG__: kelu124, goblin, ToTag, oscilloscope
 * __/goblin/images/TEK0011.JPG__: kelu124, goblin, ToTag, oscilloscope
