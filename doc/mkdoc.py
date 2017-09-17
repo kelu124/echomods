@@ -275,6 +275,15 @@ def CreateImgTags(ImgSrc):
 		else:
 			metadata['Exif.Image.Software'] = "ToTag"
 
+	# Experiment
+	try:
+		metadata['Exif.Image.Make'].value
+	except KeyError:
+		metadata['Exif.Image.Make'] = "ToTag"
+	if 'Apple' in metadata['Exif.Image.Make'].value :
+		edited = 1
+		metadata['Exif.Image.Make'] = "ToTag"
+
 	# Artist
 	try:
     		metadata['Exif.Image.Artist']
@@ -355,13 +364,16 @@ def GetTags(Tag):
 	# 'Exif.Image.Artist' --> Author
 	# 'Exif.Image.Software' --> Modules
 	# 'Exif.Photo.MakerNote' --> category
+	# 'Exif.Image.Make' --> Experiment
 	# 'Exif.Image.ImageDescription' --> description
 	Tag.read()
 
 	TagValue.append( Tag['Exif.Image.Artist'].value )
 	TagValue.append( Tag['Exif.Image.Software'].value )
-	TagValue.append( str(Tag['Exif.Image.ImageDescription'].value) )
 	TagValue.append( str(Tag['Exif.Photo.MakerNote'].value) )
+	TagValue.append( str(Tag['Exif.Image.Make'].value) )
+	TagValue.append( str(Tag['Exif.Image.ImageDescription'].value) )
+
 
 	return TagValue
 	
