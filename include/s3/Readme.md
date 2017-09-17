@@ -4,10 +4,27 @@
 
 ICs:
 
+### On top board
+
 * __ADC12020__: TI - 12-Bit, 20-MSPS Analog-to-Digital Converter ( [datasheet](/include/s3/datasheets/adc12020.pdf) )
 * __333L AU1Q__: could be a LMH6551Q Differential, High Speed Op Amp
 * __AD9740__: 10-Bit, 210 MSPS TxDAC
 * __DRV8834__ : Dual-Bridge Stepper or DC Motor Driver
+
+### Below
+
+Close to probe
+
+* __AD8331__ matches the one I have for Goblin
+* CT 62Z
+* __7288 EB Delta W45L__ seems to be __Si7288DP__ -- Dual N-Channel 40-V (D-S) MOSFET
+* __M10602__
+* __PS 63020__ (x2): High Efficiency Single Inductor Buck-Boost Converter With 4-A Switches
+
+Close to power
+
+* __L111B__ LM3658 is power charger management
+
 
 ### Pulser
 

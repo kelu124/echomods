@@ -15,6 +15,7 @@ __license__ 	= "cc-by-sa/4.0/"
 
 import chardet   
 import os
+import os.path, time
 from glob import glob
 import markdown
 import re
@@ -31,6 +32,10 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 from bs4 import BeautifulSoup
 import urllib2
+from datetime import datetime
+
+
+
 
 
 # -------------------------
@@ -218,14 +223,31 @@ def CreateImgTags(ImgSrc):
 	edited = 0
 	metadata = pyexiv2.ImageMetadata(ImgSrc)
 	metadata.read()
-
+	FileNameIs = ImgSrc.split("/")[-1]
 	# Datetime
 	try:
     		metadata['Exif.Image.DateTime']
 	except KeyError:
 		#edited = 1
-		1+ 1
-    		#print os.path.getmtime(ImgSrc) 
+		dt = ""
+		hm = ""
+		if ("201" in FileNameIs):	
+			m = re.findall("([0-9]+)", FileNameIs)
+			if (len(m) and len(m[0]) == 8): 
+				tim = m[0]
+				dt = tim[:4]+"-"+tim[4:6]+"-"+tim[6:8]
+
+			if ( (len(m) > 1) and len(m[1]) == 6): 
+				hom = m[1]
+				hm = hom[:2]+":"+hom[2:4]+":"+hom[4:6]
+			else:
+				hm = "12:00:00" 
+			if (len(dt) and len(hm)):
+				DateTime = dt + " "+hm
+				if (len(DateTime) == 19):
+					metadata['Exif.Image.DateTime'] = DateTime
+					edited = 1
+					print FileNameIs + " -- " + DateTime
 
 	# Main Module
 	try:

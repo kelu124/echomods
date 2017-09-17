@@ -60,6 +60,10 @@
 * __/include/cn_fab/face.jpg__: kelu124, ToTag, ToTag, ToTag
 * __/include/cn_fab/pile.jpg__: kelu124, ToTag, ToTag, ToTag
 * __/include/simdev/miniature__ultrasonic_pulser_receiver_with_TOF_output.jpg__: kelu124, ToTag, ToTag, ToTag
+* __/include/s3/images/s320170917_122639.jpg__: kelu124, ToTag, ToTag, ToTag
+* __/include/s3/images/s320170917_121615.jpg__: kelu124, ToTag, ToTag, ToTag
+* __/include/s3/images/s320170917_121404.jpg__: kelu124, ToTag, ToTag, ToTag
+* __/include/s3/images/20170917_121608.jpg__: kelu124, ToTag, ToTag, ToTag
 * __/include/community/map.jpg__: map.jpg, ToTag, ToTag, ToTag
 * __/include/community/Taylor/20170801_134819.jpg__: Taylor, ToTag, ToTag, picture
 * __/include/community/Taylor/20170801_134824.jpg__: Taylor, ToTag, ToTag, picture
@@ -88,7 +92,7 @@
 * __/include/community/Jay/19970947_1566464293376881_826124997_n.jpg__: Jay, ToTag, ToTag, ToTag
 * __/include/community/Jay/19911670_1566465206710123_724853796_o.jpg__: Jay, ToTag, ToTag, ToTag
 * __/include/JOH/source/fullprinciples.jpg__: kelu124, ToTag, ToTag, ToTag
-* __/include/images/UniDesign.jpg__: kelu124, ToTag, ToTag, ToTag
+* __/include/images/UniDesign.jpg__: kelu124, frogface, Overall design of the single board., ToTag
 * __/include/images/ultrasound_sweep.jpg__: kelu124, ToTag, ToTag, ToTag
 * __/include/images/articles/54a1d43b7d8a4d0d878fc21830c4df46.jpg__: kelu124, ToTag, ToTag, ToTag
 * __/include/images/articles/e1cb987cc0344086842091526183d2a6.jpg__: kelu124, ToTag, ToTag, ToTag
@@ -169,7 +173,7 @@
 * __/cletus/source/blocks.png__: kelu124, cletus, ToTag, ToTag
 * __/tomtom/viewme.png__: kelu124, tomtom, ToTag, thumbnail
 * __/tomtom/source/blocks.png__: kelu124, tomtom, ToTag, ToTag
-* __/tomtom/images/pulses.png__: kelu124, tomtom, ToTag, ToTag
+* __/tomtom/images/pulses.png__: kelu124, tomtom, tobo, Pulses schematics to manage tobo., ToTag
 * __/doj/viewme.png__: kelu124, doj, ToTag, thumbnail
 * __/doj/source/blocks.png__: kelu124, doj, ToTag, ToTag
 * __/doj/source/v1.0-doj_gerbers/old/finalBotLayer2.png__: kelu124, doj, ToTag, ToTag
@@ -227,9 +231,9 @@
 * __/croaker/feather_tests/SilentAcq.png__: kelu124, croaker, ToTag, ToTag
 * __/croaker/feather_tests/24x128pts.png__: kelu124, croaker, ToTag, ToTag
 * __/croaker/feather_tests/SilentAcqDualADC.png__: kelu124, croaker, ToTag, ToTag
-* __/croaker/data/20161217/20161217-222737-SC.png__: kelu124, croaker, ToTag, picture
-* __/croaker/data/20161217/20161217-222737.png__: kelu124, croaker, ToTag, picture
-* __/croaker/data/20161217/20161217-222737-commented.png__: kelu124, croaker, ToTag, picture
+* __/croaker/data/20161217/20161217-222737-SC.png__: kelu124, croaker, wirephantom, Image of the wirephantom using croaker, after scan conversion., ASC
+* __/croaker/data/20161217/20161217-222737.png__: kelu124, croaker, wirephantom, Image of the wirephantom using croaker, before scan conversion., BSC
+* __/croaker/data/20161217/20161217-222737-commented.png__: kelu124, croaker, wirephantom, Image of the wirephantom obtained while using the chain of modules, and the feather (croaker) module as the DAQ. Commented., picture
 * __/croaker/data/20161217/raw_data/20161217-222737-0.png__: kelu124, croaker, ToTag, picture
 * __/croaker/data/20161217/raw_data/20161217-222737-3.png__: kelu124, croaker, ToTag, picture
 * __/croaker/data/20161217/raw_data/20161217-222737-1.png__: kelu124, croaker, ToTag, picture
@@ -330,11 +334,11 @@
 * __/include/20161016/PhysicalSpace.png__: kelu124, ToTag, ToTag, picture
 * __/include/20161016/table_gitbook.png__: kelu124, ToTag, ToTag, picture
 * __/include/20161016/Screenshot_2016-10-08-15-30-27.png__: kelu124, ToTag, ToTag, picture
-* __/include/20160814/20160814-IMG_3430.png__: kelu124, ToTag, ToTag, picture
-* __/include/20160814/sonde3V_1.png__: kelu124, ToTag, ToTag, picture
+* __/include/20160814/20160814-IMG_3430.png__: kelu124, toadkiller, tobo, goblin, oneeye, mogagaba, Setup for the 20160814a experiment, PRUDAQ based., setup
+* __/include/20160814/sonde3V_1.png__: kelu124, ToTag, Loop acquired on 20160814a, BSC
 * __/include/20160814/IMG_3428.png__: kelu124, ToTag, ToTag, picture
 * __/include/20160814/IMG_3430.png__: kelu124, ToTag, ToTag, picture
-* __/include/20160814/20160814-sonde3V_1-4.csv-SC.png__: kelu124, ToTag, ToTag, picture
+* __/include/20160814/20160814-sonde3V_1-4.csv-SC.png__: kelu124, ToTag, Image acquired with the ATL probe on 20160814a, ASC
 * __/include/ultramark/UltraMark-ListShort.png__: kelu124, ToTag, ToTag, ToTag
 * __/include/ultramark/UltraMark-ListFull.png.png__: kelu124, ToTag, ToTag, ToTag
 * __/include/simdev/trib_137_04_042202_f003.png__: kelu124, ToTag, ToTag, ToTag
@@ -368,7 +372,7 @@
 * __/include/JOH/source/wireless.png__: kelu124, ToTag, ToTag, ToTag
 * __/include/images/600px-Motherboard.png__: kelu124, ToTag, ToTag, ToTag
 * __/include/images/table_progress.png__: kelu124, ToTag, ToTag, ToTag
-* __/include/images/UniPins.png__: kelu124, ToTag, ToTag, ToTag
+* __/include/images/UniPins.png__: kelu124, frogface, Pins for the single board, along with previous pins from Elmo et al., ToTag
 * __/include/images/table_modules.png__: kelu124, ToTag, ToTag, ToTag
 * __/include/images/600px-Cartes.png__: kelu124, ToTag, ToTag, ToTag
 * __/include/images/modules.png__: kelu124, ToTag, ToTag, ToTag
@@ -429,7 +433,7 @@
 * __/tobo/images/2017/TEK0005.JPG__: kelu124, tobo, ToTag, oscilloscope
 * __/tobo/images/2017/TEK0000.JPG__: kelu124, tobo, ToTag, oscilloscope
 * __/tobo/images/2017/TEK0001.JPG__: kelu124, tobo, ToTag, oscilloscope
-* __/tomtom/images/TEK0008_NOPs.JPG__: kelu124, tomtom, ToTag, oscilloscope
+* __/tomtom/images/TEK0008_NOPs.JPG__: kelu124, tomtom, Testing NOPs in the kernel module, to manage Pon and Poff., oscilloscope
 * __/doj/images/IMG_2607.JPG__: kelu124, doj, ToTag, ToTag
 * __/retired/oneeye/images/IMG_3426.JPG__: kelu124, oneeye, ToTag, ToTag
 * __/retired/retro10PV/images/DSC_0680.JPG__: kelu124, ToTag, ToTag, ToTag
@@ -483,7 +487,7 @@
 * __/goblin/images/TEK0002.JPG__: kelu124, goblin, ToTag, oscilloscope
 * __/goblin/images/TEK0009.JPG__: kelu124, silent, goblin, Comparing raw signal in to the enveloppe detected., oscilloscope
 * __/goblin/images/TEK0005.JPG__: kelu124, goblin, ToTag, oscilloscope
-* __/goblin/images/TEK0000.JPG__: kelu124, goblin, ToTag, oscilloscope
+* __/goblin/images/TEK0000.JPG__: kelu124, goblin, Showing Goblin processing amplified signal to the enveloppe., oscilloscope
 * __/goblin/images/TEK0011.JPG__: kelu124, goblin, ToTag, oscilloscope
 * __/goblin/images/TEK0010.JPG__: kelu124, goblin, ToTag, oscilloscope
 * __/goblin/images/2016-07-15/TEK0003.JPG__: kelu124, goblin, ToTag, oscilloscope
@@ -514,7 +518,7 @@
 * __/silent/images/SilentOutput.JPG__: kelu124, silent, ToTag, ToTag
 * __/silent/images/SilentEnveloppeFinal.JPG__: kelu124, silent, ToTag, ToTag
 * __/silent/images/SilentPostTGC.JPG__: kelu124, silent, ToTag, ToTag
-* __/silent/images/IMG_3427.JPG__: kelu124, silent, ToTag, ToTag
+* __/silent/images/IMG_3427.JPG__: kelu124, silent, Picture silent, with the Feather, and the capa to remove the bias., ToTag
 * __/include/20161016/concept1.PNG__: kelu124, ToTag, ToTag, picture
 * __/include/20161016/concept4.PNG__: kelu124, ToTag, ToTag, picture
 * __/include/20161016/concept3.PNG__: kelu124, ToTag, ToTag, picture
