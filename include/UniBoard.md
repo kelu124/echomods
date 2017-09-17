@@ -45,5 +45,12 @@
 
 * I'd like to have 2 or 3 touch pad like zones, to be connected to i2c bus + 1 interrupt pin for detection of touching this zones.
 
+# Overview
 
+![](/include/images/UniPins.png)
+
+
+# Pins
+
+![](/include/images/UniDesign.jpg)
 
