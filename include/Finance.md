@@ -55,13 +55,16 @@ __Results:__ +255$ (2 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and one set 
 __Results:__ +1731$ (1 tobo left, 1x[Bomanz,ADC08200,CA3306] left)  (and zero set for me ;) )
 
 * Use foreseen	:	-1850$
-  * CN fab test	:	-1253$ for 5x[Tobo.alt, Gob.lite, Bomanz.vf)
+  * CN fab test	:	-1250$ for 5x[Tobo.alt, Gob.lite, Bomanz.vf)
   * Get parts	:	- 600$
     * Board 	:	- 350$
     * Battery	:	- 50$
     * Probe: 	:	- 200$  
-  * 3 gobs (EF)	:	- 450$
-* Remaining	:	- 470$
+* 2017 Sep 16	:	- 0$   (gift to Felix)
+* 2017 Sep 16	: 	- 0$   (exchange of 1 tobo for Felix)
+* 2017 Sep 15	:	- 450$ (Edgeflex, 3 goblin) 
+
+* __Remaining__	:	- 470$
 
 
 

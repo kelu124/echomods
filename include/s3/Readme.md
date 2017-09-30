@@ -2,7 +2,7 @@
 
 ## First look
 
-ICs:
+Let's have a look on the different ICs
 
 ### On top board
 
@@ -16,15 +16,21 @@ ICs:
 Close to probe
 
 * __AD8331__ matches the one I have for Goblin
-* CT 62Z
+* __CT 62Z__ ??
 * __7288 EB Delta W45L__ seems to be __Si7288DP__ -- Dual N-Channel 40-V (D-S) MOSFET
-* __M10602__
+* __M10602__ ??
 * __PS 63020__ (x2): High Efficiency Single Inductor Buck-Boost Converter With 4-A Switches
 
 Close to power
 
 * __L111B__ LM3658 is power charger management
 
+### Connectors
+
+* JST 1.25mm - 4 pins for motor control
+* JST 1.25mm - 2 pins for transducer
+
+## Parts
 
 ### Pulser
 

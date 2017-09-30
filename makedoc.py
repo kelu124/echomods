@@ -66,10 +66,21 @@ ListJPGfromBMP("./")
 
 GenFiles =  "# Getting images\n"
 ImgList = GetImgFiles("./")
+ListIfImages = []
+ListOfExperiment = []
 for k in ImgList:
 	Tags = CreateImgTags("."+k)
-	GenFiles+= "* __"+k+"__:\n  * "+"\n  * ".join(GetTags(Tags))+"\n"
+	AllTags = GetTags(Tags)
+	ListIfImages.append(AllTags)
+	if "ToTag" not in AllTags[3]:
+		ListOfExperiment.append(AllTags[3])
+	#print AllTags
+	GenFiles+= "* __"+k+"__:\n  * "+"\n  * ".join(AllTags)+"\n"
 	
+ListOfExperiment = list(set(ListOfExperiment))
+
+print ListOfExperiment
+
 OpenWrite(GenFiles,"include/FilesList/ImgFiles.md")
 
 # -------------------------

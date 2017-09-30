@@ -38,6 +38,12 @@ Here's a couple of things we're working on, for which you could help as well.
 * Main readme as TPL
 * DICOM rest of images
 * test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
+* adding the experiments for within the MD files
+* create files for experiments in include (eg in /include/experiments/ ) (using ListOfExperiment )
+* ordered some JST for the probe
+* test [s3](/include/s3/) outputs w/ JST - and good trigs on DSO203
+* feed [s3](/include/s3/) in 5V in motor w/ JST
+* 3 experiments w/
 
 
 

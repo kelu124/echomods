@@ -264,7 +264,7 @@ def CreateImgTags(ImgSrc):
 		else:
 			metadata['Exif.Image.Software'] = "ToTag"
 
-	DefaultTag = ["A310","8.3","26.1.B","9.3.2","Adobe Photoshop"]
+	DefaultTag = ["A310","8.3","26.1.B","9.3.2","Adobe Photoshop","G900IDVU1CQB1"]
 
 	if any(ext in metadata['Exif.Image.Software'].value for ext in DefaultTag):
 		edited = 1
@@ -276,11 +276,12 @@ def CreateImgTags(ImgSrc):
 			metadata['Exif.Image.Software'] = "ToTag"
 
 	# Experiment
+	DefaultTag = ["Apple","Sony","LG Electronics","amsung","OnePlus","Canon"]
 	try:
 		metadata['Exif.Image.Make'].value
 	except KeyError:
 		metadata['Exif.Image.Make'] = "ToTag"
-	if 'Apple' in metadata['Exif.Image.Make'].value :
+	if any(ext in metadata['Exif.Image.Make'].value for ext in DefaultTag): 
 		edited = 1
 		metadata['Exif.Image.Make'] = "ToTag"
 
@@ -366,14 +367,14 @@ def GetTags(Tag):
 	# 'Exif.Photo.MakerNote' --> category
 	# 'Exif.Image.Make' --> Experiment
 	# 'Exif.Image.ImageDescription' --> description
-	Tag.read()
 
+	Tag.read()
 	TagValue.append( Tag['Exif.Image.Artist'].value )
 	TagValue.append( Tag['Exif.Image.Software'].value )
 	TagValue.append( str(Tag['Exif.Photo.MakerNote'].value) )
 	TagValue.append( str(Tag['Exif.Image.Make'].value) )
 	TagValue.append( str(Tag['Exif.Image.ImageDescription'].value) )
-
+	TagValue.append( str(Tag['Exif.Image.DocumentName'].value) )
 
 	return TagValue
 	

@@ -2165,6 +2165,23 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * [Fab](/include/cn_fab/) is making progress on tobo.alt and goblins, gobs form EF coming too!
 * Challenge issued to boost GPIO read speed. 12Msps so far on the RPi0 so far ... x2 with [the ADC cape](/elmo/), how fast can it reach?
 
+
+#### 2017-09-17 Progressing on autodoc
+
+* Adding experiments to the docs
+* @todo adding the experiments for within the MD files
+* @todo create files for experiments in include (eg in /include/experiments/ ) (using ListOfExperiment )
+* Opened a bit more of the S3 probe
+* @todo ordered some JST for the probe
+
+#### 2017-09-29 Todo
+
+* @todo test [s3](/include/s3/) outputs w/ JST - and good trigs on DSO203
+* @todo feed [s3](/include/s3/) in 5V in motor w/ JST
+* @todo 3 experiments w/
+
+
+
 =======
 
 
