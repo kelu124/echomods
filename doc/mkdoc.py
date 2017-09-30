@@ -192,6 +192,50 @@ def getCode(string):
 		ListOfCodes.append(item.text)
 	return ListOfCodes
 
+
+def MakeExperiments(ExpList,ListIfImage):
+	for Expe in ExpList:
+
+		fnameD = "./include/experiments/desc/Desc_"+Expe+".md"
+		if not (os.path.isfile(fnameD)):
+			OpenWrite("# Experiment "+Expe+" description\n\n",fnameD)
+
+		matches = [x for x in ListIfImage if Expe in x[3] ]
+		setupimgs = [x for x in matches if "setup" in x[2] ]
+		bscimgs = [x for x in matches if "BSC" in x[2] ]
+		ascimgs = [x for x in matches if "ASC" in x[2] ]
+
+		others = []
+		for item in matches:
+			if((item not in setupimgs) and (item not in ascimgs) and (item not in bscimgs) ):
+				others.append(item)
+
+		ExpImages = "# Images of the Experiment\n\n"
+		if (len(setupimgs)):
+			ExpImages += "## Setup\n\n"
+			for img in setupimgs:
+				ExpImages += "![]("+img[5][1:]+")\n"+img[4]+"\n\n"
+		if (len(bscimgs)):
+			ExpImages += "## Raw images\n\n"
+			for img in bscimgs:
+				ExpImages += "![]("+img[5][1:]+")\n"+img[4]+"\n\n"
+		if (len(ascimgs)):
+			ExpImages += "## Scan converted\n\n"
+			for img in ascimgs:
+				ExpImages += "![]("+img[5][1:]+")\n"+img[4]+"\n\n"
+		if (len(others)):
+			ExpImages += "## Others\n\n"
+			for img in others:
+				ExpImages += "![]("+img[5][1:]+")\n"+img[4]+"(category: __"+img[2]+"__)\n\n"
+
+		OpenWrite(ExpImages,"./include/experiments/Img_"+Expe+".md")
+
+		fname = "./include/experiments/"+Expe+".md.tpl"
+		PM = "@kelu include(/include/experiments/desc/Desc_"+Expe+".md)\n\n"
+		PM += "@kelu include(/include/experiments/Img_"+Expe+".md)\n\n"
+		OpenWrite(PM,fname)
+	return 1
+
 # -------------------------
 # Processing images
 # -------------------------
@@ -678,11 +722,12 @@ def GetIncludes (InitialText, filez, contentz,origin):
 			k = filez.index(item)
 			toreplace = "@kelu include("+item[1:]+")"
 			InitialText = InitialText.replace(toreplace,contentz[k])
-			print toreplace
+			#print toreplace
 		else:
 			InitialText = InitialText.replace("@kelu include("+item[1:]+")","ERROR")
 			print "Include error: "+origin+" for "+item
 			log += "[INCLUDE] Error with "+origin+"\n\n"
+	InitialText = InitialText.replace(tagAuto,"")
 	return InitialText,log
 
  

@@ -76,10 +76,11 @@ for k in ImgList:
 		ListOfExperiment.append(AllTags[3])
 	#print AllTags
 	GenFiles+= "* __"+k+"__:\n  * "+"\n  * ".join(AllTags)+"\n"
-	
+
 ListOfExperiment = list(set(ListOfExperiment))
 
-print ListOfExperiment
+MakeExperiments(ListOfExperiment,ListIfImages)
+
 
 OpenWrite(GenFiles,"include/FilesList/ImgFiles.md")
 
@@ -155,7 +156,7 @@ for i in range(len(ListeOfTPL)):
 	log = log+CheckRef[1]
 	TPLLog +="\n"
 	## 
-	print "-- "+ListeOfTPL[i][2:]
+	#print "-- "+ListeOfTPL[i][2:]
 	for pp in range(1):
 		# Doing it twice for tpl using tpl-generated files
 		RPI = GetIncludes(getText(ListeOfTPL[i][2:]),  MDFiles[5], MDFiles[4],ListeOfTPL[i][2:])

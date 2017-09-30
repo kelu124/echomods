@@ -10,7 +10,7 @@
 
 * [./tobo/alt.tobo/Readme.md](/tobo/alt.tobo/Readme.md):  . _File not used._
 
-* [./tobo/alt.tobo/test/Readme.md](/tobo/alt.tobo/test/Readme.md):  . _File not used._
+* [./tobo/alt.tobo/test/Readme.md](/tobo/alt.tobo/test/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
@@ -322,7 +322,7 @@
 
 ## Jupyter files
 
-* [20170930-AltPulser.ipynb](/tobo/alt.tobo/test/20170930-AltPulser.ipynb). File used in: [`/tobo/alt.tobo/test/Readme.md`](/tobo/alt.tobo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170930-AltPulser.ipynb](/tobo/alt.tobo/test/20170930-AltPulser.ipynb). File used in: [`/tobo/alt.tobo/test/Readme.md`](/tobo/alt.tobo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -378,9 +378,9 @@
 
 * [CreateSC.py](/croaker/data/examples/CreateSC.py): Takes a log file and creatse the Scan Converted image.. File used in: [`/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.html).
 
-* [precise.py](/include/community/Marc/precise.py): . File used in: [`/include/community/Marc/Readme.md`](/include/community/Marc/Readme.md).
+* [precise.py](/include/community/Marc/precise.py): . _File not used._
 
-* [spi.py](/include/community/Marc/spi.py): . File used in: [`/include/community/Marc/Readme.md`](/include/community/Marc/Readme.md).
+* [spi.py](/include/community/Marc/spi.py): . _File not used._
 
 * [maketemplate.py](/include/JOH/blocks/maketemplate.py): . _File not used._
 
@@ -414,7 +414,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 103 Auto generated files
+## 118 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -435,6 +435,21 @@
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md
+* ./include/experiments/Img_20170930a.md
+* ./include/experiments/Img_20161217a.md
+* ./include/experiments/20170930a.md
+* ./include/experiments/Img_20170611a.md
+* ./include/experiments/20170715a.md
+* ./include/experiments/Img_20170715a.md
+* ./include/experiments/20160814a.md
+* ./include/experiments/Img_20160814a.md
+* ./include/experiments/20170611a.md
+* ./include/experiments/20161217a.md
+* ./include/experiments/desc/Desc_20160814a.md
+* ./include/experiments/desc/Desc_20170611a.md
+* ./include/experiments/desc/Desc_20161217a.md
+* ./include/experiments/desc/Desc_20170715a.md
+* ./include/experiments/desc/Desc_20170930a.md
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md
 * ./include/sets/sets_slides.md

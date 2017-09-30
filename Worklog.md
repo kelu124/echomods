@@ -2301,15 +2301,23 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * @todo adding the experiments for within the MD files
 * @todo create files for experiments in include (eg in /include/experiments/ ) (using ListOfExperiment )
 * Opened a bit more of the S3 probe
-* @todo ordered some JST for the probe
+* Ordered some JST for the probe
 
-#### 2017-09-29 Todo
+#### 2017-09-29 Moving forward with tests
 
 * @todo test [s3](/include/s3/) outputs w/ JST - and good trigs on DSO203
 * @todo feed [s3](/include/s3/) in 5V in motor w/ JST
-* @todo 3 experiments w/
+* @todo Test Gob
+  * Relancer le fab_cn ... error in its capa placement 
+* done: test ADCs
+* done: test Pulser
 
+#### 2017-09-30 Some experiment
 
+* Done the tests for the pulser  ( 20170930a ) 
+* Some additional works for the motor control
+* @todo a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
+* @todo float pins between shots? -> work session on [bilevel.c](/tobo/alt.tobo/test/bilevel.c)
 
 =======
 

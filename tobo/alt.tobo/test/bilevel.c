@@ -82,12 +82,14 @@ static ssize_t device_write(struct file *, const char *, size_t, loff_t *);
 #define BIT8_PIN2 15
 
 // Pulser
-#define Puls_ON	 23
+#define PPuls_ON 23
+#define NPuls_ON 24
+
 #define Puls_OFF 21
 
 
 #define PPWWMM 6
-#define VU 21
+
 #define MY_NOP(__N)                 __asm ("nop");    // or sth like "MOV R0,R0"
 
 
@@ -189,15 +191,16 @@ static void readScope(){
 	while(counterline<REPEAT_SIZE){ 
 		printk(KERN_INFO "Shooting line %d\n", counterline);
 
-		GPIO_SET = 1 << Puls_ON;
-		while(Pon<10){
+		GPIO_SET = 1 << PPuls_ON;
+		while(Pon<10){ // Nb of NOPs for PulseOn
 			MY_NOP(__N);
 			Pon++;
 		}
-		GPIO_CLR = 1 << Puls_ON;
+		GPIO_CLR = 1 << PPuls_ON;
+
 
 		GPIO_SET = 1 << Puls_OFF;
-		while(Poff<1500){
+		while(Poff<1500){ // Nb of NOPs for PulseOff
 			MY_NOP(__N);
 			Poff++;
 		}
@@ -273,7 +276,7 @@ int init_module(void)
 	}
 
 	//Define Scope pins
-	// Define as  Input
+	// ADC1
 	INP_GPIO(BIT0_PIN);
 	INP_GPIO(BIT1_PIN);
 	INP_GPIO(BIT2_PIN);
@@ -284,7 +287,7 @@ int init_module(void)
 	INP_GPIO(BIT7_PIN);
 	INP_GPIO(BIT8_PIN);
 
-
+	// ADC2
 	INP_GPIO(BIT0_PIN2);
 	INP_GPIO(BIT1_PIN2);
 	INP_GPIO(BIT2_PIN2);
@@ -295,7 +298,9 @@ int init_module(void)
 	INP_GPIO(BIT7_PIN2);
 	INP_GPIO(BIT8_PIN2);
 
-	OUT_GPIO(Puls_ON);
+	// Setting pins for pulser
+	OUT_GPIO(PPuls_ON);
+	OUT_GPIO(NPuls_ON);
 	OUT_GPIO(Puls_OFF);
 
 	//Set a clock signal on Pin 4
@@ -305,10 +310,11 @@ int init_module(void)
  	INP_GPIO(4);
 	SET_GPIO_ALT(4,0);
 
+	// Preparing the clock
 	int speed_id = 6; //1 for to start with 19Mhz or 6 to start with 500 MHz
 	*(myclock.addr+28)=0x5A000000 | speed_id; //Turn off the clock
-	while (*(myclock.addr+28) & GZ_CLK_BUSY) {}; //Wait untill clock is no longer busy (BUSY flag)
-	*(myclock.addr+29)= 0x5A000000 | (0x32 << 12) | 0;//Set divider //divide by 50
+	while (*(myclock.addr+28) & GZ_CLK_BUSY) {}; //Wait until clock is no longer busy (BUSY flag)
+	*(myclock.addr+29)= 0x5A000000 | (0x29 << 12) | 0;//Set divider //divide by 50 (0x32) -- ideally 41 (29)
 	*(myclock.addr+28)=0x5A000010 | speed_id;//Turn clock on
 
 	return SUCCESS;

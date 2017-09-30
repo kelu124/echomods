@@ -32,9 +32,9 @@
 
 * [CreateSC.py](/croaker/data/examples/CreateSC.py): Takes a log file and creatse the Scan Converted image.. File used in: [`/croaker/Readme.md`](/croaker/Readme.md).
 
-* [precise.py](/include/community/Marc/precise.py): . File used in: [`/include/community/Marc/Readme.md`](/include/community/Marc/Readme.md).
+* [precise.py](/include/community/Marc/precise.py): . _File not used._
 
-* [spi.py](/include/community/Marc/spi.py): . File used in: [`/include/community/Marc/Readme.md`](/include/community/Marc/Readme.md).
+* [spi.py](/include/community/Marc/spi.py): . _File not used._
 
 * [maketemplate.py](/include/JOH/blocks/maketemplate.py): . _File not used._
 

@@ -1,4 +1,4 @@
-* [20170930-AltPulser.ipynb](/tobo/alt.tobo/test/20170930-AltPulser.ipynb). File used in: [`/tobo/alt.tobo/test/Readme.md`](/tobo/alt.tobo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170930-AltPulser.ipynb](/tobo/alt.tobo/test/20170930-AltPulser.ipynb). File used in: [`/tobo/alt.tobo/test/Readme.md`](/tobo/alt.tobo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
