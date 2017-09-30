@@ -958,6 +958,13 @@
   * ToTag
   * ToTag
   * ./silent/software/featherWICED/pinout.jpg
+* __/wirephantom/viewme.png__:
+  * kelu124
+  * wirephantom
+  * thumbnail
+  * ToTag
+  * ToTag
+  * ./wirephantom/viewme.png
 * __/tobo/viewme.png__:
   * kelu124
   * tobo
@@ -3023,6 +3030,20 @@
   * ToTag
   * ToTag
   * ./silent/images/silent.png
+* __/wirephantom/DSC_1177.JPG__:
+  * kelu124
+  * wirephantom
+  * picture
+  * ToTag
+  * Picture of the wirephantom
+  * ./croaker/data/20161217/images/DSC_1177.JPG
+* __/wirephantom/DSC_1181.JPG__:
+  * kelu124
+  * wirephantom
+  * picture
+  * ToTag
+  * Picture of the wirephantom, top view.
+  * ./croaker/data/20161217/images/DSC_1181.JPG
 * __/tobo/images/TEK0006.JPG__:
   * kelu124
   * tobo
@@ -3198,13 +3219,6 @@
   * ToTag
   * ToTag
   * ./retired/mogaba/images/IMG_3423.JPG
-* __/croaker/data/20161217/images/DSC_1177.JPG__:
-  * kelu124
-  * wirephantom
-  * picture
-  * ToTag
-  * Picture of the wirephantom
-  * ./croaker/data/20161217/images/DSC_1177.JPG
 * __/croaker/data/20161217/images/DSC_1175.JPG__:
   * kelu124
   * croaker,mogaba,oneeye,goblin,tobo,cletus,wirephantom
@@ -3212,13 +3226,6 @@
   * 20161217a
   * Overview of the setup
   * ./croaker/data/20161217/images/DSC_1175.JPG
-* __/croaker/data/20161217/images/DSC_1181.JPG__:
-  * kelu124
-  * wirephantom
-  * picture
-  * ToTag
-  * Picture of the wirephantom, top view.
-  * ./croaker/data/20161217/images/DSC_1181.JPG
 * __/croaker/data/20161217/images/DSC_1176.JPG__:
   * kelu124
   * wirephantom, mogaba, croaker, tobo, goblin, oneeye

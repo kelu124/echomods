@@ -5,6 +5,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * Boosting the [6Msps croaker](/croaker/) acquisition (see Wayne?) to the full 6Msps 
 
 ### Todos from Modules
+* None (in [wirephantom](/wirephantom/))
 * Remove the jitter (see image in Rdme) (in [cletus](/cletus/))
 * Include <a href="/cletus/2017-06-08_FindingSuppliers.md">notes</a> (in [cletus](/cletus/))
 * Save images as DICOMs (in [tomtom](/tomtom/))

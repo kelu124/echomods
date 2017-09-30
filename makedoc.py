@@ -79,7 +79,9 @@ for k in ImgList:
 
 ListOfExperiment = list(set(ListOfExperiment))
 
-MakeExperiments(ListOfExperiment,ListIfImages)
+ListOfExperiment.sort()
+
+AllExpeList = MakeExperiments(ListOfExperiment,ListIfImages)
 
 
 OpenWrite(GenFiles,"include/FilesList/ImgFiles.md")
@@ -842,6 +844,12 @@ Loops += f.read() + "\n\n"
 f.close()
 
 OpenWrite("# Adding videos \n\n There are two loops saved so far. \n\n"+AddRawHURL(AddOneLevel(Loops))+"\n\n","gitbook/Chapter5/loops.md")
+
+
+
+for expe in ListOfExperiment:
+	CopyGitBookFile("include/experiments/auto/"+expe+".md","gitbook/exp/"+expe+".md")
+
 
 # -------------------------
 # Adding CHAPTER 6 : Biblio 

@@ -52,7 +52,7 @@ ValidH = ["h1","h2","h3","h4","h5"]
 
 ModulesChaptDeux = ["tobo","retroATL3","goblin","elmo"]
 ModulesChaptDeuxRT = ["mogaba","toadkiller"]
-ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom","loftus"]
+ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom","loftus","wirephantom"]
 
 ModulesChaptTroisRT= ["sleepy","oneeye"]
 
@@ -263,7 +263,7 @@ def MakeExperiments(ExpList,ListIfImage):
 		ExpeSummary += "  * ["+Expe+"](/include/experiments/auto/"+Expe+".md)\n"
 		OpenWrite(PM,fname)
 	OpenWrite(ExpeSummary,"include/AllExpes.md")
-	return 1
+	return ModF
 
 # -------------------------
 # Processing images
