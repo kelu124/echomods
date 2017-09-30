@@ -18,9 +18,7 @@
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md
-* ./include/experiments/Desc_20170611a.md
 * ./include/experiments/Desc_20170715a.md
-* ./include/experiments/Desc_20170930a.md
 * ./include/experiments/auto/Img_20170930a.md
 * ./include/experiments/auto/Mod_20170930a.md
 * ./include/experiments/auto/Img_20161217a.md

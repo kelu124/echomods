@@ -162,10 +162,10 @@
   * ./elmo/data/Imgs/map_probeX.data.jpg
 * __/elmo/data/Imgs/Processing_probeX.data.jpg__:
   * kelu124
-  * elmo
-  * ToTag
-  * ToTag
-  * ToTag
+  * elmo, retroATL3
+  * graph
+  * 20170715a
+  * Building an image
   * ./elmo/data/Imgs/Processing_probeX.data.jpg
 * __/elmo/data/Imgs/mapCleanImageDec_probeX.data650-850.jpg__:
   * kelu124
@@ -232,10 +232,10 @@
   * ./elmo/images/20170717_203224.jpg
 * __/elmo/images/20170717_210209.jpg__:
   * kelu124
-  * elmo
-  * picture
-  * ToTag
-  * ToTag
+  * elmo, retroATL3, tobo,goblin,elmo,tomtom,doj
+  * setup
+  * 20170715a
+  * Setup of the experiment with ATL3 and ADC
   * ./elmo/images/20170717_210209.jpg
 * __/elmo/images/20170717_205251.jpg__:
   * kelu124
