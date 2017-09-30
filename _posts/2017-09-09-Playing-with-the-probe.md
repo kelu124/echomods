@@ -13,5 +13,3 @@ title: 2017-09-09 Playing with the probe
 -   Finetuning the img metadata
 -   Need to plan for the oneboard design
 
-=======
-
