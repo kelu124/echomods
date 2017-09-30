@@ -12,6 +12,8 @@ HV levels can be set at:
 
 See the [code here](/tobo/alt.tobo/test/20170930-AltPulser.ipynb)
 
+The kernel module is [code here](/tobo/alt.tobo/test/bilevel.c)
+
 # Picture of the experiment
 
 ![](/tobo/alt.tobo/test/images/20170930_171734.jpg)
