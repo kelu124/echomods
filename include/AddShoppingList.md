@@ -26,26 +26,17 @@ Here's a couple of things we're working on, for which you could help as well.
 * Need to have a look at this RPI GPIO DMA - https://github.com/hzeller/rpi-gpio-dma-demo
 * Include some cletus remarks (sourcing) on gitbook
 * convert all previous images to dicom
-* put probe on the setup
 * set the gain on the AFE using Doj v1.2
 * use the GetSuppliersList function to list equipment suppliers
-* Add PCBA
-* Test UHF probe
-* board pulser + processing + ADC for RPi
 * add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
-* get orders from Sam CN.
 * remove gitbook MD files from the log
 * link to files in the log (python)
 * Main readme as TPL
 * DICOM rest of images
 * test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
-* adding the experiments for within the MD files
-* create files for experiments in include (eg in /include/experiments/ ) (using ListOfExperiment )
-* test [s3](/include/s3/) outputs w/ JST - and good trigs on DSO203
-* feed [s3](/include/s3/) in 5V in motor w/ JST
-* Test Gob
 * a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
 * float pins between shots? -> work session on [bilevel.c](/tobo/alt.tobo/test/bilevel.c)
+* pass license to CC-BY-SA
 
 
 

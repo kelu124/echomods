@@ -1942,7 +1942,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 #### 2017-06-26 More interest
 
-* @todo put probe on the setup
+* put probe on the setup
 * @todo set the gain on the AFE using Doj v1.2
 * @todo use the GetSuppliersList function to list equipment suppliers
 * @done map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
@@ -1964,7 +1964,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-07-05 China
 
 * Doing some analysis of the [CN producers](/include/AddCNPCBA.md)
-* @todo Add PCBA
+* @done Add PCBA
 * Back in touch with GroupGets
 * attiny84 ([pinout](http://42bots.com/wp-content/uploads/2014/01/ATTiny84-ATTiny44-pinout.png)): 12 pins: 
   * Config 1
@@ -1984,7 +1984,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Received the cable for the probe
   * @done fill in probe if necessary -> need oil in it (see AMZ)
   * @done test probe with oil -> to redo
-* @todo Test UHF probe
+* @done Test UHF probe
 * @done fill in /wordofcaution.md
 * @done integrate thomas remarks in RPi
 * @done update ppt_us with links all around
@@ -2000,7 +2000,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Awesome paper - how to [boost the ADC](https://www.ncbi.nlm.nih.gov/pubmed/28368803) - https://www.ncbi.nlm.nih.gov/pubmed/28368803
 * Testing a counter with the [32u4](/elmo/data/arduiprobe/20170709-Repeats.ipynb) -- see  [data](/elmo/data/arduiprobe/data/)
 * @done order tobo.alt 
-* @todo board pulser + processing + ADC for RPi
+* @done board pulser + processing + ADC for RPi
 * https://petapixel.com/2013/03/13/the-helsinki-bus-station-theory-finding-your-own-vision-in-photography/ : excellent article on finding your way.
 
 #### 2017-07-14 ADC boosting
@@ -2018,7 +2018,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 * [Testing with the servo](/elmo/data/arduiphantom/Readme.md) and [the notebook](/elmo/data/arduiphantom/20170718-Servo.ipynb)
 * Power in a [piezo element](https://electronics.stackexchange.com/questions/317873/electrical-power-in-piezoelectric-transducer)
 * @todo add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
-* @todo get orders from Sam CN.
+* @done get orders from Sam CN.
 
 #### 2017-07-21 News from Newcastle
 
@@ -2169,16 +2169,16 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 #### 2017-09-17 Progressing on autodoc
 
 * Adding experiments to the docs
-* @todo adding the experiments for within the MD files
-* @todo create files for experiments in include (eg in /include/experiments/ ) (using ListOfExperiment )
+* @done adding the experiments for within the MD files
+* @done create files for experiments in include (eg in [/include/experiments/](/include/AllExpes.md) ) (using ListOfExperiment )
 * Opened a bit more of the S3 probe
 * Ordered some JST for the probe
 
 #### 2017-09-29 Moving forward with tests
 
-* @todo test [s3](/include/s3/) outputs w/ JST - and good trigs on DSO203
-* @todo feed [s3](/include/s3/) in 5V in motor w/ JST
-* @todo Test Gob
+* @fail test [s3](/include/s3/) outputs w/ JST - and good trigs on DSO203
+* @done feed [s3](/include/s3/) in 5V in motor w/ JST -> fail
+* @done Test Gob
   * Relancer le fab_cn ... error in its capa placement 
 * done: test ADCs
 * done: test Pulser
@@ -2189,6 +2189,7 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * Some additional works for the motor control
 * @todo a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
 * @todo float pins between shots? -> work session on [bilevel.c](/tobo/alt.tobo/test/bilevel.c)
+* @todo pass license to CC-BY-SA
 
 =======
 
