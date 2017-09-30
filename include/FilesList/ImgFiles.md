@@ -1625,17 +1625,17 @@
   * ./retired/toadkiller/data/sonde3Vnobitscpe.png
 * __/retired/toadkiller/data/test_enveloppe/SigInSigOut.png__:
   * kelu124
-  * toadkiller
-  * ToTag
-  * ToTag
-  * ToTag
+  * toakiller, croaker, silent, goblin
+  * graph
+  * 20160814a
+  * 10Msps acquisition of each the enveloppe and raw signal.
   * ./retired/toadkiller/data/test_enveloppe/SigInSigOut.png
 * __/retired/toadkiller/data/test_enveloppe/Details.png__:
   * kelu124
-  * toadkiller
-  * ToTag
-  * ToTag
-  * ToTag
+  * toadkiller, croaker, silent
+  * graph
+  * 20160814a
+  * Details of the silent acquisition (enveloppe and raw signal) from the emulator
   * ./retired/toadkiller/data/test_enveloppe/Details.png
 * __/retired/toadkiller/source/blocks.png__:
   * kelu124
@@ -1717,8 +1717,8 @@
 * __/croaker/data/20161217/20161217-222737-commented.png__:
   * kelu124
   * croaker, wirephantom
-  * picture
-  * ToTag
+  * ASC
+  * 20161217a
   * Image of the wirephantom obtained while using the chain of modules, and the feather (croaker) module as the DAQ. Commented.
   * ./croaker/data/20161217/20161217-222737-commented.png
 * __/croaker/data/20161217/raw_data/20161217-222737-0.png__:
@@ -1737,10 +1737,10 @@
   * ./croaker/data/20161217/raw_data/20161217-222737-3.png
 * __/croaker/data/20161217/raw_data/20161217-222737-1.png__:
   * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
+  * croaker, wirephantom
+  * BSC
+  * 20161217a
+  * Before scan conversion
   * ./croaker/data/20161217/raw_data/20161217-222737-1.png
 * __/croaker/data/20161217/raw_data/20161217-222737-2.png__:
   * kelu124

@@ -260,7 +260,7 @@ def MakeExperiments(ExpList,ListIfImage):
 		PM += "@kelu include(/include/experiments/auto/Mod_"+Expe+".md)\n\n"
 		PM += "@kelu include(/include/experiments/auto/Img_"+Expe+".md)\n\n"
 
-		ExpeSummary += "  * [Expe](/include/experiments/auto/"+Expe+".md)"
+		ExpeSummary += "  * ["+Expe+"](/include/experiments/auto/"+Expe+".md)\n"
 		OpenWrite(PM,fname)
 	OpenWrite(ExpeSummary,"include/AllExpes.md")
 	return 1
