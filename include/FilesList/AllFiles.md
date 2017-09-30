@@ -212,6 +212,10 @@
 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md):  . File used in: [`/include/use_case_biblio/Readme.md`](/include/use_case_biblio/Readme.md).
 
+* [./include/experiments/Desc_20160814a.md](/include/experiments/Desc_20160814a.md):  . _File not used._
+
+* [./include/experiments/Desc_20161217a.md](/include/experiments/Desc_20161217a.md):  . _File not used._
+
 * [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._
@@ -414,11 +418,12 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 118 Auto generated files
+## 122 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
 * ./include/AddTableAvancement.md
+* ./include/AllExpes.md
 * ./include/AddShoppingList.md
 * ./include/AddModulesSummary.md
 * ./include/RPiHSDK.md
@@ -435,21 +440,24 @@
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md
-* ./include/experiments/Img_20170930a.md
-* ./include/experiments/Img_20161217a.md
-* ./include/experiments/20170930a.md
-* ./include/experiments/Img_20170611a.md
-* ./include/experiments/20170715a.md
-* ./include/experiments/Img_20170715a.md
-* ./include/experiments/20160814a.md
-* ./include/experiments/Img_20160814a.md
-* ./include/experiments/20170611a.md
-* ./include/experiments/20161217a.md
-* ./include/experiments/desc/Desc_20160814a.md
-* ./include/experiments/desc/Desc_20170611a.md
-* ./include/experiments/desc/Desc_20161217a.md
-* ./include/experiments/desc/Desc_20170715a.md
-* ./include/experiments/desc/Desc_20170930a.md
+* ./include/experiments/Desc_20170611a.md
+* ./include/experiments/Desc_20170715a.md
+* ./include/experiments/Desc_20170930a.md
+* ./include/experiments/auto/Img_20170930a.md
+* ./include/experiments/auto/Mod_20170930a.md
+* ./include/experiments/auto/Img_20161217a.md
+* ./include/experiments/auto/20170930a.md
+* ./include/experiments/auto/Mod_20160814a.md
+* ./include/experiments/auto/Img_20170611a.md
+* ./include/experiments/auto/20170715a.md
+* ./include/experiments/auto/Mod_20161217a.md
+* ./include/experiments/auto/Mod_20170611a.md
+* ./include/experiments/auto/Mod_20170715a.md
+* ./include/experiments/auto/Img_20170715a.md
+* ./include/experiments/auto/20160814a.md
+* ./include/experiments/auto/Img_20160814a.md
+* ./include/experiments/auto/20170611a.md
+* ./include/experiments/auto/20161217a.md
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md
 * ./include/sets/sets_slides.md

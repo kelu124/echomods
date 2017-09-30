@@ -236,6 +236,10 @@ __[MD Files]__ :no_entry: `./include/community/Taylor/Readme.md` : Missing descr
 
 __[MD Files]__ :no_entry: `./include/community/WillT/Readme.md` : Missing description
 
+__[MD Files]__ :no_entry: `./include/experiments/Desc_20160814a.md` : Missing description
+
+__[MD Files]__ :no_entry: `./include/experiments/Desc_20161217a.md` : Missing description
+
 __[MD Files]__ :no_entry: `./include/highspeed.set.md` : Missing description
 
 __[MD Files]__ :no_entry: `./include/murgen_notes.md` : Missing description
@@ -645,6 +649,10 @@ __[Unrefed file]__ :warning: `/include/community/WillT/Readme.md` : No reference
 __[Unrefed file]__ :warning: `/include/community/Zach/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/emulated.set.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/experiments/Desc_20160814a.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/experiments/Desc_20161217a.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/fda.gov/Readme.md` : No references of this file (in _include_). 
 

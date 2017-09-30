@@ -210,6 +210,10 @@
 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md):  . File used in: [`/include/use_case_biblio/Readme.md`](/include/use_case_biblio/Readme.md).
 
+* [./include/experiments/Desc_20160814a.md](/include/experiments/Desc_20160814a.md):  . _File not used._
+
+* [./include/experiments/Desc_20161217a.md](/include/experiments/Desc_20161217a.md):  . _File not used._
+
 * [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._

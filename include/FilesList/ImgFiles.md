@@ -1786,10 +1786,10 @@
   * ./croaker/data/20161217/images/result.png
 * __/croaker/data/20161217/images/all_raw.png__:
   * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
+  * croaker, wirephantom,cletus
+  * BSC
+  * 20161217a
+  * Raw images from the experiment
   * ./croaker/data/20161217/images/all_raw.png
 * __/croaker/data/manual/20161217-222737-1.png__:
   * kelu124
@@ -3207,10 +3207,10 @@
   * ./croaker/data/20161217/images/DSC_1177.JPG
 * __/croaker/data/20161217/images/DSC_1175.JPG__:
   * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
+  * croaker,mogaba,oneeye,goblin,tobo,cletus,wirephantom
+  * setup
+  * 20161217a
+  * Overview of the setup
   * ./croaker/data/20161217/images/DSC_1175.JPG
 * __/croaker/data/20161217/images/DSC_1181.JPG__:
   * kelu124
@@ -3222,8 +3222,8 @@
 * __/croaker/data/20161217/images/DSC_1176.JPG__:
   * kelu124
   * wirephantom, mogaba, croaker, tobo, goblin, oneeye
-  * picture
-  * ToTag
+  * setup
+  * 20161217a
   * Overall setup using a stripboard as the motherboard. Controled by croaker + oneeye.
   * ./croaker/data/20161217/images/DSC_1176.JPG
 * __/croaker/images/IMG_3492.JPG__:

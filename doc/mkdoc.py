@@ -194,9 +194,10 @@ def getCode(string):
 
 
 def MakeExperiments(ExpList,ListIfImage):
+	ExpeSummary = ""
 	for Expe in ExpList:
-
-		fnameD = "./include/experiments/desc/Desc_"+Expe+".md"
+	
+		fnameD = "./include/experiments/Desc_"+Expe+".md"
 		if not (os.path.isfile(fnameD)):
 			OpenWrite("# Experiment "+Expe+" description\n\n",fnameD)
 
@@ -206,34 +207,62 @@ def MakeExperiments(ExpList,ListIfImage):
 		ascimgs = [x for x in matches if "ASC" in x[2] ]
 
 		others = []
+		ModList = []
 		for item in matches:
 			if((item not in setupimgs) and (item not in ascimgs) and (item not in bscimgs) ):
 				others.append(item)
+			ModList.append(item[1])
 
 		ExpImages = "# Images of the Experiment\n\n"
 		if (len(setupimgs)):
 			ExpImages += "## Setup\n\n"
 			for img in setupimgs:
-				ExpImages += "![]("+img[5][1:]+")\n"+img[4]+"\n\n"
+				ExpImages += "![]("+img[5][1:]+")\n\n"+img[4]+"\n\n"
 		if (len(bscimgs)):
 			ExpImages += "## Raw images\n\n"
 			for img in bscimgs:
-				ExpImages += "![]("+img[5][1:]+")\n"+img[4]+"\n\n"
+				ExpImages += "![]("+img[5][1:]+")\n\n"+img[4]+"\n\n"
 		if (len(ascimgs)):
 			ExpImages += "## Scan converted\n\n"
 			for img in ascimgs:
-				ExpImages += "![]("+img[5][1:]+")\n"+img[4]+"\n\n"
+				ExpImages += "![]("+img[5][1:]+")\n\n"+img[4]+"\n\n"
 		if (len(others)):
 			ExpImages += "## Others\n\n"
 			for img in others:
-				ExpImages += "![]("+img[5][1:]+")\n"+img[4]+"(category: __"+img[2]+"__)\n\n"
+				ExpImages += "![]("+img[5][1:]+")\n\n"+img[4]+"(category: __"+img[2]+"__)\n\n"
 
-		OpenWrite(ExpImages,"./include/experiments/Img_"+Expe+".md")
+		OpenWrite(ExpImages,"./include/experiments/auto/Img_"+Expe+".md")
 
-		fname = "./include/experiments/"+Expe+".md.tpl"
-		PM = "@kelu include(/include/experiments/desc/Desc_"+Expe+".md)\n\n"
-		PM += "@kelu include(/include/experiments/Img_"+Expe+".md)\n\n"
+		ModulesT = "\n# Modules\n\n"
+
+		ModF = []
+		ModZ = []
+		for mod in ModList:
+			Modz = mod.split(",")
+			for module in Modz:
+				ModZ.append(module.strip())
+		ModF = list(set(ModZ))
+		if "ToTag" in ModF:
+			Modz.remove("ToTag")
+		for OneMod in ModF:
+			if OneMod in ModulesList:
+				ModulesT += "* ["+OneMod+"](/"+OneMod+"/)\n"
+			elif OneMod in ModulesRetiredList:
+				ModulesT += "* ["+OneMod+"](/retired/"+OneMod+"/)\n"
+
+
+		fname = "./include/experiments/auto/Mod_"+Expe+".md"
+		OpenWrite(ModulesT,fname)
+
+
+		fname = "./include/experiments/auto/"+Expe+".md.tpl"
+		PM = "@kelu include(/include/experiments/Desc_"+Expe+".md)\n\n"
+		PM += "@kelu include(/include/experiments/auto/Mod_"+Expe+".md)\n\n"
+		PM += "@kelu include(/include/experiments/auto/Img_"+Expe+".md)\n\n"
+
+		ExpeSummary += "  * [Expe](/include/experiments/auto/"+Expe+".md)"
 		OpenWrite(PM,fname)
+	OpenWrite(ExpeSummary,"include/AllExpes.md")
 	return 1
 
 # -------------------------
