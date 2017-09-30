@@ -13,6 +13,7 @@ title: 2017-09-30 Some experiment
     PNon, PNoff)
 -   @todo float pins between shots? -&gt; work session on
     [bilevel.c](/tobo/alt.tobo/test/bilevel.c)
+-   @todo pass license to CC-BY-SA
 
 =======
 

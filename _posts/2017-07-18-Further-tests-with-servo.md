@@ -14,5 +14,5 @@ title: 2017-07-18 Further tests with servo
 -   @todo add some ideas for [the
     pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1)
     to the alt.pulser board
--   @todo get orders from Sam CN.
+-   @done get orders from Sam CN.
 

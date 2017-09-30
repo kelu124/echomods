@@ -7,7 +7,7 @@ title: 2017-06-26 More interest
 ---
 
 
--   @todo put probe on the setup
+-   put probe on the setup
 -   @todo set the gain on the AFE using Doj v1.2
 -   @todo use the GetSuppliersList function to list equipment suppliers
 -   @done map the /include/community persons on a python map
