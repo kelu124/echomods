@@ -1,26 +1,26 @@
 # Getting images
-* __/tobo/alt.tobo/20170930a/pulser.jpg__:
+* __/tobo/alt.tobo/test/pulser.jpg__:
   * kelu124
   * alt.tobo
   * graph
   * 20170930a
   * Different level of pulses
   * ./tobo/alt.tobo/test/pulser.jpg
-* __/tobo/alt.tobo/20170930a/images/20170930_175000.jpg__:
+* __/tobo/alt.tobo/test/images/20170930_175000.jpg__:
   * kelu124
   * alt.tobo
   * description
   * 20170930a
   * Picture of the module
   * ./tobo/alt.tobo/test/images/20170930_175000.jpg
-* __/tobo/alt.tobo/20170930a/images/20170930_175010.jpg__:
+* __/tobo/alt.tobo/test/images/20170930_175010.jpg__:
   * kelu124
   * alt.tobo
   * description
   * 20170930a
   * Picture of the module
   * ./tobo/alt.tobo/test/images/20170930_175010.jpg
-* __/tobo/alt.tobo/20170930a/images/20170930_171734.jpg__:
+* __/tobo/alt.tobo/test/images/20170930_171734.jpg__:
   * kelu124
   * alt.tobo
   * setup
