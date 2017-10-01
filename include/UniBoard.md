@@ -1,5 +1,7 @@
 # Uniboard
 
+-> tentative schematics [here](/include/UniBoard/UB-v0.pdf)
+
 ## Overall remarks
 
 * Form factor: Raspberry Pi Hat (with screws places for both Raspberry Pi 3 and Raspberry Pi 0)
@@ -14,8 +16,9 @@
 
 ## ADC
  
-* Jumper to select SPI ADC (goblin) or 14 bit 30Msps ADC (onboard - that can work from 10Msps upwards)
-* If 20Msps ADC:
+* Jumper to select SPI ADC (goblin) or 12 bit 10Msps ADC (onboard - that can work at 10Msps )
+  * Only 10 MSPS 12bit ADC. The faster ADC, like AD9629 costs approximately the same, but more complicated in use (SPI configuration, diff clock, 1.8V supply etc)
+* If 10Msps ADC:
     * Jumper to select _Raw Signal_ or _Enveloppe_ . If RawSignal, to be offset by Vref/2.
 * If SPI ADC:
     * Only _Enveloppe_
@@ -27,6 +30,7 @@
 
 * MD0100 or equivalent for protection of VGC
 * Jumper : to select gain from pot (as per goblin) or from external (0 to 1V - connected to the 6x2 header Gain) as per goblin
+* Transfo: replace with one easily sourced from digikey / macrofab :)
 
 ## HV (ex tobo board)
 
@@ -34,12 +38,15 @@
 
 ## Pulser (ex tobo board)
 
-* Unipolar, only with Pon and Poff
+* Unipolar, only with Pon and Poff (routed to 2x20 Raspberry header)
 * Jumper: route pulse either to SMA or to "artificial" piezo   (see RLC) that can stand the pulses.
+  * RLC : see for example http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF
 
 ## Other
 
-* One 6x2 header for add-ons (Pon, Poff, 5V, 3.3V, Gain, TGC, GND, SDA, SCL, 3V, PWM, Tracker). Silkscreen for the different items
+* One 6x2 header for add-ons (Pon, Poff, 5V, 3.3V, Gain, Touch Interrupt, TGC, GND, SDA, SCL, PWM, Tracker). Silkscreen for the different items
+* Leds on the 3.3V line and 5V line
+
 
 ## Capa touch
 

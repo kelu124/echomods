@@ -10,9 +10,11 @@
 
 * [./tobo/QuickStart.md](/tobo/QuickStart.md):  . File used in: [`/tobo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.html), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [./tobo/alt.tobo/Readme.md](/tobo/alt.tobo/Readme.md):  . _File not used._
+* [./tobo/alt.tobo/Readme.md](/tobo/alt.tobo/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./tobo/alt.tobo/test/Readme.md](/tobo/alt.tobo/test/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./tobo/alt.tobo/20170930a/Readme.md](/tobo/alt.tobo/20170930a/Readme.md):  . _File not used._
+
+* [./tobo/alt.tobo/20171001a/Readme.md](/tobo/alt.tobo/20171001a/Readme.md):  . _File not used._
 
 * [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
@@ -220,6 +222,10 @@
 
 * [./include/experiments/Desc_20161217a.md](/include/experiments/Desc_20161217a.md):  . _File not used._
 
+* [./include/experiments/Desc_20171001b.md](/include/experiments/Desc_20171001b.md):  . _File not used._
+
+* [./include/experiments/Desc_20171001a.md](/include/experiments/Desc_20171001a.md):  . _File not used._
+
 * [./include/experiments/Desc_20170930a.md](/include/experiments/Desc_20170930a.md):  . _File not used._
 
 * [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -332,7 +338,8 @@
 
 ## Jupyter files
 
-* [20170930-AltPulser.ipynb](/tobo/alt.tobo/test/20170930-AltPulser.ipynb). File used in: [`/tobo/alt.tobo/test/Readme.md`](/tobo/alt.tobo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170930-AltPulser.ipynb](/tobo/alt.tobo/20170930a/20170930-AltPulser.ipynb). File used in: [`/tobo/alt.tobo/Readme.md`](/tobo/alt.tobo/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20171001-new.ipynb](/tobo/alt.tobo/20171001a/20171001-new.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -416,6 +423,7 @@
 
 
 
+
 ## Presentation files
 
 * [ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocumentationProcess.html)
@@ -424,7 +432,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 126 Auto generated files
+## 134 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -447,17 +455,23 @@
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md
 * ./include/experiments/Desc_20170715a.md
+* ./include/experiments/auto/Img_20171001b.md
 * ./include/experiments/auto/Img_20170930a.md
 * ./include/experiments/auto/Mod_20170930a.md
+* ./include/experiments/auto/20171001b.md
 * ./include/experiments/auto/Img_20161217a.md
+* ./include/experiments/auto/Mod_20171001b.md
 * ./include/experiments/auto/20170930a.md
 * ./include/experiments/auto/Mod_20160814a.md
 * ./include/experiments/auto/Img_20170611a.md
 * ./include/experiments/auto/20170715a.md
 * ./include/experiments/auto/Mod_20161217a.md
+* ./include/experiments/auto/Mod_20171001a.md
 * ./include/experiments/auto/Mod_20170611a.md
 * ./include/experiments/auto/Mod_20170715a.md
 * ./include/experiments/auto/Img_20170715a.md
+* ./include/experiments/auto/20171001a.md
+* ./include/experiments/auto/Img_20171001a.md
 * ./include/experiments/auto/20160814a.md
 * ./include/experiments/auto/Img_20160814a.md
 * ./include/experiments/auto/20170611a.md
@@ -547,8 +561,10 @@
 * ./gitbook/Chapter6/interfaces.md
 * ./gitbook/Chapter6/articles.md
 * ./gitbook/Chapter6/fda.md
+* ./gitbook/exp/20171001b.md
 * ./gitbook/exp/20170930a.md
 * ./gitbook/exp/20170715a.md
+* ./gitbook/exp/20171001a.md
 * ./gitbook/exp/20160814a.md
 * ./gitbook/exp/20170611a.md
 * ./gitbook/exp/20161217a.md

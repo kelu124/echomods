@@ -1,32 +1,88 @@
 # Getting images
-* __/tobo/alt.tobo/test/pulser.jpg__:
+* __/tobo/alt.tobo/20170930a/pulser.jpg__:
   * kelu124
   * alt.tobo
   * graph
   * 20170930a
   * Different level of pulses
   * ./tobo/alt.tobo/test/pulser.jpg
-* __/tobo/alt.tobo/test/images/20170930_175000.jpg__:
+* __/tobo/alt.tobo/20170930a/images/20170930_175000.jpg__:
   * kelu124
   * alt.tobo
   * description
   * 20170930a
   * Picture of the module
   * ./tobo/alt.tobo/test/images/20170930_175000.jpg
-* __/tobo/alt.tobo/test/images/20170930_175010.jpg__:
+* __/tobo/alt.tobo/20170930a/images/20170930_175010.jpg__:
   * kelu124
   * alt.tobo
   * description
   * 20170930a
   * Picture of the module
   * ./tobo/alt.tobo/test/images/20170930_175010.jpg
-* __/tobo/alt.tobo/test/images/20170930_171734.jpg__:
+* __/tobo/alt.tobo/20170930a/images/20170930_171734.jpg__:
   * kelu124
   * alt.tobo
   * setup
   * 20170930a
   * Setup of the experiment
   * ./tobo/alt.tobo/test/images/20170930_171734.jpg
+* __/tobo/alt.tobo/20171001a/20171001_135009.jpg__:
+  * kelu124
+  * alt.tobo,goblin,tomtom,elmo
+  * setup
+  * 20171001a
+  * Setup of the experiment for the new pulser and code
+  * ./tobo/alt.tobo/20171001a/20171001_135009.jpg
+* __/tobo/alt.tobo/20171001a/Pulses_NewModule-2.jpg__:
+  * kelu124
+  * alt.tobo
+  * graph
+  * 20171001a
+  * Pulses with alt.tobo
+  * ./tobo/alt.tobo/20171001a/Pulses_NewModule-2.jpg
+* __/tobo/alt.tobo/20171001a/Pulses_NewModule-3.jpg__:
+  * kelu124
+  * tobo
+  * picture
+  * ToTag
+  * ToTag
+  * ./tobo/alt.tobo/20171001a/Pulses_NewModule-3.jpg
+* __/tobo/alt.tobo/20171001a/Pulses_NewModule-1.jpg__:
+  * kelu124
+  * alt.tobo
+  * graph
+  * 20171001a
+  * Pulses with alt.tobo
+  * ./tobo/alt.tobo/20171001a/Pulses_NewModule-1.jpg
+* __/tobo/alt.tobo/20171001a/Pulses_average_Tube.jpg__:
+  * kelu124
+  * alt.tobo
+  * graph
+  * 20171001b
+  * Averaged echoes
+  * ./tobo/alt.tobo/20171001a/Pulses_average_Tube.jpg
+* __/tobo/alt.tobo/20171001a/Pulses_details_Tube.jpg__:
+  * kelu124
+  * alt.tobo
+  * graph
+  * 20171001b
+  * Several pulses
+  * ./tobo/alt.tobo/20171001a/Pulses_details_Tube.jpg
+* __/tobo/alt.tobo/20171001a/Pulses_Tube.jpg__:
+  * kelu124
+  * tobo
+  * picture
+  * ToTag
+  * ToTag
+  * ./tobo/alt.tobo/20171001a/Pulses_Tube.jpg
+* __/tobo/alt.tobo/20171001a/20171001_135041.jpg__:
+  * kelu124
+  * alt.tobo,goblin,tomtom,elmo,doj
+  * setup
+  * 20171001b
+  * Setup of the second experiment with the plastic tube
+  * ./tobo/alt.tobo/20171001a/20171001_135041.jpg
 * __/tobo/images/FullSizeRender_1.jpg__:
   * kelu124
   * tobo

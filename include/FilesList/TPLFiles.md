@@ -8,9 +8,13 @@
 
 * [20160814a.md.tpl](/include/experiments/auto/20160814a.md.tpl): ./include/experiments/auto/20160814a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
+* [20171001a.md.tpl](/include/experiments/auto/20171001a.md.tpl): ./include/experiments/auto/20171001a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+
 * [20170930a.md.tpl](/include/experiments/auto/20170930a.md.tpl): ./include/experiments/auto/20170930a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20170611a.md.tpl](/include/experiments/auto/20170611a.md.tpl): ./include/experiments/auto/20170611a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+
+* [20171001b.md.tpl](/include/experiments/auto/20171001b.md.tpl): ./include/experiments/auto/20171001b.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
 
 
