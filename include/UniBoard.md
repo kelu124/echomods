@@ -1,6 +1,11 @@
 # Uniboard
 
--> tentative schematics [here](/include/UniBoard/UB-v0.pdf)
+* Preliminary schematics [here](/include/UniBoard/UB-v1.pdf) and corresponding Altium file [here](/include/UniBoard/UB-v1.zip).
+* [Amp source files](/goblin/source/Altium/goblin_altium.zip)
+* [Goblin source](/goblin/source/Altium/goblin_altium.zip)
+* [Pulser source](/tobo/alt.tobo/alt.tobo.zip)
+* [ADC source](/elmo/source/ADCv2.zip) -- though it is not applicable as I need only a onboard ADC, not interleaved. However, can be kept to keep the idea of the offset of vref/2 .
+
 
 ## Overall remarks
 
@@ -44,9 +49,9 @@
 
 ## Other
 
-* One 6x2 header for add-ons (Pon, Poff, 5V, 3.3V, Gain, Touch Interrupt, TGC, GND, SDA, SCL, PWM, Tracker). Silkscreen for the different items
+* One 6x2 header for add-ons (Pon, Poff, 5V, 3.3V, TGC Gain, Touch Interrupt, Trig, GND, SDA, SCL, PWM, Tracker). Silkscreen for the different items
 * Leds on the 3.3V line and 5V line
-
+* Would be good to have an onboard miniusb plug for easy power supply
 
 ## Capa touch
 
@@ -58,6 +63,8 @@
 
 
 # Pins
+
+!! Beware -> the ADC here has 14 bits, 12 is enough. In this case, 2 pins can be shifted to a "trig" pin
 
 ![](/include/images/UniDesign.jpg)
 
