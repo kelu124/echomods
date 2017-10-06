@@ -46,6 +46,9 @@
 * Unipolar, only with Pon and Poff (routed to 2x20 Raspberry header)
 * Jumper: route pulse either to SMA or to "artificial" piezo   (see RLC) that can stand the pulses.
   * RLC : see for example http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF
+  * or http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc with .. see below!
+
+![](/include/images/piezo.png)
 
 ## Other
 

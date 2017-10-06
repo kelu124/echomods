@@ -197,6 +197,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
 * float pins between shots? -> work session on [bilevel.c](/tobo/alt.tobo/test/bilevel.c)
 * pass license to CC-BY-SA
+* add some new articles to the new article
 
 
 
