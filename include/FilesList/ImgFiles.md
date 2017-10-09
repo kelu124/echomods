@@ -314,6 +314,27 @@
   * ToTag
   * ToTag
   * ./elmo/images/20170717_223857.jpg
+* __/elmo/images/qs/20171009_170604.jpg__:
+  * kelu124
+  * elmo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./elmo/images/qs/20171009_170604.jpg
+* __/elmo/images/qs/20171009_171305.jpg__:
+  * kelu124
+  * elmo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./elmo/images/qs/20171009_171305.jpg
+* __/elmo/images/qs/20171009_170219.jpg__:
+  * kelu124
+  * elmo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./elmo/images/qs/20171009_170219.jpg
 * __/cletus/images/Arduino_Servo_Filters.jpg__:
   * kelu124
   * cletus
