@@ -29,5 +29,3 @@ title: 2017-09-30 Some experiment
 
 -   Demo mode for clarius : https://www.clarius.me/quickstart/demo-mode/
 
-=======
-
