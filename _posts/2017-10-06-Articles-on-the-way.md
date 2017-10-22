@@ -18,5 +18,3 @@ title: 2017-10-06 Articles on the way
 -   NiftyNet: a deep-learning platform for medical imaging at
     https://arxiv.org/pdf/1709.03485.pdf
 
-=======
-
