@@ -2209,6 +2209,13 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
   * http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf : Ultrasound Image Quality Assessment -- A framework for evaluation of clinical image quality
   * NiftyNet: a deep-learning platform for medical imaging at https://arxiv.org/pdf/1709.03485.pdf
 
+#### 2017-10-21 Holidays soon off
+
+* Loving PoC || GTFO : https://www.alchemistowl.org/pocorgtfo/
+* Check : Lattice iCE40UL1K-SWG16 -- http://www.latticesemi.com/Products/FPGAandCPLD/iCE40.aspx (used on https://hackaday.io/project/6592-dipsy ) -- quite a small FPGA !!
+* Onboard gyro https://playground.arduino.cc/Main/MPU-6050 ?
+* @todo _senjak_ 15:07  In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself
+
 =======
 
 
