@@ -11,20 +11,19 @@
 
 #### Alone
 
-!()[/tobo/alt.tobo/test/20170930_175000.jpg)
+![](/tobo/alt.tobo/test/20170930_175000.jpg)
 
 #### Testing with a fixed depth of water
 
-!()[/tobo/alt.tobo/20171001a/20171001_135041.jpg)
+![](/tobo/alt.tobo/20171001a/20171001_135041.jpg)
 
 #### Tests with 3 levels of HV (25, 50 and 75V) - unipolar
-
-!()[/tobo/alt.tobo/test/pulser.jpg)
+![](/tobo/alt.tobo/test/pulser.jpg)
 
 
 #### Details of pulses at 50V
 
-!()[/tobo/alt.tobo/20171001a/Pulses_average_Tube.jpg)
+![](/tobo/alt.tobo/20171001a/Pulses_average_Tube.jpg)
 
 ### Brief
 
