@@ -11,7 +11,7 @@
 
 #### Alone
 
-![](/tobo/alt.tobo/test/20170930_175000.jpg)
+![](/tobo/alt.tobo/test/images/20170930_175000.jpg)
 
 #### Testing with a fixed depth of water
 
