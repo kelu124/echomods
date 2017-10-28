@@ -49,7 +49,7 @@ RedMark = ":no_entry:"
 WarningMark = ":warning:"
 ValidH = ["h1","h2","h3","h4","h5"]
 
-ModulesChaptDeux = ["tobo","retroATL3","goblin","elmo"]
+ModulesChaptDeux = ["tobo","retroATL3","goblin","elmo","alt.tbo"]
 ModulesChaptDeuxRT = ["mogaba","toadkiller"]
 ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom","loftus","wirephantom"]
 ModulesChaptTroisRT= ["sleepy","oneeye"]
