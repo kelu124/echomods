@@ -107,8 +107,9 @@ Want to contribute? To help, you can start reading:
 
 * [The progress for each of the modules](https://kelu124.gitbooks.io/echomods/content/Chapter7/progress.html)
 * Details on [where to contribute](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html)
-* A list of our contributors
+* A map of our contributors:
 
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/community/map.jpg)
 
 Have fun!
 

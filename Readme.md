@@ -198,7 +198,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * float pins between shots? -> work session on [bilevel.c](/tobo/alt.tobo/test/bilevel.c)
 * pass license to CC-BY-SA
 * add some new articles to the new article
-* _senjak_ 15:07 In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself
+* _senjak_ 15:07 In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself -- https://github.com/ESultanik/PDFGitPolyglot/blob/master/make_polyglot.sh
+* _senjak_ CAP1188 for touch ?
 
 
 

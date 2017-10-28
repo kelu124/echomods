@@ -32,8 +32,12 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 from bs4 import BeautifulSoup 
 from doc.mkdoc import *
- 
+from pprint import pprint
+
+
 FullSVG = 0
+
+GrosJaSON = { "images":{},"md":{} }
 
 # -------------------------
 # arguments
@@ -69,22 +73,48 @@ ImgList = GetImgFiles("./")
 ListIfImages = []
 ListOfExperiment = []
 for k in ImgList:
+
+	GrosJaSON["images"][k] = {}
 	Tags = CreateImgTags("."+k)
+
 	AllTags = GetTags(Tags)
+	GrosJaSON["images"][k]["path"] = k
+	GrosJaSON["images"][k]["author"] = AllTags[0]
+	GrosJaSON["images"][k]["modules"] = AllTags[1]
+	GrosJaSON["images"][k]["category"] = AllTags[2]
+	GrosJaSON["images"][k]["experiment"] = AllTags[3]
+	GrosJaSON["images"][k]["description"] = AllTags[4] 
+
 	ListIfImages.append(AllTags)
 	if "ToTag" not in AllTags[3]:
 		ListOfExperiment.append(AllTags[3])
-	#print AllTags
 	GenFiles+= "* __"+k+"__:\n  * "+"\n  * ".join(AllTags)+"\n"
 
 ListOfExperiment = list(set(ListOfExperiment))
-
 ListOfExperiment.sort()
 
-AllExpeList = MakeExperiments(ListOfExperiment,ListIfImages)
+AllExpeList,ExpeJSON = MakeExperiments(ListOfExperiment,ListIfImages)
+GrosJaSON["experiments"] = ExpeJSON
+
 
 
 OpenWrite(GenFiles,"include/FilesList/ImgFiles.md")
+
+# -------------------------
+# Presentations
+# -------------------------
+
+GrosJaSON["module"]={}
+
+for k in ModulesList:
+	GrosJaSON["module"][k] = {}
+	GrosJaSON["module"][k]["path"]="/"+k+"/"
+for k in ModulesRetiredList:
+	GrosJaSON["module"][k] = {}
+	GrosJaSON["module"][k]["path"]="/retired/"+k+"/"
+
+print GrosJaSON
+
 
 # -------------------------
 # Presentations
@@ -106,6 +136,9 @@ OpenWrite(PPTFiles,"include/FilesList/PPTFiles.md")
 GraphModules = digraph()
 
 MDFiles = GetGeneratedFiles("./")
+for MDFile in MDFiles[5]:
+	GrosJaSON["md"][ MDFile[1:] ] = {}
+	GrosJaSON["md"][MDFile[1:] ]["path"] = MDFile
 log = log+MDFiles[3]
 GenFiles = "* "+"\n* ".join(MDFiles[0])
 OpenWrite(GenFiles,"include/FilesList/GeneratedFiles.md")
@@ -122,6 +155,10 @@ ListeOfManualFilesDesc = MDFiles[2]
 for i in range(len(MDFiles[1])):
 	MdLog += "* ["+ListeOfManualFiles[i]+"]("+ListeOfManualFiles[i][1:]+"): "+ListeOfManualFilesDesc[i]+" "
 	CheckRef = CreateRefFiles(NbMDManuels,ListeOfManualFiles[i][1:],MDFiles[4],MDFiles[5])
+
+	if ListeOfManualFiles[i][1:] in GrosJaSON["md"] :
+		GrosJaSON["md"][ ListeOfManualFiles[i][1:] ]["references"] = CheckRef[2]
+
 	MdLog += CheckRef[0]
 	log = log+CheckRef[1]
 	MdLog +="\n"
@@ -179,11 +216,23 @@ OpenWrite(TPLLog,"include/FilesList/TPLFiles.md")
 PythonLog = ""
 ListeOfPython = GetPythonFiles("./")
 PythonFiles = CheckPythonFile(ListeOfPython)
+GrosJaSON["python"] = {}
+
+for pythonfile in ListeOfPython:
+	path = pythonfile[1:]
+
+	GrosJaSON["python"][path] = {} 
+	GrosJaSON["python"][path]["path"] = path 
+
 log = log+PythonFiles[0]
 
 for i in range(len(PythonFiles[1])):
 	PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i] 
 	CheckRef = CreateRefFiles(NbMDManuels,ListeOfPython[i][1:],MDFiles[4],MDFiles[5])
+
+
+	GrosJaSON["python"][ ListeOfPython[i][1:] ]["references"] = CheckRef[2]	
+
 	PythonLog += CheckRef[0]
 	log = log+CheckRef[1]
 	PythonLog +="\n"
@@ -939,3 +988,8 @@ log = log+ResultKits
 log.sort()
 OpenWrite("\n\n".join( log ),"doc/log.md")
 
+
+
+
+with open('include/doc.json', 'wt') as out:
+    pprint(GrosJaSON, stream=out)

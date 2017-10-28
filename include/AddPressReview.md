@@ -32,5 +32,5 @@
 * 2017-07-10: [Open ultrasound for africa](http://openhardware.science/2017/07/10/lafrique-a-lassaut-du-biohacking-pour-la-sante-makery/)
 * 2017-07-14: [Adafruit: A HSDK for ultrasound imaging #piday #raspberrypi @Raspberry_Pi](https://blog.adafruit.com/2017/07/14/a-hsdk-for-ultrasound-imaging-piday-raspberrypi-raspberry_pi/)
 * 2017-07-27: [Show HN: Hacking an ultrasound probe with a Raspberry Pi and low-cost hardware](https://news.ycombinator.com/item?id=14869138)
-
-
+* 2017-09-30: [Weekly Roundup #45 – New Maker Products](https://www.mickmake.com/archives/4062/3)
+* 2017-10-10: [Ultrasonograf zbudowany z wykorzystaniem Raspberry Pi ](https://www.elektroda.pl/rtvforum/topic3382649.html)

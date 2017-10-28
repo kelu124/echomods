@@ -37,7 +37,6 @@ from datetime import datetime
 
 
 
-
 # -------------------------
 # Get icons for compiler log
 # -------------------------
@@ -53,7 +52,6 @@ ValidH = ["h1","h2","h3","h4","h5"]
 ModulesChaptDeux = ["tobo","retroATL3","goblin","elmo"]
 ModulesChaptDeuxRT = ["mogaba","toadkiller"]
 ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom","loftus","wirephantom"]
-
 ModulesChaptTroisRT= ["sleepy","oneeye"]
 
 ModulesList = ModulesChaptDeux+ModulesChaptTrois
@@ -194,14 +192,16 @@ def getCode(string):
 
 
 def MakeExperiments(ExpList,ListIfImage):
+	ExpeJSON = {}
 	ExpeSummary = ""
 	for Expe in ExpList:
-	
+		ExpeJSON[Expe] = {}
 		fnameD = "./include/experiments/Desc_"+Expe+".md"
 		if not (os.path.isfile(fnameD)):
 			OpenWrite("# Experiment "+Expe+" description\n\n",fnameD)
 
 		matches = [x for x in ListIfImage if Expe in x[3] ]
+		ExpeJSON[Expe]["images"] = []
 		setupimgs = [x for x in matches if "setup" in x[2] ]
 		bscimgs = [x for x in matches if "BSC" in x[2] ]
 		ascimgs = [x for x in matches if "ASC" in x[2] ]
@@ -212,10 +212,12 @@ def MakeExperiments(ExpList,ListIfImage):
 			if((item not in setupimgs) and (item not in ascimgs) and (item not in bscimgs) ):
 				others.append(item)
 			ModList.append(item[1])
+			ExpeJSON[Expe]["images"].append(item[5][1:])
 
 		ExpImages = "# Images of the Experiment\n\n"
 		if (len(setupimgs)):
 			ExpImages += "## Setup\n\n"
+			
 			for img in setupimgs:
 				ExpImages += "![]("+img[5][1:]+")\n\n"+img[4]+"\n\n"
 		if (len(bscimgs)):
@@ -244,11 +246,14 @@ def MakeExperiments(ExpList,ListIfImage):
 		ModF = list(set(ModZ))
 		if "ToTag" in ModF:
 			Modz.remove("ToTag")
+		ExpeJSON[Expe]["modules"] = []
 		for OneMod in ModF:
 			if OneMod in ModulesList:
 				ModulesT += "* ["+OneMod+"](/"+OneMod+"/)\n"
+				ExpeJSON[Expe]["modules"].append(OneMod)
 			elif OneMod in ModulesRetiredList:
 				ModulesT += "* ["+OneMod+"](/retired/"+OneMod+"/)\n"
+				ExpeJSON[Expe]["modules"].append(OneMod)
 
 
 		fname = "./include/experiments/auto/Mod_"+Expe+".md"
@@ -263,7 +268,7 @@ def MakeExperiments(ExpList,ListIfImage):
 		ExpeSummary += "  * ["+Expe+"](/include/experiments/auto/"+Expe+".md)\n"
 		OpenWrite(PM,fname)
 	OpenWrite(ExpeSummary,"include/AllExpes.md")
-	return ModF
+	return ModF,ExpeJSON
 
 # -------------------------
 # Processing images
@@ -448,6 +453,7 @@ def GetTags(Tag):
 	TagValue.append( str(Tag['Exif.Image.Make'].value) )
 	TagValue.append( str(Tag['Exif.Image.ImageDescription'].value) )
 	TagValue.append( str(Tag['Exif.Image.DocumentName'].value) )
+ 
 
 	return TagValue
 	
@@ -762,13 +768,17 @@ def GetIncludes (InitialText, filez, contentz,origin):
  
 def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 	InRef = []
+	FileList = []
 	log = []
+
 	StringData = ""
 	for k in range(NdFiles):
 		if (PathRefedFile in ContentFiles[k]) and ("/include/FilesList/" not in ContentFiles[k]): 
+			FileList.append(PathRefingFile[k][1:])
 			InRef.append("[`"+PathRefingFile[k][1:]+"`]("+PathRefingFile[k][1:]+")")
 	if len(InRef):
 		StringData = ". File used in: "+", ".join(InRef)+".\n"
+	
 		#print InRef
 	else:
 		StringData = ". _File not used._\n"
@@ -778,7 +788,7 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 		    if (not ("/gitbook/" in PathRefedFile)):
 			log.append("__[Unrefed file]__ "+RedMark+" `"+PathRefedFile+"` : No references of this file. ")
 		    
-	return StringData, log
+	return StringData, log, FileList
 
 def GetPythonFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.py'))]
@@ -829,7 +839,10 @@ def CheckPythonFile(files):
 	## See http://stackoverflow.com/questions/1523427/what-is-the-common-header-format-of-python-files for an idea 
 	log = []
 	PythonDesc = []
+	JSONPython = {}
 	for PythonFile in files:
+		JSONPython[PythonFile] = {}
+		JSONPython[PythonFile]["path"] = PythonFile
 		with open(PythonFile) as f:
 		    lN = 0
 		    moduleDesc = ""
@@ -840,6 +853,7 @@ def CheckPythonFile(files):
 				log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Header error ")
 			if ("__author__") in line:
 				ErrorConditions[1]=False
+				JSONPython[PythonFile]["author"] = line
 			if ("__copyright__") in line:
 				ErrorConditions[2]=False
 			if ("__license__") in line:
@@ -847,7 +861,8 @@ def CheckPythonFile(files):
 			if ("'''Description") in line:
 				ErrorConditions[0]=False
 				moduleDesc = line.replace("'''", "").replace("Description:", "").strip()
- 
+ 				JSONPython[PythonFile]["description"] = moduleDesc
+
 			line = line.rstrip('\r\n').rstrip('\n')
 			lN+=1
 		    if (ErrorConditions[0]):
@@ -861,7 +876,7 @@ def CheckPythonFile(files):
 			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing Copyright ")
 		    if (ErrorConditions[3]):
 			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing License")
-	return log,PythonDesc
+	return log,PythonDesc,JSONPython
 
 def CheckInoFile(files):
 	log = []
@@ -954,6 +969,7 @@ def CreateKits(path,pathmodules,FullSVG):
 	Slides = ""
 	AllCosts = "# What does it cost?\n\n"
 	log = []
+	mJSON = []
 
 	for file in os.listdir(path):
 	    if file.endswith(".set.md"):
