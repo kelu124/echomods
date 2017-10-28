@@ -95,7 +95,7 @@ module_param(tNOff, long, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 #define BIT8_PIN2 15
 
 // Pulser
-#define PPuls_ON 23
+#define PPuls_ON 23 // PPuls_ON works
 #define NPuls_ON 24
 
 #define Puls_OFF 21

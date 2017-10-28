@@ -83,97 +83,6 @@
   * 20171001b
   * Setup of the second experiment with the plastic tube
   * ./tobo/alt.tobo/20171001a/20171001_135041.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_details_10_500_10_1500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_details_10_500_10_1500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_average_5_200_5_200.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_average_5_200_5_200.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_average_0_200_3_200.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_average_0_200_3_200.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_10_500_10_1500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_10_500_10_1500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_3_100_5_100.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_3_100_5_100.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_average_10_500_10_500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_average_10_500_10_500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_details_5_2500_5_2500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_details_5_2500_5_2500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_average_10_500_10_1500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_average_10_500_10_1500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_10_500_10_500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_10_500_10_500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_details_10_1500_10_1500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_details_10_1500_10_1500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_0_100_1_100.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_0_100_1_100.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_10_1500_10_1500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_10_1500_10_1500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_details_5_200_5_200.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_details_5_200_5_200.jpg
 * __/tobo/alt.tobo/20171028a/Pulses_5_2500_5_2500.jpg__:
   * kelu124
   * tobo
@@ -181,34 +90,6 @@
   * ToTag
   * ToTag
   * ./tobo/alt.tobo/20171028a/Pulses_5_2500_5_2500.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_10_200_10_200.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_10_200_10_200.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_average_10_200_10_200.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_average_10_200_10_200.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_0_200_3_200.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_0_200_3_200.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_details_0_200_3_200.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_details_0_200_3_200.jpg
 * __/tobo/alt.tobo/20171028a/Pulses_5_200_5_200.jpg__:
   * kelu124
   * tobo
@@ -216,20 +97,6 @@
   * ToTag
   * ToTag
   * ./tobo/alt.tobo/20171028a/Pulses_5_200_5_200.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_details_10_200_10_200.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_details_10_200_10_200.jpg
-* __/tobo/alt.tobo/20171028a/Pulses_details_10_500_10_500.jpg__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./tobo/alt.tobo/20171028a/Pulses_details_10_500_10_500.jpg
 * __/tobo/images/FullSizeRender_1.jpg__:
   * kelu124
   * tobo
@@ -1231,6 +1098,13 @@
   * ToTag
   * ToTag
   * ./tobo/alt.tobo/alt.tobo/pulser-3d.png
+* __/tobo/alt.tobo/20171028a/images/Pulses.png__:
+  * kelu124
+  * tobo
+  * picture
+  * ToTag
+  * ToTag
+  * ./tobo/alt.tobo/20171028a/images/Pulses.png
 * __/tobo/alt.tobo/20171028a/images/pulser_diods.png__:
   * kelu124
   * tobo

@@ -2259,6 +2259,8 @@ Sometimes a kernel modules allows setting a parameter at run time. In this case 
 
     echo -n 1 > /sys/module/ambassador/parameters/debug
 
+* http://anons.wiki/
+* https://github.com/LappleApple/feedmereadmes/blob/master/README-maturity-model.md
 
 
 

@@ -11,7 +11,11 @@
 
 ## Pulser at two levels
 
-Seems that one of the pulses does not go off
+Seems that one of the pulses does not go off. However, both triggers seems to work.
+
+Checked: the pulses reach R3 and R4 aka the logic on the pulsers.
+
+![](/tobo/alt.tobo/20171028a/images/Pulses.png)
 
 ## Screenshot
 
