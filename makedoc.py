@@ -87,6 +87,7 @@ for k in ImgList:
 
 	ListIfImages.append(AllTags)
 	if "ToTag" not in AllTags[3]:
+	    if len(AllTags[3]):
 		ListOfExperiment.append(AllTags[3])
 	GenFiles+= "* __"+k+"__:\n  * "+"\n  * ".join(AllTags)+"\n"
 
@@ -113,7 +114,7 @@ for k in ModulesRetiredList:
 	GrosJaSON["module"][k] = {}
 	GrosJaSON["module"][k]["path"]="/retired/"+k+"/"
 
-print GrosJaSON
+#print GrosJaSON
 
 
 # -------------------------
@@ -894,7 +895,7 @@ f.close()
 
 OpenWrite("# Adding videos \n\n There are two loops saved so far. \n\n"+AddRawHURL(AddOneLevel(Loops))+"\n\n","gitbook/Chapter5/loops.md")
 
-
+print ListOfExperiment
 
 for expe in ListOfExperiment:
 	CopyGitBookFile("include/experiments/auto/"+expe+".md","gitbook/exp/"+expe+".md")

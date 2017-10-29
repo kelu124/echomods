@@ -6,6 +6,7 @@ Here's a couple of things we're working on, for which you could help as well.
 
 ### Todos from Modules
 * None (in [wirephantom](/wirephantom/))
+* Check a design w/ <a href="/alt.tbo/images/md1811_ref.jpg">this idea</a> which is similar to <a href="/alt.tbo/images/md1210_ref_2.jpg">this other idea</a> or <a href="/alt.tbo/images/md1210_ref.jpg">this last idea</a>. (in [alt.tbo](/alt.tbo/))
 * Remove the jitter (see image in Rdme) (in [cletus](/cletus/))
 * Include <a href="/cletus/2017-06-08_FindingSuppliers.md">notes</a> (in [cletus](/cletus/))
 * Save images as DICOMs (in [tomtom](/tomtom/))

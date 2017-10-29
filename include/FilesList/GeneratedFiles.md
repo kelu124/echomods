@@ -107,6 +107,7 @@
 * ./gitbook/Chapter2/mogaba.md
 * ./gitbook/Chapter2/retroATL3.md
 * ./gitbook/Chapter2/murgensoftware.md
+* ./gitbook/Chapter2/alt.tbo.md
 * ./gitbook/Chapter2/zach.md
 * ./gitbook/Chapter2/goblin.md
 * ./gitbook/Chapter2/tobo.md

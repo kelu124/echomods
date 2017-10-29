@@ -416,12 +416,14 @@ def CreateImgTags(ImgSrc):
     		metadata['Exif.Image.ImageDescription'] = "ToTag"
 
 	# FilePath
+
 	try:
     		metadata['Exif.Image.DocumentName']
 	except KeyError:
 
 		edited = 1
     		metadata['Exif.Image.DocumentName'] = ImgSrc
+
 
 	# Description
 	try:

@@ -127,7 +127,9 @@ To be powered at 5V only.
 #### Components
 
 * HV: NMT0572SC
-* Pulser : MD1213 and TC6320 -> see [Fig.6 here, bipolar 3 level pulser](http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf). [TC6320, undamped](http://ww1.microchip.com/downloads/en/DeviceDoc/tc6320.pdf), detailed here. 
+* Pulser : MD1213 and TC6320 -> see [Fig.6 here, bipolar 3 level pulser](http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf).
+  * [TC6320, undamped](http://ww1.microchip.com/downloads/en/DeviceDoc/tc6320.pdf), detailed here. 
+  * TC6320 http://ww1.microchip.com/downloads/en/DeviceDoc/20005697A.pdf for the datasheet
 * Protection: MD0100+diods -- should be enough, see [bottom of page 1, or Fig 9](http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf)
 
 ## Discussions
@@ -135,6 +137,7 @@ To be powered at 5V only.
 
 ### TODO
 
+* Check a design w/ [this idea](/alt.tbo/images/md1811_ref.jpg) which is similar to [this other idea](/alt.tbo/images/md1210_ref_2.jpg) or [this last idea](/alt.tbo/images/md1210_ref.jpg).
 
 ### DONE
 

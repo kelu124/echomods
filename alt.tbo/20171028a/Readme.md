@@ -17,6 +17,11 @@ Checked: the pulses reach R3 and R4 aka the logic on the pulsers.
 
 ![](/alt.tbo/20171028a/images/Pulses.png)
 
+and with the damper signal
+
+![](/alt.tbo/20171028a/images/DampPulse.png)
+
+
 ## Screenshot
 
 From the pulses, it seems only one HV pulses.
