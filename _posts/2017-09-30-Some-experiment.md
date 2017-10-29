@@ -12,7 +12,7 @@ title: 2017-09-30 Some experiment
 -   @todo a better bilevel control (4 NOPs period -&gt; PPon, Poff,
     PNon, PNoff)
 -   @todo float pins between shots? -&gt; work session on
-    [bilevel.c](/tobo/alt.tobo/test/bilevel.c)
+    [bilevel.c](/alt.tbo/test/bilevel.c)
 -   @todo pass license to CC-BY-SA
 
 -   @todo add some new articles to the new article
