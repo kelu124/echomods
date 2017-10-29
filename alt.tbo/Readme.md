@@ -5,7 +5,7 @@ author: kelu124
 
 # Module: alt.Tbo
 
-![](/tobo/alt.tobo/viewme.png)
+![](/alt.tbo/viewme.png)
 
 ## Name
 
@@ -58,7 +58,7 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### How does it work: block diagram
 
-![Block schema](/tobo/source/blocks.png)
+![Block schema](/alt.tbo/source/blocks.png)
 
 * `Pulse-P`->`TC6320TG`
 * `Pulse-N`->`TC6320TG`
@@ -82,28 +82,28 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### Testing
 
-* First experiment [jupyter notebook](/tobo/alt.tobo/test/20170930-AltPulser.ipynb) and first [datasets](/tobo/alt.tobo/test/)
-* [Driver for raspberry pi](/tobo/alt.tobo/test/alt.bilevel.c)
-* More tests with [fixed depth experiment](/tobo/alt.tobo/20171001a/20171001-new.ipynb) (for pulse quality tests).
+* First experiment [jupyter notebook](/alt.tbo/test/20170930-AltPulser.ipynb) and first [datasets](/alt.tbo/test/)
+* [Driver for raspberry pi](/alt.tbo/test/alt.bilevel.c)
+* More tests with [fixed depth experiment](/alt.tbo/20171001a/20171001-new.ipynb) (for pulse quality tests).
 
 
 ### Images
 
 #### Alone
 
-![](/tobo/alt.tobo/test/images/20170930_175000.jpg)
+![](/alt.tbo/test/images/20170930_175000.jpg)
 
 #### Testing with a fixed depth of water
 
-![](/tobo/alt.tobo/20171001a/20171001_135041.jpg)
+![](/alt.tbo/20171001a/20171001_135041.jpg)
 
 #### Tests with 3 levels of HV (25, 50 and 75V) - unipolar
-![](/tobo/alt.tobo/test/pulser.jpg)
+![](/alt.tbo/test/pulser.jpg)
 
 
 #### Details of pulses at 50V
 
-![](/tobo/alt.tobo/20171001a/Pulses_average_Tube.jpg)
+![](/alt.tbo/20171001a/Pulses_average_Tube.jpg)
 
 ### Brief
 
@@ -143,12 +143,13 @@ To be powered at 5V only.
 ### People
 
 * Sofian (for preparing the field with Murgen)
+* Ivan for the TC6320TG
 
 ## License
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [alt.tbo](/tobo/alt.tbo/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [alt.tbo](/alt.tbo/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

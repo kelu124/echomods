@@ -2392,6 +2392,29 @@ Sometimes a kernel modules allows setting a parameter at run time. In this case 
 * https://github.com/LappleApple/feedmereadmes/blob/master/README-maturity-model.md
 
 
+#### 2017-10-29 What next now
+
+Great topic: good feedback from users!
+
+Another topic, got 1 month left before 25/10 (2 full years!), let's update the __MASTER TODO__ !
+
+* __CNFab__
+   * Get updated goblins
+   * Put them on tindie with ADC pHATs
+* __atl.tobo.cheap__
+   * Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md)
+* __ADC board__
+   * Trying a 50Msps board.
+   * Design start on Nov 1st
+   * Order by Nov 20th
+   * Receive by December
+   * Final tests in Jan
+* __Single board (final)__
+   * Design start on Nov 1st
+   * Design produced by 
+   * Order by Nov 20th
+   * Receive board by December
+   * Test by Jan
 
 =======
 

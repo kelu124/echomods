@@ -5,7 +5,8 @@
 */
 
 #include <linux/kernel.h>
-#include <linux/module.h>
+#include <linux/module.h> 
+#include <linux/moduleparam.h>
 #include <linux/fs.h>
 #include <asm/uaccess.h>
 #include <linux/time.h>
@@ -20,10 +21,22 @@
 
 int __init init_module(void);
 void __exit cleanup_module(void);
+
 static int device_open(struct inode *, struct file *);
 static int device_release(struct inode *, struct file *);
 static ssize_t device_read(struct file *, char *, size_t, loff_t *);
 static ssize_t device_write(struct file *, const char *, size_t, loff_t *);
+
+static long tPOn = 10;
+static long tPOff = 1500;
+static long tNOn = 10;
+static long tNOff = 1500; 
+
+module_param(tPOn, long, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP); // 0774 for permissions
+MODULE_PARM_DESC(tPOn, "Positive pulse duration (in NOPs)");
+module_param(tPOff, long, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP);
+module_param(tNOn, long, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
+module_param(tNOff, long, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 
 #define SUCCESS 0
 #define DEVICE_NAME "hsdk"// Dev name 
@@ -82,7 +95,7 @@ static ssize_t device_write(struct file *, const char *, size_t, loff_t *);
 #define BIT8_PIN2 15
 
 // Pulser
-#define PPuls_ON 23
+#define PPuls_ON 23 // PPuls_ON works
 #define NPuls_ON 24
 
 #define Puls_OFF 21
@@ -116,7 +129,7 @@ static char msg[BUF_LEN];	/* The msg the device will give when asked */
 static char *msg_Ptr;
 
 
-static uint32_t *ScopeBuffer_Ptr;
+// static uint32_t *ScopeBuffer_Ptr;
 static unsigned char *buf_p;
 
 
@@ -176,7 +189,9 @@ static void readScope(){
 
 	int Pon=0;
 	int Poff=0;
-	//int Fail=0;
+	int Non=0;
+	int Noff=0;
+	int Inter=0; 
 
 	//disable IRQ
 	local_irq_disable();
@@ -195,63 +210,57 @@ static void readScope(){
 		limit = (counterline+1)*SAMPLE_SIZE;
 
 		printk(KERN_INFO "Shooting line %d\n", counterline);
-		INP_GPIO(PPuls_ON);
-		INP_GPIO(NPuls_ON);
-		INP_GPIO(Puls_OFF);
+
 		OUT_GPIO(PPuls_ON);
 		OUT_GPIO(NPuls_ON);
 		OUT_GPIO(Puls_OFF);
 
-		GPIO_SET = 1 << NPuls_ON;
-		while(Pon<10){ // Nb of NOPs for PulseOn
-			MY_NOP(__N);
-			Pon++;
-		}
-		GPIO_CLR = 1 << NPuls_ON;
-
-		GPIO_SET = 1 << Puls_OFF;
-		while(Poff<100){ // Nb of NOPs for PulseOff
-			MY_NOP(__N);
-			Poff++;
-		}
-		GPIO_CLR = 1 << Puls_OFF;
-
-		Poff = 0;
-		while(Poff<1400){ // Nb of NOPs for PulseOff
-			MY_NOP(__N);
-			Poff++;
-		}
-
-		Pon = 0;
 		GPIO_SET = 1 << PPuls_ON;
-		while(Pon<10){ // Nb of NOPs for PulseOn
+		while(Pon<tPOn){ // Nb of NOPs for PulseOn
 			MY_NOP(__N);
 			Pon++;
 		}
 		GPIO_CLR = 1 << PPuls_ON;
 
-		Poff = 0;
-		//GPIO_SET = 1 << Puls_OFF;
-		while(Poff<1500){ // Nb of NOPs for PulseOff
+		MY_NOP(__N);
+
+
+		while(Poff<tPOff){ // Nb of NOPs for PulseOff
 			MY_NOP(__N);
 			Poff++;
 		}
-		//GPIO_CLR = 1 << Puls_OFF;
+		GPIO_SET = 1 << Puls_OFF;
+		GPIO_CLR = 1 << Puls_OFF;
 
+		// Relax
+		MY_NOP(__N);
+		while(Inter<10){ // Nb of NOPs for PulseOff
+			MY_NOP(__N);
+			Inter++;
+		}
+
+		GPIO_SET = 1 << NPuls_ON;
+		while(Non<tNOn){ // Nb of NOPs for PulseOn
+			MY_NOP(__N);
+			Non++;
+		}
+		GPIO_CLR = 1 << NPuls_ON;
+
+		MY_NOP(__N);
+
+
+		while(Noff<tNOff){ // Nb of NOPs for PulseOff
+			MY_NOP(__N);
+			Noff++;
+		}
+		GPIO_SET = 1 << Puls_OFF;
+		GPIO_CLR = 1 << Puls_OFF;
 
 
 		INP_GPIO(PPuls_ON);
 		INP_GPIO(NPuls_ON);
 		INP_GPIO(Puls_OFF);
 
-		//take samples
-		/*
-		if(counterline < (REPEAT_SIZE-1) ){
-			limit = counterline*(SAMPLE_SIZE+1);
-		}else{
-			limit = (REPEAT_SIZE)*SAMPLE_SIZE;
-		}
-		*/
 
 		while(counter<(limit) ){
 			dataStruct.Buffer[counter++]= *(gpio.addr + 13); 
@@ -259,6 +268,12 @@ static void readScope(){
 		
 		// to avoid freezes
 		msleep(10);
+
+		Pon=0;
+		Poff=0;
+		Non=0;
+		Noff=0;
+		Inter = 0;
 
 		counterline++;
 	}
@@ -276,7 +291,7 @@ static void readScope(){
 	//save the time difference
 	dataStruct.time=timespec_to_ns(&ts_stop)-timespec_to_ns(&ts_start);//ns resolution
 
-	buf_p=&dataStruct;//cound maybe removed
+	//buf_p=&dataStruct;//cound maybe removed
 
 	ScopeBufferStart=&dataStruct;
 
@@ -292,6 +307,7 @@ In order to make a kernel module work the module needs some special entry functi
  */
 int init_module(void)
 {
+int speed_id;
     Major = register_chrdev(0, DEVICE_NAME, &fops);
 
 	if (Major < 0) {
@@ -350,7 +366,7 @@ int init_module(void)
 	SET_GPIO_ALT(4,0);
 
 	// Preparing the clock
-	int speed_id = 6; //1 for to start with 19Mhz or 6 to start with 500 MHz
+	speed_id = 6; //1 for to start with 19Mhz or 6 to start with 500 MHz
 	*(myclock.addr+28)=0x5A000000 | speed_id; //Turn off the clock
 	while (*(myclock.addr+28) & GZ_CLK_BUSY) {}; //Wait until clock is no longer busy (BUSY flag)
 	*(myclock.addr+29)= 0x5A000000 | (0x29 << 12) | 0;//Set divider //divide by 50 (0x32) -- ideally 41 (29) to fall on 12MHz clock
