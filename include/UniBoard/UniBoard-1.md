@@ -1,8 +1,8 @@
 # Uniboard
 
-* [Amp source files](/goblin/source/Altium/goblin_altium.zip)
-* [Goblin source](/goblin/source/Altium/goblin_altium.zip)
-* [Pulser source](/tobo/alt.tobo/alt.tobo.zip)
+* [Amp source files](/goblin/source/goblin_altium.zip)
+* [Goblin source](/goblin/source/goblin_altium.zip)
+* [Pulser source](/alt.tbo/alt.tobo.zip)
 
 
 ## Overall remarks

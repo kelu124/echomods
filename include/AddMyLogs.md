@@ -1993,7 +1993,7 @@ Netty isn't nice... but just got my article accepted by JOH !
   * [x] @done Add TPL list
 * Nice patent : https://www.google.com/patents/US4246792
 
-* Updated the first draft of the [tobo.alt](/tobo/alt.tobo/draft.alt.tobo.v0.01pdf)
+* Updated the first draft of the [tobo.alt](/alt.tbo/draft.alt.tobo.v0.01pdf)
 
 #### 2017-07-09 ADC boosting
 
@@ -2188,7 +2188,7 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * Done the tests for the pulser  ( 20170930a ) 
 * Some additional works for the motor control
 * @todo a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
-* @todo float pins between shots? -> work session on [bilevel.c](/tobo/alt.tobo/test/bilevel.c)
+* @todo float pins between shots? -> work session on [bilevel.c](/alt.tbo/test/bilevel.c)
 * @todo pass license to CC-BY-SA
 
 * @todo add some new articles to the new article
