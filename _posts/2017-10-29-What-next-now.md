@@ -16,7 +16,9 @@ update the **MASTER TODO** !
 -   Get updated goblins
 -   Put them on tindie with ADC pHATs
 -   **atl.tobo.cheap**
--   Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md)
+-   Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md) --
+    possible D2 issue
+-   Start macrofab bis.tbo after feedback on D2
 -   **ADC board**
 -   Trying a 50Msps board.
 -   Design start on Nov 1st
@@ -29,6 +31,4 @@ update the **MASTER TODO** !
 -   Order by Nov 20th
 -   Receive board by December
 -   Test by Jan
-
-=======
 
