@@ -1,9 +1,13 @@
 # History 
 
 
- * __2017-10-28__: [20171028-pulses.ipynb](https://github.com/kelu124/echomods/tree/master/alt.tbo/20171028a/20171028-pulses.ipynb)
+ * __2017-11-12__: [20171112-alt.tbo-w-retro2.ipynb](https://github.com/kelu124/echomods/tree/master/alt.tbo/20171112a/20171112-alt.tbo-w-retro2.ipynb), [20171112a.md](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20171112a.md), [20171112a.md.tpl](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20171112a.md.tpl), [20171112a.md](https://kelu124.gitbooks.io/echomods71112a.html)
+ * __2017-11-11__: [20171111-pulses.ipynb](https://github.com/kelu124/echomods/tree/master/alt.tbo/20171111a/20171111-pulses.ipynb)
+ * __2017-10-29__: [worklog of the day](http://kelu124.github.io/echomods/2017-10-29-What-next-now.md)
+ * __2017-10-28__: [20171028-pulses.ipynb](https://github.com/kelu124/echomods/tree/master/alt.tbo/20171028a/20171028-pulses.ipynb), [worklog of the day](http://kelu124.github.io/echomods/2017-10-28-News-from-ther-modules-and-pulser.md)
+ * __2017-10-27__: [worklog of the day](http://kelu124.github.io/echomods/2017-10-27-Back-to-FPGAs-this-time.md)
  * __2017-10-24__: [20171024-RLC.ipynb](https://github.com/kelu124/echomods/tree/master/include/RLC/20171024-RLC.ipynb)
- * __2017-10-23__: [20171023-Notes.png](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20171023-Notes.png), [20171023-Notes.md](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20171023-Notes.md)
+ * __2017-10-23__: [20171023-Notes.png](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20171023-Notes.png), [20171023-Notes.md](https://github.com/kelu124/echomods/tree/master/include/community/Marc/20171023-Notes.md), [worklog of the day](http://kelu124.github.io/echomods/2017-10-23-Back-to-work-again.md)
  * __2017-10-21__: [worklog of the day](http://kelu124.github.io/echomods/2017-10-21-Holidays-soon-off.md)
  * __2017-10-10__: [link from www.elektroda.pl](https://www.elektroda.pl/rtvforum/topic3382649.html)
  * __2017-10-09__: [20171009_170604.jpg](https://github.com/kelu124/echomods/tree/master/elmo/images/qs/20171009_170604.jpg), [20171009_171305.jpg](https://github.com/kelu124/echomods/tree/master/elmo/images/qs/20171009_171305.jpg), [20171009_170219.jpg](https://github.com/kelu124/echomods/tree/master/elmo/images/qs/20171009_170219.jpg)

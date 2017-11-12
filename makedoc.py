@@ -94,6 +94,8 @@ for k in ImgList:
 ListOfExperiment = list(set(ListOfExperiment))
 ListOfExperiment.sort()
 
+print ListOfExperiment
+
 AllExpeList,ExpeJSON = MakeExperiments(ListOfExperiment,ListIfImages)
 GrosJaSON["experiments"] = ExpeJSON
 
@@ -146,7 +148,7 @@ OpenWrite(GenFiles,"include/FilesList/GeneratedFiles.md")
 
 NbMDManuels = len(MDFiles[1])
 
-
+## For experiences... MDFiles[4],MDFiles[5] are filescontent, fileslist @todo 201710 
 
 MdLog = ""
 
@@ -181,13 +183,11 @@ print ListOfDirs
 
 
 # -------------------------
-#
+# Doing the templates files
 # -------------------------
 
 TPLLog = ""
 ListeOfTPL = GetTPLFiles("./")
-
-
 
 for i in range(len(ListeOfTPL)):
 	TPLLog += "* ["+ListeOfTPL[i].split("/")[-1]+"]("+ListeOfTPL[i][1:]+"): "+ListeOfTPL[i] 
@@ -206,8 +206,6 @@ for i in range(len(ListeOfTPL)):
 	log += RPI[1]
 
 OpenWrite(TPLLog,"include/FilesList/TPLFiles.md")
-
-
 
 
 # -------------------------
@@ -230,17 +228,16 @@ log = log+PythonFiles[0]
 for i in range(len(PythonFiles[1])):
 	PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i] 
 	CheckRef = CreateRefFiles(NbMDManuels,ListeOfPython[i][1:],MDFiles[4],MDFiles[5])
-
-
-	GrosJaSON["python"][ ListeOfPython[i][1:] ]["references"] = CheckRef[2]	
-
+	GrosJaSON["python"][ ListeOfPython[i][1:] ]["references"] = CheckRef[2]	# checks if any file refer to the python
 	PythonLog += CheckRef[0]
 	log = log+CheckRef[1]
 	PythonLog +="\n"
 OpenWrite(PythonLog,"include/FilesList/PythonFiles.md")
 
-ListeOfJupy = GetJupyFiles("./") 
 
+## Jupyter files
+
+ListeOfJupy = GetJupyFiles("./") 
 JupyLog = ""
 for i in range(len(ListeOfJupy)):
 	JupyLog += "* ["+ListeOfJupy[i].split("/")[-1]+"]("+ListeOfJupy[i][1:]+")"
@@ -467,7 +464,7 @@ for ReadMe in ListOfRetiredDirs:
 TableRetiredDocTxt = "\n\n"+TableRetiredModules+"\n\n"
 
 # -------------------------
-# Créer le tableau d'avancement
+# Créer le tableau d'avancement & TODOs
 # -------------------------
 
 TableAvancement = "# Progress on building the modules \n\n\n"

@@ -68,34 +68,56 @@
 
 ## Petite
 
+Using motherboard
+
 * In (buffered)
-  * 1: trigger
+  * 1: trigger (buffered)
   * 11: ADC + clock
-  * 2: external logic
 
 * Out
-  * 1: LED status
+  * 2: LED status -- IOExpander
+  * 1: Pon (buffered)
+  * 1: Poff (buffered)
+  * 1: GPIO21 (buffered)
+  * 2: external logic (buffered)
+  * 2: buttons  -- IOExpander
 
 * Both (buffered)
-  * 2: I2C  
+  * 2: I2C  (buffered)
 
-* Programming:
-  * SPI
+* 3: Programming (SPI selected through Jumper)
+  * 3: SPI
+  * Slave select via external jumper
+
+Total IOs: 28
 
 ## Grande
 
-* In:
-  * 1 - Logic MUX HV
-  * 1 - Logic Piezo emulateur
+* 20: In (MUXes controlled by Jumper)
+  * 2: Logic MUX HV (0, 25, 50, 75) -- IOExpander (jumpers)
+  * 11: ADC (data + clock)
+  * 2: MUX Gain (GND, pot, ext, DAC)  -- IOExpander (jumpers)
+  * 1: Logic Piezo emulateur MUX -- IOExpander (jumpers)
+  * 2: Buttons  -- IOExpander
+  * 1: External Input(s) (trackers / uart)
 
-* Out:
-  * Pon (for pulser)
-  * Poff (for pulser)
-  * DAC (for gain)
+* 13: Out:
+  * 1: Pon (for pulser)
+  * 1: Poff (for pulser)
+  * 2: Status LEDs (or as needed) -- IOExpander
+  * 9: DAC (for gain) (8bit +1 clock ?)
 
-* Both:
-  * RAM connection
+* 13: Both:
+  * 11: RAM connection (for parallel ram)
+  * 2: I2c
 
+* 3: Programming (SPI selected through Jumper)
+  * 3: SPI
+  * Slave select via external jumper
+
+Total IOs: 
+* 39 IOs -> Maybe lower with a SPI-DAC for Gain ?
+* 9 IOs
 
 # Code
 

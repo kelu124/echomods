@@ -2273,7 +2273,8 @@ Another topic, got 1 month left before 25/10 (2 full years!), let's update the _
    * Get updated goblins
    * Put them on tindie with ADC pHATs
 * __atl.tobo.cheap__
-   * Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md)
+   * Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md) -- possible D2 issue
+   * Start macrofab bis.tbo after feedback on D2
 * __ADC board__
    * Trying a 50Msps board.
    * Design start on Nov 1st
@@ -2286,6 +2287,106 @@ Another topic, got 1 month left before 25/10 (2 full years!), let's update the _
    * Order by Nov 20th
    * Receive board by December
    * Test by Jan
+
+#### 2017-11-02 Nice application
+
+* http://electronics360.globalspec.com/article/10074/watch-smartwatches-could-sense-hand-movement-with-ultrasound-imaging
+* https://news.ycombinator.com/item?id=15588711
+
+* https://techxplore.com/news/2017-10-microchip-d-ultrasound-machines-imaging.html
+
+
+* http://www.musclesound.com/
+* http://ieeexplore.ieee.org/document/8008307/?reload=true
+
+#### 2017-11-04 Checking shopping
+
+* Interesting exchanges on slack about glycogen measurements in muscles.
+
+* Ebay: 
+  * [Kretz Ultrasound Transducer](/include/kretz/)  https://www.ebay.com/itm/Kretz-Ultrasound-Transducer-Ultrasound-Probe-with-Warranty/232535663954?hash=item362434a552:g:ypwAAOSwgmJXyGus -- __KRETZ AW145B__ -- _NB on 5th: got it!_
+  * [ALT ADR](/include/atladr/) on https://www.ebay.com/itm/Atl-adr-Ultrasound-Probe/253208770177?hash=item3af46b3681:g:798AAOSw7U5Y-QV3
+  * https://www.ebay.com/itm/ATL-ADR-5-5-MHz-7-mm-Ultrasound-Transducer-Probe-for-UM-4-7081/291683083141?hash=item43e9aaa385:g:9R4AAOSw1S9Wf4J4
+https://www.ebay.com/itm/Used-ATL-ADR-Ultrasound-Probe-5-5MZh-7mm/253208621125?hash=item3af468f045:g:NcUAAOSwHHFY-QbI
+  * or others
+     * https://www.ebay.com/itm/ATL-ADR-7-5-MHz-15-mm-Annular-Array-Ultrasound-Probe-Transducer-7078/291683083737?hash=item43e9aaa5d9:g:5BkAAOSw~otWf3fR
+
+* __UniBoard__ : No external ram is fast enough with ICE40. Capitalizing on UP5K 1Mb RAM.
+  * 48MHz: couple of lines, full speed
+  * 128 lines for 130us, 8 bit at 24MHz, 6MHz BP out of 24MHz sampling
+
+* eBay search
+    ultrasound probe -beauty -fetal -facial -gel -parking -sheathes -covers -dermabrasion -massager
+
+#### 2017-11-09 a bit of thoughts on fpga
+
+* UP5K does not have icestorm compatibility
+* HX8K is BGA
+* Remains is HX4K ... and needs additional RAM.
+* Nice project: https://shop.trenz-electronic.de/en/TE0876-01-IceZero-with-Lattice-ICE40HX
+  * https://folknologylabs.wordpress.com/page/2/
+  * https://folknologylabs.wordpress.com/2016/08/03/storm-in-a-pint-pot/
+  * This SRAM can be upgraded to 512K x 16
+* RPi FPGA/ https://shop.trenz-electronic.de/en/TE0726-03-07S-1C-ZynqBerry-Raspberry-Pi-Form-Faktor-with-Xilinx-Z-7007S-Single-core-512-MB-DDR3L?c=350
+* @todo: solder rest of Pulser
+* test the two probes I got
+
+#### 2017-11-11 fpga need to move now
+
+__FPGA__
+
+* Open-source: ICE40 & RPi 
+* Perfs: SRAM + HX4K at least: IceZero ? Take the design, throw in 8Mb instead of 4Mb
+* Mount it on a Analog Board w/ ADC
+* Expose: 
+  * i2c: min. a OLED screen space kept on board
+  * Gain Output
+  * Logic (bidirectionally buffered): Trig, Pon, Poff, 2 top tours, 2 extra IOs
+  * mini USB for power on
+  * 5V and GND pads
+* ADC: 10 bit, 65Msps
+  * 10 bits measures (or pseudo-12 with decimation ? by x3)
+  * 6 bits remaining by acq: 2 top tour, Pon, Poff, 2 IOs
+* Interact
+  * 2 buttons
+     * Manual Trig
+     * Select mode
+  * 4 LEDs
+     * Single mode
+     * Loop mode
+     * Acq (ready: on, data in: flashing)
+* Modes:
+  * _Single capture_
+     * 200us long captures at 65Msps : 208kbits
+     * Capacity of close to 35+ captures if needed in RAM
+  * _Loop_
+     * 130us acq at 20 Msps over 16 bits: 42kbits
+     * That's 190 lines over a 8192000 bit SRAM 
+* Transfer back to RPi through SPI
+* Variables (to be stored as a header of the file sent back)
+  * Pon length
+  * Poff length
+  * Tdelay length
+  * Tacq
+  * RT -- repetition
+  * N acq
+  * Implicit: 
+    * ADC bits used
+    * Mode
+* Silkscreening:
+  * Keeping a clear markup of the different functions
+ 
+
+
+
+
+
+
+ebay
+* is Kretz VSW3-5  linear ?
+* same for SW4/5B ?
+
+* S-VDW5-8B  for parts ? endoprobe
 
 =======
 
