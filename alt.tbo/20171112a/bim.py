@@ -110,7 +110,7 @@ def CreateUsPack(RawData):
 
 	plt.figure(figsize=(15,20))
 	plt.imshow(np.sqrt(tableDataH))
-	plt.savefig('Raw signal '+RawData.split("/")[-1]+'.jpg', bbox_inches='tight')
+	plt.savefig('Raw_signal_'+RawData.split("/")[-1]+'.jpg', bbox_inches='tight')
 	plt.show()
 
 	np.savez(RawData.split("/")[-1].split(".")[0]+".npz", np.int16(rawSig), np.int8(np.sqrt(tableDataH*3.0)) )

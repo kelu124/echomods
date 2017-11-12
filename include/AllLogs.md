@@ -2,7 +2,10 @@
 
 
  * __2017-11-12__: [20171112-alt.tbo-w-retro2.ipynb](https://github.com/kelu124/echomods/tree/master/alt.tbo/20171112a/20171112-alt.tbo-w-retro2.ipynb), [20171112a.md](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20171112a.md), [20171112a.md.tpl](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20171112a.md.tpl), [20171112a.md](https://kelu124.gitbooks.io/echomods71112a.html)
- * __2017-11-11__: [20171111-pulses.ipynb](https://github.com/kelu124/echomods/tree/master/alt.tbo/20171111a/20171111-pulses.ipynb)
+ * __2017-11-11__: [20171111-pulses.ipynb](https://github.com/kelu124/echomods/tree/master/alt.tbo/20171111a/20171111-pulses.ipynb), [worklog of the day](http://kelu124.github.io/echomods/2017-11-11-fpga-need-to-move-now.md)
+ * __2017-11-09__: [worklog of the day](http://kelu124.github.io/echomods/2017-11-09-a-bit-of-thoughts-on-fpga.md)
+ * __2017-11-04__: [worklog of the day](http://kelu124.github.io/echomods/2017-11-04-Checking-shopping.md)
+ * __2017-11-02__: [worklog of the day](http://kelu124.github.io/echomods/2017-11-02-Nice-application.md)
  * __2017-10-29__: [worklog of the day](http://kelu124.github.io/echomods/2017-10-29-What-next-now.md)
  * __2017-10-28__: [20171028-pulses.ipynb](https://github.com/kelu124/echomods/tree/master/alt.tbo/20171028a/20171028-pulses.ipynb), [worklog of the day](http://kelu124.github.io/echomods/2017-10-28-News-from-ther-modules-and-pulser.md)
  * __2017-10-27__: [worklog of the day](http://kelu124.github.io/echomods/2017-10-27-Back-to-FPGAs-this-time.md)

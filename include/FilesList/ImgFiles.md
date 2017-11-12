@@ -414,87 +414,87 @@
   * ./alt.tbo/20171028a/Pulses_5_200_5_200.jpg
 * __/alt.tbo/20171111a/Pulses_average_50Vb.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_average_50Vb.jpg
 * __/alt.tbo/20171111a/Pulses_details_focus_25V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_details_focus_25V.jpg
 * __/alt.tbo/20171111a/Pulses_details_75V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_details_75V.jpg
 * __/alt.tbo/20171111a/Pulses_25V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_25V.jpg
 * __/alt.tbo/20171111a/Pulses_average_25V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_average_25V.jpg
 * __/alt.tbo/20171111a/Pulses_details_focus_75V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_details_focus_75V.jpg
 * __/alt.tbo/20171111a/Pulses_details_25V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_details_25V.jpg
 * __/alt.tbo/20171111a/Pulses_average_75V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_average_75V.jpg
 * __/alt.tbo/20171111a/Pulses_details_50V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_details_50V.jpg
 * __/alt.tbo/20171111a/Pulses_75V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_75V.jpg
 * __/alt.tbo/20171111a/Pulses_50V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_50V.jpg
 * __/alt.tbo/20171111a/Pulses_average_50V.jpg__:
   * kelu124
-  * alt.tbo
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * picture
-  * ToTag
-  * ToTag
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
   * ./alt.tbo/20171111a/Pulses_average_50V.jpg
 * __/alt.tbo/images/md1210_ref.jpg__:
   * kelu124

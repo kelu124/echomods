@@ -5,6 +5,7 @@
   * [20170930a](/include/experiments/auto/20170930a.md)
   * [20171001a](/include/experiments/auto/20171001a.md)
   * [20171001b](/include/experiments/auto/20171001b.md)
+  * [20171111a](/include/experiments/auto/20171111a.md)
   * [20171112a](/include/experiments/auto/20171112a.md)
 
 
