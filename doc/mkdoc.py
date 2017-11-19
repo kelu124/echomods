@@ -420,10 +420,12 @@ def CreateImgTags(ImgSrc):
 	try:
     		metadata['Exif.Image.DocumentName']
 	except KeyError:
-
 		edited = 1
     		metadata['Exif.Image.DocumentName'] = ImgSrc
 
+	if not ( metadata['Exif.Image.DocumentName'].value == ImgSrc):
+		edited = 1
+    		metadata['Exif.Image.DocumentName'] = ImgSrc
 
 	# Description
 	try:

@@ -2439,6 +2439,7 @@ Another topic, got 1 month left before 25/10 (2 full years!), let's update the _
 https://www.ebay.com/itm/Used-ATL-ADR-Ultrasound-Probe-5-5MZh-7mm/253208621125?hash=item3af468f045:g:NcUAAOSwHHFY-QbI
   * or others
      * https://www.ebay.com/itm/ATL-ADR-7-5-MHz-15-mm-Annular-Array-Ultrasound-Probe-Transducer-7078/291683083737?hash=item43e9aaa5d9:g:5BkAAOSw~otWf3fR
+  * Kretz 7.5MHzcal Transducer [wnw7.5av] Secteur combison
 
 * __UniBoard__ : No external ram is fast enough with ICE40. Capitalizing on UP5K 1Mb RAM.
   * 48MHz: couple of lines, full speed
@@ -2466,13 +2467,9 @@ __FPGA__
 
 * Open-source: ICE40 & RPi 
 * Perfs: SRAM + HX4K at least: IceZero ? Take the design, throw in 8Mb instead of 4Mb
-* Mount it on a Analog Board w/ ADC
-* Expose: 
-  * i2c: min. a OLED screen space kept on board
-  * Gain Output
-  * Logic (bidirectionally buffered): Trig, Pon, Poff, 2 top tours, 2 extra IOs
-  * mini USB for power on
-  * 5V and GND pads
+  * IceZero board design can be reused
+* Silkscreening:
+  * Keeping a clear markup of the different functions
 * ADC: 10 bit, 65Msps
   * 10 bits measures (or pseudo-12 with decimation ? by x3)
   * 6 bits remaining by acq: 2 top tour, Pon, Poff, 2 IOs
@@ -2489,33 +2486,49 @@ __FPGA__
      * 200us long captures at 65Msps : 208kbits
      * Capacity of close to 35+ captures if needed in RAM
   * _Loop_
-     * 130us acq at 20 Msps over 16 bits: 42kbits
-     * That's 190 lines over a 8192000 bit SRAM 
+     * 130us acq at 24 Msps over 16 bits: 57.6 kbits
+     * That's more than 130 lines over a 8000000 bit SRAM 
 * Transfer back to RPi through SPI
 * Variables (to be stored as a header of the file sent back)
   * Pon length
   * Poff length
   * Tdelay length
   * Tacq
-  * RT -- repetition
-  * N acq
+  * RT -- repetition time
+  * N acq -- number of acquisition
   * Implicit: 
     * ADC bits used
-    * Mode
-* Silkscreening:
-  * Keeping a clear markup of the different functions
- 
-
-
-
-
-
+    * Mode (loop or single)
+* Expose: 
+  * i2c: min. a OLED screen space kept on board
+  * Gain Output
+  * Logic (bidirectionally buffered): Trig, Pon, Poff, 2 top tours, 2 extra IOs
+  * mini USB for power on
+  * 5V and GND pads
 
 ebay
 * is Kretz VSW3-5  linear ?
 * same for SW4/5B ?
 
 * S-VDW5-8B  for parts ? endoprobe
+
+#### 2017-11-12 fpga go
+
+* Call for clarification
+* Open toolchain is Verilog / VHDL / Lattice tools
+* 130 lines of 150us at 24Msps on 16 bits is 7488000 bits
+
+* Worked on two experiments: [pulser tests](/alt.tobo/20171111a/Readme.md) and [testing new probe](/alt.tobo/20171112a/Readme.md), [and again, once the probe is refilled](/alt.tobo/20171112b/Readme.md)
+* @todo 20171111a and 20171112b Readmes
+
+#### 2017-11-18 more veille on fpga
+
+* [Ultrasound Imaging System for Educational Purposes](https://muse.union.edu/2017capstone-barhousy/files/2017/03/presentation-barhoush-2ng41lx.pdf) --- excellent idea
+* [Time Gain Control (Compensation) in Ultrasound Applications](http://www.ti.com/lit/an/slaa724/slaa724.pdf)
+* [Design and Construction of an ultrasound transmit pulser system for non-destructive testing](http://iopscience.iop.org/article/10.1088/1742-6596/792/1/012055/pdf)
+* R&D at http://www.tonsonlabs.com/technologies/
+
+* [Implementation of a Wearable Ultrasound Device for the Overnight Monitoring of Tongue Base Deformation during Obstructive Sleep Apnea Events](http://sci-hub.cc/10.1016/j.ultrasmedbio.2017.04.004)
 
 =======
 

@@ -63,6 +63,44 @@ def GetV1(Volts):
 
 ###
 
+def CreateUsEnvPack(RawData):
+
+	print RawData
+	f = open(RawData, "r")
+	a = np.fromfile(f, dtype=np.uint32)
+	t = a[-1]
+	V = a[:-1].copy()
+	T = [ (( x * t ) / ( 1000.0*len(V) )) for x in 2*range(len(V))]
+	Fech = 1000.0*len(V)/t # in MHz
+
+	M = GetV2(V)[0]
+	M2 = GetV1(V)[0]
+	Ma = M - np.average(M[5000:7000])
+	Mb = M2 - np.average(M2[5000:7000])
+
+	rawSig = []
+	for k in range(len(Ma)):
+	    rawSig.append(Mb[k])
+	    rawSig.append(Ma[k])
+
+
+	plt.figure(figsize=(15,5))
+
+	Interest = rawSig
+
+	tableDataH = np.asarray(Interest).reshape((1000,2*2500))
+
+	plt.figure(figsize=(15,20))
+	plt.imshow(np.sqrt(tableDataH))
+	plt.savefig('Raw_enveloppe_signal_'+RawData.split("/")[-1]+'.jpg', bbox_inches='tight')
+	plt.show()
+
+	np.savez(RawData.split("/")[-1].split(".")[0]+".npz", np.int16(rawSig), np.int16(tableDataH) )
+
+	return rawSig, np.sqrt(tableDataH*3.0)
+
+## Doing the raw signal
+
 
 def CreateUsPack(RawData):
 
@@ -93,7 +131,7 @@ def CreateUsPack(RawData):
 	L = len(MyFFT)
 	fP = L/6
 	for i in range(L/2):
-	    if abs(i - fP) > L/16:
+	    if abs(i - fP) > L/10:
 		MyFFT[i] = 0
 		MyFFT[-i] = 0
 

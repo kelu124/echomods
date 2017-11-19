@@ -29,6 +29,7 @@
 * ./include/experiments/auto/20171001b.md
 * ./include/experiments/auto/Img_20161217a.md
 * ./include/experiments/auto/Mod_20171001b.md
+* ./include/experiments/auto/20171111a.md
 * ./include/experiments/auto/20170930a.md
 * ./include/experiments/auto/Mod_20160814a.md
 * ./include/experiments/auto/20171112a.md
@@ -134,6 +135,7 @@
 * ./gitbook/Chapter6/articles.md
 * ./gitbook/Chapter6/fda.md
 * ./gitbook/exp/20171001b.md
+* ./gitbook/exp/20171111a.md
 * ./gitbook/exp/20170930a.md
 * ./gitbook/exp/20171112a.md
 * ./gitbook/exp/20170715a.md
