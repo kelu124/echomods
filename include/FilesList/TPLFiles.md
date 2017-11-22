@@ -14,6 +14,8 @@
 
 * [20171111a.md.tpl](/include/experiments/auto/20171111a.md.tpl): ./include/experiments/auto/20171111a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
+* [CASIO COMPUTER CO.,LTD..md.tpl](/include/experiments/auto/CASIO COMPUTER CO.,LTD..md.tpl): ./include/experiments/auto/CASIO COMPUTER CO.,LTD..md.tpl. _File not used._
+
 * [20170611a.md.tpl](/include/experiments/auto/20170611a.md.tpl): ./include/experiments/auto/20170611a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20171001b.md.tpl](/include/experiments/auto/20171001b.md.tpl): ./include/experiments/auto/20171001b.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).

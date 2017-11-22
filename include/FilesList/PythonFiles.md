@@ -14,9 +14,9 @@
 
 * [img.py](/alt.tbo/20171112a/img.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [bim.py](/alt.tbo/20171112b/bim.py): . _File not used._
+* [bim.py](/alt.tbo/20171112b/bim.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [img.py](/alt.tbo/20171112b/img.py): . _File not used._
+* [img.py](/alt.tbo/20171112b/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [img.py](/alt.tbo/20171111a/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 

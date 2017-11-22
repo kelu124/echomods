@@ -1,6 +1,6 @@
 ## Manually written files
 
-* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/include/AddPitch.md`](/include/AddPitch.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -12,25 +12,25 @@
 
 * [./tobo/QuickStart.md](/tobo/QuickStart.md):  . File used in: [`/tobo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.html).
 
-* [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./elmo/QuickStart.md](/elmo/QuickStart.md):  . _File not used._
+* [./elmo/QuickStart.md](/elmo/QuickStart.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/tobo/QuickStart.md`](/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/tobo/QuickStart.md`](/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./elmo/data/arduiphantom/Readme.md](/elmo/data/arduiphantom/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./elmo/data/arduiphantom/Readme.md](/elmo/data/arduiphantom/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./alt.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./alt.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./alt.tbo/20171112a/Readme.md](/alt.tbo/20171112a/Readme.md):  . _File not used._
+* [./alt.tbo/20171112a/Readme.md](/alt.tbo/20171112a/Readme.md):  . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./alt.tbo/20171112b/Readme.md](/alt.tbo/20171112b/Readme.md):  . _File not used._
 
-* [./alt.tbo/test/Readme.md](/alt.tbo/test/Readme.md):  . _File not used._
+* [./alt.tbo/test/Readme.md](/alt.tbo/test/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./alt.tbo/20171001a/Readme.md](/alt.tbo/20171001a/Readme.md):  . _File not used._
 
-* [./alt.tbo/20171028a/Readme.md](/alt.tbo/20171028a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./alt.tbo/20171028a/Readme.md](/alt.tbo/20171028a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./alt.tbo/20171111a/Readme.md](/alt.tbo/20171111a/Readme.md):  . _File not used._
 
@@ -102,9 +102,9 @@
 
 * [./retired/oneeye/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.md): Standalone pulser control unit - readme . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/toadkiller/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme . File used in: [`/Readme.md`](/Readme.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md).
+* [./retired/toadkiller/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme . File used in: [`/Readme.md`](/Readme.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./retired/toadkiller/data/test_enveloppe/Readme.md](/retired/toadkiller/data/test_enveloppe/Readme.md):  . _File not used._
+* [./retired/toadkiller/data/test_enveloppe/Readme.md](/retired/toadkiller/data/test_enveloppe/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./retired/retro10PV/Readme.md](/retired/retro10PV/Readme.md):  . File used in: [`/Readme.md`](/Readme.md).
 
@@ -192,7 +192,7 @@
 
 * [./include/Finance.md](/include/Finance.md): The project accounting book . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
+* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
 * [./include/AddCNPCBA.md](/include/AddCNPCBA.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -251,6 +251,10 @@
 * [./include/s3/counter/Readme.md](/include/s3/counter/Readme.md):  . _File not used._
 
 * [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+
+* [./include/ebay/kretz/probes/notes.md](/include/ebay/kretz/probes/notes.md):  . _File not used._
+
+* [./include/ebay/kretz/steppers/notes.md](/include/ebay/kretz/steppers/notes.md):  . _File not used._
 
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov . _File not used._
 
@@ -364,31 +368,32 @@
 
 ## Jupyter files
 
-* [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170713-TwoADCs.ipynb](/elmo/data/20170713-TwoADCs.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb). File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170711-TwoADCs.ipynb](/elmo/data/20170711-TwoADCs.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170709-Repeats.ipynb](/elmo/data/arduiprobe/20170709-Repeats.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170718-Servo.ipynb](/elmo/data/arduiphantom/20170718-Servo.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduiphantom/Readme.md`](/elmo/data/arduiphantom/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20171112-alt.tbo-w-retro2.ipynb](/alt.tbo/20171112a/20171112-alt.tbo-w-retro2.ipynb). File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20171112-refilledATL.ipynb](/alt.tbo/20171112b/20171112-refilledATL.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170930-AltPulser.ipynb](/alt.tbo/test/20170930-AltPulser.ipynb). File used in: [`/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html), [`/alt.tbo/test/Readme.md`](/alt.tbo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20171001-new.ipynb](/alt.tbo/20171001a/20171001-new.ipynb). File used in: [`/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20171028-pulses.ipynb](/alt.tbo/20171028a/20171028-pulses.ipynb). File used in: [`/alt.tbo/20171028a/Readme.md`](/alt.tbo/20171028a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20171111-pulses.ipynb](/alt.tbo/20171111a/20171111-pulses.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). File used in: [`/retired/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md).
-* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20171024-RLC.ipynb](/include/RLC/20171024-RLC.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [MappingCommunity.ipynb](/include/community/MappingCommunity.ipynb). _File not used._
-* [20170831-TestImages.ipynb](/include/images/20170831-TestImages.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170702-TestATLDuinoTerface.ipynb](/retroATL3/data/20170702-TestATLDuinoTerface.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170713-TwoADCs.ipynb](/elmo/data/20170713-TwoADCs.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb). File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170711-TwoADCs.ipynb](/elmo/data/20170711-TwoADCs.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170709-Repeats.ipynb](/elmo/data/arduiprobe/20170709-Repeats.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170718-Servo.ipynb](/elmo/data/arduiphantom/20170718-Servo.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduiphantom/Readme.md`](/elmo/data/arduiphantom/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20171112-alt.tbo-w-retro2.ipynb](/alt.tbo/20171112a/20171112-alt.tbo-w-retro2.ipynb). File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [TestBP.ipynb](/alt.tbo/20171112b/TestBP.ipynb). _File not used._
+* [20171112-refilledATL.ipynb](/alt.tbo/20171112b/20171112-refilledATL.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170930-AltPulser.ipynb](/alt.tbo/test/20170930-AltPulser.ipynb). File used in: [`/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html), [`/alt.tbo/test/Readme.md`](/alt.tbo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20171001-new.ipynb](/alt.tbo/20171001a/20171001-new.ipynb). File used in: [`/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20171028-pulses.ipynb](/alt.tbo/20171028a/20171028-pulses.ipynb). File used in: [`/alt.tbo/20171028a/Readme.md`](/alt.tbo/20171028a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20171111-pulses.ipynb](/alt.tbo/20171111a/20171111-pulses.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). File used in: [`/retired/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20171024-RLC.ipynb](/include/RLC/20171024-RLC.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [MappingCommunity.ipynb](/include/community/MappingCommunity.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170831-TestImages.ipynb](/include/images/20170831-TestImages.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170702-TestATLDuinoTerface.ipynb](/retroATL3/data/20170702-TestATLDuinoTerface.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 ## Python files
 
@@ -408,9 +413,9 @@
 
 * [img.py](/alt.tbo/20171112a/img.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [bim.py](/alt.tbo/20171112b/bim.py): . _File not used._
+* [bim.py](/alt.tbo/20171112b/bim.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [img.py](/alt.tbo/20171112b/img.py): . _File not used._
+* [img.py](/alt.tbo/20171112b/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [img.py](/alt.tbo/20171111a/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -470,6 +475,7 @@
 
 
 
+
 ## Presentation files
 
 * [ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocumentationProcess.html)
@@ -478,7 +484,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 145 Auto generated files
+## 150 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -501,6 +507,7 @@
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md
 * ./include/experiments/Desc_20171112a.md
+* ./include/experiments/Desc_CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/Desc_20171111a.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/auto/Img_20171001b.md
@@ -518,16 +525,19 @@
 * ./include/experiments/auto/Img_20170611a.md
 * ./include/experiments/auto/20170715a.md
 * ./include/experiments/auto/Mod_20161217a.md
+* ./include/experiments/auto/CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/auto/Mod_20171111a.md
 * ./include/experiments/auto/Mod_20171001a.md
 * ./include/experiments/auto/Mod_20170611a.md
 * ./include/experiments/auto/Mod_20170715a.md
 * ./include/experiments/auto/Img_20170715a.md
+* ./include/experiments/auto/Mod_CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/auto/20171001a.md
 * ./include/experiments/auto/Img_20171001a.md
 * ./include/experiments/auto/20160814a.md
 * ./include/experiments/auto/Img_20160814a.md
 * ./include/experiments/auto/20170611a.md
+* ./include/experiments/auto/Img_CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/auto/20161217a.md
 * ./include/experiments/auto/Img_20171112a.md
 * ./include/sets/wifi-dev-kit.cost.md
@@ -621,6 +631,7 @@
 * ./gitbook/exp/20170930a.md
 * ./gitbook/exp/20171112a.md
 * ./gitbook/exp/20170715a.md
+* ./gitbook/exp/CASIO COMPUTER CO.,LTD..md
 * ./gitbook/exp/20171001a.md
 * ./gitbook/exp/20160814a.md
 * ./gitbook/exp/20170611a.md

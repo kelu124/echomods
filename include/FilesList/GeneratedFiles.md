@@ -19,6 +19,7 @@
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md
 * ./include/experiments/Desc_20171112a.md
+* ./include/experiments/Desc_CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/Desc_20171111a.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/auto/Img_20171001b.md
@@ -36,16 +37,19 @@
 * ./include/experiments/auto/Img_20170611a.md
 * ./include/experiments/auto/20170715a.md
 * ./include/experiments/auto/Mod_20161217a.md
+* ./include/experiments/auto/CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/auto/Mod_20171111a.md
 * ./include/experiments/auto/Mod_20171001a.md
 * ./include/experiments/auto/Mod_20170611a.md
 * ./include/experiments/auto/Mod_20170715a.md
 * ./include/experiments/auto/Img_20170715a.md
+* ./include/experiments/auto/Mod_CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/auto/20171001a.md
 * ./include/experiments/auto/Img_20171001a.md
 * ./include/experiments/auto/20160814a.md
 * ./include/experiments/auto/Img_20160814a.md
 * ./include/experiments/auto/20170611a.md
+* ./include/experiments/auto/Img_CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/auto/20161217a.md
 * ./include/experiments/auto/Img_20171112a.md
 * ./include/sets/wifi-dev-kit.cost.md
@@ -139,6 +143,7 @@
 * ./gitbook/exp/20170930a.md
 * ./gitbook/exp/20171112a.md
 * ./gitbook/exp/20170715a.md
+* ./gitbook/exp/CASIO COMPUTER CO.,LTD..md
 * ./gitbook/exp/20171001a.md
 * ./gitbook/exp/20160814a.md
 * ./gitbook/exp/20170611a.md

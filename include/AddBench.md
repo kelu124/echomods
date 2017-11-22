@@ -6,17 +6,22 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 
 ### HV
 
+* MCP1661 __up to 32V__ ([31]) - mic3172
+* LT3958 ([21]) -> 5V to 48V. Other include:
+  * LT357 http://www.linear.com/product/LT3571
+  * LT3482 is a fixed frequency current mode step-up DC/DC
+* MAX5025 ([11]) - interesting setup -- https://www.maximintegrated.com/en/images/appnotes/1751/1751Fig01.gif
 * __R05-100B__ ([2]) ([0]) : efficient but expensive. Going to shift to something else for tobo.alt, maybe this one..
 * NMT0572SC ([19]) up to 72V --- 24, 48 and 72V V - 14€ -- seems OK
 * Interessant for tobo.alt.bis - 2.60€ ! __HV9110NG__ AN-H59DB1 is a high voltage DC/DC converter for HV748 ;)  Based on HV9110NG ([30]) et AN-H59 too
 * MAX1771
 * TPS61170 ([10]) Boost convertor
-* MAX5025 ([11]) - interesting setup
-* LT3958 ([21]) -> 5V to 48V
 * 1470-1353-5-ND  https://www.digikey.com/product-detail/en/xp-power/IA0524S/1470-1353-5-ND/4487734 à +-24
 * LTC3813: http://cds.linear.com/docs/en/datasheet/3813fb.pdf 100V Current Mode Synchronous Step-Up Controller
 * LT3032 -- +-20V output [datasheet eval board](http://www.st.com/content/ccc/resource/technical/document/data_brief/cc/f0/24/f8/8b/2b/42/53/DM00218354.pdf/files/DM00218354.pdf/jcr:content/translations/en.DM00218354.pdf)
-* mcp1661 up to 32V ([31]) - mic3172
+* AN-H59DB1 is a high voltage DC/DC converter
+
+ 
 
 ### Pulsers
 
@@ -26,10 +31,8 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 * MD1213  + TC6320 ([1])
 * MD1210 + TC2320 ([8])
 * __HV7360__ ([0]) and/or HV7361  ([27])  ([Application note](http://ww1.microchip.com/downloads/en/DeviceDoc/20005570A.pdf))
-* LM96550 ([10])
-* TC6320 ([21]) bipolar pulse
-* LM96550 Ultrasound Transmit Pulser, Output pulses +-50V
-* TC6320 ([25])  ([26])
+* LM96550 ([10]) -- ultrasound Transmit Pulser, Output pulses +-50V
+* TC6320 ([25])  ([26]) ([21]) bipolar pulse
 * STHV748 Quad ± 90 V, ± 2 A, 3/5 levels, high speed ultrasound pulser [Datasheet](http://www.st.com/content/ccc/resource/technical/document/datasheet/a9/7f/a3/46/99/65/42/02/CD00226856.pdf/files/CD00226856.pdf/jcr:content/translations/en.CD00226856.pdf) 22$.. ([22]) ([23]) and octal with STHV800 
 * HV732DB1 High Speed ±100V 2A - interesting pulser ( http://www.mouser.com/catalog/specsheets/HV732DB1.pdf ) 
 
@@ -47,7 +50,7 @@ The different Integrated Circuits (ICs) used in these papers are listed here. In
 * MAX4968
 
 ### TGC
-AN-H59DB1 is a high voltage DC/DC converter
+
 * AD8332 ([8])
 * __AD8331__ ([0]) ([18]) ([19])   ([25])  ([26])
 * SMA231 ([21]) as LNAs

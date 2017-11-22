@@ -425,6 +425,7 @@ def CreateImgTags(ImgSrc):
 
 	if not ( metadata['Exif.Image.DocumentName'].value == ImgSrc):
 		edited = 1
+		#print metadata['Exif.Image.DocumentName'], ImgSrc
     		metadata['Exif.Image.DocumentName'] = ImgSrc
 
 	# Description
