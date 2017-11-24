@@ -25,6 +25,13 @@ __Fm = 3.6 MHz__
 
 ![](/cletus/IMN/o_LC.png)
 
+T = 400ns ( f = 2.5MHz )
+
+### with piezo, with impedance matching
+
+![](/cletus/IMN/o_w_IMN.png)
+
+T = 650ns ( f = 1.5MHz)
 
 ### with piezo, with impedance matching
 
@@ -34,9 +41,6 @@ __Fm = 3.6 MHz__
 
 ![](/cletus/IMN/o_no_IMN.png)
 
-### with piezo, with impedance matching
-
-![](/cletus/IMN/o_w_IMN.png)
 
 ### with piezo, with impedance matching -- different time scale
 
