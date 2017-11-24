@@ -1,6 +1,7 @@
 # History 
 
 
+ * __2017-11-24__: [20171124_222636.jpg](https://github.com/kelu124/echomods/tree/master/cletus/IMN/20171124_222636.jpg)
  * __2017-11-20__: [worklog of the day](http://kelu124.github.io/echomods/2017-11-20-Some-electronics-pulser-and-IMN.md)
  * __2017-11-19__: [20171119_171805.jpg](https://github.com/kelu124/echomods/tree/master/include/ebay/kretz/probes/AW14/head/20171119_171805.jpg), [20171119_171739.jpg](https://github.com/kelu124/echomods/tree/master/include/ebay/kretz/probes/AW14/head/20171119_171739.jpg), [20171119_171803.jpg](https://github.com/kelu124/echomods/tree/master/include/ebay/kretz/probes/AW14/head/20171119_171803.jpg), [20171119_172605.jpg](https://github.com/kelu124/echomods/tree/master/include/ebay/kretz/probes/AW14/head/20171119_172605.jpg), [20171119_171756.jpg](https://github.com/kelu124/echomods/tree/master/include/ebay/kretz/probes/AW14/head/20171119_171756.jpg), [20171119_171757.jpg](https://github.com/kelu124/echomods/tree/master/include/ebay/kretz/probes/AW14/head/20171119_171757.jpg)
  * __2017-11-18__: [worklog of the day](http://kelu124.github.io/echomods/2017-11-18-more-veille-on-fpga.md)

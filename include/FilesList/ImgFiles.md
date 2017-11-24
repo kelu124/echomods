@@ -846,6 +846,20 @@
   * ToTag
   * ToTag
   * ./alt.tbo/images/md1210_ref_2.jpg
+* __/cletus/IMN/20171124_222636.jpg__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * picture
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./cletus/IMN/20171124_222636.jpg
+* __/cletus/IMN/imn.jpg__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./cletus/IMN/imn.jpg
 * __/cletus/images/Arduino_Servo_Filters.jpg__:
   * kelu124
   * cletus
@@ -2150,45 +2164,45 @@
   * ./cletus/viewme.png
 * __/cletus/IMN/o_w_IMN-time2.png__:
   * kelu124
-  * cletus
+  * oneeye, croaker, tobo, doj, goblin, cletus
   * ToTag
-  * ToTag
-  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
   * ./cletus/IMN/o_w_IMN-time2.png
 * __/cletus/IMN/o_empty.png__:
   * kelu124
-  * cletus
+  * oneeye, croaker, tobo, doj, goblin, cletus
   * ToTag
-  * ToTag
-  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
   * ./cletus/IMN/o_empty.png
 * __/cletus/IMN/o_LC.png__:
   * kelu124
-  * cletus
+  * oneeye, croaker, tobo, doj, goblin, cletus
   * ToTag
-  * ToTag
-  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
   * ./cletus/IMN/o_LC.png
 * __/cletus/IMN/o_w_IMN.png__:
   * kelu124
-  * cletus
+  * oneeye, croaker, tobo, doj, goblin, cletus
   * ToTag
-  * ToTag
-  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
   * ./cletus/IMN/o_w_IMN.png
 * __/cletus/IMN/o_LC-loaded.png__:
   * kelu124
-  * cletus
+  * oneeye, croaker, tobo, doj, goblin, cletus
   * ToTag
-  * ToTag
-  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
   * ./cletus/IMN/o_LC-loaded.png
 * __/cletus/IMN/o_no_IMN.png__:
   * kelu124
-  * cletus
+  * oneeye, croaker, tobo, doj, goblin, cletus
   * ToTag
-  * ToTag
-  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
   * ./cletus/IMN/o_no_IMN.png
 * __/cletus/suppliers/americanpiezo/structure.png__:
   * kelu124

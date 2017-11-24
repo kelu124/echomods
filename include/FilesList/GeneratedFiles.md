@@ -22,11 +22,13 @@
 * ./include/experiments/Desc_CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/Desc_20171111a.md
 * ./include/experiments/Desc_20170715a.md
+* ./include/experiments/Desc_20171124a.md
 * ./include/experiments/auto/Img_20171001b.md
 * ./include/experiments/auto/Img_20170930a.md
 * ./include/experiments/auto/Mod_20171112a.md
 * ./include/experiments/auto/Img_20171111a.md
 * ./include/experiments/auto/Mod_20170930a.md
+* ./include/experiments/auto/Mod_20171124a.md
 * ./include/experiments/auto/20171001b.md
 * ./include/experiments/auto/Img_20161217a.md
 * ./include/experiments/auto/Mod_20171001b.md
@@ -40,6 +42,7 @@
 * ./include/experiments/auto/CASIO COMPUTER CO.,LTD..md
 * ./include/experiments/auto/Mod_20171111a.md
 * ./include/experiments/auto/Mod_20171001a.md
+* ./include/experiments/auto/Img_20171124a.md
 * ./include/experiments/auto/Mod_20170611a.md
 * ./include/experiments/auto/Mod_20170715a.md
 * ./include/experiments/auto/Img_20170715a.md

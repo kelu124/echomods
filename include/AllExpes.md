@@ -7,6 +7,7 @@
   * [20171001b](/include/experiments/auto/20171001b.md)
   * [20171111a](/include/experiments/auto/20171111a.md)
   * [20171112a](/include/experiments/auto/20171112a.md)
+  * [20171124a](/include/experiments/auto/20171124a.md)
   * [CASIO COMPUTER CO.,LTD.](/include/experiments/auto/CASIO COMPUTER CO.,LTD..md)
 
 
