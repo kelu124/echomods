@@ -19,5 +19,3 @@ title: 2017-11-20 Some electronics pulser and IMN
 -   Random:
     http://www.robertgaskins.com/powerpoint-history/sweating-bullets/gaskins-sweating-bullets-webpdf-isbn-9780985142414.pdf
 
-=======
-
