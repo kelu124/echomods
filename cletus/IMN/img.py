@@ -4,6 +4,8 @@ import sys
 import pyexiv2
 import os
 
+# For experiment `20171124a`
+
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'

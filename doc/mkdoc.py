@@ -198,7 +198,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		ExpeJSON[Expe] = {}
 
 		# Checks MD, ino, py, c, jupyter
-		ListOfChecks = ["C", "arduino", "python","md"]
+		ListOfChecks = ["md","jupyter","C", "arduino", "python"]
 		SourceCode = "# Experiment `"+Expe+"`\n\n## List of files"
 		for keyKey in ListOfChecks:
 			Files = []
