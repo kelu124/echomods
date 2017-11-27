@@ -1,4 +1,4 @@
-## Experiment `20171124a`
+## Experiment `20171124a` [](@description Electrical impedance matching)
 
 Doing some tests for impedance matching, see this [article](/include/impedance/1-s2.0-S1875389210001331-main.pdf).
 

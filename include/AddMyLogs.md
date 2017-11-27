@@ -2415,6 +2415,21 @@ ebay
   * 445-9145-1-ND for 150pF at 200V
 * Random: http://www.robertgaskins.com/powerpoint-history/sweating-bullets/gaskins-sweating-bullets-webpdf-isbn-9780985142414.pdf
 
+#### 2017-11-24 IMN at home
+
+* Doing some [electrical impedance matching here](/cletus/IMN/Readme.md)
+* Cloud9 on a RPi:
+  * https://habilisbest.com/installing-cloud-9-on-your-raspberry-pi
+  * https://www.siaris.net/post/cloud9/
+* @todo list other initiatives
+  * https://www.matthewzwaan.com/project/ultrasound
+  * https://www.eetindia.co.in/news/article/shrinking-ultrasound-device-parts-to-single-chip
+  * Newcastle
+
+http://imprint-india.org/a-low-cost-portable-super-resolution-ultrasound-scanner
+http://ieeexplore.ieee.org/document/7950710/
+
+
 =======
 
 

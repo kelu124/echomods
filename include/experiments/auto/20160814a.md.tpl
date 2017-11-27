@@ -1,4 +1,4 @@
-@kelu include(/include/experiments/Desc_20160814a.md)
+@kelu include(/include/experiments/auto/Code_20160814a.md)
 
 @kelu include(/include/experiments/auto/Mod_20160814a.md)
 

@@ -96,8 +96,7 @@ ListOfExperiment.sort()
 
 print ListOfExperiment
 
-AllExpeList,ExpeJSON = MakeExperiments(ListOfExperiment,ListIfImages)
-GrosJaSON["experiments"] = ExpeJSON
+
 
 
 
@@ -209,7 +208,7 @@ OpenWrite(TPLLog,"include/FilesList/TPLFiles.md")
 
 
 # -------------------------
-# Source code listing
+# Source code listing -- python
 # -------------------------
 
 PythonLog = ""
@@ -234,11 +233,42 @@ for i in range(len(PythonFiles[1])):
 	PythonLog +="\n"
 OpenWrite(PythonLog,"include/FilesList/PythonFiles.md")
 
+# -------------------------
+# Source code listing
+# -------------------------
+
+CLog = ""
+ListeOfC = GetCFiles("./")
+CFiles = CheckCFile(ListeOfC)
+GrosJaSON["C"] = {}
+
+for pythonfile in ListeOfC:
+	path = pythonfile[1:]
+	GrosJaSON["C"][path] = {} 
+	GrosJaSON["C"][path]["path"] = path 
+
+log = log+CFiles[0]
+
+for i in range(len(CFiles[1])):
+	CLog += "* ["+ListeOfC[i].split("/")[-1]+"]("+ListeOfC[i][1:]+"): "+CFiles[1][i] 
+	CheckRef = CreateRefFiles(NbMDManuels,ListeOfC[i][1:],MDFiles[4],MDFiles[5])
+	GrosJaSON["C"][ ListeOfC[i][1:] ]["references"] = CheckRef[2]	# checks if any file refer to the python
+	CLog += CheckRef[0]
+	log = log+CheckRef[1]
+	CLog +="\n"
+OpenWrite(CLog,"include/FilesList/CFiles.md")
 
 ## Jupyter files
 
 ListeOfJupy = GetJupyFiles("./") 
 JupyLog = ""
+GrosJaSON["jupyter"] = {}
+
+for jupyfile in ListeOfJupy:
+	path = jupyfile[1:]
+	GrosJaSON["jupyter"][path] = {} 
+	GrosJaSON["jupyter"][path]["path"] = path 
+
 for i in range(len(ListeOfJupy)):
 	JupyLog += "* ["+ListeOfJupy[i].split("/")[-1]+"]("+ListeOfJupy[i][1:]+")"
 	CheckRef = CreateRefFiles(NbMDManuels,ListeOfJupy[i][1:],MDFiles[4],MDFiles[5])
@@ -249,6 +279,13 @@ OpenWrite(JupyLog,"include/FilesList/JupyFiles.md")
 
 InoLog = ""
 ListeOfArduino = GetInoFiles("./")
+GrosJaSON["arduino"] = {}
+
+for inofile in ListeOfArduino:
+	path = inofile[1:]
+	GrosJaSON["arduino"][path] = {} 
+	GrosJaSON["arduino"][path]["path"] = path 
+
 InoFi = CheckInoFile(ListeOfArduino)
 log = log+InoFi[0]
 for i in range(len(InoFi[1])):
@@ -272,6 +309,13 @@ AllFilesLog = AddRawHURL(AllFilesLog)
 
 OpenWrite(AllFilesLog,"include/FilesList/AllFiles.md")
 
+# -------------------------
+# Creating Experiments
+# -------------------------
+
+
+AllExpeList,ExpeJSON = MakeExperiments(ListOfExperiment,ListIfImages,GrosJaSON)
+GrosJaSON["experiments"] = ExpeJSON
 
 # -------------------------
 # Retired modules List

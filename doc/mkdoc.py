@@ -62,7 +62,7 @@ ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.
 ToBeReplaced = ["/include/NDT.md"]
 Replaced = ["/Chapter1/ndt.md"]
 
-ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz"]
+ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz","hannin"]
 ExcludeDirsRetired = ExcludeDirs+["retired"]
 
 
@@ -191,11 +191,33 @@ def getCode(string):
 	return ListOfCodes
 
 
-def MakeExperiments(ExpList,ListIfImage):
+def MakeExperiments(ExpList,ListIfImage,FatJSON):
 	ExpeJSON = {}
 	ExpeSummary = ""
 	for Expe in ExpList:
 		ExpeJSON[Expe] = {}
+
+		# Checks MD, ino, py, c, jupyter
+		ListOfChecks = ["C", "arduino", "python","md"]
+		SourceCode = "# Experiment `"+Expe+"`\n\n## List of files"
+		for keyKey in ListOfChecks:
+			Files = []
+			for key in FatJSON[keyKey].keys():
+				tmpfile = open("."+key, "r") 
+				if "`"+Expe+"`" in tmpfile.read() :
+					Files.append(key)
+				elif (Expe in key) and ("include" not in key) and ("gitbook" not in key):
+					Files.append(key)
+			Files = list(set(Files))
+			if len(Files):
+				SourceCode += "\n\n### "+keyKey+"\n\n"
+				for fil in Files:
+					SourceCode += "* ["+fil.split("/")[-1]+"]("+fil+")\n"
+
+		fnameD = "./include/experiments/auto/Code_"+Expe+".md"
+		OpenWrite(SourceCode,fnameD)
+
+
 		fnameD = "./include/experiments/Desc_"+Expe+".md"
 		if not (os.path.isfile(fnameD)):
 			OpenWrite("# Experiment "+Expe+" description\n\n",fnameD)
@@ -243,7 +265,7 @@ def MakeExperiments(ExpList,ListIfImage):
 			Modz = mod.split(",")
 			for module in Modz:
 				ModZ.append(module.strip())
-		ModF = list(set(ModZ))
+		ModF = list(set(ModZ)) # Modules
 		if "ToTag" in ModF:
 			Modz.remove("ToTag")
 		ExpeJSON[Expe]["modules"] = []
@@ -262,6 +284,7 @@ def MakeExperiments(ExpList,ListIfImage):
 
 		fname = "./include/experiments/auto/"+Expe+".md.tpl"
 		PM = "@kelu include(/include/experiments/Desc_"+Expe+".md)\n\n"
+		PM = "@kelu include(/include/experiments/auto/Code_"+Expe+".md)\n\n"
 		PM += "@kelu include(/include/experiments/auto/Mod_"+Expe+".md)\n\n"
 		PM += "@kelu include(/include/experiments/auto/Img_"+Expe+".md)\n\n"
 
@@ -833,6 +856,12 @@ def GetInoFiles(path):
 	InoFiles = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 	return InoFiles
 
+def GetCFiles(path):
+	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.c'))]
+	ExcludeDirs = ["tools",".git","gh-pages"] 
+	InoFiles = [x for x in results if x.split("/")[1] not in ExcludeDirsRetired]
+	return InoFiles
+
 def GetPptFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], 'ppt_*.md'))]
 	ExcludeDirs = ["tools",".git","gh-pages"] 
@@ -882,6 +911,49 @@ def CheckPythonFile(files):
 		    if (ErrorConditions[3]):
 			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing License")
 	return log,PythonDesc,JSONPython
+
+def CheckCFile(files):
+	## See http://stackoverflow.com/questions/1523427/what-is-the-common-header-format-of-C-files for an idea 
+	log = []
+	CDesc = []
+	JSONC = {}
+	for CFile in files:
+		JSONC[CFile] = {}
+		JSONC[CFile]["path"] = CFile
+		with open(CFile) as f:
+		    lN = 0
+		    moduleDesc = ""
+		    # Description, author, copyright, license
+		    ErrorConditions = [True, True, True, True]
+		    for line in f:
+			if (lN == 0) and ("#!/usr/bin/env C" not in line):
+				log.append("__[C]__ "+RedMark+" `"+CFile+"` : Header error ")
+			if ("__author__") in line:
+				ErrorConditions[1]=False
+				JSONC[CFile]["author"] = line
+			if ("__copyright__") in line:
+				ErrorConditions[2]=False
+			if ("__license__") in line:
+				ErrorConditions[3]=False
+			if ("'''Description") in line:
+				ErrorConditions[0]=False
+				moduleDesc = line.replace("'''", "").replace("Description:", "").strip()
+ 				JSONC[CFile]["description"] = moduleDesc
+
+			line = line.rstrip('\r\n').rstrip('\n')
+			lN+=1
+		    if (ErrorConditions[0]):
+			log.append("__[C]__ "+RedMark+" `"+CFile+"` : Missing description")
+			CDesc.append("")
+		    else:
+			CDesc.append(moduleDesc)
+		    if (ErrorConditions[1]):
+			log.append("__[C]__ "+RedMark+" `"+CFile+"` : Missing Author ")
+		    if (ErrorConditions[2]):
+			log.append("__[C]__ "+RedMark+" `"+CFile+"` : Missing Copyright ")
+		    if (ErrorConditions[3]):
+			log.append("__[C]__ "+RedMark+" `"+CFile+"` : Missing License")
+	return log,CDesc,JSONC
 
 def CheckInoFile(files):
 	log = []

@@ -44,6 +44,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * : solder rest of Pulser
 * 20171111a and 20171112b Readmes
 * impedance matching -- [see more](/include/impedance/ipm.pdf) -- Butterworth-Van-Dyke or [here](https://electronics.stackexchange.com/questions/245915/picking-source-resistance-for-impedance-matching). [Tuning Filter](https://i.stack.imgur.com/96XMb.png).
+* list other initiatives
 
 
 
