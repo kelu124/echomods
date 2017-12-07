@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: max5025.PcbDoc   05.12.2017  11:22:25
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : max5025.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        20mil (0.508mm)          Round          2                0.19 Inch (4.85 mm)
+T2        28mil (0.7112mm)         Round          3                0.50 Inch (12.67 mm)
+T3        38mil (0.9652mm)         Round          6                0.50 Inch (12.70 mm)
+T4        47mil (1.1938mm)         Round          2                0.28 Inch (7.10 mm)
+T5        55mil (1.397mm)          Round          4                0.59 Inch (15.00 mm)
+T6        122mil (3.0988mm)        Round          4         NPTH   3.66 Inch (93.00 mm)
+---------------------------------------------------------------------------
+Totals                                            21               5.72 Inch (145.32 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

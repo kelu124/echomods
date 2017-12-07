@@ -1,0 +1,9 @@
+Added Component: Designator=K?(2x3 pin 2.54mm)
+Added Pin To Net: NetName=NetC1_1 Pin=K?-1
+Added Pin To Net: NetName=GND Pin=K?-2
+Added Pin To Net: NetName=NetC2_1 Pin=K?-3
+Added Pin To Net: NetName=GND Pin=K?-4
+Added Pin To Net: NetName=NetC4_2 Pin=K?-5
+Added Pin To Net: NetName=GND Pin=K?-6
+Added Member To Class: ClassName=max5025 Member=Component K? 2x3_PLS_2.54mm
+Added Room: Name=max5025
