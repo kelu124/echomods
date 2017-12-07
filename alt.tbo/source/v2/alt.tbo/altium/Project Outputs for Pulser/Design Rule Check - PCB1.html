@@ -1,0 +1,652 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : sans-serif;
+			color : white;
+			background-color : #21489e;
+			padding: 0.3em;
+		}
+		body {
+			font-family : verdana;
+		}
+		td, th {
+			padding: 0.5em;
+			text-align : center;
+			width : 18%;
+		}
+		th {
+			background-color : #A6CAF0;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+		}
+		
+		.DRC_summary_header {							
+			padding-bottom : 0.1em;
+			border : 0px solid black;							
+			width: 100%;
+                        align: right;
+                        
+		}
+
+		.DRC_summary_header_col1, 
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3
+		{
+			color : black;
+			font-size:150%;
+                        padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2: 0em;
+			border : 0px solid black;
+			width : auto;
+			vertical-align: top;
+			font-weight: bold;				
+		}
+		
+		.DRC_summary_header_col1 	
+		{		                       
+			text-align: right;
+                        width: auto;	
+		}
+
+		.DRC_summary_header_col2 	
+		{		
+			text-align: center;	
+		}
+
+		.DRC_summary_header_col3 	
+		{		
+			text-align: left;	
+		}
+
+
+		
+		.header_holder
+		{
+		Width = 100%;
+		border = 0px solid green;
+		padding = 0;
+		}
+		
+		
+		
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+			left:0;
+			top:0;
+			padding-top : 0.1em;			
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top
+
+		}
+		.front_matter {	
+			
+			margin-top: 5px;
+ 			margin-left: 0px;					 			
+ 			horizontal-align: left;
+		}
+				
+		
+		.front_matter_column1 {
+			width : 10em;	
+			text-align  : right;
+			padding-right:0.1em;
+			
+		}
+		
+		.front_matter_column2 {
+                        width: 0.1em;
+			align: center;
+			text-align : center;
+			margin-right  : 0.1em;	
+			margin-left   : 0.1em;
+		}
+		.front_matter_column3 {
+			width         : auto;  
+			text-align    : left;	
+			margin-right  : 0.5em;				
+		}
+		
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : right;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #EEEEE0 
+		}
+		tr.onmouseout_even { 
+			background-color : #F3F3E3   
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : lightYellow
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #008000 
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://H:\AltiumLibs\Templates\AD-rgb_logo_223x64.gif
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td Style="width:70%">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">02.12.2017</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">9:53:52</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3"><a href="file:///C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc" class="file"><acronym title="C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc">C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td Style="Width:30%">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3" style="color : red">75</td></tr>
+</table>
+</td>
+</table>
+<hr><a name="IDASAEIC"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAEBEIC">Room Sheet1 (Bounding Region = (156.5mm, 116.025mm, 182.9mm, 124.325mm) (Disabled)(InComponentClass('Sheet1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAKBEIC">Clearance Constraint (Gap=0.4mm) (InPolygon),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAQBEIC">Clearance Constraint (Gap=1mm) (Name Like '*-1111'),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAWBEIC">Clearance Constraint (Gap=0.55mm) (InPolygon),(IsPad)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDA2BEIC">Clearance Constraint (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAGDEIC">Width Constraint (Min=0.18mm) (Max=3.048mm) (Preferred=0.18mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAMDEIC">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDASDEIC">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">15</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDACQEIC">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAIQEIC">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAOQEIC">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAUQEIC">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDA0QEIC">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">56</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDA4QFIC">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">75</td>
+</tr>
+</table><br><hr><a name="IDA2BEIC"><table>
+<tr>
+<th style="text-align : left" colspan="2" class="rule">Clearance Constraint (Gap=0.25mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True">Track (28.345mm,30.92mm)(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True">Pad U4-5(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True">Track (20.67mm,23.87mm)(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True">Pad U2-5(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True">Track (20.67mm,23.87mm)(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4799.409mil|Location2.X=4850.197mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4799.409mil|Location2.X=4850.197mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True">Track (22.055mm,23.87mm)(23.045mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5096.653mil|Location2.X=5148.425mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5096.653mil|Location2.X=5148.425mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True">Track (29.605mm,30.92mm)(30.62mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True">Track (28.345mm,30.92mm)(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br><a name="IDASDEIC"><table>
+<tr>
+<th style="text-align : left" colspan="2" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.165mil|Location2.X=5057.953mil|Location1.Y=3967.441mil|Location2.Y=3978.228mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.165mil|Location2.X=5057.953mil|Location1.Y=3967.441mil|Location2.Y=3978.228mil|Absolute=True">Track (28.325mm,30.9mm)(28.345mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True">Track (28.345mm,30.92mm)(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True">Via (27.025mm,30.22mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True">Via (27.025mm,31.62mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True">Via (28.425mm,30.22mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True">Via (28.425mm,31.62mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True">Track (28.345mm,30.92mm)(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True">Pad U4-5(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True">Track (20.67mm,23.87mm)(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True">Via (20.875mm,24.57mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True">Via (20.875mm,23.17mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True">Via (19.475mm,24.57mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True">Via (19.475mm,23.17mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True">Track (20.67mm,23.87mm)(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True">Pad U2-5(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4744.882mil|Location2.X=4811.22mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True">Track (20.67mm,23.87mm)(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4799.409mil|Location2.X=4850.197mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4799.409mil|Location2.X=4850.197mil|Location1.Y=3689.764mil|Location2.Y=3701.575mil|Absolute=True">Track (22.055mm,23.87mm)(23.045mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5096.653mil|Location2.X=5148.425mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5096.653mil|Location2.X=5148.425mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True">Track (29.605mm,30.92mm)(30.62mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.047mil|Location2.X=5108.464mil|Location1.Y=3967.323mil|Location2.Y=3979.134mil|Absolute=True">Track (28.345mm,30.92mm)(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br><a name="IDA0QEIC"><table>
+<tr>
+<th style="text-align : left" colspan="2" class="rule">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-1(26.925mm,29.04mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-2(27.725mm,29.04mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-1(26.925mm,29.04mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True">Via (27.025mm,30.22mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-1(26.925mm,29.04mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-3(28.525mm,29.04mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-2(27.725mm,29.04mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-2(27.725mm,29.04mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-3(28.525mm,29.04mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True">Via (28.425mm,30.22mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=3873.559mil|Location2.Y=3924.866mil|Absolute=True">Pad U4-3(28.525mm,29.04mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-9(26.925mm,32.8mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-7(28.525mm,32.8mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True">Pad U4-11(25.845mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True">Pad U4-12(25.845mm,30.12mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True">Pad U4-4(29.605mm,30.12mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True">Pad U4-5(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-8(27.725mm,32.8mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True">Pad U4-10(25.845mm,31.72mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True">Pad U4-6(29.605mm,31.72mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4982.22mil|Location2.X=5074.866mil|Location1.Y=3926.905mil|Location2.Y=4019.551mil|Absolute=True">Pad U4-17(27.725mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True">Pad U4-5(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True">Pad U4-6(29.605mm,31.72mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True">Via (28.425mm,31.62mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True">Pad U4-6(29.605mm,31.72mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True">Pad U4-4(29.605mm,30.12mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True">Pad U4-5(29.605mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True">Via (28.425mm,30.22mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5076.905mil|Location2.X=5128.212mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True">Pad U4-4(29.605mm,30.12mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-8(27.725mm,32.8mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-9(26.925mm,32.8mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True">Via (27.025mm,31.62mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5009.905mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-9(26.925mm,32.8mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-7(28.525mm,32.8mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5015.685mil|Location2.X=5041.401mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-8(27.725mm,32.8mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5039.307mil|Location2.X=5072.898mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True">Via (28.425mm,31.62mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5047.181mil|Location2.X=5072.898mil|Location1.Y=4021.59mil|Location2.Y=4072.898mil|Absolute=True">Pad U4-7(28.525mm,32.8mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True">Pad U4-11(25.845mm,30.92mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True">Pad U4-12(25.845mm,30.12mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3928.874mil|Location2.Y=3962.465mil|Absolute=True">Via (27.025mm,30.22mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3928.874mil|Location2.Y=3954.59mil|Absolute=True">Pad U4-12(25.845mm,30.12mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True">Pad U4-10(25.845mm,31.72mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3960.37mil|Location2.Y=3986.086mil|Absolute=True">Pad U4-11(25.845mm,30.92mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4984.189mil|Location2.X=5017.779mil|Location1.Y=3983.992mil|Location2.Y=4017.583mil|Absolute=True">Via (27.025mm,31.62mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4928.874mil|Location2.X=4980.181mil|Location1.Y=3991.866mil|Location2.Y=4017.583mil|Absolute=True">Pad U4-10(25.845mm,31.72mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-1(19.375mm,21.99mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-2(20.175mm,21.99mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-1(19.375mm,21.99mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True">Via (19.475mm,23.17mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-1(19.375mm,21.99mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-3(20.975mm,21.99mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-2(20.175mm,21.99mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-2(20.175mm,21.99mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-3(20.975mm,21.99mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True">Via (20.875mm,23.17mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3596mil|Location2.Y=3647.307mil|Absolute=True">Pad U2-3(20.975mm,21.99mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-9(19.375mm,25.75mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-7(20.975mm,25.75mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True">Pad U2-12(18.295mm,23.07mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True">Pad U2-4(22.055mm,23.07mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True">Pad U2-10(18.295mm,24.67mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True">Pad U2-11(18.295mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True">Pad U2-5(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True">Pad U2-6(22.055mm,24.67mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-8(20.175mm,25.75mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.976mil|Location2.X=4777.622mil|Location1.Y=3649.347mil|Location2.Y=3741.992mil|Absolute=True">Pad U2-17(20.175mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True">Pad U2-5(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True">Pad U2-6(22.055mm,24.67mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True">Via (20.875mm,24.57mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True">Pad U2-6(22.055mm,24.67mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True">Pad U2-4(22.055mm,23.07mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True">Pad U2-5(22.055mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True">Via (20.875mm,23.17mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.661mil|Location2.X=4830.968mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True">Pad U2-4(22.055mm,23.07mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-8(20.175mm,25.75mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-9(19.375mm,25.75mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True">Via (19.475mm,24.57mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4712.661mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-9(19.375mm,25.75mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-7(20.975mm,25.75mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4718.441mil|Location2.X=4744.157mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-8(20.175mm,25.75mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4742.063mil|Location2.X=4775.654mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True">Via (20.875mm,24.57mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4749.937mil|Location2.X=4775.654mil|Location1.Y=3744.032mil|Location2.Y=3795.339mil|Absolute=True">Pad U2-7(20.975mm,25.75mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True">Pad U2-11(18.295mm,23.87mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True">Pad U2-12(18.295mm,23.07mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3651.315mil|Location2.Y=3684.906mil|Absolute=True">Via (19.475mm,23.17mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3651.315mil|Location2.Y=3677.032mil|Absolute=True">Pad U2-12(18.295mm,23.07mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True">Pad U2-10(18.295mm,24.67mm)  Top Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3682.811mil|Location2.Y=3708.528mil|Absolute=True">Pad U2-11(18.295mm,23.87mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4686.945mil|Location2.X=4720.535mil|Location1.Y=3706.433mil|Location2.Y=3740.024mil|Absolute=True">Via (19.475mm,24.57mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4631.63mil|Location2.X=4682.937mil|Location1.Y=3714.307mil|Location2.Y=3740.024mil|Absolute=True">Pad U2-10(18.295mm,24.67mm)  Top Layer</acronym></a></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br></body>
+</html>
