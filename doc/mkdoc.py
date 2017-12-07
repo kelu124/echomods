@@ -217,11 +217,12 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		fnameD = "./include/experiments/auto/Code_"+Expe+".md"
 		OpenWrite(SourceCode,fnameD)
 
-
+		# Description of the experiment
 		fnameD = "./include/experiments/Desc_"+Expe+".md"
 		if not (os.path.isfile(fnameD)):
 			OpenWrite("# Experiment "+Expe+" description\n\n",fnameD)
 
+		# Searching for images 
 		matches = [x for x in ListIfImage if Expe in x[3] ]
 		ExpeJSON[Expe]["images"] = []
 		setupimgs = [x for x in matches if "setup" in x[2] ]
@@ -239,7 +240,6 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		ExpImages = "# Images of the Experiment\n\n"
 		if (len(setupimgs)):
 			ExpImages += "## Setup\n\n"
-			
 			for img in setupimgs:
 				ExpImages += "![]("+img[5][1:]+")\n\n"+img[4]+"\n\n"
 		if (len(bscimgs)):
@@ -281,7 +281,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		fname = "./include/experiments/auto/Mod_"+Expe+".md"
 		OpenWrite(ModulesT,fname)
 
-
+		# Doing the template
 		fname = "./include/experiments/auto/"+Expe+".md.tpl"
 		PM = "@kelu include(/include/experiments/Desc_"+Expe+".md)\n\n"
 		PM = "@kelu include(/include/experiments/auto/Code_"+Expe+".md)\n\n"
@@ -290,6 +290,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 
 		ExpeSummary += "  * ["+Expe+"](/include/experiments/auto/"+Expe+".md)\n"
 		OpenWrite(PM,fname)
+
 	OpenWrite(ExpeSummary,"include/AllExpes.md")
 	return ModF,ExpeJSON
 

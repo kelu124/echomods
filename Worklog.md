@@ -2558,6 +2558,40 @@ ebay
 http://imprint-india.org/a-low-cost-portable-super-resolution-ultrasound-scanner
 http://ieeexplore.ieee.org/document/7950710/
 
+#### 2017-11-28 Matty-Senjak board
+
+* Two-year anniversary - FPGA yeay !* 
+
+![](/include/UniBoard/unimatty-2.png)
+
+* Done on experiments!
+
+#### 2017-12-01 New stuff
+
+* After realizing at BiVi that US-SPI is simple... try new HV sources?
+
+#### 2017-12-03 Ongoing up
+
+* Working on a modif on alt.tbo to produce alt.tbo2 (VL)
+* Create a HV module (VL) from MAX5025
+* @todo Having Gob on MF as well?
+  *  WB1-6TSL to replace transformer
+* Nice black boards btw -- love the style
+* Download Matty2 (DP) from UV
+  * Push on MF. Tested price: 260$ for all. 
+* Limits -- http://www.smbc-comics.com/comics/1510428871-20171111%20(1).png
+* https://hackaday.com/2017/11/28/hjwydk-the-journal-our-community-has-been-awaiting/
+
+#### 2017-12-05 News on MacroFab
+
+* Pushing [Elmo v2](/elmo/source/v2/) - with new silkscreen, [Max5025](/include/hv/max5025/), 
+
+#### 2017-12-07 Updates again
+
+* Onboard DDS for impedance calcul ? http://www.analog.com/en/products/rf-microwave/direct-digital-synthesis/ad9830.html#product-overview
+* MAX5025 and Alt.tbo v2 - on MF
+* Elmo v2 / Gob (alt) ongoing work (ODB and transfo issues respectively)
+
 
 =======
 
