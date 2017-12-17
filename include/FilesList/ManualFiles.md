@@ -36,7 +36,7 @@
 
 * [./cletus/Readme.md](/cletus/Readme.md): Piezo+Servo module . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./cletus/IMN/Readme.md](/cletus/IMN/Readme.md): Electrical impedance matching . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./cletus/IMN/Readme.md](/cletus/IMN/Readme.md): Electrical impedance matching . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20171124a.md`](/include/experiments/auto/20171124a.md).
 
 * [./cletus/suppliers/supplier-trs.md](/cletus/suppliers/supplier-trs.md): supplier source file . _File not used._
 
@@ -260,6 +260,8 @@
 
 * [./include/community/Zach/Readme.md](/include/community/Zach/Readme.md): Zach's worklog, simplified, on murgen . _File not used._
 
+* [./include/community/Harold/Readme.md](/include/community/Harold/Readme.md):  . _File not used._
+
 * [./include/community/Taylor/Readme.md](/include/community/Taylor/Readme.md):  . _File not used._
 
 * [./include/community/Marc/20171023-Notes.md](/include/community/Marc/20171023-Notes.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -281,6 +283,8 @@
 * [./include/community/Arne/Readme.md](/include/community/Arne/Readme.md):  . _File not used._
 
 * [./include/community/Jay/Readme.md](/include/community/Jay/Readme.md):  . _File not used._
+
+* [./include/community/DP/Readme.md](/include/community/DP/Readme.md):  . _File not used._
 
 * [./include/community/Hannah/Readme.md](/include/community/Hannah/Readme.md):  . _File not used._
 

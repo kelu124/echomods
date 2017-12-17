@@ -35,16 +35,12 @@ Here's a couple of things we're working on, for which you could help as well.
 * Main readme as TPL
 * DICOM rest of images
 * test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
-* a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
-* float pins between shots? -> work session on [bilevel.c](/alt.tbo/test/bilevel.c)
-* pass license to CC-BY-SA
 * add some new articles to the new article
 * _senjak_ 15:07 In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself -- https://github.com/ESultanik/PDFGitPolyglot/blob/master/make_polyglot.sh
-* _senjak_ CAP1188 for touch ?
-* : solder rest of Pulser
 * 20171111a and 20171112b Readmes
 * impedance matching -- [see more](/include/impedance/ipm.pdf) -- Butterworth-Van-Dyke or [here](https://electronics.stackexchange.com/questions/245915/picking-source-resistance-for-impedance-matching). [Tuning Filter](https://i.stack.imgur.com/96XMb.png).
 * list other initiatives
+* classifier articles with link Article: =)
 
 
 

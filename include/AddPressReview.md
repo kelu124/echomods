@@ -34,3 +34,4 @@
 * 2017-07-27: [Show HN: Hacking an ultrasound probe with a Raspberry Pi and low-cost hardware](https://news.ycombinator.com/item?id=14869138)
 * 2017-09-30: [Weekly Roundup #45 – New Maker Products](https://www.mickmake.com/archives/4062/3)
 * 2017-10-10: [Ultrasonograf zbudowany z wykorzystaniem Raspberry Pi ](https://www.elektroda.pl/rtvforum/topic3382649.html)
+* 2017-12-01: [Murgen – an opensource project for ultrasound imaging](http://www.meccanismocomplesso.org/en/murgen-opensource-project-for-ultrasound-imaging/)

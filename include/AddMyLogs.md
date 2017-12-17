@@ -150,9 +150,7 @@
 
 #### 2015-12-09
 
-* Following some [design thinking
-    classes](https://www.coursera.org/learn/design-thinking-innovation/home/welcome)
-    for the sake of soft design & fun
+* Following some [design thinking classes](https://www.coursera.org/learn/design-thinking-innovation/home/welcome) for the sake of soft design & fun
 
 #### 2015-12-11
 
@@ -374,17 +372,17 @@ Let's cut it to 500kHz ?
 #### 2016-01-23 On Oreilly
 
 *  Murgen on http://radar.oreilly.com/2016/01/four-short-links-22-january-2016.html
-*  [Prez done here to echopen](http://wiki.echopen.org/index.php/File:160115_-_murgen_prez.pdf)
+*  [Prez done here](http://wiki.echopen.org/index.php/File:160115_-_murgen_prez.pdf)
 *  Awesome boost on github and the wiki
 *  adding some to the documentation
- @TODO : need to get to read more the TAPR and the full license http://www.tapr.org/TAPR_Open_Hardware_License_v1.0.txt
- @TODO : add CONTRIB.TXT and CHANGES.TXT
-*  @TODO : failproof OSH
+ @done : need to get to read more the TAPR and the full license http://www.tapr.org/TAPR_Open_Hardware_License_v1.0.txt
+ @done : add CONTRIB.TXT and CHANGES.TXT
+*  @cld : failproof OSH
 
 #### 2016-01-24 Datasheets on Murgen
 
 *  added datasheets
-*  @TODO : think about a USB/BT/... output for the board
+*  @done : think about a USB/BT/... output for the board - see matty
 *  Output ? What format? USB - but I'd rather have wireless ?
  Wi-Fi Direct promises device-to-device transfer speeds of up to 250Mbps
 
@@ -1613,7 +1611,7 @@ Two awesome articles
 
 #### 2016-12-01 arXiv
 
-* Published! https://arxiv.org/find/all/1/all:+AND+ultrasound+arduino/0/1/0/all/0/1
+* Published! [Article: A low-cost, arduino-like dev-kit for single-element ultrasound imaging)[https://arxiv.org/find/all/1/all:+AND+ultrasound+arduino/0/1/0/all/0/1]
 
 #### 2016-12-06 Press review
 
@@ -2054,12 +2052,16 @@ TODOs:
 Got some [amazing responses to the post on HN](https://news.ycombinator.com/item?id=14869138), held the 1st pos for an hour +, got over 200 ups, that's quite enough =) I guess I'm coming close to an end on this project, and my target would be to try and have a presentable project before Year 2.  The five key milestones:
 
 1. __Outreach__: I have sold 10 kits so far, have ordered 5 sets more to a CN PCBA. Will sell those - and let people choose what they want when they'll want to play with those. I guess I'll have the community Milestone reached when someone provide a significant improvement / publishes thanks to this kit. _Status: 50%_. Bonus point if a unreached continent so far is involved.
+  * ENDOFYEAR: 15 kits sold, CN not good, MF ongoing (20171217)
 2. __Money__: thanks to the small margin on kits, and hackaday prizes, i'm quite [cash neutral](/include/Finance.md) as of today. Having the 5 kits sold would permit financing the acquisition of the unmantled CN probe. _Status: 100%_ Bonus:  trade the chinese probe on leboncoin / ebay.  _Status: 0%_
+  * ENDOFYEAR: still waiting (20171217)
 3. __Product__: I wanted to have a __ultrasound hat__ done. I now have this ADC pHAT done, which can be perfected, but it's quite a win, so a simple 80V monopolar ultrasound board (independant from the motor / multiplexer) could be reached by Nov. _Status: 0%_ Update: could be good to use the [probe head](/loftus/) to do a full portable probe =)
+  * ENDOFYEAR: Ongoing with Matty (20171217)
 4. __Documentation__: There are a couple of notes here, I'd love to see all of those gathered / processed / put into a braindump. Gitbook is good enough, but lack structure for raw knowledge dump. TODOS include:
   * Listing all docs under YYYYMMDD
-  * 
+  * ENDOFYEAR: Quite happy, having added experiments (20171217)
 5. __Future__ I'd be keen on having a 8 to 16 elements module prepared, just so to prepare the next gen and passing over of the project. Jan and Ivan to support. _Status: 0%_ Muxing using ATTINY85 ?
+  * ENDOFYEAR: Shifting to chaotic masks ;) (20171217)
 
 Nice to have:
  
@@ -2187,17 +2189,17 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 
 * Done the tests for the pulser  ( 20170930a ) 
 * Some additional works for the motor control
-* @todo a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
-* @todo float pins between shots? -> work session on [bilevel.c](/alt.tbo/test/bilevel.c)
-* @todo pass license to CC-BY-SA
+* @cld a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
+* @cld float pins between shots? -> work session on [bilevel.c](/alt.tbo/test/bilevel.c)
+* @cld pass license to CC-BY-SA
 
 * @todo add some new articles to the new article
   * Some interesting read .. again: 10.1109/ULTSYM.2013.0142 for bimorphs
-  * http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2446-47402015000300277 for brazilan students working on a dseign
-  * http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.132.5199&rep=rep1&type=pdf
+  * [Article: A flexible multichannel FPGA and PC-Based ultrasound system for medical imaging research: initial phantom experiments](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2446-47402015000300277) for brazilan students working on a design
+  * [Article: PC-BASED ULTRASOUND IMAGING SYSTEM IN A PROBE](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.132.5199&rep=rep1&type=pdf)
   * https://www.intechopen.com/books/ultrasound-imaging/hardware-software-partitioning-of-digital-signal-processing-in-ultrasound-medical-devices-a-case-stu
-  * http://ieeexplore.ieee.org/document/7982705/ for this awesome work on a probe
-  * iopscience.iop.org/article/10.7567/JJAP.56.07JF16/meta
+  * [Article: Development of a Low-Cost Medical Ultrasound Scanner Using a Monostatic Synthetic Aperture](http://ieeexplore.ieee.org/document/7982705/ for this awesome work on a probe)
+  * [Article: Effect of frequency characteristic of excitation pulse on lateral spatial resolution in coded ultrasound imaging](http://iopscience.iop.org/article/10.7567/JJAP.56.07JF16/meta)
 
 * Demo mode for clarius : https://www.clarius.me/quickstart/demo-mode/
 
@@ -2205,8 +2207,8 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 
 * UniBoard making progress :)
 * Some new articles:
-  * https://infoscience.epfl.ch/record/230991/files/ius2017_sda_preprint.pdf as " A Deep Learning Approach to Ultrasound Image Recovery" #CompressedSensing :)
-  * http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf : Ultrasound Image Quality Assessment -- A framework for evaluation of clinical image quality
+  * [Article: A Deep Learning Approach to Ultrasound Image Recovery](https://infoscience.epfl.ch/record/230991/files/ius2017_sda_preprint.pdf) #CompressedSensing :)
+  * [Article: Ultrasound Image Quality Assessment -- A framework for evaluation of clinical image quality](http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf)
   * NiftyNet: a deep-learning platform for medical imaging at https://arxiv.org/pdf/1709.03485.pdf
 
 #### 2017-10-21 Holidays soon off
@@ -2234,7 +2236,7 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 
 #### 2017-10-23 Back to work again 
 
-* @todo _senjak_ CAP1188 for touch ?
+* @canceled _senjak_ CAP1188 for touch ?
 * LightProbe: A 64-channel programmable ultrasound transducer head with an integrated front-end and a 26.4 Gb/s optical link 10.1109/ISCAS.2017.8050300
 * https://doi.org/10.1166/jmihi.2017.2220  FPGA Implementation of Speckle Noise Removal in Real Time Medical Images 
 
@@ -2304,8 +2306,8 @@ Another topic, got 1 month left before 25/10 (2 full years!), let's update the _
 * Interesting exchanges on slack about glycogen measurements in muscles.
 
 * Ebay: 
-  * [Kretz Ultrasound Transducer](/include/kretz/)  https://www.ebay.com/itm/Kretz-Ultrasound-Transducer-Ultrasound-Probe-with-Warranty/232535663954?hash=item362434a552:g:ypwAAOSwgmJXyGus -- __KRETZ AW145B__ -- _NB on 5th: got it!_
-  * [ALT ADR](/include/atladr/) on https://www.ebay.com/itm/Atl-adr-Ultrasound-Probe/253208770177?hash=item3af46b3681:g:798AAOSw7U5Y-QV3
+  * [Kretz Ultrasound Transducer](/include/ebay/kretz/)  https://www.ebay.com/itm/Kretz-Ultrasound-Transducer-Ultrasound-Probe-with-Warranty/232535663954?hash=item362434a552:g:ypwAAOSwgmJXyGus -- __KRETZ AW145B__ -- _NB on 5th: got it!_
+  * [ALT ADR](/include/ebay/atladr/) on https://www.ebay.com/itm/Atl-adr-Ultrasound-Probe/253208770177?hash=item3af46b3681:g:798AAOSw7U5Y-QV3
   * https://www.ebay.com/itm/ATL-ADR-5-5-MHz-7-mm-Ultrasound-Transducer-Probe-for-UM-4-7081/291683083141?hash=item43e9aaa385:g:9R4AAOSw1S9Wf4J4
 https://www.ebay.com/itm/Used-ATL-ADR-Ultrasound-Probe-5-5MZh-7mm/253208621125?hash=item3af468f045:g:NcUAAOSwHHFY-QbI
   * or others
@@ -2329,7 +2331,7 @@ https://www.ebay.com/itm/Used-ATL-ADR-Ultrasound-Probe-5-5MZh-7mm/253208621125?h
   * https://folknologylabs.wordpress.com/2016/08/03/storm-in-a-pint-pot/
   * This SRAM can be upgraded to 512K x 16
 * RPi FPGA/ https://shop.trenz-electronic.de/en/TE0726-03-07S-1C-ZynqBerry-Raspberry-Pi-Form-Faktor-with-Xilinx-Z-7007S-Single-core-512-MB-DDR3L?c=350
-* @todo: solder rest of Pulser
+* @done solder rest of Pulser
 * test the two probes I got
 
 #### 2017-11-11 fpga need to move now
@@ -2417,7 +2419,7 @@ ebay
 
 #### 2017-11-24 IMN at home
 
-* Doing some [electrical impedance matching here](/cletus/IMN/Readme.md)
+* Testing some [electrical impedance matching here](/cletus/IMN/Readme.md)
 * Cloud9 on a RPi:
   * https://habilisbest.com/installing-cloud-9-on-your-raspberry-pi
   * https://www.siaris.net/post/cloud9/
@@ -2426,8 +2428,92 @@ ebay
   * https://www.eetindia.co.in/news/article/shrinking-ultrasound-device-parts-to-single-chip
   * Newcastle
 
-http://imprint-india.org/a-low-cost-portable-super-resolution-ultrasound-scanner
-http://ieeexplore.ieee.org/document/7950710/
+* http://imprint-india.org/a-low-cost-portable-super-resolution-ultrasound-scanner
+* http://ieeexplore.ieee.org/document/7950710/
+
+#### 2017-11-28 Matty-Senjak board
+
+* Two-year anniversary - FPGA yeay !* 
+
+![](/include/UniBoard/unimatty-2.png)
+
+* Done on experiments!
+
+#### 2017-12-01 New stuff
+
+* After realizing at BiVi that US-SPI is simple... try new HV sources?
+
+#### 2017-12-03 Ongoing up
+
+* Working on a modif on alt.tbo to produce alt.tbo2 (VL)
+* Create a HV module (VL) from MAX5025
+* @done Having Gob on MF as well?
+  *  WB1-6TSL to replace transformer
+* Nice black boards btw -- love the style
+* Download Matty2 (DP) from UV
+  * Push on MF. Tested price: 260$ for all. 
+* Limits -- http://www.smbc-comics.com/comics/1510428871-20171111%20(1).png
+* https://hackaday.com/2017/11/28/hjwydk-the-journal-our-community-has-been-awaiting/
+
+#### 2017-12-05 News on MacroFab
+
+* Pushing [Elmo v2](/elmo/source/v2/) - with new silkscreen, [Max5025](/include/hv/max5025/), 
+
+#### 2017-12-07 Updates again
+
+* Onboard DDS for impedance calcul ? http://www.analog.com/en/products/rf-microwave/direct-digital-synthesis/ad9830.html#product-overview
+* MAX5025 and Alt.tbo v2 - on MF
+* @done Elmo v2 / Gob (alt) ongoing work (ODB and transfo issues respectively)
+
+
+#### 2017-12-09 Illusion in a logo
+
+* @done Alt.tbo2 up on MF
+* @done senjak Matty ordered
+* @done Gob, Elmov2 at Vlad
+* http://blogs.discovermagazine.com/neuroskeptic/2017/12/08/curvature-blindness-illusion/ -- some waves for a logo =)
+* https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/Making_a_Game_Boy_game_in_2017_A_quotSheep_It_Upquot_PostMortem_part_12.php genial !
+* https://www.crowdsupply.com/andy-haas/haasoscope
+
+* http://gnarlygrey.atspace.cc/development-platform.html#upduino for FPGA and arduinos =) qui tourne sur un ICE40UP5K/3K-SG48
+-- http://gnarlygrey.atspace.cc/downloads/UPDuino%20Programming%20with%20RPi%2020170626.pdf
+
+
+#### 2017-12-11 Is maturity here
+
+* [Are the good times over for compact ultrasound?](http://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119120)
+* @ushound https://groupgets.com/campaigns/346-audiomoth#details
+
+#### 2017-12-16 Chaotic good
+
+* http://physicsworld.com/cws/article/news/2017/dec/14/ultrasound-imaging-from-a-single-large-sensor by Kruizanga
+* [Article: Ultrasound Imaging From A Single Large Sensor](http://advances.sciencemag.org/content/3/12/e1701423) for the original article - or with a [local article](/include/articles/1708.09537.pdf)
+* MacroFab costs/prices model is reviewed
+* http://shyrobotics.com/2017/12/13/skywalker-prothese-de-main-controlee-ultrasons/ to be used with single large sensors for flat imaging!
+* [Article: 8051 microcontroller to FPGA and ADC interface design for high speed parallel processing systems – Application in ultrasound scanners](https://www.researchgate.net/publication/301933773_8051_microcontroller_to_FPGA_and_ADC_interface_design_for_high_speed_parallel_processing_systems_-_Application_in_ultrasound_scanners)
+* @todo classifier articles with link Article: =)
+
+* @ushound https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7766 for ADC, SPU0410LR5H for mems
+  * 4 LED (listening, saving, ... ?)
+  * 2 buttons (save)
+  * SPI : DAC and ADC: 2 LEDS for the CS 
+* @ushound: social activism around getting to know our ultrasound environment pollution
+* ADMP441 for I2S MEMS?
+* SPH0645LM4H-B est i2s
+* the AMP may be https://www.hackster.io/fvdbosch/raspberry-pi-zero-airplay-speaker-d99feb -- schematics are here https://github.com/adafruit/Adafruit-PAM8302-Mono-Amplifier-PCB and datasheet https://cdn-shop.adafruit.com/datasheets/PAM8302A.pdf
+* http://www.jinci.cn/en/showgoods/866.html
+
+* @senjak https://wiki.lspace.org/mediawiki/Latatian_Phrases ( Vilis Ad Bis Pretii // Si Non Confectus, Non Reficiat // Stercus, Stercus, Stercus, Morituri Sum ) 
+  * Nunc Ille Est Magicus  ? 
+  * Non Ante Septem Dies Proxima, Squiri 
+  * Vilis Ad Bis Pretii 
+
+#### 2017-12-17 Kipple
+
+* [The things we carry // kipple // OSH](http://www.hillarypredko.com/kipple/1-the-things-we-carry/)
+* @ushound started again
+* app-wise, @ushound -> mailed sergio
+* http://www.smbc-comics.com/comics/1513526046-20171217.png
 
 
 =======
