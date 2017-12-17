@@ -7,7 +7,7 @@ title: 2017-10-23 Back to work again
 ---
 
 
--   @todo *senjak* CAP1188 for touch ?
+-   @canceled *senjak* CAP1188 for touch ?
 -   LightProbe: A 64-channel programmable ultrasound transducer head
     with an integrated front-end and a 26.4 Gb/s optical link
     10.1109/ISCAS.2017.8050300

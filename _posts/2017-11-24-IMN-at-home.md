@@ -7,7 +7,7 @@ title: 2017-11-24 IMN at home
 ---
 
 
--   Doing some [electrical impedance matching
+-   Testing some [electrical impedance matching
     here](/cletus/IMN/Readme.md)
 -   Cloud9 on a RPi:
 -   https://habilisbest.com/installing-cloud-9-on-your-raspberry-pi
@@ -17,8 +17,7 @@ title: 2017-11-24 IMN at home
 -   https://www.eetindia.co.in/news/article/shrinking-ultrasound-device-parts-to-single-chip
 -   Newcastle
 
-http://imprint-india.org/a-low-cost-portable-super-resolution-ultrasound-scanner
-http://ieeexplore.ieee.org/document/7950710/
+-   http://imprint-india.org/a-low-cost-portable-super-resolution-ultrasound-scanner
 
-=======
+-   http://ieeexplore.ieee.org/document/7950710/
 

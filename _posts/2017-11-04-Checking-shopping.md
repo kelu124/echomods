@@ -12,10 +12,10 @@ title: 2017-11-04 Checking shopping
 
 -   Ebay:
 
--   [Kretz Ultrasound Transducer](/include/kretz/)
+-   [Kretz Ultrasound Transducer](/include/ebay/kretz/)
     https://www.ebay.com/itm/Kretz-Ultrasound-Transducer-Ultrasound-Probe-with-Warranty/232535663954?hash=item362434a552:g:ypwAAOSwgmJXyGus
     -- **KRETZ AW145B** -- *NB on 5th: got it!*
--   [ALT ADR](/include/atladr/) on
+-   [ALT ADR](/include/ebay/atladr/) on
     https://www.ebay.com/itm/Atl-adr-Ultrasound-Probe/253208770177?hash=item3af46b3681:g:798AAOSw7U5Y-QV3
 -   https://www.ebay.com/itm/ATL-ADR-5-5-MHz-7-mm-Ultrasound-Transducer-Probe-for-UM-4-7081/291683083141?hash=item43e9aaa385:g:9R4AAOSw1S9Wf4J4
     https://www.ebay.com/itm/Used-ATL-ADR-Ultrasound-Probe-5-5MZh-7mm/253208621125?hash=item3af468f045:g:NcUAAOSwHHFY-QbI

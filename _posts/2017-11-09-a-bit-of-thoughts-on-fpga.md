@@ -17,6 +17,6 @@ title: 2017-11-09 a bit of thoughts on fpga
 -   This SRAM can be upgraded to 512K x 16
 -   RPi FPGA/
     https://shop.trenz-electronic.de/en/TE0726-03-07S-1C-ZynqBerry-Raspberry-Pi-Form-Faktor-with-Xilinx-Z-7007S-Single-core-512-MB-DDR3L?c=350
--   @todo: solder rest of Pulser
+-   @done solder rest of Pulser
 -   test the two probes I got
 
