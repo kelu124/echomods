@@ -2644,6 +2644,12 @@ ebay
 * app-wise, @ushound -> mailed sergio
 * http://www.smbc-comics.com/comics/1513526046-20171217.png
 
+#### 2017-12-27 eink and such
+
+* eink + esp8266 - https://blog.squix.org/wp-content/uploads/2017/10/ESPaper-Setup-Guide.pdf
+* macrofab ongoing
+* https://gist.github.com/pklaus/5921022 #arduino going at 1 #msps over USB !
+
 
 =======
 
