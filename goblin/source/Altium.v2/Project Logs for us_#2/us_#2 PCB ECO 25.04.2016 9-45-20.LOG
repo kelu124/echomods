@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=V_ENVELOPE Pin=K1-5
+Removed Pin From Net: NetName=VDD_3.3V Pin=K2-19
+Change Component Designator: OldDesignator=JP2 NewDesignator=Jumper2
+Added Pin To Net: NetName=GAIN Pin=Jumper2-1
+Added Pin To Net: NetName=NetC16_2 Pin=Jumper2-2
+Added Pin To Net: NetName=NetJumper2_3 Pin=Jumper2-3
+Added Pin To Net: NetName=V_ENVELOPE Pin=K2-5

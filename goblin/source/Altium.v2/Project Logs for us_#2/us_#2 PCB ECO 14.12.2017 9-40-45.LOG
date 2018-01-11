@@ -1,0 +1,7 @@
+Added Component: Designator=TR1(Pulse_CX2041NL)
+Added Pin To Net: NetName=VGA_OUT_N Pin=TR1-1
+Added Pin To Net: NetName=AGND Pin=TR1-2
+Added Pin To Net: NetName=VGA_OUT_P Pin=TR1-3
+Added Pin To Net: NetName=VGA_OUT2 Pin=TR1-4
+Added Pin To Net: NetName=AGND Pin=TR1-5
+Added Member To Class: ClassName=us_#2shc Member=Component TR1 1:1

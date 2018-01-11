@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VDD_5V Pin=R1-1
+Removed Pin From Net: NetName=VDD_5V Pin=R4-1
+Added Pin To Net: NetName=NetC11_2 Pin=R1-1
+Added Pin To Net: NetName=NetC11_2 Pin=R4-1
+Added Pin To Net: NetName=VGAIN Pin=K2-18
+Added Net: Name=VGAIN

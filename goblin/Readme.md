@@ -105,6 +105,10 @@ Input/Output:
 
 ### Detailed view
 
+#### BEWARE
+
+The transfo has been updated (see [this folder for a version with an easily found transfo](/goblin/source/Altium.v2/) - __untested yet__).
+
 #### Explained
 
 ![](/goblin/images/module/GoblinModule.png)
@@ -197,7 +201,7 @@ The AD7273/AD7274 are high speed, low power, 10-/12-bit, single supply ADCs, res
 
 ### TODO
 
-
+* Test Goblin v2
 
 ### DONE
 

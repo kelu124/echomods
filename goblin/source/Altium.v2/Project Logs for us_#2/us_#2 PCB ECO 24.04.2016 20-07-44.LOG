@@ -1,0 +1,2 @@
+Change Component DesignItemId : Designator=R9 Old DesignItemId=R0603_75R_1%_0.1W_100PPM New DesignItemId=Res_0603_1%_EU
+Change Component Footprint: Designator=R9 Old Footprint=RESC1608X55N New Footprint=SM0603_3D_res

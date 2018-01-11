@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VGA_OUT_P Pin=K1-3
+Removed Pin From Net: NetName=GAIN Pin=K1-7
+Added Pin To Net: NetName=NetR11_2 Pin=K1-3
+Added Pin To Net: NetName=GAIN Pin=K2-7
+Change Net Name : Old Net Name=NetR11_2 New Net Name=ADC

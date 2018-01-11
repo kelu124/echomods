@@ -1,0 +1,5 @@
+Added Component: Designator=Jumper1(SULLINS_GRPB031VWVN)
+Added Pin To Net: NetName=NetJ1_1 Pin=Jumper1-1
+Added Pin To Net: NetName=VGA_IN Pin=Jumper1-2
+Added Pin To Net: NetName=NetJ1_1 Pin=Jumper1-3
+Added Member To Class: ClassName=us_#2shc Member=Component Jumper1 Family
