@@ -1,7 +1,15 @@
 # History 
 
 
- * __2017-12-01__: [link from www.meccanismocomplesso.org](http://www.meccanismocomplesso.org/en/murgen-opensource-project-for-ultrasound-imaging/)
+ * __2017-12-17__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-17-Kipple.md)
+ * __2017-12-16__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-16-Chaotic-good.md)
+ * __2017-12-11__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-11-Is-maturity-here.md)
+ * __2017-12-09__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-09-Illusion-in-a-logo.md)
+ * __2017-12-07__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-07-Updates-again.md)
+ * __2017-12-05__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-05-News-on-MacroFab.md)
+ * __2017-12-03__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-03-Ongoing-up.md)
+ * __2017-12-01__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-01-New-stuff.md), [link from www.meccanismocomplesso.org](http://www.meccanismocomplesso.org/en/murgen-opensource-project-for-ultrasound-imaging/)
+ * __2017-11-28__: [worklog of the day](http://kelu124.github.io/echomods/2017-11-28-Matty-Senjak-board.md)
  * __2017-11-27__: [20171127_210440.jpg](https://github.com/kelu124/echomods/tree/master/include/s3/images/20171127_210440.jpg), [20171127_210428.jpg](https://github.com/kelu124/echomods/tree/master/include/s3/images/20171127_210428.jpg)
  * __2017-11-24__: [20171124_222636.jpg](https://github.com/kelu124/echomods/tree/master/cletus/IMN/20171124_222636.jpg), [20171124a.md.tpl](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20171124a.md.tpl), [20171124a.md](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20171124a.md), [worklog of the day](http://kelu124.github.io/echomods/2017-11-24-IMN-at-home.md), [20171124a.md](https://kelu124.gitbooks.io/echomods71124a.html)
  * __2017-11-20__: [worklog of the day](http://kelu124.github.io/echomods/2017-11-20-Some-electronics-pulser-and-IMN.md)
@@ -51,7 +59,7 @@
  * __2017-07-17__: [20170717_203224.jpg](https://github.com/kelu124/echomods/tree/master/elmo/images/20170717_203224.jpg), [20170717_210209.jpg](https://github.com/kelu124/echomods/tree/master/elmo/images/20170717_210209.jpg), [20170717_205251.jpg](https://github.com/kelu124/echomods/tree/master/elmo/images/20170717_205251.jpg), [20170717_223857.jpg](https://github.com/kelu124/echomods/tree/master/elmo/images/20170717_223857.jpg)
  * __2017-07-15__: [20170715-ProbeTest.ipynb](https://github.com/kelu124/echomods/tree/master/elmo/data/20170715-ProbeTest.ipynb), [20170715a.md.tpl](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20170715a.md.tpl), [20170715a.md](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20170715a.md), [worklog of the day](http://kelu124.github.io/echomods/2017-07-15-Probe-et-al.md), [20170715a.md](https://kelu124.gitbooks.io/echomods70715a.html)
  * __2017-07-14__: [20170714-TwoADCs-Probe.ipynb](https://github.com/kelu124/echomods/tree/master/elmo/data/20170714-TwoADCs-Probe.ipynb), [20170714-TwoADCs-ProbeEnv.ipynb](https://github.com/kelu124/echomods/tree/master/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb), [worklog of the day](http://kelu124.github.io/echomods/2017-07-14-ADC-boosting.md), [link from blog.adafruit.com](https://blog.adafruit.com/2017/07/14/a-hsdk-for-ultrasound-imaging-piday-raspberrypi-raspberry_pi/)
- * __2017-07-13__: [20170713-TwoADCs.ipynb](https://github.com/kelu124/echomods/tree/master/elmo/data/20170713-TwoADCs.ipynb)
+ * __2017-07-13__: [20170713-TwoADCs.ipynb](https://github.com/kelu124/echomods/tree/master/elmo/data/20170713-TwoADCs.ipynb), [20170713a.md.tpl](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20170713a.md.tpl), [20170713a.md](https://github.com/kelu124/echomods/tree/master/include/experiments/auto/20170713a.md), [20170713a.md](https://kelu124.gitbooks.io/echomods70713a.html)
  * __2017-07-11__: [20170711-TwoADCs.ipynb](https://github.com/kelu124/echomods/tree/master/elmo/data/20170711-TwoADCs.ipynb)
  * __2017-07-10__: [link from openhardware.science](http://openhardware.science/2017/07/10/lafrique-a-lassaut-du-biohacking-pour-la-sante-makery/)
  * __2017-07-09__: [20170709-Repeats.ipynb](https://github.com/kelu124/echomods/tree/master/elmo/data/arduiprobe/20170709-Repeats.ipynb), [worklog of the day](http://kelu124.github.io/echomods/2017-07-09-ADC-boosting.md)

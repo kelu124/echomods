@@ -2,6 +2,7 @@
 	Developed by Daniel Pelikan 2013,2014
 	http://digibird1.wordpress.com/
 	Reviewed by @kelu124
+	Used in `20170713a`
 */
 
 #include <linux/kernel.h>

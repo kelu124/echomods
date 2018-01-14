@@ -14,6 +14,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * Get better total ADC speed with an iterleaved move (in [croaker](/croaker/))
 * Develop a Cletus+Croaker way of working with a gyroscope+accelerometer. (in [croaker](/croaker/))
 * Have Croaker generate its own AP (in [croaker](/croaker/))
+* Test Goblin v2 (in [goblin](/goblin/))
 * TBD (in [loftus](/loftus/))
 
 
