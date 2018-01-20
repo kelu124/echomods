@@ -19,6 +19,7 @@
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md
+* ./include/experiments/Desc_20180115a.md
 * ./include/experiments/Desc_20171112a.md
 * ./include/experiments/Desc_20180103a.md
 * ./include/experiments/Desc_20171111a.md
@@ -27,13 +28,17 @@
 * ./include/experiments/Desc_20170713a.md
 * ./include/experiments/auto/Code_20160814a.md
 * ./include/experiments/auto/Img_20171001b.md
+* ./include/experiments/auto/20180115a.md
 * ./include/experiments/auto/Img_20170930a.md
 * ./include/experiments/auto/Mod_20171112a.md
 * ./include/experiments/auto/Img_20171111a.md
+* ./include/experiments/auto/Code_20180115a.md
 * ./include/experiments/auto/Mod_20170930a.md
 * ./include/experiments/auto/Mod_20180103a.md
 * ./include/experiments/auto/Mod_20171124a.md
 * ./include/experiments/auto/20171001b.md
+* ./include/experiments/auto/Mod_20180115a.md
+* ./include/experiments/auto/Img_20180115a.md
 * ./include/experiments/auto/Img_20161217a.md
 * ./include/experiments/auto/Mod_20171001b.md
 * ./include/experiments/auto/20171111a.md
@@ -159,6 +164,7 @@
 * ./gitbook/Chapter6/interfaces.md
 * ./gitbook/Chapter6/articles.md
 * ./gitbook/Chapter6/fda.md
+* ./gitbook/exp/20180115a.md
 * ./gitbook/exp/20180713a.md
 * ./gitbook/exp/20171001b.md
 * ./gitbook/exp/20171111a.md

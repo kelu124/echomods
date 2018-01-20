@@ -62,7 +62,7 @@ ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.
 ToBeReplaced = ["/include/NDT.md"]
 Replaced = ["/Chapter1/ndt.md"]
 
-ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz","hannin"]
+ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz","hannin","matty"]
 ExcludeDirsRetired = ExcludeDirs+["retired"]
 
 
@@ -253,7 +253,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		if (len(others)):
 			ExpImages += "## Others\n\n"
 			for img in others:
-				ExpImages += "![]("+img[5][1:]+")\n\n"+img[4]+"(category: __"+img[2]+"__)\n\n"
+				ExpImages += "![]("+img[5][1:]+")\n\n"+img[4]+" (category: __"+img[2]+"__).\n\n"
 
 		OpenWrite(ExpImages,"./include/experiments/auto/Img_"+Expe+".md")
 

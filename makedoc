@@ -37,4 +37,11 @@ git add * -v
 git commit -m "Autopush"
 git push
 
+cd ../oup/
+python do.py
+git add * -v
+git commit -m "Autopush"
+git push
+
+
 

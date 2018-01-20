@@ -6,7 +6,7 @@
 
 * [scope2.c](/elmo/data/arduiprobe/scope2.c): . _File not used._
 
-* [module.c](/alt.tbo/20171112a/module.c): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [module.c](/alt.tbo/20171112a/module.c): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md).
 
 * [bipolar.c](/alt.tbo/test/bipolar.c): . _File not used._
 

@@ -10,11 +10,11 @@
 
 * [arduino.py](/elmo/data/arduino.py): . File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
 
-* [bim.py](/alt.tbo/20171112a/bim.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [bim.py](/alt.tbo/20171112a/bim.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md).
 
-* [img.py](/alt.tbo/20171112a/img.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [img.py](/alt.tbo/20171112a/img.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md).
 
-* [bim.py](/alt.tbo/20171112b/bim.py): . File used in: [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [bim.py](/alt.tbo/20171112b/bim.py): . _File not used._
 
 * [img.py](/alt.tbo/20171112b/img.py): . _File not used._
 

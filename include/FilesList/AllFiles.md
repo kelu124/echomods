@@ -22,7 +22,7 @@
 
 * [./alt.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./alt.tbo/20171112a/Readme.md](/alt.tbo/20171112a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [./alt.tbo/20171112a/Readme.md](/alt.tbo/20171112a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./alt.tbo/20171112b/Readme.md](/alt.tbo/20171112b/Readme.md):  . _File not used._
 
@@ -390,9 +390,9 @@
 * [20170611-arduino.ipynb](/elmo/data/arduino/20170611-arduino.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170718-Servo.ipynb](/elmo/data/arduiphantom/20170718-Servo.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/elmo/data/arduiphantom/Readme.md`](/elmo/data/arduiphantom/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20171112-alt.tbo-w-retro2.ipynb](/alt.tbo/20171112a/20171112-alt.tbo-w-retro2.ipynb). File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [20171112-alt.tbo-w-retro2.ipynb](/alt.tbo/20171112a/20171112-alt.tbo-w-retro2.ipynb). File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [TestBP.ipynb](/alt.tbo/20171112b/TestBP.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20171112-refilledATL.ipynb](/alt.tbo/20171112b/20171112-refilledATL.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [20171112-refilledATL.ipynb](/alt.tbo/20171112b/20171112-refilledATL.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170930-AltPulser.ipynb](/alt.tbo/test/20170930-AltPulser.ipynb). File used in: [`/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html), [`/alt.tbo/test/Readme.md`](/alt.tbo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20171001-new.ipynb](/alt.tbo/20171001a/20171001-new.ipynb). File used in: [`/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20171001a.md`](/include/experiments/auto/Code_20171001a.md).
 * [20171028-pulses.ipynb](/alt.tbo/20171028a/20171028-pulses.ipynb). File used in: [`/alt.tbo/20171028a/Readme.md`](/alt.tbo/20171028a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -420,11 +420,11 @@
 
 * [arduino.py](/elmo/data/arduino.py): . File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
 
-* [bim.py](/alt.tbo/20171112a/bim.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [bim.py](/alt.tbo/20171112a/bim.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md).
 
-* [img.py](/alt.tbo/20171112a/img.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [img.py](/alt.tbo/20171112a/img.py): . File used in: [`/alt.tbo/20171112a/Readme.md`](/alt.tbo/20171112a/Readme.md).
 
-* [bim.py](/alt.tbo/20171112b/bim.py): . File used in: [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [bim.py](/alt.tbo/20171112b/bim.py): . _File not used._
 
 * [img.py](/alt.tbo/20171112b/img.py): . _File not used._
 
@@ -498,7 +498,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 175 Auto generated files
+## 181 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -521,6 +521,7 @@
 * ./include/FilesList/AllFiles.md
 * ./include/FilesList/GeneratedFiles.md
 * ./include/FilesList/ManualFiles.md
+* ./include/experiments/Desc_20180115a.md
 * ./include/experiments/Desc_20171112a.md
 * ./include/experiments/Desc_20180103a.md
 * ./include/experiments/Desc_20171111a.md
@@ -529,13 +530,17 @@
 * ./include/experiments/Desc_20170713a.md
 * ./include/experiments/auto/Code_20160814a.md
 * ./include/experiments/auto/Img_20171001b.md
+* ./include/experiments/auto/20180115a.md
 * ./include/experiments/auto/Img_20170930a.md
 * ./include/experiments/auto/Mod_20171112a.md
 * ./include/experiments/auto/Img_20171111a.md
+* ./include/experiments/auto/Code_20180115a.md
 * ./include/experiments/auto/Mod_20170930a.md
 * ./include/experiments/auto/Mod_20180103a.md
 * ./include/experiments/auto/Mod_20171124a.md
 * ./include/experiments/auto/20171001b.md
+* ./include/experiments/auto/Mod_20180115a.md
+* ./include/experiments/auto/Img_20180115a.md
 * ./include/experiments/auto/Img_20161217a.md
 * ./include/experiments/auto/Mod_20171001b.md
 * ./include/experiments/auto/20171111a.md
@@ -661,6 +666,7 @@
 * ./gitbook/Chapter6/interfaces.md
 * ./gitbook/Chapter6/articles.md
 * ./gitbook/Chapter6/fda.md
+* ./gitbook/exp/20180115a.md
 * ./gitbook/exp/20180713a.md
 * ./gitbook/exp/20171001b.md
 * ./gitbook/exp/20171111a.md

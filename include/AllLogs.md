@@ -1,6 +1,7 @@
 # History 
 
 
+ * __2017-12-27__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-27-eink-and-such.md)
  * __2017-12-17__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-17-Kipple.md)
  * __2017-12-16__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-16-Chaotic-good.md)
  * __2017-12-11__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-11-Is-maturity-here.md)

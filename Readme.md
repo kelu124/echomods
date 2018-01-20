@@ -204,6 +204,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * impedance matching -- [see more](/include/impedance/ipm.pdf) -- Butterworth-Van-Dyke or [here](https://electronics.stackexchange.com/questions/245915/picking-source-resistance-for-impedance-matching). [Tuning Filter](https://i.stack.imgur.com/96XMb.png).
 * list other initiatives
 * classifier articles with link Article: =)
+* better experiments scanning
+* readding description into experiment files
+* a page summarizing the experiments
 
 
 

@@ -12,6 +12,8 @@
 
 * [20171001a.md.tpl](/include/experiments/auto/20171001a.md.tpl): ./include/experiments/auto/20171001a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
+* [20180115a.md.tpl](/include/experiments/auto/20180115a.md.tpl): ./include/experiments/auto/20180115a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+
 * [20170930a.md.tpl](/include/experiments/auto/20170930a.md.tpl): ./include/experiments/auto/20170930a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 * [20170713a.md.tpl](/include/experiments/auto/20170713a.md.tpl): ./include/experiments/auto/20170713a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
