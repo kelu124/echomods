@@ -13,5 +13,3 @@ title: 2017-12-27 eink and such
 -   https://gist.github.com/pklaus/5921022 \#arduino going at 1 \#msps
     over USB !
 
-=======
-
