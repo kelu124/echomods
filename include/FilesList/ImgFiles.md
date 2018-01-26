@@ -972,13 +972,41 @@
   * ToTag
   * ToTag
   * ./doj/images/20170508_192840.jpg
-* __/matty/IMG_20180115_194856.jpg__:
+* __/matty/images/idea.jpg__:
   * kelu124
-  * un0rick
-  * picture
-  * 20180115a
-  * The first hardware designed
-  * ./matty/IMG_20180115_194856.jpg
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/idea.jpg
+* __/matty/images/0flow.jpg__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/0flow.jpg
+* __/matty/images/IMG_20180126_200809.jpg__:
+  * kelu124
+  * PRA-LX1C432B180
+  * ToTag
+  * HUAWEI
+  * bty
+  * ./matty/images/IMG_20180126_200809.jpg
+* __/matty/images/arf.jpg__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/arf.jpg
+* __/matty/images/IMG_20180115_194856.jpg__:
+  * kelu124
+  * PRA-LX1C432B180
+  * ToTag
+  * HUAWEI
+  * bty
+  * ./matty/images/IMG_20180115_194856.jpg
 * __/retired/retro10PV/images/20160307_214849_HDR.jpg__:
   * kelu124
   * ToTag
@@ -1133,6 +1161,34 @@
   * ToTag
   * ToTag
   * ./include/simdev/miniature__ultrasonic_pulser_receiver_with_TOF_output.jpg
+* __/include/articles/kruizinga3.jpg__:
+  * kelu124
+  * Ver.1.0  
+  * ToTag
+  * Panasonic
+  * ToTag
+  * ./include/articles/kruizinga3.jpg
+* __/include/articles/kruizinga.jpg__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/articles/kruizinga.jpg
+* __/include/articles/kruizinga4.jpg__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/articles/kruizinga4.jpg
+* __/include/articles/kruizinga2.jpg__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/articles/kruizinga2.jpg
 * __/include/s3/images/s320170917_122639.jpg__:
   * kelu124
   * ToTag
@@ -2547,6 +2603,34 @@
   * ToTag
   * ToTag
   * ./doj/images/board2.png
+* __/matty/images/20180126--clock.png__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/20180126--clock.png
+* __/matty/images/pcb-v0r0.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/pcb-v0r0.png
+* __/matty/images/20180126--compare.png__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/20180126--compare.png
+* __/matty/images/view-v0r0.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/view-v0r0.png
 * __/retired/sleepy/viewme.png__:
   * kelu124
   * sleepy
@@ -3828,6 +3912,13 @@
   * ToTag
   * ToTag
   * ./include/images/table_gitbook.png
+* __/include/images/ColumbiaOpenSourceUltrasoundAFEschematic_v1.3schematic_v1.3.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/images/ColumbiaOpenSourceUltrasoundAFEschematic_v1.3schematic_v1.3.png
 * __/include/images/notes/ladder.png__:
   * kelu124
   * ToTag
