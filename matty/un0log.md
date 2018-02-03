@@ -1,3 +1,24 @@
+
+#### 2018-02-02 Flashing Un0rick oki
+
+* Done! With the code, it works. I just need to rmmod ftdi_sio and usbserial before flashing with programmer from usb.
+
+![](/matty/images/IMG_20180202_233901.jpg)
+
+* CDONE is on, weak LED corresponds to 64Mhz signal (same in the dark)
+
+![](/matty/images/IMG_20180202_233921.jpg)
+
+* See [this repo](/matty/prog_flash/) which contains the hex/bin files, the ice40.xcf for as the programmer save, and prog to start the programmer without cumbersome kernel modules.
+* Still having issues with the FTDI-SPI pinouts
+
+
+#### 2018-02-01 Un0rick clock oki
+
+* Clock is soldered again! And FTDI device magically appears in lsmod.
+
+![](/matty/images/IMG_20180203_131837.jpg)
+
 ### 2018-01-26 -- The clock had to be removed!
 
 Investigation showed no connection through USB.. a ftdi issue. Powers were OK.. but still nothing.

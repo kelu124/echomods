@@ -1,0 +1,3 @@
+sudo rmmod ftdi_sio
+sudo rmmod usbserial
+/usr/local/diamond/3.10_x64/bin/lin64/programmer
