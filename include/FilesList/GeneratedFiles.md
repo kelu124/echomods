@@ -167,6 +167,7 @@
 * ./gitbook/exp/20180115a.md
 * ./gitbook/exp/20180713a.md
 * ./gitbook/exp/20171001b.md
+* ./gitbook/exp/HUAWEI.md
 * ./gitbook/exp/20171111a.md
 * ./gitbook/exp/20170930a.md
 * ./gitbook/exp/20171112a.md

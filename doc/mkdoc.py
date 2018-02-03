@@ -378,7 +378,7 @@ def CreateImgTags(ImgSrc):
 			metadata['Exif.Image.Software'] = "ToTag"
 
 	# Experiment
-	DefaultTag = ["Apple","Sony","LG Electronics","amsung","OnePlus","Canon"]
+	DefaultTag = ["Apple","Sony","LG Electronics","amsung","OnePlus","Canon","HUAWEI","Huawei","Panasonic"]
 	try:
 		metadata['Exif.Image.Make'].value
 	except KeyError:

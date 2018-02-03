@@ -2570,6 +2570,22 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce ? for 1A
     * Pages created from Experiments
   * DATA files synced (not GH, on data.dmn.org) -- synced from matty/data
  
+#### 2018-01-28 Updating Senjak
+
+* Fun with TTGO - interesting full setup with https://fr.aliexpress.com/item/TTGO-TS-v1-0-v1-2-esp32-1-44-1-8-TFT-MicroSD-fente-pour-carte/32847643640.html 
+* Removed MattySenjak clock, expecting new
+* Bought some ESP32 to play with
+* Preparing OSHW ?
+
+
+#### 2018-02-01 Un0rick clock oki
+
+* Clock is soldered again!
+
+#### 2018-02-02 Flashing Un0rick oki
+
+* Done! With the code, it works. I just need to rmmod ftdi_sio and usbserial =)
+* 
 
 =======
 
