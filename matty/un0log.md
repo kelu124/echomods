@@ -1,4 +1,40 @@
 
+#### 2018-02-06 Issues with SPI
+
+When issuing 0xAA, 0xEB, 0X01, I see what I expect to see... but there's no  CS going back high after each byte.
+
+![](/matty/images/debug/CLK+CS.BMP)
+
+![](/matty/images/debug/CLK+MOSI.BMP)
+
+Seems to occur.. https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=73323 
+
+![](/matty/images/debug/individual-xfer-miso.BMP)
+
+![](/matty/images/debug/individual-xfer-CS.BMP)
+
+#### 2018-02-05 Issues with DAC
+
+DAC SPI seems off
+
+![](/matty/images/debug/sdbleu_yellowcs.BMP)
+
+![](/matty/images/debug/bleusdi_yellowsclk.BMP)
+
+#### 2018-02-03 Install on RPi
+
+Want to have a notebook running on board RPi to access the SPI dev
+
+apt-get -y install python2.7 python-pip python-dev
+apt-get -y install ipython ipython-notebook
+pip install jupyter
+
+
+The Notebook server listens on localhost by default. If you want it to be visible to all machines on your LAN, simply instruct it to listen on all interfaces:
+
+jupyter notebook --ip='*'
+
+
 #### 2018-02-02 Flashing Un0rick oki
 
 * Done! With the code, it works. I just need to rmmod ftdi_sio and usbserial before flashing with programmer from usb.

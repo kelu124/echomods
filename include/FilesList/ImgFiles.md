@@ -2624,6 +2624,13 @@
   * ToTag
   * ToTag
   * ./doj/images/board2.png
+* __/matty/prog_flash/ice40.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/prog_flash/ice40.png
 * __/matty/images/20180126--clock.png__:
   * kelu124
   * ToTag
@@ -2652,6 +2659,48 @@
   * ToTag
   * ToTag
   * ./matty/images/view-v0r0.png
+* __/matty/images/debug/CLK+CS.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/debug/CLK+CS.png
+* __/matty/images/debug/sdbleu_yellowcs.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/debug/sdbleu_yellowcs.png
+* __/matty/images/debug/individual-xfer-miso.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/debug/individual-xfer-miso.png
+* __/matty/images/debug/bleusdi_yellowsclk.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/debug/bleusdi_yellowsclk.png
+* __/matty/images/debug/CLK+MOSI.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/debug/CLK+MOSI.png
+* __/matty/images/debug/individual-xfer-CS.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/debug/individual-xfer-CS.png
 * __/retired/sleepy/viewme.png__:
   * kelu124
   * sleepy

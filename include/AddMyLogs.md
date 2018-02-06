@@ -2585,7 +2585,11 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce ? for 1A
 #### 2018-02-02 Flashing Un0rick oki
 
 * Done! With the code, it works. I just need to rmmod ftdi_sio and usbserial =)
-* 
+
+#### 2018-02-03  Un0rick and RPi
+
+* Still some issues having SPI work.. let's try through RPi. Been adding the the jupyter to the board.
+* Why not have the CS0 on IO4, taht's 
 
 =======
 

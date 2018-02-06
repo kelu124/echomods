@@ -2,6 +2,8 @@
 	Developed by Daniel Pelikan 2013,2014
 	http://digibird1.wordpress.com/
 	Reviewed by @kelu124
+
+	Used in the `20170715a` experiment, see https://kelu124.gitbooks.io/echomods/content/exp/20170715a.html
 */
 
 #include <linux/kernel.h>
