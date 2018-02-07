@@ -1,3 +1,7 @@
+#### 2018-02-07 Moving forward
+
+Now the DAC seems to work, still no SPI
+
 
 #### 2018-02-06 Issues with SPI
 

@@ -17,11 +17,12 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>/home/kelu/m.hex</File>
-			<FileTime>02/02/18 22:29:00</FileTime>
+			<File>/home/kelu/ultrasound/echomods/matty/prog_flash/MATTY20180207b_bitmap.hex</File>
+			<FileTime>02/07/18 20:41:50</FileTime>
 			<Operation>SPI Flash Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<SVFProcessor>SVF Processor</SVFProcessor>
 				<AccessMode>SPI Flash Programming</AccessMode>
 			</Option>
 			<FPGALoader>
@@ -45,6 +46,7 @@
 						<SVFVendor>JTAG STANDARD</SVFVendor>
 						<IOState>HighZ</IOState>
 						<IOVectorData> `Ÿ</IOVectorData>
+						<SVFProcessor>SVF Processor</SVFProcessor>
 						<AccessMode>JTAG</AccessMode>
 					</Option>
 				</Device>
@@ -58,7 +60,7 @@
 					<IDCode>0x13</IDCode>
 					<Package>8-pin SOIC</Package>
 					<Operation>SPI Flash Erase,Program,Verify</Operation>
-					<File>/home/kelu/m.hex</File>
+					<File>/home/kelu/ultrasound/echomods/matty/prog_flash/MATTY20180207b_bitmap.hex</File>
 					<AddressBase>0x00000000</AddressBase>
 					<EndAddress>0x00020000</EndAddress>
 					<DeviceSize>8</DeviceSize>
@@ -79,6 +81,7 @@
 					</LocalChainList>
 					<Option>
 						<SVFVendor>JTAG STANDARD</SVFVendor>
+						<SVFProcessor>SVF Processor</SVFProcessor>
 					</Option>
 				</Device>
 			</FPGADevice>
