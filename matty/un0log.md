@@ -1,3 +1,26 @@
+
+#### 2018-02-11 All but acquisition
+
+* __[matty20180211_bitmap.bin](/matty/prog_flash/MATTY20180211_bitmap.bin)__ seems to work -- [see the notebook](/matty/prog_flash/MATTY20180211_bitmap.ipynb)
+  * All registers can be written
+
+@todo Picture needed on the PonPoff hack on the U118, U131, U134 -- soldered reversely
+
+##### Pon Poff
+
+![](/matty/images/pon/1_pulses.png) 
+
+##### Without the piezo
+
+![](/matty/images/pon/2_nopiezo.png)
+
+##### With the piezo -- probe x10
+
+![](/matty/images/pon/3_piezo.png)
+
+
+
+
 #### 2018-02-07 Moving forward
 
 Now the DAC seems to work, still no SPI
