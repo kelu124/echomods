@@ -203,15 +203,20 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		for keyKey in ListOfChecks:
 			Files = []
 			for key in FatJSON[keyKey].keys():
+
 				tmpfile = open("."+key, "r") 
-				if "`"+Expe+"`" in tmpfile.read() :
+				if ("`"+Expe+"`" in tmpfile.read()) and ("FilesList" not in key) and ("gitbook" not in key) and ("/include/experiments/" not in key):
+					#print key
 					Files.append(key)
-				elif (Expe in key) and ("include" not in key) and ("gitbook" not in key):
-					Files.append(key)
+				elif (Expe in key):
+				    if ("include" not in key):
+					if ("gitbook" not in key):
+
+						Files.append(key)
 			Files = list(set(Files))
 			if len(Files):
 				SourceCode += "\n\n### "+keyKey+"\n\n"
-				for fil in Files:
+				for fil in Files: 
 					SourceCode += "* ["+fil.split("/")[-1]+"]("+fil+")\n"
 
 		fnameD = "./include/experiments/auto/Code_"+Expe+".md"

@@ -4,7 +4,9 @@
 * __[matty20180211_bitmap.bin](/matty/prog_flash/MATTY20180211_bitmap.bin)__ seems to work -- [see the notebook](/matty/prog_flash/MATTY20180211_bitmap.ipynb)
   * All registers can be written
 
-@todo Picture needed on the PonPoff hack on the U118, U131, U134 -- soldered reversely
+__Picture needed on the PonPoff hack on the U118, U131, U134 -- soldered reversely__
+
+![](/matty/images/IMG_20180212_195429.jpg)
 
 ##### Pon Poff
 
@@ -18,6 +20,9 @@
 
 ![](/matty/images/pon/3_piezo.png)
 
+#### 2018-02-10 Getting some reading
+
+![](/matty/images/setup.png)
 
 
 

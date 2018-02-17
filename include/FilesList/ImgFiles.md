@@ -1021,6 +1021,13 @@
   * ToTag
   * ToTag
   * ./matty/images/arf.jpg
+* __/matty/images/IMG_20180212_195429.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/IMG_20180212_195429.jpg
 * __/matty/images/IMG_20180115_194856.jpg__:
   * kelu124
   * PRA-LX1C432B180
@@ -1070,6 +1077,160 @@
   * ToTag
   * ToTag
   * ./croaker/data/20161217/raw_data/20161217-222737-img.jpg
+* __/include/20180216a/maps/A33.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180216a
+  * Map of the DATA file from the 20180216a experiment
+  * ./include/20180216a/maps/A33.DAT_rawsignal.jpg
+* __/include/20180216a/maps/A22.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180216a
+  * Spectrum of the DATA file from the 20180216a experiment
+  * ./include/20180216a/maps/A22.DAT_spectrum.jpg
+* __/include/20180216a/maps/A11.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180216a
+  * Map of the DATA file from the 20180216a experiment
+  * ./include/20180216a/maps/A11.DAT_rawsignal.jpg
+* __/include/20180216a/maps/A11.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180216a
+  * Spectrum of the DATA file from the 20180216a experiment
+  * ./include/20180216a/maps/A11.DAT_spectrum.jpg
+* __/include/20180216a/maps/B33.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180216a
+  * Spectrum of the DATA file from the 20180216a experiment
+  * ./include/20180216a/maps/B33.DAT_spectrum.jpg
+* __/include/20180216a/maps/A33.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180216a
+  * Spectrum of the DATA file from the 20180216a experiment
+  * ./include/20180216a/maps/A33.DAT_spectrum.jpg
+* __/include/20180216a/maps/B33.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180216a
+  * Map of the DATA file from the 20180216a experiment
+  * ./include/20180216a/maps/B33.DAT_rawsignal.jpg
+* __/include/20180216a/maps/A22.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180216a
+  * Map of the DATA file from the 20180216a experiment
+  * ./include/20180216a/maps/A22.DAT_rawsignal.jpg
+* __/include/20180216a/lines/A33_line2sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Raw line from the 20180216a experiment
+  * ./include/20180216a/lines/A33_line2sample.jpg
+* __/include/20180216a/lines/A33_clean_line7sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Cleaned line from the 20180216a experiment
+  * ./include/20180216a/lines/A33_clean_line7sample.jpg
+* __/include/20180216a/lines/A33_line3sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Raw line from the 20180216a experiment
+  * ./include/20180216a/lines/A33_line3sample.jpg
+* __/include/20180216a/lines/A11_clean_line3sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Cleaned line from the 20180216a experiment
+  * ./include/20180216a/lines/A11_clean_line3sample.jpg
+* __/include/20180216a/lines/A11_clean_line7sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Cleaned line from the 20180216a experiment
+  * ./include/20180216a/lines/A11_clean_line7sample.jpg
+* __/include/20180216a/lines/A22_clean_line7sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Cleaned line from the 20180216a experiment
+  * ./include/20180216a/lines/A22_clean_line7sample.jpg
+* __/include/20180216a/lines/B33_clean_line7sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Cleaned line from the 20180216a experiment
+  * ./include/20180216a/lines/B33_clean_line7sample.jpg
+* __/include/20180216a/lines/A11_line3sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Raw line from the 20180216a experiment
+  * ./include/20180216a/lines/A11_line3sample.jpg
+* __/include/20180216a/lines/A33_clean_line2sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Cleaned line from the 20180216a experiment
+  * ./include/20180216a/lines/A33_clean_line2sample.jpg
+* __/include/20180216a/lines/A33_clean_line3sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180216a
+  * Cleaned line from the 20180216a experiment
+  * ./include/20180216a/lines/A33_clean_line3sample.jpg
+* __/include/20180216a/images/IMG_20180217_182359.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * setup
+  * 20180216a
+  *  Setting up the 20180216a experiment
+  * ./include/20180216a/images/IMG_20180217_182359.jpg
+* __/include/20180216a/images/IMG_20180217_182252.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * setup
+  * 20180216a
+  *  Setting up the 20180216a experiment
+  * ./include/20180216a/images/IMG_20180217_182252.jpg
+* __/include/20180216a/images/IMG_20180217_182510.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * setup
+  * 20180216a
+  *  Setting up the 20180216a experiment
+  * ./include/20180216a/images/IMG_20180217_182510.jpg
+* __/include/20180216a/images/setup.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20180216a
+  * ToTag
+  * ./include/20180216a/images/setup.jpg
 * __/include/devkit2.0/20170529_203924_notes.jpg__:
   * kelu124
   * ToTag
@@ -2652,6 +2813,13 @@
   * ToTag
   * ToTag
   * ./matty/images/20180126--compare.png
+* __/matty/images/setup.png__:
+  * kelu124
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/setup.png
 * __/matty/images/view-v0r0.png__:
   * kelu124
   * ToTag

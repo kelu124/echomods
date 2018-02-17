@@ -5,6 +5,7 @@
 
 ## Comm
   * Contact Lattice
+  * TaZ / Hack'Im Bey
 
 ## TOMOD
   * Sequence of LEDs to flash at boot
