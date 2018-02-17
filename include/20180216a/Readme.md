@@ -53,6 +53,8 @@ Images [autotagged](/include/20180216a/mkimg.py).
 
 @todo .. it seems it trigs when logic signal is going low... strange, isn't it ?
 
+![](/alt.tbo/20171028a/images/logic.png)
+
 #### Pinout
 
 * Pulse_B: Track_10: IO - PPuls_ON 
