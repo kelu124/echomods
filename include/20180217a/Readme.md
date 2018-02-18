@@ -14,6 +14,14 @@ Processing to be done through a [jupyter notebook](/include/20180217a/20180217a 
 
 Images [autotagged](/include/20180217a/mkimg.py).
 
+## Setup 
+
+![](/include/20180216a/images/setup.jpg)
+
+There is approximately 27mm of water before the reflector on the piezo. That's an echo which has to travel 2x27mm = 54mm, at 1500m/s. We should see at peak at around 36us, and, if a second reflection occurs, at 72us.
+
+
+
 ## Results
 
 Better resolution can be achieved when the pulser code is [cleaned from its errors](/include/20180217a/RPiPulserModule.c).. Namely with a better control of the controling variables.
