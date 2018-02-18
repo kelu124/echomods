@@ -34,6 +34,16 @@ Better resolution can be achieved when the pulser code is [cleaned from its erro
 
 ![](/include/20180217a/lines/B33-newmodule_odd-even.jpg)
 
+## Details of the lines
+
+#### Raw lines
+
+![](/include/20180217a/lines/B33-newmodule_line3sample.jpg)
+
+#### Once filtered
+
+![](/include/20180217a/lines/B33-newmodule_clean_line3sample.jpg)
+
 ## Remaining issues
 
 It seems trig happens when line goes low:
