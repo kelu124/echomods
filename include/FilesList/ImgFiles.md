@@ -1588,6 +1588,146 @@
   * ToTag
   * ToTag
   * ./include/ebay/atladr/s-l1600fdsq.jpg
+* __/include/20180217a/maps/A11d-ter.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Map of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11d-ter.DAT_rawsignal.jpg
+* __/include/20180217a/maps/A11a-ter.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Map of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11a-ter.DAT_rawsignal.jpg
+* __/include/20180217a/maps/A11b-ter.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Spectrum of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11b-ter.DAT_spectrum.jpg
+* __/include/20180217a/maps/A11-termodule.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Map of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11-termodule.DAT_rawsignal.jpg
+* __/include/20180217a/maps/A11c-ter.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Map of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11c-ter.DAT_rawsignal.jpg
+* __/include/20180217a/maps/A11c-ter.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Spectrum of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11c-ter.DAT_spectrum.jpg
+* __/include/20180217a/maps/A11b-ter.DAT_rawsignal.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Map of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11b-ter.DAT_rawsignal.jpg
+* __/include/20180217a/maps/A11d-ter.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Spectrum of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11d-ter.DAT_spectrum.jpg
+* __/include/20180217a/maps/A11-termodule.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Spectrum of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11-termodule.DAT_spectrum.jpg
+* __/include/20180217a/maps/A11a-ter.DAT_spectrum.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * graph
+  * 20180217a
+  * Spectrum of the DATA file from the 20180217a experiment
+  * ./include/20180217a/maps/A11a-ter.DAT_spectrum.jpg
+* __/include/20180217a/lines/A11-newmodule_odd-even.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Cleaned line from the 20180217a experiment
+  * ./include/20180217a/lines/A11-newmodule_odd-even.jpg
+* __/include/20180217a/lines/A11-altmodule_odd-even.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Cleaned line from the 20180217a experiment
+  * ./include/20180217a/lines/A11-altmodule_odd-even.jpg
+* __/include/20180217a/lines/A33b-newmodule_odd-even.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Cleaned line from the 20180217a experiment
+  * ./include/20180217a/lines/A33b-newmodule_odd-even.jpg
+* __/include/20180217a/lines/A11-termodule_odd-even.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Cleaned line from the 20180217a experiment
+  * ./include/20180217a/lines/A11-termodule_odd-even.jpg
+* __/include/20180217a/lines/B33-newmodule_clean_line3sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Raw line from the 20180217a experiment
+  * ./include/20180217a/lines/B33-newmodule_clean_line3sample.jpg
+* __/include/20180217a/lines/B33-newmodule_odd-even.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Cleaned line from the 20180217a experiment
+  * ./include/20180217a/lines/B33-newmodule_odd-even.jpg
+* __/include/20180217a/lines/B33-oldmodule_odd-even.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Cleaned line from the 20180217a experiment
+  * ./include/20180217a/lines/B33-oldmodule_odd-even.jpg
+* __/include/20180217a/lines/A33-newmodule_odd-even.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Cleaned line from the 20180217a experiment
+  * ./include/20180217a/lines/A33-newmodule_odd-even.jpg
+* __/include/20180217a/lines/B33-newmodule_line3sample.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Raw line from the 20180217a experiment
+  * ./include/20180217a/lines/B33-newmodule_line3sample.jpg
+* __/include/20180217a/lines/A22-newmodule_odd-even.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * BSC
+  * 20180217a
+  * Cleaned line from the 20180217a experiment
+  * ./include/20180217a/lines/A22-newmodule_odd-even.jpg
 * __/include/community/map.jpg__:
   * map.jpg
   * ToTag
