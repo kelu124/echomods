@@ -2586,12 +2586,12 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce ? for 1A
 
 * Done! With the code, it works. I just need to rmmod ftdi_sio and usbserial =)
 
-#### 2018-02-03  Un0rick and RPi
+#### 2018-02-03 Un0rick and RPi
 
 * Still some issues having SPI work.. let's try through RPi. Been adding the the jupyter to the board.
 * Why not have the CS0 on IO4, taht's 
 
-#### 2018-02-13  Un0rick moving good
+#### 2018-02-13 Un0rick moving good
 
 * [work making progress](/matty/un0log.md) -- DAC working for the gain, Pon and Poff work, setting up the registers work..
 * Need to get something else than 0xAA on reading though =)
@@ -2614,8 +2614,15 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce ? for 1A
       * scientific article
       * poc-style
       * some goodies
-* BTW, un0rick light could be good! (UP5K, no RAM, just pulser, few buttons, ... :) ) -- to be discussed / price checked.
+* BTW, un0rick light could be good! (UP5K, HV7361+MD0100!, no RAM, just pulser, few buttons, ... :) ) -- to be discussed / price checked.
 
+#### 2018-02-18 un0rick deadend
+
+Nothing works yet on the MOSI line... strange to read those. Version from 11/02 works still. To be explored!
+
+* On the good side, I had time to test the new Elmo v2 and Alt.tbo v2 boards:
+  * [Comparing new and old pulsers](/include/20180216a/Readme.md)
+  * [With a new driver for the pulser and ADC](/include/20180217a/Readme.md)
 
 =======
 

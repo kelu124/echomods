@@ -972,6 +972,83 @@
   * ToTag
   * ToTag
   * ./doj/images/20170508_192840.jpg
+* __/matty/20180224a/images/y18-VGA@0x11-spimode1-12msps.jpg__:
+  * kelu124
+  * matty
+  * BSB
+  * 20180217a
+  * Representing the lines of the acquisitions
+  * ./matty/20180224a/images/y18-VGA@0x11-spimode1-12msps.jpg
+* __/matty/20180224a/images/y16-VGA@0x11-spimode1-21msps.jpg__:
+  * kelu124
+  * matty
+  * BSB
+  * 20180217a
+  * Representing the lines of the acquisitions
+  * ./matty/20180224a/images/y16-VGA@0x11-spimode1-21msps.jpg
+* __/matty/20180224a/images/y17-VGA@0x11-spimode1-16msps.jpg__:
+  * kelu124
+  * matty
+  * BSB
+  * 20180217a
+  * Representing the lines of the acquisitions
+  * ./matty/20180224a/images/y17-VGA@0x11-spimode1-16msps.jpg
+* __/matty/20180224a/images/IMG_20180224_195210.jpg__:
+  * kelu124
+  * matty
+  * setup
+  * 20180217a
+  * Setup of the experiment
+  * ./matty/20180224a/images/IMG_20180224_195210.jpg
+* __/matty/20180224a/images/y19-VGA@0x11-spimode1-10msps.jpg__:
+  * kelu124
+  * matty
+  * BSB
+  * 20180217a
+  * Representing the lines of the acquisitions
+  * ./matty/20180224a/images/y19-VGA@0x11-spimode1-10msps.jpg
+* __/matty/20180224b/images/kk-4-VGA@0x22-spimode1-21msps.jpg__:
+  * kelu124
+  * matty
+  * BSB
+  * 20180224b
+  * Representing the lines of the acquisitions
+  * ./matty/20180224b/images/kk-4-VGA@0x22-spimode1-21msps.jpg
+* __/matty/20180224b/images/comparing_gain.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180224b
+  * Comparing gains
+  * ./matty/20180224b/images/comparing_gain.jpg
+* __/matty/20180224b/images/fft.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180224b
+  * Spectrum review 20180224b experiment
+  * ./matty/20180224b/images/fft.jpg
+* __/matty/20180224b/images/kk-1-VGA@0x11-spimode1-21msps.jpg__:
+  * kelu124
+  * matty
+  * BSB
+  * 20180224b
+  * Representing the lines of the acquisitions
+  * ./matty/20180224b/images/kk-1-VGA@0x11-spimode1-21msps.jpg
+* __/matty/20180224b/images/kk-6-VGA@0x33-spimode1-21msps.jpg__:
+  * kelu124
+  * matty
+  * BSB
+  * 20180224b
+  * Representing the lines of the acquisitions
+  * ./matty/20180224b/images/kk-6-VGA@0x33-spimode1-21msps.jpg
+* __/matty/20180224b/images/IMG_20180224_195210.jpg__:
+  * kelu124
+  * matty
+  * setup
+  * 20180224b
+  * Setup of the experiment
+  * ./matty/20180224b/images/IMG_20180224_195210.jpg
 * __/matty/images/IMG_20180202_233901.jpg__:
   * kelu124
   * PRA-LX1C432B180
@@ -1007,6 +1084,13 @@
   * ToTag
   * dav
   * ./matty/images/IMG_20180203_131837.jpg
+* __/matty/images/MATTY_20180221_testcompteur8bits_bitmap.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/MATTY_20180221_testcompteur8bits_bitmap.jpg
 * __/matty/images/IMG_20180126_200809.jpg__:
   * kelu124
   * PRA-LX1C432B180
@@ -1035,6 +1119,55 @@
   * ToTag
   * bty
   * ./matty/images/IMG_20180115_194856.jpg
+* __/matty/images/20180221a/yeayy-0-5000-8000000.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/20180221a/yeayy-0-5000-8000000.jpg
+* __/matty/images/20180221a/adc-0-5000-8000000.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/20180221a/adc-0-5000-8000000.jpg
+* __/matty/images/acqs/MATTY_20180221/yeay64-0-16640-8000000.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/acqs/MATTY_20180221/yeay64-0-16640-8000000.jpg
+* __/matty/images/acqs/MATTY_20180221/yeayc-0-5000-8000000.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/acqs/MATTY_20180221/yeayc-0-5000-8000000.jpg
+* __/matty/images/acqs/MATTY_20180224/d-12-0-2500.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/acqs/MATTY_20180224/d-12-0-2500.jpg
+* __/matty/images/acqs/MATTY_20180224/d-21-0-2500.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/acqs/MATTY_20180224/d-21-0-2500.jpg
+* __/matty/images/acqs/MATTY_20180224/d-64-0-2500.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/acqs/MATTY_20180224/d-64-0-2500.jpg
 * __/retired/retro10PV/images/20160307_214849_HDR.jpg__:
   * kelu124
   * ToTag
@@ -1226,9 +1359,9 @@
   * ./include/20180216a/images/IMG_20180217_182510.jpg
 * __/include/20180216a/images/setup.jpg__:
   * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * ToTag
   * picture
-  * 20180216a
+  * ToTag
   * ToTag
   * ./include/20180216a/images/setup.jpg
 * __/include/devkit2.0/20170529_203924_notes.jpg__:
@@ -2589,6 +2722,13 @@
   * ToTag
   * ToTag
   * ./alt.tbo/source/pulser-3d.png
+* __/alt.tbo/images/logic.png__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./alt.tbo/images/logic.png
 * __/cletus/viewme.png__:
   * kelu124
   * cletus
@@ -3058,6 +3198,34 @@
   * ToTag
   * ToTag
   * ./matty/images/debug/individual-xfer-CS.png
+* __/matty/images/20180221a/mieux.png__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/20180221a/mieux.png
+* __/matty/images/20180221a/firstechoes-wrongsetup.png__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/20180221a/firstechoes-wrongsetup.png
+* __/matty/images/20180221a/details.png__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/20180221a/details.png
+* __/matty/images/acqs/MATTY_20180224/20180224_bitmap.png__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/acqs/MATTY_20180224/20180224_bitmap.png
 * __/retired/sleepy/viewme.png__:
   * kelu124
   * sleepy
@@ -4815,6 +4983,13 @@
   * ToTag
   * ToTag
   * ./tobo/images/2017/TEK0001.JPG
+* __/alt.tbo/images/new.tbo_idea.JPG__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./alt.tbo/images/new.tbo_idea.JPG
 * __/tomtom/images/TEK0008_NOPs.JPG__:
   * kelu124
   * tomtom
