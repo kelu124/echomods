@@ -1,3 +1,14 @@
+#### 2018-02-21 Reading ok on 8bits
+
+* Now working on 8bits. Still issues on 16 bit transfers.
+
+![](/matty/images/MATTY_20180221_testcompteur8bits_bitmap.jpg)
+
+#### 2018-02-18 Reading something
+
+* Can read some values now from __[MATTY_20180218.bin](/matty/prog_flash/MATTY_20180218.bin)__
+* and corresponding [notebook](/matty/prog_flash/MATTY_20180218.html) -- even with a piezo on !
+
 
 #### 2018-02-11 All but acquisition
 
