@@ -7,8 +7,9 @@ title: 2018-02-18 un0rick deadend
 ---
 
 
-Nothing works yet on the MOSI line... strange to read those. Version
-from 11/02 works still. To be explored!
+https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html Nothing
+works yet on the MOSI line... strange to read those. Version from 11/02
+works still. To be explored!
 
 -   On the good side, I had time to test the new Elmo v2 and Alt.tbo v2
     boards:
