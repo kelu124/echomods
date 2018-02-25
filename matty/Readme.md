@@ -98,6 +98,15 @@ The aim is to summarize all modules in a all-inclusive board. Fast ADC, good loa
 
 ![](/matty/20180224b/images/comparing_gain.jpg)
 
+### With a [retroATL3 probe](/retroATL3/)
+
+#### Detail of a line
+
+![](/matty/20180225a/line70.jpg)
+
+#### Raw signal
+
+![](/matty/20180225a/raw.jpg)
 
 ## Discussions
 
@@ -116,7 +125,7 @@ The aim is to summarize all modules in a all-inclusive board. Fast ADC, good loa
 
 ## License
 
-### Doj 
+### Matty 
 
 The [echOmods project](https://github.com/kelu124/echomods/) and its prototypes (amongst which we find the [matty-un0rick](/matty/) module) are open hardware, and working with open-hardware components.
 
