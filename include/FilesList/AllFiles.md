@@ -98,11 +98,13 @@
 
 * [./matty/pitch.md](/matty/pitch.md):  . _File not used._
 
-* [./matty/nextsteps.md](/matty/nextsteps.md):  . _File not used._
+* [./matty/nextsteps.md](/matty/nextsteps.md):  . File used in: [`/Readme.md`](/Readme.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md).
 
 * [./matty/oshw.md](/matty/oshw.md):  . _File not used._
 
 * [./matty/un0log.md](/matty/un0log.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+
+* [./matty/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html): ice40 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./matty/1i/1i.md](/matty/1i/1i.md):  . _File not used._
 
@@ -111,6 +113,8 @@
 * [./matty/ideas/ice40.md](/matty/ideas/ice40.md):  . _File not used._
 
 * [./matty/ideas/ideas.md](/matty/ideas/ideas.md):  . _File not used._
+
+* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./retired/sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.md): Casing of the modules - readme . File used in: [`/Readme.md`](/Readme.md).
 
@@ -425,8 +429,8 @@
 * [testSPI2.ipynb](/matty/SPI/testSPI2.ipynb). _File not used._
 * [Untitled.ipynb](/matty/SPI/Untitled.ipynb). _File not used._
 * [testSPI1.ipynb](/matty/SPI/testSPI1.ipynb). _File not used._
-* [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). _File not used._
-* [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). _File not used._
+* [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md).
+* [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). File used in: [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md).
 * [RPi.ipynb](/matty/images/20180221a/RPi.ipynb). _File not used._
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). _File not used._
 * [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). File used in: [`/retired/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md).
@@ -466,7 +470,7 @@
 
 * [img.py](/cletus/IMN/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/matty/20180224a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/matty/20180224a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [serialflash.py](/matty/SPI/serialflash.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -564,7 +568,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 200 Auto generated files
+## 205 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -592,6 +596,7 @@
 * ./include/experiments/Desc_20171112a.md
 * ./include/experiments/Desc_20180103a.md
 * ./include/experiments/Desc_20180216a.md
+* ./include/experiments/Desc_20180224a.md
 * ./include/experiments/Desc_20171111a.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20171124a.md
@@ -606,6 +611,7 @@
 * ./include/experiments/auto/Img_20180217a.md
 * ./include/experiments/auto/Img_20171111a.md
 * ./include/experiments/auto/Code_20180115a.md
+* ./include/experiments/auto/Mod_20180224a.md
 * ./include/experiments/auto/Mod_20170930a.md
 * ./include/experiments/auto/Mod_20180103a.md
 * ./include/experiments/auto/Mod_20171124a.md
@@ -641,6 +647,7 @@
 * ./include/experiments/auto/Mod_20171001a.md
 * ./include/experiments/auto/Img_20171124a.md
 * ./include/experiments/auto/Mod_20170611a.md
+* ./include/experiments/auto/Img_20180224a.md
 * ./include/experiments/auto/Mod_20170715a.md
 * ./include/experiments/auto/Img_20170715a.md
 * ./include/experiments/auto/Code_20170611a.md
@@ -661,6 +668,7 @@
 * ./include/experiments/auto/20180103a.md
 * ./include/experiments/auto/Code_20170713a.md
 * ./include/experiments/auto/Img_20171112a.md
+* ./include/experiments/auto/Code_20180224a.md
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md
 * ./include/sets/sets_slides.md
@@ -704,6 +712,7 @@
 * ./gitbook/Chapter3/wirephantom.md
 * ./gitbook/Chapter3/oneeye.md
 * ./gitbook/Chapter3/sleepy.md
+* ./gitbook/Chapter3/matty.md
 * ./gitbook/Chapter3/doj.md
 * ./gitbook/Chapter3/tomtom.md
 * ./gitbook/Chapter3/croaker.md

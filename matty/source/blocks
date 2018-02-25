@@ -1,0 +1,38 @@
+digraph {
+	ice40 [style=rounded]
+	SPI [style=rounded]
+	"Data Out" [style=rounded]
+		ice40 -> SPI
+		SPI -> "Data Out"
+	ice40 [style=rounded]
+	PulserControl [style=rounded]
+	Pulser [style=rounded]
+	Transducer [style=rounded]
+		ice40 -> PulserControl
+		PulserControl -> Pulser
+		Pulser -> Transducer
+	Transducer [style=rounded]
+	Clipping [style=rounded]
+	"Time Gain Compensator" [style=rounded]
+	"64Msps, 10-bit ADC" [style=rounded]
+	ice40 [style=rounded]
+		Transducer -> Clipping
+		Clipping -> "Time Gain Compensator"
+		"Time Gain Compensator" -> "64Msps, 10-bit ADC"
+		"64Msps, 10-bit ADC" -> ice40
+	ice40 [style=rounded]
+	"Time Gain Compensator" [style=rounded]
+		ice40 -> "Time Gain Compensator"
+	ice40 [style=rounded]
+	"motor control" [style=rounded]
+	feedback [style=rounded]
+	ice40 [style=rounded]
+		ice40 -> "motor control"
+		"motor control" -> feedback
+		feedback -> ice40
+	"Settings control" [style=rounded]
+	SPI [style=rounded]
+	ice40 [style=rounded]
+		"Settings control" -> SPI
+		SPI -> ice40
+}

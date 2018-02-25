@@ -9,6 +9,7 @@ digraph {
 		"Voir PCMLab (Jussieu)" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		Finance [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"Goblin - 2Msps SPI ADC -- Play with BBB and RPi0 SPI" [fillcolor=yellow penwidth=0 style="rounded,filled"]
+		"creer les liens sur le software/readme     vers les fichiers sources" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/fin4devmooc" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/effectiveppp" [fillcolor=yellow penwidth=0 style="rounded,filled"]
 		"https-//www.coursera.org/course/healthcareinnovation" [fillcolor=yellow penwidth=0 style="rounded,filled"]

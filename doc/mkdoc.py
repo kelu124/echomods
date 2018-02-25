@@ -51,7 +51,7 @@ ValidH = ["h1","h2","h3","h4","h5"]
 
 ModulesChaptDeux = ["tobo","retroATL3","goblin","elmo","alt.tbo"]
 ModulesChaptDeuxRT = ["mogaba","toadkiller"]
-ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom","loftus","wirephantom"]
+ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom","loftus","wirephantom","matty"]
 ModulesChaptTroisRT= ["sleepy","oneeye"]
 
 ModulesList = ModulesChaptDeux+ModulesChaptTrois
@@ -62,7 +62,7 @@ ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.
 ToBeReplaced = ["/include/NDT.md"]
 Replaced = ["/Chapter1/ndt.md"]
 
-ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz","hannin","matty"]
+ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz","hannin",]
 ExcludeDirsRetired = ExcludeDirs+["retired"]
 
 

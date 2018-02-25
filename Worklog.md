@@ -2753,6 +2753,17 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
   * [Comparing new and old pulsers](/include/20180216a/Readme.md)
   * [With a new driver for the pulser and ADC](/include/20180217a/Readme.md)
 
+
+#### 2018-02-25 un0rick moving again good
+
+* Getting [first images](/matty/20180224b/Readme.md) ! Yeayyy =)
+* So now, getting to:
+  * @todo Create matty module 
+  * @todo Publish first drafts on un0rick GH / GH-pages / gitbook
+  * @todo create un0rick page on echomods gitbook
+
+
+
 =======
 
 uControllers and other stuff

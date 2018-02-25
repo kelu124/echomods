@@ -96,11 +96,13 @@
 
 * [./matty/pitch.md](/matty/pitch.md):  . _File not used._
 
-* [./matty/nextsteps.md](/matty/nextsteps.md):  . _File not used._
+* [./matty/nextsteps.md](/matty/nextsteps.md):  . File used in: [`/Readme.md`](/Readme.md), [`/matty/Readme.md`](/matty/Readme.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md).
 
 * [./matty/oshw.md](/matty/oshw.md):  . _File not used._
 
 * [./matty/un0log.md](/matty/un0log.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+
+* [./matty/Readme.md](/matty/Readme.md): ice40 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./matty/1i/1i.md](/matty/1i/1i.md):  . _File not used._
 
@@ -109,6 +111,8 @@
 * [./matty/ideas/ice40.md](/matty/ideas/ice40.md):  . _File not used._
 
 * [./matty/ideas/ideas.md](/matty/ideas/ideas.md):  . _File not used._
+
+* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/Readme.md`](/matty/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./retired/sleepy/Readme.md](/retired/sleepy/Readme.md): Casing of the modules - readme . File used in: [`/Readme.md`](/Readme.md).
 

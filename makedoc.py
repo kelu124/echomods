@@ -45,6 +45,7 @@ GrosJaSON = { "images":{},"md":{} }
 
 if (len(sys.argv) > 0):
 	for element in sys.argv:
+		# Add full in the args to make graphs
 		if "full" in element:
 			FullSVG = 1
 

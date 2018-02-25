@@ -6,12 +6,12 @@
 #
 # Library for creating images from the 
 # files created by pulser module.
-# Used in `20180217a`
+# Used in `20180224a`
 # Definitely not optimized
 #
 # -------------------------
 
-'''Description: Autotagging images for the `20180217a` experiment.'''
+'''Description: Autotagging images for the `20180224a` experiment.'''
 
 __author__      = "kelu124"
 __copyright__   = "Copyright 2018, Kelu124"
@@ -51,13 +51,13 @@ for FileName in Imgs:
 		# Modules
 		metadata['Exif.Image.Software'] = "matty"
 		# Experiment
-		metadata['Exif.Image.Make'] = "20180217a"
+		metadata['Exif.Image.Make'] = "20180224a"
 
 		# Type of picture
 		if "DAT_rawsignal" in FileName:
 			metadata['Exif.Photo.MakerNote'] = "graph"
 			# Description
-			metadata['Exif.Image.ImageDescription'] = "Map of the DATA file from the 20180217a experiment"
+			metadata['Exif.Image.ImageDescription'] = "Map of the DATA file from the 20180224a experiment"
 		elif "msps" in FileName:
 			metadata['Exif.Photo.MakerNote'] = "BSB"
 			# Description

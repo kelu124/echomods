@@ -10,6 +10,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * Remove the jitter (see image in Rdme) (in [cletus](/cletus/))
 * Include <a href="/cletus/2017-06-08_FindingSuppliers.md">notes</a> (in [cletus](/cletus/))
 * Save images as DICOMs (in [tomtom](/tomtom/))
+* See the <a href="/matty/nextsteps.md">next steps</a> (in [matty](/matty/))
+* Having it work with a <a href="/retroATL3/">retroATL3</a> (in [matty](/matty/))
 * Replace the work done by <a href="/retired/oneeye/">OneEye</a> by <a href="/croaker/">Croaker</a> - that is, pulse control. (in [croaker](/croaker/))
 * Get better total ADC speed with an iterleaved move (in [croaker](/croaker/))
 * Develop a Cletus+Croaker way of working with a gyroscope+accelerometer. (in [croaker](/croaker/))
@@ -46,6 +48,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * readding description into experiment files
 * a page summarizing the experiments
 * un0rick site to have plenty of stuff
+ * Create matty module 
+ * Publish first drafts on un0rick GH / GH-pages / gitbook
+ * create un0rick page on echomods gitbook
 
 
 

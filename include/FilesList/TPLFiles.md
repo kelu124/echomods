@@ -28,6 +28,8 @@
 
 * [20180103a.md.tpl](/include/experiments/auto/20180103a.md.tpl): ./include/experiments/auto/20180103a.md.tpl. _File not used._
 
+* [20180224a.md.tpl](/include/experiments/auto/20180224a.md.tpl): ./include/experiments/auto/20180224a.md.tpl. _File not used._
+
 * [20170611a.md.tpl](/include/experiments/auto/20170611a.md.tpl): ./include/experiments/auto/20170611a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20171001b.md.tpl](/include/experiments/auto/20171001b.md.tpl): ./include/experiments/auto/20171001b.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).

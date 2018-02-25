@@ -25,8 +25,8 @@
 * [testSPI2.ipynb](/matty/SPI/testSPI2.ipynb). _File not used._
 * [Untitled.ipynb](/matty/SPI/Untitled.ipynb). _File not used._
 * [testSPI1.ipynb](/matty/SPI/testSPI1.ipynb). _File not used._
-* [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). _File not used._
-* [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). _File not used._
+* [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md).
+* [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). File used in: [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md).
 * [RPi.ipynb](/matty/images/20180221a/RPi.ipynb). _File not used._
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). _File not used._
 * [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). File used in: [`/retired/toadkiller/Readme.md`](/retired/toadkiller/Readme.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md).

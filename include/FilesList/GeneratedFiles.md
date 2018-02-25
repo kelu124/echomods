@@ -24,6 +24,7 @@
 * ./include/experiments/Desc_20171112a.md
 * ./include/experiments/Desc_20180103a.md
 * ./include/experiments/Desc_20180216a.md
+* ./include/experiments/Desc_20180224a.md
 * ./include/experiments/Desc_20171111a.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20171124a.md
@@ -38,6 +39,7 @@
 * ./include/experiments/auto/Img_20180217a.md
 * ./include/experiments/auto/Img_20171111a.md
 * ./include/experiments/auto/Code_20180115a.md
+* ./include/experiments/auto/Mod_20180224a.md
 * ./include/experiments/auto/Mod_20170930a.md
 * ./include/experiments/auto/Mod_20180103a.md
 * ./include/experiments/auto/Mod_20171124a.md
@@ -73,6 +75,7 @@
 * ./include/experiments/auto/Mod_20171001a.md
 * ./include/experiments/auto/Img_20171124a.md
 * ./include/experiments/auto/Mod_20170611a.md
+* ./include/experiments/auto/Img_20180224a.md
 * ./include/experiments/auto/Mod_20170715a.md
 * ./include/experiments/auto/Img_20170715a.md
 * ./include/experiments/auto/Code_20170611a.md
@@ -93,6 +96,7 @@
 * ./include/experiments/auto/20180103a.md
 * ./include/experiments/auto/Code_20170713a.md
 * ./include/experiments/auto/Img_20171112a.md
+* ./include/experiments/auto/Code_20180224a.md
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md
 * ./include/sets/sets_slides.md
@@ -136,6 +140,7 @@
 * ./gitbook/Chapter3/wirephantom.md
 * ./gitbook/Chapter3/oneeye.md
 * ./gitbook/Chapter3/sleepy.md
+* ./gitbook/Chapter3/matty.md
 * ./gitbook/Chapter3/doj.md
 * ./gitbook/Chapter3/tomtom.md
 * ./gitbook/Chapter3/croaker.md
