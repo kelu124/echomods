@@ -48,9 +48,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * readding description into experiment files
 * a page summarizing the experiments
 * un0rick site to have plenty of stuff
- * Create matty module 
  * Publish first drafts on un0rick GH / GH-pages / gitbook
- * create un0rick page on echomods gitbook
+* create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
 
 
 

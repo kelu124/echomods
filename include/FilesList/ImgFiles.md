@@ -1007,6 +1007,34 @@
   * 20180224a
   * Representing the lines of the acquisitions
   * ./matty/20180224a/images/y19-VGA@0x11-spimode1-10msps.jpg
+* __/matty/20180225a/probe.jpg__:
+  * kelu124
+  * matty
+  * ASC
+  * 20180225a
+  * After the scan conversion
+  * ./matty/20180225a/probe.jpg
+* __/matty/20180225a/line70.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180225a
+  * Review of the signal
+  * ./matty/20180225a/line70.jpg
+* __/matty/20180225a/raw.jpg__:
+  * kelu124
+  * matty
+  * BSC
+  * 20180225a
+  * Before scan conversion
+  * ./matty/20180225a/raw.jpg
+* __/matty/20180225a/IMG_20180225_184226.jpg__:
+  * kelu124
+  * matty
+  * setup
+  * 20180225a
+  * Setup of the experiment
+  * ./matty/20180225a/IMG_20180225_184226.jpg
 * __/matty/20180224b/images/kk-4-VGA@0x22-spimode1-21msps.jpg__:
   * kelu124
   * matty
@@ -1121,10 +1149,10 @@
   * ./matty/images/20180224a.jpg
 * __/matty/images/IMG_20180115_194856.jpg__:
   * kelu124
-  * PRA-LX1C432B180
-  * Auto 
-  * ToTag
-  * bty
+  * matty
+  * setup
+  * 20180115a
+  * Picture of the matty board
   * ./matty/images/IMG_20180115_194856.jpg
 * __/matty/images/20180221a/yeayy-0-5000-8000000.jpg__:
   * kelu124

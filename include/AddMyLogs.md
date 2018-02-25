@@ -2617,7 +2617,7 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce ? for 1A
 * BTW, un0rick light could be good! (UP5K, HV7361+MD0100!, no RAM, just pulser, few buttons, ... :) ) -- to be discussed / price checked.
 
 #### 2018-02-18 un0rick deadend
-
+https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html
 Nothing works yet on the MOSI line... strange to read those. Version from 11/02 works still. To be explored!
 
 * On the good side, I had time to test the new Elmo v2 and Alt.tbo v2 boards:
@@ -2629,10 +2629,10 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 
 * Getting [first images](/matty/20180224b/Readme.md) ! Yeayyy =)
 * So now, getting to:
-  * @todo Create matty module 
+  * @done Create matty module 
   * @todo Publish first drafts on un0rick GH / GH-pages / gitbook
-  * @todo create un0rick page on echomods gitbook
-
+  * @done create [un0rick page](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html) on echomods gitbook
+* @todo create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
 
 
 =======
