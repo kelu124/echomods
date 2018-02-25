@@ -2,7 +2,7 @@
 
 ## Setup
 
-![](/echomods/matty/20180224b/images/IMG_20180224_195210.jpg)
+![](/matty/20180224b/images/IMG_20180224_195210.jpg)
 
 * [Acquiring the signal](/matty/20180224b/20180221b-Server.ipynb)
 * [On the computer / processing side](/matty/20180224b/20180221b-Client.ipynb)
