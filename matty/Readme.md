@@ -106,7 +106,7 @@ The aim is to summarize all modules in a all-inclusive board. Fast ADC, good loa
 
 #### Raw signal
 
-![](/matty/20180225a/raw.jpg)
+![](/matty/20180225a/probe.jpg)
 
 ## Discussions
 
