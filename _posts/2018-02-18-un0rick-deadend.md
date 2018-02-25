@@ -16,5 +16,3 @@ from 11/02 works still. To be explored!
 -   [With a new driver for the pulser and
     ADC](/include/20180217a/Readme.md)
 
-=======
-
