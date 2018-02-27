@@ -1014,6 +1014,27 @@
   * 20180225a
   * Comparing lines
   * ./matty/20180226a/compare_version.jpg
+* __/matty/20180227a/One-5-VGA@0x22-spimode1-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180225a
+  * Analysing acquisition at 32 and 64Msps
+  * ./matty/20180227a/One-5-VGA@0x22-spimode1-64msps.jpg
+* __/matty/20180227a/32_64.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180225a
+  * Analysing acquisition at 32 and 64Msps
+  * ./matty/20180227a/32_64.jpg
+* __/matty/20180227a/One-0-VGA@0x22-spimode1-32msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180225a
+  * Analysing acquisition at 32 and 64Msps
+  * ./matty/20180227a/One-0-VGA@0x22-spimode1-32msps.jpg
 * __/matty/20180225a/probe.jpg__:
   * kelu124
   * matty

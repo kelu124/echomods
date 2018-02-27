@@ -1,3 +1,11 @@
+#### 2018-02-27 Good news
+
+* [HV Pulsers work!](/matty/images/hv/PonPoff_test/Readme.md)
+* I got [nice echoes day](/matty/20180224b/Readme.md) before yesterday
+* Got [images with a probe yesterday](/matty/20180225a/Readme.md)
+* Acquisitions rock at [32 and 64Msps](/matty/20180227a/Readme.md) avec [ce binary](/matty/prog_flash/dMATTY128WE_inverted20180227.bin)!
+
+
 #### 2018-02-21 Reading ok on 8bits
 
 * Now working on 8bits. Still issues on 16 bit transfers.

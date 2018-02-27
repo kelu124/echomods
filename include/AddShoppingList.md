@@ -50,6 +50,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * un0rick site to have plenty of stuff
  * Publish first drafts on un0rick GH / GH-pages / gitbook
 * create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
+* use [General Design Procedure for Free and Open-Source Hardware for Scientific Equipment](http://www.mdpi.com/2411-9660/2/1/2/htm) as a reference
 
 
 

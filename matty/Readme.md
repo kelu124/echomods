@@ -55,7 +55,6 @@ The aim is to summarize all modules in a all-inclusive board. Fast ADC, good loa
 * `ice40`->`motor control`->`feedback`->`ice40`
 * `Settings control`->`SPI`->`ice40`
 
-### How does it work: block diagram
 
 ## About the module
 
@@ -75,6 +74,13 @@ The aim is to summarize all modules in a all-inclusive board. Fast ADC, good loa
 * Some issues are left, need to take care of as in [next steps](/matty/nextsteps.md)
 * Interesting [first result](/matty/20180224b/Readme.md), summarized below:
 
+#### Getting images from a [retroATL3](/retroATL3/) probe.
+
+![](/matty/20180225a/probe.jpg)
+
+![](/matty/20180225a/line70.jpg)
+
+(see the [readme](/matty/20180225a/Readme.md) )
 
 #### Setup
 
@@ -98,15 +104,11 @@ The aim is to summarize all modules in a all-inclusive board. Fast ADC, good loa
 
 ![](/matty/20180224b/images/comparing_gain.jpg)
 
-### With a [retroATL3 probe](/retroATL3/)
+### Controling the pulser works!
 
-#### Detail of a line
+* Checked [here](/matty/images/hv/PonPoff_test/Readme.md)
 
-![](/matty/20180225a/line70.jpg)
-
-#### Raw signal
-
-![](/matty/20180225a/probe.jpg)
+![](/matty/images/hv/PonPoff_test/75V_Piezo.png)
 
 ## Discussions
 
