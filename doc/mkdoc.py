@@ -199,7 +199,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 
 		# Checks MD, ino, py, c, jupyter
 		ListOfChecks = ["md","jupyter","C", "arduino", "python"]
-		SourceCode = "# Experiment `"+Expe+"`\n\n## List of files"
+		SourceCode = "# Automated list of supporting files for the __experiment `"+Expe+"`__\n\n## List of files"
 		for keyKey in ListOfChecks:
 			Files = []
 			for key in FatJSON[keyKey].keys():
@@ -211,8 +211,18 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 				elif (Expe in key):
 				    if ("include" not in key):
 					if ("gitbook" not in key):
-
 						Files.append(key)
+
+				if not ("/include/experiments/" in key) and not ("/gitbook/" in key):
+				# @todo kelu add readmes for md and experiments
+					
+					if "/"+Expe+"/Readme.md" in key:
+						print  key + " -> "+"/"+Expe+"/Readme.md"
+						ExpeJSON[Expe]["Readme"] = key
+					elif Expe+".md" in key:
+						print key + " -> "+Expe+".md"
+						ExpeJSON[Expe]["Readme"] = key
+
 			Files = list(set(Files))
 			if len(Files):
 				SourceCode += "\n\n### "+keyKey+"\n\n"
@@ -229,6 +239,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 
 		# Searching for images 
 		matches = [x for x in ListIfImage if Expe in x[3] ]
+
 		ExpeJSON[Expe]["images"] = []
 		setupimgs = [x for x in matches if "setup" in x[2] ]
 		bscimgs = [x for x in matches if "BSC" in x[2] ]
@@ -288,8 +299,17 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 
 		# Doing the template
 		fname = "./include/experiments/auto/"+Expe+".md.tpl"
-		PM = "@kelu include(/include/experiments/Desc_"+Expe+".md)\n\n"
-		PM = "@kelu include(/include/experiments/auto/Code_"+Expe+".md)\n\n"
+
+		PM = ""
+		if "Readme" in ExpeJSON[Expe].keys():
+			print Expe+" has a custom Readme"
+			PM += "@kelu include("+ExpeJSON[Expe]["Readme"]+")\n\n"
+		else:
+			print Expe+" basic"
+			PM += "@kelu include(/include/experiments/Desc_"+Expe+".md)\n\n"
+
+
+		PM += "@kelu include(/include/experiments/auto/Code_"+Expe+".md)\n\n"
 		PM += "@kelu include(/include/experiments/auto/Mod_"+Expe+".md)\n\n"
 		PM += "@kelu include(/include/experiments/auto/Img_"+Expe+".md)\n\n"
 

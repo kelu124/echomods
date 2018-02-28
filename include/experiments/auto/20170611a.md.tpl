@@ -1,3 +1,5 @@
+@kelu include(/include/experiments/Desc_20170611a.md)
+
 @kelu include(/include/experiments/auto/Code_20170611a.md)
 
 @kelu include(/include/experiments/auto/Mod_20170611a.md)
