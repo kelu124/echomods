@@ -16,7 +16,7 @@ Got 3 months left (see 28/7), let's do... a **MASTER TODO** !
 -   **CNFab**
 -   Get maps
 -   Send maps
--   Receive alt.tobo and lite.gobs by 15/9
+-   Receive alt.tbo and lite.gobs by 15/9
 -   Test those
 -   Put them on tindie with ADC pHATs
 -   **Gob**
@@ -27,7 +27,7 @@ Got 3 months left (see 28/7), let's do... a **MASTER TODO** !
 -   10/9: Get it to MF
 -   10/10: get it and Test before 20/10
 -   **Single board**
--   Get alt.tobo.cheap tested
+-   Get alt.tbo.cheap tested
 -   Start design by 10/10
 -   Get sent to macrofab by 25/10
 -   Receive board by 25/11
