@@ -315,7 +315,8 @@ OpenWrite(AllFilesLog,"include/FilesList/AllFiles.md")
 # -------------------------
 
 
-AllExpeList,ExpeJSON = MakeExperiments(ListOfExperiment,ListIfImages,GrosJaSON)
+AllExpeList,ExpeJSON,LogExpe = MakeExperiments(ListOfExperiment,ListIfImages,GrosJaSON)
+log = log+LogExpe
 GrosJaSON["experiments"] = ExpeJSON
 
 # -------------------------
@@ -928,7 +929,7 @@ Examples_croaker=getText("croaker/data/examples/Readme.md")
 OpenWrite("# Images acquired using Croaker \n\n"+AddRawHURL(AddOneLevel(Examples_croaker))+"\n\n","gitbook/Chapter5/croaker_data.md")
 
 Loops = ""
-f = open("include/20160814/2016-08-14-HackingAUltrasoundProbe.md", 'r')
+f = open("include/20160814/20160814a.md", 'r')
 Loops += f.read() + "\n\n"
 f.close()
 f = open("include/20160822/2016-08-22-Fantom.md", 'r')

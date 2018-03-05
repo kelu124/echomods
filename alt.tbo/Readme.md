@@ -23,7 +23,7 @@ alt.tbo: the bipolar HV-pulser
 * cost:120$
 * sourcing:Tindie
 * date: 24/09/2017
-* technology: Module-compatible, Homemade PCB, ICs based on `HV7360` and `R05-100B`
+* technology: Module-compatible, Homemade PCB, ICs based on `TC6320TG` and `NMT0572SC`
 * language: Altium
 * author: Kelu124
 
@@ -48,7 +48,7 @@ alt.tbo: the bipolar HV-pulser
 ## Key Components
 
 * `TC6320TG`
-* `R05-100B`
+* `NMT0572SC`
 
 ## Information
 
@@ -72,11 +72,12 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### Pros
 
-* @todo
+* Cheaper, more robust than [tobo](/tobo/)
+* Less issues with the MD0100
 
 ### Cons
 
-* @todo
+* As of today (20180305), the damper still lacks
 
 ## Constraint and limits
 
@@ -134,7 +135,6 @@ To be powered at 5V only.
 
 ## Discussions
 
-
 ### TODO
 
 * Check a design w/ [this idea](/alt.tbo/images/md1811_ref.jpg) which is similar to [this other idea](/alt.tbo/images/md1210_ref_2.jpg) or [this last idea](/alt.tbo/images/md1210_ref.jpg).
@@ -163,10 +163,3 @@ Copyright Kelu124 (kelu124@gmail.com) 2015-2018
 The following work is base on a previous TAPR project, [Murgen](https://github.com/kelu124/murgen-dev-kit) - and respects its TAPR license.
 
 Copyright Kelu124 (kelu124@gmail.com) 2015-2018
-
-
-
-
-
-
-

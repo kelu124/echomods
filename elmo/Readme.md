@@ -13,10 +13,10 @@ Using a dual ADC raspberry extension for 20Msps+ DAQ
 ## Description
 
 * High speed ADC pHAT
-* version: V1.3
-* date: 10/06/2017
-* cost:45$
-* sourcing:OSHPark, MacroFab
+* version: V2.0
+* date: 05/03/2018
+* cost:75$
+* sourcing:OSHPark, MacroFab, Tindie
 * technology: SMD, AD9200
 * language: n/a
 * author: Kelu124
@@ -43,35 +43,36 @@ Using a dual ADC raspberry extension for 20Msps+ DAQ
 ### What is it supposed to do?
 
 
-The aim of this module is to achieve 10Msps, ideally 20Msps, at 9bits or more. Inspired from the [Bomanz]() project as well, which tried several high-speed ADCs setup for Raspberry Pi.
-
+The aim of this module is to achieve 20Msps, at 9bits or more. 
 
 ### How does it work: block diagram
 
 ![Block schema](/elmo/source/blocks.png)
 
-* `Raw Signal`->`ITF-12_RPIn`->`ADC`->`Buffer`->`Pi`->`Signal Digitalized`
-* `ITF-4_RawSig`->`ITF-12_RPIn`
-* `ITF-11_OffSig`->`ITF-12_RPIn`
-* `ITF-3_ENV`->`ITF-12_RPIn`
+* `Raw Signal`->`ITF-12_RPIn`->`Selector`->`ADC`->`Buffer`->`Pi`->`Signal Digitalized`
+* `Raw Signal`->`Onboard header`->`Selector`
+* `+Vref/2 jumper`->`ADC`
+* `GND`->`Selector`
+* `ITF-4_RawSig`->`Doj Jumper`->`ITF-12_RPIn`
+* `ITF-11_OffSig`->`Doj Jumper`
+* `ITF-3_ENV`->`Doj Jumper`
 
 ## About the module
 
 ### Pros
 
 * High speed, 9 bit ADCs!
+* Full [Altium source](/elmo/source/v2/elmov2_altium.zip), [Gerbers](/elmo/source/v2/elmov2_gerber.zip), [BOM](/elmo/source/v2/BOM.xls), [schematics](/elmo/source/v2/ADC_pHAT.pdf).
 
 ### Cons
 
-* SMDs is tough to assemble?
+* SMDs is tough to assemble
+* Linux is not real time: there will be inaccuracies in the measurements!
+* Need a custom kernel module
 
 ## Constraint and limits
 
-
-* Still being debugged
-
-
-
+* See above ;)
 
 ### Discussions
 
@@ -93,7 +94,7 @@ Win.
 
 At least for the moment, now I need to order the PCBs and some components.
 
--> BOM is around 30$ components, 5$ OSHPark PCB.. that's quite neat.
+-> [BOM](/elmo/source/v2/BOM.xls) is around 30$ components, 5$ OSHPark PCB.. that's quite neat.
 
 #### Raw signal acquisition and enveloppe with this ADC pHAT
 
@@ -114,13 +115,13 @@ See the [jupyter notebook](/elmo/data/20170609-NewADC-v3.ipynb):
 
 Issues: bugs in connected ADC pins + no offset really
 
-#### WHat does v2 look like ?
+#### What does v2 look like ?
 
 ![](/elmo/source/v2/3d.jpg)
 
 and the corresponding [schematics (PDF)](/elmo/source/v2/ADC_pHAT.pdf).
 
-#### What does v0 look like ?
+#### What does v1 look like ?
 
 __Top in 3D__
 
@@ -134,14 +135,15 @@ __Bottom in 3D__
 ### TODO
 
 * Lots
-* Produce a batch of [rev2 elmo](/elmo/source/ADCpHat_r2.zip)
 
 ### DONE
 
+* Write the [Quickstart](/elmo/QuickStart.md)
 * Getting a board an soldering some ADCs
 * Understand GPIO [mem mapping](/elmo/data/20170609-NewADC.ipynb)
 * Get raw data with [offset vref/2](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb)
 * Tests with a single ADC at 11Msps
+* Produce a batch of [rev2 elmo](/elmo/source/v2/elmov2_altium.zip)
 
 ### People
 

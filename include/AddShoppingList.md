@@ -51,6 +51,9 @@ Here's a couple of things we're working on, for which you could help as well.
  * Publish first drafts on un0rick GH / GH-pages / gitbook
 * create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
 * use [General Design Procedure for Free and Open-Source Hardware for Scientific Equipment](http://www.mdpi.com/2411-9660/2/1/2/htm) as a reference
+* compare [old pulser](/alt.tbo/20171111a/20171111-pulses.ipynb) (pulser) and [new acs](/matty/20180224b/20180221b-Client.ipynb) for matty readme
+ * for matty [Rip this intro?](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
+* clean all repos for a v2 release of modules 
 
 
 

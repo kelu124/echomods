@@ -12,9 +12,11 @@
 
 * [./tobo/QuickStart.md](/tobo/QuickStart.md):  . File used in: [`/tobo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.html), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
+* [./elmo/QuickStart_v1.md](/elmo/QuickStart_v1.md):  . _File not used._
+
 * [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./elmo/QuickStart.md](/elmo/QuickStart.md):  . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [./elmo/QuickStart.md](/elmo/QuickStart.md):  . File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
 * [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/tobo/QuickStart.md`](/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -22,9 +24,9 @@
 
 * [./alt.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
-* [./alt.tbo/20171112a/Readme.md](/alt.tbo/20171112a/Readme.md):  . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./alt.tbo/20171112a/Readme.md](/alt.tbo/20171112a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [./alt.tbo/20171112b/Readme.md](/alt.tbo/20171112b/Readme.md):  . _File not used._
+* [./alt.tbo/20171112b/Readme.md](/alt.tbo/20171112b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md).
 
 * [./alt.tbo/test/Readme.md](/alt.tbo/test/Readme.md):  . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
@@ -32,7 +34,7 @@
 
 * [./alt.tbo/20171028a/Readme.md](/alt.tbo/20171028a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
-* [./alt.tbo/20171111a/Readme.md](/alt.tbo/20171111a/Readme.md):  . _File not used._
+* [./alt.tbo/20171111a/Readme.md](/alt.tbo/20171111a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md).
 
 * [./cletus/2017-06-08_FindingSuppliers.md](/cletus/2017-06-08_FindingSuppliers.md):  . File used in: [`/Readme.md`](/Readme.md), [`/cletus/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.html), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
@@ -102,13 +104,23 @@
 
 * [./matty/oshw.md](/matty/oshw.md):  . _File not used._
 
+* [./matty/mat2un.md](/matty/mat2un.md):  . File used in: [`/Worklog.md`](/Worklog.md).
+
 * [./matty/un0log.md](/matty/un0log.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./matty/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html): ice40 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./matty/20180227a/Readme.md](/matty/20180227a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md).
+* [./matty/20180227a/Readme.md](/matty/20180227a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
 
 * [./matty/1i/1i.md](/matty/1i/1i.md):  . _File not used._
+
+* [./matty/news/2017-11-19-first-ideas.md](/matty/news/2017-11-19-first-ideas.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+
+* [./matty/news/2018-02-27-good-news.md](/matty/news/2018-02-27-good-news.md):  . _File not used._
+
+* [./matty/news/2018-01-23-first-board.md](/matty/news/2018-01-23-first-board.md):  . _File not used._
+
+* [./matty/news/2018-02-02-first-tests.md](/matty/news/2018-02-02-first-tests.md):  . _File not used._
 
 * [./matty/1t/idea.md](/matty/1t/idea.md):  . _File not used._
 
@@ -116,11 +128,11 @@
 
 * [./matty/ideas/ideas.md](/matty/ideas/ideas.md):  . _File not used._
 
-* [./matty/20180225a/Readme.md](/matty/20180225a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
+* [./matty/20180225a/Readme.md](/matty/20180225a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
 
-* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./retired/sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.md): Casing of the modules - readme . File used in: [`/Readme.md`](/Readme.md).
 
@@ -276,7 +288,7 @@
 
 * [./include/UniBoard/UniBoard.md](/include/UniBoard/UniBoard.md):  . File used in: [`/include/UniBoard.md`](/include/UniBoard.md).
 
-* [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [./include/20160814/20160814a.md](/include/20160814/20160814a.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._
 
@@ -408,12 +420,12 @@
 
 ## Jupyter files
 
-* [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/elmo/QuickStart_v1.md`](/elmo/QuickStart_v1.md), [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170713-TwoADCs.ipynb](/elmo/data/20170713-TwoADCs.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb). File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170613-TestWithRawSignal.ipynb](/elmo/data/20170613-TestWithRawSignal.ipynb). File used in: [`/elmo/QuickStart_v1.md`](/elmo/QuickStart_v1.md), [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170711-TwoADCs.ipynb](/elmo/data/20170711-TwoADCs.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170609-NewADC.ipynb](/elmo/data/20170609-NewADC.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170709-Repeats.ipynb](/elmo/data/arduiprobe/20170709-Repeats.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -426,7 +438,7 @@
 * [20170930-AltPulser.ipynb](/alt.tbo/test/20170930-AltPulser.ipynb). File used in: [`/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html), [`/alt.tbo/test/Readme.md`](/alt.tbo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20171001-new.ipynb](/alt.tbo/20171001a/20171001-new.ipynb). File used in: [`/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.html), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20171028-pulses.ipynb](/alt.tbo/20171028a/20171028-pulses.ipynb). File used in: [`/alt.tbo/20171028a/Readme.md`](/alt.tbo/20171028a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20171111-pulses.ipynb](/alt.tbo/20171111a/20171111-pulses.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20171111-pulses.ipynb](/alt.tbo/20171111a/20171111-pulses.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [matty20180210_bitmap.ipynb](/matty/prog_flash/matty20180210_bitmap.ipynb). _File not used._
 * [MATTY20180211_bitmap.ipynb](/matty/prog_flash/MATTY20180211_bitmap.ipynb). File used in: [`/matty/un0log.md`](/matty/un0log.md).
@@ -439,7 +451,7 @@
 * [20180227a-Loops.ipynb](/matty/20180227a/20180227a-Loops.ipynb). _File not used._
 * [20180225a-Loops.ipynb](/matty/20180225a/20180225a-Loops.ipynb). File used in: [`/matty/20180225a/Readme.md`](/matty/20180225a/Readme.md), [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
 * [20180225a-Server.ipynb](/matty/20180225a/20180225a-Server.ipynb). File used in: [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
-* [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md).
+* [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 * [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). File used in: [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md).
 * [RPi.ipynb](/matty/images/20180221a/RPi.ipynb). _File not used._
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). _File not used._

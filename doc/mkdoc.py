@@ -193,6 +193,7 @@ def getCode(string):
 
 def MakeExperiments(ExpList,ListIfImage,FatJSON):
 	ExpeJSON = {}
+	log = []
 	ExpeSummary = ""
 	for Expe in ExpList:
 		ExpeJSON[Expe] = {}
@@ -300,6 +301,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		# Doing the template
 		fname = "./include/experiments/auto/"+Expe+".md.tpl"
 
+
 		PM = ""
 		if "Readme" in ExpeJSON[Expe].keys():
 			print Expe+" has a custom Readme"
@@ -307,7 +309,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		else:
 			print Expe+" basic"
 			PM += "@kelu include(/include/experiments/Desc_"+Expe+".md)\n\n"
-
+			log.append("__[Experiments]__ "+WarningMark+" `"+Expe+"` : no Readme or experiment description. ")
 
 		PM += "@kelu include(/include/experiments/auto/Code_"+Expe+".md)\n\n"
 		PM += "@kelu include(/include/experiments/auto/Mod_"+Expe+".md)\n\n"
@@ -317,7 +319,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		OpenWrite(PM,fname)
 
 	OpenWrite(ExpeSummary,"include/AllExpes.md")
-	return ModF,ExpeJSON
+	return ModF,ExpeJSON, log
 
 # -------------------------
 # Processing images

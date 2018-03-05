@@ -1374,7 +1374,7 @@ Awesome work: a FPGA on a RPi0 footprint
 
 #### 2016-08-14 Acquiring a first image
 
-* Read some [on this page](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md): got an image from a ATL3 probe, a small metal cube in water.
+* Read some [on this page](/include/20160814/20160814a.md): got an image from a ATL3 probe, a small metal cube in water.
 * Leaving for holidays =)
 
 #### 2016-08-22 Back from holidays
@@ -1991,7 +1991,7 @@ Netty isn't nice... but just got my article accepted by JOH !
   * [x] @done Add TPL list
 * Nice patent : https://www.google.com/patents/US4246792
 
-* Updated the first draft of the [tobo.alt](/alt.tbo/draft.alt.tobo.v0.01pdf)
+* Updated the first draft of the [tobo.alt](/alt.tbo/draft.alt.tbo.v0.01pdf)
 
 #### 2017-07-09 ADC boosting
 
@@ -2111,7 +2111,7 @@ Got 3 months left (see 28/7), let's do... a __MASTER TODO__ !
 * __CNFab__
    * Get maps
    * Send maps
-   * Receive alt.tobo and lite.gobs by 15/9
+   * Receive alt.tbo and lite.gobs by 15/9
    * Test those
    * Put them on tindie with ADC pHATs
 * __Gob__
@@ -2122,7 +2122,7 @@ Got 3 months left (see 28/7), let's do... a __MASTER TODO__ !
    * 10/9: Get it to MF
    * 10/10: get it and Test before 20/10
 * __Single board__
-   * Get alt.tobo.cheap tested
+   * Get alt.tbo.cheap tested
    * Start design by 10/10
    * Get sent to macrofab by 25/10
    * Receive board by 25/11
@@ -2391,7 +2391,7 @@ ebay
 * Open toolchain is Verilog / VHDL / Lattice tools
 * 130 lines of 150us at 24Msps on 16 bits is 7488000 bits
 
-* Worked on two experiments: [pulser tests](/alt.tobo/20171111a/Readme.md) and [testing new probe](/alt.tobo/20171112a/Readme.md), [and again, once the probe is refilled](/alt.tobo/20171112b/Readme.md)
+* Worked on two experiments: [pulser tests](/alt.tbo/20171111a/Readme.md) and [testing new probe](/alt.tbo/20171112a/Readme.md), [and again, once the probe is refilled](/alt.tbo/20171112b/Readme.md)
 * @todo 20171111a and 20171112b Readmes
 
 #### 2017-11-18 more veille on fpga
@@ -2644,6 +2644,33 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 * nice [5V to 170V booster](https://surfncircuits.com/2018/02/03/optimizing-the-5v-to-170v-nixie-tube-power-supply-design-part-2/) with the [schematics](https://raw.githubusercontent.com/drkmsmithjr/NixiePowerSupply/master/KC_NixieSupply5vTo160v/nixiesupply5vto160vdcmboost-sch.png).
 
 * Get inspiration [from this inspiration](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
+
+#### 2018-02-28 Documentation and comparisons
+
+* @todo compare [old pulser](/alt.tbo/20171111a/20171111-pulses.ipynb) (pulser) and [new acs](/matty/20180224b/20180221b-Client.ipynb) for matty readme
+* @done automating finding readmes of experiments
+ 
+#### 2018-03-05 Going to rick
+
+* Iterations for next steps:
+  * [Roadmap for the next evolution](/matty/mat2un.md)
+  * Phantom in PU to do ? What accoustic impedance?
+  * @todo for matty [Rip this intro?](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
+
+* Other stuff: explore ETH
+  * https://steemit.com/ethereum/@cryptomancer/ethereum-for-dummies-introducing-the-next-great-technological-leap-forward
+  * __CryptoZombies__
+  * https://www.ethereum-france.com/les-oracles-lien-entre-la-blockchain-et-le-monde/  
+  * http://www.lemagit.fr/conseil/Votre-entreprise-future-oracle-de-Blockchain  
+  * https://blockchainhub.net/blockchain-oracles/
+  * https://www.ledger.fr/2016/08/31/hardware-pythias-bridging-the-real-world-to-the-blockchain/#.2zeggzh6f
+  * https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/
+  * https://media.consensys.net/a-visit-to-the-oracle-de9097d38b2f
+
+* @todo clean all repos for a v2 release of modules 
+  * Elmo : OK!
+  * Alt.tbo
+  * Gob
 
 
 

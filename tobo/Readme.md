@@ -126,7 +126,7 @@ Setup? Have a look at the [quick start guide](/tobo/QuickStart.md) on how to pre
 
 ![](/alt.tbo/alt.tbo/pulser-3d.png)
 
-[The alt design](/alt.tbo/) (and the corresponding [the schematics](/alt.tbo/draft.alt.tbo.v0.01pdf)  + [BOM](/alt.tbo/alt.tbo/BOM.xls) ).
+[The alt design](/alt.tbo/) (and the corresponding [the schematics](/alt.tbo/draft.alt.tobo.v0.01pdf)  + [BOM](/alt.tbo/source/v2/BOM.v2.macrofab.xlsx) ).
 
 
 
@@ -168,10 +168,5 @@ Copyright Kelu124 (kelu124@gmail.com) 2015-2018
 The following work is base on a previous TAPR project, [Murgen](https://github.com/kelu124/murgen-dev-kit) - and respects its TAPR license.
 
 Copyright Kelu124 (kelu124@gmail.com) 2015-2018
-
-
-
-
-
 
 

@@ -10,9 +10,11 @@
 
 * [./tobo/QuickStart.md](/tobo/QuickStart.md):  . File used in: [`/tobo/Readme.md`](/tobo/Readme.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
+* [./elmo/QuickStart_v1.md](/elmo/QuickStart_v1.md):  . _File not used._
+
 * [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./elmo/QuickStart.md](/elmo/QuickStart.md):  . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [./elmo/QuickStart.md](/elmo/QuickStart.md):  . File used in: [`/elmo/Readme.md`](/elmo/Readme.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
 * [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/tobo/QuickStart.md`](/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -20,9 +22,9 @@
 
 * [./alt.tbo/Readme.md](/alt.tbo/Readme.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
-* [./alt.tbo/20171112a/Readme.md](/alt.tbo/20171112a/Readme.md):  . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./alt.tbo/20171112a/Readme.md](/alt.tbo/20171112a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [./alt.tbo/20171112b/Readme.md](/alt.tbo/20171112b/Readme.md):  . _File not used._
+* [./alt.tbo/20171112b/Readme.md](/alt.tbo/20171112b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md).
 
 * [./alt.tbo/test/Readme.md](/alt.tbo/test/Readme.md):  . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
@@ -30,7 +32,7 @@
 
 * [./alt.tbo/20171028a/Readme.md](/alt.tbo/20171028a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
-* [./alt.tbo/20171111a/Readme.md](/alt.tbo/20171111a/Readme.md):  . _File not used._
+* [./alt.tbo/20171111a/Readme.md](/alt.tbo/20171111a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md).
 
 * [./cletus/2017-06-08_FindingSuppliers.md](/cletus/2017-06-08_FindingSuppliers.md):  . File used in: [`/Readme.md`](/Readme.md), [`/cletus/Readme.md`](/cletus/Readme.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
@@ -100,13 +102,23 @@
 
 * [./matty/oshw.md](/matty/oshw.md):  . _File not used._
 
+* [./matty/mat2un.md](/matty/mat2un.md):  . File used in: [`/Worklog.md`](/Worklog.md).
+
 * [./matty/un0log.md](/matty/un0log.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./matty/Readme.md](/matty/Readme.md): ice40 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./matty/20180227a/Readme.md](/matty/20180227a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md).
+* [./matty/20180227a/Readme.md](/matty/20180227a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
 
 * [./matty/1i/1i.md](/matty/1i/1i.md):  . _File not used._
+
+* [./matty/news/2017-11-19-first-ideas.md](/matty/news/2017-11-19-first-ideas.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+
+* [./matty/news/2018-02-27-good-news.md](/matty/news/2018-02-27-good-news.md):  . _File not used._
+
+* [./matty/news/2018-01-23-first-board.md](/matty/news/2018-01-23-first-board.md):  . _File not used._
+
+* [./matty/news/2018-02-02-first-tests.md](/matty/news/2018-02-02-first-tests.md):  . _File not used._
 
 * [./matty/1t/idea.md](/matty/1t/idea.md):  . _File not used._
 
@@ -114,11 +126,11 @@
 
 * [./matty/ideas/ideas.md](/matty/ideas/ideas.md):  . _File not used._
 
-* [./matty/20180225a/Readme.md](/matty/20180225a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
+* [./matty/20180225a/Readme.md](/matty/20180225a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
 
-* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./retired/sleepy/Readme.md](/retired/sleepy/Readme.md): Casing of the modules - readme . File used in: [`/Readme.md`](/Readme.md).
 
@@ -274,7 +286,7 @@
 
 * [./include/UniBoard/UniBoard.md](/include/UniBoard/UniBoard.md):  . File used in: [`/include/UniBoard.md`](/include/UniBoard.md).
 
-* [./include/20160814/2016-08-14-HackingAUltrasoundProbe.md](/include/20160814/2016-08-14-HackingAUltrasoundProbe.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [./include/20160814/20160814a.md](/include/20160814/20160814a.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._
 

@@ -57,15 +57,19 @@ Getting a motherboard: that's fitting all the modules in an easy way, with an ea
 
 ## Constraint and limits
 
-### v1.0: Initial design
+A time-reversed storyline for the motherboard =)
+ 
+### v2.0: A clean PCB for rasbperry
 
-As in mind 
+![](/doj/images/doj-v2.png)
 
-![](/doj/images/IMG_2607.JPG)
+![](/doj/images/doj_v2.jpg)
 
-Now with the actual modules
+### v1.2: PCB 
 
-![](/doj/images/doj-simple.png)
+With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming from the [brief](/doj/brief.md).
+
+![](/doj/images/oshp.png)
 
 ### v1.1: Adding new modules
 
@@ -77,26 +81,20 @@ Now with the actual modules
 
 ![](/doj/images/doj-unloaded.jpg)
 
-### v1.2: PCB 
 
-With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming from the [brief](/doj/brief.md).
+### v1.0: Initial design
 
-![](/doj/images/oshp.png)
+As in mind 
 
-### v2.0: A clean PCB for rasbperry
+![](/doj/images/IMG_2607.JPG)
 
-![](/doj/images/doj-v2.png)
+Now with the actual modules
 
-![](/doj/images/doj_v2.jpg)
-
-
+![](/doj/images/doj-simple.png)
 
 ## Discussions
 
-
 ### TODO
-
-
 
 ### DONE
 
@@ -112,7 +110,6 @@ With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming fro
 * Proper silkscreening around the Pi0 headers (they are reversed)
 * Jumper for the ADC in.. and selector (enveloppe and amplified signal) (either to Feather or to ADC .. and dedicated pin on Rpi)
 * SPI from RPi to Oled... or SPI to screen (to be checked in both case) .. or both kept, there are two SPI
-
 
 ### People
 

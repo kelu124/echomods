@@ -180,30 +180,22 @@ BEWARE! Only apply small voltages to input (less than 1 Vpp ideally, here calibr
 
 ### Hardware steps
 
-#### For a PCB based solution...
+#### For the [motherboard PCB based solution](/doj/)...
 
 Just plug it into the board!
 
 #### For a standalone version
 
+![](/elmo/source/v2/3d.jpg)
 
-![](/elmo/images/qs/20171009_170219.jpg)
-
-![](/elmo/images/qs/20171009_170604.jpg)
-
-![](/elmo/images/qs/20171009_171305.jpg)
-
-But it also could work with a ribbon !
-
-
-__Capture is with the blue cable as GND, and green as the signal.__
+* The onboard selector (3x2) enables one to check input, either through the RPi pin, or the onboard entry.
+* the 3x1 jumper allows one to offset a 0-centered signal to have an offset of vRef/2 (ie the zero will go to the middle of the range)
 
 ### The [ADC](/elmo/) module
 
 The module code is [here](/elmo/data/scope.c) and can be compiled using [these steps](/elmo/data/PrepKernel.sh).
 
 The full procedures are described at on the [raspberry doc page](/tomtom/)
-
 
 Log now on this raspberry, and run the _run.sh_ command to load the driver of the ADC. You'll see that the module appears as a  __/dev/chardev__ device.
 

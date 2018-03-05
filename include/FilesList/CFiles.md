@@ -1,6 +1,6 @@
 * [ustest.c](/elmo/data/ustest.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
-* [scope.c](/elmo/data/scope.c): . File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [scope.c](/elmo/data/scope.c): . File used in: [`/elmo/QuickStart_v1.md`](/elmo/QuickStart_v1.md), [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
 * [scope.c](/elmo/data/arduiprobe/scope.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
