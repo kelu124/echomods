@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First idea
-excerpt: "Getting the first ideas."
+excerpt: "Getting the first schematics in place."
 categories: [worklog]
 comments: false
 ---
