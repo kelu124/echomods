@@ -1523,10 +1523,10 @@ Would you like to support an existing project with your skills and expertise? Or
 
 Next week:
 
-* @todo 6Msps on the [STM32](/croaker/)
+* @cancelled 6Msps on the [STM32](/croaker/)
 * @done Sourcing transducer (in [cletus](/cletus/) )
-* (done) Sourcing materials + integration makefile par set
-* (done) Compiler output
+* @done Sourcing materials + integration makefile par set
+* @done Compiler output
 
 ##### @perso : faire un eink tablet
 
@@ -1835,7 +1835,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Playing with ADC.. got the first results with the CA3306E board! See https://github.com/kelu124/bomanz/blob/master/CA3306E/20170422-FirstAcqs.ipynb
 * Played with Loic on the RF modules
-* @todo dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
+* @cancelled dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
 
 #### 2017-04-30 Playing with ADC - v2
 
@@ -1905,7 +1905,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 * Sold some boards
 * @todo Need to have a look at this RPI GPIO DMA  - https://github.com/hzeller/rpi-gpio-dma-demo
 * @todo Include some cletus remarks (sourcing) on gitbook
-* @todo convert all previous images to dicom
+* @cancelled convert all previous images to dicom
 * @done answer some questions online for RPI + ultrasound
 * @done add the at todos to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
 * @done Test YAML data on Markdown files (see contributors)
@@ -1941,8 +1941,8 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-06-26 More interest
 
 * put probe on the setup
-* @todo set the gain on the AFE using Doj v1.2
-* @todo use the GetSuppliersList function to list equipment suppliers
+* @cancelled set the gain on the AFE using Doj v1.2
+* @cancelled use the GetSuppliersList function to list equipment suppliers
 * @done map the /include/community persons on a python map https://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-plotting-points-on-a-simple-map/
 * @done get stats from hackaday 1,2,GHMurgen,GHechomods,JOH
 
@@ -1991,7 +1991,7 @@ Netty isn't nice... but just got my article accepted by JOH !
   * [x] @done Add TPL list
 * Nice patent : https://www.google.com/patents/US4246792
 
-* Updated the first draft of the [tobo.alt](/alt.tbo/draft.alt.tbo.v0.01pdf)
+* Updated the first draft of the [tobo.alt](/alt.tbo/draft.alt.tobo.v0.01pdf)
 
 #### 2017-07-09 ADC boosting
 
@@ -2009,7 +2009,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 #### 2017-07-15 Probe et al
 
-* Testing the [probe + elmo setup: here](/elmo/data20170715-ProbeTest.ipynb)
+* Testing the [probe + elmo setup: here](/elmo/data/20170715-ProbeTest.ipynb)
 
 #### 2017-07-18 Further tests with servo
 
@@ -2074,7 +2074,7 @@ Nice to have:
 * @done Adding the descs for modules and power needs
 * @done Removing double Autogen tags
 * @todo Main readme as TPL
-* @todo DICOM rest of images
+* @cancelled DICOM rest of images
 
 * @todo test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
 
@@ -2193,7 +2193,7 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * @cld float pins between shots? -> work session on [bilevel.c](/alt.tbo/test/bilevel.c)
 * @cld pass license to CC-BY-SA
 
-* @todo add some new articles to the new article
+* @done add some new articles to the new article (all put to bibtex)
   * Some interesting read .. again: 10.1109/ULTSYM.2013.0142 for bimorphs
   * [Article: A flexible multichannel FPGA and PC-Based ultrasound system for medical imaging research: initial phantom experiments](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2446-47402015000300277) for brazilan students working on a design
   * [Article: PC-BASED ULTRASOUND IMAGING SYSTEM IN A PROBE](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.132.5199&rep=rep1&type=pdf)
@@ -2205,7 +2205,7 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 
 #### 2017-10-06 Articles on the way
 
-* UniBoard making progress :)
+* [UniBoard](/matty/) making progress :)
 * Some new articles:
   * [Article: A Deep Learning Approach to Ultrasound Image Recovery](https://infoscience.epfl.ch/record/230991/files/ius2017_sda_preprint.pdf) #CompressedSensing :)
   * [Article: Ultrasound Image Quality Assessment -- A framework for evaluation of clinical image quality](http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf)
@@ -2525,9 +2525,9 @@ ebay
 
 And stuff! Some good todos for this year:
 * @done added [experiment from Felix](https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20180103a.md)
-* @todo better experiments scanning
-* @todo readding description into experiment files
-* @todo a page summarizing the experiments
+* @ongoing better experiments scanning
+* @done readding description into experiment files
+* @todo a page sumarizing the experiments (as in the __Experiments__ page in the gitbook)
 
 Also working on a compilation of best open source projects using ultrasounds -- https://github.com/kelu124/openultrasoundprojects or https://kelu124.github.io/openultrasoundprojects/
 
@@ -2553,7 +2553,7 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce ? for 1A
 * Other: working on a bibtex repo
 * Found out [Columbia Open Ultrasound](https://github.com/ColumbiaOpenSourceUltrasound) : just genius. Interesting AFE at https://github.com/ColumbiaOpenSourceUltrasound/Analog_Frontend .
 
-* Brainstorm for @senjak information design:
+* @todo Brainstorm for @senjak information design:
   * Main branch (on GH) - sync'ed from matty folder
     * Presentation (on dmn.org as a static page)
     * Sources
@@ -2633,6 +2633,7 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
   * @todo Publish first drafts on un0rick GH / GH-pages / gitbook
   * @done create [un0rick page](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html) on echomods gitbook
 * @todo create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
+  * done testing [elmo v2](/elmo/)
 
 #### 2018-02-27 progress on the ice40 board
 
@@ -2672,7 +2673,30 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
   * Alt.tbo
   * Gob
 
+#### 2018-03-06 Going to Rick
 
+* Launching matty v2 -- prod version
+* Explore USED Bard Site Rite - https://www.youtube.com/watch?v=8iUkeJvSXtE (v3) or https://www.youtube.com/watch?v=qxanLwW8EL8 (v2)	
+  * Bard Site Rite 37522 5C-45C 7.5MHz Ultrasound Transducer Probe 68mmFL Dymax 0470
+  * http://journal.chestnet.org/article/S0012-3692(15)46601-2/fulltext
+  * @todo decrypt the connector =)
+
+#### 2018-03-08 Cleaning repos
+
+* Release v1.9: echOmods : legacy release
+  * clean broken links
+* Release v2!
+  * @todo Script to check IMGs URL matches path
+  * @todo reorganise
+    * keep v2s of elmo, gob, elmo, alt.tbo
+    * remove others in 
+    * gitbook -> Have a "Legacy" chapter
+  * Experiment summary
+    * List all experiments in Summary
+    * Create summary page
+  * Create Full Biblio.md
+* [un0rick.cc](http://un0rick.cc) up and running! [Gitbook](http://doc.un0rick.cc) as well as data, doc branches are up too.
+* OSHWA too !
 
 
 =======

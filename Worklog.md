@@ -2120,7 +2120,7 @@ Netty isn't nice... but just got my article accepted by JOH !
   * [x] @done Add TPL list
 * Nice patent : https://www.google.com/patents/US4246792
 
-* Updated the first draft of the [tobo.alt](/alt.tbo/draft.alt.tbo.v0.01pdf)
+* Updated the first draft of the [tobo.alt](/alt.tbo/draft.alt.tobo.v0.01pdf)
 
 #### 2017-07-09 ADC boosting
 
@@ -2138,7 +2138,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 #### 2017-07-15 Probe et al
 
-* Testing the [probe + elmo setup: here](/elmo/data20170715-ProbeTest.ipynb)
+* Testing the [probe + elmo setup: here](/elmo/data/20170715-ProbeTest.ipynb)
 
 #### 2017-07-18 Further tests with servo
 
@@ -2802,13 +2802,31 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
   * Alt.tbo
   * Gob
 
-#### 2018-03-06 Going to rick
+#### 2018-03-06 Going to Rick
 
 * Launching matty v2 -- prod version
 * Explore USED Bard Site Rite - https://www.youtube.com/watch?v=8iUkeJvSXtE (v3) or https://www.youtube.com/watch?v=qxanLwW8EL8 (v2)	
   * Bard Site Rite 37522 5C-45C 7.5MHz Ultrasound Transducer Probe 68mmFL Dymax 0470
   * http://journal.chestnet.org/article/S0012-3692(15)46601-2/fulltext
   * @todo decrypt the connector =)
+
+#### 2018-03-08 Cleaning repos
+
+* Release v1.9: echOmods : legacy release
+  * clean broken links
+* Release v2!
+  * @todo Script to check IMGs URL matches path
+  * @todo reorganise
+    * keep v2s of elmo, gob, elmo, alt.tbo
+    * remove others in 
+    * gitbook -> Have a "Legacy" chapter
+  * Experiment summary
+    * List all experiments in Summary
+    * Create summary page
+  * Create Full Biblio.md
+* [un0rick.cc](http://un0rick.cc) up and running! [Gitbook](http://doc.un0rick.cc) as well as data, doc branches are up too.
+* OSHWA too !
+
 
 =======
 

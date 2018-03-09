@@ -1,5 +1,5 @@
 * [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/elmo/QuickStart_v1.md`](/elmo/QuickStart_v1.md), [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170713-TwoADCs.ipynb](/elmo/data/20170713-TwoADCs.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb). File used in: [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -20,13 +20,13 @@
 * [20170507-TomTomTests.ipynb](/tomtom/20170507-TomTomTests.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [matty20180210_bitmap.ipynb](/matty/prog_flash/matty20180210_bitmap.ipynb). _File not used._
 * [MATTY20180211_bitmap.ipynb](/matty/prog_flash/MATTY20180211_bitmap.ipynb). File used in: [`/matty/un0log.md`](/matty/un0log.md).
-* [20180224a-client.ipynb](/matty/20180224a/20180224a-client.ipynb). _File not used._
-* [20180224a-server.ipynb](/matty/20180224a/20180224a-server.ipynb). _File not used._
-* [20180226a-Compare.ipynb](/matty/20180226a/20180226a-Compare.ipynb). _File not used._
-* [testSPI2.ipynb](/matty/SPI/testSPI2.ipynb). _File not used._
-* [Untitled.ipynb](/matty/SPI/Untitled.ipynb). _File not used._
-* [testSPI1.ipynb](/matty/SPI/testSPI1.ipynb). _File not used._
-* [20180227a-Loops.ipynb](/matty/20180227a/20180227a-Loops.ipynb). _File not used._
+* [20180224a-client.ipynb](/matty/20180224a/20180224a-client.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
+* [20180224a-server.ipynb](/matty/20180224a/20180224a-server.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
+* [20180226a-Compare.ipynb](/matty/20180226a/20180226a-Compare.ipynb). File used in: [`/matty/20180226a/Readme.md`](/matty/20180226a/Readme.md).
+* [testSPI2.ipynb](/matty/SPI/testSPI2.ipynb). File used in: [`/matty/un0log.md`](/matty/un0log.md).
+* [Untitled.ipynb](/matty/SPI/Untitled.ipynb). File used in: [`/matty/un0log.md`](/matty/un0log.md).
+* [testSPI1.ipynb](/matty/SPI/testSPI1.ipynb). File used in: [`/matty/un0log.md`](/matty/un0log.md).
+* [20180227a-Loops.ipynb](/matty/20180227a/20180227a-Loops.ipynb). File used in: [`/matty/20180227a/Readme.md`](/matty/20180227a/Readme.md).
 * [20180225a-Loops.ipynb](/matty/20180225a/20180225a-Loops.ipynb). File used in: [`/matty/20180225a/Readme.md`](/matty/20180225a/Readme.md), [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
 * [20180225a-Server.ipynb](/matty/20180225a/20180225a-Server.ipynb). File used in: [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
 * [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).

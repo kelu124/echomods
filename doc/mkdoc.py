@@ -218,10 +218,10 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 				# @todo kelu add readmes for md and experiments
 					
 					if "/"+Expe+"/Readme.md" in key:
-						print  key + " -> "+"/"+Expe+"/Readme.md"
+						#print  key + " -> "+"/"+Expe+"/Readme.md"
 						ExpeJSON[Expe]["Readme"] = key
 					elif Expe+".md" in key:
-						print key + " -> "+Expe+".md"
+						#print key + " -> "+Expe+".md"
 						ExpeJSON[Expe]["Readme"] = key
 
 			Files = list(set(Files))
@@ -304,10 +304,10 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 
 		PM = ""
 		if "Readme" in ExpeJSON[Expe].keys():
-			print Expe+" has a custom Readme"
+			#print Expe+" has a custom Readme"
 			PM += "@kelu include("+ExpeJSON[Expe]["Readme"]+")\n\n"
 		else:
-			print Expe+" basic"
+			#print Expe+" basic"
 			PM += "@kelu include(/include/experiments/Desc_"+Expe+".md)\n\n"
 			log.append("__[Experiments]__ "+WarningMark+" `"+Expe+"` : no Readme or experiment description. ")
 
@@ -792,8 +792,8 @@ def GetGeneratedFiles(path):
 				ManualDesc.append(Desc)	
 			else: 
 				AutoFiles.append(eachMd)
-			if (not found) and (not foundDesc):
-				log.append("__[MD Files]__ "+RedMark+" `"+eachMd+"` : Missing description")
+			if (not found) and (not foundDesc) and (not "/include/" in eachMd):
+				log.append("__[MD Files]__ "+WarningMark+" `"+eachMd+"` : Missing description")
 
 			AllFilesList.append(eachMd)
 			AllMDContent.append(FileContenu)
@@ -837,6 +837,7 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 	
 		#print InRef
 	else:
+	    if( "/cletus/suppliers/" not in PathRefedFile):
 		StringData = ". _File not used._\n"
 		if ("/include/" in PathRefedFile):
 			log.append("__[Unrefed file]__ "+WarningMark+" `"+PathRefedFile+"` : No references of this file (in _include_). ")
@@ -912,7 +913,7 @@ def CheckPythonFile(files):
 		    ErrorConditions = [True, True, True, True]
 		    for line in f:
 			if (lN == 0) and ("#!/usr/bin/env python" not in line):
-				log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Header error ")
+				log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Header error ")
 			if ("__author__") in line:
 				ErrorConditions[1]=False
 				JSONPython[PythonFile]["author"] = line
@@ -928,16 +929,16 @@ def CheckPythonFile(files):
 			line = line.rstrip('\r\n').rstrip('\n')
 			lN+=1
 		    if (ErrorConditions[0]):
-			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing description")
+			log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing description")
 			PythonDesc.append("")
 		    else:
 			PythonDesc.append(moduleDesc)
 		    if (ErrorConditions[1]):
-			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing Author ")
+			log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing Author ")
 		    if (ErrorConditions[2]):
-			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing Copyright ")
+			log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing Copyright ")
 		    if (ErrorConditions[3]):
-			log.append("__[Python]__ "+RedMark+" `"+PythonFile+"` : Missing License")
+			log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing License")
 	return log,PythonDesc,JSONPython
 
 def CheckCFile(files):
@@ -955,7 +956,7 @@ def CheckCFile(files):
 		    ErrorConditions = [True, True, True, True]
 		    for line in f:
 			if (lN == 0) and ("#!/usr/bin/env C" not in line):
-				log.append("__[C]__ "+RedMark+" `"+CFile+"` : Header error ")
+				log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Header error ")
 			if ("__author__") in line:
 				ErrorConditions[1]=False
 				JSONC[CFile]["author"] = line
@@ -971,16 +972,16 @@ def CheckCFile(files):
 			line = line.rstrip('\r\n').rstrip('\n')
 			lN+=1
 		    if (ErrorConditions[0]):
-			log.append("__[C]__ "+RedMark+" `"+CFile+"` : Missing description")
+			log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing description")
 			CDesc.append("")
 		    else:
 			CDesc.append(moduleDesc)
 		    if (ErrorConditions[1]):
-			log.append("__[C]__ "+RedMark+" `"+CFile+"` : Missing Author ")
+			log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing Author ")
 		    if (ErrorConditions[2]):
-			log.append("__[C]__ "+RedMark+" `"+CFile+"` : Missing Copyright ")
+			log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing Copyright ")
 		    if (ErrorConditions[3]):
-			log.append("__[C]__ "+RedMark+" `"+CFile+"` : Missing License")
+			log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing License")
 	return log,CDesc,JSONC
 
 def CheckInoFile(files):
@@ -1005,13 +1006,13 @@ def CheckInoFile(files):
 			line = line.rstrip('\r\n').rstrip('\n')
 			lN+=1
 		    if (ErrorConditions[0]):
-			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing description")
+			log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing description")
 		    if (ErrorConditions[1]):
-			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing Author ")
+			log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing Author ")
 		    if (ErrorConditions[2]):
-			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing Copyright ")
+			log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing Copyright ")
 		    if (ErrorConditions[3]):
-			log.append("__[Arduino]__ "+RedMark+" `"+InoFile+"` : Missing License")
+			log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing License")
 		InoDesc.append(InoD)
 	return log, InoDesc
 
@@ -1026,8 +1027,13 @@ def CheckLink(path,autogen):
 			if len(links):
 			    for link in links:
 				    Error = False
-				    Message = "__[Links]__ "+RedMark+" `"+path+"`"
-				    if ("http" not in link) and ("www" not in link) and  (not (link =="")) and  ("@autogenerated" not in link):
+
+				    if not(autogen):
+				    	Message = "__[Links]__ "+RedMark+" `"+path+"`"
+				    else:
+					Message = "__[Links]__ "+WarningMark+" `"+path+"`"
+
+				    if ("wikilink" not in link) and ("http" not in link) and ("www" not in link) and  (not (link =="")) and  ("@autogenerated" not in link):
 					    if (not link.startswith("/") and "@description" not in link):
 						Error = True
 						Message += " : Error in link definition, non-absolute path in link to `"+link+"`"

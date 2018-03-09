@@ -125,11 +125,11 @@ and the corresponding [schematics (PDF)](/elmo/source/v2/ADC_pHAT.pdf).
 
 __Top in 3D__
 
-![](/elmo/top-3d.png)
+![](/elmo/source/top-3d.png)
 
 __Bottom in 3D__
 
-![](/elmo/bot-3d.png)
+![](/elmo/source/bot-3d.png)
 
 
 ### TODO

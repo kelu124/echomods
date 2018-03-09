@@ -1032,6 +1032,8 @@ log = log+ResultKits
 log.sort()
 OpenWrite("\n\n".join( log ),"doc/log.md")
 
+urgent = [x.strip() for x in log if ":no_entry:" in x]
+OpenWrite("* "+"\n* ".join( urgent ),"doc/urgent.md")
 
 
 

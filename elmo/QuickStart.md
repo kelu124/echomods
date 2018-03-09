@@ -1,5 +1,7 @@
 ## Quickstart of the ADC module
 
+[](@description Quickstart of the ADC pHAT)
+
 ### Hardware steps
 
 #### For the [motherboard PCB based solution](/doj/)...

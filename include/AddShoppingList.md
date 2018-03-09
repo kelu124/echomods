@@ -21,32 +21,24 @@ Here's a couple of things we're working on, for which you could help as well.
 
 
 ### Todos from worklog
-* 6Msps on the [STM32](/croaker/)
-* dig into [CMOS Ultrasound Transceiver Chip for High-Resolution Ultrasonic Imaging Systems.](https://www.ncbi.nlm.nih.gov/pubmed/23853268)
 * add Visa, possibly Pouya and Thomas as contributors
 * map interested (green) 
 * Add a documentation server
 * Display IP on the OLED.
 * Need to have a look at this RPI GPIO DMA - https://github.com/hzeller/rpi-gpio-dma-demo
 * Include some cletus remarks (sourcing) on gitbook
-* convert all previous images to dicom
-* set the gain on the AFE using Doj v1.2
-* use the GetSuppliersList function to list equipment suppliers
 * add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
 * remove gitbook MD files from the log
 * link to files in the log (python)
 * Main readme as TPL
-* DICOM rest of images
 * test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
-* add some new articles to the new article
 * _senjak_ 15:07 In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself -- https://github.com/ESultanik/PDFGitPolyglot/blob/master/make_polyglot.sh
 * 20171111a and 20171112b Readmes
 * impedance matching -- [see more](/include/impedance/ipm.pdf) -- Butterworth-Van-Dyke or [here](https://electronics.stackexchange.com/questions/245915/picking-source-resistance-for-impedance-matching). [Tuning Filter](https://i.stack.imgur.com/96XMb.png).
 * list other initiatives
 * classifier articles with link Article: =)
-* better experiments scanning
-* readding description into experiment files
-* a page summarizing the experiments
+* a page sumarizing the experiments (as in the __Experiments__ page in the gitbook)
+* Brainstorm for @senjak information design:
 * un0rick site to have plenty of stuff
  * Publish first drafts on un0rick GH / GH-pages / gitbook
 * create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
@@ -54,6 +46,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * compare [old pulser](/alt.tbo/20171111a/20171111-pulses.ipynb) (pulser) and [new acs](/matty/20180224b/20180221b-Client.ipynb) for matty readme
  * for matty [Rip this intro?](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
 * clean all repos for a v2 release of modules 
+ * decrypt the connector =)
+ * Script to check IMGs URL matches path
+ * reorganise
 
 
 

@@ -178,6 +178,8 @@ BEWARE! Only apply small voltages to input (less than 1 Vpp ideally, here calibr
 
 ## Quickstart of the ADC module
 
+[](@description Quickstart of the ADC pHAT)
+
 ### Hardware steps
 
 #### For the [motherboard PCB based solution](/doj/)...

@@ -17,6 +17,10 @@
 * Can read some values now from __[MATTY_20180218.bin](/matty/prog_flash/MATTY_20180218.bin)__
 * and corresponding [notebook](/matty/prog_flash/MATTY_20180218.html) -- even with a piezo on !
 
+* Testing SPI
+  * [SPI tests 0](/matty/SPI/Untitled.ipynb)
+  * [SPI tests 1](/matty/SPI/testSPI1.ipynb)
+  * [SPI tests 2](/matty/SPI/testSPI2.ipynb)
 
 #### 2018-02-11 All but acquisition
 
@@ -135,11 +139,11 @@ Looks good - ice40 and ram look good. The high-level pulser footprint seems reve
 
 ### 2017-12-15 Others
 
-![](/include/uniBoard/unimatty-2a.png)
+![](/include/UniBoard/unimatty-2a.png)
 
 ### 2017-11-19 First ideas
 
-![](/include/uniBoard/unisimple.jpg)
+![](/include/UniBoard/unisimple.jpg)
 
 
 ## BORN !
