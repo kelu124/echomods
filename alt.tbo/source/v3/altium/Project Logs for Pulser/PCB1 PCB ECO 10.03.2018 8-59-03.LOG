@@ -1,0 +1,19 @@
+Added Component: Designator=U1(QFN-12 4x4mm)
+Added Pin To Net: NetName=NetR1_2 Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=NetU1_3 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-6
+Added Pin To Net: NetName=NetC4_2 Pin=U1-7
+Added Pin To Net: NetName=NetC3_2 Pin=U1-8
+Added Pin To Net: NetName=NetC5_2 Pin=U1-9
+Added Pin To Net: NetName=NetC3_2 Pin=U1-10
+Added Pin To Net: NetName=5V Pin=U1-11
+Added Pin To Net: NetName=5V Pin=U1-12
+Added Pin To Net: NetName=GND Pin=U1-13
+Added Member To Class: ClassName=Sheet1 Member=Component C7 10nF 100V
+Added Member To Class: ClassName=Sheet1 Member=Component C9 10nF 100V
+Added Member To Class: ClassName=Sheet1 Member=Component R2 100
+Added Member To Class: ClassName=Sheet1 Member=Component U1 MD1210K6
+Added Member To Class: ClassName=Sheet1 Member=Component U3 74LVC1G17

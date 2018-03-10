@@ -581,7 +581,7 @@ def AddRawHURL(s):
 		s = s.replace("](/retired/"+moduletrois+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduletrois+"/source/blocks.png)")
 
 
-
+	# xls, xlsx, pdf, normally captured by the grep
 	s = s.replace("![](/", "![]("+URL)
 
 	s = GHubToGBook(s)
