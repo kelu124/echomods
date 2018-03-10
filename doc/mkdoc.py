@@ -555,6 +555,7 @@ def IncludeImage(s):
 	return s.replace("<img src='https://github.com/kelu124/echomods/blob/master/", "<img src='https://raw.githubusercontent.com/kelu124/echomods/master/")
 
 def AddRawHURL(s):
+	# https://github.com/kelu124/echomods/raw/master/alt.tbo/draft.alt.tobo.v0.01pdf to add to PDF..
 	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
 	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/" 
 	for o in range(len(ToBeReplaced)):
@@ -578,6 +579,7 @@ def AddRawHURL(s):
 		s = s.replace("](/retired/"+moduletrois+"/)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")	
 		s = s.replace("](/retired/"+moduletrois+"/Readme.md)", "]("+BaseURL+"/Chapter3/"+moduletrois+".md)")
 		s = s.replace("](/retired/"+moduletrois+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduletrois+"/source/blocks.png)")
+
 
 
 	s = s.replace("![](/", "![]("+URL)

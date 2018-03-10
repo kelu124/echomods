@@ -1,11 +1,6 @@
 #/bin/bash
 # Creating the docs
 
-grep -rli '](/mogaba/' --include "*.md"  | xargs -i@ sed -i 's/](\/mogaba\//](\/retired\/mogaba\//g' @
-grep -rli '](/oneeye/' --include "*.md"  | xargs -i@ sed -i 's/](\/oneeye\//](\/retired\/oneeye\//g' @
-grep -rli '](/sleepy/' --include "*.md"  | xargs -i@ sed -i 's/](\/sleepy\//](\/retired\/sleepy\//g' @
-grep -rli '](/toadkiller/' --include "*.md"  | xargs -i@ sed -i 's/](\/toadkiller\//](\/retired\/toadkiller\//g' @
-
 cd doc/
 python createStats.py
 cd ../
@@ -17,6 +12,13 @@ cd gitbook
 grep -rli '](/bomanz' * | xargs -i@ sed -i 's/](\/bomanz\//](https\:\/\/github.com\/kelu124\/bomanz\/tree\/master\//g' @
 grep -rli '](/' * | xargs -i@ sed -i 's/](\//](https\:\/\/github.com\/kelu124\/echomods\/tree\/master\//g' @
 cd ..
+
+# Cleaning leftovers from pushing
+
+grep -rli '](/mogaba/' --include "*.md"  | xargs -i@ sed -i 's/](\/mogaba\//](\/retired\/mogaba\//g' @
+grep -rli '](/oneeye/' --include "*.md"  | xargs -i@ sed -i 's/](\/oneeye\//](\/retired\/oneeye\//g' @
+grep -rli '](/sleepy/' --include "*.md"  | xargs -i@ sed -i 's/](\/sleepy\//](\/retired\/sleepy\//g' @
+grep -rli '](/toadkiller/' --include "*.md"  | xargs -i@ sed -i 's/](\/toadkiller\//](\/retired\/toadkiller\//g' @
 
 # Committing github pages modifications
 cd gh-pages/
