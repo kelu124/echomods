@@ -16,4 +16,5 @@ title: 2018-02-25 un0rick moving again good
     on echomods gitbook
 -   @todo create v2 release once gob.v2 and corrected/working alt.tbo v2
     are ready.
+-   done testing [elmo v2](/elmo/)
 

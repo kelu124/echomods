@@ -30,5 +30,3 @@ title: 2018-03-05 Going to rick
 -   Alt.tbo
 -   Gob
 
-=======
-

@@ -7,7 +7,7 @@ title: 2017-10-06 Articles on the way
 ---
 
 
--   UniBoard making progress :)
+-   [UniBoard](/matty/) making progress :)
 -   Some new articles:
 -   [Article: A Deep Learning Approach to Ultrasound Image
     Recovery](https://infoscience.epfl.ch/record/230991/files/ius2017_sda_preprint.pdf)

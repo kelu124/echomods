@@ -12,7 +12,7 @@ title: 2017-06-09 Lots ongoing !
 -   @todo Need to have a look at this RPI GPIO DMA -
     https://github.com/hzeller/rpi-gpio-dma-demo
 -   @todo Include some cletus remarks (sourcing) on gitbook
--   @todo convert all previous images to dicom
+-   @cancelled convert all previous images to dicom
 -   @done answer some questions online for RPI + ultrasound
 -   @done add the at todos to the shopping list (see
     [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) )

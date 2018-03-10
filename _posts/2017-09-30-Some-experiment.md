@@ -15,7 +15,7 @@ title: 2017-09-30 Some experiment
     [bilevel.c](/alt.tbo/test/bilevel.c)
 -   @cld pass license to CC-BY-SA
 
--   @todo add some new articles to the new article
+-   @done add some new articles to the new article (all put to bibtex)
 
 -   Some interesting read .. again: 10.1109/ULTSYM.2013.0142 for
     bimorphs
