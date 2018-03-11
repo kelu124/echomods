@@ -9,3 +9,6 @@
 
 ![](/matty/20180310a/DAC/IMAG002.png)
 
+## Comparing DAC gain curve to simulated 
+
+![](/matty/20180310a/curve.jpg)
