@@ -1035,6 +1035,13 @@
   * 20180225a
   * Analysing acquisition at 32 and 64Msps
   * ./matty/20180227a/One-0-VGA@0x22-spimode1-32msps.jpg
+* __/matty/20180310a/gain.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180310a
+  * Programming the DAC
+  * ./matty/20180310a/gain.jpg
 * __/matty/20180225a/probe.jpg__:
   * kelu124
   * matty
@@ -3184,6 +3191,20 @@
   * ToTag
   * ToTag
   * ./matty/prog_flash/ice40.png
+* __/matty/20180310a/DAC/IMAG001.png__:
+  * kelu124
+  * matty
+  * graph
+  * 20180310a
+  * Programming the DAC
+  * ./matty/20180310a/DAC/IMAG001.png
+* __/matty/20180310a/DAC/IMAG002.png__:
+  * kelu124
+  * matty
+  * graph
+  * 20180310a
+  * Programming the DAC
+  * ./matty/20180310a/DAC/IMAG002.png
 * __/matty/source/blocks.png__:
   * kelu124
   * matty

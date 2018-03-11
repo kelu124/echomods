@@ -4,14 +4,13 @@
 # (c) kelu124
 # cc-by-sa/4.0/
 #
-# Library for creating images from the 
-# files created by pulser module.
-# Used in `20180227a`
+# Library for tagging image
+# Used in `20180310a`
 # Definitely not optimized
 #
 # -------------------------
 
-'''Description: Autotagging images for the `20180227a` experiment.'''
+'''Description: Autotagging images for the `20180310a` experiment.'''
 
 __author__      = "kelu124"
 __copyright__   = "Copyright 2018, Kelu124"
@@ -51,12 +50,12 @@ for FileName in Imgs:
 		# Modules
 		metadata['Exif.Image.Software'] = "matty"
 		# Experiment
-		metadata['Exif.Image.Make'] = "20180225a"
+		metadata['Exif.Image.Make'] = "20180310a"
 
 
 		metadata['Exif.Photo.MakerNote'] = "graph"
 		# Description
-		metadata['Exif.Image.ImageDescription'] = "Analysing acquisition at 32 and 64Msps"
+		metadata['Exif.Image.ImageDescription'] = "Programming the DAC"
 
 		# Saving the image
 
