@@ -2830,6 +2830,50 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 * [un0rick.cc](http://un0rick.cc) up and running! [Gitbook](http://doc.un0rick.cc) as well as data, doc branches are up too.
 * OSHWA too !
 
+#### 2018-03-10 Documentation to come
+
+* [Matty v0.1](/matty/v0.1/) preprod files pushed
+* Matty [DAC tests](/matty/20180310a/Readme.md) seem OK
+* Create un0rick.cc doc .. seems doxygen supports both VHDL and python, perfect!
+  * https://www.stack.nl/~dimitri/doxygen/manual/docblocks.html
+
+
+#### 2018-03-14 Phantom ideas to get
+
+* Polyurethane-Casting-Resin.html http://www.easycomposites.co.uk/#!/resin-gel-silicone-adhesive/casting-resin/Xencast-PX90-Semi-Flexible-
+* Speed of sound in rubber-based materials for ultrasonic phantoms https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5126009/
+
+polymeric materials include neoprene, ethylene propylene diene monomer (EPDM) and polyurethane rubbers
+
+* http://www.easycomposites.co.uk/#!/resin-gel-silicone-adhesive/casting-resin/Xencast-PX30-Soft-Flexible-Polyurethane-Rubber.html
+* http://www.ondacorp.com/images/Rubbers.pdf
+* http://www.acousticpolymers.co.uk/pages/profile.html
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3651250/ or 10.1118/1.4802083
+
+Loved Nasa: @todo add to un0rick
+
+    fow uopeytdeus hesor tpe wonfretuw
+    ca amwi et detr
+    ip fos zopwyaiod conwe
+    ah wousgt Tepan
+    afew conseion et mew
+
+ice40 again at https://www.element14.com/community/thread/43876/l/project-icestorm-fully-open-source-fpga-tools-for-lattice-ice40?displayFullThread=true
+
+#### 2018-03-16 Bard probe 1
+
+* Worked on a [bard probe with matty](/include/bard/inside.md)
+* [An interesting patent is here](/include/bard/US4399703.pdf) -- found working on the [patent parsin' graph tool](https://github.com/kelu124/ultrasound-patents)
+  * The more I glance at it, the more fascinated I become...
+  * There is no motor! Just electromagnets =)
+    * Then no need for a stepper motor
+    * it may be the case that 
+  * The signal coming back is an already processed signal!
+    * It means the pulse should come from another part of the board... ie another pair of cables. 
+      * Black and white? -> 5 ohm between this pair.. why not?
+    * What about the other logics?
+* Next steps: trying and get the reference manual
+* Get full echographs boxes on ebay =)
 
 =======
 

@@ -38,7 +38,8 @@
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). _File not used._
 * [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). File used in: [`/retired/toadkiller/Readme.md`](/retired/toadkiller/Readme.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md).
 * [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20180216a - Testing pulser and ADC.ipynb](/include/20180216a/20180216a - Testing pulser and ADC.ipynb). File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md).
+* [20180216a - Testing pulser and ADC.ipynb](/include/20180216a/20180216a - Testing pulser and ADC.ipynb). File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
+* [20180317a-Loops.ipynb](/include/bard/exp1/20180317a-Loops.ipynb). _File not used._
 * [20171024-RLC.ipynb](/include/RLC/20171024-RLC.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20180217a - Testing pulser and ADC.ipynb](/include/20180217a/20180217a - Testing pulser and ADC.ipynb). _File not used._
 * [MappingCommunity.ipynb](/include/community/MappingCommunity.ipynb). _File not used._

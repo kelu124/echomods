@@ -2,6 +2,7 @@
 
 * [Testing the curve for the gain](/matty/20180310a/20180310a-CalibGain.ipynb)
 * [Full code](/matty/20180310a/20180310a-Server.ipynb)
+* [BIN file](/matty/prog_flash/hMATTYproto_all_20180310.bin)
 
 ## Testing the DAC
 

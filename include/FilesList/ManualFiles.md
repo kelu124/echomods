@@ -96,6 +96,8 @@
 
 * [./matty/Readme.md](/matty/Readme.md): ice40 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
+* [./matty/prog_flash/Readme.md](/matty/prog_flash/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
+
 * [./matty/20180224a/Readme.md](/matty/20180224a/Readme.md):  . _File not used._
 
 * [./matty/20180226a/Readme.md](/matty/20180226a/Readme.md):  . _File not used._
@@ -114,7 +116,7 @@
 
 * [./matty/news/2018-02-02-first-tests.md](/matty/news/2018-02-02-first-tests.md):  . _File not used._
 
-* [./matty/20180310a/Readme.md](/matty/20180310a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
+* [./matty/20180310a/Readme.md](/matty/20180310a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
 
 * [./matty/1t/idea.md](/matty/1t/idea.md):  . _File not used._
 
@@ -262,7 +264,7 @@
 
 * [./include/biblio/Readme.md](/include/biblio/Readme.md):  . _File not used._
 
-* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md):  . File used in: [`/include/use_case_biblio/Readme.md`](/include/use_case_biblio/Readme.md).
 
@@ -281,6 +283,8 @@
 * [./include/UniBoard/UniBoard-1.md](/include/UniBoard/UniBoard-1.md):  . File used in: [`/include/UniBoard.md`](/include/UniBoard.md).
 
 * [./include/UniBoard/UniBoard.md](/include/UniBoard/UniBoard.md):  . File used in: [`/include/UniBoard.md`](/include/UniBoard.md).
+
+* [./include/bard/inside.md](/include/bard/inside.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./include/20160814/20160814a.md](/include/20160814/20160814a.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
@@ -310,9 +314,13 @@
 
 * [./include/community/Felix/Readme.md](/include/community/Felix/Readme.md):  . _File not used._
 
+* [./include/community/Fabian/Readme.md](/include/community/Fabian/Readme.md):  . _File not used._
+
 * [./include/community/Stephen/Readme.md](/include/community/Stephen/Readme.md):  . _File not used._
 
 * [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  . _File not used._
+
+* [./include/community/Kevin/Readme.md](/include/community/Kevin/Readme.md):  . _File not used._
 
 * [./include/community/Afreen/Readme.md](/include/community/Afreen/Readme.md):  . _File not used._
 
@@ -321,6 +329,8 @@
 * [./include/community/JB/Readme.md](/include/community/JB/Readme.md):  . _File not used._
 
 * [./include/community/Arne/Readme.md](/include/community/Arne/Readme.md):  . _File not used._
+
+* [./include/community/Tomas/Readme.md](/include/community/Tomas/Readme.md):  . _File not used._
 
 * [./include/community/Jay/Readme.md](/include/community/Jay/Readme.md):  . _File not used._
 

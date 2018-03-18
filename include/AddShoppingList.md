@@ -49,6 +49,7 @@ Here's a couple of things we're working on, for which you could help as well.
  * decrypt the connector =)
  * Script to check IMGs URL matches path
  * reorganise
+Loved Nasa: add to un0rick
 
 
 

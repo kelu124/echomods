@@ -8,6 +8,7 @@
 * __[Links]__ :no_entry: `./include/AddWireless.md` : Error in link definition, non-absolute path in link to `module`
 * __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing file `./elmo/source/ADCv2.zip`
 * __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing file `./goblin/source/Altium/goblin_altium.zip`
+* __[Links]__ :no_entry: `./include/bard/inside.md` : Link to non-existing file `./home/kelu/ultrasound/echomods/include/bard/exp1/db-bard-5-0-VGA@0x22-spimode1-64msps.csv`
 * __[Links]__ :no_entry: `./include/murgen_notes.md` : Error in link definition, non-absolute path in link to `Software_(murgen-dev-kit`
 * __[Links]__ :no_entry: `./loftus/source/s3/Readme.md` : Link to non-existing file `./loftus/source/s3/s33.png`
 * __[Links]__ :no_entry: `./retroATL3/Readme.md` : Link to non-existing file `./include/20160814/2016-08-14-HackingAUltrasoundProbe.md`
