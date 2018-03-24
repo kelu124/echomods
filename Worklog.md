@@ -2875,6 +2875,17 @@ ice40 again at https://www.element14.com/community/thread/43876/l/project-icesto
 * Next steps: trying and get the reference manual
 * Get full echographs boxes on ebay =)
 
+#### 2018-03-20 Updates
+
+* Getting a Bard Site Rite III in the mail soon ? ;)
+* Probable supplier for mechanical probe in the pipe too !
+
+#### 2018-03-21 FPGA tools
+
+* Beginning with FPGA : https://www.mattvenn.net/2017/11/05/beginning-fpga/
+* _yosys can use Graphviz to create interactive drawings of its synthesis_ : http://www.clifford.at/yosys/files/yosys_appnote_011_design_investigation.pdf
+* https://knielsen.github.io/ice40_viewer/ice40_viewer.html
+
 =======
 
 uControllers and other stuff

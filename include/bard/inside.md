@@ -26,6 +26,33 @@ Data is at
 
 [Python notebook](/include/bard/exp1/20180317a-Loops.ipynb) is here.
 
+## Understanding the patent
+
+* One skilled in the art of circuit design can choose the values of the resistors of circuit 200 to achieve any efficiency desired, up to about 95 percent.
+  * Hence the 4 resistors on the board
+
+* __Position__ 
+  * "Position sensing device 600 can be the variable inductance coil 602 shown in FIG. 8. Sensing device 600 generates a signal, in response to electrical excitation thereof by current source 502, having a magnitude proportional to the angular position of assembly 64. Since current source 502 energizes sensing device 600 periodically, sensing device 600 periodically provides short bursts of information related to the position of assembly 64."
+
+* __Pulser__
+  * Master timer 430 is well known. Timer 430 produces system timing pulses at a rate of 3 kHz. Those pulses activate transducer pulser 432 which delivers high voltage electrical pulses--about __200 volts peak-to-peak__--lasting __0.5 microseconds__ to transducer 32 by lead 202 of cable 102. Transducer 32 generates electrical pulses in response to echoes from the test specimen received by transducer 32 and transmits those electrical pulses to system 400 via lead 202.
+
+* __TGC__
+  * Also, master timer 430 provides inputs to time control gain (TCG) generator 444, sector generator 450, and display gate 446, all of which are known circuits.
+  * A period of _260 microseconds_ enables the user to examine the specimen to a _depth of 20 cm_. Generally, 1 cm. can be examined for each 13 microseconds of CRT display time.
+
+* __Connectors__
+  * Cable 102 includes four conductors. 
+    * Lead 228 is the common ground along with its shield 103. 
+    * Lead 202 is electrically joined to the hot side of transducer 32. 
+    * Lead 204 carries transistor power supply for circuit 86. 
+    * Lead 206 carries switch signals from circuit 86 to other components of the ultrasonic scanning system.
+
+* __Potentiometers__
+  * __Potentiometer 342__, which is accessible to the user, is set to control the frequency with which transducer element 32 scans the specimen. Speed control 342 is mechanically linked by a shaft to current control potentiometer 346.
+  * __Potentiometer 384__ is a potentiometer and is accessible to the user. Resistor 384 enables the user to make fine adjustments to the shape and phase angle of waveform 380 to compensate for changes in viscosity of liquid 18 that result from changes in temperature of transducer assembly 64. When resistor 384 is adjusted correctly, the displayed image is stationary; when the resistor 384 is adjusted improperly, the displayed image appears to wiggle in the azimuthal direction.
+  * __ __:"One skilled in the art of circuit design can choose the values of the resistors of circuit 200 to achieve any efficiency desired, up to about 95 percent." 
+
 ## Some insides pictures
 
 ### In the wires
