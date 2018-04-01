@@ -19,7 +19,8 @@ update the **MASTER TODO** !
 -   Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md) --
     possible D2 issue
 -   Start macrofab bis.tbo after feedback on D2
--   **ADC board**
+-   **ADC board** (cancelled as of 20180401 - gone directly to
+    final board)
 -   Trying a 50Msps board.
 -   Design start on Nov 1st
 -   Order by Nov 20th

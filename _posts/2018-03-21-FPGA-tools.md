@@ -14,5 +14,3 @@ title: 2018-03-21 FPGA tools
     http://www.clifford.at/yosys/files/yosys\_appnote\_011\_design\_investigation.pdf
 -   https://knielsen.github.io/ice40\_viewer/ice40\_viewer.html
 
-=======
-
