@@ -1290,14 +1290,14 @@
 * __/include/phantoms/IMG_20180324_160024.jpg__:
   * kelu124
   * PRA-LX1C432B180
-  * ToTag
+  * Auto 
   * ToTag
   * dav
   * ./include/phantoms/IMG_20180324_160024.jpg
 * __/include/phantoms/IMG_20180324_160126.jpg__:
   * kelu124
   * PRA-LX1C432B180
-  * ToTag
+  * Auto 
   * ToTag
   * dav
   * ./include/phantoms/IMG_20180324_160126.jpg
@@ -4892,6 +4892,20 @@
   * ToTag
   * ToTag
   * ./include/community/WillT/rectangular.png
+* __/include/community/Tomas/ADS00004.png__:
+  * Tomas
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Tomas/ADS00004.png
+* __/include/community/Tomas/ADS00006.png__:
+  * Tomas
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Tomas/ADS00006.png
 * __/include/community/Tomas/ads00001-pulser.png__:
   * Tomas
   * ToTag
