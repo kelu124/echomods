@@ -2406,7 +2406,7 @@ Another topic, got 1 month left before 25/10 (2 full years!), let's update the _
 * __atl.tobo.cheap__
    * Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md) -- possible D2 issue
    * Start macrofab bis.tbo after feedback on D2
-* __ADC board__
+* __ADC board__ (cancelled as of 20180401 - gone directly to final board)
    * Trying a 50Msps board.
    * Design start on Nov 1st
    * Order by Nov 20th
@@ -2422,13 +2422,10 @@ Another topic, got 1 month left before 25/10 (2 full years!), let's update the _
 #### 2017-11-02 Nice application
 
 * http://electronics360.globalspec.com/article/10074/watch-smartwatches-could-sense-hand-movement-with-ultrasound-imaging
-* https://news.ycombinator.com/item?id=15588711
-
+* Butterfly IQ https://news.ycombinator.com/item?id=15588711
 * https://techxplore.com/news/2017-10-microchip-d-ultrasound-machines-imaging.html
-
-
 * http://www.musclesound.com/
-* http://ieeexplore.ieee.org/document/8008307/?reload=true
+* Muscle fatigue assessment http://ieeexplore.ieee.org/document/8008307/?reload=true
 
 #### 2017-11-04 Checking shopping
 
@@ -2874,17 +2871,24 @@ ice40 again at https://www.element14.com/community/thread/43876/l/project-icesto
     * What about the other logics?
 * Next steps: trying and get the reference manual
 * Get full echographs boxes on ebay =)
+  * Plug plugs on headers while running
 
 #### 2018-03-20 Updates
 
 * Getting a Bard Site Rite III in the mail soon ? ;)
-* Probable supplier for mechanical probe in the pipe too !
+* Probable supplier for mechanical probe in the pipe [too](/include/cn_mechprob/Readme.md) !
 
 #### 2018-03-21 FPGA tools
 
 * Beginning with FPGA : https://www.mattvenn.net/2017/11/05/beginning-fpga/
 * _yosys can use Graphviz to create interactive drawings of its synthesis_ : http://www.clifford.at/yosys/files/yosys_appnote_011_design_investigation.pdf
 * https://knielsen.github.io/ice40_viewer/ice40_viewer.html
+
+#### 2018-04-01 back from marrakech
+
+* Back from holidays!
+* [Making progress on small probe](/include/cn_mechprob/Readme.md)
+* @todo change path of images when they have changed
 
 =======
 
