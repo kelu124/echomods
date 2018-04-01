@@ -2,6 +2,8 @@
 
 * [RPiHSDK.md.tpl](/include/RPiHSDK.md.tpl): ./include/RPiHSDK.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
+* [Readme.md.tpl](/include/biblio/bib/Readme.md.tpl): ./include/biblio/bib/Readme.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+
 * [20180216a.md.tpl](/include/experiments/auto/20180216a.md.tpl): ./include/experiments/auto/20180216a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 * [20161217a.md.tpl](/include/experiments/auto/20161217a.md.tpl): ./include/experiments/auto/20161217a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).

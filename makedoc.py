@@ -948,6 +948,8 @@ for expe in ListOfExperiment:
 # Adding CHAPTER 6 : Biblio 
 # -------------------------
 
+CopyGitBookFile("include/biblio/bib/Readme.md","gitbook/Chapter6/FullBiblio.md")
+
 articles=getText("include/Bibliography.md")
 OpenWrite("# Bibliography \n\n"+AddRawHURL(articles)+"\n\n","gitbook/Chapter6/articles.md")
 

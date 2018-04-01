@@ -51,6 +51,8 @@ Here's a couple of things we're working on, for which you could help as well.
  * reorganise
 Loved Nasa: add to un0rick
 * change path of images when they have changed
+* Create detailed pages for the community in the gitbook
+* Create detailed pages for each probe [I've played with](/include/probes/Readme.md) in the gitbook
 
 
 

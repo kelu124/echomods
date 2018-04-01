@@ -12,8 +12,12 @@ entity: University
 * USD$68,5 shipped.
 * I paid on january 11, the PCBs were shipped on january 18th 
 
-# Pulser
+# Images
+
+## Pulser
 
 ![](/include/community/Tomas/ads00001-pulser.png)
 
+## Checking the trimmer
 
+![](/include/community/Tomas/ADS00004.png)

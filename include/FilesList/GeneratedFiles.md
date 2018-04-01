@@ -9,6 +9,8 @@
 * ./include/AddMyLogs.md
 * ./include/basicdevkit.md
 * ./include/AllLogs.md
+* ./include/biblio/bib/AllRefs.md
+* ./include/biblio/bib/Readme.md
 * ./include/FilesList/TPLFiles.md
 * ./include/FilesList/ImgFiles.md
 * ./include/FilesList/ArduinoFiles.md
@@ -187,6 +189,7 @@
 * ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/vscan.md
 * ./gitbook/Chapter6/bench.md
+* ./gitbook/Chapter6/FullBiblio.md
 * ./gitbook/Chapter6/c_will.md
 * ./gitbook/Chapter6/fileslist.md
 * ./gitbook/Chapter6/academicbiblio.md

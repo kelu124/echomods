@@ -268,7 +268,7 @@
 
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
 
-* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
+* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./include/cn_mechprob/Readme.md](/include/cn_mechprob/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -294,7 +294,7 @@
 
 * [./include/20160814/20160814a.md](/include/20160814/20160814a.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [./include/probes/Readme.md](/include/probes/Readme.md):  . _File not used._
+* [./include/probes/Readme.md](/include/probes/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._
 
@@ -472,7 +472,8 @@
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). File used in: [`/retired/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170502-DICOMizingCroakerData.ipynb](/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180216a - Testing pulser and ADC.ipynb](/include/20180216a/20180216a - Testing pulser and ADC.ipynb). File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
+* [CheckBib.ipynb](/include/biblio/bib/CheckBib.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20180216a - Testing pulser and ADC.ipynb](/include/20180216a/20180216a - Testing pulser and ADC.ipynb). File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180317a-Loops.ipynb](/include/bard/exp1/20180317a-Loops.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20171024-RLC.ipynb](/include/RLC/20171024-RLC.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180217a - Testing pulser and ADC.ipynb](/include/20180217a/20180217a - Testing pulser and ADC.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -546,9 +547,9 @@
 
 * [CreateSC.py](/croaker/data/examples/CreateSC.py): Takes a log file and creatse the Scan Converted image.. File used in: [`/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.html).
 
-* [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
+* [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md).
 
-* [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
+* [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. _File not used._
 
 * [mkimg.py](/include/20180217a/mkimg.py): Autotagging images for the `20180217a` experiment.. _File not used._
 
@@ -616,6 +617,7 @@
 
 
 
+
 ## Presentation files
 
 * [ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocumentationProcess.html)
@@ -624,7 +626,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 219 Auto generated files
+## 222 Auto generated files
 
 * ./Readme.md
 * ./cletus/suppliers/Readme.md
@@ -637,6 +639,8 @@
 * ./include/AddMyLogs.md
 * ./include/basicdevkit.md
 * ./include/AllLogs.md
+* ./include/biblio/bib/AllRefs.md
+* ./include/biblio/bib/Readme.md
 * ./include/FilesList/TPLFiles.md
 * ./include/FilesList/ImgFiles.md
 * ./include/FilesList/ArduinoFiles.md
@@ -815,6 +819,7 @@
 * ./gitbook/Chapter6/otherprobes.md
 * ./gitbook/Chapter6/vscan.md
 * ./gitbook/Chapter6/bench.md
+* ./gitbook/Chapter6/FullBiblio.md
 * ./gitbook/Chapter6/c_will.md
 * ./gitbook/Chapter6/fileslist.md
 * ./gitbook/Chapter6/academicbiblio.md
