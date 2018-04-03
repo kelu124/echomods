@@ -16,6 +16,8 @@ title: 2018-04-01 back from marrakech
 -   @todo Create detailed pages for each probe [I've played
     with](/include/probes/Readme.md) in the gitbook
 -   Working on the [bibliography](/include/biblio/bib/CheckBib.ipynb)
+    and reput it in the gitbook
+-   @done cleaning gitbook and pushing annexes
 
 =======
 
