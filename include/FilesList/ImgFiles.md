@@ -1014,6 +1014,20 @@
   * 20180225a
   * Comparing lines
   * ./matty/20180226a/compare_version.jpg
+* __/matty/20180403a/fft.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403a
+  * Testing the 75V pulser
+  * ./matty/20180403a/fft.jpg
+* __/matty/20180403a/24c-75V7-AAC8us-VGA@0x11-spimode1-21msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403a
+  * Testing the 75V pulser
+  * ./matty/20180403a/24c-75V7-AAC8us-VGA@0x11-spimode1-21msps.jpg
 * __/matty/20180227a/One-5-VGA@0x22-spimode1-64msps.jpg__:
   * kelu124
   * matty

@@ -17,11 +17,12 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>/home/kelu/ultrasound/echomods/matty/prog_flash/oMATTY_128_20180316.bin</File>
-			<FileTime>03/16/18 21:00:43</FileTime>
+			<File>/home/kelu/Bureau/24/20180224b-binary.bin</File>
+			<FileTime>04/03/18 19:09:40</FileTime>
 			<Operation>SPI Flash Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<Reinitialize value="TRUE"/>
 				<SVFProcessor>SVF Processor</SVFProcessor>
 				<AccessMode>SPI Flash Programming</AccessMode>
 			</Option>
@@ -45,7 +46,7 @@
 					<Option>
 						<SVFVendor>JTAG STANDARD</SVFVendor>
 						<IOState>HighZ</IOState>
-						<IOVectorData>†`ü</IOVectorData>
+						<IOVectorData>êñ </IOVectorData>
 						<SVFProcessor>SVF Processor</SVFProcessor>
 						<AccessMode>JTAG</AccessMode>
 					</Option>
@@ -60,24 +61,24 @@
 					<IDCode>0x13</IDCode>
 					<Package>8-pin SOIC</Package>
 					<Operation>SPI Flash Erase,Program,Verify</Operation>
-					<File>/home/kelu/ultrasound/echomods/matty/prog_flash/oMATTY_128_20180316.bin</File>
+					<File>/home/kelu/Bureau/24/20180224b-binary.bin</File>
 					<AddressBase>0x00000000</AddressBase>
 					<EndAddress>0x00020000</EndAddress>
 					<DeviceSize>8</DeviceSize>
 					<DataSize>135180</DataSize>
 					<NumberOfDevices>1</NumberOfDevices>
-					<ReInitialize value="FALSE"/>
+					<ReInitialize value="TRUE"/>
 				</Device>
 			</FlashDevice>
 			<FPGADevice>
 				<Device>
 					<Pos>1</Pos>
 					<Name></Name>
-					<File>/home/kelu/m.hex</File>
+					<File>/home/kelu/ultrasound/echomods/matty/prog_flash/dMATTY128WE_inverted20180227.bin</File>
 					<LocalChainList>
 						<LocalDevice index="-99"
 							name="Unknown"
-							file="/home/kelu/m.hex"/>
+							file="/home/kelu/ultrasound/echomods/matty/prog_flash/dMATTY128WE_inverted20180227.bin"/>
 					</LocalChainList>
 					<Option>
 						<SVFVendor>JTAG STANDARD</SVFVendor>

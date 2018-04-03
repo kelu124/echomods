@@ -2892,7 +2892,8 @@ ice40 again at https://www.element14.com/community/thread/43876/l/project-icesto
 * un0rick / matty v0.1 release! https://github.com/kelu124/un0rick/releases/tag/v0.1
 * @todo Create detailed pages for the community in the gitbook
 * @todo Create detailed pages for each probe [I've played with](/include/probes/Readme.md) in the gitbook
-* Working on the [bibliography](/include/biblio/bib/CheckBib.ipynb)
+* Working on the [bibliography](/include/biblio/bib/CheckBib.ipynb) and reput it in the gitbook
+* @done cleaning gitbook and pushing annexes
 
 =======
 
