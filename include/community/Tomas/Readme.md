@@ -11,9 +11,11 @@ entity: University
   * USD$68,5 shipped.
   * I paid on january 11, the PCBs were shipped on january 18th 
 
+* First success is [detailed here](/include/community/Tomas/20180403/Readme.md)
+
 # Images
 
-## 20180404 - First successes !
+## First success
 
 ##### Piezo
 
@@ -23,11 +25,6 @@ entity: University
 
 ![](/include/community/Tomas/20180403_181645.jpg)
 
-##### Oscillo
-
-![](/include/community/Tomas/ADS00007.png)
-
-![](/include/community/Tomas/ADS00008.png)
 
 
 # 20180328 - Pulses

@@ -188,8 +188,6 @@ __[Experiments]__ :warning: `20180103a` : no Readme or experiment description.
 
 __[Experiments]__ :warning: `20180115a` : no Readme or experiment description. 
 
-__[Experiments]__ :warning: `20180403t` : no Readme or experiment description. 
-
 __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./alt.tbo/draft.alt.tobo.v0.01pdf`
 
 __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/references.md`
@@ -211,6 +209,8 @@ __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing f
 __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing file `./goblin/source/Altium/goblin_altium.zip`
 
 __[Links]__ :no_entry: `./include/bard/inside.md` : Link to non-existing file `./home/kelu/ultrasound/echomods/include/bard/exp1/db-bard-5-0-VGA@0x22-spimode1-64msps.csv`
+
+__[Links]__ :no_entry: `./include/community/Tomas/Readme.md` : Link to non-existing file `./include/community/Tomas/20180403/Readme.md`
 
 __[Links]__ :no_entry: `./include/murgen_notes.md` : Error in link definition, non-absolute path in link to `Software_(murgen-dev-kit`
 
@@ -956,6 +956,8 @@ __[Unrefed file]__ :warning: `/include/community/NickRene/Readme.md` : No refere
 __[Unrefed file]__ :warning: `/include/community/Stephen/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/Taylor/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/Tomas/20180403t/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/Tomas/Readme.md` : No references of this file (in _include_). 
 
