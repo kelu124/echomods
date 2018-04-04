@@ -90,6 +90,7 @@
 * ./include/experiments/auto/20180216a.md
 * ./include/experiments/auto/Img_20180103a.md
 * ./include/experiments/auto/Mod_20170713a.md
+* ./include/experiments/auto/20180403t.md
 * ./include/experiments/auto/Mod_20161217a.md
 * ./include/experiments/auto/Img_20180310a.md
 * ./include/experiments/auto/Img_20180225a.md
@@ -227,6 +228,7 @@
 * ./gitbook/exp/20171124a.md
 * ./gitbook/exp/20170715a.md
 * ./gitbook/exp/20180216a.md
+* ./gitbook/exp/20180403t.md
 * ./gitbook/exp/CASIO COMPUTER CO.,LTD..md
 * ./gitbook/exp/20180310a.md
 * ./gitbook/exp/20171001a.md
