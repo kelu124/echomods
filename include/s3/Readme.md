@@ -30,6 +30,28 @@ Close to power
 * JST 1.25mm - 4 pins for motor control
 * JST 1.25mm - 2 pins for transducer
 
+## Pictures
+
+with some comments
+
+![](/include/s3/images/201804/IMG_20180404_221542.jpg)
+
+![](/include/s3/images/201804/IMG_20180404_221555.jpg)
+
+![](/include/s3/images/201804/IMG_20180404_221611.jpg)
+
+![](/include/s3/images/201804/IMG_20180404_221657.jpg)
+
+![](/include/s3/images/201804/IMG_20180404_221715.jpg)
+
+![](/include/s3/images/201804/IMG_20180404_221820.jpg)
+
+![](/include/s3/images/201804/IMG_20180404_221945.jpg)
+
+![](/include/s3/images/201804/IMG_20180404_222007.jpg)
+
+![](/include/s3/images/201804/IMG_20180404_222155.jpg)
+
 ## Parts
 
 ### Pulser
