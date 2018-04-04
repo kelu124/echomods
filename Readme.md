@@ -61,7 +61,7 @@ uC pings emulator and streams feedback
 
 * This is the module which emulates the signal coming from the analog processing chain. ([silent](/silent/)) -- get for _35$_ (Where? Get from [Adafruit](https://www.adafruit.com/products/3056))
 * The acquisition heart of the echOmods ([croaker](/croaker/)) -- get for _35$_ (Where? Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl))
-* Mogaba, the power supply ([mogaba](/retired/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
+* Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * The motherboard of the echomods ([doj](/doj/)) -- get for _5$_ (Where? Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) if you can order by 3. Or [straight from Tindie](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).)
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 
@@ -75,7 +75,7 @@ The default setting for the sets
 
 * Simply the servo and transducer module ([cletus](/cletus/)) -- get for _80$_ (Where? Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22)))
 * The acquisition heart of the echOmods ([croaker](/croaker/)) -- get for _35$_ (Where? Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl))
-* Mogaba, the power supply ([mogaba](/retired/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
+* Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 * Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 
@@ -88,12 +88,12 @@ Some stuff, unexpensive to buy, to build a ultrasound testing kit, totalling les
 
 
 * Retrohacking the ATL Access 3 probe ([retroATL3](/retroATL3/)) -- get for _75$_ (Where? Recycling a probe from [ebay](http://www.ebay.fr/sch/i.html?_odkw=%22atl+access%22+probe&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X%22atl+access%22+.TRS0&_nkw=%22atl+access%22+&_sacat=0))
-* This is the module to get high-speed (40Msps) signal acquisition. ([toadkiller](/retired/toadkiller/)) -- get for _79$_ (Where?  A bundle at 169$ from [Groupgets](https://groupgets.com/manufacturers/getlab/products/prudaq) or as a [standalone](https://store.groupgets.com/#!/p/68936091) at 79$ )
-* Mogaba, the power supply ([mogaba](/retired/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
+* This is the module to get high-speed (40Msps) signal acquisition. ([toadkiller](/toadkiller/)) -- get for _79$_ (Where?  A bundle at 169$ from [Groupgets](https://groupgets.com/manufacturers/getlab/products/prudaq) or as a [standalone](https://store.groupgets.com/#!/p/68936091) at 79$ )
+* Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 * Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 * The motherboard of the echomods ([doj](/doj/)) -- get for _5$_ (Where? Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) if you can order by 3. Or [straight from Tindie](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).)
-* One-eye, the controler ([oneeye](/retired/oneeye/)) -- get for _10$_ (Where? from [Adafruit](https://www.adafruit.com/product/2000))
+* One-eye, the controler ([oneeye](/oneeye/)) -- get for _10$_ (Where? from [Adafruit](https://www.adafruit.com/product/2000))
 
 
 _Total cost of the set: 443$_
@@ -150,7 +150,7 @@ Note that the 'BONUS!' represents something that _could_ be done, and does not c
 |wirephantom|<ul><li>None</li></ul>|<ul><li>All</li></ul>|50% |
 |tobo||<ul><li>Writing specs </li><li>HV7360 has been updated</li><li>Sending microcircuits to Edgeflex</li><li>Agreeing on the strips/tracks </li><li>Defining the ICs to use to pulse</li><li>Getting schematics</li><li>Publishing schematics</li><li>Receive the module</li><li>Test it with different transducers</li><li>Publish the sources in KiCAD</li></ul>|100% |
 |elmo||<ul><li>Write the <a href="/elmo/QuickStart.md">Quickstart</a></li><li>Getting a board an soldering some ADCs</li><li>Understand GPIO <a href="/elmo/data/20170609-NewADC.ipynb">mem mapping</a></li><li>Get raw data with <a href="/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb">offset vref/2</a></li><li>Tests with a single ADC at 11Msps</li><li>Produce a batch of <a href="/elmo/source/v2/elmov2_altium.zip">rev2 elmo</a></li></ul>|100% |
-|alt.tbo|<ul><li>Check a design w/ <a href="/alt.tbo/images/md1811_ref.jpg">this idea</a> which is similar to <a href="/alt.tbo/images/md1210_ref_2.jpg">this other idea</a> or <a href="/alt.tbo/images/md1210_ref.jpg">this last idea</a>.</li></ul>|<ul><li>Preliminary tests</li></ul>|50% |
+|alt.tbo|<ul><li>Check a design w/ <a href="/alt.tbo/images/md1811_ref.jpg">this idea</a> which is similar to <a href="/alt.tbo/images/md1210_ref_2.jpg">this other idea</a> or <a href="/alt.tbo/images/md1210_ref.jpg">this last idea</a>.</li><li>IMPORTANT - do <a href="/alt.tbo/alt.tbo-bipulser.pdf">these corrections for a bipulser</a>.</li><li>A new unipulser design is on the way</li></ul>|<ul><li>Preliminary tests</li></ul>|25% |
 |cletus|<ul><li>Remove the jitter (see image in Rdme)</li><li>Include <a href="/cletus/2017-06-08_FindingSuppliers.md">notes</a></li></ul>|<ul><li>Get a 3.5MHz piezo</li></ul>|33% |
 |tomtom|<ul><li>Save images as DICOMs</li></ul>|<ul><li>Mapping the pins shared between PWM, pHAT and tracks</li><li>Developping a CA3306E version of <a href="https://github.com/kelu124/bomanz/blob/master/CA3306E/20170422-FirstAcqs.ipynb">the 10Msps ADC pHAT</a> for testing.</li><li>Testing the limits of ADC acquisition (speed / bits)</li><li>Understand why some GPIOs do not have lower values at 0..</li><li>Set pins to down <a href="https://raspberrypi.stackexchange.com/questions/4664/setting-gpio-value-on-boot">on boot</a></li><li>Dev a version of the <a href="https://github.com/kelu124/bomanz/blob/master/ADC08200/">ADC08200</a></li><li>Create a kernel module</li><li><em>(Still to be explored)</em> MixedGadget =&gt; <a href="http://isticktoit.net/?p=1383">Storage + ethernet</a> or <a href="https://gist.github.com/gbaman/50b6cca61dd1c3f88f41">this</a> or <a href="https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/overview">that</a>.</li><li>Test the <a href="http://www.toptechboy.com/raspberry-pi/raspberry-pi-lesson-28-controlling-a-servo-on-raspberry-pi-with-python/">PWM</a></li></ul>|90% |
 |doj||<ul><li><a href="https://oshpark.com/shared_projects/2taE6p4M">PCB on OSHPark</a></li><li>Having the list of strips accessible</li><li>Design</li><li>Change the viewme</li><li>Assemble it</li><li>Test it</li><li>Adapt power supply from v2 - smaller board footprint</li><li>Add a level shifter been Pon 3.3 and 5 and Poff 3.3 and 5</li><li>A bit more space around the Pi0/PiW headers</li><li>Proper silkscreening around the Pi0 headers (they are reversed)</li><li>Jumper for the ADC in.. and selector (enveloppe and amplified signal) (either to Feather or to ADC .. and dedicated pin on Rpi)</li><li>SPI from RPi to Oled... or SPI to screen (to be checked in both case) .. or both kept, there are two SPI</li></ul>|100% |
@@ -171,6 +171,8 @@ Here's a couple of things we're working on, for which you could help as well.
 ### Todos from Modules
 * None (in [wirephantom](/wirephantom/))
 * Check a design w/ <a href="/alt.tbo/images/md1811_ref.jpg">this idea</a> which is similar to <a href="/alt.tbo/images/md1210_ref_2.jpg">this other idea</a> or <a href="/alt.tbo/images/md1210_ref.jpg">this last idea</a>. (in [alt.tbo](/alt.tbo/))
+* IMPORTANT - do <a href="/alt.tbo/alt.tbo-bipulser.pdf">these corrections for a bipulser</a>. (in [alt.tbo](/alt.tbo/))
+* A new unipulser design is on the way (in [alt.tbo](/alt.tbo/))
 * Remove the jitter (see image in Rdme) (in [cletus](/cletus/))
 * Include <a href="/cletus/2017-06-08_FindingSuppliers.md">notes</a> (in [cletus](/cletus/))
 * Save images as DICOMs (in [tomtom](/tomtom/))

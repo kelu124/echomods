@@ -1063,6 +1063,20 @@
   * 20180310a
   * Programming the DAC
   * ./matty/20180310a/gain.jpg
+* __/matty/20180403b/p_A-130us-1-VGA@0x22-spimode1-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/20180403b/p_A-130us-1-VGA@0x22-spimode1-64msps.jpg
+* __/matty/20180403b/p_A-130us-0-VGA@0x22-spimode1-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/20180403b/p_A-130us-0-VGA@0x22-spimode1-64msps.jpg
 * __/matty/20180225a/probe.jpg__:
   * kelu124
   * matty
@@ -2281,6 +2295,20 @@
   * ToTag
   * ToTag
   * ./include/community/Arne/IMG_20171012_160525.jpg
+* __/include/community/Tomas/20180403_181645.jpg__:
+  * Tomas
+  * alt.tbo,goblin
+  * setup
+  * 20180403t
+  * Setup of Tomas experiment
+  * ./include/community/Tomas/20180403_181645.jpg
+* __/include/community/Tomas/20180403_181642.jpg__:
+  * Tomas
+  * alt.tbo,goblin
+  * setup
+  * 20180403t
+  * Setup of Tomas experiment
+  * ./include/community/Tomas/20180403_181642.jpg
 * __/include/community/Jay/19850947_1566464786710165_807182576_o.jpg__:
   * Jay
   * ToTag
@@ -4913,6 +4941,13 @@
   * ToTag
   * ToTag
   * ./include/community/Tomas/ADS00004.png
+* __/include/community/Tomas/ADS00008.png__:
+  * Tomas
+  * alt.tbo,goblin
+  * oscilloscope
+  * 20180403t
+  * Example of a line acquired from a 7cm steel block.
+  * ./include/community/Tomas/ADS00008.png
 * __/include/community/Tomas/ADS00006.png__:
   * Tomas
   * ToTag
@@ -4920,6 +4955,13 @@
   * ToTag
   * ToTag
   * ./include/community/Tomas/ADS00006.png
+* __/include/community/Tomas/ADS00007.png__:
+  * Tomas
+  * alt.tbo,goblin
+  * oscilloscope
+  * 20180403t
+  * Example of a line acquired from a 7cm steel pipe.
+  * ./include/community/Tomas/ADS00007.png
 * __/include/community/Tomas/ads00001-pulser.png__:
   * Tomas
   * ToTag
