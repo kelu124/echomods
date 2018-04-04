@@ -138,6 +138,8 @@ To be powered at 5V only.
 ### TODO
 
 * Check a design w/ [this idea](/alt.tbo/images/md1811_ref.jpg) which is similar to [this other idea](/alt.tbo/images/md1210_ref_2.jpg) or [this last idea](/alt.tbo/images/md1210_ref.jpg).
+* IMPORTANT - do [these corrections for a bipulser](/alt.tbo/alt.tbo-bipulser.pdf).
+* A new unipulser design is on the way
 
 ### DONE
 
