@@ -286,6 +286,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		if "ToTag" in ModF:
 			Modz.remove("ToTag")
 		ExpeJSON[Expe]["modules"] = []
+		ExpeJSON[Expe]["probes"] = []
 		for OneMod in ModF:
 			if OneMod in ModulesList:
 				ModulesT += "* ["+OneMod+"](/"+OneMod+"/)\n"
@@ -293,7 +294,10 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 			elif OneMod in ModulesRetiredList:
 				ModulesT += "* ["+OneMod+"](/retired/"+OneMod+"/)\n"
 				ExpeJSON[Expe]["modules"].append(OneMod)
-
+			if OneMod in FatJSON["probes"].keys():
+				print OneMod, Expe
+				ExpeJSON[Expe]["probes"].append(OneMod)
+				ModulesT += "* Probe used: __["+OneMod+"](/include/probes/auto/"+OneMod+".md)__\n"
 
 		fname = "./include/experiments/auto/Mod_"+Expe+".md"
 		OpenWrite(ModulesT,fname)
@@ -320,6 +324,85 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 
 	OpenWrite(ExpeSummary,"include/AllExpes.md")
 	return ModF,ExpeJSON, log
+
+def PutBackProbes(JSON):
+	for Expe in JSON["experiments"].keys():
+		if len(JSON["experiments"][Expe]["probes"]):
+			for probe in JSON["experiments"][Expe]["probes"]:
+				JSON["probes"][probe]["experiments"].append(Expe)
+
+	return JSON
+
+
+def ListProbes(pathdefine,GrosJaSON):
+	with open(pathdefine) as f:
+	    content = f.readlines()
+	content = [x.strip() for x in content] 
+	ListOfProbes = []
+	#print content
+	GrosJaSON["probes"] = {}
+	NameProbe = ""
+	for k in content:
+	    if len(k):
+		#print k
+		if k.startswith("#"):
+			NameProbe = k[1:].strip()
+			GrosJaSON["probes"][NameProbe] = {}
+			ListOfProbes.append(NameProbe)
+		#print NameProbe
+		if k.startswith("* code:"):
+			GrosJaSON["probes"][NameProbe]["code"] = k.replace("* code:","")
+		if k.startswith("* smalldesc:"):
+			GrosJaSON["probes"][NameProbe]["smalldesc"] = k.replace("* smalldesc:","")
+		if k.startswith("* longdesc:"):
+			GrosJaSON["probes"][NameProbe]["longdesc"] = k.replace("* longdesc:","")
+
+	for k in GrosJaSON["probes"].keys():
+		GrosJaSON["probes"][k]["experiments"] = []
+		GrosJaSON["probes"][k]["images"] = []
+	#print GrosJaSON["probes"]
+	return ListOfProbes,GrosJaSON
+
+## Creating probe files from what was captured in images
+
+def CreateProbesFiles(GrosJaSON):
+	for probe in GrosJaSON["probes"].keys():
+		ProbeAuto = "# "+probe+" ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
+		ProbeAuto += GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
+		ProbeAuto += GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
+		if len(GrosJaSON["probes"][probe]["experiments"]):
+			ProbeAuto += "# Experiments\n\n"
+			for expe in list(set(GrosJaSON["probes"][probe]["experiments"])):
+				ProbeAuto += "* ["+expe+"](/include/experiments/auto/"+expe+".md)\n"
+		if len(GrosJaSON["probes"][probe]["images"]):
+			ProbeAuto += "# Images\n\n"
+			for image in list(set(GrosJaSON["probes"][probe]["images"])):
+				ProbeAuto += "![]("+image+")\n"
+
+		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
+		#print probe, "written"
+	return 1
+
+def ListContrib(cpath,BigJSON):
+	BigJSON["contributors"] = {}
+	d = cpath
+	ListofContribs = [os.path.join(d, o) for o in os.listdir(d) if os.path.isdir(os.path.join(d,o))]
+
+
+	LOC = [k.split("/")[-1] for k in ListofContribs if not k.split("/")[-1].startswith(".") and not "kelu124" in k]
+	for k in LOC:
+		BigJSON["contributors"][k] = {}
+		BigJSON["contributors"][k]["images"]=[]
+		BigJSON["contributors"][k]["experiments"]=[]
+
+		autopath = "./include/community/"+k+"/auto/"
+		if not os.path.exists(autopath):
+		    os.makedirs(autopath)
+
+	#print LOC
+
+	return ListofContribs,BigJSON
+
 
 # -------------------------
 # Processing images
@@ -390,6 +473,10 @@ def CreateImgTags(ImgSrc):
 			metadata['Exif.Image.Software'] = ImgSrc.split("/")[2]
 		elif "/s3/" in ImgSrc:
 			metadata['Exif.Image.Software'] = "s3"
+		elif "/include/bard/" in ImgSrc:
+			metadata['Exif.Image.Software'] = "bard"
+		elif "/include/cn_mechprob/" in ImgSrc:
+			metadata['Exif.Image.Software'] = "shzmch"
 		else:
 			metadata['Exif.Image.Software'] = "ToTag"
 
@@ -554,10 +641,43 @@ def WorkLogLevel(s):
 def IncludeImage(s):
 	return s.replace("<img src='https://github.com/kelu124/echomods/blob/master/", "<img src='https://raw.githubusercontent.com/kelu124/echomods/master/")
 
+
+def UpdateSUMMARY(path):
+	f = open(path, 'r')
+	Summary = f.read()
+	f.close()
+	mypath = "gitbook/probes/"
+	lstProbe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
+	tmpProbe = ""
+	for k in lstProbe:
+		probe = k.split("/")[-1].split(".")[0]
+		tmpProbe += "    * ["+probe+"]("+k[8:]+")\n"
+	mypath = "gitbook/exp/"
+	lstExpe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
+	tmpExpe = ""
+	for k in lstExpe:
+		expe = k.split("/")[-1].split(".")[0]
+		tmpExpe += "    * ["+expe+"]("+k[8:]+")\n"
+
+	Summary = Summary.replace("LISTOFEXPE",tmpExpe[:-2])
+	Summary = Summary.replace("LISTOFPROBE",tmpProbe[:-2])
+	
+
+	f = open("gitbook/SUMMARY.md","w+")
+	f.write(Summary)
+	f.close()
+
+	return Summary
+
+
 def AddRawHURL(s):
 	# https://github.com/kelu124/echomods/raw/master/alt.tbo/draft.alt.tobo.v0.01pdf to add to PDF..
 	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
-	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/" 
+	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/"
+
+	s = s.replace("/include/experiments/auto/","exp/")
+
+ 
 	for o in range(len(ToBeReplaced)):
 		s = s.replace("]("+ToBeReplaced[o]+")", "]("+BaseURL+Replaced[o]+")")
 
@@ -623,7 +743,7 @@ def AddRawBomanzURL(s):
 
 def OpenWrite(Write,Open):
 	f = open(Open,"w+")
-	Write.replace(tagAuto,"")
+	Write = Write.replace(tagAuto,"")
 	f.write(Write+"\n\n"+tagAuto)
 	return f.close()
 

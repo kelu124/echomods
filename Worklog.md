@@ -2895,6 +2895,11 @@ ice40 again at https://www.element14.com/community/thread/43876/l/project-icesto
 * Working on the [bibliography](/include/biblio/bib/CheckBib.ipynb) and reput it in the gitbook
 * @done cleaning gitbook and pushing annexes
 
+#### 2018-04-07 Other dentist thoughts
+
+* @todo add dp location
+* @todo listing experiments of others
+
 =======
 
 uControllers and other stuff

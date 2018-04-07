@@ -64,6 +64,18 @@ OpenWrite ( CreateWorkLog(d) , "include/AllLogs.md")
 CopyGitBookFile("include/AllLogs.md","gitbook/Chapter4/AllLogs.md") 
 
 # -------------------------
+# Probes
+# -------------------------
+
+ListOfProbes,GrosJaSON = ListProbes("./include/probes/define.md",GrosJaSON)
+
+# -------------------------
+# Contributors
+# -------------------------
+
+ListofContribs,GrosJaSON = ListContrib("./include/community/",GrosJaSON)
+
+# -------------------------
 # Preparing Images
 # -------------------------
 
@@ -74,34 +86,52 @@ ImgList = GetImgFiles("./")
 ListIfImages = []
 ListOfExperiment = []
 for k in ImgList:
-
+	probeFound = ""
 	GrosJaSON["images"][k] = {}
 	Tags = CreateImgTags("."+k)
 
 	AllTags = GetTags(Tags)
 	GrosJaSON["images"][k]["path"] = k
 	GrosJaSON["images"][k]["author"] = AllTags[0]
+	if AllTags[0] in GrosJaSON["contributors"].keys():
+		GrosJaSON["contributors"][AllTags[0]]["images"].append("."+k)
 	GrosJaSON["images"][k]["modules"] = AllTags[1]
+	modz = AllTags[1].split(",")
+	modz = [x.strip() for x in modz]
+	for probe in ListOfProbes:
+		if probe in modz:
+			GrosJaSON["probes"][probe]["images"].append(k)
+			probeFound = probe
+			#print probe, k, modz
+
+
 	GrosJaSON["images"][k]["category"] = AllTags[2]
 	GrosJaSON["images"][k]["experiment"] = AllTags[3]
 	GrosJaSON["images"][k]["description"] = AllTags[4] 
 
 	ListIfImages.append(AllTags)
 	if "ToTag" not in AllTags[3]:
+	    if len(probeFound):
+		GrosJaSON["probes"][probe]["experiments"].append(AllTags[3])
 	    if len(AllTags[3]):
 		ListOfExperiment.append(AllTags[3])
+	    if AllTags[0] in GrosJaSON["contributors"].keys():
+		GrosJaSON["contributors"][AllTags[0]]["experiments"].append(AllTags[3])
+		#print AllTags[0],AllTags[3]    
 	GenFiles+= "* __"+k+"__:\n  * "+"\n  * ".join(AllTags)+"\n"
 
 ListOfExperiment = list(set(ListOfExperiment))
 ListOfExperiment.sort()
 
-print ListOfExperiment
+#print ListOfExperiment
 
 
 
 
 
 OpenWrite(GenFiles,"include/FilesList/ImgFiles.md")
+
+
 
 # -------------------------
 # Presentations
@@ -179,7 +209,7 @@ for mdFile in MDFiles[1]:
 ListOfDirs = GetListofModules("./")
 for eachInput in ListOfDirs:
 	GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
-print ListOfDirs
+#print ListOfDirs
 
 
 # -------------------------
@@ -319,13 +349,17 @@ AllExpeList,ExpeJSON,LogExpe = MakeExperiments(ListOfExperiment,ListIfImages,Gro
 log = log+LogExpe
 GrosJaSON["experiments"] = ExpeJSON
 
+# And putting back experiments in the probes list of experiments
+
+GrosJaSON = PutBackProbes(GrosJaSON)
+
 # -------------------------
 # Retired modules List
 # -------------------------
 
 
 ListOfRetiredDirs = GetListofModules("./retired")
-print ListOfRetiredDirs
+#print ListOfRetiredDirs
 
 # -------------------------
 # Files includes
@@ -761,7 +795,9 @@ OpenWrite(IncludeImage(AddRawHURL(TableModulesShort+"\n\n"+TableRetiredDocTxt)),
 # Adding Quickstart
 # -------------------------
 
-
+CreateProbesFiles(GrosJaSON)
+for probe in GrosJaSON["probes"].keys():
+	CopyGitBookFile("include/probes/auto/"+probe+".md","gitbook/probes/"+probe+".md")
 
 CopyGitBookFile("include/QuickStart.md","gitbook/Chapter1/QuickStart.md")
 
@@ -1037,6 +1073,11 @@ OpenWrite("\n\n".join( log ),"doc/log.md")
 urgent = [x.strip() for x in log if ":no_entry:" in x]
 OpenWrite("* "+"\n* ".join( urgent ),"doc/urgent.md")
 
+# -------------------------
+# Updating Summary log
+# -------------------------
+
+UpdateSUMMARY("gitbook/toc.md")
 
 
 with open('include/doc.json', 'wt') as out:
