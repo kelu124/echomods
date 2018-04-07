@@ -19,5 +19,3 @@ title: 2018-04-01 back from marrakech
     and reput it in the gitbook
 -   @done cleaning gitbook and pushing annexes
 
-=======
-
