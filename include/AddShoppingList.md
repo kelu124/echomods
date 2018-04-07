@@ -55,6 +55,8 @@ Loved Nasa: add to un0rick
 * change path of images when they have changed
 * Create detailed pages for the community in the gitbook
 * Create detailed pages for each probe [I've played with](/include/probes/Readme.md) in the gitbook
+* add dp location
+* listing experiments of others
 
 
 

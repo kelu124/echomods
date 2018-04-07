@@ -125,6 +125,12 @@
 * ./include/experiments/auto/Code_20170713a.md
 * ./include/experiments/auto/Img_20171112a.md
 * ./include/experiments/auto/Code_20180224a.md
+* ./include/probes/auto/s3.md
+* ./include/probes/auto/retroATL3.md
+* ./include/probes/auto/uprobe1.md
+* ./include/probes/auto/shzmch.md
+* ./include/probes/auto/retroPV10.md
+* ./include/probes/auto/bard.md
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md
 * ./include/sets/sets_slides.md
@@ -159,6 +165,12 @@
 * ./gitbook/Chapter5/images.md
 * ./gitbook/Chapter5/Readme.md
 * ./gitbook/Chapter5/loops.md
+* ./gitbook/probes/s3.md
+* ./gitbook/probes/retroATL3.md
+* ./gitbook/probes/uprobe1.md
+* ./gitbook/probes/shzmch.md
+* ./gitbook/probes/retroPV10.md
+* ./gitbook/probes/bard.md
 * ./gitbook/Chapter3/cletus.md
 * ./gitbook/Chapter3/bomanz2.md
 * ./gitbook/Chapter3/loftus.md
@@ -219,7 +231,6 @@
 * ./gitbook/exp/20180713a.md
 * ./gitbook/exp/20171001b.md
 * ./gitbook/exp/20180403a.md
-* ./gitbook/exp/HUAWEI.md
 * ./gitbook/exp/20171111a.md
 * ./gitbook/exp/20180217a.md
 * ./gitbook/exp/20170930a.md
@@ -229,7 +240,6 @@
 * ./gitbook/exp/20170715a.md
 * ./gitbook/exp/20180216a.md
 * ./gitbook/exp/20180403t.md
-* ./gitbook/exp/CASIO COMPUTER CO.,LTD..md
 * ./gitbook/exp/20180310a.md
 * ./gitbook/exp/20171001a.md
 * ./gitbook/exp/20180224a.md
