@@ -1070,6 +1070,13 @@
   * 20180403b
   * Testing new version of FPGA bin
   * ./matty/20180403b/p_OK_25V-200us-2-100_100_2000_110_200000-64msps.jpg
+* __/matty/20180403b/p_VGA2-lin_600to600_25V-200us-3-200_100_2000_10_200000-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/20180403b/p_VGA2-lin_600to600_25V-200us-3-200_100_2000_10_200000-64msps.jpg
 * __/matty/20180403b/p_OK_25V-200us-3-100_50_2000_160_200000-64msps.jpg__:
   * kelu124
   * matty
@@ -1077,6 +1084,27 @@
   * 20180403b
   * Testing new version of FPGA bin
   * ./matty/20180403b/p_OK_25V-200us-3-100_50_2000_160_200000-64msps.jpg
+* __/matty/20180403b/p_VGA-lin_0to1000_25V-200us-0-200_100_2000_10_200000-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/20180403b/p_VGA-lin_0to1000_25V-200us-0-200_100_2000_10_200000-64msps.jpg
+* __/matty/20180403b/TGC.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA with TGC
+  * ./matty/20180403b/TGC.jpg
+* __/matty/20180403b/TGCdetail.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Detail of a TGC line
+  * ./matty/20180403b/TGCdetail.jpg
 * __/matty/20180403b/p_OK_25V-200us-1-200_100_2000_10_200000-64msps.jpg__:
   * kelu124
   * matty
@@ -1098,6 +1126,13 @@
   * 20180403b
   * Testing new version of FPGA bin
   * ./matty/20180403b/p_OK_50V-200us-6-100_50_2000_160_200000-64msps.jpg
+* __/matty/20180403b/p_VGA2-exp_0to1000_25V-200us-0-200_100_2000_10_200000-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/20180403b/p_VGA2-exp_0to1000_25V-200us-0-200_100_2000_10_200000-64msps.jpg
 * __/matty/20180403b/p_OK_50V-200us-5-200_100_2000_10_200000-64msps.jpg__:
   * kelu124
   * matty
@@ -1105,6 +1140,13 @@
   * 20180403b
   * Testing new version of FPGA bin
   * ./matty/20180403b/p_OK_50V-200us-5-200_100_2000_10_200000-64msps.jpg
+* __/matty/20180403b/p_VGA2-lin_0to1000_25V-200us-1-200_100_2000_10_200000-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/20180403b/p_VGA2-lin_0to1000_25V-200us-1-200_100_2000_10_200000-64msps.jpg
 * __/matty/20180403b/p_OK_75V-200us-7-100_50_2000_160_200000-64msps.jpg__:
   * kelu124
   * matty
@@ -1112,6 +1154,13 @@
   * 20180403b
   * Testing new version of FPGA bin
   * ./matty/20180403b/p_OK_75V-200us-7-100_50_2000_160_200000-64msps.jpg
+* __/matty/20180403b/p_VGA2-lin_200to200_25V-200us-2-200_100_2000_10_200000-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/20180403b/p_VGA2-lin_200to200_25V-200us-2-200_100_2000_10_200000-64msps.jpg
 * __/matty/20180403b/p_OK_25V-200us-4-200_100_2000_10_200000-64msps.jpg__:
   * kelu124
   * matty
@@ -3268,6 +3317,13 @@
   * ToTag
   * ToTag
   * ./doj/viewme.png
+* __/doj/to_v3/old_doj-v2.png__:
+  * kelu124
+  * doj
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./doj/to_v3/old_doj-v2.png
 * __/doj/source/blocks.png__:
   * kelu124
   * doj
@@ -3516,10 +3572,17 @@
 * __/matty/20180403b/IMAG001.png__:
   * kelu124
   * matty
-  * graph
+  * oscilloscope
   * 20180403b
-  * Testing new version of FPGA bin
+  * Detail of pulser
   * ./matty/20180403b/IMAG001.png
+* __/matty/20180403b/Lin-0-1000.png__:
+  * kelu124
+  * matty
+  * oscilloscope
+  * 20180403b
+  * Linear gain from 0 to 1000 in 200us
+  * ./matty/20180403b/Lin-0-1000.png
 * __/matty/source/blocks.png__:
   * kelu124
   * matty

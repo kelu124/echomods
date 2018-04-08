@@ -130,7 +130,6 @@
 * ./include/probes/auto/uprobe1.md
 * ./include/probes/auto/retro10PV.md
 * ./include/probes/auto/shzmch.md
-* ./include/probes/auto/retroPV10.md
 * ./include/probes/auto/bard.md
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md

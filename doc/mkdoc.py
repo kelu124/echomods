@@ -649,18 +649,20 @@ def UpdateSUMMARY(path):
 	mypath = "gitbook/probes/"
 	lstProbe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
 	tmpProbe = ""
+	lstProbe.sort()
 	for k in lstProbe:
 		probe = k.split("/")[-1].split(".")[0]
 		tmpProbe += "    * ["+probe+"]("+k[8:]+")\n"
 	mypath = "gitbook/exp/"
 	lstExpe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
+	lstExpe.sort()
 	tmpExpe = ""
 	for k in lstExpe:
 		expe = k.split("/")[-1].split(".")[0]
 		tmpExpe += "    * ["+expe+"]("+k[8:]+")\n"
 
-	Summary = Summary.replace("LISTOFEXPE",tmpExpe[:-2])
-	Summary = Summary.replace("LISTOFPROBE",tmpProbe[:-2])
+	Summary = Summary.replace("LISTOFEXPE",tmpExpe[:-1])
+	Summary = Summary.replace("LISTOFPROBE",tmpProbe[:-1])
 	
 
 	f = open("gitbook/SUMMARY.md","w+")

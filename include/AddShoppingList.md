@@ -57,6 +57,22 @@ Loved Nasa: add to un0rick
 * Create detailed pages for each probe [I've played with](/include/probes/Readme.md) in the gitbook
 * add dp location
 * listing experiments of others
+* before reclean full repo, create release "Full Dev Resources" and get corresponding version (v1.9 + hash)!
+ * : Add Full GitBook PDF to it before
+* Sort the list of experiments, shortnames in SUMMARY
+* Community: list the contributors in a page + add the experiment. Individual page to point to experiment.
+* Page on documentation
+* Edit [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html) page to add Matty.
+* Rewrite the Chapters Readme -> "This chapter is dedicated to the brain_dumps "
+* Do a Doj (LOW PRIORITY)
+* Redo a usable alt.tbo (LOW PRIORITY)
+* Clean Modules list (keep lite.tbo, goblin, cletus, doj, elmo, matty) + add "CNprobe"
+ * Make 7 clean QuickStarts for remaining modules // copy them on Tindie.
+ * Get "ShortNames" in JSON
+* Put alt.tbo, tobo, loftus, tomtom, croaker, retroATL3 and wirephantom in retired modules + add "PU3090" phantoms in retired
+* Remove sets in doc
+* Remake homepage in autodoc
+* Clean obsolete versions in repos
 
 
 
