@@ -128,6 +128,7 @@
 * ./include/probes/auto/s3.md
 * ./include/probes/auto/retroATL3.md
 * ./include/probes/auto/uprobe1.md
+* ./include/probes/auto/retro10PV.md
 * ./include/probes/auto/shzmch.md
 * ./include/probes/auto/retroPV10.md
 * ./include/probes/auto/bard.md
@@ -168,6 +169,7 @@
 * ./gitbook/probes/s3.md
 * ./gitbook/probes/retroATL3.md
 * ./gitbook/probes/uprobe1.md
+* ./gitbook/probes/retro10PV.md
 * ./gitbook/probes/shzmch.md
 * ./gitbook/probes/retroPV10.md
 * ./gitbook/probes/bard.md

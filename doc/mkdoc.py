@@ -510,7 +510,7 @@ def CreateImgTags(ImgSrc):
 		if ("community" in ImgSrc):
 			Author = ImgSrc.replace("/include/community/","")
 			AuthorName = Author.split("/")[0][1:]
-			print AuthorName
+			#print AuthorName
 		else:
 			AuthorName = "kelu124"
 		metadata['Exif.Image.Artist'] = AuthorName
@@ -520,7 +520,7 @@ def CreateImgTags(ImgSrc):
 		metadata['Exif.Photo.MakerNote']
 	except KeyError:
 		edited = 1
-		print 'Exif.Photo.MakerNote'
+		#print 'Exif.Photo.MakerNote'
 		
 		if any(ext in ImgSrc for ext in ("TEK0","IMAG0")):
 					metadata['Exif.Photo.MakerNote'] = "oscilloscope"
@@ -542,7 +542,7 @@ def CreateImgTags(ImgSrc):
 
 	except UnicodeError:
 		# MakerNote sometimes bugs
-		print ImgSrc+" : "+str(metadata['Exif.Photo.MakerNote'])
+		#print ImgSrc+" : "+str(metadata['Exif.Photo.MakerNote'])
 		edited = 1
 		metadata['Exif.Photo.MakerNote'] = "ToTag"
 

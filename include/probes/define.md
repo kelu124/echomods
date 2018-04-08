@@ -13,8 +13,8 @@
 * smalldesc:An ATL ACCESS 3 probe.
 * longdesc:3.5MHz probe. Used on the ultramarks.
 
-# retroPV10
-* code:retropv10
+# retro10PV
+* code:retro10PV
 * smalldesc:a 3-frequencies probe
 * longdesc:5, 7.5 and 10 MHz probe. Used on the ultramarks.
 

@@ -2770,6 +2770,7 @@ ice40 again at https://www.element14.com/community/thread/43876/l/project-icesto
 
 * @todo add dp location
 * @todo listing experiments of others
+* getting things straight with MacroFab
 
 =======
 

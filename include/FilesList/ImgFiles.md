@@ -1063,118 +1063,69 @@
   * 20180310a
   * Programming the DAC
   * ./matty/20180310a/gain.jpg
-* __/matty/20180403b/p_D_25V_200us_-200us-10-80_10_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
+* __/matty/20180403b/p_OK_25V-200us-2-100_100_2000_110_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_-200us-10-80_10_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_50V_-130us-3-200_95_2000_7000_130000-VGA@0x22-spimode1-64msps.jpg__:
+  * ./matty/20180403b/p_OK_25V-200us-2-100_100_2000_110_200000-64msps.jpg
+* __/matty/20180403b/p_OK_25V-200us-3-100_50_2000_160_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_50V_-130us-3-200_95_2000_7000_130000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_A-130us-1-VGA@0x22-spimode1-64msps.jpg__:
+  * ./matty/20180403b/p_OK_25V-200us-3-100_50_2000_160_200000-64msps.jpg
+* __/matty/20180403b/p_OK_25V-200us-1-200_100_2000_10_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_A-130us-1-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_-200us-9-100_10_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
+  * ./matty/20180403b/p_OK_25V-200us-1-200_100_2000_10_200000-64msps.jpg
+* __/matty/20180403b/p_OK_25V-200us-0-200_100_2000_10_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_-200us-9-100_10_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_gain100_-200us-13-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
+  * ./matty/20180403b/p_OK_25V-200us-0-200_100_2000_10_200000-64msps.jpg
+* __/matty/20180403b/p_OK_50V-200us-6-100_50_2000_160_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_gain100_-200us-13-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_A-130us-0-VGA@0x22-spimode1-64msps.jpg__:
+  * ./matty/20180403b/p_OK_50V-200us-6-100_50_2000_160_200000-64msps.jpg
+* __/matty/20180403b/p_OK_50V-200us-5-200_100_2000_10_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_A-130us-0-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_-200us-8-200_95_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
+  * ./matty/20180403b/p_OK_50V-200us-5-200_100_2000_10_200000-64msps.jpg
+* __/matty/20180403b/p_OK_75V-200us-7-100_50_2000_160_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_-200us-8-200_95_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_gain0to1000expo_-200us-6-200_95_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
+  * ./matty/20180403b/p_OK_75V-200us-7-100_50_2000_160_200000-64msps.jpg
+* __/matty/20180403b/p_OK_25V-200us-4-200_100_2000_10_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_gain0to1000expo_-200us-6-200_95_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_gain800_-200us-12-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
+  * ./matty/20180403b/p_OK_25V-200us-4-200_100_2000_10_200000-64msps.jpg
+* __/matty/20180403b/p_OK_75V-200us-8-200_100_2000_10_200000-64msps.jpg__:
   * kelu124
   * matty
   * graph
   * 20180403b
   * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_gain800_-200us-12-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_gain1000_-200us-15-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
-  * kelu124
-  * matty
-  * graph
-  * 20180403b
-  * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_gain1000_-200us-15-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_gainbasique_-200us-5-200_95_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
-  * kelu124
-  * matty
-  * graph
-  * 20180403b
-  * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_gainbasique_-200us-5-200_95_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_gain400_-200us-14-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
-  * kelu124
-  * matty
-  * graph
-  * 20180403b
-  * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_gain400_-200us-14-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_gain500_-200us-16-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
-  * kelu124
-  * matty
-  * graph
-  * 20180403b
-  * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_gain500_-200us-16-200_100_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_200us_gain0to1000lineaire_-200us-7-200_95_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg__:
-  * kelu124
-  * matty
-  * graph
-  * 20180403b
-  * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_200us_gain0to1000lineaire_-200us-7-200_95_2000_7000_200000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_75V_-130us-4-200_95_2000_7000_130000-VGA@0x22-spimode1-64msps.jpg__:
-  * kelu124
-  * matty
-  * graph
-  * 20180403b
-  * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_75V_-130us-4-200_95_2000_7000_130000-VGA@0x22-spimode1-64msps.jpg
-* __/matty/20180403b/p_D_25V_-130us-2-200_95_2000_7000_130000-VGA@0x22-spimode1-64msps.jpg__:
-  * kelu124
-  * matty
-  * graph
-  * 20180403b
-  * Testing new version of FPGA bin
-  * ./matty/20180403b/p_D_25V_-130us-2-200_95_2000_7000_130000-VGA@0x22-spimode1-64msps.jpg
+  * ./matty/20180403b/p_OK_75V-200us-8-200_100_2000_10_200000-64msps.jpg
 * __/matty/20180225a/probe.jpg__:
   * kelu124
   * matty
@@ -3527,6 +3478,13 @@
   * ToTag
   * ToTag
   * ./doj/images/board2.png
+* __/matty/matty_costs.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/matty_costs.png
 * __/matty/viewme.png__:
   * kelu124
   * ToTag
@@ -3555,6 +3513,13 @@
   * 20180310a
   * Programming the DAC
   * ./matty/20180310a/DAC/IMAG002.png
+* __/matty/20180403b/IMAG001.png__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/20180403b/IMAG001.png
 * __/matty/source/blocks.png__:
   * kelu124
   * matty
@@ -5895,31 +5860,31 @@
   * ./include/images/2016-08-09/TEK0001.JPG
 * __/retroATL3/images/IMG_2399.JPG__:
   * kelu124
-  * retroATL3
+  * retro10PV
+  * pic
   * ToTag
-  * ToTag
-  * ToTag
+  * Overview of the probe
   * ./retroATL3/images/IMG_2399.JPG
 * __/retroATL3/images/IMG_2405.JPG__:
   * kelu124
-  * retroATL3
+  * retro10PV
   * ToTag
   * ToTag
-  * ToTag
+  * overview of the probe
   * ./retroATL3/images/IMG_2405.JPG
 * __/retroATL3/images/IMG_2404.JPG__:
   * kelu124
-  * retroATL3
+  * retro10PV
   * ToTag
   * ToTag
-  * ToTag
+  * Head seen close
   * ./retroATL3/images/IMG_2404.JPG
 * __/retroATL3/images/IMG_2401.JPG__:
   * kelu124
-  * retroATL3
+  * retro10PV
+  * pic
   * ToTag
-  * ToTag
-  * ToTag
+  * Piezos details
   * ./retroATL3/images/IMG_2401.JPG
 * __/retroATL3/images/TEK0005.JPG__:
   * kelu124
@@ -5930,8 +5895,8 @@
   * ./retroATL3/images/TEK0005.JPG
 * __/retroATL3/images/IMG_2402.JPG__:
   * kelu124
-  * retroATL3
-  * ToTag
+  * retro10PV
+  * pic
   * ToTag
   * Details of the translucent head.
   * ./retroATL3/images/IMG_2402.JPG
@@ -5944,17 +5909,17 @@
   * ./retroATL3/images/DSC_0725.JPG
 * __/retroATL3/images/IMG_2403.JPG__:
   * kelu124
-  * retroATL3
+  * retro10PV
   * ToTag
   * ToTag
   * Details of the head.
   * ./retroATL3/images/IMG_2403.JPG
 * __/retroATL3/images/IMG_2400.JPG__:
   * kelu124
-  * retroATL3
+  * retro10PV
+  * pic
   * ToTag
-  * ToTag
-  * ToTag
+  * Close view of the head
   * ./retroATL3/images/IMG_2400.JPG
 * __/retroATL3/images/DSC_0723.JPG__:
   * kelu124
