@@ -170,7 +170,6 @@
 * ./gitbook/probes/uprobe1.md
 * ./gitbook/probes/retro10PV.md
 * ./gitbook/probes/shzmch.md
-* ./gitbook/probes/retroPV10.md
 * ./gitbook/probes/bard.md
 * ./gitbook/Chapter3/cletus.md
 * ./gitbook/Chapter3/bomanz2.md
@@ -187,6 +186,7 @@
 * ./gitbook/Chapter3/croaker.md
 * ./gitbook/Chapter3/Readme.md
 * ./gitbook/Chapter7/pressreview.md
+* ./gitbook/Chapter7/autodoc.md
 * ./gitbook/Chapter7/Readme.md
 * ./gitbook/Chapter7/license.md
 * ./gitbook/Chapter7/progress.md
@@ -229,7 +229,6 @@
 * ./gitbook/exp/20180115a.md
 * ./gitbook/exp/20180403b.md
 * ./gitbook/exp/20180225a.md
-* ./gitbook/exp/20180713a.md
 * ./gitbook/exp/20171001b.md
 * ./gitbook/exp/20180403a.md
 * ./gitbook/exp/20171111a.md

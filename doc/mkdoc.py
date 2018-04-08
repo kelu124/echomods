@@ -650,12 +650,14 @@ def UpdateSUMMARY(path):
 	lstProbe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
 	tmpProbe = ""
 	lstProbe.sort()
+	#print lstProbe
 	for k in lstProbe:
 		probe = k.split("/")[-1].split(".")[0]
 		tmpProbe += "    * ["+probe+"]("+k[8:]+")\n"
 	mypath = "gitbook/exp/"
 	lstExpe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
 	lstExpe.sort()
+	#print lstExpe
 	tmpExpe = ""
 	for k in lstExpe:
 		expe = k.split("/")[-1].split(".")[0]
