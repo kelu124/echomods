@@ -34,5 +34,3 @@ title: 2018-04-08 Documentation process
 -   @todo Remake homepage in autodoc
 -   @todo Clean obsolete versions in repos
 
-=======
-
