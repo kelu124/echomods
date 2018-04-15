@@ -1,4 +1,0 @@
-Change Component DesignItemId : Designator=IC2 Old DesignItemId=HV7360LA-G New DesignItemId=
-Change Component Designator: OldDesignator=JMP1 NewDesignator=Jumper1
-Change Component Library : Designator=IC2 Old Library=Sof-ICs And Semiconductors.DbLib New Library=Schlib2.SchLib
-Change Net Name : Old Net Name=NetJumper1_1 New Net Name=VGA IN
