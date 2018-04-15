@@ -6668,7 +6668,7 @@
         '/include/experiments/Desc_20180415a.md': {'path': './include/experiments/Desc_20180415a.md'},
         '/include/experiments/Desc_20180415r.md': {'path': './include/experiments/Desc_20180415r.md'},
         '/include/experiments/all.md': {'path': './include/experiments/all.md',
-                                        'references': []},
+                                        'references': ['/include/autodoc.md']},
         '/include/experiments/auto/20160809a.md': {'path': './include/experiments/auto/20160809a.md'},
         '/include/experiments/auto/20160814a.md': {'path': './include/experiments/auto/20160814a.md'},
         '/include/experiments/auto/20161217a.md': {'path': './include/experiments/auto/20161217a.md'},

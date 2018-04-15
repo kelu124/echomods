@@ -38,6 +38,10 @@ Automating most of the documentation
 * [Log of important errors](/doc/urgent.md)
 * [List of documentation compilation warning](/doc/log.md)
 
+# Experiments descriptions
+
+* [](/include/experiments/all.md)
+
 # Other includes 
 
 * [Different todos from the documentation](/include/AddShoppingList.md)
