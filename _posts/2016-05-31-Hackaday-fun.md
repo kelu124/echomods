@@ -18,7 +18,7 @@ title: 2016-05-31 Hackaday fun
     reset de mot de passe, aucun email n'arrive.
 -   TODO: réorganiser les Readme entre echomods et medicotechnical et
     leur prod automatisée =)
--   [EMW3165](/croaker/notes_EMW3165.md) : "All I see is an under 8 USD
-    STM32F411CE dev board with some wifi gadget" (
+-   [EMW3165](/retired/croaker/notes_EMW3165.md) : "All I see is an
+    under 8 USD STM32F411CE dev board with some wifi gadget" (
     http://www.emw3165.com/ )
 

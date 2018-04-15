@@ -17,8 +17,8 @@ title: 2016-10-22 End of week
 
 Next week:
 
--   @cancelled 6Msps on the [STM32](/croaker/)
--   @done Sourcing transducer (in [cletus](/cletus/) )
+-   @cancelled 6Msps on the [STM32](/retired/croaker/)
+-   @done Sourcing transducer (in [cletus](/retired/cletus/) )
 -   @done Sourcing materials + integration makefile par set
 -   @done Compiler output
 

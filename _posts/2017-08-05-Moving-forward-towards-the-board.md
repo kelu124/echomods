@@ -7,7 +7,7 @@ title: 2017-08-05 Moving forward towards the board
 ---
 
 
--   Added something about [the S3 probe](/loftus/source/s3/)
+-   Added something about [the S3 probe](/retired/loftus/source/s3/)
 
 -   @done Adding the descs for modules and power needs
 

@@ -16,8 +16,8 @@ update the **MASTER TODO** !
 -   Get updated goblins
 -   Put them on tindie with ADC pHATs
 -   **atl.tobo.cheap**
--   Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md) --
-    possible D2 issue
+-   Review reason for [pulser
+    issues](/retired/alt.tbo/20171028a/Readme.md) -- possible D2 issue
 -   Start macrofab bis.tbo after feedback on D2
 -   **ADC board** (cancelled as of 20180401 - gone directly to
     final board)

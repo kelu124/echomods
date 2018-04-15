@@ -7,7 +7,7 @@ title: 2016-04-24 Maintainers
 ---
 
 
--   Starting to document [Tobo](/tobo/Readme.md)
+-   Starting to document [Tobo](/retired/tobo/Readme.md)
 -   Reading **"Maintaining Open Source Projects"** by Tute Costa : *A
     project maintainer should feel comfortable shaping the community,
     promoting the library, keeping good communication with different

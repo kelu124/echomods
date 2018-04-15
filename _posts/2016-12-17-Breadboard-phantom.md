@@ -8,7 +8,7 @@ title: 2016-12-17 Breadboard phantom
 
 
 -   Done some tests with a breadboard phantom: [read more
-    here](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md).
+    here](/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md).
 -   Still moving in the new flat, getting accustomed to the new job..
     and still need to sort the hacking tools in a limited space in the
     new flat =)

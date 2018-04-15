@@ -7,7 +7,7 @@ title: 2017-03-06 Further work
 ---
 
 
--   Updated the [suppliers repo](/cletus/suppliers/Readme.md)
+-   Updated the [suppliers repo](/retired/cletus/suppliers/Readme.md)
 -   Testing the [goblin](/goblin/) In/out transfer function on the
     [emulator](/silent/) signal: [read
     here](/retired/toadkiller/data/test_enveloppe/). The more I play

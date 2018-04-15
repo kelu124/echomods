@@ -32,5 +32,5 @@ Got 3 months left (see 28/7), let's do... a **MASTER TODO** !
 -   Get sent to macrofab by 25/10
 -   Receive board by 25/11
 
-**More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)**
+**More [Raspberry Pi Zero notes](/retired/croaker/notes_RPi0.md)**
 

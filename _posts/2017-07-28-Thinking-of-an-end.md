@@ -30,8 +30,8 @@ a presentable project before Year 2. The five key milestones:
     this ADC pHAT done, which can be perfected, but it's quite a win, so
     a simple 80V monopolar ultrasound board (independant from the motor
     / multiplexer) could be reached by Nov. *Status: 0%* Update: could
-    be good to use the [probe head](/loftus/) to do a full portable
-    probe =)
+    be good to use the [probe head](/retired/loftus/) to do a full
+    portable probe =)
 6.  ENDOFYEAR: Ongoing with Matty (20171217)
 7.  **Documentation**: There are a couple of notes here, I'd love to see
     all of those gathered / processed / put into a braindump. Gitbook is

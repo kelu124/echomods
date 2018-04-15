@@ -13,6 +13,6 @@ title: 2016-07-13 Some new stuff
 -   cables pour SPI a base de cables ethernets?
 -   **STM32**: mise a jour du fichier uC avec [un nouveau
     STM32](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32f3-series/stm32f334/stm32f334r8.html)
-    dans [Notes uC](/croaker/notes_uC.md)
+    dans [Notes uC](/retired/croaker/notes_uC.md)
 -   **Contact AD**
 
