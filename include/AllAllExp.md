@@ -1,21 +1,21 @@
 # Experiments
 
- * [20160809a](/include/experiments/auto/20160809a.md)
- * [20160814a](/include/experiments/auto/20160814a.md)
- * [20161217a](/include/experiments/auto/20161217a.md)
- * [20170611a](/include/experiments/auto/20170611a.md)
- * [20170713a](/include/experiments/auto/20170713a.md)
- * [20170715a](/include/experiments/auto/20170715a.md)
- * [20170930a](/include/experiments/auto/20170930a.md)
- * [20171001a](/include/experiments/auto/20171001a.md)
- * [20171001b](/include/experiments/auto/20171001b.md)
- * [20171111a](/include/experiments/auto/20171111a.md)
- * [20171112a](/include/experiments/auto/20171112a.md)
- * [20171124a](/include/experiments/auto/20171124a.md)
- * [20180103a](/include/experiments/auto/20180103a.md)
- * [20180115a](/include/experiments/auto/20180115a.md)
- * [20180216a](/include/experiments/auto/20180216a.md)
- * 2018-02-17: [Alt.tbo and Elmo](/include/experiments/auto/20180217a.md): Testing alt.tbo and elmo new boards. _(20180217a)_
+ * 2016-08-09: [Goblin tests](/include/experiments/auto/20160809a.md): Testing the goblin board with the silent emulator. _(20160809a)_
+ * 2016-08-14: [RPi](/include/experiments/auto/20160814a.md): Testing the acquisition with the BeagleBone DAQ. _(20160814a)_
+ * 2016-12-17: [Croaker](/include/experiments/auto/20161217a.md): Testing the acquisition with the croaker module. _(20161217a)_
+ * 2017-06-11: [Croaker](/include/experiments/auto/20170611a.md): Testing the acquisition with the croaker module. _(20170611a)_
+ * 2017-07-13: [Elmo](/include/experiments/auto/20170713a.md): Testing the new DAQ with two ADCs. _(20170713a)_
+ * 2017-07-15: [RetroATL3 acquisition](/include/experiments/auto/20170715a.md): Getting an image from the retroATL3 probe. _(20170715a)_
+ * 2017-09-30: [Alt.tbo](/include/experiments/auto/20170930a.md): Testing new pulser again 1/4 _(20170930a)_
+ * 2017-10-01: [Alt.tbo](/include/experiments/auto/20171001a.md): Testing new pulser again 2/4 _(20171001a)_
+ * 2017-10-01: [Alt.tbo](/include/experiments/auto/20171001b.md): Testing new pulser again 3/4 _(20171001b)_
+ * 2017-11-11: [Alt.tbo](/include/experiments/auto/20171111a.md): Testing new pulser again 4/4 _(20171111a)_
+ * 2017-11-12: [Probe](/include/experiments/auto/20171112a.md): Testing new probe with new pulser _(20171112a)_
+ * 2017-11-24: [Impedance matching](/include/experiments/auto/20171124a.md): Doing some tests for impedance matching. _(20171124a)_
+ * 2018-01-03: [Felix experiment](/include/experiments/auto/20180103a.md): Testing Felix setup with previous Bomanz module. _(20180103a)_
+ * 2018-01-15: [Matty](/include/experiments/auto/20180115a.md): Receiving the first matty. _(20180115a)_
+ * 2018-02-16: [Alt.tbo and Elmo](/include/experiments/auto/20180216a.md): Testing alt.tbo and elmo new boards. _(20180216a)_
+ * 2018-02-17: [Alt.tbo and Elmo](/include/experiments/auto/20180217a.md): Testing alt.tbo and elmo new boards for pulser issues (there is not positive and negative pulse, only goes in direction). _(20180217a)_
  * 2018-02-24: [Matty speed tests](/include/experiments/auto/20180224a.md): Testing matty s acquisition at different speed, 12Msps to 24Msps. _(20180224a)_
  * 2018-02-24: [Matty Gain](/include/experiments/auto/20180224b.md): Testing matty's fixed gain settings. _(20180224b)_
  * 2018-02-25: [Matty and RetroATL3](/include/experiments/auto/20180225a.md): Acquisition of a probe image with matty. _(20180225a)_

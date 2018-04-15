@@ -61,7 +61,7 @@ uC pings emulator and streams feedback
 
 * This is the module which emulates the signal coming from the analog processing chain. ([silent](/silent/)) -- get for _35$_ (Where? Get from [Adafruit](https://www.adafruit.com/products/3056))
 * The acquisition heart of the echOmods ([croaker](/croaker/)) -- get for _35$_ (Where? Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl))
-* Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
+* Mogaba, the power supply ([mogaba](/retired/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * The motherboard of the echomods ([doj](/doj/)) -- get for _5$_ (Where? Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) if you can order by 3. Or [straight from Tindie](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).)
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 
@@ -75,7 +75,7 @@ The default setting for the sets
 
 * Simply the servo and transducer module ([cletus](/cletus/)) -- get for _80$_ (Where? Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22)))
 * The acquisition heart of the echOmods ([croaker](/croaker/)) -- get for _35$_ (Where? Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl))
-* Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
+* Mogaba, the power supply ([mogaba](/retired/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 * Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 
@@ -88,12 +88,12 @@ Some stuff, unexpensive to buy, to build a ultrasound testing kit, totalling les
 
 
 * Retrohacking the ATL Access 3 probe ([retroATL3](/retroATL3/)) -- get for _75$_ (Where? Recycling a probe from [ebay](http://www.ebay.fr/sch/i.html?_odkw=%22atl+access%22+probe&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X%22atl+access%22+.TRS0&_nkw=%22atl+access%22+&_sacat=0))
-* This is the module to get high-speed (40Msps) signal acquisition. ([toadkiller](/toadkiller/)) -- get for _79$_ (Where?  A bundle at 169$ from [Groupgets](https://groupgets.com/manufacturers/getlab/products/prudaq) or as a [standalone](https://store.groupgets.com/#!/p/68936091) at 79$ )
-* Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
+* This is the module to get high-speed (40Msps) signal acquisition. ([toadkiller](/retired/toadkiller/)) -- get for _79$_ (Where?  A bundle at 169$ from [Groupgets](https://groupgets.com/manufacturers/getlab/products/prudaq) or as a [standalone](https://store.groupgets.com/#!/p/68936091) at 79$ )
+* Mogaba, the power supply ([mogaba](/retired/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 * Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 * The motherboard of the echomods ([doj](/doj/)) -- get for _5$_ (Where? Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) if you can order by 3. Or [straight from Tindie](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).)
-* One-eye, the controler ([oneeye](/oneeye/)) -- get for _10$_ (Where? from [Adafruit](https://www.adafruit.com/product/2000))
+* One-eye, the controler ([oneeye](/retired/oneeye/)) -- get for _10$_ (Where? from [Adafruit](https://www.adafruit.com/product/2000))
 
 
 _Total cost of the set: 443$_
@@ -129,28 +129,28 @@ The diagram is represented below:
 |<img src='https://github.com/kelu124/echomods/blob/master/matty/viewme.png' align='center' width='150'>|**[matty](/matty/Readme.md)**: The aim is to summarize all modules in a all-inclusive board. Fast ADC, good load of memory, good SNR.. the not-so-DIY module, as it comes already assembled with nothing to do =)|||
 |<img src='https://github.com/kelu124/echomods/blob/master/retroATL3/viewme.png' align='center' width='150'>|**[retroATL3](/retroATL3/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former ATL3.|<ul><li>ITF-A_gnd</li><li>ITF-F_12V</li><li>ITF-N_cc_motor_pwm</li><li>ITF-mET_Transducer</li><li>Motor</li><li>Tri-Piezo Head</li></ul>|<ul><li>Motor</li><li>ITF-mET_Transducer</li><li>Tri-Piezo Head</li></ul>|
 |<img src='https://github.com/kelu124/echomods/blob/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed, with all steps accessible to hackers. |<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-7_GAIN</li><li>ITF-4_RawSig</li><li>ITF-3_ENV</li><li>ITF-18_Raw</li><li>ITF-mET_SMA</li></ul>|<ul><li>ITF-4_RawSig</li><li>ITF-3_ENV_signal_envelope</li><li>ITF-mEG_SPI</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/lite.tbo/viewme.png' align='center' width='150'>|**[lite.tbo](/lite.tbo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-19_3.3V</li><li>ITF-mET_Transducer</li><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-19_3.3V</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-18_Raw</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li><li>ITF-18_Raw</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/lite.tbo/viewme.png' align='center' width='150'>|**[lite.tbo](/lite.tbo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-19_3.3V</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-18_Raw</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
 |<img src='https://github.com/kelu124/echomods/blob/master/silent/viewme.png' align='center' width='150'>|**[silent](/silent/Readme.md)**: The aim of this echOmod is to simulate a raw signal that would come from the piezo and analog chain.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-17_POff3</li></ul>|<ul><li>ITF-18_Raw</li></ul>|
 
 
 # Experiments
 
- * [20160809a](/include/experiments/auto/20160809a.md)
- * [20160814a](/include/experiments/auto/20160814a.md)
- * [20161217a](/include/experiments/auto/20161217a.md)
- * [20170611a](/include/experiments/auto/20170611a.md)
- * [20170713a](/include/experiments/auto/20170713a.md)
- * [20170715a](/include/experiments/auto/20170715a.md)
- * [20170930a](/include/experiments/auto/20170930a.md)
- * [20171001a](/include/experiments/auto/20171001a.md)
- * [20171001b](/include/experiments/auto/20171001b.md)
- * [20171111a](/include/experiments/auto/20171111a.md)
- * [20171112a](/include/experiments/auto/20171112a.md)
- * [20171124a](/include/experiments/auto/20171124a.md)
- * [20180103a](/include/experiments/auto/20180103a.md)
- * [20180115a](/include/experiments/auto/20180115a.md)
- * [20180216a](/include/experiments/auto/20180216a.md)
- * 2018-02-17: [Alt.tbo and Elmo](/include/experiments/auto/20180217a.md): Testing alt.tbo and elmo new boards. _(20180217a)_
+ * 2016-08-09: [Goblin tests](/include/experiments/auto/20160809a.md): Testing the goblin board with the silent emulator. _(20160809a)_
+ * 2016-08-14: [RPi](/include/experiments/auto/20160814a.md): Testing the acquisition with the BeagleBone DAQ. _(20160814a)_
+ * 2016-12-17: [Croaker](/include/experiments/auto/20161217a.md): Testing the acquisition with the croaker module. _(20161217a)_
+ * 2017-06-11: [Croaker](/include/experiments/auto/20170611a.md): Testing the acquisition with the croaker module. _(20170611a)_
+ * 2017-07-13: [Elmo](/include/experiments/auto/20170713a.md): Testing the new DAQ with two ADCs. _(20170713a)_
+ * 2017-07-15: [RetroATL3 acquisition](/include/experiments/auto/20170715a.md): Getting an image from the retroATL3 probe. _(20170715a)_
+ * 2017-09-30: [Alt.tbo](/include/experiments/auto/20170930a.md): Testing new pulser again 1/4 _(20170930a)_
+ * 2017-10-01: [Alt.tbo](/include/experiments/auto/20171001a.md): Testing new pulser again 2/4 _(20171001a)_
+ * 2017-10-01: [Alt.tbo](/include/experiments/auto/20171001b.md): Testing new pulser again 3/4 _(20171001b)_
+ * 2017-11-11: [Alt.tbo](/include/experiments/auto/20171111a.md): Testing new pulser again 4/4 _(20171111a)_
+ * 2017-11-12: [Probe](/include/experiments/auto/20171112a.md): Testing new probe with new pulser _(20171112a)_
+ * 2017-11-24: [Impedance matching](/include/experiments/auto/20171124a.md): Doing some tests for impedance matching. _(20171124a)_
+ * 2018-01-03: [Felix experiment](/include/experiments/auto/20180103a.md): Testing Felix setup with previous Bomanz module. _(20180103a)_
+ * 2018-01-15: [Matty](/include/experiments/auto/20180115a.md): Receiving the first matty. _(20180115a)_
+ * 2018-02-16: [Alt.tbo and Elmo](/include/experiments/auto/20180216a.md): Testing alt.tbo and elmo new boards. _(20180216a)_
+ * 2018-02-17: [Alt.tbo and Elmo](/include/experiments/auto/20180217a.md): Testing alt.tbo and elmo new boards for pulser issues (there is not positive and negative pulse, only goes in direction). _(20180217a)_
  * 2018-02-24: [Matty speed tests](/include/experiments/auto/20180224a.md): Testing matty s acquisition at different speed, 12Msps to 24Msps. _(20180224a)_
  * 2018-02-24: [Matty Gain](/include/experiments/auto/20180224b.md): Testing matty's fixed gain settings. _(20180224b)_
  * 2018-02-25: [Matty and RetroATL3](/include/experiments/auto/20180225a.md): Acquisition of a probe image with matty. _(20180225a)_
@@ -179,7 +179,7 @@ Note that the 'BONUS!' represents something that _could_ be done, and does not c
 |matty|<ul><li>See the <a href="/matty/nextsteps.md">next steps</a></li><li>Having it work with a <a href="/retroATL3/">retroATL3</a></li></ul>|<ul><li>Getting some signals!</li></ul>|33% |
 |retroATL3|<ul><li>See the <a href="/matty/nextsteps.md">next steps</a></li><li>Having it work with a <a href="/retroATL3/">retroATL3</a></li></ul>|<ul><li><em>BONUS!</em> Get RealTime acquisition</li><li>Finding the pins mapping</li><li>Acquire and build ultrasound pictures =)</li><li>Motor in action</li><li>Refill Oil</li><li>Test echoes</li><li><a href="https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging/log/42113-testing-murgen-with-a-market-probe">Make and insert a video: there</a></li></ul>|77% |
 |goblin|<ul><li>Test Goblin v2</li></ul>|<ul><li>Check the power consumption</li><li><a href="/retired/toadkiller/data/test_enveloppe/">Testing the in and out signals</a> of the board with the prudaq.</li><li>Specs to write</li><li>Agreeing on the strips </li><li>Check if 5V and 3.3V are stable</li><li>Defining the ICs to use</li><li>Getting schematics</li><li>Send microcircuits to Edgeflex</li><li>Receive the module</li><li>Publish the sources in KiCAD (@Sofian maybe?)</li><li>CANCELLED - Test it with the <a href="/retired/hannin/">EMW3165</a></li><li>Plug it to a <a href="/elmo/">RPi0</a> or <a href="/retired/toadkiller/">BBB</a> or <a href="/retired/croaker/">STM32</a></li><li>Connect the ADC to a RPi0</li></ul>|92% |
-|lite.tbo|<ul><li>Review a bipolar design (originally alt.tbo -- but double the components and hence the price)</li><li>Preliminary testing</li><li>Ivan for the TC6320TG</li><li>The second iteration of the HV-Pulser of the echOmods</li><li>Setup? Soon a quickstart?</li><li>version: V0.1</li><li>cost:120$</li><li>sourcing:Tindie</li><li>date: 15/04/2018</li><li>technology: Module-compatible, Homemade PCB, ICs based on <code>TC6320TG</code> and <code>NMT0572SC</code></li><li>language: Altium</li><li>author: Kelu124</li><li><code>ITF-1_GND</code></li><li><code>ITF-2_VDD_5V</code></li><li><code>ITF-9_Pon</code> </li><li><code>ITF-10_Poff</code> </li><li><code>ITF-19_3.3V</code></li><li><code>ITF-mET_Transducer</code> : signal coming back </li><li><code>ITF-18_Raw</code>  : for the signal coming from the transducer</li><li><code>ITF-mET_SMA</code> : for the signal coming out to the signal processing (if through SMA)</li><li><code>ITF-mET_Transducer</code> : for the signal coming out of the pulser (if through SMA)</li><li><code>TC6320TG</code></li><li><code>NMT0572SC</code></li><li><code>Pulse-P</code>-&gt;<code>TC6320TG</code></li><li><code>Pulse-N</code>-&gt;<code>TC6320TG</code></li><li><code>Damper</code>-&gt;<code>TC6320TG</code></li><li><code>NMT0572SC</code>-&gt;<code>HV-N</code>-&gt;<code>TC6320TG</code></li><li><code>NMT0572SC</code>-&gt;<code>HV-P</code>-&gt;<code>TC6320TG</code>-&gt;<code>ITF-mET_Transducer</code></li><li><code>ITF-mET_Transducer</code>-&gt;<code>ITF-mET_SMA</code></li><li><code>ITF-mET_Transducer</code>-&gt;<code>ITF-18_Raw</code></li><li>Cheaper, more robust than <a href="/retired/tobo/">tobo</a></li><li>Less issues with the MD0100</li><li>As of today (20180305), the damper still lacks</li><li>Needed to get a couple of 10's of ns wide square pulses, both in the positive and negative.</li><li>Control of pulses must be through 3.3 or 5V tolerant logic</li><li>Pulses height must be selectable (say with a jumper?) for ~20V, 40V, 80V (for positive pulses).</li><li>Only power supply available is 5V</li><li>See this <a href="http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf">application note</a> - recommend MD1213 and TC6320 </li><li>Possible (but not used in the end) high voltage source: https://datasheets.maximintegrated.com/en/ds/MAX5025-MAX5028.pdf (3 -&gt; 30V) to be used with a <a href="http://www.eleccircuit.com/the-many-dc-to-dc-converters-using-ic-555/">555 DC-DC convertor</a></li><li>Signal back from the diod is clipped by <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf">MD0100</a> + back to back diods.  </li><li><a href="/lite.tbo/source/">Source files</a></li><li><a href="/lite.tbo/schematics.PDF">Schematics</a></li><li><a href="/lite.tbo/build/BOM.xls">BOM</a></li><li><a href="/lite.tbo/build/Gerbers_10_03_2018.zip">Gerbers</a></li><li><a href="/lite.tbo/build/odb.zip">ODB</a></li><li><a href="/lite.tbo/build/PickPlace_10_03_2018.zip">Pickplace</a></li><li>Needs only 5V</li><li>HV: NMT0572SC</li><li>Pulser : MD1213 and TC6320 -&gt; see <a href="http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf">Fig.6 here, bipolar 3 level pulser</a>.</li><li><a href="http://ww1.microchip.com/downloads/en/DeviceDoc/tc6320.pdf">TC6320, undamped</a>, detailed here. </li><li>TC6320 http://ww1.microchip.com/downloads/en/DeviceDoc/20005697A.pdf for the datasheet</li><li>Protection: MD0100+diods -- should be enough, see <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf">bottom of page 1, or Fig 9</a></li><li>Review a bipolar design (originally alt.tbo -- but double the components and hence the price)</li></ul>|<ul><li>Preliminary testing</li><li>Ivan for the TC6320TG</li><li>The second iteration of the HV-Pulser of the echOmods</li><li>Setup? Soon a quickstart?</li><li>version: V0.1</li><li>cost:120$</li><li>sourcing:Tindie</li><li>date: 15/04/2018</li><li>technology: Module-compatible, Homemade PCB, ICs based on <code>TC6320TG</code> and <code>NMT0572SC</code></li><li>language: Altium</li><li>author: Kelu124</li><li><code>ITF-1_GND</code></li><li><code>ITF-2_VDD_5V</code></li><li><code>ITF-9_Pon</code> </li><li><code>ITF-10_Poff</code> </li><li><code>ITF-19_3.3V</code></li><li><code>ITF-mET_Transducer</code> : signal coming back </li><li><code>ITF-18_Raw</code>  : for the signal coming from the transducer</li><li><code>ITF-mET_SMA</code> : for the signal coming out to the signal processing (if through SMA)</li><li><code>ITF-mET_Transducer</code> : for the signal coming out of the pulser (if through SMA)</li><li><code>TC6320TG</code></li><li><code>NMT0572SC</code></li><li><code>Pulse-P</code>-&gt;<code>TC6320TG</code></li><li><code>Pulse-N</code>-&gt;<code>TC6320TG</code></li><li><code>Damper</code>-&gt;<code>TC6320TG</code></li><li><code>NMT0572SC</code>-&gt;<code>HV-N</code>-&gt;<code>TC6320TG</code></li><li><code>NMT0572SC</code>-&gt;<code>HV-P</code>-&gt;<code>TC6320TG</code>-&gt;<code>ITF-mET_Transducer</code></li><li><code>ITF-mET_Transducer</code>-&gt;<code>ITF-mET_SMA</code></li><li><code>ITF-mET_Transducer</code>-&gt;<code>ITF-18_Raw</code></li><li>Cheaper, more robust than <a href="/retired/tobo/">tobo</a></li><li>Less issues with the MD0100</li><li>As of today (20180305), the damper still lacks</li><li>Needed to get a couple of 10's of ns wide square pulses, both in the positive and negative.</li><li>Control of pulses must be through 3.3 or 5V tolerant logic</li><li>Pulses height must be selectable (say with a jumper?) for ~20V, 40V, 80V (for positive pulses).</li><li>Only power supply available is 5V</li><li>See this <a href="http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf">application note</a> - recommend MD1213 and TC6320 </li><li>Possible (but not used in the end) high voltage source: https://datasheets.maximintegrated.com/en/ds/MAX5025-MAX5028.pdf (3 -&gt; 30V) to be used with a <a href="http://www.eleccircuit.com/the-many-dc-to-dc-converters-using-ic-555/">555 DC-DC convertor</a></li><li>Signal back from the diod is clipped by <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf">MD0100</a> + back to back diods.  </li><li><a href="/lite.tbo/source/">Source files</a></li><li><a href="/lite.tbo/schematics.PDF">Schematics</a></li><li><a href="/lite.tbo/build/BOM.xls">BOM</a></li><li><a href="/lite.tbo/build/Gerbers_10_03_2018.zip">Gerbers</a></li><li><a href="/lite.tbo/build/odb.zip">ODB</a></li><li><a href="/lite.tbo/build/PickPlace_10_03_2018.zip">Pickplace</a></li><li>Needs only 5V</li><li>HV: NMT0572SC</li><li>Pulser : MD1213 and TC6320 -&gt; see <a href="http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf">Fig.6 here, bipolar 3 level pulser</a>.</li><li><a href="http://ww1.microchip.com/downloads/en/DeviceDoc/tc6320.pdf">TC6320, undamped</a>, detailed here. </li><li>TC6320 http://ww1.microchip.com/downloads/en/DeviceDoc/20005697A.pdf for the datasheet</li><li>Protection: MD0100+diods -- should be enough, see <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf">bottom of page 1, or Fig 9</a></li><li>Review a bipolar design (originally alt.tbo -- but double the components and hence the price)</li><li>Preliminary testing</li></ul>|50% |
+|lite.tbo|<ul><li>Review a bipolar design (originally alt.tbo -- but double the components and hence the price)</li></ul>|<ul><li>Preliminary testing</li></ul>|50% |
 |silent||<ul><li>Feather: <a href="/silent/software/featherWICED/SignalGenerator.ino">work with an interrupt</a></li><li>Write code for feather WICED</li><li>Publish this code</li><li>Remove Signal Bias</li><li>Validated with a Feather WICED (<a href="/silent/software/featherWICED/SimpleSignalGenerator.ino">code</a>).</li><li>Feather: remove the average value before inputing in Goblin</li><li><a href="/silent/2016-08-09-SilentPlusTobo.md">Check output with Goblin</a></li></ul>|100% |
 
 
@@ -194,58 +194,6 @@ Here's a couple of things we're working on, for which you could help as well.
 * See the <a href="/matty/nextsteps.md">next steps</a> (in [matty](/matty/))
 * Having it work with a <a href="/retroATL3/">retroATL3</a> (in [matty](/matty/))
 * Test Goblin v2 (in [goblin](/goblin/))
-* Review a bipolar design (originally alt.tbo -- but double the components and hence the price) (in [lite.tbo](/lite.tbo/))
-* Preliminary testing (in [lite.tbo](/lite.tbo/))
-* Ivan for the TC6320TG (in [lite.tbo](/lite.tbo/))
-* The second iteration of the HV-Pulser of the echOmods (in [lite.tbo](/lite.tbo/))
-* Setup? Soon a quickstart? (in [lite.tbo](/lite.tbo/))
-* version: V0.1 (in [lite.tbo](/lite.tbo/))
-* cost:120$ (in [lite.tbo](/lite.tbo/))
-* sourcing:Tindie (in [lite.tbo](/lite.tbo/))
-* date: 15/04/2018 (in [lite.tbo](/lite.tbo/))
-* technology: Module-compatible, Homemade PCB, ICs based on <code>TC6320TG</code> and <code>NMT0572SC</code> (in [lite.tbo](/lite.tbo/))
-* language: Altium (in [lite.tbo](/lite.tbo/))
-* author: Kelu124 (in [lite.tbo](/lite.tbo/))
-* <code>ITF-1_GND</code> (in [lite.tbo](/lite.tbo/))
-* <code>ITF-2_VDD_5V</code> (in [lite.tbo](/lite.tbo/))
-* <code>ITF-9_Pon</code>  (in [lite.tbo](/lite.tbo/))
-* <code>ITF-10_Poff</code>  (in [lite.tbo](/lite.tbo/))
-* <code>ITF-19_3.3V</code> (in [lite.tbo](/lite.tbo/))
-* <code>ITF-mET_Transducer</code> : signal coming back  (in [lite.tbo](/lite.tbo/))
-* <code>ITF-18_Raw</code>  : for the signal coming from the transducer (in [lite.tbo](/lite.tbo/))
-* <code>ITF-mET_SMA</code> : for the signal coming out to the signal processing (if through SMA) (in [lite.tbo](/lite.tbo/))
-* <code>ITF-mET_Transducer</code> : for the signal coming out of the pulser (if through SMA) (in [lite.tbo](/lite.tbo/))
-* <code>TC6320TG</code> (in [lite.tbo](/lite.tbo/))
-* <code>NMT0572SC</code> (in [lite.tbo](/lite.tbo/))
-* <code>Pulse-P</code>-&gt;<code>TC6320TG</code> (in [lite.tbo](/lite.tbo/))
-* <code>Pulse-N</code>-&gt;<code>TC6320TG</code> (in [lite.tbo](/lite.tbo/))
-* <code>Damper</code>-&gt;<code>TC6320TG</code> (in [lite.tbo](/lite.tbo/))
-* <code>NMT0572SC</code>-&gt;<code>HV-N</code>-&gt;<code>TC6320TG</code> (in [lite.tbo](/lite.tbo/))
-* <code>NMT0572SC</code>-&gt;<code>HV-P</code>-&gt;<code>TC6320TG</code>-&gt;<code>ITF-mET_Transducer</code> (in [lite.tbo](/lite.tbo/))
-* <code>ITF-mET_Transducer</code>-&gt;<code>ITF-mET_SMA</code> (in [lite.tbo](/lite.tbo/))
-* <code>ITF-mET_Transducer</code>-&gt;<code>ITF-18_Raw</code> (in [lite.tbo](/lite.tbo/))
-* Cheaper, more robust than <a href="/retired/tobo/">tobo</a> (in [lite.tbo](/lite.tbo/))
-* Less issues with the MD0100 (in [lite.tbo](/lite.tbo/))
-* As of today (20180305), the damper still lacks (in [lite.tbo](/lite.tbo/))
-* Needed to get a couple of 10's of ns wide square pulses, both in the positive and negative. (in [lite.tbo](/lite.tbo/))
-* Control of pulses must be through 3.3 or 5V tolerant logic (in [lite.tbo](/lite.tbo/))
-* Pulses height must be selectable (say with a jumper?) for ~20V, 40V, 80V (for positive pulses). (in [lite.tbo](/lite.tbo/))
-* Only power supply available is 5V (in [lite.tbo](/lite.tbo/))
-* See this <a href="http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf">application note</a> - recommend MD1213 and TC6320  (in [lite.tbo](/lite.tbo/))
-* Possible (but not used in the end) high voltage source: https://datasheets.maximintegrated.com/en/ds/MAX5025-MAX5028.pdf (3 -&gt; 30V) to be used with a <a href="http://www.eleccircuit.com/the-many-dc-to-dc-converters-using-ic-555/">555 DC-DC convertor</a> (in [lite.tbo](/lite.tbo/))
-* Signal back from the diod is clipped by <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf">MD0100</a> + back to back diods.   (in [lite.tbo](/lite.tbo/))
-* <a href="/lite.tbo/source/">Source files</a> (in [lite.tbo](/lite.tbo/))
-* <a href="/lite.tbo/schematics.PDF">Schematics</a> (in [lite.tbo](/lite.tbo/))
-* <a href="/lite.tbo/build/BOM.xls">BOM</a> (in [lite.tbo](/lite.tbo/))
-* <a href="/lite.tbo/build/Gerbers_10_03_2018.zip">Gerbers</a> (in [lite.tbo](/lite.tbo/))
-* <a href="/lite.tbo/build/odb.zip">ODB</a> (in [lite.tbo](/lite.tbo/))
-* <a href="/lite.tbo/build/PickPlace_10_03_2018.zip">Pickplace</a> (in [lite.tbo](/lite.tbo/))
-* Needs only 5V (in [lite.tbo](/lite.tbo/))
-* HV: NMT0572SC (in [lite.tbo](/lite.tbo/))
-* Pulser : MD1213 and TC6320 -&gt; see <a href="http://ww1.microchip.com/downloads/en/AppNotes/AN-H53.pdf">Fig.6 here, bipolar 3 level pulser</a>. (in [lite.tbo](/lite.tbo/))
-* <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/tc6320.pdf">TC6320, undamped</a>, detailed here.  (in [lite.tbo](/lite.tbo/))
-* TC6320 http://ww1.microchip.com/downloads/en/DeviceDoc/20005697A.pdf for the datasheet (in [lite.tbo](/lite.tbo/))
-* Protection: MD0100+diods -- should be enough, see <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf">bottom of page 1, or Fig 9</a> (in [lite.tbo](/lite.tbo/))
 * Review a bipolar design (originally alt.tbo -- but double the components and hence the price) (in [lite.tbo](/lite.tbo/))
 
 
