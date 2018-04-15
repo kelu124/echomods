@@ -40,7 +40,7 @@ The motherboard of the echomods
 
 ### What is it supposed to do?
 
-Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See [this](/doj/source/2.0-kicad/) for the Kicad files.
+Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See [this](/doj/source/v2.0-kicad/) for the Kicad files.
 
 
 ### How does it work: block diagram
@@ -67,7 +67,7 @@ A time-reversed storyline for the motherboard =)
 
 ### v1.2: PCB 
 
-With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming from the [brief](/doj/brief.md).
+With the [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) PCB, coming from the [brief](/doj/old/brief.md).
 
 ![](/doj/images/oshp.png)
 

@@ -1,22 +1,40 @@
 digraph {
 	"Raw Signal" [style=rounded]
 	"ITF-12_RPIn" [style=rounded]
+	Selector [style=rounded]
 	ADC [style=rounded]
 	Buffer [style=rounded]
 	Pi [style=rounded]
 	"Signal Digitalized" [style=rounded]
 		"Raw Signal" -> "ITF-12_RPIn"
-		"ITF-12_RPIn" -> ADC
+		"ITF-12_RPIn" -> Selector
+		Selector -> ADC
 		ADC -> Buffer
 		Buffer -> Pi
 		Pi -> "Signal Digitalized"
+	"Raw Signal" [style=rounded]
+	"Onboard header" [style=rounded]
+	Selector [style=rounded]
+		"Raw Signal" -> "Onboard header"
+		"Onboard header" -> Selector
+	"+Vref/2 jumper" [style=rounded]
+	ADC [style=rounded]
+		"+Vref/2 jumper" -> ADC
+	GND [style=rounded]
+	Selector [style=rounded]
+		GND -> Selector
+	External [style=rounded]
+	Selector [style=rounded]
+		External -> Selector
 	"ITF-4_RawSig" [style=rounded]
+	"Doj Jumper" [style=rounded]
 	"ITF-12_RPIn" [style=rounded]
-		"ITF-4_RawSig" -> "ITF-12_RPIn"
+		"ITF-4_RawSig" -> "Doj Jumper"
+		"Doj Jumper" -> "ITF-12_RPIn"
 	"ITF-11_OffSig" [style=rounded]
-	"ITF-12_RPIn" [style=rounded]
-		"ITF-11_OffSig" -> "ITF-12_RPIn"
+	"Doj Jumper" [style=rounded]
+		"ITF-11_OffSig" -> "Doj Jumper"
 	"ITF-3_ENV" [style=rounded]
-	"ITF-12_RPIn" [style=rounded]
-		"ITF-3_ENV" -> "ITF-12_RPIn"
+	"Doj Jumper" [style=rounded]
+		"ITF-3_ENV" -> "Doj Jumper"
 }

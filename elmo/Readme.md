@@ -4,11 +4,11 @@
 
 ## Name
 
-[`MDL-DAQ_AD9200`]()
+[`MDL-DAQ_elmo`]()
 
 ## Title
 
-Using a dual ADC raspberry extension for 20Msps+ DAQ
+Using a dual ADC raspberry pHAT for 20Msps+ acquisition
 
 ## Description
 
@@ -53,6 +53,7 @@ The aim of this module is to achieve 20Msps, at 9bits or more.
 * `Raw Signal`->`Onboard header`->`Selector`
 * `+Vref/2 jumper`->`ADC`
 * `GND`->`Selector`
+* `External`->`Selector`
 * `ITF-4_RawSig`->`Doj Jumper`->`ITF-12_RPIn`
 * `ITF-11_OffSig`->`Doj Jumper`
 * `ITF-3_ENV`->`Doj Jumper`
@@ -63,6 +64,7 @@ The aim of this module is to achieve 20Msps, at 9bits or more.
 
 * High speed, 9 bit ADCs!
 * Full [Altium source](/elmo/source/v2/elmov2_altium.zip), [Gerbers](/elmo/source/v2/elmov2_gerber.zip), [BOM](/elmo/source/v2/BOM.xls), [schematics](/elmo/source/v2/ADC_pHAT.pdf).
+* [Driver](/elmo/software/driver.c) for the board.
 
 ### Cons
 
@@ -164,8 +166,4 @@ Copyright Kelu124 (kelu124@gmail.com) 2015-2018
 The following work is base on a previous TAPR project, [Murgen](https://github.com/kelu124/murgen-dev-kit) - and respects its TAPR license.
 
 Copyright Kelu124 (kelu124@gmail.com) 2015-2018
-
-
-
-
 

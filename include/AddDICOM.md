@@ -52,7 +52,7 @@ http://dicom.nema.org/dicom/2013/output/chtml/part03/sect_C.7.html#sect_C.7.6.1
 
 
 * [Testing pydicom](/kina/blob/master/20170411-DICOM.ipynb)
-* [Some notes](/tomtom/DicomHandler.md)
+* [Some notes](/retired/tomtom/DicomHandler.md)
 
 
 # Pieces of codes

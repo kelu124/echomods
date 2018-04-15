@@ -3,7 +3,7 @@
 @kelu include(/include/AddUSSDK.md)
 
 
-@kelu include(/tobo/QuickStart.md)
+@kelu include(/retired/tobo/QuickStart.md)
 
 
 @kelu include(/doj/QuickStart.md)

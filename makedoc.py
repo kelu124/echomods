@@ -53,8 +53,8 @@ if (len(sys.argv) > 0):
 # Manage suppliers
 # -------------------------
 
-Suppliers = GetSuppliersList("cletus/suppliers/")
-OpenWrite("# Status of suppliers\n\n"+Suppliers,"cletus/suppliers/Readme.md")
+Suppliers = GetSuppliersList("retired/cletus/suppliers/")
+OpenWrite("# Status of suppliers\n\n"+Suppliers,"retired/cletus/suppliers/Readme.md")
 
 # echo = GetMurgenStats()
 
@@ -838,7 +838,7 @@ OpenWrite(AddRawMurgenURL(MurgenSummary)+"\n\n","gitbook/devkit0.md")
 WirelessSet = "# Wireless implementation of the modules\n\n"+"\n\n"
 WirelessSet += AddOneLevel(getText("include/AddWireless.md"))+"\n\n"
 WirelessSet += AddOneLevel(getText("include/sets/wifi-dev-kit.cost.md"))+"\n\n"
-WirelessSet += AddOneLevel(getText("croaker/data/20161217/20161217-TestingArduinoAndPhantom.md"))+"\n\n"
+WirelessSet += AddOneLevel(getText("retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md"))+"\n\n"
 OpenWrite(IncludeImage(AddRawHURL(WirelessSet))+"\n\n","gitbook/devkit11.md")
 
 # Resume pour le basicdevkit
@@ -961,7 +961,7 @@ Examples = getText("./../murgen-dev-kit/software/examples/Readme.md").split("# "
 TableDataExamples = "# "+Examples[-1]
 OpenWrite("# Still images from murgen \n\n"+TableDataExamples+"\n\n","gitbook/Chapter5/images.md")
 
-Examples_croaker=getText("croaker/data/examples/Readme.md")
+Examples_croaker=getText("retired/croaker/data/examples/Readme.md")
 OpenWrite("# Images acquired using Croaker \n\n"+AddRawHURL(AddOneLevel(Examples_croaker))+"\n\n","gitbook/Chapter5/croaker_data.md")
 
 Loops = ""
@@ -1023,7 +1023,7 @@ CopyGitBookFile("include/autodoc.md","gitbook/Chapter7/autodoc.md")
 
 CopyGitBookFile("include/AddPressReview.md","gitbook/Chapter7/pressreview.md")
 
-CopyGitBookFile("croaker/data/20161217/20161217-TestingArduinoAndPhantom.md","gitbook/Chapter4/newphantom.md")
+CopyGitBookFile("retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md","gitbook/Chapter4/newphantom.md")
 
 
 # -------------------------

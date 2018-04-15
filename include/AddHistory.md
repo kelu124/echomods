@@ -18,10 +18,10 @@ The same summer, Zach worked on the murgen board, and managed to get some good i
 
 ## Going into modules
 
-After a second technical meeting in April, we thought it a good idea to split functions into separate modules. That gave birth to [these echomods](https://github.com/kelu124/echomods/), with a first series of modules based on Murgen. The designs were ready in beginning of May, and they were a great source of fun! Born of these two initial modules ( [pulser](/tobo/) and [analog processing](/goblin/) boards), some siblings were born:
+After a second technical meeting in April, we thought it a good idea to split functions into separate modules. That gave birth to [these echomods](https://github.com/kelu124/echomods/), with a first series of modules based on Murgen. The designs were ready in beginning of May, and they were a great source of fun! Born of these two initial modules ( [pulser](/retired/tobo/) and [analog processing](/goblin/) boards), some siblings were born:
 * using a [BeagleBone PRUDAQ board for a DAQ](/retired/toadkiller/), used in Sept '16
 * a [ultrasound emulator](/silent/), to calibrate the rest of the signal when there are no transducers, born in Aug '16
-* a [STM32 processing and wifi streaming module](/croaker/) born in Sept '16
+* a [STM32 processing and wifi streaming module](/retired/croaker/) born in Sept '16
 
 At the end, the modules also allowed to test some [ATL probes](/retroATL3/) (more details [here](/include/ATL.md)) found on ebay:
 

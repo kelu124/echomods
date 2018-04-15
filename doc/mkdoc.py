@@ -49,10 +49,10 @@ RedMark = ":no_entry:"
 WarningMark = ":warning:"
 ValidH = ["h1","h2","h3","h4","h5"]
 
-ModulesChaptDeux = ["tobo","retroATL3","goblin","elmo","alt.tbo"]
-ModulesChaptDeuxRT = ["mogaba","toadkiller"]
-ModulesChaptTrois = ["silent","cletus","croaker","doj","tomtom","loftus","wirephantom","matty"]
-ModulesChaptTroisRT= ["sleepy","oneeye"]
+ModulesChaptDeux = ["retroATL3","goblin","elmo","lite.tbo"]
+ModulesChaptDeuxRT = ["mogaba","toadkiller","tobo","alt.tbo"]
+ModulesChaptTrois = ["silent","doj","wirephantom","matty"]
+ModulesChaptTroisRT= ["sleepy","oneeye","cletus","croaker","loftus","tomtom"]
 
 ModulesList = ModulesChaptDeux+ModulesChaptTrois
 ModulesRetiredList = ModulesChaptDeuxRT+ModulesChaptTroisRT

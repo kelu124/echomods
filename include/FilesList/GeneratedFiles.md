@@ -1,5 +1,5 @@
 * ./Readme.md
-* ./cletus/suppliers/Readme.md
+* ./retired/cletus/suppliers/Readme.md
 * ./include/AddTableAvancement.md
 * ./include/AllExpes.md
 * ./include/AddShoppingList.md
@@ -36,6 +36,7 @@
 * ./include/experiments/Desc_20171111a.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20180403a.md
+* ./include/experiments/Desc_20160809a.md
 * ./include/experiments/Desc_20171124a.md
 * ./include/experiments/Desc_20170713a.md
 * ./include/experiments/Desc_20180224b.md
@@ -62,6 +63,7 @@
 * ./include/experiments/auto/Mod_20171124a.md
 * ./include/experiments/auto/Code_20180216a.md
 * ./include/experiments/auto/20171001b.md
+* ./include/experiments/auto/20160809a.md
 * ./include/experiments/auto/Mod_20180115a.md
 * ./include/experiments/auto/Mod_20180224b.md
 * ./include/experiments/auto/Img_20180403t.md
@@ -95,6 +97,7 @@
 * ./include/experiments/auto/Img_20180103a.md
 * ./include/experiments/auto/Mod_20170713a.md
 * ./include/experiments/auto/20180403t.md
+* ./include/experiments/auto/Code_20160809a.md
 * ./include/experiments/auto/Mod_20161217a.md
 * ./include/experiments/auto/Img_20180310a.md
 * ./include/experiments/auto/Img_20180225a.md
@@ -133,6 +136,8 @@
 * ./include/experiments/auto/20180103a.md
 * ./include/experiments/auto/Code_20170713a.md
 * ./include/experiments/auto/Img_20171112a.md
+* ./include/experiments/auto/Mod_20160809a.md
+* ./include/experiments/auto/Img_20160809a.md
 * ./include/experiments/auto/Img_20180415r.md
 * ./include/experiments/auto/Code_20180224a.md
 * ./include/probes/auto/s3.md
@@ -212,6 +217,7 @@
 * ./gitbook/Chapter1/QuickStart.md
 * ./gitbook/Chapter2/toadkiller.md
 * ./gitbook/Chapter2/murgenhardware.md
+* ./gitbook/Chapter2/lite.tbo.md
 * ./gitbook/Chapter2/murgensetup.md
 * ./gitbook/Chapter2/mogaba.md
 * ./gitbook/Chapter2/retroATL3.md
@@ -240,6 +246,7 @@
 * ./gitbook/exp/20180403b.md
 * ./gitbook/exp/20180225a.md
 * ./gitbook/exp/20171001b.md
+* ./gitbook/exp/20160809a.md
 * ./gitbook/exp/20180403a.md
 * ./gitbook/exp/20180415a.md
 * ./gitbook/exp/20171111a.md

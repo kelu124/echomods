@@ -2,7 +2,7 @@
 
 A critical component of this system is the ultrasound transducer. A typical ultrasound imaging system uses a wide variety of transducers optimized for specific diagnostic applications, but in our case, we'll limit the costs.
  
-### High-Voltage Transmitters ([see the module](/tobo/))
+### High-Voltage Transmitters ([see the module](/retired/tobo/))
 
 A digital transmit beamformer typically generates the necessary digital transmit signals with the proper timing and phase to produce a focused transmit signal. High-voltage pulsers quickly switch the transducer element to the appropriate programmable high-voltage supplies to generate the transmit waveform. To generate a simple bipolar transmit waveform, a transmit pulser alternately connects the element to a positive and negative transmit supply voltage controlled by the digital beamformer. More complex realizations allow connections to multiple supplies and ground in order to generate more complex multilevel waveforms with better characteristics.
 

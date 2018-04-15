@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetR4_2 Pin=U2-3
+Added Component: Designator=U?(SOT-23_5)
+Added Pin To Net: NetName=NetR4_2 Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=5V Pin=U?-5
+Added Pin To Net: NetName=NetU2_3 Pin=U2-3
+Added Pin To Net: NetName=NetU2_3 Pin=U?-4
+Added Net: Name=NetU2_3
+Added Member To Class: ClassName=Sheet1 Member=Component U? 74LVC1G17

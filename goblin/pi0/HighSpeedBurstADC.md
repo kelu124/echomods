@@ -1,6 +1,6 @@
 # Idea: doing a 15Msps ADC for RPi0
 
-Some inspiration [from earlier](/croaker/notes_RPi0.md)
+Some inspiration [from earlier](/retired/croaker/notes_RPi0.md)
 
 
 ## Brief
@@ -50,7 +50,7 @@ Some tracks
 
 ## Step 2: SMD? 
 
-Given RPi0 capabilities in terms of [GPIOs](/croaker/notes_RPi0.md) - why not push it to 20Msps, 8 bits, for the cape?
+Given RPi0 capabilities in terms of [GPIOs](/retired/croaker/notes_RPi0.md) - why not push it to 20Msps, 8 bits, for the cape?
 
 
 ### Big ADC

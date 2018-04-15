@@ -1,6 +1,6 @@
 # Doj 
 
-This is a kicad product, for the fab version of the [doj](/doj/) motherboard. The [brief for building this is here](/doj/brief.md).
+This is a kicad product, for the fab version of the [doj](/doj/) motherboard. The [brief for building this is here](/doj/old/brief.md).
 
 See [all files](/doj/source/v1.2-kicad/).
 

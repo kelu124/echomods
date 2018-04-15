@@ -1,0 +1,21 @@
+digraph {
+	"ITF-9_Pon" [style=rounded]
+	HV7360 [style=rounded]
+		"ITF-9_Pon" -> HV7360
+	"ITF-10_Poff" [style=rounded]
+	HV7360 [style=rounded]
+		"ITF-10_Poff" -> HV7360
+	"ITF-2_VDD_5V" [style=rounded]
+	"R05-100B" [style=rounded]
+	HV7360 [style=rounded]
+	"ITF-mET_Transducer" [style=rounded]
+		"ITF-2_VDD_5V" -> "R05-100B"
+		"R05-100B" -> HV7360
+		HV7360 -> "ITF-mET_Transducer"
+	"ITF-mET_Transducer" [style=rounded]
+	"ITF-mET_SMA" [style=rounded]
+		"ITF-mET_Transducer" -> "ITF-mET_SMA"
+	"ITF-mET_Transducer" [style=rounded]
+	"ITF-18_Raw" [style=rounded]
+		"ITF-mET_Transducer" -> "ITF-18_Raw"
+}

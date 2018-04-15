@@ -49,11 +49,11 @@ Images [autotagged](/include/20180216a/mkimg.py).
 
 #### Graph
 
-![](/alt.tbo/20171028a/images/pulser_diods.png)
+![](/retired/alt.tbo/20171028a/images/pulser_diods.png)
 
 @todo .. it seems it trigs when logic signal is going low... strange, isn't it ?
 
-![](/alt.tbo/20171028a/images/logic.png)
+![](/retired/alt.tbo/20171028a/images/logic.png)
 
 #### Pinout
 

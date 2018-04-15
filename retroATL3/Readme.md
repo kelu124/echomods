@@ -202,7 +202,7 @@ Some resources:
 
 ### TODO
 
-* Determine the impedance of the transducer seen by [tobo](/tobo/) (@ulb ?)
+* Determine the impedance of the transducer seen by [tobo](/retired/tobo/) (@ulb ?)
 * Do a logic control of the probe
 * Do some impedance matching (@ulb ? @will ?)
 * Finding more precise pins mapping 

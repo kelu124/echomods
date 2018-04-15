@@ -95,7 +95,7 @@ What is expected is to break down logic blocks into modules that could be put on
 * Done: Add status to track progress of the works
 * Done: Jan
 * Done: schemas a taper, puis processing dans le makedoc.py
-* Done: A draft for the analog pulser, [Tobo](/tobo/) -- April 20th 2016
+* Done: A draft for the analog pulser, [Tobo](/retired/tobo/) -- April 20th 2016
 * Done: [Automating Documentation](https://github.com/kelu124/echomods/blob/master/makedoc.py)
 * Done: Cahier des charges modules - See __Adjusting the specs for a research module__ on this log
 * Done: Silkscreening with the murgen-series logo =)
@@ -104,7 +104,7 @@ What is expected is to break down logic blocks into modules that could be put on
 
 ## Description
 
-Board 1, aka [Tobo](/tobo/Readme.md):
+Board 1, aka [Tobo](/retired/tobo/Readme.md):
 
 * The HV part of murgen is kept. The pulser of the first board is trigged by Pulse On (stripe 9) and shut by Pulse Off (stripe 10) (coming from the stripes). The pulser alimentation is fed through the RECOM component, with a potentiometer to select the HV level.
 * Signal is sent to a sideway SMA connector. 
@@ -924,7 +924,7 @@ Worklog -- Starting April 5th 2016
 
 #### 2016-04-16 uC
 
-* Studying microcontrolers... See  [microcontrollers](/croaker/notes_uC.md)
+* Studying microcontrolers... See  [microcontrollers](/retired/croaker/notes_uC.md)
 
 #### 2016-04-17 PCB
 
@@ -946,7 +946,7 @@ Worklog -- Starting April 5th 2016
 ##### Current batch
 
 * [Goblin](/goblin/Readme.md): the analog heart, was drafted as well during Murgen. 
-* [Tobo](/tobo/Readme.md): the HV/pulser, based on a drafted close to Murgen. 
+* [Tobo](/retired/tobo/Readme.md): the HV/pulser, based on a drafted close to Murgen. 
 * [One-Eye](/retired/oneeye/Readme.md): MicroControler - Arduinos
 * [Mogaba](/retired/mogaba/Readme.md): Alimentation
 
@@ -961,7 +961,7 @@ Second generation of fun! Learning microcontrolers and advanced simulations
 
 #### 2016-04-24 Maintainers
 
-* Starting to document [Tobo](/tobo/Readme.md)
+* Starting to document [Tobo](/retired/tobo/Readme.md)
 * Reading __"Maintaining Open Source Projects"__ by Tute Costa : _A project maintainer should feel comfortable shaping the community, promoting the library, keeping good communication with different people, deciding when to release new versions, and prioritizing all these tasks._
 * Getting a _TL-MR3040 TP-Link_ for a project PirateBox (an __echObox__ ?)
 * __2016 strategy__ being done
@@ -1063,7 +1063,7 @@ ou peut etre encore mieux :
 #### 2016-05-14 Work in Indonesia
 
 * Off to Jakarta =)
-* Next prios : Feather and [ESP8266](/croaker/notes_ESP8266.md)
+* Next prios : Feather and [ESP8266](/retired/croaker/notes_ESP8266.md)
 
 #### 2016-05-23 Transducers
 
@@ -1072,8 +1072,8 @@ ou peut etre encore mieux :
 #### 2016-05-24 RPi
 
 * Bass inspiration : https://www.youtube.com/watch?v=6ZDTelKz4G0
-* Working on [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)
-* Updated existing notes on [microcontrollers](/croaker/notes_uC.md) and the [ESP8266](/croaker/notes_ESP8266.md)
+* Working on [Raspberry Pi Zero notes](/retired/croaker/notes_RPi0.md)
+* Updated existing notes on [microcontrollers](/retired/croaker/notes_uC.md) and the [ESP8266](/retired/croaker/notes_ESP8266.md)
 * Thinking about video / photos port to raspberry (even better than USB transfer, it manages quite high speed ( The two data lanes on the CSI-2 bus provide a theoretical 2 Gbps bandwidth, which approximates to around 5 MP resolution.  ) [here](http://www.petervis.com/Raspberry_PI/Raspberry_Pi_CSI/Raspberry_Pi_CSI_Camera_Module.html)
 
 #### 2016-05-25 Markdown and downs
@@ -1103,7 +1103,7 @@ ou peut etre encore mieux :
 * Petit truc sympa, mais pas encore sorti : un SoC pour le RPi : https://hackaday.io/project/11981-rppsoc-system-on-a-chip-for-the-raspberry-pi
 * Pas possible de créeer le Wall of Contributors, tjrs ce probleme de reset de mot de passe, aucun email n'arrive.
 * TODO: réorganiser les Readme entre echomods et medicotechnical et leur prod automatisée =) 
-* [EMW3165](/croaker/notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
+* [EMW3165](/retired/croaker/notes_EMW3165.md) : "All I see is an under 8 USD STM32F411CE dev board with some wifi gadget" ( http://www.emw3165.com/ ) 
 
 #### 2016-06-02 Some awesome OSH for medical issues
 
@@ -1362,7 +1362,7 @@ The ATL manual is available at : http://photos.medwrench.com/equipmentManuals/46
 * https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial
 * essayer SPI avec les petits trucs funs
 * cables pour SPI a base de cables ethernets?
-* __STM32__: mise a jour du fichier uC avec [un nouveau STM32](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32f3-series/stm32f334/stm32f334r8.html) dans [Notes uC](/croaker/notes_uC.md)
+* __STM32__: mise a jour du fichier uC avec [un nouveau STM32](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32f3-series/stm32f334/stm32f334r8.html) dans [Notes uC](/retired/croaker/notes_uC.md)
 * __Contact AD__
 
 #### 2016-07-15 Playing at the lab
@@ -1540,7 +1540,7 @@ Awesome work: a FPGA on a RPi0 footprint
 
 * Thinking about the use of the _"Logiciel and Objets libres, animer une communaute autour d'un projet ouvert"_
 * Interesting : [STBone - BeagleBone form-factor STM32F427 board](http://ebrombaugh.studionebula.com/embedded/stbone/index.html)
-* Doing some thinking about [the servo part](/cletus/) -- should be integrating a feather + screen to help debug the output =)
+* Doing some thinking about [the servo part](/retired/cletus/) -- should be integrating a feather + screen to help debug the output =)
 
 ###### Resources:
 
@@ -1600,12 +1600,12 @@ Would you like to support an existing project with your skills and expertise? Or
 
 * [Comm] : got cheers from [Adafruit, check this link =)](https://blog.adafruit.com/2016/09/12/murgen-open-source-ultrasound-imaging-with-beaglebone/)
 * Made some progress with a i2c 128x64 oled to debug the Feather ADC, using this [elegant doc](http://www.projetsdiy.fr/ssd1306-mini-ecran-oled-i2c-128x64-arduino/#.V9Zt5tGxU8o).
-* Getting up to 1Msps with the [Feather](/croaker/feather_tests/2016-09-10-Feather_ADC.md).
+* Getting up to 1Msps with the [Feather](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md).
 * @done: makedoc should include a link checker.. everything starting with `](/` should be tested and checked if existing. That includes images.
 
 #### 2016-09-13 Stand alone echoes visualisation
 
-* Same, for today's date, at [Feather](/croaker/feather_tests/2016-09-10-Feather_ADC.md).
+* Same, for today's date, at [Feather](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md).
 
 #### 2016-09-14 With a servo
 
@@ -1619,15 +1619,15 @@ Would you like to support an existing project with your skills and expertise? Or
 
 #### 2016-09-22 More speed for data acquisition and streaming
 
-* This is getting better. [Read the log on this repo](/croaker/feather_tests/2016-09-10-Feather_ADC.md). [Arduino IDE code is here](/croaker/feather_tests/2ADC2UDP.ino).
+* This is getting better. [Read the log on this repo](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md). [Arduino IDE code is here](/retired/croaker/feather_tests/2ADC2UDP.ino).
 
 #### 2016-09-23 Getting some raw images
 
-* Still this pulser issue, but the signal is correctly stored. [More to download here](/croaker/data/examples/). Captured through UDP streaming.
+* Still this pulser issue, but the signal is correctly stored. [More to download here](/retired/croaker/data/examples/). Captured through UDP streaming.
 
 #### 2016-09-27 Processing the raw images
 
-*  Created the scripts to batch scan-convert and animate the images. [More to see/download here](/croaker/data/examples/)
+*  Created the scripts to batch scan-convert and animate the images. [More to see/download here](/retired/croaker/data/examples/)
 * Hopes to get the STM32 go faster =)
 * Adding the croaker work to the gitbook .. and cleaning some remaining broken links during doc generation.
 
@@ -1642,7 +1642,7 @@ Would you like to support an existing project with your skills and expertise? Or
 
 #### 2016-10-21 Update of Tobo
 
-* [The pulser module](/tobo/) used a HV7360, which went from a LFGA to a CABGA. The gerbers were updated accordingly.
+* [The pulser module](/retired/tobo/) used a HV7360, which went from a LFGA to a CABGA. The gerbers were updated accordingly.
 
 #### 2016-10-22 End of week
 
@@ -1652,8 +1652,8 @@ Would you like to support an existing project with your skills and expertise? Or
 
 Next week:
 
-* @cancelled 6Msps on the [STM32](/croaker/)
-* @done Sourcing transducer (in [cletus](/cletus/) )
+* @cancelled 6Msps on the [STM32](/retired/croaker/)
+* @done Sourcing transducer (in [cletus](/retired/cletus/) )
 * @done Sourcing materials + integration makefile par set
 * @done Compiler output
 
@@ -1767,7 +1767,7 @@ Just moved in to the new flat! Exhausting =) Other interesting things:
 
 #### 2016-12-17 Breadboard phantom
 
-* Done some tests with a breadboard phantom: [read more here](/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md).
+* Done some tests with a breadboard phantom: [read more here](/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md).
 * Still moving in the new flat, getting accustomed to the new job.. and still need to sort the hacking tools in a limited space in the new flat =)
 * Interesting competition : Clarius got its approval. Also noted the SONON 300C.
 * Having fun with mapping a community using slack. On another repo.
@@ -1790,7 +1790,7 @@ Just moved in to the new flat! Exhausting =) Other interesting things:
 
 * Getting to think of the 20E-214 ones =)
 * Chat with 1Tech, and the guy Patrice. Motivating.
-* Trying to get some stuff from the arduino, namely to get it work as a server. [Far from being finished, on it](/croaker/feather_tests/2Msps_Server.ino).
+* Trying to get some stuff from the arduino, namely to get it work as a server. [Far from being finished, on it](/retired/croaker/feather_tests/2Msps_Server.ino).
 
 #### 2017-01-02 Merry new year
 
@@ -1855,7 +1855,7 @@ See [this log](/goblin/pi0/HighSpeedBurstADC.md)
 
 #### 2017-03-02 RPi0  bis
 
-Given RPi0 capabilities in terms of [GPIOs](/croaker/notes_RPi0.md) - why not push it to 20Msps, 8 bits, for the cape?
+Given RPi0 capabilities in terms of [GPIOs](/retired/croaker/notes_RPi0.md) - why not push it to 20Msps, 8 bits, for the cape?
 
 
 #### 2017-03-05 Grmbl netty
@@ -1864,7 +1864,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 #### 2017-03-06 Further work
 
-* Updated the [suppliers repo](/cletus/suppliers/Readme.md)
+* Updated the [suppliers repo](/retired/cletus/suppliers/Readme.md)
 * Testing the [goblin](/goblin/) In/out transfer function on the [emulator](/silent/) signal: [read here](/retired/toadkiller/data/test_enveloppe/). The more I play with Jupyter notebooks, the more I like it.
 
 * Thinking about the 15 - 20 - 25 Msps pHAT.
@@ -1901,7 +1901,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-03-21 Moving forward
 
 * Posted the Chinese probe project on Hackaday. Will play with the probe using a RPi framework. Should do the trick =)
-* Following up on [6Msps upgrade](/croaker/), [mother board seem OK, silkscreen to do](/doj/), then [Pi1](https://github.com/kelu124/bomanz) and _Pi2_ to follow.
+* Following up on [6Msps upgrade](/retired/croaker/), [mother board seem OK, silkscreen to do](/doj/), then [Pi1](https://github.com/kelu124/bomanz) and _Pi2_ to follow.
 * [History](/include/AddHistory.md) to develop.
 
 #### 2017-03-22 JOH ongoing !
@@ -1932,7 +1932,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-04-06 Purple
 
 * Got some PCBs for Bomanz, for both [high speed](https://github.com/kelu124/bomanz/blob/master/images/20170406_124950.jpg) and [CA3306E](https://github.com/kelu124/bomanz/blob/master/images/20170406_124914.jpg) ADCs.
-* Got some PCB for [Doj, and tested those](/doj/20170406-PCBs.md)!
+* Got some PCB for [Doj, and tested those](/doj/old/20170406-PCBs.md)!
 
 #### 2017-04-12 Mounted boards!
 
@@ -1975,7 +1975,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 #### 2017-05-05 Moving forward
 
 * Been testing new iteration of Tobo with new HV7360. Pulser works with the [pulser control](/retired/oneeye/)
-* Testing the pulser with the [RPi Control](/tomtom/) see [the notebook](/tomtom/20170507-TomTomTests.ipynb).
+* Testing the pulser with the [RPi Control](/retired/tomtom/) see [the notebook](/retired/tomtom/20170507-TomTomTests.ipynb).
 
 #### 2017-05-13 Some new stuff
 
@@ -2019,7 +2019,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 #### 2017-05-22 Testing Doj v2
 
-* Got the PCBs and [tested them](/doj/20170522-DojV2tests.md). Yeayyy, they work! Slight hiccup with the ADC, nothing dramatic though =) Actually, two pins have a double use along with the ADC pins. Dumb me :p
+* Got the PCBs and [tested them](/doj/old/20170522-DojV2tests.md). Yeayyy, they work! Slight hiccup with the ADC, nothing dramatic though =) Actually, two pins have a double use along with the ADC pins. Dumb me :p
 
 #### 2017-05-29 Testing Doj v2
 
@@ -2120,7 +2120,7 @@ Netty isn't nice... but just got my article accepted by JOH !
   * [x] @done Add TPL list
 * Nice patent : https://www.google.com/patents/US4246792
 
-* Updated the first draft of the [tobo.alt](/alt.tbo/draft.alt.tobo.v0.01pdf)
+* Updated the first draft of the [alt.tbo](/retired/alt.tbo/draft.alt.tobo.v0.01.pdf)
 
 #### 2017-07-09 ADC boosting
 
@@ -2184,7 +2184,7 @@ Got some [amazing responses to the post on HN](https://news.ycombinator.com/item
   * ENDOFYEAR: 15 kits sold, CN not good, MF ongoing (20171217)
 2. __Money__: thanks to the small margin on kits, and hackaday prizes, i'm quite [cash neutral](/include/Finance.md) as of today. Having the 5 kits sold would permit financing the acquisition of the unmantled CN probe. _Status: 100%_ Bonus:  trade the chinese probe on leboncoin / ebay.  _Status: 0%_
   * ENDOFYEAR: still waiting (20171217)
-3. __Product__: I wanted to have a __ultrasound hat__ done. I now have this ADC pHAT done, which can be perfected, but it's quite a win, so a simple 80V monopolar ultrasound board (independant from the motor / multiplexer) could be reached by Nov. _Status: 0%_ Update: could be good to use the [probe head](/loftus/) to do a full portable probe =)
+3. __Product__: I wanted to have a __ultrasound hat__ done. I now have this ADC pHAT done, which can be perfected, but it's quite a win, so a simple 80V monopolar ultrasound board (independant from the motor / multiplexer) could be reached by Nov. _Status: 0%_ Update: could be good to use the [probe head](/retired/loftus/) to do a full portable probe =)
   * ENDOFYEAR: Ongoing with Matty (20171217)
 4. __Documentation__: There are a couple of notes here, I'd love to see all of those gathered / processed / put into a braindump. Gitbook is good enough, but lack structure for raw knowledge dump. TODOS include:
   * Listing all docs under YYYYMMDD
@@ -2198,7 +2198,7 @@ Nice to have:
 
 #### 2017-08-05 Moving forward towards the board
 
-* Added something about [the S3 probe](/loftus/source/s3/) 
+* Added something about [the S3 probe](/retired/loftus/source/s3/) 
 
 * @done Adding the descs for modules and power needs
 * @done Removing double Autogen tags
@@ -2256,7 +2256,7 @@ Got 3 months left (see 28/7), let's do... a __MASTER TODO__ !
    * Get sent to macrofab by 25/10
    * Receive board by 25/11
 
-__More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
+__More [Raspberry Pi Zero notes](/retired/croaker/notes_RPi0.md)__
 
 #### 2017-08-24 Some more ideas
 
@@ -2319,7 +2319,7 @@ __More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
 * Done the tests for the pulser  ( 20170930a ) 
 * Some additional works for the motor control
 * @cld a better bilevel control (4 NOPs period -> PPon, Poff, PNon, PNoff)
-* @cld float pins between shots? -> work session on [bilevel.c](/alt.tbo/test/bilevel.c)
+* @cld float pins between shots? -> work session on [bilevel.c](/retired/alt.tbo/test/bilevel.c)
 * @cld pass license to CC-BY-SA
 
 * @done add some new articles to the new article (all put to bibtex)
@@ -2404,7 +2404,7 @@ Another topic, got 1 month left before 25/10 (2 full years!), let's update the _
    * Get updated goblins
    * Put them on tindie with ADC pHATs
 * __atl.tobo.cheap__
-   * Review reason for [pulser issues](/alt.tbo/20171028a/Readme.md) -- possible D2 issue
+   * Review reason for [pulser issues](/retired/alt.tbo/20171028a/Readme.md) -- possible D2 issue
    * Start macrofab bis.tbo after feedback on D2
 * __ADC board__ (cancelled as of 20180401 - gone directly to final board)
    * Trying a 50Msps board.
@@ -2517,7 +2517,7 @@ ebay
 * Open toolchain is Verilog / VHDL / Lattice tools
 * 130 lines of 150us at 24Msps on 16 bits is 7488000 bits
 
-* Worked on two experiments: [pulser tests](/alt.tbo/20171111a/Readme.md) and [testing new probe](/alt.tbo/20171112a/Readme.md), [and again, once the probe is refilled](/alt.tbo/20171112b/Readme.md)
+* Worked on two experiments: [pulser tests](/retired/alt.tbo/20171111a/Readme.md) and [testing new probe](/retired/alt.tbo/20171112a/Readme.md), [and again, once the probe is refilled](/retired/alt.tbo/20171112b/Readme.md)
 * @todo 20171111a and 20171112b Readmes
 
 #### 2017-11-18 more veille on fpga
@@ -2545,7 +2545,7 @@ ebay
 
 #### 2017-11-24 IMN at home
 
-* Testing some [electrical impedance matching here](/cletus/IMN/Readme.md)
+* Testing some [electrical impedance matching here](/retired/cletus/IMN/Readme.md)
 * Cloud9 on a RPi:
   * https://habilisbest.com/installing-cloud-9-on-your-raspberry-pi
   * https://www.siaris.net/post/cloud9/
@@ -2774,7 +2774,7 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 
 #### 2018-02-28 Documentation and comparisons
 
-* @todo compare [old pulser](/alt.tbo/20171111a/20171111-pulses.ipynb) (pulser) and [new acs](/matty/20180224b/20180221b-Client.ipynb) for matty readme
+* @todo compare [old pulser](/retired/alt.tbo/20171111a/20171111-pulses.ipynb) (pulser) and [new acs](/matty/20180224b/20180221b-Client.ipynb) for matty readme
 * @done automating finding readmes of experiments
  
 #### 2018-03-05 Going to rick
@@ -2957,11 +2957,11 @@ Lower specs (for dev kit - 1 to 2 image / s OK)
 * 200us at 2Msps is 400 points is 5600 bits is 700 bytes
 * 5600 bits per 10ms is 560,000 bits/s is 70kbytes/s.. should be OK with ESP8266/EMW3165/equivalent ;)
 
-__More [ESP8266 notes](/croaker/notes_ESP8266.md)__
+__More [ESP8266 notes](/retired/croaker/notes_ESP8266.md)__
 
 #### Case of Rasberry Zero
 
-__More [Raspberry Pi Zero notes](/croaker/notes_RPi0.md)__
+__More [Raspberry Pi Zero notes](/retired/croaker/notes_RPi0.md)__
 
 ### Tofs
 

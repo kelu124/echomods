@@ -4,6 +4,8 @@
 
 ### Hardware steps
 
+![](/elmo/source/v2/3d.jpg)
+
 #### For the [motherboard PCB based solution](/doj/)...
 
 Just plug it into the board!
@@ -19,7 +21,7 @@ Just plug it into the board!
 
 The module code is [here](/elmo/data/scope.c) and can be compiled using [these steps](/elmo/data/PrepKernel.sh).
 
-The full procedures are described at on the [raspberry doc page](/tomtom/)
+The full procedures are described at on the [raspberry doc page](/retired/tomtom/)
 
 Log now on this raspberry, and run the _run.sh_ command to load the driver of the ADC. You'll see that the module appears as a  __/dev/chardev__ device.
 

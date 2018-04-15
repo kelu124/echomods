@@ -3,7 +3,7 @@
 * Preliminary schematics [here](/include/UniBoard/UB-v1.pdf) and corresponding Altium file [here](/include/UniBoard/UB-v1.zip).
 * [Amp source files](/goblin/source/goblin_altium.zip)
 * [Goblin source](/goblin/source/Altium/goblin_altium.zip)
-* [Pulser source](/alt.tbo/alt.tobo.zip)
+* [Pulser source](/retired/alt.tbo/alt.tobo.zip)
 * [ADC source](/elmo/source/ADCv2.zip) -- though it is not applicable as the board needs only a onboard ADC, not interleaved. However, can be kept to keep the idea of the offset of vref/2 . To be noted, the design of this board is to be compatible with the pinout of this extension board as it can be used for faster sampling rates.
 
 

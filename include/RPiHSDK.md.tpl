@@ -30,9 +30,9 @@ Why are you doing this ? or besides pedagogical uses of your prototype, we want 
 
 ### Benchmark of acquisition
 
-The first acquisition, used as a reference, is through the ADCs of a STM32F205 ([feather WICED](/croaker/)) - reaching a whooping 1.7Msps (didn't master the interleaved mode..). Even at these speeds, one can see some features of an ultrasound image, on a wire-phantom. However, resolution isn't that great, let's see if that can be improved?
+The first acquisition, used as a reference, is through the ADCs of a STM32F205 ([feather WICED](/retired/croaker/)) - reaching a whooping 1.7Msps (didn't master the interleaved mode..). Even at these speeds, one can see some features of an ultrasound image, on a wire-phantom. However, resolution isn't that great, let's see if that can be improved?
 
-![](/croaker/data/20161217/20161217-222737-commented.png)
+![](/retired/croaker/data/20161217/20161217-222737-commented.png)
 
 ### The Raspberry Pi experiment setup
 

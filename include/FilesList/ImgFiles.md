@@ -1,25 +1,4 @@
 # Getting images
-* __/tobo/images/FullSizeRender_1.jpg__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * Original pulser board (tobo) - description
-  * ./tobo/images/FullSizeRender_1.jpg
-* __/tobo/images/FullSizeRender_2.jpg__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/images/FullSizeRender_2.jpg
-* __/tobo/images/QS_tobo.jpg__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/images/QS_tobo.jpg
 * __/elmo/data/twoadcs.jpg__:
   * kelu124
   * elmo
@@ -209,6 +188,13 @@
   * 20170715a
   * Setup of the experiment with ATL3 and ADC
   * ./elmo/images/20170717_210209.jpg
+* __/elmo/images/20180414_224236.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./elmo/images/20180414_224236.jpg
 * __/elmo/images/20170717_205251.jpg__:
   * kelu124
   * elmo
@@ -251,622 +237,6 @@
   * ToTag
   * ToTag
   * ./elmo/images/qs_v1/20171009_170219.jpg
-* __/alt.tbo/20171112a/Unpacking_ProbeC.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Unpacking_ProbeC.jpg
-* __/alt.tbo/20171112a/Unpacking_ProbeB.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Unpacking_ProbeB.jpg
-* __/alt.tbo/20171112a/Unpacking_NewProbe.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Unpacking_NewProbe.jpg
-* __/alt.tbo/20171112a/Unpacking_ProbeA.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Unpacking_ProbeA.jpg
-* __/alt.tbo/20171112a/Unpacking_ProbeD.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Unpacking_ProbeD.jpg
-* __/alt.tbo/20171112a/ImagesIn_ProbeB.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * ASC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/ImagesIn_ProbeB.jpg
-* __/alt.tbo/20171112a/ImagesIn_ProbeD.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * ASC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/ImagesIn_ProbeD.jpg
-* __/alt.tbo/20171112a/ImagesIn_ProbeA.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * ASC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/ImagesIn_ProbeA.jpg
-* __/alt.tbo/20171112a/ImagesIn_ProbeC.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * ASC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/ImagesIn_ProbeC.jpg
-* __/alt.tbo/20171112b/Spectre_NP1.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Spectre_NP1.DAT.jpg
-* __/alt.tbo/20171112b/Images_NP4.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Images_NP4.jpg
-* __/alt.tbo/20171112b/Raw_signal_NP2.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Raw_signal_NP2.DAT.jpg
-* __/alt.tbo/20171112b/Images_OP3.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Images_OP3.jpg
-* __/alt.tbo/20171112b/Images_NP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Images_NP1.jpg
-* __/alt.tbo/20171112b/Unpacking_NP2.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Unpacking_NP2.jpg
-* __/alt.tbo/20171112b/Spectre_OP3.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Spectre_OP3.DAT.jpg
-* __/alt.tbo/20171112b/Raw_signal_OP1.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Raw_signal_OP1.DAT.jpg
-* __/alt.tbo/20171112b/Raw_signal_NP4.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Raw_signal_NP4.DAT.jpg
-* __/alt.tbo/20171112b/Raw_signal_OP3.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Raw_signal_OP3.DAT.jpg
-* __/alt.tbo/20171112b/Images_NP2.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Images_NP2.jpg
-* __/alt.tbo/20171112b/Raw_signal_NP1.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Raw_signal_NP1.DAT.jpg
-* __/alt.tbo/20171112b/Spectre_NP3.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Spectre_NP3.DAT.jpg
-* __/alt.tbo/20171112b/Raw_signal_NP3.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Raw_signal_NP3.DAT.jpg
-* __/alt.tbo/20171112b/Unpacking_NP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Unpacking_NP1.jpg
-* __/alt.tbo/20171112b/Images_NP3.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Images_NP3.jpg
-* __/alt.tbo/20171112b/Unpacking_OP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Unpacking_OP1.jpg
-* __/alt.tbo/20171112b/Spectre_OP1.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Spectre_OP1.DAT.jpg
-* __/alt.tbo/20171112b/ImagesIn_NP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/ImagesIn_NP1.jpg
-* __/alt.tbo/20171112b/ImagesIn_NP2.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/ImagesIn_NP2.jpg
-* __/alt.tbo/20171112b/Spectre_NP4.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Spectre_NP4.DAT.jpg
-* __/alt.tbo/20171112b/Spectre_NP2.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Spectre_NP2.DAT.jpg
-* __/alt.tbo/20171112b/Images_OP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Images_OP1.jpg
-* __/alt.tbo/20171112b/raw/Unpacking_NP2.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/raw/Unpacking_NP2.jpg
-* __/alt.tbo/20171112b/raw/Unpacking_OP3.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/raw/Unpacking_OP3.jpg
-* __/alt.tbo/20171112b/raw/Unpacking_NP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/raw/Unpacking_NP1.jpg
-* __/alt.tbo/20171112b/raw/Unpacking_OP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/raw/Unpacking_OP1.jpg
-* __/alt.tbo/20171112b/raw/Unpacking_NP3.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/raw/Unpacking_NP3.jpg
-* __/alt.tbo/20171112b/raw/Unpacking_NP4.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/raw/Unpacking_NP4.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Spectre_NP1.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Spectre_NP1.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Images_NP4.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Images_NP4.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP2.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Raw_signal_NP2.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Images_OP3.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Images_OP3.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Images_NP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Images_NP1.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Spectre_OP3.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Spectre_OP3.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Raw_signal_OP1.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Raw_signal_OP1.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP4.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Raw_signal_NP4.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Raw_signal_OP3.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Raw_signal_OP3.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Images_NP2.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Images_NP2.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP1.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Raw_signal_NP1.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Spectre_NP3.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Spectre_NP3.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP3.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Raw_signal_NP3.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Images_NP3.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Images_NP3.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Spectre_OP1.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Spectre_OP1.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Spectre_NP4.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Spectre_NP4.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Spectre_NP2.DAT.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Spectre_NP2.DAT.jpg
-* __/alt.tbo/20171112b/Un_dixieme/Images_OP1.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171112b/Un_dixieme/Images_OP1.jpg
-* __/alt.tbo/test/pulser.jpg__:
-  * kelu124
-  * alt.tobo
-  * graph
-  * 20170930a
-  * Different level of pulses
-  * ./alt.tbo/test/pulser.jpg
-* __/alt.tbo/test/images/20170930_175000.jpg__:
-  * kelu124
-  * alt.tbo
-  * description
-  * 20170930a
-  * Picture of the module
-  * ./alt.tbo/test/images/20170930_175000.jpg
-* __/alt.tbo/test/images/20170930_175010.jpg__:
-  * kelu124
-  * alt.tbo
-  * description
-  * 20170930a
-  * Picture of the module
-  * ./alt.tbo/test/images/20170930_175010.jpg
-* __/alt.tbo/test/images/20170930_171734.jpg__:
-  * kelu124
-  * alt.tbo,goblin,cletus,doj
-  * setup
-  * 20170930a
-  * Setup of the experiment
-  * ./alt.tbo/test/images/20170930_171734.jpg
-* __/alt.tbo/20171001a/20171001_135009.jpg__:
-  * kelu124
-  * alt.tbo,goblin,tomtom,elmo
-  * setup
-  * 20171001a
-  * Setup of the experiment for the new pulser and code
-  * ./alt.tbo/20171001a/20171001_135009.jpg
-* __/alt.tbo/20171001a/Pulses_NewModule-2.jpg__:
-  * kelu124
-  * alt.tbo
-  * graph
-  * 20171001a
-  * Pulses with alt.tobo
-  * ./alt.tbo/20171001a/Pulses_NewModule-2.jpg
-* __/alt.tbo/20171001a/Pulses_NewModule-3.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171001a/Pulses_NewModule-3.jpg
-* __/alt.tbo/20171001a/Pulses_NewModule-1.jpg__:
-  * kelu124
-  * alt.tbo
-  * graph
-  * 20171001a
-  * Pulses with alt.tobo
-  * ./alt.tbo/20171001a/Pulses_NewModule-1.jpg
-* __/alt.tbo/20171001a/Pulses_average_Tube.jpg__:
-  * kelu124
-  * alt.tobo
-  * graph
-  * 20171001b
-  * Averaged echoes
-  * ./alt.tbo/20171001a/Pulses_average_Tube.jpg
-* __/alt.tbo/20171001a/Pulses_details_Tube.jpg__:
-  * kelu124
-  * alt.tobo
-  * graph
-  * 20171001b
-  * Several pulses
-  * ./alt.tbo/20171001a/Pulses_details_Tube.jpg
-* __/alt.tbo/20171001a/Pulses_Tube.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171001a/Pulses_Tube.jpg
-* __/alt.tbo/20171001a/20171001_135041.jpg__:
-  * kelu124
-  * alt.tbo,goblin,tomtom,elmo,doj
-  * setup
-  * 20171001b
-  * Setup of the second experiment with the plastic tube
-  * ./alt.tbo/20171001a/20171001_135041.jpg
-* __/alt.tbo/20171028a/Pulses_5_2500_5_2500.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171028a/Pulses_5_2500_5_2500.jpg
-* __/alt.tbo/20171028a/Pulses_5_200_5_200.jpg__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171028a/Pulses_5_200_5_200.jpg
-* __/alt.tbo/20171111a/Pulses_average_50Vb.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_average_50Vb.jpg
-* __/alt.tbo/20171111a/Pulses_details_focus_25V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_details_focus_25V.jpg
-* __/alt.tbo/20171111a/Pulses_details_75V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_details_75V.jpg
-* __/alt.tbo/20171111a/Pulses_25V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_25V.jpg
-* __/alt.tbo/20171111a/Pulses_average_25V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_average_25V.jpg
-* __/alt.tbo/20171111a/Pulses_details_focus_75V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_details_focus_75V.jpg
-* __/alt.tbo/20171111a/Pulses_details_25V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_details_25V.jpg
-* __/alt.tbo/20171111a/Pulses_average_75V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_average_75V.jpg
-* __/alt.tbo/20171111a/Pulses_details_50V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_details_50V.jpg
-* __/alt.tbo/20171111a/Pulses_75V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_75V.jpg
-* __/alt.tbo/20171111a/Pulses_50V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_50V.jpg
-* __/alt.tbo/20171111a/Pulses_average_50V.jpg__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, cletus
-  * picture
-  * 20171111a
-  * Testing the alt.tbo pulser with a simple piezo
-  * ./alt.tbo/20171111a/Pulses_average_50V.jpg
-* __/alt.tbo/images/md1210_ref.jpg__:
-  * kelu124
-  * alt.tbo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./alt.tbo/images/md1210_ref.jpg
-* __/alt.tbo/images/md1811_ref.jpg__:
-  * kelu124
-  * alt.tbo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./alt.tbo/images/md1811_ref.jpg
-* __/alt.tbo/images/md1210_ref_2.jpg__:
-  * kelu124
-  * alt.tbo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./alt.tbo/images/md1210_ref_2.jpg
-* __/cletus/IMN/20171124_222636.jpg__:
-  * kelu124
-  * oneeye, croaker, tobo, doj, goblin, cletus
-  * picture
-  * 20171124a
-  * Images from the experiment 20171124a
-  * ./cletus/IMN/20171124_222636.jpg
-* __/cletus/IMN/imn.jpg__:
-  * kelu124
-  * oneeye, croaker, tobo, doj, goblin, cletus
-  * ToTag
-  * 20171124a
-  * Images from the experiment 20171124a
-  * ./cletus/IMN/imn.jpg
-* __/cletus/images/Arduino_Servo_Filters.jpg__:
-  * kelu124
-  * cletus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./cletus/images/Arduino_Servo_Filters.jpg
 * __/doj/images/20170406_124853.jpg__:
   * kelu124
   * doj
@@ -1413,6 +783,657 @@
   * ToTag
   * ToTag
   * ./matty/images/acqs/MATTY_20180224/d-64-0-2500.jpg
+* __/retired/tobo/images/FullSizeRender_1.jpg__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * Original pulser board (tobo) - description
+  * ./retired/tobo/images/FullSizeRender_1.jpg
+* __/retired/tobo/images/FullSizeRender_2.jpg__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/FullSizeRender_2.jpg
+* __/retired/tobo/images/QS_tobo.jpg__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/QS_tobo.jpg
+* __/retired/alt.tbo/20171112a/Unpacking_ProbeC.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Unpacking_ProbeC.jpg
+* __/retired/alt.tbo/20171112a/Unpacking_ProbeB.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Unpacking_ProbeB.jpg
+* __/retired/alt.tbo/20171112a/Unpacking_NewProbe.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Unpacking_NewProbe.jpg
+* __/retired/alt.tbo/20171112a/Unpacking_ProbeA.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Unpacking_ProbeA.jpg
+* __/retired/alt.tbo/20171112a/Unpacking_ProbeD.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Unpacking_ProbeD.jpg
+* __/retired/alt.tbo/20171112a/ImagesIn_ProbeB.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * ASC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/ImagesIn_ProbeB.jpg
+* __/retired/alt.tbo/20171112a/ImagesIn_ProbeD.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * ASC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/ImagesIn_ProbeD.jpg
+* __/retired/alt.tbo/20171112a/ImagesIn_ProbeA.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * ASC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/ImagesIn_ProbeA.jpg
+* __/retired/alt.tbo/20171112a/ImagesIn_ProbeC.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * ASC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/ImagesIn_ProbeC.jpg
+* __/retired/alt.tbo/20171112b/Spectre_NP1.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Spectre_NP1.DAT.jpg
+* __/retired/alt.tbo/20171112b/Images_NP4.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Images_NP4.jpg
+* __/retired/alt.tbo/20171112b/Raw_signal_NP2.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Raw_signal_NP2.DAT.jpg
+* __/retired/alt.tbo/20171112b/Images_OP3.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Images_OP3.jpg
+* __/retired/alt.tbo/20171112b/Images_NP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Images_NP1.jpg
+* __/retired/alt.tbo/20171112b/Unpacking_NP2.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Unpacking_NP2.jpg
+* __/retired/alt.tbo/20171112b/Spectre_OP3.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Spectre_OP3.DAT.jpg
+* __/retired/alt.tbo/20171112b/Raw_signal_OP1.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Raw_signal_OP1.DAT.jpg
+* __/retired/alt.tbo/20171112b/Raw_signal_NP4.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Raw_signal_NP4.DAT.jpg
+* __/retired/alt.tbo/20171112b/Raw_signal_OP3.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Raw_signal_OP3.DAT.jpg
+* __/retired/alt.tbo/20171112b/Images_NP2.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Images_NP2.jpg
+* __/retired/alt.tbo/20171112b/Raw_signal_NP1.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Raw_signal_NP1.DAT.jpg
+* __/retired/alt.tbo/20171112b/Spectre_NP3.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Spectre_NP3.DAT.jpg
+* __/retired/alt.tbo/20171112b/Raw_signal_NP3.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Raw_signal_NP3.DAT.jpg
+* __/retired/alt.tbo/20171112b/Unpacking_NP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Unpacking_NP1.jpg
+* __/retired/alt.tbo/20171112b/Images_NP3.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Images_NP3.jpg
+* __/retired/alt.tbo/20171112b/Unpacking_OP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Unpacking_OP1.jpg
+* __/retired/alt.tbo/20171112b/Spectre_OP1.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Spectre_OP1.DAT.jpg
+* __/retired/alt.tbo/20171112b/ImagesIn_NP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/ImagesIn_NP1.jpg
+* __/retired/alt.tbo/20171112b/ImagesIn_NP2.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/ImagesIn_NP2.jpg
+* __/retired/alt.tbo/20171112b/Spectre_NP4.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Spectre_NP4.DAT.jpg
+* __/retired/alt.tbo/20171112b/Spectre_NP2.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Spectre_NP2.DAT.jpg
+* __/retired/alt.tbo/20171112b/Images_OP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Images_OP1.jpg
+* __/retired/alt.tbo/20171112b/raw/Unpacking_NP2.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/raw/Unpacking_NP2.jpg
+* __/retired/alt.tbo/20171112b/raw/Unpacking_OP3.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/raw/Unpacking_OP3.jpg
+* __/retired/alt.tbo/20171112b/raw/Unpacking_NP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/raw/Unpacking_NP1.jpg
+* __/retired/alt.tbo/20171112b/raw/Unpacking_OP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/raw/Unpacking_OP1.jpg
+* __/retired/alt.tbo/20171112b/raw/Unpacking_NP3.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/raw/Unpacking_NP3.jpg
+* __/retired/alt.tbo/20171112b/raw/Unpacking_NP4.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/raw/Unpacking_NP4.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Spectre_NP1.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Spectre_NP1.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Images_NP4.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Images_NP4.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP2.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP2.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Images_OP3.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Images_OP3.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Images_NP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Images_NP1.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Spectre_OP3.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Spectre_OP3.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_OP1.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_OP1.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP4.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP4.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_OP3.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_OP3.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Images_NP2.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Images_NP2.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP1.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP1.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Spectre_NP3.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Spectre_NP3.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP3.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Raw_signal_NP3.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Images_NP3.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Images_NP3.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Spectre_OP1.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Spectre_OP1.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Spectre_NP4.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Spectre_NP4.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Spectre_NP2.DAT.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Spectre_NP2.DAT.jpg
+* __/retired/alt.tbo/20171112b/Un_dixieme/Images_OP1.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171112b/Un_dixieme/Images_OP1.jpg
+* __/retired/alt.tbo/test/pulser.jpg__:
+  * kelu124
+  * alt.tobo
+  * graph
+  * 20170930a
+  * Different level of pulses
+  * ./retired/alt.tbo/test/pulser.jpg
+* __/retired/alt.tbo/test/images/20170930_175000.jpg__:
+  * kelu124
+  * alt.tbo
+  * description
+  * 20170930a
+  * Picture of the module
+  * ./retired/alt.tbo/test/images/20170930_175000.jpg
+* __/retired/alt.tbo/test/images/20170930_175010.jpg__:
+  * kelu124
+  * alt.tbo
+  * description
+  * 20170930a
+  * Picture of the module
+  * ./retired/alt.tbo/test/images/20170930_175010.jpg
+* __/retired/alt.tbo/test/images/20170930_171734.jpg__:
+  * kelu124
+  * alt.tbo,goblin,cletus,doj
+  * setup
+  * 20170930a
+  * Setup of the experiment
+  * ./retired/alt.tbo/test/images/20170930_171734.jpg
+* __/retired/alt.tbo/20171001a/20171001_135009.jpg__:
+  * kelu124
+  * alt.tbo,goblin,tomtom,elmo
+  * setup
+  * 20171001a
+  * Setup of the experiment for the new pulser and code
+  * ./retired/alt.tbo/20171001a/20171001_135009.jpg
+* __/retired/alt.tbo/20171001a/Pulses_NewModule-2.jpg__:
+  * kelu124
+  * alt.tbo
+  * graph
+  * 20171001a
+  * Pulses with alt.tobo
+  * ./retired/alt.tbo/20171001a/Pulses_NewModule-2.jpg
+* __/retired/alt.tbo/20171001a/Pulses_NewModule-3.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171001a/Pulses_NewModule-3.jpg
+* __/retired/alt.tbo/20171001a/Pulses_NewModule-1.jpg__:
+  * kelu124
+  * alt.tbo
+  * graph
+  * 20171001a
+  * Pulses with alt.tobo
+  * ./retired/alt.tbo/20171001a/Pulses_NewModule-1.jpg
+* __/retired/alt.tbo/20171001a/Pulses_average_Tube.jpg__:
+  * kelu124
+  * alt.tobo
+  * graph
+  * 20171001b
+  * Averaged echoes
+  * ./retired/alt.tbo/20171001a/Pulses_average_Tube.jpg
+* __/retired/alt.tbo/20171001a/Pulses_details_Tube.jpg__:
+  * kelu124
+  * alt.tobo
+  * graph
+  * 20171001b
+  * Several pulses
+  * ./retired/alt.tbo/20171001a/Pulses_details_Tube.jpg
+* __/retired/alt.tbo/20171001a/Pulses_Tube.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171001a/Pulses_Tube.jpg
+* __/retired/alt.tbo/20171001a/20171001_135041.jpg__:
+  * kelu124
+  * alt.tbo,goblin,tomtom,elmo,doj
+  * setup
+  * 20171001b
+  * Setup of the second experiment with the plastic tube
+  * ./retired/alt.tbo/20171001a/20171001_135041.jpg
+* __/retired/alt.tbo/20171028a/Pulses_5_2500_5_2500.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171028a/Pulses_5_2500_5_2500.jpg
+* __/retired/alt.tbo/20171028a/Pulses_5_200_5_200.jpg__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171028a/Pulses_5_200_5_200.jpg
+* __/retired/alt.tbo/20171111a/Pulses_average_50Vb.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_average_50Vb.jpg
+* __/retired/alt.tbo/20171111a/Pulses_details_focus_25V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_details_focus_25V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_details_75V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_details_75V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_25V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_25V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_average_25V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_average_25V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_details_focus_75V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_details_focus_75V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_details_25V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_details_25V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_average_75V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_average_75V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_details_50V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_details_50V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_75V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_75V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_50V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_50V.jpg
+* __/retired/alt.tbo/20171111a/Pulses_average_50V.jpg__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, cletus
+  * picture
+  * 20171111a
+  * Testing the alt.tbo pulser with a simple piezo
+  * ./retired/alt.tbo/20171111a/Pulses_average_50V.jpg
+* __/retired/alt.tbo/images/md1210_ref.jpg__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/images/md1210_ref.jpg
+* __/retired/alt.tbo/images/md1811_ref.jpg__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/images/md1811_ref.jpg
+* __/retired/alt.tbo/images/md1210_ref_2.jpg__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/images/md1210_ref_2.jpg
+* __/retired/cletus/IMN/20171124_222636.jpg__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * picture
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./retired/cletus/IMN/20171124_222636.jpg
+* __/retired/cletus/IMN/imn.jpg__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./retired/cletus/IMN/imn.jpg
+* __/retired/cletus/images/Arduino_Servo_Filters.jpg__:
+  * kelu124
+  * cletus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/cletus/images/Arduino_Servo_Filters.jpg
+* __/retired/croaker/data/20161217/pixels.jpg__:
+  * kelu124
+  * wirephantom
+  * picture
+  * ToTag
+  * Calculation of the resolution of the image obtained with croaker.
+  * ./retired/croaker/data/20161217/pixels.jpg
+* __/retired/croaker/data/20161217/raw_data/20161217-222737-img.jpg__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/raw_data/20161217-222737-img.jpg
 * __/retired/retro10PV/images/20160307_214849_HDR.jpg__:
   * kelu124
   * ToTag
@@ -1441,20 +1462,27 @@
   * ToTag
   * ToTag
   * ./retired/retro10PV/images/20160307_212954.jpg
-* __/croaker/data/20161217/pixels.jpg__:
+* __/retired/loftus/source/s3/S3_screws.jpg__:
   * kelu124
-  * wirephantom
-  * picture
+  * loftus
   * ToTag
-  * Calculation of the resolution of the image obtained with croaker.
-  * ./croaker/data/20161217/pixels.jpg
-* __/croaker/data/20161217/raw_data/20161217-222737-img.jpg__:
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/S3_screws.jpg
+* __/retired/loftus/source/s3/S3_all.jpg__:
   * kelu124
-  * croaker
-  * picture
+  * www.meitu.com
   * ToTag
   * ToTag
-  * ./croaker/data/20161217/raw_data/20161217-222737-img.jpg
+  * ToTag
+  * ./retired/loftus/source/s3/S3_all.jpg
+* __/retired/loftus/source/s3/S3.jpg__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/S3.jpg
 * __/include/phantoms/IMG_20180324_160024.jpg__:
   * kelu124
   * PRA-LX1C432B180
@@ -1931,13 +1959,6 @@
   * 20180415a
   * ToTag
   * ./include/20180415a/images/20180415_104641.jpg
-* __/include/20180415a/images/20180414_220952.jpg__:
-  * kelu124
-  * elmo, lite.tbo, doj, goblin, cletus, silent
-  * ToTag
-  * 20180415a
-  * ToTag
-  * ./include/20180415a/images/20180414_220952.jpg
 * __/include/20180415a/images/20180415_105319.jpg__:
   * kelu124
   * ToTag
@@ -1945,13 +1966,6 @@
   * ToTag
   * ToTag
   * ./include/20180415a/images/20180415_105319.jpg
-* __/include/20180415a/images/20180414_224236.jpg__:
-  * kelu124
-  * elmo, lite.tbo, doj, goblin, cletus, silent
-  * ToTag
-  * 20180415a
-  * ToTag
-  * ./include/20180415a/images/20180414_224236.jpg
 * __/include/20180415a/images/20180415_105439.jpg__:
   * kelu124
   * elmo, lite.tbo, doj, goblin, cletus, silent
@@ -1959,13 +1973,6 @@
   * 20180415a
   * ToTag
   * ./include/20180415a/images/20180415_105439.jpg
-* __/include/20180415a/images/20180414_220943.jpg__:
-  * kelu124
-  * elmo, lite.tbo, doj, goblin, cletus, silent
-  * ToTag
-  * 20180415a
-  * ToTag
-  * ./include/20180415a/images/20180414_220943.jpg
 * __/include/20180415a/images/20180415_105422.jpg__:
   * kelu124
   * elmo, lite.tbo, doj, goblin, cletus, silent
@@ -2827,6 +2834,13 @@
   * ToTag
   * How setting up the goblin board: quickstart.
   * ./goblin/images/QS_goblin.jpg
+* __/goblin/images/gobMF.jpg__:
+  * kelu124
+  * goblin
+  * description
+  * ToTag
+  * Description of Goblin
+  * ./goblin/images/gobMF.jpg
 * __/goblin/images/module/ModuleA.jpg__:
   * kelu124
   * goblin
@@ -2848,27 +2862,13 @@
   * ToTag
   * ToTag
   * ./goblin/images/module/ModuleC.jpg
-* __/loftus/source/s3/S3_screws.jpg__:
+* __/lite.tbo/images/20180414_220952.jpg__:
   * kelu124
-  * loftus
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * description
   * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/S3_screws.jpg
-* __/loftus/source/s3/S3_all.jpg__:
-  * kelu124
-  * www.meitu.com
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/S3_all.jpg
-* __/loftus/source/s3/S3.jpg__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/S3.jpg
+  * Description of lite.tbo
+  * ./lite.tbo/images/20180414_220952.jpg
 * __/silent/software/featherWICED/pinout.jpg__:
   * kelu124
   * silent
@@ -2890,62 +2890,6 @@
   * ToTag
   * ToTag
   * ./wirephantom/source/blocks.png
-* __/tobo/viewme.png__:
-  * kelu124
-  * tobo
-  * thumbnail
-  * ToTag
-  * ToTag
-  * ./tobo/viewme.png
-* __/tobo/source/blocks.png__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/source/blocks.png
-* __/tobo/source/Altium/changed_footprint.png__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/source/Altium/changed_footprint.png
-* __/tobo/images/us_#1_bottom.png__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/images/us_#1_bottom.png
-* __/tobo/images/tobo-2.png__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/images/tobo-2.png
-* __/tobo/images/tobo-1.png__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/images/tobo-1.png
-* __/tobo/images/schema-tobo.png__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/images/schema-tobo.png
-* __/tobo/images/us_#1_top.png__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tobo/images/us_#1_top.png
 * __/elmo/viewme.png__:
   * kelu124
   * elmo
@@ -3191,272 +3135,6 @@
   * ToTag
   * ToTag
   * ./elmo/images/v1/bot-3d.png
-* __/alt.tbo/viewme.png__:
-  * kelu124
-  * alt.tbo
-  * ToTag
-  * 
-  * Viewme
-  * ./alt.tbo/viewme.png
-* __/alt.tbo/20171112a/Raw signal ProbeA.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Raw signal ProbeA.DAT.png
-* __/alt.tbo/20171112a/Raw_signal_ProbeD.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Raw_signal_ProbeD.DAT.png
-* __/alt.tbo/20171112a/Spectre ProbeD.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * graph
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Spectre ProbeD.DAT.png
-* __/alt.tbo/20171112a/Raw_signal_ProbeB.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Raw_signal_ProbeB.DAT.png
-* __/alt.tbo/20171112a/Spectre_ProbeA.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * graph
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Spectre_ProbeA.DAT.png
-* __/alt.tbo/20171112a/Spectre_ProbeC.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * graph
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Spectre_ProbeC.DAT.png
-* __/alt.tbo/20171112a/Spectre_ProbeB.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * graph
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Spectre_ProbeB.DAT.png
-* __/alt.tbo/20171112a/Raw_signal_NewProbe.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Raw_signal_NewProbe.DAT.png
-* __/alt.tbo/20171112a/Raw_signal_ProbeC.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * BSC
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Raw_signal_ProbeC.DAT.png
-* __/alt.tbo/20171112a/Spectre_NewProbe.DAT.png__:
-  * kelu124
-  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
-  * graph
-  * 20171112a
-  * Images from the experiment
-  * ./alt.tbo/20171112a/Spectre_NewProbe.DAT.png
-* __/alt.tbo/20171028a/images/Pulses.png__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171028a/images/Pulses.png
-* __/alt.tbo/20171028a/images/pulser_diods.png__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171028a/images/pulser_diods.png
-* __/alt.tbo/20171028a/images/Pulse50V-10xProbe.png__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171028a/images/Pulse50V-10xProbe.png
-* __/alt.tbo/20171028a/images/DampPulse.png__:
-  * kelu124
-  * alt.tbo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171028a/images/DampPulse.png
-* __/alt.tbo/20171028a/images/Pulse75V-10xProbe.png__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171028a/images/Pulse75V-10xProbe.png
-* __/alt.tbo/20171028a/images/pulser_alt.png__:
-  * kelu124
-  * tobo
-  * picture
-  * ToTag
-  * ToTag
-  * ./alt.tbo/20171028a/images/pulser_alt.png
-* __/alt.tbo/source/pulser-3d.png__:
-  * kelu124
-  * tobo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./alt.tbo/source/pulser-3d.png
-* __/alt.tbo/source/blocks.png__:
-  * kelu124
-  * alt.tbo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./alt.tbo/source/blocks.png
-* __/alt.tbo/images/simpleHV.png__:
-  * kelu124
-  * alt.tbo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./alt.tbo/images/simpleHV.png
-* __/alt.tbo/images/logic.png__:
-  * kelu124
-  * alt.tbo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./alt.tbo/images/logic.png
-* __/cletus/viewme.png__:
-  * kelu124
-  * cletus
-  * thumbnail
-  * ToTag
-  * ToTag
-  * ./cletus/viewme.png
-* __/cletus/IMN/o_w_IMN-time2.png__:
-  * kelu124
-  * oneeye, croaker, tobo, doj, goblin, cletus
-  * ToTag
-  * 20171124a
-  * Images from the experiment 20171124a
-  * ./cletus/IMN/o_w_IMN-time2.png
-* __/cletus/IMN/o_empty.png__:
-  * kelu124
-  * oneeye, croaker, tobo, doj, goblin, cletus
-  * ToTag
-  * 20171124a
-  * Images from the experiment 20171124a
-  * ./cletus/IMN/o_empty.png
-* __/cletus/IMN/o_LC.png__:
-  * kelu124
-  * oneeye, croaker, tobo, doj, goblin, cletus
-  * ToTag
-  * 20171124a
-  * Images from the experiment 20171124a
-  * ./cletus/IMN/o_LC.png
-* __/cletus/IMN/o_w_IMN.png__:
-  * kelu124
-  * oneeye, croaker, tobo, doj, goblin, cletus
-  * ToTag
-  * 20171124a
-  * Images from the experiment 20171124a
-  * ./cletus/IMN/o_w_IMN.png
-* __/cletus/IMN/o_LC-loaded.png__:
-  * kelu124
-  * oneeye, croaker, tobo, doj, goblin, cletus
-  * ToTag
-  * 20171124a
-  * Images from the experiment 20171124a
-  * ./cletus/IMN/o_LC-loaded.png
-* __/cletus/IMN/o_no_IMN.png__:
-  * kelu124
-  * oneeye, croaker, tobo, doj, goblin, cletus
-  * ToTag
-  * 20171124a
-  * Images from the experiment 20171124a
-  * ./cletus/IMN/o_no_IMN.png
-* __/cletus/suppliers/americanpiezo/structure.png__:
-  * kelu124
-  * cletus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./cletus/suppliers/americanpiezo/structure.png
-* __/cletus/suppliers/americanpiezo/quote.png__:
-  * kelu124
-  * cletus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./cletus/suppliers/americanpiezo/quote.png
-* __/cletus/suppliers/blatek/structure.png__:
-  * kelu124
-  * cletus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./cletus/suppliers/blatek/structure.png
-* __/cletus/suppliers/blatek/table.png__:
-  * kelu124
-  * cletus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./cletus/suppliers/blatek/table.png
-* __/cletus/suppliers/sonomecha/quote.png__:
-  * kelu124
-  * cletus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./cletus/suppliers/sonomecha/quote.png
-* __/cletus/suppliers/ndtx/schema.png__:
-  * kelu124
-  * cletus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./cletus/suppliers/ndtx/schema.png
-* __/cletus/source/blocks.png__:
-  * kelu124
-  * cletus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./cletus/source/blocks.png
-* __/tomtom/viewme.png__:
-  * kelu124
-  * tomtom
-  * thumbnail
-  * ToTag
-  * ToTag
-  * ./tomtom/viewme.png
-* __/tomtom/source/blocks.png__:
-  * kelu124
-  * tomtom
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./tomtom/source/blocks.png
-* __/tomtom/images/pulses.png__:
-  * kelu124
-  * tomtom, tobo
-  * ToTag
-  * ToTag
-  * Pulses schematics to manage tobo.
-  * ./tomtom/images/pulses.png
 * __/doj/viewme.png__:
   * kelu124
   * doj
@@ -3464,13 +3142,6 @@
   * ToTag
   * ToTag
   * ./doj/viewme.png
-* __/doj/to_v3/old_doj-v2.png__:
-  * kelu124
-  * doj
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./doj/to_v3/old_doj-v2.png
 * __/doj/source/blocks.png__:
   * kelu124
   * doj
@@ -3961,6 +3632,307 @@
   * ToTag
   * ToTag
   * ./retired/sleepy/source/blocks.png
+* __/retired/tobo/viewme.png__:
+  * kelu124
+  * tobo
+  * thumbnail
+  * ToTag
+  * ToTag
+  * ./retired/tobo/viewme.png
+* __/retired/tobo/source/blocks.png__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/source/blocks.png
+* __/retired/tobo/source/Altium/changed_footprint.png__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/source/Altium/changed_footprint.png
+* __/retired/tobo/images/us_#1_bottom.png__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/us_#1_bottom.png
+* __/retired/tobo/images/tobo-2.png__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/tobo-2.png
+* __/retired/tobo/images/tobo-1.png__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/tobo-1.png
+* __/retired/tobo/images/schema-tobo.png__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/schema-tobo.png
+* __/retired/tobo/images/us_#1_top.png__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/us_#1_top.png
+* __/retired/alt.tbo/viewme.png__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * 
+  * Viewme
+  * ./retired/alt.tbo/viewme.png
+* __/retired/alt.tbo/20171112a/Raw signal ProbeA.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Raw signal ProbeA.DAT.png
+* __/retired/alt.tbo/20171112a/Raw_signal_ProbeD.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Raw_signal_ProbeD.DAT.png
+* __/retired/alt.tbo/20171112a/Spectre ProbeD.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * graph
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Spectre ProbeD.DAT.png
+* __/retired/alt.tbo/20171112a/Raw_signal_ProbeB.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Raw_signal_ProbeB.DAT.png
+* __/retired/alt.tbo/20171112a/Spectre_ProbeA.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * graph
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Spectre_ProbeA.DAT.png
+* __/retired/alt.tbo/20171112a/Spectre_ProbeC.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * graph
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Spectre_ProbeC.DAT.png
+* __/retired/alt.tbo/20171112a/Spectre_ProbeB.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * graph
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Spectre_ProbeB.DAT.png
+* __/retired/alt.tbo/20171112a/Raw_signal_NewProbe.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Raw_signal_NewProbe.DAT.png
+* __/retired/alt.tbo/20171112a/Raw_signal_ProbeC.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * BSC
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Raw_signal_ProbeC.DAT.png
+* __/retired/alt.tbo/20171112a/Spectre_NewProbe.DAT.png__:
+  * kelu124
+  * elmo, tomtom, alt.tbo, doj, goblin, retroATL3
+  * graph
+  * 20171112a
+  * Images from the experiment
+  * ./retired/alt.tbo/20171112a/Spectre_NewProbe.DAT.png
+* __/retired/alt.tbo/20171028a/images/Pulses.png__:
+  * kelu124
+  * tobo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171028a/images/Pulses.png
+* __/retired/alt.tbo/20171028a/images/pulser_diods.png__:
+  * kelu124
+  * tobo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171028a/images/pulser_diods.png
+* __/retired/alt.tbo/20171028a/images/Pulse50V-10xProbe.png__:
+  * kelu124
+  * tobo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171028a/images/Pulse50V-10xProbe.png
+* __/retired/alt.tbo/20171028a/images/DampPulse.png__:
+  * kelu124
+  * alt.tbo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171028a/images/DampPulse.png
+* __/retired/alt.tbo/20171028a/images/Pulse75V-10xProbe.png__:
+  * kelu124
+  * tobo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171028a/images/Pulse75V-10xProbe.png
+* __/retired/alt.tbo/20171028a/images/pulser_alt.png__:
+  * kelu124
+  * tobo
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/20171028a/images/pulser_alt.png
+* __/retired/alt.tbo/source/pulser-3d.png__:
+  * kelu124
+  * tobo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/source/pulser-3d.png
+* __/retired/alt.tbo/source/blocks.png__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/source/blocks.png
+* __/retired/alt.tbo/images/simpleHV.png__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/images/simpleHV.png
+* __/retired/alt.tbo/images/logic.png__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/images/logic.png
+* __/retired/cletus/viewme.png__:
+  * kelu124
+  * cletus
+  * thumbnail
+  * ToTag
+  * ToTag
+  * ./retired/cletus/viewme.png
+* __/retired/cletus/IMN/o_w_IMN-time2.png__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./retired/cletus/IMN/o_w_IMN-time2.png
+* __/retired/cletus/IMN/o_empty.png__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./retired/cletus/IMN/o_empty.png
+* __/retired/cletus/IMN/o_LC.png__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./retired/cletus/IMN/o_LC.png
+* __/retired/cletus/IMN/o_w_IMN.png__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./retired/cletus/IMN/o_w_IMN.png
+* __/retired/cletus/IMN/o_LC-loaded.png__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./retired/cletus/IMN/o_LC-loaded.png
+* __/retired/cletus/IMN/o_no_IMN.png__:
+  * kelu124
+  * oneeye, croaker, tobo, doj, goblin, cletus
+  * ToTag
+  * 20171124a
+  * Images from the experiment 20171124a
+  * ./retired/cletus/IMN/o_no_IMN.png
+* __/retired/cletus/suppliers/americanpiezo/structure.png__:
+  * kelu124
+  * cletus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/cletus/suppliers/americanpiezo/structure.png
+* __/retired/cletus/suppliers/americanpiezo/quote.png__:
+  * kelu124
+  * cletus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/cletus/suppliers/americanpiezo/quote.png
+* __/retired/cletus/suppliers/blatek/structure.png__:
+  * kelu124
+  * cletus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/cletus/suppliers/blatek/structure.png
+* __/retired/cletus/suppliers/blatek/table.png__:
+  * kelu124
+  * cletus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/cletus/suppliers/blatek/table.png
+* __/retired/cletus/suppliers/sonomecha/quote.png__:
+  * kelu124
+  * cletus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/cletus/suppliers/sonomecha/quote.png
+* __/retired/cletus/suppliers/ndtx/schema.png__:
+  * kelu124
+  * cletus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/cletus/suppliers/ndtx/schema.png
+* __/retired/cletus/source/blocks.png__:
+  * kelu124
+  * cletus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/cletus/source/blocks.png
 * __/retired/hannin/viewme.png__:
   * kelu124
   * ToTag
@@ -3975,6 +3947,27 @@
   * ToTag
   * ToTag
   * ./retired/hannin/source/blocks.png
+* __/retired/tomtom/viewme.png__:
+  * kelu124
+  * tomtom
+  * thumbnail
+  * ToTag
+  * ToTag
+  * ./retired/tomtom/viewme.png
+* __/retired/tomtom/source/blocks.png__:
+  * kelu124
+  * tomtom
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/tomtom/source/blocks.png
+* __/retired/tomtom/images/pulses.png__:
+  * kelu124
+  * tomtom, tobo
+  * ToTag
+  * ToTag
+  * Pulses schematics to manage tobo.
+  * ./retired/tomtom/images/pulses.png
 * __/retired/oneeye/viewme.png__:
   * kelu124
   * oneeye
@@ -3996,6 +3989,685 @@
   * ToTag
   * ToTag
   * ./retired/oneeye/images/oneeye-trinket.png
+* __/retired/croaker/viewme.png__:
+  * kelu124
+  * croaker
+  * thumbnail
+  * ToTag
+  * ToTag
+  * ./retired/croaker/viewme.png
+* __/retired/croaker/feather_tests/SilentAcq.png__:
+  * kelu124
+  * croaker
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/croaker/feather_tests/SilentAcq.png
+* __/retired/croaker/feather_tests/24x128pts.png__:
+  * kelu124
+  * croaker
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/croaker/feather_tests/24x128pts.png
+* __/retired/croaker/feather_tests/SilentAcqDualADC.png__:
+  * kelu124
+  * croaker
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/croaker/feather_tests/SilentAcqDualADC.png
+* __/retired/croaker/data/20161217/20161217-222737-SC.png__:
+  * kelu124
+  * croaker, wirephantom
+  * ASC
+  * 20161217a
+  * Image of the wirephantom using croaker, after scan conversion.
+  * ./retired/croaker/data/20161217/20161217-222737-SC.png
+* __/retired/croaker/data/20161217/20161217-222737.png__:
+  * kelu124
+  * croaker, wirephantom
+  * BSC
+  * 20161217a
+  * Image of the wirephantom using croaker, before scan conversion.
+  * ./retired/croaker/data/20161217/20161217-222737.png
+* __/retired/croaker/data/20161217/20161217-222737-commented.png__:
+  * kelu124
+  * croaker, wirephantom
+  * ASC
+  * 20161217a
+  * Image of the wirephantom obtained while using the chain of modules, and the feather (croaker) module as the DAQ. Commented.
+  * ./retired/croaker/data/20161217/20161217-222737-commented.png
+* __/retired/croaker/data/20161217/raw_data/20161217-222737-0.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/raw_data/20161217-222737-0.png
+* __/retired/croaker/data/20161217/raw_data/20161217-222737-3.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/raw_data/20161217-222737-3.png
+* __/retired/croaker/data/20161217/raw_data/20161217-222737-1.png__:
+  * kelu124
+  * croaker, wirephantom
+  * BSC
+  * 20161217a
+  * Before scan conversion
+  * ./retired/croaker/data/20161217/raw_data/20161217-222737-1.png
+* __/retired/croaker/data/20161217/raw_data/20161217-222737-2.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/raw_data/20161217-222737-2.png
+* __/retired/croaker/data/20161217/scan-converted/20161217-222737-2.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/scan-converted/20161217-222737-2.csv-DEC1-SC.png
+* __/retired/croaker/data/20161217/scan-converted/20161217-222737-0.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/scan-converted/20161217-222737-0.csv-DEC1-SC.png
+* __/retired/croaker/data/20161217/scan-converted/20161217-222737-3.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/scan-converted/20161217-222737-3.csv-DEC1-SC.png
+* __/retired/croaker/data/20161217/scan-converted/20161217-222737-1.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/scan-converted/20161217-222737-1.csv-DEC1-SC.png
+* __/retired/croaker/data/20161217/images/result.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/20161217/images/result.png
+* __/retired/croaker/data/20161217/images/all_raw.png__:
+  * kelu124
+  * croaker, wirephantom,cletus
+  * BSC
+  * 20161217a
+  * Raw images from the experiment
+  * ./retired/croaker/data/20161217/images/all_raw.png
+* __/retired/croaker/data/manual/20161217-222737-1.png__:
+  * kelu124
+  * wirephantom
+  * picture
+  * ToTag
+  * Image obtained with a croaker based setup of the wire phantom.
+  * ./retired/croaker/data/manual/20161217-222737-1.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-1.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-4.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-4.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-3.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-3.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-3.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-3.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-4.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-4.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-3.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-3.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-0.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-0.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-4.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-4.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152204/20160928-152204-2.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152204/20160928-152204-2.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-0.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-0.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-2.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-2.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-0.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-0.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-2.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-2.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-0.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-0.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-3.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-3.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-1.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-1.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-1.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-1.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-1.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-2.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-2.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-3.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-3.png
+* __/retired/croaker/data/examples/20160928-152201/20160928-152201-3.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152201/20160928-152201-3.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-151602/20160928-151602-1.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-151602/20160928-151602-1.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-151602/20160928-151602-1.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-151602/20160928-151602-1.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-151602/20160928-151602-1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-151602/20160928-151602-1.png
+* __/retired/croaker/data/examples/20160928-151602/20160928-151602-0.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-151602/20160928-151602-0.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-151602/20160928-151602-0.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-151602/20160928-151602-0.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-151602/20160928-151602-0.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-151602/20160928-151602-0.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-1.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-1.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-2.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-2.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-0.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-0.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-1.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-1.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-0.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-0.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-2.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-2.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-1.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-0.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-0.png
+* __/retired/croaker/data/examples/20160928-152043/20160928-152043-2.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152043/20160928-152043-2.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-3.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-3.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-2.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-2.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-2.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-2.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-0.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-0.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-0.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-0.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-1.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-1.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-1.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-3.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-3.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-2.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-2.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-3.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-3.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-1.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-1.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152035/20160928-152035-0.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152035/20160928-152035-0.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-2.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-2.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-2.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-2.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-0.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-0.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-1.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-1.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-1.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-1.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-2.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-2.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-1.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-0.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-0.png
+* __/retired/croaker/data/examples/20160928-152051/20160928-152051-0.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152051/20160928-152051-0.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-0.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-0.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-3.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-3.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-0.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-0.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-1.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-1.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-1.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-2.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-2.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-3.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-3.csv-DEC1.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-2.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-2.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-1.csv-DEC1-SC.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-1.csv-DEC1-SC.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-0.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-0.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-3.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-3.png
+* __/retired/croaker/data/examples/20160928-152127/20160928-152127-2.csv-DEC1.png__:
+  * kelu124
+  * croaker
+  * picture
+  * ToTag
+  * ToTag
+  * ./retired/croaker/data/examples/20160928-152127/20160928-152127-2.csv-DEC1.png
+* __/retired/croaker/source/blocks.png__:
+  * kelu124
+  * croaker
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/croaker/source/blocks.png
+* __/retired/croaker/images/kit-overall.png__:
+  * kelu124
+  * croaker
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/croaker/images/kit-overall.png
+* __/retired/croaker/images/kit-overaview.png__:
+  * kelu124
+  * croaker
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/croaker/images/kit-overaview.png
+* __/retired/croaker/images/rpi9.png__:
+  * kelu124
+  * croaker
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/croaker/images/rpi9.png
 * __/retired/toadkiller/viewme.png__:
   * kelu124
   * toadkiller
@@ -4087,6 +4759,76 @@
   * ToTag
   * ToTag
   * ./retired/retro10PV/source/blocks.png
+* __/retired/loftus/viewme.png__:
+  * kelu124
+  * loftus
+  * thumbnail
+  * ToTag
+  * ToTag
+  * ./retired/loftus/viewme.png
+* __/retired/loftus/source/blocks.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/blocks.png
+* __/retired/loftus/source/s3/s39.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/s39.png
+* __/retired/loftus/source/s3/s36.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/s36.png
+* __/retired/loftus/source/s3/s31.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/s31.png
+* __/retired/loftus/source/s3/s38.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/s38.png
+* __/retired/loftus/source/s3/s37.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/s37.png
+* __/retired/loftus/source/s3/s34.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/s34.png
+* __/retired/loftus/source/s3/s32.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/s32.png
+* __/retired/loftus/source/s3/s35.png__:
+  * kelu124
+  * loftus
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/loftus/source/s3/s35.png
 * __/retired/mogaba/viewme.png__:
   * kelu124
   * mogaba
@@ -4101,685 +4843,6 @@
   * ToTag
   * ToTag
   * ./retired/mogaba/source/blocks.png
-* __/croaker/viewme.png__:
-  * kelu124
-  * croaker
-  * thumbnail
-  * ToTag
-  * ToTag
-  * ./croaker/viewme.png
-* __/croaker/feather_tests/SilentAcq.png__:
-  * kelu124
-  * croaker
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./croaker/feather_tests/SilentAcq.png
-* __/croaker/feather_tests/24x128pts.png__:
-  * kelu124
-  * croaker
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./croaker/feather_tests/24x128pts.png
-* __/croaker/feather_tests/SilentAcqDualADC.png__:
-  * kelu124
-  * croaker
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./croaker/feather_tests/SilentAcqDualADC.png
-* __/croaker/data/20161217/20161217-222737-SC.png__:
-  * kelu124
-  * croaker, wirephantom
-  * ASC
-  * 20161217a
-  * Image of the wirephantom using croaker, after scan conversion.
-  * ./croaker/data/20161217/20161217-222737-SC.png
-* __/croaker/data/20161217/20161217-222737.png__:
-  * kelu124
-  * croaker, wirephantom
-  * BSC
-  * 20161217a
-  * Image of the wirephantom using croaker, before scan conversion.
-  * ./croaker/data/20161217/20161217-222737.png
-* __/croaker/data/20161217/20161217-222737-commented.png__:
-  * kelu124
-  * croaker, wirephantom
-  * ASC
-  * 20161217a
-  * Image of the wirephantom obtained while using the chain of modules, and the feather (croaker) module as the DAQ. Commented.
-  * ./croaker/data/20161217/20161217-222737-commented.png
-* __/croaker/data/20161217/raw_data/20161217-222737-0.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/20161217/raw_data/20161217-222737-0.png
-* __/croaker/data/20161217/raw_data/20161217-222737-3.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/20161217/raw_data/20161217-222737-3.png
-* __/croaker/data/20161217/raw_data/20161217-222737-1.png__:
-  * kelu124
-  * croaker, wirephantom
-  * BSC
-  * 20161217a
-  * Before scan conversion
-  * ./croaker/data/20161217/raw_data/20161217-222737-1.png
-* __/croaker/data/20161217/raw_data/20161217-222737-2.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/20161217/raw_data/20161217-222737-2.png
-* __/croaker/data/20161217/scan-converted/20161217-222737-2.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/20161217/scan-converted/20161217-222737-2.csv-DEC1-SC.png
-* __/croaker/data/20161217/scan-converted/20161217-222737-0.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/20161217/scan-converted/20161217-222737-0.csv-DEC1-SC.png
-* __/croaker/data/20161217/scan-converted/20161217-222737-3.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/20161217/scan-converted/20161217-222737-3.csv-DEC1-SC.png
-* __/croaker/data/20161217/scan-converted/20161217-222737-1.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/20161217/scan-converted/20161217-222737-1.csv-DEC1-SC.png
-* __/croaker/data/20161217/images/result.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/20161217/images/result.png
-* __/croaker/data/20161217/images/all_raw.png__:
-  * kelu124
-  * croaker, wirephantom,cletus
-  * BSC
-  * 20161217a
-  * Raw images from the experiment
-  * ./croaker/data/20161217/images/all_raw.png
-* __/croaker/data/manual/20161217-222737-1.png__:
-  * kelu124
-  * wirephantom
-  * picture
-  * ToTag
-  * Image obtained with a croaker based setup of the wire phantom.
-  * ./croaker/data/manual/20161217-222737-1.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-1.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-1.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-4.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-4.csv-DEC1.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-3.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-3.csv-DEC1.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-3.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-3.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-0.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-4.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-4.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-3.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-3.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-0.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-0.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-4.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-4.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-2.csv-DEC1.png
-* __/croaker/data/examples/20160928-152204/20160928-152204-2.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152204/20160928-152204-2.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-0.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-0.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-2.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-2.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-0.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-0.csv-DEC1.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-2.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-2.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-0.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-0.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-3.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-3.csv-DEC1.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-1.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-1.csv-DEC1.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-1.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-1.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-1.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-2.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-2.csv-DEC1.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-3.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-3.png
-* __/croaker/data/examples/20160928-152201/20160928-152201-3.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152201/20160928-152201-3.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-151602/20160928-151602-1.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-151602/20160928-151602-1.csv-DEC1.png
-* __/croaker/data/examples/20160928-151602/20160928-151602-1.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-151602/20160928-151602-1.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-151602/20160928-151602-1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-151602/20160928-151602-1.png
-* __/croaker/data/examples/20160928-151602/20160928-151602-0.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-151602/20160928-151602-0.csv-DEC1.png
-* __/croaker/data/examples/20160928-151602/20160928-151602-0.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-151602/20160928-151602-0.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-151602/20160928-151602-0.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-151602/20160928-151602-0.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-1.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-1.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-2.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-2.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-0.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-0.csv-DEC1.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-1.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-1.csv-DEC1.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-0.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-0.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-2.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-2.csv-DEC1.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-1.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-0.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-0.png
-* __/croaker/data/examples/20160928-152043/20160928-152043-2.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152043/20160928-152043-2.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-3.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-3.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-2.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-2.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-2.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-2.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-0.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-0.csv-DEC1.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-0.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-0.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-1.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-1.csv-DEC1.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-1.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-3.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-3.csv-DEC1.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-2.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-2.csv-DEC1.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-3.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-3.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-1.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-1.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152035/20160928-152035-0.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152035/20160928-152035-0.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-2.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-2.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-2.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-2.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-0.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-0.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-1.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-1.csv-DEC1.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-1.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-1.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-2.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-2.csv-DEC1.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-1.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-0.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-0.png
-* __/croaker/data/examples/20160928-152051/20160928-152051-0.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152051/20160928-152051-0.csv-DEC1.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-0.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-0.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-3.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-3.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-0.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-0.csv-DEC1.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-1.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-1.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-1.csv-DEC1.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-2.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-2.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-3.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-3.csv-DEC1.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-2.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-2.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-1.csv-DEC1-SC.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-1.csv-DEC1-SC.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-0.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-0.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-3.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-3.png
-* __/croaker/data/examples/20160928-152127/20160928-152127-2.csv-DEC1.png__:
-  * kelu124
-  * croaker
-  * picture
-  * ToTag
-  * ToTag
-  * ./croaker/data/examples/20160928-152127/20160928-152127-2.csv-DEC1.png
-* __/croaker/source/blocks.png__:
-  * kelu124
-  * croaker
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./croaker/source/blocks.png
-* __/croaker/images/kit-overall.png__:
-  * kelu124
-  * croaker
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./croaker/images/kit-overall.png
-* __/croaker/images/kit-overaview.png__:
-  * kelu124
-  * croaker
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./croaker/images/kit-overaview.png
-* __/croaker/images/rpi9.png__:
-  * kelu124
-  * croaker
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./croaker/images/rpi9.png
 * __/include/GraphMyMind.png__:
   * kelu124
   * ToTag
@@ -5648,76 +5711,20 @@
   * ToTag
   * ToTag
   * ./goblin/images/module/schematics.png
-* __/loftus/viewme.png__:
+* __/lite.tbo/viewme.png__:
   * kelu124
-  * loftus
+  * lite.tbo
   * thumbnail
   * ToTag
   * ToTag
-  * ./loftus/viewme.png
-* __/loftus/source/blocks.png__:
+  * ./lite.tbo/viewme.png
+* __/lite.tbo/source/blocks.png__:
   * kelu124
-  * loftus
+  * lite.tbo
   * ToTag
   * ToTag
   * ToTag
-  * ./loftus/source/blocks.png
-* __/loftus/source/s3/s39.png__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/s39.png
-* __/loftus/source/s3/s36.png__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/s36.png
-* __/loftus/source/s3/s31.png__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/s31.png
-* __/loftus/source/s3/s38.png__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/s38.png
-* __/loftus/source/s3/s37.png__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/s37.png
-* __/loftus/source/s3/s34.png__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/s34.png
-* __/loftus/source/s3/s32.png__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/s32.png
-* __/loftus/source/s3/s35.png__:
-  * kelu124
-  * loftus
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./loftus/source/s3/s35.png
+  * ./lite.tbo/source/blocks.png
 * __/silent/viewme.png__:
   * kelu124
   * silent
@@ -5781,111 +5788,6 @@
   * ToTag
   * Picture of the wirephantom, top view.
   * ./wirephantom/DSC_1181.JPG
-* __/tobo/images/TEK0006.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/TEK0006.JPG
-* __/tobo/images/TEK0007.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/TEK0007.JPG
-* __/tobo/images/TEK0008.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/TEK0008.JPG
-* __/tobo/images/2017/TEK0003.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0003.JPG
-* __/tobo/images/2017/TEK0006.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0006.JPG
-* __/tobo/images/2017/TEK0002.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0002.JPG
-* __/tobo/images/2017/TEK0007.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0007.JPG
-* __/tobo/images/2017/TEK0009.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0009.JPG
-* __/tobo/images/2017/TEK0004.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0004.JPG
-* __/tobo/images/2017/TEK0008.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0008.JPG
-* __/tobo/images/2017/TEK0005.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0005.JPG
-* __/tobo/images/2017/TEK0000.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0000.JPG
-* __/tobo/images/2017/TEK0001.JPG__:
-  * kelu124
-  * tobo
-  * oscilloscope
-  * ToTag
-  * ToTag
-  * ./tobo/images/2017/TEK0001.JPG
-* __/alt.tbo/images/new.tbo_idea.JPG__:
-  * kelu124
-  * alt.tbo
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./alt.tbo/images/new.tbo_idea.JPG
-* __/tomtom/images/TEK0008_NOPs.JPG__:
-  * kelu124
-  * tomtom
-  * oscilloscope
-  * ToTag
-  * Testing NOPs in the kernel module, to manage Pon and Poff.
-  * ./tomtom/images/TEK0008_NOPs.JPG
 * __/doj/images/IMG_2607.JPG__:
   * kelu124
   * doj
@@ -5893,6 +5795,111 @@
   * ToTag
   * ToTag
   * ./doj/images/IMG_2607.JPG
+* __/retired/tobo/images/TEK0006.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/TEK0006.JPG
+* __/retired/tobo/images/TEK0007.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/TEK0007.JPG
+* __/retired/tobo/images/TEK0008.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/TEK0008.JPG
+* __/retired/tobo/images/2017/TEK0003.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0003.JPG
+* __/retired/tobo/images/2017/TEK0006.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0006.JPG
+* __/retired/tobo/images/2017/TEK0002.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0002.JPG
+* __/retired/tobo/images/2017/TEK0007.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0007.JPG
+* __/retired/tobo/images/2017/TEK0009.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0009.JPG
+* __/retired/tobo/images/2017/TEK0004.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0004.JPG
+* __/retired/tobo/images/2017/TEK0008.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0008.JPG
+* __/retired/tobo/images/2017/TEK0005.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0005.JPG
+* __/retired/tobo/images/2017/TEK0000.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0000.JPG
+* __/retired/tobo/images/2017/TEK0001.JPG__:
+  * kelu124
+  * tobo
+  * oscilloscope
+  * ToTag
+  * ToTag
+  * ./retired/tobo/images/2017/TEK0001.JPG
+* __/retired/alt.tbo/images/new.tbo_idea.JPG__:
+  * kelu124
+  * alt.tbo
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/alt.tbo/images/new.tbo_idea.JPG
+* __/retired/tomtom/images/TEK0008_NOPs.JPG__:
+  * kelu124
+  * tomtom
+  * oscilloscope
+  * ToTag
+  * Testing NOPs in the kernel module, to manage Pon and Poff.
+  * ./retired/tomtom/images/TEK0008_NOPs.JPG
 * __/retired/oneeye/images/IMG_3426.JPG__:
   * kelu124
   * oneeye
@@ -5900,6 +5907,41 @@
   * ToTag
   * ToTag
   * ./retired/oneeye/images/IMG_3426.JPG
+* __/retired/croaker/data/20161217/images/DSC_1175.JPG__:
+  * kelu124
+  * croaker,mogaba,oneeye,goblin,tobo,cletus,wirephantom
+  * setup
+  * 20161217a
+  * Overview of the setup
+  * ./retired/croaker/data/20161217/images/DSC_1175.JPG
+* __/retired/croaker/data/20161217/images/DSC_1176.JPG__:
+  * kelu124
+  * wirephantom, mogaba, croaker, tobo, goblin, oneeye
+  * setup
+  * 20161217a
+  * Overall setup using a stripboard as the motherboard. Controled by croaker + oneeye.
+  * ./retired/croaker/data/20161217/images/DSC_1176.JPG
+* __/retired/croaker/images/IMG_3492.JPG__:
+  * kelu124
+  * croaker
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./retired/croaker/images/IMG_3492.JPG
+* __/retired/croaker/images/IMG_3487.JPG__:
+  * kelu124
+  * cletus, croaker
+  * ToTag
+  * ToTag
+  * A piezo on a servo
+  * ./retired/croaker/images/IMG_3487.JPG
+* __/retired/croaker/images/IMG_3491.JPG__:
+  * kelu124
+  * croaker, mogaba, tobo, goblin, oneeye
+  * ToTag
+  * ToTag
+  * An overview of the STM32 croaker based acquisition + streaming platform, with OLED display.
+  * ./retired/croaker/images/IMG_3491.JPG
 * __/retired/retro10PV/images/DSC_0680.JPG__:
   * kelu124
   * ToTag
@@ -5963,41 +6005,6 @@
   * ToTag
   * ToTag
   * ./retired/mogaba/images/IMG_3423.JPG
-* __/croaker/data/20161217/images/DSC_1175.JPG__:
-  * kelu124
-  * croaker,mogaba,oneeye,goblin,tobo,cletus,wirephantom
-  * setup
-  * 20161217a
-  * Overview of the setup
-  * ./croaker/data/20161217/images/DSC_1175.JPG
-* __/croaker/data/20161217/images/DSC_1176.JPG__:
-  * kelu124
-  * wirephantom, mogaba, croaker, tobo, goblin, oneeye
-  * setup
-  * 20161217a
-  * Overall setup using a stripboard as the motherboard. Controled by croaker + oneeye.
-  * ./croaker/data/20161217/images/DSC_1176.JPG
-* __/croaker/images/IMG_3492.JPG__:
-  * kelu124
-  * croaker
-  * ToTag
-  * ToTag
-  * ToTag
-  * ./croaker/images/IMG_3492.JPG
-* __/croaker/images/IMG_3487.JPG__:
-  * kelu124
-  * cletus, croaker
-  * ToTag
-  * ToTag
-  * A piezo on a servo
-  * ./croaker/images/IMG_3487.JPG
-* __/croaker/images/IMG_3491.JPG__:
-  * kelu124
-  * croaker, mogaba, tobo, goblin, oneeye
-  * ToTag
-  * ToTag
-  * An overview of the STM32 croaker based acquisition + streaming platform, with OLED display.
-  * ./croaker/images/IMG_3491.JPG
 * __/include/bard/Bard-Site-Rite-37522-5C-45C-75MHz-Ultrasound-Transducer-Probe-68mmFL-Dymax-0470-263459340232-7.JPG__:
   * kelu124
   * bard
@@ -6456,30 +6463,30 @@
 * __/silent/images/SilentPostEnveloppe.JPG__:
   * kelu124
   * silent
-  * ToTag
-  * ToTag
-  * ToTag
+  * oscilloscope
+  * 20160809a
+  * Post enveloppe
   * ./silent/images/SilentPostEnveloppe.JPG
 * __/silent/images/SilentOutput.JPG__:
   * kelu124
   * silent
-  * ToTag
-  * ToTag
-  * ToTag
+  * oscilloscope
+  * 20160809a
+  * Output of Silent
   * ./silent/images/SilentOutput.JPG
 * __/silent/images/SilentEnveloppeFinal.JPG__:
   * kelu124
   * silent
-  * ToTag
-  * ToTag
-  * ToTag
+  * oscilloscope
+  * 20160809a
+  * Enveloppe detected
   * ./silent/images/SilentEnveloppeFinal.JPG
 * __/silent/images/SilentPostTGC.JPG__:
   * kelu124
   * silent
-  * ToTag
-  * ToTag
-  * ToTag
+  * oscilloscope
+  * 20160809a
+  * Post TGC acquisition
   * ./silent/images/SilentPostTGC.JPG
 * __/silent/images/IMG_3427.JPG__:
   * kelu124

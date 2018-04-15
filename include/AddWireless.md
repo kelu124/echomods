@@ -12,10 +12,10 @@ For the fun of it, I also put a small 128x60 monochrome screen, to see what the 
 
 Organizing the modules
 
-![](/croaker/images/kit-overall.png)
+![](/retired/croaker/images/kit-overall.png)
 
 With the overview, and the transducer
 
-![](/croaker/images/kit-overaview.png)
+![](/retired/croaker/images/kit-overaview.png)
 
 

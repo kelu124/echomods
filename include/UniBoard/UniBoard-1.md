@@ -2,7 +2,7 @@
 
 * [Amp source files](/goblin/source/goblin_altium.zip)
 * [Goblin source](/goblin/source/goblin_altium.zip)
-* [Pulser source](/alt.tbo/alt.tobo.zip)
+* [Pulser source](/retired/alt.tbo/alt.tobo.zip)
 
 
 ## Overall remarks
