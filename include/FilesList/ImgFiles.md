@@ -666,7 +666,7 @@
   * ./alt.tbo/test/images/20170930_175010.jpg
 * __/alt.tbo/test/images/20170930_171734.jpg__:
   * kelu124
-  * alt.tbo
+  * alt.tbo,goblin,cletus,doj
   * setup
   * 20170930a
   * Setup of the experiment
@@ -1007,6 +1007,48 @@
   * 20180224a
   * Representing the lines of the acquisitions
   * ./matty/20180224a/images/y19-VGA@0x11-spimode1-10msps.jpg
+* __/matty/v0.1/images/2018-02-27.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180225a
+  * Analysing acquisition at 32 and 64Msps
+  * ./matty/v0.1/images/2018-02-27.jpg
+* __/matty/v0.1/images/IMG_20180224_195210.jpg__:
+  * kelu124
+  * matty
+  * setup
+  * 20180224a
+  * Setup of the experiment
+  * ./matty/v0.1/images/IMG_20180224_195210.jpg
+* __/matty/v0.1/images/20180403/p_A-130us-1-VGA@0x22-spimode1-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/v0.1/images/20180403/p_A-130us-1-VGA@0x22-spimode1-64msps.jpg
+* __/matty/v0.1/images/20180403/p_A-130us-0-VGA@0x22-spimode1-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180403b
+  * Testing new version of FPGA bin
+  * ./matty/v0.1/images/20180403/p_A-130us-0-VGA@0x22-spimode1-64msps.jpg
+* __/matty/v0.1/images/20180227/One-5-VGA@0x22-spimode1-64msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180225a
+  * Analysing acquisition at 32 and 64Msps
+  * ./matty/v0.1/images/20180227/One-5-VGA@0x22-spimode1-64msps.jpg
+* __/matty/v0.1/images/20180227/One-0-VGA@0x22-spimode1-32msps.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20180225a
+  * Analysing acquisition at 32 and 64Msps
+  * ./matty/v0.1/images/20180227/One-0-VGA@0x22-spimode1-32msps.jpg
 * __/matty/20180226a/compare_version.jpg__:
   * kelu124
   * matty
@@ -1658,6 +1700,27 @@
   * ToTag
   * ToTag
   * ./include/devkit2.0/20170529_203924.jpg
+* __/include/20180415r/enveloppe_signal_lit-tbo.npz.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * BSC
+  * 20180415r
+  *  Acquisitions with the 20180415r experiment, using new Goblin board
+  * ./include/20180415r/enveloppe_signal_lit-tbo.npz.jpg
+* __/include/20180415r/20180415_121351.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * setup
+  * 20180415r
+  *  Setting up the 20180415r experiment
+  * ./include/20180415r/20180415_121351.jpg
+* __/include/20180415r/Raw_lit-tbo.npz.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * BSC
+  * 20180415r
+  *  Acquisitions with the 20180415r experiment, using new Goblin board
+  * ./include/20180415r/Raw_lit-tbo.npz.jpg
 * __/include/20161016/1600px-shield_v2.jpg__:
   * kelu124
   * ToTag
@@ -1861,6 +1924,90 @@
   * ToTag
   * ToTag
   * ./include/articles/kruizinga2.jpg
+* __/include/20180415a/images/20180415_104641.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/20180415_104641.jpg
+* __/include/20180415a/images/20180414_220952.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/20180414_220952.jpg
+* __/include/20180415a/images/20180415_105319.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/20180415a/images/20180415_105319.jpg
+* __/include/20180415a/images/20180414_224236.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/20180414_224236.jpg
+* __/include/20180415a/images/20180415_105439.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/20180415_105439.jpg
+* __/include/20180415a/images/20180414_220943.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/20180414_220943.jpg
+* __/include/20180415a/images/20180415_105422.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/20180415_105422.jpg
+* __/include/20180415a/images/20180415_105434.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/20180415_105434.jpg
+* __/include/20180415a/images/solder_issue/20180415_105955.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/solder_issue/20180415_105955.jpg
+* __/include/20180415a/images/solder_issue/20180415_110204.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/solder_issue/20180415_110204.jpg
+* __/include/20180415a/images/solder_issue/20180415_105937.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/solder_issue/20180415_105937.jpg
+* __/include/20180415a/images/solder_issue/20180415_110157.jpg__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * ToTag
+  * 20180415a
+  * ToTag
+  * ./include/20180415a/images/solder_issue/20180415_110157.jpg
 * __/include/s3/images/s320170917_121608.jpg__:
   * kelu124
   * ToTag
@@ -3555,6 +3702,20 @@
   * ToTag
   * ToTag
   * ./matty/prog_flash/ice40.png
+* __/matty/v0.1/images/logo/logo.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v0.1/images/logo/logo.png
+* __/matty/v0.1/images/logo/logo_small.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v0.1/images/logo/logo_small.png
 * __/matty/20180310a/DAC/IMAG001.png__:
   * kelu124
   * matty
@@ -4668,6 +4829,20 @@
   * ToTag
   * ToTag
   * ./include/20180216a/images/logic.png
+* __/include/20180415r/scope/RPi-Poff2.png__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * picture
+  * 20180415r
+  * ToTag
+  * ./include/20180415r/scope/RPi-Poff2.png
+* __/include/20180415r/scope/RPi-Poff.png__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * picture
+  * 20180415r
+  * ToTag
+  * ./include/20180415r/scope/RPi-Poff.png
 * __/include/20161016/2619341460036774092.png__:
   * kelu124
   * ToTag
@@ -4850,6 +5025,34 @@
   * ToTag
   * ToTag
   * ./include/simdev/trib_137_04_042202_f003.png
+* __/include/20180415a/Pulse10us.png__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * oscilloscope
+  * 20180415a
+  * Acquisition from the 20180415a experiment
+  * ./include/20180415a/Pulse10us.png
+* __/include/20180415a/Pulse20us.png__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * oscilloscope
+  * 20180415a
+  * Acquisition from the 20180415a experiment
+  * ./include/20180415a/Pulse20us.png
+* __/include/20180415a/piezo.png__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * oscilloscope
+  * 20180415a
+  * Acquisition from the 20180415a experiment
+  * ./include/20180415a/piezo.png
+* __/include/20180415a/piezo2.png__:
+  * kelu124
+  * elmo, lite.tbo, doj, goblin, cletus, silent
+  * oscilloscope
+  * 20180415a
+  * Acquisition from the 20180415a experiment
+  * ./include/20180415a/piezo2.png
 * __/include/s3/pulser/IMAG001.png__:
   * kelu124
   * s3

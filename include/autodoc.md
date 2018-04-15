@@ -30,8 +30,17 @@ Automating most of the documentation
   * List of experiments gets included in the Summary
   * List of probes gets included in the Summary
 
-# Other support
+# Logs created
 
+* [Python makedoc file](/makedoc.py)
+* [Support functions for the makedoc](/doc/mkdoc.py)
+
+* [Log of important errors](/doc/urgent.md)
+* [List of documentation compilation warning](/doc/log.md)
+
+# Other includes 
+
+* [Different todos from the documentation](/include/AddShoppingList.md)
 * [Manufacturing MF](/include/MF.md)
 * [Chapters introductions](/include/AddChaptersIntro.md) 
 * [Press review](/include/AddPressReview.md)
