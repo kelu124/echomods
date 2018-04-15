@@ -282,6 +282,8 @@
 
 * [./include/experiments/Desc_20160814a.md](/include/experiments/Desc_20160814a.md):  . _File not used._
 
+* [./include/experiments/all.md](/include/experiments/all.md):  . _File not used._
+
 * [./include/experiments/Desc_20170611a.md](/include/experiments/Desc_20170611a.md):  . _File not used._
 
 * [./include/experiments/Desc_20161217a.md](/include/experiments/Desc_20161217a.md):  . _File not used._
@@ -662,10 +664,11 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 269 Auto generated files
+## 271 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
+* ./include/AllAllExp.md
 * ./include/AddTableAvancement.md
 * ./include/AllExpes.md
 * ./include/AddShoppingList.md
@@ -822,6 +825,7 @@
 * ./gitbook/README.md
 * ./gitbook/devkit0.md
 * ./gitbook/caution.md
+* ./gitbook/allexp.md
 * ./gitbook/devkit11.md
 * ./gitbook/Chapter4/Session_6.md
 * ./gitbook/Chapter4/Session_1.md

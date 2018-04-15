@@ -349,6 +349,10 @@ AllExpeList,ExpeJSON,LogExpe = MakeExperiments(ListOfExperiment,ListIfImages,Gro
 log = log+LogExpe
 GrosJaSON["experiments"] = ExpeJSON
 
+# Adding Experiments descriptions in
+
+GrosJaSON,GHList = DescribeExpes(GrosJaSON)
+
 # And putting back experiments in the probes list of experiments
 
 GrosJaSON = PutBackProbes(GrosJaSON)
@@ -651,7 +655,7 @@ OpenWrite(FinalDoc,"Readme.md")
 # -------------------------
 
 f = open("gh-pages/ppt.md","w+")
-Presentation =  "% Habits\n% John Doe\n% March 22, 2005\r\n \r\n"+"\n# What do we do?\r\n \r\n"+HeaderDocTxt+" \n# Graphing the modules\r\n \r\n"+GraphModulesTxt+" \n# Table Docs\r\n"+TableModules+"\r\n# Progress\r\n \r\n"+TableAvancement
+Presentation =  "% Habits\n% John Doe\n% March 22, 2005\r\n \r\n"+"\n# What do we do?\r\n \r\n"+HeaderDocTxt+" \n# Graphing the modules\r\n \r\n"+GraphModulesTxt+" \n# Table Docs\r\n"+TableModules+"\n\n"+GHList+"\r\n# Progress\r\n \r\n"+TableAvancement
 f.write(Presentation)
 f.close()
 

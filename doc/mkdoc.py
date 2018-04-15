@@ -190,6 +190,37 @@ def getCode(string):
 		ListOfCodes.append(item.text)
 	return ListOfCodes
 
+def DescribeExpes(FatJSON):
+	ListOfExpes = FatJSON["experiments"].keys()
+	ListOfExpes.sort()
+	with open("include/experiments/all.md") as f:
+	    for line in f:
+		for expe in ListOfExpes:
+		    if expe in line:
+			LNE = line.split(":")
+			#print LNE
+			if len(LNE) > 2:
+			    FatJSON["experiments"][expe]["Title"] = LNE[1].strip()
+			    FatJSON["experiments"][expe]["ShortDesc"] = LNE[2].strip()
+	
+	GBookList = "# Experiments\n\n"
+	for k in ListOfExpes:
+		Line = ""
+		if "Title" in FatJSON["experiments"][k].keys():
+			Line += " * "+k[0:4]+"-"+k[4:6]+"-"+k[6:8]+": "
+			Line += "["+ FatJSON["experiments"][k]["Title"]+"](exp/"+k+".md): "
+			Line += FatJSON["experiments"][k]["ShortDesc"]+" _("+k+")_\n"
+		else:
+			Line += " * ["+ k +"](exp/"+k+".md)\n"
+		GBookList += Line
+
+	OpenWrite(GBookList,"gitbook/allexp.md")
+	
+	GHList = GBookList.replace("](exp/","](/include/experiments/auto/")
+
+	OpenWrite(GHList,"include/AllAllExp.md")
+
+	return FatJSON,GHList
 
 def MakeExperiments(ExpList,ListIfImage,FatJSON):
 	ExpeJSON = {}

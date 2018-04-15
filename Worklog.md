@@ -3167,3 +3167,7 @@ __More [Raspberry Pi Zero notes](/retired/croaker/notes_RPi0.md)__
 * BBB->Baptiste Pierrat->FastPRU->UpTo3Msps
 
 
+# Experiments
+
+
+
