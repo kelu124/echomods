@@ -1,8 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\vovan\Downloads\alt.tobo\altium\PCB1.PcbDoc
-RuleKind=Clearance|RuleName=Clearance_3|Scope=Board|Minimum=15.75
-RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=39.37
-RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=21.65
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=9.84
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.09
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

@@ -646,7 +646,7 @@ if FullSVG:
 GraphModulesTxt = "\n# The modules organization \n\n"
 GraphModulesTxt += "![Graph](/include/sets/basic.png) \n\n"
 
-FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableModules+TableAvancement+TODOsToShopping+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
+FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableModules+"\n\n"+GHList+"\n\n"+TableAvancement+TODOsToShopping+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
 OpenWrite(FinalDoc,"Readme.md")
 
