@@ -137,6 +137,7 @@ The diagram is represented below:
 
  * 2016-08-09: [Goblin tests](/include/experiments/auto/20160809a.md): Testing the goblin board with the silent emulator. _(20160809a)_
  * 2016-08-14: [RPi](/include/experiments/auto/20160814a.md): Testing the acquisition with the BeagleBone DAQ. _(20160814a)_
+ * [20160822a](/include/experiments/auto/20160822a.md)
  * 2016-12-17: [Croaker](/include/experiments/auto/20161217a.md): Testing the acquisition with the croaker module. _(20161217a)_
  * 2017-06-11: [Croaker](/include/experiments/auto/20170611a.md): Testing the acquisition with the croaker module. _(20170611a)_
  * 2017-07-13: [Elmo](/include/experiments/auto/20170713a.md): Testing the new DAQ with two ADCs. _(20170713a)_

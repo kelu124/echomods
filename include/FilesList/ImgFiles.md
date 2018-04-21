@@ -436,9 +436,9 @@
 * __/matty/20180403a/24c-75V7-AAC8us-VGA@0x11-spimode1-21msps.jpg__:
   * kelu124
   * matty
-  * graph
-  * 20180403a
-  * Testing the 75V pulser
+  * picture
+  * ToTag
+  * ToTag
   * ./matty/20180403a/24c-75V7-AAC8us-VGA@0x11-spimode1-21msps.jpg
 * __/matty/20180227a/One-5-VGA@0x22-spimode1-64msps.jpg__:
   * kelu124
@@ -2015,6 +2015,20 @@
   * 20180415a
   * ToTag
   * ./include/20180415a/images/solder_issue/20180415_110157.jpg
+* __/include/20180417a/details.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/20180417a/details.jpg
+* __/include/20180417a/comparing.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/20180417a/comparing.jpg
 * __/include/s3/images/s320170917_121608.jpg__:
   * kelu124
   * ToTag
@@ -4859,17 +4873,17 @@
   * ./include/ModulesGraph.png
 * __/include/20160822/20160822-205141-fft-all.png__:
   * kelu124
-  * ToTag
-  * picture
-  * ToTag
-  * ToTag
+  * retroATL3, goblin, tobo, mogaba
+  * BSC
+  * 20160822a
+  * Images acquired from a BeagleBone black with a probe
   * ./include/20160822/20160822-205141-fft-all.png
 * __/include/20160822/phantom-actual-model40.png__:
   * kelu124
   * ToTag
-  * picture
   * ToTag
-  * ToTag
+  * 20160822a
+  * Looks like a phantom
   * ./include/20160822/phantom-actual-model40.png
 * __/include/20160822/fantom.png__:
   * kelu124

@@ -1,5 +1,6 @@
   * [20160809a](/include/experiments/auto/20160809a.md)
   * [20160814a](/include/experiments/auto/20160814a.md)
+  * [20160822a](/include/experiments/auto/20160822a.md)
   * [20161217a](/include/experiments/auto/20161217a.md)
   * [20170611a](/include/experiments/auto/20170611a.md)
   * [20170713a](/include/experiments/auto/20170713a.md)

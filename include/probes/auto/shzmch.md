@@ -8,6 +8,7 @@ a mechanical probe found on shenzen
 
 * [20170715a](/include/experiments/auto/20170715a.md)
 * [20171112a](/include/experiments/auto/20171112a.md)
+* [20160822a](/include/experiments/auto/20160822a.md)
 # Images
 
 ![](/include/cn_mechprob/IMG-20180328-WA0005.jpg)

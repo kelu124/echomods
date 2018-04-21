@@ -8,6 +8,7 @@ An ATL ACCESS 3 probe.
 
 * [20170715a](/include/experiments/auto/20170715a.md)
 * [20171112a](/include/experiments/auto/20171112a.md)
+* [20160822a](/include/experiments/auto/20160822a.md)
 # Images
 
 ![](/retired/alt.tbo/20171112a/ImagesIn_ProbeD.jpg)
@@ -40,13 +41,14 @@ An ATL ACCESS 3 probe.
 ![](/retroATL3/images/ICsInHead/20170520_132727.jpg)
 ![](/elmo/images/20170717_210209.jpg)
 ![](/retroATL3/software/data/20160720-083810.png)
-![](/retroATL3/images/ICsInHead/vert.JPG)
+![](/include/20160822/20160822-205141-fft-all.png)
 ![](/retired/alt.tbo/20171112a/ImagesIn_ProbeA.jpg)
 ![](/retroATL3/images/motor_pins.jpg)
 ![](/retired/alt.tbo/20171112a/Spectre_ProbeC.DAT.png)
 ![](/retired/alt.tbo/20171112a/Unpacking_ProbeC.jpg)
 ![](/retroATL3/images/ICsInHead/20170520_132617.jpg)
 ![](/retroATL3/images/TEK0005.JPG)
+![](/retroATL3/images/ICsInHead/vert.JPG)
 ![](/retroATL3/images/ICsInHead/20170520_133333.jpg)
 ![](/retroATL3/viewme.png)
 ![](/retroATL3/images/ICsInHead/20170520_132651.jpg)
