@@ -63,6 +63,7 @@ Loved Nasa: add to un0rick
 * Remove sets in doc
 * Remake homepage in autodoc
 * Clean obsolete versions in repos
+* contact the [author](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f) !
 
 
 

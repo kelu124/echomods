@@ -419,6 +419,62 @@
   * 20180225a
   * Analysing acquisition at 32 and 64Msps
   * ./matty/v0.1/images/20180227/One-0-VGA@0x22-spimode1-32msps.jpg
+* __/matty/20180430a/wire/fft.jpg__:
+  * kelu124
+  * matty,cletus
+  * fft
+  * 20180430a
+  * Detail of the fft
+  * ./matty/20180430a/wire/fft.jpg
+* __/matty/20180430a/wire/clock_check_pos82.jpg__:
+  * kelu124
+  * matty,cletus
+  * other
+  * 20180430a
+  * Detail of a line position signal through SPI
+  * ./matty/20180430a/wire/clock_check_pos82.jpg
+* __/matty/20180430a/wire/SCImage.jpg__:
+  * kelu124
+  * matty,cletus
+  * ASC
+  * 20180430a
+  * Representing the scan converted image of the experiment
+  * ./matty/20180430a/wire/SCImage.jpg
+* __/matty/20180430a/wire/p_servo-23.json.jpg__:
+  * kelu124
+  * matty,cletus
+  * BSC
+  * 20180430a
+  * Detail of a line
+  * ./matty/20180430a/wire/p_servo-23.json.jpg
+* __/matty/20180430a/pu30/fft.jpg__:
+  * kelu124
+  * matty,cletus
+  * fft
+  * 20180430a
+  * Detail of the fft
+  * ./matty/20180430a/pu30/fft.jpg
+* __/matty/20180430a/pu30/SCImage.jpg__:
+  * kelu124
+  * matty,cletus
+  * ASC
+  * 20180430a
+  * Representing the scan converted image of the experiment
+  * ./matty/20180430a/pu30/SCImage.jpg
+* __/matty/20180430a/pu90/fft.jpg__:
+  * kelu124
+  * matty,cletus
+  * fft
+  * 20180430a
+  * Detail of the fft
+  * ./matty/20180430a/pu90/fft.jpg
+* __/matty/20180430a/pu90/SCImage.jpg__:
+  * kelu124
+  * matty,cletus
+  * ASC
+  * 20180430a
+  * Representing the scan converted image of the experiment
+  * ./matty/20180430a/pu90/SCImage.jpg
 * __/matty/20180226a/compare_version.jpg__:
   * kelu124
   * matty

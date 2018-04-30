@@ -44,9 +44,13 @@
 
 * [20180224a.md.tpl](/include/experiments/auto/20180224a.md.tpl): ./include/experiments/auto/20180224a.md.tpl. _File not used._
 
+* [20180430a.md.tpl](/include/experiments/auto/20180430a.md.tpl): ./include/experiments/auto/20180430a.md.tpl. _File not used._
+
 * [20170611a.md.tpl](/include/experiments/auto/20170611a.md.tpl): ./include/experiments/auto/20170611a.md.tpl. _File not used._
 
 * [20180225a.md.tpl](/include/experiments/auto/20180225a.md.tpl): ./include/experiments/auto/20180225a.md.tpl. _File not used._
+
+* [20160822a.md.tpl](/include/experiments/auto/20160822a.md.tpl): ./include/experiments/auto/20160822a.md.tpl. _File not used._
 
 * [20180415r.md.tpl](/include/experiments/auto/20180415r.md.tpl): ./include/experiments/auto/20180415r.md.tpl. _File not used._
 
