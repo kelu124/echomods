@@ -23,5 +23,5 @@
 * 20180403t: Tomas first acq: Tomas, a user, is getting a first image from a NDT setup with a block of steel.
 * 20180415a: Test of new batch 1/2: Testing the goblin board with silent, then test of the new lite.tbo pulser with a piezo.
 * 20180415r: Test of new batch 2/2: Testing the lite.tbo, goblin and elmo boards done at the fab - on a doj v2 motherboard.
-* 20160822a: Images acquired from a BeagleBone black with a probe
-* 20180430a: Better file management and servo control using Matty.
+* 20160822a: BBB+Probe: Images acquired from a BeagleBone black with a probe
+* 20180430a: JSON and Servo: Better file management and servo control using Matty.
