@@ -34,6 +34,8 @@ And that's what I'm getting, yeay!
 ![](/matty/20180430a/wire/p_servo-23.json.jpg)
 
 
+![](/matty/20180430a/image/20180430_181856.jpg)
+
 
 ### PU90 - with [dataset](/matty/20180430a/pu90/dataset.npz)
 
@@ -44,6 +46,7 @@ And that's what I'm getting, yeay!
 
 ### PU30 - with [dataset](/matty/20180430a/pu30/dataset.npz)
 
+![](/matty/20180430a/image/20180430_180856.jpg)
 
 ![](/matty/20180430a/pu30/SCImage.jpg)
 

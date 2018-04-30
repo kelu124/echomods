@@ -70,7 +70,7 @@ for FileName in Imgs:
 			metadata['Exif.Photo.MakerNote'] = "fft"
 			# Description
 			metadata['Exif.Image.ImageDescription'] = "Detail of the fft"
-		if "IMG_" in FileName:
+		if "201804" in FileName:
 			metadata['Exif.Photo.MakerNote'] = "setup"
 			# Description
 			metadata['Exif.Image.ImageDescription'] = "Setup of the experiment"

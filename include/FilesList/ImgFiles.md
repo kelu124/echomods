@@ -419,6 +419,20 @@
   * 20180225a
   * Analysing acquisition at 32 and 64Msps
   * ./matty/v0.1/images/20180227/One-0-VGA@0x22-spimode1-32msps.jpg
+* __/matty/20180430a/image/20180430_180856.jpg__:
+  * kelu124
+  * matty,cletus
+  * setup
+  * 20180430a
+  * Setup of the experiment
+  * ./matty/20180430a/image/20180430_180856.jpg
+* __/matty/20180430a/image/20180430_181856.jpg__:
+  * kelu124
+  * matty,cletus
+  * setup
+  * 20180430a
+  * Setup of the experiment
+  * ./matty/20180430a/image/20180430_181856.jpg
 * __/matty/20180430a/wire/fft.jpg__:
   * kelu124
   * matty,cletus
