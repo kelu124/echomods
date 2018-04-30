@@ -117,7 +117,7 @@ _Total cost of the set: 443$_
 
  * 2016-08-09: [Goblin tests](/include/experiments/auto/20160809a.md): Testing the goblin board with the silent emulator. _(20160809a)_
  * 2016-08-14: [RPi](/include/experiments/auto/20160814a.md): Testing the acquisition with the BeagleBone DAQ. _(20160814a)_
- * [20160822a](/include/experiments/auto/20160822a.md)
+ * 2016-08-22: [BBB+Probe](/include/experiments/auto/20160822a.md): Images acquired from a BeagleBone black with a probe _(20160822a)_
  * 2016-12-17: [Croaker](/include/experiments/auto/20161217a.md): Testing the acquisition with the croaker module. _(20161217a)_
  * 2017-06-11: [Croaker](/include/experiments/auto/20170611a.md): Testing the acquisition with the croaker module. _(20170611a)_
  * 2017-07-13: [Elmo](/include/experiments/auto/20170713a.md): Testing the new DAQ with two ADCs. _(20170713a)_
@@ -141,7 +141,7 @@ _Total cost of the set: 443$_
  * 2018-04-03: [Tomas first acq](/include/experiments/auto/20180403t.md): Tomas, a user, is getting a first image from a NDT setup with a block of steel. _(20180403t)_
  * 2018-04-15: [Test of new batch 1/2](/include/experiments/auto/20180415a.md): Testing the goblin board with silent, then test of the new lite.tbo pulser with a piezo. _(20180415a)_
  * 2018-04-15: [Test of new batch 2/2](/include/experiments/auto/20180415r.md): Testing the lite.tbo, goblin and elmo boards done at the fab - on a doj v2 motherboard. _(20180415r)_
- * [20180430a](/include/experiments/auto/20180430a.md)
+ * 2018-04-30: [JSON and Servo](/include/experiments/auto/20180430a.md): Better file management and servo control using Matty. _(20180430a)_
 
 # Progress
  
