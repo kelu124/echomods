@@ -12,5 +12,3 @@ title: 2018-04-15 Documentation process
 -   Testing new modules for ADC, lite.pulser, goblin
     [here](/include/20180415r/Readme.md)
 
-=======
-
