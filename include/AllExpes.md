@@ -24,6 +24,7 @@
   * [20180403t](/include/experiments/auto/20180403t.md)
   * [20180415a](/include/experiments/auto/20180415a.md)
   * [20180415r](/include/experiments/auto/20180415r.md)
+  * [20180417a](/include/experiments/auto/20180417a.md)
   * [20180430a](/include/experiments/auto/20180430a.md)
 
 

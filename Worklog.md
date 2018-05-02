@@ -2940,6 +2940,14 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * Ping your broadcast IP address ping 192.168.1.255 (may require -b on Linux)
   * Now type arp -a. You will get the list of all IP addresses on your segment.
 
+#### 2018-05-01 HN number two
+
+* New post on [HackerNews =)](https://news.ycombinator.com/item?id=16950507), reached #2 position.
+
+![](/matty/images/HN_un0rick.png)
+
+* New poeple on the slack!
+
 =======
 
 uControllers and other stuff

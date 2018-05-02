@@ -2087,17 +2087,17 @@
   * ./include/20180415a/images/solder_issue/20180415_110157.jpg
 * __/include/20180417a/details.jpg__:
   * kelu124
-  * ToTag
-  * picture
-  * ToTag
-  * ToTag
+  * elmo, matty, tomtom, alt.tbo, doj, goblin, cletus
+  * other
+  * 20180417a
+  * Comparing files
   * ./include/20180417a/details.jpg
 * __/include/20180417a/comparing.jpg__:
   * kelu124
-  * ToTag
-  * picture
-  * ToTag
-  * ToTag
+  * elmo, matty, tomtom, alt.tbo, doj, goblin, cletus
+  * other
+  * 20180417a
+  * Comparing files
   * ./include/20180417a/comparing.jpg
 * __/include/s3/images/s320170917_121608.jpg__:
   * kelu124

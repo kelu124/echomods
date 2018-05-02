@@ -1,36 +1,31 @@
 ## Need to find a name
 
-* Matty / Senjak / ... marrant -> ondes?
+* [x] Matty / Senjak / ... marrant -> ondes? -> un0rick
 
 # Clients
 
-* Relancer Thomas
-* Relancer old customers
-* Lancer slack
-* Voir GroupGets
-* profs
-* metiers de l'ultrason
+* Relancer Thomas (?? Thomas G. ? )
+* Relancer old customers (ML using Tindie adresses)
+* [x] Lancer slack
+* Others
+  * Voir GroupGets
+  * Profs
+  * Metiers de l'ultrason
 
 # Certificate
 
-* http://certificate.oshwa.org/
+* [x] http://certificate.oshwa.org/ [done](https://opensource.com/article/17/6/open-source-hardware-certification
+)
 
-# Fun:
+# Fun
 
 * Ascii art
-* some text in images 
-
-
-# Open source hardware certification
-
-https://opensource.com/article/17/6/open-source-hardware-certification
-
+* Steno - Some text in images 
 
 # Full doc
 
 Follow Wozniak presentation
 * Specs as discussed with David
-
 
 # Structure
 
@@ -66,7 +61,7 @@ Follow Wozniak presentation
 
 * Amanda Wozniak : http://2011.oshwa.org/files/2011/09/Wozniak-OHS2011.pdf
 
-* COmmunity
+* Community
   * ICE40
     * BlackMesa Labs as they are ultrasound engineers !
   * RPi
@@ -89,26 +84,21 @@ Follow Wozniak presentation
 * License
 
 
-# Communication:
+# Communication
 
 * BlackMesa (as they are ultrasound)
 * Lattice qui fait de la pub pour les ICE40 : http://www.latticesemi.com/en/Products/DevelopmentBoardsAndKits/GnarlyGreyUPDuinoBoard.aspx
-
-* hex badge : http://hexb.in/sticker.html
+* Hex badge : http://hexb.in/sticker.html
   * Logo: http://hexb.in/
-
-
-# Possibilities
-
 
 # Things I forgot:
 
-https://www.dropbox.com/s/4p4eihjqdkv7foj/IdeaToReality.pptx?dl=0
-* barcode
-* package
-* carton
-* trademark
-* OS
+* https://www.dropbox.com/s/4p4eihjqdkv7foj/IdeaToReality.pptx?dl=0
+  * barcode
+  * package
+  * carton
+  * trademark
+  * OS
 
 # Books:
 
@@ -129,7 +119,6 @@ https://www.dropbox.com/s/4p4eihjqdkv7foj/IdeaToReality.pptx?dl=0
 ## Caisse de resonance:
 
 * Black mesa
-* Mitch altman
-* 
+* Mitch altman 
 
 

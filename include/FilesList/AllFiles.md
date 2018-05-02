@@ -48,7 +48,7 @@
 
 * [./matty/20180224a/Readme.md](/matty/20180224a/Readme.md):  . _File not used._
 
-* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
+* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./matty/20180226a/Readme.md](/matty/20180226a/Readme.md):  . _File not used._
 
@@ -316,7 +316,7 @@
 
 * [./include/probes/Readme.md](/include/probes/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . _File not used._
+* [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . File used in: [`exp/Code_20180417a.md`](exp/Code_20180417a.md).
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._
 
@@ -427,7 +427,7 @@
 
 * [arduino.ino](/elmo/data/arduiprobe/arduino.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [ServoControl.ino](/matty/20180430a/ServoControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
+* [ServoControl.ino](/matty/20180430a/ServoControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [tobo_pulser.ino](/retired/tobo/source/tobo_pulser.ino): . File used in: [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
@@ -479,8 +479,8 @@
 * [20180224a-client.ipynb](/matty/20180224a/20180224a-client.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
 * [20180224a-server.ipynb](/matty/20180224a/20180224a-server.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
 * [20180227a-Loops.ipynb](/matty/v0.1/images/20180227/20180227a-Loops.ipynb). _File not used._
-* [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
-* [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
+* [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md).
+* [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md).
 * [20180226a-Compare.ipynb](/matty/20180226a/20180226a-Compare.ipynb). File used in: [`/matty/20180226a/Readme.md`](/matty/20180226a/Readme.md).
 * [20180403a-Client.ipynb](/matty/20180403a/20180403a-Client.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md).
 * [20180403a-75V.ipynb](/matty/20180403a/20180403a-75V.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md).
@@ -514,7 +514,7 @@
 * [20180415r-lit.tbo.ipynb](/include/20180415r/20180415r-lit.tbo.ipynb). _File not used._
 * [20180317a-Loops.ipynb](/include/bard/exp1/20180317a-Loops.ipynb). _File not used._
 * [20171024-RLC.ipynb](/include/RLC/20171024-RLC.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20180417a-Comparison.ipynb](/include/20180417a/20180417a-Comparison.ipynb). _File not used._
+* [20180417a-Comparison.ipynb](/include/20180417a/20180417a-Comparison.ipynb). File used in: [`exp/Code_20180417a.md`](exp/Code_20180417a.md).
 * [20180217a - Testing pulser and ADC.ipynb](/include/20180217a/20180217a - Testing pulser and ADC.ipynb). _File not used._
 * [MappingCommunity.ipynb](/include/community/MappingCommunity.ipynb). _File not used._
 * [20180210_jt_fast_batch.ipynb](/include/community/Felix/20180208/20180210_jt_fast_batch.ipynb). _File not used._
@@ -542,7 +542,7 @@
 
 * [csv2xyrs.py](/matty/v0.1/build/csv2xyrs.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
+* [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [mkimg.py](/matty/20180226a/mkimg.py): Autotagging images for the `20180226a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -599,6 +599,8 @@
 * [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [bim.py](/include/20180415r/bim.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [mkimg.py](/include/20180417a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180417a.md`](exp/Code_20180417a.md).
 
 * [mkimg.py](/include/20180217a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -684,7 +686,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 283 Auto generated files
+## 287 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
@@ -717,6 +719,7 @@
 * ./include/experiments/Desc_20180403t.md
 * ./include/experiments/Desc_20180310a.md
 * ./include/experiments/Desc_20171112a.md
+* ./include/experiments/Desc_20180417a.md
 * ./include/experiments/Desc_20180103a.md
 * ./include/experiments/Desc_20180216a.md
 * ./include/experiments/Desc_20180403b.md
@@ -745,6 +748,7 @@
 * .exp/20180225a.md
 * .exp/Mod_20171112a.md
 * .exp/Img_20180217a.md
+* .exp/Code_20180417a.md
 * .exp/Code_20180430a.md
 * .exp/Img_20171111a.md
 * .exp/Code_20180225a.md
@@ -758,6 +762,7 @@
 * .exp/20171001b.md
 * .exp/20160809a.md
 * .exp/Mod_20180115a.md
+* .exp/Img_20180417a.md
 * .exp/Mod_20180224b.md
 * .exp/Img_20180403t.md
 * .exp/Mod_20180225a.md
@@ -828,6 +833,7 @@
 * .exp/Img_20180403a.md
 * .exp/Img_20180403b.md
 * .exp/Code_20180415a.md
+* .exp/Mod_20180417a.md
 * .exp/Code_20180103a.md
 * .exp/Mod_20160822a.md
 * .exp/20180103a.md

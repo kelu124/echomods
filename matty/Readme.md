@@ -110,6 +110,13 @@ The aim is to summarize all modules in a all-inclusive board. Fast ADC, good loa
 
 ![](/matty/images/hv/PonPoff_test/75V_Piezo.png)
 
+### Reaching n2 rank on HackerNews
+
+On may 1st =)
+
+![](/matty/images/HN_un0rick.png)
+
+
 ## Discussions
 
 ### TODO
