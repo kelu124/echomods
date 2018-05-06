@@ -28,5 +28,3 @@ title: 2018-04-28 Back in the game
 -   Now type arp -a. You will get the list of all IP addresses on
     your segment.
 
-=======
-
