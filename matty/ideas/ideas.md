@@ -1,4 +1,21 @@
-## Need to find a name
+# Article
+
+* Review of code / ideas
+  * BMLabs // https://blackmesalabs.wordpress.com/ // Kevin Hubbard  // kevinhub88@comcast.net 
+  * ice40 community
+  * Miodrag Milanovic // training in belgrade // 	
+  * UpDuino creator at http://gnarlygrey.atspace.cc/
+
+* Article possible co-authors
+  * Shenzen
+  * Prof Grec
+  * Fabian / Andrejs ?
+
+* Contact HardwareX
+* do the Kruizinga application
+
+
+# Need to find a name
 
 * [x] Matty / Senjak / ... marrant -> ondes? -> un0rick
 
@@ -24,8 +41,16 @@
 
 # Full doc
 
-Follow Wozniak presentation
+* Follow Wozniak presentation
 * Specs as discussed with David
+
+* Doc
+  * SPI registers
+  * Code
+    * Python lib
+    * Corresponding data JSON format
+    
+
 
 # Structure
 
@@ -102,14 +127,12 @@ Follow Wozniak presentation
 
 # Books:
 
-* Building Open Source Hardware: DIY Manufacturing for Hackers and Makers -- http://ptgmedia.pearsoncmg.com/images/9780321906045/samplepages/9780321906045.pdf
+* Building Open Source Hardware: DIY Manufacturing for Hackers and Makers  (Josh  Pearce)
 
 # Publish
 
 * https://hackaday.com/2017/11/28/hjwydk-the-journal-our-community-has-been-awaiting/
 * HardwareX ?
-
-
 
 ## Keywords
 
