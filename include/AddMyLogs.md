@@ -2821,11 +2821,32 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-05-06 news from shenzen
 
-* a new contributor from shenzen, yeayy! would be interesting to help develop a connection there
+* a new contributor from shenzen, yeayy! would be interesting  to help develop a connection there
 * Interesting project at https://blackmesalabs.wordpress.com/2015/01/17/nanopi-project/
 * Updated [the 20180430a experiment](https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20180430a.md). Now the PU30 is a bit more visible (problem was I was loosing info when shifting data to an int..)
 * news from Nico's thesis
 ![](/include/images/etaix.png)
+
+#### 2018-05-10 Mojitos
+
+* After a couple of mojitos a couple of days back, the new [un0rick](http://un0rick.cc) board came out! Can't wait to test it.
+* Recommendation of Hurricane for piezos. Let's find out.
+* Need to improve the doc for un0rick
+
+
+#### 2018-06-11 A new article on the way
+
+* @todo Resume work on article - [Draft is here](/matty/article/matty_article.md)
+* @todo contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)
+* Need to test different uses.
+* https://open-labware.net/projects/flypi/
+
+#### 2018-06-11 un0rick working
+
+* Seems the un0rick bugged because of a reset control
+  * TC1270ALVRCTR etait le mauvais composant, il fallait un TC1270ATVRCTR . Le niveau n'etait pas le bon.
+* [Working version is here](/matty/prog_flash/v1/eMATTY_un0rick_20180510_RESETsurRPIonly4.bin) - version e.
+
 
 
 =======

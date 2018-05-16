@@ -33,8 +33,8 @@ def th(number):
 ResString = "### Some stats\n\n"
 
 
-names= ["HSDK","Murgen","ADC cape"]
-url = ["https://hackaday.io/project/10899","https://hackaday.io/project/9281","https://hackaday.io/project/20455"]
+names= ["HSDK","Murgen","ADC cape","ice40 board"]
+url = ["https://hackaday.io/project/10899","https://hackaday.io/project/9281","https://hackaday.io/project/20455","https://hackaday.io/project/28375-un0rick-an-ice40-ultrasound-board"]
 
 for k in range(len(names)):
     html = urlopen(url[k]).read()

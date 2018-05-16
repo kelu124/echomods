@@ -531,6 +531,34 @@
   * 20180225a
   * Analysing acquisition at 32 and 64Msps
   * ./matty/20180227a/One-0-VGA@0x22-spimode1-32msps.jpg
+* __/matty/20180516a/images/20180516a-3.json.jpg__:
+  * kelu124
+  * matty,cletus
+  * oscilloscope
+  * 20180516a
+  * Unpacking data
+  * ./matty/20180516a/images/20180516a-3.json.jpg
+* __/matty/20180516a/images/20180516a-4.json.jpg__:
+  * kelu124
+  * matty,cletus
+  * oscilloscope
+  * 20180516a
+  * Unpacking data
+  * ./matty/20180516a/images/20180516a-4.json.jpg
+* __/matty/20180516a/images/20180516a-2.json.jpg__:
+  * kelu124
+  * matty,cletus
+  * oscilloscope
+  * 20180516a
+  * Unpacking data
+  * ./matty/20180516a/images/20180516a-2.json.jpg
+* __/matty/20180516a/images/20180516a-1.json.jpg__:
+  * kelu124
+  * matty,cletus
+  * oscilloscope
+  * 20180516a
+  * Unpacking data
+  * ./matty/20180516a/images/20180516a-1.json.jpg
 * __/matty/20180310a/curve.jpg__:
   * kelu124
   * matty
@@ -685,6 +713,34 @@
   * 20180225a
   * Setup of the experiment
   * ./matty/20180225a/IMG_20180225_184226.jpg
+* __/matty/20180511a/env_alt1_24.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20180511a/env_alt1_24.jpg
+* __/matty/20180511a/fft24.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20180511a/fft24.jpg
+* __/matty/20180511a/env_hilbert_24.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20180511a/env_hilbert_24.jpg
+* __/matty/20180511a/detail_line_24.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20180511a/detail_line_24.jpg
 * __/matty/20180224b/images/kk-4-VGA@0x22-spimode1-21msps.jpg__:
   * kelu124
   * matty
@@ -3506,6 +3562,20 @@
   * 20180506a
   * Understanding lag in Raspberry Pi SPI
   * ./matty/20180506a/images/IMAG004.png
+* __/matty/v1/images/ft2232hl_details.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1/images/ft2232hl_details.png
+* __/matty/v1/images/rpi_details.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1/images/rpi_details.png
 * __/matty/20180310a/DAC/IMAG001.png__:
   * kelu124
   * matty

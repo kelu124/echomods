@@ -164,6 +164,7 @@ The diagram is represented below:
  * 2018-04-17: [echomods vs MATTY](/include/experiments/auto/20180417a.md): Comparing the performances of the modules vs the FPGA board Matty _(20180417a)_
  * 2018-04-30: [JSON and Servo](/include/experiments/auto/20180430a.md): Better file management and servo control using Matty. _(20180430a)_
  * [20180506a](/include/experiments/auto/20180506a.md)
+ * [20180516a](/include/experiments/auto/20180516a.md)
 
 
 # Progress on building the modules 
@@ -253,6 +254,8 @@ Loved Nasa: add to un0rick
 * Remake homepage in autodoc
 * Clean obsolete versions in repos
 * contact the [author](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f) !
+* Resume work on article - [Draft is here](/matty/article/matty_article.md)
+* contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)
 
 
 
