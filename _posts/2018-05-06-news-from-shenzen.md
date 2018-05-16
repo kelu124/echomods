@@ -17,5 +17,3 @@ title: 2018-05-06 news from shenzen
     when shifting data to an int..)
 -   news from Nico's thesis ![](/include/images/etaix.png)
 
-=======
-
