@@ -1,4 +1,4 @@
-# `20180516a` - SPI timing on Raspberry
+# `20180516a` - Testing to format the data for experiments to be easily reproduced 
 
 The objective of this experiment is to streamkine data acquisition
 
