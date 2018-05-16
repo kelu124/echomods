@@ -715,31 +715,31 @@
   * ./matty/20180225a/IMG_20180225_184226.jpg
 * __/matty/20180511a/env_alt1_24.jpg__:
   * kelu124
-  * matty
-  * picture
-  * ToTag
-  * ToTag
+  * matty,cletus
+  * oscilloscope
+  * 20180511a
+  * Unpacking data
   * ./matty/20180511a/env_alt1_24.jpg
 * __/matty/20180511a/fft24.jpg__:
   * kelu124
-  * matty
-  * picture
-  * ToTag
-  * ToTag
+  * matty,cletus
+  * oscilloscope
+  * 20180511a
+  * Unpacking data
   * ./matty/20180511a/fft24.jpg
 * __/matty/20180511a/env_hilbert_24.jpg__:
   * kelu124
-  * matty
-  * picture
-  * ToTag
-  * ToTag
+  * matty,cletus
+  * oscilloscope
+  * 20180511a
+  * Unpacking data
   * ./matty/20180511a/env_hilbert_24.jpg
 * __/matty/20180511a/detail_line_24.jpg__:
   * kelu124
-  * matty
-  * picture
-  * ToTag
-  * ToTag
+  * matty,cletus
+  * oscilloscope
+  * 20180511a
+  * Unpacking data
   * ./matty/20180511a/detail_line_24.jpg
 * __/matty/20180224b/images/kk-4-VGA@0x22-spimode1-21msps.jpg__:
   * kelu124
