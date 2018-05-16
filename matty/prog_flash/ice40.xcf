@@ -17,8 +17,8 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>/home/kelu/ultrasound/echomods/matty/prog_flash/pMATTYtestRegisterasyn_nomoreadd_20180401.bin</File>
-			<FileTime>04/03/18 20:39:44</FileTime>
+			<File>/home/kelu/ultrasound/echomods/matty/prog_flash/v1/eMATTY_un0rick_20180510_RESETsurRPIonly4.bin</File>
+			<FileTime>05/13/18 16:29:53</FileTime>
 			<Operation>SPI Flash Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -61,11 +61,11 @@
 					<IDCode>0x13</IDCode>
 					<Package>8-pin SOIC</Package>
 					<Operation>SPI Flash Erase,Program,Verify</Operation>
-					<File>/home/kelu/ultrasound/echomods/matty/prog_flash/pMATTYtestRegisterasyn_nomoreadd_20180401.bin</File>
+					<File>/home/kelu/ultrasound/echomods/matty/prog_flash/v1/eMATTY_un0rick_20180510_RESETsurRPIonly4.bin</File>
 					<AddressBase>0x00000000</AddressBase>
 					<EndAddress>0x00020000</EndAddress>
 					<DeviceSize>8</DeviceSize>
-					<DataSize>135179</DataSize>
+					<DataSize>135180</DataSize>
 					<NumberOfDevices>1</NumberOfDevices>
 					<ReInitialize value="TRUE"/>
 				</Device>
