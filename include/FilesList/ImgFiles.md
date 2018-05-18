@@ -531,34 +531,55 @@
   * 20180225a
   * Analysing acquisition at 32 and 64Msps
   * ./matty/20180227a/One-0-VGA@0x22-spimode1-32msps.jpg
-* __/matty/20180516a/images/20180516a-3.json.jpg__:
+* __/matty/20180516a/images/20180516a-0.jpg__:
   * kelu124
   * matty,cletus
-  * oscilloscope
+  * graph
   * 20180516a
-  * Unpacking data
-  * ./matty/20180516a/images/20180516a-3.json.jpg
-* __/matty/20180516a/images/20180516a-4.json.jpg__:
+  * Graphing data from 20180516a
+  * ./matty/20180516a/images/20180516a-0.jpg
+* __/matty/20180516a/images/20180516a-6.jpg__:
   * kelu124
   * matty,cletus
-  * oscilloscope
+  * graph
   * 20180516a
-  * Unpacking data
-  * ./matty/20180516a/images/20180516a-4.json.jpg
-* __/matty/20180516a/images/20180516a-2.json.jpg__:
+  * Graphing data from 20180516a
+  * ./matty/20180516a/images/20180516a-6.jpg
+* __/matty/20180516a/images/20180516a-1.jpg__:
   * kelu124
   * matty,cletus
-  * oscilloscope
+  * graph
   * 20180516a
-  * Unpacking data
-  * ./matty/20180516a/images/20180516a-2.json.jpg
-* __/matty/20180516a/images/20180516a-1.json.jpg__:
+  * Graphing data from 20180516a
+  * ./matty/20180516a/images/20180516a-1.jpg
+* __/matty/20180516a/images/20180516a-4.jpg__:
   * kelu124
   * matty,cletus
-  * oscilloscope
+  * graph
   * 20180516a
-  * Unpacking data
-  * ./matty/20180516a/images/20180516a-1.json.jpg
+  * Graphing data from 20180516a
+  * ./matty/20180516a/images/20180516a-4.jpg
+* __/matty/20180516a/images/20180516a-2.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180516a
+  * Graphing data from 20180516a
+  * ./matty/20180516a/images/20180516a-2.jpg
+* __/matty/20180516a/images/20180516a-3.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180516a
+  * Graphing data from 20180516a
+  * ./matty/20180516a/images/20180516a-3.jpg
+* __/matty/20180516a/images/20180516a-5.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180516a
+  * Graphing data from 20180516a
+  * ./matty/20180516a/images/20180516a-5.jpg
 * __/matty/20180310a/curve.jpg__:
   * kelu124
   * matty
