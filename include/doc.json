@@ -7626,8 +7626,6 @@
                                           'references': ['/include/FilesList/PythonFiles.md']},
             '/matty/20180511a/mkimg.py': {'path': '/matty/20180511a/mkimg.py',
                                           'references': ['/include/FilesList/PythonFiles.md']},
-            '/matty/20180516a/mkimg.py': {'path': '/matty/20180516a/mkimg.py',
-                                          'references': ['/include/FilesList/PythonFiles.md']},
             '/matty/SPI/serialflash.py': {'path': '/matty/SPI/serialflash.py',
                                           'references': ['/include/FilesList/PythonFiles.md']},
             '/matty/v0.1/build/csv2xyrs.py': {'path': '/matty/v0.1/build/csv2xyrs.py',
