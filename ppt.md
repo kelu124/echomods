@@ -143,8 +143,9 @@ _Total cost of the set: 443$_
  * 2018-04-15: [Test of new batch 2/2](/include/experiments/auto/20180415r.md): Testing the lite.tbo, goblin and elmo boards done at the fab - on a doj v2 motherboard. _(20180415r)_
  * 2018-04-17: [echomods vs MATTY](/include/experiments/auto/20180417a.md): Comparing the performances of the modules vs the FPGA board Matty _(20180417a)_
  * 2018-04-30: [JSON and Servo](/include/experiments/auto/20180430a.md): Better file management and servo control using Matty. _(20180430a)_
- * [20180506a](/include/experiments/auto/20180506a.md)
- * [20180516a](/include/experiments/auto/20180516a.md)
+ * 2018-05-06: [SPI timing on Raspberry](/include/experiments/auto/20180506a.md): Checking SPI bottlenecks on Matty _(20180506a)_
+ * 2018-05-11: [Enveloppe detection](/include/experiments/auto/20180511a.md): Checking different ways to rebuild enveloppe _(20180511a)_
+ * 2018-05-16: [Matty file format](/include/experiments/auto/20180516a.md): Testing to format the data for experiments to be easily reproduced _(20180516a)_
 
 # Progress
  

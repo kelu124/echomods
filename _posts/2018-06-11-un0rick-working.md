@@ -14,5 +14,3 @@ title: 2018-06-11 un0rick working
     here](/matty/prog_flash/v1/eMATTY_un0rick_20180510_RESETsurRPIonly4.bin) -
     version e.
 
-=======
-
