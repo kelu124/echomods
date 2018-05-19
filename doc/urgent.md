@@ -28,7 +28,6 @@
 * __[Unrefed file]__ :no_entry: `/matty/20180403a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180506a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180511a/Readme.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180516a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ideas.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas_of_repo.md` : No references of this file.

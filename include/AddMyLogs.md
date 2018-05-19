@@ -2847,6 +2847,14 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * TC1270ALVRCTR etait le mauvais composant, il fallait un TC1270ATVRCTR . Le niveau n'etait pas le bon.
 * [Working version is here](/matty/prog_flash/v1/eMATTY_un0rick_20180510_RESETsurRPIonly4.bin) - version e.
 
+#### 2018-06-16 improving format system
+
+* @todo add Anna and Matthew to users list
+* better [acquisition library](/matty/20180516a/Readme.md)
+
+* Interesting [brochure on archive](https://ia601705.us.archive.org/17/items/Hewlett-Packard_Journal_Vol._34_No._10_1983-10_Hewlett-Packard/Hewlett-Packard_Journal_Vol._34_No._10_1983-10_Hewlett-Packard.pdf)
+* [Ultrasound tomography](https://archive.org/details/NASA_NTRS_Archive_19780004716)
+* [Resolution on imaging](https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=5139&context=rtd) - 1969
 
 
 =======

@@ -66,6 +66,7 @@ Loved Nasa: add to un0rick
 * contact the [author](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f) !
 * Resume work on article - [Draft is here](/matty/article/matty_article.md)
 * contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)
+* add Anna and Matthew to users list
 
 
 

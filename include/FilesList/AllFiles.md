@@ -60,7 +60,7 @@
 
 * [./matty/20180506a/Readme.md](/matty/20180506a/Readme.md):  . _File not used._
 
-* [./matty/20180516a/Readme.md](/matty/20180516a/Readme.md):  . _File not used._
+* [./matty/20180516a/Readme.md](/matty/20180516a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./matty/1i/1i.md](/matty/1i/1i.md):  . _File not used._
 
@@ -342,6 +342,8 @@
 
 * [./include/community/Zach/Readme.md](/include/community/Zach/Readme.md): Zach's worklog, simplified, on murgen . _File not used._
 
+* [./include/community/Matthew/Readme.md](/include/community/Matthew/Readme.md):  . _File not used._
+
 * [./include/community/Harold/Readme.md](/include/community/Harold/Readme.md):  . _File not used._
 
 * [./include/community/Taylor/Readme.md](/include/community/Taylor/Readme.md):  . _File not used._
@@ -361,6 +363,8 @@
 * [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  . _File not used._
 
 * [./include/community/Kevin/Readme.md](/include/community/Kevin/Readme.md):  . _File not used._
+
+* [./include/community/AnnaDG/Readme.md](/include/community/AnnaDG/Readme.md):  . _File not used._
 
 * [./include/community/Afreen/Readme.md](/include/community/Afreen/Readme.md):  . _File not used._
 

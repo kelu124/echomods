@@ -26,4 +26,6 @@
 * 20160822a: BBB+Probe: Images acquired from a BeagleBone black with a probe
 * 20180417a: echomods vs MATTY: Comparing the performances of the modules vs the FPGA board Matty
 * 20180430a: JSON and Servo: Better file management and servo control using Matty.
-
+* 20180506a: SPI timing on Raspberry: Checking SPI bottlenecks on Matty
+* 20180511a: Enveloppe detection: Checking different ways to rebuild enveloppe
+* 20180516a: Matty file format: Testing to format the data for experiments to be easily reproduced
