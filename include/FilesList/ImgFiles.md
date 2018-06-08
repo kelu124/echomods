@@ -881,6 +881,34 @@
   * 20180115a
   * Picture of the matty board
   * ./matty/images/IMG_20180115_194856.jpg
+* __/matty/images/compare/matty.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/compare/matty.jpg
+* __/matty/images/compare/20180528_225228.jpg__:
+  * kelu124
+  * G532FXWU1AQG5
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/compare/20180528_225228.jpg
+* __/matty/images/compare/20180528_225359.jpg__:
+  * kelu124
+  * G532FXWU1AQG5
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/compare/20180528_225359.jpg
+* __/matty/images/compare/un0rick.jpg__:
+  * kelu124
+  * G532FXWU1AQG5
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/compare/un0rick.jpg
 * __/matty/images/20180221a/yeayy-0-5000-8000000.jpg__:
   * kelu124
   * ToTag
