@@ -128,17 +128,14 @@ See the [jupyter notebook](/elmo/data/20170609-NewADC-v3.ipynb):
 
 Issues: bugs in connected ADC pins + no offset really
 
-#### What does v2 look like ?
-
-![](/elmo/source/v2/3d.jpg)
-
-and the corresponding [schematics (PDF)](/elmo/source/v2/ADC_pHAT.pdf).
 
 #### What does it look like ?
 
 ##### Without headers
 
 ![](/elmo/images/20180414_224236.jpg)
+
+and the corresponding [schematics (PDF)](/elmo/source/v2/ADC_pHAT.pdf).
 
 ##### On the motherboard
 
