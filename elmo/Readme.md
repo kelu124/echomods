@@ -78,6 +78,17 @@ The aim of this module is to achieve 20Msps, at 9bits or more.
 
 ### Discussions
 
+#### Where can I get elements to play with ?
+
+You can refer to the [20180415r](/include/20180415r/) experiment. It is made of a unipolar pulser, double ADC board, and analog processing board. The experiment documentations is based on :
+
+* [Raspberry Pi drivers](/include/20180415r/driver.c) which create the /dev/ device on the raspberry pi from which a `cat /dev/hsdk/ > Datafile.DAT` extracts signals. The driver includes control for the pulser.
+* An example of [Raw data](/include/20180415r/lit-tbo.DAT) that is created out of the driver
+* [the Jupyter notebook](/include/20180415r/20180415r-lit.tbo.ipynb) which processes capture files from the ADC into signals
+* the resulting [Processed data](/include/20180415r/lit-tbo.npz)
+
+Even without the board, you can use an example of such a file to play with.
+
 #### Let's start with the end: it works!
 
 Testing the module with the [signal emulator module](/silent/), which yields a signal at 1.9MHz, it well seen at 1.9MHz, with a sampling speed equal to two times this freq, ie 24Msps ! See the details below:
@@ -123,16 +134,21 @@ Issues: bugs in connected ADC pins + no offset really
 
 and the corresponding [schematics (PDF)](/elmo/source/v2/ADC_pHAT.pdf).
 
-#### What does v1 look like ?
+#### What does it look like ?
 
-__Top in 3D__
+##### Without headers
 
-![](/elmo/source/top-3d.png)
+![](/elmo/images/20180414_224236.jpg)
 
-__Bottom in 3D__
+##### On the motherboard
 
-![](/elmo/source/bot-3d.png)
+__Beware__ the motherboard is designed to have the phat assembled as shown below
 
+![](/elmo/images/20170717_210209.jpg)
+
+or as below:
+
+![](/include/20180415r/20180415_121351.jpg)
 
 ### TODO
 
