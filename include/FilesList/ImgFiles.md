@@ -2841,6 +2841,13 @@
   * ToTag
   * ToTag
   * ./include/JOH/source/fullprinciples.jpg
+* __/include/images/20180615_213439.jpg__:
+  * kelu124
+  * elmo,goblin,doj,lite.tbo
+  * setup
+  * ToTag
+  * Description of the motherboard with a set of modules
+  * ./include/images/20180615_213439.jpg
 * __/include/images/UniDesign.jpg__:
   * kelu124
   * frogface

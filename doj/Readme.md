@@ -61,9 +61,15 @@ A time-reversed storyline for the motherboard =)
  
 ### v2.0: A clean PCB for rasbperry
 
+#### V2 
+
 ![](/doj/images/doj-v2.png)
 
 ![](/doj/images/doj_v2.jpg)
+
+#### Populated
+
+![](/include/images/20180615_213439.jpg)
 
 ### v1.2: PCB 
 
