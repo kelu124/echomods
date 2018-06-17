@@ -2736,6 +2736,13 @@
   * ToTag
   * ToTag
   * ./include/community/Felix/20170727-C.jpg
+* __/include/community/Kevin/motherboard setup.jpg__:
+  * Kevin
+  * M919UVSFQA1
+  * ToTag
+  * SAMSUNG
+  * ToTag
+  * ./include/community/Kevin/motherboard setup.jpg
 * __/include/community/Afreen/20170818_162039.jpg__:
   * Afreen
   * ToTag

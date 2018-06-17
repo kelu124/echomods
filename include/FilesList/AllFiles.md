@@ -712,7 +712,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 307 Auto generated files
+## 311 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
@@ -755,6 +755,7 @@
 * ./include/experiments/Desc_20180224a.md
 * ./include/experiments/Desc_20180415r.md
 * ./include/experiments/Desc_20171111a.md
+* ./include/experiments/Desc_SAMSUNG.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20180506a.md
 * ./include/experiments/Desc_20180403a.md
@@ -789,6 +790,7 @@
 * .exp/Mod_20170930a.md
 * .exp/Mod_20180103a.md
 * .exp/Code_20180403b.md
+* .exp/Img_SAMSUNG.md
 * .exp/Img_20180516a.md
 * .exp/Mod_20171124a.md
 * .exp/Code_20180216a.md
@@ -818,6 +820,7 @@
 * .exp/Code_20171111a.md
 * .exp/Code_20171001a.md
 * .exp/20170930a.md
+* .exp/Code_SAMSUNG.md
 * .exp/Mod_20160814a.md
 * .exp/20180224b.md
 * .exp/Mod_20180506a.md
@@ -842,6 +845,7 @@
 * .exp/20180430a.md
 * .exp/Mod_20171001a.md
 * .exp/Img_20171124a.md
+* .exp/Mod_SAMSUNG.md
 * .exp/Code_20180415r.md
 * .exp/Mod_20170611a.md
 * .exp/Img_20180224a.md

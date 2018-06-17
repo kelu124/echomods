@@ -12,6 +12,8 @@
 
 * [20180403a.md.tpl](/include/experiments/auto/20180403a.md.tpl): ./include/experiments/auto/20180403a.md.tpl. _File not used._
 
+* [SAMSUNG.md.tpl](/include/experiments/auto/SAMSUNG.md.tpl): ./include/experiments/auto/SAMSUNG.md.tpl. _File not used._
+
 * [20180506a.md.tpl](/include/experiments/auto/20180506a.md.tpl): ./include/experiments/auto/20180506a.md.tpl. _File not used._
 
 * [20180224b.md.tpl](/include/experiments/auto/20180224b.md.tpl): ./include/experiments/auto/20180224b.md.tpl. _File not used._

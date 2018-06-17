@@ -39,6 +39,7 @@
 * ./include/experiments/Desc_20180224a.md
 * ./include/experiments/Desc_20180415r.md
 * ./include/experiments/Desc_20171111a.md
+* ./include/experiments/Desc_SAMSUNG.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20180506a.md
 * ./include/experiments/Desc_20180403a.md
@@ -73,6 +74,7 @@
 * ./include/experiments/auto/Mod_20170930a.md
 * ./include/experiments/auto/Mod_20180103a.md
 * ./include/experiments/auto/Code_20180403b.md
+* ./include/experiments/auto/Img_SAMSUNG.md
 * ./include/experiments/auto/Img_20180516a.md
 * ./include/experiments/auto/Mod_20171124a.md
 * ./include/experiments/auto/Code_20180216a.md
@@ -102,6 +104,7 @@
 * ./include/experiments/auto/Code_20171111a.md
 * ./include/experiments/auto/Code_20171001a.md
 * ./include/experiments/auto/20170930a.md
+* ./include/experiments/auto/Code_SAMSUNG.md
 * ./include/experiments/auto/Mod_20160814a.md
 * ./include/experiments/auto/20180224b.md
 * ./include/experiments/auto/Mod_20180506a.md
@@ -126,6 +129,7 @@
 * ./include/experiments/auto/20180430a.md
 * ./include/experiments/auto/Mod_20171001a.md
 * ./include/experiments/auto/Img_20171124a.md
+* ./include/experiments/auto/Mod_SAMSUNG.md
 * ./include/experiments/auto/Code_20180415r.md
 * ./include/experiments/auto/Mod_20170611a.md
 * ./include/experiments/auto/Img_20180224a.md
