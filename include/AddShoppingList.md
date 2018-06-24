@@ -67,6 +67,9 @@ Loved Nasa: add to un0rick
 * Resume work on article - [Draft is here](/matty/article/matty_article.md)
 * contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)
 * add Anna and Matthew to users list
+ * idea for the ultrasound phat : QuietShark (see https://twitter.com/Dymaxion/status/962385327599112193?s=19 )
+* Add new un0rick code, and documentation (both FPGA side, FPGA SPI level, Python)
+* article un0rick article and pics
 
 
 

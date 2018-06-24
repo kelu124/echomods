@@ -15,8 +15,8 @@
 * [20180224a-client.ipynb](/matty/20180224a/20180224a-client.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
 * [20180224a-server.ipynb](/matty/20180224a/20180224a-server.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
 * [20180227a-Loops.ipynb](/matty/v0.1/images/20180227/20180227a-Loops.ipynb). _File not used._
-* [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md).
-* [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md).
+* [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md), [`/include/experiments/auto/Code_20180430a.md`](/include/experiments/auto/Code_20180430a.md).
+* [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md), [`/include/experiments/auto/Code_20180430a.md`](/include/experiments/auto/Code_20180430a.md).
 * [20180226a-Compare.ipynb](/matty/20180226a/20180226a-Compare.ipynb). File used in: [`/matty/20180226a/Readme.md`](/matty/20180226a/Readme.md).
 * [20180403a-Client.ipynb](/matty/20180403a/20180403a-Client.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md).
 * [20180403a-75V.ipynb](/matty/20180403a/20180403a-75V.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md).
@@ -55,9 +55,10 @@
 * [20180415r-lit.tbo.ipynb](/include/20180415r/20180415r-lit.tbo.ipynb). File used in: [`/elmo/Readme.md`](/elmo/Readme.md).
 * [20180317a-Loops.ipynb](/include/bard/exp1/20180317a-Loops.ipynb). _File not used._
 * [20171024-RLC.ipynb](/include/RLC/20171024-RLC.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20180417a-Comparison.ipynb](/include/20180417a/20180417a-Comparison.ipynb). _File not used._
+* [20180417a-Comparison.ipynb](/include/20180417a/20180417a-Comparison.ipynb). File used in: [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md).
 * [20180217a - Testing pulser and ADC.ipynb](/include/20180217a/20180217a - Testing pulser and ADC.ipynb). _File not used._
 * [MappingCommunity.ipynb](/include/community/MappingCommunity.ipynb). _File not used._
+* [20180620a-Uwe.ipynb](/include/community/Uwe/20180620a/20180620a-Uwe.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md).
 * [20180210_jt_fast_batch.ipynb](/include/community/Felix/20180208/20180210_jt_fast_batch.ipynb). _File not used._
 * [20180103-Felix.ipynb](/include/community/Felix/20180103a/20180103-Felix.ipynb). _File not used._
 * [20170831-TestImages.ipynb](/include/images/20170831-TestImages.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).

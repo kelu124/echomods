@@ -2631,6 +2631,111 @@
   * ToTag
   * ToTag
   * ./include/community/map.jpg
+* __/include/community/Uwe/20180620a/IMAG0232.jpg__:
+  * Uwe
+  * elmo
+  * setup
+  * 20180620a
+  * Setup of the experiment
+  * ./include/community/Uwe/20180620a/IMAG0232.jpg
+* __/include/community/Uwe/20180620a/IMAG0233.jpg__:
+  * Uwe
+  * elmo
+  * setup
+  * 20180620a
+  * Setup of the experiment
+  * ./include/community/Uwe/20180620a/IMAG0233.jpg
+* __/include/community/Uwe/20180620a/maps/20180620a.DAT_spectrum.jpg__:
+  * Uwe
+  * elmo
+  * other
+  * 20180620a
+  * Other files
+  * ./include/community/Uwe/20180620a/maps/20180620a.DAT_spectrum.jpg
+* __/include/community/Uwe/20180620a/maps/20180620a.DAT_rawsignal.jpg__:
+  * Uwe
+  * elmo
+  * other
+  * 20180620a
+  * Other files
+  * ./include/community/Uwe/20180620a/maps/20180620a.DAT_rawsignal.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line8sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line8sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line0sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line0sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line2sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line2sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line3sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line3sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line1sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line1sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line4sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line4sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line9sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line9sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line5sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line5sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line6sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line6sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line7sample.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line7sample.jpg
+* __/include/community/Uwe/20180620a/lines/20180620a_line0details.jpg__:
+  * Uwe
+  * elmo
+  * graph
+  * 20180620a
+  * Checking raw signal
+  * ./include/community/Uwe/20180620a/lines/20180620a_line0details.jpg
 * __/include/community/Taylor/20170801_134819.jpg__:
   * Taylor
   * ToTag
@@ -2738,10 +2843,10 @@
   * ./include/community/Felix/20170727-C.jpg
 * __/include/community/Kevin/motherboard setup.jpg__:
   * Kevin
-  * M919UVSFQA1
+  * lite.tbo,goblin,doj,elmo
   * ToTag
-  * SAMSUNG
   * ToTag
+  * Setup of Kevin
   * ./include/community/Kevin/motherboard setup.jpg
 * __/include/community/Afreen/20170818_162039.jpg__:
   * Afreen

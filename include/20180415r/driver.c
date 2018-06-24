@@ -6,6 +6,10 @@
 		Used in `20180415r` experiment, to test lt.tbo, as well as gob v2 and elmo v2
 		Unipolard design (as in lt.tbo)
 		Module loaded before reading /dev/hsdk
+
+		Please also refer to this article to have a more verbose version of the module
+		https://digibird1.wordpress.com/raspberry-pi-as-an-oscilloscope-10-msps/
+
 	*/
 
 	#include <linux/kernel.h>
@@ -17,9 +21,7 @@
 	#include <linux/vmalloc.h>
 	#include <linux/delay.h>
 	#include <linux/fcntl.h> /*Helps fix O_ACCMODE*/
-
 	#include <linux/sched.h> /*Helps fix TASK_UNINTERRUPTIBLE */
-
 	#include <linux/fs.h> /*Helps fix the struct intializer */
 
 	int __init init_module(void);
@@ -36,22 +38,20 @@
 	//---------------------------------------------------------------------------------------------------------
 	//Things for the GPIO Port 
 
-	#define BCM2708_PERI_BASE       0x20000000
-	#define GPIO_BASE               (BCM2708_PERI_BASE + 0x200000)	// GPIO controller   
 	// depends on the RPi
 
+	#define BCM2708_PERI_BASE       0x20000000 // value needs to be changed to 0x3F000000 for a RPi3. 0x20000000 works for Pi W.
+	#define GPIO_BASE               (BCM2708_PERI_BASE + 0x200000)	// GPIO controller 
+   
+	// Defines  GPIO macros to control GPIOs.
 	#define INP_GPIO(g)   *(gpio.addr + ((g)/10)) &= ~(7<<(((g)%10)*3)) 
 	#define OUT_GPIO(g)   *(gpio.addr + ((g)/10)) |=  (1<<(((g)%10)*3)) //001
-	//alternative function
 	#define SET_GPIO_ALT(g,a) *(gpio.addr + (((g)/10))) |= (((a)<=3?(a) + 4:(a)==4?3:2)<<(((g)%10)*3))
-	 
 	#define GPIO_SET  *(gpio.addr + 7)  // sets   bits which are 1 ignores bits which are 0
 	#define GPIO_CLR  *(gpio.addr + 10) // clears bits which are 1 ignores bits which are 0
-	 
 	#define GPIO_READ(g)  *(gpio.addr + 13) &= (1<<(g))
 
-
-	//GPIO Clock
+	//GPIO Clock. AT
 	#define CLOCK_BASE              (BCM2708_PERI_BASE + 0x00101000)
 	#define GZ_CLK_BUSY (1 << 7)
 
@@ -59,7 +59,9 @@
 
 	//How many samples to capture
 	#define SAMPLE_SIZE 	2500 // 2x2500 pts in one line	
-	#define REPEAT_SIZE 	10 // 10 captures	
+	#define REPEAT_SIZE 	10 // 10 captures
+	// in this setup, there will be REPEAT_SIZE captures, of each SAMPLE_SIZE length, with ADCs interleaved, 
+	// that means 2x SAMPLE_SIZE length
 
 	//Define GPIO Pins
 
@@ -291,8 +293,8 @@
 			return -1;
 		}
 
-		//Define Scope pins
-		// ADC1
+		//Define Scope pins as inputs
+		// ADC1 
 		INP_GPIO(BIT0_ADC1);
 		INP_GPIO(BIT1_ADC1);
 		INP_GPIO(BIT2_ADC1);
@@ -302,7 +304,6 @@
 		INP_GPIO(BIT6_ADC1);
 		INP_GPIO(BIT7_ADC1);
 		INP_GPIO(BIT8_ADC1);
-
 		// ADC2
 		INP_GPIO(BIT0_ADC2);
 		INP_GPIO(BIT1_ADC2);
@@ -315,9 +316,9 @@
 		INP_GPIO(BIT8_ADC2);
 
 		// Setting pins for pulser
+		// This section only useful for use on ultrasound hardware
 		OUT_GPIO(Puls_ON); 
 		OUT_GPIO(Puls_OFF);
-
 		GPIO_CLR = 1 << Puls_ON; // set pulser at 0
 		GPIO_SET = 1 << Puls_OFF; // set damper at 1
 
@@ -326,13 +327,14 @@
 		p->addr=(uint32_t *)ioremap(CLOCK_BASE, 41*4);
 	 	INP_GPIO(4);
 		SET_GPIO_ALT(4,0);
-
 		// Preparing the clock
 		int speed_id = 6; //1 for to start with 19Mhz or 6 to start with 500 MHz
 		*(myclock.addr+28)=0x5A000000 | speed_id; //Turn off the clock
 		while (*(myclock.addr+28) & GZ_CLK_BUSY) {}; //Wait until clock is no longer busy (BUSY flag)
-		*(myclock.addr+29)= 0x5A000000 | (0x29 << 12) | 0;//Set divider //divide by 50 (0x32) -- ideally 41 (29) to fall on 12MHz clock
-		*(myclock.addr+28)=0x5A000010 | speed_id;//Turn clock on
+		// Set divider //divide by 50 (0x32) -- ideally 41 (29) to fall on 12MHz clock
+		*(myclock.addr+29)= 0x5A000000 | (0x29 << 12) | 0;
+		// And let's turn clock on
+		*(myclock.addr+28)=0x5A000010 | speed_id;
 
 		return SUCCESS;
 	}
@@ -381,10 +383,16 @@
 		module_put(THIS_MODULE);
 		return 0;
 	}
+
 	//---------------------------------------------------------------------------------------------------------
 	/* 
 	 * Called when a process, which already opened the dev file, attempts to
 	 * read from it.
+	 * When the device is open we can read from it which calls the function device_read() in kernel space. 
+	 * This returns the measurement we made when we opened the device. 
+	 * Here one could also add a call of the function readScope() in order to do a permanent readout. 
+	 * As the code is right now one needs to open the device file for each new measurement, read from it and close it. 
+	 * But we leave it like this for the sake of simplicity.
 	 */
 	static ssize_t device_read(struct file *filp,	
 				   char *buffer,	
@@ -413,7 +421,15 @@
 	//---------------------------------------------------------------------------------------------------------
 	/*  
 	 * Called when a process writes to dev file: echo "hi" > /dev/hello 
+
+	The last step to make our kernel module complete is to define a function 
+	that is called when we want to write into the device file. 
+	But this functions does nothing except for writing an error message, 
+	since we do not want write support yet.
+	However, one could use this to allow a user to control variables
+	from user space.
 	 */
+
 	static ssize_t
 	device_write(struct file *filp, const char *buff, size_t len, loff_t * off)
 	{

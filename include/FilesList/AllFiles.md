@@ -48,7 +48,7 @@
 
 * [./matty/20180224a/Readme.md](/matty/20180224a/Readme.md):  . _File not used._
 
-* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
 
 * [./matty/20180226a/Readme.md](/matty/20180226a/Readme.md):  . _File not used._
 
@@ -324,7 +324,7 @@
 
 * [./include/probes/Readme.md](/include/probes/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . _File not used._
+* [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . File used in: [`exp/Code_20180417a.md`](exp/Code_20180417a.md).
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._
 
@@ -340,7 +340,17 @@
 
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov . _File not used._
 
+* [./include/community/Cory/Readme.md](/include/community/Cory/Readme.md):  . _File not used._
+
 * [./include/community/Zach/Readme.md](/include/community/Zach/Readme.md): Zach's worklog, simplified, on murgen . _File not used._
+
+* [./include/community/Uwe/Readme.md](/include/community/Uwe/Readme.md):  . _File not used._
+
+* [./include/community/Uwe/20180620a/Readme.md](/include/community/Uwe/20180620a/Readme.md):  . _File not used._
+
+* [./include/community/Erick/Readme.md](/include/community/Erick/Readme.md):  . _File not used._
+
+* [./include/community/Arash/Readme.md](/include/community/Arash/Readme.md):  . _File not used._
 
 * [./include/community/Matthew/Readme.md](/include/community/Matthew/Readme.md):  . _File not used._
 
@@ -439,7 +449,7 @@
 
 * [arduino.ino](/elmo/data/arduiprobe/arduino.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [ServoControl.ino](/matty/20180430a/ServoControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [ServoControl.ino](/matty/20180430a/ServoControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
 
 * [tobo_pulser.ino](/retired/tobo/source/tobo_pulser.ino): . File used in: [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
@@ -491,8 +501,8 @@
 * [20180224a-client.ipynb](/matty/20180224a/20180224a-client.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
 * [20180224a-server.ipynb](/matty/20180224a/20180224a-server.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
 * [20180227a-Loops.ipynb](/matty/v0.1/images/20180227/20180227a-Loops.ipynb). _File not used._
-* [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md).
-* [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md).
+* [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
+* [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
 * [20180226a-Compare.ipynb](/matty/20180226a/20180226a-Compare.ipynb). File used in: [`/matty/20180226a/Readme.md`](/matty/20180226a/Readme.md).
 * [20180403a-Client.ipynb](/matty/20180403a/20180403a-Client.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md).
 * [20180403a-75V.ipynb](/matty/20180403a/20180403a-75V.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md).
@@ -531,9 +541,10 @@
 * [20180415r-lit.tbo.ipynb](/include/20180415r/20180415r-lit.tbo.ipynb). File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html).
 * [20180317a-Loops.ipynb](/include/bard/exp1/20180317a-Loops.ipynb). _File not used._
 * [20171024-RLC.ipynb](/include/RLC/20171024-RLC.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20180417a-Comparison.ipynb](/include/20180417a/20180417a-Comparison.ipynb). _File not used._
+* [20180417a-Comparison.ipynb](/include/20180417a/20180417a-Comparison.ipynb). File used in: [`exp/Code_20180417a.md`](exp/Code_20180417a.md).
 * [20180217a - Testing pulser and ADC.ipynb](/include/20180217a/20180217a - Testing pulser and ADC.ipynb). _File not used._
 * [MappingCommunity.ipynb](/include/community/MappingCommunity.ipynb). _File not used._
+* [20180620a-Uwe.ipynb](/include/community/Uwe/20180620a/20180620a-Uwe.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md).
 * [20180210_jt_fast_batch.ipynb](/include/community/Felix/20180208/20180210_jt_fast_batch.ipynb). _File not used._
 * [20180103-Felix.ipynb](/include/community/Felix/20180103a/20180103-Felix.ipynb). _File not used._
 * [20170831-TestImages.ipynb](/include/images/20170831-TestImages.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -559,7 +570,7 @@
 
 * [csv2xyrs.py](/matty/v0.1/build/csv2xyrs.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
 
 * [mkimg.py](/matty/20180226a/mkimg.py): Autotagging images for the `20180226a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -621,11 +632,17 @@
 
 * [bim.py](/include/20180415r/bim.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/include/20180417a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/20180417a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180417a.md`](exp/Code_20180417a.md).
 
 * [mkimg.py](/include/20180217a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [ustk.py](/include/20180217a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [map.py](/include/community/map.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [mkimg.py](/include/community/Uwe/20180620a/mkimg.py): Autotagging images for the `20180620a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [ustk.py](/include/community/Uwe/20180620a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [precise.py](/include/community/Marc/precise.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -704,6 +721,7 @@
 
 
 
+
 ## Presentation files
 
 * [ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocumentationProcess.html)
@@ -712,7 +730,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 311 Auto generated files
+## 314 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
@@ -750,12 +768,12 @@
 * ./include/experiments/Desc_20180103a.md
 * ./include/experiments/Desc_20180216a.md
 * ./include/experiments/Desc_20180403b.md
+* ./include/experiments/Desc_20180620a.md
 * ./include/experiments/Desc_20180415a.md
 * ./include/experiments/Desc_20180430a.md
 * ./include/experiments/Desc_20180224a.md
 * ./include/experiments/Desc_20180415r.md
 * ./include/experiments/Desc_20171111a.md
-* ./include/experiments/Desc_SAMSUNG.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20180506a.md
 * ./include/experiments/Desc_20180403a.md
@@ -781,16 +799,17 @@
 * .exp/Img_20180217a.md
 * .exp/Code_20180417a.md
 * .exp/Code_20180430a.md
+* .exp/Mod_20180620a.md
 * .exp/Img_20171111a.md
 * .exp/Code_20180225a.md
 * .exp/Mod_20180511a.md
 * .exp/Code_20180115a.md
 * .exp/Mod_20180224a.md
 * .exp/Code_20180516a.md
+* .exp/Img_20180620a.md
 * .exp/Mod_20170930a.md
 * .exp/Mod_20180103a.md
 * .exp/Code_20180403b.md
-* .exp/Img_SAMSUNG.md
 * .exp/Img_20180516a.md
 * .exp/Mod_20171124a.md
 * .exp/Code_20180216a.md
@@ -820,7 +839,6 @@
 * .exp/Code_20171111a.md
 * .exp/Code_20171001a.md
 * .exp/20170930a.md
-* .exp/Code_SAMSUNG.md
 * .exp/Mod_20160814a.md
 * .exp/20180224b.md
 * .exp/Mod_20180506a.md
@@ -828,6 +846,7 @@
 * .exp/20180506a.md
 * .exp/Img_20170611a.md
 * .exp/Img_20180224b.md
+* .exp/20180620a.md
 * .exp/Code_20170930a.md
 * .exp/20171124a.md
 * .exp/20170715a.md
@@ -844,8 +863,8 @@
 * .exp/Mod_20171111a.md
 * .exp/20180430a.md
 * .exp/Mod_20171001a.md
+* .exp/Code_20180620a.md
 * .exp/Img_20171124a.md
-* .exp/Mod_SAMSUNG.md
 * .exp/Code_20180415r.md
 * .exp/Mod_20170611a.md
 * .exp/Img_20180224a.md
@@ -1004,10 +1023,12 @@
 * ./gitbook/exp/20171111a.md
 * ./gitbook/exp/20180217a.md
 * ./gitbook/exp/20180516a.md
+* ./gitbook/exp/SAMSUNG.md
 * ./gitbook/exp/20170930a.md
 * ./gitbook/exp/20180224b.md
 * ./gitbook/exp/20171112a.md
 * ./gitbook/exp/20180506a.md
+* ./gitbook/exp/20180620a.md
 * ./gitbook/exp/20171124a.md
 * ./gitbook/exp/20170715a.md
 * ./gitbook/exp/20180216a.md

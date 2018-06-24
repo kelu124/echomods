@@ -16,7 +16,7 @@
 
 * [csv2xyrs.py](/matty/v0.1/build/csv2xyrs.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180430a.md`](/include/experiments/auto/Code_20180430a.md).
 
 * [mkimg.py](/matty/20180226a/mkimg.py): Autotagging images for the `20180226a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -78,11 +78,17 @@
 
 * [bim.py](/include/20180415r/bim.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/include/20180417a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/20180417a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md).
 
 * [mkimg.py](/include/20180217a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [ustk.py](/include/20180217a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [map.py](/include/community/map.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [mkimg.py](/include/community/Uwe/20180620a/mkimg.py): Autotagging images for the `20180620a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [ustk.py](/include/community/Uwe/20180620a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [precise.py](/include/community/Marc/precise.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 

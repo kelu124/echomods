@@ -139,12 +139,12 @@ Using a simpler linux-enabled controler (the all-powerful Pi in its RPi 0 or Pi 
 
 * Simply the servo and transducer module ([cletus](/cletus/)) -- get for _80$_ (Where? Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22)))
 * The Pi Heart of the echOmods ([tomtom](/tomtom/)) -- get for _10$_ (Where?  Get the Pi W from [plenty of sources](https://www.raspberrypi.org/products/pi-zero-w/))
-* Using a dual ADC raspberry pHAT for 20Msps+ acquisition ([elmo](/elmo/)) -- get for _75$_ (Where? OSHPark, MacroFab, Tindie)
+* Using a dual ADC raspberry pHAT for 20Msps+ acquisition ([elmo](/elmo/)) -- get for _99$_ (Where? OSHPark, MacroFab, Tindie)
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
 * Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 
 
-_Total cost of the set: 434$_
+_Total cost of the set: 458$_
 
 
 
@@ -226,10 +226,10 @@ Under CC-BY-4.0, [main article here](https://openhardware.metajnl.com/articles/1
 ### Some stats
 
 * __[HSDK](https://hackaday.io/project/10899)__: 4400 views, 84 followers, 36 likes
-* __[Murgen](https://hackaday.io/project/9281)__: 42200 views, 867 followers, 193 likes
-* __[ADC cape](https://hackaday.io/project/20455)__: 6700 views, 45 followers, 41 likes
-* __[ice40 board](https://hackaday.io/project/28375-un0rick-an-ice40-ultrasound-board)__: 3700 views, 32 followers, 43 likes
-* __[JOH publication](https://openhardware.metajnl.com/articles/10.5334/joh.2/metrics/#views)__: 4144 views and 446 downloads.
+* __[Murgen](https://hackaday.io/project/9281)__: 42300 views, 870 followers, 193 likes
+* __[ADC cape](https://hackaday.io/project/20455)__: 6800 views, 45 followers, 41 likes
+* __[ice40 board](https://hackaday.io/project/28375-un0rick-an-ice40-ultrasound-board)__: 3700 views, 33 followers, 43 likes
+* __[JOH publication](https://openhardware.metajnl.com/articles/10.5334/joh.2/metrics/#views)__: 4215 views and 448 downloads.
 
 
 
