@@ -25,7 +25,7 @@ Beware of the headers! The idea is to have connections between the board and the
 
 You can use the [standalone SD card image](http://kghosh.me/img/sdc.img.gz). Alternatively, you can setup the development environment as described below.
 
-The module code is [here](/elmo/data/scope.c) and can be compiled using [these steps](/elmo/data/PrepKernel.sh).
+The standard module code is [here](/elmo/standard_driver.c) and can be compiled using [these steps](/elmo/data/PrepKernel.sh).
 
 The full procedures are described at on the [raspberry doc page](/retired/tomtom/)
 
@@ -35,7 +35,7 @@ Capture occurs with a
 
     cat /dev/hsdk > myfilename.dat
 
-Then copy the newly created file on your PC or where you need it. It dumps the raw GPIOs signals as [described here](/elmo/data/20170613-TestWithRawSignal.ipynb). Then a bit of python magic is used to reorder the bits in a way to reconstruct the signal from the two ADCs. __You can see an example of acquisition here on this [jupyter notebook](/elmo/data/20170714-TwoADCs-Probe.ipynb).__
+Then copy the newly created file on your PC or where you need it. It dumps the raw GPIOs signals as [described here](/elmo/data/20170613-TestWithRawSignal.ipynb). Then a bit of python magic is used to reorder the bits in a way to reconstruct the signal from the two ADCs. __You can see an example of acquisition here on this [jupyter notebook](/elmo/data/20170714-TwoADCs-Probe.ipynb).__ Another alternative to see how this work is to check [an acquisition run with a 3.3Vpp signal](/include/community/Uwe/20180620a/20180620a-Uwe.ipynb)
 
 Beware! If you want to get a signal between [-1.5V and 1.5V], consider using a in series with input to remove all DC bias, and make sure the jumper are set as in the images above.
 

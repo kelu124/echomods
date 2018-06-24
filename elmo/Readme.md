@@ -15,10 +15,10 @@ Using a dual ADC raspberry pHAT for 20Msps+ acquisition
 * High speed ADC pHAT
 * version: V2.0
 * date: 05/03/2018
-* cost:75$
+* cost:99$
 * sourcing:OSHPark, MacroFab, Tindie
 * technology: SMD, AD9200
-* language: n/a
+* language: C. [Kernel module](/elmo/standard_driver.c)
 * author: Kelu124
 
 ## IOs
@@ -64,7 +64,7 @@ The aim of this module is to achieve 20Msps, at 9bits or more.
 
 * High speed, 9 bit ADCs!
 * Full [Altium source](/elmo/source/v2/elmov2_altium.zip), [Gerbers](/elmo/source/v2/elmov2_gerber.zip), [BOM](/elmo/source/v2/BOM.xls), [schematics](/elmo/source/v2/ADC_pHAT.pdf).
-* [Driver](/elmo/software/driver.c) for the board.
+* [Driver](/elmo/standard_driver.c) for the board.
 
 ### Cons
 
@@ -94,6 +94,26 @@ Even without the board, you can use an example of such a file to play with.
 Testing the module with the [signal emulator module](/silent/), which yields a signal at 1.9MHz, it well seen at 1.9MHz, with a sampling speed equal to two times this freq, ie 24Msps ! See the details below:
 
 ![](/elmo/data/twoadcs.jpg)
+
+#### Test at 250kHz
+
+Experiment is [detailed here](/include/community/Uwe/20180620a).
+
+##### Signal generator sent to the pHAT
+
+![](/include/community/Uwe/20180620a/IMAG0233.jpg)
+
+##### Connected to the ADC, then to a RPi through a ribbon
+
+![](/include/community/Uwe/20180620a/IMAG0232.jpg)
+
+##### Results
+
+![](/include/community/Uwe/20180620a/lines/20180620a_line0sample.jpg)
+
+With the details
+
+![](/include/community/Uwe/20180620a/lines/20180620a_line0details.jpg)
 
 #### Problem and solution
 
