@@ -11,5 +11,3 @@ title: 2018-06-16 improving format system
 -   Some competition [Ultratek
     UT350](http://www.usultratek.com/products/usb_ut350.htm)
 
-=======
-
