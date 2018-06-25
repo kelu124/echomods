@@ -8,7 +8,10 @@
 		Please also refer to this article to have a more verbose version of the module
 		https://digibird1.wordpress.com/raspberry-pi-as-an-oscilloscope-10-msps/
 
-		Tihs module is used on a RPi W, using the image from
+		Also building from "Linux Character Device Example "
+		https://gist.github.com/brenns10/65d1ee6bb8419f96d2ae693eb7a66cc0
+		
+		This module is used on a RPi W, using the image from
 		http://kghosh.me/img/sdc.img.gz on a 8Gb sd card.
 		It compiles just fine.
 
@@ -120,10 +123,8 @@
 	static char msg[BUF_LEN];	/* The msg the device will give when asked */
 	static char *msg_Ptr;
 
-
 	static uint32_t *ScopeBuffer_Ptr;
 	static unsigned char *buf_p;
-
 
 	static struct file_operations fops = {
 		.read = device_read,

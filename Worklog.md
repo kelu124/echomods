@@ -3007,7 +3007,10 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * I'm a noob at this, but it seems that MFFS uses fixed focus piezos, but MSAS does focusing in the software (hence synthetic aperture) using a piezo of known size. That's an interesting alternative to focused piezos.
   * Some other interesting insights, like using "Quality Assurance for UltraSound (QA4US) software" for image quality assessment, or also the architecture they used (an ARM, 14-bit ADC at 12Msps), or even the fact that the piezo is in direct contact with the skin, or a motor using a Voice Coil Motor.
   * @todo add the MSAS principles to the un0rick article
-
+* Module
+  * #define PI2 or get_rpi_version
+  * https://raspberrypi.stackexchange.com/questions/44858/how-to-transmit-a-binary-bit-stream-from-a-gpio-pin/44882#44882
+  *  int rpi_version = LinuxUtilRPI::from(hal.util)->get_rpi_version();
 
 
 
