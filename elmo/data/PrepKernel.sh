@@ -23,3 +23,10 @@ sudo make oldconfig
 sudo apt-get install bc
 sudo make prepare
 sudo make scripts
+# Preparing the compilation
+wget https://raw.githubusercontent.com/kelu124/echomods/master/elmo/software/Makefile
+wget https://raw.githubusercontent.com/kelu124/echomods/master/elmo/software/driver.c
+mv driver.c scope.c
+wget https://raw.githubusercontent.com/kelu124/echomods/master/elmo/software/run.sh
+make
+
