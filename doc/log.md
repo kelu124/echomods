@@ -748,11 +748,31 @@ __[SET]__ Added `highspeed`
 __[SET]__ Added `wifi-dev-kit`
 
 
+__[Unrefed file]__ :no_entry: `/doc/__init__.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doc/createStats.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/doc/et.py` : No references of this file. 
+
 __[Unrefed file]__ :no_entry: `/doj/old/brief_v2.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/doj/source/v1.2-kicad/Readme.md` : No references of this file. 
 
+__[Unrefed file]__ :no_entry: `/elmo/data/arduiprobe/arduino.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/data/arduiprobe/scope.c` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/data/arduiprobe/scope2.c` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/data/ustest.c` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/software/driver.c` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/elmo/tindie.md` : No references of this file. 
+
 __[Unrefed file]__ :no_entry: `/goblin/QuickStart.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/goblin/pi0/gpio.c` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/goblin/source/Altium.v2/Readme.md` : No references of this file. 
 
@@ -764,25 +784,25 @@ __[Unrefed file]__ :no_entry: `/matty/1i/1i.md` : No references of this file.
 
 __[Unrefed file]__ :no_entry: `/matty/1t/idea.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/matty/20180224a/Readme.md` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/matty/20180224a/mkimg.py` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/matty/20180226a/Readme.md` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/matty/20180224b/mkimg.py` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/matty/20180403a/Readme.md` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/matty/20180226a/mkimg.py` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/matty/20180506a/Readme.md` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/matty/20180227a/mkimg.py` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/matty/20180511a/Readme.md` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/matty/20180506a/mkimg.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/matty/20180511a/mkimg.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/matty/SPI/serialflash.py` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/matty/ideas/ideas.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/matty/ideas_of_repo.md` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/matty/images/20180221a/RPi.ipynb` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/matty/news/2018-01-23-first-board.md` : No references of this file. 
 
@@ -794,39 +814,71 @@ __[Unrefed file]__ :no_entry: `/matty/oshw.md` : No references of this file.
 
 __[Unrefed file]__ :no_entry: `/matty/pitch.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/matty/prog_flash/matty20180210_bitmap.ipynb` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/matty/v0.1/build/csv2xyrs.py` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/matty/un0_test_a/Untitled.ipynb` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/matty/un0_test_a/Untitled1.ipynb` : No references of this file. 
-
-__[Unrefed file]__ :no_entry: `/matty/v0.1/images/20180227/20180227a-Loops.ipynb` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/retire.py` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171001a/Readme.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171112b/TestBP.ipynb` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171111a/img.py` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/retired/alt.tbo/test/Readme.md` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171112b/bim.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171112b/img.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/cletus/IMN/img.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/croaker/data/examples/Cleaning.py` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/retired/croaker/data/examples/Intro.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/retired/croaker/data/examples/Readme.md` : No references of this file. 
 
+__[Unrefed file]__ :no_entry: `/retired/croaker/data/manual/CreateSC_manual.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/croaker/data/manual/plotcsv.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/croaker/data/manual/rebuild.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/croaker/feather_tests/Registers1MspsServo.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/croaker/feather_tests/StreamingADC2UDP.ino` : No references of this file. 
+
 __[Unrefed file]__ :no_entry: `/retired/croaker/notes_ESP32.md` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/croaker/notes_STM32F205_ref_manual.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/retired/hannin/Readme.md` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/retired/hannin/source/Firmware/README.md` : No references of this file. 
 
-__[Unrefed file]__ :no_entry: `/retired/toadkiller/data/test_enveloppe/Readme.md` : No references of this file. 
+__[Unrefed file]__ :no_entry: `/retired/toadkiller/data/test_enveloppe/test_dual_entry.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/toadkiller/software/test_file.py` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/retired/toadkiller/software/test_file_3periods.py` : No references of this file. 
 
 __[Unrefed file]__ :no_entry: `/retired/tomtom/apps/client/Resources.md` : No references of this file. 
 
+__[Unrefed file]__ :no_entry: `/retroATL3/software/BitscopeAcquisitionScript.py` : No references of this file. 
+
 __[Unrefed file]__ :no_entry: `/silent/notes_R2R_DAC.md` : No references of this file. 
 
-__[Unrefed file]__ :warning: `/include/20180217a/20180217a - Testing pulser and ADC.ipynb` : No references of this file (in _include_). 
+__[Unrefed file]__ :no_entry: `/silent/software/featherWICED/Calibration/Calibration.ino` : No references of this file. 
+
+__[Unrefed file]__ :no_entry: `/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino` : No references of this file. 
+
+__[Unrefed file]__ :warning: `/include/20180216a/ustk.py` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/20180217a/mkimg.py` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/20180217a/ustk.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/20180415a/images/solder_issue/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/20180415r/bim.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/AdHocShoppingList.md` : No references of this file (in _include_). 
 
@@ -866,7 +918,11 @@ __[Unrefed file]__ :warning: `/include/AddWireless.md` : No references of this f
 
 __[Unrefed file]__ :warning: `/include/Bibliography.md` : No references of this file (in _include_). 
 
+__[Unrefed file]__ :warning: `/include/DesignArticle/1.Principles.md` : No references of this file (in _include_). 
+
 __[Unrefed file]__ :warning: `/include/FuturePR.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/JOH/blocks/maketemplate.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/JOH/comments/feedbackoncomments.md` : No references of this file (in _include_). 
 
@@ -874,15 +930,9 @@ __[Unrefed file]__ :warning: `/include/NamesOfModules.md` : No references of thi
 
 __[Unrefed file]__ :warning: `/include/PiDAQ.set.md` : No references of this file (in _include_). 
 
-__[Unrefed file]__ :warning: `/include/QuickStart.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/RPiHSDK.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/bard/exp1/20180317a-Loops.ipynb` : No references of this file (in _include_). 
+__[Unrefed file]__ :warning: `/include/autodoc.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/biblio/Readme.md` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/biblio/bib/Readme.md.tpl` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/Afreen/Readme.md` : No references of this file (in _include_). 
 
@@ -900,11 +950,11 @@ __[Unrefed file]__ :warning: `/include/community/Erick/Readme.md` : No reference
 
 __[Unrefed file]__ :warning: `/include/community/Fabian/Readme.md` : No references of this file (in _include_). 
 
-__[Unrefed file]__ :warning: `/include/community/Felix/20180103a/20180103-Felix.ipynb` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/community/Felix/20180208/20180210_jt_fast_batch.ipynb` : No references of this file (in _include_). 
-
 __[Unrefed file]__ :warning: `/include/community/Felix/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/Felix/app/jt_ultraschall_client.py` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/Felix/app/jt_ultraschall_server.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/Hannah/Readme.md` : No references of this file (in _include_). 
 
@@ -916,9 +966,11 @@ __[Unrefed file]__ :warning: `/include/community/Jay/Readme.md` : No references 
 
 __[Unrefed file]__ :warning: `/include/community/Kevin/Readme.md` : No references of this file (in _include_). 
 
-__[Unrefed file]__ :warning: `/include/community/MappingCommunity.ipynb` : No references of this file (in _include_). 
-
 __[Unrefed file]__ :warning: `/include/community/Marc/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/Marc/precise.py` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/Marc/spi.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/Matthew/Readme.md` : No references of this file (in _include_). 
 
@@ -934,6 +986,10 @@ __[Unrefed file]__ :warning: `/include/community/Tomas/Readme.md` : No reference
 
 __[Unrefed file]__ :warning: `/include/community/Uwe/20180620a/Readme.md` : No references of this file (in _include_). 
 
+__[Unrefed file]__ :warning: `/include/community/Uwe/20180620a/mkimg.py` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/Uwe/20180620a/ustk.py` : No references of this file (in _include_). 
+
 __[Unrefed file]__ :warning: `/include/community/Uwe/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/WillT/Readme.md` : No references of this file (in _include_). 
@@ -941,6 +997,8 @@ __[Unrefed file]__ :warning: `/include/community/WillT/Readme.md` : No reference
 __[Unrefed file]__ :warning: `/include/community/Zach/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/kelu124/Readme.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/community/map.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/ebay/kretz/probes/notes.md` : No references of this file (in _include_). 
 
@@ -960,70 +1018,6 @@ __[Unrefed file]__ :warning: `/include/experiments/Desc_20171001a.md` : No refer
 
 __[Unrefed file]__ :warning: `/include/experiments/Desc_20171001b.md` : No references of this file (in _include_). 
 
-__[Unrefed file]__ :warning: `/include/experiments/auto/20160809a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20160814a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20160822a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20161217a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20170611a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20170713a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20170715a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20170930a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20171001a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20171001b.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20171111a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20171112a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20171124a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180103a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180115a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180216a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180217a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180224a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180224b.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180225a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180310a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180403a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180403b.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180403t.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180415a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180415r.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180417a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180430a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180506a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180511a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180516a.md.tpl` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/experiments/auto/20180620a.md.tpl` : No references of this file (in _include_). 
-
 __[Unrefed file]__ :warning: `/include/fda.gov/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/highspeed.set.md` : No references of this file (in _include_). 
@@ -1042,7 +1036,7 @@ __[Unrefed file]__ :warning: `/include/vscan/Readme.md` : No references of this 
 
 __[Unrefed file]__ :warning: `/include/wifi-dev-kit.set.md` : No references of this file (in _include_). 
 
-__[WEB Blog]__ 307 posts added
+__[WEB Blog]__ 308 posts added
 
 
 [](@autogenerated - invisible comment)

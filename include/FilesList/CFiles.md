@@ -1,16 +1,16 @@
-* [standard_driver.c](/elmo/standard_driver.c): . File used in: [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [standard_driver.c](/elmo/standard_driver.c): . File used in: [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md).
 
-* [driver.c](/elmo/software/driver.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [driver.c](/elmo/software/driver.c): . _File not used._
 
-* [ustest.c](/elmo/data/ustest.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [ustest.c](/elmo/data/ustest.c): . _File not used._
 
-* [scope.c](/elmo/data/scope.c): . File used in: [`/elmo/tindie.md`](/elmo/tindie.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [scope.c](/elmo/data/scope.c): . File used in: [`/elmo/tindie.md`](/elmo/tindie.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
 
-* [scope.c](/elmo/data/arduiprobe/scope.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [scope.c](/elmo/data/arduiprobe/scope.c): . _File not used._
 
-* [scope2.c](/elmo/data/arduiprobe/scope2.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [scope2.c](/elmo/data/arduiprobe/scope2.c): . _File not used._
 
-* [gpio.c](/goblin/pi0/gpio.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [gpio.c](/goblin/pi0/gpio.c): . _File not used._
 
 
 

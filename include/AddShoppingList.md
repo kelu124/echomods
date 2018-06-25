@@ -70,6 +70,7 @@ Loved Nasa: add to un0rick
  * idea for the ultrasound phat : QuietShark (see https://twitter.com/Dymaxion/status/962385327599112193?s=19 )
 * Add new un0rick code, and documentation (both FPGA side, FPGA SPI level, Python)
 * article un0rick article and pics
+ * add the MSAS principles to the un0rick article
 
 
 

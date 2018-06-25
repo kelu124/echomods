@@ -3001,6 +3001,15 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * reference to this http://innovations.bmj.com/content/2/2/78
   * other book images
 
+#### 2018-06-25 Or not
+
+* Article: Impressive [Development of a Low-Cost Medical Ultrasound Scanner Using a Monostatic Synthetic Aperture](https://ieeexplore.ieee.org/document/7982705/)
+  * I'm a noob at this, but it seems that MFFS uses fixed focus piezos, but MSAS does focusing in the software (hence synthetic aperture) using a piezo of known size. That's an interesting alternative to focused piezos.
+  * Some other interesting insights, like using "Quality Assurance for UltraSound (QA4US) software" for image quality assessment, or also the architecture they used (an ARM, 14-bit ADC at 12Msps), or even the fact that the piezo is in direct contact with the skin, or a motor using a Voice Coil Motor.
+  * @todo add the MSAS principles to the un0rick article
+
+
+
 
 =======
 
