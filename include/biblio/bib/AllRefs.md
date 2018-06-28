@@ -9,9 +9,6 @@
 * __Effect of frequency characteristic of excitation pulse on lateral spatial resolution in coded ultrasound imaging__ by Fujita, Hiroki and Hasegawa, Hideyuki
 * __Synthetic aperture focusing for a single-element transducer undergoing helical motion__ by Andresen, H. and Nikolov, S. I. and Jensen, J. A.
 * __Ultrasound synthetic aperture imaging: monostatic approach__ by Ylitalo, J. T. and Ermert, H.
-* __An Experimental 2 MHz Synthetic Aperture Sonar System Intended for Medical Use - IEEE Journals \& Magazine__ by Burckhardt, C.E.
-* __Feasibility of Swept Synthetic Aperture Ultrasound Imaging__ by Bottenus, Nick and Long, Will and Zhang, Haichong K. and Jakovljevic, Marko and Bradway, David P. and Boctor, Emad M. and Trahey, Gregg E.
-* __Development of a Low-Cost Medical Ultrasound Scanner Using a Monostatic Synthetic Aperture.__ by van den Heuvel, TLA and Graham, DJ
 * __A High-Frame Rate High-Frequency Ultrasonic System for Cardiac Imaging in Mice - IEEE Journals \& Magazine__ by Lei, Sun
 * __Development of an ultra-portable echo device connected to USB port. - PubMed - NCBI__ by Saijo, Y
 * __INSTRUMENTATION DESIGN FOR ULTRASONIC IMAGING__ by Thomenius, Kai
@@ -78,18 +75,12 @@
 * __A High-Speed Reconfigurable System for Ultrasound Research__ by Wall, Kieran
 * __Acoustical compressive 3D imaging with a single sensor__ by Kruizinga, P. and Meulen, P. van der and Mastik, F. and Fedjajevs, A. and Springeling, G. and Jong, N. de and Leus, G. and Bosch, J. G.
 * __Low-cost, high-speed back-end processing system for high-frequency ultrasound B-mode imaging - IEEE Journals \& Magazine__
-* __Low-Cost, High-Speed Back-End Processing System for High-Frequency Ultrasound B-Mode Imaging__ by Chang, Jin Ho and Sun, Lei and Yen, Jesse T. and Shung, K. Kirk
-* __Synthetic Aperture Imaging for Small Scale Systems__ by Karaman, Mustafa and Li, Pai-Chi and O'Donnell, Matthew
-* __Synthetic Aperture Imaging for Small Scale Systems__ by Karaman, Mustafa and Li, Pai-Chi and O'Donnell, Matthew
-* __Smartphone-based portable ultrasound imaging system: Prototype implementation and evaluation (PDF Download Available)__
 * __A new post-phase rotation based dynamic receive beamforming architecture for... \textbar Request PDF__
 * __Synthetic Aperture Imaging for Small Scale Systems__ by Karaman, Mustafa and Li, Pai-Chi and O'Donnell, Matthew
-* __A System-on-Chip Solution for Point-of-Care Ultrasound Imaging Systems: Architecture and ASIC Implementation__ by Kang, Jeeun and Yoon, Changhan and Lee, Jaejin and Kye, Sang-Bum and Lee, Yongbae and Chang, Jin Ho and Kim, Giduck and Yoo, Yangmo and Song, Tai-Kyong
 * __Front-End Receiver Architecture for Miniaturised Ultrasound Imaging__ by Peyton, Graham and Boutelle, Martyn and M. Drakakis, Emmanuel
 * __Modeling and FPGA-based implementation of an efficient and simple envelope detector using a Hilbert Transform FIR filter for ultrasound imaging applications__
 * __UltraLight: An ultrafast imaging platform based on a digital 64-channel ultrasound probe - IEEE Conference Publication__
 * __A FPGA-based wearable ultrasound device for monitoring obstructive sleep apnea... \textbar Request PDF__
-* __Ultrasonic Signal Processing Using FPGA__ by Kushi, A.
 * __An Ethernet-Based Ultrasound Signal Processor__ by Mateos, Raimundo and Brizuela, Jose and Parrilla, Montserrat and Ibañez, Alberto and Fritsch, Carlos
 * __Electronics for Ultrasonic Imaging System__ by Svilainis, Linas and Dumbrava, Vytautas and Kitov, Sergej and Aleksandrovas, Arturas and Tervydis, Paulius and Liaukonis, Dobilas
 * __Ultrasonic Signal Processing Using FPGA__ by Kushi, A and Suresh Babu, P
@@ -101,9 +92,36 @@
 * __A Single FPGA-Based Portable Ultrasound Imaging System for Point-of-Care Applications__ by Kim, Giduck and Yoon, Changhan and Kye, Sang-Bum and Lee, Youngbae and Kang, Jeeun and Yoo, Yangmo and Song, Tai-kyong
 * __Low-Cost, High-Speed Back-End Processing System for High-Frequency Ultrasound B-Mode Imaging__ by Chang, Jin Ho and Sun, Lei and Yen, Jesse T. and Shung, K. Kirk
 * __Ultrasound capsule endoscopy: sounding out the future__ by Cox, Benjamin F. and Stewart, Fraser and Lay, Holly and Cummins, Gerard and Newton, Ian P. and Desmulliez, Marc P. Y. and Steele, Robert J. C. and Näthke, Inke and Cochran, Sandy
-* __Ultrasound capsule endoscopy: sounding out the future__ by Cox, Benjamin F. and Stewart, Fraser and Lay, Holly and Cummins, Gerard and Newton, Ian P. and Desmulliez, Marc P. Y. and Steele, Robert J. C. and Näthke, Inke and Cochran, Sandy
-* __Development of a Mechanical Scanning Device With High-Frequency Ultrasound Transducer for Ultrasonic Capsule Endoscopy__ by Wang, Xingying and Seetohul, Vipin and Chen, Ruimin and Zhang, Zhiqiang and Qian, Ming and Shi, Zhehao and Yang, Ge and Mu, Peitian and Wang, Congzhi and Huang, Zhihong and Zhou, Qifa and Zheng, Hairong and Cochran, Sandy and Qiu, Weibao
-* __Ultrasound capsule endoscopy: sounding out the future__ by Cox, Benjamin F. and Stewart, Fraser and Lay, Holly and Cummins, Gerard and Newton, Ian P. and Desmulliez, Marc P. Y. and Steele, Robert J. C. and Näthke, Inke and Cochran, Sandy
 * __A flexible multichannel FPGA and PC-Based ultrasound system for medical imaging research: initial phantom experiments__ by Assef, Amauri Amorin and Maia, Joaquim Miguel and Costa, Eduardo Tavares
+* __A smart-phone based portable ultrasound imaging system for point-of-care applications__ by Kim, J. H. and Yeo, S. and Kim, M. and Kye, S. and Lee, Y. and Song, T. k
+* __Single-FPGA complete 3D and 2D medical ultrasound imager__ by Ibrahim, A. and Simon, W. and Doy, D. and Pignat, E. and Angiolini, F. and Arditi, M. and Thiran, J. P. and Micheli, G. De
+* __Ultrasound Imaging From Sparse RF Samples Using System Point Spread Functions__ by Schretter, C. and Bundervoet, S. and Blinder, D. and Dooms, A. and D’hooge, J. and Schelkens, P.
+* __Design and implementation of high frequency ultrasound pulsed-wave Doppler using FPGA__ by Chang-hong Hu and Qifa Zhou and Shung, K.K.
+* __Analysis of Existing Designs for FPGA-Based Ultrasound Imaging Systems__ by Chatar, Keenan and George, Marcus Lloyde
+* __Design of a 128-channel FPGA-based ultrasound imaging beamformer for research activities__ by Assef, Amauri A. and Maia, Joaquim M. and Schneider, Fabio K. and Costa, Eduardo T. and Button, Vera L. S. N.
+* __An Experimental 2 MHz Synthetic Aperture Sonar System Intended for Medical Use__ by Burckhardt, C. E. and Grandchamp, P. A. and Hoffmann, H.
+* __Feasibility of Swept Synthetic Aperture Ultrasound Imaging__ by Bottenus, N. and Long, W. and Zhang, H. K. and Jakovljevic, M. and Bradway, D. P. and Boctor, E. M. and Trahey, G. E.
+* __A study of synthetic-aperture imaging with virtual source elements in B-mode ultrasound imaging systems__ by Bae, Moo-Ho and Jeong, Mok-Kun
+* __Development of a Low-Cost Medical Ultrasound Scanner Using a Monostatic Synthetic Aperture__ by Heuvel, T. L. A. van den and Graham, D. J. and Smith, K. J. and Korte, C. L. de and Neasham, J. A.
+* __High dynamic range ultrasound imaging__ by Degirmenci, Alperen and Perrin, Douglas P. and Howe, Robert D.
+* __New baseband pulse compression for chirp coded excitation__ by Yoon, C. and Lee, Wooyoul and Song, Jae Hee and Chang, J. H. and Song, T. k and Yoo, Y.
+* __A New Dynamic Complex Baseband Pulse Compression Method for Chirp-Coded Excitation in Medical Ultrasound Imaging__ by Kang, Jinbum and Kim, Yeajin and Lee, Wooyoul and Yoo, Yangmo
+* __Resolution in ultrasound imaging__ by Ng, Alexander and Swanevelder, Justiaan
+* __SUPRA: Open Source Software Defined Ultrasound Processing for Real-Time Applications__ by Göbl, Rüdiger and Navab, Nassir and Hennersperger, Christoph
+* __Programmable FPGA-based 32-channel transmitter for high frame rate ultrasound channel excitation applications__ by Raj, J. Jean Rossario and Rahman, S.m.k. and Anand, Sneh
+* __A reconfigurable and programmable FPGA-based system for nonstandard ultrasound methods__ by Boni, E. and Bassi, L. and Dallai, A. and Guidi, F. and Ramalli, A. and Ricci, S. and Housden, J. and Tortoli, P.
+* __Use of a Simple, Inexpensive Dual-Modality Phantom as a Learning Tool for Magnetic Resonance Imaging–Ultrasound Fusion Techniques__ by Walter, William R. and Burke, Christopher J. and Diallo, Mamadou and Adler, Ronald S.
+* __Dual-Frequency Piezoelectric Transducers for Contrast Enhanced Ultrasound Imaging__ by Martin, K. Heath and Lindsey, Brooks D. and Ma, Jianguo and Lee, Mike and Li, Sibo and Foster, F. Stuart and Jiang, Xiaoning and Dayton, Paul A.
+* __Future use of new imaging technologies in developing countries : report of a WHO scientific group [meeting held in Geneva from 24 September to 1 October 1984]__ by Countries, WHO Scientific Group on the Future Use of New Imaging Technologies in Developing and Organization, World Health
+* __Synthetic aperture focusing for a single-element transducer undergoing helical motion__ by Andresen, H. and Nikolov, S. I. and Jensen, J. A.
+* __Fundamentals of Digital Ultrasonic Processing__ by Schueler, C. F. and Lee, H. and Wade, G.
+* __Detection of lines and boundaries in speckle images-application to medical ultrasound__ by Czerwinski, R. N. and Jones, D. L. and O'Brien, W. D.
+* __Handbook of ultrasonic B-scanning in medicine__ by Lunt, R.
+* __[A system for a transanal endoscopic rectum operation]__ by Buess, G. and Hutterer, F. and Theiss, J. and Böbel, M. and Isselhard, W. and Pichlmaier, H.
+* __Ultrasonic Energy: Biological Investigations and Medical Applications__ by Kelly, Elizabeth
+* __Diagnostic ultrasound: principles, instruments, and exercises__ by Kremkau, Frederick W.
+* __Abdominal ultrasound__
+* __Ultrasound in the diagnosis of cardiovascular-pulmonary disease__
+* __Ultrasonics__ by Carlin, Benson
 
 [](@autogenerated - invisible comment)
