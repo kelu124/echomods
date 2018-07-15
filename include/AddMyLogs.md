@@ -2892,6 +2892,15 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 #### 2018-07-03 un0led
 
 * un0rick: playing with the I2C OLED screen using https://learn.adafruit.com/ssd1306-oled-displays-with-raspberry-pi-and-beaglebone-black/usage
+* http://ivory.idyll.org/blog/2018-how-open-is-too-open.html
+
+#### 2018-07-05 latex
+
+* Article: https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0512-6
+* Very nice article from an eu-funded consortium set of smes https://cordis.europa.eu/docs/publications/1258/125822911-6_en.pdf
+* Template for articles ? -> https://ctan.org/tex-archive/macros/latex/contrib/IEEEtran?lang=en for a great latex template
+* FFT for ice40 - 	https://github.com/mattvenn/fpga-fft
+
 
 =======
 
