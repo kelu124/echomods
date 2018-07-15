@@ -22,5 +22,3 @@ title: 2018-06-24 Slowing down hu
 -   reference to this http://innovations.bmj.com/content/2/2/78
 -   other book images
 
-=======
-
