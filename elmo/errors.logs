@@ -1,0 +1,33 @@
+make -C /lib/modules/4.4.50+/build M=/home/pi modules
+make[1]: Entering directory '/usr/src/linux-source-4.4.50+'
+  CC [M]  /home/pi/adc.o
+/home/pi/adc.c:145:2: warning: useless storage class specifier in empty declaration
+  };
+  ^
+/home/pi/adc.c: In function ‘readScope’:
+/home/pi/adc.c:194:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct timespec ts_start,ts_stop;
+   ^
+/home/pi/adc.c:258:8: warning: assignment from incompatible pointer type
+   buf_p=&dataStruct;//cound maybe removed
+        ^
+/home/pi/adc.c:260:19: warning: assignment from incompatible pointer type
+   ScopeBufferStart=&dataStruct;
+                   ^
+/home/pi/adc.c: In function ‘init_module’:
+/home/pi/adc.c:292:4: warning: too many arguments for format [-Wformat-extra-args]
+    printk(KERN_ALERT,"Failed to map the physical GPIO registers into the virtual memory space.\n");
+    ^
+/home/pi/adc.c:327:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct bcm2835_peripheral *p=&myclock;
+   ^
+/home/pi/adc.c:334:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int speed_id = 6; //1 for to start with 19Mhz or 6 to start with 500 MHz
+   ^
+/home/pi/adc.c: At top level:
+/home/pi/adc.c:120:19: warning: ‘ScopeBuffer_Ptr’ defined but not used [-Wunused-variable]
+  static uint32_t *ScopeBuffer_Ptr;
+                   ^
+  Building modules, stage 2.
+  MODPOST 1 modules
+
