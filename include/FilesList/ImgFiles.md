@@ -548,10 +548,17 @@
 * __/matty/20180516a/images/20180516a-1.jpg__:
   * kelu124
   * matty,cletus
-  * graph
+  * FFT
   * 20180516a
-  * Graph of 20180516a experiment. Classical experiment with calibration piezo
+  * FFT of the of 20180516a experiment. Classical experiment with calibration piezo
   * ./matty/20180516a/images/20180516a-1.jpg
+* __/matty/20180516a/images/20180516a-3-fft.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20180516a/images/20180516a-3-fft.jpg
 * __/matty/20180516a/images/20180516a-4.jpg__:
   * kelu124
   * matty,cletus
@@ -562,16 +569,16 @@
 * __/matty/20180516a/images/20180516a-2.jpg__:
   * kelu124
   * matty,cletus
-  * graph
+  * FFT
   * 20180516a
-  * Graph of 20180516a experiment. Classical experiment with calibration piezo
+  * FFT of the of 20180516a experiment. Classical experiment with calibration piezo
   * ./matty/20180516a/images/20180516a-2.jpg
 * __/matty/20180516a/images/20180516a-3.jpg__:
   * kelu124
   * matty,cletus
-  * graph
+  * FFT
   * 20180516a
-  * Graph of 20180516a experiment. Classical experiment with calibration piezo
+  * FFT of the of 20180516a experiment. Classical experiment with calibration piezo
   * ./matty/20180516a/images/20180516a-3.jpg
 * __/matty/20180516a/images/20180516a-5.jpg__:
   * kelu124
@@ -580,6 +587,20 @@
   * 20180516a
   * Graph of 20180516a experiment. Classical experiment with calibration piezo
   * ./matty/20180516a/images/20180516a-5.jpg
+* __/matty/20180516a/images/20180516a-2-fft.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20180516a/images/20180516a-2-fft.jpg
+* __/matty/20180516a/images/20180516a-1-fft.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20180516a/images/20180516a-1-fft.jpg
 * __/matty/20180310a/curve.jpg__:
   * kelu124
   * matty
