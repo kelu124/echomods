@@ -8032,6 +8032,8 @@
                                             'references': ['/include/experiments/auto/Code_20180417a.md']},
             '/include/JOH/blocks/maketemplate.py': {'path': '/include/JOH/blocks/maketemplate.py',
                                                     'references': []},
+            '/include/biblio/bib/ProcessBiblio.py': {'path': '/include/biblio/bib/ProcessBiblio.py',
+                                                     'references': []},
             '/include/community/Felix/app/jt_ultraschall_client.py': {'path': '/include/community/Felix/app/jt_ultraschall_client.py',
                                                                       'references': []},
             '/include/community/Felix/app/jt_ultraschall_server.py': {'path': '/include/community/Felix/app/jt_ultraschall_server.py',

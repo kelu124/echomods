@@ -523,7 +523,7 @@
 * [Untitled.ipynb](/matty/un0_test_a/Untitled.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180403b-Client.ipynb](/matty/20180403b/20180403b-Client.ipynb). File used in: [`/matty/20180403b/Readme.md`](/matty/20180403b/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/20180403b.md`](exp/20180403b.md).
 * [20180403b-Server.ipynb](/matty/20180403b/20180403b-Server.ipynb). File used in: [`/matty/20180403b/Readme.md`](/matty/20180403b/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/20180403b.md`](exp/20180403b.md).
-* [20180721a-pyUn0.ipynb](/matty/20180721a/20180721a-pyUn0.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20180721a-pyUn0.ipynb](/matty/20180721a/20180721a-pyUn0.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180721a-Server.ipynb](/matty/20180721a/20180721a-Server.ipynb). File used in: [`/matty/20180721a/Readme.md`](/matty/20180721a/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180225a-Loops.ipynb](/matty/20180225a/20180225a-Loops.ipynb). File used in: [`/matty/20180225a/Readme.md`](/matty/20180225a/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/20180225a.md`](exp/20180225a.md).
 * [20180225a-Server.ipynb](/matty/20180225a/20180225a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/20180225a.md`](exp/20180225a.md).
@@ -633,6 +633,8 @@
 * [test_file_3periods.py](/retired/toadkiller/software/test_file_3periods.py): showing content of a PRUDAQ binary dump for a dual channel acquisition.. _File not used._
 
 * [test_dual_entry.py](/retired/toadkiller/data/test_enveloppe/test_dual_entry.py): showing content of a PRUDAQ binary dump over 3 periods.. _File not used._
+
+* [ProcessBiblio.py](/include/biblio/bib/ProcessBiblio.py): . _File not used._
 
 * [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md).
 

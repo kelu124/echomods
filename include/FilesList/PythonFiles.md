@@ -74,6 +74,8 @@
 
 * [test_dual_entry.py](/retired/toadkiller/data/test_enveloppe/test_dual_entry.py): showing content of a PRUDAQ binary dump over 3 periods.. _File not used._
 
+* [ProcessBiblio.py](/include/biblio/bib/ProcessBiblio.py): . _File not used._
+
 * [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md).
 
 * [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. _File not used._
