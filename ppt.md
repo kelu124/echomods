@@ -147,6 +147,7 @@ _Total cost of the set: 443$_
  * 2018-05-11: [Enveloppe detection](/include/experiments/auto/20180511a.md): Checking different ways to rebuild enveloppe _(20180511a)_
  * 2018-05-16: [Matty file format](/include/experiments/auto/20180516a.md): Testing to format the data for experiments to be easily reproduced _(20180516a)_
  * [20180620a](/include/experiments/auto/20180620a.md)
+ * 2018-07-21: [pyUn0 python lib and TGC](/include/experiments/auto/20180721a.md): Testing class-approach for acquisition and processing. Also tested Gain setup. _(20180721a)_
 
 # Progress
  
