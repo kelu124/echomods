@@ -6,7 +6,6 @@
 
 ### Status
 
-* Contact in 2015 (NA). 
 * 275$/two transducers with off-the-shelf components. 50 units, we can offer $150.
 
 ### Notes

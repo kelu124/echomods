@@ -6,7 +6,6 @@
 
 ### Status
 
-* Listed in 2015, not contacted
 * no answer still on mar-17
 
 ### Notes

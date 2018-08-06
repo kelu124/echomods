@@ -6,10 +6,7 @@
 
 ### Status
 
-* Contact for echomods modules and bitmakers probe
-* Deja contactes en 2015
-* Not available for us in nov-16.
-* Jerome touching base on mar-17.
+* Superb suppliers ;)
 
 ### Notes
 

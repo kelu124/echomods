@@ -7,7 +7,7 @@
 
 ### Status
 
-* Contact in 2015 (NA). Anastasiya Mlynchyk  (External Sales & Executive Assistant)
+* Contact Anastasiya Mlynchyk  (External Sales & Executive Assistant)
 * Won't do -> redirected to [NDTX](/retired/cletus/suppliers/supplier-ndtxducer.md).
 
 ### Notes

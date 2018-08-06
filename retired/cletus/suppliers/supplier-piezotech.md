@@ -6,8 +6,8 @@
 
 ### Status
 
-* Deja contactes en 2015 
-* Retour 2/1/16: need the [query sheet](/retired/cletus/suppliers/meggitt/query.pdf)
+
+* Feedback 2/1/16: need the [query sheet](/retired/cletus/suppliers/meggitt/query.pdf)
 * 19/12/16: feedback required
 * march-17: follow up done
 * march-17: can't produce (see details below).

@@ -6,7 +6,6 @@
 
 ### Status
 
-* Contact in 2015 (NA). 
 * No answer, mar-17.
 
 ### Notes
