@@ -148,8 +148,8 @@ _Total cost of the set: 443$_
  * 2018-05-16: [Matty file format](/include/experiments/auto/20180516a.md): Testing to format the data for experiments to be easily reproduced _(20180516a)_
  * [20180620a](/include/experiments/auto/20180620a.md)
  * 2018-07-21: [pyUn0 python lib and TGC](/include/experiments/auto/20180721a.md): Testing class-approach for acquisition and processing. Also tested Gain setup. _(20180721a)_
- * [20180807a](/include/experiments/auto/20180807a.md)
- * [20180807b](/include/experiments/auto/20180807b.md)
+ * 2018-08-07: [ADR Ultrasound probe](/include/experiments/auto/20180807a.md): Photo reportage of opening an ADR Ultrasound probe. _(20180807a)_
+ * 2018-08-07: [InterspecApogee](/include/experiments/auto/20180807b.md): Opening an InterspecApogee probe _(20180807b)_
 
 # Progress
  
