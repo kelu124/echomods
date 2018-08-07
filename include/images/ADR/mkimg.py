@@ -49,7 +49,7 @@ for FileName in Imgs:
 		print "Not an image"
 	else:
 		# Modules
-		metadata['Exif.Image.Software'] = "ADRUS"
+		metadata['Exif.Image.Software'] = "adrus"
 		# Experiment
 		metadata['Exif.Image.Make'] = "20180807a"
 
