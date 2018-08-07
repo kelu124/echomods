@@ -120,6 +120,7 @@
 
 * [./retired/cletus/IMN/Readme.md](/retired/cletus/IMN/Readme.md): Electrical impedance matching . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
+* [./retired/cletus/suppliers/supplier-hurricane.md](/retired/cletus/suppliers/supplier-hurricane.md): supplier source file 
 * [./retired/cletus/suppliers/supplier-trs.md](/retired/cletus/suppliers/supplier-trs.md): supplier source file 
 * [./retired/cletus/suppliers/supplier-sti.md](/retired/cletus/suppliers/supplier-sti.md): supplier source file 
 * [./retired/cletus/suppliers/supplier-smartmaterials.md](/retired/cletus/suppliers/supplier-smartmaterials.md): supplier source file 
@@ -286,6 +287,10 @@
 
 * [./include/biblio/Readme.md](/include/biblio/Readme.md):  . _File not used._
 
+* [./include/biblio/bib/ArticlesPDF/txt/mails.md](/include/biblio/bib/ArticlesPDF/txt/mails.md):  . _File not used._
+
+* [./include/biblio/bib/ArticlesPDF/messages/messages.md](/include/biblio/bib/ArticlesPDF/messages/messages.md):  . _File not used._
+
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
 
 * [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -373,6 +378,8 @@
 * [./include/community/Fabian/Readme.md](/include/community/Fabian/Readme.md):  . _File not used._
 
 * [./include/community/Stephen/Readme.md](/include/community/Stephen/Readme.md):  . _File not used._
+
+* [./include/community/wmeng/Readme.md](/include/community/wmeng/Readme.md):  . _File not used._
 
 * [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  . _File not used._
 
@@ -664,6 +671,10 @@
 
 * [maketemplate.py](/include/JOH/blocks/maketemplate.py): . _File not used._
 
+* [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+
+* [mkimg.py](/include/images/ADR/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+
 * [BitscopeAcquisitionScript.py](/retroATL3/software/BitscopeAcquisitionScript.py): BitLib 2.0 Capture Device Report Generator (Python). _File not used._
 
 
@@ -742,7 +753,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 320 Auto generated files
+## 335 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
@@ -781,6 +792,7 @@
 * ./include/experiments/Desc_20180216a.md
 * ./include/experiments/Desc_20180403b.md
 * ./include/experiments/Desc_20180620a.md
+* ./include/experiments/Desc_20180807b.md
 * ./include/experiments/Desc_20180415a.md
 * ./include/experiments/Desc_20180430a.md
 * ./include/experiments/Desc_20180224a.md
@@ -792,6 +804,7 @@
 * ./include/experiments/Desc_20180403a.md
 * ./include/experiments/Desc_20160809a.md
 * ./include/experiments/Desc_20180516a.md
+* ./include/experiments/Desc_20180807a.md
 * ./include/experiments/Desc_20171124a.md
 * ./include/experiments/Desc_20170713a.md
 * ./include/experiments/Desc_20180224b.md
@@ -857,6 +870,7 @@
 * .exp/20180224b.md
 * .exp/Mod_20180506a.md
 * .exp/20171112a.md
+* .exp/Img_20180807a.md
 * .exp/20180506a.md
 * .exp/Img_20170611a.md
 * .exp/Img_20180224b.md
@@ -866,15 +880,19 @@
 * .exp/20170715a.md
 * .exp/Code_20171112a.md
 * .exp/Mod_20180415a.md
+* .exp/20180807b.md
 * .exp/20180216a.md
 * .exp/Img_20180103a.md
+* .exp/Code_20180807b.md
 * .exp/Mod_20170713a.md
 * .exp/20180403t.md
 * .exp/Mod_20180721a.md
+* .exp/Mod_20180807b.md
 * .exp/Code_20160809a.md
 * .exp/Mod_20161217a.md
 * .exp/Code_20180721a.md
 * .exp/Img_20180310a.md
+* .exp/Img_20180807b.md
 * .exp/Img_20180225a.md
 * .exp/Mod_20171111a.md
 * .exp/20180430a.md
@@ -906,7 +924,9 @@
 * .exp/20170713a.md
 * .exp/20180415r.md
 * .exp/20170611a.md
+* .exp/Code_20180807a.md
 * .exp/Code_20180224b.md
+* .exp/Mod_20180807a.md
 * .exp/20161217a.md
 * .exp/Img_20180415a.md
 * .exp/Mod_20180415r.md
@@ -923,6 +943,7 @@
 * .exp/Mod_20160809a.md
 * .exp/Img_20160809a.md
 * .exp/Code_20180511a.md
+* .exp/20180807a.md
 * .exp/Img_20180415r.md
 * .exp/Code_20180224a.md
 * .exp/Code_20180506a.md
@@ -932,6 +953,8 @@
 * ./include/probes/auto/uprobe1.md
 * ./include/probes/auto/retro10PV.md
 * ./include/probes/auto/shzmch.md
+* ./include/probes/auto/apogee.md
+* ./include/probes/auto/adrus.md
 * ./include/probes/auto/bard.md
 * ./include/sets/wifi-dev-kit.cost.md
 * ./include/sets/highspeed.cost.md
@@ -973,6 +996,8 @@
 * ./gitbook/probes/uprobe1.md
 * ./gitbook/probes/retro10PV.md
 * ./gitbook/probes/shzmch.md
+* ./gitbook/probes/apogee.md
+* ./gitbook/probes/adrus.md
 * ./gitbook/probes/bard.md
 * ./gitbook/Chapter3/cletus.md
 * ./gitbook/Chapter3/bomanz2.md
@@ -1041,7 +1066,6 @@
 * ./gitbook/exp/20171111a.md
 * ./gitbook/exp/20180217a.md
 * ./gitbook/exp/20180516a.md
-* ./gitbook/exp/SAMSUNG.md
 * ./gitbook/exp/20170930a.md
 * ./gitbook/exp/20180224b.md
 * ./gitbook/exp/20171112a.md
@@ -1049,6 +1073,7 @@
 * ./gitbook/exp/20180620a.md
 * ./gitbook/exp/20171124a.md
 * ./gitbook/exp/20170715a.md
+* ./gitbook/exp/20180807b.md
 * ./gitbook/exp/20180216a.md
 * ./gitbook/exp/20180403t.md
 * ./gitbook/exp/20180430a.md
@@ -1064,6 +1089,7 @@
 * ./gitbook/exp/20161217a.md
 * ./gitbook/exp/20180103a.md
 * ./gitbook/exp/20160822a.md
+* ./gitbook/exp/20180807a.md
 
 
 [](@autogenerated - invisible comment)

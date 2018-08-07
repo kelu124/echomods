@@ -142,6 +142,10 @@ __[Experiments]__ :warning: `20180103a` : no Readme or experiment description.
 
 __[Experiments]__ :warning: `20180115a` : no Readme or experiment description. 
 
+__[Experiments]__ :warning: `20180807a` : no Readme or experiment description. 
+
+__[Experiments]__ :warning: `20180807b` : no Readme or experiment description. 
+
 __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/biblio/10.1109@TBCAS.2017.2695240.pdf`
 
 __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/biblio/bottenus2016.pdf`
@@ -980,6 +984,10 @@ __[Unrefed file]__ :warning: `/include/autodoc.md` : No references of this file 
 
 __[Unrefed file]__ :warning: `/include/biblio/Readme.md` : No references of this file (in _include_). 
 
+__[Unrefed file]__ :warning: `/include/biblio/bib/ArticlesPDF/messages/messages.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/biblio/bib/ArticlesPDF/txt/mails.md` : No references of this file (in _include_). 
+
 __[Unrefed file]__ :warning: `/include/biblio/bib/ProcessBiblio.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/community/Afreen/Readme.md` : No references of this file (in _include_). 
@@ -1048,6 +1056,8 @@ __[Unrefed file]__ :warning: `/include/community/kelu124/Readme.md` : No referen
 
 __[Unrefed file]__ :warning: `/include/community/map.py` : No references of this file (in _include_). 
 
+__[Unrefed file]__ :warning: `/include/community/wmeng/Readme.md` : No references of this file (in _include_). 
+
 __[Unrefed file]__ :warning: `/include/ebay/kretz/probes/notes.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/ebay/kretz/steppers/notes.md` : No references of this file (in _include_). 
@@ -1069,6 +1079,10 @@ __[Unrefed file]__ :warning: `/include/experiments/Desc_20171001b.md` : No refer
 __[Unrefed file]__ :warning: `/include/fda.gov/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/highspeed.set.md` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/images/ADR/mkimg.py` : No references of this file (in _include_). 
+
+__[Unrefed file]__ :warning: `/include/images/Interspec/mkimg.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/murgen_notes.md` : No references of this file (in _include_). 
 

@@ -104,6 +104,10 @@
 
 * [maketemplate.py](/include/JOH/blocks/maketemplate.py): . _File not used._
 
+* [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+
+* [mkimg.py](/include/images/ADR/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+
 * [BitscopeAcquisitionScript.py](/retroATL3/software/BitscopeAcquisitionScript.py): BitLib 2.0 Capture Device Report Generator (Python). _File not used._
 
 

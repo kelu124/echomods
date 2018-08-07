@@ -1,6 +1,7 @@
 # Status of suppliers
 
 
+* [Hurricane](www.chinaultrasound.com): Contact Santo Meng, Summer '18, 
 * [TRS-Tech](http://www.trstechnologies.com/): No answer, mar-17., 
 * [STI](http://sti-ultrasound.com): no answer still on mar-17, 
 * [Smart Materials](http://smart-material.com): Superb suppliers ;), 
