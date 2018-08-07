@@ -30,3 +30,7 @@
 * 20180511a: Enveloppe detection: Checking different ways to rebuild enveloppe
 * 20180516a: Matty file format: Testing to format the data for experiments to be easily reproduced
 * 20180721a: pyUn0 python lib and TGC: Testing class-approach for acquisition and processing. Also tested Gain setup.
+* 20180807a: ADR Ultrasound probe : Photo reportage of opening an ADR Ultrasound probe.
+* 20180807b: InterspecApogee: Opening an InterspecApogee probe
+
+.

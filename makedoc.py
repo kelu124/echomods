@@ -68,7 +68,7 @@ CopyGitBookFile("include/AllLogs.md","gitbook/Chapter4/AllLogs.md")
 # -------------------------
 
 ListOfProbes,GrosJaSON = ListProbes("./include/probes/define.md",GrosJaSON)
-
+print ListOfProbes
 # -------------------------
 # Contributors
 # -------------------------
@@ -102,7 +102,7 @@ for k in ImgList:
 		if probe in modz:
 			GrosJaSON["probes"][probe]["images"].append(k)
 			probeFound = probe
-			#print probe, k, modz
+			print probe, k, modz
 
 
 	GrosJaSON["images"][k]["category"] = AllTags[2]

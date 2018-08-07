@@ -27,3 +27,15 @@
 * code:shzmch
 * smalldesc:a mechanical probe found on shenzen
 * longdesc:a mechanical probe found on shenzen
+
+# apogee
+* code:apogee
+* smalldesc:an apogee probe
+* longdesc:an apogee probe.
+
+# adrus
+* code:adrus
+* smalldesc:an adr ultrasound probe
+* longdesc:an adr ultrasound probe
+
+

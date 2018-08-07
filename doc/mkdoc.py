@@ -391,7 +391,7 @@ def ListProbes(pathdefine,GrosJaSON):
 	for k in GrosJaSON["probes"].keys():
 		GrosJaSON["probes"][k]["experiments"] = []
 		GrosJaSON["probes"][k]["images"] = []
-	#print GrosJaSON["probes"]
+	print GrosJaSON["probes"]
 	return ListOfProbes,GrosJaSON
 
 ## Creating probe files from what was captured in images
