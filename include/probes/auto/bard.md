@@ -1,8 +1,8 @@
 # bard (bard)
 
-a site rite probe
+* Small description: a site rite probe
 
-Used in the site rite bard systems.
+* Longer description: Used in the site rite bard systems.
 
 # Images
 

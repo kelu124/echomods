@@ -102,7 +102,7 @@ for k in ImgList:
 		if probe in modz:
 			GrosJaSON["probes"][probe]["images"].append(k)
 			probeFound = probe
-			print probe, k, modz
+			#print probe, k, modz
 
 
 	GrosJaSON["images"][k]["category"] = AllTags[2]
@@ -113,6 +113,7 @@ for k in ImgList:
 	if "ToTag" not in AllTags[3]:
 	    if len(probeFound):
 		GrosJaSON["probes"][probe]["experiments"].append(AllTags[3])
+		print GrosJaSON["probes"][probe]["experiments"]
 	    if len(AllTags[3]):
 		ListOfExperiment.append(AllTags[3])
 	    if AllTags[0] in GrosJaSON["contributors"].keys():

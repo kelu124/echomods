@@ -1,8 +1,8 @@
 # adrus (adrus)
 
-an adr ultrasound probe
+* Small description: an adr ultrasound probe
 
-an adr ultrasound probe
+* Longer description: an adr ultrasound probe
 
 # Experiments
 

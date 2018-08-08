@@ -1,8 +1,8 @@
 # apogee (apogee)
 
-an apogee probe
+* Small description: an apogee probe
 
-an apogee probe.
+* Longer description: an apogee probe.
 
 # Experiments
 

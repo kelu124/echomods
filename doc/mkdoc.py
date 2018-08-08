@@ -391,7 +391,7 @@ def ListProbes(pathdefine,GrosJaSON):
 	for k in GrosJaSON["probes"].keys():
 		GrosJaSON["probes"][k]["experiments"] = []
 		GrosJaSON["probes"][k]["images"] = []
-	print GrosJaSON["probes"]
+	#print GrosJaSON["probes"]
 	return ListOfProbes,GrosJaSON
 
 ## Creating probe files from what was captured in images
@@ -399,12 +399,13 @@ def ListProbes(pathdefine,GrosJaSON):
 def CreateProbesFiles(GrosJaSON):
 	for probe in GrosJaSON["probes"].keys():
 		ProbeAuto = "# "+probe+" ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
-		ProbeAuto += GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
-		ProbeAuto += GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
+		ProbeAuto += "* Small description: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
+		ProbeAuto += "* Longer description: "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
 		if len(GrosJaSON["probes"][probe]["experiments"]):
 			ProbeAuto += "# Experiments\n\n"
 			for expe in list(set(GrosJaSON["probes"][probe]["experiments"])):
 				ProbeAuto += "* ["+expe+"](/include/experiments/auto/"+expe+".md)\n"
+		#print ProbeAuto
 		if len(GrosJaSON["probes"][probe]["images"]):
 			ProbeAuto += "# Images\n\n"
 			for image in list(set(GrosJaSON["probes"][probe]["images"])):

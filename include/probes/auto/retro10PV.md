@@ -1,8 +1,8 @@
 # retro10PV (retro10PV)
 
-a 3-frequencies probe
+* Small description: a 3-frequencies probe
 
-5, 7.5 and 10 MHz probe. Used on the ultramarks.
+* Longer description: 5, 7.5 and 10 MHz probe. Used on the ultramarks.
 
 # Images
 

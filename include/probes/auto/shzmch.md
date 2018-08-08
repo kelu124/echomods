@@ -1,8 +1,8 @@
 # shzmch (shzmch)
 
-a mechanical probe found on shenzen
+* Small description: a mechanical probe found on shenzen
 
-a mechanical probe found on shenzen
+* Longer description: a mechanical probe found on shenzen
 
 # Images
 

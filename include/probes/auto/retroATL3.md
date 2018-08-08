@@ -1,8 +1,8 @@
 # retroATL3 (retroATL3)
 
-An ATL ACCESS 3 probe.
+* Small description: An ATL ACCESS 3 probe.
 
-3.5MHz probe. Used on the ultramarks.
+* Longer description: 3.5MHz probe. Used on the ultramarks.
 
 # Experiments
 
