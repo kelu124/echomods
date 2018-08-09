@@ -1,6 +1,9 @@
 #/bin/bash
 # Creating the docs
 
+#jupyter nbconvert ../../matty/20180310a/20180310a-CalibGain.ipynb --to markdown --output-dir ./gitbook/notebooks/
+
+
 cd doc/
 python createStats.py
 cd ../

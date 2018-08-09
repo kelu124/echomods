@@ -6,11 +6,7 @@
 
 # Experiments
 
-* [20170715a](/include/experiments/auto/20170715a.md)
 * [20180807a](/include/experiments/auto/20180807a.md)
-* [20171112a](/include/experiments/auto/20171112a.md)
-* [20160822a](/include/experiments/auto/20160822a.md)
-* [20180807b](/include/experiments/auto/20180807b.md)
 # Images
 
 ![](/include/images/ADR/P_20180807_215631.jpg)

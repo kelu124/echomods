@@ -678,6 +678,7 @@ def UpdateSUMMARY(path):
 	f = open(path, 'r')
 	Summary = f.read()
 	f.close()
+
 	mypath = "gitbook/probes/"
 	lstProbe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
 	tmpProbe = ""
@@ -686,6 +687,8 @@ def UpdateSUMMARY(path):
 	for k in lstProbe:
 		probe = k.split("/")[-1].split(".")[0]
 		tmpProbe += "    * ["+probe+"]("+k[8:]+")\n"
+
+
 	mypath = "gitbook/exp/"
 	lstExpe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
 	lstExpe.sort()
@@ -695,9 +698,21 @@ def UpdateSUMMARY(path):
 		expe = k.split("/")[-1].split(".")[0]
 		tmpExpe += "    * ["+expe+"]("+k[8:]+")\n"
 
-	Summary = Summary.replace("LISTOFEXPE",tmpExpe[:-1])
+	mypath = "gitbook/notebooks/"
+	lstNb = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
+	lstNb.sort()
+	#print lstExpe
+	tmpNb = ""
+	#print lstNb
+	for k in lstNb:
+		notebook = k.split("/")[-1].split(".")[0]
+		tmpNb += "    * ["+notebook+"]("+k[8:]+")\n"
+	#print tmpNb
+
+	Summary = Summary.replace("LISTOFJUPYTER"   ,tmpNb[:-1]   )	
+	Summary = Summary.replace("LISTOFEXPE" ,tmpExpe[:-1] )
 	Summary = Summary.replace("LISTOFPROBE",tmpProbe[:-1])
-	
+
 
 	f = open("gitbook/SUMMARY.md","w+")
 	f.write(Summary)
@@ -712,6 +727,11 @@ def AddRawHURL(s):
 	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/"
 
 	s = s.replace("/include/experiments/auto/","exp/")
+
+	# Nice regex for IPYNBs : \]\((.+\/)*(.+)\.ipynb\)
+	pattern = re.compile(r"\]\(\/(.*)\/(.*)\.ipynb")
+	s = pattern.sub( r"](https://kelu124.gitbooks.io/echomods/content/notebooks/\g<2>.html", s)
+
 
  
 	for o in range(len(ToBeReplaced)):

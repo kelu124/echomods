@@ -38,4 +38,13 @@
 * smalldesc:an adr ultrasound probe
 * longdesc:an adr ultrasound probe
 
+# kretzaw145ba
+* code:kretzaw145ba
+* smalldesc:a kretz AW14/5B/A ultrasound probe
+* longdesc:a kretz AW14/5B/A probe
+
+# ausonics75
+* code:ausonics75
+* smalldesc:an ausonic 7.5MHz probe
+* longdesc:an ausonic 7.5MHz probe
 

@@ -170,6 +170,8 @@ The diagram is represented below:
  * 2018-07-21: [pyUn0 python lib and TGC](/include/experiments/auto/20180721a.md): Testing class-approach for acquisition and processing. Also tested Gain setup. _(20180721a)_
  * 2018-08-07: [ADR Ultrasound probe](/include/experiments/auto/20180807a.md): Photo reportage of opening an ADR Ultrasound probe. _(20180807a)_
  * 2018-08-07: [InterspecApogee](/include/experiments/auto/20180807b.md): Opening an InterspecApogee probe _(20180807b)_
+ * [20180809a](/include/experiments/auto/20180809a.md)
+ * [20180809b](/include/experiments/auto/20180809b.md)
 
 
 # Progress on building the modules 

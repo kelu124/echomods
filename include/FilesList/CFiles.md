@@ -10,7 +10,7 @@
 
 * [scope.c](/elmo/data/arduiprobe/scope.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
-* [scope2.c](/elmo/data/arduiprobe/scope2.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
+* [scope2.c](/elmo/data/arduiprobe/scope2.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/experiments/auto/20170715a.md`](/include/experiments/auto/20170715a.md).
 
 * [gpio.c](/goblin/pi0/gpio.c): . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 

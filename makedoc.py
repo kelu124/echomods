@@ -88,7 +88,8 @@ ListOfExperiment = []
 for k in ImgList:
 	probeFound = ""
 	GrosJaSON["images"][k] = {}
-	Tags = CreateImgTags("."+k)
+	if "gitbook" not in k:
+		Tags = CreateImgTags("."+k)
 
 	AllTags = GetTags(Tags)
 	GrosJaSON["images"][k]["path"] = k
@@ -113,7 +114,7 @@ for k in ImgList:
 	if "ToTag" not in AllTags[3]:
 	    if len(probeFound):
 		GrosJaSON["probes"][probe]["experiments"].append(AllTags[3])
-		print GrosJaSON["probes"][probe]["experiments"]
+		#print GrosJaSON["probes"][probe]["experiments"]
 	    if len(AllTags[3]):
 		ListOfExperiment.append(AllTags[3])
 	    if AllTags[0] in GrosJaSON["contributors"].keys():

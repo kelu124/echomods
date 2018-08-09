@@ -20,37 +20,37 @@
 
 * [mkimg.py](/matty/20180226a/mkimg.py): Autotagging images for the `20180226a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/matty/20180403a/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
+* [mkimg.py](/matty/20180403a/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md), [`/include/experiments/auto/20180403a.md`](/include/experiments/auto/20180403a.md), [`/include/experiments/auto/Code_20180403a.md`](/include/experiments/auto/Code_20180403a.md).
 
 * [serialflash.py](/matty/SPI/serialflash.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [mkimg.py](/matty/20180227a/mkimg.py): Autotagging images for the `20180227a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/matty/20180506a/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/matty/20180506a/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
 
 * [mkimg.py](/matty/20180310a/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
 
-* [mkimg.py](/matty/20180403b/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md), [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md).
+* [mkimg.py](/matty/20180403b/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md), [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
 
-* [pyUn0.py](/matty/20180721a/pyUn0.py): Library for the un0rick platform.. File used in: [`/matty/20180721a/Readme.md`](/matty/20180721a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [pyUn0.py](/matty/20180721a/pyUn0.py): Library for the un0rick platform.. File used in: [`/matty/20180721a/Readme.md`](/matty/20180721a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180721a.md`](/include/experiments/auto/20180721a.md).
 
-* [mkimg.py](/matty/20180225a/mkimg.py): Autotagging images for the `20180225a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md).
+* [mkimg.py](/matty/20180225a/mkimg.py): Autotagging images for the `20180225a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md).
 
 * [mkimg.py](/matty/20180511a/mkimg.py): Autotagging images for the `20180511a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/matty/20180224b/mkimg.py): Autotagging images for the `20180224b` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/matty/20180224b/mkimg.py): Autotagging images for the `20180224b` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md).
 
-* [bim.py](/retired/alt.tbo/20171112a/bim.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [bim.py](/retired/alt.tbo/20171112a/bim.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
 
-* [img.py](/retired/alt.tbo/20171112a/img.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [img.py](/retired/alt.tbo/20171112a/img.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
 
-* [bim.py](/retired/alt.tbo/20171112b/bim.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [bim.py](/retired/alt.tbo/20171112b/bim.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
 
 * [img.py](/retired/alt.tbo/20171112b/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [img.py](/retired/alt.tbo/20171111a/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [img.py](/retired/alt.tbo/20171111a/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20171111a.md`](/include/experiments/auto/20171111a.md), [`/include/experiments/auto/Code_20171111a.md`](/include/experiments/auto/Code_20171111a.md).
 
-* [img.py](/retired/cletus/IMN/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [img.py](/retired/cletus/IMN/img.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20171124a.md`](/include/experiments/auto/20171124a.md).
 
 * [rebuild.py](/retired/croaker/data/20161217/raw_data/rebuild.py): Takes croaker streamed CSVs and creates the total image + JPGs.. File used in: [`/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md`](/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -76,27 +76,27 @@
 
 * [ProcessBiblio.py](/include/biblio/bib/ProcessBiblio.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md), [`/include/experiments/auto/20180216a.md`](/include/experiments/auto/20180216a.md).
 
-* [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md), [`/include/experiments/auto/20180216a.md`](/include/experiments/auto/20180216a.md).
 
-* [mkimg.py](/include/cn_mechprob/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/cn_mechprob/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
 
 * [bim.py](/include/20180415r/bim.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/include/20180417a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md).
+* [mkimg.py](/include/20180417a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/20180217a.md`](/include/experiments/auto/20180217a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
-* [mkimg.py](/include/s3/images/uProbe1/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/s3/images/uProbe1/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
 
-* [mkimg.py](/include/20180217a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/20180217a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180217a.md`](/include/experiments/auto/20180217a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
-* [ustk.py](/include/20180217a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [ustk.py](/include/20180217a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180217a.md`](/include/experiments/auto/20180217a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
 * [map.py](/include/community/map.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/include/community/Uwe/20180620a/mkimg.py): Autotagging images for the `20180620a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/community/Uwe/20180620a/mkimg.py): Autotagging images for the `20180620a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180620a.md`](/include/experiments/auto/20180620a.md).
 
-* [ustk.py](/include/community/Uwe/20180620a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [ustk.py](/include/community/Uwe/20180620a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180217a.md`](/include/experiments/auto/20180217a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md), [`/include/experiments/auto/20180620a.md`](/include/experiments/auto/20180620a.md).
 
 * [precise.py](/include/community/Marc/precise.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -108,9 +108,13 @@
 
 * [maketemplate.py](/include/JOH/blocks/maketemplate.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
 
-* [mkimg.py](/include/images/ADR/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [mkimg.py](/include/images/kretzaw145ba/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
+
+* [mkimg.py](/include/images/ausonics75/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md), [`/include/experiments/auto/20180809b.md`](/include/experiments/auto/20180809b.md).
+
+* [mkimg.py](/include/images/ADR/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
 
 * [BitscopeAcquisitionScript.py](/retroATL3/software/BitscopeAcquisitionScript.py): BitLib 2.0 Capture Device Report Generator (Python). File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
