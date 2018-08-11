@@ -71,6 +71,7 @@ Loved Nasa: add to un0rick
 * Add new un0rick code, and documentation (both FPGA side, FPGA SPI level, Python)
 * article un0rick article and pics
  * add the MSAS principles to the un0rick article
+* try and get to artsens
 
 
 

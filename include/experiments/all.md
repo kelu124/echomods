@@ -29,8 +29,14 @@
 * 20180506a: SPI timing on Raspberry: Checking SPI bottlenecks on Matty
 * 20180511a: Enveloppe detection: Checking different ways to rebuild enveloppe
 * 20180516a: Matty file format: Testing to format the data for experiments to be easily reproduced
+* 20180620a: Uwe setup: Testing ADC with Uwe setup with elmo and a 250khz source	
 * 20180721a: pyUn0 python lib and TGC: Testing class-approach for acquisition and processing. Also tested Gain setup.
 * 20180807a: ADR Ultrasound probe : Photo reportage of opening an ADR Ultrasound probe.
 * 20180807b: InterspecApogee: Opening an InterspecApogee probe
+* 20180809a: kretz AW14/5B/A: Opening a kretz AW14/5B/A ultrasound probe
+* 20180809b: Ausonics 7.5MHz probe: Getting in a Ausonics 7.5MHz probe
+* 20180811a: Kretz-Echo: Find echoes on a kretzaw145ba probe
+* 20180811b: Kretz-Motors: Finding the motors on a kretzaw145ba probe
+
 
 .

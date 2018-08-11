@@ -11,7 +11,7 @@
 #
 # -------------------------
 
-'''Description: Autotagging images for the `20180506a` experiment.'''
+'''Description: Autotagging images for the `Test` experiment.'''
 
 __author__      = "kelu124"
 __copyright__   = "Copyright 2018, Kelu124"
@@ -49,14 +49,14 @@ for FileName in Imgs:
 		print "Not an image"
 	else:
 		# Modules
-		metadata['Exif.Image.Software'] = "kretzaw145ba"
+		metadata['Exif.Image.Software'] = "atlidrict"
 		# Experiment
-		metadata['Exif.Image.Make'] = "20180809a"
+		metadata['Exif.Image.Make'] = "ToTag"
 
 	
 		metadata['Exif.Photo.MakerNote'] = "hacking"
 		# Description
-		metadata['Exif.Image.ImageDescription'] = "Exploring the innards of a kretz AW14/5B/A ultrasound probe"
+		metadata['Exif.Image.ImageDescription'] = "Exploring the innards of a atlidrict probe"
 
 		# Saving the image
 

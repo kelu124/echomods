@@ -3359,6 +3359,160 @@
   * 20180809a
   * Exploring the innards of a kretz AW14/5B/A ultrasound probe
   * ./include/images/kretzaw145ba/P_20180809_193948.jpg
+* __/include/images/kretzaw145ba/20180811b/P_20180811_175204.jpg__:
+  * kelu124
+  * kretzaw145ba
+  * hacking
+  * 20180811b
+  * Exploring the innards of the kretz AW14/5B/A ultrasound probe
+  * ./include/images/kretzaw145ba/20180811b/P_20180811_175204.jpg
+* __/include/images/kretzaw145ba/20180811b/P_20180811_175217.jpg__:
+  * kelu124
+  * kretzaw145ba
+  * hacking
+  * 20180811b
+  * Exploring the innards of the kretz AW14/5B/A ultrasound probe
+  * ./include/images/kretzaw145ba/20180811b/P_20180811_175217.jpg
+* __/include/images/kretzaw145ba/20180811b/P_20180811_175211.jpg__:
+  * kelu124
+  * kretzaw145ba
+  * hacking
+  * 20180811b
+  * Exploring the innards of the kretz AW14/5B/A ultrasound probe
+  * ./include/images/kretzaw145ba/20180811b/P_20180811_175211.jpg
+* __/include/images/kretzaw145ba/20180811a/20180811a-3first-lines-rawsignal.jpg__:
+  * kelu124
+  * kretzaw145ba
+  * lines
+  * 20180811a
+  * Testing red coax
+  * ./include/images/kretzaw145ba/20180811a/20180811a-3first-lines-rawsignal.jpg
+* __/include/images/kretzaw145ba/20180811a/20180811a-3first-lines-fft.jpg__:
+  * kelu124
+  * kretzaw145ba
+  * fft
+  * 20180811a
+  * Testing red coax
+  * ./include/images/kretzaw145ba/20180811a/20180811a-3first-lines-fft.jpg
+* __/include/images/kretzaw145ba/20180811a/P_20180811_190929.jpg__:
+  * kelu124
+  * kretzaw145ba
+  * setup
+  * 20180811a
+  * Connection of plugs to test
+  * ./include/images/kretzaw145ba/20180811a/P_20180811_190929.jpg
+* __/include/images/kretzaw145ba/20180811a/20180811a-3first-lines.jpg__:
+  * kelu124
+  * kretzaw145ba
+  * lines
+  * 20180811a
+  * Testing red coax
+  * ./include/images/kretzaw145ba/20180811a/20180811a-3first-lines.jpg
+* __/include/images/kretzaw145ba/20180811a/images/detail_20180811a-5-100-125-line0.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/images/kretzaw145ba/20180811a/images/detail_20180811a-5-100-125-line0.jpg
+* __/include/images/kretzaw145ba/20180811a/images/20180811a-6.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180811a
+  * Graph of 20180811a experiment. Testing yellow coax
+  * ./include/images/kretzaw145ba/20180811a/images/20180811a-6.jpg
+* __/include/images/kretzaw145ba/20180811a/images/detail_20180811a-3-120-150-line0.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/images/kretzaw145ba/20180811a/images/detail_20180811a-3-120-150-line0.jpg
+* __/include/images/kretzaw145ba/20180811a/images/20180811a-3.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180811a
+  * Graph of 20180811a experiment. Testing red coax
+  * ./include/images/kretzaw145ba/20180811a/images/20180811a-3.jpg
+* __/include/images/kretzaw145ba/20180811a/images/detail_20180811a-3-100-125-line0.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/images/kretzaw145ba/20180811a/images/detail_20180811a-3-100-125-line0.jpg
+* __/include/images/kretzaw145ba/20180811a/images/detail_20180811a-6-100-125-line0.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/images/kretzaw145ba/20180811a/images/detail_20180811a-6-100-125-line0.jpg
+* __/include/images/kretzaw145ba/20180811a/images/detail_20180811a-1-100-125-line0.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/images/kretzaw145ba/20180811a/images/detail_20180811a-1-100-125-line0.jpg
+* __/include/images/kretzaw145ba/20180811a/images/detail_20180811a-4-100-125-line0.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/images/kretzaw145ba/20180811a/images/detail_20180811a-4-100-125-line0.jpg
+* __/include/images/kretzaw145ba/20180811a/images/20180811a-2.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180811a
+  * Graph of 20180811a experiment. Testing white coax
+  * ./include/images/kretzaw145ba/20180811a/images/20180811a-2.jpg
+* __/include/images/kretzaw145ba/20180811a/images/20180811a-4.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180811a
+  * Graph of 20180811a experiment. Testing red coax
+  * ./include/images/kretzaw145ba/20180811a/images/20180811a-4.jpg
+* __/include/images/kretzaw145ba/20180811a/images/20180811a-1.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180811a
+  * Graph of 20180811a experiment. Testing white coax
+  * ./include/images/kretzaw145ba/20180811a/images/20180811a-1.jpg
+* __/include/images/kretzaw145ba/20180811a/images/detail_20180811a-7-100-125-line0.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/images/kretzaw145ba/20180811a/images/detail_20180811a-7-100-125-line0.jpg
+* __/include/images/kretzaw145ba/20180811a/images/20180811a-5.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180811a
+  * Graph of 20180811a experiment. Testing red coax
+  * ./include/images/kretzaw145ba/20180811a/images/20180811a-5.jpg
+* __/include/images/kretzaw145ba/20180811a/images/20180811a-7.jpg__:
+  * kelu124
+  * matty,cletus
+  * graph
+  * 20180811a
+  * Graph of 20180811a experiment. Testing yellow coax
+  * ./include/images/kretzaw145ba/20180811a/images/20180811a-7.jpg
+* __/include/images/kretzaw145ba/20180811a/images/detail_20180811a-2-100-125-line0.jpg__:
+  * kelu124
+  * ToTag
+  * picture
+  * ToTag
+  * ToTag
+  * ./include/images/kretzaw145ba/20180811a/images/detail_20180811a-2-100-125-line0.jpg
 * __/include/images/articles/54a1d43b7d8a4d0d878fc21830c4df46.jpg__:
   * kelu124
   * ToTag
@@ -3471,6 +3625,41 @@
   * 20180809b
   * ausonic 7.5MHz probe
   * ./include/images/ausonics75/P_20180809_193102.jpg
+* __/include/images/atladrict/P_20180811_201302.jpg__:
+  * kelu124
+  * atlidrict
+  * hacking
+  * ToTag
+  * Exploring the innards of a atlidrict probe
+  * ./include/images/atladrict/P_20180811_201302.jpg
+* __/include/images/atladrict/P_20180811_201237.jpg__:
+  * kelu124
+  * atlidrict
+  * hacking
+  * ToTag
+  * Exploring the innards of a atlidrict probe
+  * ./include/images/atladrict/P_20180811_201237.jpg
+* __/include/images/atladrict/P_20180811_201314.jpg__:
+  * kelu124
+  * atlidrict
+  * hacking
+  * ToTag
+  * Exploring the innards of a atlidrict probe
+  * ./include/images/atladrict/P_20180811_201314.jpg
+* __/include/images/atladrict/P_20180811_201229.jpg__:
+  * kelu124
+  * atlidrict
+  * hacking
+  * ToTag
+  * Exploring the innards of a atlidrict probe
+  * ./include/images/atladrict/P_20180811_201229.jpg
+* __/include/images/atladrict/P_20180811_201232.jpg__:
+  * kelu124
+  * atlidrict
+  * hacking
+  * ToTag
+  * Exploring the innards of a atlidrict probe
+  * ./include/images/atladrict/P_20180811_201232.jpg
 * __/include/images/ADR/P_20180807_213138.jpg__:
   * kelu124
   * adrus

@@ -64,6 +64,8 @@
 * [20180210_jt_fast_batch.ipynb](/include/community/Felix/20180208/20180210_jt_fast_batch.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180103-Felix.ipynb](/include/community/Felix/20180103a/20180103-Felix.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170831-TestImages.ipynb](/include/images/20170831-TestImages.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20180811a-Server.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180811a.md`](/include/experiments/auto/20180811a.md).
+* [20180811a-Processing.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180811b.md`](/include/experiments/auto/20180811b.md), [`/include/experiments/auto/20180811a.md`](/include/experiments/auto/20180811a.md).
 * [20170702-TestATLDuinoTerface.ipynb](/retroATL3/data/20170702-TestATLDuinoTerface.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 

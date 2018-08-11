@@ -407,6 +407,8 @@
 
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md):  . _File not used._
 
+* [./include/images/kretzaw145ba/20180811b/Readme.md](/include/images/kretzaw145ba/20180811b/Readme.md):  . File used in: [`exp/Code_20180811b.md`](exp/Code_20180811b.md), [`exp/20180811b.md`](exp/20180811b.md).
+
 * [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . File used in: [`exp/Code_20180809a.md`](exp/Code_20180809a.md), [`exp/20180809a.md`](exp/20180809a.md).
 
 * [./include/images/ausonics75/20180809b/Readme.md](/include/images/ausonics75/20180809b/Readme.md):  . File used in: [`exp/20180809b.md`](exp/20180809b.md).
@@ -697,6 +699,8 @@
 * [20180210_jt_fast_batch.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180210_jt_fast_batch.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180103-Felix.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180103-Felix.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170831-TestImages.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170831-TestImages.html). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20180811a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180811a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/20180811a.md`](exp/20180811a.md).
+* [20180811a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180811a-Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/20180811b.md`](exp/20180811b.md), [`exp/20180811a.md`](exp/20180811a.md).
 * [20170702-TestATLDuinoTerface.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170702-TestATLDuinoTerface.html). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 ## Python files
@@ -813,13 +817,19 @@
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/20180506a.md`](exp/20180506a.md).
 
-* [mkimg.py](/include/images/kretzaw145ba/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/20180506a.md`](exp/20180506a.md).
+* [mkimg.py](/include/images/kretzaw145ba/20180811b/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180811b.md`](exp/Code_20180811b.md), [`exp/20180811b.md`](exp/20180811b.md), [`exp/20180506a.md`](exp/20180506a.md).
+
+* [pyUn0.py](/include/images/kretzaw145ba/20180811a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [mkimg.py](/include/images/ausonics75/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/20180506a.md`](exp/20180506a.md), [`exp/20180809b.md`](exp/20180809b.md).
+
+* [mkimg.py](/include/images/atladrict/mkimg.py): Autotagging images for the `Test` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [mkimg.py](/include/images/ADR/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/20180506a.md`](exp/20180506a.md).
 
 * [BitscopeAcquisitionScript.py](/retroATL3/software/BitscopeAcquisitionScript.py): BitLib 2.0 Capture Device Report Generator (Python). File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+
 
 
 
@@ -897,7 +907,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 352 Auto generated files
+## 362 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
@@ -928,6 +938,7 @@
 * ./include/experiments/Desc_20180217a.md
 * ./include/experiments/Desc_20180511a.md
 * ./include/experiments/Desc_20160822a.md
+* ./include/experiments/Desc_20180811b.md
 * ./include/experiments/Desc_20180403t.md
 * ./include/experiments/Desc_20180310a.md
 * ./include/experiments/Desc_20180809b.md
@@ -940,6 +951,7 @@
 * ./include/experiments/Desc_20180807b.md
 * ./include/experiments/Desc_20180415a.md
 * ./include/experiments/Desc_20180809a.md
+* ./include/experiments/Desc_20180811a.md
 * ./include/experiments/Desc_20180430a.md
 * ./include/experiments/Desc_20180224a.md
 * ./include/experiments/Desc_20180721a.md
@@ -969,6 +981,7 @@
 * .exp/20180225a.md
 * .exp/Mod_20171112a.md
 * .exp/Img_20180511a.md
+* .exp/Img_20180811b.md
 * .exp/Img_20180217a.md
 * .exp/Code_20180417a.md
 * .exp/Code_20180430a.md
@@ -989,14 +1002,17 @@
 * .exp/20171001b.md
 * .exp/20160809a.md
 * .exp/Mod_20180115a.md
+* .exp/Code_20180811b.md
 * .exp/Img_20180417a.md
 * .exp/Mod_20180224b.md
 * .exp/Mod_20180516a.md
 * .exp/Img_20180403t.md
 * .exp/Mod_20180225a.md
 * .exp/20180403a.md
+* .exp/20180811b.md
 * .exp/20180415a.md
 * .exp/Img_20180115a.md
+* .exp/20180811a.md
 * .exp/20180721a.md
 * .exp/Img_20161217a.md
 * .exp/Mod_20171001b.md
@@ -1036,12 +1052,14 @@
 * .exp/Code_20180807b.md
 * .exp/Mod_20170713a.md
 * .exp/20180403t.md
+* .exp/Code_20180811a.md
 * .exp/Mod_20180721a.md
 * .exp/Code_20180809b.md
 * .exp/Mod_20180807b.md
 * .exp/Code_20160809a.md
 * .exp/Mod_20161217a.md
 * .exp/Code_20180721a.md
+* .exp/Mod_20180811b.md
 * .exp/Img_20180310a.md
 * .exp/Img_20180807b.md
 * .exp/Img_20180225a.md
@@ -1055,6 +1073,7 @@
 * .exp/Img_20180224a.md
 * .exp/Mod_20170715a.md
 * .exp/Img_20170715a.md
+* .exp/Img_20180811a.md
 * .exp/Img_20180506a.md
 * .exp/Code_20170611a.md
 * .exp/Img_20170713a.md
@@ -1092,6 +1111,7 @@
 * .exp/20180103a.md
 * .exp/20160822a.md
 * .exp/Code_20170713a.md
+* .exp/Mod_20180811a.md
 * .exp/Img_20171112a.md
 * .exp/Mod_20160809a.md
 * .exp/Img_20160809a.md

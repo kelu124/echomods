@@ -48,3 +48,8 @@
 * smalldesc:an ausonic 7.5MHz probe
 * longdesc:an ausonic 7.5MHz probe
 
+# atlidrict
+* code:atlidrict
+* smalldesc:an atlidrict 7.5MHz / 6.4mm probe
+* longdesc:an atlidrict 7.5MHz / 6.4mm probe
+

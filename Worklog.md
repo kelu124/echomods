@@ -3037,6 +3037,11 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * Ongoing work with collecting bibliography
 * https://my.ncl.ac.uk/staff/nuconnections/item/low-cost-design-makes-ultrasound-imaging-affordable-to-the-world1
 
+#### 2018-07-21 Contacts ?
+
+* @todo try and get to artsens
+
+
 =======
 
 uControllers and other stuff
