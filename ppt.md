@@ -154,6 +154,7 @@ _Total cost of the set: 443$_
  * 2018-08-09: [Ausonics 7.5MHz probe](/include/experiments/auto/20180809b.md): Getting in a Ausonics 7.5MHz probe _(20180809b)_
  * 2018-08-11: [Kretz-Echo](/include/experiments/auto/20180811a.md): Find echoes on a kretzaw145ba probe _(20180811a)_
  * 2018-08-11: [Kretz-Motors](/include/experiments/auto/20180811b.md): Finding the motors on a kretzaw145ba probe _(20180811b)_
+ * [20180812a](/include/experiments/auto/20180812a.md)
 
 # Progress
  

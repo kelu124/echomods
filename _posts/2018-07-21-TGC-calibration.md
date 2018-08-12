@@ -12,5 +12,3 @@ title: 2018-07-21 TGC calibration
 -   Ongoing work with collecting bibliography
 -   https://my.ncl.ac.uk/staff/nuconnections/item/low-cost-design-makes-ultrasound-imaging-affordable-to-the-world1
 
-=======
-
