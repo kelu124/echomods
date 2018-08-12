@@ -152,18 +152,21 @@ class us_spi:
 	# Setup functions
 	#----------------
 
+	def SetNLines(self,NLines):
+	    self.WriteFPGA(0xEE,NLines)
+
 	def ConfigSPI(self):
 	    # Setup FPGA values by default
-	    self.setPon(200)              # Set PulseOn
-	    self.setPulsesDelay(100)      # Set Lengh between Pon and Poff: 100ns
-	    self.setPoff(2000)            # Setting Poff 2us
+	    self.setPon(200)          # Set PulseOn
+	    self.setPulsesDelay(100)  # Set Lengh between Pon and Poff: 100ns
+	    self.setPoff(2000)        # Setting Poff 2us
 	    #setDACConstant(20,spi)   # gain at 20mV (2%)
-	    self.WriteFPGA(0xEC,0x33) # 33 acquisitions
+	    self.WriteFPGA(0xEC,0x33) # Set DAC constant
 	    self.setDeltaAcq(7000)    # 7us
-	    #WriteFPGA(0xEA,0x00) # Software Trig : As to be clear by software
+	    #WriteFPGA(0xEA,0x00)     # Software Trig : As to be clear by software
 	    self.WriteFPGA(0xEB,0x00) # 0: single mode 1 continious mode
 	    self.WriteFPGA(0xED,0x03) # Frequency of ADC acquisition / sEEADC_freq (3 = 16Msps, 1 = 32, 0 = 64, 2 = 21Msps)
-	    self.WriteFPGA(0xEE,0xA0) # How many cycles in countinious mode
+	    self.SetNLines(0xA0)      # How many cycles in countinious mode
 	    print "Config FPGA done!"
 
 	def setDACConstant(self,mV):
@@ -230,7 +233,7 @@ class us_spi:
 	    return hDA*10
 
 	def SetLengthAcq(self,LAcqI):
-	    LAcq = LAcqI /10
+	    LAcq = (LAcqI*128/1000)
 	    #print LAcq,hex(LAcq),hex(LAcqI)
 	    self.JSON["parameters"]["LengthAcq"] = int(LAcqI)
 	    self.JSON["parameters"]["LengthAcq_Real"] = int(LAcq)
