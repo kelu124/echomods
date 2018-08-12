@@ -72,6 +72,9 @@ Loved Nasa: add to un0rick
 * article un0rick article and pics
  * add the MSAS principles to the un0rick article
 * try and get to artsens
+ * followup on 720, 724, AUSONICS
+ * document ATL Apogee Ultrasound, ATL ADR 5.5 MHz / 7 mm
+* get in touch wuith this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
 
 
 

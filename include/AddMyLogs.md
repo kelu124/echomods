@@ -2908,6 +2908,39 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * Ongoing work with collecting bibliography
 * https://my.ncl.ac.uk/staff/nuconnections/item/low-cost-design-makes-ultrasound-imaging-affordable-to-the-world1
 
+#### 2018-07-21 Contacts 
+
+* @todo try and get to artsens
+
+#### 2018-08-05 Phase II
+
+-   Nine Chains to the Moon
+-   Pile of notebooks on the desk & Cleaning flat
+-   Making progress with benchmarks
+
+#### 2018-08-06 pyUn0 lib
+
+* check https://packaging.python.org/tutorials/packaging-projects/ for testing libs
+* Possibly this :
+  * https://ajminich.com/2013/06/22/how-to-easily-import-your-own-python-packages/
+  * or add a custom path to the lib
+  * https://stackoverflow.com/questions/37516579/importing-user-defined-modules-in-python-from-a-directory
+  * Interesting [SimpleRick fork](https://hackaday.io/project/160196-simplerick) or see [the image here](/include/community/wmeng/simplerick.png).
+* Having a go on babay at a "ATL 720A", and two unspecified 5 and 10MHz probes.
+  * 720 for the "ATL MK-300I" .. and 724
+  * @todo followup on 720, 724, AUSONICS
+  * @todo document ATL Apogee Ultrasound, ATL ADR 5.5 MHz / 7 mm
+* Ultrasound Transducer Probe for UM-4 (7081)
+
+#### 2018-08-11 Other probes
+
+* Tried to do some more work on [steppers](/include/images/kretzaw145ba/20180811b/Readme.md)
+* [Done finding echoes on a kretz probe](/include/images/kretzaw145ba/20180811a/Readme.md)
+
+#### 2018-08-12 A nice toshiba teardown
+
+* @todo get in touch wuith this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
+
 =======
 
 

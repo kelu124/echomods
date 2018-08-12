@@ -7,12 +7,6 @@
 # Experiments
 
 * [20180809b](/include/experiments/auto/20180809b.md)
-* [20170715a](/include/experiments/auto/20170715a.md)
-* [20180807b](/include/experiments/auto/20180807b.md)
-* [20180807a](/include/experiments/auto/20180807a.md)
-* [20160822a](/include/experiments/auto/20160822a.md)
-* [20180809a](/include/experiments/auto/20180809a.md)
-* [20171112a](/include/experiments/auto/20171112a.md)
 # Images
 
 ![](/include/images/ausonics75/P_20180809_192257.jpg)

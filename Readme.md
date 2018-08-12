@@ -174,6 +174,7 @@ The diagram is represented below:
  * 2018-08-09: [Ausonics 7.5MHz probe](/include/experiments/auto/20180809b.md): Getting in a Ausonics 7.5MHz probe _(20180809b)_
  * 2018-08-11: [Kretz-Echo](/include/experiments/auto/20180811a.md): Find echoes on a kretzaw145ba probe _(20180811a)_
  * 2018-08-11: [Kretz-Motors](/include/experiments/auto/20180811b.md): Finding the motors on a kretzaw145ba probe _(20180811b)_
+ * [20180812a](/include/experiments/auto/20180812a.md)
 
 
 # Progress on building the modules 
@@ -271,6 +272,9 @@ Loved Nasa: add to un0rick
 * article un0rick article and pics
  * add the MSAS principles to the un0rick article
 * try and get to artsens
+ * followup on 720, 724, AUSONICS
+ * document ATL Apogee Ultrasound, ATL ADR 5.5 MHz / 7 mm
+* get in touch wuith this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
 
 
 

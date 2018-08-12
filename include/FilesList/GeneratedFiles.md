@@ -45,6 +45,7 @@
 * ./include/experiments/Desc_20180224a.md
 * ./include/experiments/Desc_20180721a.md
 * ./include/experiments/Desc_20180415r.md
+* ./include/experiments/Desc_20180812a.md
 * ./include/experiments/Desc_20171111a.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20180506a.md
@@ -70,8 +71,10 @@
 * ./include/experiments/auto/20180225a.md
 * ./include/experiments/auto/Mod_20171112a.md
 * ./include/experiments/auto/Img_20180511a.md
+* ./include/experiments/auto/20180812a.md
 * ./include/experiments/auto/Img_20180811b.md
 * ./include/experiments/auto/Img_20180217a.md
+* ./include/experiments/auto/Mod_20180812a.md
 * ./include/experiments/auto/Code_20180417a.md
 * ./include/experiments/auto/Code_20180430a.md
 * ./include/experiments/auto/Mod_20180620a.md
@@ -168,6 +171,7 @@
 * ./include/experiments/auto/Img_20170713a.md
 * ./include/experiments/auto/20180417a.md
 * ./include/experiments/auto/Img_20180809b.md
+* ./include/experiments/auto/Img_20180812a.md
 * ./include/experiments/auto/Code_20171001b.md
 * ./include/experiments/auto/Code_20171124a.md
 * ./include/experiments/auto/20180310a.md
@@ -185,6 +189,7 @@
 * ./include/experiments/auto/20180415r.md
 * ./include/experiments/auto/20170611a.md
 * ./include/experiments/auto/Code_20180807a.md
+* ./include/experiments/auto/Code_20180812a.md
 * ./include/experiments/auto/Code_20180224b.md
 * ./include/experiments/auto/Mod_20180807a.md
 * ./include/experiments/auto/20161217a.md
@@ -213,6 +218,7 @@
 * ./include/experiments/auto/Img_20160822a.md
 * ./include/probes/auto/kretzaw145ba.md
 * ./include/probes/auto/s3.md
+* ./include/probes/auto/atlidrict.md
 * ./include/probes/auto/ausonics75.md
 * ./include/probes/auto/retroATL3.md
 * ./include/probes/auto/uprobe1.md
@@ -259,6 +265,7 @@
 * ./gitbook/Chapter5/loops.md
 * ./gitbook/probes/kretzaw145ba.md
 * ./gitbook/probes/s3.md
+* ./gitbook/probes/atlidrict.md
 * ./gitbook/probes/ausonics75.md
 * ./gitbook/probes/retroATL3.md
 * ./gitbook/probes/uprobe1.md
@@ -326,10 +333,14 @@
 * ./gitbook/exp/20180115a.md
 * ./gitbook/exp/20180403b.md
 * ./gitbook/exp/20180225a.md
+* ./gitbook/exp/20180812a.md
 * ./gitbook/exp/20171001b.md
+* ./gitbook/exp/2018012a.md
 * ./gitbook/exp/20160809a.md
 * ./gitbook/exp/20180403a.md
+* ./gitbook/exp/20180811b.md
 * ./gitbook/exp/20180415a.md
+* ./gitbook/exp/20180811a.md
 * ./gitbook/exp/20180721a.md
 * ./gitbook/exp/20171111a.md
 * ./gitbook/exp/20180217a.md
