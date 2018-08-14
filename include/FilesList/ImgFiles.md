@@ -342,6 +342,27 @@
   * ToTag
   * ToTag
   * ./doj/images/20170508_192840.jpg
+* __/matty/20180813a/images/20180813a-14-all.jpg__:
+  * kelu124
+  * piezo,matty
+  * graph
+  * 20180813a
+  * Testing some parameters in the firmware
+  * ./matty/20180813a/images/20180813a-14-all.jpg
+* __/matty/20180813a/images/20180813a-14.jpg__:
+  * kelu124
+  * piezo,matty
+  * graph
+  * 20180813a
+  * Testing some parameters in the firmware
+  * ./matty/20180813a/images/20180813a-14.jpg
+* __/matty/20180813a/images/20180813a-17-all.jpg__:
+  * kelu124
+  * piezo,matty
+  * graph
+  * 20180813a
+  * Testing some parameters in the firmware
+  * ./matty/20180813a/images/20180813a-17-all.jpg
 * __/matty/20180224a/images/y18-VGA@0x11-spimode1-12msps.jpg__:
   * kelu124
   * matty
@@ -951,6 +972,34 @@
   * 20180225a
   * Setup of the experiment
   * ./matty/20180225a/IMG_20180225_184226.jpg
+* __/matty/20180814a/128Msps_20180813a-9-fft.jpg__:
+  * kelu124
+  * piezo,matty
+  * graph
+  * 20180814a
+  * Testing a tentative acquisition at 128Msps by interleaving two acquisitions
+  * ./matty/20180814a/128Msps_20180813a-9-fft.jpg
+* __/matty/20180814a/128Msps_20180813a-9-detail.jpg__:
+  * kelu124
+  * piezo,matty
+  * graph
+  * 20180814a
+  * Testing a tentative acquisition at 128Msps by interleaving two acquisitions
+  * ./matty/20180814a/128Msps_20180813a-9-detail.jpg
+* __/matty/20180814a/images/20180813a-8.jpg__:
+  * kelu124
+  * piezo,matty
+  * graph
+  * 20180814a
+  * Testing a tentative acquisition at 128Msps by interleaving two acquisitions
+  * ./matty/20180814a/images/20180813a-8.jpg
+* __/matty/20180814a/images/20180813a-9.jpg__:
+  * kelu124
+  * piezo,matty
+  * graph
+  * 20180814a
+  * Testing a tentative acquisition at 128Msps by interleaving two acquisitions
+  * ./matty/20180814a/images/20180813a-9.jpg
 * __/matty/20180511a/env_alt1_24.jpg__:
   * kelu124
   * matty,cletus
@@ -7167,6 +7216,27 @@
   * ToTag
   * ToTag
   * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180813a-Processing_files/20180813a-Processing_2_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180813a-Processing_files/20180813a-Processing_1_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180813a-Processing_files/20180813a-Processing_9_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
 * __/gitbook/notebooks/20180430a-Client_files/20180430a-Client_13_0.png__:
   * kelu124
   * goblin
@@ -7385,6 +7455,34 @@
   * ToTag
   * ./goblin/images/module/schematics.png
 * __/gitbook/notebooks/20180317a-Loops_files/20180317a-Loops_3_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180813a-Server_files/20180813a-Server_9_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180813a-Server_files/20180813a-Server_7_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180813a-Server_files/20180813a-Server_6_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180813a-Server_files/20180813a-Server_8_1.png__:
   * kelu124
   * goblin
   * ToTag
@@ -9261,6 +9359,27 @@
   * ToTag
   * ./goblin/images/module/schematics.png
 * __/gitbook/notebooks/20171112-alt.tbo-w-retro2_files/20171112-alt.tbo-w-retro2_4_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180814a-Server_files/20180814a-Server_7_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180814a-Server_files/20180814a-Server_11_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180814a-Server_files/20180814a-Server_9_0.png__:
   * kelu124
   * goblin
   * ToTag

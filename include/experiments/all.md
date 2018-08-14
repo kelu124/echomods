@@ -37,6 +37,7 @@
 * 20180809b: Ausonics 7.5MHz probe: Getting in a Ausonics 7.5MHz probe
 * 20180811a: Kretz-Echo: Find echoes on a kretzaw145ba probe
 * 20180811b: Kretz-Motors: Finding the motors on a kretzaw145ba probe
-
-
-.
+* 20180811b: Kretz-Motors: Finding the motors on a kretzaw145ba probe
+* 20180812a: KretzImage: Getting an image with a kretz AW14/5B/A ultrasound probe 
+* 20180813a: pyUn0 lib glitches: Experiment to capture glitches. Now captured (bugs with timing), pending is increasing NCycles above a 8 bit count. 
+* 20180814a: Reaching 128msps: Trying to experiment getting 128Msps 
