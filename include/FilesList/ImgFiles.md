@@ -6775,6 +6775,13 @@
   * ToTag
   * ToTag
   * ./include/community/wmeng/simplerick.png
+* __/include/community/Tomek/tomek.png__:
+  * Tomek
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Tomek/tomek.png
 * __/include/community/Afreen/ending.png__:
   * Afreen
   * ToTag

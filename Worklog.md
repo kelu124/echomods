@@ -3070,6 +3070,16 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 * @todo get in touch wuith this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
 
+#### 2018-08-14 128Msps and beyond
+
+* Breaking the [128Msps wall](/include/experiments/auto/20180814a.md)
+* Improving the lib, removing some glitches
+* remains a glitch being the number of cycles below 8 bits !
+
+#### 2018-08-19 Some hv design
+
+* Proposed by [Tomek](/include/community/tomek/): use a HV9110. " Ref is High Voltage DC/DC Converter for  Supertex Ultrasound Transmitter Demoboards"
+
 =======
 
 uControllers and other stuff
