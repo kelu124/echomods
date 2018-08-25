@@ -269,58 +269,22 @@ Here's a couple of things we're working on, for which you could help as well.
 
 
 ### Todos from worklog
-* add Visa, possibly Pouya and Thomas as contributors
-* map interested (green) 
 * Add a documentation server
 * Display IP on the OLED.
-* Need to have a look at this RPI GPIO DMA - https://github.com/hzeller/rpi-gpio-dma-demo
-* Include some cletus remarks (sourcing) on gitbook
-* add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
-* remove gitbook MD files from the log
-* link to files in the log (python)
-* Main readme as TPL
 * test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
 * _senjak_ 15:07 In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself -- https://github.com/ESultanik/PDFGitPolyglot/blob/master/make_polyglot.sh
-* 20171111a and 20171112b Readmes
-* impedance matching -- [see more](/include/impedance/ipm.pdf) -- Butterworth-Van-Dyke or [here](https://electronics.stackexchange.com/questions/245915/picking-source-resistance-for-impedance-matching). [Tuning Filter](https://i.stack.imgur.com/96XMb.png).
-* list other initiatives
 * classifier articles with link Article: =)
 * a page sumarizing the experiments (as in the __Experiments__ page in the gitbook)
-* Brainstorm for @senjak information design:
 * un0rick site to have plenty of stuff
- * Publish first drafts on un0rick GH / GH-pages / gitbook
-* create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
 * use [General Design Procedure for Free and Open-Source Hardware for Scientific Equipment](http://www.mdpi.com/2411-9660/2/1/2/htm) as a reference
-* compare [old pulser](/retired/alt.tbo/20171111a/20171111-pulses.ipynb) (pulser) and [new acs](/matty/20180224b/20180221b-Client.ipynb) for matty readme
  * for matty [Rip this intro?](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
-* clean all repos for a v2 release of modules 
  * decrypt the connector =)
- * Script to check IMGs URL matches path
- * reorganise
 Loved Nasa: add to un0rick
-* change path of images when they have changed
-* Create detailed pages for the community in the gitbook
-* Create detailed pages for each probe [I've played with](/include/probes/Readme.md) in the gitbook
-* add dp location
-* listing experiments of others
-* before reclean full repo, create release "Full Dev Resources" and get corresponding version (v1.9 + hash)!
- * : Add Full GitBook PDF to it before
-* Sort the list of experiments, shortnames in SUMMARY
 * Community: list the contributors in a page + add the experiment. Individual page to point to experiment.
 * Page on documentation
 * Edit [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html) page to add Matty.
 * Rewrite the Chapters Readme -> "This chapter is dedicated to the brain_dumps "
-* Do a Doj (LOW PRIORITY)
-* Redo a usable alt.tbo (LOW PRIORITY)
-* Clean Modules list (keep lite.tbo, goblin, cletus, doj, elmo, matty) + add "CNprobe"
- * Make 7 clean QuickStarts for remaining modules // copy them on Tindie.
- * Get "ShortNames" in JSON
-* Put alt.tbo, tobo, loftus, tomtom, croaker, retroATL3 and wirephantom in retired modules + add "PU3090" phantoms in retired
-* Remove sets in doc
-* Remake homepage in autodoc
-* Clean obsolete versions in repos
 * contact the [author](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f) !
-* Resume work on article - [Draft is here](/matty/article/matty_article.md)
 * contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)
 * add Anna and Matthew to users list
  * idea for the ultrasound phat : QuietShark (see https://twitter.com/Dymaxion/status/962385327599112193?s=19 )
