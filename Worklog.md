@@ -3055,9 +3055,9 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * or add a custom path to the lib
   * https://stackoverflow.com/questions/37516579/importing-user-defined-modules-in-python-from-a-directory
   * Interesting [SimpleRick fork](https://hackaday.io/project/160196-simplerick) or see [the image here](/include/community/wmeng/simplerick.png).
-* Having a go on babay at a "ATL 720A", and two unspecified 5 and 10MHz probes.
+* @todo ebay Follow up Having a go on babay at a "ATL 720A", and two unspecified 5 and 10MHz probes.
   * 720 for the "ATL MK-300I" .. and 724
-  * @todo followup on 720, 724, AUSONICS
+  * @todo ebay followup on 720, 724, AUSONICS
   * @todo document ATL Apogee Ultrasound, ATL ADR 5.5 MHz / 7 mm
 * Ultrasound Transducer Probe for UM-4 (7081)
 
@@ -3068,7 +3068,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-08-12 A nice toshiba teardown
 
-* @todo get in touch wuith this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
+* @todo get in touch with this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
 
 #### 2018-08-14 128Msps and beyond
 
@@ -3079,6 +3079,30 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 #### 2018-08-19 Some hv design
 
 * Proposed by [Tomek](/include/community/tomek/): use a HV9110. " Ref is High Voltage DC/DC Converter for  Supertex Ultrasound Transmitter Demoboards"
+
+#### 2018-08-20 Some shopping
+
+* @todo ebay Followup on  the DIASONICS C PROBE FREQUENCY 10 MHZ P/N 100-1071-00 S/N 1466 
+* hv check out http://www.analog.com/media/en/technical-documentation/application-notes/an118fb.pdf
+* or https://www.maximintegrated.com/en/app-notes/index.mvp/id/1751
+  * @todo use MAX5025 to test a HV runner ?
+  * http://www.analog.com/en/products/lt8710.html
+* RPi + ice40 : https://hackaday.io/project/7982-cat-board/log/46117-it-just-keeps-getting-easier
+
+#### 2018-08-20 Got 724A
+
+* Trying to get some connectors
+* [Some intel](/include/724A/724A_notes.md) make me think that's a duplex probe for MK300, MK450 or MK600. Preliminary tests show a stepper motor.
+
+#### 2018-08-23 Updated workplan 
+
+* Wait for ATL plug
+* Get VHDL code
+* Push updated code, including 
+* Test probes 
+* identify motor + compteurs
+
+
 
 =======
 

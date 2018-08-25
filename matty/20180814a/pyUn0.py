@@ -428,7 +428,8 @@ class us_json:
             
             self.description = d["experiment"]["description"]
             self.piezo = d["experiment"]["probe"]
-
+            self.time = d["time"] 
+    
             A = d["data"] 
             #print d.keys()
             for i in range(len(A)/2-1):
@@ -447,9 +448,13 @@ class us_json:
                     TT2.append( (A[2*i+1] & 0b00010000) / 0b10000)
                     tmp.append( 2.0*value/512.0 )
             print "Data acquired"
+            self.Registers = d["registers"]
+            self.timings = d["timings"]
             self.f = float(64/((1.0+int( d["registers"]["237"] ) )))
-            t = [ 1.0*x/self.f  for x in range(len(tmp))]
+            
+            t = [ 1.0*x/self.f + self.timings['t4']  for x in range(len(tmp))]
             self.t = t
+            
             for i in range(len(IDLine)):
                 if IDLine[i] < 0:
                     IDLine[i] = 0
@@ -463,8 +468,7 @@ class us_json:
             self.Nacq = d["timings"]["NLines"]
             self.len_acq = len(self.t)
             self.len_line = self.len_acq#/self.Nacq
-            self.Registers = d["registers"]
-            self.timings = d["timings"]
+
 
             # Precising the DAC
             REG = [int(x) for x in d["registers"].keys() if int(x) < 100]
@@ -474,12 +478,13 @@ class us_json:
                 dac.append(d["registers"][str(k)])
             # Building the DAC timeline
             tdac = []
-            for pts in t[0:self.len_line]:
+            for pts in t[0:self.len_line]: # @todo -> corriger pour avoir une ligne de 200us
                 i = int(pts/5.0) # time in us
 		try:
 			tdac.append(4.0*d["registers"][str(i+16)])
 		except:
 			tdac.append(-1)
+            
             # Updating the JSON
             self.tdac = tdac
             self.tmp = tmp

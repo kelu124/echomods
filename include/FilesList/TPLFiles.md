@@ -6,6 +6,8 @@
 
 * [20180216a.md.tpl](/include/experiments/auto/20180216a.md.tpl): ./include/experiments/auto/20180216a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
+* [20180825a.md.tpl](/include/experiments/auto/20180825a.md.tpl): ./include/experiments/auto/20180825a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+
 * [20180403t.md.tpl](/include/experiments/auto/20180403t.md.tpl): ./include/experiments/auto/20180403t.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 * [20161217a.md.tpl](/include/experiments/auto/20161217a.md.tpl): ./include/experiments/auto/20161217a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).

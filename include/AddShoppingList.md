@@ -72,9 +72,12 @@ Loved Nasa: add to un0rick
 * article un0rick article and pics
  * add the MSAS principles to the un0rick article
 * try and get to artsens
- * followup on 720, 724, AUSONICS
+* ebay Follow up Having a go on babay at a "ATL 720A", and two unspecified 5 and 10MHz probes.
+ * ebay followup on 720, 724, AUSONICS
  * document ATL Apogee Ultrasound, ATL ADR 5.5 MHz / 7 mm
-* get in touch wuith this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
+* get in touch with this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
+* ebay Followup on the DIASONICS C PROBE FREQUENCY 10 MHZ P/N 100-1071-00 S/N 1466 
+ * use MAX5025 to test a HV runner ?
 
 
 

@@ -177,6 +177,7 @@ The diagram is represented below:
  * 2018-08-12: [KretzImage](/include/experiments/auto/20180812a.md): Getting an image with a kretz AW14/5B/A ultrasound probe _(20180812a)_
  * 2018-08-13: [pyUn0 lib glitches](/include/experiments/auto/20180813a.md): Experiment to capture glitches. Now captured (bugs with timing), pending is increasing NCycles above a 8 bit count. _(20180813a)_
  * 2018-08-14: [Reaching 128msps](/include/experiments/auto/20180814a.md): Trying to experiment getting 128Msps _(20180814a)_
+ * [20180825a](/include/experiments/auto/20180825a.md)
 
 
 # Progress on building the modules 
@@ -274,9 +275,12 @@ Loved Nasa: add to un0rick
 * article un0rick article and pics
  * add the MSAS principles to the un0rick article
 * try and get to artsens
- * followup on 720, 724, AUSONICS
+* ebay Follow up Having a go on babay at a "ATL 720A", and two unspecified 5 and 10MHz probes.
+ * ebay followup on 720, 724, AUSONICS
  * document ATL Apogee Ultrasound, ATL ADR 5.5 MHz / 7 mm
-* get in touch wuith this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
+* get in touch with this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
+* ebay Followup on the DIASONICS C PROBE FREQUENCY 10 MHZ P/N 100-1071-00 S/N 1466 
+ * use MAX5025 to test a HV runner ?
 
 
 
