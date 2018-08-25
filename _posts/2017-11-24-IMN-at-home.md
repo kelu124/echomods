@@ -12,7 +12,7 @@ title: 2017-11-24 IMN at home
 -   Cloud9 on a RPi:
 -   https://habilisbest.com/installing-cloud-9-on-your-raspberry-pi
 -   https://www.siaris.net/post/cloud9/
--   @todo list other initiatives
+-   @done list other initiatives
 -   https://www.matthewzwaan.com/project/ultrasound
 -   https://www.eetindia.co.in/news/article/shrinking-ultrasound-device-parts-to-single-chip
 -   Newcastle

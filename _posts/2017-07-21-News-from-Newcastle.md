@@ -30,8 +30,8 @@ title: 2017-07-21 News from Newcastle
 
 TODOs:
 
--   @todo remove gitbook MD files from the log
--   @todo link to files in the log (python)
+-   @done remove gitbook MD files from the log
+-   @done link to files in the log (python)
 -   @done put back good ino for pulser
 -   @done quickstart installs and tests (see Charles email)
 -   @done finish the [Word of Caution MD](/WordOfCaution.md)

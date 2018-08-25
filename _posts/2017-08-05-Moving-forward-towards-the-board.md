@@ -12,7 +12,7 @@ title: 2017-08-05 Moving forward towards the board
 -   @done Adding the descs for modules and power needs
 
 -   @done Removing double Autogen tags
--   @todo Main readme as TPL
+-   @done Main readme as TPL
 -   @cancelled DICOM rest of images
 
 -   @todo test some compressed sensing using [golay

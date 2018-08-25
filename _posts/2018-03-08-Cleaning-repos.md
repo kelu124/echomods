@@ -10,8 +10,8 @@ title: 2018-03-08 Cleaning repos
 -   Release v1.9: echOmods : legacy release
 -   clean broken links
 -   Release v2!
--   @todo Script to check IMGs URL matches path
--   @todo reorganise
+-   @done Script to check IMGs URL matches path
+-   @done reorganise
     -   keep v2s of elmo, gob, elmo, alt.tbo
     -   remove others in
     -   gitbook -&gt; Have a "Legacy" chapter

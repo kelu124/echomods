@@ -24,7 +24,7 @@ title: 2017-11-18 more veille on fpga
 -   http://www.greenteapress.com/thinkbayes/html/thinkbayes001.html for
     stats
 
--   @todo impedance matching -- [see more](/include/impedance/ipm.pdf)
+-   @done impedance matching -- [see more](/include/impedance/ipm.pdf)
     -- Butterworth-Van-Dyke or
     [here](https://electronics.stackexchange.com/questions/245915/picking-source-resistance-for-impedance-matching).
     [Tuning Filter](https://i.stack.imgur.com/96XMb.png).

@@ -13,8 +13,8 @@ title: 2017-05-13 Some new stuff
 -   Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear
     Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
 -   @done add Felix, Will + Jp, Charles, Md+Afreen
--   @todo add Visa, possibly Pouya and Thomas as contributors
--   @todo map interested (green)
+-   @done add Visa, possibly Pouya and Thomas as contributors
+-   @done map interested (green)
 -   @done map users (blue)
 -   @done add OSH license
 -   @done start an order for pulsers

@@ -29,7 +29,7 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce
     just genius. Interesting AFE at
     https://github.com/ColumbiaOpenSourceUltrasound/Analog\_Frontend .
 
--   @todo Brainstorm for @senjak information design:
+-   @done Brainstorm for @senjak information design:
 
 -   Main branch (on GH) - sync'ed from matty folder
     -   Presentation (on dmn.org as a static page)

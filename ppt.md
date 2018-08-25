@@ -98,7 +98,7 @@ _Total cost of the set: 443$_
 
  
 # Table Docs
-# A recap of our modules 
+# A recap of the modules 
 
 
 | ThumbnailImage | Name | In | Out |
@@ -157,7 +157,7 @@ _Total cost of the set: 443$_
  * 2018-08-12: [KretzImage](/include/experiments/auto/20180812a.md): Getting an image with a kretz AW14/5B/A ultrasound probe _(20180812a)_
  * 2018-08-13: [pyUn0 lib glitches](/include/experiments/auto/20180813a.md): Experiment to capture glitches. Now captured (bugs with timing), pending is increasing NCycles above a 8 bit count. _(20180813a)_
  * 2018-08-14: [Reaching 128msps](/include/experiments/auto/20180814a.md): Trying to experiment getting 128Msps _(20180814a)_
- * [20180825a](/include/experiments/auto/20180825a.md)
+ * 2018-08-25: [2D images building](/include/experiments/auto/20180825a.md): Testing new functions to unpack images (with N lines) _(20180825a)_
 
 # Progress
  

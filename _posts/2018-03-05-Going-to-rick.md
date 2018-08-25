@@ -24,7 +24,7 @@ title: 2018-03-05 Going to rick
 -   https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/
 -   https://media.consensys.net/a-visit-to-the-oracle-de9097d38b2f
 
--   @todo clean all repos for a v2 release of modules
+-   @done clean all repos for a v2 release of modules
 
 -   Elmo : OK!
 -   Alt.tbo
