@@ -380,12 +380,14 @@ AddStructure = getText("include/AddStructure.md")
 AddStructureDetails = getText("include/AddStructureDetails.md")
 AddShoppingList = getText("include/AdHocShoppingList.md")
 
+
+
 # -------------------------
 # Préparer un tableau de présentation
 # -------------------------
 
-TableModules = "# A recap of our modules \n\n\n"
-TableModulesShort = "# A recap of our modules \n\n\n"
+TableModules = "# A recap of the modules \n\n\n"
+TableModulesShort = "# A recap of the modules \n\n\n"
 
 TableModules += "| ThumbnailImage | Name | In | Out |\n|------|-------|----|------|\n"
 TableModulesShort += "| ThumbnailImage | Name | \n|------|-------| \n"
@@ -650,7 +652,14 @@ GraphModulesTxt += "![Graph](/include/sets/basic.png) \n\n"
 
 FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableModules+"\n\n"+GHList+"\n\n"+TableAvancement+TODOsToShopping+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
 
-OpenWrite(FinalDoc,"Readme.md")
+OpenWrite(GHList,"include/rmGHList.md")
+OpenWrite(TableRetiredDocTxt,"include/rmRetiredModules.md")
+OpenWrite(TODOsToShopping,"include/rmTODOsToShopping.md")
+OpenWrite(TableAvancement,"include/rmTableAvancement.md")
+
+OpenWrite(FinalDoc,"Readme.md.old")
+
+OpenWrite(FinalDoc,"Readme.md.old")
 
 # -------------------------
 # Create the slider

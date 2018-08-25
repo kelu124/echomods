@@ -1,4 +1,4 @@
-# A recap of our modules 
+# A recap of the modules 
 
 
 | ThumbnailImage | Name | In | Out |

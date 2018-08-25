@@ -41,3 +41,4 @@
 * 20180812a: KretzImage: Getting an image with a kretz AW14/5B/A ultrasound probe 
 * 20180813a: pyUn0 lib glitches: Experiment to capture glitches. Now captured (bugs with timing), pending is increasing NCycles above a 8 bit count. 
 * 20180814a: Reaching 128msps: Trying to experiment getting 128Msps 
+* 20180825a: 2D images building: Testing new functions to unpack images (with N lines)

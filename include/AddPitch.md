@@ -7,7 +7,8 @@ This project has a specific target of providing a __low-cost, open source techno
 * the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format;
 * an [article summarizing the experiment on the Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) - [DOI:10.5334/joh.2]( http://doi.org/10.5334/joh.2);
 * the [slack channel if you want to discuss](https://join.slack.com/usdevkit/shared_invite/MTkxODU5MjU0NjI1LTE0OTY1ODgxMDEtMmYyZTliZDBlZA);
-* the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [pulser](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or [the motherboard](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).
+* the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [unipolar pulser](https://www.tindie.com/products/kelu124/ultrasound-unipolar-high-voltage-pulser/) or [the motherboard](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).
+* And of course, the [ice40 research board](https://www.tindie.com/products/kelu124/un0rick-open-ice40-ultrasound-imaging-dev-board/), on [un0rick.cc](http://un0rick.cc) and its [doc](http://doc.un0rick.cc) or even [its github](https://github.com/kelu124/un0rick). _It's a bit cheaper, and has better specs_. 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.377054.svg)](https://doi.org/10.5281/zenodo.377054)
 

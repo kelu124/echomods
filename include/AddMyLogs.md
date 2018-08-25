@@ -1854,8 +1854,8 @@ Netty isn't nice... but just got my article accepted by JOH !
 * @done contact Sonopen / microsonix
 * Exploring [Underwater Imaging Using a 1 × 16 CMUT Linear Array](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813887/)
 * @done add Felix, Will + Jp, Charles, Md+Afreen
-* @todo add Visa, possibly Pouya and Thomas as contributors
-* @todo map interested (green) 
+* @done add Visa, possibly Pouya and Thomas as contributors
+* @done map interested (green) 
 * @done map users (blue)
 * @done add OSH license
 * @done start an order for pulsers
@@ -1903,8 +1903,8 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Got the boards for Bomanz v3 and SMD stuff
 * Sold some boards
-* @todo Need to have a look at this RPI GPIO DMA  - https://github.com/hzeller/rpi-gpio-dma-demo
-* @todo Include some cletus remarks (sourcing) on gitbook
+* @done Need to have a look at this RPI GPIO DMA  - https://github.com/hzeller/rpi-gpio-dma-demo
+* @done Include some cletus remarks (sourcing) on gitbook
 * @cancelled convert all previous images to dicom
 * @done answer some questions online for RPI + ultrasound
 * @done add the at todos to the shopping list (see [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) ) by means of a grep -> temp file
@@ -2015,7 +2015,7 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * [Testing with the servo](/elmo/data/arduiphantom/Readme.md) and [the notebook](/elmo/data/arduiphantom/20170718-Servo.ipynb)
 * Power in a [piezo element](https://electronics.stackexchange.com/questions/317873/electrical-power-in-piezoelectric-transducer)
-* @todo add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
+* @done add some ideas for [the pulser](https://electronics.stackexchange.com/questions/212667/ultrasound-transducer-excitation-frequency-transistor-type?rq=1) to the alt.pulser board
 * @done get orders from Sam CN.
 
 #### 2017-07-21 News from Newcastle
@@ -2029,8 +2029,8 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 TODOs:
 
-* @todo remove gitbook MD files from the log
-* @todo link to files in the log (python)
+* @done remove gitbook MD files from the log
+* @done link to files in the log (python)
 * @done put back good ino for pulser
 * @done quickstart installs and tests (see Charles email)
 * @done finish the [Word of Caution MD](/WordOfCaution.md)
@@ -2073,7 +2073,7 @@ Nice to have:
 
 * @done Adding the descs for modules and power needs
 * @done Removing double Autogen tags
-* @todo Main readme as TPL
+* @done Main readme as TPL
 * @cancelled DICOM rest of images
 
 * @todo test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
@@ -2389,7 +2389,7 @@ ebay
 * 130 lines of 150us at 24Msps on 16 bits is 7488000 bits
 
 * Worked on two experiments: [pulser tests](/retired/alt.tbo/20171111a/Readme.md) and [testing new probe](/retired/alt.tbo/20171112a/Readme.md), [and again, once the probe is refilled](/retired/alt.tbo/20171112b/Readme.md)
-* @todo 20171111a and 20171112b Readmes
+* @done 20171111a and 20171112b Readmes
 
 #### 2017-11-18 more veille on fpga
 
@@ -2402,7 +2402,7 @@ ebay
 
 * http://www.greenteapress.com/thinkbayes/html/thinkbayes001.html for stats
 
-* @todo impedance matching -- [see more](/include/impedance/ipm.pdf) -- Butterworth-Van-Dyke  or [here](https://electronics.stackexchange.com/questions/245915/picking-source-resistance-for-impedance-matching). [Tuning Filter](https://i.stack.imgur.com/96XMb.png).
+* @done impedance matching -- [see more](/include/impedance/ipm.pdf) -- Butterworth-Van-Dyke  or [here](https://electronics.stackexchange.com/questions/245915/picking-source-resistance-for-impedance-matching). [Tuning Filter](https://i.stack.imgur.com/96XMb.png).
 
 #### 2017-11-20 Some electronics pulser and IMN
 
@@ -2420,7 +2420,7 @@ ebay
 * Cloud9 on a RPi:
   * https://habilisbest.com/installing-cloud-9-on-your-raspberry-pi
   * https://www.siaris.net/post/cloud9/
-* @todo list other initiatives
+* @done list other initiatives
   * https://www.matthewzwaan.com/project/ultrasound
   * https://www.eetindia.co.in/news/article/shrinking-ultrasound-device-parts-to-single-chip
   * Newcastle
@@ -2550,7 +2550,7 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce ? for 1A
 * Other: working on a bibtex repo
 * Found out [Columbia Open Ultrasound](https://github.com/ColumbiaOpenSourceUltrasound) : just genius. Interesting AFE at https://github.com/ColumbiaOpenSourceUltrasound/Analog_Frontend .
 
-* @todo Brainstorm for @senjak information design:
+* @done Brainstorm for @senjak information design:
   * Main branch (on GH) - sync'ed from matty folder
     * Presentation (on dmn.org as a static page)
     * Sources
@@ -2627,9 +2627,9 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 * Getting [first images](/matty/20180224b/Readme.md) ! Yeayyy =)
 * So now, getting to:
   * @done Create matty module 
-  * @todo Publish first drafts on un0rick GH / GH-pages / gitbook
+  * @done Publish first drafts on un0rick GH / GH-pages / gitbook
   * @done create [un0rick page](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html) on echomods gitbook
-* @todo create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
+* @done create v2 release once gob.v2 and corrected/working alt.tbo v2 are ready.
   * done testing [elmo v2](/elmo/)
 
 #### 2018-02-27 progress on the ice40 board
@@ -2645,7 +2645,7 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 
 #### 2018-02-28 Documentation and comparisons
 
-* @todo compare [old pulser](/retired/alt.tbo/20171111a/20171111-pulses.ipynb) (pulser) and [new acs](/matty/20180224b/20180221b-Client.ipynb) for matty readme
+* @done compare [old pulser](/retired/alt.tbo/20171111a/20171111-pulses.ipynb) (pulser) and [new acs](/matty/20180224b/20180221b-Client.ipynb) for matty readme
 * @done automating finding readmes of experiments
  
 #### 2018-03-05 Going to rick
@@ -2665,7 +2665,7 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
   * https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/
   * https://media.consensys.net/a-visit-to-the-oracle-de9097d38b2f
 
-* @todo clean all repos for a v2 release of modules 
+* @done clean all repos for a v2 release of modules 
   * Elmo : OK!
   * Alt.tbo
   * Gob
@@ -2684,8 +2684,8 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 * Release v1.9: echOmods : legacy release
   * clean broken links
 * Release v2!
-  * @todo Script to check IMGs URL matches path
-  * @todo reorganise
+  * @done Script to check IMGs URL matches path
+  * @done reorganise
     * keep v2s of elmo, gob, elmo, alt.tbo
     * remove others in 
     * gitbook -> Have a "Legacy" chapter
@@ -2759,39 +2759,39 @@ ice40 again at https://www.element14.com/community/thread/43876/l/project-icesto
 
 * Back from holidays!
 * [Making progress on small probe](/include/cn_mechprob/Readme.md)
-* @todo change path of images when they have changed
+* @done change path of images when they have changed
 * un0rick / matty v0.1 release! https://github.com/kelu124/un0rick/releases/tag/v0.1
-* @todo Create detailed pages for the community in the gitbook
-* @todo Create detailed pages for each probe [I've played with](/include/probes/Readme.md) in the gitbook
+* @cancelled Create detailed pages for the community in the gitbook
+* @done Create detailed pages for each probe [I've played with](/include/probes/Readme.md) in the gitbook
 * Working on the [bibliography](/include/biblio/bib/CheckBib.ipynb) and reput it in the gitbook
 * @done cleaning gitbook and pushing annexes
 
 #### 2018-04-07 Other dentist thoughts
 
-* @todo add dp location
-* @todo listing experiments of others
+* @done add dp location
+* @done listing experiments of others
 * getting things straight with MacroFab
 
 #### 2018-04-08 Documentation process
 
 __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
-* @todo before reclean full repo, create release "Full Dev Resources" and get corresponding version (v1.9 + hash)!
-  * @todo : Add Full GitBook PDF to it before
-* @todo Sort the list of experiments, shortnames in SUMMARY
+* @done before reclean full repo, create release "Full Dev Resources" and get corresponding version (v1.9 + hash)!
+  * @cancelled : Add Full GitBook PDF to it before
+* @done Sort the list of experiments, shortnames in SUMMARY
 * @todo Community: list the contributors in a page + add the experiment. Individual page to point to experiment.
 * @todo Page on documentation
 * @todo Edit [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html) page to add Matty.
 * @todo Rewrite the Chapters Readme -> "This chapter is dedicated to the brain_dumps "
-* @todo Do a Doj  (LOW PRIORITY)
-* @todo Redo a usable alt.tbo (LOW PRIORITY)
-* @todo Clean Modules list (keep lite.tbo, goblin, cletus, doj, elmo, matty) + add "CNprobe"
-  * @todo Make 7 clean QuickStarts for remaining modules // copy them on Tindie.
-  * @todo Get "ShortNames" in JSON
-* @todo Put alt.tbo, tobo, loftus, tomtom, croaker, retroATL3 and wirephantom in retired modules + add "PU3090" phantoms in retired
-* @todo Remove sets in doc
-* @todo Remake homepage in autodoc
-* @todo Clean obsolete versions in repos
+* @done Do a Doj  (LOW PRIORITY)
+* @done Redo a usable alt.tbo (LOW PRIORITY)
+* @done Clean Modules list (keep lite.tbo, goblin, cletus, doj, elmo, matty) + add "CNprobe"
+  * @cancelled Make 7 clean QuickStarts for remaining modules // copy them on Tindie.
+  * @cancelled Get "ShortNames" in JSON
+* @done Put alt.tbo, tobo, loftus, tomtom, croaker, retroATL3 and wirephantom in retired modules + add "PU3090" phantoms in retired
+* @cancelled Remove sets in doc
+* @done Remake homepage in autodoc
+* @cancelled Clean obsolete versions in repos
 
 #### 2018-04-15 Documentation process
 
@@ -2836,7 +2836,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-05-11 A new article on the way
 
-* @todo Resume work on article - [Draft is here](/matty/article/matty_article.md)
+* @done Resume work on article - [Draft is here](/matty/article/matty_article.md)
 * @todo contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)
 * Need to test different uses.
 * https://open-labware.net/projects/flypi/

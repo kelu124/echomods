@@ -1,6 +1,10 @@
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
+* ./include/rmGHList.md
+* ./include/rmTODOsToShopping.md
+* ./include/rmRetiredModules.md
 * ./include/AllAllExp.md
+* ./include/rmTableAvancement.md
 * ./include/AddTableAvancement.md
 * ./include/AllExpes.md
 * ./include/AddShoppingList.md
