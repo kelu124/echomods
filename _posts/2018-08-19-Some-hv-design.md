@@ -11,5 +11,3 @@ title: 2018-08-19 Some hv design
     is High Voltage DC/DC Converter for Supertex Ultrasound Transmitter
     Demoboards"
 
-=======
-
