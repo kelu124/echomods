@@ -1028,6 +1028,41 @@
   * 20180814a
   * Testing a tentative acquisition at 128Msps by interleaving two acquisitions
   * ./matty/20180814a/images/20180813a-9.jpg
+* __/matty/20180826a/images/alllines_20180826a-1-2200-2600.jpg__:
+  * kelu124
+  * matty,loftus
+  * other
+  * 20180826a
+  * Testing if the 16bits n cycles works
+  * ./matty/20180826a/images/alllines_20180826a-1-2200-2600.jpg
+* __/matty/20180826a/images/_20180826a-1-2200-2600.jpg__:
+  * kelu124
+  * matty,loftus
+  * other
+  * 20180826a
+  * Testing if the 16bits n cycles works
+  * ./matty/20180826a/images/_20180826a-1-2200-2600.jpg
+* __/matty/20180826a/images/detailed_20180826a-1-2200-2600.jpg__:
+  * kelu124
+  * matty,loftus
+  * other
+  * 20180826a
+  * Testing if the 16bits n cycles works
+  * ./matty/20180826a/images/detailed_20180826a-1-2200-2600.jpg
+* __/matty/20180826a/images/20180826a-1-all.jpg__:
+  * kelu124
+  * matty,loftus
+  * other
+  * 20180826a
+  * Testing if the 16bits n cycles works
+  * ./matty/20180826a/images/20180826a-1-all.jpg
+* __/matty/20180826a/images/2DArray_20180826a.jpg__:
+  * kelu124
+  * matty,loftus
+  * other
+  * 20180826a
+  * Testing if the 16bits n cycles works
+  * ./matty/20180826a/images/2DArray_20180826a.jpg
 * __/matty/20180511a/env_alt1_24.jpg__:
   * kelu124
   * matty,cletus
