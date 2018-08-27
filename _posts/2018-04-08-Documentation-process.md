@@ -15,8 +15,8 @@ title: 2018-04-08 Documentation process
 -   @done Sort the list of experiments, shortnames in SUMMARY
 -   @todo Community: list the contributors in a page + add
     the experiment. Individual page to point to experiment.
--   @todo Page on documentation
--   @todo Edit
+-   @done Page on [documentation](/include/autodoc.md)
+-   @done Edit
     [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html)
     page to add Matty.
 -   @todo Rewrite the Chapters Readme -&gt; "This chapter is dedicated

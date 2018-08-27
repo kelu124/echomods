@@ -15,5 +15,5 @@ title: 2018-03-06 Going to Rick
 -   Bard Site Rite 37522 5C-45C 7.5MHz Ultrasound Transducer Probe
     68mmFL Dymax 0470
 -   http://journal.chestnet.org/article/S0012-3692(15)46601-2/fulltext
--   @todo decrypt the connector =)
+-   @todo decrypt the connector for the Bard probe
 

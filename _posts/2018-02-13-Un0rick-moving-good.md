@@ -11,7 +11,7 @@ title: 2018-02-13 Un0rick moving good
     gain, Pon and Poff work, setting up the registers work..
 -   Need to get something else than 0xAA on reading though =)
 -   un0rick.cc booked -- will be home page / gh-page.
--   @todo un0rick site to have plenty of stuff
+-   @done un0rick site to have plenty of stuff
 -   shop for stuff (or paypal ?)
 -   doc for documentation (from a gitbook)
     -   Generated from echomods

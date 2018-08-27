@@ -13,5 +13,3 @@ title: 2018-08-23 Updated workplan
 -   Test probes
 -   identify motor + compteurs
 
-=======
-

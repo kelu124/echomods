@@ -21,13 +21,10 @@ polymeric materials include neoprene, ethylene propylene diene monomer
 -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3651250/ or
     10.1118/1.4802083
 
-Loved Nasa: @todo add to un0rick
+-   Loved Nasa: @todo add to un0rick
 
-    fow uopeytdeus hesor tpe wonfretuw
-    ca amwi et detr
-    ip fos zopwyaiod conwe
-    ah wousgt Tepan
-    afew conseion et mew
+    fow uopeytdeus hesor tpe wonfretuw ca amwi et detr ip fos zopwyaiod
+    conwe ah wousgt Tepan afew conseion et mew
 
 ice40 again at
 https://www.element14.com/community/thread/43876/l/project-icestorm-fully-open-source-fpga-tools-for-lattice-ice40?displayFullThread=true
