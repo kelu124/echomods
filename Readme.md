@@ -276,14 +276,11 @@ Here's a couple of things we're working on, for which you could help as well.
 * _senjak_ 15:07 In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself -- https://github.com/ESultanik/PDFGitPolyglot/blob/master/make_polyglot.sh
 * classifier articles with link Article: =)
 * a page sumarizing the experiments (as in the __Experiments__ page in the gitbook)
-* un0rick site to have plenty of stuff
 * use [General Design Procedure for Free and Open-Source Hardware for Scientific Equipment](http://www.mdpi.com/2411-9660/2/1/2/htm) as a reference
  * for matty [Rip this intro?](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
- * decrypt the connector =)
-Loved Nasa: add to un0rick
+ * decrypt the connector for the Bard probe
+* Loved Nasa: add to un0rick
 * Community: list the contributors in a page + add the experiment. Individual page to point to experiment.
-* Page on documentation
-* Edit [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html) page to add Matty.
 * Rewrite the Chapters Readme -> "This chapter is dedicated to the brain_dumps "
 * contact the [author](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f) !
 * contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)

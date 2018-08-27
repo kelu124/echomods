@@ -27,15 +27,29 @@ At the end, the modules also allowed to test some [ATL probes](/retroATL3/) (mor
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png)
 
+## un0rick / matty
+
+![](https://raw.githubusercontent.com/kelu124/un0rick/master/images/un0desc.png)
+
+After a series of modules, I decided to go "pro" and to develop a more robust iteration, based on an ice40 FPGA, an open-source family of FPGAs.
+
+Ultimately, this yielded a pulse-echo board ( [un0rick](http://un0rick.cc) ) that is capable of 500k points acquisitions, with the logic being fully customisable.
+
+Some hacks also [enable it to acquire up to 128Msps](/include/experiments/auto/20180814a.md).
+
 ## Hackaday
 
 Apart from GitHub where I wanted to store code, source and images, I also wanted to document the day to day work. Hackaday was a good option, and I put [Murgen on Hackaday.io](http://hackaday.com/2016/04/12/a-developers-kit-for-medical-ultrasound/). The funny thing is I didn't know I would get out of it, but it appeared the work won two 1000$-prizes. Later on, I've been putting the HSDK project on HAD as well as the [20Msps pHAT](https://hackaday.io/project/20455-20msps-adc-raspberrypi-hat) and the following of the [dev kit (the hardware-software dev kit)](https://hackaday.io/project/10899-a-hsdk-for-ultrasound-imaging).
+
+[un0rick](https://hackaday.io/project/28375-un0rick-an-ice40-ultrasound-board) is also one of these project.
 
 ## Documenting
 
 Documenting started on github obviously, I also started a [gitbook](https://kelu124.gitbooks.io/echomods/content/) later on - and as I' quite the lazy one, nothing of it is written by hand. Most of it is compiled through a python documentation assistant. 
 
 On the scientific publication side, when reading around GOSH discussions in Sept '16, I learnt the Journal of Open Hardware would start something.. so an article started to make its way out. A first draft got out on ArXiv on Dec '16, and the [final version of the article got published](http://openhardware.metajnl.com/articles/10.5334/joh.2/) in March '17 - a year after the first tests of Murgen =)
+
+[Read more on the process](/include/autodoc.md).
 
 ## Simplifying
 

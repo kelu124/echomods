@@ -6915,6 +6915,13 @@
   * ToTag
   * ToTag
   * ./include/community/wmeng/simplerick.png
+* __/include/community/wmeng/simplerick_assembled.png__:
+  * wmeng
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/wmeng/simplerick_assembled.png
 * __/include/community/Tomek/tomek.png__:
   * Tomek
   * ToTag
@@ -7818,6 +7825,27 @@
   * ToTag
   * ToTag
   * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180825a-Client_files/20180825a-Client_2_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180825a-Client_files/20180825a-Client_4_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180825a-Client_files/20180825a-Client_5_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
 * __/gitbook/notebooks/20180216a - Testing pulser and ADC_files/20180216a - Testing pulser and ADC_13_1.png__:
   * kelu124
   * goblin
@@ -8519,6 +8547,34 @@
   * ToTag
   * ./goblin/images/module/schematics.png
 * __/gitbook/notebooks/TestBP_files/TestBP_6_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180826a-Client_files/20180826a-Client_4_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180826a-Client_files/20180826a-Client_6_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180826a-Client_files/20180826a-Client_7_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180826a-Client_files/20180826a-Client_2_1.png__:
   * kelu124
   * goblin
   * ToTag
@@ -9526,7 +9582,21 @@
   * ToTag
   * ToTag
   * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180814a-Server_files/20180814a-Server_12_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
 * __/gitbook/notebooks/20180814a-Server_files/20180814a-Server_9_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180814a-Server_files/20180814a-Server_14_0.png__:
   * kelu124
   * goblin
   * ToTag

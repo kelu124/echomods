@@ -2722,7 +2722,7 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce ? for 1A
 * [work making progress](/matty/un0log.md) -- DAC working for the gain, Pon and Poff work, setting up the registers work..
 * Need to get something else than 0xAA on reading though =)
 * un0rick.cc booked -- will be home page / gh-page.
-* @todo un0rick site to have plenty of stuff
+* @done un0rick site to have plenty of stuff
   * shop for stuff (or paypal ?)
   * doc for documentation (from a gitbook)
     * Generated from echomods
@@ -2806,7 +2806,7 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 * Explore USED Bard Site Rite - https://www.youtube.com/watch?v=8iUkeJvSXtE (v3) or https://www.youtube.com/watch?v=qxanLwW8EL8 (v2)	
   * Bard Site Rite 37522 5C-45C 7.5MHz Ultrasound Transducer Probe 68mmFL Dymax 0470
   * http://journal.chestnet.org/article/S0012-3692(15)46601-2/fulltext
-  * @todo decrypt the connector =)
+  * @todo decrypt the connector for the Bard probe
 
 #### 2018-03-08 Cleaning repos
 
@@ -2847,7 +2847,7 @@ polymeric materials include neoprene, ethylene propylene diene monomer (EPDM) an
 * http://www.acousticpolymers.co.uk/pages/profile.html
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3651250/ or 10.1118/1.4802083
 
-Loved Nasa: @todo add to un0rick
+* Loved Nasa: @todo add to un0rick
 
     fow uopeytdeus hesor tpe wonfretuw
     ca amwi et detr
@@ -2909,8 +2909,8 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * @cancelled : Add Full GitBook PDF to it before
 * @done Sort the list of experiments, shortnames in SUMMARY
 * @todo Community: list the contributors in a page + add the experiment. Individual page to point to experiment.
-* @todo Page on documentation
-* @todo Edit [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html) page to add Matty.
+* @done Page on [documentation](/include/autodoc.md)
+* @done Edit [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html) page to add Matty.
 * @todo Rewrite the Chapters Readme -> "This chapter is dedicated to the brain_dumps "
 * @done Do a Doj  (LOW PRIORITY)
 * @done Redo a usable alt.tbo (LOW PRIORITY)
@@ -3102,7 +3102,18 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * Test probes 
 * identify motor + compteurs
 
+#### 2018-08-26 New Matty v1.1
 
+* Got a v1.1 out, for 0 < nCycles < 0xFFFF
+* Reviewed [Readme](/Readme.md)  
+* Progress on the article
+* Got a 2GB image fully valid for RPi. Python: Jupyter, Scipy, Numpy, .. all gets on.
+* Added some utilities to flash directly the flash.  
+* Updated [history](/include/AddHistory.md) and [process details](/include/AddDocProcess.md).
+
+#### 2018-08-27 Adding iceprog
+
+* __iceprog mybin.bin__ works well to flash on the un0rick. just plug in the cable, put a jumper on the RPi/FT header, then _iceprog mybin_ and voila =) 
 
 =======
 
