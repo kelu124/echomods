@@ -53,3 +53,13 @@
 * smalldesc:an atlidrict 7.5MHz / 6.4mm probe
 * longdesc:an atlidrict 7.5MHz / 6.4mm probe
 
+# apogee5MHz
+* code:apogee5MHz
+* smalldesc:an Apogee 5MHz probe
+* longdesc:an Apogee 5MHz probe
+
+# apogee10MHz
+* code:apogee10MHz
+* smalldesc:an Apogee 10MHz probe
+* longdesc:an Apogee 10MHz probe
+

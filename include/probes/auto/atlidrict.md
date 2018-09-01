@@ -4,20 +4,6 @@
 
 * Longer description: an atlidrict 7.5MHz / 6.4mm probe
 
-# Experiments
-
-* [20171112a](/include/experiments/auto/20171112a.md)
-* [20180809b](/include/experiments/auto/20180809b.md)
-* [20170715a](/include/experiments/auto/20170715a.md)
-* [20180811a](/include/experiments/auto/20180811a.md)
-* [20180811b](/include/experiments/auto/20180811b.md)
-* [20180807b](/include/experiments/auto/20180807b.md)
-* [20180807a](/include/experiments/auto/20180807a.md)
-* [20180812a](/include/experiments/auto/20180812a.md)
-* [20160822a](/include/experiments/auto/20160822a.md)
-* [20180809a](/include/experiments/auto/20180809a.md)
-* [20180831c](/include/experiments/auto/20180831c.md)
-* [20180901a](/include/experiments/auto/20180901a.md)
 # Images
 
 ![](/include/images/atladrict/P_20180811_201314.jpg)

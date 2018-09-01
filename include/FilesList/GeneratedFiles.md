@@ -252,6 +252,7 @@
 * ./include/experiments/auto/Img_20160822a.md
 * ./include/probes/auto/kretzaw145ba.md
 * ./include/probes/auto/s3.md
+* ./include/probes/auto/apogee5MHz.md
 * ./include/probes/auto/atlidrict.md
 * ./include/probes/auto/ausonics75.md
 * ./include/probes/auto/retroATL3.md
@@ -259,6 +260,7 @@
 * ./include/probes/auto/retro10PV.md
 * ./include/probes/auto/shzmch.md
 * ./include/probes/auto/apogee.md
+* ./include/probes/auto/apogee10MHz.md
 * ./include/probes/auto/adrus.md
 * ./include/probes/auto/bard.md
 * ./include/sets/wifi-dev-kit.cost.md
@@ -299,6 +301,7 @@
 * ./gitbook/Chapter5/loops.md
 * ./gitbook/probes/kretzaw145ba.md
 * ./gitbook/probes/s3.md
+* ./gitbook/probes/apogee5MHz.md
 * ./gitbook/probes/atlidrict.md
 * ./gitbook/probes/ausonics75.md
 * ./gitbook/probes/retroATL3.md
@@ -306,6 +309,7 @@
 * ./gitbook/probes/retro10PV.md
 * ./gitbook/probes/shzmch.md
 * ./gitbook/probes/apogee.md
+* ./gitbook/probes/apogee10MHz.md
 * ./gitbook/probes/adrus.md
 * ./gitbook/probes/bard.md
 * ./gitbook/Chapter3/cletus.md

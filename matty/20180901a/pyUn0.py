@@ -12,7 +12,7 @@ __copyright__   = "Copyright 2016, Kelu124"
 __license__ = "GPLv3"
 
 '''
-Used inter alia in `20180826a`
+Used inter alia in `20180901a`
 '''
 
 import spidev
