@@ -42,3 +42,6 @@
 * 20180813a: pyUn0 lib glitches: Experiment to capture glitches. Now captured (bugs with timing), pending is increasing NCycles above a 8 bit count. 
 * 20180814a: Reaching 128msps: Trying to experiment getting 128Msps 
 * 20180825a: 2D images building: Testing new functions to unpack images (with N lines)
+* 20180826a: 16bits n-cycles : Testing if the 16bits n cycles works 
+* 20180831c: wirephantom and retroATL3: wirephantom and retroATL3
+* 20180901a: wirephantom and kretzaw145ba: wirephantom and kretzaw145ba

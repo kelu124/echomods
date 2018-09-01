@@ -552,111 +552,111 @@
   * 20180225a
   * Analysing acquisition at 32 and 64Msps
   * ./matty/20180227a/One-0-VGA@0x22-spimode1-32msps.jpg
-* __/matty/20180831a/images/Spectrum_20180831c-2.jpg__:
+* __/matty/201800831c/images/Spectrum_20180831c-2.jpg__:
   * kelu124
   * matty,retroATL3
   * FFT
   * 20180831c
   * Experiment: 20180831c-2. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on water, small contact, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:40:01.517004
-  * ./matty/20180831a/images/Spectrum_20180831c-2.jpg
-* __/matty/20180831a/images/Spectrum_20180831c-6.jpg__:
+  * ./matty/201800831c/images/Spectrum_20180831c-2.jpg
+* __/matty/201800831c/images/Spectrum_20180831c-6.jpg__:
   * kelu124
   * matty,retroATL3
   * FFT
   * 20180831c
   * Experiment: 20180831c-6. Duration: 85.0us (120000 - 35000), for 365 repeats each 195 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:06:13.602529
-  * ./matty/20180831a/images/Spectrum_20180831c-6.jpg
-* __/matty/20180831a/images/2DArray_20180831c-7.jpg__:
+  * ./matty/201800831c/images/Spectrum_20180831c-6.jpg
+* __/matty/201800831c/images/2DArray_20180831c-7.jpg__:
   * kelu124
   * matty,retroATL3
   * BC
   * 20180831c
   * Experiment: 20180831c-7. Duration: 85.0us (120000 - 35000), for 365 repeats each 273 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:11:00.062043
-  * ./matty/20180831a/images/2DArray_20180831c-7.jpg
-* __/matty/20180831a/images/Spectrum_20180831c-3.jpg__:
+  * ./matty/201800831c/images/2DArray_20180831c-7.jpg
+* __/matty/201800831c/images/Spectrum_20180831c-3.jpg__:
   * kelu124
   * matty,retroATL3
   * FFT
   * 20180831c
   * Experiment: 20180831c-3. Duration: 64.0us (75000 - 11000), for 120 repeats each 3906 us. Fech = 64.0Msps, total of 4096.0 pts per line, Nacq = 120. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:44:50.057092
-  * ./matty/20180831a/images/Spectrum_20180831c-3.jpg
-* __/matty/20180831a/images/2DArray_20180831c-6.jpg__:
+  * ./matty/201800831c/images/Spectrum_20180831c-3.jpg
+* __/matty/201800831c/images/2DArray_20180831c-6.jpg__:
   * kelu124
   * matty,retroATL3
   * BC
   * 20180831c
   * Experiment: 20180831c-6. Duration: 85.0us (120000 - 35000), for 365 repeats each 195 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:06:13.602529
-  * ./matty/20180831a/images/2DArray_20180831c-6.jpg
-* __/matty/20180831a/images/Spectrum_20180831c-1.jpg__:
+  * ./matty/201800831c/images/2DArray_20180831c-6.jpg
+* __/matty/201800831c/images/Spectrum_20180831c-1.jpg__:
   * kelu124
   * matty,retroATL3
   * FFT
   * 20180831c
   * Experiment: 20180831c-1. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:36:57.159660
-  * ./matty/20180831a/images/Spectrum_20180831c-1.jpg
-* __/matty/20180831a/images/Spectrum_20180831c-7.jpg__:
+  * ./matty/201800831c/images/Spectrum_20180831c-1.jpg
+* __/matty/201800831c/images/Spectrum_20180831c-7.jpg__:
   * kelu124
   * matty,retroATL3
   * FFT
   * 20180831c
   * Experiment: 20180831c-7. Duration: 85.0us (120000 - 35000), for 365 repeats each 273 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:11:00.062043
-  * ./matty/20180831a/images/Spectrum_20180831c-7.jpg
-* __/matty/20180831a/images/2DArray_20180831c-5.jpg__:
+  * ./matty/201800831c/images/Spectrum_20180831c-7.jpg
+* __/matty/201800831c/images/2DArray_20180831c-5.jpg__:
   * kelu124
   * matty,retroATL3
   * BC
   * 20180831c
   * Experiment: 20180831c-5. Duration: 84.0us (115000 - 31000), for 180 repeats each 390 us. Fech = 32.0Msps, total of 2688.0 pts per line, Nacq = 180. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 21:58:49.913492
-  * ./matty/20180831a/images/2DArray_20180831c-5.jpg
-* __/matty/20180831a/images/2DArray_20180831c-1.jpg__:
+  * ./matty/201800831c/images/2DArray_20180831c-5.jpg
+* __/matty/201800831c/images/2DArray_20180831c-1.jpg__:
   * kelu124
   * matty,retroATL3
   * BC
   * 20180831c
   * Experiment: 20180831c-1. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:36:57.159660
-  * ./matty/20180831a/images/2DArray_20180831c-1.jpg
-* __/matty/20180831a/images/Spectrum_20180831c-5.jpg__:
+  * ./matty/201800831c/images/2DArray_20180831c-1.jpg
+* __/matty/201800831c/images/Spectrum_20180831c-5.jpg__:
   * kelu124
   * matty,retroATL3
   * FFT
   * 20180831c
   * Experiment: 20180831c-5. Duration: 84.0us (115000 - 31000), for 180 repeats each 390 us. Fech = 32.0Msps, total of 2688.0 pts per line, Nacq = 180. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 21:58:49.913492
-  * ./matty/20180831a/images/Spectrum_20180831c-5.jpg
-* __/matty/20180831a/images/2DArray_20180831c.jpg__:
+  * ./matty/201800831c/images/Spectrum_20180831c-5.jpg
+* __/matty/201800831c/images/2DArray_20180831c.jpg__:
   * kelu124
   * matty
   * picture
   * ToTag
   * ToTag
-  * ./matty/20180831a/images/2DArray_20180831c.jpg
-* __/matty/20180831a/images/2DArray_20180831c-2.jpg__:
+  * ./matty/201800831c/images/2DArray_20180831c.jpg
+* __/matty/201800831c/images/2DArray_20180831c-2.jpg__:
   * kelu124
   * matty,retroATL3
   * BC
   * 20180831c
   * Experiment: 20180831c-2. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on water, small contact, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:40:01.517004
-  * ./matty/20180831a/images/2DArray_20180831c-2.jpg
-* __/matty/20180831a/images/2DArray_20180831c-3.jpg__:
+  * ./matty/201800831c/images/2DArray_20180831c-2.jpg
+* __/matty/201800831c/images/2DArray_20180831c-3.jpg__:
   * kelu124
   * matty,retroATL3
   * BC
   * 20180831c
   * Experiment: 20180831c-3. Duration: 64.0us (75000 - 11000), for 120 repeats each 3906 us. Fech = 64.0Msps, total of 4096.0 pts per line, Nacq = 120. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:44:50.057092
-  * ./matty/20180831a/images/2DArray_20180831c-3.jpg
-* __/matty/20180831a/images/2DArray_20180831c-4.jpg__:
+  * ./matty/201800831c/images/2DArray_20180831c-3.jpg
+* __/matty/201800831c/images/2DArray_20180831c-4.jpg__:
   * kelu124
   * matty,retroATL3
   * BC
   * 20180831c
   * Experiment: 20180831c-4. Duration: 24.0us (35000 - 11000), for 320 repeats each 390 us. Fech = 64.0Msps, total of 1536.0 pts per line, Nacq = 320. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:49:30.775266
-  * ./matty/20180831a/images/2DArray_20180831c-4.jpg
-* __/matty/20180831a/images/Spectrum_20180831c-4.jpg__:
+  * ./matty/201800831c/images/2DArray_20180831c-4.jpg
+* __/matty/201800831c/images/Spectrum_20180831c-4.jpg__:
   * kelu124
   * matty,retroATL3
   * FFT
   * 20180831c
   * Experiment: 20180831c-4. Duration: 24.0us (35000 - 11000), for 320 repeats each 390 us. Fech = 64.0Msps, total of 1536.0 pts per line, Nacq = 320. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:49:30.775266
-  * ./matty/20180831a/images/Spectrum_20180831c-4.jpg
+  * ./matty/201800831c/images/Spectrum_20180831c-4.jpg
 * __/matty/20180516a/images/20180516a-0.jpg__:
   * kelu124
   * matty,cletus
