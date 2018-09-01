@@ -249,6 +249,8 @@ and used in a wider context:
  * 2018-08-14: [Reaching 128msps](/include/experiments/auto/20180814a.md): Trying to experiment getting 128Msps _(20180814a)_
  * 2018-08-25: [2D images building](/include/experiments/auto/20180825a.md): Testing new functions to unpack images (with N lines) _(20180825a)_
  * [20180826a](/include/experiments/auto/20180826a.md)
+ * [20180831c](/include/experiments/auto/20180831c.md)
+ * [20180901a](/include/experiments/auto/20180901a.md)
 
 
 

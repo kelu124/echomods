@@ -552,6 +552,111 @@
   * 20180225a
   * Analysing acquisition at 32 and 64Msps
   * ./matty/20180227a/One-0-VGA@0x22-spimode1-32msps.jpg
+* __/matty/20180831a/images/Spectrum_20180831c-2.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * FFT
+  * 20180831c
+  * Experiment: 20180831c-2. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on water, small contact, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:40:01.517004
+  * ./matty/20180831a/images/Spectrum_20180831c-2.jpg
+* __/matty/20180831a/images/Spectrum_20180831c-6.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * FFT
+  * 20180831c
+  * Experiment: 20180831c-6. Duration: 85.0us (120000 - 35000), for 365 repeats each 195 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:06:13.602529
+  * ./matty/20180831a/images/Spectrum_20180831c-6.jpg
+* __/matty/20180831a/images/2DArray_20180831c-7.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * BC
+  * 20180831c
+  * Experiment: 20180831c-7. Duration: 85.0us (120000 - 35000), for 365 repeats each 273 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:11:00.062043
+  * ./matty/20180831a/images/2DArray_20180831c-7.jpg
+* __/matty/20180831a/images/Spectrum_20180831c-3.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * FFT
+  * 20180831c
+  * Experiment: 20180831c-3. Duration: 64.0us (75000 - 11000), for 120 repeats each 3906 us. Fech = 64.0Msps, total of 4096.0 pts per line, Nacq = 120. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:44:50.057092
+  * ./matty/20180831a/images/Spectrum_20180831c-3.jpg
+* __/matty/20180831a/images/2DArray_20180831c-6.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * BC
+  * 20180831c
+  * Experiment: 20180831c-6. Duration: 85.0us (120000 - 35000), for 365 repeats each 195 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:06:13.602529
+  * ./matty/20180831a/images/2DArray_20180831c-6.jpg
+* __/matty/20180831a/images/Spectrum_20180831c-1.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * FFT
+  * 20180831c
+  * Experiment: 20180831c-1. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:36:57.159660
+  * ./matty/20180831a/images/Spectrum_20180831c-1.jpg
+* __/matty/20180831a/images/Spectrum_20180831c-7.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * FFT
+  * 20180831c
+  * Experiment: 20180831c-7. Duration: 85.0us (120000 - 35000), for 365 repeats each 273 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:11:00.062043
+  * ./matty/20180831a/images/Spectrum_20180831c-7.jpg
+* __/matty/20180831a/images/2DArray_20180831c-5.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * BC
+  * 20180831c
+  * Experiment: 20180831c-5. Duration: 84.0us (115000 - 31000), for 180 repeats each 390 us. Fech = 32.0Msps, total of 2688.0 pts per line, Nacq = 180. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 21:58:49.913492
+  * ./matty/20180831a/images/2DArray_20180831c-5.jpg
+* __/matty/20180831a/images/2DArray_20180831c-1.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * BC
+  * 20180831c
+  * Experiment: 20180831c-1. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:36:57.159660
+  * ./matty/20180831a/images/2DArray_20180831c-1.jpg
+* __/matty/20180831a/images/Spectrum_20180831c-5.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * FFT
+  * 20180831c
+  * Experiment: 20180831c-5. Duration: 84.0us (115000 - 31000), for 180 repeats each 390 us. Fech = 32.0Msps, total of 2688.0 pts per line, Nacq = 180. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 21:58:49.913492
+  * ./matty/20180831a/images/Spectrum_20180831c-5.jpg
+* __/matty/20180831a/images/2DArray_20180831c.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20180831a/images/2DArray_20180831c.jpg
+* __/matty/20180831a/images/2DArray_20180831c-2.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * BC
+  * 20180831c
+  * Experiment: 20180831c-2. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on water, small contact, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:40:01.517004
+  * ./matty/20180831a/images/2DArray_20180831c-2.jpg
+* __/matty/20180831a/images/2DArray_20180831c-3.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * BC
+  * 20180831c
+  * Experiment: 20180831c-3. Duration: 64.0us (75000 - 11000), for 120 repeats each 3906 us. Fech = 64.0Msps, total of 4096.0 pts per line, Nacq = 120. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:44:50.057092
+  * ./matty/20180831a/images/2DArray_20180831c-3.jpg
+* __/matty/20180831a/images/2DArray_20180831c-4.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * BC
+  * 20180831c
+  * Experiment: 20180831c-4. Duration: 24.0us (35000 - 11000), for 320 repeats each 390 us. Fech = 64.0Msps, total of 1536.0 pts per line, Nacq = 320. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:49:30.775266
+  * ./matty/20180831a/images/2DArray_20180831c-4.jpg
+* __/matty/20180831a/images/Spectrum_20180831c-4.jpg__:
+  * kelu124
+  * matty,retroATL3
+  * FFT
+  * 20180831c
+  * Experiment: 20180831c-4. Duration: 24.0us (35000 - 11000), for 320 repeats each 390 us. Fech = 64.0Msps, total of 1536.0 pts per line, Nacq = 320. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:49:30.775266
+  * ./matty/20180831a/images/Spectrum_20180831c-4.jpg
 * __/matty/20180516a/images/20180516a-0.jpg__:
   * kelu124
   * matty,cletus
@@ -776,6 +881,48 @@
   * 20180403b
   * Testing new version of FPGA bin
   * ./matty/20180403b/p_OK_75V-200us-8-200_100_2000_10_200000-64msps.jpg
+* __/matty/20180901a/images/2DArray_20180901a-1.jpg__:
+  * kelu124
+  * matty,kretzaw145ba
+  * BC
+  * 20180901a
+  * Experiment: 20180901a-1. Duration: 102.0us (122000 - 20000), for 230 repeats each 546 us. Fech = 21.3333333333Msps, total of 2176.0 pts per line, Nacq = 230. Trying a probe without linear transformator - unplugged, probe: kretzaw145ba, target = wirephantom. Timestamp = 2018-09-01 07:17:11.361402
+  * ./matty/20180901a/images/2DArray_20180901a-1.jpg
+* __/matty/20180901a/images/SC_20180901a-1-fft.jpg__:
+  * kelu124
+  * matty,kretzaw145ba
+  * SC
+  * 20180901a
+  * Scan converted image of 20180901a-1 using a piezo: kretzaw145ba
+  * ./matty/20180901a/images/SC_20180901a-1-fft.jpg
+* __/matty/20180901a/images/Spectrum_20180901a-1.jpg__:
+  * kelu124
+  * matty,kretzaw145ba
+  * FFT
+  * 20180901a
+  * Experiment: 20180901a-1. Duration: 102.0us (122000 - 20000), for 230 repeats each 546 us. Fech = 21.3333333333Msps, total of 2176.0 pts per line, Nacq = 230. Trying a probe without linear transformator - unplugged, probe: kretzaw145ba, target = wirephantom. Timestamp = 2018-09-01 07:17:11.361402
+  * ./matty/20180901a/images/Spectrum_20180901a-1.jpg
+* __/matty/20180901a/images/Spectrum_20180901a-2.jpg__:
+  * kelu124
+  * matty,kretzaw145ba
+  * FFT
+  * 20180901a
+  * Experiment: 20180901a-2. Duration: 90.0us (120000 - 30000), for 260 repeats each 1093 us. Fech = 21.3333333333Msps, total of 1920.0 pts per line, Nacq = 260. Trying a probe without linear transformator - unplugged, probe: kretzaw145ba, target = wirephantom. Timestamp = 2018-09-01 07:26:17.607650
+  * ./matty/20180901a/images/Spectrum_20180901a-2.jpg
+* __/matty/20180901a/images/SC_20180901a-2-fft.jpg__:
+  * kelu124
+  * matty,kretzaw145ba
+  * SC
+  * 20180901a
+  * Scan converted image of 20180901a-2 using a piezo: kretzaw145ba
+  * ./matty/20180901a/images/SC_20180901a-2-fft.jpg
+* __/matty/20180901a/images/2DArray_20180901a-2.jpg__:
+  * kelu124
+  * matty,kretzaw145ba
+  * BC
+  * 20180901a
+  * Experiment: 20180901a-2. Duration: 90.0us (120000 - 30000), for 260 repeats each 1093 us. Fech = 21.3333333333Msps, total of 1920.0 pts per line, Nacq = 260. Trying a probe without linear transformator - unplugged, probe: kretzaw145ba, target = wirephantom. Timestamp = 2018-09-01 07:26:17.607650
+  * ./matty/20180901a/images/2DArray_20180901a-2.jpg
 * __/matty/20180721a/images/detail_20180721a-10-100-125-line0.jpg__:
   * kelu124
   * matty
@@ -8224,6 +8371,188 @@
   * ToTag
   * ToTag
   * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_11_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_14_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_14_4.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_13.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_16.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_10.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_3.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_7.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_6.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_18_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_20.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_9.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_15.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_18.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_19_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_9_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_3_2.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_14_3.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_19.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_14_5.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_6_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_5_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_12.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_2_4.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180831a-Client_files/20180831a-Client_3_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
 * __/gitbook/notebooks/20180217a - Testing pulser and ADC_files/20180217a - Testing pulser and ADC_3_1.png__:
   * kelu124
   * goblin
@@ -9429,6 +9758,69 @@
   * ToTag
   * ./goblin/images/module/schematics.png
 * __/gitbook/notebooks/20180403b-Client_files/20180403b-Client_3_7.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_14_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_2_4.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_2_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_3_1.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_2_5.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_5_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_9_0.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_2_3.png__:
+  * kelu124
+  * goblin
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./goblin/images/module/schematics.png
+* __/gitbook/notebooks/20180901a-Client_files/20180901a-Client_5_1.png__:
   * kelu124
   * goblin
   * ToTag
