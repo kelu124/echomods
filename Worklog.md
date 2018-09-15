@@ -3115,6 +3115,13 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 * __iceprog mybin.bin__ works well to flash on the un0rick. just plug in the cable, put a jumper on the RPi/FT header, then _iceprog mybin_ and voila =) 
 
+#### 2018-09-12 Desperatly at work
+
+* not a lot of progress..
+* un0rick's first batch is sold out!
+* Some cheap piezos? https://news.ubc.ca/2018/09/11/could-a-diy-ultrasound-be-in-your-future-ubc-breakthrough-opens-door-to-100-ultrasound-machine/
+
+
 =======
 
 uControllers and other stuff
