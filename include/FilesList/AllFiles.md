@@ -102,7 +102,7 @@
 
 * [./retired/alt.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/alt.tbo/20171112a/Readme.md](/retired/alt.tbo/20171112a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`exp/20171112a.md`](exp/20171112a.md).
+* [./retired/alt.tbo/20171112a/Readme.md](/retired/alt.tbo/20171112a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`exp/20171112a.md`](exp/20171112a.md), [`exp/Code_20171112a.md`](exp/Code_20171112a.md).
 
 * [./retired/alt.tbo/20171112b/Readme.md](/retired/alt.tbo/20171112b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -385,11 +385,17 @@
 
 * [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  . _File not used._
 
+* [./include/community/John/Readme.md](/include/community/John/Readme.md):  . _File not used._
+
+* [./include/community/Masoud/Readme.md](/include/community/Masoud/Readme.md):  . _File not used._
+
 * [./include/community/Kevin/Readme.md](/include/community/Kevin/Readme.md):  . _File not used._
 
 * [./include/community/Tomek/Readme.md](/include/community/Tomek/Readme.md):  . _File not used._
 
 * [./include/community/AnnaDG/Readme.md](/include/community/AnnaDG/Readme.md):  . _File not used._
+
+* [./include/community/Tim/Readme.md](/include/community/Tim/Readme.md):  . _File not used._
 
 * [./include/community/Afreen/Readme.md](/include/community/Afreen/Readme.md):  . _File not used._
 
@@ -407,7 +413,11 @@
 
 * [./include/community/DP/Readme.md](/include/community/DP/Readme.md):  . _File not used._
 
+* [./include/community/Song/Readme.md](/include/community/Song/Readme.md):  . _File not used._
+
 * [./include/community/Hannah/Readme.md](/include/community/Hannah/Readme.md):  . _File not used._
+
+* [./include/community/Dean/Readme.md](/include/community/Dean/Readme.md):  . _File not used._
 
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md):  . _File not used._
 
@@ -703,8 +713,8 @@
 * [Untitled.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled.html). File used in: [`/matty/un0log.md`](/matty/un0log.md).
 * [testSPI1.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/testSPI1.html). File used in: [`/matty/un0log.md`](/matty/un0log.md).
 * [20180227a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180227a-Loops.html). File used in: [`/matty/20180227a/Readme.md`](/matty/20180227a/Readme.md).
-* [20180831c-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Client.html). _File not used._
-* [20180831c-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Server.html). _File not used._
+* [20180831c-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Client.html). File used in: [`exp/Code_20180831c.md`](exp/Code_20180831c.md).
+* [20180831c-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Server.html). File used in: [`exp/Code_20180831c.md`](exp/Code_20180831c.md).
 * [20180516a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180516a-Server.html). File used in: [`/matty/20180516a/Readme.md`](/matty/20180516a/Readme.md), [`exp/Code_20180516a.md`](exp/Code_20180516a.md), [`exp/20180516a.md`](exp/20180516a.md).
 * [20180516a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180516a-Client.html). File used in: [`/matty/20180516a/Readme.md`](/matty/20180516a/Readme.md), [`exp/Code_20180516a.md`](exp/Code_20180516a.md), [`exp/20180516a.md`](exp/20180516a.md).
 * [CalibGain.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/CalibGain.html). File used in: [`exp/Code_20180310a.md`](exp/Code_20180310a.md).
@@ -729,9 +739,9 @@
 * [20180221b-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180221b-Server.html). File used in: [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`exp/20180224b.md`](exp/20180224b.md).
 * [RPi.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/RPi.html). _File not used._
 * [20180221a-FPGA_Acqs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180221a-FPGA_Acqs.html). _File not used._
-* [20171112-alt.tbo-w-retro2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171112-alt.tbo-w-retro2.html). File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`exp/20171112a.md`](exp/20171112a.md).
+* [20171112-alt.tbo-w-retro2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171112-alt.tbo-w-retro2.html). File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`exp/20171112a.md`](exp/20171112a.md), [`exp/Code_20171112a.md`](exp/Code_20171112a.md).
 * [TestBP.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/TestBP.html). _File not used._
-* [20171112-refilledATL.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171112-refilledATL.html). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`exp/20171112a.md`](exp/20171112a.md).
+* [20171112-refilledATL.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171112-refilledATL.html). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`exp/20171112a.md`](exp/20171112a.md), [`exp/Code_20171112a.md`](exp/Code_20171112a.md).
 * [20170930-AltPulser.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170930-AltPulser.html). File used in: [`/retired/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.md), [`/retired/alt.tbo/test/Readme.md`](/retired/alt.tbo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20171001-new.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171001-new.html). File used in: [`/retired/alt.tbo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`exp/Code_20171001a.md`](exp/Code_20171001a.md).
 * [20171028-pulses.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171028-pulses.html). File used in: [`/retired/alt.tbo/20171028a/Readme.md`](/retired/alt.tbo/20171028a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -796,7 +806,7 @@
 
 * [mkimg.py](/matty/20180506a/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`exp/20180506a.md`](exp/20180506a.md).
 
-* [pyUn0.py](/matty/20180831c/pyUn0.py): Library for the un0rick platform.. _File not used._
+* [pyUn0.py](/matty/20180831c/pyUn0.py): Library for the un0rick platform.. File used in: [`exp/Code_20180831c.md`](exp/Code_20180831c.md).
 
 * [mkimg.py](/matty/20180310a/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`exp/Code_20180310a.md`](exp/Code_20180310a.md).
 
@@ -804,7 +814,7 @@
 
 * [mkimg.py](/matty/20180403b/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`exp/Code_20180310a.md`](exp/Code_20180310a.md), [`exp/20180403b.md`](exp/20180403b.md), [`exp/Code_20180403b.md`](exp/Code_20180403b.md).
 
-* [pyUn0.py](/matty/20180901a/pyUn0.py): Library for the un0rick platform.. File used in: [`exp/20180901a.md`](exp/20180901a.md).
+* [pyUn0.py](/matty/20180901a/pyUn0.py): Library for the un0rick platform.. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`exp/20180901a.md`](exp/20180901a.md).
 
 * [pyUn0.py](/matty/20180721a/pyUn0.py): Library for the un0rick platform.. File used in: [`/matty/20180721a/Readme.md`](/matty/20180721a/Readme.md), [`exp/20180721a.md`](exp/20180721a.md).
 
@@ -820,11 +830,11 @@
 
 * [mkimg.py](/matty/20180224b/mkimg.py): Autotagging images for the `20180224b` experiment.. File used in: [`exp/20180224b.md`](exp/20180224b.md).
 
-* [bim.py](/retired/alt.tbo/20171112a/bim.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`exp/20171112a.md`](exp/20171112a.md).
+* [bim.py](/retired/alt.tbo/20171112a/bim.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`exp/20171112a.md`](exp/20171112a.md), [`exp/Code_20171112a.md`](exp/Code_20171112a.md).
 
-* [img.py](/retired/alt.tbo/20171112a/img.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`exp/20171112a.md`](exp/20171112a.md).
+* [img.py](/retired/alt.tbo/20171112a/img.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`exp/20171112a.md`](exp/20171112a.md), [`exp/Code_20171112a.md`](exp/Code_20171112a.md).
 
-* [bim.py](/retired/alt.tbo/20171112b/bim.py): . File used in: [`exp/20171112a.md`](exp/20171112a.md).
+* [bim.py](/retired/alt.tbo/20171112b/bim.py): . File used in: [`exp/20171112a.md`](exp/20171112a.md), [`exp/Code_20171112a.md`](exp/Code_20171112a.md).
 
 * [img.py](/retired/alt.tbo/20171112b/img.py): . _File not used._
 
@@ -890,7 +900,7 @@
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`exp/20180506a.md`](exp/20180506a.md).
 
-* [mkimg.py](/include/images/apogee5MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+* [mkimg.py](/include/images/apogee5MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`exp/20180506a.md`](exp/20180506a.md), [`exp/20180809b.md`](exp/20180809b.md).
 
 * [mkimg.py](/include/images/kretzaw145ba/20180811b/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`exp/Code_20180811b.md`](exp/Code_20180811b.md), [`exp/20180811b.md`](exp/20180811b.md), [`exp/20180506a.md`](exp/20180506a.md).
 
@@ -900,7 +910,7 @@
 
 * [pyUn0.py](/include/images/kretzaw145ba/20180812a/pyUn0.py): Library for the un0rick platform.. _File not used._
 
-* [mkimg.py](/include/images/apogee10MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+* [mkimg.py](/include/images/apogee10MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`exp/20180506a.md`](exp/20180506a.md), [`exp/20180809b.md`](exp/20180809b.md).
 
 * [mkimg.py](/include/images/ausonics75/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`exp/20180506a.md`](exp/20180506a.md), [`exp/20180809b.md`](exp/20180809b.md).
 

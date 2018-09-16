@@ -34,7 +34,7 @@
 
 * [mkimg.py](/matty/20180506a/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
 
-* [pyUn0.py](/matty/20180831c/pyUn0.py): Library for the un0rick platform.. _File not used._
+* [pyUn0.py](/matty/20180831c/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20180831c.md`](/include/experiments/auto/Code_20180831c.md).
 
 * [mkimg.py](/matty/20180310a/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
 
@@ -42,7 +42,7 @@
 
 * [mkimg.py](/matty/20180403b/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md), [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
 
-* [pyUn0.py](/matty/20180901a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/20180901a.md`](/include/experiments/auto/20180901a.md).
+* [pyUn0.py](/matty/20180901a/pyUn0.py): Library for the un0rick platform.. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180901a.md`](/include/experiments/auto/20180901a.md).
 
 * [pyUn0.py](/matty/20180721a/pyUn0.py): Library for the un0rick platform.. File used in: [`/matty/20180721a/Readme.md`](/matty/20180721a/Readme.md), [`/include/experiments/auto/20180721a.md`](/include/experiments/auto/20180721a.md).
 
@@ -58,11 +58,11 @@
 
 * [mkimg.py](/matty/20180224b/mkimg.py): Autotagging images for the `20180224b` experiment.. File used in: [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md).
 
-* [bim.py](/retired/alt.tbo/20171112a/bim.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [bim.py](/retired/alt.tbo/20171112a/bim.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
 
-* [img.py](/retired/alt.tbo/20171112a/img.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [img.py](/retired/alt.tbo/20171112a/img.py): . File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
 
-* [bim.py](/retired/alt.tbo/20171112b/bim.py): . File used in: [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [bim.py](/retired/alt.tbo/20171112b/bim.py): . File used in: [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
 
 * [img.py](/retired/alt.tbo/20171112b/img.py): . _File not used._
 
@@ -128,7 +128,7 @@
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
 
-* [mkimg.py](/include/images/apogee5MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+* [mkimg.py](/include/images/apogee5MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md), [`/include/experiments/auto/20180809b.md`](/include/experiments/auto/20180809b.md).
 
 * [mkimg.py](/include/images/kretzaw145ba/20180811b/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/experiments/auto/Code_20180811b.md`](/include/experiments/auto/Code_20180811b.md), [`/include/experiments/auto/20180811b.md`](/include/experiments/auto/20180811b.md), [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md).
 
@@ -138,7 +138,7 @@
 
 * [pyUn0.py](/include/images/kretzaw145ba/20180812a/pyUn0.py): Library for the un0rick platform.. _File not used._
 
-* [mkimg.py](/include/images/apogee10MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+* [mkimg.py](/include/images/apogee10MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md), [`/include/experiments/auto/20180809b.md`](/include/experiments/auto/20180809b.md).
 
 * [mkimg.py](/include/images/ausonics75/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/experiments/auto/20180506a.md`](/include/experiments/auto/20180506a.md), [`/include/experiments/auto/20180809b.md`](/include/experiments/auto/20180809b.md).
 

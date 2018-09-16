@@ -1,6 +1,9 @@
 # History 
 
 
+ * __2018-08-21__: [link from www.ultrasoundresearchgroup.com](https://www.ultrasoundresearchgroup.com/an-ultrasound-driver-with-open-source-fpgas/)
+ * __2018-05-25__: [link from hackaday.com](https://hackaday.com/2018/05/25/an-ultrasound-driver-with-open-source-fpgas/)
+ * __2018-04-20__: [link from news.ycombinator.com](https://news.ycombinator.com/item?id=16962695)
  * __2017-12-27__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-27-eink-and-such.md)
  * __2017-12-17__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-17-Kipple.md)
  * __2017-12-16__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-16-Chaotic-good.md)

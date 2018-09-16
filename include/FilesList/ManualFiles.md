@@ -100,7 +100,7 @@
 
 * [./retired/alt.tbo/Readme.md](/retired/alt.tbo/Readme.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/alt.tbo/20171112a/Readme.md](/retired/alt.tbo/20171112a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
+* [./retired/alt.tbo/20171112a/Readme.md](/retired/alt.tbo/20171112a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
 
 * [./retired/alt.tbo/20171112b/Readme.md](/retired/alt.tbo/20171112b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -383,11 +383,17 @@
 
 * [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  . _File not used._
 
+* [./include/community/John/Readme.md](/include/community/John/Readme.md):  . _File not used._
+
+* [./include/community/Masoud/Readme.md](/include/community/Masoud/Readme.md):  . _File not used._
+
 * [./include/community/Kevin/Readme.md](/include/community/Kevin/Readme.md):  . _File not used._
 
 * [./include/community/Tomek/Readme.md](/include/community/Tomek/Readme.md):  . _File not used._
 
 * [./include/community/AnnaDG/Readme.md](/include/community/AnnaDG/Readme.md):  . _File not used._
+
+* [./include/community/Tim/Readme.md](/include/community/Tim/Readme.md):  . _File not used._
 
 * [./include/community/Afreen/Readme.md](/include/community/Afreen/Readme.md):  . _File not used._
 
@@ -405,7 +411,11 @@
 
 * [./include/community/DP/Readme.md](/include/community/DP/Readme.md):  . _File not used._
 
+* [./include/community/Song/Readme.md](/include/community/Song/Readme.md):  . _File not used._
+
 * [./include/community/Hannah/Readme.md](/include/community/Hannah/Readme.md):  . _File not used._
+
+* [./include/community/Dean/Readme.md](/include/community/Dean/Readme.md):  . _File not used._
 
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md):  . _File not used._
 

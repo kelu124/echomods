@@ -35,3 +35,6 @@
 * 2017-09-30: [Weekly Roundup #45 – New Maker Products](https://www.mickmake.com/archives/4062/3)
 * 2017-10-10: [Ultrasonograf zbudowany z wykorzystaniem Raspberry Pi ](https://www.elektroda.pl/rtvforum/topic3382649.html)
 * 2017-12-01: [Murgen – an opensource project for ultrasound imaging](http://www.meccanismocomplesso.org/en/murgen-opensource-project-for-ultrasound-imaging/)
+* 2018-04-20: [Show HN: FPGA Ultrasound Imaging on a Raspberry Pi](https://news.ycombinator.com/item?id=16962695)
+* 2018-05-25: [un0rick on hackaday](https://hackaday.com/2018/05/25/an-ultrasound-driver-with-open-source-fpgas/)
+* 2018-08-21: [An ultrasound driver](https://www.ultrasoundresearchgroup.com/an-ultrasound-driver-with-open-source-fpgas/)

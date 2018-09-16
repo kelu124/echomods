@@ -1,0 +1,1285 @@
+************* Module pyUn0
+C: 10, 0: Exactly one space required before assignment
+__author__      = "kelu124"
+                ^ (bad-whitespace)
+C: 11, 0: Exactly one space required before assignment
+__copyright__   = "Copyright 2016, Kelu124"
+                ^ (bad-whitespace)
+W: 35, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 37, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 38, 0: Trailing whitespace (trailing-whitespace)
+W: 40, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 42, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 55, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 56, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 58, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 58, 0: Exactly one space required around assignment
+	JSON["firmware_md5"]="fa6a7560ade6d6b1149b6e78e0de051f"
+                     ^ (bad-whitespace)
+W: 59, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 59, 0: Exactly one space required around assignment
+	JSON["firmware_version"]="e_un0"
+                         ^ (bad-whitespace)
+W: 60, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 60, 0: Exactly one space required around assignment
+	JSON["data"]=[]
+             ^ (bad-whitespace)
+W: 61, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 62, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 62, 0: Exactly one space required around assignment
+	JSON["registers"]={}
+                  ^ (bad-whitespace)
+W: 63, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 63, 0: Exactly one space required around assignment
+	JSON["experiment"]={}
+                   ^ (bad-whitespace)
+W: 64, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 64, 0: Exactly one space required around assignment
+	JSON["parameters"]={}
+                   ^ (bad-whitespace)
+W: 65, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 65, 0: Exactly one space required around assignment
+	JSON["timings"]={}
+                ^ (bad-whitespace)
+W: 66, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 67, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 67, 0: Exactly one space required around assignment
+	JSON["experiment"]["description"]="na"
+                                  ^ (bad-whitespace)
+W: 68, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 68, 0: Exactly one space required around assignment
+	JSON["experiment"]["probe"]="na"
+                            ^ (bad-whitespace)
+W: 69, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 70, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 71, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 71, 0: Exactly one space required around assignment
+	JSON["V"]="-1"
+          ^ (bad-whitespace)
+W: 73, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 74, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 75, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 76, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 78, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 78, 0: Exactly one space required after comma
+	def CreateDACCurve(self,Deb,Fin,CurveType):
+                        ^ (bad-whitespace)
+C: 78, 0: Exactly one space required after comma
+	def CreateDACCurve(self,Deb,Fin,CurveType):
+                            ^ (bad-whitespace)
+C: 78, 0: Exactly one space required after comma
+	def CreateDACCurve(self,Deb,Fin,CurveType):
+                                ^ (bad-whitespace)
+W: 79, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 80, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 81, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 82, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 83, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 84, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 85, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 86, 0: Trailing whitespace (trailing-whitespace)
+W: 86, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 87, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 88, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 89, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 90, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 90, 0: Exactly one space required after comma
+	    return DACValues,len(DACValues)
+                     ^ (bad-whitespace)
+W: 92, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 92, 0: Exactly one space required after comma
+	def setTimings(self,t1,t2,t3,WaitTill,t5):
+                    ^ (bad-whitespace)
+C: 92, 0: Exactly one space required after comma
+	def setTimings(self,t1,t2,t3,WaitTill,t5):
+                       ^ (bad-whitespace)
+C: 92, 0: Exactly one space required after comma
+	def setTimings(self,t1,t2,t3,WaitTill,t5):
+                          ^ (bad-whitespace)
+C: 92, 0: Exactly one space required after comma
+	def setTimings(self,t1,t2,t3,WaitTill,t5):
+                             ^ (bad-whitespace)
+C: 92, 0: Exactly one space required after comma
+	def setTimings(self,t1,t2,t3,WaitTill,t5):
+                                      ^ (bad-whitespace)
+W: 93, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 94, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 94, 0: Exactly one space required after comma
+	    self.setPulseTrain(t1,t2,t3,t4,t5)
+                          ^ (bad-whitespace)
+C: 94, 0: Exactly one space required after comma
+	    self.setPulseTrain(t1,t2,t3,t4,t5)
+                             ^ (bad-whitespace)
+C: 94, 0: Exactly one space required after comma
+	    self.setPulseTrain(t1,t2,t3,t4,t5)
+                                ^ (bad-whitespace)
+C: 94, 0: Exactly one space required after comma
+	    self.setPulseTrain(t1,t2,t3,t4,t5)
+                                   ^ (bad-whitespace)
+C: 96, 0: Trailing whitespace (trailing-whitespace)
+W: 96, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 97, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 98, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 98, 0: Exactly one space required before assignment
+	    self.JSON["timings"]["t1"]     = t1
+                                    ^ (bad-whitespace)
+W: 99, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 99, 0: Exactly one space required before assignment
+	    self.JSON["timings"]["t2"]     = t2
+                                    ^ (bad-whitespace)
+W:100, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:100, 0: Exactly one space required before assignment
+	    self.JSON["timings"]["t3"]     = t3
+                                    ^ (bad-whitespace)
+W:101, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:101, 0: Exactly one space required before assignment
+	    self.JSON["timings"]["t4"]     = WaitTill
+                                    ^ (bad-whitespace)
+W:102, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:102, 0: Exactly one space required before assignment
+	    self.JSON["timings"]["t5"]     = t5
+                                    ^ (bad-whitespace)
+W:103, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:103, 0: Exactly one space required before assignment
+	    self.JSON["timings"]["NAcq"]   = self.Nacq
+                                    ^ (bad-whitespace)
+W:104, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:104, 0: Exactly one space required before assignment
+	    self.JSON["timings"]["LAcq"]   = self.LAcq
+                                    ^ (bad-whitespace)
+W:105, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:105, 0: Exactly one space required before assignment
+	    self.JSON["timings"]["Fech"]   = self.Fech
+                                    ^ (bad-whitespace)
+C:106, 0: Trailing whitespace (trailing-whitespace)
+W:106, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:107, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:108, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:109, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:110, 0: Trailing whitespace (trailing-whitespace)
+W:110, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:111, 0: Trailing whitespace (trailing-whitespace)
+W:112, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:112, 0: Exactly one space required after comma
+	def setMultiLines(self,Bool):
+                       ^ (bad-whitespace)
+W:113, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:114, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:115, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:115, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEB,1) # Doing one line if 0, several if 1
+                     ^ (bad-whitespace)
+W:116, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:117, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:118, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:119, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:119, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEB,0) # Doing one line if 0, several if 1
+                     ^ (bad-whitespace)
+W:120, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:121, 0: Trailing whitespace (trailing-whitespace)
+W:122, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:122, 0: Exactly one space required after comma
+	def setDACCurve(self,DACValues):
+                     ^ (bad-whitespace)
+C:123, 0: Trailing whitespace (trailing-whitespace)
+W:123, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:124, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:125, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:126, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:127, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:127, 0: Exactly one space required after comma
+		        self.WriteFPGA(16+i,DACValues[i]/4)
+                             ^ (bad-whitespace)
+W:128, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:129, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:129, 0: Exactly one space required after comma
+		        self.WriteFPGA(16+i,0)
+                             ^ (bad-whitespace)
+W:136, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:136, 0: Exactly one space required after comma
+	def WriteFPGA(self,adress,value):
+                   ^ (bad-whitespace)
+C:136, 0: Exactly one space required after comma
+	def WriteFPGA(self,adress,value):
+                          ^ (bad-whitespace)
+W:137, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:137, 0: No space allowed before bracket
+	    self.spi.xfer([0xAA] )
+                          ^ (bad-whitespace)
+W:138, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:138, 0: No space allowed before bracket
+	    self.spi.xfer([adress] )
+                            ^ (bad-whitespace)
+W:139, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:139, 0: No space allowed before bracket
+	    self.spi.xfer([value] )
+                           ^ (bad-whitespace)
+W:140, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:140, 0: Exactly one space required around assignment
+	    self.JSON["registers"][int(adress)]=value
+                                        ^ (bad-whitespace)
+C:142, 0: Trailing whitespace (trailing-whitespace)
+W:143, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:144, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:145, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:146, 0: Trailing whitespace (trailing-whitespace)
+W:146, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:147, 0: Trailing whitespace (trailing-whitespace)
+W:148, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:149, 0: Trailing whitespace (trailing-whitespace)
+W:149, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:149, 0: Exactly one space required after comma
+	    GPIO.setup(CS_FLASH,GPIO.OUT)  
+                        ^ (bad-whitespace)
+W:150, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:150, 0: Exactly one space required after comma
+	    GPIO.output(CS_FLASH,GPIO.LOW)
+                         ^ (bad-whitespace)
+W:152, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:152, 0: Exactly one space required after comma
+	    GPIO.setup(PRESET,GPIO.OUT)
+                      ^ (bad-whitespace)
+W:153, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:153, 0: Exactly one space required after comma
+	    GPIO.setup(IO4,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+                   ^ (bad-whitespace)
+W:154, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:155, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:155, 0: Exactly one space required after comma
+	    GPIO.output(PRESET,GPIO.LOW)
+                       ^ (bad-whitespace)
+W:156, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:157, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:158, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:158, 0: Exactly one space required after comma
+	    GPIO.output(PRESET,GPIO.HIGH)
+                       ^ (bad-whitespace)
+W:159, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:160, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:160, 0: Exactly one space required after comma
+	    self.spi.open(0,0) # CS2 - FPGA, on CE1 = IO4
+                    ^ (bad-whitespace)
+W:161, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:162, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:163, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:164, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:165, 0: Trailing whitespace (trailing-whitespace)
+W:165, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:171, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:171, 0: Exactly one space required after comma
+	def TestSPI(self,ncycles):
+                 ^ (bad-whitespace)
+W:172, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:173, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:174, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:174, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEB,0x01) # 0: single mode 1 continious mode
+                     ^ (bad-whitespace)
+W:175, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:176, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:176, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEB,0x00) # 0: single mode 1 continious mode
+                     ^ (bad-whitespace)
+C:177, 0: Trailing whitespace (trailing-whitespace)
+W:177, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:178, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:180, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:181, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:182, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:182, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEB,0x01) # 0: single mode 1 continious mode
+                     ^ (bad-whitespace)
+W:183, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:183, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEB,0x00) # 0: single mode 1 continious mode
+                     ^ (bad-whitespace)
+W:186, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:187, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:188, 0: Trailing whitespace (trailing-whitespace)
+W:188, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:188, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEB,0x00) # Doing 1 shot 
+                     ^ (bad-whitespace)
+W:189, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:189, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEF,0x01) # Cleaning memory pointer
+                     ^ (bad-whitespace)
+W:190, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:190, 0: Exactly one space required after comma
+		self.WriteFPGA(0xEA,0x0) # Software Trig : As to be clear by software
+                     ^ (bad-whitespace)
+W:191, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:194, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:195, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:195, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xEF,0x01) # To access memory
+                        ^ (bad-whitespace)
+C:196, 0: Trailing whitespace (trailing-whitespace)
+W:200, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:200, 0: Exactly one space required after comma
+	def setMsps(self,F):
+                 ^ (bad-whitespace)
+W:201, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:201, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xED,F)
+                        ^ (bad-whitespace)
+W:202, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:203, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:204, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:206, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:207, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:207, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xEF,0x01) # Cleaning memory pointer
+                        ^ (bad-whitespace)
+W:208, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:209, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:209, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xEA,0x01) # Software Trig : As to be clear by software
+                        ^ (bad-whitespace)
+W:210, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:211, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:212, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:213, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:214, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:214, 0: No space allowed around bracket
+	        self.JSON["data"].append ( self.spi.xfer([0x00] )[0] )
+                                  ^ (bad-whitespace)
+C:214, 0: No space allowed before bracket
+	        self.JSON["data"].append ( self.spi.xfer([0x00] )[0] )
+                                                         ^ (bad-whitespace)
+C:214, 0: No space allowed before bracket
+	        self.JSON["data"].append ( self.spi.xfer([0x00] )[0] )
+                                                              ^ (bad-whitespace)
+W:215, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:215, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+W:216, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:217, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:218, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:219, 0: Trailing whitespace (trailing-whitespace)
+W:219, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:220, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:221, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:222, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:223, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:224, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:225, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:227, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:227, 0: Exactly one space required after comma
+	def setNLines(self,n):
+                   ^ (bad-whitespace)
+C:228, 0: Trailing whitespace (trailing-whitespace)
+W:228, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:228, 0: Exactly one space required after comma
+	    nMSB, nLSB = n/256,0x00FF&n 
+                       ^ (bad-whitespace)
+W:229, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:229, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xEE,nLSB)
+                        ^ (bad-whitespace)
+W:230, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:230, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xDE,nMSB)
+                        ^ (bad-whitespace)
+W:231, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:232, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:234, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:236, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:237, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:238, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:240, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:240, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xEC,0x33) # Set DAC constant
+                        ^ (bad-whitespace)
+W:241, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:243, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:243, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xEB,0x00) # 0: single mode 1 continious mode
+                        ^ (bad-whitespace)
+C:244, 0: Line too long (116/100) (line-too-long)
+W:244, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:244, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xED,0x03) # Frequency of ADC acquisition / sEEADC_freq (3 = 16Msps, 1 = 32, 0 = 64, 2 = 21Msps)
+                        ^ (bad-whitespace)
+W:245, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:246, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:248, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:248, 0: Exactly one space required after comma
+	def setDACConstant(self,mV):
+                        ^ (bad-whitespace)
+W:249, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:250, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:251, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:252, 0: Trailing whitespace (trailing-whitespace)
+W:252, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:253, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:254, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:254, 0: Exactly one space required after comma
+	    print "Gain:", mV," mV -- ",hex(hmV)
+                      ^ (bad-whitespace)
+C:254, 0: Exactly one space required after comma
+	    print "Gain:", mV," mV -- ",hex(hmV)
+                                ^ (bad-whitespace)
+W:255, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:255, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xEC,hmV) # Voltage gain control: 0V to 1V
+                        ^ (bad-whitespace)
+W:258, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:258, 0: Exactly one space required after comma
+	def setPon(self,POn):
+                ^ (bad-whitespace)
+W:259, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:260, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:261, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:262, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:263, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:264, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:265, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:266, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:266, 0: Exactly one space required after comma
+	    print "Pulse width:", POn," ns -- ",hex(HPon)
+                              ^ (bad-whitespace)
+C:266, 0: Exactly one space required after comma
+	    print "Pulse width:", POn," ns -- ",hex(HPon)
+                                        ^ (bad-whitespace)
+W:267, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:267, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE0,HPon) # set sEEPon
+                        ^ (bad-whitespace)
+W:268, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:269, 0: Trailing whitespace (trailing-whitespace)
+W:270, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:270, 0: Exactly one space required after comma
+	def setPulsesDelay(self,DeltaPP):
+                        ^ (bad-whitespace)
+W:272, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:273, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:274, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:275, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:276, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:276, 0: Exactly one space required after assignment
+	    HPP =DeltaPP /10
+         ^ (bad-whitespace)
+W:278, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:279, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:280, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:280, 0: Exactly one space required after comma
+	    print "Pulses delay:", DeltaPP," ns -- ",hex(HPP)
+                                   ^ (bad-whitespace)
+C:280, 0: Exactly one space required after comma
+	    print "Pulses delay:", DeltaPP," ns -- ",hex(HPP)
+                                             ^ (bad-whitespace)
+W:281, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:281, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xD0,HPP) # set sEEPon
+                        ^ (bad-whitespace)
+W:282, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:284, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:284, 0: Exactly one space required after comma
+	def setPoff(self,sEEPoff):
+                 ^ (bad-whitespace)
+W:286, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:288, 0: Trailing whitespace (trailing-whitespace)
+W:288, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:288, 0: Exactly one space required after comma
+	    POffMSB, POffLSB = 0x00FF&POff/256,0x00FF&POff 
+                                       ^ (bad-whitespace)
+W:289, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:289, 0: Exactly one space required after comma
+	    print "Poff:", sEEPoff," ns -- ",hex(POffMSB),hex(POffLSB)
+                           ^ (bad-whitespace)
+C:289, 0: Exactly one space required after comma
+	    print "Poff:", sEEPoff," ns -- ",hex(POffMSB),hex(POffLSB)
+                                     ^ (bad-whitespace)
+C:289, 0: Exactly one space required after comma
+	    print "Poff:", sEEPoff," ns -- ",hex(POffMSB),hex(POffLSB)
+                                                  ^ (bad-whitespace)
+W:290, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:291, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:292, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:292, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE1,POffMSB) # set sEEPon MSB
+                        ^ (bad-whitespace)
+W:293, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:293, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE2,POffLSB) # set sEEPon LSB
+                        ^ (bad-whitespace)
+W:294, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:297, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:297, 0: Exactly one space required after comma
+	def setDeltaAcq(self,DeltaAcq):
+                     ^ (bad-whitespace)
+W:298, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:299, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:300, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:301, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:303, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:304, 0: Trailing whitespace (trailing-whitespace)
+W:304, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:304, 0: No space allowed before comma
+	    hDAMSB, hDALSB = hDA/256 , 0x00FF&hDA 
+                              ^ (bad-whitespace)
+W:305, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:305, 0: Exactly one space required after comma
+	    print "Delay between:",hDA*1000/128,"ns -- ", hex(hDAMSB),hex(hDALSB)
+                           ^ (bad-whitespace)
+C:305, 0: Exactly one space required after comma
+	    print "Delay between:",hDA*1000/128,"ns -- ", hex(hDAMSB),hex(hDALSB)
+                                        ^ (bad-whitespace)
+C:305, 0: Exactly one space required after comma
+	    print "Delay between:",hDA*1000/128,"ns -- ", hex(hDAMSB),hex(hDALSB)
+                                                              ^ (bad-whitespace)
+W:306, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:307, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:308, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:308, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE3,hDAMSB) # set sEEPon MSB
+                        ^ (bad-whitespace)
+W:309, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:309, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE4,hDALSB) # set sEEPon LSB
+                        ^ (bad-whitespace)
+W:310, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:312, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:312, 0: Exactly one space required after comma
+	def SetLengthAcq(self,LAcqI):
+                      ^ (bad-whitespace)
+W:313, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:315, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:316, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:317, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:317, 0: No space allowed before comma
+	    LAcqMSB, LAcqLSB = 0x00FF&LAcqCorrected/256 , 0x00FF&LAcqCorrected
+                                                 ^ (bad-whitespace)
+W:318, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:318, 0: Exactly one space required after comma
+	    print "Acquisition length: ", int(LAcqCorrected*1000/128), "ns -- ",hex(LAcqMSB),hex(LAcqLSB)
+                                                                        ^ (bad-whitespace)
+C:318, 0: Exactly one space required after comma
+	    print "Acquisition length: ", int(LAcqCorrected*1000/128), "ns -- ",hex(LAcqMSB),hex(LAcqLSB)
+                                                                                     ^ (bad-whitespace)
+W:319, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:319, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE5,LAcqMSB) # set sEEPon MSB
+                        ^ (bad-whitespace)
+W:320, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:320, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE6,LAcqLSB) # set sEEPon LSB
+                        ^ (bad-whitespace)
+W:321, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:323, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:323, 0: Exactly one space required after comma
+	def setPeriodAcq(self,lEPeriod):
+                      ^ (bad-whitespace)
+W:324, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:325, 0: Trailing whitespace (trailing-whitespace)
+W:325, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:325, 0: Exactly one space required after comma
+	    EPNsMSB, EPNs, EPNsLSB = 0x00FF&lEPNs/(256*256),0x00FF&lEPNs/256,0x0000FF&lEPNs 
+                                                    ^ (bad-whitespace)
+C:325, 0: Exactly one space required after comma
+	    EPNsMSB, EPNs, EPNsLSB = 0x00FF&lEPNs/(256*256),0x00FF&lEPNs/256,0x0000FF&lEPNs 
+                                                                     ^ (bad-whitespace)
+C:326, 0: Trailing whitespace (trailing-whitespace)
+W:326, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:326, 0: Exactly one space required after comma
+	    print "Period between two acquisitions:", lEPNs,"us --", hex(EPNsMSB),hex(EPNs),hex(EPNsLSB) 
+                                                    ^ (bad-whitespace)
+C:326, 0: Exactly one space required after comma
+	    print "Period between two acquisitions:", lEPNs,"us --", hex(EPNsMSB),hex(EPNs),hex(EPNsLSB) 
+                                                                          ^ (bad-whitespace)
+C:326, 0: Exactly one space required after comma
+	    print "Period between two acquisitions:", lEPNs,"us --", hex(EPNsMSB),hex(EPNs),hex(EPNsLSB) 
+                                                                                    ^ (bad-whitespace)
+W:327, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:328, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:329, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:329, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE7,EPNsMSB) # Period of one cycle MSB
+                        ^ (bad-whitespace)
+W:330, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:330, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE8,EPNs) # Period of one cycle 15 to 8
+                        ^ (bad-whitespace)
+W:331, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:331, 0: Exactly one space required after comma
+	    self.WriteFPGA(0xE9,EPNsLSB) # Period of one cycle LSB
+                        ^ (bad-whitespace)
+W:332, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:334, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:334, 0: Exactly one space required after comma
+	def setPulseTrain(self,Pon,Pdelay,Poff,DelayAcq,Acq):
+                       ^ (bad-whitespace)
+C:334, 0: Exactly one space required after comma
+	def setPulseTrain(self,Pon,Pdelay,Poff,DelayAcq,Acq):
+                           ^ (bad-whitespace)
+C:334, 0: Exactly one space required after comma
+	def setPulseTrain(self,Pon,Pdelay,Poff,DelayAcq,Acq):
+                                  ^ (bad-whitespace)
+C:334, 0: Exactly one space required after comma
+	def setPulseTrain(self,Pon,Pdelay,Poff,DelayAcq,Acq):
+                                       ^ (bad-whitespace)
+C:334, 0: Exactly one space required after comma
+	def setPulseTrain(self,Pon,Pdelay,Poff,DelayAcq,Acq):
+                                                ^ (bad-whitespace)
+W:335, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:336, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:337, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:338, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:339, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:340, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:341, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:350, 0: Exactly one space required after comma
+def MetaDataImg(Modules,Experiment,Category,Description):
+                       ^ (bad-whitespace)
+C:350, 0: Exactly one space required after comma
+def MetaDataImg(Modules,Experiment,Category,Description):
+                                  ^ (bad-whitespace)
+C:350, 0: Exactly one space required after comma
+def MetaDataImg(Modules,Experiment,Category,Description):
+                                           ^ (bad-whitespace)
+C:353, 0: No space allowed after bracket
+        for filename in [f for f in filenames if ( f.endswith(".jpg") or f.endswith(".png") )]:
+                                                 ^ (bad-whitespace)
+C:353, 0: No space allowed before bracket
+        for filename in [f for f in filenames if ( f.endswith(".jpg") or f.endswith(".png") )]:
+                                                                                            ^ (bad-whitespace)
+C:354, 0: No space allowed after bracket
+            Imgs.append( os.path.join(dirpath, filename) )
+                       ^ (bad-whitespace)
+C:354, 0: No space allowed before bracket
+            Imgs.append( os.path.join(dirpath, filename) )
+                                                         ^ (bad-whitespace)
+C:371, 0: Trailing whitespace (trailing-whitespace)
+C:374, 0: Exactly one space required after comma
+def TagImage(FileName,Modules,Experiment,Category,Description):
+                     ^ (bad-whitespace)
+C:374, 0: Exactly one space required after comma
+def TagImage(FileName,Modules,Experiment,Category,Description):
+                             ^ (bad-whitespace)
+C:374, 0: Exactly one space required after comma
+def TagImage(FileName,Modules,Experiment,Category,Description):
+                                        ^ (bad-whitespace)
+C:374, 0: Exactly one space required after comma
+def TagImage(FileName,Modules,Experiment,Category,Description):
+                                                 ^ (bad-whitespace)
+W:376, 0: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+W:377, 0: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+W:378, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:379, 0: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+W:380, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:381, 0: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+W:382, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:383, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:384, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:385, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:386, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:387, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:390, 0: Trailing whitespace (trailing-whitespace)
+C:394, 0: Trailing whitespace (trailing-whitespace)
+C:395, 0: Trailing whitespace (trailing-whitespace)
+C:396, 0: Trailing whitespace (trailing-whitespace)
+C:398, 0: Exactly one space required before assignment
+    EnvHil= []
+          ^ (bad-whitespace)
+C:403, 0: Trailing whitespace (trailing-whitespace)
+C:407, 0: Exactly one space required before assignment
+    t= []
+     ^ (bad-whitespace)
+C:413, 0: Exactly one space required before assignment
+    len_line= 0
+            ^ (bad-whitespace)
+C:418, 0: Exactly one space required after assignment
+    iD =  0
+       ^ (bad-whitespace)
+C:420, 0: Trailing whitespace (trailing-whitespace)
+C:421, 0: Exactly one space required after comma
+    def JSONprocessing(self,path):
+                           ^ (bad-whitespace)
+C:426, 0: Trailing whitespace (trailing-whitespace)
+C:427, 0: Trailing whitespace (trailing-whitespace)
+C:432, 0: Trailing whitespace (trailing-whitespace)
+C:435, 0: Trailing whitespace (trailing-whitespace)
+C:436, 0: Trailing whitespace (trailing-whitespace)
+C:437, 0: Trailing whitespace (trailing-whitespace)
+C:443, 0: No space allowed before bracket
+                    IDLine.append(((A[2*i+0]&0b11110000)/16  -8 ) /2 ) # Identify the # of the line
+                                                                ^ (bad-whitespace)
+C:443, 0: No space allowed before bracket
+                    IDLine.append(((A[2*i+0]&0b11110000)/16  -8 ) /2 ) # Identify the # of the line
+                                                                     ^ (bad-whitespace)
+C:444, 0: No space allowed after bracket
+                    TT1.append( (A[2*i+0] & 0b00001000) / 0b1000)
+                              ^ (bad-whitespace)
+C:445, 0: No space allowed after bracket
+                    TT2.append( (A[2*i+0] & 0b00010000) / 0b10000)
+                              ^ (bad-whitespace)
+C:446, 0: Trailing whitespace (trailing-whitespace)
+C:446, 0: No space allowed after bracket
+                    tmp.append( 2.0*value/512.0 ) 
+                              ^ (bad-whitespace)
+C:446, 0: No space allowed before bracket
+                    tmp.append( 2.0*value/512.0 ) 
+                                                ^ (bad-whitespace)
+C:450, 0: No space allowed before bracket
+                    IDLine.append(((A[2*i+1]&0b11110000)/16 -8) /2 ) # Identify the # of the line
+                                                                   ^ (bad-whitespace)
+C:451, 0: No space allowed after bracket
+                    TT1.append( (A[2*i+1] & 0b00001000) / 0b1000)
+                              ^ (bad-whitespace)
+C:452, 0: No space allowed after bracket
+                    TT2.append( (A[2*i+1] & 0b00010000) / 0b10000)
+                              ^ (bad-whitespace)
+C:453, 0: No space allowed after bracket
+                    tmp.append( 2.0*value/512.0 )
+                              ^ (bad-whitespace)
+C:453, 0: No space allowed before bracket
+                    tmp.append( 2.0*value/512.0 )
+                                                ^ (bad-whitespace)
+C:457, 0: No space allowed after bracket
+            self.f = float(64/((1.0+int( d["registers"]["237"] ) )))
+                                       ^ (bad-whitespace)
+C:457, 0: No space allowed before bracket
+            self.f = float(64/((1.0+int( d["registers"]["237"] ) )))
+                                                               ^ (bad-whitespace)
+C:457, 0: No space allowed before bracket
+            self.f = float(64/((1.0+int( d["registers"]["237"] ) )))
+                                                                 ^ (bad-whitespace)
+C:458, 0: Trailing whitespace (trailing-whitespace)
+C:459, 0: No space allowed after bracket
+            t = [ 1.0*x/self.f + self.timings['t4']  for x in range(len(tmp))]
+                ^ (bad-whitespace)
+C:461, 0: Trailing whitespace (trailing-whitespace)
+C:466, 0: Trailing whitespace (trailing-whitespace)
+C:479, 0: Trailing whitespace (trailing-whitespace)
+W:487, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:488, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:489, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:490, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:491, 0: Trailing whitespace (trailing-whitespace)
+C:505, 0: Trailing whitespace (trailing-whitespace)
+C:506, 0: Trailing whitespace (trailing-whitespace)
+W:508, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:509, 0: Trailing whitespace (trailing-whitespace)
+W:509, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:509, 0: No space allowed after bracket
+		self.FFT_x = [ X*self.f / (self.LengthT) for X in range(self.LengthT)] 
+               ^ (bad-whitespace)
+W:510, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:511, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:513, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:513, 0: No space allowed before bracket
+		for k in range (self.LengthT/2 + 1):
+                 ^ (bad-whitespace)
+W:514, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:515, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:516, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:517, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:518, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:519, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:520, 0: Trailing whitespace (trailing-whitespace)
+W:521, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:524, 0: Exactly one space required after comma
+            plt.figure(figsize=(15,5))
+                                  ^ (bad-whitespace)
+C:525, 0: Trailing whitespace (trailing-whitespace)
+C:526, 0: Trailing whitespace (trailing-whitespace)
+C:526, 0: Line too long (101/100) (line-too-long)
+C:527, 0: No space allowed after bracket
+            plt.title( "FFT of "+self.iD + " - acq. #: "+ str(self.N))
+                     ^ (bad-whitespace)
+C:528, 0: Trailing whitespace (trailing-whitespace)
+C:532, 0: Trailing whitespace (trailing-whitespace)
+C:533, 0: Line too long (128/100) (line-too-long)
+C:533, 0: Exactly one space required after comma
+            self.TagImage("matty,cletus",self.iD,"FFT","FFT of the of "+self.iD +" experiment. "+self.experiment["description"])
+                                        ^ (bad-whitespace)
+C:533, 0: Exactly one space required after comma
+            self.TagImage("matty,cletus",self.iD,"FFT","FFT of the of "+self.iD +" experiment. "+self.experiment["description"])
+                                                ^ (bad-whitespace)
+C:533, 0: Exactly one space required after comma
+            self.TagImage("matty,cletus",self.iD,"FFT","FFT of the of "+self.iD +" experiment. "+self.experiment["description"])
+                                                      ^ (bad-whitespace)
+C:535, 0: Trailing whitespace (trailing-whitespace)
+C:536, 0: Trailing whitespace (trailing-whitespace)
+C:539, 0: Exactly one space required after comma
+            fig, ax1 = plt.subplots(figsize=(20,10))
+                                               ^ (bad-whitespace)
+C:540, 0: Trailing whitespace (trailing-whitespace)
+C:543, 0: No space allowed after bracket
+            plt.title( self.iD + " - acq. #: "+ str(self.N))
+                     ^ (bad-whitespace)
+C:550, 0: Trailing whitespace (trailing-whitespace)
+C:551, 0: Line too long (126/100) (line-too-long)
+C:553, 0: Exactly one space required after comma
+    def TagImage(self,Module,ID,Type,Description):
+                     ^ (bad-whitespace)
+C:553, 0: Exactly one space required after comma
+    def TagImage(self,Module,ID,Type,Description):
+                            ^ (bad-whitespace)
+C:553, 0: Exactly one space required after comma
+    def TagImage(self,Module,ID,Type,Description):
+                               ^ (bad-whitespace)
+C:553, 0: Exactly one space required after comma
+    def TagImage(self,Module,ID,Type,Description):
+                                    ^ (bad-whitespace)
+W:555, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:556, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:557, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:558, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W:559, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:560, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+C:561, 0: Trailing whitespace (trailing-whitespace)
+W:561, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W:562, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W:563, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+C:564, 0: Trailing whitespace (trailing-whitespace)
+W:564, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+C:565, 0: Trailing whitespace (trailing-whitespace)
+W:565, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W:566, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+C:567, 0: Trailing whitespace (trailing-whitespace)
+C:576, 0: Exactly one space required after assignment
+                lineindex =  self.IDLine[k]
+                          ^ (bad-whitespace)
+C:580, 0: Trailing whitespace (trailing-whitespace)
+C:581, 0: Trailing whitespace (trailing-whitespace)
+C:585, 0: Trailing whitespace (trailing-whitespace)
+C:586, 0: Exactly one space required after comma
+        CleanImage = np.zeros((len(y),len(self.tmp)/len(y)))
+                                     ^ (bad-whitespace)
+C:589, 0: Trailing whitespace (trailing-whitespace)
+C:593, 0: Trailing whitespace (trailing-whitespace)
+C:594, 0: Exactly one space required after comma
+        CleanImage = CleanImage[:,:int(Duration*self.f)]
+                                 ^ (bad-whitespace)
+C:595, 0: No space allowed around keyword argument assignment
+        plt.figure(figsize = (15,10))
+                           ^ (bad-whitespace)
+C:595, 0: Exactly one space required after comma
+        plt.figure(figsize = (15,10))
+                                ^ (bad-whitespace)
+C:596, 0: Trailing whitespace (trailing-whitespace)
+C:596, 0: Line too long (124/100) (line-too-long)
+C:597, 0: Trailing whitespace (trailing-whitespace)
+C:598, 0: Line too long (132/100) (line-too-long)
+C:598, 0: Exactly one space required before assignment
+        Title  = "Experiment: " +self.iD+"-"+str(self.N)+"\nDuration: "+str(Duration)+"us ("+str(self.parameters['LengthAcq'])+" - "
+               ^ (bad-whitespace)
+C:602, 0: Line too long (129/100) (line-too-long)
+C:603, 0: Line too long (115/100) (line-too-long)
+C:605, 0: Trailing whitespace (trailing-whitespace)
+C:606, 0: No space allowed after bracket
+        plt.title( Title  )
+                 ^ (bad-whitespace)
+C:606, 0: No space allowed before bracket
+        plt.title( Title  )
+                          ^ (bad-whitespace)
+C:607, 0: Trailing whitespace (trailing-whitespace)
+C:611, 0: Exactly one space required after comma
+        TagImage(FileName,"matty,"+self.piezo,self.iD,"BC",Title.replace("\n",". "))
+                         ^ (bad-whitespace)
+C:611, 0: Exactly one space required after comma
+        TagImage(FileName,"matty,"+self.piezo,self.iD,"BC",Title.replace("\n",". "))
+                                             ^ (bad-whitespace)
+C:611, 0: Exactly one space required after comma
+        TagImage(FileName,"matty,"+self.piezo,self.iD,"BC",Title.replace("\n",". "))
+                                                     ^ (bad-whitespace)
+C:611, 0: Exactly one space required after comma
+        TagImage(FileName,"matty,"+self.piezo,self.iD,"BC",Title.replace("\n",". "))
+                                                          ^ (bad-whitespace)
+C:611, 0: Exactly one space required after comma
+        TagImage(FileName,"matty,"+self.piezo,self.iD,"BC",Title.replace("\n",". "))
+                                                                             ^ (bad-whitespace)
+C:612, 0: Trailing whitespace (trailing-whitespace)
+C:615, 0: Trailing whitespace (trailing-whitespace)
+C:621, 0: Exactly one space required after comma
+    def PlotDetail(self,NbLine,Start,Stop):
+                       ^ (bad-whitespace)
+C:621, 0: Exactly one space required after comma
+    def PlotDetail(self,NbLine,Start,Stop):
+                              ^ (bad-whitespace)
+C:621, 0: Exactly one space required after comma
+    def PlotDetail(self,NbLine,Start,Stop):
+                                    ^ (bad-whitespace)
+W:623, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:624, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:626, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:626, 0: Exactly one space required after comma
+	plt.figure(figsize=(15,5))
+                       ^ (bad-whitespace)
+C:627, 0: Trailing whitespace (trailing-whitespace)
+C:627, 0: Line too long (178/100) (line-too-long)
+W:627, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:628, 0: Trailing whitespace (trailing-whitespace)
+C:628, 0: Line too long (181/100) (line-too-long)
+W:628, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:630, 0: Line too long (132/100) (line-too-long)
+W:630, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:630, 0: No space allowed after bracket
+	plt.title( "Detail of "+self.iD + " - acq. #: "+ str(self.N)+", between "+str(Start)+" and "+str(Stop)+" (line #"+str(NbLine)+").")
+          ^ (bad-whitespace)
+C:631, 0: Trailing whitespace (trailing-whitespace)
+W:631, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:632, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:633, 0: Line too long (115/100) (line-too-long)
+C:635, 0: Trailing whitespace (trailing-whitespace)
+W:635, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:637, 0: Exactly one space required after comma
+    def mkSpectrum(self,img):
+                       ^ (bad-whitespace)
+C:641, 0: Trailing whitespace (trailing-whitespace)
+C:641, 0: No space allowed after bracket
+            FFT_x = [ X*self.f / (L) for X in range(L)] 
+                    ^ (bad-whitespace)
+C:646, 0: No space allowed around keyword argument assignment
+            plt.figure(figsize = (15,10))
+                               ^ (bad-whitespace)
+C:646, 0: Exactly one space required after comma
+            plt.figure(figsize = (15,10))
+                                    ^ (bad-whitespace)
+C:647, 0: Trailing whitespace (trailing-whitespace)
+C:647, 0: Line too long (130/100) (line-too-long)
+C:647, 0: Exactly one space required after comma
+            plt.imshow(np.sqrt(np.abs(Spectrum)), extent=[0,1000.0*self.f/2,N,0],cmap='hsv', aspect=30.0, interpolation='nearest') 
+                                                           ^ (bad-whitespace)
+C:647, 0: Exactly one space required after comma
+            plt.imshow(np.sqrt(np.abs(Spectrum)), extent=[0,1000.0*self.f/2,N,0],cmap='hsv', aspect=30.0, interpolation='nearest') 
+                                                                           ^ (bad-whitespace)
+C:647, 0: Exactly one space required after comma
+            plt.imshow(np.sqrt(np.abs(Spectrum)), extent=[0,1000.0*self.f/2,N,0],cmap='hsv', aspect=30.0, interpolation='nearest') 
+                                                                             ^ (bad-whitespace)
+C:647, 0: Exactly one space required after comma
+            plt.imshow(np.sqrt(np.abs(Spectrum)), extent=[0,1000.0*self.f/2,N,0],cmap='hsv', aspect=30.0, interpolation='nearest') 
+                                                                                ^ (bad-whitespace)
+C:648, 0: No space allowed before bracket
+            plt.axvline(x=(1000 * self.fPiezo * 1.27 ),linewidth=4, color='b')
+                                                     ^ (bad-whitespace)
+C:648, 0: Exactly one space required after comma
+            plt.axvline(x=(1000 * self.fPiezo * 1.27 ),linewidth=4, color='b')
+                                                      ^ (bad-whitespace)
+C:649, 0: No space allowed before bracket
+            plt.axvline(x=(1000 * self.fPiezo * 0.7 ),linewidth=4, color='b')
+                                                    ^ (bad-whitespace)
+C:649, 0: Exactly one space required after comma
+            plt.axvline(x=(1000 * self.fPiezo * 0.7 ),linewidth=4, color='b')
+                                                     ^ (bad-whitespace)
+C:652, 0: Trailing whitespace (trailing-whitespace)
+C:653, 0: Exactly one space required before assignment
+            Title  = "Experiment: " +self.iD+"-"+str(self.N)+"\nDuration: "+str(self.Duration)
+                   ^ (bad-whitespace)
+C:658, 0: Line too long (138/100) (line-too-long)
+C:659, 0: Line too long (119/100) (line-too-long)
+C:661, 0: Trailing whitespace (trailing-whitespace)
+C:661, 0: No space allowed after bracket
+            plt.title( Title ) 
+                     ^ (bad-whitespace)
+C:661, 0: No space allowed before bracket
+            plt.title( Title ) 
+                             ^ (bad-whitespace)
+C:665, 0: Exactly one space required after comma
+            TagImage(FileName,"matty,"+self.piezo,self.iD,"FFT",Title.replace("\n",". "))
+                             ^ (bad-whitespace)
+C:665, 0: Exactly one space required after comma
+            TagImage(FileName,"matty,"+self.piezo,self.iD,"FFT",Title.replace("\n",". "))
+                                                 ^ (bad-whitespace)
+C:665, 0: Exactly one space required after comma
+            TagImage(FileName,"matty,"+self.piezo,self.iD,"FFT",Title.replace("\n",". "))
+                                                         ^ (bad-whitespace)
+C:665, 0: Exactly one space required after comma
+            TagImage(FileName,"matty,"+self.piezo,self.iD,"FFT",Title.replace("\n",". "))
+                                                               ^ (bad-whitespace)
+C:665, 0: Exactly one space required after comma
+            TagImage(FileName,"matty,"+self.piezo,self.iD,"FFT",Title.replace("\n",". "))
+                                                                                  ^ (bad-whitespace)
+W:678, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:679, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Module name "pyUn0" doesn't conform to snake_case naming style (invalid-name)
+C: 18, 0: Import "import spidev" should be placed at the top of the module (wrong-import-position)
+C: 20, 0: Import "import json" should be placed at the top of the module (wrong-import-position)
+C: 21, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 22, 0: Import "import datetime" should be placed at the top of the module (wrong-import-position)
+C: 23, 0: Import "import math" should be placed at the top of the module (wrong-import-position)
+C: 24, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C: 25, 0: Multiple imports on one line (glob, os) (multiple-imports)
+C: 25, 0: Import "import glob, os" should be placed at the top of the module (wrong-import-position)
+C: 25, 0: Import "import glob, os" should be placed at the top of the module (wrong-import-position)
+C: 26, 0: Import "import sys" should be placed at the top of the module (wrong-import-position)
+C: 28, 0: Import "import numpy as np" should be placed at the top of the module (wrong-import-position)
+C: 29, 0: Import "from scipy import signal" should be placed at the top of the module (wrong-import-position)
+C: 31, 0: Import "from scipy.signal import decimate, convolve" should be placed at the top of the module (wrong-import-position)
+C: 32, 0: Import "import matplotlib.pyplot as plt" should be placed at the top of the module (wrong-import-position)
+W: 36, 0: No exception type(s) specified (bare-except)
+W: 41, 0: No exception type(s) specified (bare-except)
+C: 53, 0: Class name "us_spi" doesn't conform to PascalCase naming style (invalid-name)
+C: 96, 5: Attribute name "LAcq" doesn't conform to snake_case naming style (invalid-name)
+C: 97, 5: Attribute name "Nacq" doesn't conform to snake_case naming style (invalid-name)
+C:231, 5: Attribute name "NLines" doesn't conform to snake_case naming style (invalid-name)
+C:202, 5: Attribute name "Fech" doesn't conform to snake_case naming style (invalid-name)
+C: 53, 0: Missing class docstring (missing-docstring)
+C: 53, 0: Old-style class defined. (old-style-class)
+W: 53, 0: Class has no __init__ method (no-init)
+I: 56, 7: Module 'spidev' has not 'SpiDev' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 78, 1: Method name "CreateDACCurve" doesn't conform to snake_case naming style (invalid-name)
+C: 78, 1: Argument name "Deb" doesn't conform to snake_case naming style (invalid-name)
+C: 78, 1: Argument name "Fin" doesn't conform to snake_case naming style (invalid-name)
+C: 78, 1: Argument name "CurveType" doesn't conform to snake_case naming style (invalid-name)
+C: 78, 1: Missing method docstring (missing-docstring)
+C: 79, 5: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 5: Variable name "DACValues" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 1: Method name "setTimings" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 1: Argument name "t1" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 1: Argument name "t2" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 1: Argument name "t3" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 1: Argument name "WaitTill" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 1: Argument name "t5" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 1: Missing method docstring (missing-docstring)
+R: 92, 1: Too many arguments (6/5) (too-many-arguments)
+C: 93, 5: Variable name "t4" doesn't conform to snake_case naming style (invalid-name)
+C:112, 1: Method name "setMultiLines" doesn't conform to snake_case naming style (invalid-name)
+C:112, 1: Argument name "Bool" doesn't conform to snake_case naming style (invalid-name)
+C:112, 1: Missing method docstring (missing-docstring)
+C:122, 1: Method name "setDACCurve" doesn't conform to snake_case naming style (invalid-name)
+C:122, 1: Argument name "DACValues" doesn't conform to snake_case naming style (invalid-name)
+C:122, 1: Missing method docstring (missing-docstring)
+C:125, 2: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:136, 1: Method name "WriteFPGA" doesn't conform to snake_case naming style (invalid-name)
+C:136, 1: Missing method docstring (missing-docstring)
+C:143, 1: Missing method docstring (missing-docstring)
+E:144, 5: Module 'RPi.GPIO' has no 'setmode' member (no-member)
+E:144,18: Module 'RPi.GPIO' has no 'BCM' member (no-member)
+C:145, 5: Variable name "PRESET" doesn't conform to snake_case naming style (invalid-name)
+C:146, 5: Variable name "IO4" doesn't conform to snake_case naming style (invalid-name)
+C:148, 5: Variable name "CS_FLASH" doesn't conform to snake_case naming style (invalid-name)
+E:149, 5: Module 'RPi.GPIO' has no 'setup' member (no-member)
+E:149,25: Module 'RPi.GPIO' has no 'OUT' member (no-member)
+E:150, 5: Module 'RPi.GPIO' has no 'output' member (no-member)
+E:150,26: Module 'RPi.GPIO' has no 'LOW' member (no-member)
+E:152, 5: Module 'RPi.GPIO' has no 'setup' member (no-member)
+E:152,23: Module 'RPi.GPIO' has no 'OUT' member (no-member)
+E:153, 5: Module 'RPi.GPIO' has no 'setup' member (no-member)
+E:153,20: Module 'RPi.GPIO' has no 'IN' member (no-member)
+E:153,42: Module 'RPi.GPIO' has no 'PUD_DOWN' member (no-member)
+E:155, 5: Module 'RPi.GPIO' has no 'output' member (no-member)
+E:155,24: Module 'RPi.GPIO' has no 'LOW' member (no-member)
+E:158, 5: Module 'RPi.GPIO' has no 'output' member (no-member)
+E:158,24: Module 'RPi.GPIO' has no 'HIGH' member (no-member)
+C:171, 1: Method name "TestSPI" doesn't conform to snake_case naming style (invalid-name)
+C:171, 1: Missing method docstring (missing-docstring)
+C:180, 1: Method name "LoopSPI" doesn't conform to snake_case naming style (invalid-name)
+C:180, 1: Missing method docstring (missing-docstring)
+C:186, 1: Method name "LoopAcq" doesn't conform to snake_case naming style (invalid-name)
+C:186, 1: Missing method docstring (missing-docstring)
+C:194, 1: Method name "ClearMem" doesn't conform to snake_case naming style (invalid-name)
+C:194, 1: Missing method docstring (missing-docstring)
+C:200, 1: Method name "setMsps" doesn't conform to snake_case naming style (invalid-name)
+C:200, 1: Argument name "F" doesn't conform to snake_case naming style (invalid-name)
+C:200, 1: Missing method docstring (missing-docstring)
+C:206, 1: Method name "doAcquisition" doesn't conform to snake_case naming style (invalid-name)
+C:206, 1: Missing method docstring (missing-docstring)
+C:221, 5: Variable name "JSONName" doesn't conform to snake_case naming style (invalid-name)
+C:227, 1: Method name "setNLines" doesn't conform to snake_case naming style (invalid-name)
+C:227, 1: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+C:227, 1: Missing method docstring (missing-docstring)
+C:228, 5: Variable name "nMSB" doesn't conform to snake_case naming style (invalid-name)
+C:228,11: Variable name "nLSB" doesn't conform to snake_case naming style (invalid-name)
+C:234, 1: Method name "configSPI" doesn't conform to snake_case naming style (invalid-name)
+C:234, 1: Missing method docstring (missing-docstring)
+E:245, 5: Instance of 'us_spi' has no 'SetNLines' member; maybe 'setNLines'? (no-member)
+C:248, 1: Method name "setDACConstant" doesn't conform to snake_case naming style (invalid-name)
+C:248, 1: Argument name "mV" doesn't conform to snake_case naming style (invalid-name)
+C:248, 1: Missing method docstring (missing-docstring)
+C:253, 5: Variable name "hmV" doesn't conform to snake_case naming style (invalid-name)
+C:258, 1: Method name "setPon" doesn't conform to snake_case naming style (invalid-name)
+C:258, 1: Argument name "POn" doesn't conform to snake_case naming style (invalid-name)
+C:258, 1: Missing method docstring (missing-docstring)
+C:263, 5: Variable name "HPon" doesn't conform to snake_case naming style (invalid-name)
+C:270, 1: Method name "setPulsesDelay" doesn't conform to snake_case naming style (invalid-name)
+C:270, 1: Argument name "DeltaPP" doesn't conform to snake_case naming style (invalid-name)
+C:270, 1: Missing method docstring (missing-docstring)
+C:276, 5: Variable name "HPP" doesn't conform to snake_case naming style (invalid-name)
+C:284, 1: Method name "setPoff" doesn't conform to snake_case naming style (invalid-name)
+C:284, 1: Argument name "sEEPoff" doesn't conform to snake_case naming style (invalid-name)
+C:284, 1: Missing method docstring (missing-docstring)
+C:286, 5: Variable name "POff" doesn't conform to snake_case naming style (invalid-name)
+C:288, 5: Variable name "POffMSB" doesn't conform to snake_case naming style (invalid-name)
+C:288,14: Variable name "POffLSB" doesn't conform to snake_case naming style (invalid-name)
+C:297, 1: Method name "setDeltaAcq" doesn't conform to snake_case naming style (invalid-name)
+C:297, 1: Argument name "DeltaAcq" doesn't conform to snake_case naming style (invalid-name)
+C:297, 1: Missing method docstring (missing-docstring)
+C:303, 5: Variable name "hDA" doesn't conform to snake_case naming style (invalid-name)
+C:304, 5: Variable name "hDAMSB" doesn't conform to snake_case naming style (invalid-name)
+C:304,13: Variable name "hDALSB" doesn't conform to snake_case naming style (invalid-name)
+C:312, 1: Method name "SetLengthAcq" doesn't conform to snake_case naming style (invalid-name)
+C:312, 1: Argument name "LAcqI" doesn't conform to snake_case naming style (invalid-name)
+C:312, 1: Missing method docstring (missing-docstring)
+C:313, 5: Variable name "LAcqCorrected" doesn't conform to snake_case naming style (invalid-name)
+C:317, 5: Variable name "LAcqMSB" doesn't conform to snake_case naming style (invalid-name)
+C:317,14: Variable name "LAcqLSB" doesn't conform to snake_case naming style (invalid-name)
+C:323, 1: Method name "setPeriodAcq" doesn't conform to snake_case naming style (invalid-name)
+C:323, 1: Argument name "lEPeriod" doesn't conform to snake_case naming style (invalid-name)
+C:323, 1: Missing method docstring (missing-docstring)
+C:324, 5: Variable name "lEPNs" doesn't conform to snake_case naming style (invalid-name)
+C:325, 5: Variable name "EPNsMSB" doesn't conform to snake_case naming style (invalid-name)
+C:325,14: Variable name "EPNs" doesn't conform to snake_case naming style (invalid-name)
+C:325,20: Variable name "EPNsLSB" doesn't conform to snake_case naming style (invalid-name)
+C:334, 1: Method name "setPulseTrain" doesn't conform to snake_case naming style (invalid-name)
+C:334, 1: Argument name "Pon" doesn't conform to snake_case naming style (invalid-name)
+C:334, 1: Argument name "Pdelay" doesn't conform to snake_case naming style (invalid-name)
+C:334, 1: Argument name "Poff" doesn't conform to snake_case naming style (invalid-name)
+C:334, 1: Argument name "DelayAcq" doesn't conform to snake_case naming style (invalid-name)
+C:334, 1: Argument name "Acq" doesn't conform to snake_case naming style (invalid-name)
+C:334, 1: Missing method docstring (missing-docstring)
+R:334, 1: Too many arguments (6/5) (too-many-arguments)
+C:335, 5: Variable name "RPon" doesn't conform to snake_case naming style (invalid-name)
+C:336, 5: Variable name "RPD" doesn't conform to snake_case naming style (invalid-name)
+C:337, 5: Variable name "RPOff" doesn't conform to snake_case naming style (invalid-name)
+C:338, 5: Variable name "RDAcq" doesn't conform to snake_case naming style (invalid-name)
+C:339, 5: Variable name "LenAcq" doesn't conform to snake_case naming style (invalid-name)
+W:338, 5: Unused variable 'RDAcq' (unused-variable)
+W:337, 5: Unused variable 'RPOff' (unused-variable)
+R: 53, 0: Too many public methods (22/20) (too-many-public-methods)
+C:350, 0: Function name "MetaDataImg" doesn't conform to snake_case naming style (invalid-name)
+C:350, 0: Argument name "Modules" doesn't conform to snake_case naming style (invalid-name)
+C:350, 0: Argument name "Experiment" doesn't conform to snake_case naming style (invalid-name)
+C:350, 0: Argument name "Category" doesn't conform to snake_case naming style (invalid-name)
+C:350, 0: Argument name "Description" doesn't conform to snake_case naming style (invalid-name)
+C:350, 0: Missing function docstring (missing-docstring)
+C:351, 4: Variable name "Imgs" doesn't conform to snake_case naming style (invalid-name)
+C:356, 8: Variable name "FileName" doesn't conform to snake_case naming style (invalid-name)
+W:357, 8: Unused variable 'edit' (unused-variable)
+W:352,17: Unused variable 'dirnames' (unused-variable)
+C:374, 0: Function name "TagImage" doesn't conform to snake_case naming style (invalid-name)
+C:374, 0: Argument name "FileName" doesn't conform to snake_case naming style (invalid-name)
+C:374, 0: Argument name "Modules" doesn't conform to snake_case naming style (invalid-name)
+C:374, 0: Argument name "Experiment" doesn't conform to snake_case naming style (invalid-name)
+C:374, 0: Argument name "Category" doesn't conform to snake_case naming style (invalid-name)
+C:374, 0: Argument name "Description" doesn't conform to snake_case naming style (invalid-name)
+C:374, 0: Missing function docstring (missing-docstring)
+C:389, 0: Class name "us_json" doesn't conform to PascalCase naming style (invalid-name)
+C:497,12: Attribute name "IDLine" doesn't conform to snake_case naming style (invalid-name)
+C:509, 2: Attribute name "FFT_x" doesn't conform to snake_case naming style (invalid-name)
+C:510, 2: Attribute name "FFT_y" doesn't conform to snake_case naming style (invalid-name)
+C:521, 2: Attribute name "SignalFiltered" doesn't conform to snake_case naming style (invalid-name)
+C:511, 2: Attribute name "FFT_filtered" doesn't conform to snake_case naming style (invalid-name)
+C:465,12: Attribute name "LengthT" doesn't conform to snake_case naming style (invalid-name)
+C:455,12: Attribute name "Registers" doesn't conform to snake_case naming style (invalid-name)
+C:501,12: Attribute name "iD" doesn't conform to snake_case naming style (invalid-name)
+C:471,12: Attribute name "TT2" doesn't conform to snake_case naming style (invalid-name)
+C:470,12: Attribute name "TT1" doesn't conform to snake_case naming style (invalid-name)
+C:502,12: Attribute name "N" doesn't conform to snake_case naming style (invalid-name)
+C:503,12: Attribute name "V" doesn't conform to snake_case naming style (invalid-name)
+C:457,12: Attribute name "f" doesn't conform to snake_case naming style (invalid-name)
+C:613, 8: Attribute name "TwoDArray" doesn't conform to snake_case naming style (invalid-name)
+C:472,12: Attribute name "Nacq" doesn't conform to snake_case naming style (invalid-name)
+C:460,12: Attribute name "t" doesn't conform to snake_case naming style (invalid-name)
+C:582, 8: Attribute name "Duration" doesn't conform to snake_case naming style (invalid-name)
+C:389, 0: Missing class docstring (missing-docstring)
+R:389, 0: Too many instance attributes (30/7) (too-many-instance-attributes)
+C:389, 0: Old-style class defined. (old-style-class)
+W:389, 0: Class has no __init__ method (no-init)
+C:421, 4: Method name "JSONprocessing" doesn't conform to snake_case naming style (invalid-name)
+C:421, 4: Missing method docstring (missing-docstring)
+R:421, 4: Too many local variables (19/15) (too-many-locals)
+C:423, 8: Variable name "IDLine" doesn't conform to snake_case naming style (invalid-name)
+C:424, 8: Variable name "TT1" doesn't conform to snake_case naming style (invalid-name)
+C:425, 8: Variable name "TT2" doesn't conform to snake_case naming style (invalid-name)
+C:429,12: Variable name "DATA" doesn't conform to snake_case naming style (invalid-name)
+C:430,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:437,12: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
+C:459,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:462,12: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:478,12: Variable name "REG" doesn't conform to snake_case naming style (invalid-name)
+W:489, 2: No exception type(s) specified (bare-except)
+W:429,12: Unused variable 'DATA' (unused-variable)
+R:421, 4: Too many statements (62/50) (too-many-statements)
+C:507, 4: Method name "mkFFT" doesn't conform to snake_case naming style (invalid-name)
+C:507, 4: Missing method docstring (missing-docstring)
+W:508, 1: Using a conditional statement with a constant value (using-constant-test)
+C:530,12: Variable name "FileName" doesn't conform to snake_case naming style (invalid-name)
+C:537, 4: Method name "mkImg" doesn't conform to snake_case naming style (invalid-name)
+C:537, 4: Missing method docstring (missing-docstring)
+C:548,12: Variable name "FileName" doesn't conform to snake_case naming style (invalid-name)
+W:539,12: Unused variable 'fig' (unused-variable)
+C:553, 4: Method name "TagImage" doesn't conform to snake_case naming style (invalid-name)
+C:553, 4: Argument name "Module" doesn't conform to snake_case naming style (invalid-name)
+C:553, 4: Argument name "ID" doesn't conform to snake_case naming style (invalid-name)
+C:553, 4: Argument name "Type" doesn't conform to snake_case naming style (invalid-name)
+C:553, 4: Argument name "Description" doesn't conform to snake_case naming style (invalid-name)
+C:553, 4: Missing method docstring (missing-docstring)
+C:555,12: Variable name "FileName" doesn't conform to snake_case naming style (invalid-name)
+C:568, 4: Method name "mk2DArray" doesn't conform to snake_case naming style (invalid-name)
+C:568, 4: Missing method docstring (missing-docstring)
+R:568, 4: Too many local variables (16/15) (too-many-locals)
+C:569, 8: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+C:583, 8: Variable name "SelfDuration" doesn't conform to snake_case naming style (invalid-name)
+C:584, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:586, 8: Variable name "CleanImage" doesn't conform to snake_case naming style (invalid-name)
+C:587, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:590, 8: Variable name "imSize" doesn't conform to snake_case naming style (invalid-name)
+C:592, 8: Variable name "Duration" doesn't conform to snake_case naming style (invalid-name)
+C:594, 8: Variable name "CleanImage" doesn't conform to snake_case naming style (invalid-name)
+C:596, 8: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+C:598, 8: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:599, 8: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:600, 8: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:601, 8: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:602, 8: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:603, 8: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:604, 8: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:609, 8: Variable name "FileName" doesn't conform to snake_case naming style (invalid-name)
+W:596, 8: Unused variable 'im' (unused-variable)
+C:616, 4: Method name "SaveNPZ" doesn't conform to snake_case naming style (invalid-name)
+C:616, 4: Missing method docstring (missing-docstring)
+C:617, 8: Variable name "NPZPath" doesn't conform to snake_case naming style (invalid-name)
+C:621, 4: Method name "PlotDetail" doesn't conform to snake_case naming style (invalid-name)
+C:621, 4: Argument name "NbLine" doesn't conform to snake_case naming style (invalid-name)
+C:621, 4: Argument name "Start" doesn't conform to snake_case naming style (invalid-name)
+C:621, 4: Argument name "Stop" doesn't conform to snake_case naming style (invalid-name)
+C:621, 4: Missing method docstring (missing-docstring)
+C:623, 1: Variable name "TLine" doesn't conform to snake_case naming style (invalid-name)
+C:624, 1: Variable name "Offset" doesn't conform to snake_case naming style (invalid-name)
+C:633, 8: Variable name "FileName" doesn't conform to snake_case naming style (invalid-name)
+C:637, 4: Method name "mkSpectrum" doesn't conform to snake_case naming style (invalid-name)
+C:637, 4: Missing method docstring (missing-docstring)
+C:638, 8: Variable name "Spectrum" doesn't conform to snake_case naming style (invalid-name)
+C:639,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:640,12: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+C:640,15: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+C:641,12: Variable name "FFT_x" doesn't conform to snake_case naming style (invalid-name)
+C:643,16: Variable name "FFT_c" doesn't conform to snake_case naming style (invalid-name)
+C:653,12: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:654,12: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:655,12: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:656,12: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:657,12: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:658,12: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:659,12: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:660,12: Variable name "Title" doesn't conform to snake_case naming style (invalid-name)
+C:663,12: Variable name "FileName" doesn't conform to snake_case naming style (invalid-name)
+W:667,12: String statement has no effect (pointless-string-statement)
+W:641,12: Unused variable 'FFT_x' (unused-variable)
+W:434,12: Attribute 'piezo' defined outside __init__ (attribute-defined-outside-init)
+W:500,12: Attribute 'parameters' defined outside __init__ (attribute-defined-outside-init)
+W:433,12: Attribute 'description' defined outside __init__ (attribute-defined-outside-init)
+W:456,12: Attribute 'timings' defined outside __init__ (attribute-defined-outside-init)
+W:435,12: Attribute 'time' defined outside __init__ (attribute-defined-outside-init)
+W: 23, 0: Unused import math (unused-import)
+W: 24, 0: Unused import re (unused-import)
+W: 25, 0: Unused import glob (unused-import)
+W: 26, 0: Unused import sys (unused-import)
+W: 29, 0: Unused signal imported from scipy (unused-import)
+W: 31, 0: Unused decimate imported from scipy.signal (unused-import)
+W: 31, 0: Unused convolve imported from scipy.signal (unused-import)
+C: 20, 0: standard import "import json" should be placed before "import spidev" (wrong-import-order)
+C: 21, 0: standard import "import time" should be placed before "import spidev" (wrong-import-order)
+C: 22, 0: standard import "import datetime" should be placed before "import spidev" (wrong-import-order)
+C: 23, 0: standard import "import math" should be placed before "import spidev" (wrong-import-order)
+C: 24, 0: standard import "import re" should be placed before "import spidev" (wrong-import-order)
+C: 25, 0: standard import "import glob, os" should be placed before "import spidev" (wrong-import-order)
+C: 25, 0: standard import "import glob, os" should be placed before "import spidev" (wrong-import-order)
+C: 26, 0: standard import "import sys" should be placed before "import spidev" (wrong-import-order)
+
+--------------------------------------------------------------------
+Your code has been rated at -8.19/10 (previous run: -8.19/10, +0.00)
+

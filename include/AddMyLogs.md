@@ -2975,7 +2975,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-08-26 New Matty v1.1
 
-* Got a v1.1 out, for 0 < nCycles < 0xFFFF
+* Got a v1.1 firmware out, for 0 < nCycles < 0xFFFF
 * Reviewed [Readme](/Readme.md)  
 * Progress on the article
 * Got a 2GB image fully valid for RPi. Python: Jupyter, Scipy, Numpy, .. all gets on.
@@ -2985,6 +2985,26 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 #### 2018-08-27 Adding iceprog
 
 * __iceprog mybin.bin__ works well to flash on the un0rick. just plug in the cable, put a jumper on the RPi/FT header, then _iceprog mybin_ and voila =) 
+
+#### 2018-09-12 Desperatly at work
+
+* not a lot of progress..
+* un0rick's first batch is sold out!
+* Some cheap piezos? https://news.ubc.ca/2018/09/11/could-a-diy-ultrasound-be-in-your-future-ubc-breakthrough-opens-door-to-100-ultrasound-machine/
+
+
+#### 2018-09-16 Most secure password
+
+* https://mostsecure.pw/: H4!b5at+kWls-8yh4GvQ hahaha
+* Congrats to william: https://www.rtl-sdr.com/rtl_ultrasound-using-a-piezoelectric-transducer-with-an-rtl-sdr-to-create-an-ultrasound-imager/ =)
+* https://github.com/cliffordwolf/icotools/blob/master/examples/icezero/icezprog.c icezprog
+* @todo Check for un0rick github badges, such as
+  * Compteur: http://hits.dwyl.io/wlmeng11/rtl-ultrasound
+  * PyPi: https://pypi.org/project/rtl-ultrasound/0.1.0/
+  * coverage x% (coveralls.io)
+  * DOI Zenodo:
+  * readthedocs.io  
+* [First test with pylint](/matty/20180901a/pyUn0.pylint.report) not the cleanest of codes
 
 =======
 
