@@ -11,5 +11,3 @@ title: 2018-08-27 Adding iceprog
     in the cable, put a jumper on the RPi/FT header, then *iceprog
     mybin* and voila =)
 
-=======
-

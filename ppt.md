@@ -158,9 +158,9 @@ _Total cost of the set: 443$_
  * 2018-08-13: [pyUn0 lib glitches](/include/experiments/auto/20180813a.md): Experiment to capture glitches. Now captured (bugs with timing), pending is increasing NCycles above a 8 bit count. _(20180813a)_
  * 2018-08-14: [Reaching 128msps](/include/experiments/auto/20180814a.md): Trying to experiment getting 128Msps _(20180814a)_
  * 2018-08-25: [2D images building](/include/experiments/auto/20180825a.md): Testing new functions to unpack images (with N lines) _(20180825a)_
- * [20180826a](/include/experiments/auto/20180826a.md)
- * [20180831c](/include/experiments/auto/20180831c.md)
- * [20180901a](/include/experiments/auto/20180901a.md)
+ * 2018-08-26: [16bits n-cycles](/include/experiments/auto/20180826a.md): Testing if the 16bits n cycles works _(20180826a)_
+ * 2018-08-31: [wirephantom and retroATL3](/include/experiments/auto/20180831c.md): wirephantom and retroATL3 _(20180831c)_
+ * 2018-09-01: [wirephantom and kretzaw145ba](/include/experiments/auto/20180901a.md): wirephantom and kretzaw145ba _(20180901a)_
 
 # Progress
  
