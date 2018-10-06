@@ -43,6 +43,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * do a un0pHAT - HV7360 or using HV7361 ([price: 7$](https://www.digikey.com/product-detail/en/microchip-technology/HV7361GA-G/HV7361GA-G-ND/6244385) -- see HV7361 Typical Application Circuit on datasheet -- vs 2x (1.87 + 1.68)+1.5 with MD1210K6-G, and MD0100 TC6320TG, grand total of 8.6$	  ) 
 * better readmes for un0rick -- https://github.com/matiassingers/awesome-readme
 * push a python lib for un0rick
+* 8bit art for icons and todos
+* source a Bion PSI-400 
 
 
 

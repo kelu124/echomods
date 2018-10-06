@@ -3034,6 +3034,9 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * @todo better readmes for un0rick -- https://github.com/matiassingers/awesome-readme
 * @todo push a python lib for un0rick
 * Waiting a un0rick v1.0 to retry some tests
+* https://iainews.iai.tv/articles/how-kierkegaards-idea-of-idleness-can-help-us-diagnose-21st-century-busyness-auid-1150
+* @todo 8bit art for icons and todos
+* @todo source a  Bion PSI-400 
 
 =======
 
