@@ -3166,6 +3166,12 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * https://iainews.iai.tv/articles/how-kierkegaards-idea-of-idleness-can-help-us-diagnose-21st-century-busyness-auid-1150
 * @todo 8bit art for icons and todos
 * @todo source a  Bion PSI-400 
+* writing on [apogee5MHz](/include/images/apogee5MHz/Readme.md) and [apogee10MHz](/include/images/apogee10MHz/Readme.md)
+  * got into the 10Mhz, some piezo, and another piezo + motor =)
+  * updating [RetroATL3](/retroATL3/Readme.md)
+
+
+
 
 =======
 

@@ -97,6 +97,16 @@ The pins layout is numbered below. The following pins have been identified:
 * VCC for counter is on pin 17
 * CounterSignal is on pin 18
 
+__Using numbering as on breakout pins__:
+
+* Pack of signals together on 7/8/9/10/11 (which are the 5+1 on the 3x2 header in the head: counter ?)
+  * impedance is 2.56, 9.5, 8.4, 2.57, 1.279, 9.61 Ohm. 4 sets of impedance: R, 2R, 8.4, 8.4+R
+* 4x1 header is connect to 4,3, 7 and (?? missing GND ?) which seems to be an eeprom. worth checking Vss and Vdd for these).
+* 6.5 Ohm between 7 and 12. What can it be?
+* Motor seem to be on 16-17
+* Pin 4 is shared, in front of pin 7. (pin 7 alim, 4 is GND ?)
+ 
+
 
 ![](/retroATL3/images/pins.png)
 
@@ -190,6 +200,11 @@ There's going to need to signal hacks to remove constant components from the sig
 
 ![](/retroATL3/images/ICsInHead/violet.JPG)
 
+### 4x1 header : EEPROM ?
+
+[dm74s287](http://www.yd-tech.com.tw/pdf/74S/74S287.pdf
+
+[HEF4040BT : 12-Stage Binary Ripple Counter]()
 
 ### Want to know more about electrical impedance?
 
