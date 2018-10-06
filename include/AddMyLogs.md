@@ -2998,13 +2998,42 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * https://mostsecure.pw/: H4!b5at+kWls-8yh4GvQ hahaha
 * Congrats to william: https://www.rtl-sdr.com/rtl_ultrasound-using-a-piezoelectric-transducer-with-an-rtl-sdr-to-create-an-ultrasound-imager/ =)
 * https://github.com/cliffordwolf/icotools/blob/master/examples/icezero/icezprog.c icezprog
-* @todo Check for un0rick github badges, such as
+* @todo Check for un0rick github badges (counter, pypi overag, doi zenodo, ... )
   * Compteur: http://hits.dwyl.io/wlmeng11/rtl-ultrasound
   * PyPi: https://pypi.org/project/rtl-ultrasound/0.1.0/
   * coverage x% (coveralls.io)
   * DOI Zenodo:
   * readthedocs.io  
 * [First test with pylint](/matty/20180901a/pyUn0.pylint.report) not the cleanest of codes
+
+#### 2018-09-18 Teardowns
+
+* Geeky! Looking at https://www.youtube.com/watch?v=49D3fhGpb7w
+* https://fccid.io/XSB2300A/Internal-Photos/Internal-Photos-2353839
+
+
+#### 2018-09-30 Teardowns
+
+* How fast times run when you're stuck on a big project..
+* Reading more on fpgas
+  * https://www.edaplayground.com/ for verilog tests online
+  * https://hackaday.com/2018/05/19/parallel-programming-for-fpgas/
+  * https://hackaday.com/2018/09/26/learn-verilog-in-your-browser/
+  * GB and NES on UP5K https://github.com/daveshah1/up5k-demos
+* @todo do a un0pHAT - HV7360 or using HV7361 ([price: 7$](https://www.digikey.com/product-detail/en/microchip-technology/HV7361GA-G/HV7361GA-G-ND/6244385) -- see HV7361 Typical Application Circuit on datasheet -- vs 2x (1.87 + 1.68)+1.5 with  MD1210K6-G, and MD0100 TC6320TG, grand total of 8.6$	   ) 
+
+#### 2018-10-06 pHATrick
+
+* hehe thinking about bad puns on the new board. Previously un0pHAT, or liteRick
+* [concept](/matty/pHATrick/concept.md) ongoing
+  * name made me laugh .. patrick, fat rick, hat trick ?
+* Made some progress on the [single sensor imaging article](https://github.com/kelu124/ssus) -- litterature review
+* un0rick v1.1 (two channels) ordered. Quite some stress on flash chips, possibly to remove from next iterations
+  * No more Winbond flashes!
+  * got some by some brokers...
+* @todo better readmes for un0rick -- https://github.com/matiassingers/awesome-readme
+* @todo push a python lib for un0rick
+* Waiting a un0rick v1.0 to retry some tests
 
 =======
 

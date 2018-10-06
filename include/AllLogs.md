@@ -1,9 +1,12 @@
 # History 
 
 
+ * __2018-09-09__: [link from steemhunt.com](https://steemhunt.com/@truthsfinder/murgen-an-open-source-ultrasound-imaging-dev-kit-side-project)
  * __2018-08-21__: [link from www.ultrasoundresearchgroup.com](https://www.ultrasoundresearchgroup.com/an-ultrasound-driver-with-open-source-fpgas/)
+ * __2018-07-15__: [link from poemsrom.co](https://poemsrom.co/diy-ultrasound-machine/)
  * __2018-05-25__: [link from hackaday.com](https://hackaday.com/2018/05/25/an-ultrasound-driver-with-open-source-fpgas/)
  * __2018-04-20__: [link from news.ycombinator.com](https://news.ycombinator.com/item?id=16962695)
+ * __2018-02-14__: [link from electronicsplayground.blogspot.com](http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html?m=1)
  * __2017-12-27__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-27-eink-and-such.md)
  * __2017-12-17__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-17-Kipple.md)
  * __2017-12-16__: [worklog of the day](http://kelu124.github.io/echomods/2017-12-16-Chaotic-good.md)
