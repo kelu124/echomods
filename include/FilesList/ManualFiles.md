@@ -421,7 +421,7 @@
 
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md):  . _File not used._
 
-* [./include/images/apogee5MHz/Readme.md](/include/images/apogee5MHz/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md).
+* [./include/images/apogee5MHz/Readme.md](/include/images/apogee5MHz/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./include/images/kretzaw145ba/20180811b/Readme.md](/include/images/kretzaw145ba/20180811b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/Code_20180811b.md`](/include/experiments/auto/Code_20180811b.md), [`/include/experiments/auto/20180811b.md`](/include/experiments/auto/20180811b.md).
 
@@ -431,7 +431,7 @@
 
 * [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).
 
-* [./include/images/apogee10MHz/Readme.md](/include/images/apogee10MHz/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md).
+* [./include/images/apogee10MHz/Readme.md](/include/images/apogee10MHz/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./include/images/ausonics75/20180809b/Readme.md](/include/images/ausonics75/20180809b/Readme.md):  . File used in: [`/include/experiments/auto/20180809b.md`](/include/experiments/auto/20180809b.md).
 
@@ -441,7 +441,7 @@
 
 * [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/cletus/2017-06-08_FindingSuppliers.md`](/retired/cletus/2017-06-08_FindingSuppliers.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
