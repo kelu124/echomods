@@ -1,4 +1,4 @@
-* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/include/AddPitch.md`](/include/AddPitch.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -10,7 +10,7 @@
 
 * [./elmo/QuickStart.md](/elmo/QuickStart.md): Quickstart of the ADC pHAT . File used in: [`/Readme.md`](/Readme.md), [`/elmo/tindie.md`](/elmo/tindie.md), [`/elmo/Readme.md`](/elmo/Readme.md), [`/include/rmTableAvancement.md`](/include/rmTableAvancement.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./elmo/data/arduiphantom/Readme.md](/elmo/data/arduiphantom/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
@@ -98,7 +98,7 @@
 
 * [./retired/tobo/Readme.md](/retired/tobo/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/tobo/QuickStart.md](/retired/tobo/QuickStart.md):  . File used in: [`/retired/tobo/Readme.md`](/retired/tobo/Readme.md).
+* [./retired/tobo/QuickStart.md](/retired/tobo/QuickStart.md):  . File used in: [`/retired/tobo/Readme.md`](/retired/tobo/Readme.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/alt.tbo/Readme.md](/retired/alt.tbo/Readme.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
@@ -153,11 +153,11 @@
 
 * [./retired/tomtom/apps/client/Resources.md](/retired/tomtom/apps/client/Resources.md):  . _File not used._
 
-* [./retired/oneeye/Readme.md](/retired/oneeye/Readme.md): Standalone pulser control unit - readme . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./retired/oneeye/Readme.md](/retired/oneeye/Readme.md): Standalone pulser control unit - readme . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/croaker/notes_ESP8266.md](/retired/croaker/notes_ESP8266.md): Notes on ESP8266 . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/croaker/notes_STM32F205_ref_manual.md](/retired/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . _File not used._
+* [./retired/croaker/notes_STM32F205_ref_manual.md](/retired/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/croaker/notes_ESP32.md](/retired/croaker/notes_ESP32.md): Notes on ESP32 . _File not used._
 
@@ -167,11 +167,11 @@
 
 * [./retired/croaker/notes_RPi0.md](/retired/croaker/notes_RPi0.md): Random notes on RPi0 . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/croaker/Readme.md](/retired/croaker/Readme.md): Analog processing module readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./retired/croaker/Readme.md](/retired/croaker/Readme.md): Analog processing module readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [./retired/croaker/notes_EMW3165.md](/retired/croaker/notes_EMW3165.md): Fun about EMW3165 . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -295,7 +295,7 @@
 
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
 
-* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md), [`/include/experiments/auto/20180216a.md`](/include/experiments/auto/20180216a.md).
+* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
 
 * [./include/cn_mechprob/Readme.md](/include/cn_mechprob/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -330,8 +330,6 @@
 * [./include/20180415a/images/solder_issue/Readme.md](/include/20180415a/images/solder_issue/Readme.md):  . _File not used._
 
 * [./include/probes/define.md](/include/probes/define.md):  . File used in: [`/include/autodoc.md`](/include/autodoc.md).
-
-* [./include/probes/Readme.md](/include/probes/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md).
 
@@ -432,6 +430,8 @@
 * [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).
 
 * [./include/images/apogee10MHz/Readme.md](/include/images/apogee10MHz/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+
+* [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . File used in: [`/include/experiments/auto/20181013a.md`](/include/experiments/auto/20181013a.md), [`/include/experiments/auto/Code_20181013a.md`](/include/experiments/auto/Code_20181013a.md).
 
 * [./include/images/ausonics75/20180809b/Readme.md](/include/images/ausonics75/20180809b/Readme.md):  . File used in: [`/include/experiments/auto/20180809b.md`](/include/experiments/auto/20180809b.md).
 

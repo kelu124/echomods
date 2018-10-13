@@ -412,6 +412,13 @@ def CreateProbesFiles(GrosJaSON):
 				ProbeAuto += "![]("+image+")\n"
 
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
+
+	ProbeAuto = "# List of opened probes\n\n"
+	for probe in sorted(GrosJaSON["probes"].keys()):
+		ProbeAuto += "### "+probe+" ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
+		ProbeAuto += "__LDR__: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
+		ProbeAuto += "__More?__ "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
+		OpenWrite(ProbeAuto,"./include/probes/Readme.md")
 		#print probe, "written"
 	return 1
 
@@ -524,7 +531,7 @@ def CreateImgTags(ImgSrc):
 			metadata['Exif.Image.Software'] = "ToTag"
 
 	# Experiment
-	DefaultTag = ["Apple","Sony","LG Electronics","amsung","OnePlus","Canon","HUAWEI","Huawei","Panasonic"]
+	DefaultTag = ["Apple","Sony","LG Electronics","amsung","asus","OnePlus","Canon","HUAWEI","Huawei","Panasonic"]
 	try:
 		metadata['Exif.Image.Make'].value
 	except KeyError:

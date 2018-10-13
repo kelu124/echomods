@@ -251,6 +251,7 @@ and used in a wider context:
  * 2018-08-26: [16bits n-cycles](/include/experiments/auto/20180826a.md): Testing if the 16bits n cycles works _(20180826a)_
  * 2018-08-31: [wirephantom and retroATL3](/include/experiments/auto/20180831c.md): wirephantom and retroATL3 _(20180831c)_
  * 2018-09-01: [wirephantom and kretzaw145ba](/include/experiments/auto/20180901a.md): wirephantom and kretzaw145ba _(20180901a)_
+ * [20181013a](/include/experiments/auto/20181013a.md)
 
 
 

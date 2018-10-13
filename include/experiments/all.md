@@ -45,3 +45,4 @@
 * 20180826a: 16bits n-cycles : Testing if the 16bits n cycles works 
 * 20180831c: wirephantom and retroATL3: wirephantom and retroATL3
 * 20180901a: wirephantom and kretzaw145ba: wirephantom and kretzaw145ba
+* 20181013a: opening an hp2121: try and open an hp2121, while waiting for a new matty

@@ -63,3 +63,7 @@
 * smalldesc:an Apogee 10MHz probe
 * longdesc:an Apogee 10MHz probe
 
+# hp2121
+* code:hp2121
+* smalldesc:hp2121 small desc
+* longdesc: hp2121 longdesc

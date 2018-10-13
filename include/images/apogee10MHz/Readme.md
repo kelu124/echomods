@@ -13,6 +13,11 @@
 * Position IC too
 * 2 x coax to piezo (golden thread)
 
+## Second round
+
+* Exact.. two piezos, one that can be set with an angle (doppler ?) and the other on a motor.
+* optical encoder for the position
+
 ## Some pics
 
 ![](/include/images/apogee10MHz/P_20180831_211323.jpg)

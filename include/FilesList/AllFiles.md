@@ -1,6 +1,6 @@
 ## Manually written files
 
-* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/include/AddPitch.md`](/include/AddPitch.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -12,7 +12,7 @@
 
 * [./elmo/QuickStart.md](/elmo/QuickStart.md): Quickstart of the ADC pHAT . File used in: [`/Readme.md`](/Readme.md), [`/elmo/tindie.md`](/elmo/tindie.md), [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/include/rmTableAvancement.md`](/include/rmTableAvancement.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./elmo/data/arduiphantom/Readme.md](/elmo/data/arduiphantom/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
@@ -100,7 +100,7 @@
 
 * [./retired/tobo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/tobo/QuickStart.md](/retired/tobo/QuickStart.md):  . File used in: [`/retired/tobo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.md).
+* [./retired/tobo/QuickStart.md](/retired/tobo/QuickStart.md):  . File used in: [`/retired/tobo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/alt.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
@@ -155,11 +155,11 @@
 
 * [./retired/tomtom/apps/client/Resources.md](/retired/tomtom/apps/client/Resources.md):  . _File not used._
 
-* [./retired/oneeye/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.md): Standalone pulser control unit - readme . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./retired/oneeye/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.md): Standalone pulser control unit - readme . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/croaker/notes_ESP8266.md](/retired/croaker/notes_ESP8266.md): Notes on ESP8266 . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/croaker/notes_STM32F205_ref_manual.md](/retired/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . _File not used._
+* [./retired/croaker/notes_STM32F205_ref_manual.md](/retired/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/croaker/notes_ESP32.md](/retired/croaker/notes_ESP32.md): Notes on ESP32 . _File not used._
 
@@ -169,11 +169,11 @@
 
 * [./retired/croaker/notes_RPi0.md](/retired/croaker/notes_RPi0.md): Random notes on RPi0 . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/croaker/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md): Analog processing module readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+* [./retired/croaker/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md): Analog processing module readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [./retired/croaker/notes_EMW3165.md](/retired/croaker/notes_EMW3165.md): Fun about EMW3165 . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
+* [./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino . File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
@@ -297,7 +297,7 @@
 
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
 
-* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/Code_20180216a.md`](exp/Code_20180216a.md), [`exp/20180216a.md`](exp/20180216a.md).
+* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/Code_20180216a.md`](exp/Code_20180216a.md).
 
 * [./include/cn_mechprob/Readme.md](/include/cn_mechprob/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -332,8 +332,6 @@
 * [./include/20180415a/images/solder_issue/Readme.md](/include/20180415a/images/solder_issue/Readme.md):  . _File not used._
 
 * [./include/probes/define.md](/include/probes/define.md):  . File used in: [`/include/autodoc.md`](/include/autodoc.md).
-
-* [./include/probes/Readme.md](/include/probes/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . File used in: [`exp/Code_20180417a.md`](exp/Code_20180417a.md).
 
@@ -434,6 +432,8 @@
 * [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . File used in: [`exp/20180812a.md`](exp/20180812a.md).
 
 * [./include/images/apogee10MHz/Readme.md](/include/images/apogee10MHz/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+
+* [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . File used in: [`exp/20181013a.md`](exp/20181013a.md), [`exp/Code_20181013a.md`](exp/Code_20181013a.md).
 
 * [./include/images/ausonics75/20180809b/Readme.md](/include/images/ausonics75/20180809b/Readme.md):  . File used in: [`exp/20180809b.md`](exp/20180809b.md).
 
@@ -650,43 +650,43 @@
 
 ## Arduino files
 
-* [arduino.ino](/elmo/data/arduino.ino): . File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
+* [arduino.ino](/elmo/data/arduino.ino): . File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [arduino.ino](/elmo/data/arduiprobe/arduino.ino): . _File not used._
+* [arduino.ino](/elmo/data/arduiprobe/arduino.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [ServoControl.ino](/matty/20180430a/ServoControl/ServoControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
+* [ServoControl.ino](/matty/20180430a/ServoControl/ServoControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
 
-* [tobo_pulser.ino](/retired/tobo/source/tobo_pulser.ino): . File used in: [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md).
+* [tobo_pulser.ino](/retired/tobo/source/tobo_pulser.ino): . File used in: [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [oneye_pulser.ino](/retired/oneeye/oneye_pulser.ino): . File used in: [`/retired/oneeye/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.md).
+* [oneye_pulser.ino](/retired/oneeye/oneye_pulser.ino): . File used in: [`/retired/oneeye/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [Registers1MspsServo.ino](/retired/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps. _File not used._
+* [Registers1MspsServo.ino](/retired/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [Registers.ino](/retired/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registers. File used in: [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md).
+* [Registers.ino](/retired/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registers. File used in: [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [Registers1Msps-AcquireAsMuchAsPossible.ino](/retired/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino): Unused version. _File not used._
+* [Registers1Msps-AcquireAsMuchAsPossible.ino](/retired/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino): Unused version. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [StreamingADC2UDP.ino](/retired/croaker/feather_tests/StreamingADC2UDP.ino): First test to get the UDP working. _File not used._
+* [StreamingADC2UDP.ino](/retired/croaker/feather_tests/StreamingADC2UDP.ino): First test to get the UDP working. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [2ADC2UDP.ino](/retired/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP. File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/notes_STM32F205_ref_manual.md`](/retired/croaker/notes_STM32F205_ref_manual.md), [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [2ADC2UDP.ino](/retired/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP. File used in: [`/Worklog.md`](/Worklog.md), [`/retired/croaker/notes_STM32F205_ref_manual.md`](/retired/croaker/notes_STM32F205_ref_manual.md), [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [Registers1MspsDisplayTrigged.ino](/retired/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.. File used in: [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md).
+* [Registers1MspsDisplayTrigged.ino](/retired/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.. File used in: [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [ReadPins.ino](/retired/croaker/feather_tests/ReadPins.ino): Reading pins. File used in: [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md).
+* [ReadPins.ino](/retired/croaker/feather_tests/ReadPins.ino): Reading pins. File used in: [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [2Msps_Server.ino](/retired/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [2Msps_Server.ino](/retired/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [ADC2UDP-Cleaning.ino](/retired/croaker/feather_tests/ADC2UDP-Cleaning.ino): . File used in: [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md).
+* [ADC2UDP-Cleaning.ino](/retired/croaker/feather_tests/ADC2UDP-Cleaning.ino): . File used in: [`/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md`](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [KretzControl.ino](/include/images/kretzaw145ba/20180812a/KretzControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`exp/Code_20180430a.md`](exp/Code_20180430a.md).
+* [KretzControl.ino](/include/images/kretzaw145ba/20180812a/KretzControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`exp/Code_20180430a.md`](exp/Code_20180430a.md), [`exp/20181013a.md`](exp/20181013a.md).
 
-* [32u4-ATL3_interface.ino](/retroATL3/data/32u4-ATL3_interface.ino): . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [32u4-ATL3_interface.ino](/retroATL3/data/32u4-ATL3_interface.ino): . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/Readme.md`](/Readme.md), [`/include/rmTableAvancement.md`](/include/rmTableAvancement.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md).
+* [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/Readme.md`](/Readme.md), [`/include/rmTableAvancement.md`](/include/rmTableAvancement.md), [`/include/AddTableAvancement.md`](/include/AddTableAvancement.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose. _File not used._
+* [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. _File not used._
+* [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 
 ## Jupyter files
@@ -756,7 +756,7 @@
 * [20170502-DICOMizingCroakerData.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170502-DICOMizingCroakerData.html). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [In-Out.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/In-Out.html). File used in: [`/retired/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [CheckBib.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/CheckBib.html). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180216a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180216a - Testing pulser and ADC.html). File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/Code_20180216a.md`](exp/Code_20180216a.md), [`exp/20180216a.md`](exp/20180216a.md).
+* [20180216a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180216a - Testing pulser and ADC.html). File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`exp/Code_20180216a.md`](exp/Code_20180216a.md).
 * [20180415r-lit.tbo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180415r-lit.tbo.html). File used in: [`/elmo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180317a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180317a-Loops.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20171024-RLC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171024-RLC.html). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -872,9 +872,9 @@
 
 * [ProcessBiblio.py](/include/biblio/bib/ProcessBiblio.py): . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
-* [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180216a.md`](exp/Code_20180216a.md), [`exp/20180216a.md`](exp/20180216a.md).
+* [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180216a.md`](exp/Code_20180216a.md).
 
-* [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180216a.md`](exp/Code_20180216a.md), [`exp/20180216a.md`](exp/20180216a.md).
+* [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180216a.md`](exp/Code_20180216a.md).
 
 * [mkimg.py](/include/cn_mechprob/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/20180506a.md`](exp/20180506a.md).
 
@@ -917,6 +917,12 @@
 * [pyUn0.py](/include/images/kretzaw145ba/20180812a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [mkimg.py](/include/images/apogee10MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/20180506a.md`](exp/20180506a.md), [`exp/20180809b.md`](exp/20180809b.md).
+
+* [mkimg.py](/include/images/hp2121/mkimg.py): Autotagging images for the `ToTag` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180814a.md`](exp/Code_20180814a.md), [`exp/20180814a.md`](exp/20180814a.md).
+
+* [mkimg.py](/include/images/hp2121/20181013a/mkimg.py): Autotagging images for the `ToTag` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180814a.md`](exp/Code_20180814a.md), [`exp/20180814a.md`](exp/20180814a.md).
+
+* [mkimg.py](/include/images/hp2121/20181011a/mkimg.py): Autotagging images for the `ToTag` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/Code_20180814a.md`](exp/Code_20180814a.md), [`exp/20180814a.md`](exp/20180814a.md).
 
 * [mkimg.py](/include/images/ausonics75/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`exp/20180506a.md`](exp/20180506a.md), [`exp/20180809b.md`](exp/20180809b.md).
 
@@ -1019,7 +1025,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 417 Auto generated files
+## 426 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
@@ -1065,6 +1071,7 @@
 * ./include/experiments/Desc_20180216a.md
 * ./include/experiments/Desc_20180831c.md
 * ./include/experiments/Desc_20180403b.md
+* ./include/experiments/Desc_20181013a.md
 * ./include/experiments/Desc_20180620a.md
 * ./include/experiments/Desc_20180807b.md
 * ./include/experiments/Desc_20180415a.md
@@ -1113,6 +1120,7 @@
 * .exp/Code_20180417a.md
 * .exp/Code_20180430a.md
 * .exp/Mod_20180620a.md
+* .exp/20181013a.md
 * .exp/Img_20180826a.md
 * .exp/Img_20171111a.md
 * .exp/Code_20180225a.md
@@ -1164,6 +1172,7 @@
 * .exp/Code_20161217a.md
 * .exp/Code_20171111a.md
 * .exp/Code_20171001a.md
+* .exp/Code_20181013a.md
 * .exp/20170930a.md
 * .exp/Mod_20160814a.md
 * .exp/20180901a.md
@@ -1204,6 +1213,7 @@
 * .exp/Img_20180310a.md
 * .exp/Img_20180807b.md
 * .exp/Img_20180225a.md
+* .exp/Img_20181013a.md
 * .exp/Code_20180813a.md
 * .exp/Mod_20171111a.md
 * .exp/20180430a.md
@@ -1240,6 +1250,7 @@
 * .exp/Mod_20180403b.md
 * .exp/Img_20160814a.md
 * .exp/20170713a.md
+* .exp/Mod_20181013a.md
 * .exp/20180415r.md
 * .exp/Code_20180826a.md
 * .exp/20170611a.md
@@ -1273,7 +1284,9 @@
 * .exp/Code_20180506a.md
 * .exp/20180825a.md
 * .exp/Img_20160822a.md
+* ./include/probes/Readme.md
 * ./include/probes/auto/kretzaw145ba.md
+* ./include/probes/auto/hp2121.md
 * ./include/probes/auto/s3.md
 * ./include/probes/auto/apogee5MHz.md
 * ./include/probes/auto/atlidrict.md
@@ -1323,6 +1336,7 @@
 * ./gitbook/Chapter5/Readme.md
 * ./gitbook/Chapter5/loops.md
 * ./gitbook/probes/kretzaw145ba.md
+* ./gitbook/probes/hp2121.md
 * ./gitbook/probes/s3.md
 * ./gitbook/probes/apogee5MHz.md
 * ./gitbook/probes/atlidrict.md
@@ -1395,6 +1409,7 @@
 * ./gitbook/exp/20180403b.md
 * ./gitbook/exp/20180225a.md
 * ./gitbook/exp/20180812a.md
+* ./gitbook/exp/20181013a.md
 * ./gitbook/exp/20180826a.md
 * ./gitbook/exp/20171001b.md
 * ./gitbook/exp/2018012a.md
