@@ -814,6 +814,8 @@ CreateProbesFiles(GrosJaSON)
 for probe in GrosJaSON["probes"].keys():
 	CopyGitBookFile("include/probes/auto/"+probe+".md","gitbook/probes/"+probe+".md")
 
+CopyGitBookFile("include/probes/Readme.md","gitbook/probes/Readme.md")
+
 CopyGitBookFile("include/QuickStart.md","gitbook/Chapter1/QuickStart.md")
 
 # -------------------------

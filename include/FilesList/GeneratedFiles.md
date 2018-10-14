@@ -318,6 +318,7 @@
 * ./gitbook/probes/shzmch.md
 * ./gitbook/probes/apogee.md
 * ./gitbook/probes/apogee10MHz.md
+* ./gitbook/probes/Readme.md
 * ./gitbook/probes/adrus.md
 * ./gitbook/probes/bard.md
 * ./gitbook/Chapter3/cletus.md

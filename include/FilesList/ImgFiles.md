@@ -3114,6 +3114,13 @@
   * ToTag
   * ToTag
   * ./include/community/us.jpg
+* __/include/community/asia.jpg__:
+  * asia.jpg
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/asia.jpg
 * __/include/community/germany.jpg__:
   * germany.jpg
   * ToTag

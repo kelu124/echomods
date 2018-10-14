@@ -1,84 +1,84 @@
 # List of opened probes
 
-### adrus (adrus)
+### [adrus](/include/probes/auto/adrus.md) (adrus)
 
 __LDR__: an adr ultrasound probe
 
 __More?__ an adr ultrasound probe
 
-### apogee (apogee)
+### [apogee](/include/probes/auto/apogee.md) (apogee)
 
 __LDR__: an apogee probe
 
 __More?__ an apogee probe.
 
-### apogee10MHz (apogee10MHz)
+### [apogee10MHz](/include/probes/auto/apogee10MHz.md) (apogee10MHz)
 
 __LDR__: an Apogee 10MHz probe
 
 __More?__ an Apogee 10MHz probe
 
-### apogee5MHz (apogee5MHz)
+### [apogee5MHz](/include/probes/auto/apogee5MHz.md) (apogee5MHz)
 
 __LDR__: an Apogee 5MHz probe
 
 __More?__ an Apogee 5MHz probe
 
-### atlidrict (atlidrict)
+### [atlidrict](/include/probes/auto/atlidrict.md) (atlidrict)
 
 __LDR__: an atlidrict 7.5MHz / 6.4mm probe
 
 __More?__ an atlidrict 7.5MHz / 6.4mm probe
 
-### ausonics75 (ausonics75)
+### [ausonics75](/include/probes/auto/ausonics75.md) (ausonics75)
 
 __LDR__: an ausonic 7.5MHz probe
 
 __More?__ an ausonic 7.5MHz probe
 
-### bard (bard)
+### [bard](/include/probes/auto/bard.md) (bard)
 
 __LDR__: a site rite probe
 
 __More?__ Used in the site rite bard systems.
 
-### hp2121 (hp2121)
+### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 
 __LDR__: hp2121 small desc
 
 __More?__  hp2121 longdesc
 
-### kretzaw145ba (kretzaw145ba)
+### [kretzaw145ba](/include/probes/auto/kretzaw145ba.md) (kretzaw145ba)
 
 __LDR__: a kretz AW14/5B/A ultrasound probe
 
 __More?__ a kretz AW14/5B/A probe
 
-### retro10PV (retro10PV)
+### [retro10PV](/include/probes/auto/retro10PV.md) (retro10PV)
 
 __LDR__: a 3-frequencies probe
 
 __More?__ 5, 7.5 and 10 MHz probe. Used on the ultramarks.
 
-### retroATL3 (retroATL3)
+### [retroATL3](/include/probes/auto/retroATL3.md) (retroATL3)
 
 __LDR__: An ATL ACCESS 3 probe.
 
 __More?__ 3.5MHz probe. Used on the ultramarks.
 
-### s3 (s3)
+### [s3](/include/probes/auto/s3.md) (s3)
 
 __LDR__: A small wireless probe.
 
 __More?__ A probe from shenzen. Happy to have played with it, opened it, ...
 
-### shzmch (shzmch)
+### [shzmch](/include/probes/auto/shzmch.md) (shzmch)
 
 __LDR__: a mechanical probe found on shenzen
 
 __More?__ a mechanical probe found on shenzen
 
-### uprobe1 (uProbe1)
+### [uprobe1](/include/probes/auto/uProbe1.md) (uProbe1)
 
 __LDR__: A small wireless probe from shenzen
 

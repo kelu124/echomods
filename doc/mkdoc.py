@@ -415,7 +415,7 @@ def CreateProbesFiles(GrosJaSON):
 
 	ProbeAuto = "# List of opened probes\n\n"
 	for probe in sorted(GrosJaSON["probes"].keys()):
-		ProbeAuto += "### "+probe+" ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
+		ProbeAuto += "### ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md) ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
 		ProbeAuto += "__LDR__: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
 		ProbeAuto += "__More?__ "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
 		OpenWrite(ProbeAuto,"./include/probes/Readme.md")
@@ -733,12 +733,17 @@ def AddRawHURL(s):
 	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
 	URL = "https://raw.githubusercontent.com/kelu124/echomods/master/"
 
-	s = s.replace("/include/experiments/auto/","exp/")
+	#s = s.replace("/include//auto/","exp/")
+
+	pattern = re.compile(r"\]\(\/include\/experiments\/auto\/(.*)\.md")
+	s = pattern.sub( r"](https://kelu124.gitbooks.io/echomods/content/exp/\g<1>.html", s)
 
 	# Nice regex for IPYNBs : \]\((.+\/)*(.+)\.ipynb\)
 	pattern = re.compile(r"\]\(\/(.*)\/(.*)\.ipynb")
 	s = pattern.sub( r"](https://kelu124.gitbooks.io/echomods/content/notebooks/\g<2>.html", s)
 
+	pattern = re.compile(r"\]\(\/include\/probes\/auto\/(.*)\.md")
+	s = pattern.sub( r"](https://kelu124.gitbooks.io/echomods/content/probes/\g<1>.html", s)
 
  
 	for o in range(len(ToBeReplaced)):

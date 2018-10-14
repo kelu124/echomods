@@ -295,7 +295,7 @@
 
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
 
-* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
+* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md), [`/include/experiments/auto/20180216a.md`](/include/experiments/auto/20180216a.md).
 
 * [./include/cn_mechprob/Readme.md](/include/cn_mechprob/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -363,9 +363,13 @@
 
 * [./include/community/Matthew/Readme.md](/include/community/Matthew/Readme.md):  . _File not used._
 
+* [./include/community/Peters/Readme.md](/include/community/Peters/Readme.md):  . _File not used._
+
 * [./include/community/Harold/Readme.md](/include/community/Harold/Readme.md):  . _File not used._
 
 * [./include/community/Taylor/Readme.md](/include/community/Taylor/Readme.md):  . _File not used._
+
+* [./include/community/Jae/Readme.md](/include/community/Jae/Readme.md):  . _File not used._
 
 * [./include/community/Marc/20171023-Notes.md](/include/community/Marc/20171023-Notes.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
@@ -385,6 +389,8 @@
 
 * [./include/community/John/Readme.md](/include/community/John/Readme.md):  . _File not used._
 
+* [./include/community/WeiTing/Readme.md](/include/community/WeiTing/Readme.md):  . _File not used._
+
 * [./include/community/Masoud/Readme.md](/include/community/Masoud/Readme.md):  . _File not used._
 
 * [./include/community/Kevin/Readme.md](/include/community/Kevin/Readme.md):  . _File not used._
@@ -398,6 +404,8 @@
 * [./include/community/Afreen/Readme.md](/include/community/Afreen/Readme.md):  . _File not used._
 
 * [./include/community/WillT/Readme.md](/include/community/WillT/Readme.md):  . _File not used._
+
+* [./include/community/Suyun/Readme.md](/include/community/Suyun/Readme.md):  . _File not used._
 
 * [./include/community/JB/Readme.md](/include/community/JB/Readme.md):  . _File not used._
 

@@ -13,6 +13,7 @@ grep -rli '](/bomanz' * | xargs -i@ sed -i 's/](\/bomanz\//](https\:\/\/github.c
 grep -rli '](/' * | xargs -i@ sed -i 's/](\//](https\:\/\/github.com\/kelu124\/echomods\/tree\/master\//g' @
 cd ..
 
+
 cd gh-pages/
 ./createMD.sh
 ./makeprez
