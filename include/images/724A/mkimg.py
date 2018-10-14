@@ -48,8 +48,6 @@ for FileName in Imgs:
 	except IOError:
 		print "Not an image"
 	else:
-		# Modules
-		metadata['Exif.Image.Software'] = "ToTag"
 		# Experiment
 		metadata['Exif.Image.Make'] = "ToTag"
 
@@ -57,6 +55,7 @@ for FileName in Imgs:
 		metadata['Exif.Photo.MakerNote'] = "ToTag"
 		# Description
 		metadata['Exif.Image.ImageDescription'] = "."
+		metadata['Exif.Image.Software'] = "724A"
 
 		# Saving the image
 
