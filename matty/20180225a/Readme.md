@@ -1,4 +1,4 @@
-## `20180225a` - Using a probe
+## `20180225a` - Using a `retroATL3` probe
 
 * Testing the acquisition as I did with the Raspberry.
   * Using 130us acquisitions.

@@ -41,7 +41,7 @@ Automating most of the documentation
 
 ## Inputting Jupyter Notebook's into the Gitbook
 
-The trick is to convert all Notebooks to MD files, and have those included in the summary of the GitBook. [The script is here.](/home/kelu/ultrasound/echomods/makeipynb.sh)
+The trick is to convert all Notebooks to MD files, and have those included in the summary of the GitBook. [The script is here.](/makeipynb.sh)
 
 # Contributors
 
@@ -61,12 +61,12 @@ It also enables the creation of the map of the place of contributors.
   * [List of documentation compilation warning](/doc/log.md)
 
 All files properties are kept in this JSON:
-* [Doc JSON](/home/kelu/ultrasound/echomods/include/doc.json)
+* [Doc JSON](/include/doc.json)
 
 # Experiments descriptions
 
 * [Description of experiments](/include/experiments/all.md): this is where the experiments short names are listed. It can help identify what experiment is what.
-* [Description of probes](/home/kelu/ultrasound/echomods/include/probes/define.md): likewise, codenames of the probes are set here, and corresponding resources within the repo are listed.
+* [Description of probes](/include/probes/define.md): likewise, codenames of the probes are set here, and corresponding resources within the repo are listed.
 
 # Stats from articles and hackaday are added to the stats
 

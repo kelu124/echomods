@@ -204,7 +204,7 @@ def DescribeExpes(FatJSON):
 			    FatJSON["experiments"][expe]["ShortDesc"] = LNE[2].strip()
 	
 	GBookList = "# Experiments\n\n"
-	#print ListOfExpes.sort(reverse=True)
+	ListOfExpes.sort(reverse=True)
 	for k in ListOfExpes:
 		Line = ""
 		if "Title" in FatJSON["experiments"][k].keys():
@@ -327,7 +327,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 				ModulesT += "* ["+OneMod+"](/retired/"+OneMod+"/)\n"
 				ExpeJSON[Expe]["modules"].append(OneMod)
 			if OneMod in FatJSON["probes"].keys():
-				print OneMod, Expe
+				#print OneMod, Expe
 				ExpeJSON[Expe]["probes"].append(OneMod)
 				ModulesT += "* Probe used: __["+OneMod+"](/include/probes/auto/"+OneMod+".md)__\n"
 
@@ -356,6 +356,9 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 
 	OpenWrite(ExpeSummary,"include/AllExpes.md")
 	return ModF,ExpeJSON, log
+
+
+
 
 def PutBackProbes(JSON):
 	for Expe in JSON["experiments"].keys():
@@ -392,8 +395,22 @@ def ListProbes(pathdefine,GrosJaSON):
 	for k in GrosJaSON["probes"].keys():
 		GrosJaSON["probes"][k]["experiments"] = []
 		GrosJaSON["probes"][k]["images"] = []
+		GrosJaSON["probes"][k]["md"] = []
+
+
+
 	#print GrosJaSON["probes"]
 	return ListOfProbes,GrosJaSON
+
+def MDProbes(GrosJaSON):
+	for k in GrosJaSON["probes"].keys():
+		for key in GrosJaSON["md"].keys():
+			tmpfile = open("."+key, "r") 
+			if ("`"+k+"`" in tmpfile.read()) and ("FilesList" not in key) and ("gitbook" not in key) and ("/include/probes/" not in key) and ("/include/experiments/" not in key):
+				GrosJaSON["probes"][k]["md"].append(key)
+
+	return GrosJaSON
+
 
 ## Creating probe files from what was captured in images
 
@@ -402,16 +419,26 @@ def CreateProbesFiles(GrosJaSON):
 		ProbeAuto = "# "+probe+" ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
 		ProbeAuto += "* Small description: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
 		ProbeAuto += "* Longer description: "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
+		#GrosJaSON["probes"][probe]["experiments"] = list(set(GrosJaSON["probes"][probe]["experiments"]))
+		#GrosJaSON["probes"][probe]["experiments"].sort(reverse=True)
+
 		if len(GrosJaSON["probes"][probe]["experiments"]):
 			ProbeAuto += "# Experiments\n\n"
 			for expe in list(set(GrosJaSON["probes"][probe]["experiments"])):
 				ProbeAuto += "* ["+expe+"](/include/experiments/auto/"+expe+".md)\n"
-		#print ProbeAuto
+			ProbeAuto += "\n\n"
+ 
+		if len(GrosJaSON["probes"][probe]["md"]):
+			ProbeAuto += "# Files\n\n"
+			for MDFILE in list(set(GrosJaSON["probes"][probe]["md"])):
+				ProbeAuto += "* ["+MDFILE+"]("+MDFILE+")\n"
+			ProbeAuto += "\n\n"
+
 		if len(GrosJaSON["probes"][probe]["images"]):
 			ProbeAuto += "# Images\n\n"
 			for image in list(set(GrosJaSON["probes"][probe]["images"])):
 				ProbeAuto += "![]("+image+")\n"
-
+			ProbeAuto += "\n\n"
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
 
 	ProbeAuto = "# List of opened probes\n\n"
@@ -424,7 +451,6 @@ def CreateProbesFiles(GrosJaSON):
 	OpenWrite(ProbeAuto,"./include/probes/Readme.md")
 	OpenWrite(AddProbes,"./include/AddProbes.md")
 
-	#print probe, "written"
 	return 1
 
 def ListContrib(cpath,BigJSON):
@@ -703,7 +729,7 @@ def UpdateSUMMARY(path):
 
 	mypath = "gitbook/exp/"
 	lstExpe = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.md'))]
-	lstExpe.sort()
+	lstExpe.sort(reverse=True)
 	#print lstExpe
 	tmpExpe = ""
 	for k in lstExpe:

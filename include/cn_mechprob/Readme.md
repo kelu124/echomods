@@ -1,4 +1,4 @@
-# Idea
+# Idea `cn_mechprob`
 
 * PA, PB, PC
 * VRE, 5V, GND

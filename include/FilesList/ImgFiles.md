@@ -1121,7 +1121,7 @@
   * ./matty/20180721a/images/20180721a-11.jpg
 * __/matty/20180225a/probe.jpg__:
   * kelu124
-  * matty
+  * matty,retroATL3
   * ASC
   * 20180225a
   * After the scan conversion
@@ -1142,7 +1142,7 @@
   * ./matty/20180225a/raw.jpg
 * __/matty/20180225a/IMG_20180225_184226.jpg__:
   * kelu124
-  * matty
+  * matty,retroATL3
   * setup
   * 20180225a
   * Setup of the experiment

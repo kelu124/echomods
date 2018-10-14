@@ -1,4 +1,4 @@
-# A kretz AW14/5B/A ultrasound probe - `20180809a`
+# A kretz AW14/5B/A ultrasound probe - `20180809a` & `kretzaw145ba`
 
 Hum I have had this probe for a while, but the nice head does not want to be killed, so better be cautious.
 

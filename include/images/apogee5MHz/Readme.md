@@ -1,4 +1,4 @@
-# Apogee 5MHz
+# Apogee 5MHz `apogee5MHz`
 
 
 ## Description

@@ -1,4 +1,4 @@
-# Readme
+# Readme  `bard`
 
 ## Intro
 
@@ -21,7 +21,7 @@ It may also explain the dephasing of pi/2 when signal is inverted =)
 
 Data is at 
 
-* [Set 1](/home/kelu/ultrasound/echomods/include/bard/exp1/db-bard-5-0-VGA@0x22-spimode1-64msps.csv)
+* [Set 1](/include/bard/exp1/db-bard-5-0-VGA@0x22-spimode1-64msps.csv)
 * [Set 2](/include/bard/exp1/db-bard-5-8-cable_inversed-VGA@0x22-spimode1-64msps.csv)
 
 [Python notebook](/include/bard/exp1/20180317a-Loops.ipynb) is here.

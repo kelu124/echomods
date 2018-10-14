@@ -1,4 +1,4 @@
-# Teardown of a S3 ultrasound probe
+# Teardown of a `s3` ultrasound probe
 
 ## First look
 

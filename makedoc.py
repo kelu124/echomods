@@ -213,6 +213,7 @@ for eachInput in ListOfDirs:
 	GraphModules.node(eachInput, style="filled", fillcolor="blue", shape="box",fontsize="22")
 #print ListOfDirs
 
+GrosJaSON = MDProbes(GrosJaSON)
 
 # -------------------------
 # Doing the templates files
