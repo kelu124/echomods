@@ -12,6 +12,10 @@ title: 2018-10-14 RPi SPI speed
 -   ADCS747x / AD7476
 -   http://www.analog.com/media/en/technical-documentation/data-sheets/ad7476\_7477\_7478.pdf
 -   OP467 + AD711 ?
+-   Trying new matty on old probes
+-   @todo try matty on a apogee5MHz once opened
+-   @todo try matty on a ausonics75 once opened
+-   @todo try matty on a 724A with connectors
 
 =======
 
