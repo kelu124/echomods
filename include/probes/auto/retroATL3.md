@@ -2,7 +2,7 @@
 
 * Small description: An ATL ACCESS 3 probe.
 
-* Longer description: 3.5MHz probe. Used on the ultramarks.
+* Longer description: 3.5MHz probe. Used on the ultramarks. Thouroughly tested:
 
 # Experiments
 

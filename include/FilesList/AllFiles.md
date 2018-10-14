@@ -1033,7 +1033,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 429 Auto generated files
+## 430 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
@@ -1044,6 +1044,7 @@
 * ./include/rmTableAvancement.md
 * ./include/AddTableAvancement.md
 * ./include/AllExpes.md
+* ./include/AddProbes.md
 * ./include/AddShoppingList.md
 * ./include/AddModulesSummary.md
 * ./include/RPiHSDK.md

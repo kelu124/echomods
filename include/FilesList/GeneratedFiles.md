@@ -7,6 +7,7 @@
 * ./include/rmTableAvancement.md
 * ./include/AddTableAvancement.md
 * ./include/AllExpes.md
+* ./include/AddProbes.md
 * ./include/AddShoppingList.md
 * ./include/AddModulesSummary.md
 * ./include/RPiHSDK.md

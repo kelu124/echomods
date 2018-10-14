@@ -11,7 +11,7 @@
 # retroATL3
 * code:retroATL3
 * smalldesc:An ATL ACCESS 3 probe.
-* longdesc:3.5MHz probe. Used on the ultramarks.
+* longdesc:3.5MHz probe. Used on the ultramarks. Thouroughly tested: 
 
 # retro10PV
 * code:retro10PV
@@ -71,4 +71,4 @@
 # hp2121
 * code:hp2121
 * smalldesc:hp2121 small desc
-* longdesc: hp2121 longdesc
+* longdesc: hp2121 longdesc .Experiments : [test](/include/experiments/auto/20181013a.md)

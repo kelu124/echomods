@@ -2,91 +2,91 @@
 
 ### [724A](/include/probes/auto/724A.md) (724A)
 
-__LDR__: a 724A ultrasound probe
+__TLDR__: a 724A ultrasound probe
 
 __More?__ a 724A ultrasound probe
 
 ### [adrus](/include/probes/auto/adrus.md) (adrus)
 
-__LDR__: a 5.5MHz ADR ultrasound probe
+__TLDR__: a 5.5MHz ADR ultrasound probe
 
 __More?__ That's a 5.5MHz ADR ultrasound probe. Strange connector on the back, simple, shows there's a single connector. Mechanical coupling, rotation to sweeping, pair of cables to motor, pairs to the piezo.
 
 ### [apogee](/include/probes/auto/apogee.md) (apogee)
 
-__LDR__: apogee probe
+__TLDR__: apogee probe
 
 __More?__ An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean.
 
 ### [apogee10MHz](/include/probes/auto/apogee10MHz.md) (apogee10MHz)
 
-__LDR__: an Apogee 10MHz probe
+__TLDR__: an Apogee 10MHz probe
 
 __More?__ an Apogee 10MHz probe
 
 ### [apogee5MHz](/include/probes/auto/apogee5MHz.md) (apogee5MHz)
 
-__LDR__: an Apogee 5MHz probe
+__TLDR__: an Apogee 5MHz probe
 
 __More?__ an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple).
 
 ### [atlidrict](/include/probes/auto/atlidrict.md) (atlidrict)
 
-__LDR__: an atlidrict 7.5MHz / 6.4mm probe
+__TLDR__: an atlidrict 7.5MHz / 6.4mm probe
 
 __More?__ An ATL IDR intracavity 7.5MHz / 6.4mm probe. Seems to have nice connectors inside, plus
 
 ### [ausonics75](/include/probes/auto/ausonics75.md) (ausonics75)
 
-__LDR__: an ausonic 7.5MHz probe
+__TLDR__: an ausonic 7.5MHz probe
 
 __More?__ an ausonic 7.5MHz probe
 
 ### [bard](/include/probes/auto/bard.md) (bard)
 
-__LDR__: a site rite probe
+__TLDR__: a site rite probe
 
 __More?__ Used in the site rite bard systems.
 
 ### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 
-__LDR__: hp2121 small desc
+__TLDR__: hp2121 small desc
 
-__More?__  hp2121 longdesc
+__More?__  hp2121 longdesc .Experiments : [test](/include/experiments/auto/20181013a.md)
 
 ### [kretzaw145ba](/include/probes/auto/kretzaw145ba.md) (kretzaw145ba)
 
-__LDR__: a kretz AW14/5B/A ultrasound probe
+__TLDR__: a kretz AW14/5B/A ultrasound probe
 
 __More?__ a kretz AW14/5B/A probe
 
 ### [retro10PV](/include/probes/auto/retro10PV.md) (retro10PV)
 
-__LDR__: a 3-frequencies probe
+__TLDR__: a 3-frequencies probe
 
 __More?__ 5, 7.5 and 10 MHz probe. Used on the ultramarks.
 
 ### [retroATL3](/include/probes/auto/retroATL3.md) (retroATL3)
 
-__LDR__: An ATL ACCESS 3 probe.
+__TLDR__: An ATL ACCESS 3 probe.
 
-__More?__ 3.5MHz probe. Used on the ultramarks.
+__More?__ 3.5MHz probe. Used on the ultramarks. Thouroughly tested:
 
 ### [s3](/include/probes/auto/s3.md) (s3)
 
-__LDR__: A small wireless probe.
+__TLDR__: A small wireless probe.
 
 __More?__ A probe from shenzen. Happy to have played with it, opened it, ...
 
 ### [shzmch](/include/probes/auto/shzmch.md) (shzmch)
 
-__LDR__: a mechanical probe found on shenzen
+__TLDR__: a mechanical probe found on shenzen
 
 __More?__ a mechanical probe found on shenzen
 
 ### [uprobe1](/include/probes/auto/uProbe1.md) (uProbe1)
 
-__LDR__: A small wireless probe from shenzen
+__TLDR__: A small wireless probe from shenzen
 
 __More?__ A small wireless probe from shenzen. Couldn't open it, but I added some hacking in the wireless communication.
 

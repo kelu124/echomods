@@ -27,6 +27,10 @@
 
 @kelu include(/include/rmGHList.md)
 
+# List of probes
+
+@kelu include(/include/AddProbes.md)
+
 # Todos
 
 @kelu include(/include/rmTODOsToShopping.md)

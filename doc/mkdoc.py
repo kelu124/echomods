@@ -204,6 +204,7 @@ def DescribeExpes(FatJSON):
 			    FatJSON["experiments"][expe]["ShortDesc"] = LNE[2].strip()
 	
 	GBookList = "# Experiments\n\n"
+	#print ListOfExpes.sort(reverse=True)
 	for k in ListOfExpes:
 		Line = ""
 		if "Title" in FatJSON["experiments"][k].keys():
@@ -414,12 +415,16 @@ def CreateProbesFiles(GrosJaSON):
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
 
 	ProbeAuto = "# List of opened probes\n\n"
+	AddProbes = "That's the list of probes been playing with:\n\n"
 	for probe in sorted(GrosJaSON["probes"].keys()):
 		ProbeAuto += "### ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md) ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
-		ProbeAuto += "__LDR__: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
+		ProbeAuto += "__TLDR__: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
 		ProbeAuto += "__More?__ "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
-		OpenWrite(ProbeAuto,"./include/probes/Readme.md")
-		#print probe, "written"
+		AddProbes += "* ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md)\n"
+	OpenWrite(ProbeAuto,"./include/probes/Readme.md")
+	OpenWrite(AddProbes,"./include/AddProbes.md")
+
+	#print probe, "written"
 	return 1
 
 def ListContrib(cpath,BigJSON):

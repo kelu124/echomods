@@ -255,6 +255,29 @@ and used in a wider context:
 
 
 
+# List of probes
+
+That's the list of probes been playing with:
+
+* [724A](/include/probes/auto/724A.md)
+* [adrus](/include/probes/auto/adrus.md)
+* [apogee](/include/probes/auto/apogee.md)
+* [apogee10MHz](/include/probes/auto/apogee10MHz.md)
+* [apogee5MHz](/include/probes/auto/apogee5MHz.md)
+* [atlidrict](/include/probes/auto/atlidrict.md)
+* [ausonics75](/include/probes/auto/ausonics75.md)
+* [bard](/include/probes/auto/bard.md)
+* [hp2121](/include/probes/auto/hp2121.md)
+* [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
+* [retro10PV](/include/probes/auto/retro10PV.md)
+* [retroATL3](/include/probes/auto/retroATL3.md)
+* [s3](/include/probes/auto/s3.md)
+* [shzmch](/include/probes/auto/shzmch.md)
+* [uprobe1](/include/probes/auto/uProbe1.md)
+
+
+
+
 # Todos
 
 ## Shopping list
