@@ -1,8 +1,8 @@
 # apogee (apogee)
 
-* Small description: an apogee probe
+* Small description: apogee probe
 
-* Longer description: an apogee probe.
+* Longer description: An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean.
 
 # Experiments
 

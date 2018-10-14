@@ -2,7 +2,7 @@
 
 * Small description: an Apogee 5MHz probe
 
-* Longer description: an Apogee 5MHz probe
+* Longer description: an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple).
 
 # Images
 

@@ -2,7 +2,7 @@
 
 * Small description: an atlidrict 7.5MHz / 6.4mm probe
 
-* Longer description: an atlidrict 7.5MHz / 6.4mm probe
+* Longer description: An ATL IDR intracavity 7.5MHz / 6.4mm probe. Seems to have nice connectors inside, plus
 
 # Images
 

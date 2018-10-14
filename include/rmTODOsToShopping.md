@@ -62,6 +62,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * push a python lib for un0rick
 * 8bit art for icons and todos
 * source a Bion PSI-400 
+ * try matty on a apogee5MHz once opened
+ * try matty on a ausonics75 once opened
+ * try matty on a 724A with connectors
 
 
 

@@ -742,6 +742,10 @@ def AddRawHURL(s):
 	pattern = re.compile(r"\]\(\/(.*)\/(.*)\.ipynb")
 	s = pattern.sub( r"](https://kelu124.gitbooks.io/echomods/content/notebooks/\g<2>.html", s)
 
+	s = s.replace("/include/probes/auto/)","https://kelu124.gitbooks.io/echomods/content/probes/Readme.html)")
+	s = s.replace("/include/probes/)","https://kelu124.gitbooks.io/echomods/content/probes/Readme.html)")
+	s = s.replace("/include/probes/auto/Readme.md","https://kelu124.gitbooks.io/echomods/content/probes/Readme.html")
+
 	pattern = re.compile(r"\]\(\/include\/probes\/auto\/(.*)\.md")
 	s = pattern.sub( r"](https://kelu124.gitbooks.io/echomods/content/probes/\g<1>.html", s)
 

@@ -1,8 +1,8 @@
 # adrus (adrus)
 
-* Small description: an adr ultrasound probe
+* Small description: a 5.5MHz ADR ultrasound probe
 
-* Longer description: an adr ultrasound probe
+* Longer description: That's a 5.5MHz ADR ultrasound probe. Strange connector on the back, simple, shows there's a single connector. Mechanical coupling, rotation to sweeping, pair of cables to motor, pairs to the piezo.
 
 # Experiments
 

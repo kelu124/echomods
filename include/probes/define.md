@@ -30,18 +30,23 @@
 
 # apogee
 * code:apogee
-* smalldesc:an apogee probe
-* longdesc:an apogee probe.
+* smalldesc:apogee probe
+* longdesc:An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean.
 
 # adrus
 * code:adrus
-* smalldesc:an adr ultrasound probe
-* longdesc:an adr ultrasound probe
+* smalldesc:a 5.5MHz ADR ultrasound probe
+* longdesc:That's a 5.5MHz ADR ultrasound probe. Strange connector on the back, simple, shows there's a single connector. Mechanical coupling, rotation to sweeping, pair of cables to motor, pairs to the piezo.
 
 # kretzaw145ba
 * code:kretzaw145ba
 * smalldesc:a kretz AW14/5B/A ultrasound probe
 * longdesc:a kretz AW14/5B/A probe
+
+# 724A
+* code:724A
+* smalldesc:a 724A ultrasound probe
+* longdesc:a 724A ultrasound probe
 
 # ausonics75
 * code:ausonics75
@@ -51,12 +56,12 @@
 # atlidrict
 * code:atlidrict
 * smalldesc:an atlidrict 7.5MHz / 6.4mm probe
-* longdesc:an atlidrict 7.5MHz / 6.4mm probe
+* longdesc:An ATL IDR intracavity 7.5MHz / 6.4mm probe. Seems to have nice connectors inside, plus
 
 # apogee5MHz
 * code:apogee5MHz
 * smalldesc:an Apogee 5MHz probe
-* longdesc:an Apogee 5MHz probe
+* longdesc:an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple).
 
 # apogee10MHz
 * code:apogee10MHz

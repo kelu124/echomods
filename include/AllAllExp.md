@@ -35,10 +35,7 @@
  * 2018-07-21: [pyUn0 python lib and TGC](/include/experiments/auto/20180721a.md): Testing class-approach for acquisition and processing. Also tested Gain setup. _(20180721a)_
  * 2018-08-07: [ADR Ultrasound probe](/include/experiments/auto/20180807a.md): Photo reportage of opening an ADR Ultrasound probe. _(20180807a)_
  * 2018-08-07: [InterspecApogee](/include/experiments/auto/20180807b.md): Opening an InterspecApogee probe _(20180807b)_
- * 2018-08-09: [kretz AW14/5B/A](/include/experiments/auto/20180809a.md): Opening a kretz AW14/5B/A ultrasound probe _(20180809a)_
  * 2018-08-09: [Ausonics 7.5MHz probe](/include/experiments/auto/20180809b.md): Getting in a Ausonics 7.5MHz probe _(20180809b)_
- * 2018-08-11: [Kretz-Echo](/include/experiments/auto/20180811a.md): Find echoes on a kretzaw145ba probe _(20180811a)_
- * 2018-08-11: [Kretz-Motors](/include/experiments/auto/20180811b.md): Finding the motors on a kretzaw145ba probe _(20180811b)_
  * 2018-08-12: [KretzImage](/include/experiments/auto/20180812a.md): Getting an image with a kretz AW14/5B/A ultrasound probe _(20180812a)_
  * 2018-08-13: [pyUn0 lib glitches](/include/experiments/auto/20180813a.md): Experiment to capture glitches. Now captured (bugs with timing), pending is increasing NCycles above a 8 bit count. _(20180813a)_
  * 2018-08-14: [Reaching 128msps](/include/experiments/auto/20180814a.md): Trying to experiment getting 128Msps _(20180814a)_

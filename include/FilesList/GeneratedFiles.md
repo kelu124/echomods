@@ -259,6 +259,7 @@
 * ./include/probes/auto/kretzaw145ba.md
 * ./include/probes/auto/hp2121.md
 * ./include/probes/auto/s3.md
+* ./include/probes/auto/724A.md
 * ./include/probes/auto/apogee5MHz.md
 * ./include/probes/auto/atlidrict.md
 * ./include/probes/auto/ausonics75.md
@@ -309,6 +310,7 @@
 * ./gitbook/probes/kretzaw145ba.md
 * ./gitbook/probes/hp2121.md
 * ./gitbook/probes/s3.md
+* ./gitbook/probes/724A.md
 * ./gitbook/probes/apogee5MHz.md
 * ./gitbook/probes/atlidrict.md
 * ./gitbook/probes/ausonics75.md

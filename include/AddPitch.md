@@ -4,8 +4,8 @@ This project has a specific target of providing a __low-cost, open source techno
 
 * the [github repo](https://github.com/kelu124/echomods/), for the source files, raw data and raw experiment logs;
 * the [online manual/book](https://www.gitbook.com/book/kelu124/echomods/details) for a easily readable and searchable archive of the whole work;
-  * with [list of probes](https://kelu124.gitbooks.io/echomods/content/probes/)
-  * and [list of experiments](https://kelu124.gitbooks.io/echomods/content/allexp.html)
+  * with [list of probes](/include/probes/)
+  * and [list of experiments](/include/experiments/)
 * the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format;
 * an [article summarizing the experiment on the Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) - [DOI:10.5334/joh.2]( http://doi.org/10.5334/joh.2);
 * the [slack channel if you want to discuss](https://join.slack.com/usdevkit/shared_invite/MTkxODU5MjU0NjI1LTE0OTY1ODgxMDEtMmYyZTliZDBlZA);

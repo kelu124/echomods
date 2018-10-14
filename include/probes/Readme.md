@@ -1,16 +1,22 @@
 # List of opened probes
 
+### [724A](/include/probes/auto/724A.md) (724A)
+
+__LDR__: a 724A ultrasound probe
+
+__More?__ a 724A ultrasound probe
+
 ### [adrus](/include/probes/auto/adrus.md) (adrus)
 
-__LDR__: an adr ultrasound probe
+__LDR__: a 5.5MHz ADR ultrasound probe
 
-__More?__ an adr ultrasound probe
+__More?__ That's a 5.5MHz ADR ultrasound probe. Strange connector on the back, simple, shows there's a single connector. Mechanical coupling, rotation to sweeping, pair of cables to motor, pairs to the piezo.
 
 ### [apogee](/include/probes/auto/apogee.md) (apogee)
 
-__LDR__: an apogee probe
+__LDR__: apogee probe
 
-__More?__ an apogee probe.
+__More?__ An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean.
 
 ### [apogee10MHz](/include/probes/auto/apogee10MHz.md) (apogee10MHz)
 
@@ -22,13 +28,13 @@ __More?__ an Apogee 10MHz probe
 
 __LDR__: an Apogee 5MHz probe
 
-__More?__ an Apogee 5MHz probe
+__More?__ an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple).
 
 ### [atlidrict](/include/probes/auto/atlidrict.md) (atlidrict)
 
 __LDR__: an atlidrict 7.5MHz / 6.4mm probe
 
-__More?__ an atlidrict 7.5MHz / 6.4mm probe
+__More?__ An ATL IDR intracavity 7.5MHz / 6.4mm probe. Seems to have nice connectors inside, plus
 
 ### [ausonics75](/include/probes/auto/ausonics75.md) (ausonics75)
 
