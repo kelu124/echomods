@@ -35,7 +35,7 @@ class bcolors:
 Imgs = []
 for dirpath, dirnames, filenames in os.walk("."):
     for filename in [f for f in filenames if ( f.endswith(".jpg") or f.endswith(".png") or f.endswith(".JPG") )]:
-	if "2018/" not in filename:
+	if "P_2018" in filename:
         	Imgs.append( os.path.join(dirpath, filename) )
 
 print Imgs
@@ -56,7 +56,7 @@ for FileName in Imgs:
 		metadata['Exif.Photo.MakerNote'] = "ToTag"
 		# Description
 		metadata['Exif.Image.ImageDescription'] = "."
-		metadata['Exif.Image.Software'] = "724A"
+		metadata['Exif.Image.Software'] = "kretzaw145ba"
 
 		# Saving the image
 
