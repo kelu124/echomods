@@ -289,8 +289,8 @@ class us_spi:
 	    print "Poff:", sEEPoff," ns -- ",hex(POffMSB),hex(POffLSB)
 	    self.JSON["parameters"]["Poff"] = int(sEEPoff)
 	    self.JSON["parameters"]["Poff_Real"] = int(POff)
-	    self.WriteFPGA(0xE1,POffMSB) # set sEEPon MSB
-	    self.WriteFPGA(0xE2,POffLSB) # set sEEPon LSB
+	    self.WriteFPGA(0xE1,POffMSB) # set Poff MSB
+	    self.WriteFPGA(0xE2,POffLSB) # set Poff LSB
 	    return POff*10
 
 	    # Setting Poff to Acq delay sEEDelayACQ
@@ -305,8 +305,8 @@ class us_spi:
 	    print "Delay between:",hDA*1000/128,"ns -- ", hex(hDAMSB),hex(hDALSB)
 	    self.JSON["parameters"]["DeltaAcq"] = int(DeltaAcq)
 	    self.JSON["parameters"]["DeltaAcq_Real"] = int(hDA)
-	    self.WriteFPGA(0xE3,hDAMSB) # set sEEPon MSB
-	    self.WriteFPGA(0xE4,hDALSB) # set sEEPon LSB
+	    self.WriteFPGA(0xE3,hDAMSB) # set delay MSB
+	    self.WriteFPGA(0xE4,hDALSB) # set delay LSB
 	    return DeltaAcq
 
 	def SetLengthAcq(self,LAcqI):
@@ -317,7 +317,7 @@ class us_spi:
 	    LAcqMSB, LAcqLSB = 0x00FF&LAcqCorrected/256 , 0x00FF&LAcqCorrected
 	    print "Acquisition length: ", int(LAcqCorrected*1000/128), "ns -- ",hex(LAcqMSB),hex(LAcqLSB)
 	    self.WriteFPGA(0xE5,LAcqMSB) # set sEEPon MSB
-	    self.WriteFPGA(0xE6,LAcqLSB) # set sEEPon LSB
+	    self.WriteFPGA(0xE6,LAcqLSB) # set length acq LSB
 	    return int(LAcqCorrected*1000/128)
 
 	def setPeriodAcq(self,lEPeriod):

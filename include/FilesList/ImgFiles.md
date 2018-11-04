@@ -741,6 +741,48 @@
   * 20180310a
   * Programming the DAC
   * ./matty/20180310a/gain.jpg
+* __/matty/20181104b/20181104b-1.json-lines161-163.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20181104b/20181104b-1.json-lines161-163.jpg
+* __/matty/20181104b/20181104b-1.json-lines154-159.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20181104b/20181104b-1.json-lines154-159.jpg
+* __/matty/20181104b/20181104b-1.json-detail-lines161-163.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20181104b/20181104b-1.json-detail-lines161-163.jpg
+* __/matty/20181104b/photos/P_20181104_130337.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20181104b/photos/P_20181104_130337.jpg
+* __/matty/20181104b/images/Spectrum_20181104b-1.jpg__:
+  * kelu124
+  * matty,retro10apogee
+  * FFT
+  * 20181104b
+  * Experiment: 20181104b-1. Duration: 150.0us (175000 - 25000), for 316 repeats each 3906 us. Fech = 10.6666666667Msps, total of 1600.0 pts per line, Nacq = 316. Apogee10MHz recabled with wiretwophantom, probe: retro10apogee, target = wiretwophantom. Timestamp = 2018-11-04 12:15:10.118291
+  * ./matty/20181104b/images/Spectrum_20181104b-1.jpg
+* __/matty/20181104b/images/2DArray_20181104b-1.jpg__:
+  * kelu124
+  * matty,retro10apogee
+  * BC
+  * 20181104b
+  * Experiment: 20181104b-1. Duration: 150.0us (175000 - 25000), for 316 repeats each 3906 us. Fech = 10.6666666667Msps, total of 1600.0 pts per line, Nacq = 316. Apogee10MHz recabled with wiretwophantom, probe: retro10apogee, target = wiretwophantom. Timestamp = 2018-11-04 12:15:10.118291
+  * ./matty/20181104b/images/2DArray_20181104b-1.jpg
 * __/matty/20180825a/images/2DArray_20180825a.jpg__:
   * kelu124
   * matty,loftus
@@ -923,6 +965,13 @@
   * 20180901a
   * Experiment: 20180901a-2. Duration: 90.0us (120000 - 30000), for 260 repeats each 1093 us. Fech = 21.3333333333Msps, total of 1920.0 pts per line, Nacq = 260. Trying a probe without linear transformator - unplugged, probe: kretzaw145ba, target = wirephantom. Timestamp = 2018-09-01 07:26:17.607650
   * ./matty/20180901a/images/2DArray_20180901a-2.jpg
+* __/matty/20181031a/images/20181031a-2-fft.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/20181031a/images/20181031a-2-fft.jpg
 * __/matty/20180721a/images/detail_20180721a-10-100-125-line0.jpg__:
   * kelu124
   * matty
@@ -1280,6 +1329,41 @@
   * 20180224b
   * Setup of the experiment
   * ./matty/20180224b/images/IMG_20180224_195210.jpg
+* __/matty/20181104c/photos/P_20181104_134129.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20181104c/photos/P_20181104_134129.jpg
+* __/matty/20181104c/images/2DArray_20181104c-1.jpg__:
+  * kelu124
+  * matty,724A
+  * BC
+  * 20181104c
+  * Experiment: 20181104c-1. Duration: 150.0us (175000 - 25000), for 316 repeats each 3906 us. Fech = 10.6666666667Msps, total of 1600.0 pts per line, Nacq = 316. 724A shooting on wiretwophantom, probe: 724A, target = wiretwophantom. Timestamp = 2018-11-04 12:38:32.299867
+  * ./matty/20181104c/images/2DArray_20181104c-1.jpg
+* __/matty/20181104c/images/2DArray_20181104c-2.jpg__:
+  * kelu124
+  * matty,724A
+  * BC
+  * 20181104c
+  * Experiment: 20181104c-2. Duration: 150.0us (175000 - 25000), for 316 repeats each 3906 us. Fech = 10.6666666667Msps, total of 1600.0 pts per line, Nacq = 316. 724A horizontally with wiretwophantom, probe: 724A, target = wiretwophantom. Timestamp = 2018-11-04 12:41:10.304738
+  * ./matty/20181104c/images/2DArray_20181104c-2.jpg
+* __/matty/20181104c/images/Spectrum_20181104c-2.jpg__:
+  * kelu124
+  * matty,724A
+  * FFT
+  * 20181104c
+  * Experiment: 20181104c-2. Duration: 150.0us (175000 - 25000), for 316 repeats each 3906 us. Fech = 10.6666666667Msps, total of 1600.0 pts per line, Nacq = 316. 724A horizontally with wiretwophantom, probe: 724A, target = wiretwophantom. Timestamp = 2018-11-04 12:41:10.304738
+  * ./matty/20181104c/images/Spectrum_20181104c-2.jpg
+* __/matty/20181104c/images/Spectrum_20181104c-1.jpg__:
+  * kelu124
+  * matty,724A
+  * FFT
+  * 20181104c
+  * Experiment: 20181104c-1. Duration: 150.0us (175000 - 25000), for 316 repeats each 3906 us. Fech = 10.6666666667Msps, total of 1600.0 pts per line, Nacq = 316. 724A shooting on wiretwophantom, probe: 724A, target = wiretwophantom. Timestamp = 2018-11-04 12:38:32.299867
+  * ./matty/20181104c/images/Spectrum_20181104c-1.jpg
 * __/matty/images/IMG_20180202_233901.jpg__:
   * kelu124
   * PRA-LX1C432B180
@@ -1336,6 +1420,20 @@
   * ToTag
   * ToTag
   * ./matty/images/arf.jpg
+* __/matty/images/P_20181031_200122.jpg__:
+  * kelu124
+  * matty
+  * picture
+  * ToTag
+  * ToTag
+  * ./matty/images/P_20181031_200122.jpg
+* __/matty/images/P_20181031_191332.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/P_20181031_191332.jpg
 * __/matty/images/IMG_20180212_195429.jpg__:
   * kelu124
   * ToTag
@@ -1343,6 +1441,13 @@
   * ToTag
   * ToTag
   * ./matty/images/IMG_20180212_195429.jpg
+* __/matty/images/P_20181031_191303.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/images/P_20181031_191303.jpg
 * __/matty/images/20180224a.jpg__:
   * kelu124
   * ToTag
@@ -1434,6 +1539,69 @@
   * ToTag
   * ToTag
   * ./matty/images/acqs/MATTY_20180224/d-64-0-2500.jpg
+* __/matty/20181104a/photos/P_20181104_130033.jpg__:
+  * kelu124
+  * matty,hp2121
+  * 20181104a
+  * ToTag
+  * Setup of the experiment
+  * ./matty/20181104a/photos/P_20181104_130033.jpg
+* __/matty/20181104a/photos/P_20181104_130051.jpg__:
+  * kelu124
+  * matty,hp2121
+  * setup
+  * 20181104a
+  * Setup of the experiment
+  * ./matty/20181104a/photos/P_20181104_130051.jpg
+* __/matty/20181104a/photos/P_20181104_130044.jpg__:
+  * kelu124
+  * matty,hp2121
+  * setup
+  * 20181104a
+  * ToTag
+  * ./matty/20181104a/photos/P_20181104_130044.jpg
+* __/matty/20181104a/images/2DArray_20181104a-2.jpg__:
+  * kelu124
+  * matty,hp2121
+  * BC
+  * 20181104a
+  * Experiment: 20181104a-2. Duration: 160.0us (175000 - 15000), for 306 repeats each 488 us. Fech = 10.6666666667Msps, total of 1706.66666667 pts per line, Nacq = 306. hp2121 with wiretwophantom, probe: hp2121, target = wiretwophantom. Timestamp = 2018-11-04 11:51:12.404972
+  * ./matty/20181104a/images/2DArray_20181104a-2.jpg
+* __/matty/20181104a/images/Spectrum_20181104a-2.jpg__:
+  * kelu124
+  * matty,hp2121
+  * FFT
+  * 20181104a
+  * Experiment: 20181104a-2. Duration: 160.0us (175000 - 15000), for 306 repeats each 488 us. Fech = 10.6666666667Msps, total of 1706.66666667 pts per line, Nacq = 306. hp2121 with wiretwophantom, probe: hp2121, target = wiretwophantom. Timestamp = 2018-11-04 11:51:12.404972
+  * ./matty/20181104a/images/Spectrum_20181104a-2.jpg
+* __/matty/20181104a/images/Spectrum_20181104a-3.jpg__:
+  * kelu124
+  * matty,hp2121
+  * FFT
+  * 20181104a
+  * Experiment: 20181104a-3. Duration: 150.0us (175000 - 25000), for 158 repeats each 488 us. Fech = 21.3333333333Msps, total of 3200.0 pts per line, Nacq = 158. hp2121 with wiretwophantom, probe: hp2121, target = wiretwophantom. Timestamp = 2018-11-04 11:59:23.366979
+  * ./matty/20181104a/images/Spectrum_20181104a-3.jpg
+* __/matty/20181104a/images/2DArray_20181104a-3.jpg__:
+  * kelu124
+  * matty,hp2121
+  * BC
+  * 20181104a
+  * Experiment: 20181104a-3. Duration: 150.0us (175000 - 25000), for 158 repeats each 488 us. Fech = 21.3333333333Msps, total of 3200.0 pts per line, Nacq = 158. hp2121 with wiretwophantom, probe: hp2121, target = wiretwophantom. Timestamp = 2018-11-04 11:59:23.366979
+  * ./matty/20181104a/images/2DArray_20181104a-3.jpg
+* __/matty/20181104a/images/Spectrum_20181104a-1.jpg__:
+  * kelu124
+  * matty,hp2121
+  * FFT
+  * 20181104a
+  * Experiment: 20181104a-1. Duration: 190.0us (195000 - 5000), for 256 repeats each 1953 us. Fech = 10.6666666667Msps, total of 2026.66666667 pts per line, Nacq = 256. hp2121 with wiretwophantom, probe: hp2121, target = wiretwophantom. Timestamp = 2018-11-04 11:39:39.179730
+  * ./matty/20181104a/images/Spectrum_20181104a-1.jpg
+* __/matty/20181104a/images/2DArray_20181104a-1.jpg__:
+  * kelu124
+  * matty,hp2121
+  * BC
+  * 20181104a
+  * Experiment: 20181104a-1. Duration: 190.0us (195000 - 5000), for 256 repeats each 1953 us. Fech = 10.6666666667Msps, total of 2026.66666667 pts per line, Nacq = 256. hp2121 with wiretwophantom, probe: hp2121, target = wiretwophantom. Timestamp = 2018-11-04 11:39:39.179730
+  * ./matty/20181104a/images/2DArray_20181104a-1.jpg
 * __/retired/tobo/images/FullSizeRender_1.jpg__:
   * kelu124
   * tobo
@@ -3403,7 +3571,7 @@
   * ./include/community/WillT/board.jpg
 * __/include/community/Arne/IMG_20171012_160525.jpg__:
   * Arne
-  * OnePlus3-user 7.1.1 NMF26F 113 dev-keys
+  * ToTag
   * ToTag
   * ToTag
   * ToTag

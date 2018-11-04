@@ -66,6 +66,12 @@ __TLDR__: a 3-frequencies probe
 
 __More?__ 5, 7.5 and 10 MHz probe. Used on the ultramarks.
 
+### [retro10apogee](/include/probes/auto/retro10apogee.md) (retro10apogee)
+
+__TLDR__: an Apogee 10MHz probe, opened and tweaked
+
+__More?__ an Apogee 10MHz probe
+
 ### [retroATL3](/include/probes/auto/retroATL3.md) (retroATL3)
 
 __TLDR__: An ATL ACCESS 3 probe.

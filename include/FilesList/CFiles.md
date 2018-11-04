@@ -10,7 +10,7 @@
 
 * [scope.c](/elmo/data/arduiprobe/scope.c): . _File not used._
 
-* [scope2.c](/elmo/data/arduiprobe/scope2.c): . File used in: [`/include/experiments/auto/20170715a.md`](/include/experiments/auto/20170715a.md).
+* [scope2.c](/elmo/data/arduiprobe/scope2.c): . _File not used._
 
 * [gpio.c](/goblin/pi0/gpio.c): . _File not used._
 

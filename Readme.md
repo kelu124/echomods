@@ -207,6 +207,9 @@ and used in a wider context:
 
 # Experiments
 
+ * 2018-11-04: [matty and 724A](/include/experiments/auto/20181104c.md): testing a new probe with matty v1.01 _(20181104c)_
+ * 2018-11-04: [matty and Apogee10 recabled](/include/experiments/auto/20181104b.md): testing a new probe with matty v1.01 _(20181104b)_
+ * 2018-11-04: [matty and hp2121](/include/experiments/auto/20181104a.md): playing with hp2121 and matty _(20181104a)_
  * 2018-10-13: [opening an hp2121](/include/experiments/auto/20181013a.md): try and open an hp2121, while waiting for a new matty _(20181013a)_
  * 2018-09-01: [wirephantom and kretzaw145ba](/include/experiments/auto/20180901a.md): wirephantom and kretzaw145ba _(20180901a)_
  * 2018-08-31: [wirephantom and retroATL3](/include/experiments/auto/20180831c.md): wirephantom and retroATL3 _(20180831c)_
@@ -270,6 +273,7 @@ That's the list of probes been playing with:
 * [hp2121](/include/probes/auto/hp2121.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
 * [retro10PV](/include/probes/auto/retro10PV.md)
+* [retro10apogee](/include/probes/auto/retro10apogee.md)
 * [retroATL3](/include/probes/auto/retroATL3.md)
 * [s3](/include/probes/auto/s3.md)
 * [shzmch](/include/probes/auto/shzmch.md)

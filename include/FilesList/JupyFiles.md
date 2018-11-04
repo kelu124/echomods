@@ -1,5 +1,5 @@
 * [20170714-TwoADCs-Probe.ipynb](/elmo/data/20170714-TwoADCs-Probe.ipynb). File used in: [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/experiments/auto/20170715a.md`](/include/experiments/auto/20170715a.md).
+* [20170715-ProbeTest.ipynb](/elmo/data/20170715-ProbeTest.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170714-TwoADCs-ProbeEnv.ipynb](/elmo/data/20170714-TwoADCs-ProbeEnv.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170713-TwoADCs.ipynb](/elmo/data/20170713-TwoADCs.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20170609-NewADC-v3.ipynb](/elmo/data/20170609-NewADC-v3.ipynb). File used in: [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md), [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -26,13 +26,14 @@
 * [Untitled.ipynb](/matty/SPI/Untitled.ipynb). File used in: [`/matty/un0log.md`](/matty/un0log.md).
 * [testSPI1.ipynb](/matty/SPI/testSPI1.ipynb). File used in: [`/matty/un0log.md`](/matty/un0log.md).
 * [20180227a-Loops.ipynb](/matty/20180227a/20180227a-Loops.ipynb). File used in: [`/matty/20180227a/Readme.md`](/matty/20180227a/Readme.md).
-* [20180831c-Client.ipynb](/matty/20180831c/20180831c-Client.ipynb). File used in: [`/include/experiments/auto/Code_20180831c.md`](/include/experiments/auto/Code_20180831c.md).
-* [20180831c-Server.ipynb](/matty/20180831c/20180831c-Server.ipynb). File used in: [`/include/experiments/auto/Code_20180831c.md`](/include/experiments/auto/Code_20180831c.md).
+* [20180831c-Client.ipynb](/matty/20180831c/20180831c-Client.ipynb). _File not used._
+* [20180831c-Server.ipynb](/matty/20180831c/20180831c-Server.ipynb). _File not used._
 * [20180516a-Server.ipynb](/matty/20180516a/20180516a-Server.ipynb). File used in: [`/matty/20180516a/Readme.md`](/matty/20180516a/Readme.md), [`/include/experiments/auto/Code_20180516a.md`](/include/experiments/auto/Code_20180516a.md), [`/include/experiments/auto/20180516a.md`](/include/experiments/auto/20180516a.md).
 * [20180516a-Client.ipynb](/matty/20180516a/20180516a-Client.ipynb). File used in: [`/matty/20180516a/Readme.md`](/matty/20180516a/Readme.md), [`/include/experiments/auto/Code_20180516a.md`](/include/experiments/auto/Code_20180516a.md), [`/include/experiments/auto/20180516a.md`](/include/experiments/auto/20180516a.md).
 * [CalibGain.ipynb](/matty/20180310a/CalibGain.ipynb). File used in: [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
 * [20180310a-CalibGain.ipynb](/matty/20180310a/20180310a-CalibGain.ipynb). File used in: [`/matty/20180310a/Readme.md`](/matty/20180310a/Readme.md), [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
 * [20180310a-Server.ipynb](/matty/20180310a/20180310a-Server.ipynb). File used in: [`/matty/20180310a/Readme.md`](/matty/20180310a/Readme.md), [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
+* [20181104b-Processing.ipynb](/matty/20181104b/20181104b-Processing.ipynb). File used in: [`/include/experiments/auto/20181104b.md`](/include/experiments/auto/20181104b.md), [`/include/experiments/auto/Code_20181104b.md`](/include/experiments/auto/Code_20181104b.md).
 * [20180825a-Server.ipynb](/matty/20180825a/20180825a-Server.ipynb). File used in: [`/include/experiments/auto/Code_20180825a.md`](/include/experiments/auto/Code_20180825a.md).
 * [20180825a-Client.ipynb](/matty/20180825a/20180825a-Client.ipynb). File used in: [`/include/experiments/auto/Code_20180825a.md`](/include/experiments/auto/Code_20180825a.md).
 * [Untitled1.ipynb](/matty/un0_test_a/Untitled1.ipynb). _File not used._
@@ -51,11 +52,14 @@
 * [20180511a-Enveloppe.ipynb](/matty/20180511a/20180511a-Enveloppe.ipynb). File used in: [`/matty/20180511a/Readme.md`](/matty/20180511a/Readme.md).
 * [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md).
 * [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). File used in: [`/matty/Readme.md`](/matty/Readme.md), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md).
+* [20181104a-Server.ipynb](/matty/20181104c/20181104a-Server.ipynb). File used in: [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.md), [`/include/experiments/auto/20181104b.md`](/include/experiments/auto/20181104b.md), [`/include/experiments/auto/Code_20181104c.md`](/include/experiments/auto/Code_20181104c.md), [`/include/experiments/auto/Code_20181104b.md`](/include/experiments/auto/Code_20181104b.md), [`/include/experiments/auto/20181104c.md`](/include/experiments/auto/20181104c.md).
+* [20181104c-Processing.ipynb](/matty/20181104c/20181104c-Processing.ipynb). File used in: [`/include/experiments/auto/Code_20181104c.md`](/include/experiments/auto/Code_20181104c.md), [`/include/experiments/auto/20181104c.md`](/include/experiments/auto/20181104c.md).
 * [RPi.ipynb](/matty/images/20180221a/RPi.ipynb). _File not used._
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). _File not used._
-* [20171112-alt.tbo-w-retro2.ipynb](/retired/alt.tbo/20171112a/20171112-alt.tbo-w-retro2.ipynb). File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
+* [20181104a-Processing.ipynb](/matty/20181104a/20181104a-Processing.ipynb). File used in: [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.md).
+* [20171112-alt.tbo-w-retro2.ipynb](/retired/alt.tbo/20171112a/20171112-alt.tbo-w-retro2.ipynb). File used in: [`/retired/alt.tbo/20171112a/Readme.md`](/retired/alt.tbo/20171112a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
 * [TestBP.ipynb](/retired/alt.tbo/20171112b/TestBP.ipynb). _File not used._
-* [20171112-refilledATL.ipynb](/retired/alt.tbo/20171112b/20171112-refilledATL.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20171112a.md`](/include/experiments/auto/Code_20171112a.md).
+* [20171112-refilledATL.ipynb](/retired/alt.tbo/20171112b/20171112-refilledATL.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
 * [20170930-AltPulser.ipynb](/retired/alt.tbo/test/20170930-AltPulser.ipynb). File used in: [`/retired/alt.tbo/Readme.md`](/retired/alt.tbo/Readme.md), [`/retired/alt.tbo/test/Readme.md`](/retired/alt.tbo/test/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20171001-new.ipynb](/retired/alt.tbo/20171001a/20171001-new.ipynb). File used in: [`/retired/alt.tbo/Readme.md`](/retired/alt.tbo/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/experiments/auto/Code_20171001a.md`](/include/experiments/auto/Code_20171001a.md).
 * [20171028-pulses.ipynb](/retired/alt.tbo/20171028a/20171028-pulses.ipynb). File used in: [`/retired/alt.tbo/20171028a/Readme.md`](/retired/alt.tbo/20171028a/Readme.md), [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -64,7 +68,7 @@
 * [20170502-DICOMizingCroakerData.ipynb](/retired/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 * [In-Out.ipynb](/retired/toadkiller/data/test_enveloppe/In-Out.ipynb). File used in: [`/retired/toadkiller/Readme.md`](/retired/toadkiller/Readme.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md).
 * [CheckBib.ipynb](/include/biblio/bib/CheckBib.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
-* [20180216a - Testing pulser and ADC.ipynb](/include/20180216a/20180216a - Testing pulser and ADC.ipynb). File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md), [`/include/experiments/auto/20180216a.md`](/include/experiments/auto/20180216a.md).
+* [20180216a - Testing pulser and ADC.ipynb](/include/20180216a/20180216a - Testing pulser and ADC.ipynb). File used in: [`/include/20180216a/Readme.md`](/include/20180216a/Readme.md), [`/include/experiments/auto/Code_20180216a.md`](/include/experiments/auto/Code_20180216a.md).
 * [20180415r-lit.tbo.ipynb](/include/20180415r/20180415r-lit.tbo.ipynb). File used in: [`/elmo/Readme.md`](/elmo/Readme.md).
 * [20180317a-Loops.ipynb](/include/bard/exp1/20180317a-Loops.ipynb). _File not used._
 * [20171024-RLC.ipynb](/include/RLC/20171024-RLC.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -75,8 +79,8 @@
 * [20180210_jt_fast_batch.ipynb](/include/community/Felix/20180208/20180210_jt_fast_batch.ipynb). _File not used._
 * [20180103-Felix.ipynb](/include/community/Felix/20180103a/20180103-Felix.ipynb). _File not used._
 * [20170831-TestImages.ipynb](/include/images/20170831-TestImages.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
-* [20180811a-Server.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Server.ipynb). File used in: [`/include/experiments/auto/20180811a.md`](/include/experiments/auto/20180811a.md), [`/include/experiments/auto/Code_20180811a.md`](/include/experiments/auto/Code_20180811a.md).
-* [20180811a-Processing.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Processing.ipynb). File used in: [`/include/experiments/auto/20180811b.md`](/include/experiments/auto/20180811b.md), [`/include/experiments/auto/20180811a.md`](/include/experiments/auto/20180811a.md), [`/include/experiments/auto/Code_20180811a.md`](/include/experiments/auto/Code_20180811a.md).
+* [20180811a-Server.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Server.ipynb). File used in: [`/include/experiments/auto/20180811a.md`](/include/experiments/auto/20180811a.md).
+* [20180811a-Processing.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Processing.ipynb). File used in: [`/include/experiments/auto/20180811b.md`](/include/experiments/auto/20180811b.md), [`/include/experiments/auto/20180811a.md`](/include/experiments/auto/20180811a.md).
 * [20180812a-ProbeRunning.ipynb](/include/images/kretzaw145ba/20180812a/20180812a-ProbeRunning.ipynb). File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).
 * [20180812a-Acquisition-Phantom.ipynb](/include/images/kretzaw145ba/20180812a/20180812a-Acquisition-Phantom.ipynb). File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).
 * [20180812a-Server.ipynb](/include/images/kretzaw145ba/20180812a/20180812a-Server.ipynb). File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).

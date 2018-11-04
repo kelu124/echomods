@@ -46,3 +46,7 @@
 * 20180831c: wirephantom and retroATL3: wirephantom and retroATL3
 * 20180901a: wirephantom and kretzaw145ba: wirephantom and kretzaw145ba
 * 20181013a: opening an hp2121: try and open an hp2121, while waiting for a new matty
+* 20181104a: matty and hp2121: playing with hp2121 and matty
+* 20181104b: matty and Apogee10 recabled: testing a new probe with matty v1.01
+* 20181104c: matty and 724A: testing a new probe with matty v1.01
+

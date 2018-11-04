@@ -11,6 +11,7 @@ That's the list of probes been playing with:
 * [hp2121](/include/probes/auto/hp2121.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
 * [retro10PV](/include/probes/auto/retro10PV.md)
+* [retro10apogee](/include/probes/auto/retro10apogee.md)
 * [retroATL3](/include/probes/auto/retroATL3.md)
 * [s3](/include/probes/auto/s3.md)
 * [shzmch](/include/probes/auto/shzmch.md)

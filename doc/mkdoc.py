@@ -550,7 +550,7 @@ def CreateImgTags(ImgSrc):
 		else:
 			metadata['Exif.Image.Software'] = "ToTag"
 
-	DefaultTag = ["A310","8.3","26.1.B","9.3.2","Adobe Photoshop","G900IDVU1CQB1"]
+	DefaultTag = ["A310","8.3","26.1.B","9.3.2","Adobe Photoshop","G900IDVU1CQB1","NMF26F"]
 
 	if any(ext in metadata['Exif.Image.Software'].value for ext in DefaultTag):
 		edited = 1
@@ -562,7 +562,7 @@ def CreateImgTags(ImgSrc):
 			metadata['Exif.Image.Software'] = "ToTag"
 
 	# Experiment
-	DefaultTag = ["Apple","Sony","LG Electronics","amsung","asus","OnePlus","Canon","HUAWEI","Huawei","Panasonic"]
+	DefaultTag = ["ZenCircleTag","Apple","Sony","LG Electronics","amsung","asus","OnePlus","Canon","HUAWEI","Huawei","Panasonic"]
 	try:
 		metadata['Exif.Image.Make'].value
 	except KeyError:
@@ -601,7 +601,7 @@ def CreateImgTags(ImgSrc):
 		else:
 			metadata['Exif.Photo.MakerNote'] = "ToTag"
 
-	DefaultTag = ["Apple iOS","0100"]
+	DefaultTag = ["Apple iOS","0100","ZenCircleTag"]
 	if any(ext in metadata['Exif.Photo.MakerNote'].value for ext in DefaultTag):
 		edited = 1
 		metadata['Exif.Photo.MakerNote'] = "ToTag"
