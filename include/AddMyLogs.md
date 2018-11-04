@@ -3053,6 +3053,15 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * @todo try matty on a ausonics75 once opened
   * @todo try matty on a 724A with connectors
 
+#### 2018-10-28 some ultrasound tests
+
+* http://www.szynalski.com/tone-generator/
+* Tests with beacons
+  * Beacons https://github.com/kelu124/ultrasHound/tree/master/beacons
+  * and results : https://github.com/kelu124/ultrasHound/tree/master/pHAT/20181028b
+  * usHound v2.0 in the pipe !
+
+
 =======
 
 
