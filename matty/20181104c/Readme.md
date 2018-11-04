@@ -2,6 +2,10 @@
 
 ## Setup
 
+No clear frequency
+Used a 5V source, lowest freq possible
+
+
 ![](/matty/20181104c/photos/P_20181104_134129.jpg)
 
 ## Results

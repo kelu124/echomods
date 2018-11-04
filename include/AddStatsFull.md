@@ -6,6 +6,16 @@
 * __[ice40 board](https://hackaday.io/project/28375-un0rick-an-ice40-ultrasound-board)__: 4300 views, 40 followers, 48 likes
 * __[JOH publication](https://openhardware.metajnl.com/articles/10.5334/joh.2/metrics/#views)__: 6155 views and 644 downloads.
 
+--- 2018-11-04 17:58:40.722413
+
+### Some stats
+
+* __[HSDK](https://hackaday.io/project/10899)__: 4900 views, 88 followers, 39 likes
+* __[Murgen](https://hackaday.io/project/9281)__: 46200 views, 966 followers, 214 likes
+* __[ADC cape](https://hackaday.io/project/20455)__: 7700 views, 45 followers, 41 likes
+* __[ice40 board](https://hackaday.io/project/28375-un0rick-an-ice40-ultrasound-board)__: 4300 views, 40 followers, 48 likes
+* __[JOH publication](https://openhardware.metajnl.com/articles/10.5334/joh.2/metrics/#views)__: 6155 views and 644 downloads.
+
 --- 2018-11-04 16:27:33.802326
 
 ### Some stats

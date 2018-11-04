@@ -764,10 +764,10 @@
   * ./matty/20181104b/20181104b-1.json-detail-lines161-163.jpg
 * __/matty/20181104b/photos/P_20181104_130337.jpg__:
   * kelu124
-  * matty
-  * ToTag
-  * ToTag
-  * ToTag
+  * matty,retro10apogee
+  * setup
+  * 20181104b
+  * Picture of the head with motor control
   * ./matty/20181104b/photos/P_20181104_130337.jpg
 * __/matty/20181104b/images/Spectrum_20181104b-1.jpg__:
   * kelu124
@@ -1331,10 +1331,10 @@
   * ./matty/20180224b/images/IMG_20180224_195210.jpg
 * __/matty/20181104c/photos/P_20181104_134129.jpg__:
   * kelu124
-  * matty
-  * ToTag
-  * ToTag
-  * ToTag
+  * matty,724A
+  * setup
+  * 20181104c
+  * Setup of the experiment
   * ./matty/20181104c/photos/P_20181104_134129.jpg
 * __/matty/20181104c/images/2DArray_20181104c-1.jpg__:
   * kelu124
@@ -1542,8 +1542,8 @@
 * __/matty/20181104a/photos/P_20181104_130033.jpg__:
   * kelu124
   * matty,hp2121
+  * setup
   * 20181104a
-  * ToTag
   * Setup of the experiment
   * ./matty/20181104a/photos/P_20181104_130033.jpg
 * __/matty/20181104a/photos/P_20181104_130051.jpg__:
@@ -1555,10 +1555,10 @@
   * ./matty/20181104a/photos/P_20181104_130051.jpg
 * __/matty/20181104a/photos/P_20181104_130044.jpg__:
   * kelu124
-  * matty,hp2121
+  * matty,hp2121,motorcontrol
   * setup
   * 20181104a
-  * ToTag
+  * View of motor control
   * ./matty/20181104a/photos/P_20181104_130044.jpg
 * __/matty/20181104a/images/2DArray_20181104a-2.jpg__:
   * kelu124
@@ -1602,6 +1602,13 @@
   * 20181104a
   * Experiment: 20181104a-1. Duration: 190.0us (195000 - 5000), for 256 repeats each 1953 us. Fech = 10.6666666667Msps, total of 2026.66666667 pts per line, Nacq = 256. hp2121 with wiretwophantom, probe: hp2121, target = wiretwophantom. Timestamp = 2018-11-04 11:39:39.179730
   * ./matty/20181104a/images/2DArray_20181104a-1.jpg
+* __/matty/20181104a/images/SC_20181104a-3-fft.jpg__:
+  * kelu124
+  * matty,hp2121,hp2121
+  * SC
+  * 20181104a
+  * Scan converted image of 20181104a-3 using a piezo: hp2121
+  * ./matty/20181104a/images/SC_20181104a-3-fft.jpg
 * __/retired/tobo/images/FullSizeRender_1.jpg__:
   * kelu124
   * tobo

@@ -3,6 +3,9 @@
 ## Remarks
 
 No clear frequency
+Used a 5V
+
+
 
 ## Setup
 

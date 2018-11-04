@@ -4,7 +4,7 @@
 
 Centered around 4MHz -> 50% means 6MHz tops, that's 12Msps min.
 * @todo clean the code to have Cleaned signal around fPiezo
-* using a 3.3V source : with the ino file
+* using a __3.3V source__ : with the ino file
 * 1 period is 60 lines at 488us -> period of 30us then.
 * Period 300us, 150us between shots means 100 lines
 * 200 lines for a full sweep, back and forth

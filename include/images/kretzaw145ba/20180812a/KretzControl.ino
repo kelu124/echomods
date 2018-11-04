@@ -2,7 +2,7 @@
   Author: Kelu124
   Copyright 2018
   Repo:https://github.com/kelu124/echomods/
-  Description: Servo control for Matty, used in `20180430a`
+  Description: Servo control for Matty, used in `20180430a` `20181104a`
   Licence: GNU GPL 2
 
 */
