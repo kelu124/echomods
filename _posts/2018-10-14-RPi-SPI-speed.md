@@ -17,5 +17,3 @@ title: 2018-10-14 RPi SPI speed
 -   @todo try matty on a ausonics75 once opened
 -   @todo try matty on a 724A with connectors
 
-=======
-
