@@ -4,6 +4,7 @@
 
 No clear frequency
 Used a 5V
+try at 400us / 512 input
 
 
 
