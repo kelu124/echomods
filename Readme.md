@@ -351,6 +351,16 @@ Here's a couple of things we're working on, for which you could help as well.
  * try matty on a apogee5MHz once opened
  * try matty on a ausonics75 once opened
  * try matty on a 724A with connectors
+* [m5stack client for un0rick](/matty/m5stack/Readme.md)
+* Explain aim on tinyfpga discourse
+ * check why no reset on v1.1
+* order one phat
+* Read https://blog.tindie.com/2018/08/secrets-making-successful-product-tindie/
+* use https://github.com/g2384/VHDLFormatter on MATTY VHDL
+* check https://github.com/benkrasnow/EL_driver_multi/blob/master/EL_driver_multi_schematic.pdf driver up to 200V
+* on https://pinout.xyz/ for un0rick and minimatty
+* http://m.nautil.us/blog/12-mind_bending-perceptual-illusions for illustrations
+* loot badges: https://github.com/bevry/badges
 
 
 

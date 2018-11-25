@@ -41,3 +41,4 @@
 * 2018-07-15: [Diy Ultrasound Machine](https://poemsrom.co/diy-ultrasound-machine/)
 * 2018-08-21: [An ultrasound driver](https://www.ultrasoundresearchgroup.com/an-ultrasound-driver-with-open-source-fpgas/)
 * 2018-09-09 : [In steemhunt](https://steemhunt.com/@truthsfinder/murgen-an-open-source-ultrasound-imaging-dev-kit-side-project)
+* 2018-11-25: [On debian.org](https://wiki.debian.org/PaulWise/InterestingSoftware)
