@@ -12,7 +12,7 @@ __copyright__   = "Copyright 2016, Kelu124"
 __license__ = "GPLv3"
 
 '''
-Used inter alia in `20181104c`
+Used inter alia in `20181126a` and/or `20181126b`.  Beware, there's some voodoo to sort out ( @todo ) on the CS_FLASH, Pin 7.. to sort out.  I left the two versions of this lib in the pyUn0s folder =)
 '''
 
 import spidev

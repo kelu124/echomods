@@ -12,7 +12,7 @@ __copyright__   = "Copyright 2016, Kelu124"
 __license__ = "GPLv3"
 
 '''
-Used inter alia in `20180901a`
+Used inter alia in `20181126b` 
 '''
 
 import spidev
@@ -104,7 +104,6 @@ class us_spi:
 	    self.JSON["timings"]["LAcq"]   = self.LAcq
 	    self.JSON["timings"]["Fech"]   = self.Fech
 	    self.JSON["timings"]["NLines"] = self.NLines	 
-	    print "        "
 	    print "NAcq = "+str(self.Nacq)
 	    if self.Nacq > 499999:
 	        raise NameError('Acquisition length over 500.000 points (8Mb = Flash limit)')
@@ -148,7 +147,7 @@ class us_spi:
 	    
 	    CS_FLASH = 7
 	    GPIO.setup(CS_FLASH,GPIO.OUT)  
-	    GPIO.output(CS_FLASH,GPIO.HIGH)
+	    GPIO.output(CS_FLASH,GPIO.LOW)
 
 	    GPIO.setup(PRESET,GPIO.OUT)
 	    GPIO.setup(IO4,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
@@ -558,7 +557,7 @@ class us_json:
             try:
                 metadata.read()
             except IOError:
-                print FileName+ " is not an image"
+                print "Not an image"
             else: 
                 metadata['Exif.Image.Software'] = Module
                 metadata['Exif.Image.Make'] = ID
@@ -635,8 +634,28 @@ class us_json:
         plt.savefig(FileName)
 	plt.show() 
 
+    def mkFiltered(self,img):
+
+        Filtered = []
+        FFTFil = []
+        if len(img):
+            N, L = np.shape(img)
+            FFT_x = [ X*self.f / (L) for X in range(L)] 
+            for k in range(N):
+                FFT_c = np.fft.fft(img[k])
+                FFTFil.append(FFT_c)
+                for p in range(len(FFT_c)/2+1):
+                    if (FFT_x[p] > (1000 * self.fPiezo * 1.27 ) or FFT_x[p] < (1000 * self.fPiezo * 0.7 ) ):
+                        FFT_c[p] =  0
+                        FFT_c[-p] =  0
+                Filtered.append(np.real(np.fft.ifft(FFT_c)))
+         
+
+        return Filtered,FFTFil
+
     def mkSpectrum(self,img):
         Spectrum = []
+        Filtered = []
         if len(img):
             N, L = np.shape(img)
             FFT_x = [ X*self.f / (L) for X in range(L)] 
@@ -644,10 +663,14 @@ class us_json:
                 FFT_c = np.fft.fft(img[k])
                 Spectrum.append(FFT_c[0:L/2])
 
+
+                
             plt.figure(figsize = (15,10))
             plt.imshow(np.sqrt(np.abs(Spectrum)), extent=[0,1000.0*self.f/2,N,0],cmap='hsv', aspect=30.0, interpolation='nearest') 
+            
             plt.axvline(x=(1000 * self.fPiezo * 1.27 ),linewidth=4, color='b')
             plt.axvline(x=(1000 * self.fPiezo * 0.7 ),linewidth=4, color='b')
+            
             plt.xlabel("Frequency (kHz)")
             plt.ylabel("Lines #")
             
@@ -668,7 +691,7 @@ class us_json:
             "2D Array not created yet"
 
         return np.abs(Spectrum)
-
+    
 ##############
 #
 # Main
