@@ -1014,6 +1014,62 @@
   * 20180901a
   * Experiment: 20180901a-2. Duration: 90.0us (120000 - 30000), for 260 repeats each 1093 us. Fech = 21.3333333333Msps, total of 1920.0 pts per line, Nacq = 260. Trying a probe without linear transformator - unplugged, probe: kretzaw145ba, target = wirephantom. Timestamp = 2018-09-01 07:26:17.607650
   * ./matty/20180901a/images/2DArray_20180901a-2.jpg
+* __/matty/20181126a/images/v1.1b.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20181126b
+  * Testing un0rick v1.0 to compare with v1.1
+  * ./matty/20181126a/images/v1.1b.jpg
+* __/matty/20181126a/images/20181126b-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20181126b
+  * Testing un0rick v1.0 to compare with v1.1 at 50V
+  * ./matty/20181126a/images/20181126b-2.jpg
+* __/matty/20181126a/images/v1.0.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20181126b
+  * Testing un0rick v1.0 to compare with v1.1
+  * ./matty/20181126a/images/v1.0.jpg
+* __/matty/20181126a/images/20181126b-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20181126b
+  * Testing un0rick v1.0 to compare with v1.1 at 25V
+  * ./matty/20181126a/images/20181126b-1.jpg
+* __/matty/20181126a/images/20181126a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20181126a
+  * Testing at 75V
+  * ./matty/20181126a/images/20181126a-1.jpg
+* __/matty/20181126a/images/20181126b-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20181126b
+  * Testing un0rick v1.0 to compare with v1.1 at 75V
+  * ./matty/20181126a/images/20181126b-3.jpg
+* __/matty/20181126a/images/20181126a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20181126a
+  * Testing at 50V
+  * ./matty/20181126a/images/20181126a-2.jpg
+* __/matty/20181126a/images/20181126a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20181126a
+  * Testing at 25V
+  * ./matty/20181126a/images/20181126a-3.jpg
 * __/matty/20181031a/images/20181031a-2-fft.jpg__:
   * kelu124
   * matty
