@@ -14,5 +14,3 @@ title: 2018-10-28 some ultrasound tests
     https://github.com/kelu124/ultrasHound/tree/master/pHAT/20181028b
 -   usHound v2.0 in the pipe !
 
-=======
-
