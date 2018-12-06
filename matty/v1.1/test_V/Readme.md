@@ -7,25 +7,24 @@ Idea is to test what is the level of HV during pulses
 ![](/matty/v1.1/test_V/IMAG001.png)
 
 
-Changing Pon - Weaker pulse
+## Changing Pon duration -> Weaker pulse
 
 ![](/matty/v1.1/test_V/IMAG002.png)
 
-
+### On this setup : Pulse on seems OK
 
 ![](/matty/v1.1/test_V/IMAG003.png)
 
-Strange step
+### But there's a strange step on the back to earth leg of the diod
 
 ![](/matty/v1.1/test_V/IMAG004.png)
 
-
-Relaxing..
+### With a long relaxing time..
 
 ![](/matty/v1.1/test_V/IMAG005.png)
 
 
-# Empty load
+# Works good with empty load
 
 75V
 
