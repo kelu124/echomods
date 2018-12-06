@@ -13,15 +13,15 @@ Idea is to test what is the level of HV during pulses
 
 ![](/matty/v1.1/test_V/IMAG002.png)
 
-### On this setup : Pulse on seems OK on spot A
+### On this setup : Pulse on seems OK on spot B
 
 ![](/matty/v1.1/test_V/IMAG003.png)
 
-### But there's a strange step on the back to earth leg of the diod on spot B
+### But there's a strange step on the back to earth leg of the diod on spot A
 
 ![](/matty/v1.1/test_V/IMAG004.png)
 
-### With a long relaxing time still on B
+### With a long relaxing time still on A
 
 ![](/matty/v1.1/test_V/IMAG005.png)
 
