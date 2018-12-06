@@ -21,7 +21,7 @@ Idea is to test what is the level of HV during pulses
 
 ![](/matty/v1.1/test_V/IMAG004.png)
 
-### With a long relaxing time..
+### With a long relaxing time still on B
 
 ![](/matty/v1.1/test_V/IMAG005.png)
 
