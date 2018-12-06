@@ -23,10 +23,10 @@ import pyexiv2
 import graphviz as gv
 import functools
 # Wand for SVG to PNG Conversion
-from wand.api import library
-import wand.color
-import wand.image
-import Image
+#from wand.api import library
+#import wand.color
+#import wand.image
+from PIL import Image
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -95,14 +95,7 @@ def Svg2Png(svgfile):
 
 	svg_file = open(input_filename,"r")
 
-	with wand.image.Image() as image:
-	    with wand.color.Color('transparent') as background_color:
-		library.MagickSetBackgroundColor(image.wand, background_color.resource) 
-	    image.read(blob=svg_file.read())
-	    png_image = image.make_blob("png32")
 
-	with open(output_filename, "wb") as out:
-	    out.write(png_image)
 
 def apply_styles(graph, styles):
     graph.graph_attr.update(

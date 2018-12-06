@@ -23,10 +23,10 @@ import re
 import graphviz as gv
 import functools
 # Wand for SVG to PNG Conversion
-from wand.api import library
-import wand.color
-import wand.image
-import Image
+#from wand.api import library
+#import wand.color
+#import wand.image
+from PIL import Image
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
