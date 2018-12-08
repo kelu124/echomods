@@ -5648,6 +5648,20 @@
   * ToTag
   * ToTag
   * ./matty/v1/images/rpi_details.png
+* __/matty/v1.1/test_V/DP.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1.1/test_V/DP.png
+* __/matty/v1.1/test_V/HVPulser.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1.1/test_V/HVPulser.png
 * __/matty/v1.1/test_V/IMAG008.png__:
   * kelu124
   * matty
@@ -5676,6 +5690,20 @@
   * ToTag
   * ToTag
   * ./matty/v1.1/test_V/IMAG002.png
+* __/matty/v1.1/test_V/PonPoff.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1.1/test_V/PonPoff.png
+* __/matty/v1.1/test_V/DN.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1.1/test_V/DN.png
 * __/matty/v1.1/test_V/IMAG007.png__:
   * kelu124
   * matty
@@ -5690,6 +5718,20 @@
   * ToTag
   * ToTag
   * ./matty/v1.1/test_V/IMAG005.png
+* __/matty/v1.1/test_V/DN_5V.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1.1/test_V/DN_5V.png
+* __/matty/v1.1/test_V/HV2550ou75.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1.1/test_V/HV2550ou75.png
 * __/matty/v1.1/test_V/IMAG004.png__:
   * kelu124
   * matty
@@ -5697,6 +5739,13 @@
   * ToTag
   * ToTag
   * ./matty/v1.1/test_V/IMAG004.png
+* __/matty/v1.1/test_V/DP_5V.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/v1.1/test_V/DP_5V.png
 * __/matty/v1.1/test_V/IMAG006.png__:
   * kelu124
   * matty
