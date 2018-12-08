@@ -1,44 +1,15 @@
-https://github.com/m5stack/M5Cloud/issues/3
-
-@todo 
-
-Screen is 320x320 or 320x240.
+# Testing [the board](https://doc.un0rick.cc/) with a M5Stack
 
 
-Say 120us for acquisition
+## What is the M5Stack ?
 
-3us per pixel
+That's an ESP32, with a screen of 320x240.
 
-512KB RAM ?
+For a 120us  acquisition, that leaves 3us per pixel.. Still interesting to see. Moreover, there seems to be a 512KB RAM, would be enough to store long acquisitions. One line is 256kB at 64Msps.
 
-ESP32 : Mémoire RAM: 520 kB  
-Large pour 64*200*2 pts (1 line) - 256kB at 64Msps
+Even a [FFT processing](https://github.com/ElectroMagus/M5-FFT) would be possible.
 
-32 : 128kB : FFT aussi possible
-
-
-
-IDEA:
-
-1. Load
-  * Reset
-  * Blinky
-  * Next screen
-
-2. Acquisition
-  * Run Acq
-  * FFT/Signal switch
-  * Details
-
-3. Details : Acq
-  * 0 - 50 us 
-  * 50 - 100 us
-  * 0 - 120 us
-
-
-https://github.com/ElectroMagus/M5-FFT
-
-Connecteurs:
+Connectors necessary were :
 
 * 5V
 * GND
@@ -46,5 +17,18 @@ Connecteurs:
 * MISO
 * MOSI
 
+## Some code
 
+Only SPI libs and M5Stack were necessary.. and a proof of concept was done with a single line acquisition process, for 200us, with a low gain.
 
+[File source is available](/matty/m5stack/SPI.ino)
+
+## Results
+
+### With the calibration rig
+
+![](/matty/m5stack/calibration.gif)
+
+### With a piezo in a mug
+
+![](/matty/m5stack/mug.gif)
