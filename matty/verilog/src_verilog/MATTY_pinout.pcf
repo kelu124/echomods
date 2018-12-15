@@ -1,0 +1,122 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2018
+
+# Family & Device:    iCE40HX4K
+
+# Package:            TQFP144
+
+# ##############################################################################
+
+
+set_io clk 21
+set_io reset_alim 15 
+set_io reset_ft 48
+set_io reset_rpi 47
+set_io LED_MODE 7
+set_io LED_ACQ 2
+set_io LED3 9
+set_io trig_ext 16
+set_io trig_rpi 22
+set_io trig_ft 61
+set_io button_mode 3
+# set_io button_trig 3
+set_io DAC_cs 38
+set_io DAC_sclk 37
+set_io DAC_mosi 39
+
+set_io spi_select 23
+set_io spi_cs_ft 73   
+set_io spi_sclk_ft 64 
+set_io spi_mosi_ft 63
+set_io spi_miso_ft 62
+set_io spi_cs_rpi 74
+set_io spi_sclk_rpi 28  
+set_io spi_mosi_rpi 31
+set_io spi_miso_rpi 29
+set_io cs_rpi2flash 75
+set_io spi_cs_flash 71
+set_io spi_sclk_flash 70
+set_io spi_mosi_flash 67
+set_io spi_miso_flash 68
+
+set_io pon 11
+set_io poff 12
+set_io top_tour1 24
+set_io top_tour2 25
+# set_io top_tour3 26
+
+# set_io io_rpi1 10
+# set_io io_rpi2 43
+# set_io io_rpi3 42
+# set_io io_rpi4 41
+# set_io io_ft1 55
+# set_io io_ft2 56
+# set_io io_ft3 44
+# set_io io_ft4 60
+# set_io in1 34
+# set_io in2 33
+# set_io in3 32
+# set_io out1 18
+# set_io out2 19
+# set_io out3 17
+
+# set_io jumper1 49
+# set_io jumper2 52
+# set_io jumper3 45
+
+set_io RAM_nCE 119
+set_io RAM_nOE 96
+set_io RAM_nWE 101
+set_io RAM_nLB 94
+set_io RAM_nUB 95
+set_io ADC0 134
+set_io ADC1 135
+set_io ADC2 136
+set_io ADC3 137
+set_io ADC4 138
+set_io ADC5 139
+set_io ADC6 141
+set_io ADC7 142
+set_io ADC8 143
+set_io ADC9 144
+set_io ADC_clk 130
+set_io RAM_DATA[0] 118
+set_io RAM_DATA[1] 117
+set_io RAM_DATA[2] 116
+set_io RAM_DATA[3] 115
+set_io RAM_DATA[4] 114 
+set_io RAM_DATA[5] 113
+set_io RAM_DATA[6] 112
+set_io RAM_DATA[7] 110
+set_io RAM_DATA[8] 84
+set_io RAM_DATA[9] 85 
+set_io RAM_DATA[10] 76
+set_io RAM_DATA[11] 87
+set_io RAM_DATA[12] 88
+set_io RAM_DATA[13] 90
+set_io RAM_DATA[14] 91
+set_io RAM_DATA[15] 93
+set_io RAM_ADD[0] 125
+set_io RAM_ADD[1] 124
+set_io RAM_ADD[2] 122
+set_io RAM_ADD[3] 121
+set_io RAM_ADD[4] 120
+set_io RAM_ADD[5] 102
+set_io RAM_ADD[6] 104
+set_io RAM_ADD[7] 105
+set_io RAM_ADD[8] 106
+set_io RAM_ADD[9] 107
+set_io RAM_ADD[10] 83
+set_io RAM_ADD[11] 82
+set_io RAM_ADD[12] 81
+set_io RAM_ADD[13] 80
+set_io RAM_ADD[14] 79
+set_io RAM_ADD[15] 97
+set_io RAM_ADD[16] 98 
+set_io RAM_ADD[17] 99
+set_io RAM_ADD[18] 78
+
+
