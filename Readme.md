@@ -272,6 +272,8 @@ That's the list of probes been playing with:
 * [atlidrict](/include/probes/auto/atlidrict.md)
 * [ausonics75](/include/probes/auto/ausonics75.md)
 * [bard](/include/probes/auto/bard.md)
+* [diasonics_50](/include/probes/auto/diasonics_50.md)
+* [diasonics_75](/include/probes/auto/diasonics_75.md)
 * [hp2121](/include/probes/auto/hp2121.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
 * [retro10PV](/include/probes/auto/retro10PV.md)
@@ -363,6 +365,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * on https://pinout.xyz/ for un0rick and minimatty
 * http://m.nautil.us/blog/12-mind_bending-perceptual-illusions for illustrations
 * loot badges: https://github.com/bevry/badges
+ * to correct MATTY V1.1 revA
+* command line for pyUn0 following http://www.catb.org/esr/writings/taoup/html/ch10s05.html
+* add to pyUn0 compressed acquisitions ( jsons of 1 Line, json of 10 lines, 64 Msps, 32Msps)
 
 
 

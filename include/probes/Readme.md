@@ -48,6 +48,18 @@ __TLDR__: a site rite probe
 
 __More?__ Used in the site rite bard systems.
 
+### [diasonics_50](/include/probes/auto/diasonics_50.md) (diasonics_50)
+
+__TLDR__:  a diasonics_50 probe
+
+__More?__  a diasonics_50 probe
+
+### [diasonics_75](/include/probes/auto/diasonics_75.md) (diasonics_75)
+
+__TLDR__:  a diasonics_75 probe
+
+__More?__  a diasonics_75 probe
+
 ### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 
 __TLDR__: hp2121 small desc

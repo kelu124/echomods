@@ -3,6 +3,16 @@
 * smalldesc:A small wireless probe.
 * longdesc:A probe from shenzen. Happy to have played with it, opened it, ...
 
+# diasonics_50
+* code:diasonics_50
+* smalldesc: a diasonics_50 probe
+* longdesc: a diasonics_50 probe
+
+# diasonics_75
+* code:diasonics_75
+* smalldesc: a diasonics_75 probe
+* longdesc: a diasonics_75 probe
+
 # uprobe1
 * code:uProbe1
 * smalldesc:A small wireless probe from shenzen

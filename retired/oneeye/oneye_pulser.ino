@@ -19,14 +19,17 @@ void loop()
 { 
   for(pos = 60; pos < 120; pos += 1) // goes from 60 degrees to 120 degrees 
   {                                  // in steps of 1 degree 
-    PORTB = B00001000;               // Pin 11
-    delayMicroseconds(pos);          // microsecondes
-    PORTB = B00010000;               // Pin 12 = pulse positif
+    PORTB = B00110000;               // Pin 12 = pulse positif Pon track
     __asm__("nop\n\t");
-    PORTB = B00100000;               // Pin 13  = pulse negatif
+    __asm__("nop\n\t");
+    PORTB = B00000000;               // Pin 13  = pulse negatif Poff track
+    __asm__("nop\n\t");
+    __asm__("nop\n\t");
+    PORTB = B00101000;               // Pin 11 Pin 11 on high for enable off
+
     //delayMicroseconds(1);
     __asm__("nop\n\t""nop\n\t");
     __asm__("nop\n\t""nop\n\t");
-    PORTB = B00000000;
+    PORTB = B00100000;			// Pin 11 on high for enable off
   }
 } 

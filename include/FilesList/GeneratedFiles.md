@@ -282,6 +282,7 @@
 * ./include/experiments/auto/20180825a.md
 * ./include/experiments/auto/Img_20160822a.md
 * ./include/probes/Readme.md
+* ./include/probes/auto/diasonics_75.md
 * ./include/probes/auto/kretzaw145ba.md
 * ./include/probes/auto/retro10apogee.md
 * ./include/probes/auto/hp2121.md
@@ -296,6 +297,7 @@
 * ./include/probes/auto/shzmch.md
 * ./include/probes/auto/apogee.md
 * ./include/probes/auto/apogee10MHz.md
+* ./include/probes/auto/diasonics_50.md
 * ./include/probes/auto/adrus.md
 * ./include/probes/auto/bard.md
 * ./include/sets/wifi-dev-kit.cost.md
@@ -334,6 +336,7 @@
 * ./gitbook/Chapter5/images.md
 * ./gitbook/Chapter5/Readme.md
 * ./gitbook/Chapter5/loops.md
+* ./gitbook/probes/diasonics_75.md
 * ./gitbook/probes/kretzaw145ba.md
 * ./gitbook/probes/retro10apogee.md
 * ./gitbook/probes/hp2121.md
@@ -348,6 +351,7 @@
 * ./gitbook/probes/shzmch.md
 * ./gitbook/probes/apogee.md
 * ./gitbook/probes/apogee10MHz.md
+* ./gitbook/probes/diasonics_50.md
 * ./gitbook/probes/Readme.md
 * ./gitbook/probes/adrus.md
 * ./gitbook/probes/bard.md

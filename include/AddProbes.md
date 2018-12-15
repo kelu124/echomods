@@ -8,6 +8,8 @@ That's the list of probes been playing with:
 * [atlidrict](/include/probes/auto/atlidrict.md)
 * [ausonics75](/include/probes/auto/ausonics75.md)
 * [bard](/include/probes/auto/bard.md)
+* [diasonics_50](/include/probes/auto/diasonics_50.md)
+* [diasonics_75](/include/probes/auto/diasonics_75.md)
 * [hp2121](/include/probes/auto/hp2121.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
 * [retro10PV](/include/probes/auto/retro10PV.md)

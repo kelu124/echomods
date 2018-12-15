@@ -3206,6 +3206,20 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * check HV supply of http://ezphysics.nchu.edu.tw/prophys/electron/reportdata/EDNpaper/HVDCDCWilliams.pdf
 * @todo loot badges: https://github.com/bevry/badges
 
+#### 2018-12-10 slowing down
+
+* Close to year since matty was designed !
+* https://github.com/goran-mahovlic/ulx3s-PMOD for view of what PMODs should be like 
+  * @todo to correct MATTY V1.1 revA
+* Reviewing a bit of MATTY verilog
+* @todo command line for pyUn0 following http://www.catb.org/esr/writings/taoup/html/ch10s05.html
+* @todo add to pyUn0 compressed acquisitions ( jsons of 1 Line, json of 10 lines, 64 Msps, 32Msps)
+
+#### 2018-12-17 Some gadgets
+
+* https://superuser.com/questions/1150562/how-to-connect-to-a-raspberry-pi-zero-to-an-ubuntu-laptop-by-usb/1219319 for usb0 issues
+* http://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/
+
 =======
 
 uControllers and other stuff
