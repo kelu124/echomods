@@ -7,8 +7,8 @@ title: 2017-11-04 Checking shopping
 ---
 
 
--   Interesting exchanges on slack about glycogen measurements
-    in muscles.
+-   Interesting exchanges on slack about glycogen measurements in
+    muscles.
 
 -   Ebay:
 

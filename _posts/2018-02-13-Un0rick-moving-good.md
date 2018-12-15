@@ -31,6 +31,6 @@ title: 2018-02-13 Un0rick moving good
     -   poc-style
     -   some goodies
 -   BTW, un0rick light could be good! (UP5K, HV7361+MD0100!, no RAM,
-    just pulser, few buttons, ... :) ) -- to be discussed /
-    price checked.
+    just pulser, few buttons, ... :) ) -- to be discussed / price
+    checked.
 

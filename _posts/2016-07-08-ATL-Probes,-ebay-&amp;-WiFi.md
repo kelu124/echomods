@@ -16,7 +16,8 @@ the 10PV folder)
 
 -   EMW3165 and SPI:
 -   http://www.emw3165.com/viewtopic.php?t=4330&start=10 or (3\$
-    http://www.ebay.com/itm/131627127638?\_trksid=p2057872.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT )
+    http://www.ebay.com/itm/131627127638?\_trksid=p2057872.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT
+    )
 
 -   TODO: **some shopping on ebay**
 

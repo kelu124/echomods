@@ -9,7 +9,8 @@ title: 2018-09-16 Most secure password
 
 -   https://mostsecure.pw/: H4!b5at+kWls-8yh4GvQ hahaha
 -   Congrats to william:
-    https://www.rtl-sdr.com/rtl\_ultrasound-using-a-piezoelectric-transducer-with-an-rtl-sdr-to-create-an-ultrasound-imager/ =)
+    https://www.rtl-sdr.com/rtl\_ultrasound-using-a-piezoelectric-transducer-with-an-rtl-sdr-to-create-an-ultrasound-imager/
+    =)
 -   https://github.com/cliffordwolf/icotools/blob/master/examples/icezero/icezprog.c
     icezprog
 -   @todo Check for un0rick github badges (counter, pypi overag, doi

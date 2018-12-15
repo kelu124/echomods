@@ -12,6 +12,7 @@ title: 2017-01-02 Merry new year
     -   Getting a propal from PR
     -   Fouad offering to test the 7.5MHz linear
     -   Me to check other suppliers
+
 -   Some modules finaly added to the [echopen's community medkit
     repo](https://github.com/echopen/PRJ-medtec_kit/) and added a
     config, the [wireless 1.1

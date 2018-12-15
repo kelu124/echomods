@@ -26,5 +26,3 @@ title: 2018-11-25 back from family holiday
     http://ezphysics.nchu.edu.tw/prophys/electron/reportdata/EDNpaper/HVDCDCWilliams.pdf
 -   @todo loot badges: https://github.com/bevry/badges
 
-=======
-

@@ -23,8 +23,8 @@ title: 2018-04-28 Back in the game
 -   nmap -sP 192.168.0.\* This does a simple ping scan in the entire
     subnet to see which all host's are online.
 -   Other:
--   Ping your broadcast IP address ping 192.168.1.255 (may require -b
-    on Linux)
--   Now type arp -a. You will get the list of all IP addresses on
-    your segment.
+-   Ping your broadcast IP address ping 192.168.1.255 (may require -b on
+    Linux)
+-   Now type arp -a. You will get the list of all IP addresses on your
+    segment.
 

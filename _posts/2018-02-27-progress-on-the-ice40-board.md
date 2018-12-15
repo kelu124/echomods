@@ -7,8 +7,8 @@ title: 2018-02-27 progress on the ice40 board
 ---
 
 
--   [HV Pulsers work!](/matty/images/hv/PonPoff_test/Readme.md) --
-    nice damping.
+-   [HV Pulsers work!](/matty/images/hv/PonPoff_test/Readme.md) -- nice
+    damping.
 -   I got [nice echoes day](/matty/20180224b/Readme.md) before yesterday
     (oops I mentioned those already)
 -   Got [images with a probe yesterday](/matty/20180225a/Readme.md)

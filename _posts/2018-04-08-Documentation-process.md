@@ -13,8 +13,8 @@ title: 2018-04-08 Documentation process
     and get corresponding version (v1.9 + hash)!
 -   @cancelled : Add Full GitBook PDF to it before
 -   @done Sort the list of experiments, shortnames in SUMMARY
--   @todo Community: list the contributors in a page + add
-    the experiment. Individual page to point to experiment.
+-   @todo Community: list the contributors in a page + add the
+    experiment. Individual page to point to experiment.
 -   @done Page on [documentation](/include/autodoc.md)
 -   @done Edit
     [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html)
@@ -23,8 +23,8 @@ title: 2018-04-08 Documentation process
     to the brain\_dumps "
 -   @done Do a Doj (LOW PRIORITY)
 -   @done Redo a usable alt.tbo (LOW PRIORITY)
--   @done Clean Modules list (keep lite.tbo, goblin, cletus, doj,
-    elmo, matty) + add "CNprobe"
+-   @done Clean Modules list (keep lite.tbo, goblin, cletus, doj, elmo,
+    matty) + add "CNprobe"
 -   @cancelled Make 7 clean QuickStarts for remaining modules // copy
     them on Tindie.
 -   @cancelled Get "ShortNames" in JSON

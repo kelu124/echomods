@@ -15,7 +15,7 @@ title: 2017-06-09 Lots ongoing !
 -   @cancelled convert all previous images to dicom
 -   @done answer some questions online for RPI + ultrasound
 -   @done add the at todos to the shopping list (see
-    [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html) )
-    by means of a grep -&gt; temp file
+    [here](https://kelu124.gitbooks.io/echomods/content/Chapter7/shoppingList.html)
+    ) by means of a grep -&gt; temp file
 -   @done Test YAML data on Markdown files (see contributors)
 

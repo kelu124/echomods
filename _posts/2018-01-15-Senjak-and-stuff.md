@@ -22,11 +22,12 @@ Still getting trouble getting a good name for Senjak, Matty... UnAurIce
 -   Official packages:
 
     -   http://www.latticesemi.com/Products/DesignSoftwareAndIP/ProgrammingAndConfigurationSw/Programmer.aspx
+
 -   Other: working on a bibtex repo
 
 -   Found out [Columbia Open
-    Ultrasound](https://github.com/ColumbiaOpenSourceUltrasound) :
-    just genius. Interesting AFE at
+    Ultrasound](https://github.com/ColumbiaOpenSourceUltrasound) : just
+    genius. Interesting AFE at
     https://github.com/ColumbiaOpenSourceUltrasound/Analog\_Frontend .
 
 -   @done Brainstorm for @senjak information design:

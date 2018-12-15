@@ -15,6 +15,6 @@ title: 2017-03-25 Studious week end
     uploading to the main repo.
 -   Updated the [Doj](/doj/),
     [Bomanz](https://github.com/kelu124/bomanz), and [the
-    CA3306E](https://github.com/kelu124/bomanz/tree/master/CA3306E) board.
-    Ordered as well on OSHPark, finally!
+    CA3306E](https://github.com/kelu124/bomanz/tree/master/CA3306E)
+    board. Ordered as well on OSHPark, finally!
 

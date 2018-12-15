@@ -30,21 +30,21 @@
 
 <section>
   <h1 class="title">Summer Milestone, playing with modules</h1>
-  <h2 class="author"><span class="citation" data-cites="kelu124">@kelu124</span></h2>
-  <h3 class="date">July 20, 2016</h3>
+  <p class="author"><span class="citation" data-cites="kelu124">@kelu124</span></p>
+  <p class="date">July 20, 2016</p>
 </section>
 
 <section id="objective" class="slide level2">
-<h1>Objective</h1>
+<h2>Objective</h2>
 <p>The objective of this project is to propose an open-source, low-cost dev-kit ultrasound imaging to allow scientists, academics, hackers, makers or OSHW fans to hack their way to ultrasound imaging.</p>
 </section>
 <section id="what-are-modules" class="slide level2">
-<h1>What are modules?</h1>
+<h2>What are modules?</h2>
 <p>The modules are breadboard compatible functionnal elements of any ultrasound imaging systems. They have in common 19 'public' interfaces available on a motherboard to easily access and understand the signal processing logic.</p>
 <p>They are listed on the <a href="https://github.com/kelu124/echomods/">echomod repo</a></p>
 </section>
 <section id="what-specs" class="slide level2">
-<h1>What specs?</h1>
+<h2>What specs?</h2>
 <p>We aren't doing live imaging for doctors, rather.. building a cheap, open, system. Therefore, we could use the following (more details in the specs detailed in the <a href="https://github.com/kelu124/echomods/blob/master/Worklog.md">Worklog</a>:</p>
 <ul>
 <li>3MHz ultrasound: travels fasts, has a low enough frequency to avoid using too quick elements (ADC, processing, ...)
@@ -57,7 +57,7 @@
 </ul>
 </section>
 <section id="more-details-on-specs" class="slide level2">
-<h1>More details on specs</h1>
+<h2>More details on specs</h2>
 <ul>
 <li>1 image per second at 64 lines per image gives 15.6ms between lines. That requires a simple servo.</li>
 <li>For a slow ADC (12bit, 2Msps) - 200us is 400 points is 5600 bits is 700 bytes.</li>
@@ -66,7 +66,7 @@
 </ul>
 </section>
 <section id="high-priority-modules" class="slide level2">
-<h1>High priority modules</h1>
+<h2>High priority modules</h2>
 <ul>
 <li><a href="https://github.com/kelu124/echomods/tree/master/tobo">tobo</a>: the HV and pulser module. PCB made.</li>
 <li><a href="https://github.com/kelu124/echomods/tree/master/cletus">cletus</a>: interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain.</li>
@@ -76,7 +76,7 @@
 </ul>
 </section>
 <section id="lower-priority-modules" class="slide level2">
-<h1>Lower priority modules</h1>
+<h2>Lower priority modules</h2>
 <ul>
 <li><a href="https://github.com/kelu124/echomods/tree/master/sleepy">sleepy</a>: encasing the whole modules object in a neat case, making it transportable.</li>
 <li><a href="https://github.com/kelu124/echomods/tree/master/doj">doj</a>: the motherboard itself.</li>
@@ -85,7 +85,7 @@
 </ul>
 </section>
 <section id="retired-modules" class="slide level2">
-<h1>Retired modules</h1>
+<h2>Retired modules</h2>
 <p>Those are retired modules. However, they contain useful info.</p>
 <ul>
 <li><a href="https://github.com/kelu124/echomods/tree/master/retroATL3">retroATL3</a>: hacking a ATL3. Rotative probe with 3MHz element.</li>
@@ -94,35 +94,35 @@
 <p>Along with a real time, high speed DAC (BBB-PRUDAQ ?), retroATL3 could be up and running again.</p>
 </section>
 <section id="proposed-set-1a-slow-speed" class="slide level2">
-<h1>Proposed Set 1a: slow speed</h1>
+<h2>Proposed Set 1a: slow speed</h2>
 <figure>
 <img src="https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/basic.png" />
 </figure>
 </section>
 <section id="proposed-set-1b-slow-speed-wireless" class="slide level2">
-<h1>Proposed Set 1b: slow speed, wireless</h1>
+<h2>Proposed Set 1b: slow speed, wireless</h2>
 <figure>
 <img src="https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/wifi-dev-kit.png" />
 </figure>
 </section>
 <section id="proposed-set-2-emulated-signal" class="slide level2">
-<h1>Proposed Set 2: Emulated signal</h1>
+<h2>Proposed Set 2: Emulated signal</h2>
 <figure>
 <img src="https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/emulated.png" />
 </figure>
 </section>
 <section id="proposed-set-3-high-speed-acquisition" class="slide level2">
-<h1>Proposed Set 3: High Speed acquisition</h1>
+<h2>Proposed Set 3: High Speed acquisition</h2>
 <figure>
 <img src="https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png" />
 </figure>
 </section>
 <section id="documentation" class="slide level2">
-<h1>Documentation</h1>
+<h2>Documentation</h2>
 <p>Documentation here is key. A website that builds itself based on proper, simple and un-redondant information is needed... and this repo / presentation is a proof it's on the way ;)</p>
 </section>
 <section id="acquisition" class="slide level2">
-<h1>Acquisition</h1>
+<h2>Acquisition</h2>
 <p>Having played with acquisition, it appears that the BitScope is excellent for 5Msps acquisition - with Xms delays between transfers to PC. Need real time. Options are as follows:</p>
 <ul>
 <li>Beaglebone: either using <a href="https://github.com/kelu124/murgen-dev-kit/">Murgen</a> (<span class="citation" data-cites="TODO">@TODO</span>) onboard ADC (10Msps), or the <a href="https://github.com/kelu124/echomods/tree/master/toadkiller">PRUDAQ BBB Board</a>.</li>
@@ -131,7 +131,7 @@
 </ul>
 </section>
 <section id="display" class="slide level2">
-<h1>Display</h1>
+<h2>Display</h2>
 <p>Displays are key to see if each line behaves as it should - and of course for us to check if it works. The displays should be part of each module. Several possibilities</p>
 <ul>
 <li>Getting the image displayed on a TFT</li>
@@ -139,7 +139,7 @@
 </ul>
 </section>
 <section id="planning" class="slide level2">
-<h1>Planning</h1>
+<h2>Planning</h2>
 <ul>
 <li>Critical path: pulser
 <ul>
@@ -159,7 +159,7 @@
 </ul>
 </section>
 <section id="community" class="slide level2">
-<h1>Community</h1>
+<h2>Community</h2>
 <p>Two main steps:</p>
 <ul>
 <li>Interfacing with echopen -&gt; how to push the modules ?</li>
@@ -167,7 +167,7 @@
 </ul>
 </section>
 <section id="conclusion" class="slide level2">
-<h1>Conclusion</h1>
+<h2>Conclusion</h2>
 <p>Two outputs scheduled:</p>
 <ul>
 <li>A working dev-kit</li>
@@ -175,7 +175,7 @@
 </ul>
 </section>
 <section id="pending-work" class="slide level2">
-<h1>Pending Work</h1>
+<h2>Pending Work</h2>
 <ul>
 <li>Publishing automatically a presentation/ppt of the modules.. will need some inputs from the /include/ folder =)</li>
 <li>Getting a US pulser emulator (<a href="https://github.com/kelu124/echomods/tree/master/silent">silent</a>) : Teensy, Feather Wiced?</li>
@@ -188,11 +188,11 @@
 </ul>
 </section>
 <section id="qa" class="slide level2">
-<h1>Q&amp;A</h1>
+<h2>Q&amp;A</h2>
 <p>Ping me <span class="citation" data-cites="kelu124">@kelu124</span> / kelu124@gmail.com !</p>
 </section>
 <section id="names" class="slide level2">
-<h1>Names</h1>
+<h2>Names</h2>
 <ul>
 <li><strong>ToadKiller</strong> for the Beaglebone with <a href="https://github.com/kelu124/echomods/tree/master/toadkiller">PRUDAQ BBB Board</a> (to test with <a href="https://github.com/kelu124/echomods/tree/master/retroATL3">retroATL3</a>)</li>
 <li>Beaglebone with direct access to tobo (to test with retroATL3 - high prio) (cf Derek Molloy) -&gt; Code to be put in <a href="https://github.com/kelu124/echomods/tree/master/tobo">tobo</a></li>
@@ -217,7 +217,7 @@
         dependencies: [
           { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
-          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
