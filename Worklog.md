@@ -3219,6 +3219,17 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 * https://superuser.com/questions/1150562/how-to-connect-to-a-raspberry-pi-zero-to-an-ubuntu-laptop-by-usb/1219319 for usb0 issues
 * http://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/
+* 777 commits!
+![](/include/images/777commits.png)
+
+* Tracing table
+* New image to come for "goblin", ethernet gadget, vnc enabled, ssh, and others
+
+#### 2018-12-16 UNICODE someone
+
+* https://unicode-table.com/fr/#miscellaneous-mathematical-symbols-a
+* sudo avrdude -c arduino -p m328p  -P /dev/ttyUSB0 -U flash:w:grbl.hex  for flashing ehx to uno
+
 
 =======
 
