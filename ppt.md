@@ -115,6 +115,7 @@ _Total cost of the set: 443$_
 
 # Experiments
 
+ * [20190103a](/include/experiments/auto/20190103a.md)
  * [20181126b](/include/experiments/auto/20181126b.md)
  * [20181126a](/include/experiments/auto/20181126a.md)
  * 2018-11-04: [matty and 724A](/include/experiments/auto/20181104c.md): testing a new probe with matty v1.01 _(20181104c)_
