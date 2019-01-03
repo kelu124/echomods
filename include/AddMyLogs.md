@@ -3090,6 +3090,38 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 * https://superuser.com/questions/1150562/how-to-connect-to-a-raspberry-pi-zero-to-an-ubuntu-laptop-by-usb/1219319 for usb0 issues
 * http://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/
+* 777 commits!
+![](/include/images/777commits.png)
+
+* Tracing table
+* New image to come for "goblin", ethernet gadget, vnc enabled, ssh, and others
+
+#### 2018-12-16 UNICODE someone
+
+* https://unicode-table.com/fr/#miscellaneous-mathematical-symbols-a
+* sudo avrdude -c arduino -p m328p  -P /dev/ttyUSB0 -U flash:w:grbl.hex  for flashing an hex to an arduino uno (Plotter XY table)
+
+#### 2018-12-16 some Fpga stuff
+
+* Some bins
+  * fa6a7560ade6d6b1149b6e78e0de051f  /home/kelu/ultrasound/un0rick/software/MATTY.bin
+  * 4c4c1476fe43503b2a32ca39a59b3c51  /home/kelu/ultrasound/echomods/matty/v1.1/MATTY_v1.1a.bin
+  * dc9ece10627d97eec40cbe3ed872cf39  /home/kelu/ultrasound/echomods/matty/v1.1/MATTY_V1.1b.bin 
+  * 7cbf3d11454ae62d70a5aa8264d74bae  /home/kelu/ultrasound/echomods/matty/v1.01/MATTY_un0rick_20180826.bin 
+  * 49ed003fae3a312590fe99a2fa90392c  /home/kelu/ultrasound/echomods/matty/v0.1/MATTY_Proto_v0.1.bin
+
+#### 2019-01-02 Happy new year
+
+* Interactive fiction
+  * https://www.ifarchive.org/
+  * https://github.com/rossumur/Zorkduino
+* https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/
+* https://www.smithsonianmag.com/arts-culture/first-time-20-years-copyrighted-works-enter-public-domain-180971016/?preview
+* Mezzanine connectors ?
+  * https://www.reddit.com/r/FPGA/comments/ab46mk/ice40_mezzanine_style_pcie_board_design_has/
+  * https://fmchub.github.io/
+* https://www.reddit.com/r/UNOMOD/ : Ultrasonic Neuromodulation (UNOMOD) is a subreddit specifically designed to enable an open and public discussion around the field of stimulating the brain using Ultrasound.
+
 
 =======
 

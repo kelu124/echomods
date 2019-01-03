@@ -47,6 +47,7 @@
 * ./include/experiments/Desc_20180831c.md
 * ./include/experiments/Desc_20180403b.md
 * ./include/experiments/Desc_20181013a.md
+* ./include/experiments/Desc_20190103a.md
 * ./include/experiments/Desc_20180620a.md
 * ./include/experiments/Desc_20180807b.md
 * ./include/experiments/Desc_20180415a.md
@@ -80,6 +81,7 @@
 * ./include/experiments/auto/Img_20180813a.md
 * ./include/experiments/auto/Img_20180430a.md
 * ./include/experiments/auto/20180115a.md
+* ./include/experiments/auto/Mod_20190103a.md
 * ./include/experiments/auto/Code_20180403t.md
 * ./include/experiments/auto/Code_20181126b.md
 * ./include/experiments/auto/20180403b.md
@@ -146,6 +148,7 @@
 * ./include/experiments/auto/20180217a.md
 * ./include/experiments/auto/Mod_20180403a.md
 * ./include/experiments/auto/Code_20180814a.md
+* ./include/experiments/auto/20190103a.md
 * ./include/experiments/auto/Code_20180217a.md
 * ./include/experiments/auto/Mod_20180430a.md
 * ./include/experiments/auto/Code_20180809a.md
@@ -161,6 +164,7 @@
 * ./include/experiments/auto/Code_20161217a.md
 * ./include/experiments/auto/Img_20181126b.md
 * ./include/experiments/auto/Code_20171111a.md
+* ./include/experiments/auto/Code_20190103a.md
 * ./include/experiments/auto/Code_20171001a.md
 * ./include/experiments/auto/Code_20181013a.md
 * ./include/experiments/auto/20170930a.md
@@ -275,6 +279,7 @@
 * ./include/experiments/auto/Code_20180511a.md
 * ./include/experiments/auto/20180807a.md
 * ./include/experiments/auto/Img_20180415r.md
+* ./include/experiments/auto/Img_20190103a.md
 * ./include/experiments/auto/Mod_20180809b.md
 * ./include/experiments/auto/Code_20181104a.md
 * ./include/experiments/auto/Code_20180224a.md
@@ -431,6 +436,7 @@
 * ./gitbook/exp/20180721a.md
 * ./gitbook/exp/20171111a.md
 * ./gitbook/exp/20180217a.md
+* ./gitbook/exp/20190103a.md
 * ./gitbook/exp/20180516a.md
 * ./gitbook/exp/20181126b.md
 * ./gitbook/exp/20180814a.md
