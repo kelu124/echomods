@@ -115,9 +115,10 @@ _Total cost of the set: 443$_
 
 # Experiments
 
- * [20190103a](/include/experiments/auto/20190103a.md)
- * [20181126b](/include/experiments/auto/20181126b.md)
- * [20181126a](/include/experiments/auto/20181126a.md)
+ * 2019-01-04: [lib improvements part II](/include/experiments/auto/20190104a.md): streamlining processing images _(20190104a)_
+ * 2019-01-03: [lib improvements](/include/experiments/auto/20190103a.md): streamlining processing images _(20190103a)_
+ * 2018-11-26: [HV tests part II](/include/experiments/auto/20181126b.md): checking what's the fact with HV parts _(20181126b)_
+ * 2018-11-26: [HV tests](/include/experiments/auto/20181126a.md): checking what's the fact with HV parts _(20181126a)_
  * 2018-11-04: [matty and 724A](/include/experiments/auto/20181104c.md): testing a new probe with matty v1.01 _(20181104c)_
  * 2018-11-04: [matty and Apogee10 recabled](/include/experiments/auto/20181104b.md): testing a new probe with matty v1.01 _(20181104b)_
  * 2018-11-04: [matty and hp2121](/include/experiments/auto/20181104a.md): playing with hp2121 and matty _(20181104a)_
