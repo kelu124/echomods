@@ -1462,6 +1462,48 @@
   * 20180224b
   * Setup of the experiment
   * ./matty/20180224b/images/IMG_20180224_195210.jpg
+* __/matty/20190104a/images/2DArray_20190104a-2.jpg__:
+  * kelu124
+  * matty, piezo
+  * BC
+  * 20190104a
+  * Experiment: 20190104a-2. Duration: 195.0us (200000 - 5000), for 1 repeats each 2500.0us. Fech = 64.0Msps, total of 12480.0 pts per line, Nacq = 1. Testing if the lib works, probe: piezo, target = a reflector few cms away. Timestamp = 2019-01-04 21:13:27.274894
+  * ./matty/20190104a/images/2DArray_20190104a-2.jpg
+* __/matty/20190104a/images/20190104a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190104a
+  * Automated image of 20190104a experiment. Testing if the lib works
+  * ./matty/20190104a/images/20190104a-1.jpg
+* __/matty/20190104a/images/20190104a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190104a
+  * FFT of the of 20190104a experiment. Testing if the lib works
+  * ./matty/20190104a/images/20190104a-2-fft.jpg
+* __/matty/20190104a/images/2DArray_20190104a-1.jpg__:
+  * kelu124
+  * matty, piezo
+  * BC
+  * 20190104a
+  * Experiment: 20190104a-1. Duration: 195.0us (200000 - 5000), for 3 repeats each 2500.0us. Fech = 16.0Msps, total of 3120.0 pts per line, Nacq = 3. Testing if the lib works, probe: piezo, target = a reflector few cms away. Timestamp = 2019-01-04 21:13:01.160402
+  * ./matty/20190104a/images/2DArray_20190104a-1.jpg
+* __/matty/20190104a/images/20190104a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190104a
+  * FFT of the of 20190104a experiment. Testing if the lib works
+  * ./matty/20190104a/images/20190104a-1-fft.jpg
+* __/matty/20190104a/images/20190104a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190104a
+  * Automated image of 20190104a experiment. Testing if the lib works
+  * ./matty/20190104a/images/20190104a-2.jpg
 * __/matty/20181104c/photos/P_20181104_134129.jpg__:
   * kelu124
   * matty,724A

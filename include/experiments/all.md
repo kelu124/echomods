@@ -49,4 +49,11 @@
 * 20181104a: matty and hp2121: playing with hp2121 and matty
 * 20181104b: matty and Apogee10 recabled: testing a new probe with matty v1.01
 * 20181104c: matty and 724A: testing a new probe with matty v1.01
+* 20181126a: HV tests: checking what's the fact with HV parts
+* 20181126b: HV tests part II: checking what's the fact with HV parts
+* 20190103a: lib improvements: streamlining processing images
+* 20190104a: lib improvements part II: streamlining processing images
+
+
+
 
