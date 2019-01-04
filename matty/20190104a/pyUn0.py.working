@@ -110,7 +110,7 @@ class us_spi:
         self.JSON["timings"]["NAcq"] = self.Nacq
         self.JSON["timings"]["LAcq"] = self.LAcq
         self.JSON["timings"]["Fech"] = self.f_ech
-        self.JSON["timings"]["number_lines"] = self.number_lines
+        self.JSON["timings"]["NLines"] = self.number_lines
         print "NAcq = "+str(self.Nacq)
         if self.Nacq > 499999:
             raise NameError('Acquisition length over 500.000 points (8Mb = Flash limit)')
@@ -124,9 +124,9 @@ class us_spi:
         """
         if Bool:
             if self.verbose:
-                print "Doing several lines.\nRemember to indicate how many lines"
+                print "Doing several lines.\nRemember to indicate how many lines. number_lines = 3 by default"
             self.write_fpga(0xEB, 1) # Doing one line if 0, several if 1
-            #self.number_lines = 0
+            self.number_lines = 3
         else:
             if self.verbose:
                 print "Doing a single line"
@@ -166,10 +166,15 @@ class us_spi:
 
         GPIO.setmode(GPIO.BCM)
         PRESET = 23 ## Reset for the FPGA
-        #IO4 = 26 ## 26 is the output connected to
-
+        IO4 = 26 ## 26 is the output connected to
+        #@todo check 3 lines below
+        CS_FLASH = 7
+        GPIO.setup(CS_FLASH,GPIO.OUT)  
+        GPIO.output(CS_FLASH,GPIO.LOW)
+        
         GPIO.setup(PRESET, GPIO.OUT)
-        #GPIO.setup(IO4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+        GPIO.setup(IO4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+        
         print "Reset GPIO 23 - Low 1s"
         GPIO.output(PRESET, GPIO.LOW)
         time.sleep(3)
@@ -312,12 +317,12 @@ class us_spi:
             p_on = 2500
         elif p_on < 0:
             p_on = 0
-        unit_p_on = int(p_on /(1000/128)) 
+        unit_p_on = int(p_on*128.0/1000)
         self.JSON["parameters"]["Pon"] = int(p_on)
-        self.JSON["parameters"]["Pon_Real"] = int(unit_p_on)
-        print "Pulse width:", p_on, " ns -- ", hex(unit_p_on)
+        self.JSON["parameters"]["Pon_Real"] = int(unit_p_on*1000/128)
+        print "POn width:", p_on, " ns -- ", hex(unit_p_on)
         self.write_fpga(0xE0, unit_p_on) # set sEEPon
-        return unit_p_on*128/1000
+        return unit_p_on*1000/128
 
     def set_pulses_delay(self, pulse_on_off_delay_val):
     # Set Lengh between Pon and Poff
@@ -325,25 +330,25 @@ class us_spi:
             pulse_on_off_delay_val = 2500
         elif pulse_on_off_delay_val < 0:
             pulse_on_off_delay_val = 0
-        HPP = int(pulse_on_off_delay_val /(1000/128)) 
+        HPP = int(pulse_on_off_delay_val*128/1000) 
         #print  hex(HPP)
         self.JSON["parameters"]["PulsesDelay"] = int(pulse_on_off_delay_val)
-        self.JSON["parameters"]["PulsesDelay_Real"] = int(HPP)
-        print "Pulses delay:", pulse_on_off_delay_val, " ns -- ", hex(HPP)
+        self.JSON["parameters"]["PulsesDelay_Real"] = int(HPP*1000/128)
+        print "Pulses delay:", pulse_on_off_delay_val, "ns -- ", hex(HPP)
         self.write_fpga(0xD0, HPP) # set sEEPon
-        return HPP*128/1000
+        return HPP*1000/128
 
     def set_poff(self, poff_value):
         # Sets the damping length.
-        p_off = int(poff_value /(1000/128))
+        p_off = int(poff_value /(1000/128.0))
         #print sEEPoff, POff
         p_off_msb, p_off_lsb = 0x00FF&p_off/256, 0x00FF&p_off
         print "Poff:", poff_value, " ns -- ", hex(p_off_msb), hex(p_off_lsb)
         self.JSON["parameters"]["Poff"] = int(poff_value)
-        self.JSON["parameters"]["Poff_Real"] = int(p_off)
+        self.JSON["parameters"]["Poff_Real"] = int(p_off*1000/128)
         self.write_fpga(0xE1, p_off_msb) # set sEEPon MSB
         self.write_fpga(0xE2, p_off_lsb) # set sEEPon LSB
-        return p_off*128/1000
+        return p_off*1000/128
 
         # Setting Poff to Acq delay sEEDelayACQ
     def set_delta_acq(self, acquisition_delay_val):
@@ -351,20 +356,20 @@ class us_spi:
             acquisition_delay_val = 254*254
         elif acquisition_delay_val < 0:
             acquisition_delay_val = 0
-        hDA = int((128*acquisition_delay_val)/1000)
+        hDA = int((128*acquisition_delay_val)/1000.0)
         hDAMSB, hDALSB = hDA/256, 0x00FF&hDA
         print "Delay between:", hDA*1000/128, "ns -- ", hex(hDAMSB), hex(hDALSB)
         self.JSON["parameters"]["DeltaAcq"] = int(acquisition_delay_val)
-        self.JSON["parameters"]["DeltaAcq_Real"] = int(hDA)
+        self.JSON["parameters"]["DeltaAcq_Real"] = int(hDA*1000/128)
         self.write_fpga(0xE3, hDAMSB) # set sEEPon MSB
         self.write_fpga(0xE4, hDALSB) # set sEEPon LSB
-        return acquisition_delay_val*1000/128
+        return acquisition_delay_val
 
     def set_length_acq(self, LAcqI):
-        correct_length_acq = int((128.0*LAcqI)/1000.0) # (LAcqI*128/1000)
+        correct_length_acq = int((128*LAcqI)/1000) # (LAcqI*128/1000)
         #print correct_length_acq, hex(LAcq), hex(LAcqI)
         self.JSON["parameters"]["LengthAcq"] = int(LAcqI)
-        self.JSON["parameters"]["LengthAcq_Real"] = int(correct_length_acq)
+        self.JSON["parameters"]["LengthAcq_Real"] = int(correct_length_acq*1000/128)
         length_acq_msb = 0x00FF & correct_length_acq/256
         length_acq_lsb = 0x00FF & correct_length_acq
         if self.verbose:
@@ -375,24 +380,28 @@ class us_spi:
         return int(correct_length_acq*1000/128)
 
     def set_period_between_acqs(self, lEPeriod):
-        repeat_length_arg = lEPeriod/10 #ns
+        repeat_length_arg = int(lEPeriod*128.0/1000) #ns
         repeat_length_msb = 0x00FF&repeat_length_arg/(256*256)
         repeat_length = 0x00FF&repeat_length_arg/256
         repeat_length_lsb = 0x0000FF&repeat_length_arg
-        print "Period between two acquisitions:", repeat_length_arg, "us --"
+        print "Period between two acquisitions:", lEPeriod/1000, "us"
         print "Arguments:", hex(repeat_length_msb), hex(repeat_length), hex(repeat_length_lsb)
         self.JSON["parameters"]["PeriodAcq"] = int(lEPeriod)
-        self.JSON["parameters"]["PeriodAcq_Real"] = int(repeat_length_arg)
+        self.JSON["parameters"]["PeriodAcq_Real"] = int(repeat_length_arg*1000/128)
         self.write_fpga(0xE7, repeat_length_msb) # Period of one cycle MSB
         self.write_fpga(0xE8, repeat_length) # Period of one cycle 15 to 8
         self.write_fpga(0xE9, repeat_length_lsb) # Period of one cycle LSB
-        return repeat_length_arg*10
+        return repeat_length_arg*1000/128
 
     def set_pulse_train(self, Pon, Pdelay, Poff, delay_acq, Acq):
         tpon = self.set_pon(Pon)
+        print "tpon = ",tpon
         tpulsedelay = self.set_pulses_delay(tpon+Pdelay)
-        self.set_poff(Poff+tpulsedelay) #@unused @tocheck
-        self.set_delta_acq(delay_acq) #@unused @tocheck
+        print "tpulsedelay = ",tpulsedelay,tpon,Pdelay
+        tmp = self.set_poff(Poff+tpulsedelay) #@unused @tocheck
+        print "Poff = ",tmp,Poff,tpulsedelay
+        tmp = self.set_delta_acq(delay_acq) #@unused @tocheck
+        print "delay_acq = ",tmp,delay_acq
         l_acq = self.set_length_acq(Acq)
         print "Set_pulse_train 'l_acq' "+str(l_acq)
         return l_acq

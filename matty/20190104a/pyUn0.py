@@ -110,7 +110,7 @@ class us_spi:
         self.JSON["timings"]["NAcq"] = self.Nacq
         self.JSON["timings"]["LAcq"] = self.LAcq
         self.JSON["timings"]["Fech"] = self.f_ech
-        self.JSON["timings"]["number_lines"] = self.number_lines
+        self.JSON["timings"]["NLines"] = self.number_lines
         print "NAcq = "+str(self.Nacq)
         if self.Nacq > 499999:
             raise NameError('Acquisition length over 500.000 points (8Mb = Flash limit)')
@@ -124,9 +124,9 @@ class us_spi:
         """
         if Bool:
             if self.verbose:
-                print "Doing several lines.\nRemember to indicate how many lines"
+                print "Doing several lines.\nRemember to indicate how many lines. number_lines = 3 by default"
             self.write_fpga(0xEB, 1) # Doing one line if 0, several if 1
-            #self.number_lines = 0
+            self.number_lines = 3
         else:
             if self.verbose:
                 print "Doing a single line"
@@ -166,10 +166,15 @@ class us_spi:
 
         GPIO.setmode(GPIO.BCM)
         PRESET = 23 ## Reset for the FPGA
-        #IO4 = 26 ## 26 is the output connected to
-
+        IO4 = 26 ## 26 is the output connected to
+        #@todo check 3 lines below
+        CS_FLASH = 7
+        GPIO.setup(CS_FLASH,GPIO.OUT)  
+        GPIO.output(CS_FLASH,GPIO.LOW)
+        
         GPIO.setup(PRESET, GPIO.OUT)
-        #GPIO.setup(IO4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+        GPIO.setup(IO4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+        
         print "Reset GPIO 23 - Low 1s"
         GPIO.output(PRESET, GPIO.LOW)
         time.sleep(3)
@@ -237,7 +242,7 @@ class us_spi:
         self.write_fpga(0xED, f_msps)
         self.f_ech = float(64/((1+f_msps)))
         print "Acquisition frequency set at "+str(self.f_ech)+" Msps"
-        return self.f_ech
+        return self.f_echself.Nacq
 
     def do_acquisition(self):
         """
@@ -312,12 +317,12 @@ class us_spi:
             p_on = 2500
         elif p_on < 0:
             p_on = 0
-        unit_p_on = int(p_on /(1000/128)) 
+        unit_p_on = int(p_on*128.0/1000)
         self.JSON["parameters"]["Pon"] = int(p_on)
-        self.JSON["parameters"]["Pon_Real"] = int(unit_p_on)
-        print "Pulse width:", p_on, " ns -- ", hex(unit_p_on)
+        self.JSON["parameters"]["Pon_Real"] = int(unit_p_on*1000/128)
+        print "POn width:", p_on, " ns -- ", hex(unit_p_on)
         self.write_fpga(0xE0, unit_p_on) # set sEEPon
-        return unit_p_on*128/1000
+        return unit_p_on*1000/128
 
     def set_pulses_delay(self, pulse_on_off_delay_val):
     # Set Lengh between Pon and Poff
@@ -325,25 +330,25 @@ class us_spi:
             pulse_on_off_delay_val = 2500
         elif pulse_on_off_delay_val < 0:
             pulse_on_off_delay_val = 0
-        HPP = int(pulse_on_off_delay_val /(1000/128)) 
+        HPP = int(pulse_on_off_delay_val*128/1000) 
         #print  hex(HPP)
         self.JSON["parameters"]["PulsesDelay"] = int(pulse_on_off_delay_val)
-        self.JSON["parameters"]["PulsesDelay_Real"] = int(HPP)
-        print "Pulses delay:", pulse_on_off_delay_val, " ns -- ", hex(HPP)
+        self.JSON["parameters"]["PulsesDelay_Real"] = int(HPP*1000/128)
+        print "Pulses delay:", pulse_on_off_delay_val, "ns -- ", hex(HPP)
         self.write_fpga(0xD0, HPP) # set sEEPon
-        return HPP*128/1000
+        return HPP*1000/128
 
     def set_poff(self, poff_value):
         # Sets the damping length.
-        p_off = int(poff_value /(1000/128))
+        p_off = int(poff_value /(1000/128.0))
         #print sEEPoff, POff
         p_off_msb, p_off_lsb = 0x00FF&p_off/256, 0x00FF&p_off
         print "Poff:", poff_value, " ns -- ", hex(p_off_msb), hex(p_off_lsb)
         self.JSON["parameters"]["Poff"] = int(poff_value)
-        self.JSON["parameters"]["Poff_Real"] = int(p_off)
+        self.JSON["parameters"]["Poff_Real"] = int(p_off*1000/128)
         self.write_fpga(0xE1, p_off_msb) # set sEEPon MSB
         self.write_fpga(0xE2, p_off_lsb) # set sEEPon LSB
-        return p_off*128/1000
+        return p_off*1000/128
 
         # Setting Poff to Acq delay sEEDelayACQ
     def set_delta_acq(self, acquisition_delay_val):
@@ -351,20 +356,20 @@ class us_spi:
             acquisition_delay_val = 254*254
         elif acquisition_delay_val < 0:
             acquisition_delay_val = 0
-        hDA = int((128*acquisition_delay_val)/1000)
+        hDA = int((128*acquisition_delay_val)/1000.0)
         hDAMSB, hDALSB = hDA/256, 0x00FF&hDA
         print "Delay between:", hDA*1000/128, "ns -- ", hex(hDAMSB), hex(hDALSB)
         self.JSON["parameters"]["DeltaAcq"] = int(acquisition_delay_val)
-        self.JSON["parameters"]["DeltaAcq_Real"] = int(hDA)
+        self.JSON["parameters"]["DeltaAcq_Real"] = int(hDA*1000/128)
         self.write_fpga(0xE3, hDAMSB) # set sEEPon MSB
         self.write_fpga(0xE4, hDALSB) # set sEEPon LSB
-        return acquisition_delay_val*1000/128
+        return acquisition_delay_val
 
     def set_length_acq(self, LAcqI):
-        correct_length_acq = int((128.0*LAcqI)/1000.0) # (LAcqI*128/1000)
+        correct_length_acq = int((128*LAcqI)/1000) # (LAcqI*128/1000)
         #print correct_length_acq, hex(LAcq), hex(LAcqI)
         self.JSON["parameters"]["LengthAcq"] = int(LAcqI)
-        self.JSON["parameters"]["LengthAcq_Real"] = int(correct_length_acq)
+        self.JSON["parameters"]["LengthAcq_Real"] = int(correct_length_acq*1000/128)
         length_acq_msb = 0x00FF & correct_length_acq/256
         length_acq_lsb = 0x00FF & correct_length_acq
         if self.verbose:
@@ -375,24 +380,28 @@ class us_spi:
         return int(correct_length_acq*1000/128)
 
     def set_period_between_acqs(self, lEPeriod):
-        repeat_length_arg = lEPeriod/10 #ns
+        repeat_length_arg = int(lEPeriod*128.0/1000) #ns
         repeat_length_msb = 0x00FF&repeat_length_arg/(256*256)
         repeat_length = 0x00FF&repeat_length_arg/256
         repeat_length_lsb = 0x0000FF&repeat_length_arg
-        print "Period between two acquisitions:", repeat_length_arg, "us --"
+        print "Period between two acquisitions:", lEPeriod/1000, "us"
         print "Arguments:", hex(repeat_length_msb), hex(repeat_length), hex(repeat_length_lsb)
         self.JSON["parameters"]["PeriodAcq"] = int(lEPeriod)
-        self.JSON["parameters"]["PeriodAcq_Real"] = int(repeat_length_arg)
+        self.JSON["parameters"]["PeriodAcq_Real"] = int(repeat_length_arg*1000/128)
         self.write_fpga(0xE7, repeat_length_msb) # Period of one cycle MSB
         self.write_fpga(0xE8, repeat_length) # Period of one cycle 15 to 8
         self.write_fpga(0xE9, repeat_length_lsb) # Period of one cycle LSB
-        return repeat_length_arg*10
+        return repeat_length_arg*1000/128
 
     def set_pulse_train(self, Pon, Pdelay, Poff, delay_acq, Acq):
         tpon = self.set_pon(Pon)
+        print "tpon = ",tpon
         tpulsedelay = self.set_pulses_delay(tpon+Pdelay)
-        self.set_poff(Poff+tpulsedelay) #@unused @tocheck
-        self.set_delta_acq(delay_acq) #@unused @tocheck
+        print "tpulsedelay = ",tpulsedelay,tpon,Pdelay
+        tmp = self.set_poff(Poff+tpulsedelay) #@unused @tocheck
+        print "Poff = ",tmp,Poff,tpulsedelay
+        tmp = self.set_delta_acq(delay_acq) #@unused @tocheck
+        print "delay_acq = ",tmp,delay_acq
         l_acq = self.set_length_acq(Acq)
         print "Set_pulse_train 'l_acq' "+str(l_acq)
         return l_acq
@@ -509,6 +518,7 @@ class us_json:
         TT2 = []
         tmp = []
         tdac = []
+
         with open(path) as json_data:
             #DATA = {}
             d = json.load(json_data)
@@ -541,7 +551,7 @@ class us_json:
             self.timings = d["timings"]
             self.f = float(64/((1.0+int(d["registers"]["237"]))))
 
-            t = [1.0*x/self.f + self.timings['t4']  for x in range(len(tmp))]
+            t = [1.0*x/self.f + self.timings['t4']/1000.0  for x in range(len(tmp))]
             self.t = t
 
             for i in range(len(IDLine)):
@@ -554,9 +564,9 @@ class us_json:
 
             self.TT1 = TT1
             self.TT2 = TT2
-            self.Nacq = d["timings"]["number_lines"]
+            self.Nacq = d["timings"]["NLines"]
             self.len_acq = len(self.t)
-            self.len_line = self.len_acq#/self.Nacq
+            self.len_line = int(self.len_acq/self.Nacq)
 
 
             # Precising the DAC
@@ -569,10 +579,11 @@ class us_json:
             tdac = []
             for pts in t[0:self.len_line]: # @todo -> corriger pour avoir une ligne de 200us
                 i = int(pts/5.0) # time in us
-        try:
-            tdac.append(4.0*d["registers"][str(i+16)])
-        except:
-            tdac.append(-1)
+
+                try:
+                    tdac.append(4.0*d["registers"][str(i+16)])
+                except:
+                    tdac.append(-1)
 
             # Updating the JSON
             self.tdac = tdac
@@ -587,7 +598,7 @@ class us_json:
             self.N = d['N']
             self.V = d['V']
             self.processed = True
-
+            self.Duration = (self.parameters['LengthAcq']-self.parameters['DeltaAcq'])/1000.0
 
     def create_fft(self):
         self.FFT_x = [X*self.f / (self.LengthT) for X in range(self.LengthT)]
@@ -622,7 +633,7 @@ class us_json:
             plt.show()
             description_experiment = "FFT of the of "+self.iD
             description_experiment += " experiment. "+self.experiment["description"]
-            self.tag_image("matty, cletus", self.iD, "FFT", description_experiment)
+            tag_image(file_name,"matty, cletus", self.iD, "FFT", description_experiment)
 
 
 
@@ -635,7 +646,7 @@ class us_json:
             ax2 = ax1.twinx()
             ax2.plot(self.t[0:self.len_line], self.tdac[0:self.len_line], 'g-')
             ax1.plot(self.t[0:self.len_line], self.tmp[0:self.len_line], 'b-')
-            plt.title(self.iD + " - acq. #: "+ str(self.N))
+            plt.title(self.create_title_text())
             ax1.set_xlabel('Time (us)')
             ax1.set_ylabel('Signal from ADC (V)', color='b')
             ax2.set_ylabel('DAC output in mV (range 0 to 1V)', color='g')
@@ -643,13 +654,13 @@ class us_json:
             file_name = "images/"+self.iD+"-"+str(self.N)+".jpg"
             plt.savefig(file_name)
             plt.show()
-            #self.tag_image("matty, cletus", self.iD, "graph", "Graph of "+self.iD +" experiment. "+self.experiment["description"])
+            tag_image(file_name,"matty", self.iD, "graph", "Automated image of "+self.iD +" experiment. "+self.experiment["description"])
 
-    def tag_image(self, bricks, experiment_id, img_type, img_desc):
+    def tag_image(self, bricks, experiment_id, img_type, img_desc,file_name):
         """
            Tags an image using available info.
         """
-        file_name = "images/"+self.iD+"-"+str(self.N)+".jpg"
+        #file_name = "images/"+self.iD+"-"+str(self.N)+".jpg"
 	#@todo : create images folder if not exists
         metadata = pyexiv2.ImageMetadata(file_name)
         try:
@@ -671,6 +682,7 @@ class us_json:
         img = []
         tmpline = []
         lineindex = 0
+
         for k in range(len_acquisition):
             if self.IDLine[k] <> lineindex:
                 img.append(tmpline)
@@ -679,13 +691,14 @@ class us_json:
             else:
                 tmpline.append(self.tmp[k])
 
-
-        self.Duration = (self.parameters['LengthAcq']-self.parameters['DeltaAcq'])/1000.0
         duration_self = int(float(self.f)*self.Duration)
 
         y = [s for s in img if (len(s) > duration_self-10 and len(s) < duration_self+10)]
+        if self.Nacq > 1:
+            clean_image = np.zeros((len(y), len(self.tmp)/len(y)))
+        else:
+            clean_image = np.zeros((len(y),1))
 
-        clean_image = np.zeros((len(y), len(self.tmp)/len(y)))
         for i in range(len(y)):
             clean_image[i][0:len(y[i])] = y[i]
 
@@ -695,8 +708,12 @@ class us_json:
 
         clean_image = clean_image[:, :int(Duration*self.f)]
         plt.figure(figsize=(15, 10))
-        plt.imshow(np.sqrt(np.abs(clean_image)), cmap='gray', aspect=0.5*(img_size[1]/img_size[0]), interpolation='nearest')
-
+        if self.Nacq > 1:
+            print img_size[1],img_size[0]
+            plt.imshow(np.sqrt(np.abs(clean_image)), cmap='gray', aspect=0.5*(img_size[1]/img_size[0]), interpolation='nearest')
+        else:
+            plt.plot(self.t[0:self.len_line], self.tmp[0:self.len_line], 'b-')
+            #plt.show()
 
         plt.title(self.create_title_text())
         #plt.colorbar(im, orientation='vertical')
@@ -706,6 +723,7 @@ class us_json:
         tag_image(file_name, "matty, "+self.piezo, self.iD, "BC", self.create_title_text().replace("\n", ". "))
         plt.show()
         self.raw_2d_image = clean_image #@todo: reuse this 2D image ?
+
         return clean_image
 
     def save_npz(self):
@@ -808,7 +826,7 @@ class us_json:
         title_text += "us ("+str(self.parameters['LengthAcq'])+" - "
         title_text += str(self.parameters['DeltaAcq'])+"), for "+str(self.Nacq)
         title_text += " repeats "
-        title_text += "each "+str(self.parameters['PeriodAcq_Real']/128)+" us\n"
+        title_text += "each "+str(self.parameters['PeriodAcq_Real']/1000.0)+"us\n"
         title_text += "Fech = "+str(self.f)+"Msps, total of "+str(float(self.f)*self.Duration)
         title_text += " pts per line, Nacq = "+str(self.Nacq)+"\n"
         title_text += self.experiment["description"]+", probe: "
