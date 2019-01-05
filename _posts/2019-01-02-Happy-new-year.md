@@ -20,5 +20,3 @@ title: 2019-01-02 Happy new year
     public discussion around the field of stimulating the brain using
     Ultrasound.
 
-=======
-
