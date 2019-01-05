@@ -3122,6 +3122,10 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * https://fmchub.github.io/
 * https://www.reddit.com/r/UNOMOD/ : Ultrasonic Neuromodulation (UNOMOD) is a subreddit specifically designed to enable an open and public discussion around the field of stimulating the brain using Ultrasound.
 
+#### 2019-01-04 work again
+
+* Been working on the python lib
+
 
 =======
 

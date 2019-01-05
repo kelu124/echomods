@@ -399,6 +399,8 @@
 
 * [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  . _File not used._
 
+* [./include/community/Shinobu/Readme.md](/include/community/Shinobu/Readme.md):  . _File not used._
+
 * [./include/community/John/Readme.md](/include/community/John/Readme.md):  . _File not used._
 
 * [./include/community/WeiTing/Readme.md](/include/community/WeiTing/Readme.md):  . _File not used._
@@ -436,6 +438,8 @@
 * [./include/community/Hannah/Readme.md](/include/community/Hannah/Readme.md):  . _File not used._
 
 * [./include/community/Dean/Readme.md](/include/community/Dean/Readme.md):  . _File not used._
+
+* [./include/community/Sterling/Readme.md](/include/community/Sterling/Readme.md):  . _File not used._
 
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md):  . _File not used._
 
