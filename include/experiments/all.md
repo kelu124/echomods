@@ -53,7 +53,7 @@
 * 20181126b: HV tests part II: checking what's the fact with HV parts
 * 20190103a: lib improvements: streamlining processing images
 * 20190104a: lib improvements part II: streamlining processing images
-
+* 20190111a: faster checks: multi, single, process commands for the lib
 
 
 
