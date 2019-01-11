@@ -115,6 +115,7 @@ _Total cost of the set: 443$_
 
 # Experiments
 
+ * [20190111a](/include/experiments/auto/20190111a.md)
  * 2019-01-04: [lib improvements part II](/include/experiments/auto/20190104a.md): streamlining processing images _(20190104a)_
  * 2019-01-03: [lib improvements](/include/experiments/auto/20190103a.md): streamlining processing images _(20190103a)_
  * 2018-11-26: [HV tests part II](/include/experiments/auto/20181126b.md): checking what's the fact with HV parts _(20181126b)_
