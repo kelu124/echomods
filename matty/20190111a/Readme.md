@@ -9,7 +9,9 @@ From shell, a typical test sequence would look like:
 
 ### To test blinky
 
-python pyUn0.py test
+`python pyUn0.py test` 
+
+should make the led for button 2 blink 3 times
 
 ### To test acquisitions:
 
