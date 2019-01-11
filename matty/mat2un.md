@@ -1,3 +1,7 @@
+# That was the todo for going to v1.0 to v1.01
+
+(proto to prod)
+
 * Footprints
   * Check clock footprint (quelle raison pour plantage par Macrofab?)
   * Correct HV Module footprint (reversed)

@@ -36,6 +36,7 @@
 * ./include/experiments/Desc_20181104b.md
 * ./include/experiments/Desc_20180811b.md
 * ./include/experiments/Desc_20180403t.md
+* ./include/experiments/Desc_20190111a.md
 * ./include/experiments/Desc_20181126a.md
 * ./include/experiments/Desc_20181104a.md
 * ./include/experiments/Desc_20180310a.md
@@ -100,6 +101,7 @@
 * ./include/experiments/auto/Img_20180217a.md
 * ./include/experiments/auto/20181126a.md
 * ./include/experiments/auto/Mod_20180812a.md
+* ./include/experiments/auto/Img_20190111a.md
 * ./include/experiments/auto/Code_20180417a.md
 * ./include/experiments/auto/Code_20180430a.md
 * ./include/experiments/auto/Mod_20180620a.md
@@ -241,6 +243,7 @@
 * ./include/experiments/auto/Img_20180809b.md
 * ./include/experiments/auto/Img_20180812a.md
 * ./include/experiments/auto/Code_20171001b.md
+* ./include/experiments/auto/Mod_20190111a.md
 * ./include/experiments/auto/Code_20171124a.md
 * ./include/experiments/auto/20180310a.md
 * ./include/experiments/auto/Code_20170715a.md
@@ -282,6 +285,7 @@
 * ./include/experiments/auto/Mod_20160809a.md
 * ./include/experiments/auto/Img_20160809a.md
 * ./include/experiments/auto/Code_20180511a.md
+* ./include/experiments/auto/Code_20190111a.md
 * ./include/experiments/auto/20180807a.md
 * ./include/experiments/auto/Img_20180415r.md
 * ./include/experiments/auto/Img_20190103a.md

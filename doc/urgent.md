@@ -56,11 +56,13 @@
 * __[Unrefed file]__ :no_entry: `/matty/20180831c/20180831c-Client.ipynb` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180831c/20180831c-Server.ipynb` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180831c/pyUn0.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20180901a/20180901a-Client.ipynb` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20181031a/20181031a-Server.ipynb` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20181031a/pyUn0.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20190111a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/SPI/serialflash.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ideas.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/ideas_of_repo.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/images/20180221a/RPi.ipynb` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/news/2018-01-23-first-board.md` : No references of this file.

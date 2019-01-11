@@ -38,6 +38,8 @@
 
 * [pyUn0.py](/matty/20180831c/pyUn0.py): Library for the un0rick platform.. _File not used._
 
+* [pyUn0.py](/matty/20190111a/pyUn0.py): Most updated library for the un0rick platform.. _File not used._
+
 * [pyUn0.py](/matty/v1.1/test_V/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.md).
 
 * [mkimg.py](/matty/20180310a/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md).
@@ -48,9 +50,9 @@
 
 * [mkimg.py](/matty/20180403b/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/experiments/auto/Code_20180310a.md`](/include/experiments/auto/Code_20180310a.md), [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
 
-* [pyUn0.py](/matty/20180901a/pyUn0.py): Library for the un0rick platform.. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180901a.md`](/include/experiments/auto/20180901a.md).
+* [pyUn0.py](/matty/20180901a/pyUn0.py): Library for the un0rick platform.. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [pyUn0.py](/matty/pyUn0/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20181126b.md`](/include/experiments/auto/Code_20181126b.md), [`/include/experiments/auto/20181126a.md`](/include/experiments/auto/20181126a.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.md).
+* [pyUn0.py](/matty/pyUn0/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20181126a.md`](/include/experiments/auto/20181126a.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.md).
 
 * [pyUn0.py](/matty/20181126a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20181126b.md`](/include/experiments/auto/Code_20181126b.md), [`/include/experiments/auto/20181126a.md`](/include/experiments/auto/20181126a.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.md).
 
@@ -58,7 +60,7 @@
 
 * [pyUn0.v1.1b.py](/matty/20181126a/pyUn0s/pyUn0.v1.1b.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/20181126a.md`](/include/experiments/auto/20181126a.md).
 
-* [pyUn0.py](/matty/20181031a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/20180901a.md`](/include/experiments/auto/20180901a.md).
+* [pyUn0.py](/matty/20181031a/pyUn0.py): Library for the un0rick platform.. _File not used._
 
 * [pyUn0.py](/matty/20180721a/pyUn0.py): Library for the un0rick platform.. File used in: [`/matty/20180721a/Readme.md`](/matty/20180721a/Readme.md), [`/include/experiments/auto/20180721a.md`](/include/experiments/auto/20180721a.md).
 

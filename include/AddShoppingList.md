@@ -78,6 +78,10 @@ Here's a couple of things we're working on, for which you could help as well.
  * to correct MATTY V1.1 revA
 * command line for pyUn0 following http://www.catb.org/esr/writings/taoup/html/ch10s05.html
 * add to pyUn0 compressed acquisitions ( jsons of 1 Line, json of 10 lines, 64 Msps, 32Msps)
+* read [Designing Video Game Hardware in Verilog](https://www.amazon.com/Designing-Video-Game-Hardware-Verilog-ebook/dp/B07LD48CTV) for verilog games design
+* read IF books and [MUSH](http://www.evennia.com/)
+* coverage for pyUn0 lib, including pypi, https://shields.io/#/, [zenodo](https://guides.github.com/activities/citable-code/),...
+* sterling: HV7361 / HV7351 SPI logic ?
 
 
 

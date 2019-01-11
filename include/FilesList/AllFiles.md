@@ -38,8 +38,6 @@
 
 * [./matty/mat2un.md](/matty/mat2un.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./matty/ideas_of_repo.md](/matty/ideas_of_repo.md):  . _File not used._
-
 * [./matty/un0log.md](/matty/un0log.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./matty/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html): ice40 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
@@ -435,6 +433,8 @@
 
 * [./include/community/DP/Readme.md](/include/community/DP/Readme.md):  . _File not used._
 
+* [./include/community/Andrew/Readme.md](/include/community/Andrew/Readme.md):  . _File not used._
+
 * [./include/community/Song/Readme.md](/include/community/Song/Readme.md):  . _File not used._
 
 * [./include/community/Hannah/Readme.md](/include/community/Hannah/Readme.md):  . _File not used._
@@ -770,7 +770,7 @@
 * [Untitled.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled.html). _File not used._
 * [20180403b-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403b-Client.html). File used in: [`/matty/20180403b/Readme.md`](/matty/20180403b/Readme.md), [`/include/experiments/auto/20180403b.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.html).
 * [20180403b-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403b-Server.html). File used in: [`/matty/20180403b/Readme.md`](/matty/20180403b/Readme.md), [`/include/experiments/auto/20180403b.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.html).
-* [20180901a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180901a-Client.html). File used in: [`/include/experiments/auto/20180901a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180901a.html).
+* [20180901a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180901a-Client.html). _File not used._
 * [20181126a-Server-1.1b.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181126a-Server-1.1b.html). File used in: [`/include/experiments/auto/Code_20181126b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20181126b.md), [`/include/experiments/auto/20181126a.md`](/include/experiments/auto/20181126a.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.html).
 * [20181126a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181126a-Processing.html). File used in: [`/include/experiments/auto/Code_20181126b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20181126b.md), [`/include/experiments/auto/20181126a.md`](/include/experiments/auto/20181126a.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.html).
 * [20181031a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181031a-Server.html). _File not used._
@@ -861,6 +861,8 @@
 
 * [pyUn0.py](/matty/20180831c/pyUn0.py): Library for the un0rick platform.. _File not used._
 
+* [pyUn0.py](/matty/20190111a/pyUn0.py): Most updated library for the un0rick platform.. _File not used._
+
 * [pyUn0.py](/matty/v1.1/test_V/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/20181104a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20181104a.html).
 
 * [mkimg.py](/matty/20180310a/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/experiments/auto/Code_20180310a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180310a.html).
@@ -871,9 +873,9 @@
 
 * [mkimg.py](/matty/20180403b/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/experiments/auto/Code_20180310a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180310a.md), [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.html).
 
-* [pyUn0.py](/matty/20180901a/pyUn0.py): Library for the un0rick platform.. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180901a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180901a.html).
+* [pyUn0.py](/matty/20180901a/pyUn0.py): Library for the un0rick platform.. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [pyUn0.py](/matty/pyUn0/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20181126b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20181126b.md), [`/include/experiments/auto/20181126a.md`](/include/experiments/auto/20181126a.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.html).
+* [pyUn0.py](/matty/pyUn0/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20181126a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20181126a.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.html).
 
 * [pyUn0.py](/matty/20181126a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20181126b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20181126b.md), [`/include/experiments/auto/20181126a.md`](/include/experiments/auto/20181126a.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.html).
 
@@ -881,7 +883,7 @@
 
 * [pyUn0.v1.1b.py](/matty/20181126a/pyUn0s/pyUn0.v1.1b.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/20181126a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20181126a.html).
 
-* [pyUn0.py](/matty/20181031a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/20180901a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180901a.html).
+* [pyUn0.py](/matty/20181031a/pyUn0.py): Library for the un0rick platform.. _File not used._
 
 * [pyUn0.py](/matty/20180721a/pyUn0.py): Library for the un0rick platform.. File used in: [`/matty/20180721a/Readme.md`](/matty/20180721a/Readme.md), [`/include/experiments/auto/20180721a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180721a.html).
 
@@ -1107,7 +1109,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
 
-## 478 Auto generated files
+## 482 Auto generated files
 
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
@@ -1147,6 +1149,7 @@
 * ./include/experiments/Desc_20181104b.md
 * ./include/experiments/Desc_20180811b.md
 * ./include/experiments/Desc_20180403t.md
+* ./include/experiments/Desc_20190111a.md
 * ./include/experiments/Desc_20181126a.md
 * ./include/experiments/Desc_20181104a.md
 * ./include/experiments/Desc_20180310a.md
@@ -1211,6 +1214,7 @@
 * ./include/experiments/auto/Img_20180217a.md
 * ./include/experiments/auto/20181126a.md
 * ./include/experiments/auto/Mod_20180812a.md
+* ./include/experiments/auto/Img_20190111a.md
 * ./include/experiments/auto/Code_20180417a.md
 * ./include/experiments/auto/Code_20180430a.md
 * ./include/experiments/auto/Mod_20180620a.md
@@ -1352,6 +1356,7 @@
 * ./include/experiments/auto/Img_20180809b.md
 * ./include/experiments/auto/Img_20180812a.md
 * ./include/experiments/auto/Code_20171001b.md
+* ./include/experiments/auto/Mod_20190111a.md
 * ./include/experiments/auto/Code_20171124a.md
 * ./include/experiments/auto/20180310a.md
 * ./include/experiments/auto/Code_20170715a.md
@@ -1393,6 +1398,7 @@
 * ./include/experiments/auto/Mod_20160809a.md
 * ./include/experiments/auto/Img_20160809a.md
 * ./include/experiments/auto/Code_20180511a.md
+* ./include/experiments/auto/Code_20190111a.md
 * ./include/experiments/auto/20180807a.md
 * ./include/experiments/auto/Img_20180415r.md
 * ./include/experiments/auto/Img_20190103a.md

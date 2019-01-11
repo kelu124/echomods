@@ -23,7 +23,9 @@ try:
     import pyexiv2
 except:
     print "pyexiv2 does not exist on RPi"
-
+    pyexivexists = False
+else:
+    pyexivexists = True
 
 '''Description: Most updated library for the un0rick platform. 
 `20190103a`
@@ -242,7 +244,7 @@ class us_spi:
         self.write_fpga(0xED, f_msps)
         self.f_ech = float(64/((1+f_msps)))
         print "Acquisition frequency set at "+str(self.f_ech)+" Msps"
-        return self.f_echself.Nacq
+        return self.f_ech
 
     def do_acquisition(self):
         """
@@ -264,6 +266,7 @@ class us_spi:
         if self.verbose:
             print "Took %.2f seconds to transfer." % delta
             print "for "+str(2*self.Nacq+2)+" transfers of data"
+        self.JSON["N"] = new_n("./",self.JSON["experiment"]["id"])
         name_json = self.JSON["experiment"]["id"]+"-"+str(self.JSON["N"])+".json"
         with open(name_json, 'w') as outfile:
             json.dump(self.JSON, outfile)
@@ -413,6 +416,17 @@ class us_spi:
 #
 ##############
 
+
+def new_n(path,expe_id):
+    os.chdir(path)
+    Nmax = 0
+    for jsonfile in glob.glob("*.json"):
+        if jsonfile.startswith(expe_id):
+            N = int ( jsonfile.split("-")[1].split(".")[0] )
+            if N > Nmax:
+                Nmax = N
+    return Nmax+1
+
 def make_clean(path):
     os.chdir(path)
     if not os.path.exists(path+"data"):
@@ -435,40 +449,45 @@ def metadatag_images_batch(list_modules, exp_id, img_category, img_desc):
     """
         Used to add proper tags to all images. Dangerous to use...
     """
-    Imgs = []
-    for dirpath, dirnames, filenames in os.walk("."):
-        for filename in [f for f in filenames if (f.endswith(".jpg") or f.endswith(".png"))]:
-            Imgs.append(os.path.join(dirpath, filename))
+    if pyexivexists:
+        Imgs = []
+        for dirpath, dirnames, filenames in os.walk("."):
+            for filename in [f for f in filenames if (f.endswith(".jpg") or f.endswith(".png"))]:
+                Imgs.append(os.path.join(dirpath, filename))
 
-    for file_name in Imgs:
+        for file_name in Imgs:
+            metadata = pyexiv2.ImageMetadata(file_name)
+            try:
+                metadata.read()
+            except IOError:
+                print "Not an image"
+            else:
+                # Modules
+                metadata['Exif.Image.Software'] = list_modules # "matty, cletus"
+                metadata['Exif.Image.Make'] = exp_id #"20180516a"
+                metadata['Exif.Photo.MakerNote'] = img_category #"oscilloscope"
+                metadata['Exif.Image.ImageDescription'] = img_desc #"Unpacking data"
+                metadata.write()
+            print file_name, "done"
+    else:
+        print "PyExiv not present"
+    return 0
+
+def tag_image(file_name, Modules, Experiment, Category, Description):
+    if pyexivexists:
         metadata = pyexiv2.ImageMetadata(file_name)
         try:
             metadata.read()
         except IOError:
             print "Not an image"
         else:
-            # Modules
-            metadata['Exif.Image.Software'] = list_modules # "matty, cletus"
-            metadata['Exif.Image.Make'] = exp_id #"20180516a"
-            metadata['Exif.Photo.MakerNote'] = img_category #"oscilloscope"
-            metadata['Exif.Image.ImageDescription'] = img_desc #"Unpacking data"
+            metadata['Exif.Image.Software'] = Modules # "matty, cletus"
+            metadata['Exif.Image.Make'] = Experiment #"20180516a"
+            metadata['Exif.Photo.MakerNote'] = Category #"oscilloscope"
+            metadata['Exif.Image.ImageDescription'] = Description #"Unpacking data"
             metadata.write()
-        print file_name, "done"
-    return 0
-
-def tag_image(file_name, Modules, Experiment, Category, Description):
-
-    metadata = pyexiv2.ImageMetadata(file_name)
-    try:
-        metadata.read()
-    except IOError:
-        print "Not an image"
     else:
-        metadata['Exif.Image.Software'] = Modules # "matty, cletus"
-        metadata['Exif.Image.Make'] = Experiment #"20180516a"
-        metadata['Exif.Photo.MakerNote'] = Category #"oscilloscope"
-        metadata['Exif.Image.ImageDescription'] = Description #"Unpacking data"
-        metadata.write()
+        print "PyExiv not present"
     return 1
 
 class us_json:
@@ -662,17 +681,20 @@ class us_json:
         """
         #file_name = "images/"+self.iD+"-"+str(self.N)+".jpg"
 	#@todo : create images folder if not exists
-        metadata = pyexiv2.ImageMetadata(file_name)
-        try:
-            metadata.read()
-        except IOError:
-            print "Not an image"
+        if pyexivexists:
+            metadata = pyexiv2.ImageMetadata(file_name)
+            try:
+                metadata.read()
+            except IOError:
+                print "Not an image"
+            else:
+                metadata['Exif.Image.Software'] = bricks
+                metadata['Exif.Image.Make'] = experiment_id
+                metadata['Exif.Photo.MakerNote'] = img_type
+                metadata['Exif.Image.ImageDescription'] = img_desc
+                metadata.write()
         else:
-            metadata['Exif.Image.Software'] = bricks
-            metadata['Exif.Image.Make'] = experiment_id
-            metadata['Exif.Photo.MakerNote'] = img_type
-            metadata['Exif.Image.ImageDescription'] = img_desc
-            metadata.write()
+            print "pyexiv does not exist"
 
     def mk2DArray(self):
         """
@@ -863,6 +885,37 @@ if __name__ == "__main__":
             UN0RICK.set_msps(3)                                  # Acquisition Freq
             A = UN0RICK.set_timings(200, 100, 2000, 5000, 200000)# Settings the series of pulses
             UN0RICK.JSON["data"] = UN0RICK.do_acquisition()      # Doing the acquisition and saves
+
+        if "multi" in sys.argv[1]:
+            UN0RICK = us_spi()
+            UN0RICK.init()
+            UN0RICK.test_spi(3)
+            UN0RICK.JSON["firmware_version"]="MATTY_un0rick_20180826.bin"
+            UN0RICK.JSON["experiment"]["description"]="Testing if the lib works"
+            UN0RICK.JSON["experiment"]["probe"]="piezo"
+            UN0RICK.JSON["experiment"]["target"] = "a reflector few cms away"
+            UN0RICK.JSON["V"]="48"
+            UN0RICK.JSON["N"] = 1 # Experiment ID
+            Curve = UN0RICK.create_tgc_curve(300,900,True)[0] # Sets the DAC, 50mV to 850mv
+            UN0RICK.set_tgc_curve(Curve)
+            UN0RICK.set_period_between_acqs(int(2500000)) # 2.5ms
+            UN0RICK.set_multi_lines(True)				        # Multi lines acquisition	
+            UN0RICK.set_acquisition_number_lines(3)				            # Setting the number of lines
+            UN0RICK.set_msps(3) 					            # Acquisition Freq
+            A = UN0RICK.set_timings(200,100,2000,5000,200000)		# Settings the series of pulses
+            UN0RICK.JSON["data"] = UN0RICK.do_acquisition()
+
+        if "process" in sys.argv[1]:
+            make_clean("./")
+            for MyDataFile in os.listdir("./data/"):
+                if MyDataFile.endswith(".json"):
+                    print MyDataFile
+                    y = us_json()
+                    y.JSONprocessing("./data/"+MyDataFile)
+                    y.create_fft() #OK
+                    y.save_npz() 
+                    y.mk2DArray() 
+                    y.mkImg() 
 
         if "loop" in sys.argv[1]:
             UN0RICK = us_spi()
