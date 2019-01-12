@@ -3261,7 +3261,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * [Twisty Little Passages: An Approach to Interactive Fiction (The MIT Press)](https://www.amazon.com/Twisty-Little-Passages-Approach-Interactive-ebook/dp/B005363IMS/)
   * [Interactive Fiction: How to Engage Readers and Push the Boundaries of Storytelling](https://www.amazon.com/Interactive-Fiction-Readers-Boundaries-Storytelling-ebook/dp/B00X2OD8MI/)
   * [Writing Interactive Fiction](https://www.amazon.com/Writing-Interactive-Fiction-Deb-Potter-ebook/dp/B01LZTRL5G/ref=pd_sim_351_4?_encoding=UTF8&pd_rd_i=B01LZTRL5G&pd_rd_r=23ed2c5e-1137-11e9-abfe-9d5f2fa07b29&pd_rd_w=sC0jP&pd_rd_wg=0DX0j&pf_rd_p=18bb0b78-4200-49b9-ac91-f141d61a1780&pf_rd_r=B3B1ZPC2FE4GGPDZGCAA&psc=1&refRID=B3B1ZPC2FE4GGPDZGCAA)
-   * [IF Archive](https://www.ifarchive.org/)
+   * [IF Archive](https://www.ifarchive.org/) - EB
 * @todo coverage for pyUn0 lib, including pypi, https://shields.io/#/, [zenodo](https://guides.github.com/activities/citable-code/),...
 * [Gitbook gestalt](https://plugins.gitbook.com/plugin/theme-gestalt-enhanced)
 * @todo sterling: HV7361 / HV7351 SPI logic ?
@@ -3270,6 +3270,28 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 * Reworked documentation
 * REtromanual [Basic](http://www.atarimania.com/documents/Let_s_Learn_BASIC.pdf)
+
+#### 2019-01-12 NDT and others
+
+* @todo explore NDT with Jorge
+* http://www.ireneposch.net/1-bit-textile/ -- awesome work of textile innovation #art
+* Starting a new 5 batch of v1.1
+* lower power jewellery: http://www.ireneposch.net/linkpin/
+* @todo un0rick / lit3rick : install an initial delay (after trig)
+* MF costs: check how it evolves
+* @todo EB - ESP32 + ICE40
+  * https://www.elektor.fr/esp32-pico-kit-v4 -- https://www.elektor.fr/media/catalog/product/cache/3/thumbnail/9df78eab33525d08d6e5fb8d27136e95/e/s/esp32-pico-kit-dev-board-v4-layout.png
+  * add gyro, eink, LEDs, photodiod, IR ?
+  * 1 PMOD = 8 signals  means if 24, 3PMOD possible
+  * Size: PHAT is 65x30, Business card is 85x50 
+  * 80x45 as an objective ? -> 2 PMODs on opposite to RPI connector, then 2 PMODs on sides
+  * eINK display for ESP ? Eg ikny phat : 212x104 pixel
+  * badgy 2.9" 296x128 pixel
+  * TTGO ESP32 2.9"  display
+  * Tilt sensor / gyro /  .. ?
+  * DEFCON2018 badge https://www.cio.com.au/slideshow/355919/defcon-badge-unlike-anything-ever-seen/
+* Working on the [WVP](/matty/wvp.md)
+
 
 =======
 
