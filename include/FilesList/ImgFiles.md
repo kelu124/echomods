@@ -1028,6 +1028,20 @@
   * 20180403b
   * Testing new version of FPGA bin
   * ./matty/20180403b/p_OK_75V-200us-8-200_100_2000_10_200000-64msps.jpg
+* __/matty/minie/block-diag-lit3rick.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/minie/block-diag-lit3rick.jpg
+* __/matty/minie/block-diag-MAX14688.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/minie/block-diag-MAX14688.jpg
 * __/matty/20180901a/images/2DArray_20180901a-1.jpg__:
   * kelu124
   * matty,kretzaw145ba
