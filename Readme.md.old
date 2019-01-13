@@ -138,6 +138,8 @@ The diagram is represented below:
 
 # Experiments
 
+ * [20191113a](/include/experiments/auto/20191113a.md)
+ * [20190113a](/include/experiments/auto/20190113a.md)
  * 2019-01-11: [faster checks](/include/experiments/auto/20190111a.md): multi, single, process commands for the lib _(20190111a)_
  * 2019-01-04: [lib improvements part II](/include/experiments/auto/20190104a.md): streamlining processing images _(20190104a)_
  * 2019-01-03: [lib improvements](/include/experiments/auto/20190103a.md): streamlining processing images _(20190103a)_
@@ -297,6 +299,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * read IF books and [MUSH](http://www.evennia.com/)
 * coverage for pyUn0 lib, including pypi, https://shields.io/#/, [zenodo](https://guides.github.com/activities/citable-code/),...
 * sterling: HV7361 / HV7351 SPI logic ?
+* explore NDT with Jorge
+* un0rick / lit3rick : install an initial delay (after trig)
+* EB - ESP32 + ICE40
 
 
 

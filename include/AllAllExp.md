@@ -1,5 +1,7 @@
 # Experiments
 
+ * [20191113a](/include/experiments/auto/20191113a.md)
+ * [20190113a](/include/experiments/auto/20190113a.md)
  * 2019-01-11: [faster checks](/include/experiments/auto/20190111a.md): multi, single, process commands for the lib _(20190111a)_
  * 2019-01-04: [lib improvements part II](/include/experiments/auto/20190104a.md): streamlining processing images _(20190104a)_
  * 2019-01-03: [lib improvements](/include/experiments/auto/20190103a.md): streamlining processing images _(20190103a)_

@@ -82,6 +82,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * read IF books and [MUSH](http://www.evennia.com/)
 * coverage for pyUn0 lib, including pypi, https://shields.io/#/, [zenodo](https://guides.github.com/activities/citable-code/),...
 * sterling: HV7361 / HV7351 SPI logic ?
+* explore NDT with Jorge
+* un0rick / lit3rick : install an initial delay (after trig)
+* EB - ESP32 + ICE40
 
 
 
