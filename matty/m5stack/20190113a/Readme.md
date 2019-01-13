@@ -1,3 +1,31 @@
+# Experiment `20190113a`
+
+New tests with m5stack
+
+__BEWARE__ white screens may occur if connections are wrong.
+
+## Photos and connections
+
+Overall setup
+
+![](/matty/m5stack/20190113a/P_20190113_180815.jpg)
+
+#### Detail of m5stack box
+
+![](/matty/m5stack/20190113a/P_20190113_180843.jpg)
+
+#### Detail of RPi header 
+
+![](/matty/m5stack/20190113a/P_20190113_180907.jpg)
+
+#### Back of m5stack
+
+![](/matty/m5stack/20190113a/P_20190113_180928.jpg)
+
+
+## Code
+
+```
 #include <SPI.h>
 #include <M5Stack.h>
 
@@ -283,4 +311,6 @@ void loop() {
   buttons_test();
   M5.update();
 }
+```
+
 
