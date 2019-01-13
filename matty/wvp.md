@@ -40,6 +40,7 @@ __Growing plan for 2019__
 * __Threats__
   * Trolls
   * Copycats
+  * fpga still scares
 
 ### Strategies
 
@@ -63,6 +64,7 @@ __Growing plan for 2019__
   * Community to self-maintain and defend: need to increase community
   * Let copycats get the older designs
   * be open about project shortcomings
+  * do not speak about fpga ?
 
 ## Assets
 
