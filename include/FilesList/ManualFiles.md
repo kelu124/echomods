@@ -98,6 +98,8 @@
 
 * [./matty/pHATrick/concept.md](/matty/pHATrick/concept.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
+* [./matty/pHATrick/20190223/Readme.md](/matty/pHATrick/20190223/Readme.md):  . File used in: [`/include/experiments/auto/20190223.md`](/include/experiments/auto/20190223.md).
+
 * [./matty/20180511a/Readme.md](/matty/20180511a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -124,7 +126,7 @@
 
 * [./retired/alt.tbo/test/Readme.md](/retired/alt.tbo/test/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./retired/alt.tbo/20171001a/Readme.md](/retired/alt.tbo/20171001a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20171001a.md`](/include/experiments/auto/Code_20171001a.md).
+* [./retired/alt.tbo/20171001a/Readme.md](/retired/alt.tbo/20171001a/Readme.md):  . _File not used._
 
 * [./retired/alt.tbo/20171028a/Readme.md](/retired/alt.tbo/20171028a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
@@ -469,7 +471,7 @@
 
 * [./include/images/hp2121/Readme.md](/include/images/hp2121/Readme.md):  . _File not used._
 
-* [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . File used in: [`/include/experiments/auto/20181013a.md`](/include/experiments/auto/20181013a.md), [`/include/experiments/auto/Code_20181013a.md`](/include/experiments/auto/Code_20181013a.md).
+* [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . File used in: [`/include/experiments/auto/20181013a.md`](/include/experiments/auto/20181013a.md).
 
 * [./include/images/ausonics75/20180809b/Readme.md](/include/images/ausonics75/20180809b/Readme.md):  . _File not used._
 

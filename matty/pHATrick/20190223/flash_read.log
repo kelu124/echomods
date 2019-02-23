@@ -1,0 +1,111 @@
+JEDEC ID : ef 30 13 
+Unique ID : d7 67 64 c2 b 83 62 
+Read Data: n=256
+----------------------------------------------------------
+00000: 30 31 32 33 34 35 36 37 38 39 41 42 43 44 45 46 |a2 
+00010: 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 |e8 
+00020: 57 58 59 5a ff ff ff ff ff ff ff ff ff ff ff ff |56 
+00030: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00040: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00050: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00060: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00070: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00080: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00090: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000a0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000b0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000c0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000d0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000e0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000f0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+----------------------------------------------------------
+       c1 c4 c7 ca 71 73 75 77 79 7b 84 86 88 8a 8c 8e |10 
+
+Fast Read Data: n=256
+----------------------------------------------------------
+00000: 30 31 32 33 34 35 36 37 38 39 41 42 43 44 45 46 |a2 
+00010: 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 |e8 
+00020: 57 58 59 5a ff ff ff ff ff ff ff ff ff ff ff ff |56 
+00030: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00040: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00050: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00060: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00070: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00080: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00090: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000a0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000b0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000c0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000d0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000e0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000f0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+----------------------------------------------------------
+       c1 c4 c7 ca 71 73 75 77 79 7b 84 86 88 8a 8c 8e |10 
+
+Erase Sector(0): n=1
+----------------------------------------------------------
+00000: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00010: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00020: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00030: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00040: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00050: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00060: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00070: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00080: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00090: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000a0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000b0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000c0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000d0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000e0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000f0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+----------------------------------------------------------
+       f0 f0 f0 f0 f0 f0 f0 f0 f0 f0 f0 f0 f0 f0 f0 f0 |00 
+
+page_write(0,10,d,26): n=30
+Read Data: n=256
+----------------------------------------------------------
+00000: ff ff ff ff ff ff ff ff ff ff 41 42 43 44 45 46 |8b 
+00010: 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 |e8 
+00020: 57 58 59 5a ff ff ff ff ff ff ff ff ff ff ff ff |56 
+00030: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00040: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00050: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00060: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00070: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00080: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00090: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000a0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000b0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000c0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000d0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000e0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000f0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+----------------------------------------------------------
+       90 92 94 96 3c 3d 3e 3f 40 41 84 86 88 8a 8c 8e |f9 
+
+page_write(0,0,d,10): n=14
+Fast Read Data: n=256
+----------------------------------------------------------
+00000: 30 31 32 33 34 35 36 37 38 39 41 42 43 44 45 46 |a2 
+00010: 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 |e8 
+00020: 57 58 59 5a ff ff ff ff ff ff ff ff ff ff ff ff |56 
+00030: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00040: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00050: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00060: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00070: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00080: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+00090: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000a0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000b0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000c0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000d0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000e0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+000f0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff |f0 
+----------------------------------------------------------
+       c1 c4 c7 ca 71 73 75 77 79 7b 84 86 88 8a 8c 8e |10 
+
+Status Register-1: 0
+Status Register-2: 0
