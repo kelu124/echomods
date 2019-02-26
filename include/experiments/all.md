@@ -54,6 +54,6 @@
 * 20190103a: lib improvements: streamlining processing images
 * 20190104a: lib improvements part II: streamlining processing images
 * 20190111a: faster checks: multi, single, process commands for the lib
-
+* 20190226a: flashing UP5K sran: using a m5stack to flash the sram of the up5K, temporarily, through a web interface 
 
 
