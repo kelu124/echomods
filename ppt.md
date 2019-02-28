@@ -115,7 +115,6 @@ _Total cost of the set: 443$_
 
 # Experiments
 
- * [20191113a](/include/experiments/auto/20191113a.md)
  * 2019-02-26: [flashing UP5K sran](/include/experiments/auto/20190226a.md): using a m5stack to flash the sram of the up5K, temporarily, through a web interface _(20190226a)_
  * [20190223a](/include/experiments/auto/20190223a.md)
  * [20190113a](/include/experiments/auto/20190113a.md)

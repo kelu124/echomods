@@ -30,5 +30,3 @@ title: 2019-01-12 NDT and others
     https://www.cio.com.au/slideshow/355919/defcon-badge-unlike-anything-ever-seen/
 -   Working on the [WVP](/matty/wvp.md)
 
-=======
-
