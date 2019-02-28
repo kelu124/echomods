@@ -85,6 +85,15 @@ Here's a couple of things we're working on, for which you could help as well.
 * explore NDT with Jorge
 * un0rick / lit3rick : install an initial delay (after trig)
 * EB - ESP32 + ICE40
+* rework echomods page
+* rework un0rick page (with new logo / gifs / support / ...)
+* : add options to pyUn0 lib
+* follow the specialisation from beg of march ? https://www.coursera.org/specializations/data-science-python
+ * [include the book](https://www.abebooks.com/servlet/SearchResults?isbn=9780394707891&n=100121503&cm_sp=mbc-_-ISBN-_-used) as an insipration for lit3rick ?
+* prepare a page for NDT piezos.. the same way there is one for probes.. or on same ?
+* lit3rick vF : add rounded edges, connections on other pins from the board for flash CS, passer all IOs sur le header RPI, cacher les SCK du controle HV et back de la carte: passer un header go-through.
+* echomods: Rewrite landing page echomods
+* include on echomods readme : Support paragraph as in https://github.com/pi-hole/pi-hole
 
 
 

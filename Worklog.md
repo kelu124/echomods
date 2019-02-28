@@ -3292,6 +3292,64 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * DEFCON2018 badge https://www.cio.com.au/slideshow/355919/defcon-badge-unlike-anything-ever-seen/
 * Working on the [WVP](/matty/wvp.md)
 
+#### 2019-01-08 Awesome readmes
+
+* READMEs: https://github.com/PharkMillups/beautiful-docs
+* AWESOME LISTS : https://github.com/sindresorhus/awesome
+* https://github.com/sindresorhus/awesome/blob/master/create-list.md
+* https://github.com/sindresorhus/awesome/blob/master/pull_request_template.md
+* @todo rework echomods page
+* @todo rework un0rick page (with new logo / gifs / support / ...)
+* @todo : add options to pyUn0 lib
+
+
+#### 2019-02-08 Moocs to follow 
+
+* @todo follow the specialisation from beg of march  ? https://www.coursera.org/specializations/data-science-python
+* https://github.com/coursera-dl/coursera-dl
+* fun https://blog.floydhub.com/instagram-street-art/
+
+
+#### 2019-02-13 Elementary Basic as Chronicled by John H Watson
+
+* https://github.com/zacharyvoase/humanhash
+* https://www.abebooks.com/servlet/SearchResults?isbn=9780394707891&n=100121503&cm_sp=mbc-_-ISBN-_-used
+  * @todo [include the book](https://www.abebooks.com/servlet/SearchResults?isbn=9780394707891&n=100121503&cm_sp=mbc-_-ISBN-_-used) as an insipration for lit3rick ?
+
+#### 2019-02-15 Moar piezos 
+
+* abil
+  * https://www.alibaba.com/product-detail/GOWORLD-submersible-piezoelectric-underwater-immersible-ultrasonic_60696546066.html?spm=a2700.8592591.0.0.fcd810a9Lk6hky
+* Jorge
+  * https://www.alibaba.com/product-detail/NDT-Straight-Angle-Beam-transducer-sensors_60752888953.html?spm=a2700.7724838.2017115.198.12067c84XcXzww
+  * https://www.alibaba.com/product-detail/yushi-PT-12-probe-ndt-ultrasonic_60557426233.html?spm=a2700.7724838.2017115.222.12067c84XcXzww
+* @todo prepare a page for NDT piezos.. the same way there is one for probes.. or on same ?
+
+#### 2019-02-17 lit3rick interfacing
+
+* https://forum.mystorm.uk/t/raspberry-pi-zero-connection/393/21
+* icezprog : https://github.com/cliffordwolf/icotools/issues/3 and some customising
+
+#### 2019-02-24 Rework on todos
+
+* @todo lit3rick vF : add rounded edges, connections on other pins from the board for flash CS, passer all IOs sur le header RPI, cacher les SCK du controle HV et back de la carte: passer un header go-through.
+* UP5K flashing
+  * UP5K RGB: https://github.com/cliffordwolf/icestorm/tree/master/examples/up5k_rgb
+  * Upload a FPGA ice40 bitstream via curl using a ESP32 in arduino  : https://github.com/kelu124/ice40_esp32_bitstream_upload 
+  * Why not through a M5STACK ? 
+
+
+
+#### 2019-02-26 First bin on up5k
+
+* Yeayyy using an [esp32 with the lit3rick flash issue](https://github.com/kelu124/echomods/tree/master/matty/20190226a)
+
+#### 2019-02-27 IP and IA
+
+* Search for: neural networks "derivative works" of datasets
+* [Lex Fridman](https://twitter.com/lexfridman/status/1096052394453098502) on Twitter: If a neural network generates an image, who owns the copyright? The owner of the dataset that the net was trained on? The designer of the network architecture? The person running the code? Or... the AI system itself?
+* @todo echomods: Rewrite landing page echomods
+* @todo include on echomods readme : Support paragraph as in https://github.com/pi-hole/pi-hole
 
 =======
 
