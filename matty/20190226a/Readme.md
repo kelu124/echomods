@@ -1,4 +1,4 @@
-# `20190126a` - Flashing the sram
+# `20190226a` - Flashing the sram
 
 ### Files
 
