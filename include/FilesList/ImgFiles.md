@@ -531,6 +531,13 @@
   * ToTag
   * ToTag
   * ./matty/20180403a/24c-75V7-AAC8us-VGA@0x11-spimode1-21msps.jpg
+* __/matty/HV/MIC3172.jpg__:
+  * Jorge Arija
+  * Picasa
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/HV/MIC3172.jpg
 * __/matty/20180227a/One-5-VGA@0x22-spimode1-64msps.jpg__:
   * kelu124
   * matty
@@ -5914,6 +5921,27 @@
   * ToTag
   * ToTag
   * ./matty/v0.1/images/logo/logo_small.png
+* __/matty/HV/MAX668.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/HV/MAX668.png
+* __/matty/HV/NMT0572SC.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/HV/NMT0572SC.png
+* __/matty/HV/LT3494.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/HV/LT3494.png
 * __/matty/20180506a/images/IMAG001.png__:
   * kelu124
   * matty,cletus
