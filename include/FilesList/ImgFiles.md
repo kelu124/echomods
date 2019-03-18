@@ -3863,6 +3863,13 @@
   * ToTag
   * ToTag
   * ./include/community/WeiTing/50163178_1160607547434842_782807753050554368_n.jpg
+* __/include/community/Jorge/IMG_20190315_132733.jpg__:
+  * Jorge
+  * goblin,tobo.lite
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Jorge/IMG_20190315_132733.jpg
 * __/include/community/Kevin/motherboard setup.jpg__:
   * Kevin
   * lite.tbo,goblin,doj,elmo
@@ -5928,6 +5935,13 @@
   * ToTag
   * ToTag
   * ./matty/HV/MAX668.png
+* __/matty/HV/MAX1856.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/HV/MAX1856.png
 * __/matty/HV/NMT0572SC.png__:
   * kelu124
   * matty
@@ -5935,6 +5949,13 @@
   * ToTag
   * ToTag
   * ./matty/HV/NMT0572SC.png
+* __/matty/HV/HV9150.png__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/HV/HV9150.png
 * __/matty/HV/LT3494.png__:
   * kelu124
   * matty

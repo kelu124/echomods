@@ -390,6 +390,10 @@ Here's a couple of things we're working on, for which you could help as well.
 * lit3rick vF : add rounded edges, connections on other pins from the board for flash CS, passer all IOs sur le header RPI, cacher les SCK du controle HV et back de la carte: passer un header go-through.
 * echomods: Rewrite landing page echomods
 * include on echomods readme : Support paragraph as in https://github.com/pi-hole/pi-hole
+* @toorder hv9150db1 - LED drivers (MAX?) - SMAs
+ * [#NSA1166 sourcing](https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10001&productId=2210976&catalogId=10001&langId=-1&CID=octopart)
+* backpack for #NSA1166
+* better landing page:
 
 
 
