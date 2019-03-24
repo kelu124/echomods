@@ -35,6 +35,18 @@ Also, Microchip has this other reference design based on MIC3172 that also can b
 
 ![](/matty/HV/NMT0572SC.png)
 
+### max15031
+
+The MAX15031 consists of a constant-frequency pulse-width modulating (PWM) step-up DC-DC converter with an internal switch and a high-side current monitor with high-speed adjustable current limiting. This device can generate output voltages up to 76V and provides current monitoring up to 4mA (up to 300mW). 
+
+ Internal soft-start circuitry limits the input current when the boost converter starts. The MAX15031 features a shutdown mode to save power.
+
+The MAX15031 includes a current monitor with more than three decades of dynamic range and monitors current ranging from 500nA to 4mA with high accuracy. Resistor-adjustable current limiting protects the APD from optical power transients. A clamp diode protects the monitor's output from overvoltage conditions. Other protection features include cycle-by-cycle current limiting of the boost converter switch, undervoltage lockout, and thermal shutdown if the die temperature reaches +160°C.
+
+https://www.digikey.com/catalog/en/partgroup/max15031-evaluation-kit/50986
+
+![](/matty/HV/MAX15031.gif)
+
 ### MAX1856
 
 Flyback Transformer Design for MAX1856 SLIC Power Supplies - Application Note - Maxim

@@ -98,6 +98,9 @@ Here's a couple of things we're working on, for which you could help as well.
  * [#NSA1166 sourcing](https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10001&productId=2210976&catalogId=10001&langId=-1&CID=octopart)
 * backpack for #NSA1166
 * better landing page:
+* first shots with lit3rick
+* harmonize between lit3rick, pHATrick, minie, minny
+* receive lomos and test for NDTs
 
 
 
