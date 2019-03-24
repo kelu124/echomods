@@ -36,9 +36,7 @@ title: 2019-03-18 Random stuff
 -   Tindie, slack, Community
 -   F. DISC/LICENSE
 
-Other pages under /include/worklog/ - Source articles : \# article -
-Other articles ? Add all sentences with hastag, remove it + link, strip,
-add. - Source bibliographie from biblio
-
-=======
+Other pages under /include/worklog/ - Source articles : @article - Other
+articles ? Add all sentences with hastag, remove it + link, strip, add.
+- Source bibliographie from biblio
 
