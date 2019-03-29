@@ -138,7 +138,8 @@ The diagram is represented below:
 
 # Experiments
 
- * [20190324a](/include/experiments/auto/20190324a.md)
+ * 2019-03-29: [NDT dual transducer](/include/experiments/auto/20190329a.md): understanding the transducer _(20190329a)_
+ * 2019-03-24: [lit3rick](/include/experiments/auto/20190324a.md): testing at first the pulser _(20190324a)_
  * 2019-02-26: [flashing UP5K sran](/include/experiments/auto/20190226a.md): using a m5stack to flash the sram of the up5K, temporarily, through a web interface _(20190226a)_
  * 2019-02-23: [Testing pHATrick flash](/include/experiments/auto/20190223a.md): Testing pHATrick flash _(20190223a)_
  * 2019-01-13: [m5stack bis](/include/experiments/auto/20190113a.md): retesting with details the m5stack experiment _(20190113a)_

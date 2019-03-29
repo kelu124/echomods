@@ -57,5 +57,6 @@
 * 20190226a: flashing UP5K sran: using a m5stack to flash the sram of the up5K, temporarily, through a web interface
 * 20190223a: Testing pHATrick flash: Testing pHATrick flash
 * 20190113a: m5stack bis: retesting with details the m5stack experiment 
-
+* 20190324a: lit3rick: testing at first the pulser 
+* 20190329a: NDT dual transducer: understanding the transducer  
 

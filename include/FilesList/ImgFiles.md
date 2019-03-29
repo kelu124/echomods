@@ -1546,6 +1546,97 @@
   * 20180224b
   * Setup of the experiment
   * ./matty/20180224b/images/IMG_20180224_195210.jpg
+* __/matty/20190329a/images/20190329a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190329a
+  * FFT of the of 20190329a experiment. First position of dual SMAs - wrong position
+  * ./matty/20190329a/images/20190329a-1-fft.jpg
+* __/matty/20190329a/images/20190329a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190329a
+  * FFT of the of 20190329a experiment. Good pulser element identified, tx/rx on single path
+  * ./matty/20190329a/images/20190329a-2-fft.jpg
+* __/matty/20190329a/images/20190329a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190329a
+  * Automated image of 20190329a experiment. Good pulser element identified, tx/rx on single path
+  * ./matty/20190329a/images/20190329a-2.jpg
+* __/matty/20190329a/images/details_15-18_20190329a-5.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190329a
+  * Details of acquisition between us 15 and 18.
+  * ./matty/20190329a/images/details_15-18_20190329a-5.jpg
+* __/matty/20190329a/images/20190329a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190329a
+  * Automated image of 20190329a experiment. Good position identified for pulser, tx/rx single, shooting on 25mm target
+  * ./matty/20190329a/images/20190329a-3.jpg
+* __/matty/20190329a/images/20190329a-4.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190329a
+  * Automated image of 20190329a experiment. Separate TX/RX, no target
+  * ./matty/20190329a/images/20190329a-4.jpg
+* __/matty/20190329a/images/20190329a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190329a
+  * FFT of the of 20190329a experiment. Good position identified for pulser, tx/rx single, shooting on 25mm target
+  * ./matty/20190329a/images/20190329a-3-fft.jpg
+* __/matty/20190329a/images/details_10-40_20190329a-5.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190329a
+  * Details of acquisition between us 10 and 40.
+  * ./matty/20190329a/images/details_10-40_20190329a-5.jpg
+* __/matty/20190329a/images/20190329a-4-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190329a
+  * FFT of the of 20190329a experiment. Separate TX/RX, no target
+  * ./matty/20190329a/images/20190329a-4-fft.jpg
+* __/matty/20190329a/images/20190329a-5.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190329a
+  * Automated image of 20190329a experiment. Separate tx/rx, good pulser element, on target 25mm
+  * ./matty/20190329a/images/20190329a-5.jpg
+* __/matty/20190329a/images/20190329a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190329a
+  * Automated image of 20190329a experiment. First position of dual SMAs - wrong position
+  * ./matty/20190329a/images/20190329a-1.jpg
+* __/matty/20190329a/images/20190329a-5-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190329a
+  * FFT of the of 20190329a experiment. Separate tx/rx, good pulser element, on target 25mm
+  * ./matty/20190329a/images/20190329a-5-fft.jpg
+* __/matty/20190329a/images/details_25-27_20190329a-5.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190329a
+  * Details of acquisition between us 25 and 27.
+  * ./matty/20190329a/images/details_25-27_20190329a-5.jpg
 * __/matty/20190104a/images/2DArray_20190104a-2.jpg__:
   * kelu124
   * matty, piezo
