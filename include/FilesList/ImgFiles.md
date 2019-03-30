@@ -1546,6 +1546,27 @@
   * 20180224b
   * Setup of the experiment
   * ./matty/20180224b/images/IMG_20180224_195210.jpg
+* __/matty/20190329a/photos/P_20190329_214504.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * setup
+  * 20190329a
+  * setup
+  * ./matty/20190329a/photos/P_20190329_214504.jpg
+* __/matty/20190329a/photos/P_20190329_214159.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * setup
+  * 20190329a
+  * setup
+  * ./matty/20190329a/photos/P_20190329_214159.jpg
+* __/matty/20190329a/images/2DArray_20190329a-5.jpg__:
+  * kelu124
+  * matty, dualNDT5MHz
+  * BC
+  * 20190329a
+  * Experiment: 20190329a-5. Duration: 98.0us (100000 - 2000), for 10 repeats each 2500.0us. Fech = 64.0Msps, total of 6272.0 pts per line, Nacq = 10. Separate tx/rx, good pulser element, on target 25mm, probe: dualNDT5MHz, target = calib_block. Timestamp = 2019-03-29 21:44:48.853785
+  * ./matty/20190329a/images/2DArray_20190329a-5.jpg
 * __/matty/20190329a/images/20190329a-1-fft.jpg__:
   * kelu124
   * matty, cletus
@@ -1560,6 +1581,18 @@
   * 20190329a
   * FFT of the of 20190329a experiment. Good pulser element identified, tx/rx on single path
   * ./matty/20190329a/images/20190329a-2-fft.jpg
+* __/matty/20190329a/images/details_0-90_20190329a-5.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * signal
+  * 20190329a
+  * Experiment: 20190329a-5
+Duration: 98.0us (100000 - 2000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 6272.0 pts per line, Nacq = 10
+Separate tx/rx, good pulser element, on target 25mm, probe: dualNDT5MHz, target = calib_block
+Timestamp = 2019-03-29 21:44:48.853785
+Details of acquisition between us 0 and 90.
+  * ./matty/20190329a/images/details_0-90_20190329a-5.jpg
 * __/matty/20190329a/images/20190329a-2.jpg__:
   * kelu124
   * matty
@@ -1572,7 +1605,12 @@
   * matty,dualNDT5MHz
   * graph
   * 20190329a
-  * Details of acquisition between us 15 and 18.
+  * Experiment: 20190329a-5
+Duration: 98.0us (100000 - 2000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 6272.0 pts per line, Nacq = 10
+Separate tx/rx, good pulser element, on target 25mm, probe: dualNDT5MHz, target = calib_block
+Timestamp = 2019-03-29 21:44:48.853785
+Details of acquisition between us 15 and 18.
   * ./matty/20190329a/images/details_15-18_20190329a-5.jpg
 * __/matty/20190329a/images/20190329a-3.jpg__:
   * kelu124
@@ -1581,6 +1619,18 @@
   * 20190329a
   * Automated image of 20190329a experiment. Good position identified for pulser, tx/rx single, shooting on 25mm target
   * ./matty/20190329a/images/20190329a-3.jpg
+* __/matty/20190329a/images/details_alllines_avg_32.2-33_20190329a-5.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * hilbert,signal
+  * 20190329a
+  * Experiment: 20190329a-5
+Duration: 98.0us (100000 - 2000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 6272.0 pts per line, Nacq = 10
+Separate tx/rx, good pulser element, on target 25mm, probe: dualNDT5MHz, target = calib_block
+Timestamp = 2019-03-29 21:44:48.853785
+Details of Hilbert acquisition between us 32.2 and 33.
+  * ./matty/20190329a/images/details_alllines_avg_32.2-33_20190329a-5.jpg
 * __/matty/20190329a/images/20190329a-4.jpg__:
   * kelu124
   * matty
@@ -1600,7 +1650,12 @@
   * matty,dualNDT5MHz
   * graph
   * 20190329a
-  * Details of acquisition between us 10 and 40.
+  * Experiment: 20190329a-5
+Duration: 98.0us (100000 - 2000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 6272.0 pts per line, Nacq = 10
+Separate tx/rx, good pulser element, on target 25mm, probe: dualNDT5MHz, target = calib_block
+Timestamp = 2019-03-29 21:44:48.853785
+Details of acquisition between us 10 and 40.
   * ./matty/20190329a/images/details_10-40_20190329a-5.jpg
 * __/matty/20190329a/images/20190329a-4-fft.jpg__:
   * kelu124
@@ -1635,7 +1690,12 @@
   * matty,dualNDT5MHz
   * graph
   * 20190329a
-  * Details of acquisition between us 25 and 27.
+  * Experiment: 20190329a-5
+Duration: 98.0us (100000 - 2000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 6272.0 pts per line, Nacq = 10
+Separate tx/rx, good pulser element, on target 25mm, probe: dualNDT5MHz, target = calib_block
+Timestamp = 2019-03-29 21:44:48.853785
+Details of acquisition between us 25 and 27.
   * ./matty/20190329a/images/details_25-27_20190329a-5.jpg
 * __/matty/20190104a/images/2DArray_20190104a-2.jpg__:
   * kelu124
