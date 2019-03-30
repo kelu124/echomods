@@ -9,7 +9,7 @@ import json
 import time
 import datetime
 import os,glob
-import sys
+import sys,re
 import spidev
 import numpy as np
 import matplotlib.pyplot as plt
@@ -160,9 +160,10 @@ class us_spi:
         """
         Basic function to write registers value to the FPGA
         """
-        self.spi.xfer([0xAA])
-        self.spi.xfer([adress])
-        self.spi.xfer([value])
+	if gpioexists:
+            self.spi.xfer([0xAA])
+            self.spi.xfer([adress])
+            self.spi.xfer([value])
         self.JSON["registers"][int(adress)] = value
 
 
@@ -170,31 +171,33 @@ class us_spi:
         """
         Initialises the FPGA
         """
-
-        GPIO.setmode(GPIO.BCM)
-        PRESET = 23 ## Reset for the FPGA
-        IO4 = 26 ## 26 is the output connected to
-        #@todo check 3 lines below
-        CS_FLASH = 7
-        GPIO.setup(CS_FLASH,GPIO.OUT)  
-        GPIO.output(CS_FLASH,GPIO.LOW)
-        
-        GPIO.setup(PRESET, GPIO.OUT)
-        GPIO.setup(IO4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-        
-        print "Reset GPIO 23 - Low 1s"
-        GPIO.output(PRESET, GPIO.LOW)
-        time.sleep(3)
-        print "Reset GPIO 23 - High 0.2s"
-        GPIO.output(PRESET, GPIO.HIGH)
-        time.sleep(0.2)
-        self.spi.open(0, 0) # CS2 - FPGA, on CE1 = IO4
-        self.spi.mode = 0b01
-        self.spi.max_speed_hz = 2000000
-        if self.verbose:
-            print "spi.cshigh is " + str(self.spi.cshigh)
-            print "spi mode is " + str(self.spi.mode)
-            print "spi maxspeed is "+str(self.spi.max_speed_hz)+"hz"
+	if gpioexists:
+		GPIO.setmode(GPIO.BCM)
+		PRESET = 23 ## Reset for the FPGA
+		IO4 = 26 ## 26 is the output connected to
+		#@todo check 3 lines below
+		CS_FLASH = 7
+		GPIO.setup(CS_FLASH,GPIO.OUT)  
+		GPIO.output(CS_FLASH,GPIO.LOW)
+		
+		GPIO.setup(PRESET, GPIO.OUT)
+		GPIO.setup(IO4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+		
+		print "Reset GPIO 23 - Low 1s"
+		GPIO.output(PRESET, GPIO.LOW)
+		time.sleep(3)
+		print "Reset GPIO 23 - High 0.2s"
+		GPIO.output(PRESET, GPIO.HIGH)
+		time.sleep(0.2)
+		self.spi.open(0, 0) # CS2 - FPGA, on CE1 = IO4
+		self.spi.mode = 0b01
+		self.spi.max_speed_hz = 2000000
+		if self.verbose:
+		    print "spi.cshigh is " + str(self.spi.cshigh)
+		    print "spi mode is " + str(self.spi.mode)
+		    print "spi maxspeed is "+str(self.spi.max_speed_hz)+"hz"
+	else:
+		print("Not running from a raspberry")
 
     #----------------
     # Testing functions
@@ -262,21 +265,24 @@ class us_spi:
         time.sleep(1) 
         milestone = self.Nacq / 5
         start = time.time()
-        for i in range(2*self.Nacq+2):
-            self.JSON["data"].append(self.spi.xfer([0x00])[0])
-            if not (i%milestone) and self.verbose:
-                print str((50*i)/self.Nacq)+"% - "+str(self.JSON["data"][-1])
-        end = time.time()
-        delta = end - start
-        if self.verbose:
-            print "Took %.2f seconds to transfer." % delta
-            print "for "+str(2*self.Nacq+2)+" transfers of data"
-        self.JSON["N"] = new_n("./",self.JSON["experiment"]["id"])
-        name_json = self.JSON["experiment"]["id"]+"-"+str(self.JSON["N"])+".json"
-        with open(name_json, 'w') as outfile:
-            json.dump(self.JSON, outfile)
-        if self.verbose:
-            print name_json+": file saved."
+	if gpioexists:
+		for i in range(2*self.Nacq+2):
+		    self.JSON["data"].append(self.spi.xfer([0x00])[0])
+		    if not (i%milestone) and self.verbose:
+		        print str((50*i)/self.Nacq)+"% - "+str(self.JSON["data"][-1])
+		end = time.time()
+		delta = end - start
+		if self.verbose:
+		    print "Took %.2f seconds to transfer." % delta
+		    print "for "+str(2*self.Nacq+2)+" transfers of data"
+		self.JSON["N"] = new_n("./",self.JSON["experiment"]["id"])
+		name_json = self.JSON["experiment"]["id"]+"-"+str(self.JSON["N"])+".json"
+		with open(name_json, 'w') as outfile:
+		    json.dump(self.JSON, outfile)
+		if self.verbose:
+		    print name_json+": file saved."
+	else:
+		print "Not on a RPI"
         return self.JSON["data"]
 
     def set_acquisition_number_lines(self, n):
@@ -867,14 +873,81 @@ class us_json:
 
 ##############
 #
+# Support
+#
+##############
+
+def ConfigFromTxt(UN0RICK,filepath):
+    """
+	Used with -f to get inputs from file.
+    """
+    ConfigText = {}
+    with open(filepath) as fp:  
+	line = fp.readline()
+	while line:
+	    line = line.replace("* ","").replace(": ",":")
+	    #print line
+	    line = re.sub("[\(\[].*?[\)\]]", "", line).strip()
+	    if len(line):
+                keys = line.split(":")
+                if len(keys)==2:
+		    if keys[1].isdigit():
+			ConfigText[keys[0]] = float(keys[1])
+		    else:
+		        ConfigText[keys[0]] = keys[1]	
+	    line = fp.readline()
+
+    if "bandwidthpiezo" in ConfigText.keys():
+	UN0RICK.Bandwidth = ConfigText["bandwidthpiezo"]
+    if "fpiezo" in ConfigText.keys():
+	UN0RICK.fPiezo = ConfigText["fpiezo"]
+    if "description" in ConfigText.keys():
+        UN0RICK.JSON["experiment"]["description"] = ConfigText["description"]
+    if "target" in ConfigText.keys():
+	UN0RICK.JSON["experiment"]["target"] =  ConfigText["target"]
+    if "probe" in ConfigText.keys():
+	UN0RICK.JSON["experiment"]["probe"] = ConfigText["probe"]
+    if "freq" in ConfigText.keys():
+	UN0RICK.set_msps(ConfigText["freq"])  
+    if "nlines" in ConfigText.keys():
+	UN0RICK.set_acquisition_number_lines(int(ConfigText["nlines"]))  
+    if "interlinedelay" in ConfigText.keys():
+	ILD = ConfigText["interlinedelay"]*1000
+	UN0RICK.set_period_between_acqs(int(ILD))   
+    if "gain" in ConfigText.keys():
+	G1,G2 = ConfigText["gain"].split(",")
+	G1,G2 = int(G1),int(G2)
+        TGCC = UN0RICK.create_tgc_curve(G1, G2, True)[0]   
+        UN0RICK.set_tgc_curve(TGCC)
+    if "acqtiming" in ConfigText.keys():
+	T1,T2 = ConfigText["acqtiming"].split(",")
+	T1,T2 = int(T1),int(T2)
+	A = UN0RICK.set_timings(200, 100, 1000, T1, T2)
+
+    print ConfigText
+
+    UN0RICK.JSON["ConfigText"] = ConfigText
+
+    return UN0RICK
+
+##############
+#
 # Main
 #
 ##############
+
+
+
 
 if __name__ == "__main__":
     print "Loaded!"
 
     if len(sys.argv) > 1:
+	if (sys.argv[1] == "-f" ) and (len(sys.argv) == 3) and (os.path.exists(sys.argv[2])):
+	    print("file exists - OK")
+            UN0RICK = us_spi()
+	    UN0RICK = ConfigFromTxt(UN0RICK,sys.argv[2])
+	    UN0RICK.JSON["data"] = UN0RICK.do_acquisition()
 
         if "test" in sys.argv[1]:
             UN0RICK = us_spi()
