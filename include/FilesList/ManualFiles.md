@@ -94,6 +94,8 @@
 
 * [./matty/ideas/ideas.md](/matty/ideas/ideas.md):  . _File not used._
 
+* [./matty/20190404a/ndt.exp.md](/matty/20190404a/ndt.exp.md):  . File used in: [`/include/experiments/auto/20190404a.md`](/include/experiments/auto/20190404a.md).
+
 * [./matty/m5stack/Readme.md](/matty/m5stack/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/Readme.md`](/Readme.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./matty/m5stack/20190113a/Readme.md](/matty/m5stack/20190113a/Readme.md):  . _File not used._
@@ -423,6 +425,8 @@
 
 * [./include/community/Young/Readme.md](/include/community/Young/Readme.md):  . _File not used._
 
+* [./include/community/Fadhli/Readme.md](/include/community/Fadhli/Readme.md):  . _File not used._
+
 * [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  . _File not used._
 
 * [./include/community/Shinobu/Readme.md](/include/community/Shinobu/Readme.md):  . _File not used._
@@ -481,7 +485,7 @@
 
 * [./include/images/kretzaw145ba/20180811a/Readme.md](/include/images/kretzaw145ba/20180811a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180809a.md`](/include/experiments/auto/Code_20180809a.md), [`/include/experiments/auto/20180809a.md`](/include/experiments/auto/20180809a.md).
+* [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180809a.md`](/include/experiments/auto/Code_20180809a.md).
 
 * [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).
 
