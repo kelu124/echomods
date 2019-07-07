@@ -42,3 +42,7 @@
 * 2018-08-21: [An ultrasound driver](https://www.ultrasoundresearchgroup.com/an-ultrasound-driver-with-open-source-fpgas/)
 * 2018-09-09 : [In steemhunt](https://steemhunt.com/@truthsfinder/murgen-an-open-source-ultrasound-imaging-dev-kit-side-project)
 * 2018-11-25: [On debian.org](https://wiki.debian.org/PaulWise/InterestingSoftware)
+* 2018-04-24: [A DIY Ultrasound Built with an Arduino](https://blog.hackster.io/a-diy-ultrasound-built-with-an-arduino-edd370e3f78)
+* 2019-05-04: [Arduino-Sonography: Arduino-Based Ultrasound Machine](https://www.open-electronics.org/arduino-sonography-arduino-based-ultrasound-machine/)
+* 2019-05-04: [Body-ultrasound Sonography With Arduino](https://www.instructables.com/id/Body-ultrasound-Sonography-With-Arduino/)
+

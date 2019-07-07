@@ -122,6 +122,7 @@ class us_spi:
         self.JSON["timings"]["LAcq"] = self.LAcq
         self.JSON["timings"]["Fech"] = self.f_ech
         self.JSON["timings"]["NLines"] = self.number_lines
+	
         print "NAcq = "+str(self.Nacq)
         if self.Nacq > 199999:
             raise NameError('Acquisition length over 200.000 points (8Mb = Flash limit)')
@@ -148,7 +149,7 @@ class us_spi:
         """
         Sets up the TGC using an array
         """
-        print "Setting up the DAC"
+        #print "Setting up the DAC curves"
         if len(tgc_values) < 43: # to correct
             for i in range(len(tgc_values)):
                 if (tgc_values[i] >= 0) and (tgc_values[i] < 1020):
@@ -175,7 +176,7 @@ class us_spi:
 	self.write_fpga(0xC1, R) 
 	self.write_fpga(0xC2, G) 
 	self.write_fpga(0xC3, B) 
-	print "LEDs OK"
+	#print "LEDs OK"
 
 
     def init(self): # OK LIT3RICK
@@ -191,11 +192,11 @@ class us_spi:
 		self.spi.open(0, 0) # CS0 is the FPGA, CS1 is flash
 		self.spi.mode = 0b01
 		self.spi.max_speed_hz = 2000000
-		self.set_ledRGB(0,1,0)
 		if self.verbose:
 		    print "spi.cshigh is " + str(self.spi.cshigh)
 		    print "spi mode is " + str(self.spi.mode)
 		    print "spi maxspeed is "+str(self.spi.max_speed_hz)+"hz"
+		self.set_ledRGB(0,1,0)
 	else:
 		print("Not running from a Raspberry Pi")
 
@@ -207,15 +208,8 @@ class us_spi:
         """
         Blinks the HILO n_cycles times.
         """
-        i = 0
-        while i < n_cycles:
-            self.write_fpga(0xD8, 0x01) # 0: HILO SWITCH
-	    self.set_ledRGB(0,0,1)
-            time.sleep(0.5)
-            self.write_fpga(0xD8, 0x00) # 0: HILO SWITCH
-            self.set_ledRGB(0,0,0)
-            time.sleep(0.5)
-            i = i+1
+	self.set_ledRGB(0,0,1)
+
 
     def set_hilo(self, HILO): # OK LIT3RICK
         """
@@ -223,9 +217,10 @@ class us_spi:
         """
 	if HILO:
             self.write_fpga(0xD8, 0x01) # 1: HILO ON
+	    print "HILO set HIGH"
         else:
             self.write_fpga(0xD8, 0x00) # 0: HILO OFF
-
+	    print "HILO set LOW"
 
     def loop_spi(self):  # OK LIT3RICK
         """
@@ -280,8 +275,8 @@ class us_spi:
 	if gpioexists:
 		for i in range(2*self.Nacq+2):
 		    self.JSON["data"].append(self.spi.xfer([0x00])[0])
-		    if not (i%milestone) and self.verbose:
-		        print str((50*i)/self.Nacq)+"% - "+str(self.JSON["data"][-1])
+		    if not ((i+10)%milestone) and self.verbose:
+		        print str((50*i)/self.Nacq)+"% - "+str(self.JSON["data"][-1])+" & "+str(self.JSON["data"][-2])
 		end = time.time()
 		delta = end - start
 		if self.verbose:
@@ -316,7 +311,7 @@ class us_spi:
         self.write_fpga(0xD7, hv_lsb)
         self.write_fpga(0xD6, hv_msb)
         if self.verbose:
-            print "HV Level: "+str(HVLevel)
+            print "HV Level: "+str(HVLevel)+" (/1Obits)"
 
 
     def config_spi(self):
@@ -386,12 +381,7 @@ class us_spi:
         return unit_p_damp_int*1000/128
 
     def set_pulses_delays(self):
-	PDELAYS = int(100/(1000/128.0))
-	print "PDELAYS ",PDELAYS
-        self.write_fpga(0xD0, PDELAYS) # Trig and PpHV
-        self.write_fpga(0xD1, PDELAYS) # PpHV and Pdamp1
-        self.write_fpga(0xD3, PDELAYS) # PDamp1 and PnHV
-        self.write_fpga(0xD5, PDELAYS) # PnHV and PDamp2
+	PDELAYS = int(10/(1000/128.0))
         return PDELAYS*1000/128
 
     def set_poff(self, poff_value):
@@ -430,7 +420,7 @@ class us_spi:
         length_acq_lsb = 0x00FF & correct_length_acq
         if self.verbose:
             print "Acquisition length: ", int(correct_length_acq*1000/128), "ns."
-            print "Arguments: ", hex(length_acq_msb), hex(length_acq_lsb)
+            #print "Arguments: ", hex(length_acq_msb), hex(length_acq_lsb)
         self.write_fpga(0xE5, length_acq_msb) # set sEEPon MSB
         self.write_fpga(0xE6, length_acq_lsb) # set sEEPon LSB
         return int(correct_length_acq*1000/128)
@@ -441,7 +431,7 @@ class us_spi:
         repeat_length = 0x00FF&repeat_length_arg/256
         repeat_length_lsb = 0x0000FF&repeat_length_arg
         print "Period between two acquisitions:", lEPeriod/1000, "us"
-        print "Arguments:", hex(repeat_length_msb), hex(repeat_length), hex(repeat_length_lsb)
+        #print "Arguments:", hex(repeat_length_msb), hex(repeat_length), hex(repeat_length_lsb)
         self.JSON["parameters"]["PeriodAcq"] = int(lEPeriod)
         self.JSON["parameters"]["PeriodAcq_Real"] = int(repeat_length_arg*1000/128)
         self.write_fpga(0xE7, repeat_length_msb) # Period of one cycle MSB
@@ -449,22 +439,39 @@ class us_spi:
         self.write_fpga(0xE9, repeat_length_lsb) # Period of one cycle LSB
         return repeat_length_arg*1000/128
 
-    def set_pulse_train(self, Pon,PdampOne, PHVneg, Poff, PDampTwo, Acq):
-        delays = self.set_pulses_delays()
-	tpon = self.set_pon(Pon+delays)
-        print "tpon = ",tpon
-        tpdampint = self.set_pDampInt(tpon+PdampOne+delays)
-        print "tpdampint = ",tpdampint
-        tponNHV = self.set_pon_neg(tpdampint+PHVneg+delays)
-        print "tponNHV = ",tponNHV
-        tmp = self.set_poff(Poff+tponNHV+delays) #@unused @tocheck
-        print "Poff = ",tmp,Poff
-        tmp = self.set_delta_acq(PDampTwo) #@unused @tocheck
-        print "delay_acq = ",tmp,PDampTwo
-        l_acq = self.set_length_acq(Acq)
+    def set_pulse_train(self, Pon,PdampOne, PHVneg, PdampTwo, pDelay, Acq):
+        delays = 10
+	hexdelay = int(delays*128/1000)
+	t1 = delays
+	t2 = t1 + Pon 
+	t3 = t2 + delays
+	t4 = t3 + PdampOne
+	t5 = t4 + delays
+	t6 = t5 + PHVneg
+	t7 = t6 + delays
+	t8 = t7 + PdampTwo
+	t9 = t8 + pDelay
+	t10 = t9 + Acq
+
+
+	self.write_fpga(0xD0, int(t1)*128/1000)
+	tpon = self.set_pon(t2)
+	self.write_fpga(0xD1, int(t3)*128/1000)
+        tpdampint = self.set_pDampInt(t4)
+        self.write_fpga(0xD3, int(t5)*128/1000)# PDamp1 and PnHV
+        tponNHV = self.set_pon_neg(t6)
+        self.write_fpga(0xD5, int(t7)*128/1000) # PnHV and PDamp2
+        refponnhv = self.set_poff(t8) #@unused @tocheck
+        endPoff = self.set_delta_acq(t9) #@unused @tocheck
+        l_acq = self.set_length_acq(t10)
+	print "----- Check of timings ---- "
+	print t2,t4,t6,t8,t9,t10
+	print "Key timings",hex(t2*128/1000),hex(t4*128/1000),hex(t6*128/1000),hex(t8*128/1000),hex(t9*128/1000),hex(t10*128/1000)
+	print "Smaller inter periods",hex(t1*128/1000),hex(t3*128/1000),hex(t5*128/1000),hex(t7*128/1000)
+	print "--------------------------- "
+
         print "Set_pulse_train 'l_acq' "+str(l_acq)
-
-
+ 
 
 
         return l_acq
@@ -1010,6 +1017,8 @@ if __name__ == "__main__":
             UN0RICK = us_spi()
             UN0RICK.init()
             UN0RICK.test_spi(3)
+	    UN0RICK.set_HV(250)
+	    UN0RICK.set_hilo(1)
             TGCC = UN0RICK.create_tgc_curve(10, 980, True)[0]    # Gain: linear, 10mV to 980mV
             UN0RICK.set_tgc_curve(TGCC)                          # We then apply the curve
             UN0RICK.set_period_between_acqs(int(2500000))        # Setting 2.5ms between shots
@@ -1017,16 +1026,17 @@ if __name__ == "__main__":
             UN0RICK.set_multi_lines(False)                       # Single acquisition
             UN0RICK.set_acquisition_number_lines(1)              # Setting the number of lines (1)
             UN0RICK.set_msps(0)                                  # Sampling speed setting
-            A = UN0RICK.set_timings(200, 10, 200, 2000, 5000, 200000)# Settings the series of pulses
+            A = UN0RICK.set_timings(200, 10, 200, 2000, 5000, 100000)# Settings the series of pulses
             UN0RICK.JSON["data"] = UN0RICK.do_acquisition()      # Doing the acquisition and saves
+	    UN0RICK.set_ledRGB(0,0,0)
 
         if "multi" in sys.argv[1]:
             UN0RICK = us_spi()
             UN0RICK.init()
             UN0RICK.test_spi(3)
             UN0RICK.JSON["N"] = 1 # Experiment ID
-            TGCC = UN0RICK.create_tgc_curve(600, 900, False)[0]  # Gain: expo, 300mV to 900mv
-            UN0RICK.set_tgc_curve(TGCC)                          # We then apply the curve
+            UN0RICK.create_tgc_curve(600, 900, False)[0]  # Gain: expo, 300mV to 900mv
+            #UN0RICK.set_tgc_curve(TGCC)                          # We then apply the curve
             UN0RICK.set_period_between_acqs(int(2500000)) 	 # Setting 2.5ms between lines
             UN0RICK.set_multi_lines(True)			 # Multi lines acquisition	
             UN0RICK.set_acquisition_number_lines(10)              # Setting the number of lines (3)

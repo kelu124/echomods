@@ -1105,6 +1105,18 @@
   * 20190404a
   * Automated image of 20190404a experiment. Trying the dualNDT5MHz NDT transducer
   * ./matty/20190404a/images/20190404a-2.jpg
+* __/matty/20190404a/images/FilteredDetails_20190404a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190404a
+  * Experiment: 20190404a-3
+Duration: 57.0us (60000 - 3000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 10
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = calibration block, 20mm
+Timestamp = 2019-04-04 20:43:10.532387
+Convolution .
+  * ./matty/20190404a/images/FilteredDetails_20190404a-3.jpg
 * __/matty/20190404a/images/20190404a-5.jpg__:
   * kelu124
   * matty
@@ -1185,6 +1197,30 @@ Details of Hilbert acquisition between us 16 and 17.
   * 20190404a
   * Automated image of 20190404a experiment. Trying the dualNDT5MHz NDT transducer
   * ./matty/20190404a/images/20190404a-6.jpg
+* __/matty/20190404a/images/details_15-17_20190404a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190404a
+  * Experiment: 20190404a-3
+Duration: 57.0us (60000 - 3000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 10
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = calibration block, 20mm
+Timestamp = 2019-04-04 20:43:10.532387
+Details of acquisition between us 15 and 17.
+  * ./matty/20190404a/images/details_15-17_20190404a-3.jpg
+* __/matty/20190404a/images/EnveloppeThickness_20190404a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190404a
+  * Experiment: 20190404a-3
+Duration: 57.0us (60000 - 3000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 10
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = calibration block, 20mm
+Timestamp = 2019-04-04 20:43:10.532387
+Convolution .
+  * ./matty/20190404a/images/EnveloppeThickness_20190404a-3.jpg
 * __/matty/20190404a/images/20190404a-1-fft.jpg__:
   * kelu124
   * matty, cletus
@@ -1199,6 +1235,18 @@ Details of Hilbert acquisition between us 16 and 17.
   * 20190404a
   * Automated image of 20190404a experiment. Trying the dualNDT5MHz NDT transducer
   * ./matty/20190404a/images/20190404a-4.jpg
+* __/matty/20190404a/images/enveloppes_20190404a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190404a
+  * Experiment: 20190404a-3
+Duration: 57.0us (60000 - 3000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 10
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = calibration block, 20mm
+Timestamp = 2019-04-04 20:43:10.532387
+Convolution .
+  * ./matty/20190404a/images/enveloppes_20190404a-3.jpg
 * __/matty/20190404a/images/details_0-90_20190404a-3.jpg__:
   * kelu124
   * matty,dualNDT5MHz
@@ -1218,6 +1266,18 @@ Details of acquisition between us 0 and 90.
   * 20190404a
   * FFT of the of 20190404a experiment. Trying the dualNDT5MHz NDT transducer
   * ./matty/20190404a/images/20190404a-5-fft.jpg
+* __/matty/20190404a/images/details_16-17_20190404a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190404a
+  * Experiment: 20190404a-3
+Duration: 57.0us (60000 - 3000), for 10 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 10
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = calibration block, 20mm
+Timestamp = 2019-04-04 20:43:10.532387
+Details of acquisition between us 16 and 17.
+  * ./matty/20190404a/images/details_16-17_20190404a-3.jpg
 * __/matty/m5stack/20190113a/P_20190113_180843.jpg__:
   * kelu124
   * matty,m5stack
@@ -1246,6 +1306,103 @@ Details of acquisition between us 0 and 90.
   * 20190113a
   * ToTag
   * ./matty/m5stack/20190113a/P_20190113_180928.jpg
+* __/matty/20190415a/images/details_alllines_avg_16-17_20190415a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * hilbert,signal
+  * 20190415a
+  * Experiment: 20190415a-3
+Duration: 57.0us (60000 - 3000), for 30 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 30
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = kitchen knife, steel, approx 1mm thickness
+Timestamp = 2019-04-15 20:33:26.580680
+Details of Hilbert acquisition between us 16 and 17.
+  * ./matty/20190415a/images/details_alllines_avg_16-17_20190415a-3.jpg
+* __/matty/20190415a/images/details_10-40_20190415a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190415a
+  * Experiment: 20190415a-3
+Duration: 57.0us (60000 - 3000), for 30 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 30
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = kitchen knife, steel, approx 1mm thickness
+Timestamp = 2019-04-15 20:33:26.580680
+Details of acquisition between us 10 and 40.
+  * ./matty/20190415a/images/details_10-40_20190415a-3.jpg
+* __/matty/20190415a/images/20190415a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190415a
+  * Automated image of 20190415a experiment. Trying the dualNDT5MHz NDT transducer
+  * ./matty/20190415a/images/20190415a-2.jpg
+* __/matty/20190415a/images/20190415a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190415a
+  * FFT of the of 20190415a experiment. Trying the dualNDT5MHz NDT transducer
+  * ./matty/20190415a/images/20190415a-2-fft.jpg
+* __/matty/20190415a/images/2DArray_20190415a-3.jpg__:
+  * kelu124
+  * matty, dualNDT5MHz
+  * BC
+  * 20190415a
+  * Experiment: 20190415a-3. Duration: 57.0us (60000 - 3000), for 30 repeats each 2500.0us. Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 30. Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = kitchen knife, steel, approx 1mm thickness. Timestamp = 2019-04-15 20:33:26.580680
+  * ./matty/20190415a/images/2DArray_20190415a-3.jpg
+* __/matty/20190415a/images/20190415a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190415a
+  * Automated image of 20190415a experiment. Trying the dualNDT5MHz NDT transducer
+  * ./matty/20190415a/images/20190415a-1.jpg
+* __/matty/20190415a/images/20190415a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190415a
+  * Automated image of 20190415a experiment. Trying the dualNDT5MHz NDT transducer
+  * ./matty/20190415a/images/20190415a-3.jpg
+* __/matty/20190415a/images/Full_details_alllines_avg_16-17_20190415a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * hilbert,signal
+  * 20190415a
+  * Experiment: 20190415a-3
+Duration: 57.0us (60000 - 3000), for 30 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 30
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = kitchen knife, steel, approx 1mm thickness
+Timestamp = 2019-04-15 20:33:26.580680
+Full line acquisition.
+  * ./matty/20190415a/images/Full_details_alllines_avg_16-17_20190415a-3.jpg
+* __/matty/20190415a/images/20190415a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190415a
+  * FFT of the of 20190415a experiment. Trying the dualNDT5MHz NDT transducer
+  * ./matty/20190415a/images/20190415a-3-fft.jpg
+* __/matty/20190415a/images/20190415a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190415a
+  * FFT of the of 20190415a experiment. Trying the dualNDT5MHz NDT transducer
+  * ./matty/20190415a/images/20190415a-1-fft.jpg
+* __/matty/20190415a/images/details_0-90_20190415a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * signal
+  * 20190415a
+  * Experiment: 20190415a-3
+Duration: 57.0us (60000 - 3000), for 30 repeats each 2500.0us
+Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 30
+Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = kitchen knife, steel, approx 1mm thickness
+Timestamp = 2019-04-15 20:33:26.580680
+Details of acquisition between us 0 and 90.
+  * ./matty/20190415a/images/details_0-90_20190415a-3.jpg
 * __/matty/20181126a/images/v1.1b.jpg__:
   * kelu124
   * matty
@@ -1673,6 +1830,83 @@ Details of acquisition between us 0 and 90.
   * 20180224b
   * Setup of the experiment
   * ./matty/20180224b/images/IMG_20180224_195210.jpg
+* __/matty/20190510a/20190510a-11.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-11.json.jpg
+* __/matty/20190510a/20190510a-2.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-2.json.jpg
+* __/matty/20190510a/20190510a-6.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-6.json.jpg
+* __/matty/20190510a/20190510a-5.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-5.json.jpg
+* __/matty/20190510a/20190510a-4.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-4.json.jpg
+* __/matty/20190510a/20190510a-8.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-8.json.jpg
+* __/matty/20190510a/20190510a-3.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-3.json.jpg
+* __/matty/20190510a/20190510a-12.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-12.json.jpg
+* __/matty/20190510a/20190510a-1.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-1.json.jpg
+* __/matty/20190510a/20190510a-10.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-10.json.jpg
+* __/matty/20190510a/20190510a-9.json.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20190510a/20190510a-9.json.jpg
 * __/matty/20190329a/photos/P_20190329_214504.jpg__:
   * kelu124
   * matty,dualNDT5MHz
@@ -4148,6 +4382,13 @@ Details of acquisition between us 25 and 27.
   * ToTag
   * ToTag
   * ./include/community/Fadhli/20190331_170133.jpg
+* __/include/community/Carla/Timings.jpg__:
+  * Carla
+  * Windows Photo Editor 10.0.10011.16384
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Carla/Timings.jpg
 * __/include/community/WeiTing/50163178_1160607547434842_782807753050554368_n.jpg__:
   * WeiTing
   * ToTag
@@ -12065,6 +12306,41 @@ Details of acquisition between us 25 and 27.
   * ToTag
   * ToTag
   * ./include/bard/Bard-Site-Rite-37522-5C-45C-75MHz-Ultrasound-Transducer-Probe-68mmFL-Dymax-0470-263459340232-8.JPG
+* __/include/community/Carla/TestSPI.JPG__:
+  * Carla
+  * 12.3.1
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Carla/TestSPI.JPG
+* __/include/community/Carla/Signal_2.JPG__:
+  * Carla
+  * 12.2
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Carla/Signal_2.JPG
+* __/include/community/Carla/SetUp_1.JPG__:
+  * Carla
+  * 12.3.1
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Carla/SetUp_1.JPG
+* __/include/community/Carla/Signal_1.JPG__:
+  * Carla
+  * 12.3.1
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Carla/Signal_1.JPG
+* __/include/community/Carla/SetUp_2.JPG__:
+  * Carla
+  * 12.3.1
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/Carla/SetUp_2.JPG
 * __/include/images/DSC_0284.JPG__:
   * kelu124
   * ToTag

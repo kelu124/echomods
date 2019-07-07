@@ -66,6 +66,10 @@
 * __[Unrefed file]__ :no_entry: `/matty/20190111a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190111a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190314a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20190407a/pyUn0.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20190510a/20190510a.ipynb` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20190510a/ndt.exp.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20190510a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/HV/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/SPI/serialflash.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.

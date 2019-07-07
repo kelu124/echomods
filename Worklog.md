@@ -3219,6 +3219,16 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 * https://superuser.com/questions/1150562/how-to-connect-to-a-raspberry-pi-zero-to-an-ubuntu-laptop-by-usb/1219319 for usb0 issues
 * http://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/
+
+auto lo usb0
+allow-hotplug usb0
+iface usb0 inet static 
+address 169.254.97.1
+netmask 255.255.255.0
+network 169.254.97.0
+
+Bbox-089C716D // mimite2000
+
 * 777 commits!
 ![](/include/images/777commits.png)
 
@@ -3397,6 +3407,84 @@ Other pages under /include/worklog/
 * @todo first shots with lit3rick
 * @todo harmonize between lit3rick, pHATrick, minie, minny
 * @todo receive lomos and test for NDTs
+
+#### 2019-04-07 Beginning of port to lit3rick
+
+* [First experiment](/matty/20190404a) - blinky on C1 to C3 OK, HILO..not.
+* Moar articles to the biblio
+* [New DC/DC boosts?](https://fr.farnell.com/MarketingProductList?CMP=e-email-fix-Promo-EU-210319-Traco&orderCode=2854982,2854980,2854986,2854979,2854988,2854984,2854989,2854985,2854998,2854995,2854981,2854974,2854997,2854991,2854993,2854975,2854996,2854978,2854990,2854987,2854992,2854972,2854977,2854983,2854994,2854976,2854973&mkt_tok=eyJpIjoiWkdWa1kySmhZbUptTm1SaSIsInQiOiJ3RnhkMkhJaTdTWVdHQWEwMVAwTUlja1pGNklabDhxWVZWYW1yK3BqakVwYW5ybVwvKzc3a29ZOVhcL0lZOXcyU1NnSzF1XC9MNVlqbVBzTjhES2w5b3lRZmlERGdobFZMa3RZUmFVK0QySEJITUlMUFlyelpLMUNVbTFcL2JoODYyVEwifQ%3D%3D)
+* https://github.com/Wookai/paper-tips-and-tricks
+* https://www.raspberrypi.org/forums/viewtopic.php?t=186435 for RPI and GPIO and SPI
+* Verilog DSP:
+  * http://zipcpu.com/projects.html
+  * http://www.spiral.net/hardware/filter.html
+
+#### 2019-04-03 Time flies
+
+* Not enough time to work!
+* OSS in companies https://spiceprogram.org/assets/docs/Futurice-Companys_Guide_To_Open_Source_And_Social_Impact.pdf
+* need updating lit3rick to v1.4
+  * Round edges
+  * change ADC for Matty old one
+  * i2c thermometer
+  * remove header for SPI for voltages
+  * change flash to winbond
+  
+#### 2019-06-11 Looooong time
+
+* Still working on minie bin's
+* lots of links to record
+* Pics old america: http://www.american-pictures.com/english/book/American%20Pictures-small-size.pdf
+* lit3 update
+  * update flash
+  * cut corners
+  * MCP9808 for temperature onboard
+  * filtre evacuation d'energie entre pGA et ADC
+  * passer en 12 bits ? 
+
+#### 2019-06-11 Air Quality rants 
+
+* Thanks Hackolite for putting my brain on this =)
+  *  https://www.rci.fm/infos/risques-naturels/une-partie-de-la-population-evacuee-terre-de-bas-en-raison-des-sargasses 
+  * ESP32, uFL, uSMA,  VDD controled via pins, ...
+  * https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/
+  * air quality ?
+
+Boards:
+* https://www.sparkfun.com/products/retired/14785 
+* https://pycom.io/product/lopy4/ 
+* http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ5/
+ 
+Sensor
+* DS : https://www.parallax.com/sites/default/files/downloads/605-00009-MQ-5-Datasheet.pdf
+* https://www.waveshare.com/mq-5-gas-sensor.htm 
+* BME680 https://www.hackster.io/xxlukas84/bme680-gy-mcu680v1-indoor-air-quality-meter-901d02 
+
+Sleep:
+* https://www.hackster.io/Tiobel/esp8266-solar-weather-station-1ea3ec 
+* https://openhomeautomation.net/esp8266-battery 
+
+AA rechargeable ?
+* https://hackaday.com/2017/12/03/minimizing-esp8266-battery-drain/
+
+Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET Q1, a PNP transistor Q2
+
+
+#### 2019-06-15 VGA and k210
+
+* Would be fun to have a simple ACQ + display setup in VGA of a 120us line on a 640x480 display
+  * https://timetoexplore.net/blog/video-timings-vga-720p-1080p
+  * Check with uF
+    * Availability of IOs for VGA on a lit3
+* Video processing ?
+  * k210 for https://www.seeedstudio.com/Sipeed-MAix-BiT-for-RISC-V-AI-IoT-p-2872.html for video fun
+* Working with cheatsheets - https://www.federaltimes.com/opinions/2019/04/18/dear-bureaucrat-how-can-i-work-with-and-around-my-agencys-useless-computer-system/
+* Holidays: 
+  * Scilly Isles 
+  * Ethiopia
+  * Corfou
+  * Argentina : longtemps =)
+  * CAN / FXH / ...
 
 
 =======
