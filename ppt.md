@@ -115,6 +115,7 @@ _Total cost of the set: 443$_
 
 # Experiments
 
+ * [20190415a](/include/experiments/auto/20190415a.md)
  * [20190404a](/include/experiments/auto/20190404a.md)
  * 2019-03-29: [NDT dual transducer](/include/experiments/auto/20190329a.md): understanding the transducer _(20190329a)_
  * 2019-03-24: [lit3rick](/include/experiments/auto/20190324a.md): testing at first the pulser _(20190324a)_
