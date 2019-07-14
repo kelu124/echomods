@@ -692,6 +692,109 @@
   * 20180831c
   * Experiment: 20180831c-4. Duration: 24.0us (35000 - 11000), for 320 repeats each 390 us. Fech = 64.0Msps, total of 1536.0 pts per line, Nacq = 320. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:49:30.775266
   * ./matty/20180831c/images/Spectrum_20180831c-4.jpg
+* __/matty/20190713/P_20190713_223932.jpg__:
+  * kelu124
+  * un0rick,pi4,piW
+  * setup
+  * 20190713a
+  * Test of the new batches
+  * ./matty/20190713/P_20190713_223932.jpg
+* __/matty/20190713/20190713b/images/20190713a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190713b
+  * Automated image of 20190713a experiment. na
+  * ./matty/20190713/20190713b/images/20190713a-1.jpg
+* __/matty/20190713/20190713b/images/20190713a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190713a
+  * FFT of the of 20190713a experiment. na
+  * ./matty/20190713/20190713b/images/20190713a-2-fft.jpg
+* __/matty/20190713/20190713b/images/20190713a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190713a
+  * FFT of the of 20190713a experiment. na
+  * ./matty/20190713/20190713b/images/20190713a-1-fft.jpg
+* __/matty/20190713/20190713b/images/20190713a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190713a
+  * FFT of the of 20190713a experiment. na
+  * ./matty/20190713/20190713b/images/20190713a-3-fft.jpg
+* __/matty/20190713/20190713b/images/20190713a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190713a
+  * Automated image of 20190713a experiment. na
+  * ./matty/20190713/20190713b/images/20190713a-2.jpg
+* __/matty/20190713/20190713b/images/20190713a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190713a
+  * Automated image of 20190713a experiment. na
+  * ./matty/20190713/20190713b/images/20190713a-3.jpg
+* __/matty/20190713/20190713b/images/details_40-120_20190713a-3.jpg__:
+  * kelu124
+  * matty,dualNDT5MHz
+  * graph
+  * 20190713a
+  * Experiment: 20190713a-3
+Duration: 195.0us (200000 - 5000), for 1 repeats each 2500.0us
+Fech = 64.0Msps, total of 12480.0 pts per line, Nacq = 1
+na, probe: na, target = na
+Timestamp = 2019-07-13 21:39:53.503749
+Details of acquisition between us 40 and 120.
+  * ./matty/20190713/20190713b/images/details_40-120_20190713a-3.jpg
+* __/matty/20190713/20190713a/images/20190713a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190713a
+  * Automated image of 20190713a experiment. na
+  * ./matty/20190713/20190713a/images/20190713a-1.jpg
+* __/matty/20190713/20190713a/images/20190713a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190713a
+  * FFT of the of 20190713a experiment. na
+  * ./matty/20190713/20190713a/images/20190713a-2-fft.jpg
+* __/matty/20190713/20190713a/images/20190713a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190713a
+  * FFT of the of 20190713a experiment. na
+  * ./matty/20190713/20190713a/images/20190713a-1-fft.jpg
+* __/matty/20190713/20190713a/images/20190713a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20190713a
+  * FFT of the of 20190713a experiment. na
+  * ./matty/20190713/20190713a/images/20190713a-3-fft.jpg
+* __/matty/20190713/20190713a/images/20190713a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190713a
+  * Automated image of 20190713a experiment. na
+  * ./matty/20190713/20190713a/images/20190713a-2.jpg
+* __/matty/20190713/20190713a/images/20190713a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20190713a
+  * Automated image of 20190713a experiment. na
+  * ./matty/20190713/20190713a/images/20190713a-3.jpg
 * __/matty/20180516a/images/20180516a-0.jpg__:
   * kelu124
   * matty,cletus

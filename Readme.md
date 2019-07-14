@@ -207,6 +207,8 @@ and used in a wider context:
 
 # Experiments
 
+ * [20190713b](/include/experiments/auto/20190713b.md)
+ * [20190713a](/include/experiments/auto/20190713a.md)
  * [20190415a](/include/experiments/auto/20190415a.md)
  * [20190404a](/include/experiments/auto/20190404a.md)
  * 2019-03-29: [NDT dual transducer](/include/experiments/auto/20190329a.md): understanding the transducer _(20190329a)_

@@ -14,12 +14,20 @@
   70us period
 */
 
+const int  thisLED_PIN = PA15;
 const int  TRIG_PIN = PB5;
 uint32_t i = 0;
 
 void emulator() {
+
+  digitalWrite(thisLED_PIN, HIGH);
+  
   uint32_t i = 0;
   uint32_t j = 0;
+
+  dac_write_channel(DAC, DAC_CH1, 256 + 32);
+  dac_write_channel(DAC, DAC_CH1, 256 - 32);
+
   for ( i = 128; i > 0; i-- )
   {
     dac_write_channel(DAC, DAC_CH1, 256 + i);
@@ -31,32 +39,78 @@ void emulator() {
     dac_write_channel(DAC, DAC_CH1, 256);
   }
 
-  dac_write_channel(DAC, DAC_CH1, 256+128);
-  dac_write_channel(DAC, DAC_CH1, 256-128);
+  dac_write_channel(DAC, DAC_CH1, 256 + 128);
+  dac_write_channel(DAC, DAC_CH1, 256 - 128);
 
   for ( j = 20; j > 0; j-- )
   {
     dac_write_channel(DAC, DAC_CH1, 256);
   }
 
-  dac_write_channel(DAC, DAC_CH1, 256+64);
-  dac_write_channel(DAC, DAC_CH1, 256-64);
-  dac_write_channel(DAC, DAC_CH1, 256+64);
-  dac_write_channel(DAC, DAC_CH1, 256-64);
+  dac_write_channel(DAC, DAC_CH1, 256 + 64);
+  dac_write_channel(DAC, DAC_CH1, 256 - 64);
+  dac_write_channel(DAC, DAC_CH1, 256 + 64);
+  dac_write_channel(DAC, DAC_CH1, 256 - 64);
 
-    for ( j = 20; j > 0; j-- )
+  for ( j = 20; j > 0; j-- )
   {
     dac_write_channel(DAC, DAC_CH1, 256);
   }
 
-  dac_write_channel(DAC, DAC_CH1, 256+32);
-  dac_write_channel(DAC, DAC_CH1, 256-32);
-  dac_write_channel(DAC, DAC_CH1, 256+32);
-  dac_write_channel(DAC, DAC_CH1, 256-32);
-  dac_write_channel(DAC, DAC_CH1, 256+32);
-  dac_write_channel(DAC, DAC_CH1, 256-32);
+  dac_write_channel(DAC, DAC_CH1, 256 + 32);
+  dac_write_channel(DAC, DAC_CH1, 256 - 32);
+  dac_write_channel(DAC, DAC_CH1, 256 + 32);
+  dac_write_channel(DAC, DAC_CH1, 256 - 32);
+  dac_write_channel(DAC, DAC_CH1, 256 + 32);
+  dac_write_channel(DAC, DAC_CH1, 256 - 32);
 
-  dac_write_channel(DAC, DAC_CH1, 256);
+  for ( j = 10; j > 0; j-- )
+  {
+    dac_write_channel(DAC, DAC_CH1, 256);
+  }
+
+  dac_write_channel(DAC, DAC_CH1, 256 + 16);
+  dac_write_channel(DAC, DAC_CH1, 256 - 16);
+
+  for ( j = 10; j > 0; j-- )
+  {
+    dac_write_channel(DAC, DAC_CH1, 256);
+  }
+
+  dac_write_channel(DAC, DAC_CH1, 256 + 8);
+  dac_write_channel(DAC, DAC_CH1, 256 - 8);
+
+  for ( j = 10; j > 0; j-- )
+  {
+    dac_write_channel(DAC, DAC_CH1, 256);
+  }
+
+  dac_write_channel(DAC, DAC_CH1, 256 + 4);
+  dac_write_channel(DAC, DAC_CH1, 256 - 4);
+
+  for ( j = 10; j > 0; j-- )
+  {
+    dac_write_channel(DAC, DAC_CH1, 256);
+  }
+
+  dac_write_channel(DAC, DAC_CH1, 256 + 2);
+  dac_write_channel(DAC, DAC_CH1, 256 - 2);
+
+  for ( j = 10; j > 0; j-- )
+  {
+    dac_write_channel(DAC, DAC_CH1, 256);
+  }
+
+  dac_write_channel(DAC, DAC_CH1, 256 + 16);
+  dac_write_channel(DAC, DAC_CH1, 256 - 16);
+  
+  for ( j = 20; j > 0; j-- )
+  {
+    dac_write_channel(DAC, DAC_CH1, 256);
+  }
+
+  digitalWrite(thisLED_PIN, LOW);
+  
 }
 
 void setup()
