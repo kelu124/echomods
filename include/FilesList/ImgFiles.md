@@ -893,6 +893,20 @@ Details of acquisition between us 40 and 120.
   * 20190111a
   * Automated image of 20190111a experiment. na
   * ./matty/20190111a/images/20190111a-1.jpg
+* __/matty/20190804a/images/20190804a-1-fft.jpg__:
+  * kelu124
+  * matty
+  * ToTag
+  * 20190804a
+  * FFT of a single line
+  * ./matty/20190804a/images/20190804a-1-fft.jpg
+* __/matty/20190804a/images/20190804a-1.jpg__:
+  * kelu124
+  * matty
+  * line
+  * 20190804a
+  * Signal of a single line
+  * ./matty/20190804a/images/20190804a-1.jpg
 * __/matty/v1.1/images/P_20181125_130751.jpg__:
   * kelu124
   * matty

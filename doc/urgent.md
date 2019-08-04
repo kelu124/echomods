@@ -35,7 +35,10 @@
 * __[Unrefed file]__ :no_entry: `/matty/1t/idea.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190111a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190314a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20190329a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20190329a/ndt.exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190510a/ndt.exp.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20190804a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/HV/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ideas.md` : No references of this file.

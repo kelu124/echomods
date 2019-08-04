@@ -36,6 +36,8 @@
 
 * [20190111a.md.tpl](/include/experiments/auto/20190111a.md.tpl): ./include/experiments/auto/20190111a.md.tpl. _File not used._
 
+* [20190804a.md.tpl](/include/experiments/auto/20190804a.md.tpl): ./include/experiments/auto/20190804a.md.tpl. _File not used._
+
 * [20181126b.md.tpl](/include/experiments/auto/20181126b.md.tpl): ./include/experiments/auto/20181126b.md.tpl. _File not used._
 
 * [20190329a.md.tpl](/include/experiments/auto/20190329a.md.tpl): ./include/experiments/auto/20190329a.md.tpl. _File not used._

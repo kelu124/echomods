@@ -72,6 +72,8 @@
 
 * [./matty/20190111a/Readme.md](/matty/20190111a/Readme.md):  . _File not used._
 
+* [./matty/20190804a/Readme.md](/matty/20190804a/Readme.md):  . _File not used._
+
 * [./matty/1i/1i.md](/matty/1i/1i.md):  . _File not used._
 
 * [./matty/news/2017-09-15-uniboard.md](/matty/news/2017-09-15-uniboard.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -120,9 +122,9 @@
 
 * [./matty/20190510a/ndt.exp.md](/matty/20190510a/ndt.exp.md):  . _File not used._
 
-* [./matty/20190329a/ndt.exp.md](/matty/20190329a/ndt.exp.md):  . File used in: [`/include/experiments/auto/Code_20190329a.md`](/include/experiments/auto/Code_20190329a.md).
+* [./matty/20190329a/ndt.exp.md](/matty/20190329a/ndt.exp.md):  . _File not used._
 
-* [./matty/20190329a/Readme.md](/matty/20190329a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20190329a.md`](/include/experiments/auto/Code_20190329a.md).
+* [./matty/20190329a/Readme.md](/matty/20190329a/Readme.md):  . _File not used._
 
 * [./matty/20181104c/Readme.md](/matty/20181104c/Readme.md):  . File used in: [`/include/experiments/auto/20181104b.md`](/include/experiments/auto/20181104b.md).
 
@@ -497,7 +499,7 @@
 
 * [./include/images/kretzaw145ba/20180811a/Readme.md](/include/images/kretzaw145ba/20180811a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180809a.md`](/include/experiments/auto/Code_20180809a.md).
+* [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . _File not used._
 
 * [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).
 
