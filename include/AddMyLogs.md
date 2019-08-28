@@ -3357,6 +3357,18 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
   * Argentina : longtemps =)
   * CAN / FXH / ...
 
+#### 2019-08-30 FFT and ice40
+ 
+* Summer time and deconnection !
+* some progress on lit3
+  * getting help form @ico_TC : https://twitter.com/ico_TC/status/1165699274652475392
+  * going back to UW, checking with Farad too.
+  * Need to stop bleeding resources ;)
+  * Need to fix thermometer
+* Gathering some signal processing on fpgas 
+  * https://github.com/mattvenn/fpga-fft/blob/serial/docs/fpga_usage.md
+
+
 
 =======
 

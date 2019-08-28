@@ -1,6 +1,8 @@
 # History 
 
 
+ * __2019-08-03__: [link from www.mikrocontroller.net](https://www.mikrocontroller.net/topic/478647)
+ * __2019-08-01__: [link from electronics.stackexchange.com](https://electronics.stackexchange.com/questions/450850/unit-of-ultrasound-a-scans)
  * __2019-05-04__: [link from www.open-electronics.org](https://www.open-electronics.org/arduino-sonography-arduino-based-ultrasound-machine/), [link from www.instructables.com](https://www.instructables.com/id/Body-ultrasound-Sonography-With-Arduino/)
  * __2018-11-25__: [link from wiki.debian.org](https://wiki.debian.org/PaulWise/InterestingSoftware)
  * __2018-09-09__: [link from steemhunt.com](https://steemhunt.com/@truthsfinder/murgen-an-open-source-ultrasound-imaging-dev-kit-side-project)
@@ -109,7 +111,7 @@
  * __2017-04-23__: [worklog of the day](http://kelu124.github.io/echomods/2017-04-23-Playing-with-ADC.md)
  * __2017-04-17__: [worklog of the day](http://kelu124.github.io/echomods/2017-04-17-End-of-week-end.md)
  * __2017-04-16__: [link from blog.oshpark.com](https://blog.oshpark.com/2017/04/15/high-speed-adc-phat-for-raspberry-pi/)
- * __2017-04-15__: [worklog of the day](http://kelu124.github.io/echomods/2017-04-15-Capacitors-connected.md)
+ * __2017-04-15__: [worklog of the day](http://kelu124.github.io/echomods/2017-04-15-Capacitors-connected.md), [High-speed ADC pHAT for Raspberry Pi](https://github.com/kelu124/echomods/tree/masterigh-speed ADC pHAT for Raspberry Pi)
  * __2017-04-13__: [worklog of the day](http://kelu124.github.io/echomods/2017-04-13-Error,-that's-hot.md)
  * __2017-04-12__: [worklog of the day](http://kelu124.github.io/echomods/2017-04-12-Mounted-boards!.md)
  * __2017-04-06__: [20170406-PCBs.md](https://github.com/kelu124/echomods/tree/master/doj/old/20170406-PCBs.md), [20170406_124853.jpg](https://github.com/kelu124/echomods/tree/master/doj/images/20170406_124853.jpg), [20170406_214508.jpg](https://github.com/kelu124/echomods/tree/master/doj/images/20170406_214508.jpg), [worklog of the day](http://kelu124.github.io/echomods/2017-04-06-Purple.md)
