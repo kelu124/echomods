@@ -52,7 +52,7 @@ title: 2017-11-11 fpga need to move now
 -   mini USB for power on
 -   5V and GND pads
 
-ebay *is Kretz VSW3-5 linear ?* same for SW4/5B ?
+ebay \* is Kretz VSW3-5 linear ? \* same for SW4/5B ?
 
 -   S-VDW5-8B for parts ? endoprobe
 

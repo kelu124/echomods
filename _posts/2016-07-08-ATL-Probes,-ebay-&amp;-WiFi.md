@@ -7,7 +7,7 @@ title: 2016-07-08 ATL Probes, ebay & WiFi
 ---
 
 
-Other ATL Probes: *http://www.jacomed.com/probe/atl-access-a/*
+Other ATL Probes: \* http://www.jacomed.com/probe/atl-access-a/ \*
 http://www.jacomed.com/probe/atl-access-a-10-pv/
 
 The ATL manual is available at :

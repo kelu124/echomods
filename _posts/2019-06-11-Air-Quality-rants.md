@@ -13,17 +13,17 @@ title: 2019-06-11 Air Quality rants
 -   https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/
 -   air quality ?
 
-Boards: *https://www.sparkfun.com/products/retired/14785*
+Boards: \* https://www.sparkfun.com/products/retired/14785 \*
 https://pycom.io/product/lopy4/ \*
 http://wiki.seeedstudio.com/Grove-Gas\_Sensor-MQ5/
 
-Sensor *DS :
-https://www.parallax.com/sites/default/files/downloads/605-00009-MQ-5-Datasheet.pdf*
-https://www.waveshare.com/mq-5-gas-sensor.htm \* BME680
+Sensor \* DS :
+https://www.parallax.com/sites/default/files/downloads/605-00009-MQ-5-Datasheet.pdf
+\* https://www.waveshare.com/mq-5-gas-sensor.htm \* BME680
 https://www.hackster.io/xxlukas84/bme680-gy-mcu680v1-indoor-air-quality-meter-901d02
 
-Sleep:
-*https://www.hackster.io/Tiobel/esp8266-solar-weather-station-1ea3ec*
+Sleep: \*
+https://www.hackster.io/Tiobel/esp8266-solar-weather-station-1ea3ec \*
 https://openhomeautomation.net/esp8266-battery
 
 AA rechargeable ? \*
