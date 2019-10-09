@@ -1,3 +1,23 @@
+### wifi-dev-kit
+
+<ul><li>Title: Wireless Dev Kit</li>
+<li>Description: The default setting for the sets</li>
+</ul>
+
+### wifi-dev-kit: diagram
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/wifi-dev-kit.png)
+
+### highspeed
+
+<ul><li>Title: The Beaglebone version, along with an hacked probe</li>
+<li>Description: Some stuff, unexpensive to buy, to build a ultrasound testing kit, totalling less than _500$_.</li>
+</ul>
+
+### highspeed: diagram
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png)
+
 ### PiDAQ
 
 <ul><li>Title: Raspberry Dev Kit</li>
@@ -18,26 +38,6 @@
 ### emulated: diagram
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/emulated.png)
-
-### wifi-dev-kit
-
-<ul><li>Title: Wireless Dev Kit</li>
-<li>Description: The default setting for the sets</li>
-</ul>
-
-### wifi-dev-kit: diagram
-
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/wifi-dev-kit.png)
-
-### highspeed
-
-<ul><li>Title: The Beaglebone version, along with an hacked probe</li>
-<li>Description: Some stuff, unexpensive to buy, to build a ultrasound testing kit, totalling less than _500$_.</li>
-</ul>
-
-### highspeed: diagram
-
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png)
 
 
 

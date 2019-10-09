@@ -2,17 +2,17 @@
 
 * [standard_driver_RPi3.c](/elmo/standard_driver_RPi3.c): . _File not used._
 
-* [driver.c](/elmo/software/driver.c): . _File not used._
-
 * [ustest.c](/elmo/data/ustest.c): . _File not used._
 
 * [scope.c](/elmo/data/scope.c): . File used in: [`/elmo/tindie.md`](/elmo/tindie.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
 
-* [scope.c](/elmo/data/arduiprobe/scope.c): . _File not used._
-
 * [scope2.c](/elmo/data/arduiprobe/scope2.c): . _File not used._
 
-* [gpio.c](/goblin/pi0/gpio.c): . _File not used._
+* [scope.c](/elmo/data/arduiprobe/scope.c): . _File not used._
+
+* [driver.c](/elmo/software/driver.c): . _File not used._
+
+* [gpio.c](/goblin/pi0/gpio.c): . File used in: [`/goblin/pi0/Readme.md`](/goblin/pi0/Readme.md).
 
 
 

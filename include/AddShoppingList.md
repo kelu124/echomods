@@ -25,8 +25,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * None (in [wirephantom](/wirephantom/))
 * See the <a href="/matty/nextsteps.md">next steps</a> (in [matty](/matty/))
 * Having it work with a <a href="/retroATL3/">retroATL3</a> (in [matty](/matty/))
-* Test Goblin v2 (in [goblin](/goblin/))
 * Review a bipolar design (originally alt.tbo -- but double the components and hence the price) (in [lite.tbo](/lite.tbo/))
+* Test Goblin v2 (in [goblin](/goblin/))
 
 
 ### Todos from worklog

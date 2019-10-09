@@ -1,5 +1,6 @@
 # Experiments
 
+ * [20191006a](/include/experiments/auto/20191006a.md)
  * [20190804a](/include/experiments/auto/20190804a.md)
  * [20190713b](/include/experiments/auto/20190713b.md)
  * [20190713a](/include/experiments/auto/20190713a.md)

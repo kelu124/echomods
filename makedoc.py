@@ -576,8 +576,8 @@ for ReadMe in ListOfDirs:
 	bonus = 0
  
 	for item in results:
-            todos = (map(str, re.findall(patternCode, item, flags=0)))
- 
+
+            todos = (map(str, re.findall(patternCode, item, flags=0))) 
 	    if len(todos) > 0:
 		TODO = "<ul><li>"+"</li><li>".join( todos )+"</li></ul>"
 		for todo in todos:
@@ -610,13 +610,15 @@ for ReadMe in ListOfDirs:
 		PEOPLE = ""
 	# Getting the progress	
 	nbDone = len(dones)
+	todos = (map(str, re.findall(patternCode, item, flags=0)))
 	nbTodo = len(todos)
 
 	if (nbTodo+nbDone)>0:
 		PCProgress = ((nbDone)*100)/(nbTodo+nbDone-bonus)
 	else:
 		PCProgress = "NA"
-	TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+str(PCProgress)+"% |\r\n"
+
+	#TableAvancement += "|"+ReadMe+"|"+TODO+"|"+DONE+"|"+str(PCProgress)+"% |\r\n"
 TableAvancement +="\n\n"
 
 # Getting Todos from the worklog
