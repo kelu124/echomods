@@ -309,7 +309,8 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 				ModZ.append(module.strip())
 		ModF = list(set(ModZ)) # Modules
 		if "ToTag" in ModF:
-			Modz.remove("ToTag")
+			ModF.remove("ToTag")
+
 		ExpeJSON[Expe]["modules"] = []
 		ExpeJSON[Expe]["probes"] = []
 		for OneMod in ModF:
