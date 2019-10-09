@@ -196,6 +196,7 @@
 * ./include/experiments/auto/Mod_20180217a.md
 * ./include/experiments/auto/Img_20190111a.md
 * ./include/experiments/auto/Code_20190324a.md
+* ./include/experiments/auto/20191006a.md
 * ./include/experiments/auto/Code_20160809a.md
 * ./include/experiments/auto/Img_20180807b.md
 * ./include/experiments/auto/20160814a.md
@@ -453,6 +454,7 @@
 * ./gitbook/exp/20171112a.md
 * ./gitbook/exp/20181104a.md
 * ./gitbook/exp/20180415a.md
+* ./gitbook/exp/20191006a.md
 * ./gitbook/exp/20160814a.md
 * ./gitbook/exp/20180813a.md
 * ./gitbook/exp/20171124a.md
