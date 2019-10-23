@@ -49,4 +49,4 @@
 
 ### HV at 100/1024, HILO low, gain at 100
 
-![](/matty/20191023a/images/20191023a-12)
+![](/matty/20191023a/images/20191023a-12.jpg)
