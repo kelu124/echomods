@@ -48,7 +48,7 @@
 
 * [./matty/20180224a/Readme.md](/matty/20180224a/Readme.md):  . _File not used._
 
-* [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . File used in: [`/include/experiments/auto/20180403a.md`](/include/experiments/auto/20180403a.md).
+* [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . _File not used._
 
 * [./matty/1i/1i.md](/matty/1i/1i.md):  . _File not used._
 
@@ -88,7 +88,7 @@
 
 * [./matty/20190324a/Readme.md](/matty/20190324a/Readme.md):  . _File not used._
 
-* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180430a.md`](/include/experiments/auto/Code_20180430a.md).
+* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . _File not used._
 
 * [./matty/20180310a/Readme.md](/matty/20180310a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md).
 
@@ -116,6 +116,8 @@
 
 * [./matty/20180403b/Readme.md](/matty/20180403b/Readme.md):  . _File not used._
 
+* [./matty/20191023a/Readme.md](/matty/20191023a/Readme.md):  . _File not used._
+
 * [./matty/article/matty_article.md](/matty/article/matty_article.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
 * [./matty/20180516a/Readme.md](/matty/20180516a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
@@ -128,7 +130,7 @@
 
 * [./matty/20190713/20190713a/ndt.exp.md](/matty/20190713/20190713a/ndt.exp.md):  . _File not used._
 
-* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md), [`/include/experiments/auto/Code_20180224b.md`](/include/experiments/auto/Code_20180224b.md).
+* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/un0log.md`](/matty/un0log.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md).
 
 * [./matty/m5stack/Readme.md](/matty/m5stack/Readme.md):  . File used in: [`/Readme.md`](/Readme.md), [`/Worklog.md`](/Worklog.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 

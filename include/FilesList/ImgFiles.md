@@ -1333,6 +1333,48 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * 20180831c
   * Experiment: 20180831c-1. Duration: 84.0us (95000 - 11000), for 370 repeats each 3906 us. Fech = 16.0Msps, total of 1344.0 pts per line, Nacq = 370. Probe on spam, unplugged, probe: retroATL3, target = spam. Timestamp = 2018-08-31 21:36:57.159660
   * ./matty/20180831c/images/2DArray_20180831c-1.jpg
+* __/matty/20191016a/images/20191016a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191016a
+  * Automated image of 20191016a experiment. na
+  * ./matty/20191016a/images/20191016a-3.jpg
+* __/matty/20191016a/images/20191016a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191016a
+  * Automated image of 20191016a experiment. na
+  * ./matty/20191016a/images/20191016a-2.jpg
+* __/matty/20191016a/images/20191016a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191016a
+  * FFT of the of 20191016a experiment. na
+  * ./matty/20191016a/images/20191016a-3-fft.jpg
+* __/matty/20191016a/images/20191016a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191016a
+  * FFT of the of 20191016a experiment. na
+  * ./matty/20191016a/images/20191016a-2-fft.jpg
+* __/matty/20191016a/images/20191016a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191016a
+  * FFT of the of 20191016a experiment. na
+  * ./matty/20191016a/images/20191016a-1-fft.jpg
+* __/matty/20191016a/images/20191016a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191016a
+  * Automated image of 20191016a experiment. na
+  * ./matty/20191016a/images/20191016a-1.jpg
 * __/matty/pHATrick/20190223/P_20190223_201135.jpg__:
   * kelu124
   * lit3rick
@@ -1529,6 +1571,258 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * 20181104c
   * Setup of the experiment
   * ./matty/20181104c/photos/P_20181104_134129.jpg
+* __/matty/20191022a/images/20191022a-8-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-8-fft.jpg
+* __/matty/20191022a/images/20191022a-10.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-10.jpg
+* __/matty/20191022a/images/20191022a-4.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-4.jpg
+* __/matty/20191022a/images/20191022a-7-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-7-fft.jpg
+* __/matty/20191022a/images/20191022a-12-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-12-fft.jpg
+* __/matty/20191022a/images/20191022a-12.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-12.jpg
+* __/matty/20191022a/images/20191022a-14.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-14.jpg
+* __/matty/20191022a/images/20191022a-18.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-18.jpg
+* __/matty/20191022a/images/20191022a-10-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-10-fft.jpg
+* __/matty/20191022a/images/20191022a-6-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-6-fft.jpg
+* __/matty/20191022a/images/20191022a-11-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-11-fft.jpg
+* __/matty/20191022a/images/20191022a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-2-fft.jpg
+* __/matty/20191022a/images/20191022a-7.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-7.jpg
+* __/matty/20191022a/images/20191022a-5-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-5-fft.jpg
+* __/matty/20191022a/images/20191022a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-3.jpg
+* __/matty/20191022a/images/20191022a-18-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-18-fft.jpg
+* __/matty/20191022a/images/20191022a-16.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-16.jpg
+* __/matty/20191022a/images/20191022a-4-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-4-fft.jpg
+* __/matty/20191022a/images/20191022a-11.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-11.jpg
+* __/matty/20191022a/images/20191022a-13-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-13-fft.jpg
+* __/matty/20191022a/images/20191022a-9.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-9.jpg
+* __/matty/20191022a/images/20191022a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-3-fft.jpg
+* __/matty/20191022a/images/20191022a-17-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-17-fft.jpg
+* __/matty/20191022a/images/20191022a-5.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-5.jpg
+* __/matty/20191022a/images/20191022a-14-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-14-fft.jpg
+* __/matty/20191022a/images/20191022a-15-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-15-fft.jpg
+* __/matty/20191022a/images/20191022a-17.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-17.jpg
+* __/matty/20191022a/images/20191022a-15.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-15.jpg
+* __/matty/20191022a/images/20191022a-9-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-9-fft.jpg
+* __/matty/20191022a/images/20191022a-6.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-6.jpg
+* __/matty/20191022a/images/20191022a-8.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-8.jpg
+* __/matty/20191022a/images/20191022a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-1.jpg
+* __/matty/20191022a/images/20191022a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-2.jpg
+* __/matty/20191022a/images/20191022a-13.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022a
+  * Automated image of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-13.jpg
+* __/matty/20191022a/images/20191022a-16-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-16-fft.jpg
+* __/matty/20191022a/images/20191022a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022a
+  * FFT of the of 20191022a experiment. na
+  * ./matty/20191022a/images/20191022a-1-fft.jpg
 * __/matty/20181104a/images/Spectrum_20181104a-2.jpg__:
   * kelu124
   * matty,hp2121
@@ -2219,6 +2513,426 @@ Details of acquisition between us 10 and 40.
   * 20180403b
   * Testing new version of FPGA bin
   * ./matty/20180403b/p_OK_25V-200us-4-200_100_2000_10_200000-64msps.jpg
+* __/matty/20191023a/images/20191023a-8-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-8-fft.jpg
+* __/matty/20191023a/images/20191023a-5-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-5-fft.jpg
+* __/matty/20191023a/images/20191023a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-3-fft.jpg
+* __/matty/20191023a/images/20191023a-6-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-6-fft.jpg
+* __/matty/20191023a/images/20191023a-12.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-12.jpg
+* __/matty/20191023a/images/20191023a-7.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-7.jpg
+* __/matty/20191023a/images/20191023a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-1-fft.jpg
+* __/matty/20191023a/images/20191023a-6.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-6.jpg
+* __/matty/20191023a/images/20191023a-9-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-9-fft.jpg
+* __/matty/20191023a/images/20191023a-10.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-10.jpg
+* __/matty/20191023a/images/20191023a-4-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-4-fft.jpg
+* __/matty/20191023a/images/20191023a-8.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-8.jpg
+* __/matty/20191023a/images/20191023a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-3.jpg
+* __/matty/20191023a/images/20191023a-9.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-9.jpg
+* __/matty/20191023a/images/20191023a-4.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-4.jpg
+* __/matty/20191023a/images/20191023a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-1.jpg
+* __/matty/20191023a/images/20191023a-12-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-12-fft.jpg
+* __/matty/20191023a/images/20191023a-11-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-11-fft.jpg
+* __/matty/20191023a/images/20191023a-7-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-7-fft.jpg
+* __/matty/20191023a/images/20191023a-5.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-5.jpg
+* __/matty/20191023a/images/20191023a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-2-fft.jpg
+* __/matty/20191023a/images/20191023a-10-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191023a
+  * FFT of the of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-10-fft.jpg
+* __/matty/20191023a/images/20191023a-11.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-11.jpg
+* __/matty/20191023a/images/20191023a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191023a
+  * Automated image of 20191023a experiment. na
+  * ./matty/20191023a/images/20191023a-2.jpg
+* __/matty/20191022b/images/20191022b-11.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-11.jpg
+* __/matty/20191022b/images/20191022b-10-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-10-fft.jpg
+* __/matty/20191022b/images/20191022b-14.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-14.jpg
+* __/matty/20191022b/images/20191022b-7-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-7-fft.jpg
+* __/matty/20191022b/images/20191022b-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-3-fft.jpg
+* __/matty/20191022b/images/20191022b-6-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-6-fft.jpg
+* __/matty/20191022b/images/20191022b-8.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-8.jpg
+* __/matty/20191022b/images/20191022b-12.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-12.jpg
+* __/matty/20191022b/images/20191022b-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-1.jpg
+* __/matty/20191022b/images/20191022b-16-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-16-fft.jpg
+* __/matty/20191022b/images/20191022b-15.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-15.jpg
+* __/matty/20191022b/images/20191022b-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-3.jpg
+* __/matty/20191022b/images/20191022b-14-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-14-fft.jpg
+* __/matty/20191022b/images/20191022b-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-1-fft.jpg
+* __/matty/20191022b/images/20191022b-4.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-4.jpg
+* __/matty/20191022b/images/20191022b-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-2.jpg
+* __/matty/20191022b/images/20191022b-9.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-9.jpg
+* __/matty/20191022b/images/20191022b-8-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-8-fft.jpg
+* __/matty/20191022b/images/20191022b-18.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-18.jpg
+* __/matty/20191022b/images/20191022b-13-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-13-fft.jpg
+* __/matty/20191022b/images/20191022b-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-2-fft.jpg
+* __/matty/20191022b/images/20191022b-9-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-9-fft.jpg
+* __/matty/20191022b/images/20191022b-10.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-10.jpg
+* __/matty/20191022b/images/20191022b-12-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-12-fft.jpg
+* __/matty/20191022b/images/20191022b-11-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-11-fft.jpg
+* __/matty/20191022b/images/20191022b-17.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-17.jpg
+* __/matty/20191022b/images/20191022b-13.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-13.jpg
+* __/matty/20191022b/images/20191022b-6.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-6.jpg
+* __/matty/20191022b/images/20191022b-7.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-7.jpg
+* __/matty/20191022b/images/20191022b-5.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-5.jpg
+* __/matty/20191022b/images/20191022b-18-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-18-fft.jpg
+* __/matty/20191022b/images/20191022b-5-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-5-fft.jpg
+* __/matty/20191022b/images/20191022b-17-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-17-fft.jpg
+* __/matty/20191022b/images/20191022b-15-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-15-fft.jpg
+* __/matty/20191022b/images/20191022b-16.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191022b
+  * Automated image of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-16.jpg
+* __/matty/20191022b/images/20191022b-4-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191022b
+  * FFT of the of 20191022b experiment. na
+  * ./matty/20191022b/images/20191022b-4-fft.jpg
 * __/matty/20191006a/images/20191006a-1-fft.jpg__:
   * kelu124
   * matty
@@ -4604,6 +5318,62 @@ Details of acquisition between us 40 and 120.
   * ToTag
   * ToTag
   * ./include/community/Taylor/20170801_134824.jpg
+* __/include/community/DrS/20191018a-1-fft.jpg__:
+  * DrS
+  * matty, cletus
+  * FFT
+  * 20191018a
+  * FFT of the of 20191018a experiment. na
+  * ./include/community/DrS/20191018a-1-fft.jpg
+* __/include/community/DrS/20191015_161651.jpg__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/20191015_161651.jpg
+* __/include/community/DrS/20191015_132252.jpg__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/20191015_132252.jpg
+* __/include/community/DrS/Un0rick_modif01.jpg__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/Un0rick_modif01.jpg
+* __/include/community/DrS/IMG_20191015_133534.jpg__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/IMG_20191015_133534.jpg
+* __/include/community/DrS/20191018a-1.jpg__:
+  * DrS
+  * matty
+  * graph
+  * 20191018a
+  * Automated image of 20191018a experiment. na
+  * ./include/community/DrS/20191018a-1.jpg
+* __/include/community/DrS/20191015_132241.jpg__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/20191015_132241.jpg
+* __/include/community/DrS/20191015_132135.jpg__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/20191015_132135.jpg
 * __/include/community/Uwe/20180620a/IMAG0232.jpg__:
   * Uwe
   * elmo
@@ -7509,6 +8279,20 @@ Details of acquisition between us 40 and 120.
   * ToTag
   * ToTag
   * ./include/community/Taylor/image.png
+* __/include/community/DrS/1.png__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/1.png
+* __/include/community/DrS/2.png__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/2.png
 * __/include/community/Zach/images/Original.png__:
   * Zach
   * ToTag
@@ -12983,6 +13767,20 @@ Details of acquisition between us 40 and 120.
   * ToTag
   * ToTag
   * ./include/20161016/concept3.PNG
+* __/matty/20191023a/Short_C28.jpeg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20191023a/Short_C28.jpeg
+* __/matty/20191023a/DCLK_OK.jpeg__:
+  * kelu124
+  * matty
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./matty/20191023a/DCLK_OK.jpeg
 * __/include/images/strangeatl/724index.jpeg__:
   * kelu124
   * ToTag
@@ -12990,6 +13788,13 @@ Details of acquisition between us 40 and 120.
   * ToTag
   * ToTag
   * ./include/images/strangeatl/724index.jpeg
+* __/include/community/DrS/coba_01.jpeg__:
+  * DrS
+  * ToTag
+  * ToTag
+  * ToTag
+  * ToTag
+  * ./include/community/DrS/coba_01.jpeg
 * __/include/community/Jorge/ALTGOB/IMG-20190327-WA0003.jpeg__:
   * Jorge
   * libra-user 5.1.1 LMY47V V8.2.1.0.LXKCNDL release-keys

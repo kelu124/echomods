@@ -20,8 +20,8 @@
 * [20180224a-client.ipynb](/matty/20180224a/20180224a-client.ipynb). File used in: [`/matty/20180224a/Readme.md`](/matty/20180224a/Readme.md).
 * [20180901a-Client.ipynb](/matty/20180901a/20180901a-Client.ipynb). _File not used._
 * [20180227a-Loops.ipynb](/matty/v0.1/images/20180227/20180227a-Loops.ipynb). _File not used._
-* [20180403a-Client.ipynb](/matty/20180403a/20180403a-Client.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md), [`/include/experiments/auto/20180403a.md`](/include/experiments/auto/20180403a.md).
-* [20180403a-75V.ipynb](/matty/20180403a/20180403a-75V.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md), [`/include/experiments/auto/20180403a.md`](/include/experiments/auto/20180403a.md).
+* [20180403a-Client.ipynb](/matty/20180403a/20180403a-Client.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md).
+* [20180403a-75V.ipynb](/matty/20180403a/20180403a-75V.ipynb). File used in: [`/matty/20180403a/Readme.md`](/matty/20180403a/Readme.md).
 * [20181104b-Processing.ipynb](/matty/20181104b/20181104b-Processing.ipynb). _File not used._
 * [RPi.ipynb](/matty/images/20180221a/RPi.ipynb). _File not used._
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). _File not used._
@@ -35,8 +35,8 @@
 * [20181126a-Server-1.1b.ipynb](/matty/20181126a/20181126a-Server-1.1b.ipynb). _File not used._
 * [20181126a-Processing.ipynb](/matty/20181126a/20181126a-Processing.ipynb). _File not used._
 * [20190324a.ipynb](/matty/20190324a/20190324a.ipynb). File used in: [`/matty/20190324a/Readme.md`](/matty/20190324a/Readme.md).
-* [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md), [`/include/experiments/auto/Code_20180430a.md`](/include/experiments/auto/Code_20180430a.md).
-* [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md), [`/include/experiments/auto/Code_20180430a.md`](/include/experiments/auto/Code_20180430a.md).
+* [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md).
+* [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/matty/20180430a/Readme.md`](/matty/20180430a/Readme.md), [`/matty/20180506a/Readme.md`](/matty/20180506a/Readme.md).
 * [CalibGain.ipynb](/matty/20180310a/CalibGain.ipynb). File used in: [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md).
 * [20180310a-CalibGain.ipynb](/matty/20180310a/20180310a-CalibGain.ipynb). File used in: [`/matty/20180310a/Readme.md`](/matty/20180310a/Readme.md), [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md).
 * [20180310a-Server.ipynb](/matty/20180310a/20180310a-Server.ipynb). File used in: [`/matty/20180310a/Readme.md`](/matty/20180310a/Readme.md), [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md).
@@ -69,8 +69,8 @@
 * [20180814a-Server.ipynb](/matty/20180814a/20180814a-Server.ipynb). _File not used._
 * [20190713b-Check.ipynb](/matty/20190713/20190713b/20190713b-Check.ipynb). _File not used._
 * [20190713a-NewBatch.ipynb](/matty/20190713/20190713a/20190713a-NewBatch.ipynb). _File not used._
-* [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md), [`/include/experiments/auto/Code_20180224b.md`](/include/experiments/auto/Code_20180224b.md).
-* [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). File used in: [`/matty/Readme.md`](/matty/Readme.md), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md), [`/include/experiments/auto/Code_20180224b.md`](/include/experiments/auto/Code_20180224b.md).
+* [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md).
+* [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). File used in: [`/matty/Readme.md`](/matty/Readme.md), [`/matty/20180224b/Readme.md`](/matty/20180224b/Readme.md), [`/include/experiments/auto/20180224b.md`](/include/experiments/auto/20180224b.md).
 * [20181031a-Server.ipynb](/matty/20181031a/20181031a-Server.ipynb). _File not used._
 * [20170831-TestImages.ipynb](/include/images/20170831-TestImages.ipynb). File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 * [20180811a-Server.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Server.ipynb). File used in: [`/include/images/kretzaw145ba/20180811a/Readme.md`](/include/images/kretzaw145ba/20180811a/Readme.md), [`/include/experiments/auto/Code_20180811a.md`](/include/experiments/auto/Code_20180811a.md).

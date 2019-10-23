@@ -19,6 +19,11 @@
 * __[Links]__ :no_entry: `./include/murgen_notes.md` : Error in link definition, non-absolute path in link to `Software_(murgen-dev-kit`
 * __[Links]__ :no_entry: `./matty/20180430a/Readme.md` : Link to non-existing file `./matty/20180430a/ServoControl.ino`
 * __[Links]__ :no_entry: `./matty/20180721a/Readme.md` : Link to non-existing file `./matty/20180721a/20180721a-Client.ipynb`
+* __[Links]__ :no_entry: `./matty/20191023a/Readme.md` : Link to non-existing file `./matty/20191023a/images/20191023a-10`
+* __[Links]__ :no_entry: `./matty/20191023a/Readme.md` : Link to non-existing file `./matty/20191023a/images/20191023a-11`
+* __[Links]__ :no_entry: `./matty/20191023a/Readme.md` : Link to non-existing file `./matty/20191023a/images/20191023a-12`
+* __[Links]__ :no_entry: `./matty/20191023a/Readme.md` : Link to non-existing file `./matty/20191023a/images/20191023a-8`
+* __[Links]__ :no_entry: `./matty/20191023a/Readme.md` : Link to non-existing file `./matty/20191023a/images/20191023a-9`
 * __[Links]__ :no_entry: `./matty/news/2017-09-15-uniboard.md` : Link to non-existing file `./include/images/UniPins.png`
 * __[Links]__ :no_entry: `./matty/v1.1/test_V/Readme.md` : Link to non-existing file `./echomods/matty/v1.1/test_V/HV2550ou75.png`
 * __[Links]__ :no_entry: `./matty/v1.1/test_V/Readme.md` : Link to non-existing file `./echomods/matty/v1.1/test_V/PonPoff.png`
@@ -55,7 +60,11 @@
 * __[Unrefed file]__ :no_entry: `/matty/20180226a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180226a/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180227a/mkimg.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20180403a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180403b/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20180430a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20180430a/ServoControl/ServoControl.ino` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20180430a/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180511a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180511a/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180814a/20180814a-Server.ipynb` : No references of this file.
@@ -104,6 +113,9 @@
 * __[Unrefed file]__ :no_entry: `/matty/20190713/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190804a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20191006a/pyUn0.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20191016a/pyUn0.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20191022a/pyUn0.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20191023a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/HV/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/SPI/serialflash.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.
