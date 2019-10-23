@@ -31,21 +31,21 @@
 ### HV at 500/1024, HILO high, gain at 600
 
 
-![](/matty/20191023a/images/20191023a-8)
+![](/matty/20191023a/images/20191023a-8.jpg)
 
 ### HV at 100/1024, HILO high, gain at 600
 
 
-![](/matty/20191023a/images/20191023a-9)
+![](/matty/20191023a/images/20191023a-9.jpg)
 
 ### HV at 900/1024, HILO high, gain at 600
 
 
-![](/matty/20191023a/images/20191023a-10)
+![](/matty/20191023a/images/20191023a-10.jpg)
 
 ### HV at 500/1024, HILO low, gain at 100
 
-![](/matty/20191023a/images/20191023a-11)
+![](/matty/20191023a/images/20191023a-11.jpg)
 
 ### HV at 100/1024, HILO low, gain at 100
 
