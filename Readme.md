@@ -207,17 +207,19 @@ and used in a wider context:
 
 # Experiments
 
- * [20191023a](/include/experiments/auto/20191023a.md)
- * [20191022b](/include/experiments/auto/20191022b.md)
- * [20191022a](/include/experiments/auto/20191022a.md)
- * [20191018a](/include/experiments/auto/20191018a.md)
- * [20191016a](/include/experiments/auto/20191016a.md)
- * [20191006a](/include/experiments/auto/20191006a.md)
- * [20190804a](/include/experiments/auto/20190804a.md)
- * [20190713b](/include/experiments/auto/20190713b.md)
- * [20190713a](/include/experiments/auto/20190713a.md)
- * [20190415a](/include/experiments/auto/20190415a.md)
- * [20190404a](/include/experiments/auto/20190404a.md)
+ * [20191026a](/include/experiments/auto/20191026a.md)
+ * [20191024a](/include/experiments/auto/20191024a.md)
+ * 2019-10-23: [lit3 success](/include/experiments/auto/20191023a.md): Some better acquisitions - it works ! _(20191023a)_
+ * 2019-10-22: [lit3 weird](/include/experiments/auto/20191022b.md): Strange signals ahead _(20191022b)_
+ * 2019-10-22: [weird acqs again](/include/experiments/auto/20191022a.md): investigating _(20191022a)_
+ * 2019-10-18: [first un0 acqs from Tri](/include/experiments/auto/20191018a.md): his [setup seems to work](https _(20191018a)_
+ * 2019-10-16: [weird acqs](/include/experiments/auto/20191016a.md): what is wrong with me ? _(20191016a)_
+ * 2019-10-06: [lit3 questions](/include/experiments/auto/20191006a.md): what is happening ? _(20191006a)_
+ * 2019-08-04: [tuto video for Un0rick](/include/experiments/auto/20190804a.md): [more here on youtube](https _(20190804a)_
+ * 2019-07-13: [new un0 batch](/include/experiments/auto/20190713b.md): quality tests _(20190713b)_
+ * 2019-07-13: [RPI3](/include/experiments/auto/20190713a.md): yes, I had to test _(20190713a)_
+ * 2019-04-15: [NDT tests](/include/experiments/auto/20190415a.md): testing what the NDT probes does _(20190415a)_
+ * 2019-04-04: [NDT tests double peak](/include/experiments/auto/20190404a.md): why are there two frequencies ? _(20190404a)_
  * 2019-03-29: [NDT dual transducer](/include/experiments/auto/20190329a.md): understanding the transducer _(20190329a)_
  * 2019-03-24: [lit3rick](/include/experiments/auto/20190324a.md): testing at first the pulser _(20190324a)_
  * 2019-02-26: [flashing UP5K sran](/include/experiments/auto/20190226a.md): using a m5stack to flash the sram of the up5K, temporarily, through a web interface _(20190226a)_
@@ -410,6 +412,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * first shots with lit3rick
 * harmonize between lit3rick, pHATrick, minie, minny
 * receive lomos and test for NDTs
+* s updates on new pHAT
 
 
 

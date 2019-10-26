@@ -101,6 +101,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * first shots with lit3rick
 * harmonize between lit3rick, pHATrick, minie, minny
 * receive lomos and test for NDTs
+* s updates on new pHAT
 
 
 

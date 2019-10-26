@@ -40,9 +40,9 @@
 * [CalibGain.ipynb](/matty/20180310a/CalibGain.ipynb). File used in: [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md).
 * [20180310a-CalibGain.ipynb](/matty/20180310a/20180310a-CalibGain.ipynb). File used in: [`/matty/20180310a/Readme.md`](/matty/20180310a/Readme.md), [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md).
 * [20180310a-Server.ipynb](/matty/20180310a/20180310a-Server.ipynb). File used in: [`/matty/20180310a/Readme.md`](/matty/20180310a/Readme.md), [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md).
-* [20181104a-Server.ipynb](/matty/20181104c/20181104a-Server.ipynb). File used in: [`/include/experiments/auto/Code_20181104a.md`](/include/experiments/auto/Code_20181104a.md).
+* [20181104a-Server.ipynb](/matty/20181104c/20181104a-Server.ipynb). _File not used._
 * [20181104c-Processing.ipynb](/matty/20181104c/20181104c-Processing.ipynb). _File not used._
-* [20181104a-Processing.ipynb](/matty/20181104a/20181104a-Processing.ipynb). File used in: [`/include/experiments/auto/Code_20181104a.md`](/include/experiments/auto/Code_20181104a.md).
+* [20181104a-Processing.ipynb](/matty/20181104a/20181104a-Processing.ipynb). _File not used._
 * [20190104a-Client.ipynb](/matty/20190104a/20190104a-Client.ipynb). _File not used._
 * [Untitled.ipynb](/matty/un0_test_a/Untitled.ipynb). _File not used._
 * [Untitled1.ipynb](/matty/un0_test_a/Untitled1.ipynb). _File not used._

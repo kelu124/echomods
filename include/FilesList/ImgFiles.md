@@ -650,6 +650,118 @@
   * 20180901a
   * Scan converted image of 20180901a-1 using a piezo: kretzaw145ba
   * ./matty/20180901a/images/SC_20180901a-1-fft.jpg
+* __/matty/20191024a/images/20191024a-6-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191024a
+  * FFT of the of 20191024a experiment. C2_w.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-6-fft.jpg
+* __/matty/20191024a/images/20191024a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191024a
+  * FFT of the of 20191024a experiment. D_b.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-1-fft.jpg
+* __/matty/20191024a/images/20191024a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191024a
+  * FFT of the of 20191024a experiment. D_b.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-2-fft.jpg
+* __/matty/20191024a/images/20191024a-4-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191024a
+  * FFT of the of 20191024a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-4-fft.jpg
+* __/matty/20191024a/images/20191024a-7-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191024a
+  * FFT of the of 20191024a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-7-fft.jpg
+* __/matty/20191024a/images/20191024a-5-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191024a
+  * FFT of the of 20191024a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-5-fft.jpg
+* __/matty/20191024a/images/20191024a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191024a
+  * Automated image of 20191024a experiment. C2_w.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-3.jpg
+* __/matty/20191024a/images/20191024a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191024a
+  * FFT of the of 20191024a experiment. C2_w.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-3-fft.jpg
+* __/matty/20191024a/images/20191024a-8.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191024a
+  * Automated image of 20191024a experiment. D_b.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-8.jpg
+* __/matty/20191024a/images/20191024a-6.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191024a
+  * Automated image of 20191024a experiment. C2_w.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-6.jpg
+* __/matty/20191024a/images/20191024a-8-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191024a
+  * FFT of the of 20191024a experiment. D_b.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-8-fft.jpg
+* __/matty/20191024a/images/20191024a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191024a
+  * Automated image of 20191024a experiment. D_b.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-1.jpg
+* __/matty/20191024a/images/20191024a-7.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191024a
+  * Automated image of 20191024a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-7.jpg
+* __/matty/20191024a/images/20191024a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191024a
+  * Automated image of 20191024a experiment. D_b.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-2.jpg
+* __/matty/20191024a/images/20191024a-4.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191024a
+  * Automated image of 20191024a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-4.jpg
+* __/matty/20191024a/images/20191024a-5.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191024a
+  * Automated image of 20191024a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191024a/images/20191024a-5.jpg
 * __/matty/v0.1/images/IMG_20180224_195210.jpg__:
   * kelu124
   * matty
@@ -1571,6 +1683,146 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * 20181104c
   * Setup of the experiment
   * ./matty/20181104c/photos/P_20181104_134129.jpg
+* __/matty/20191026a/images/20191026a-7-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. C2_w.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-7-fft.jpg
+* __/matty/20191026a/images/20191026a-3-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. C2_w.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-3-fft.jpg
+* __/matty/20191026a/images/20191026a-6.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. D_b.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-6.jpg
+* __/matty/20191026a/images/20191026a-10-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. Da.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-10-fft.jpg
+* __/matty/20191026a/images/20191026a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-2.jpg
+* __/matty/20191026a/images/20191026a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. D_c.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-1.jpg
+* __/matty/20191026a/images/20191026a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-2-fft.jpg
+* __/matty/20191026a/images/20191026a-10.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. Da.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-10.jpg
+* __/matty/20191026a/images/20191026a-8-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. C2_w.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-8-fft.jpg
+* __/matty/20191026a/images/20191026a-4.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-4.jpg
+* __/matty/20191026a/images/20191026a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. D_c.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-1-fft.jpg
+* __/matty/20191026a/images/20191026a-6-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. D_b.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-6-fft.jpg
+* __/matty/20191026a/images/20191026a-5.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. D_a.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-5.jpg
+* __/matty/20191026a/images/20191026a-9-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. C2_w.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-9-fft.jpg
+* __/matty/20191026a/images/20191026a-4-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. D_a.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-4-fft.jpg
+* __/matty/20191026a/images/20191026a-9.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. C2_w.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-9.jpg
+* __/matty/20191026a/images/20191026a-8.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. C2_w.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-8.jpg
+* __/matty/20191026a/images/20191026a-3.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. C2_w.bin - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-3.jpg
+* __/matty/20191026a/images/20191026a-7.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191026a
+  * Automated image of 20191026a experiment. C2_w.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-7.jpg
+* __/matty/20191026a/images/20191026a-5-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191026a
+  * FFT of the of 20191026a experiment. D_a.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191026a/images/20191026a-5-fft.jpg
 * __/matty/20191022a/images/20191022a-8-fft.jpg__:
   * kelu124
   * matty, cletus
@@ -5329,28 +5581,28 @@ Details of acquisition between us 40 and 120.
   * DrS
   * ToTag
   * ToTag
-  * ToTag
+  * 20191018a
   * ToTag
   * ./include/community/DrS/20191015_161651.jpg
 * __/include/community/DrS/20191015_132252.jpg__:
   * DrS
   * ToTag
   * ToTag
-  * ToTag
+  * 20191018a
   * ToTag
   * ./include/community/DrS/20191015_132252.jpg
 * __/include/community/DrS/Un0rick_modif01.jpg__:
   * DrS
-  * ToTag
-  * ToTag
-  * ToTag
-  * ToTag
+  * matty
+  * setup
+  * 20191018a
+  * Overall picture
   * ./include/community/DrS/Un0rick_modif01.jpg
 * __/include/community/DrS/IMG_20191015_133534.jpg__:
   * DrS
-  * ToTag
-  * ToTag
-  * ToTag
+  * matty
+  * setup
+  * 20191018a
   * ToTag
   * ./include/community/DrS/IMG_20191015_133534.jpg
 * __/include/community/DrS/20191018a-1.jpg__:
@@ -5363,15 +5615,15 @@ Details of acquisition between us 40 and 120.
 * __/include/community/DrS/20191015_132241.jpg__:
   * DrS
   * ToTag
-  * ToTag
-  * ToTag
+  * setup
+  * 20191018a
   * ToTag
   * ./include/community/DrS/20191015_132241.jpg
 * __/include/community/DrS/20191015_132135.jpg__:
   * DrS
   * ToTag
   * ToTag
-  * ToTag
+  * 20191018a
   * ToTag
   * ./include/community/DrS/20191015_132135.jpg
 * __/include/community/Uwe/20180620a/IMAG0232.jpg__:

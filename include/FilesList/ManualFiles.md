@@ -48,6 +48,8 @@
 
 * [./matty/20180224a/Readme.md](/matty/20180224a/Readme.md):  . _File not used._
 
+* [./matty/20191024a/Readme.md](/matty/20191024a/Readme.md):  . _File not used._
+
 * [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . _File not used._
 
 * [./matty/1i/1i.md](/matty/1i/1i.md):  . _File not used._
@@ -100,7 +102,7 @@
 
 * [./matty/1t/idea.md](/matty/1t/idea.md):  . _File not used._
 
-* [./matty/20181104a/Readme.md](/matty/20181104a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20181104a.md`](/include/experiments/auto/Code_20181104a.md).
+* [./matty/20181104a/Readme.md](/matty/20181104a/Readme.md):  . _File not used._
 
 * [./matty/20190404a/ndt.exp.md](/matty/20190404a/ndt.exp.md):  . File used in: [`/include/experiments/auto/Code_20190404a.md`](/include/experiments/auto/Code_20190404a.md).
 

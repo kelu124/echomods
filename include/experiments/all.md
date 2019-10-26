@@ -1,3 +1,14 @@
+* 20191023a: lit3 success: Some better acquisitions - it works ! 
+* 20191022b: lit3 weird: Strange signals ahead 
+* 20191022a: weird acqs again: investigating 
+* 20191018a: first un0 acqs from Tri: his [setup seems to work](https://github.com/kelu124/echomods/tree/master/include/community/DrS). 
+* 20191016a: weird acqs: what is wrong with me ?
+* 20191006a: lit3 questions: what is happening ? 
+* 20190804a: tuto video for Un0rick: [more here on youtube](https://www.youtube.com/watch?v=rv-Ag_TcnP8&feature=youtu.be) 
+* 20190713b: new un0 batch: quality tests 
+* 20190713a: RPI3: yes, I had to test 
+* 20190415a: NDT tests: testing what the NDT probes does 
+* 20190404a: NDT tests double peak: why are there two frequencies ? 
 * 20160809a: Goblin tests: Testing the goblin board with the silent emulator.
 * 20160814a: RPi: Testing the acquisition with the BeagleBone DAQ.
 * 20161217a: Croaker: Testing the acquisition with the croaker module.
