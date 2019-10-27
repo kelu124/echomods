@@ -26,15 +26,15 @@
 
 * [20190329a.md.tpl](/include/experiments/auto/20190329a.md.tpl): ./include/experiments/auto/20190329a.md.tpl. _File not used._
 
-* [20171001b.md.tpl](/include/experiments/auto/20171001b.md.tpl): ./include/experiments/auto/20171001b.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20171001b.md.tpl](/include/experiments/auto/20171001b.md.tpl): ./include/experiments/auto/20171001b.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20190111a.md.tpl](/include/experiments/auto/20190111a.md.tpl): ./include/experiments/auto/20190111a.md.tpl. _File not used._
 
-* [20171001a.md.tpl](/include/experiments/auto/20171001a.md.tpl): ./include/experiments/auto/20171001a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20171001a.md.tpl](/include/experiments/auto/20171001a.md.tpl): ./include/experiments/auto/20171001a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20180403a.md.tpl](/include/experiments/auto/20180403a.md.tpl): ./include/experiments/auto/20180403a.md.tpl. _File not used._
 
-* [20170715a.md.tpl](/include/experiments/auto/20170715a.md.tpl): ./include/experiments/auto/20170715a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170715a.md.tpl](/include/experiments/auto/20170715a.md.tpl): ./include/experiments/auto/20170715a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20180812a.md.tpl](/include/experiments/auto/20180812a.md.tpl): ./include/experiments/auto/20180812a.md.tpl. _File not used._
 
@@ -68,11 +68,11 @@
 
 * [20180224b.md.tpl](/include/experiments/auto/20180224b.md.tpl): ./include/experiments/auto/20180224b.md.tpl. _File not used._
 
-* [20170713a.md.tpl](/include/experiments/auto/20170713a.md.tpl): ./include/experiments/auto/20170713a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170713a.md.tpl](/include/experiments/auto/20170713a.md.tpl): ./include/experiments/auto/20170713a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [20160809a.md.tpl](/include/experiments/auto/20160809a.md.tpl): ./include/experiments/auto/20160809a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20160809a.md.tpl](/include/experiments/auto/20160809a.md.tpl): ./include/experiments/auto/20160809a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [20170930a.md.tpl](/include/experiments/auto/20170930a.md.tpl): ./include/experiments/auto/20170930a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170930a.md.tpl](/include/experiments/auto/20170930a.md.tpl): ./include/experiments/auto/20170930a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20191022a.md.tpl](/include/experiments/auto/20191022a.md.tpl): ./include/experiments/auto/20191022a.md.tpl. _File not used._
 
@@ -94,11 +94,11 @@
 
 * [20190223.md.tpl](/include/experiments/auto/20190223.md.tpl): ./include/experiments/auto/20190223.md.tpl. _File not used._
 
-* [20170611a.md.tpl](/include/experiments/auto/20170611a.md.tpl): ./include/experiments/auto/20170611a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20170611a.md.tpl](/include/experiments/auto/20170611a.md.tpl): ./include/experiments/auto/20170611a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20180831c.md.tpl](/include/experiments/auto/20180831c.md.tpl): ./include/experiments/auto/20180831c.md.tpl. _File not used._
 
-* [20160814a.md.tpl](/include/experiments/auto/20160814a.md.tpl): ./include/experiments/auto/20160814a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20160814a.md.tpl](/include/experiments/auto/20160814a.md.tpl): ./include/experiments/auto/20160814a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20180813a.md.tpl](/include/experiments/auto/20180813a.md.tpl): ./include/experiments/auto/20180813a.md.tpl. _File not used._
 
@@ -106,7 +106,7 @@
 
 * [20180809a.md.tpl](/include/experiments/auto/20180809a.md.tpl): ./include/experiments/auto/20180809a.md.tpl. _File not used._
 
-* [20171111a.md.tpl](/include/experiments/auto/20171111a.md.tpl): ./include/experiments/auto/20171111a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20171111a.md.tpl](/include/experiments/auto/20171111a.md.tpl): ./include/experiments/auto/20171111a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20180901a.md.tpl](/include/experiments/auto/20180901a.md.tpl): ./include/experiments/auto/20180901a.md.tpl. _File not used._
 
@@ -116,7 +116,7 @@
 
 * [20190223a.md.tpl](/include/experiments/auto/20190223a.md.tpl): ./include/experiments/auto/20190223a.md.tpl. _File not used._
 
-* [20161217a.md.tpl](/include/experiments/auto/20161217a.md.tpl): ./include/experiments/auto/20161217a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20161217a.md.tpl](/include/experiments/auto/20161217a.md.tpl): ./include/experiments/auto/20161217a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20180415a.md.tpl](/include/experiments/auto/20180415a.md.tpl): ./include/experiments/auto/20180415a.md.tpl. _File not used._
 
@@ -130,9 +130,9 @@
 
 * [20190713b.md.tpl](/include/experiments/auto/20190713b.md.tpl): ./include/experiments/auto/20190713b.md.tpl. _File not used._
 
-* [20171124a.md.tpl](/include/experiments/auto/20171124a.md.tpl): ./include/experiments/auto/20171124a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20171124a.md.tpl](/include/experiments/auto/20171124a.md.tpl): ./include/experiments/auto/20171124a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [20171112a.md.tpl](/include/experiments/auto/20171112a.md.tpl): ./include/experiments/auto/20171112a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20171112a.md.tpl](/include/experiments/auto/20171112a.md.tpl): ./include/experiments/auto/20171112a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20180310a.md.tpl](/include/experiments/auto/20180310a.md.tpl): ./include/experiments/auto/20180310a.md.tpl. _File not used._
 
@@ -150,7 +150,7 @@
 
 * [20180217a.md.tpl](/include/experiments/auto/20180217a.md.tpl): ./include/experiments/auto/20180217a.md.tpl. _File not used._
 
-* [20160822a.md.tpl](/include/experiments/auto/20160822a.md.tpl): ./include/experiments/auto/20160822a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
+* [20160822a.md.tpl](/include/experiments/auto/20160822a.md.tpl): ./include/experiments/auto/20160822a.md.tpl. File used in: [`/us-draindump/Chapter4/AllLogs.md`](/us-draindump/Chapter4/AllLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
 * [20181013a.md.tpl](/include/experiments/auto/20181013a.md.tpl): ./include/experiments/auto/20181013a.md.tpl. _File not used._
 

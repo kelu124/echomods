@@ -1,4 +1,4 @@
-@kelu include(/include/experiments/Desc_20191022b.md)
+@kelu include(/us-draindump/exp/20191022b.md)
 
 @kelu include(/include/experiments/auto/Code_20191022b.md)
 

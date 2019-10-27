@@ -1564,6 +1564,34 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * 20190226a
   * Flashing the SRAM of the UP5K directly
   * ./matty/20190226a/P_20190226_210103.jpg
+* __/matty/20191027a/images/20191027a-2-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191027a
+  * FFT of the of 20191027a experiment. Dd.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191027a/images/20191027a-2-fft.jpg
+* __/matty/20191027a/images/20191027a-1.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191027a
+  * Automated image of 20191027a experiment. Dd.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191027a/images/20191027a-1.jpg
+* __/matty/20191027a/images/20191027a-1-fft.jpg__:
+  * kelu124
+  * matty, cletus
+  * FFT
+  * 20191027a
+  * FFT of the of 20191027a experiment. Dd.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191027a/images/20191027a-1-fft.jpg
+* __/matty/20191027a/images/20191027a-2.jpg__:
+  * kelu124
+  * matty
+  * graph
+  * 20191027a
+  * Automated image of 20191027a experiment. Dd.bin - no curve - DAC from 100 to 900, True - DAC = 400
+  * ./matty/20191027a/images/20191027a-2.jpg
 * __/matty/20180430a/pu30/fft.jpg__:
   * kelu124
   * matty,cletus

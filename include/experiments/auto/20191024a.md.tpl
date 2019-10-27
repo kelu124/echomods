@@ -1,4 +1,4 @@
-@kelu include(/matty/20191024a/Readme.md)
+@kelu include(/us-draindump/exp/20191024a.md)
 
 @kelu include(/include/experiments/auto/Code_20191024a.md)
 

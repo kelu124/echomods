@@ -62,7 +62,7 @@ ListOfMurgenSessions = ["Session_1.md","Session_2.md","Session_3.md","Session_4.
 ToBeReplaced = ["/include/NDT.md"]
 Replaced = ["/Chapter1/ndt.md"]
 
-ExcludeDirs = ["include","tools",".git","gh-pages","doc","gitbook","bomanz","hannin",]
+ExcludeDirs = ["include","tools",".git","gh-pages","doc","us-braindump","gitbook","bomanz","hannin",]
 ExcludeDirsRetired = ExcludeDirs+["retired"]
 
 

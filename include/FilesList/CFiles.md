@@ -1,12 +1,12 @@
-* [standard_driver.c](/elmo/standard_driver.c): . File used in: [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md).
+* [standard_driver.c](/elmo/standard_driver.c): . File used in: [`/us-draindump/Chapter1/QuickStart.md`](/us-draindump/Chapter1/QuickStart.md), [`/us-draindump/Chapter2/elmo.md`](/us-draindump/Chapter2/elmo.md), [`/elmo/Readme.md`](/elmo/Readme.md), [`/elmo/QuickStart.md`](/elmo/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md).
 
 * [standard_driver_RPi3.c](/elmo/standard_driver_RPi3.c): . _File not used._
 
 * [ustest.c](/elmo/data/ustest.c): . _File not used._
 
-* [scope.c](/elmo/data/scope.c): . File used in: [`/elmo/tindie.md`](/elmo/tindie.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
+* [scope.c](/elmo/data/scope.c): . File used in: [`/us-draindump/exp/20170713a.md`](/us-draindump/exp/20170713a.md), [`/elmo/tindie.md`](/elmo/tindie.md), [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
 
-* [scope2.c](/elmo/data/arduiprobe/scope2.c): . _File not used._
+* [scope2.c](/elmo/data/arduiprobe/scope2.c): . File used in: [`/us-draindump/exp/20170715a.md`](/us-draindump/exp/20170715a.md).
 
 * [scope.c](/elmo/data/arduiprobe/scope.c): . _File not used._
 
