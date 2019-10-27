@@ -207,6 +207,7 @@ and used in a wider context:
 
 # Experiments
 
+ * [20191027a](/include/experiments/auto/20191027a.md)
  * [20191026a](/include/experiments/auto/20191026a.md)
  * [20191024a](/include/experiments/auto/20191024a.md)
  * 2019-10-23: [lit3 success](/include/experiments/auto/20191023a.md): Some better acquisitions - it works ! _(20191023a)_
@@ -413,6 +414,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * harmonize between lit3rick, pHATrick, minie, minny
 * receive lomos and test for NDTs
 * s updates on new pHAT
+* find the right jekyll theme to leave gitbook
 
 
 

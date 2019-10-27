@@ -948,7 +948,7 @@
 
 * [pyUn0.v1.1b.py](/matty/20181126a/pyUn0s/pyUn0.v1.1b.py): Library for the un0rick platform.. _File not used._
 
-* [pyUn0.py](/matty/20191027a/pyUn0.py): Most updated library for the lit3rick platform.. _File not used._
+* [pyUn0.py](/matty/20191027a/pyUn0.py): Most updated library for the lit3rick platform.. File used in: [`/include/experiments/auto/20191027a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20191027a.html).
 
 * [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. _File not used._
 
@@ -1226,7 +1226,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_DocProcess.md](/include/ppt_DocProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocProcess.html)
 
-## 603 Auto generated files
+## 605 Auto generated files
 
 * ./Readme.md
 * ./include/AllAllExp.md
@@ -1379,6 +1379,7 @@
 * ./include/experiments/auto/Mod_20190804a.md
 * ./include/experiments/auto/20180721a.md
 * ./include/experiments/auto/Img_20190329a.md
+* ./include/experiments/auto/20191027a.md
 * ./include/experiments/auto/Code_20180811a.md
 * ./include/experiments/auto/Img_20191024a.md
 * ./include/experiments/auto/Img_20170930a.md
@@ -1710,6 +1711,7 @@
 * ./gitbook/exp/20191113a.md
 * ./gitbook/exp/20180825a.md
 * ./gitbook/exp/20180721a.md
+* ./gitbook/exp/20191027a.md
 * ./gitbook/exp/20180807b.md
 * ./gitbook/exp/20170930a.md
 * ./gitbook/exp/20180403a.md

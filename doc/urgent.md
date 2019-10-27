@@ -121,7 +121,6 @@
 * __[Unrefed file]__ :no_entry: `/matty/20191024a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20191026a/TMP112.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20191026a/pyUn0.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20191027a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/HV/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/SPI/serialflash.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.

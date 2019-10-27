@@ -54,7 +54,7 @@
 
 * [pyUn0.v1.1b.py](/matty/20181126a/pyUn0s/pyUn0.v1.1b.py): Library for the un0rick platform.. _File not used._
 
-* [pyUn0.py](/matty/20191027a/pyUn0.py): Most updated library for the lit3rick platform.. _File not used._
+* [pyUn0.py](/matty/20191027a/pyUn0.py): Most updated library for the lit3rick platform.. File used in: [`/include/experiments/auto/20191027a.md`](/include/experiments/auto/20191027a.md).
 
 * [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. _File not used._
 
