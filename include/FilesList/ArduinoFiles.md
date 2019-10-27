@@ -1,44 +1,44 @@
 * [32u4-ATL3_interface.ino](/retroATL3/data/32u4-ATL3_interface.ino): . File used in: [`/Worklog.md`](/Worklog.md), [`/retroATL3/Readme.md`](/retroATL3/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/us-draindump/Chapter3/silent.md`](/us-draindump/Chapter3/silent.md), [`/us-draindump/Chapter4/detailedlog.md`](/us-draindump/Chapter4/detailedlog.md), [`/silent/Readme.md`](/silent/Readme.md), [`/silent/2016-08-02.md`](/silent/2016-08-02.md).
+* [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/silent/Readme.md`](/silent/Readme.md), [`/silent/2016-08-02.md`](/silent/2016-08-02.md).
 
 * [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose. _File not used._
 
-* [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/us-draindump/Chapter3/silent.md`](/us-draindump/Chapter3/silent.md), [`/silent/Readme.md`](/silent/Readme.md).
+* [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/silent/Readme.md`](/silent/Readme.md).
 
 * [arduino.ino](/elmo/data/arduino.ino): . File used in: [`/elmo/data/arduino/20170611-arduino.md`](/elmo/data/arduino/20170611-arduino.md).
 
 * [arduino.ino](/elmo/data/arduiprobe/arduino.ino): . _File not used._
 
-* [ice40_sram_esp32.ino](/matty/20190226a/ice40_sram_esp32.ino): . File used in: [`/us-draindump/exp/20190226a.md`](/us-draindump/exp/20190226a.md), [`/matty/20190226a/Readme.md`](/matty/20190226a/Readme.md).
+* [ice40_sram_esp32.ino](/matty/20190226a/ice40_sram_esp32.ino): . File used in: [`/matty/20190226a/Readme.md`](/matty/20190226a/Readme.md).
 
-* [ServoControl.ino](/matty/20180430a/ServoControl/ServoControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`/us-draindump/exp/20180430a.md`](/us-draindump/exp/20180430a.md).
+* [ServoControl.ino](/matty/20180430a/ServoControl/ServoControl.ino): Servo control for Matty, used in `20180430a`. _File not used._
 
 * [SPI.ino](/matty/m5stack/SPI.ino): . File used in: [`/matty/m5stack/Readme.md`](/matty/m5stack/Readme.md).
 
-* [KretzControl.ino](/include/images/kretzaw145ba/20180812a/KretzControl.ino): Servo control for Matty, used in `20180430a` `20181104a`. File used in: [`/us-draindump/exp/20181104a.md`](/us-draindump/exp/20181104a.md), [`/us-draindump/exp/20180430a.md`](/us-draindump/exp/20180430a.md), [`/us-draindump/exp/20181013a.md`](/us-draindump/exp/20181013a.md), [`/include/images/hp2121/20181013a/Readme.md`](/include/images/hp2121/20181013a/Readme.md).
+* [KretzControl.ino](/include/images/kretzaw145ba/20180812a/KretzControl.ino): Servo control for Matty, used in `20180430a` `20181104a`. File used in: [`/include/images/hp2121/20181013a/Readme.md`](/include/images/hp2121/20181013a/Readme.md).
 
-* [2Msps_Server.ino](/retired/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it. File used in: [`/Worklog.md`](/Worklog.md), [`/us-draindump/Chapter4/rawworklog.md`](/us-draindump/Chapter4/rawworklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [2Msps_Server.ino](/retired/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [ReadPins.ino](/retired/croaker/feather_tests/ReadPins.ino): Reading pins. File used in: [`/us-draindump/Chapter4/detailedlog.md`](/us-draindump/Chapter4/detailedlog.md).
+* [ReadPins.ino](/retired/croaker/feather_tests/ReadPins.ino): Reading pins. _File not used._
 
 * [Registers1MspsServo.ino](/retired/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps. _File not used._
 
-* [Registers.ino](/retired/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registers. File used in: [`/us-draindump/Chapter4/detailedlog.md`](/us-draindump/Chapter4/detailedlog.md).
+* [Registers.ino](/retired/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registers. _File not used._
 
 * [StreamingADC2UDP.ino](/retired/croaker/feather_tests/StreamingADC2UDP.ino): First test to get the UDP working. _File not used._
 
-* [ADC2UDP-Cleaning.ino](/retired/croaker/feather_tests/ADC2UDP-Cleaning.ino): . File used in: [`/us-draindump/Chapter4/detailedlog.md`](/us-draindump/Chapter4/detailedlog.md).
+* [ADC2UDP-Cleaning.ino](/retired/croaker/feather_tests/ADC2UDP-Cleaning.ino): . _File not used._
 
 * [Registers1Msps-AcquireAsMuchAsPossible.ino](/retired/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino): Unused version. _File not used._
 
-* [2ADC2UDP.ino](/retired/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP. File used in: [`/Worklog.md`](/Worklog.md), [`/us-draindump/Chapter3/croaker.md`](/us-draindump/Chapter3/croaker.md), [`/us-draindump/Chapter4/detailedlog.md`](/us-draindump/Chapter4/detailedlog.md), [`/us-draindump/Chapter4/rawworklog.md`](/us-draindump/Chapter4/rawworklog.md), [`/us-draindump/Chapter4/detailednotes.md`](/us-draindump/Chapter4/detailednotes.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [2ADC2UDP.ino](/retired/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP. File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [Registers1MspsDisplayTrigged.ino](/retired/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.. File used in: [`/us-draindump/Chapter4/detailedlog.md`](/us-draindump/Chapter4/detailedlog.md).
+* [Registers1MspsDisplayTrigged.ino](/retired/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.. _File not used._
 
-* [tobo_pulser.ino](/retired/tobo/source/tobo_pulser.ino): . File used in: [`/us-draindump/Chapter1/QuickStart.md`](/us-draindump/Chapter1/QuickStart.md), [`/include/QuickStart.md`](/include/QuickStart.md).
+* [tobo_pulser.ino](/retired/tobo/source/tobo_pulser.ino): . File used in: [`/include/QuickStart.md`](/include/QuickStart.md).
 
-* [oneye_pulser.ino](/retired/oneeye/oneye_pulser.ino): . File used in: [`/us-draindump/Chapter3/oneeye.md`](/us-draindump/Chapter3/oneeye.md).
+* [oneye_pulser.ino](/retired/oneeye/oneye_pulser.ino): . _File not used._
 
 
 

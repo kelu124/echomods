@@ -1,4 +1,4 @@
-@kelu include(/us-draindump/exp/20171111a.md)
+@kelu include(/retired/alt.tbo/20171111a/Readme.md)
 
 @kelu include(/include/experiments/auto/Code_20171111a.md)
 

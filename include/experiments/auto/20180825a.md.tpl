@@ -1,4 +1,4 @@
-@kelu include(/us-draindump/exp/20180825a.md)
+@kelu include(/include/experiments/Desc_20180825a.md)
 
 @kelu include(/include/experiments/auto/Code_20180825a.md)
 
