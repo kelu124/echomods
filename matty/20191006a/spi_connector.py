@@ -1,9 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+SPI connector class is used to create an interface FPGA board
+"""
+
 import datetime
 import glob
 import json
 import os
 import spidev
 import time
+from enum import Enum
 
 try:
     import RPi.GPIO as GPIO
@@ -23,6 +29,40 @@ def new_n(path, expe_id):
             if N > n_max:
                 n_max = N
     return n_max + 1
+
+
+class SpiRegisters(Enum):
+    LED_READ = 0xC1
+    LED_GREEN = 0xC2
+    LED_BLUE = 0xC3
+    HILO_REG = 0xD8
+    MULTI_LINES_REG = 0xEB
+    WRITE_REG = 0xAA
+    CLEAN_MEM_POINTER = 0xEF
+    ONE_SHOT = 0xEB
+    SOFTWARE_TRIG = 0xEA
+    HV_REG_LSB = 0xD7
+    HV_REG_MSB = 0xD6
+    P_OFF_MSB = 0xE1
+    P_OFF_LSB = 0xE2
+    ACC_SPEED_MSPS = 0xED
+    NUM_LINES_LSB = 0xEE
+    NUM_LINES_MSB = 0xDE
+    VOLTAGE_GAIN = 0xEC
+    SEEPON = 0xE0
+    UNIT_P_ON_NEG = 0xD4
+    UNIT_P_DAMP_INT = 0xD2
+    HDA_MSB = 0xE3
+    HDA_LSB = 0xE4
+    LENGTH_ACQ_MSB = 0xE5
+    LENGTH_ACQ_LSB = 0xE6
+    REPEAT_LENGTH_MSB = 0xE7
+    REPEAT_LENGTH = 0xE8
+    REPEAT_LENGTH_LSB = 0xE9
+    SET_PULSE_TRAIN_REG1 = 0xD0
+    SET_PULSE_TRAIN_REG2 = 0xD1
+    SET_PULSE_TRAIN_REG3 = 0xD3
+    SET_PULSE_TRAIN_REG4 = 0xD5
 
 
 class SpiConnector:
@@ -113,12 +153,12 @@ class SpiConnector:
                     "Doing several lines."
                     "\nRemember to indicate how many lines. number_lines = 3 by default"
                 )
-            self.write_fpga(0xEB, 1)  # Doing one line if 0, several if 1
+            self.write_fpga(SpiRegisters.MULTI_LINES_REG, 1)  # Doing one line if 0, several if 1
             self.number_lines = 3
         else:
             if self.verbose:
                 print("Doing a single line")
-            self.write_fpga(0xEB, 0)  # Doing one line if 0, several if 1
+            self.write_fpga(SpiRegisters.MULTI_LINES_REG, 0)  # Doing one line if 0, several if 1
             self.number_lines = 1
 
     def set_tgc_curve(self, tgc_values):  # OK LIT3RICK
@@ -151,9 +191,9 @@ class SpiConnector:
         self.JSON["registers"][int(address)] = value
 
     def set_led_rgb(self, red, gren, blue):
-        self.write_fpga(0xC1, red)
-        self.write_fpga(0xC2, gren)
-        self.write_fpga(0xC3, blue)
+        self.write_fpga(SpiRegisters.LED_READ, red)
+        self.write_fpga(SpiRegisters.LED_GREEN, gren)
+        self.write_fpga(SpiRegisters.LED_BLUE, blue)
 
     def init(self):  # OK LIT3RICK
         """
@@ -191,10 +231,10 @@ class SpiConnector:
         Sets HILO on TGC
         """
         if hilo:
-            self.write_fpga(0xD8, 0x01)  # 1: HILO ON
+            self.write_fpga(SpiRegisters.HILO_REG, 0x01)  # 1: HILO ON
             print("HILO set HIGH")
         else:
-            self.write_fpga(0xD8, 0x00)  # 0: HILO OFF
+            self.write_fpga(SpiRegisters.HILO_REG, 0x00)  # 0: HILO OFF
             print("HILO set LOW")
 
     def loop_spi(self):  # OK LIT3RICK
@@ -202,24 +242,24 @@ class SpiConnector:
         Pure debug test to spam SPI bus to have HILO LED blink continuously
         """
         while 1:
-            self.write_fpga(0xD8, 0x01)
-            self.write_fpga(0xD8, 0x00)
+            self.write_fpga(SpiRegisters.HILO_REG, 0x01)
+            self.write_fpga(SpiRegisters.HILO_REG, 0x00)
 
     def loop_acq(self):  # OK LIT3RICK
         """
         Pure debug test to spam SPI bus with loop acquisition.
         """
         while 1:
-            self.write_fpga(0xEB, 0x00)  # Doing 1 shot
-            self.write_fpga(0xEF, 0x01)  # Cleaning memory pointer
-            self.write_fpga(0xEA, 0x0)  # Software Trig : As to be clear by software
+            self.write_fpga(SpiRegisters.MULTI_LINES_REG, 0x00)  # Doing 1 shot
+            self.write_fpga(SpiRegisters.CLEAN_MEM_POINTER, 0x01)  # Cleaning memory pointer
+            self.write_fpga(SpiRegisters.SOFTWARE_TRIG, 0x0)  # Software Trig : As to be clear by software
             time.sleep(0.001)  # sleep 1ms
 
     def clear_mem(self):  # OK LIT3RICK
         """
         Reset RAM pointer
         """
-        self.write_fpga(0xEF, 0x01)  # To access memory
+        self.write_fpga(SpiRegisters.CLEAN_MEM_POINTER, 0x01)  # To access memory
 
     """
     Setup functions
@@ -230,7 +270,7 @@ class SpiConnector:
         Setting acquisition speed.
         Using F, ADC speed is determined as 64Msps / (1 + f_msps)
         """
-        self.write_fpga(0xED, f_msps)
+        self.write_fpga(SpiRegisters.ACC_SPEED_MSPS, f_msps)
         self.f_ech = float(64 / (1 + f_msps))
         print("Acquisition frequency set at " + str(self.f_ech) + " Msps")
         return self.f_ech
@@ -239,9 +279,9 @@ class SpiConnector:
         """
         Doing an acquisition, trigs, then reads the data.
         """
-        self.write_fpga(0xEF, 0x01)  # Cleaning memory pointer
+        self.write_fpga(SpiRegisters.CLEAN_MEM_POINTER, 0x01)  # Cleaning memory pointer
         self.JSON["time"] = str(datetime.datetime.now())
-        self.write_fpga(0xEA, 0x01)  # Software Trig : As to be clear by software
+        self.write_fpga(SpiRegisters.SOFTWARE_TRIG, 0x01)  # Software Trig : As to be clear by software
         self.JSON["data"] = []
         time.sleep(1)
         milestone = self.Nacq / 5
@@ -269,7 +309,7 @@ class SpiConnector:
             with open(name_json, "w") as outfile:
                 json.dump(self.JSON, outfile)
             self.JSON["data"] = []
-            self.write_fpga(0xEF, 0x01)  # Cleaning memory pointer
+            self.write_fpga(SpiRegisters.CLEAN_MEM_POINTER, 0x01)  # Cleaning memory pointer
             self.set_led_rgb(0, 0, 1)
             for i in range(2 * self.Nacq + 2):
                 self.JSON["data"].append(self.spi.xfer([0x00])[0])
@@ -292,9 +332,9 @@ class SpiConnector:
         """
         Doing an acquisition, trigs, then reads the data.
         """
-        self.write_fpga(0xEF, 0x01)  # Cleaning memory pointer
+        self.write_fpga(SpiRegisters.CLEAN_MEM_POINTER, 0x01)  # Cleaning memory pointer
         self.JSON["time"] = str(datetime.datetime.now())
-        self.write_fpga(0xEA, 0x01)  # Software Trig : As to be clear by software
+        self.write_fpga(SpiRegisters.SOFTWARE_TRIG, 0x01)  # Software Trig : As to be clear by software
         self.JSON["data"] = []
         time.sleep(1)
         milestone = self.Nacq / 5
@@ -326,8 +366,8 @@ class SpiConnector:
         else:
             print("Not on a RPI")
 
-        self.write_fpga(0xEF, 0x01)  # Cleaning memory pointer
-        self.write_fpga(0xC2, 1)
+        self.write_fpga(SpiRegisters.CLEAN_MEM_POINTER, 0x01)  # Cleaning memory pointer
+        self.write_fpga(SpiRegisters.LED_GREEN, 1)
         self.JSON["time"] = str(datetime.datetime.now())
         self.JSON["data"] = []
         time.sleep(1)
@@ -366,8 +406,8 @@ class SpiConnector:
         Sets the number of lines to acquire.
         """
         n_msb, n_lsb = n / 256, 0x00FF & n
-        self.write_fpga(0xEE, n_lsb)
-        self.write_fpga(0xDE, n_msb)
+        self.write_fpga(SpiRegisters.NUM_LINES_LSB, n_lsb)
+        self.write_fpga(SpiRegisters.NUM_LINES_MSB, n_msb)
         self.number_lines = n
         if self.verbose:
             print("Number of lines: " + str(n))
@@ -377,8 +417,8 @@ class SpiConnector:
         Sets HV level
         """
         hv_msb, hv_lsb = hv_level / 256, 0x00FF & hv_level
-        self.write_fpga(0xD7, hv_lsb)
-        self.write_fpga(0xD6, hv_msb)
+        self.write_fpga(SpiRegisters.HV_REG_LSB, hv_lsb)
+        self.write_fpga(SpiRegisters.HV_REG_MSB, hv_msb)
         if self.verbose:
             print("HV Level: " + str(hv_level) + " (/1Obits)")
 
@@ -391,11 +431,11 @@ class SpiConnector:
         self.set_pulses_delays()  # Set Lengh between Pon and Poff: 100ns
         self.set_poff(2000)  # Setting Poff 2us
         # set_tgc_constant(20, spi) # gain at 20mV (2%)
-        self.write_fpga(0xEC, 0x33)  # Set DAC constant
+        self.write_fpga(SpiRegisters.VOLTAGE_GAIN, 0x33)  # Set DAC constant
         self.set_delta_acq(7000)  # 7us
         # write_fpga(0xEA, 0x00)     # Software Trig : As to be clear by software
-        self.write_fpga(0xEB, 0x00)  # 0: single mode 1 continuous mode
-        self.write_fpga(0xED, 0x03)  # Frequency of ADC acquisition
+        self.write_fpga(SpiRegisters.MULTI_LINES_REG, 0x00)  # 0: single mode 1 continuous mode
+        self.write_fpga(SpiRegisters.ACC_SPEED_MSPS, 0x03)  # Frequency of ADC acquisition
         self.set_acquisition_number_lines(0xA0)  # How many cycles in continuous mode
         print("Config FPGA done!")
 
@@ -409,7 +449,7 @@ class SpiConnector:
             mv = 0
         hmv = int(mv / 4)
         print("Gain:", mv, " mV -- ", hex(hmv))
-        self.write_fpga(0xEC, hmv)  # Voltage gain control: 0V to 1V
+        self.write_fpga(SpiRegisters.VOLTAGE_GAIN, hmv)  # Voltage gain control: 0V to 1V
 
     def set_pon(self, p_on):
         if p_on > 2500:
@@ -420,7 +460,7 @@ class SpiConnector:
         self.JSON["parameters"]["Pon"] = int(p_on)
         self.JSON["parameters"]["Pon_Real"] = int(unit_p_on * 1000 / 128)
         print("POn width:", p_on, " ns -- ", hex(unit_p_on))
-        self.write_fpga(0xE0, unit_p_on)  # set sEEPon
+        self.write_fpga(SpiRegisters.SEEPON, unit_p_on)  # set sEEPon
         return unit_p_on * 1000 / 128
 
     def set_pon_neg(self, p_on_neg):
@@ -432,7 +472,7 @@ class SpiConnector:
         self.JSON["parameters"]["Pon_neg"] = int(p_on_neg)
         self.JSON["parameters"]["Pon_neg_Real"] = int(unit_p_on_neg * 1000 / 128)
         print("PonNeg width:", p_on_neg, " ns -- ", hex(unit_p_on_neg))
-        self.write_fpga(0xD4, unit_p_on_neg)  # set sEEPon
+        self.write_fpga(SpiRegisters.UNIT_P_ON_NEG, unit_p_on_neg)  # set sEEPon
         return unit_p_on_neg * 1000 / 128
 
     def set_p_damp_init(self, p_damp_init):
@@ -444,7 +484,7 @@ class SpiConnector:
         self.JSON["parameters"]["Pon_neg"] = int(p_damp_init)
         self.JSON["parameters"]["Pon_neg_Real"] = int(unit_p_damp_int * 1000 / 128)
         print("PDampInt width:", p_damp_init, " ns -- ", hex(unit_p_damp_int))
-        self.write_fpga(0xD2, unit_p_damp_int)  # set sEEPon
+        self.write_fpga(SpiRegisters.UNIT_P_DAMP_INT, unit_p_damp_int)  # set sEEPon
         return unit_p_damp_int * 1000 / 128
 
     @staticmethod
@@ -460,8 +500,8 @@ class SpiConnector:
         print("Poff:", poff_value, " ns -- ", hex(p_off_msb), hex(p_off_lsb))
         self.JSON["parameters"]["Poff"] = int(poff_value)
         self.JSON["parameters"]["Poff_Real"] = int(p_off * 1000 / 128)
-        self.write_fpga(0xE1, p_off_msb)  # set sEEPon MSB
-        self.write_fpga(0xE2, p_off_lsb)  # set sEEPon LSB
+        self.write_fpga(SpiRegisters.P_OFF_MSB, p_off_msb)  # set sEEPon MSB
+        self.write_fpga(SpiRegisters.P_OFF_LSB, p_off_lsb)  # set sEEPon LSB
         return p_off * 1000 / 128
 
     def set_delta_acq(self, acquisition_delay_val):
@@ -477,8 +517,8 @@ class SpiConnector:
         print("Delay between:", hda * 1000 / 128, "ns -- ", hex(hda_msb), hex(hda_lsb))
         self.JSON["parameters"]["DeltaAcq"] = int(acquisition_delay_val)
         self.JSON["parameters"]["DeltaAcq_Real"] = int(hda * 1000 / 128)
-        self.write_fpga(0xE3, hda_msb)  # set sEEPon MSB
-        self.write_fpga(0xE4, hda_lsb)  # set sEEPon LSB
+        self.write_fpga(SpiRegisters.HDA_MSB, hda_msb)  # set sEEPon MSB
+        self.write_fpga(SpiRegisters.HDA_LSB, hda_lsb)  # set sEEPon LSB
         return acquisition_delay_val
 
     def set_length_acq(self, LAcqI):
@@ -491,8 +531,8 @@ class SpiConnector:
         if self.verbose:
             print("Acquisition length: ", int(correct_length_acq * 1000 / 128), "ns.")
             # print "Arguments: ", hex(length_acq_msb), hex(length_acq_lsb)
-        self.write_fpga(0xE5, length_acq_msb)  # set sEEPon MSB
-        self.write_fpga(0xE6, length_acq_lsb)  # set sEEPon LSB
+        self.write_fpga(SpiRegisters.LENGTH_ACQ_MSB, length_acq_msb)  # set sEEPon MSB
+        self.write_fpga(SpiRegisters.LENGTH_ACQ_LSB, length_acq_lsb)  # set sEEPon LSB
         return int(correct_length_acq * 1000 / 128)
 
     def set_period_between_acqs(self, le_period):
@@ -504,9 +544,9 @@ class SpiConnector:
         # print "Arguments:", hex(repeat_length_msb), hex(repeat_length), hex(repeat_length_lsb)
         self.JSON["parameters"]["PeriodAcq"] = int(le_period)
         self.JSON["parameters"]["PeriodAcq_Real"] = int(repeat_length_arg * 1000 / 128)
-        self.write_fpga(0xE7, repeat_length_msb)  # Period of one cycle MSB
-        self.write_fpga(0xE8, repeat_length)  # Period of one cycle 15 to 8
-        self.write_fpga(0xE9, repeat_length_lsb)  # Period of one cycle LSB
+        self.write_fpga(SpiRegisters.REPEAT_LENGTH_MSB, repeat_length_msb)  # Period of one cycle MSB
+        self.write_fpga(SpiRegisters.REPEAT_LENGTH, repeat_length)  # Period of one cycle 15 to 8
+        self.write_fpga(SpiRegisters.REPEAT_LENGTH_LSB, repeat_length_lsb)  # Period of one cycle LSB
         return repeat_length_arg * 1000 / 128
 
     def set_pulse_train(self, Pon, PdampOne, PHVneg, PdampTwo, pDelay, Acq):
@@ -522,10 +562,10 @@ class SpiConnector:
         t9 = t8 + pDelay
         t10 = t9 + Acq
 
-        self.write_fpga(0xD0, int(t1) * 128 / 1000)
-        self.write_fpga(0xD1, int(t3) * 128 / 1000)
-        self.write_fpga(0xD3, int(t5) * 128 / 1000)  # PDamp1 and PnHV
-        self.write_fpga(0xD5, int(t7) * 128 / 1000)  # PnHV and PDamp2
+        self.write_fpga(SpiRegisters.SET_PULSE_TRAIN_REG1, int(t1) * 128 / 1000)
+        self.write_fpga(SpiRegisters.SET_PULSE_TRAIN_REG2, int(t3) * 128 / 1000)
+        self.write_fpga(SpiRegisters.SET_PULSE_TRAIN_REG3, int(t5) * 128 / 1000)  # PDamp1 and PnHV
+        self.write_fpga(SpiRegisters.SET_PULSE_TRAIN_REG4, int(t7) * 128 / 1000)  # PnHV and PDamp2
         refponnhv = self.set_poff(t8)  # @unused @tocheck
         endPoff = self.set_delta_acq(t9)  # @unused @tocheck
         l_acq = self.set_length_acq(t10)
