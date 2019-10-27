@@ -565,7 +565,6 @@ if __name__ == "__main__":
         ):
             print("File exists - OK")
             UN0RICK = SpiConnector()
-            UN0RICK.init()
             UN0RICK.set_multi_lines(True)
             UN0RICK.set_acquisition_number_lines(15)
             UN0RICK = config_from_txt(UN0RICK, sys.argv[2])
@@ -573,12 +572,10 @@ if __name__ == "__main__":
 
         if "test" in sys.argv[1]:
             UN0RICK = SpiConnector()
-            UN0RICK.init()
             UN0RICK.test_spi(3)
 
         if "single" in sys.argv[1]:
             UN0RICK = SpiConnector()
-            UN0RICK.init()
             UN0RICK.test_spi(3)
             UN0RICK.set_HV(1000)
             UN0RICK.set_hilo(1)
@@ -602,7 +599,6 @@ if __name__ == "__main__":
 
         if "multi" in sys.argv[1]:
             UN0RICK = SpiConnector()
-            UN0RICK.init()
             UN0RICK.test_spi(3)
             UN0RICK.JSON["N"] = 1  # Experiment ID
             UN0RICK.create_tgc_curve(600, 900, False)  # Gain: expo, 300mV to 900mv
@@ -632,7 +628,6 @@ if __name__ == "__main__":
 
         if "loop" in sys.argv[1]:
             UN0RICK = SpiConnector()
-            UN0RICK.init()
             UN0RICK.set_multi_lines(True)  # Multi lines acquisition
             UN0RICK.set_acquisition_number_lines(2)  # Setting the number of lines
             UN0RICK.set_msps(3)  # Acquisition Freq

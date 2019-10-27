@@ -96,6 +96,30 @@ class SpiConnector:
     number_lines = 0
     verbose = True
 
+    SPI_SPEED = 500000
+    SPI_MODE = 0b01
+
+    def __init__(self):  # OK LIT3RICK
+        """
+        Initialises the FPGA
+        """
+        if gpioexists:
+            GPIO.setmode(GPIO.BCM)
+            # Once program is loaded, should be OK
+            # for k in [3,4,17,27,5,12,16,20,15]:
+            # GPIO.setup(k, GPIO.IN)
+            # @todo: reset from flash when flash works
+            self.spi.open(0, 0)  # CS0 is the FPGA, CS1 is flash
+            self.spi.mode = self.SPI_MODE
+            self.spi.max_speed_hz = self.SPI_SPEED
+            if self.verbose:
+                print("spi.cshigh is " + str(self.spi.cshigh))
+                print("spi mode is " + str(self.spi.mode))
+                print("spi maxspeed is " + str(self.spi.max_speed_hz) + "hz")
+            self.set_led_rgb(0, 1, 0)
+        else:
+            print("Not running from a Raspberry Pi")
+
     def create_tgc_curve(self, init_value, final_value, curve_type):
         """
         Returns an array with the TGC values, along a 40 values array.
@@ -194,27 +218,6 @@ class SpiConnector:
         self.write_fpga(SpiRegisters.LED_READ, red)
         self.write_fpga(SpiRegisters.LED_GREEN, gren)
         self.write_fpga(SpiRegisters.LED_BLUE, blue)
-
-    def init(self):  # OK LIT3RICK
-        """
-        Initialises the FPGA
-        """
-        if gpioexists:
-            GPIO.setmode(GPIO.BCM)
-            # Once program is loaded, should be OK
-            # for k in [3,4,17,27,5,12,16,20,15]:
-            # GPIO.setup(k, GPIO.IN)
-            # @todo: reset from flash when flash works
-            self.spi.open(0, 0)  # CS0 is the FPGA, CS1 is flash
-            self.spi.mode = 0b01
-            self.spi.max_speed_hz = 500000
-            if self.verbose:
-                print("spi.cshigh is " + str(self.spi.cshigh))
-                print("spi mode is " + str(self.spi.mode))
-                print("spi maxspeed is " + str(self.spi.max_speed_hz) + "hz")
-            self.set_led_rgb(0, 1, 0)
-        else:
-            print("Not running from a Raspberry Pi")
 
     """
     Testing functions
