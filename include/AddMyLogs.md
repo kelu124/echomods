@@ -3390,6 +3390,14 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
 * Dynamic DAC [seems better](https://github.com/kelu124/echomods/tree/master/matty/20191027a) - however some IOs are off.
 * CLosely here, and then some: hardware finetuning (TMP and ADC C at minimum)
 
+````
+To add 
+
+# Building
+markdown: kramdown
+remote_theme: kelu124/just-the-docs
+````
+
 
 =======
 
