@@ -1,3 +1,14 @@
+### emulated
+
+<ul><li>Title: echOmods emulated</li>
+<li>[](@description Set file to generate the emulated set)</li>
+<li>Description: uC pings emulator and streams feedback</li>
+</ul>
+
+### emulated: diagram
+
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/emulated.png)
+
 ### wifi-dev-kit
 
 <ul><li>Title: Wireless Dev Kit</li>
@@ -7,16 +18,6 @@
 ### wifi-dev-kit: diagram
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/wifi-dev-kit.png)
-
-### highspeed
-
-<ul><li>Title: The Beaglebone version, along with an hacked probe</li>
-<li>Description: Some stuff, unexpensive to buy, to build a ultrasound testing kit, totalling less than _500$_.</li>
-</ul>
-
-### highspeed: diagram
-
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png)
 
 ### PiDAQ
 
@@ -28,16 +29,15 @@
 
 ![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/PiDAQ.png)
 
-### emulated
+### highspeed
 
-<ul><li>Title: echOmods emulated</li>
-<li>[](@description Set file to generate the emulated set)</li>
-<li>Description: uC pings emulator and streams feedback</li>
+<ul><li>Title: The Beaglebone version, along with an hacked probe</li>
+<li>Description: Some stuff, unexpensive to buy, to build a ultrasound testing kit, totalling less than _500$_.</li>
 </ul>
 
-### emulated: diagram
+### highspeed: diagram
 
-![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/emulated.png)
+![](https://raw.githubusercontent.com/kelu124/echomods/master/include/sets/highspeed.png)
 
 
 
