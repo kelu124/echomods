@@ -13,6 +13,11 @@
 * smalldesc: a diasonics_75 probe
 * longdesc: a diasonics_75 probe
 
+# sw45b
+* code:sw45b
+* smalldesc: a kretz sw45b probe
+* longdesc: a kretz sw45b probe
+
 # uprobe1
 * code:uProbe1
 * smalldesc:A small wireless probe from shenzen

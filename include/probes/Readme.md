@@ -102,6 +102,12 @@ __TLDR__: a mechanical probe found on shenzen
 
 __More?__ a mechanical probe found on shenzen
 
+### [sw45b](/include/probes/auto/sw45b.md) (sw45b)
+
+__TLDR__:  a kretz sw45b probe
+
+__More?__  a kretz sw45b probe
+
 ### [uprobe1](/include/probes/auto/uProbe1.md) (uProbe1)
 
 __TLDR__: A small wireless probe from shenzen
