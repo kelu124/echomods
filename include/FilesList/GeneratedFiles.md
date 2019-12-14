@@ -419,6 +419,7 @@
 * ./include/probes/auto/diasonics_50.md
 * ./include/probes/auto/724A.md
 * ./include/probes/auto/retroATL3.md
+* ./include/probes/auto/sw45b.md
 * ./include/probes/auto/atlidrict.md
 * ./include/probes/auto/adrus.md
 * ./include/probes/auto/apogee5MHz.md
@@ -603,6 +604,7 @@
 * ./gitbook/probes/diasonics_50.md
 * ./gitbook/probes/724A.md
 * ./gitbook/probes/retroATL3.md
+* ./gitbook/probes/sw45b.md
 * ./gitbook/probes/atlidrict.md
 * ./gitbook/probes/adrus.md
 * ./gitbook/probes/apogee5MHz.md

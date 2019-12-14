@@ -3519,13 +3519,41 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
 * Dynamic DAC [seems better](https://github.com/kelu124/echomods/tree/master/matty/20191027a) - however some IOs are off.
 * CLosely here, and then some: hardware finetuning (TMP and ADC C at minimum)
 
-````
-To add 
 
-# Building
-markdown: kramdown
-remote_theme: kelu124/just-the-docs
-````
+
+#### 2019-11-24 10km Paris Centre
+
+* Ran again 10km
+* lit3rick on final form to be delivered by 2/12.
+* Andrew for some symbiflow support ? DFT + i2s ?
+* Got the sw45b probe off. Interesting designs.
+* @todo hack the diasonics heads.
+* Ported the pyUn0 for un0rick to python3 .. yeay. Thanks to Fab's pull request.
+* Awesome SAO: https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty
+* @todo: SAO on up5K: https://github.com/ANDnXOR/sao-reference-designs
+  * RGB's
+  * USB
+  * 2 GPIOs: for what ?
+  * mini OLED ?
+  * SD connector
+  * mini MEMS microphone
+  * touchpad
+
+#### 2019-12-06 St Niklaus
+
+* lit3 received, doesn't burn. yet. icoprog can flash the flash. but fpga won't boot from it.
+* Connections seem OK
+  * icebreaker-sch.pdf says the connections are fine
+* possibly need to make clean icoprog
+* or to swap IOs for programming, while 
+* beware, for flash programming, SPI_SS needs to be kept floating high. Floating.
+* @todo keep an eye on "BRUEL KJAER ULTRASOUND" =)
+
+#### 2019-12-12 Article ongoing
+
+* The article for the conf is quite ready. Thanks to William, Carla, Jorge.
+* GE amongst my clients !
+* @todo analyse protoelectronics (cf Leonie) for short runs -- http://protoelectronique.com/
 
 
 =======

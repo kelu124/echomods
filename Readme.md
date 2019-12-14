@@ -304,6 +304,7 @@ That's the list of probes been playing with:
 * [retroATL3](/include/probes/auto/retroATL3.md)
 * [s3](/include/probes/auto/s3.md)
 * [shzmch](/include/probes/auto/shzmch.md)
+* [sw45b](/include/probes/auto/sw45b.md)
 * [uprobe1](/include/probes/auto/uProbe1.md)
 
 

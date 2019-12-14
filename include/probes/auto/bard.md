@@ -31,6 +31,7 @@
 ![](/include/bard/design/US4399703-3.png)
 ![](/include/bard/exp1/db-bard-5-0-VGA@0x22-spimode1-64msps.jpg)
 ![](/include/bard/design/US4399703-8.png)
+![](/include/bard/images/20191207_182630.jpg)
 ![](/include/bard/design/US4399703-2.png)
 ![](/include/bard/Bard-Site-Rite-37522-5C-45C-75MHz-Ultrasound-Transducer-Probe-68mmFL-Dymax-0470-263459340232-7.JPG)
 ![](/include/bard/exp1/db-bard-5-8-cable_inversed-VGA@0x22-spimode1-64msps.jpg)
