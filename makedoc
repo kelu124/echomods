@@ -5,7 +5,7 @@ cd doc/
 python createStats.py
 cd ../
 
-python makedoc.py
+python2 makedoc.py
 
 # Cleaning the links to github
 cd gitbook
