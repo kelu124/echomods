@@ -107,6 +107,8 @@ Here's a couple of things we're working on, for which you could help as well.
 * : SAO on up5K: https://github.com/ANDnXOR/sao-reference-designs
 * keep an eye on "BRUEL KJAER ULTRASOUND" =)
 * analyse protoelectronics (cf Leonie) for short runs -- http://protoelectronique.com/
+* a small US badge see [SAO DOOM]
+* PMODs US:
 
 
 

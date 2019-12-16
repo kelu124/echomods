@@ -3426,6 +3426,24 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
 * GE amongst my clients !
 * @todo analyse protoelectronics (cf Leonie) for short runs -- http://protoelectronique.com/
 
+#### 2019-12-14 US Badge 
+
+* @todo a small US badge see [SAO DOOM]
+  * 8x8 LED matrix + driver (max7219 // IS31FL3728 (1x8x8) / 31FL3736 pr 12x8, including breathing - QFN40 / IS31FL3731, 2x8x8, QFN28) 
+  * [i2c simulated EEPROM](https://github.com/ANDnXOR/sao-reference-designs)
+  * MEMS loudspeaker
+  * US microphone
+  * SAO 2x3 - [V1.69bis standard](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/)
+  * USB-C
+  * FTDI
+  * FLASH
+  * UP5K
+  * Breakout of remaining IOs + SPI / I2C
+* @todo PMODs US:
+  * 2x8 : 10bits+1 ADC, MOSI, SCK, SS1, SS2, HILO (ADC, DAC TGC, HILO, ..) based on AD8332
+  * 1x8 Trig, HVP, HVN, PDAMP, i2c, i2c, EN, IO
+
+
 
 =======
 
