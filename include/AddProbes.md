@@ -1,6 +1,8 @@
 That's the list of probes been playing with:
 
 * [724A](/include/probes/auto/724A.md)
+* [BiViPiezo](/include/probes/auto/BiViPiezo.md)
+* [NDTPiezo](/include/probes/auto/NDTPiezo.md)
 * [adrus](/include/probes/auto/adrus.md)
 * [apogee](/include/probes/auto/apogee.md)
 * [apogee10MHz](/include/probes/auto/apogee10MHz.md)

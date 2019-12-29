@@ -49,7 +49,7 @@ for FileName in Imgs:
 		print "Not an image"
 	else: 
 	
-		metadata['Exif.Photo.MakerNote'] = "ToTag"
+		metadata['Exif.Photo.MakerNote'] = "teardown"
 		# Description
 		metadata['Exif.Image.ImageDescription'] = "ToTag"
 

@@ -54,7 +54,7 @@ for FileName in Imgs:
 		metadata['Exif.Image.Make'] = "ToTag"
 
 	
-		metadata['Exif.Photo.MakerNote'] = "hacking"
+		metadata['Exif.Photo.MakerNote'] = "teardown"
 		# Description
 		metadata['Exif.Image.ImageDescription'] = "Exploring the innards of a atlidrict probe"
 

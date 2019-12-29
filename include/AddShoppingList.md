@@ -109,6 +109,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * analyse protoelectronics (cf Leonie) for short runs -- http://protoelectronique.com/
 * a small US badge see [SAO DOOM]
 * PMODs US:
+* use the [driver](https://www.amazon.fr/gp/product/B0798JCY93/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* redo probes sheets
+* redo the geography part.. using geopandas ?
 
 
 

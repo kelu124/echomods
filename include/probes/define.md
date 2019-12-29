@@ -91,4 +91,14 @@
 # hp2121
 * code:hp2121
 * smalldesc:hp2121 small desc
-* longdesc: hp2121 longdesc .Experiments : [test](/include/experiments/auto/20181013a.md)
+* longdesc: hp2121. Experiments : [test](/include/experiments/auto/20181013a.md)
+
+# BiViPiezo
+* code:BiViPiezo
+* smalldesc:the piezo given by BiVi
+* longdesc:a test piezo
+
+# NDTPiezo
+* code:NDTPiezo
+* smalldesc:a dual imaging transducer sent by Jorge
+* longdesc:a dual imaging transducer sent by Jorge

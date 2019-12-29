@@ -52,9 +52,9 @@ for FileName in Imgs:
 		metadata['Exif.Image.Make'] = "ToTag"
 
 	
-		metadata['Exif.Photo.MakerNote'] = "ToTag"
+		metadata['Exif.Photo.MakerNote'] = "teardown"
 		# Description
-		metadata['Exif.Image.ImageDescription'] = "."
+		metadata['Exif.Image.ImageDescription'] = "Teardown on a 724A probe"
 		metadata['Exif.Image.Software'] = "724A"
 
 		# Saving the image

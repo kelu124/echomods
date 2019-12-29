@@ -6,6 +6,18 @@ __TLDR__: a 724A ultrasound probe
 
 __More?__ a 724A ultrasound probe
 
+### [BiViPiezo](/include/probes/auto/BiViPiezo.md) (BiViPiezo)
+
+__TLDR__: the piezo given by BiVi
+
+__More?__ a test piezo
+
+### [NDTPiezo](/include/probes/auto/NDTPiezo.md) (NDTPiezo)
+
+__TLDR__: a dual imaging transducer sent by Jorge
+
+__More?__ a dual imaging transducer sent by Jorge
+
 ### [adrus](/include/probes/auto/adrus.md) (adrus)
 
 __TLDR__: a 5.5MHz ADR ultrasound probe
@@ -64,7 +76,7 @@ __More?__  a diasonics_75 probe
 
 __TLDR__: hp2121 small desc
 
-__More?__  hp2121 longdesc .Experiments : [test](/include/experiments/auto/20181013a.md)
+__More?__  hp2121. Experiments : [test](/include/experiments/auto/20181013a.md)
 
 ### [kretzaw145ba](/include/probes/auto/kretzaw145ba.md) (kretzaw145ba)
 
