@@ -813,7 +813,7 @@ OpenWrite(IncludeImage(AddRawHURL(TableModulesShort+"\n\n"+TableRetiredDocTxt)),
 # Adding Quickstart
 # -------------------------
 
-CreateProbesFiles(GrosJaSON)
+GrosJaSON = CreateProbesFiles(GrosJaSON)
 for probe in GrosJaSON["probes"].keys():
 	CopyGitBookFile("include/probes/auto/"+probe+".md","gitbook/probes/"+probe+".md")
 

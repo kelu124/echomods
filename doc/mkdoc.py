@@ -406,6 +406,35 @@ def MDProbes(GrosJaSON):
 	return GrosJaSON
 
 
+## Adds probes to all the images in the experiment
+def TagProbesExpes(GrosJaSON,LSExpe,probe):
+	#print (probe, "  ",LSExpe)
+	#print(probe,GrosJaSON["probes"][probe])
+
+	for expe in LSExpe:
+		LSImages = GrosJaSON["experiments"][expe]["images"]
+		LSProbes = GrosJaSON["experiments"][expe]["probes"]
+
+		if LSProbes:
+			if probe not in LSProbes:
+				#print(expe," -> ",probe)
+				GrosJaSON["experiments"][expe]["probes"] = LSProbes.append(probe)
+
+		if LSImages:
+			#print(LSImages)
+			for image in LSImages:
+				LISTOFMODS = GrosJaSON["images"][image]["modules"]
+				if probe not in LISTOFMODS:
+					GrosJaSON["images"][image]["modules"] += ", "+probe
+					if GrosJaSON["probes"][probe]["images"]:
+						GrosJaSON["probes"][probe]["images"] = GrosJaSON["probes"][probe]["images"].append(image)
+					else:
+						GrosJaSON["probes"][probe]["images"] = [image]
+
+
+	return GrosJaSON
+
+
 ## Creating probe files from what was captured in images
 
 def CreateProbesFiles(GrosJaSON):
@@ -418,7 +447,9 @@ def CreateProbesFiles(GrosJaSON):
 
 		if len(GrosJaSON["probes"][probe]["experiments"]):
 			ProbeAuto += "# Experiments\n\n"
-			for expe in list(set(GrosJaSON["probes"][probe]["experiments"])):
+			LSExpe = list(set(GrosJaSON["probes"][probe]["experiments"]))
+			GrosJaSON = TagProbesExpes(GrosJaSON,LSExpe,probe)
+			for expe in LSExpe:
 				ProbeAuto += "* ["+expe+"](/include/experiments/auto/"+expe+".md)\n"
 			ProbeAuto += "\n\n"
  
@@ -429,26 +460,43 @@ def CreateProbesFiles(GrosJaSON):
 			ProbeAuto += "\n\n"
 
 		if len(GrosJaSON["probes"][probe]["images"]):
+			print(probe," -> ",GrosJaSON["probes"][probe]["images"])
 			ProbeAuto += "# Images\n\n"
+			SETUP = "## Setup \n\n"
+			ACQS = "## Acquisitions \n\n"
+			SC = "## Scan converted \n\n"
+			SIGNALS = "### Signals \n\n"
+			FFT = "### FFTs \n\n"
+			OTHERSIGNALS  = "### Other signals \n\n"
+			TEARDOWN = "## Teardown \n\n"
+			OTHERPICS = "## Other pictures \n\n"
+
 			for image in list(set(GrosJaSON["probes"][probe]["images"])):
-				SETUP = "## Setup \n\n"
-				ACQS = "## Acquistions \n\n"
-				TEARDOWN = "## Teardown \n\n"
-				OTHERPICS = "## Other pictures \n\n"
+				print(image,GrosJaSON["images"][image]["category"])
 				if "setup" in GrosJaSON["images"][image]["category"]:
 					SETUP += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					SETUP += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
-				elif any(ext in GrosJaSON["images"][image]["category"] for ext in ["BC","BSC",'FFT']):
-					ACQS += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
-					ACQS += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+				elif any(ext in GrosJaSON["images"][image]["category"] for ext in ["graph","signal"]):
+					SIGNALS += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					SIGNALS += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+				elif any(ext in GrosJaSON["images"][image]["category"] for ext in ["BC","BSC"]):
+					OTHERSIGNALS += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					OTHERSIGNALS += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+				elif any(ext in GrosJaSON["images"][image]["category"] for ext in ["FFT"]):
+					FFT += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					FFT += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
 				elif "teardown" in GrosJaSON["images"][image]["category"]:	
 					TEARDOWN += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					TEARDOWN += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+				elif "SC" in GrosJaSON["images"][image]["category"]:	
+					SC += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					SC += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
 				else:
 					OTHERPICS += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					OTHERPICS += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
 
-			ProbeAuto += SETUP+ACQS+TEARDOWN+OTHERPICS+"\n\n"
+			ProbeAuto += SETUP+ACQS+SIGNALS+SC+FFT+OTHERSIGNALS+TEARDOWN+OTHERPICS+"\n\n"
+			print ProbeAuto
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
 
 	ProbeAuto = "# List of opened probes\n\n"
@@ -469,7 +517,7 @@ def CreateProbesFiles(GrosJaSON):
 	OpenWrite(ProbeAuto,"./include/probes/Readme.md")
 	OpenWrite(AddProbes,"./include/AddProbes.md")
 
-	return 1
+	return GrosJaSON
 
 def ListContrib(cpath,BigJSON):
 	BigJSON["contributors"] = {}
