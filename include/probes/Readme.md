@@ -22,9 +22,9 @@ __TLDR__: a dual imaging transducer sent by Jorge
 
 __More?__ a dual imaging transducer sent by Jorge
 
-__Present in:__ 15 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190415a](/experiments/auto/20190415a.md)) 
+__Present in:__ 17 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190329a](/experiments/auto/20190329a.md), [20190404a](/experiments/auto/20190404a.md), [20190415a](/experiments/auto/20190415a.md)) 
 
-__Present in:__ 2 images.
+__Present in:__ 5 images.
 
 ### [adrus](/include/probes/auto/adrus.md) (adrus)
 
