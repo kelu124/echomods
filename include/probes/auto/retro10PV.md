@@ -8,11 +8,43 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
 
 ## Other pictures 
+
+![](/retroATL3/images/IMG_2403.JPG)
+ToTag
+Details of the head.
+
+![](/retroATL3/images/IMG_2401.JPG)
+pic
+Piezos details
+
+![](/retroATL3/images/IMG_2404.JPG)
+ToTag
+Head seen close
+
+![](/retroATL3/images/IMG_2402.JPG)
+pic
+Details of the translucent head.
+
+![](/retroATL3/images/IMG_2400.JPG)
+pic
+Close view of the head
+
+![](/retroATL3/images/IMG_2399.JPG)
+pic
+Overview of the probe
 
 ![](/retroATL3/images/IMG_2405.JPG)
 ToTag

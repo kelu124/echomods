@@ -22,15 +22,23 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
 
-![](/retired/alt.tbo/20171112a/Raw_signal_ProbeD.DAT.png)
-BSC
-Images from the experiment
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
 
 ## Other pictures 
+
+![](/include/20160822/phantom-actual-model40.png)
+ToTag
+Looks like a phantom
 
 
 

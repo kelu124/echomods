@@ -13,7 +13,23 @@
 
 ## Setup 
 
-## Acquistions 
+![](/matty/20181104b/photos/P_20181104_130337.jpg)
+setup
+Picture of the head with motor control
+
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+![](/matty/20181104b/images/Spectrum_20181104b-1.jpg)
+FFT
+Experiment: 20181104b-1. Duration: 150.0us (175000 - 25000), for 316 repeats each 3906 us. Fech = 10.6666666667Msps, total of 1600.0 pts per line, Nacq = 316. Apogee10MHz recabled with wiretwophantom, probe: retro10apogee, target = wiretwophantom. Timestamp = 2018-11-04 12:15:10.118291
+
+### Other signals 
 
 ![](/matty/20181104b/images/2DArray_20181104b-1.jpg)
 BC

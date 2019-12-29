@@ -8,11 +8,39 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
 
 ## Other pictures 
+
+![](/include/images/diasonics_50/P_20181208_131435.jpg)
+ToTag
+ToTag
+
+![](/include/images/diasonics_50/P_20181208_131810.jpg)
+ToTag
+ToTag
+
+![](/include/images/diasonics_50/P_20181208_131756.jpg)
+ToTag
+ToTag
+
+![](/include/images/diasonics_50/P_20181208_131405.jpg)
+ToTag
+Demontage
+
+![](/include/images/diasonics_50/P_20181208_131643.jpg)
+ToTag
+ToTag
 
 ![](/include/images/diasonics_50/P_20181208_131821.jpg)
 ToTag

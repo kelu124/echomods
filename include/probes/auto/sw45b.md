@@ -8,9 +8,113 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
+
+![](/include/images/sw45b/P_20191122_205352.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134314.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/20191207_171540.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203547.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203528.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/20191207_171231.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/20191207_171159.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203226.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203551.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_204119.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_204044.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_204014.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134703.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203755.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/20191207_171145.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203540.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134731.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/20191207_171301.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134330.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134701.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134339.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_205401.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203427.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_205404.jpg)
+teardown
+ToTag
 
 ![](/include/images/sw45b/20191207_171210.jpg)
 teardown

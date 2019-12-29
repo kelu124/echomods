@@ -13,9 +13,69 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
+
+![](/include/images/apogee5MHz/P_20180831_205237.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/20191207_183002.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205358.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205833.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_210111.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205524.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205539.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205534.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205430.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205225.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205659.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_205348.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
+![](/include/images/apogee5MHz/P_20180831_210151.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
 
 ![](/include/images/apogee5MHz/20191207_182945.jpg)
 teardown

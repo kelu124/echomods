@@ -8,11 +8,47 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
 
 ## Other pictures 
+
+![](/include/cn_mechprob/IMG-20180328-WA0005.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0001.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0003.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0004.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0006.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0000.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0002.jpg)
+picture
+ToTag
 
 ![](/include/cn_mechprob/mech_probe.jpg)
 ToTag

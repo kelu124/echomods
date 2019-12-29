@@ -13,9 +13,85 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
+
+![](/include/images/ADR/P_20180807_215631.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_215605.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_215719.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213312.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/20191207_182250.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213141.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213956.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213210.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/20191207_182334.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_220447.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213138.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213818.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213116.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_214629.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_214735.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213636.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_215626.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
 
 ![](/include/images/ADR/P_20180807_215406.jpg)
 teardown

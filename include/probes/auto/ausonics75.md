@@ -13,9 +13,69 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
+
+![](/include/images/ausonics75/P_20180809_192257.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192216.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192123.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192050.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_191957.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_193235.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_191946.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_191926.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_191913.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_193102.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192848.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192920.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192206.jpg)
+teardown
+ausonic 7.5MHz probe
 
 ![](/include/images/ausonics75/P_20180809_191919.jpg)
 teardown

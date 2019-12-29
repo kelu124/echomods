@@ -8,9 +8,37 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
+
+![](/include/images/diasonics_75/20191207_173734.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/P_20181208_130753.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/P_20181208_131114.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/P_20181208_130624.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/20191207_173753.jpg)
+teardown
+.
 
 ![](/include/images/diasonics_75/20191207_173601.jpg)
 teardown

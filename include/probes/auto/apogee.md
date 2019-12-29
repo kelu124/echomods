@@ -13,9 +13,65 @@
 
 ## Setup 
 
-## Acquistions 
+## Acquisitions 
+
+### Signals 
+
+## Scan converted 
+
+### FFTs 
+
+### Other signals 
 
 ## Teardown 
+
+![](/include/images/Interspec/P_20180807_221458.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_222243.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_222132.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221435.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221845.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221550.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221744.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221925.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_222100.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_222256.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_222529.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221936.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
 
 ![](/include/images/Interspec/P_20180807_221519.jpg)
 teardown
