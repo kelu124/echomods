@@ -431,8 +431,24 @@ def CreateProbesFiles(GrosJaSON):
 		if len(GrosJaSON["probes"][probe]["images"]):
 			ProbeAuto += "# Images\n\n"
 			for image in list(set(GrosJaSON["probes"][probe]["images"])):
-				ProbeAuto += "![]("+image+")\n"
-			ProbeAuto += "\n\n"
+				SETUP = "## Setup \n\n"
+				ACQS = "## Acquistions \n\n"
+				TEARDOWN = "## Teardown \n\n"
+				OTHERPICS = "## Other pictures \n\n"
+				if "setup" in GrosJaSON["images"][image]["category"]:
+					SETUP += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					SETUP += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+				elif any(ext in GrosJaSON["images"][image]["category"] for ext in ["BC","BSC",'FFT']):
+					ACQS += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					ACQS += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+				elif "teardown" in GrosJaSON["images"][image]["category"]:	
+					TEARDOWN += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					TEARDOWN += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+				else:
+					OTHERPICS += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					OTHERPICS += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+
+			ProbeAuto += SETUP+ACQS+TEARDOWN+OTHERPICS+"\n\n"
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
 
 	ProbeAuto = "# List of opened probes\n\n"
@@ -441,6 +457,14 @@ def CreateProbesFiles(GrosJaSON):
 		ProbeAuto += "### ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md) ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
 		ProbeAuto += "__TLDR__: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
 		ProbeAuto += "__More?__ "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
+		if len(GrosJaSON["probes"][probe]["experiments"]):
+			ProbeAuto += "__Present in:__ "+str(len(list(set(GrosJaSON["probes"][probe]["experiments"]))))+" experiments ("
+			ListOfExpeWithLinks = [ "["+x+"](/experiments/auto/"+x+".md)" for x in sorted(list(set(GrosJaSON["probes"][probe]["experiments"])))]
+			ProbeAuto += ", ".join(ListOfExpeWithLinks)
+			ProbeAuto += ") \n\n"
+		if len(list(set(GrosJaSON["probes"][probe]["images"]))):
+			ProbeAuto += "__Present in:__ "+ str(len(list(set(GrosJaSON["probes"][probe]["images"]))))+" images.\n\n"
+
 		AddProbes += "* ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md)\n"
 	OpenWrite(ProbeAuto,"./include/probes/Readme.md")
 	OpenWrite(AddProbes,"./include/AddProbes.md")

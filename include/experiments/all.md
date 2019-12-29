@@ -1,3 +1,7 @@
+* 20191027b: lit3rick De.bin: New success with lit3rick, with dynamic DAC
+* 20191027a: meh - noisy: still some tests, Dd.bin for lit3rick 
+* 20191026a: meh C2w: testing new bins for lit3rick 
+* 20191024a: getting better at dyn dac: tests 
 * 20191023a: lit3 success: Some better acquisitions - it works ! 
 * 20191022b: lit3 weird: Strange signals ahead 
 * 20191022a: weird acqs again: investigating 

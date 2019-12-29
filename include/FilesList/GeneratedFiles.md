@@ -414,6 +414,7 @@
 * ./include/probes/auto/retro10PV.md
 * ./include/probes/auto/retro10apogee.md
 * ./include/probes/auto/apogee10MHz.md
+* ./include/probes/auto/NDTPiezo.md
 * ./include/probes/auto/s3.md
 * ./include/probes/auto/ausonics75.md
 * ./include/probes/auto/diasonics_50.md
@@ -421,6 +422,7 @@
 * ./include/probes/auto/retroATL3.md
 * ./include/probes/auto/sw45b.md
 * ./include/probes/auto/atlidrict.md
+* ./include/probes/auto/BiViPiezo.md
 * ./include/probes/auto/adrus.md
 * ./include/probes/auto/apogee5MHz.md
 * ./include/probes/auto/bard.md
@@ -599,6 +601,7 @@
 * ./gitbook/probes/retro10apogee.md
 * ./gitbook/probes/Readme.md
 * ./gitbook/probes/apogee10MHz.md
+* ./gitbook/probes/NDTPiezo.md
 * ./gitbook/probes/s3.md
 * ./gitbook/probes/ausonics75.md
 * ./gitbook/probes/diasonics_50.md
@@ -606,6 +609,7 @@
 * ./gitbook/probes/retroATL3.md
 * ./gitbook/probes/sw45b.md
 * ./gitbook/probes/atlidrict.md
+* ./gitbook/probes/BiViPiezo.md
 * ./gitbook/probes/adrus.md
 * ./gitbook/probes/apogee5MHz.md
 * ./gitbook/probes/bard.md

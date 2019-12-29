@@ -207,10 +207,10 @@ and used in a wider context:
 
 # Experiments
 
- * [20191027b](/include/experiments/auto/20191027b.md)
- * [20191027a](/include/experiments/auto/20191027a.md)
- * [20191026a](/include/experiments/auto/20191026a.md)
- * [20191024a](/include/experiments/auto/20191024a.md)
+ * 2019-10-27: [lit3rick De.bin](/include/experiments/auto/20191027b.md): New success with lit3rick, with dynamic DAC _(20191027b)_
+ * 2019-10-27: [meh - noisy](/include/experiments/auto/20191027a.md): still some tests, Dd.bin for lit3rick _(20191027a)_
+ * 2019-10-26: [meh C2w](/include/experiments/auto/20191026a.md): testing new bins for lit3rick _(20191026a)_
+ * 2019-10-24: [getting better at dyn dac](/include/experiments/auto/20191024a.md): tests _(20191024a)_
  * 2019-10-23: [lit3 success](/include/experiments/auto/20191023a.md): Some better acquisitions - it works ! _(20191023a)_
  * 2019-10-22: [lit3 weird](/include/experiments/auto/20191022b.md): Strange signals ahead _(20191022b)_
  * 2019-10-22: [weird acqs again](/include/experiments/auto/20191022a.md): investigating _(20191022a)_
@@ -288,6 +288,8 @@ and used in a wider context:
 That's the list of probes been playing with:
 
 * [724A](/include/probes/auto/724A.md)
+* [BiViPiezo](/include/probes/auto/BiViPiezo.md)
+* [NDTPiezo](/include/probes/auto/NDTPiezo.md)
 * [adrus](/include/probes/auto/adrus.md)
 * [apogee](/include/probes/auto/apogee.md)
 * [apogee10MHz](/include/probes/auto/apogee10MHz.md)
@@ -421,6 +423,11 @@ Here's a couple of things we're working on, for which you could help as well.
 * : SAO on up5K: https://github.com/ANDnXOR/sao-reference-designs
 * keep an eye on "BRUEL KJAER ULTRASOUND" =)
 * analyse protoelectronics (cf Leonie) for short runs -- http://protoelectronique.com/
+* a small US badge see [SAO DOOM]
+* PMODs US:
+* use the [driver](https://www.amazon.fr/gp/product/B0798JCY93/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* redo probes sheets
+* redo the geography part.. using geopandas ?
 
 
 
