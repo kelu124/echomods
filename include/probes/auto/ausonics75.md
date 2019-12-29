@@ -11,20 +11,18 @@
 
 # Images
 
-![](/include/images/ausonics75/P_20180809_192257.jpg)
-![](/include/images/ausonics75/P_20180809_192216.jpg)
-![](/include/images/ausonics75/P_20180809_192123.jpg)
-![](/include/images/ausonics75/P_20180809_192050.jpg)
-![](/include/images/ausonics75/P_20180809_191957.jpg)
-![](/include/images/ausonics75/P_20180809_193235.jpg)
-![](/include/images/ausonics75/P_20180809_191946.jpg)
-![](/include/images/ausonics75/P_20180809_191926.jpg)
-![](/include/images/ausonics75/P_20180809_191913.jpg)
-![](/include/images/ausonics75/P_20180809_193102.jpg)
-![](/include/images/ausonics75/P_20180809_192848.jpg)
-![](/include/images/ausonics75/P_20180809_192920.jpg)
-![](/include/images/ausonics75/P_20180809_192206.jpg)
+## Setup 
+
+## Acquistions 
+
+## Teardown 
+
 ![](/include/images/ausonics75/P_20180809_191919.jpg)
+teardown
+ausonic 7.5MHz probe
+
+## Other pictures 
+
 
 
 

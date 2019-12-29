@@ -6,8 +6,18 @@
 
 # Images
 
-![](/include/s3/images/uProbe1/20171127_210428.jpg)
+## Setup 
+
+## Acquistions 
+
+## Teardown 
+
+## Other pictures 
+
 ![](/include/s3/images/uProbe1/20171127_210440.jpg)
+hacking
+Exploring the innards of a s3 ultrasound wireless probe
+
 
 
 

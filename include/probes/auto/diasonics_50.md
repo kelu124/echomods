@@ -6,12 +6,18 @@
 
 # Images
 
-![](/include/images/diasonics_50/P_20181208_131435.jpg)
-![](/include/images/diasonics_50/P_20181208_131810.jpg)
-![](/include/images/diasonics_50/P_20181208_131756.jpg)
-![](/include/images/diasonics_50/P_20181208_131405.jpg)
-![](/include/images/diasonics_50/P_20181208_131643.jpg)
+## Setup 
+
+## Acquistions 
+
+## Teardown 
+
+## Other pictures 
+
 ![](/include/images/diasonics_50/P_20181208_131821.jpg)
+ToTag
+ToTag
+
 
 
 

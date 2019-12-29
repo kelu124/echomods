@@ -6,6 +6,10 @@ __TLDR__: a 724A ultrasound probe
 
 __More?__ a 724A ultrasound probe
 
+__Present in:__ 1 experiments ([20181104c](/experiments/auto/20181104c.md)) 
+
+__Present in:__ 46 images.
+
 ### [BiViPiezo](/include/probes/auto/BiViPiezo.md) (BiViPiezo)
 
 __TLDR__: the piezo given by BiVi
@@ -18,11 +22,19 @@ __TLDR__: a dual imaging transducer sent by Jorge
 
 __More?__ a dual imaging transducer sent by Jorge
 
+__Present in:__ 15 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190415a](/experiments/auto/20190415a.md)) 
+
+__Present in:__ 2 images.
+
 ### [adrus](/include/probes/auto/adrus.md) (adrus)
 
 __TLDR__: a 5.5MHz ADR ultrasound probe
 
 __More?__ That's a 5.5MHz ADR ultrasound probe. Strange connector on the back, simple, shows there's a single connector. Mechanical coupling, rotation to sweeping, pair of cables to motor, pairs to the piezo.
+
+__Present in:__ 1 experiments ([20180807a](/experiments/auto/20180807a.md)) 
+
+__Present in:__ 18 images.
 
 ### [apogee](/include/probes/auto/apogee.md) (apogee)
 
@@ -30,11 +42,17 @@ __TLDR__: apogee probe
 
 __More?__ An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean.
 
+__Present in:__ 1 experiments ([20180807b](/experiments/auto/20180807b.md)) 
+
+__Present in:__ 13 images.
+
 ### [apogee10MHz](/include/probes/auto/apogee10MHz.md) (apogee10MHz)
 
 __TLDR__: an Apogee 10MHz probe
 
 __More?__ an Apogee 10MHz probe
+
+__Present in:__ 26 images.
 
 ### [apogee5MHz](/include/probes/auto/apogee5MHz.md) (apogee5MHz)
 
@@ -42,11 +60,15 @@ __TLDR__: an Apogee 5MHz probe
 
 __More?__ an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple).
 
+__Present in:__ 14 images.
+
 ### [atlidrict](/include/probes/auto/atlidrict.md) (atlidrict)
 
 __TLDR__: an atlidrict 7.5MHz / 6.4mm probe
 
 __More?__ An ATL IDR intracavity 7.5MHz / 6.4mm probe. Seems to have nice connectors inside, plus
+
+__Present in:__ 5 images.
 
 ### [ausonics75](/include/probes/auto/ausonics75.md) (ausonics75)
 
@@ -54,11 +76,17 @@ __TLDR__: an ausonic 7.5MHz probe
 
 __More?__ an ausonic 7.5MHz probe
 
+__Present in:__ 1 experiments ([20180809b](/experiments/auto/20180809b.md)) 
+
+__Present in:__ 14 images.
+
 ### [bard](/include/probes/auto/bard.md) (bard)
 
 __TLDR__: a site rite probe
 
 __More?__ Used in the site rite bard systems.
+
+__Present in:__ 24 images.
 
 ### [diasonics_50](/include/probes/auto/diasonics_50.md) (diasonics_50)
 
@@ -66,11 +94,15 @@ __TLDR__:  a diasonics_50 probe
 
 __More?__  a diasonics_50 probe
 
+__Present in:__ 6 images.
+
 ### [diasonics_75](/include/probes/auto/diasonics_75.md) (diasonics_75)
 
 __TLDR__:  a diasonics_75 probe
 
 __More?__  a diasonics_75 probe
+
+__Present in:__ 6 images.
 
 ### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 
@@ -78,11 +110,19 @@ __TLDR__: hp2121 small desc
 
 __More?__  hp2121. Experiments : [test](/include/experiments/auto/20181013a.md)
 
+__Present in:__ 2 experiments ([20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md)) 
+
+__Present in:__ 18 images.
+
 ### [kretzaw145ba](/include/probes/auto/kretzaw145ba.md) (kretzaw145ba)
 
 __TLDR__: a kretz AW14/5B/A ultrasound probe
 
 __More?__ a kretz AW14/5B/A probe
+
+__Present in:__ 2 experiments ([20180812a](/experiments/auto/20180812a.md), [20180901a](/experiments/auto/20180901a.md)) 
+
+__Present in:__ 38 images.
 
 ### [retro10PV](/include/probes/auto/retro10PV.md) (retro10PV)
 
@@ -90,11 +130,17 @@ __TLDR__: a 3-frequencies probe
 
 __More?__ 5, 7.5 and 10 MHz probe. Used on the ultramarks.
 
+__Present in:__ 7 images.
+
 ### [retro10apogee](/include/probes/auto/retro10apogee.md) (retro10apogee)
 
 __TLDR__: an Apogee 10MHz probe, opened and tweaked
 
 __More?__ an Apogee 10MHz probe
+
+__Present in:__ 1 experiments ([20181104b](/experiments/auto/20181104b.md)) 
+
+__Present in:__ 3 images.
 
 ### [retroATL3](/include/probes/auto/retroATL3.md) (retroATL3)
 
@@ -102,11 +148,17 @@ __TLDR__: An ATL ACCESS 3 probe.
 
 __More?__ 3.5MHz probe. Used on the ultramarks. Thouroughly tested:
 
+__Present in:__ 5 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180831c](/experiments/auto/20180831c.md)) 
+
+__Present in:__ 70 images.
+
 ### [s3](/include/probes/auto/s3.md) (s3)
 
 __TLDR__: A small wireless probe.
 
 __More?__ A probe from shenzen. Happy to have played with it, opened it, ...
+
+__Present in:__ 19 images.
 
 ### [shzmch](/include/probes/auto/shzmch.md) (shzmch)
 
@@ -114,17 +166,23 @@ __TLDR__: a mechanical probe found on shenzen
 
 __More?__ a mechanical probe found on shenzen
 
+__Present in:__ 8 images.
+
 ### [sw45b](/include/probes/auto/sw45b.md) (sw45b)
 
 __TLDR__:  a kretz sw45b probe
 
-__More?__  a kretz sw45b probe
+__More?__  a kretz sw45b probe. Interesting mechanical device. Looks like a convex array probe, but mechanical.
+
+__Present in:__ 25 images.
 
 ### [uprobe1](/include/probes/auto/uProbe1.md) (uProbe1)
 
 __TLDR__: A small wireless probe from shenzen
 
 __More?__ A small wireless probe from shenzen. Couldn't open it, but I added some hacking in the wireless communication.
+
+__Present in:__ 2 images.
 
 
 

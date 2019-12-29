@@ -16,10 +16,27 @@
 * [20160822a](/include/experiments/auto/20160822a.md)
 * [20181013a](/include/experiments/auto/20181013a.md)
 * [20180901a](/include/experiments/auto/20180901a.md)
+* [20181104a](/include/experiments/auto/20181104a.md)
 * [20180831c](/include/experiments/auto/20180831c.md)
 * [20180809b](/include/experiments/auto/20180809b.md)
 * [20180225a](/include/experiments/auto/20180225a.md)
-* [20181104a](/include/experiments/auto/20181104a.md)
+* [20190415a](/include/experiments/auto/20190415a.md)
+
+
+# Images
+
+## Setup 
+
+## Acquistions 
+
+![](/matty/20190415a/images/2DArray_20190415a-3.jpg)
+BC
+Experiment: 20190415a-3. Duration: 57.0us (60000 - 3000), for 30 repeats each 2500.0us. Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 30. Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = kitchen knife, steel, approx 1mm thickness. Timestamp = 2019-04-15 20:33:26.580680
+
+## Teardown 
+
+## Other pictures 
+
 
 
 

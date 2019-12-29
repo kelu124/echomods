@@ -11,19 +11,18 @@
 
 # Images
 
-![](/include/images/Interspec/P_20180807_221458.jpg)
-![](/include/images/Interspec/P_20180807_222243.jpg)
-![](/include/images/Interspec/P_20180807_222132.jpg)
-![](/include/images/Interspec/P_20180807_221435.jpg)
-![](/include/images/Interspec/P_20180807_221845.jpg)
-![](/include/images/Interspec/P_20180807_221550.jpg)
-![](/include/images/Interspec/P_20180807_221744.jpg)
-![](/include/images/Interspec/P_20180807_221925.jpg)
-![](/include/images/Interspec/P_20180807_222100.jpg)
-![](/include/images/Interspec/P_20180807_222256.jpg)
-![](/include/images/Interspec/P_20180807_222529.jpg)
-![](/include/images/Interspec/P_20180807_221936.jpg)
+## Setup 
+
+## Acquistions 
+
+## Teardown 
+
 ![](/include/images/Interspec/P_20180807_221519.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+## Other pictures 
+
 
 
 

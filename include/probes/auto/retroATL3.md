@@ -20,76 +20,18 @@
 
 # Images
 
-![](/retired/alt.tbo/20171112a/ImagesIn_ProbeD.jpg)
-![](/retired/alt.tbo/20171112a/Unpacking_ProbeB.jpg)
-![](/retired/alt.tbo/20171112a/Raw signal ProbeA.DAT.png)
-![](/matty/20180831c/images/Spectrum_20180831c-6.jpg)
-![](/retired/alt.tbo/20171112a/Spectre_NewProbe.DAT.png)
-![](/matty/20180831c/images/Spectrum_20180831c-2.jpg)
-![](/retroATL3/software/data/20160720-083810-Signal-bitscope-DATA.log-raw.png)
-![](/retroATL3/data/20170702_181426.jpg)
-![](/retroATL3/images/pic.jpg)
-![](/retroATL3/software/data/20160721-100523-Signal-bitscope-DATA.log-raw.png)
-![](/retroATL3/images/ICsInHead/20170520_134634.jpg)
-![](/matty/20180831c/images/2DArray_20180831c-6.jpg)
-![](/retired/alt.tbo/20171112a/ImagesIn_ProbeB.jpg)
-![](/matty/20180831c/images/Spectrum_20180831c-4.jpg)
-![](/retroATL3/images/ICsInHead/20170520_133326.jpg)
-![](/elmo/data/Imgs/probeX.png)
-![](/retired/alt.tbo/20171112a/Spectre_ProbeA.DAT.png)
-![](/retired/alt.tbo/20171112a/Raw_signal_NewProbe.DAT.png)
-![](/retired/alt.tbo/20171112a/Raw_signal_ProbeC.DAT.png)
-![](/retired/alt.tbo/20171112a/Spectre_ProbeB.DAT.png)
-![](/retroATL3/images/TEK0005.JPG)
-![](/retired/alt.tbo/20171112a/Unpacking_NewProbe.jpg)
-![](/retroATL3/images/DSC_0725.JPG)
-![](/matty/20180831c/images/2DArray_20180831c-5.jpg)
-![](/retroATL3/images/ICsInHead/20170520_133239.jpg)
-![](/retroATL3/images/encoder.png)
-![](/retroATL3/images/ICsInHead/20170520_133333.jpg)
-![](/matty/20180831c/images/Spectrum_20180831c-7.jpg)
-![](/retired/alt.tbo/20171112a/Unpacking_ProbeA.jpg)
-![](/matty/20180831c/images/Spectrum_20180831c-1.jpg)
-![](/retroATL3/images/ICsInHead/violet.JPG)
-![](/matty/20180225a/probe.jpg)
-![](/retroATL3/images/ICsInHead/20170520_132702.jpg)
-![](/retroATL3/images/ICsInHead/20170520_132727.jpg)
-![](/elmo/images/20170717_210209.jpg)
-![](/matty/20180831c/images/2DArray_20180831c-1.jpg)
-![](/matty/20180831c/images/2DArray_20180831c-7.jpg)
-![](/retroATL3/software/data/20160720-083810.png)
-![](/include/20160822/20160822-205141-fft-all.png)
-![](/retired/alt.tbo/20171112a/ImagesIn_ProbeA.jpg)
-![](/retroATL3/images/motor_pins.jpg)
-![](/retired/alt.tbo/20171112a/Spectre_ProbeC.DAT.png)
-![](/retired/alt.tbo/20171112a/Unpacking_ProbeC.jpg)
-![](/matty/20180831c/images/Spectrum_20180831c-5.jpg)
-![](/matty/20180831c/images/Spectrum_20180831c-3.jpg)
-![](/retroATL3/images/ICsInHead/vert.JPG)
-![](/retroATL3/images/ICsInHead/20170520_133319.jpg)
-![](/retroATL3/viewme.png)
-![](/retroATL3/images/ICsInHead/20170520_132651.jpg)
-![](/retroATL3/source/blocks.png)
-![](/retroATL3/images/other_pins.jpg)
-![](/retired/alt.tbo/20171112a/Spectre ProbeD.DAT.png)
-![](/retroATL3/images/pins_a.png)
-![](/retroATL3/images/ICsInHead/20170520_132639.jpg)
-![](/matty/20180831c/images/2DArray_20180831c-3.jpg)
-![](/retroATL3/images/pins.png)
-![](/retroATL3/software/data/20160721-100523.png)
-![](/retroATL3/images/ICsInHead/orange.JPG)
-![](/elmo/data/Imgs/pic_probeX.data.jpg)
-![](/retired/alt.tbo/20171112a/ImagesIn_ProbeC.jpg)
-![](/matty/20180225a/IMG_20180225_184226.jpg)
-![](/retroATL3/software/data/20160720-083810-Signal-bitscope-DATA.log-sorted.png)
-![](/elmo/data/Imgs/Processing_probeX.data.jpg)
-![](/retroATL3/images/DSC_0723.JPG)
-![](/elmo/data/Imgs/map_probeX.data.jpg)
-![](/matty/20180831c/images/2DArray_20180831c-2.jpg)
-![](/matty/20180831c/images/2DArray_20180831c-4.jpg)
-![](/retired/alt.tbo/20171112a/Raw_signal_ProbeB.DAT.png)
-![](/retired/alt.tbo/20171112a/Unpacking_ProbeD.jpg)
+## Setup 
+
+## Acquistions 
+
 ![](/retired/alt.tbo/20171112a/Raw_signal_ProbeD.DAT.png)
+BSC
+Images from the experiment
+
+## Teardown 
+
+## Other pictures 
+
 
 
 

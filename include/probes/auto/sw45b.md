@@ -2,35 +2,22 @@
 
 * Small description:  a kretz sw45b probe
 
-* Longer description:  a kretz sw45b probe
+* Longer description:  a kretz sw45b probe. Interesting mechanical device. Looks like a convex array probe, but mechanical.
 
 # Images
 
-![](/include/images/sw45b/P_20191122_205352.jpg)
-![](/include/images/sw45b/P_20191123_134314.jpg)
-![](/include/images/sw45b/20191207_171540.jpg)
-![](/include/images/sw45b/P_20191122_203547.jpg)
-![](/include/images/sw45b/P_20191122_203528.jpg)
-![](/include/images/sw45b/20191207_171231.jpg)
-![](/include/images/sw45b/20191207_171159.jpg)
-![](/include/images/sw45b/P_20191122_203226.jpg)
-![](/include/images/sw45b/P_20191122_203551.jpg)
-![](/include/images/sw45b/P_20191122_204119.jpg)
-![](/include/images/sw45b/P_20191122_204044.jpg)
-![](/include/images/sw45b/P_20191122_204014.jpg)
-![](/include/images/sw45b/P_20191123_134703.jpg)
-![](/include/images/sw45b/P_20191122_203755.jpg)
-![](/include/images/sw45b/20191207_171145.jpg)
-![](/include/images/sw45b/P_20191122_203540.jpg)
-![](/include/images/sw45b/P_20191123_134731.jpg)
-![](/include/images/sw45b/20191207_171301.jpg)
-![](/include/images/sw45b/P_20191123_134330.jpg)
-![](/include/images/sw45b/P_20191123_134701.jpg)
-![](/include/images/sw45b/P_20191123_134339.jpg)
-![](/include/images/sw45b/P_20191122_205401.jpg)
-![](/include/images/sw45b/P_20191122_203427.jpg)
-![](/include/images/sw45b/P_20191122_205404.jpg)
+## Setup 
+
+## Acquistions 
+
+## Teardown 
+
 ![](/include/images/sw45b/20191207_171210.jpg)
+teardown
+ToTag
+
+## Other pictures 
+
 
 
 

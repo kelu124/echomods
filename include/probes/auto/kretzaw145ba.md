@@ -17,44 +17,18 @@
 
 # Images
 
-![](/include/images/kretzaw145ba/P_20180809_195413.jpg)
-![](/matty/20180901a/images/2DArray_20180901a-1.jpg)
-![](/matty/20180901a/images/2DArray_20180901a-2.jpg)
-![](/matty/20180901a/images/Spectrum_20180901a-2.jpg)
-![](/include/images/kretzaw145ba/P_20180809_193956.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-10-all.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-1-all.jpg)
-![](/include/images/kretzaw145ba/P_20180809_194007.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-13-all.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-18-all.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-9-all.jpg)
-![](/matty/20180901a/images/SC_20180901a-1-fft.jpg)
-![](/include/images/kretzaw145ba/P_20180809_194016.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-12-all.jpg)
-![](/include/images/kretzaw145ba/P_20180809_194206.jpg)
-![](/matty/20180901a/images/Spectrum_20180901a-1.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-5-all.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-18.jpg)
-![](/include/images/kretzaw145ba/20180811a/P_20180811_190929.jpg)
-![](/include/images/kretzaw145ba/P_20180809_194058.jpg)
-![](/include/images/kretzaw145ba/P_20180809_195622.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-2-all.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-6-all.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-7-all.jpg)
-![](/include/images/kretzaw145ba/P_20180809_194227.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-16-all.jpg)
-![](/include/images/kretzaw145ba/P_20180809_193948.jpg)
-![](/include/images/kretzaw145ba/20180812a/image-20180812a-18-wirephantom-big.png)
-![](/include/images/kretzaw145ba/20180812a/image-20180812a-18-wirephantom.png)
-![](/matty/20180901a/images/SC_20180901a-2-fft.jpg)
-![](/include/images/kretzaw145ba/20180811b/P_20180811_175204.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-3-all.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-11-all.jpg)
-![](/include/images/kretzaw145ba/20180811b/P_20180811_175211.jpg)
-![](/include/images/kretzaw145ba/P_20180809_194027.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-14-all.jpg)
-![](/include/images/kretzaw145ba/20180812a/images/20180812a-15-all.jpg)
+## Setup 
+
+## Acquistions 
+
+## Teardown 
+
 ![](/include/images/kretzaw145ba/20180811b/P_20180811_175217.jpg)
+teardown
+.
+
+## Other pictures 
+
 
 
 

@@ -16,7 +16,7 @@
 # sw45b
 * code:sw45b
 * smalldesc: a kretz sw45b probe
-* longdesc: a kretz sw45b probe
+* longdesc: a kretz sw45b probe. Interesting mechanical device. Looks like a convex array probe, but mechanical.
 
 # uprobe1
 * code:uProbe1
