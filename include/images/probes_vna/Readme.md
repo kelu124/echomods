@@ -15,8 +15,7 @@ Playing with the frequency response of some of [the probes listed here](/include
 ### `BiViPiezo`
 
 [S1P file](/include/images/probes_vna/BiViPiezo.s1p)
-![](/include/images/probes_vna/BiViPiezo.s1p.png)
-![](/include/images/probes_vna/BiViPiezo.png)
+![](/include/images/probes_vna/BiViPiezo.s1p.png) 
 
 ### `diasonics_50`
 
