@@ -20,8 +20,8 @@ Playing with the frequency response of some of [the probes listed here](/include
 
 ### `diasonics_50`
 
-[S1P file](/include/images/probes_vna/diasonics_50.png)
-![](/include/images/probes_vna/diasonics_50.s1p)
+![](/include/images/probes_vna/diasonics_50.png)
+[S1P file](/include/images/probes_vna/diasonics_50.s1p)
 
 ### `diasonics_75`
 
@@ -40,5 +40,5 @@ Playing with the frequency response of some of [the probes listed here](/include
 
 ### `hp2121` probe
 
-[S1P file](/include/images/probes_vna/hp2121.png)
-![](/include/images/probes_vna/hp2121.s1p)
+![S1P file](/include/images/probes_vna/hp2121.png)
+[S1P file](/include/images/probes_vna/hp2121.s1p)
