@@ -29,11 +29,13 @@
 
 ## Setup 
 
+## Frequency mapping 
+
 ## Acquisitions 
 
 ### Signals 
 
-## Scan converted 
+### Scan converted 
 
 ![](/matty/20181104a/images/SC_20181104a-3-fft.jpg)
 SC

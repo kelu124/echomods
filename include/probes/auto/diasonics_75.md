@@ -4,15 +4,26 @@
 
 * Longer description:  a diasonics_75 probe
 
+# Files
+
+* [/include/images/probes_vna/Readme.md](/include/images/probes_vna/Readme.md)
+
+
 # Images
 
 ## Setup 
+
+## Frequency mapping 
+
+![](/include/images/probes_vna/diasonics_75.s1p.png)
+smith
+ToTag
 
 ## Acquisitions 
 
 ### Signals 
 
-## Scan converted 
+### Scan converted 
 
 ### FFTs 
 

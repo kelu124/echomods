@@ -98,6 +98,22 @@
 * smalldesc:the piezo given by BiVi
 * longdesc:a test piezo
 
+# atlannular
+* code:atlannular
+* smalldesc: a 5 rings probe
+* longdesc:five rings!
+
+# diasonics_gpm_plus_35
+* code:diasonics_gpm_plus_35
+* smalldesc: A diasonics GP/M plus, 3.5MHz
+* longdesc: A diasonics GP/M plus, 3.5MHz
+
+# diasonics_tr
+* code:diasonics_tr
+* smalldesc: the diasonics transrectal probe
+* longdesc:not tore down yet =)
+
+
 # NDTPiezo
 * code:NDTPiezo
 * smalldesc:a dual imaging transducer sent by Jorge

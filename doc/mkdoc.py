@@ -464,11 +464,12 @@ def CreateProbesFiles(GrosJaSON):
 			ProbeAuto += "# Images\n\n"
 			SETUP = "## Setup \n\n"
 			ACQS = "## Acquisitions \n\n"
-			SC = "## Scan converted \n\n"
+			SC = "### Scan converted \n\n"
 			SIGNALS = "### Signals \n\n"
 			FFT = "### FFTs \n\n"
 			OTHERSIGNALS  = "### Other signals \n\n"
 			TEARDOWN = "## Teardown \n\n"
+			SMITH = "## Frequency mapping \n\n"
 			OTHERPICS = "## Other pictures \n\n"
 
 			for image in list(set(GrosJaSON["probes"][probe]["images"])):
@@ -488,6 +489,9 @@ def CreateProbesFiles(GrosJaSON):
 				elif "teardown" in GrosJaSON["images"][image]["category"]:	
 					TEARDOWN += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					TEARDOWN += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+				elif "smith" in GrosJaSON["images"][image]["category"]:	
+					SMITH += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
+					SMITH += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
 				elif "SC" in GrosJaSON["images"][image]["category"]:	
 					SC += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					SC += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
@@ -495,7 +499,7 @@ def CreateProbesFiles(GrosJaSON):
 					OTHERPICS += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					OTHERPICS += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
 
-			ProbeAuto += SETUP+ACQS+SIGNALS+SC+FFT+OTHERSIGNALS+TEARDOWN+OTHERPICS+"\n\n"
+			ProbeAuto += SETUP+SMITH+ACQS+SIGNALS+SC+FFT+OTHERSIGNALS+TEARDOWN+OTHERPICS+"\n\n"
 			print ProbeAuto
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
 

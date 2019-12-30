@@ -8,13 +8,15 @@ __More?__ a 724A ultrasound probe
 
 __Present in:__ 1 experiments ([20181104c](/experiments/auto/20181104c.md)) 
 
-__Present in:__ 45 images.
+__Present in:__ 46 images.
 
 ### [BiViPiezo](/include/probes/auto/BiViPiezo.md) (BiViPiezo)
 
 __TLDR__: the piezo given by BiVi
 
 __More?__ a test piezo
+
+__Present in:__ 2 images.
 
 ### [NDTPiezo](/include/probes/auto/NDTPiezo.md) (NDTPiezo)
 
@@ -62,6 +64,14 @@ __More?__ an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n
 
 __Present in:__ 14 images.
 
+### [atlannular](/include/probes/auto/atlannular.md) (atlannular)
+
+__TLDR__:  a 5 rings probe
+
+__More?__ five rings!
+
+__Present in:__ 5 images.
+
 ### [atlidrict](/include/probes/auto/atlidrict.md) (atlidrict)
 
 __TLDR__: an atlidrict 7.5MHz / 6.4mm probe
@@ -94,13 +104,29 @@ __TLDR__:  a diasonics_50 probe
 
 __More?__  a diasonics_50 probe
 
-__Present in:__ 6 images.
+__Present in:__ 7 images.
 
 ### [diasonics_75](/include/probes/auto/diasonics_75.md) (diasonics_75)
 
 __TLDR__:  a diasonics_75 probe
 
 __More?__  a diasonics_75 probe
+
+__Present in:__ 7 images.
+
+### [diasonics_gpm_plus_35](/include/probes/auto/diasonics_gpm_plus_35.md) (diasonics_gpm_plus_35)
+
+__TLDR__:  A diasonics GP/M plus, 3.5MHz
+
+__More?__  A diasonics GP/M plus, 3.5MHz
+
+__Present in:__ 15 images.
+
+### [diasonics_tr](/include/probes/auto/diasonics_tr.md) (diasonics_tr)
+
+__TLDR__:  the diasonics transrectal probe
+
+__More?__ not tore down yet =)
 
 __Present in:__ 6 images.
 
@@ -112,7 +138,7 @@ __More?__  hp2121. Experiments : [test](/include/experiments/auto/20181013a.md)
 
 __Present in:__ 2 experiments ([20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md)) 
 
-__Present in:__ 18 images.
+__Present in:__ 20 images.
 
 ### [kretzaw145ba](/include/probes/auto/kretzaw145ba.md) (kretzaw145ba)
 

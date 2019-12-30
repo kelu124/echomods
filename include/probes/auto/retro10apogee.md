@@ -17,11 +17,13 @@
 setup
 Picture of the head with motor control
 
+## Frequency mapping 
+
 ## Acquisitions 
 
 ### Signals 
 
-## Scan converted 
+### Scan converted 
 
 ### FFTs 
 

@@ -8,11 +8,13 @@
 
 ## Setup 
 
+## Frequency mapping 
+
 ## Acquisitions 
 
 ### Signals 
 
-## Scan converted 
+### Scan converted 
 
 ### FFTs 
 
