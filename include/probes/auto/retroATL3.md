@@ -20,22 +20,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
-## Teardown 
-
 ## Other pictures 
 
 ![](/include/20160822/phantom-actual-model40.png)

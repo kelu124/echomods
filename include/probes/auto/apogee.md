@@ -11,20 +11,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
 ## Teardown 
 
 ![](/include/images/Interspec/P_20180807_221458.jpg)
@@ -78,8 +64,6 @@ Exploring the innards of an InterspecApogee probe
 ![](/include/images/Interspec/P_20180807_221519.jpg)
 teardown
 Exploring the innards of an InterspecApogee probe
-
-## Other pictures 
 
 
 

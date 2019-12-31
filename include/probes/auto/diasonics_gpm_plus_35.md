@@ -11,23 +11,11 @@
 
 # Images
 
-## Setup 
-
 ## Frequency mapping 
 
 ![](/include/images/probes_vna/diasonics_gpm_plus_35.s1p.png)
 smith
 ToTag
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
 
 ## Teardown 
 
@@ -86,8 +74,6 @@ teardown
 ![](/include/images/diasonics_gpm_plus_35/P_20191230_194820.jpg)
 teardown
 .
-
-## Other pictures 
 
 
 

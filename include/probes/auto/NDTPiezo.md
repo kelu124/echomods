@@ -27,27 +27,11 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
 ### Scan converted 
 
 ![](/matty/20181104a/images/SC_20181104a-3-fft.jpg)
 SC
 Scan converted image of 20181104a-3 using a piezo: hp2121
-
-### FFTs 
-
-### Other signals 
-
-## Teardown 
-
-## Other pictures 
 
 
 

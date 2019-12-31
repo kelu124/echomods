@@ -6,22 +6,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
-## Teardown 
-
 ## Other pictures 
 
 ![](/include/cn_mechprob/IMG-20180328-WA0005.jpg)

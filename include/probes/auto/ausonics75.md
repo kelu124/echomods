@@ -11,20 +11,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
 ## Teardown 
 
 ![](/include/images/ausonics75/P_20180809_192257.jpg)
@@ -82,8 +68,6 @@ ausonic 7.5MHz probe
 ![](/include/images/ausonics75/P_20180809_191919.jpg)
 teardown
 ausonic 7.5MHz probe
-
-## Other pictures 
 
 
 

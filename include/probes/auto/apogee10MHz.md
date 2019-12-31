@@ -11,20 +11,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
 ## Teardown 
 
 ![](/include/images/apogee10MHz/P_20180831_211705.jpg)
@@ -130,8 +116,6 @@ Unkwown (apogee) 10MHz probe
 ![](/include/images/apogee10MHz/Round2/P_20181006_220052.jpg)
 teardown
 Unkwown (apogee) 10MHz probe
-
-## Other pictures 
 
 
 

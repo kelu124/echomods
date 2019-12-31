@@ -6,20 +6,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
 ## Teardown 
 
 ![](/include/images/atladrict/P_20180811_201314.jpg)
@@ -41,8 +27,6 @@ Exploring the innards of a atlidrict probe
 ![](/include/images/atladrict/P_20180811_201229.jpg)
 teardown
 Exploring the innards of a atlidrict probe
-
-## Other pictures 
 
 
 

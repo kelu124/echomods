@@ -17,14 +17,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
 ### Scan converted 
 
 ![](/matty/20180901a/images/SC_20180901a-1-fft.jpg)

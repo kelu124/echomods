@@ -498,9 +498,27 @@ def CreateProbesFiles(GrosJaSON):
 				else:
 					OTHERPICS += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					OTHERPICS += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
+			if len(SETUP) > 27:
+				ProbeAuto += SETUP
+			if len(SMITH) > 27:
+				ProbeAuto += SMITH
+			if len(ACQS) > 27:
+				ProbeAuto += ACQS
+			if len(SIGNALS) > 27:
+				ProbeAuto += SIGNALS
+			if len(SC) > 27:
+				ProbeAuto += SC
+			if len(FFT) > 27:
+				ProbeAuto += FFT
+			if len(OTHERSIGNALS) > 27:
+				ProbeAuto += OTHERSIGNALS
+			if len(TEARDOWN) > 27:
+				ProbeAuto += TEARDOWN
+			if len(OTHERPICS) > 27:
+				ProbeAuto += OTHERPICS
 
-			ProbeAuto += SETUP+SMITH+ACQS+SIGNALS+SC+FFT+OTHERSIGNALS+TEARDOWN+OTHERPICS+"\n\n"
-			print ProbeAuto
+			ProbeAuto +="\n\n"
+			#print ProbeAuto
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
 
 	ProbeAuto = "# List of opened probes\n\n"

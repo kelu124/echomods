@@ -16,7 +16,6 @@
 * __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing file `./goblin/source/Altium/goblin_altium.zip`
 * __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing file `./include/images/UniPins.png`
 * __[Links]__ :no_entry: `./include/community/Tomas/Readme.md` : Link to non-existing file `./include/community/Tomas/20180403/Readme.md`
-* __[Links]__ :no_entry: `./include/images/probes_vna/Readme.md` : Link to non-existing file `./include/images/probes_vna/altannular.s1p`
 * __[Links]__ :no_entry: `./include/murgen_notes.md` : Error in link definition, non-absolute path in link to `Software_(murgen-dev-kit`
 * __[Links]__ :no_entry: `./matty/20180430a/Readme.md` : Link to non-existing file `./matty/20180430a/ServoControl.ino`
 * __[Links]__ :no_entry: `./matty/20180721a/Readme.md` : Link to non-existing file `./matty/20180721a/20180721a-Client.ipynb`

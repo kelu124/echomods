@@ -6,22 +6,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
-## Teardown 
-
 ## Other pictures 
 
 ![](/include/s3/images/uProbe1/20171127_210428.jpg)

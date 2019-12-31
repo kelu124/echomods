@@ -11,25 +11,11 @@
 
 # Images
 
-## Setup 
-
 ## Frequency mapping 
 
 ![](/include/images/probes_vna/diasonics_50.png)
 smith
 ToTag
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
-## Teardown 
 
 ## Other pictures 
 

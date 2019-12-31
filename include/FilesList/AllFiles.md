@@ -968,7 +968,7 @@
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
 
-* [mkimg.py](/include/images/hp2121/20191230/mkimg.py): Autotagging images for the experiment.. _File not used._
+* [mkimg.py](/include/images/hp2121/20191230/mkimg.py): Autotagging images for the experiment.. File used in: [`/include/experiments/auto/Code_20180809b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180809b.html).
 
 * [mkimg.py](/include/images/hp2121/20181011a/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 
@@ -976,15 +976,15 @@
 
 * [mkimg.py](/include/images/ADR/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
 
-* [mkimg.py](/include/images/atlannular/mkimg.py): Autotagging images for the experiment.. _File not used._
+* [mkimg.py](/include/images/atlannular/mkimg.py): Autotagging images for the experiment.. File used in: [`/include/experiments/auto/Code_20180809b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180809b.html).
 
 * [mkimg.py](/include/images/724A/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 
-* [mkimg.py](/include/images/diasonics_gpm_plus_35/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+* [mkimg.py](/include/images/diasonics_gpm_plus_35/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/experiments/auto/Code_20180809b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180809b.html).
 
 * [mkimg.py](/include/images/atladrict/mkimg.py): Autotagging images for the `Test` experiment.. _File not used._
 
-* [mkimg.py](/include/images/diasonics_tr/mkimg.py): Autotagging images for the experiment.. _File not used._
+* [mkimg.py](/include/images/diasonics_tr/mkimg.py): Autotagging images for the experiment.. File used in: [`/include/experiments/auto/Code_20180809b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180809b.html).
 
 * [mkimg.py](/include/images/apogee5MHz/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/experiments/auto/Code_20180809b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180809b.html).
 

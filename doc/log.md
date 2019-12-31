@@ -244,8 +244,6 @@ __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing f
 
 __[Links]__ :no_entry: `./include/community/Tomas/Readme.md` : Link to non-existing file `./include/community/Tomas/20180403/Readme.md`
 
-__[Links]__ :no_entry: `./include/images/probes_vna/Readme.md` : Link to non-existing file `./include/images/probes_vna/altannular.s1p`
-
 __[Links]__ :no_entry: `./include/murgen_notes.md` : Error in link definition, non-absolute path in link to `Software_(murgen-dev-kit`
 
 __[Links]__ :no_entry: `./matty/20180430a/Readme.md` : Link to non-existing file `./matty/20180430a/ServoControl.ino`
@@ -1950,19 +1948,11 @@ __[Unrefed file]__ :warning: `/include/images/Interspec/mkimg.py` : No reference
 
 __[Unrefed file]__ :warning: `/include/images/atladrict/mkimg.py` : No references of this file (in _include_). 
 
-__[Unrefed file]__ :warning: `/include/images/atlannular/mkimg.py` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/images/diasonics_gpm_plus_35/mkimg.py` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/images/diasonics_tr/mkimg.py` : No references of this file (in _include_). 
-
 __[Unrefed file]__ :warning: `/include/images/hp2121/20181011a/mkimg.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/images/hp2121/20181013a/Readme.md` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/images/hp2121/20181013a/mkimg.py` : No references of this file (in _include_). 
-
-__[Unrefed file]__ :warning: `/include/images/hp2121/20191230/mkimg.py` : No references of this file (in _include_). 
 
 __[Unrefed file]__ :warning: `/include/images/hp2121/Readme.md` : No references of this file (in _include_). 
 

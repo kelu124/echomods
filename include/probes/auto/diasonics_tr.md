@@ -11,20 +11,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
 ## Teardown 
 
 ![](/include/images/diasonics_tr/P_20191230_200838.jpg)
@@ -50,8 +36,6 @@ teardown
 ![](/include/images/diasonics_tr/P_20191230_201539.jpg)
 teardown
 .
-
-## Other pictures 
 
 
 

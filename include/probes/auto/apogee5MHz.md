@@ -11,20 +11,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
 ## Teardown 
 
 ![](/include/images/apogee5MHz/P_20180831_205237.jpg)
@@ -82,8 +68,6 @@ Unkwown (apogee) 5MHz probe
 ![](/include/images/apogee5MHz/20191207_182945.jpg)
 teardown
 Unkwown (apogee) 5MHz probe
-
-## Other pictures 
 
 
 

@@ -6,22 +6,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
-## Teardown 
-
 ## Other pictures 
 
 ![](/retroATL3/images/IMG_2403.JPG)

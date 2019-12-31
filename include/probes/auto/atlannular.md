@@ -11,23 +11,11 @@
 
 # Images
 
-## Setup 
-
 ## Frequency mapping 
 
 ![](/include/images/probes_vna/altannular.s1p.png)
 smith
 ToTag
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
 
 ## Teardown 
 
@@ -46,8 +34,6 @@ teardown
 ![](/include/images/atlannular/P_20191230_210124.jpg)
 teardown
 .
-
-## Other pictures 
 
 
 

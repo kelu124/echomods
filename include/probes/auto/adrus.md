@@ -11,20 +11,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
 ## Teardown 
 
 ![](/include/images/ADR/P_20180807_215631.jpg)
@@ -98,8 +84,6 @@ Exploring the innards of a ADR Ultrasound probe
 ![](/include/images/ADR/P_20180807_215406.jpg)
 teardown
 Exploring the innards of a ADR Ultrasound probe
-
-## Other pictures 
 
 
 

@@ -11,22 +11,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
-## Teardown 
-
 ## Other pictures 
 
 ![](/include/bard/Bard-Site-Rite-37522-5C-45C-75MHz-Ultrasound-Transducer-Probe-68mmFL-Dymax-0470-263459340232-4.JPG)

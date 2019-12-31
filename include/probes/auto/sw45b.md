@@ -6,20 +6,6 @@
 
 # Images
 
-## Setup 
-
-## Frequency mapping 
-
-## Acquisitions 
-
-### Signals 
-
-### Scan converted 
-
-### FFTs 
-
-### Other signals 
-
 ## Teardown 
 
 ![](/include/images/sw45b/P_20191122_205352.jpg)
@@ -121,8 +107,6 @@ ToTag
 ![](/include/images/sw45b/20191207_171210.jpg)
 teardown
 ToTag
-
-## Other pictures 
 
 
 
