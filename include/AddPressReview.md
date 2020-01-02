@@ -33,6 +33,7 @@
 * 2017-07-10: [Open ultrasound for africa](http://openhardware.science/2017/07/10/lafrique-a-lassaut-du-biohacking-pour-la-sante-makery/)
 * 2017-07-14: [Adafruit: A HSDK for ultrasound imaging #piday #raspberrypi @Raspberry_Pi](https://blog.adafruit.com/2017/07/14/a-hsdk-for-ultrasound-imaging-piday-raspberrypi-raspberry_pi/)
 * 2017-07-27: [Show HN: Hacking an ultrasound probe with a Raspberry Pi and low-cost hardware](https://news.ycombinator.com/item?id=14869138)
+* 2017-08-08: [A-scan ultrassônico aplicado na identificação da camada adiposa](http://www.bdm.unb.br/handle/10483/20117)
 * 2017-09-30: [Weekly Roundup #45 – New Maker Products](https://www.mickmake.com/archives/4062/3)
 * 2017-10-10: [Ultrasonograf zbudowany z wykorzystaniem Raspberry Pi ](https://www.elektroda.pl/rtvforum/topic3382649.html)
 * 2017-12-01: [Murgen – an opensource project for ultrasound imaging](http://www.meccanismocomplesso.org/en/murgen-opensource-project-for-ultrasound-imaging/)
@@ -48,4 +49,7 @@
 * 2019-05-04: [Body-ultrasound Sonography With Arduino](https://www.instructables.com/id/Body-ultrasound-Sonography-With-Arduino/)
 * 2019-08-01: [Unit of ultrasound A-scans](https://electronics.stackexchange.com/questions/450850/unit-of-ultrasound-a-scans)
 * 2019-08-03: [Wie kann ich mit Ultraschall die Schallgeschwindigkeit in einem Festkörper messen?](https://www.mikrocontroller.net/topic/478647)
-
+* 2019-09-09: [On the Economic Value of Open Source Hardware – Case Study of an Open Source Magnetic Resonance Imaging Scanner](https://openhardware.metajnl.com/articles/10.5334/joh.14/)
+* 2019-10-10: [The Case for a Portable Open-Source 3D Ultrasound: Issues, Benefits, and Challenges](https://ieeexplore.ieee.org/abstract/document/8926072)
+* 2019-11-08: [Open Electronics for Medical Devices: State-of-Art and Unique Advantages](https://www.mdpi.com/2079-9292/8/11/1256/htm)
+* 2019-11-29: [An open-source force for good](https://the-gist.org/2019/11/an-open-source-force-for-good/#easy-footnote-bottom-9-11427)

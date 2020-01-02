@@ -1,6 +1,10 @@
 # History 
 
 
+ * __2019-11-29__: [link from the-gist.org](https://the-gist.org/2019/11/an-open-source-force-for-good/#easy-footnote-bottom-9-11427)
+ * __2019-11-08__: [link from www.mdpi.com](https://www.mdpi.com/2079-9292/8/11/1256/htm)
+ * __2019-10-10__: [link from ieeexplore.ieee.org](https://ieeexplore.ieee.org/abstract/document/8926072)
+ * __2019-09-09__: [link from openhardware.metajnl.com](https://openhardware.metajnl.com/articles/10.5334/joh.14/)
  * __2019-08-03__: [link from www.mikrocontroller.net](https://www.mikrocontroller.net/topic/478647)
  * __2019-08-01__: [link from electronics.stackexchange.com](https://electronics.stackexchange.com/questions/450850/unit-of-ultrasound-a-scans)
  * __2019-05-04__: [link from www.open-electronics.org](https://www.open-electronics.org/arduino-sonography-arduino-based-ultrasound-machine/), [link from www.instructables.com](https://www.instructables.com/id/Body-ultrasound-Sonography-With-Arduino/)
@@ -59,6 +63,7 @@
  * __2017-08-18__: [20170818_152031.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170818_152031.jpg), [20170818_151838.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170818_151838.jpg), [20170818_162039.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170818_162039.jpg)
  * __2017-08-17__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-17-Some-RPi-code.md)
  * __2017-08-14__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-14-Zach.md)
+ * __2017-08-08__: [link from www.bdm.unb.br](http://www.bdm.unb.br/handle/10483/20117)
  * __2017-08-05__: [worklog of the day](http://kelu124.github.io/echomods/2017-08-05-Moving-forward-towards-the-board.md), [worklog of the day](http://kelu124.github.io/echomods/2017-08-05-Moving-forward-towards-the.md)
  * __2017-08-04__: [20170804_141110.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141110.jpg), [20170804_141348.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141348.jpg), [20170804_141119.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141119.jpg), [20170804_141235.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Afreen/20170804_141235.jpg)
  * __2017-08-01__: [20170801_134824.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134824.jpg), [20170801_134819.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134819.jpg), [20170801_134829.jpg](https://github.com/kelu124/echomods/tree/master/include/community/Taylor/20170801_134829.jpg)

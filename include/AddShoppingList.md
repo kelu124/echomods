@@ -112,6 +112,13 @@ Here's a couple of things we're working on, for which you could help as well.
 * use the [driver](https://www.amazon.fr/gp/product/B0798JCY93/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * redo probes sheets
 * redo the geography part.. using geopandas ?
+* integrated mouse optics in the article, from "A Free-Hand System of the High-Frequency Single Element Ultrasound Transducer for Skin Imaging"
+* Documentation - update for lit3 once it is ready, with http://2012.oshwa.org/files/2012/07/Wozniak-OHS2012-Final.pdf, http://2011.oshwa.org/files/2011/09/Wozniak-OHS2011.pdf, and https://cdn-blog.adafruit.com/uploads/2011/09/w0z-OHS2011-v1.pdf
+* : Analyse de la compétition (lecoeur, www.lecoeur-electronique.net/, https://www.industrie-techno.com/article/des-ultrasons-pour-controler-les-revetements-metalliques.54136 (siderus), https://ndt-testing.org/our-services/ultrasonic-testing-pulse-echo-method/, https://www.nde-ed.org/EducationResources/CommunityCollege/Ultrasonics/Introduction/description.htm , https://www.ndtclassroom.com/blog/2018/1/23/ultrasonic-testing-pulse-echo-technique https://ndtvendor.com/categories/69-usb-instruments/364-pciut3100-all-in-one/ https://ndtvendor.com/categories/69-usb-instruments/365-compact-pulser/ http://eurosonic.com/en/products/ut-solutions/tfl-110.html http://www.usultratek.com/products/picopulser.htm http://www.ultrasonic.de/index.php http://tecnatom-ndt.com/product/ultrasonic/sonia-fprhf1/ http://www.mec-ndt.co/ndt_products_desc?code=97 https://www.insight-ndt.com/ultrasonic/8channel.html https://ndtsupply.com/dakota-ultrasonics-pvx-1.html )
+* documentation ghpage to update, https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
+* encode lib in npz : https://stackoverflow.com/questions/11511705/base64-encode-a-zip-file-in-python and check dependences with https://poetry.eustace.io/
+* up5k update - https://blog.idorobots.org/entries/upduino-fpga-tutorial.html for the refs (includes block RAM, SB_SPRAM256KA, but i2c and SPI too (SB_SPI and SB_I2C)) -- see refs at https://www.latticesemi.com/~/media/LatticeSemi/Documents/TechnicalBriefs/SBTICETechnologyLibrary201608.pdf 
+* get a spidriver https://www.crowdsupply.com/excamera/spidriver
 
 
 
