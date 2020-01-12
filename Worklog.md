@@ -3615,6 +3615,20 @@ SAO:
 * MEMS : SPH0641LU4H-1 (PDM) et IS31FL3728 pr 8x8 en i2c
 * icebling: https://electronut.in/ice-bling-making-led-earrings-with-an-fpga/ 
 
+#### 2020-10-11 Silent is back
+
+* @todo Repushing some silent experiment - using it as a benchmark for lit3rick and un0rick boards
+* @todo Need to repush libpyUn0.
+* @todo get somes boxes to sort VNA, piezos, attiny's stuff
+* @todo SAO for Belgrade !
+  * SAO: FT232RQ - https://learn.adafruit.com/programming-spi-flash-prom-with-an-ft232h-breakout/overview
+  * upduino Flash - ice40 connection
+
+#### 2020-10-12 Yeay on vit3lite
+
+* FFT generator : https://zipcpu.com/dsp/2018/10/02/fft.html
+* Corresponding : https://github.com/ZipCPU/dblclockfft
+
 
 =======
 

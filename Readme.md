@@ -1,4 +1,4 @@
-# What is this project? [](@description Pitch/Intro of the project)
+# What is this project? [](@escription Pitch/Intro of the project)
 
 This project has a specific target of providing a __low-cost, open source technological kit to allow scientists, academics, hackers, makers or OSHW fans to hack their way to ultrasound imaging__ - below 500$ - at home, with no specific equipment required. For complementary sources of information, you can visit:
 
