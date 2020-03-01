@@ -11,9 +11,11 @@ Bottom of the pyramid
 
 ## Existing tools
 
+tOOLS
 
 ## Approaches
 
+APPROACHES
 
 ### Hardware constraints
 
