@@ -13,5 +13,3 @@ title: 2019-12-12 Article ongoing
 -   @todo analyse protoelectronics (cf Leonie) for short runs --
     http://protoelectronique.com/
 
-=======
-
