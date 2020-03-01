@@ -119,6 +119,14 @@ Here's a couple of things we're working on, for which you could help as well.
 * encode lib in npz : https://stackoverflow.com/questions/11511705/base64-encode-a-zip-file-in-python and check dependences with https://poetry.eustace.io/
 * up5k update - https://blog.idorobots.org/entries/upduino-fpga-tutorial.html for the refs (includes block RAM, SB_SPRAM256KA, but i2c and SPI too (SB_SPI and SB_I2C)) -- see refs at https://www.latticesemi.com/~/media/LatticeSemi/Documents/TechnicalBriefs/SBTICETechnologyLibrary201608.pdf 
 * get a spidriver https://www.crowdsupply.com/excamera/spidriver
+* Repushing some silent experiment - using it as a benchmark for lit3rick and un0rick boards
+* Need to repush libpyUn0.
+* get somes boxes to sort VNA, piezos, attiny's stuff
+* SAO for Belgrade !
+* silkscreen v1.3 to be updated.
+* get https://github.com/tobozo/M5Stack-SD-Updater to add bins
+* lit3rick examples : complilation : https://github.com/FPGAwars/apio-examples/tree/master/iCE40-UP5K/
+* explore bivi's https://github.com/streamlit/streamlit and https://github.com/samuelhwilliams/Eel
 
 
 

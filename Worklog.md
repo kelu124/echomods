@@ -3615,7 +3615,7 @@ SAO:
 * MEMS : SPH0641LU4H-1 (PDM) et IS31FL3728 pr 8x8 en i2c
 * icebling: https://electronut.in/ice-bling-making-led-earrings-with-an-fpga/ 
 
-#### 2020-10-11 Silent is back
+#### 2020-01-11 Silent is back
 
 * @todo Repushing some silent experiment - using it as a benchmark for lit3rick and un0rick boards
 * @todo Need to repush libpyUn0.
@@ -3624,11 +3624,39 @@ SAO:
   * SAO: FT232RQ - https://learn.adafruit.com/programming-spi-flash-prom-with-an-ft232h-breakout/overview
   * upduino Flash - ice40 connection
 
-#### 2020-10-12 Yeay on vit3lite
+#### 2020-01-12 Yeay on vit3lite
 
 * FFT generator : https://zipcpu.com/dsp/2018/10/02/fft.html
 * Corresponding : https://github.com/ZipCPU/dblclockfft
 
+#### 2020-01-18 MF and short
+
+* Manuf confirmed a LDO was rotated 90degrees. Means tests on lit3rick v1.3 can now be done. 
+* @todo silkscreen v1.3 to be updated.
+* daugther board on esp32 m5stack for viz ? 
+* @todo get https://github.com/tobozo/M5Stack-SD-Updater to add bins
+  * to flash
+  * to run tests
+  * to do single acqs and details
+  * to stream i2s
+* test INMP441 ?
+* SAO ideas: apa102 LEDs ( WS2812B-2020 also, 2x2mm)
+  * see https://www.sparkfun.com/products/15047 - SparkFun LuMini LED Matrix
+* @todo lit3rick examples : complilation : https://github.com/FPGAwars/apio-examples/tree/master/iCE40-UP5K/
+  * https://github.com/mmicko/fpga101-workshop for LED, button, https://github.com/mmicko/fpga101-workshop/tree/master/tutorials/12-RiscV
+
+#### 2020-01-26 Streamlit fun
+
+* @todo explore bivi's https://github.com/streamlit/streamlit and https://github.com/samuelhwilliams/Eel
+  * https://towardsdatascience.com/quickly-build-and-deploy-an-application-with-streamlit-988ca08c7e83
+* @SAOLIT : ATtiny861A  / ATtiny84A ?
+
+#### 2020-02-15 Nothing new
+
+Having fun with StyleGans
+* StyleGan: https://colab.research.google.com/drive/1ShgW6wohEFQtqs_znMna3dzrcVoABKIH#forceEdit=true&sandboxMode=true&scrollTo=rYdsgv4i6YPl
+* https://blog.adafruit.com/2020/02/10/combining-ai-tools-to-create-new-beetles-with-gans-artificialintelligence-machinelearning-colab-stylegan-runwayml-cunicode/
+* https://twitter.com/_pitscher/status/1228476795122593793
 
 =======
 

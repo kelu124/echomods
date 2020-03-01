@@ -1,4 +1,5 @@
 * [ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_20160720-Milestone.html)
+* [ppt_openconf.md](/include/ppt_openconf.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_openconf.html)
 * [ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocumentationProcess.html)
 * [ppt_presUS.md](/include/ppt_presUS.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_presUS.html)
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
