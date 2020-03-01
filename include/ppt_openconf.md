@@ -1,6 +1,6 @@
-# [Open Ultrasound Hardware](http://kelu124.github.io/echomods/ppt_openconf)	
-* __Luc Jonveaux__
-* March 2019
+% [Open Ultrasound Hardware](http://kelu124.github.io/echomods/ppt_openconf)	
+% Luc Jonveaux 
+% March 2019
 
 
 ## My background
@@ -15,41 +15,24 @@ tOOLS
 
 ## Approaches
 
-APPROACHES
 
-### Hardware constraints
+* Hardware constraints: hardware is hard.
+* Frugality: long cycles.. need to be simple.
+* Protection : publish, communicate, be transparent.
 
-Hardware is hard.
+## Ecosystem : communities
 
-### Frugality
+* Makers: hackaday, slack
+* Research: publications
+* Chip makers: datasheets and eval boards
+* FPGAs: iceStorm's
 
-Long cycles.. need to be simple.
+## Ecosystem: production
 
-### Protection
-
-Publish, communicate, be transparent.
-
-## An ecosystem
-
-What ecosystem 
-
-### Communities
-
-* hackaday
-* slack
-* publications
-
-### Production
-
-* oshwa
-* upverter
-* tindie
-* macrofab
-
-### Enabling environment
-
-* Datasheets
-* iceStorm's
+* Design: upverter
+* Certification: OSHWA
+* Prod: macrofab
+* Selling: Tindie
 
 ## Documentation
 
@@ -61,15 +44,15 @@ What ecosystem
 
 Forks
 
-### William's
+## William's
 
 Smart use of SDR.
 
-### Jorge's
+## Jorge's
 
 Jorge's working on NDT.
 
-### Carla's
+## Carla's
 
 Carla's Thesis
 
