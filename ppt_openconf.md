@@ -29,25 +29,35 @@ Publish, communicate, be transparent.
 
 ## An ecosystem
 
+What ecosystem 
+
 ### Communities
 
-hackaday
-slack
-publications
+* hackaday
+* slack
+* publications
 
 ### Production
 
-oshwa
-upverter
-tindie
-macrofab
+* oshwa
+* upverter
+* tindie
+* macrofab
 
 ### Enabling environment
 
-Datasheets
-iceStorm's
+* Datasheets
+* iceStorm's
+
+## Documentation
+
+* Worklog
+* Indexes
+* Tags in file texts
 
 ## Forks and uses
+
+Forks
 
 ### William's
 
