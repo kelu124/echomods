@@ -1,6 +1,6 @@
-% [Open Ultrasound Hardware](http://kelu124.github.io/echomods/ppt_openconf)	
-% Luc Jonveaux 
-% March 2019
+# [Open Ultrasound Hardware](http://kelu124.github.io/echomods/ppt_openconf)	
+* __Luc Jonveaux__
+* March 2019
 
 
 ## My background
