@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2.7
 # -*- coding: utf-8 -*-
 # -------------------------
 # (c) kelu124
@@ -929,7 +929,7 @@ def ConfigFromTxt(UN0RICK,filepath):
     if "acqtiming" in ConfigText.keys():
 	    T1,T2,T3,T4,T5 = ConfigText["acqtiming"].split(",")
 	    T1,T2,T3,T4,T5 = int(T1),int(T2),int(T3),int(T4),int(T5)
-	    A = UN0RICK.set_timings(T1, T2, T3, T4, T5)
+	    UN0RICK.set_timings(T1, T2, T3, T4, T5)
 
     print(ConfigText)
 
