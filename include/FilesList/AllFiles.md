@@ -630,9 +630,9 @@
 
 * [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . _File not used._
 
-* [./matty/20200321a/Readme.md](/matty/20200321a/Readme.md):  . _File not used._
+* [./matty/20200321a/Readme.md](/matty/20200321a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/Code_20200321a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200321a.html).
 
-* [./matty/20200321a/exp.md](/matty/20200321a/exp.md):  . _File not used._
+* [./matty/20200321a/exp.md](/matty/20200321a/exp.md):  . File used in: [`/include/experiments/auto/Code_20200321a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200321a.html).
 
 * [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . _File not used._
 
@@ -675,6 +675,8 @@
 * [./matty/20191024a/Readme.md](/matty/20191024a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20191024a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20191024a.html).
 
 * [./matty/20180721a/Readme.md](/matty/20180721a/Readme.md):  . _File not used._
+
+* [./matty/20200325a/exp.md](/matty/20200325a/exp.md):  . File used in: [`/include/experiments/auto/Code_20200325a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200325a.html).
 
 * [./matty/news/2017-09-15-uniboard.md](/matty/news/2017-09-15-uniboard.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
@@ -843,7 +845,7 @@
 * [20190104a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190104a-Client.html). File used in: [`/include/experiments/auto/20190104a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20190104a.html).
 * [20180430a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180430a-Client.html). _File not used._
 * [20180430a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180430a-Server.html). _File not used._
-* [20200321a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200321a.html). _File not used._
+* [20200321a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200321a.html). File used in: [`/include/experiments/auto/Code_20200321a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200321a.html).
 * [20180403a-75V.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403a-75V.html). _File not used._
 * [20180403a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403a-Client.html). _File not used._
 * [20181104a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104a-Server.html). File used in: [`/include/experiments/auto/20181104c.md`](https://kelu124.gitbooks.io/echomods/content/exp/20181104c.md), [`/include/experiments/auto/Code_20181104a.md`](/include/experiments/auto/Code_20181104a.md), [`/include/experiments/auto/20181104b.md`](/include/experiments/auto/20181104b.md), [`/include/experiments/auto/Code_20181104b.md`](/include/experiments/auto/Code_20181104b.md), [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.html).
@@ -863,6 +865,7 @@
 * [20180721a-pyUn0.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180721a-pyUn0.html). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 * [Untitled1.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled1.html). _File not used._
 * [Untitled.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled.html). _File not used._
+* [20200325a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a.html). File used in: [`/include/experiments/auto/Code_20200325a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200325a.html).
 * [20180826a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180826a-Server.html). File used in: [`/include/experiments/auto/Code_20180826a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180826a.md), [`/include/experiments/auto/20180826a.md`](/include/experiments/auto/20180826a.html).
 * [20180826a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180826a-Client.html). File used in: [`/include/experiments/auto/Code_20180826a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180826a.md), [`/include/experiments/auto/20180826a.md`](/include/experiments/auto/20180826a.html).
 * [20190713a-NewBatch.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190713a-NewBatch.html). _File not used._
@@ -899,8 +902,8 @@
 * [testSPI2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/testSPI2.html). _File not used._
 * [Untitled.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled.html). _File not used._
 * [20181104a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104a-Processing.html). File used in: [`/include/experiments/auto/Code_20181104a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20181104a.md), [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.html).
-* [20180825a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180825a-Client.html). File used in: [`/include/experiments/auto/Code_20180825a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180825a.md), [`/include/experiments/auto/20180825a.md`](/include/experiments/auto/20180825a.html).
-* [20180825a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180825a-Server.html). File used in: [`/include/experiments/auto/Code_20180825a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180825a.md), [`/include/experiments/auto/20180825a.md`](/include/experiments/auto/20180825a.html).
+* [20180825a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180825a-Client.html). File used in: [`/include/experiments/auto/Code_20180825a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180825a.html).
+* [20180825a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180825a-Server.html). File used in: [`/include/experiments/auto/Code_20180825a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180825a.html).
 
 ## Python files
 
@@ -1044,7 +1047,7 @@
 
 * [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/experiments/auto/20180224a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180224a.html).
 
-* [pyUn0.py](/matty/20200321a/pyUn0.py): Most updated library for the un0rick platform.. _File not used._
+* [pyUn0.py](/matty/20200321a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20200321a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200321a.html).
 
 * [mkimg.py](/matty/20180403a/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/experiments/auto/20180310a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180310a.html).
 
@@ -1089,6 +1092,8 @@
 * [pyUn0.py](/matty/20191024a/pyUn0.py): Most updated library for the lit3rick platform.. File used in: [`/include/experiments/auto/Code_20191024a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20191024a.html).
 
 * [pyUn0.py](/matty/20180721a/pyUn0.py): Library for the un0rick platform.. _File not used._
+
+* [pyUn0.py](/matty/20200325a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20200325a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200325a.html).
 
 * [pyUn0.py](/matty/20180826a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20180826a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180826a.md), [`/include/experiments/auto/20180826a.md`](/include/experiments/auto/20180826a.html).
 
@@ -1154,7 +1159,8 @@
 
 * [pyUn0.py](/matty/20181104a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20181104a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20181104a.md), [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.html).
 
-* [pyUn0.py](/matty/20180825a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20180825a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180825a.md), [`/include/experiments/auto/20180825a.md`](/include/experiments/auto/20180825a.html).
+* [pyUn0.py](/matty/20180825a/pyUn0.py): Library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20180825a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180825a.html).
+
 
 
 
@@ -1269,7 +1275,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_DocProcess.md](/include/ppt_DocProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocProcess.html)
 
-## 623 Auto generated files
+## 633 Auto generated files
 
 * ./Readme.md
 * ./include/AddShoppingList.md
@@ -1321,11 +1327,13 @@
 * ./include/experiments/Desc_20160822a.md
 * ./include/experiments/Desc_20170713a.md
 * ./include/experiments/Desc_20190415a.md
+* ./include/experiments/Desc_20200321a.md
 * ./include/experiments/Desc_20180620a.md
 * ./include/experiments/Desc_20181126a.md
 * ./include/experiments/Desc_20190111a.md
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20191022a.md
+* ./include/experiments/Desc_20200325a.md
 * ./include/experiments/Desc_20190804a.md
 * ./include/experiments/Desc_20180901a.md
 * ./include/experiments/Desc_20180403a.md
@@ -1400,6 +1408,7 @@
 * ./include/experiments/auto/Code_20180813a.md
 * ./include/experiments/auto/20181104c.md
 * ./include/experiments/auto/Img_20161217a.md
+* ./include/experiments/auto/Code_20200321a.md
 * ./include/experiments/auto/20190104a.md
 * ./include/experiments/auto/Img_20180225a.md
 * ./include/experiments/auto/Img_20180825a.md
@@ -1418,6 +1427,7 @@
 * ./include/experiments/auto/Code_20180115a.md
 * ./include/experiments/auto/20171001a.md
 * ./include/experiments/auto/Code_20191024a.md
+* ./include/experiments/auto/Code_20200325a.md
 * ./include/experiments/auto/Mod_20161217a.md
 * ./include/experiments/auto/20180811a.md
 * ./include/experiments/auto/Img_20160822a.md
@@ -1465,6 +1475,7 @@
 * ./include/experiments/auto/Mod_20191022a.md
 * ./include/experiments/auto/Mod_20180415a.md
 * ./include/experiments/auto/Code_20180103a.md
+* ./include/experiments/auto/Mod_20200325a.md
 * ./include/experiments/auto/Mod_20190103a.md
 * ./include/experiments/auto/Img_20190713a.md
 * ./include/experiments/auto/Mod_20190223a.md
@@ -1609,6 +1620,7 @@
 * ./include/experiments/auto/Code_20190103a.md
 * ./include/experiments/auto/20180809b.md
 * ./include/experiments/auto/Code_20171111a.md
+* ./include/experiments/auto/20200325a.md
 * ./include/experiments/auto/Code_20190329a.md
 * ./include/experiments/auto/20160814a.md
 * ./include/experiments/auto/Img_20181013a.md
@@ -1619,6 +1631,7 @@
 * ./include/experiments/auto/Mod_20180224a.md
 * ./include/experiments/auto/20180807a.md
 * ./include/experiments/auto/Code_20181104c.md
+* ./include/experiments/auto/Img_20200321a.md
 * ./include/experiments/auto/Code_20160814a.md
 * ./include/experiments/auto/Mod_20160809a.md
 * ./include/experiments/auto/20190404a.md
@@ -1626,6 +1639,7 @@
 * ./include/experiments/auto/20170930a.md
 * ./include/experiments/auto/Code_20190104a.md
 * ./include/experiments/auto/Code_20181126a.md
+* ./include/experiments/auto/Mod_20200321a.md
 * ./include/experiments/auto/Mod_20180807a.md
 * ./include/experiments/auto/Mod_20190804a.md
 * ./include/experiments/auto/Mod_20191024a.md
@@ -1640,6 +1654,7 @@
 * ./include/experiments/auto/Code_20181013a.md
 * ./include/experiments/auto/Img_20181104a.md
 * ./include/experiments/auto/20191006a.md
+* ./include/experiments/auto/Img_20200325a.md
 * ./include/experiments/auto/Img_20191026a.md
 * ./include/experiments/auto/20180430a.md
 * ./include/experiments/auto/Img_20190113a.md
@@ -1804,6 +1819,7 @@
 * ./gitbook/exp/20180224b.md
 * ./gitbook/exp/20171112a.md
 * ./gitbook/exp/20180809b.md
+* ./gitbook/exp/20200325a.md
 * ./gitbook/exp/20160814a.md
 * ./gitbook/exp/20180807a.md
 * ./gitbook/exp/20190404a.md

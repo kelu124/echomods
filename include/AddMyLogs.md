@@ -3529,6 +3529,41 @@ Having fun with StyleGans
 * https://blog.adafruit.com/2020/02/10/combining-ai-tools-to-create-new-beetles-with-gans-artificialintelligence-machinelearning-colab-stylegan-runwayml-cunicode/
 * https://twitter.com/_pitscher/status/1228476795122593793
 
+#### 2020-02-19 More GANs
+
+More GAN
+* https://hyperallergic.com/541381/over-150000-botanical-illustrations-enter-the-public-domain/
+* https://www.cunicode.com/works/confusing-coleopterists 
+* https://news.ycombinator.com/item?id=21934247
+* Trained: https://open-app.runwayml.com/?model=cunicode%2Fconfusing_coleopterists 
+* https://makersplace.com/cunicode/binasu-1-of-1-5598/
+  
+#### 2020-03-21 More GANs
+
+* [First experiment from a while](/matty/20200321a/Readme.md) testing pulse width
+* Minie v1.4 (argh already??)
+  * [x] Connect i2s to IOs
+  * [x] Remove onboard HV generations
+  * [ ] Connect TopTurns to IOs and remove TopTurn SPIEXT/HV/Header - keep 4x2 through-header with ( 5V, 2xi2c, HV_EN, GND, 3.3V HV+, HV- -- HVp close to 5V, HVn to GND ) 
+  * [x] Connect HILO to free Rpi header
+  * [x] Remove TopTurn protection
+  * [x] Move TopTurns IOs Rpi Header
+  * [ ] Do buttons need pullups, or FPGA has internal pullups ? Or can they be on
+  * [ ] Rappel DCLK on ADC ?
+  * [ ] Remove ADC online footprint for capa
+  * [ ] Remove footprints for I2C pullups
+
+General use IOs: 
+
+* 2xBtn : Bt1,Bt2
+* 4xi2s : (already D1,D2 in)
+
+#### 2020-03-23 i2s on rpi4
+
+* check https://www.raspberrypi.org/forums/viewtopic.php?t=8496&start=900
+* i2s on RPi4 - fe203000.i2s
+* https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/raspberry-pi-wiring-and-test#
+
 =======
 
 

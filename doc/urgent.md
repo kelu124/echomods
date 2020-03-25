@@ -113,10 +113,6 @@
 * __[Unrefed file]__ :no_entry: `/matty/20191027b/acq_pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20191027b/acq_test.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20191027b/pyUn0.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20200321a/20200321a.ipynb` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20200321a/Readme.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20200321a/exp.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20200321a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/HV/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/SPI/Untitled.ipynb` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/SPI/serialflash.py` : No references of this file.

@@ -1,5 +1,7 @@
 # Experiments
 
+ * [20200325a](/include/experiments/auto/20200325a.md)
+ * [20200321a](/include/experiments/auto/20200321a.md)
  * 2019-10-27: [lit3rick De.bin](/include/experiments/auto/20191027b.md): New success with lit3rick, with dynamic DAC _(20191027b)_
  * 2019-10-27: [meh - noisy](/include/experiments/auto/20191027a.md): still some tests, Dd.bin for lit3rick _(20191027a)_
  * 2019-10-26: [meh C2w](/include/experiments/auto/20191026a.md): testing new bins for lit3rick _(20191026a)_
