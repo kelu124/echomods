@@ -778,8 +778,10 @@ class us_json:
         """
            Saves the dataset as an NPZ, in the data folder.
         """
-        path_npz = "data/"+self.iD+"-"+str(self.N)+".npz" # @todo: create folder if not.
-        np.savez(path_npz, self) 
+        import pickle
+        path_npz = "data/"+self.iD+"-"+str(self.N)#+".npz" # @todo: create folder if not.
+        pickle.dump(self, open(path_npz+".pickle", "wb"))
+        #np.savez(path_npz, self,allow_pickle=True) 
 
     def plot_detail(self, nb_line, Start, Stop): #@todo: use it when processing data
         """
@@ -820,16 +822,21 @@ class us_json:
         if len(original_image):
             num_lines, length_lines = np.shape(original_image)
             f_array = [X*self.f / length_lines for X in range(length_lines)]
+            
+            f_min = (self.fPiezo * (1 - self.Bandwidth / 2.0 ) )
+            f_max = (self.fPiezo * (1 + self.Bandwidth / 2.0 )  )
+            #print(f_array)
+            #print(f_min,f_max)
             for k in range(num_lines): # number of images
                 fft_single_line = np.fft.fft(original_image[k])
                 fft_image_filtered.append(fft_single_line)
-                for p in range(len(fft_single_line)/2+1):
-                    f_min = (1000.0 * self.fPiezo * 0.7)
-                    f_max = (1000.0 * self.fPiezo * 1.27)
+                for p in range(int(len(fft_single_line)/2+1)):
                     if (f_array[p] > f_max or f_array[p] < f_min):
                         fft_single_line[p] = 0
                         fft_single_line[-p] = 0
                 filtered_image.append(np.real(np.fft.ifft(fft_single_line)))
+        self.filtered_image = filtered_image
+        self.fft_image_filtered = fft_image_filtered
         return filtered_image, fft_image_filtered
 
     def mkSpectrum(self, img):
@@ -879,7 +886,7 @@ class us_json:
         title_text += " pts per line, Nacq = "+str(self.Nacq)+"\n"
         title_text += self.experiment["description"]+", probe: "
         title_text += self.piezo+", target = "+self.experiment["target"]+"\n"
-        title_text += "Timestamp = "+str(self.metatags["time"])
+        #title_text += "Timestamp = "+str(self.metatags["time"])
         return title_text
 
 ##############
