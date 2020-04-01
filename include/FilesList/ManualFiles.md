@@ -1,10 +1,10 @@
 * [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddPitch.md`](/include/AddPitch.md).
 
-* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/Worklog.md`](/Worklog.md), [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/retroATL3/Readme.md`](/retroATL3/Readme.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes . File used in: [`/Readme.md`](/Readme.md), [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes . File used in: [`/Readme.md`](/Readme.md), [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./include/AddStats.md](/include/AddStats.md):  . File used in: [`/include/autodoc.md`](/include/autodoc.md).
 
@@ -26,7 +26,7 @@
 
 * [./include/emulated.set.md](/include/emulated.set.md): Set file to generate the emulated set . _File not used._
 
-* [./include/autodoc.md](/include/autodoc.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AddHistory.md`](/include/AddHistory.md).
+* [./include/autodoc.md](/include/autodoc.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/AddHistory.md`](/include/AddHistory.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [./include/wifi-dev-kit.set.md](/include/wifi-dev-kit.set.md):  . _File not used._
 
@@ -80,7 +80,7 @@
 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md):  . _File not used._
 
-* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
+* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project . File used in: [`/include/autodoc.md`](/include/autodoc.md).
 
@@ -110,11 +110,11 @@
 
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
 
-* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180216a.md`](/include/experiments/auto/20180216a.md).
+* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/20180216a.md`](/include/experiments/auto/20180216a.md).
 
 * [./include/vscan/Readme.md](/include/vscan/Readme.md):  . _File not used._
 
-* [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . File used in: [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md).
+* [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md).
 
 * [./include/cn_mechprob/Readme.md](/include/cn_mechprob/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -138,7 +138,7 @@
 
 * [./include/community/Uwe/Readme.md](/include/community/Uwe/Readme.md):  . _File not used._
 
-* [./include/community/Uwe/20180620a/Readme.md](/include/community/Uwe/20180620a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180620a.md`](/include/experiments/auto/Code_20180620a.md).
+* [./include/community/Uwe/20180620a/Readme.md](/include/community/Uwe/20180620a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180620a.md`](/include/experiments/auto/Code_20180620a.md).
 
 * [./include/community/Carla/Readme.md](/include/community/Carla/Readme.md):  . _File not used._
 
@@ -152,7 +152,7 @@
 
 * [./include/community/Marc/20171023-Notes.md](/include/community/Marc/20171023-Notes.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [./include/community/Marc/Readme.md](/include/community/Marc/Readme.md):  . _File not used._
+* [./include/community/Marc/Readme.md](/include/community/Marc/Readme.md):  . File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [./include/community/Ben/Readme.md](/include/community/Ben/Readme.md):  . _File not used._
 
@@ -238,23 +238,23 @@
 
 * [./include/community/Jay/Readme.md](/include/community/Jay/Readme.md):  . _File not used._
 
-* [./include/20180415r/Readme.md](/include/20180415r/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180415r.md`](/include/experiments/auto/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.md).
+* [./include/20180415r/Readme.md](/include/20180415r/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180415r.md`](/include/experiments/auto/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.md).
 
 * [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [./include/20180217a/Readme.md](/include/20180217a/Readme.md): Experiment 20180217a setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
+* [./include/20180217a/Readme.md](/include/20180217a/Readme.md): Experiment 20180217a setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
-* [./include/bard/inside.md](/include/bard/inside.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./include/bard/inside.md](/include/bard/inside.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md):  . File used in: [`/include/use_case_biblio/Readme.md`](/include/use_case_biblio/Readme.md).
 
-* [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . File used in: [`/include/experiments/auto/20180809a.md`](/include/experiments/auto/20180809a.md).
+* [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . File used in: [`/include/experiments/auto/20180809a.md`](/include/experiments/auto/20180809a.md), [`/include/experiments/auto/Code_20180809a.md`](/include/experiments/auto/Code_20180809a.md).
 
-* [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).
+* [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md), [`/include/experiments/auto/Code_20180812a.md`](/include/experiments/auto/Code_20180812a.md).
 
-* [./include/images/kretzaw145ba/20180811b/Readme.md](/include/images/kretzaw145ba/20180811b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180811b.md`](/include/experiments/auto/20180811b.md), [`/include/experiments/auto/Code_20180811b.md`](/include/experiments/auto/Code_20180811b.md).
+* [./include/images/kretzaw145ba/20180811b/Readme.md](/include/images/kretzaw145ba/20180811b/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180811b.md`](/include/experiments/auto/20180811b.md), [`/include/experiments/auto/Code_20180811b.md`](/include/experiments/auto/Code_20180811b.md).
 
-* [./include/images/kretzaw145ba/20180811a/Readme.md](/include/images/kretzaw145ba/20180811a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
+* [./include/images/kretzaw145ba/20180811a/Readme.md](/include/images/kretzaw145ba/20180811a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [./include/images/apogee10MHz/Readme.md](/include/images/apogee10MHz/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
@@ -262,7 +262,7 @@
 
 * [./include/images/hp2121/Readme.md](/include/images/hp2121/Readme.md):  . _File not used._
 
-* [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . _File not used._
+* [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./include/images/probes_vna/Readme.md](/include/images/probes_vna/Readme.md):  . _File not used._
 
@@ -460,6 +460,8 @@
 
 * [./gitbook/notebooks/20170609-NewADC.md](/gitbook/notebooks/20170609-NewADC.md):  . _File not used._
 
+* [./gitbook/notebooks/20181104a-Processing.md](/gitbook/notebooks/20181104a-Processing.md):  . _File not used._
+
 * [./gitbook/notebooks/20180417a-Comparison.md](/gitbook/notebooks/20180417a-Comparison.md):  . _File not used._
 
 * [./gitbook/notebooks/testSPI2.md](/gitbook/notebooks/testSPI2.md):  . _File not used._
@@ -484,6 +486,8 @@
 
 * [./gitbook/notebooks/20170709-Repeats.md](/gitbook/notebooks/20170709-Repeats.md):  . _File not used._
 
+* [./gitbook/notebooks/20200321a.md](/gitbook/notebooks/20200321a.md):  . _File not used._
+
 * [./gitbook/notebooks/20171001-new.md](/gitbook/notebooks/20171001-new.md):  . _File not used._
 
 * [./gitbook/notebooks/20180826a-Client.md](/gitbook/notebooks/20180826a-Client.md):  . _File not used._
@@ -499,6 +503,8 @@
 * [./gitbook/notebooks/20180103-Felix.md](/gitbook/notebooks/20180103-Felix.md):  . _File not used._
 
 * [./gitbook/notebooks/20180403a-75V.md](/gitbook/notebooks/20180403a-75V.md):  . _File not used._
+
+* [./gitbook/notebooks/20190111a-TOF.md](/gitbook/notebooks/20190111a-TOF.md):  . _File not used._
 
 * [./gitbook/notebooks/20170609-NewADC-v3.md](/gitbook/notebooks/20170609-NewADC-v3.md):  . _File not used._
 
@@ -528,25 +534,49 @@
 
 * [./gitbook/notebooks/20180831a-Client.md](/gitbook/notebooks/20180831a-Client.md):  . _File not used._
 
+* [./gitbook/notebooks/20190103a-Client.md](/gitbook/notebooks/20190103a-Client.md):  . _File not used._
+
 * [./gitbook/notebooks/20170613-TestWithRawSignal.md](/gitbook/notebooks/20170613-TestWithRawSignal.md):  . _File not used._
+
+* [./gitbook/notebooks/20190415a-NDT.md](/gitbook/notebooks/20190415a-NDT.md):  . _File not used._
+
+* [./gitbook/notebooks/20190324a.md](/gitbook/notebooks/20190324a.md):  . _File not used._
+
+* [./gitbook/notebooks/20190329a-NDT.md](/gitbook/notebooks/20190329a-NDT.md):  . _File not used._
 
 * [./gitbook/notebooks/20180826a-Server.md](/gitbook/notebooks/20180826a-Server.md):  . _File not used._
 
+* [./gitbook/notebooks/20200325a-Acquisitions.md](/gitbook/notebooks/20200325a-Acquisitions.md):  . _File not used._
+
+* [./gitbook/notebooks/20190510a.md](/gitbook/notebooks/20190510a.md):  . _File not used._
+
 * [./gitbook/notebooks/20170714-TwoADCs-ProbeEnv.md](/gitbook/notebooks/20170714-TwoADCs-ProbeEnv.md):  . _File not used._
+
+* [./gitbook/notebooks/TEST_USB.md](/gitbook/notebooks/TEST_USB.md):  . _File not used._
 
 * [./gitbook/notebooks/Untitled1.md](/gitbook/notebooks/Untitled1.md):  . _File not used._
 
 * [./gitbook/notebooks/20170713-TwoADCs.md](/gitbook/notebooks/20170713-TwoADCs.md):  . _File not used._
 
+* [./gitbook/notebooks/20190103a-Server.md](/gitbook/notebooks/20190103a-Server.md):  . _File not used._
+
 * [./gitbook/notebooks/20180217a - Testing pulser and ADC.md](/gitbook/notebooks/20180217a - Testing pulser and ADC.md):  . _File not used._
 
+* [./gitbook/notebooks/Process.md](/gitbook/notebooks/Process.md):  . _File not used._
+
 * [./gitbook/notebooks/MATTY20180211_bitmap.md](/gitbook/notebooks/MATTY20180211_bitmap.md):  . _File not used._
+
+* [./gitbook/notebooks/20190713a-NewBatch.md](/gitbook/notebooks/20190713a-NewBatch.md):  . _File not used._
 
 * [./gitbook/notebooks/20180831c-Client.md](/gitbook/notebooks/20180831c-Client.md):  . _File not used._
 
 * [./gitbook/notebooks/20180310a-CalibGain.md](/gitbook/notebooks/20180310a-CalibGain.md):  . _File not used._
 
 * [./gitbook/notebooks/20170718-Servo.md](/gitbook/notebooks/20170718-Servo.md):  . _File not used._
+
+* [./gitbook/notebooks/20190713b-Check.md](/gitbook/notebooks/20190713b-Check.md):  . _File not used._
+
+* [./gitbook/notebooks/20181104a-Server.md](/gitbook/notebooks/20181104a-Server.md):  . _File not used._
 
 * [./gitbook/notebooks/MappingCommunity.md](/gitbook/notebooks/MappingCommunity.md):  . _File not used._
 
@@ -562,6 +592,10 @@
 
 * [./gitbook/notebooks/20180430a-Client.md](/gitbook/notebooks/20180430a-Client.md):  . _File not used._
 
+* [./gitbook/notebooks/20200325a.md](/gitbook/notebooks/20200325a.md):  . _File not used._
+
+* [./gitbook/notebooks/20190404a-NDT.md](/gitbook/notebooks/20190404a-NDT.md):  . _File not used._
+
 * [./gitbook/notebooks/20180216a - Testing pulser and ADC.md](/gitbook/notebooks/20180216a - Testing pulser and ADC.md):  . _File not used._
 
 * [./gitbook/notebooks/20170714-TwoADCs-Probe.md](/gitbook/notebooks/20170714-TwoADCs-Probe.md):  . _File not used._
@@ -572,11 +606,17 @@
 
 * [./gitbook/notebooks/20171111-pulses.md](/gitbook/notebooks/20171111-pulses.md):  . _File not used._
 
+* [./gitbook/notebooks/20190104a-Client.md](/gitbook/notebooks/20190104a-Client.md):  . _File not used._
+
 * [./gitbook/notebooks/20180310a-Server.md](/gitbook/notebooks/20180310a-Server.md):  . _File not used._
+
+* [./gitbook/notebooks/20181126a-Processing.md](/gitbook/notebooks/20181126a-Processing.md):  . _File not used._
 
 * [./gitbook/notebooks/20171112-alt.tbo-w-retro2.md](/gitbook/notebooks/20171112-alt.tbo-w-retro2.md):  . _File not used._
 
 * [./gitbook/notebooks/20180812a-Acquisition-Phantom.md](/gitbook/notebooks/20180812a-Acquisition-Phantom.md):  . _File not used._
+
+* [./gitbook/notebooks/20181104c-Processing.md](/gitbook/notebooks/20181104c-Processing.md):  . _File not used._
 
 * [./gitbook/notebooks/20171112-refilledATL.md](/gitbook/notebooks/20171112-refilledATL.md):  . _File not used._
 
@@ -587,6 +627,8 @@
 * [./gitbook/notebooks/20180415r-lit.tbo.md](/gitbook/notebooks/20180415r-lit.tbo.md):  . _File not used._
 
 * [./gitbook/notebooks/20180430a-Server.md](/gitbook/notebooks/20180430a-Server.md):  . _File not used._
+
+* [./gitbook/notebooks/20181104b-Processing.md](/gitbook/notebooks/20181104b-Processing.md):  . _File not used._
 
 * [./gitbook/notebooks/20170930-AltPulser.md](/gitbook/notebooks/20170930-AltPulser.md):  . _File not used._
 
@@ -601,6 +643,8 @@
 * [./gitbook/notebooks/20180226a-Compare.md](/gitbook/notebooks/20180226a-Compare.md):  . _File not used._
 
 * [./gitbook/notebooks/testSPI1.md](/gitbook/notebooks/testSPI1.md):  . _File not used._
+
+* [./gitbook/notebooks/20181126a-Server-1.1b.md](/gitbook/notebooks/20181126a-Server-1.1b.md):  . _File not used._
 
 * [./gitbook/notebooks/20180221b-Client.md](/gitbook/notebooks/20180221b-Client.md):  . _File not used._
 
@@ -626,11 +670,11 @@
 
 * [./matty/20190329a/Readme.md](/matty/20190329a/Readme.md):  . _File not used._
 
-* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . _File not used._
+* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180430a.md`](/include/experiments/auto/Code_20180430a.md).
 
-* [./matty/20200321a/Readme.md](/matty/20200321a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md).
+* [./matty/20200321a/Readme.md](/matty/20200321a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md), [`/include/experiments/auto/20200321a.md`](/include/experiments/auto/20200321a.md).
 
-* [./matty/20200321a/exp.md](/matty/20200321a/exp.md):  . File used in: [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md).
+* [./matty/20200321a/exp.md](/matty/20200321a/exp.md):  . File used in: [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md), [`/include/experiments/auto/20200321a.md`](/include/experiments/auto/20200321a.md).
 
 * [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . _File not used._
 
@@ -674,6 +718,8 @@
 
 * [./matty/20180721a/Readme.md](/matty/20180721a/Readme.md):  . _File not used._
 
+* [./matty/20200325a/Readme.md](/matty/20200325a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
+
 * [./matty/20200325a/exp.md](/matty/20200325a/exp.md):  . File used in: [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
 
 * [./matty/news/2017-09-15-uniboard.md](/matty/news/2017-09-15-uniboard.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
@@ -698,9 +744,9 @@
 
 * [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./matty/20180511a/Readme.md](/matty/20180511a/Readme.md):  . _File not used._
+* [./matty/20180511a/Readme.md](/matty/20180511a/Readme.md):  . File used in: [`/include/experiments/auto/20180511a.md`](/include/experiments/auto/20180511a.md).
 
-* [./matty/20180403b/Readme.md](/matty/20180403b/Readme.md):  . File used in: [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md).
+* [./matty/20180403b/Readme.md](/matty/20180403b/Readme.md):  . File used in: [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
 
 * [./matty/article/matty_article.md](/matty/article/matty_article.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 

@@ -1,3 +1,5 @@
+* 20200325a: NDT pulse widths : Trying and getting different pulse on a steel block.
+* 20200321a: pulse widths : Trying and getting different pulse on the test bench.
 * 20191027b: lit3rick De.bin: New success with lit3rick, with dynamic DAC
 * 20191027a: meh - noisy: still some tests, Dd.bin for lit3rick 
 * 20191026a: meh C2w: testing new bins for lit3rick 
@@ -73,5 +75,5 @@
 * 20190223a: Testing pHATrick flash: Testing pHATrick flash
 * 20190113a: m5stack bis: retesting with details the m5stack experiment 
 * 20190324a: lit3rick: testing at first the pulser 
-* 20190329a: NDT dual transducer: understanding the transducer  
+* 20190329a: NDT dual transducer: understanding the transducer
 

@@ -354,7 +354,7 @@ Let's cut it to 500kHz ?
 * Awesome work from Farad
  
 
-#### 2016-01-22nd
+#### 2016-01-22 nd
 
 * Updated the [GitHub
     Readme.md](https://github.com/kelu124/murgen-dev-kit)
@@ -3558,11 +3558,67 @@ General use IOs:
 * 2xBtn : Bt1,Bt2
 * 4xi2s : (already D1,D2 in)
 
+
 #### 2020-03-23 i2s on rpi4
 
 * check https://www.raspberrypi.org/forums/viewtopic.php?t=8496&start=900
 * i2s on RPi4 - fe203000.i2s
 * https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/raspberry-pi-wiring-and-test#
+
+#### 2020-03-25 i2s seems to need to be RPi-mastered
+
+* curl https://get.pimoroni.com/phatdac | bash
+  * https://learn.pimoroni.com/tutorial/phat/raspberry-pi-phat-dac-install
+* rpi-i2s-audio
+  * echo 'my_loader' | sudo tee --append /etc/modules > /dev/null
+* Need to have a i2s master on RPi
+  * https://github.com/PaulCreaser/rpi-i2s-audio.git
+  * sudo rmmod snd_soc_hifiberry_dacplus
+  * sudo rmmod clk_hifiberry_dacpro
+* Others
+  * https://github.com/AkiyukiOkayasu/RaspberryPi_I2S_Slave
+  * https://github.com/taylorxv/raspberry-pi-i2s-driver
+
+I send 2 channels. Into one channel always 0x3F into second channel 0x29. 0x7C is shifted byt 2 bits value 0x29F3. 
+
+#### 2020-03-28 Speccing motherboard
+
+##### Getting a motherboard for the minie board
+
+* Headers
+  * header for the card
+  * 2x header for RPi
+  * header for i2s
+  * header for SPI, CS1, CS2
+  * header to feed in HV
+  * duplicated header to have HV on separate daugther board
+  * place for VGA output (based on fpga outputs) [see refs](https://forum.arduino.cc/index.php?topic=320238.0) - 3 pins: RGB + H/V-SYNC (or R for [monochrome here](http://www.xess.com/blog/vga-the-rest-of-the-story/)
+* Pullups
+  * spare space for solder-though pullups on i2c lines
+* Logic
+  * LEDs for PpHV, PnHV, PDamp, HILO
+  * Deported buttons for ButTrig, ButUser
+
+##### Other cards
+
+* Separate small card
+  * Preamp path, MD0100 +Preamp design (+ filter) for 19dB
+  * Impedance adaptation
+
+* Separate HV card
+  * Same footprint as HV setup -> [2.54mm distance should be ok](https://www.cirris.com/learning-center/calculators/50-high-voltage-arc-gap-calculator?)
+
+##### Tagging wav files
+
+Tagging wav files? https://pypi.org/project/tinytag/
+
+#### 2020-04-01 Speccing small-motherboard
+
+* Daughterboard:
+  * HV-source
+  * USB : FT2232H - FTDI (SPI - https://www.ftdichip.com/Support/Documents/AppNotes/AN_114_FTDI_Hi_Speed_USB_To_SPI_Example.pdf ) - connecting I2C, SPI, one on each bus. Getting other IOs linked too (HILO, CDONE, RESET, ...)
+  * VGA output
+
 
 =======
 
