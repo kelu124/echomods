@@ -48,6 +48,10 @@ ToTag
 teardown
 ToTag
 
+![](/include/images/13avril2020/sw45b/P_20200413_194152_p.jpg)
+teardown
+Teardown on a sw45b probe
+
 ![](/include/images/sw45b/P_20191122_204044.jpg)
 teardown
 ToTag
@@ -67,6 +71,10 @@ ToTag
 ![](/include/images/sw45b/20191207_171145.jpg)
 teardown
 ToTag
+
+![](/include/images/13avril2020/sw45b/P_20200413_194146_p.jpg)
+teardown
+Teardown on a sw45b probe
 
 ![](/include/images/sw45b/P_20191122_203540.jpg)
 teardown
@@ -104,9 +112,17 @@ ToTag
 teardown
 ToTag
 
+![](/include/images/13avril2020/sw45b/P_20200413_193812_p.jpg)
+teardown
+Teardown on a sw45b probe
+
 ![](/include/images/sw45b/20191207_171210.jpg)
 teardown
 ToTag
+
+![](/include/images/13avril2020/sw45b/P_20200413_194131_p.jpg)
+teardown
+Teardown on a sw45b probe
 
 
 

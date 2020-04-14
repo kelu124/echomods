@@ -260,6 +260,8 @@
 
 * [./include/images/ausonics75/20180809b/Readme.md](/include/images/ausonics75/20180809b/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180809b.md`](/include/experiments/auto/Code_20180809b.md).
 
+* [./include/images/13avril2020/Readme.md](/include/images/13avril2020/Readme.md):  . _File not used._
+
 * [./include/images/hp2121/Readme.md](/include/images/hp2121/Readme.md):  . _File not used._
 
 * [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).

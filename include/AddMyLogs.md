@@ -3441,7 +3441,7 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
   * Breakout of remaining IOs + SPI / I2C
 * @todo PMODs US:
   * 2x8 : 10bits+1 ADC, MOSI, SCK, SS1, SS2, HILO (ADC, DAC TGC, HILO, ..) based on AD8332
-  * 1x8 Trig, HVP, HVN, PDAMP, i2c, i2c, EN, IO
+  * 1x8 : Trig, HVP, HVN, PDAMP, i2c, i2c, EN, IO
 
 #### 2019-12-17 Holidays planning
 
@@ -3618,6 +3618,14 @@ Tagging wav files? https://pypi.org/project/tinytag/
   * HV-source
   * USB : FT2232H - FTDI (SPI - https://www.ftdichip.com/Support/Documents/AppNotes/AN_114_FTDI_Hi_Speed_USB_To_SPI_Example.pdf ) - connecting I2C, SPI, one on each bus. Getting other IOs linked too (HILO, CDONE, RESET, ...)
   * VGA output
+
+#### 2020-04-02 433 plus SDR
+
+* Hehe interesting https://ensiwiki.ensimag.fr/index.php?title=RTL_SDR_et_retro-ing%C3%A9nierie
+
+#### 2020-04-11 MS3 on i2s
+
+* Yeayyy finally pushed MS3 for i2s on https://github.com/kelu124/vit3rick/ . Missing the filtering part but that should be fine - thanks Andrew and Bogdan.
 
 
 =======

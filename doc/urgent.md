@@ -1,4 +1,6 @@
 * __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/724A/724A_notes.md`
+* __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/articles/1708.09537.pdf`
+* __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/articles/Fedjajevs_mscthesis_14_09_2016.pdf`
 * __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/biblio/10.1109@TBCAS.2017.2695240.pdf`
 * __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/biblio/bottenus2016.pdf`
 * __[Links]__ :no_entry: `./Worklog.md` : Link to non-existing file `./include/biblio/burckhardt1974.pdf`
@@ -16,6 +18,21 @@
 * __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing file `./goblin/source/Altium/goblin_altium.zip`
 * __[Links]__ :no_entry: `./include/UniBoard/UniBoard.md` : Link to non-existing file `./include/images/UniPins.png`
 * __[Links]__ :no_entry: `./include/community/Tomas/Readme.md` : Link to non-existing file `./include/community/Tomas/20180403/Readme.md`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/adrus/P_20200413_210454_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/diasonics_tr/P_20200413_210502_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/diasonics_tr/P_20200413_210507_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/diasonics_tr/P_20200413_210937_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/diasonics_tr/P_20200413_211047_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/diasonics_tr/P_20200413_211704_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/diasonics_tr/P_20200413_211958_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/diasonics_tr/P_20200413_212003_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/sw45b/P_20200413_193812_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/sw45b/P_20200413_194131_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/sw45b/P_20200413_194146_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/images/13avril2020/sw45b/P_20200413_194152_p.jpg`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/probes/auto/adrus.md`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/probes/auto/diasonics_tr.md`
+* __[Links]__ :no_entry: `./include/images/13avril2020/Readme.md` : Error in link definition, non-absolute path in link to `include/probes/auto/sw45b.md`
 * __[Links]__ :no_entry: `./include/murgen_notes.md` : Error in link definition, non-absolute path in link to `Software_(murgen-dev-kit`
 * __[Links]__ :no_entry: `./matty/20180430a/Readme.md` : Link to non-existing file `./matty/20180430a/ServoControl.ino`
 * __[Links]__ :no_entry: `./matty/20180721a/Readme.md` : Link to non-existing file `./matty/20180721a/20180721a-Client.ipynb`

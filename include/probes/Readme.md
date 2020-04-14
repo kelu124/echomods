@@ -36,7 +36,7 @@ __More?__ That's a 5.5MHz ADR ultrasound probe. Strange connector on the back, s
 
 __Present in:__ 1 experiments ([20180807a](/experiments/auto/20180807a.md)) 
 
-__Present in:__ 18 images.
+__Present in:__ 19 images.
 
 ### [apogee](/include/probes/auto/apogee.md) (apogee)
 
@@ -128,7 +128,7 @@ __TLDR__:  the diasonics transrectal probe
 
 __More?__ not tore down yet =)
 
-__Present in:__ 6 images.
+__Present in:__ 13 images.
 
 ### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 
@@ -200,7 +200,7 @@ __TLDR__:  a kretz sw45b probe
 
 __More?__  a kretz sw45b probe. Interesting mechanical device. Looks like a convex array probe, but mechanical.
 
-__Present in:__ 25 images.
+__Present in:__ 29 images.
 
 ### [uprobe1](/include/probes/auto/uProbe1.md) (uProbe1)
 

@@ -262,6 +262,8 @@
 
 * [./include/images/ausonics75/20180809b/Readme.md](/include/images/ausonics75/20180809b/Readme.md):  . File used in: [`/include/experiments/auto/Code_20180809b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180809b.html).
 
+* [./include/images/13avril2020/Readme.md](/include/images/13avril2020/Readme.md):  . _File not used._
+
 * [./include/images/hp2121/Readme.md](/include/images/hp2121/Readme.md):  . _File not used._
 
 * [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
@@ -1025,6 +1027,12 @@
 * [mkimg.py](/include/images/kretz-ar3-4-5b/mkimg.py): Autotagging images for the `ToTag` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [mkimg.py](/include/images/13avril2020/sw45b/mkimg.py): Autotagging images for the `ToTag` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [mkimg.py](/include/images/13avril2020/adrus/mkimg.py): Autotagging images for the `ToTag` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
+
+* [mkimg.py](/include/images/13avril2020/diasonics_tr/mkimg.py): Autotagging images for the `ToTag` experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [mkimg.py](/include/images/hp2121/20191230/mkimg.py): Autotagging images for the experiment.. File used in: [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180809b.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180809b.html).
 

@@ -300,7 +300,7 @@
  * __2016-01-25__: [worklog of the day](http://kelu124.github.io/echomods/2016-01-25-Tobo-gets-born.md)
  * __2016-01-24__: [worklog of the day](http://kelu124.github.io/echomods/2016-01-24-Datasheets-on-Murgen.md)
  * __2016-01-23__: [worklog of the day](http://kelu124.github.io/echomods/2016-01-23-On-Oreilly.md)
- * __2016-01-22__: [worklog of the day](http://kelu124.github.io/echomods/2016-01-22nd.md)
+ * __2016-01-22__: [worklog of the day](http://kelu124.github.io/echomods/2016-01-22nd.md), [worklog of the day](http://kelu124.github.io/echomods/2016-01-22-nd.md)
  * __2016-01-21__: [worklog of the day](http://kelu124.github.io/echomods/2016-01-21-Site-changed.md)
  * __2016-01-20__: [worklog of the day](http://kelu124.github.io/echomods/2016-01-20.md)
  * __2016-01-19__: [worklog of the day](http://kelu124.github.io/echomods/2016-01-19th.md)
