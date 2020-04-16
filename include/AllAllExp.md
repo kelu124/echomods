@@ -1,5 +1,6 @@
 # Experiments
 
+ * [20200416a](/include/experiments/auto/20200416a.md)
  * 2020-03-25: [NDT pulse widths](/include/experiments/auto/20200325a.md): Trying and getting different pulse on a steel block. _(20200325a)_
  * 2020-03-21: [pulse widths](/include/experiments/auto/20200321a.md): Trying and getting different pulse on the test bench. _(20200321a)_
  * 2019-10-27: [lit3rick De.bin](/include/experiments/auto/20191027b.md): New success with lit3rick, with dynamic DAC _(20191027b)_
