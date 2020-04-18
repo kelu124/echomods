@@ -8,7 +8,13 @@
 
 Observed rotation with DS04-NFC : 1 tour / 2secondes
 
-## Data
+## [Images]((/matty/20200418a/images/) obtained
+
+![](/matty/20200418a/images/Polar_20200418a2_bdwth_1.2.jpg)
+
+![](/matty/20200418a/images/Polar_20200418a17_bdwth_1.2.jpg)
+
+## [Data]((/matty/20200418a/data/) acquired
 
 * Data1 was done to explore the data: field of view, rotation period.
 * Data2 is data OK, adjusted in terms of time
@@ -24,6 +30,7 @@ The JSONs were processed and saved as pickles with [this notebook](/matty/202004
 
 ## First observations
 
+### Signals filtered 
 ![](/matty/20200418a/images/20200418a2_bdwth_1.2.jpg)
 
 ![](/matty/20200418a/images/20200418a14_bdwth_1.2.jpg)
@@ -40,5 +47,23 @@ The JSONs were processed and saved as pickles with [this notebook](/matty/202004
 ![](/matty/20200418a/images/20200418a4_bdwth_1.2.jpg)
 
 ![](/matty/20200418a/images/20200418a3_bdwth_1.2.jpg)
+
+## Processing
+
+#### Raw image 
+
+![](/matty/20200418a/images/2DArray_20200418a-16.jpg)
+
+#### Filtered
+
+![](/matty/20200418a/images/Hilbert_20200418a16_bdwth_1.2.jpg)
+
+#### Selecting 360 sector 
+
+![](/matty/20200418a/images/Hilbert_trimmed_20200418a16_bdwth_1.2.jpg)
+
+#### Rebuilding the image
+
+![](/home/kelu/ultrasound/echomods/matty/20200418a/images/Polar_20200418a16_bdwth_1.2.jpg)
 
 
