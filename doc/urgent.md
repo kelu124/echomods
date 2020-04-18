@@ -21,6 +21,9 @@
 * __[Links]__ :no_entry: `./include/murgen_notes.md` : Error in link definition, non-absolute path in link to `Software_(murgen-dev-kit`
 * __[Links]__ :no_entry: `./matty/20180430a/Readme.md` : Link to non-existing file `./matty/20180430a/ServoControl.ino`
 * __[Links]__ :no_entry: `./matty/20180721a/Readme.md` : Link to non-existing file `./matty/20180721a/20180721a-Client.ipynb`
+* __[Links]__ :no_entry: `./matty/20200418a/Readme.md` : Error in link definition, non-absolute path in link to `(/matty/20200418a/data/`
+* __[Links]__ :no_entry: `./matty/20200418a/Readme.md` : Error in link definition, non-absolute path in link to `(/matty/20200418a/images/`
+* __[Links]__ :no_entry: `./matty/20200418a/Readme.md` : Link to non-existing file `./home/kelu/ultrasound/echomods/matty/20200418a/images/Polar_20200418a16_bdwth_1.2.jpg`
 * __[Links]__ :no_entry: `./matty/news/2017-09-15-uniboard.md` : Link to non-existing file `./include/images/UniPins.png`
 * __[Links]__ :no_entry: `./matty/v1.1/test_V/Readme.md` : Link to non-existing file `./echomods/matty/v1.1/test_V/HV2550ou75.png`
 * __[Links]__ :no_entry: `./matty/v1.1/test_V/Readme.md` : Link to non-existing file `./echomods/matty/v1.1/test_V/PonPoff.png`
@@ -46,6 +49,7 @@
 * __[Unrefed file]__ :no_entry: `/matty/20180226a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180227a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180403a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20180430a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180506a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180721a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190111a/Readme.md` : No references of this file.
@@ -57,8 +61,6 @@
 * __[Unrefed file]__ :no_entry: `/matty/20190510a/ndt.exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190713/20190713a/ndt.exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190804a/Readme.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20200416a/Readme.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20200416a/exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/HV/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ideas.md` : No references of this file.

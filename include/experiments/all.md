@@ -1,3 +1,5 @@
+* 20200416a: testing new piezos : and calibrating new piezos against bubbles
+* 20200418a: echo-tomo : Trying to get a tomo echo image
 * 20200325a: NDT pulse widths : Trying and getting different pulse on a steel block.
 * 20200321a: pulse widths : Trying and getting different pulse on the test bench.
 * 20191027b: lit3rick De.bin: New success with lit3rick, with dynamic DAC
