@@ -700,7 +700,7 @@
 
 * [./matty/20180226a/Readme.md](/matty/20180226a/Readme.md):  . _File not used._
 
-* [./matty/20200418a/Readme.md](/matty/20200418a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20200418a.md`](/include/experiments/auto/Code_20200418a.md).
+* [./matty/20200418a/Readme.md](/matty/20200418a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md), [`/include/experiments/auto/Code_20200418a.md`](/include/experiments/auto/Code_20200418a.md).
 
 * [./matty/20180506a/Readme.md](/matty/20180506a/Readme.md):  . _File not used._
 
@@ -748,7 +748,7 @@
 
 * [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 
-* [./matty/20180511a/Readme.md](/matty/20180511a/Readme.md):  . File used in: [`/include/experiments/auto/20180511a.md`](/include/experiments/auto/20180511a.md).
+* [./matty/20180511a/Readme.md](/matty/20180511a/Readme.md):  . _File not used._
 
 * [./matty/20180403b/Readme.md](/matty/20180403b/Readme.md):  . File used in: [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
 
@@ -766,9 +766,11 @@
 
 * [./matty/20190314a/Readme.md](/matty/20190314a/Readme.md):  . _File not used._
 
+* [./matty/LawA/Readme.md](/matty/LawA/Readme.md):  . _File not used._
+
 * [./matty/20191023a/Readme.md](/matty/20191023a/Readme.md):  . File used in: [`/include/experiments/auto/20191023a.md`](/include/experiments/auto/20191023a.md).
 
-* [./matty/20200416a/Readme.md](/matty/20200416a/Readme.md):  . File used in: [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md).
+* [./matty/20200416a/Readme.md](/matty/20200416a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md), [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md).
 
 * [./matty/20200416a/exp.md](/matty/20200416a/exp.md):  . File used in: [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md).
 

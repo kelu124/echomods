@@ -1,7 +1,9 @@
 # Experiments
 
- * [20200418a](/include/experiments/auto/20200418a.md)
- * [20200416a](/include/experiments/auto/20200416a.md)
+ * 2020-04-21: [a-law](/include/experiments/auto/20200421b.md): testing a-law compressions compared to log and sqrt _(20200421b)_
+ * 2020-04-21: [comparing boards](/include/experiments/auto/20200421a.md): preliminary check between lit3rick and un0rick _(20200421a)_
+ * 2020-04-18: [echo-tomo](/include/experiments/auto/20200418a.md): Trying to get a tomo echo image _(20200418a)_
+ * 2020-04-16: [testing new piezos](/include/experiments/auto/20200416a.md): and calibrating new piezos against bubbles _(20200416a)_
  * 2020-03-25: [NDT pulse widths](/include/experiments/auto/20200325a.md): Trying and getting different pulse on a steel block. _(20200325a)_
  * 2020-03-21: [pulse widths](/include/experiments/auto/20200321a.md): Trying and getting different pulse on the test bench. _(20200321a)_
  * 2019-10-27: [lit3rick De.bin](/include/experiments/auto/20191027b.md): New success with lit3rick, with dynamic DAC _(20191027b)_

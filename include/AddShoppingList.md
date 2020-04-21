@@ -127,6 +127,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * get https://github.com/tobozo/M5Stack-SD-Updater to add bins
 * lit3rick examples : complilation : https://github.com/FPGAwars/apio-examples/tree/master/iCE40-UP5K/
 * explore bivi's https://github.com/streamlit/streamlit and https://github.com/samuelhwilliams/Eel
+* do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md)
+* run [simuls for pulse duration](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
+* tests impedance matching on the new piezo to see if that improves things =)
 
 
 

@@ -1,3 +1,5 @@
+* 20200421b: a-law: testing a-law compressions compared to log and sqrt
+* 20200421a: comparing boards: preliminary check between lit3rick and un0rick 
 * 20200416a: testing new piezos : and calibrating new piezos against bubbles
 * 20200418a: echo-tomo : Trying to get a tomo echo image
 * 20200325a: NDT pulse widths : Trying and getting different pulse on a steel block.

@@ -138,8 +138,10 @@ The diagram is represented below:
 
 # Experiments
 
- * [20200418a](/include/experiments/auto/20200418a.md)
- * [20200416a](/include/experiments/auto/20200416a.md)
+ * 2020-04-21: [a-law](/include/experiments/auto/20200421b.md): testing a-law compressions compared to log and sqrt _(20200421b)_
+ * 2020-04-21: [comparing boards](/include/experiments/auto/20200421a.md): preliminary check between lit3rick and un0rick _(20200421a)_
+ * 2020-04-18: [echo-tomo](/include/experiments/auto/20200418a.md): Trying to get a tomo echo image _(20200418a)_
+ * 2020-04-16: [testing new piezos](/include/experiments/auto/20200416a.md): and calibrating new piezos against bubbles _(20200416a)_
  * 2020-03-25: [NDT pulse widths](/include/experiments/auto/20200325a.md): Trying and getting different pulse on a steel block. _(20200325a)_
  * 2020-03-21: [pulse widths](/include/experiments/auto/20200321a.md): Trying and getting different pulse on the test bench. _(20200321a)_
  * 2019-10-27: [lit3rick De.bin](/include/experiments/auto/20191027b.md): New success with lit3rick, with dynamic DAC _(20191027b)_
@@ -358,6 +360,9 @@ Here's a couple of things we're working on, for which you could help as well.
 * get https://github.com/tobozo/M5Stack-SD-Updater to add bins
 * lit3rick examples : complilation : https://github.com/FPGAwars/apio-examples/tree/master/iCE40-UP5K/
 * explore bivi's https://github.com/streamlit/streamlit and https://github.com/samuelhwilliams/Eel
+* do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md)
+* run [simuls for pulse duration](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
+* tests impedance matching on the new piezo to see if that improves things =)
 
 
 

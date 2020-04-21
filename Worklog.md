@@ -3756,6 +3756,15 @@ Tagging wav files? https://pypi.org/project/tinytag/
 
 * Yeayyy finally pushed MS3 for i2s on https://github.com/kelu124/vit3rick/ . Missing the filtering part but that should be fine - thanks Andrew and Bogdan.
 
+#### 2020-04-19 Progress and MS0
+
+* Interesting [LPC55S6x : M33 + LPU](https://www.nxp.com/docs/en/data-sheet/LPC55S6x.pdf)
+* Doing [echo-tomo](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
+* @todo do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md)
+* [Enveloppe detection ongoing](https://github.com/kelu124/vit3rick/tree/master/MS0_Enveloppe] on the up5k
+* @todo run [simuls for pulse duration](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
+* @todo tests impedance matching on the new piezo to see if that improves things =)
+* lit3rick vF ongoing with AD8332
 
 =======
 
