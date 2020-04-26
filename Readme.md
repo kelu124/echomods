@@ -455,6 +455,11 @@ Here's a couple of things we're working on, for which you could help as well.
 * do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md)
 * run [simuls for pulse duration](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
 * tests impedance matching on the new piezo to see if that improves things =)
+* check newer lit3rick.vF
+* merge bgd/and (acq + i2s + transfo)
+* go onto yosys
+* understand echoes from acqs.. weird things
+* consider additional CS ( https://www.raspberrypi.org/forums/viewtopic.php?t=152014 ) or SPI ( https://www.raspberrypi.org/forums/viewtopic.php?p=821666#p821666 )
 
 
 
