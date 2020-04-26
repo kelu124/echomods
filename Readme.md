@@ -8,7 +8,7 @@ This project has a specific target of providing a __low-cost, open source techno
   * and [list of experiments](/include/experiments/)
 * the [hackaday page](https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging), where I tried to blog day-to-day experiments in a casual format;
 * an [article summarizing the experiment on the Journal of Open Hardware](http://openhardware.metajnl.com/articles/10.5334/joh.2/) - [DOI:10.5334/joh.2]( http://doi.org/10.5334/joh.2);
-* the [slack channel if you want to discuss](https://join.slack.com/usdevkit/shared_invite/MTkxODU5MjU0NjI1LTE0OTY1ODgxMDEtMmYyZTliZDBlZA);
+* the [slack channel if you want to discuss](https://join.slack.com/t/usdevkit/shared_invite/zt-2g501obl-z53YHyGOOMZjeCXuXzjZow);
 * the Tindie store for the [analog processing unit](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/) and the [unipolar pulser](https://www.tindie.com/products/kelu124/ultrasound-unipolar-high-voltage-pulser/) or [the motherboard](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).
 * And of course, the [ice40 research board](https://www.tindie.com/products/kelu124/un0rick-open-ice40-ultrasound-imaging-dev-board/), on [un0rick.cc](http://un0rick.cc) and its [doc](http://doc.un0rick.cc) or even [its github](https://github.com/kelu124/un0rick). _It's a bit cheaper, and has better specs_. 
 
@@ -207,8 +207,8 @@ and used in a wider context:
 
 # Experiments
 
- * [20200421b](/include/experiments/auto/20200421b.md)
- * [20200421a](/include/experiments/auto/20200421a.md)
+ * 2020-04-21: [a-law](/include/experiments/auto/20200421b.md): testing a-law compressions compared to log and sqrt _(20200421b)_
+ * 2020-04-21: [comparing boards](/include/experiments/auto/20200421a.md): preliminary check between lit3rick and un0rick _(20200421a)_
  * 2020-04-18: [echo-tomo](/include/experiments/auto/20200418a.md): Trying to get a tomo echo image _(20200418a)_
  * 2020-04-16: [testing new piezos](/include/experiments/auto/20200416a.md): and calibrating new piezos against bubbles _(20200416a)_
  * 2020-03-25: [NDT pulse widths](/include/experiments/auto/20200325a.md): Trying and getting different pulse on a steel block. _(20200325a)_
