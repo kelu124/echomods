@@ -15,5 +15,3 @@ title: 2020-04-01 Speccing small-motherboard
     too (HILO, CDONE, RESET, ...)
 -   VGA output
 
-=======
-
