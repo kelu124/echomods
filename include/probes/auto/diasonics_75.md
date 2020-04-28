@@ -4,6 +4,11 @@
 
 * Longer description:  a diasonics_75 probe
 
+# Experiments
+
+* [20200808r](/include/experiments/auto/20200808r.md)
+
+
 # Files
 
 * [/include/images/probes_vna/Readme.md](/include/images/probes_vna/Readme.md)
@@ -11,37 +16,11 @@
 
 # Images
 
-## Frequency mapping 
-
-![](/include/images/probes_vna/diasonics_75.s1p.png)
-smith
-ToTag
-
 ## Teardown 
 
-![](/include/images/diasonics_75/20191207_173734.jpg)
+![](/include/20200809r/images/apogee5MHz/P_20200508_152410.jpg)
 teardown
-.
-
-![](/include/images/diasonics_75/P_20181208_130753.jpg)
-teardown
-.
-
-![](/include/images/diasonics_75/P_20181208_131114.jpg)
-teardown
-.
-
-![](/include/images/diasonics_75/P_20181208_130624.jpg)
-teardown
-.
-
-![](/include/images/diasonics_75/20191207_173753.jpg)
-teardown
-.
-
-![](/include/images/diasonics_75/20191207_173601.jpg)
-teardown
-.
+apogee5MHz
 
 
 

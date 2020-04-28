@@ -248,7 +248,7 @@
 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md):  . File used in: [`/include/use_case_biblio/Readme.md`](/include/use_case_biblio/Readme.md).
 
-* [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . File used in: [`/include/experiments/auto/20180809a.md`](/include/experiments/auto/20180809a.md), [`/include/experiments/auto/Code_20180809a.md`](/include/experiments/auto/Code_20180809a.md).
+* [./include/images/kretzaw145ba/20180809a/Readme.md](/include/images/kretzaw145ba/20180809a/Readme.md):  . File used in: [`/include/experiments/auto/20180809a.md`](/include/experiments/auto/20180809a.md).
 
 * [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . File used in: [`/include/experiments/auto/20180812a.md`](/include/experiments/auto/20180812a.md).
 
@@ -279,6 +279,8 @@
 * [./include/biblio/bib/ArticlesPDF/messages/messages.md](/include/biblio/bib/ArticlesPDF/messages/messages.md):  . _File not used._
 
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov . _File not used._
+
+* [./include/impedance/my_piezos.md](/include/impedance/my_piezos.md):  . _File not used._
 
 * [./include/20180415a/Readme.md](/include/20180415a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180415a.md`](/include/experiments/auto/20180415a.md).
 
@@ -706,6 +708,10 @@
 
 * [./matty/prog_flash/Readme.md](/matty/prog_flash/Readme.md):  . File used in: [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md).
 
+* [./matty/20200508a/Readme.md](/matty/20200508a/Readme.md):  . _File not used._
+
+* [./matty/20200508a/exp.md](/matty/20200508a/exp.md):  . _File not used._
+
 * [./matty/m5stack/Readme.md](/matty/m5stack/Readme.md):  . File used in: [`/Readme.md`](/Readme.md), [`/Worklog.md`](/Worklog.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md).
 
 * [./matty/m5stack/20190113a/Readme.md](/matty/m5stack/20190113a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20190113a.md`](/include/experiments/auto/Code_20190113a.md).
@@ -750,7 +756,7 @@
 
 * [./matty/20180511a/Readme.md](/matty/20180511a/Readme.md):  . _File not used._
 
-* [./matty/20180403b/Readme.md](/matty/20180403b/Readme.md):  . File used in: [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
+* [./matty/20180403b/Readme.md](/matty/20180403b/Readme.md):  . File used in: [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md).
 
 * [./matty/article/matty_article.md](/matty/article/matty_article.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 

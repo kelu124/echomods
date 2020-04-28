@@ -452,14 +452,15 @@ def CreateProbesFiles(GrosJaSON):
 			for expe in LSExpe:
 				ProbeAuto += "* ["+expe+"](/include/experiments/auto/"+expe+".md)\n"
 			ProbeAuto += "\n\n"
- 
+
 		if len(GrosJaSON["probes"][probe]["md"]):
 			ProbeAuto += "# Files\n\n"
 			for MDFILE in list(set(GrosJaSON["probes"][probe]["md"])):
 				ProbeAuto += "* ["+MDFILE+"]("+MDFILE+")\n"
 			ProbeAuto += "\n\n"
 
-		if len(GrosJaSON["probes"][probe]["images"]):
+		#print(probe,GrosJaSON["probes"][probe]["images"],GrosJaSON["probes"][probe].keys())
+		if GrosJaSON["probes"][probe]["images"]:
 			print(probe," -> ",GrosJaSON["probes"][probe]["images"])
 			ProbeAuto += "# Images\n\n"
 			SETUP = "## Setup \n\n"
@@ -532,7 +533,7 @@ def CreateProbesFiles(GrosJaSON):
 			ListOfExpeWithLinks = [ "["+x+"](/experiments/auto/"+x+".md)" for x in sorted(list(set(GrosJaSON["probes"][probe]["experiments"])))]
 			ProbeAuto += ", ".join(ListOfExpeWithLinks)
 			ProbeAuto += ") \n\n"
-		if len(list(set(GrosJaSON["probes"][probe]["images"]))):
+		if GrosJaSON["probes"][probe]["images"]:
 			ProbeAuto += "__Present in:__ "+ str(len(list(set(GrosJaSON["probes"][probe]["images"]))))+" images.\n\n"
 
 		AddProbes += "* ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md)\n"

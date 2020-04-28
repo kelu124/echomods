@@ -7,10 +7,12 @@
 # Experiments
 
 * [20190329a](/include/experiments/auto/20190329a.md)
-* [20171112a](/include/experiments/auto/20171112a.md)
+* [20180809b](/include/experiments/auto/20180809b.md)
+* [20200809r](/include/experiments/auto/20200809r.md)
 * [20170715a](/include/experiments/auto/20170715a.md)
 * [20181104b](/include/experiments/auto/20181104b.md)
-* [20181104c](/include/experiments/auto/20181104c.md)
+* [20200808r](/include/experiments/auto/20200808r.md)
+* [20181104a](/include/experiments/auto/20181104a.md)
 * [20180807b](/include/experiments/auto/20180807b.md)
 * [20180807a](/include/experiments/auto/20180807a.md)
 * [20180812a](/include/experiments/auto/20180812a.md)
@@ -19,19 +21,19 @@
 * [20180901a](/include/experiments/auto/20180901a.md)
 * [20190404a](/include/experiments/auto/20190404a.md)
 * [20180831c](/include/experiments/auto/20180831c.md)
-* [20180809b](/include/experiments/auto/20180809b.md)
+* [20171112a](/include/experiments/auto/20171112a.md)
 * [20180225a](/include/experiments/auto/20180225a.md)
 * [20190415a](/include/experiments/auto/20190415a.md)
-* [20181104a](/include/experiments/auto/20181104a.md)
+* [20181104c](/include/experiments/auto/20181104c.md)
 
 
 # Images
 
-### Scan converted 
+### FFTs 
 
-![](/matty/20181104a/images/SC_20181104a-3-fft.jpg)
-SC
-Scan converted image of 20181104a-3 using a piezo: hp2121
+![](/matty/20181104c/images/Spectrum_20181104c-1.jpg)
+FFT
+Experiment: 20181104c-1. Duration: 150.0us (175000 - 25000), for 316 repeats each 3906 us. Fech = 10.6666666667Msps, total of 1600.0 pts per line, Nacq = 316. 724A shooting on wiretwophantom, probe: 724A, target = wiretwophantom. Timestamp = 2018-11-04 12:38:32.299867
 
 
 

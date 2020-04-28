@@ -66,7 +66,7 @@
 # ausonics75
 * code:ausonics75
 * smalldesc:an ausonic 7.5MHz probe
-* longdesc:an ausonic 7.5MHz probe
+* longdesc:an ausonic 7.5MHz probe. Opened. [Piezo salvaged](/include/20200809r/images/ausonics75/).
 
 # atlidrict
 * code:atlidrict
@@ -76,7 +76,7 @@
 # apogee5MHz
 * code:apogee5MHz
 * smalldesc:an Apogee 5MHz probe
-* longdesc:an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple).
+* longdesc:an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple). [Opened](/include/20200809r/images/apogee5MHz/). Piezo salvaged from there.
 
 # apogee10MHz
 * code:apogee10MHz
@@ -91,7 +91,7 @@
 # hp2121
 * code:hp2121
 * smalldesc:hp2121 small desc
-* longdesc: hp2121. Experiments : [test](/include/experiments/auto/20181013a.md)
+* longdesc: Real name : __21412A__. Or hp2121. Has a small '93C46' eeprom. Experiments : [test](/include/experiments/auto/20181013a.md). Piezo salvaged when head (not gracefullly) opened - [pictures here](/include/20200809r/images/hp2121/).
 
 # BiViPiezo
 * code:BiViPiezo
@@ -111,8 +111,7 @@
 # diasonics_tr
 * code:diasonics_tr
 * smalldesc: the diasonics transrectal probe
-* longdesc:not tore down yet =)
-
+* longdesc:not tore down yet =) Updated on 20200508 : Tore down now.
 
 # NDTPiezo
 * code:NDTPiezo

@@ -6,6 +6,8 @@
 
 * [Readme.md.tpl](/include/biblio/bib/Readme.md.tpl): ./include/biblio/bib/Readme.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
+* [20200808r.md.tpl](/include/experiments/auto/20200808r.md.tpl): ./include/experiments/auto/20200808r.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+
 * [20180516a.md.tpl](/include/experiments/auto/20180516a.md.tpl): ./include/experiments/auto/20180516a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 * [20191023a.md.tpl](/include/experiments/auto/20191023a.md.tpl): ./include/experiments/auto/20191023a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
@@ -31,6 +33,8 @@
 * [20160822a.md.tpl](/include/experiments/auto/20160822a.md.tpl): ./include/experiments/auto/20160822a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 * [20190329a.md.tpl](/include/experiments/auto/20190329a.md.tpl): ./include/experiments/auto/20190329a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+
+* [20200508a.md.tpl](/include/experiments/auto/20200508a.md.tpl): ./include/experiments/auto/20200508a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 * [20160809a.md.tpl](/include/experiments/auto/20160809a.md.tpl): ./include/experiments/auto/20160809a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
@@ -165,6 +169,8 @@
 * [20191022a.md.tpl](/include/experiments/auto/20191022a.md.tpl): ./include/experiments/auto/20191022a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 * [20161217a.md.tpl](/include/experiments/auto/20161217a.md.tpl): ./include/experiments/auto/20161217a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md), [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
+
+* [20200809r.md.tpl](/include/experiments/auto/20200809r.md.tpl): ./include/experiments/auto/20200809r.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 
 * [20180901a.md.tpl](/include/experiments/auto/20180901a.md.tpl): ./include/experiments/auto/20180901a.md.tpl. File used in: [`/include/FilesList/TPLFiles.md`](/include/FilesList/TPLFiles.md).
 

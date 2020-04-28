@@ -2,7 +2,12 @@
 
 * Small description: an Apogee 5MHz probe
 
-* Longer description: an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple).
+* Longer description: an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple). [Opened](/include/20200809r/images/apogee5MHz/). Piezo salvaged from there.
+
+# Experiments
+
+* [20200808r](/include/experiments/auto/20200808r.md)
+
 
 # Files
 
@@ -13,61 +18,9 @@
 
 ## Teardown 
 
-![](/include/images/apogee5MHz/P_20180831_205237.jpg)
+![](/include/20200809r/images/bard/P_20200509_182510.jpg)
 teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/20191207_183002.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205358.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205833.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_210111.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205524.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205539.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205534.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205430.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205225.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205659.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_205348.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/P_20180831_210151.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
-
-![](/include/images/apogee5MHz/20191207_182945.jpg)
-teardown
-Unkwown (apogee) 5MHz probe
+bard details
 
 
 

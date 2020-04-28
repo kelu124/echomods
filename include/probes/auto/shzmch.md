@@ -4,41 +4,18 @@
 
 * Longer description: a mechanical probe found on shenzen
 
+# Experiments
+
+* [20200808r](/include/experiments/auto/20200808r.md)
+
+
 # Images
 
-## Other pictures 
+## Teardown 
 
-![](/include/cn_mechprob/IMG-20180328-WA0005.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/IMG-20180328-WA0001.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/IMG-20180328-WA0003.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/IMG-20180328-WA0004.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/IMG-20180328-WA0006.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/IMG-20180328-WA0000.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/IMG-20180328-WA0002.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/mech_probe.jpg)
-ToTag
-ToTag
+![](/include/20200809r/images/apogee5MHz/P_20200508_152410.jpg)
+teardown
+apogee5MHz
 
 
 

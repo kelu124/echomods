@@ -2,7 +2,12 @@
 
 * Small description:  the diasonics transrectal probe
 
-* Longer description: not tore down yet =)
+* Longer description: not tore down yet =) Updated on 20200508 : Tore down now.
+
+# Experiments
+
+* [20200808r](/include/experiments/auto/20200808r.md)
+
 
 # Files
 
@@ -13,57 +18,9 @@
 
 ## Teardown 
 
-![](/include/images/13avril2020/diasonics_tr/P_20200413_212003_p.jpg)
+![](/include/20200809r/images/apogee5MHz/P_20200508_152410.jpg)
 teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_210937_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/diasonics_tr/P_20191230_200841.jpg)
-teardown
-.
-
-![](/include/images/diasonics_tr/P_20191230_201550.jpg)
-teardown
-.
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_211047_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_210507_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/diasonics_tr/P_20191230_200831.jpg)
-teardown
-.
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_211958_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/diasonics_tr/P_20191230_200838.jpg)
-teardown
-.
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_210502_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_211704_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/diasonics_tr/P_20191230_201539.jpg)
-teardown
-.
-
-![](/include/images/diasonics_tr/P_20191230_201135.jpg)
-teardown
-.
+apogee5MHz
 
 
 

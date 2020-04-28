@@ -3650,6 +3650,17 @@ Tagging wav files? https://pypi.org/project/tinytag/
 * @todo understand echoes from acqs.. weird things
 * @todo consider additional CS ( https://www.raspberrypi.org/forums/viewtopic.php?t=152014 ) or SPI ( https://www.raspberrypi.org/forums/viewtopic.php?p=821666#p821666 )
 
+#### 2020-05-01 ESP32 ULP
+
+* ULP on ESP32 interesting
+  * https://www.youtube.com/watch?v=6PGrsZmYAJ0
+  * https://github.com/bitluni/ULPSoundESP32/blob/master/ULPSoundMonoSamples/ULPSoundMonoSamples.ino
+  * https://codingfield.com/2019/01/15/ulp-esp32-un-exemple-simple/
+
+#### 2020-05-08 Resets
+
+* @todo need to check if reset, ice_reset_ft and ice_reset_rpi are connected in the VHDL v1.1 Matty
+
 =======
 
 

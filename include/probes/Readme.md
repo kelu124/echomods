@@ -24,7 +24,7 @@ __TLDR__: a dual imaging transducer sent by Jorge
 
 __More?__ a dual imaging transducer sent by Jorge
 
-__Present in:__ 17 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190329a](/experiments/auto/20190329a.md), [20190404a](/experiments/auto/20190404a.md), [20190415a](/experiments/auto/20190415a.md)) 
+__Present in:__ 19 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190329a](/experiments/auto/20190329a.md), [20190404a](/experiments/auto/20190404a.md), [20190415a](/experiments/auto/20190415a.md), [20200808r](/experiments/auto/20200808r.md), [20200809r](/experiments/auto/20200809r.md)) 
 
 __Present in:__ 1 images.
 
@@ -60,9 +60,11 @@ __Present in:__ 26 images.
 
 __TLDR__: an Apogee 5MHz probe
 
-__More?__ an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple).
+__More?__ an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n the head. Classical motor, single coax to the head, plus optical tracking. 2 pins for piezo, 9 pins for motors + sensor. It may be a 4 wire motors, then 5 to optical control (white, yellow, Red, black, purple). [Opened](/include/20200809r/images/apogee5MHz/). Piezo salvaged from there.
 
-__Present in:__ 14 images.
+__Present in:__ 1 experiments ([20200808r](/experiments/auto/20200808r.md)) 
+
+__Present in:__ 1 images.
 
 ### [atlannular](/include/probes/auto/atlannular.md) (atlannular)
 
@@ -84,11 +86,9 @@ __Present in:__ 5 images.
 
 __TLDR__: an ausonic 7.5MHz probe
 
-__More?__ an ausonic 7.5MHz probe
+__More?__ an ausonic 7.5MHz probe. Opened. [Piezo salvaged](/include/20200809r/images/ausonics75/).
 
-__Present in:__ 1 experiments ([20180809b](/experiments/auto/20180809b.md)) 
-
-__Present in:__ 14 images.
+__Present in:__ 2 experiments ([20180809b](/experiments/auto/20180809b.md), [20200808r](/experiments/auto/20200808r.md)) 
 
 ### [bard](/include/probes/auto/bard.md) (bard)
 
@@ -96,7 +96,7 @@ __TLDR__: a site rite probe
 
 __More?__ Used in the site rite bard systems.
 
-__Present in:__ 24 images.
+__Present in:__ 2 experiments ([20200808r](/experiments/auto/20200808r.md), [20200809r](/experiments/auto/20200809r.md)) 
 
 ### [diasonics_50](/include/probes/auto/diasonics_50.md) (diasonics_50)
 
@@ -112,7 +112,9 @@ __TLDR__:  a diasonics_75 probe
 
 __More?__  a diasonics_75 probe
 
-__Present in:__ 7 images.
+__Present in:__ 1 experiments ([20200808r](/experiments/auto/20200808r.md)) 
+
+__Present in:__ 1 images.
 
 ### [diasonics_gpm_plus_35](/include/probes/auto/diasonics_gpm_plus_35.md) (diasonics_gpm_plus_35)
 
@@ -120,25 +122,25 @@ __TLDR__:  A diasonics GP/M plus, 3.5MHz
 
 __More?__  A diasonics GP/M plus, 3.5MHz
 
-__Present in:__ 15 images.
+__Present in:__ 1 experiments ([20200808r](/experiments/auto/20200808r.md)) 
 
 ### [diasonics_tr](/include/probes/auto/diasonics_tr.md) (diasonics_tr)
 
 __TLDR__:  the diasonics transrectal probe
 
-__More?__ not tore down yet =)
+__More?__ not tore down yet =) Updated on 20200508 : Tore down now.
 
-__Present in:__ 13 images.
+__Present in:__ 1 experiments ([20200808r](/experiments/auto/20200808r.md)) 
+
+__Present in:__ 1 images.
 
 ### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 
 __TLDR__: hp2121 small desc
 
-__More?__  hp2121. Experiments : [test](/include/experiments/auto/20181013a.md)
+__More?__  Real name : __21412A__. Or hp2121. Has a small '93C46' eeprom. Experiments : [test](/include/experiments/auto/20181013a.md). Piezo salvaged when head (not gracefullly) opened - [pictures here](/include/20200809r/images/hp2121/).
 
-__Present in:__ 2 experiments ([20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md)) 
-
-__Present in:__ 20 images.
+__Present in:__ 3 experiments ([20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20200808r](/experiments/auto/20200808r.md)) 
 
 ### [kretzaw145ba](/include/probes/auto/kretzaw145ba.md) (kretzaw145ba)
 
@@ -192,7 +194,9 @@ __TLDR__: a mechanical probe found on shenzen
 
 __More?__ a mechanical probe found on shenzen
 
-__Present in:__ 8 images.
+__Present in:__ 1 experiments ([20200808r](/experiments/auto/20200808r.md)) 
+
+__Present in:__ 1 images.
 
 ### [sw45b](/include/probes/auto/sw45b.md) (sw45b)
 

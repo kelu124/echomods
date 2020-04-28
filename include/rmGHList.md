@@ -1,5 +1,8 @@
 # Experiments
 
+ * [20200809r](/include/experiments/auto/20200809r.md)
+ * [20200808r](/include/experiments/auto/20200808r.md)
+ * [20200508a](/include/experiments/auto/20200508a.md)
  * 2020-04-21: [a-law](/include/experiments/auto/20200421b.md): testing a-law compressions compared to log and sqrt _(20200421b)_
  * 2020-04-21: [comparing boards](/include/experiments/auto/20200421a.md): preliminary check between lit3rick and un0rick _(20200421a)_
  * 2020-04-18: [echo-tomo](/include/experiments/auto/20200418a.md): Trying to get a tomo echo image _(20200418a)_
