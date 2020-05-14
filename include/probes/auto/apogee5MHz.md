@@ -16,11 +16,11 @@
 
 # Images
 
-## Teardown 
+## Other pictures 
 
-![](/include/20200809r/images/bard/P_20200509_182510.jpg)
-teardown
-bard details
+![](/include/20200809r/hp2121/hp2121_yellow.png)
+s1p
+Reviewing hp2121 values
 
 
 

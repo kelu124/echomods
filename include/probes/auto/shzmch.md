@@ -11,11 +11,11 @@
 
 # Images
 
-## Teardown 
+## Other pictures 
 
-![](/include/20200809r/images/apogee5MHz/P_20200508_152410.jpg)
-teardown
-apogee5MHz
+![](/include/20200809r/hp2121/hp2121_yellow.png)
+s1p
+Reviewing hp2121 values
 
 
 
