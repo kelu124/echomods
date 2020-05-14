@@ -28,5 +28,3 @@ title: 2020-04-23 updates in general
     https://www.raspberrypi.org/forums/viewtopic.php?t=152014 ) or SPI (
     https://www.raspberrypi.org/forums/viewtopic.php?p=821666\#p821666 )
 
-=======
-
