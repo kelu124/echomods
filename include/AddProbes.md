@@ -15,6 +15,7 @@ That's the list of probes been playing with:
 * [diasonics_75](/include/probes/auto/diasonics_75.md)
 * [diasonics_gpm_plus_35](/include/probes/auto/diasonics_gpm_plus_35.md)
 * [diasonics_tr](/include/probes/auto/diasonics_tr.md)
+* [duc2m](/include/probes/auto/duc2m.md)
 * [hp2121](/include/probes/auto/hp2121.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
 * [retro10PV](/include/probes/auto/retro10PV.md)

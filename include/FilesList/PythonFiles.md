@@ -20,7 +20,7 @@
 
 * [mkimg.py](/include/20200809r/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
-* [mkimg.py](/include/20200809r/hp2121/mkimg.py): Autotagging images for the `20180217a` experiment.. _File not used._
+* [mkimg.py](/include/20200809r/hp2121/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
 * [mkimg.py](/include/20200809r/images/ausonics75/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
@@ -81,6 +81,10 @@
 * [mkimg.py](/include/images/kretz-ar3-4-5b/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+
+* [mkimg.py](/include/images/202005/apogee/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
+
+* [mkimg.py](/include/images/202005/duc2m/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
 * [mkimg.py](/include/images/13avril2020/sw45b/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 

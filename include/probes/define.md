@@ -88,6 +88,11 @@
 * smalldesc:an Apogee 10MHz probe, opened and tweaked
 * longdesc:an Apogee 10MHz probe
 
+# duc2m
+* code:duc2m
+* smalldesc:an Diagnostic Ultrasound Corp probe. 2MHz.
+* longdesc:an Diagnostic Ultrasound Corp probe. 2MHz.
+
 # hp2121
 * code:hp2121
 * smalldesc:hp2121 small desc

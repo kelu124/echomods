@@ -282,7 +282,7 @@
 
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov . _File not used._
 
-* [./include/impedance/my_piezos.md](/include/impedance/my_piezos.md):  . File used in: [`/include/experiments/auto/20200809r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20200809r.md), [`/include/experiments/auto/Code_20200808r.md`](/include/experiments/auto/Code_20200808r.html).
+* [./include/impedance/my_piezos.md](/include/impedance/my_piezos.md):  . File used in: [`/include/experiments/auto/Code_20200808r.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200808r.html).
 
 * [./include/20180415a/Readme.md](/include/20180415a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180415a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415a.html).
 
@@ -1002,7 +1002,7 @@
 
 * [mkimg.py](/include/20200809r/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.html).
 
-* [mkimg.py](/include/20200809r/hp2121/mkimg.py): Autotagging images for the `20180217a` experiment.. _File not used._
+* [mkimg.py](/include/20200809r/hp2121/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.html).
 
 * [mkimg.py](/include/20200809r/images/ausonics75/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.html).
 
@@ -1063,6 +1063,10 @@
 * [mkimg.py](/include/images/kretz-ar3-4-5b/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
+
+* [mkimg.py](/include/images/202005/apogee/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/Code_20180417a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.html).
+
+* [mkimg.py](/include/images/202005/duc2m/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/Code_20180417a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.html).
 
 * [mkimg.py](/include/images/13avril2020/sw45b/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 
@@ -1393,7 +1397,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_DocProcess.md](/include/ppt_DocProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocProcess.html)
 
-## 677 Auto generated files
+## 679 Auto generated files
 
 * ./Readme.md
 * ./include/AddShoppingList.md
@@ -1859,6 +1863,7 @@
 * ./include/probes/auto/diasonics_tr.md
 * ./include/probes/auto/apogee10MHz.md
 * ./include/probes/auto/NDTPiezo.md
+* ./include/probes/auto/duc2m.md
 * ./include/probes/auto/s3.md
 * ./include/probes/auto/ausonics75.md
 * ./include/probes/auto/diasonics_50.md
@@ -2058,6 +2063,7 @@
 * ./gitbook/probes/Readme.md
 * ./gitbook/probes/apogee10MHz.md
 * ./gitbook/probes/NDTPiezo.md
+* ./gitbook/probes/duc2m.md
 * ./gitbook/probes/s3.md
 * ./gitbook/probes/ausonics75.md
 * ./gitbook/probes/diasonics_50.md

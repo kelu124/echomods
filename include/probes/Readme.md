@@ -46,7 +46,7 @@ __More?__ An interspec apogee probe. Quite a number of pins, nice steel block fo
 
 __Present in:__ 1 experiments ([20180807b](/experiments/auto/20180807b.md)) 
 
-__Present in:__ 13 images.
+__Present in:__ 19 images.
 
 ### [apogee10MHz](/include/probes/auto/apogee10MHz.md) (apogee10MHz)
 
@@ -133,6 +133,14 @@ __More?__ not tore down yet =) Updated on 20200508 : Tore down now.
 __Present in:__ 1 experiments ([20200808r](/experiments/auto/20200808r.md)) 
 
 __Present in:__ 1 images.
+
+### [duc2m](/include/probes/auto/duc2m.md) (duc2m)
+
+__TLDR__: an Diagnostic Ultrasound Corp probe. 2MHz.
+
+__More?__ an Diagnostic Ultrasound Corp probe. 2MHz.
+
+__Present in:__ 12 images.
 
 ### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 

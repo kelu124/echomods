@@ -280,7 +280,7 @@
 
 * [./include/fda.gov/Readme.md](/include/fda.gov/Readme.md): Mapping the genealogy of wireless ultrasound devices, according to fda.gov . _File not used._
 
-* [./include/impedance/my_piezos.md](/include/impedance/my_piezos.md):  . File used in: [`/include/experiments/auto/20200809r.md`](/include/experiments/auto/20200809r.md), [`/include/experiments/auto/Code_20200808r.md`](/include/experiments/auto/Code_20200808r.md).
+* [./include/impedance/my_piezos.md](/include/impedance/my_piezos.md):  . File used in: [`/include/experiments/auto/Code_20200808r.md`](/include/experiments/auto/Code_20200808r.md).
 
 * [./include/20180415a/Readme.md](/include/20180415a/Readme.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/experiments/auto/20180415a.md`](/include/experiments/auto/20180415a.md).
 

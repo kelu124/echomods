@@ -3790,6 +3790,13 @@ Tagging wav files? https://pypi.org/project/tinytag/
 
 * @todo need to check if reset, ice_reset_ft and ice_reset_rpi are connected in the VHDL v1.1 Matty
 
+
+#### 2020-05-2O Order for pHATr1ck
+
+* A couple of pHATr1cks out !
+* 
+
+
 =======
 
 uControllers and other stuff

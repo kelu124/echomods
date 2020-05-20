@@ -462,6 +462,7 @@
 * ./include/probes/auto/diasonics_tr.md
 * ./include/probes/auto/apogee10MHz.md
 * ./include/probes/auto/NDTPiezo.md
+* ./include/probes/auto/duc2m.md
 * ./include/probes/auto/s3.md
 * ./include/probes/auto/ausonics75.md
 * ./include/probes/auto/diasonics_50.md
@@ -661,6 +662,7 @@
 * ./gitbook/probes/Readme.md
 * ./gitbook/probes/apogee10MHz.md
 * ./gitbook/probes/NDTPiezo.md
+* ./gitbook/probes/duc2m.md
 * ./gitbook/probes/s3.md
 * ./gitbook/probes/ausonics75.md
 * ./gitbook/probes/diasonics_50.md

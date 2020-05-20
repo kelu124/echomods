@@ -13,6 +13,10 @@
 
 ## Teardown 
 
+![](/include/images/202005/apogee/P_20200520_191511.jpg)
+teardown
+teardown of a new probe
+
 ![](/include/images/Interspec/P_20180807_221458.jpg)
 teardown
 Exploring the innards of an InterspecApogee probe
@@ -45,6 +49,10 @@ Exploring the innards of an InterspecApogee probe
 teardown
 Exploring the innards of an InterspecApogee probe
 
+![](/include/images/202005/apogee/P_20200520_191539.jpg)
+teardown
+teardown of a new probe
+
 ![](/include/images/Interspec/P_20180807_222100.jpg)
 teardown
 Exploring the innards of an InterspecApogee probe
@@ -52,6 +60,10 @@ Exploring the innards of an InterspecApogee probe
 ![](/include/images/Interspec/P_20180807_222256.jpg)
 teardown
 Exploring the innards of an InterspecApogee probe
+
+![](/include/images/202005/apogee/P_20200520_191524.jpg)
+teardown
+teardown of a new probe
 
 ![](/include/images/Interspec/P_20180807_222529.jpg)
 teardown
@@ -64,6 +76,18 @@ Exploring the innards of an InterspecApogee probe
 ![](/include/images/Interspec/P_20180807_221519.jpg)
 teardown
 Exploring the innards of an InterspecApogee probe
+
+![](/include/images/202005/apogee/P_20200520_191543.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/apogee/P_20200520_191517.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/apogee/P_20200520_191532.jpg)
+teardown
+teardown of a new probe
 
 
 
