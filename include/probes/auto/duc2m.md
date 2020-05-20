@@ -2,7 +2,7 @@
 
 * Small description: an Diagnostic Ultrasound Corp probe. 2MHz.
 
-* Longer description: an Diagnostic Ultrasound Corp probe. 2MHz.
+* Longer description: an Diagnostic Ultrasound Corp probe. 2MHz. Should be a verathon 2MHz probe. Central pins from the 2x5 header should be piezo.
 
 # Images
 
@@ -55,6 +55,12 @@ teardown of a new probe
 ![](/include/images/202005/duc2m/P_20200520_191705.jpg)
 teardown
 teardown of a new probe
+
+## Other pictures 
+
+![](/include/images/202005/duc2m/duc2m.png)
+s1p
+s1p
 
 
 

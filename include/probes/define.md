@@ -90,8 +90,8 @@
 
 # duc2m
 * code:duc2m
-* smalldesc:an Diagnostic Ultrasound Corp probe. 2MHz.
-* longdesc:an Diagnostic Ultrasound Corp probe. 2MHz.
+* smalldesc:an Diagnostic Ultrasound Corp probe. 2MHz. 
+* longdesc:an Diagnostic Ultrasound Corp probe. 2MHz. Should be a verathon 2MHz probe. Central pins from the 2x5 header should be piezo. 
 
 # hp2121
 * code:hp2121
