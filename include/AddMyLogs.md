@@ -3665,7 +3665,8 @@ Tagging wav files? https://pypi.org/project/tinytag/
 #### 2020-05-2O Order for pHATr1ck
 
 * A couple of pHATr1cks out !
-* 
+* USB
+  * How to create a device node from the `init_module` code of a Linux kernel module? [check](https://github.com/cirosantilli/linux-kernel-module-cheat/blob/68af3477cce1cd22566edce2651f54cf8c184a91/kernel_module/character_device_create.c).
 
 
 =======

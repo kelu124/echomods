@@ -42,11 +42,11 @@ __Present in:__ 19 images.
 
 __TLDR__: apogee probe
 
-__More?__ An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean.
+__More?__ An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean. ATL Apogee 800 Ultrasound Transducer Probe 7.5 15 SPA. Seems to have 6 rings in the piezo?
 
 __Present in:__ 1 experiments ([20180807b](/experiments/auto/20180807b.md)) 
 
-__Present in:__ 20 images.
+__Present in:__ 24 images.
 
 ### [apogee10MHz](/include/probes/auto/apogee10MHz.md) (apogee10MHz)
 

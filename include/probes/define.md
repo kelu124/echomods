@@ -46,7 +46,7 @@
 # apogee
 * code:apogee
 * smalldesc:apogee probe
-* longdesc:An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean.
+* longdesc:An interspec apogee probe. Quite a number of pins, nice steel block for the motor and piezo. Connectors clean. ATL Apogee 800 Ultrasound Transducer Probe 7.5 15 SPA. Seems to have 6 rings in the piezo?
 
 # adrus
 * code:adrus
