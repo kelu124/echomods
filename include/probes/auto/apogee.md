@@ -33,7 +33,15 @@ Exploring the innards of an InterspecApogee probe
 teardown
 teardown of a new probe
 
+![](/include/images/202005/apogee/P_20200520_192105.jpg)
+teardown
+teardown of a new probe
+
 ![](/include/images/202005/apogee/P_20200520_191524.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/apogee/P_20200520_192111.jpg)
 teardown
 teardown of a new probe
 

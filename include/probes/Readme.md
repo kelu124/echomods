@@ -46,7 +46,7 @@ __More?__ An interspec apogee probe. Quite a number of pins, nice steel block fo
 
 __Present in:__ 1 experiments ([20180807b](/experiments/auto/20180807b.md)) 
 
-__Present in:__ 24 images.
+__Present in:__ 26 images.
 
 ### [apogee10MHz](/include/probes/auto/apogee10MHz.md) (apogee10MHz)
 
@@ -140,7 +140,7 @@ __TLDR__: an Diagnostic Ultrasound Corp probe. 2MHz.
 
 __More?__ an Diagnostic Ultrasound Corp probe. 2MHz. Should be a verathon 2MHz probe. Central pins from the 2x5 header should be piezo.
 
-__Present in:__ 13 images.
+__Present in:__ 11 images.
 
 ### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 

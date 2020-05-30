@@ -24,10 +24,6 @@ teardown of a new probe
 teardown
 teardown of a new probe
 
-![](/include/images/202005/duc2m/P_20200520_192111.jpg)
-teardown
-teardown of a new probe
-
 ![](/include/images/202005/duc2m/P_20200520_191722.jpg)
 teardown
 teardown of a new probe
@@ -45,10 +41,6 @@ teardown
 teardown of a new probe
 
 ![](/include/images/202005/duc2m/P_20200520_191902.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_192105.jpg)
 teardown
 teardown of a new probe
 
