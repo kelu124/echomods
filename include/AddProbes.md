@@ -18,6 +18,8 @@ That's the list of probes been playing with:
 * [duc2m](/include/probes/auto/duc2m.md)
 * [hp2121](/include/probes/auto/hp2121.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
+* [linscan](/include/probes/auto/linscan.md)
+* [myapo](/include/probes/auto/myapo.md)
 * [retro10PV](/include/probes/auto/retro10PV.md)
 * [retro10apogee](/include/probes/auto/retro10apogee.md)
 * [retroATL3](/include/probes/auto/retroATL3.md)

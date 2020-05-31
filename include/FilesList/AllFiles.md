@@ -1064,9 +1064,13 @@
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
 
+* [mkimg.py](/include/images/202005/linscan/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/Code_20180417a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.html).
+
 * [mkimg.py](/include/images/202005/apogee/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.html).
 
 * [mkimg.py](/include/images/202005/duc2m/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.html).
+
+* [mkimg.py](/include/images/202005/myapo/mkimg.py): Autotagging images for the `20180217a` experiment.. _File not used._
 
 * [mkimg.py](/include/images/13avril2020/sw45b/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 

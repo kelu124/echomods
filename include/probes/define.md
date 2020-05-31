@@ -118,6 +118,16 @@
 * smalldesc: the diasonics transrectal probe
 * longdesc:not tore down yet =) Updated on 20200508 : Tore down now.
 
+# myapo
+* code:myapo
+* smalldesc: Annular breakout.
+* longdesc:seems to be an annular probe. With my own breakout style.
+
+# linscan
+* code:linscan
+* smalldesc: Ophtalmic probes
+* longdesc: One tore down. Not the other. Curious to check the motor.
+
 # NDTPiezo
 * code:NDTPiezo
 * smalldesc:a dual imaging transducer sent by Jorge

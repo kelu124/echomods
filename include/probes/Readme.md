@@ -160,6 +160,22 @@ __Present in:__ 2 experiments ([20180812a](/experiments/auto/20180812a.md), [201
 
 __Present in:__ 39 images.
 
+### [linscan](/include/probes/auto/linscan.md) (linscan)
+
+__TLDR__:  Ophtalmic probes
+
+__More?__  One tore down. Not the other. Curious to check the motor.
+
+__Present in:__ 14 images.
+
+### [myapo](/include/probes/auto/myapo.md) (myapo)
+
+__TLDR__:  Annular breakout.
+
+__More?__ seems to be an annular probe. With my own breakout style.
+
+__Present in:__ 8 images.
+
 ### [retro10PV](/include/probes/auto/retro10PV.md) (retro10PV)
 
 __TLDR__: a 3-frequencies probe
