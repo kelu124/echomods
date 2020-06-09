@@ -209,6 +209,7 @@ and used in a wider context:
 
  * [20200809r](/include/experiments/auto/20200809r.md)
  * [20200808r](/include/experiments/auto/20200808r.md)
+ * [20200608a](/include/experiments/auto/20200608a.md)
  * [20200508a](/include/experiments/auto/20200508a.md)
  * 2020-04-21: [a-law](/include/experiments/auto/20200421b.md): testing a-law compressions compared to log and sqrt _(20200421b)_
  * 2020-04-21: [comparing boards](/include/experiments/auto/20200421a.md): preliminary check between lit3rick and un0rick _(20200421a)_
@@ -307,6 +308,9 @@ That's the list of probes been playing with:
 * [atlidrict](/include/probes/auto/atlidrict.md)
 * [ausonics75](/include/probes/auto/ausonics75.md)
 * [bard](/include/probes/auto/bard.md)
+* [brd35](/include/probes/auto/brd35.md)
+* [brd75](/include/probes/auto/brd75.md)
+* [brd90](/include/probes/auto/brd90.md)
 * [diasonics_50](/include/probes/auto/diasonics_50.md)
 * [diasonics_75](/include/probes/auto/diasonics_75.md)
 * [diasonics_gpm_plus_35](/include/probes/auto/diasonics_gpm_plus_35.md)
@@ -314,6 +318,8 @@ That's the list of probes been playing with:
 * [duc2m](/include/probes/auto/duc2m.md)
 * [hp2121](/include/probes/auto/hp2121.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
+* [linscan](/include/probes/auto/linscan.md)
+* [myapo](/include/probes/auto/myapo.md)
 * [retro10PV](/include/probes/auto/retro10PV.md)
 * [retro10apogee](/include/probes/auto/retro10apogee.md)
 * [retroATL3](/include/probes/auto/retroATL3.md)
@@ -465,6 +471,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * understand echoes from acqs.. weird things
 * consider additional CS ( https://www.raspberrypi.org/forums/viewtopic.php?t=152014 ) or SPI ( https://www.raspberrypi.org/forums/viewtopic.php?p=821666#p821666 )
 * need to check if reset, ice_reset_ft and ice_reset_rpi are connected in the VHDL v1.1 Matty
+* finish 20200608a and make a gif
 
 
 

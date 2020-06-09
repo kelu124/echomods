@@ -118,6 +118,9 @@
 * __[Unrefed file]__ :no_entry: `/matty/20200508a/20200508a-MakePkls.ipynb` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200508a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200508a/exp.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20200605a/20200605a-ProbesTests.ipynb` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20200605a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20200605a/exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/HV/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/LawA/comparatif/data/00.CreateCSVs.ipynb` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/SPI/Untitled.ipynb` : No references of this file.

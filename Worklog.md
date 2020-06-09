@@ -3797,6 +3797,18 @@ Tagging wav files? https://pypi.org/project/tinytag/
 * USB
   * How to create a device node from the `init_module` code of a Linux kernel module? [check](https://github.com/cirosantilli/linux-kernel-module-cheat/blob/68af3477cce1cd22566edce2651f54cf8c184a91/kernel_module/character_device_create.c).
 
+#### 2020-06-04 5V and usb
+
+* Got a DRV8834 and another low voltage driver
+* Interested in https://wiki.wireshark.org/CaptureSetup/USB
+* Waiting for the pHATr1ck's !
+* Doppler ... https://www.vmedtechnology.com/Vet-Dop.htm lol.
+* https://dilbert.com/strip/2020-06-05 experts .. DrR ?
+
+#### 2020-06-08 Having fun with brd35
+
+* @todo finish 20200608a and make a gif
+
 
 =======
 
