@@ -1,3 +1,7 @@
+* 20200608a: brd35 test: testing an electromagnetic movement probe
+* 20200809r: bard vna: bard vna tests 
+* 20200808r: all probes vna: getting impedance params of all probes 
+* 20200508a: testing bard probe: Nothing much really : what are the connections??
 * 20200421b: a-law: testing a-law compressions compared to log and sqrt
 * 20200421a: comparing boards: preliminary check between lit3rick and un0rick 
 * 20200416a: testing new piezos : and calibrating new piezos against bubbles

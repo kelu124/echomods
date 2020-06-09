@@ -44,6 +44,7 @@
 * [20190104a-Client.ipynb](/matty/20190104a/20190104a-Client.ipynb). File used in: [`/include/experiments/auto/20190104a.md`](/include/experiments/auto/20190104a.md).
 * [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). _File not used._
 * [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). _File not used._
+* [20200605a-ProbesTests.ipynb](/matty/20200605a/20200605a-ProbesTests.ipynb). _File not used._
 * [20200321a.ipynb](/matty/20200321a/20200321a.ipynb). File used in: [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md), [`/include/experiments/auto/20200321a.md`](/include/experiments/auto/20200321a.md).
 * [20180403a-75V.ipynb](/matty/20180403a/20180403a-75V.ipynb). _File not used._
 * [20180403a-Client.ipynb](/matty/20180403a/20180403a-Client.ipynb). _File not used._
@@ -100,6 +101,8 @@
 * [20200421b - TestingALaw.ipynb](/matty/LawA/20200421b - TestingALaw.ipynb). File used in: [`/include/experiments/auto/20200421b.md`](/include/experiments/auto/20200421b.md).
 * [01.Compare.ipynb](/matty/LawA/comparatif/01.Compare.ipynb). File used in: [`/include/experiments/auto/20200421a.md`](/include/experiments/auto/20200421a.md).
 * [00.CreateCSVs.ipynb](/matty/LawA/comparatif/data/00.CreateCSVs.ipynb). _File not used._
+* [20200608a.ipynb](/matty/20200608a/20200608a.ipynb). File used in: [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
+* [20200608a-file10.ipynb](/matty/20200608a/20200608a-file10.ipynb). File used in: [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
 * [20200325a-PicklingInterestingData.ipynb](/matty/20200416a/20200325a-PicklingInterestingData.ipynb). File used in: [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
 * [20200325a-Acquisitions.ipynb](/matty/20200416a/20200325a-Acquisitions.ipynb). File used in: [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
 * [20190103a-Client.ipynb](/matty/20190103a/20190103a-Client.ipynb). _File not used._

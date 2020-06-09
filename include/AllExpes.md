@@ -77,6 +77,7 @@
   * [20200421a](/include/experiments/auto/20200421a.md)
   * [20200421b](/include/experiments/auto/20200421b.md)
   * [20200508a](/include/experiments/auto/20200508a.md)
+  * [20200608a](/include/experiments/auto/20200608a.md)
   * [20200808r](/include/experiments/auto/20200808r.md)
   * [20200809r](/include/experiments/auto/20200809r.md)
 

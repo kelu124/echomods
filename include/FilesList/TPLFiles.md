@@ -166,6 +166,8 @@
 
 * [20180224b.md.tpl](/include/experiments/auto/20180224b.md.tpl): ./include/experiments/auto/20180224b.md.tpl. _File not used._
 
+* [20200608a.md.tpl](/include/experiments/auto/20200608a.md.tpl): ./include/experiments/auto/20200608a.md.tpl. _File not used._
+
 * [20191022a.md.tpl](/include/experiments/auto/20191022a.md.tpl): ./include/experiments/auto/20191022a.md.tpl. _File not used._
 
 * [20161217a.md.tpl](/include/experiments/auto/20161217a.md.tpl): ./include/experiments/auto/20161217a.md.tpl. File used in: [`/include/AllLogs.md`](/include/AllLogs.md).

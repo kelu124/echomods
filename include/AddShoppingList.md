@@ -136,6 +136,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * understand echoes from acqs.. weird things
 * consider additional CS ( https://www.raspberrypi.org/forums/viewtopic.php?t=152014 ) or SPI ( https://www.raspberrypi.org/forums/viewtopic.php?p=821666#p821666 )
 * need to check if reset, ice_reset_ft and ice_reset_rpi are connected in the VHDL v1.1 Matty
+* finish 20200608a and make a gif
 
 
 

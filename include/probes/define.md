@@ -132,3 +132,18 @@
 * code:NDTPiezo
 * smalldesc:a dual imaging transducer sent by Jorge
 * longdesc:a dual imaging transducer sent by Jorge
+
+# brd35
+* code:brd35
+* smalldesc: Bard rite, 3.5MHz.
+* longdesc:Bard rite, 3.5MHz.
+
+# brd75
+* code:brd75
+* smalldesc: Bard rite, 7.5MHz.
+* longdesc: Bard rite, 7.5MHz.
+
+# brd90
+* code:brd90
+* smalldesc: Bard rite, 9.0MHz.
+* longdesc: Bard rite, 9.0MHz.

@@ -24,9 +24,7 @@ __TLDR__: a dual imaging transducer sent by Jorge
 
 __More?__ a dual imaging transducer sent by Jorge
 
-__Present in:__ 19 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190329a](/experiments/auto/20190329a.md), [20190404a](/experiments/auto/20190404a.md), [20190415a](/experiments/auto/20190415a.md), [20200808r](/experiments/auto/20200808r.md), [20200809r](/experiments/auto/20200809r.md)) 
-
-__Present in:__ 1 images.
+__Present in:__ 3 experiments ([20190329a](/experiments/auto/20190329a.md), [20190404a](/experiments/auto/20190404a.md), [20190415a](/experiments/auto/20190415a.md)) 
 
 ### [adrus](/include/probes/auto/adrus.md) (adrus)
 
@@ -97,6 +95,34 @@ __TLDR__: a site rite probe
 __More?__ Used in the site rite bard systems.
 
 __Present in:__ 2 experiments ([20200808r](/experiments/auto/20200808r.md), [20200809r](/experiments/auto/20200809r.md)) 
+
+### [brd35](/include/probes/auto/brd35.md) (brd35)
+
+__TLDR__:  Bard rite, 3.5MHz.
+
+__More?__ Bard rite, 3.5MHz.
+
+__Present in:__ 1 experiments ([20200608a](/experiments/auto/20200608a.md)) 
+
+__Present in:__ 1 images.
+
+### [brd75](/include/probes/auto/brd75.md) (brd75)
+
+__TLDR__:  Bard rite, 7.5MHz.
+
+__More?__  Bard rite, 7.5MHz.
+
+__Present in:__ 6 images.
+
+### [brd90](/include/probes/auto/brd90.md) (brd90)
+
+__TLDR__:  Bard rite, 9.0MHz.
+
+__More?__  Bard rite, 9.0MHz.
+
+__Present in:__ 20 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190329a](/experiments/auto/20190329a.md), [20190404a](/experiments/auto/20190404a.md), [20190415a](/experiments/auto/20190415a.md), [20200608a](/experiments/auto/20200608a.md), [20200808r](/experiments/auto/20200808r.md), [20200809r](/experiments/auto/20200809r.md)) 
+
+__Present in:__ 1 images.
 
 ### [diasonics_50](/include/probes/auto/diasonics_50.md) (diasonics_50)
 

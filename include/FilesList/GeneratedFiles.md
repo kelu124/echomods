@@ -56,6 +56,7 @@
 * ./include/experiments/Desc_20170715a.md
 * ./include/experiments/Desc_20191022a.md
 * ./include/experiments/Desc_20200325a.md
+* ./include/experiments/Desc_20200608a.md
 * ./include/experiments/Desc_20190804a.md
 * ./include/experiments/Desc_20180901a.md
 * ./include/experiments/Desc_20200808r.md
@@ -131,6 +132,7 @@
 * ./include/experiments/auto/Img_20190223.md
 * ./include/experiments/auto/Img_20190111a.md
 * ./include/experiments/auto/20180310a.md
+* ./include/experiments/auto/20200608a.md
 * ./include/experiments/auto/Code_20180620a.md
 * ./include/experiments/auto/Mod_20180506a.md
 * ./include/experiments/auto/Code_20180826a.md
@@ -212,6 +214,7 @@
 * ./include/experiments/auto/20180225a.md
 * ./include/experiments/auto/Code_20181126b.md
 * ./include/experiments/auto/Code_20170715a.md
+* ./include/experiments/auto/Code_20200608a.md
 * ./include/experiments/auto/Mod_20191022a.md
 * ./include/experiments/auto/Mod_20180415a.md
 * ./include/experiments/auto/Code_20180103a.md
@@ -315,6 +318,7 @@
 * ./include/experiments/auto/Mod_20170713a.md
 * ./include/experiments/auto/Code_20190111a.md
 * ./include/experiments/auto/20180721a.md
+* ./include/experiments/auto/Mod_20200608a.md
 * ./include/experiments/auto/Img_20180216a.md
 * ./include/experiments/auto/Code_20171112a.md
 * ./include/experiments/auto/Code_20190713b.md
@@ -370,6 +374,7 @@
 * ./include/experiments/auto/20171112a.md
 * ./include/experiments/auto/Code_20190103a.md
 * ./include/experiments/auto/20180809b.md
+* ./include/experiments/auto/Img_20200608a.md
 * ./include/experiments/auto/Code_20171111a.md
 * ./include/experiments/auto/20200325a.md
 * ./include/experiments/auto/Img_20200421b.md
@@ -459,7 +464,10 @@
 * ./include/probes/auto/apogee.md
 * ./include/probes/auto/retro10PV.md
 * ./include/probes/auto/retro10apogee.md
+* ./include/probes/auto/brd90.md
+* ./include/probes/auto/myapo.md
 * ./include/probes/auto/diasonics_tr.md
+* ./include/probes/auto/linscan.md
 * ./include/probes/auto/apogee10MHz.md
 * ./include/probes/auto/NDTPiezo.md
 * ./include/probes/auto/duc2m.md
@@ -473,8 +481,10 @@
 * ./include/probes/auto/BiViPiezo.md
 * ./include/probes/auto/adrus.md
 * ./include/probes/auto/apogee5MHz.md
+* ./include/probes/auto/brd35.md
 * ./include/probes/auto/bard.md
 * ./include/probes/auto/hp2121.md
+* ./include/probes/auto/brd75.md
 * ./include/probes/auto/shzmch.md
 * ./include/probes/auto/atlannular.md
 * ./retired/cletus/suppliers/Readme.md
@@ -522,6 +532,7 @@
 * ./gitbook/exp/20160822a.md
 * ./gitbook/exp/20190713b.md
 * ./gitbook/exp/20180310a.md
+* ./gitbook/exp/20200608a.md
 * ./gitbook/exp/20200809r.md
 * ./gitbook/exp/20181104c.md
 * ./gitbook/exp/20200421b.md
@@ -658,8 +669,11 @@
 * ./gitbook/probes/apogee.md
 * ./gitbook/probes/retro10PV.md
 * ./gitbook/probes/retro10apogee.md
+* ./gitbook/probes/brd90.md
+* ./gitbook/probes/myapo.md
 * ./gitbook/probes/diasonics_tr.md
 * ./gitbook/probes/Readme.md
+* ./gitbook/probes/linscan.md
 * ./gitbook/probes/apogee10MHz.md
 * ./gitbook/probes/NDTPiezo.md
 * ./gitbook/probes/duc2m.md
@@ -673,8 +687,10 @@
 * ./gitbook/probes/BiViPiezo.md
 * ./gitbook/probes/adrus.md
 * ./gitbook/probes/apogee5MHz.md
+* ./gitbook/probes/brd35.md
 * ./gitbook/probes/bard.md
 * ./gitbook/probes/hp2121.md
+* ./gitbook/probes/brd75.md
 * ./gitbook/probes/shzmch.md
 * ./gitbook/probes/atlannular.md
 

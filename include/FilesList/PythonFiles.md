@@ -54,7 +54,13 @@
 
 * [mkimg.py](/include/20180217a/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/20180217a/Readme.md`](/include/20180217a/Readme.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
+* [mkimg.py](/include/bard/brd75/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
+
+* [mkimg.py](/include/bard/brd35/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
+
 * [mkimg.py](/include/bard/images/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
+
+* [mkimg.py](/include/bard/brd90/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 
 * [mkimg.py](/include/images/kretzaw145ba/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 
@@ -82,13 +88,13 @@
 
 * [mkimg.py](/include/images/Interspec/mkimg.py): Autotagging images for the `20180506a` experiment.. _File not used._
 
-* [mkimg.py](/include/images/202005/linscan/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
+* [mkimg.py](/include/images/202005/linscan/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
 * [mkimg.py](/include/images/202005/apogee/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
 * [mkimg.py](/include/images/202005/duc2m/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
-* [mkimg.py](/include/images/202005/myapo/mkimg.py): Autotagging images for the `20180217a` experiment.. _File not used._
+* [mkimg.py](/include/images/202005/myapo/mkimg.py): Autotagging images for the `20180217a` experiment.. File used in: [`/include/experiments/auto/20180417a.md`](/include/experiments/auto/20180417a.md), [`/include/experiments/auto/Code_20180417a.md`](/include/experiments/auto/Code_20180417a.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
 
 * [mkimg.py](/include/images/13avril2020/sw45b/mkimg.py): Autotagging images for the `ToTag` experiment.. _File not used._
 
@@ -163,6 +169,10 @@
 * [pyUn0.py](/matty/20190104a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20190104a.md`](/include/experiments/auto/20190104a.md).
 
 * [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/experiments/auto/20180224a.md`](/include/experiments/auto/20180224a.md).
+
+* [pyUn0.py](/matty/20200605a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
+
+* [process.py](/matty/20200605a/process.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
 
 * [pyUn0.py](/matty/20200321a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md), [`/include/experiments/auto/20200321a.md`](/include/experiments/auto/20200321a.md).
 
@@ -267,6 +277,10 @@
 * [csv2xyrs.py](/matty/v0.1/build/csv2xyrs.py): . _File not used._
 
 * [pyUn0.py](/matty/LawA/comparatif/data/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
+
+* [pyUn0.py](/matty/20200608a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
+
+* [process.py](/matty/20200608a/process.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
 
 * [pyUn0.py](/matty/20191023a/pyUn0.py): Most updated library for the lit3rick platform.. File used in: [`/include/experiments/auto/20191023a.md`](/include/experiments/auto/20191023a.md).
 
