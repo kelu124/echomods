@@ -3808,7 +3808,22 @@ Tagging wav files? https://pypi.org/project/tinytag/
 #### 2020-06-08 Having fun with brd35
 
 * @todo finish 20200608a and make a gif
+* https://greatrend.en.made-in-china.com/product/AKzmRHYrRBUp/China-Transducer-Replacement-for-Ultrasound-Medical-Machine.html for piezos
 
+#### 2020-06-19 phatr1ck on
+
+* Received minie. Seems ok to flash. Waiting DP's bin to test analog line
+* test _Microphone MEMS: MSM261S4030H0 est un microphone MEMS à sortie numérique I2S omnidirectionnel, à port de fond. Il a des performances élevées_ and do pHAT
+  * [Pins here](https://www.audiophonics.fr/fr/accessoires-pour-raspberry-pi-et-autres-sbc/module-microphone-stereo-omnidirectionnel-i2s-p-13949.html)
+* pHATr1ck motherboard is designed, thanks ahmed
+* received upduino v2.1 and v3.0 for further tests!
+
+#### 2020-06-21 Ideas more
+
+* Got motherboard design. Forgot VGA. Need 5 pins (H/V/R/G/B). 68R for H&V, RGB at 470R if different channels. 180R if all three are connected. [ref](https://www.gammon.com.au/forum/?id=11608). Pins from: PCM1,2,3. 
+  * 640*480 -> 128 us = 512 (4px per us) x 256  (8bits). Rest is fun.
+  * DB15 socket
+* DEBUG 24MHz8ch -> device is fx2lafw. Pulseview working.
 
 =======
 
