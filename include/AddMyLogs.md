@@ -3679,7 +3679,48 @@ Tagging wav files? https://pypi.org/project/tinytag/
 #### 2020-06-08 Having fun with brd35
 
 * @todo finish 20200608a and make a gif
+* https://greatrend.en.made-in-china.com/product/AKzmRHYrRBUp/China-Transducer-Replacement-for-Ultrasound-Medical-Machine.html for piezos
 
+#### 2020-06-19 phatr1ck on
+
+* Received minie. Seems ok to flash. Waiting DP's bin to test analog line
+* test _Microphone MEMS: MSM261S4030H0 est un microphone MEMS à sortie numérique I2S omnidirectionnel, à port de fond. Il a des performances élevées_ and do pHAT
+  * [Pins here](https://www.audiophonics.fr/fr/accessoires-pour-raspberry-pi-et-autres-sbc/module-microphone-stereo-omnidirectionnel-i2s-p-13949.html)
+* pHATr1ck motherboard is designed, thanks ahmed
+* received upduino v2.1 and v3.0 for further tests!
+
+#### 2020-06-21 Ideas more
+
+* Got motherboard design. Forgot VGA. Need 5 pins (H/V/R/G/B). 68R for H&V, RGB at 470R if different channels. 180R if all three are connected. [ref](https://www.gammon.com.au/forum/?id=11608). Pins from: PCM1,2,3. 
+  * 640*480 -> 128 us = 512 (4px per us) x 256  (8bits). Rest is fun.
+  * DB15 socket
+* DEBUG 24MHz8ch -> device is fx2lafw. Pulseview working.
+
+#### 2020-06-27 Artists et dreams
+
+* @todo check artists meet makers
+  * https://notnot.home.xs4all.nl/index.html  me likey artistic installation
+  * https://jonghongpark.com/bit.html 
+  * https://www.mainsdoeuvres.org/Devenir-artiste-programmeur-en-Arduino.html?lang=fr
+  * http://www.christiandelecluse.com/ 
+  * http://yvesbrozat.com/
+* Brilliant read: https://archive.org/details/computer-lib-dream-machines
+* @todo Close the todos.
+
+#### 2020-07-20 Taking time
+
+* Just realized the pH4Tr1ck project had been alive long. Need to close it. Put back an AD8331 on the main board and that's it.
+* Working on meters.. a few things to learn along the way?
+  * [ATM90E36a](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf) (DMA dump) / [ATM90E26 single channel](http://ww1.microchip.com/downloads/en/Appnotes/Atmel-46102-SE-M90E26-ApplicationNote.pdf)
+  * [ADE9000](https://www.analog.com/media/en/technical-documentation/data-sheets/ADE9000.pdf) and [manual](https://www.analog.com/media/en/technical-documentation/user-guides/ADE9000-UG-1098.pdf) -> see "BURST READ WAVEFORM BUFFER SAMPLES FROM SPI"
+  * [ADE7878A](https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7854A_7858A_7868A_7878A.pdf) (see test circuit) + [](https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7854A_7858A_7868A_7878A.pdf) + existing [shield](https://wiki.openenergymonitor.org/index.php/ADE7878A_rpi).
+* See also : Analysis and Selection of Appropriate Components for Power System Metrology Instrument
+
+#### 2020-07-26 NextSteps
+
+* @todo bin for un0rick ftdi control
+* @todo lit3rick v1.5 with AD8331
+* @todo complete a lit3rick motherboard
 
 =======
 
