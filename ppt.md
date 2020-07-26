@@ -115,9 +115,10 @@ _Total cost of the set: 443$_
 
 # Experiments
 
- * [20200809r](/include/experiments/auto/20200809r.md)
- * [20200808r](/include/experiments/auto/20200808r.md)
- * [20200508a](/include/experiments/auto/20200508a.md)
+ * 2020-08-09: [bard vna](/include/experiments/auto/20200809r.md): bard vna tests _(20200809r)_
+ * 2020-08-08: [all probes vna](/include/experiments/auto/20200808r.md): getting impedance params of all probes _(20200808r)_
+ * 2020-06-08: [brd35 test](/include/experiments/auto/20200608a.md): testing an electromagnetic movement probe _(20200608a)_
+ * 2020-05-08: [testing bard probe](/include/experiments/auto/20200508a.md): Nothing much really _(20200508a)_
  * 2020-04-21: [a-law](/include/experiments/auto/20200421b.md): testing a-law compressions compared to log and sqrt _(20200421b)_
  * 2020-04-21: [comparing boards](/include/experiments/auto/20200421a.md): preliminary check between lit3rick and un0rick _(20200421a)_
  * 2020-04-18: [echo-tomo](/include/experiments/auto/20200418a.md): Trying to get a tomo echo image _(20200418a)_
