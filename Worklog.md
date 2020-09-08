@@ -3902,6 +3902,12 @@ Always wanted to have a riscv inside my board ;)
 * fun stuff: https://im-possible.info/english/library/index.html
 * [https://imgs.xkcd.com/comics/dependency.png](https://imgs.xkcd.com/comics/dependency.png)
 
+#### 2020-09-08 back in the city
+
+* @todo integrate some documentation for un0rick and lit3rick as in http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/3.05x6.5/TE0876/REV02/Documents/iceZero-pinout-v5.pdf
+* @todo move forward on some new hardware like the [ft600](./include/ft_600_notes.md)
+* @todo add a section on the un0rick place: "_If you like the silly things I do, you can say thanks by_"
+
 =======
 
 uControllers and other stuff
