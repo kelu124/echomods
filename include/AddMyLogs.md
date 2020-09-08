@@ -3721,6 +3721,52 @@ Tagging wav files? https://pypi.org/project/tinytag/
 * @todo bin for un0rick ftdi control
 * @todo lit3rick v1.5 with AD8331
 * @todo complete a lit3rick motherboard
+* adding a 0.1uF cap increases the LNA performance: yeay ! But shitty wires mean: noise.
+
+Always wanted to have a riscv inside my board ;)
+
+* Interesting : https://pingu98.wordpress.com/2019/04/08/how-to-build-your-own-cpu-from-scratch-inside-an-fpga/
+* Toolchain for riscv at https://github.com/cranphin/picorv32
+  * https://mindchasers.com/dev/rv-getting-started (?) in priority, if it doesn't work then..
+  * make download-tools
+  * make -j$(nproc) build-tools
+
+#### 2020-08-01 lit3rick_v2.1
+
+* R0 on the bottom.. and .. good to go !
+* Very interesting: games : https://8bitworkshop.com/v3.6.0/?platform=verilog&file=clock_divider.v
+* lit3rick structure
+
+````
+ + lit3rick
+   + images
+   + doc
+   + overview 
+   |   \ build_pdf.sh
+   |   \ paper.pdf
+   + article
+   |   \ design_ideas
+   + software
+   |   + bonuses
+   |   |  \ other_verilog 
+   |   + verilog
+   |   |  + barebones
+   |   |  + i2s_stream
+   |   + rpi_utils
+   |   |  \ icoprog, ifoprog 
+   |   + python
+   |      + lib
+   + examples
+   |   + acquisitions_n_processing
+   + hardware
+   |   \ archive_of_upverter 
+   |   \ schematics 
+   \ Readme.md
+   \ Licenses.md
+   \ Changelog.md
+   \ lit3rick.pdf
+
+````
 
 =======
 
