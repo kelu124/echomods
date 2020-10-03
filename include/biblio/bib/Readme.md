@@ -383,13 +383,21 @@
 * [x] [garcia_piezoelectric_2014] __Piezoelectric transducer built-in self-test for logging while drilling instrument sensor evaluation at rig site__ by Garcia, Juan Elias
 * [ ] [echopen_echopen_nodate] __echOpen device characteristics__ by echOpen
 * [ ] [noauthor_wrist_nodate] __Wrist and Finger Gesture Recognition With Single-Element Ultrasound Signals: A Comparison With Single-Channel Surface Electromyogram - IEEE Journals \& Magazine__
-* [ ] [zimmermann_highly_2019] __Highly Miniaturized 8-Ch System__ by Zimmermann, Heiko
-* [ ] [zimmermann_miniaturized_2018] __Miniaturized Multi-Channel System__ by Zimmermann, Heiko
-* [ ] [zimmermann_high_2018] __High Frequency 1-Ch System__ by Zimmermann, Heiko
+* [x] [zimmermann_highly_2019] __Highly Miniaturized 8-Ch System__ by Zimmermann, Heiko
+* [x] [zimmermann_miniaturized_2018] __Miniaturized Multi-Channel System__ by Zimmermann, Heiko
+* [x] [zimmermann_high_2018] __High Frequency 1-Ch System__ by Zimmermann, Heiko
 * [ ] [lecoeur_bluetooth_nodate] __Bluetooth single channel ultrasonic device - Android systems__ by LeCoeur
 * [ ] [biosono_sonolab_nodate] __SonoLab Echo I hardware__ by Biosono
-* [ ] [brausch_towards_2019] __Towards a wearable low-cost ultrasound device for classification of muscle activity and muscle fatigue__ by Brausch, Lukas and Hewener, Holger and Lukowicz, Paul. (_DOI: [10.1145/3341163.3347749](https://doi.org/10.1145/3341163.3347749)_).
-* [ ] [brausch_classifying_2019] __Classifying muscle states with ultrasonic single element transducer data using machine learning strategies__ by Brausch, Lukas and Hewener, Holger. (_DOI: [10.1121/2.0001140](https://doi.org/10.1121/2.0001140)_).
+* [x] [brausch_towards_2019] __Towards a wearable low-cost ultrasound device for classification of muscle activity and muscle fatigue__ by Brausch, Lukas and Hewener, Holger and Lukowicz, Paul. (_DOI: [10.1145/3341163.3347749](https://doi.org/10.1145/3341163.3347749)_).
+* [x] [brausch_classifying_2019] __Classifying muscle states with ultrasonic single element transducer data using machine learning strategies__ by Brausch, Lukas and Hewener, Holger. (_DOI: [10.1121/2.0001140](https://doi.org/10.1121/2.0001140)_).
+* [ ] [garcia-rodriguez_low_2010] __Low cost matching network for ultrasonic transducers__ by Garcia-Rodriguez, M. and Garcia-Alvarez, J. and Yañez, Y. and Garcia-Hernandez, M.J. and Salazar, J. and Turo, A. and Chavez, J.A.. (_DOI: [10.1016/j.phpro.2010.01.132](https://doi.org/10.1016/j.phpro.2010.01.132)_).
+* [ ] [zhang_full_2019] __Full noncontact laser ultrasound: first human data__ by Zhang, Xiang and Fincke, Jonathan R. and Wynn, Charles M. and Johnson, Matt R. and Haupt, Robert W. and Anthony, Brian W.. (_DOI: [10.1038/s41377-019-0229-8](https://doi.org/10.1038/s41377-019-0229-8)_).
+* [ ] [yu_direct_2020] __Direct Acoustic Imaging Using a Piezoelectric Organic Light-Emitting Diode__ by Yu, Hyeonggeun and Kim, Jinwook and Kim, Howuk and Barange, Nilesh and Jiang, Xiaoning and So, Franky. (_DOI: [10.1021/acsami.0c05615](https://doi.org/10.1021/acsami.0c05615)_).
+* [ ] [wei_design_2020] __Design of an automatic impedance matching circuit based on frequency tracking of ultrasonic transducer__ by Wei, Chen and Chen, Haitao and Chen, Yutong. (_DOI: [10.1109/ITOEC49072.2020.9141869](https://doi.org/10.1109/ITOEC49072.2020.9141869)_).
+* [ ] [santagati_design_2020] __Design and Performance Evaluation of an Implantable Ultrasonic Networking Platform for the Internet of Medical Things__ by Santagati, G. Enrico and Dave, Neil and Melodia, Tommaso. (_DOI: [10.1109/TNET.2019.2949805](https://doi.org/10.1109/TNET.2019.2949805)_).
+* [ ] [oliveira_future_2020] __The Future of Low-End Motes in the Internet of Things: A Prospective Paper__ by Oliveira, Daniel and Costa, Miguel and Pinto, Sandro and Gomes, Tiago. (_DOI: [10.3390/electronics9010111](https://doi.org/10.3390/electronics9010111)_).
+* [ ] [saiz-vela_low-cost_2020] __A low-cost development platform to design digital circuits on FPGAs using open-source software and hardware tools__ by Saiz-Vela, Albert and Fontova, Pau and Pallejá, Tomás and Tresanchez, Marcel and Garriga, Juan Antonio and Roig, Concepció. (_DOI: [10.1109/TAEE46915.2020.9163730](https://doi.org/10.1109/TAEE46915.2020.9163730)_).
+* [ ] [hooker_hardware_2020] __The Hardware Lottery__ by Hooker, Sara
 
 
 
