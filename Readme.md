@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G81MT0G)
+
 # What is this project? [](@description Pitch/Intro of the project)
 
 This project has a specific target of providing a __low-cost, open source technological kit to allow scientists, academics, hackers, makers or OSHW fans to hack their way to ultrasound imaging__ - below 500$ - at home, with no specific equipment required. For complementary sources of information, you can visit:
@@ -207,6 +209,9 @@ and used in a wider context:
 
 # Experiments
 
+ * [2021022a](/include/experiments/auto/2021022a.md)
+ * [20201023a](/include/experiments/auto/20201023a.md)
+ * [20201022a](/include/experiments/auto/20201022a.md)
  * 2020-08-09: [bard vna](/include/experiments/auto/20200809r.md): bard vna tests _(20200809r)_
  * 2020-08-08: [all probes vna](/include/experiments/auto/20200808r.md): getting impedance params of all probes _(20200808r)_
  * 2020-06-08: [brd35 test](/include/experiments/auto/20200608a.md): testing an electromagnetic movement probe _(20200608a)_
@@ -480,7 +485,6 @@ Here's a couple of things we're working on, for which you could help as well.
 * integrate some documentation for un0rick and lit3rick as in http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/3.05x6.5/TE0876/REV02/Documents/iceZero-pinout-v5.pdf
 * move forward on some new hardware like the [ft600](./include/ft_600_notes.md)
 * add a section on the un0rick place: "_If you like the silly things I do, you can say thanks by_"
-* mapping registers of the lit3rick device
 
 
 

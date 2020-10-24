@@ -3783,13 +3783,28 @@ Always wanted to have a riscv inside my board ;)
 
 A week of documentation ahead =) 
 
-* With the help of @Jorge Arija, happy to release two small boards for HV !
+* @done With the help of @Jorge Arija, happy to release two small boards for HV !
   * https://github.com/kelu124/lm3478 for a LM3478 fixed output at +-90V (changeable between 80 and 200V by changing a feedback board), single 5V input.
   * https://github.com/kelu124/DRV8662-devkit for a small unipolar output of 250V with minimal BOM cost from 5V.
-* Need to update un0rick.cc website with Jekyll pages and tutos for the different products.
-* @todo mapping registers of the lit3rick device
+* @done Need to update un0rick.cc website with Jekyll pages and tutos for the different products.
+* @donenotnecessar mapping registers of the lit3rick device
 
+#### 2020-10-18 Holidays passed
 
+And the [un0rick.cc](http://un0rick.cc) website is on. Now on to:
+* try the 250 supply
+* try the +-90V supply
+* FUp with waveshaping on lit3rick (more flexibility)
+* FUp on the USB component for un0rick
+* Receive Zynq
+* Do ADC08200 PMOD
+* also improved biblio for the article, including competition
+
+Work on the __rectenna__ project
+* [Pitch](https://www.edaboard.com/threads/rectenna-rectifying-antenna.49902/)
+* Good ideas [An Approach for Managing Manufacturing Assets through Radio Frequency Energy Harvesting](https://sci-hub.st/10.3390/s19030438) & [designs](https://www.intechopen.com/books/recent-wireless-power-transfer-technologies/rectenna-systems-for-rf-energy-harvesting-and-wireless-power-transfer) and [antennas](https://sci-hub.st/10.1587/TRANSELE.E98.C.608).
+* [Basic idea](https://www.youtube.com/watch?app=desktop&v=XpLCK88nVgU) or https://tentzeris.ece.gatech.edu/Procs14_Sangkil.pdf
+https://hal.archives-ouvertes.fr/hal-00827697/file/NEWCAS_2012.pdf
 
 
 =======

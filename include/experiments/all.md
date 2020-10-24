@@ -1,3 +1,5 @@
+* 20201022a: Spain: Jorge tests on lit3rick
+* 20201023a: Canada: Silvio first lit3rick tests
 * 20200608a: brd35 test: testing an electromagnetic movement probe
 * 20200809r: bard vna: bard vna tests 
 * 20200808r: all probes vna: getting impedance params of all probes 

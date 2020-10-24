@@ -166,7 +166,7 @@
 
 * [pyUn0.py](/matty/20190329a/pyUn0.py): Most updated library for the un0rick platform.. _File not used._
 
-* [pyUn0.py](/matty/20190104a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20190104a.md`](/include/experiments/auto/20190104a.md), [`/include/experiments/auto/20190103a.md`](/include/experiments/auto/20190103a.md).
+* [pyUn0.py](/matty/20190104a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20190104a.md`](/include/experiments/auto/20190104a.md).
 
 * [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. File used in: [`/include/experiments/auto/20180224a.md`](/include/experiments/auto/20180224a.md).
 
@@ -248,7 +248,7 @@
 
 * [pyUn0.py](/matty/20191022b/pyUn0.py): Most updated library for the lit3rick platform.. File used in: [`/include/experiments/auto/20191022b.md`](/include/experiments/auto/20191022b.md).
 
-* [mkimg.py](/matty/20180511a/mkimg.py): Autotagging images for the `20180511a` experiment.. File used in: [`/include/experiments/auto/20180511a.md`](/include/experiments/auto/20180511a.md).
+* [mkimg.py](/matty/20180511a/mkimg.py): Autotagging images for the `20180511a` experiment.. _File not used._
 
 * [mkimg.py](/matty/20180403b/mkimg.py): Autotagging images for the `20180310a` experiment.. File used in: [`/include/experiments/auto/20180310a.md`](/include/experiments/auto/20180310a.md), [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
 
@@ -290,7 +290,7 @@
 
 * [pyUn0.py](/matty/20200416a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
 
-* [pyUn0.py](/matty/20190103a/pyUn0.py): Most updated library for the un0rick platform.. File used in: [`/include/experiments/auto/20190103a.md`](/include/experiments/auto/20190103a.md).
+* [pyUn0.py](/matty/20190103a/pyUn0.py): Most updated library for the un0rick platform.. _File not used._
 
 * [mkimg.py](/matty/20180225a/mkimg.py): Autotagging images for the `20180225a` experiment.. File used in: [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
 

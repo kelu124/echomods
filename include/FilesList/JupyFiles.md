@@ -80,7 +80,7 @@
 * [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md).
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). _File not used._
 * [RPi.ipynb](/matty/images/20180221a/RPi.ipynb). _File not used._
-* [20180511a-Enveloppe.ipynb](/matty/20180511a/20180511a-Enveloppe.ipynb). File used in: [`/include/experiments/auto/20180511a.md`](/include/experiments/auto/20180511a.md).
+* [20180511a-Enveloppe.ipynb](/matty/20180511a/20180511a-Enveloppe.ipynb). _File not used._
 * [20180403b-Client.ipynb](/matty/20180403b/20180403b-Client.ipynb). File used in: [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
 * [20180403b-Server.ipynb](/matty/20180403b/20180403b-Server.ipynb). File used in: [`/include/experiments/auto/20180403b.md`](/include/experiments/auto/20180403b.md), [`/include/experiments/auto/Code_20180403b.md`](/include/experiments/auto/Code_20180403b.md).
 * [20180831c-Server.ipynb](/matty/20180831c/20180831c-Server.ipynb). File used in: [`/include/experiments/auto/20180831c.md`](/include/experiments/auto/20180831c.md), [`/include/experiments/auto/Code_20180831c.md`](/include/experiments/auto/Code_20180831c.md).
@@ -105,8 +105,8 @@
 * [20200608a-file10.ipynb](/matty/20200608a/20200608a-file10.ipynb). File used in: [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
 * [20200325a-PicklingInterestingData.ipynb](/matty/20200416a/20200325a-PicklingInterestingData.ipynb). File used in: [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
 * [20200325a-Acquisitions.ipynb](/matty/20200416a/20200325a-Acquisitions.ipynb). File used in: [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
-* [20190103a-Client.ipynb](/matty/20190103a/20190103a-Client.ipynb). File used in: [`/include/experiments/auto/20190103a.md`](/include/experiments/auto/20190103a.md).
-* [20190103a-Server.ipynb](/matty/20190103a/20190103a-Server.ipynb). File used in: [`/include/experiments/auto/20190103a.md`](/include/experiments/auto/20190103a.md).
+* [20190103a-Client.ipynb](/matty/20190103a/20190103a-Client.ipynb). _File not used._
+* [20190103a-Server.ipynb](/matty/20190103a/20190103a-Server.ipynb). _File not used._
 * [20180225a-Loops.ipynb](/matty/20180225a/20180225a-Loops.ipynb). File used in: [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
 * [20180225a-Server.ipynb](/matty/20180225a/20180225a-Server.ipynb). File used in: [`/include/experiments/auto/20180225a.md`](/include/experiments/auto/20180225a.md), [`/include/experiments/auto/Code_20180225a.md`](/include/experiments/auto/Code_20180225a.md).
 * [20180901a-Client.ipynb](/matty/20180901a/20180901a-Client.ipynb). _File not used._
