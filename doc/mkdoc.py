@@ -51,7 +51,7 @@ ValidH = ["h1","h2","h3","h4","h5"]
 
 ModulesChaptDeux = ["retroATL3","goblin","elmo","lite.tbo"]
 ModulesChaptDeuxRT = ["mogaba","toadkiller","tobo","alt.tbo"]
-ModulesChaptTrois = ["silent","doj","wirephantom","matty"]
+ModulesChaptTrois = ["silent","doj","wirephantom","matty","lit3rick"]
 ModulesChaptTroisRT= ["sleepy","oneeye","cletus","croaker","loftus","tomtom"]
 
 ModulesList = ModulesChaptDeux+ModulesChaptTrois

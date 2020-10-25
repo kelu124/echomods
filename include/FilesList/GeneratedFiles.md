@@ -669,6 +669,7 @@
 * ./gitbook/Chapter3/loftus.md
 * ./gitbook/Chapter3/matty.md
 * ./gitbook/Chapter3/bomanz2.md
+* ./gitbook/Chapter3/lit3rick.md
 * ./gitbook/Chapter3/croaker.md
 * ./gitbook/Chapter3/silent.md
 * ./gitbook/Chapter3/wirephantom.md

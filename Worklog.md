@@ -3935,6 +3935,12 @@ Work on the __rectenna__ project
 * [Basic idea](https://www.youtube.com/watch?app=desktop&v=XpLCK88nVgU) or https://tentzeris.ece.gatech.edu/Procs14_Sangkil.pdf
 https://hal.archives-ouvertes.fr/hal-00827697/file/NEWCAS_2012.pdf
 
+#### 2020-10-25 Pushing more
+
+* Completing the [un0rick.cc](http://un0rick.cc) website.
+* Improving lit3rick code
+* @todo find the i2s issue
+* Pushing a few experiments related to lit3rick
 
 =======
 

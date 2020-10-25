@@ -194,6 +194,7 @@ and used in a wider context:
 |<img src='https://raw.githubusercontent.com/kelu124/echomods/master/elmo/viewme.png' align='center' width='150'>|**[elmo](/elmo/Readme.md)**: The aim of this module is to achieve 20Msps, at 9bits or more. |<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-19_3.3V</li><li>ITF-12_RPIn</li></ul>|<ul><li>Signal Digitalized</li></ul>|
 |<img src='https://raw.githubusercontent.com/kelu124/echomods/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed, with all steps accessible to hackers. |<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-7_GAIN</li><li>ITF-4_RawSig</li><li>ITF-3_ENV</li><li>ITF-18_Raw</li><li>ITF-mET_SMA</li></ul>|<ul><li>ITF-4_RawSig</li><li>ITF-3_ENV_signal_envelope</li><li>ITF-mEG_SPI</li></ul>|
 |<img src='https://raw.githubusercontent.com/kelu124/echomods/master/lite.tbo/viewme.png' align='center' width='150'>|**[lite.tbo](/lite.tbo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-19_3.3V</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-18_Raw</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
+|<img src='https://raw.githubusercontent.com/kelu124/echomods/master/lit3rick/viewme.png' align='center' width='150'>|**[lit3rick](/lit3rick/Readme.md)**: The aim is to summarize all modules in a all-inclusive board. Fast ADC, good load of memory, good SNR.. the not-so-DIY module, as it comes already assembled with nothing to do. Based on up5k.|||
 |<img src='https://raw.githubusercontent.com/kelu124/echomods/master/matty/viewme.png' align='center' width='150'>|**[matty](/matty/Readme.md)**: The aim is to summarize all modules in a all-inclusive board. Fast ADC, good load of memory, good SNR.. the not-so-DIY module, as it comes already assembled with nothing to do =)|||
 |<img src='https://raw.githubusercontent.com/kelu124/echomods/master/doj/viewme.png' align='center' width='150'>|**[doj](/doj/Readme.md)**: Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See this for the Kicad files.|||
 |<img src='https://raw.githubusercontent.com/kelu124/echomods/master/wirephantom/viewme.png' align='center' width='150'>|**[wirephantom](/wirephantom/Readme.md)**: Just a phantom for calibrated signals|<ul><li>na</li></ul>|<ul><li>na</li></ul>|
@@ -209,8 +210,8 @@ and used in a wider context:
 
 # Experiments
 
- * [20201023a](/include/experiments/auto/20201023a.md)
- * [20201022a](/include/experiments/auto/20201022a.md)
+ * 2020-10-23: [Canada](/include/experiments/auto/20201023a.md): Silvio first lit3rick tests _(20201023a)_
+ * 2020-10-22: [Spain](/include/experiments/auto/20201022a.md): Jorge tests on lit3rick _(20201022a)_
  * 2020-08-09: [bard vna](/include/experiments/auto/20200809r.md): bard vna tests _(20200809r)_
  * 2020-08-08: [all probes vna](/include/experiments/auto/20200808r.md): getting impedance params of all probes _(20200808r)_
  * 2020-06-08: [brd35 test](/include/experiments/auto/20200608a.md): testing an electromagnetic movement probe _(20200608a)_
@@ -363,6 +364,7 @@ Here's a couple of things we're working on, for which you could help as well.
 ### Todos from Modules
 * Test Goblin v2 (in [goblin](/goblin/))
 * Review a bipolar design (originally alt.tbo -- but double the components and hence the price) (in [lite.tbo](/lite.tbo/))
+* Improve i2s transfers (in [lit3rick](/lit3rick/))
 * See the <a href="/matty/nextsteps.md">next steps</a> (in [matty](/matty/))
 * Having it work with a <a href="/retroATL3/">retroATL3</a> (in [matty](/matty/))
 * None (in [wirephantom](/wirephantom/))

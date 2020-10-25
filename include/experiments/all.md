@@ -1,3 +1,5 @@
+* 20201024a: i2s issue: Exploring the i2s offsets
+* 20201008a: benchmark lit3 and un0: Running acquisitions on the same rig.
 * 20201022a: Spain: Jorge tests on lit3rick
 * 20201023a: Canada: Silvio first lit3rick tests
 * 20200608a: brd35 test: testing an electromagnetic movement probe
