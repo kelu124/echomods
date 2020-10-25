@@ -1896,8 +1896,8 @@ Netty isn't nice... but just got my article accepted by JOH !
 
 * Pushing some pics of the [devkit 2.0](/include/devkit2.0/20170529_203924_notes.jpg) - note that this config allows pulse transmit. Pulse from the pulser, receiving through the analog front end.. and acquisition managed by the adc and raspberry.
 * Note to self: this config requires a "good" usb power supply. It succeded with a 5V 750mA power supply - but failed from USB.
-* @todo Add a documentation server
-* @todo Display IP on the OLED.
+* @done Add a documentation server
+* @done Display IP on the OLED.
 
 #### 2017-06-09 Lots ongoing !
 
@@ -2076,7 +2076,7 @@ Nice to have:
 * @done Main readme as TPL
 * @cancelled DICOM rest of images
 
-* @todo test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
+* @done test some compressed sensing using [golay codes](/include/20170325/PulseCode.pdf) on a single element piezo
 
 #### 2017-08-14 Zach
 
@@ -2216,7 +2216,7 @@ __More [Raspberry Pi Zero notes](/retired/croaker/notes_RPi0.md)__
 * Loving PoC || GTFO : https://www.alchemistowl.org/pocorgtfo/
 * Check : Lattice iCE40UL1K-SWG16 -- http://www.latticesemi.com/Products/FPGAandCPLD/iCE40.aspx (used on https://hackaday.io/project/6592-dipsy ) -- quite a small FPGA !!
 * Onboard gyro https://playground.arduino.cc/Main/MPU-6050 ?
-* @todo _senjak_ 15:07  In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself -- https://github.com/ESultanik/PDFGitPolyglot/blob/master/make_polyglot.sh
+* @done _senjak_ 15:07  In Which a PDF is a Git Repository Containing its own Latex Source and a Copy of Itself -- https://github.com/ESultanik/PDFGitPolyglot/blob/master/make_polyglot.sh
 * FUp:
   * SENT - https://www.ebay.com/itm/ATL-Access-A-Ultrasound-Probe-LOT-2-/131588905820?hash=item1ea34f5b5c:g:COUAAOSwyQtV3Xkg&autorefresh=true
   * TOBESENT - https://www.ebay.com/itm/ATL-5-0MHz-Access-A-12-7mm-Dia-6cm-FP-Ultrasound-Probe-3238-/291684630810?epid=1258231447&hash=item43e9c2411a:m:mmiDQT-0egKab5ctOAd5igw
@@ -2488,7 +2488,7 @@ ebay
 * MacroFab costs/prices model is reviewed
 * http://shyrobotics.com/2017/12/13/skywalker-prothese-de-main-controlee-ultrasons/ to be used with single large sensors for flat imaging!
 * [Article: 8051 microcontroller to FPGA and ADC interface design for high speed parallel processing systems – Application in ultrasound scanners](https://www.researchgate.net/publication/301933773_8051_microcontroller_to_FPGA_and_ADC_interface_design_for_high_speed_parallel_processing_systems_-_Application_in_ultrasound_scanners)
-* @todo classifier articles with link Article: =)
+* @done classifier articles with link Article: =)
 
 * @ushound https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7766 for ADC, SPU0410LR5H for mems
   * 4 LED (listening, saving, ... ?)
@@ -2524,7 +2524,7 @@ And stuff! Some good todos for this year:
 * @done added [experiment from Felix](https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20180103a.md)
 * @ongoing better experiments scanning
 * @done readding description into experiment files
-* @todo a page sumarizing the experiments (as in the __Experiments__ page in the gitbook)
+* @done a page sumarizing the experiments (as in the __Experiments__ page in the gitbook)
 
 Also working on a compilation of best open source projects using ultrasounds -- https://github.com/kelu124/openultrasoundprojects or https://kelu124.github.io/openultrasoundprojects/
 
@@ -2638,7 +2638,7 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 * I got [nice echoes day](/matty/20180224b/Readme.md) before yesterday (oops I mentioned those already)
 * Got [images with a probe yesterday](/matty/20180225a/Readme.md)
 
-* @todo use [General Design Procedure for Free and Open-Source Hardware for Scientific Equipment](http://www.mdpi.com/2411-9660/2/1/2/htm) as a reference
+* @done use [General Design Procedure for Free and Open-Source Hardware for Scientific Equipment](http://www.mdpi.com/2411-9660/2/1/2/htm) as a reference
 * nice [5V to 170V booster](https://surfncircuits.com/2018/02/03/optimizing-the-5v-to-170v-nixie-tube-power-supply-design-part-2/) with the [schematics](https://raw.githubusercontent.com/drkmsmithjr/NixiePowerSupply/master/KC_NixieSupply5vTo160v/nixiesupply5vto160vdcmboost-sch.png).
 
 * Get inspiration [from this inspiration](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
@@ -2653,7 +2653,7 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 * Iterations for next steps:
   * [Roadmap for the next evolution](/matty/mat2un.md)
   * Phantom in PU to do ? What accoustic impedance?
-  * @todo for matty [Rip this intro?](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
+  * @done for matty [Rip this intro?](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
 
 * Other stuff: explore ETH
   * https://steemit.com/ethereum/@cryptomancer/ethereum-for-dummies-introducing-the-next-great-technological-leap-forward
@@ -2677,7 +2677,7 @@ Nothing works yet on the MOSI line... strange to read those. Version from 11/02 
 * Explore USED Bard Site Rite - https://www.youtube.com/watch?v=8iUkeJvSXtE (v3) or https://www.youtube.com/watch?v=qxanLwW8EL8 (v2)	
   * Bard Site Rite 37522 5C-45C 7.5MHz Ultrasound Transducer Probe 68mmFL Dymax 0470
   * http://journal.chestnet.org/article/S0012-3692(15)46601-2/fulltext
-  * @todo decrypt the connector for the Bard probe
+  * @done decrypt the connector for the Bard probe
 
 #### 2018-03-08 Cleaning repos
 
@@ -2718,7 +2718,7 @@ polymeric materials include neoprene, ethylene propylene diene monomer (EPDM) an
 * http://www.acousticpolymers.co.uk/pages/profile.html
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3651250/ or 10.1118/1.4802083
 
-* Loved Nasa: @todo add to un0rick
+* Loved Nasa: @done add to un0rick
 
     fow uopeytdeus hesor tpe wonfretuw
     ca amwi et detr
@@ -2779,10 +2779,10 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * @done before reclean full repo, create release "Full Dev Resources" and get corresponding version (v1.9 + hash)!
   * @cancelled : Add Full GitBook PDF to it before
 * @done Sort the list of experiments, shortnames in SUMMARY
-* @todo Community: list the contributors in a page + add the experiment. Individual page to point to experiment.
+* @done Community: list the contributors in a page + add the experiment. Individual page to point to experiment.
 * @done Page on [documentation](/include/autodoc.md)
 * @done Edit [history](https://kelu124.gitbooks.io/echomods/content/Chapter1/history.html) page to add Matty.
-* @todo Rewrite the Chapters Readme -> "This chapter is dedicated to the brain_dumps "
+* @done Rewrite the Chapters Readme -> "This chapter is dedicated to the brain_dumps "
 * @done Do a Doj  (LOW PRIORITY)
 * @done Redo a usable alt.tbo (LOW PRIORITY)
 * @done Clean Modules list (keep lite.tbo, goblin, cletus, doj, elmo, matty) + add "CNprobe"
@@ -2802,7 +2802,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 #### 2018-04-28 Back in the game
 
 * [Superb work on the single element imaging here](/include/articles/Fedjajevs_mscthesis_14_09_2016.pdf), or [here](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f). 
-* @todo contact the [author](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f) !
+* @done contact the [author](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f) !
 * Interesting [Signostic work](https://patents.google.com/patent/US20100324418) on single element probes
 * Interesting [vintage designs](https://patents.google.com/patent/US20030078501A1/en)
 * See https://graph-tool.skewed.de/static/doc/index.html for mapping patents =)
@@ -2837,7 +2837,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 #### 2018-05-11 A new article on the way
 
 * @done Resume work on article - [Draft is here](/matty/article/matty_article.md)
-* @todo contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)
+* @done contact the guys from https://www.iith.ac.in/~raji/Cpapers/LPFB.pdf (check their prices)
 * Need to test different uses.
 * https://open-labware.net/projects/flypi/
 
@@ -2849,7 +2849,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-05-16 improving format system
 
-* @todo add Anna and Matthew to users list
+* @done add Anna and Matthew to users list
 * better [acquisition library](/matty/20180516a/Readme.md)
 
 * Interesting [brochure on archive](https://ia601705.us.archive.org/17/items/Hewlett-Packard_Journal_Vol._34_No._10_1983-10_Hewlett-Packard/Hewlett-Packard_Journal_Vol._34_No._10_1983-10_Hewlett-Packard.pdf)
@@ -2865,10 +2865,10 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 * Wondering if/why I'm slowing down on producing.. Too many users / too many Q&A to answer?
 * Adding [ultrasound pHAT](https://github.com/kelu124/ultrasHound/tree/master/pHAT) to listen to and emit ultrasounds (15-25khz)
-  * @todo idea for the ultrasound phat : QuietShark (see https://twitter.com/Dymaxion/status/962385327599112193?s=19 )
+  * @done idea for the ultrasound phat : QuietShark (see https://twitter.com/Dymaxion/status/962385327599112193?s=19 )
   * article idea for the un0rick doc: https://gregdavill.com/blog/2018/6/21/boson-camera-project-part-3
-* @todo Add new un0rick code, and documentation (both FPGA side, FPGA SPI level, Python)
-* @todo article un0rick article and pics
+* @done Add new un0rick code, and documentation (both FPGA side, FPGA SPI level, Python)
+* @done article un0rick article and pics
   * reference to this http://innovations.bmj.com/content/2/2/78
   * other book images
 
@@ -2877,7 +2877,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * Article: Impressive [Development of a Low-Cost Medical Ultrasound Scanner Using a Monostatic Synthetic Aperture](https://ieeexplore.ieee.org/document/7982705/)
   * I'm a noob at this, but it seems that MFFS uses fixed focus piezos, but MSAS does focusing in the software (hence synthetic aperture) using a piezo of known size. That's an interesting alternative to focused piezos.
   * Some other interesting insights, like using "Quality Assurance for UltraSound (QA4US) software" for image quality assessment, or also the architecture they used (an ARM, 14-bit ADC at 12Msps), or even the fact that the piezo is in direct contact with the skin, or a motor using a Voice Coil Motor.
-  * @todo add the MSAS principles to the un0rick article
+  * @done add the MSAS principles to the un0rick article
 * Module
   * #define PI2 or get_rpi_version
   * https://raspberrypi.stackexchange.com/questions/44858/how-to-transmit-a-binary-bit-stream-from-a-gpio-pin/44882#44882
@@ -2910,7 +2910,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-07-21 Contacts 
 
-* @todo try and get to artsens
+* @done try and get to artsens
 
 #### 2018-08-05 Phase II
 
@@ -2926,10 +2926,10 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * or add a custom path to the lib
   * https://stackoverflow.com/questions/37516579/importing-user-defined-modules-in-python-from-a-directory
   * Interesting [SimpleRick fork](https://hackaday.io/project/160196-simplerick) or see [the image here](/include/community/wmeng/simplerick.png).
-* @todo ebay Follow up Having a go on babay at a "ATL 720A", and two unspecified 5 and 10MHz probes.
+* @done ebay Follow up Having a go on babay at a "ATL 720A", and two unspecified 5 and 10MHz probes.
   * 720 for the "ATL MK-300I" .. and 724
-  * @todo ebay followup on 720, 724, AUSONICS
-  * @todo document ATL Apogee Ultrasound, ATL ADR 5.5 MHz / 7 mm
+  * @done ebay followup on 720, 724, AUSONICS
+  * @done document ATL Apogee Ultrasound, ATL ADR 5.5 MHz / 7 mm
 * Ultrasound Transducer Probe for UM-4 (7081)
 
 #### 2018-08-11 Other probes
@@ -2939,7 +2939,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-08-12 A nice toshiba teardown
 
-* @todo get in touch with this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
+* @done get in touch with this teardown : http://electronicsplayground.blogspot.com/2018/02/toshiba-ultrasound-machine-teardown.html
 
 #### 2018-08-14 128Msps and beyond
 
@@ -2953,10 +2953,10 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-08-20 Some shopping
 
-* @todo ebay Followup on  the DIASONICS C PROBE FREQUENCY 10 MHZ P/N 100-1071-00 S/N 1466 
+* @done ebay Followup on  the DIASONICS C PROBE FREQUENCY 10 MHZ P/N 100-1071-00 S/N 1466 
 * hv check out http://www.analog.com/media/en/technical-documentation/application-notes/an118fb.pdf
 * or https://www.maximintegrated.com/en/app-notes/index.mvp/id/1751
-  * @todo use MAX5025 to test a HV runner ?
+  * @done use MAX5025 to test a HV runner ?
   * http://www.analog.com/en/products/lt8710.html
 * RPi + ice40 : https://hackaday.io/project/7982-cat-board/log/46117-it-just-keeps-getting-easier
 
@@ -2976,10 +2976,10 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 #### 2018-08-26 New Matty v1.1
 
 * Got a v1.1 firmware out, for 0 < nCycles < 0xFFFF
-* Reviewed [Readme](/Readme.md)  
+* Reviewed [Readme](/Readme.md)
 * Progress on the article
 * Got a 2GB image fully valid for RPi. Python: Jupyter, Scipy, Numpy, .. all gets on.
-* Added some utilities to flash directly the flash.  
+* Added some utilities to flash directly the flash.
 * Updated [history](/include/AddHistory.md) and [process details](/include/AddDocProcess.md).
 
 #### 2018-08-27 Adding iceprog
@@ -2998,12 +2998,12 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * https://mostsecure.pw/: H4!b5at+kWls-8yh4GvQ hahaha
 * Congrats to william: https://www.rtl-sdr.com/rtl_ultrasound-using-a-piezoelectric-transducer-with-an-rtl-sdr-to-create-an-ultrasound-imager/ =)
 * https://github.com/cliffordwolf/icotools/blob/master/examples/icezero/icezprog.c icezprog
-* @todo Check for un0rick github badges (counter, pypi overag, doi zenodo, ... )
+* @done Check for un0rick github badges (counter, pypi overag, doi zenodo, ... )
   * Compteur: http://hits.dwyl.io/wlmeng11/rtl-ultrasound
   * PyPi: https://pypi.org/project/rtl-ultrasound/0.1.0/
   * coverage x% (coveralls.io)
   * DOI Zenodo:
-  * readthedocs.io  
+  * readthedocs.io
 * [First test with pylint](/matty/20180901a/pyUn0.pylint.report) not the cleanest of codes
 
 #### 2018-09-18 Teardowns
@@ -3020,7 +3020,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * https://hackaday.com/2018/05/19/parallel-programming-for-fpgas/
   * https://hackaday.com/2018/09/26/learn-verilog-in-your-browser/
   * GB and NES on UP5K https://github.com/daveshah1/up5k-demos
-* @todo do a un0pHAT - HV7360 or using HV7361 ([price: 7$](https://www.digikey.com/product-detail/en/microchip-technology/HV7361GA-G/HV7361GA-G-ND/6244385) -- see HV7361 Typical Application Circuit on datasheet -- vs 2x (1.87 + 1.68)+1.5 with  MD1210K6-G, and MD0100 TC6320TG, grand total of 8.6$	   ) 
+* @done do a un0pHAT - HV7360 or using HV7361 ([price: 7$](https://www.digikey.com/product-detail/en/microchip-technology/HV7361GA-G/HV7361GA-G-ND/6244385) -- see HV7361 Typical Application Circuit on datasheet -- vs 2x (1.87 + 1.68)+1.5 with  MD1210K6-G, and MD0100 TC6320TG, grand total of 8.6$	   ) 
 
 #### 2018-10-06 pHATrick
 
@@ -3031,12 +3031,12 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 * un0rick v1.1 (two channels) ordered. Quite some stress on flash chips, possibly to remove from next iterations
   * No more Winbond flashes!
   * got some by some brokers...
-* @todo better readmes for un0rick -- https://github.com/matiassingers/awesome-readme
-* @todo push a python lib for un0rick
+* @done better readmes for un0rick -- https://github.com/matiassingers/awesome-readme
+* @done push a python lib for un0rick
 * Waiting a un0rick v1.0 to retry some tests
 * https://iainews.iai.tv/articles/how-kierkegaards-idea-of-idleness-can-help-us-diagnose-21st-century-busyness-auid-1150
-* @todo 8bit art for icons and todos
-* @todo source a  Bion PSI-400 
+* @done 8bit art for icons and todos
+* @done source a  Bion PSI-400 
 * writing on [apogee5MHz](/include/images/apogee5MHz/Readme.md) and [apogee10MHz](/include/images/apogee10MHz/Readme.md)
   * got into the 10Mhz, some piezo, and another piezo + motor =)
   * updating [RetroATL3](/retroATL3/Readme.md)
@@ -3049,9 +3049,9 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
   * http://www.analog.com/media/en/technical-documentation/data-sheets/ad7476_7477_7478.pdf
   * OP467 + AD711 ?
 * Trying new matty on old probes
-  * @todo try matty on a apogee5MHz once opened
-  * @todo try matty on a ausonics75 once opened
-  * @todo try matty on a 724A with connectors
+  * @done try matty on a apogee5MHz once opened
+  * @done try matty on a ausonics75 once opened
+  * @done try matty on a 724A with connectors
 
 #### 2018-10-28 some ultrasound tests
 
@@ -3063,28 +3063,28 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 #### 2018-11-25 back from family holiday
 
-* @todo [m5stack client for un0rick](/matty/m5stack/Readme.md)
-* @todo Explain aim on tinyfpga discourse
+* @done [m5stack client for un0rick](/matty/m5stack/Readme.md)
+* @done Explain aim on tinyfpga discourse
 * [un0rick v1.1 dual SMA](/matty/v1.1/) received
-  * @todo check why no reset on v1.1
-* @todo order one phat
-* @todo Read https://blog.tindie.com/2018/08/secrets-making-successful-product-tindie/
-* @todo use https://github.com/g2384/VHDLFormatter on MATTY VHDL
-* @todo check https://github.com/benkrasnow/EL_driver_multi/blob/master/EL_driver_multi_schematic.pdf driver up to 200V
+  * @done check why no reset on v1.1
+* @done order one phat
+* @done Read https://blog.tindie.com/2018/08/secrets-making-successful-product-tindie/
+* @done use https://github.com/g2384/VHDLFormatter on MATTY VHDL
+* @done check https://github.com/benkrasnow/EL_driver_multi/blob/master/EL_driver_multi_schematic.pdf driver up to 200V
 * FPGA at Amazon: https://aws.amazon.com/ec2/instance-types/f1/
-* @todo on https://pinout.xyz/ for un0rick and  minimatty
-* @todo http://m.nautil.us/blog/12-mind_bending-perceptual-illusions for illustrations
+* @done on https://pinout.xyz/ for un0rick and  minimatty
+* @done http://m.nautil.us/blog/12-mind_bending-perceptual-illusions for illustrations
 * check HV supply of http://ezphysics.nchu.edu.tw/prophys/electron/reportdata/EDNpaper/HVDCDCWilliams.pdf
-* @todo loot badges: https://github.com/bevry/badges
+* @done loot badges: https://github.com/bevry/badges
 
 #### 2018-12-10 slowing down
 
 * Close to year since matty was designed !
 * https://github.com/goran-mahovlic/ulx3s-PMOD for view of what PMODs should be like 
-  * @todo to correct MATTY V1.1 revA
+  * @done to correct MATTY V1.1 revA
 * Reviewing a bit of MATTY verilog
-* @todo command line for pyUn0 following http://www.catb.org/esr/writings/taoup/html/ch10s05.html
-* @todo add to pyUn0 compressed acquisitions ( jsons of 1 Line, json of 10 lines, 64 Msps, 32Msps)
+* @done command line for pyUn0 following http://www.catb.org/esr/writings/taoup/html/ch10s05.html
+* @done add to pyUn0 compressed acquisitions ( jsons of 1 Line, json of 10 lines, 64 Msps, 32Msps)
 
 #### 2018-12-17 Some gadgets
 
@@ -3136,16 +3136,16 @@ Bbox-089C716D // mimite2000
 
 * Been working on the python lib
 * http://bwlampson.site/33-Hints/Acrobat.pdf for Human Interface Design ..
-* @todo read [Designing Video Game Hardware in Verilog](https://www.amazon.com/Designing-Video-Game-Hardware-Verilog-ebook/dp/B07LD48CTV) for verilog games design
-* @todo read IF books and [MUSH](http://www.evennia.com/)
+* @done read [Designing Video Game Hardware in Verilog](https://www.amazon.com/Designing-Video-Game-Hardware-Verilog-ebook/dp/B07LD48CTV) for verilog games design
+* @done read IF books and [MUSH](http://www.evennia.com/)
   * https://www.amazon.com/IF-Theory-Reader-Adventure-beyond-ebook/dp/B00JHCSU0Y/
   * [Twisty Little Passages: An Approach to Interactive Fiction (The MIT Press)](https://www.amazon.com/Twisty-Little-Passages-Approach-Interactive-ebook/dp/B005363IMS/)
   * [Interactive Fiction: How to Engage Readers and Push the Boundaries of Storytelling](https://www.amazon.com/Interactive-Fiction-Readers-Boundaries-Storytelling-ebook/dp/B00X2OD8MI/)
   * [Writing Interactive Fiction](https://www.amazon.com/Writing-Interactive-Fiction-Deb-Potter-ebook/dp/B01LZTRL5G/ref=pd_sim_351_4?_encoding=UTF8&pd_rd_i=B01LZTRL5G&pd_rd_r=23ed2c5e-1137-11e9-abfe-9d5f2fa07b29&pd_rd_w=sC0jP&pd_rd_wg=0DX0j&pf_rd_p=18bb0b78-4200-49b9-ac91-f141d61a1780&pf_rd_r=B3B1ZPC2FE4GGPDZGCAA&psc=1&refRID=B3B1ZPC2FE4GGPDZGCAA)
    * [IF Archive](https://www.ifarchive.org/) - EB
-* @todo coverage for pyUn0 lib, including pypi, https://shields.io/#/, [zenodo](https://guides.github.com/activities/citable-code/),...
+* @done coverage for pyUn0 lib, including pypi, https://shields.io/#/, [zenodo](https://guides.github.com/activities/citable-code/),...
 * [Gitbook gestalt](https://plugins.gitbook.com/plugin/theme-gestalt-enhanced)
-* @todo sterling: HV7361 / HV7351 SPI logic ?
+* @done sterling: HV7361 / HV7351 SPI logic ?
 
 #### 2019-01-05 Manual for boards
 
@@ -3154,13 +3154,13 @@ Bbox-089C716D // mimite2000
 
 #### 2019-01-12 NDT and others
 
-* @todo explore NDT with Jorge
+* @done explore NDT with Jorge
 * http://www.ireneposch.net/1-bit-textile/ -- awesome work of textile innovation #art
 * Starting a new 5 batch of v1.1
 * lower power jewellery: http://www.ireneposch.net/linkpin/
-* @todo un0rick / lit3rick : install an initial delay (after trig)
+* @done un0rick / lit3rick : install an initial delay (after trig)
 * MF costs: check how it evolves
-* @todo EB - ESP32 + ICE40
+* @cancelled EB - ESP32 + ICE40
   * https://www.elektor.fr/esp32-pico-kit-v4 -- https://www.elektor.fr/media/catalog/product/cache/3/thumbnail/9df78eab33525d08d6e5fb8d27136e95/e/s/esp32-pico-kit-dev-board-v4-layout.png
   * add gyro, eink, LEDs, photodiod, IR ?
   * 1 PMOD = 8 signals  means if 24, 3PMOD possible
@@ -3179,14 +3179,14 @@ Bbox-089C716D // mimite2000
 * AWESOME LISTS : https://github.com/sindresorhus/awesome
 * https://github.com/sindresorhus/awesome/blob/master/create-list.md
 * https://github.com/sindresorhus/awesome/blob/master/pull_request_template.md
-* @todo rework echomods page
-* @todo rework un0rick page (with new logo / gifs / support / ...)
-* @todo : add options to pyUn0 lib
+* @done rework echomods page
+* @done rework un0rick page (with new logo / gifs / support / ...)
+* @done : add options to pyUn0 lib
 
 
 #### 2019-02-08 Moocs to follow 
 
-* @todo follow the specialisation from beg of march  ? https://www.coursera.org/specializations/data-science-python
+* @done follow the specialisation from beg of march  ? https://www.coursera.org/specializations/data-science-python
 * https://github.com/coursera-dl/coursera-dl
 * fun https://blog.floydhub.com/instagram-street-art/
 
@@ -3195,7 +3195,7 @@ Bbox-089C716D // mimite2000
 
 * https://github.com/zacharyvoase/humanhash
 * https://www.abebooks.com/servlet/SearchResults?isbn=9780394707891&n=100121503&cm_sp=mbc-_-ISBN-_-used
-  * @todo [include the book](https://www.abebooks.com/servlet/SearchResults?isbn=9780394707891&n=100121503&cm_sp=mbc-_-ISBN-_-used) as an insipration for lit3rick ?
+  * @done [include the book](https://www.abebooks.com/servlet/SearchResults?isbn=9780394707891&n=100121503&cm_sp=mbc-_-ISBN-_-used) as an insipration for lit3rick ?
 
 #### 2019-02-15 Moar piezos 
 
@@ -3204,7 +3204,7 @@ Bbox-089C716D // mimite2000
 * Jorge
   * https://www.alibaba.com/product-detail/NDT-Straight-Angle-Beam-transducer-sensors_60752888953.html?spm=a2700.7724838.2017115.198.12067c84XcXzww
   * https://www.alibaba.com/product-detail/yushi-PT-12-probe-ndt-ultrasonic_60557426233.html?spm=a2700.7724838.2017115.222.12067c84XcXzww
-* @todo prepare a page for NDT piezos.. the same way there is one for probes.. or on same ?
+* @done prepare a page for NDT piezos.. the same way there is one for probes.. or on same ?
 
 #### 2019-02-17 lit3rick interfacing
 
@@ -3213,7 +3213,7 @@ Bbox-089C716D // mimite2000
 
 #### 2019-02-24 Rework on todos
 
-* @todo lit3rick vF : add rounded edges, connections on other pins from the board for flash CS, passer all IOs sur le header RPI, cacher les SCK du controle HV et back de la carte: passer un header go-through.
+* @done lit3rick vF : add rounded edges, connections on other pins from the board for flash CS, passer all IOs sur le header RPI, cacher les SCK du controle HV et back de la carte: passer un header go-through.
 * UP5K flashing
   * UP5K RGB: https://github.com/cliffordwolf/icestorm/tree/master/examples/up5k_rgb
   * Upload a FPGA ice40 bitstream via curl using a ESP32 in arduino  : https://github.com/kelu124/ice40_esp32_bitstream_upload 
@@ -3229,21 +3229,21 @@ Bbox-089C716D // mimite2000
 
 * Search for: neural networks "derivative works" of datasets
 * [Lex Fridman](https://twitter.com/lexfridman/status/1096052394453098502) on Twitter: If a neural network generates an image, who owns the copyright? The owner of the dataset that the net was trained on? The designer of the network architecture? The person running the code? Or... the AI system itself?
-* @todo echomods: Rewrite landing page echomods
-* @todo include on echomods readme : Support paragraph as in https://github.com/pi-hole/pi-hole
+* @done echomods: Rewrite landing page echomods
+* @done include on echomods readme : Support paragraph as in https://github.com/pi-hole/pi-hole
 
 #### 2019-03-18 Random stuff
 
-* @todo @toorder hv9150db1 - LED drivers (MAX?) - SMAs
+* @done @toorder hv9150db1 - LED drivers (MAX?) - SMAs
 * @tocheck 
   * US stuff: https://www.microchip.com/stellent/groups/analog_sg/documents/devicedoc/cn571283.pdf
-  * @todo [#NSA1166 sourcing](https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10001&productId=2210976&catalogId=10001&langId=-1&CID=octopart)
+  * @done [#NSA1166 sourcing](https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10001&productId=2210976&catalogId=10001&langId=-1&CID=octopart)
   * HV : http://ww1.microchip.com/downloads/en/DeviceDoc/20005689A.pdf
-* @todo backpack for #NSA1166
+* @done backpack for #NSA1166
   * https://www.nxp.com/docs/en/data-sheet/SC18IS602B.pdf - I2C to SPI: 2.41€ 568-13691-1-ND  #NSA1166
   * LED driver : MAX7219   : 9€ - MAX7219CWG+-ND : ordered for tests #NSA1166	
 * Veille ebay: TSA1605A, NSM1416, HP5082-7415, siemens DL1416
-* @todo better landing page:
+* @cancelled better landing page:
   - Include LOGO & TAGS
   - Include badges
   - Better index page as follows
@@ -3267,7 +3267,7 @@ Other pages under /include/worklog/
 #### 2019-03-19 Random stuff II
 
 * https://medium.freecodecamp.org/the-easy-way-to-set-up-docker-on-a-raspberry-pi-7d24ced073ef
-* Add: LM96511 : http://dx.doi.org/10.1590/2446-4740.0700 -> MD2131  --> AFE5805   -->  
+* Add: LM96511 : http://dx.doi.org/10.1590/2446-4740.0700 -> MD2131  --> AFE5805   -->  ?
 * https://github.com/Wookai/paper-tips-and-tricks
 * https://www.raspberrypi.org/forums/viewtopic.php?t=186435 for RPI and GPIO and SP
   * sudo gpio mode 14 alt0 (itoo with 12 and 13 to reset SPI pins to original function)
@@ -3275,9 +3275,9 @@ Other pages under /include/worklog/
  
 #### 2019-03-24 Still need to work more
 
-* @todo first shots with lit3rick
-* @todo harmonize between lit3rick, pHATrick, minie, minny
-* @todo receive lomos and test for NDTs
+* @done first shots with lit3rick
+* @done harmonize between lit3rick, pHATrick, minie, minny
+* @done receive lomos and test for NDTs
 
 #### 2019-04-07 Beginning of port to lit3rick
 
@@ -3372,7 +3372,7 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
 
 * Good progress, stupid capa was in the way on ADC clock. Now acquisitions seem more okay:
   * [here some good experiment](https://github.com/kelu124/echomods/tree/master/matty/20191023a)
-* @todos updates on new pHAT
+* @done updates on new pHAT
   * remove this capa, remove i2c pullups for the thermometers (that was cost 5$ ! :/ )
   * connecter le ice40 au i2c rpi 
   * pouvoir connecter des ios sur l'uart du rpi 
@@ -3381,7 +3381,7 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
   * Niveau header RPi, on peut connecter les SPI_EXT MISO / CS du coup.
   * Use 5 first bytes of a read to store the bin number / board ID ?
 * Need to make progress on this RTL-SDR for ultrasound ;)
-* @todo find the right jekyll theme to leave gitbook
+* @done find the right jekyll theme to leave gitbook
   * see https://help.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll
   * https://pmarsceill.github.io/just-the-docs/ seem to fit the bill =)
 
@@ -3398,10 +3398,10 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
 * lit3rick on final form to be delivered by 2/12.
 * Andrew for some symbiflow support ? DFT + i2s ?
 * Got the sw45b probe off. Interesting designs.
-* @todo hack the diasonics heads.
+* @done hack the diasonics heads.
 * Ported the pyUn0 for un0rick to python3 .. yeay. Thanks to Fab's pull request.
 * Awesome SAO: https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty
-* @todo: SAO on up5K: https://github.com/ANDnXOR/sao-reference-designs
+* @cancelled: SAO on up5K: https://github.com/ANDnXOR/sao-reference-designs
   * RGB's
   * USB
   * 2 GPIOs: for what ?
@@ -3418,17 +3418,17 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
 * possibly need to make clean icoprog
 * or to swap IOs for programming, while 
 * beware, for flash programming, SPI_SS needs to be kept floating high. Floating.
-* @todo keep an eye on "BRUEL KJAER ULTRASOUND" =)
+* @done keep an eye on "BRUEL KJAER ULTRASOUND" =)
 
 #### 2019-12-12 Article ongoing
 
 * The article for the conf is quite ready. Thanks to William, Carla, Jorge.
 * GE amongst my clients !
-* @todo analyse protoelectronics (cf Leonie) for short runs -- http://protoelectronique.com/
+* @cancelled analyse protoelectronics (cf Leonie) for short runs -- http://protoelectronique.com/
 
 #### 2019-12-14 US Badge 
 
-* @todo a small US badge see [SAO DOOM]
+* @cancelled a small US badge see [SAO DOOM]
   * 8x8 LED matrix + driver (max7219 // IS31FL3728 (1x8x8) / 31FL3736 pr 12x8, including breathing - QFN40 / IS31FL3731, 2x8x8, QFN28) 
   * [i2c simulated EEPROM](https://github.com/ANDnXOR/sao-reference-designs)
   * MEMS loudspeaker
@@ -3445,23 +3445,23 @@ Battery sensing: https://github.com/rlogiacco/BatterySense  + a p-channel MOSFET
 
 #### 2019-12-17 Holidays planning
 
-* @todo use the [driver](https://www.amazon.fr/gp/product/B0798JCY93/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* @done use the [driver](https://www.amazon.fr/gp/product/B0798JCY93/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
   * test on several probes
   * get driver from aniss
 * test with BLDC on some probes
-* @todo redo probes sheets
+* @done redo probes sheets
   * Have all in one sheets
   * teardown subpart
   * experiment subpart
   * others ?
 * Thinking of the un0rick website.. have subdomains like experiments, probes, ... for general aspects from echomods ?
-* @todo redo the geography part.. using geopandas ?
+* @cancelled redo the geography part.. using geopandas ?
 
 
 #### 2019-12-31 Last of the year
 
 Ultrasound stuff
-* @todo integrated mouse optics in the article, from "A Free-Hand System of the High-Frequency Single Element Ultrasound Transducer for Skin Imaging"
+* @done integrated mouse optics in the article, from "A Free-Hand System of the High-Frequency Single Element Ultrasound Transducer for Skin Imaging"
 * @done my objectives at https://github.com/kelu124/un0rick/blob/gh-pages/partners.md
 * MUX
   * https://raspberrypi.stackexchange.com/questions/80221/using-pythons-rpi-gpio-library-to-manually-toggle-spi-chip-select-is-this-ok
@@ -3473,14 +3473,14 @@ Ultrasound stuff
   * SN754410NE
 * FFT at https://github.com/mattvenn/fpga-fft
 * AFE5801 on a PMOD ? + MAX14806 ? 
-* @todo : Analyse de la compétition (lecoeur, www.lecoeur-electronique.net/, https://www.industrie-techno.com/article/des-ultrasons-pour-controler-les-revetements-metalliques.54136 (siderus), https://ndt-testing.org/our-services/ultrasonic-testing-pulse-echo-method/, https://www.nde-ed.org/EducationResources/CommunityCollege/Ultrasonics/Introduction/description.htm , https://www.ndtclassroom.com/blog/2018/1/23/ultrasonic-testing-pulse-echo-technique https://ndtvendor.com/categories/69-usb-instruments/364-pciut3100-all-in-one/  https://ndtvendor.com/categories/69-usb-instruments/365-compact-pulser/ http://eurosonic.com/en/products/ut-solutions/tfl-110.html http://www.usultratek.com/products/picopulser.htm  http://www.ultrasonic.de/index.php http://tecnatom-ndt.com/product/ultrasonic/sonia-fprhf1/ http://www.mec-ndt.co/ndt_products_desc?code=97 https://www.insight-ndt.com/ultrasonic/8channel.html https://ndtsupply.com/dakota-ultrasonics-pvx-1.html )
-* @todo documentation ghpage to update, https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
-* @todo encode lib in npz : https://stackoverflow.com/questions/11511705/base64-encode-a-zip-file-in-python and check dependences with https://poetry.eustace.io/
-* @todo up5k update - https://blog.idorobots.org/entries/upduino-fpga-tutorial.html for the refs (includes block RAM, SB_SPRAM256KA, but i2c and SPI too (SB_SPI  and SB_I2C)) -- see refs at https://www.latticesemi.com/~/media/LatticeSemi/Documents/TechnicalBriefs/SBTICETechnologyLibrary201608.pdf 
+* @done : Analyse de la compétition (lecoeur, www.lecoeur-electronique.net/, https://www.industrie-techno.com/article/des-ultrasons-pour-controler-les-revetements-metalliques.54136 (siderus), https://ndt-testing.org/our-services/ultrasonic-testing-pulse-echo-method/, https://www.nde-ed.org/EducationResources/CommunityCollege/Ultrasonics/Introduction/description.htm , https://www.ndtclassroom.com/blog/2018/1/23/ultrasonic-testing-pulse-echo-technique https://ndtvendor.com/categories/69-usb-instruments/364-pciut3100-all-in-one/  https://ndtvendor.com/categories/69-usb-instruments/365-compact-pulser/ http://eurosonic.com/en/products/ut-solutions/tfl-110.html http://www.usultratek.com/products/picopulser.htm  http://www.ultrasonic.de/index.php http://tecnatom-ndt.com/product/ultrasonic/sonia-fprhf1/ http://www.mec-ndt.co/ndt_products_desc?code=97 https://www.insight-ndt.com/ultrasonic/8channel.html https://ndtsupply.com/dakota-ultrasonics-pvx-1.html )
+* @done documentation ghpage to update, https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
+* @done encode lib in npz : https://stackoverflow.com/questions/11511705/base64-encode-a-zip-file-in-python and check dependences with https://poetry.eustace.io/
+* @done up5k update - https://blog.idorobots.org/entries/upduino-fpga-tutorial.html for the refs (includes block RAM, SB_SPRAM256KA, but i2c and SPI too (SB_SPI  and SB_I2C)) -- see refs at https://www.latticesemi.com/~/media/LatticeSemi/Documents/TechnicalBriefs/SBTICETechnologyLibrary201608.pdf 
 
 Others
 * https://feeding.cloud.geek.nz/posts/encoding-wifi-access-point-passwords-qr-code/   qrcode wifi
-* @todo get a spidriver https://www.crowdsupply.com/excamera/spidriver
+* @done get a spidriver https://www.crowdsupply.com/excamera/spidriver
 
 SAO:
 * MEMS : SPH0641LU4H-1 (PDM) et IS31FL3728 pr 8x8 en i2c
@@ -3488,10 +3488,10 @@ SAO:
 
 #### 2020-01-11 Silent is back
 
-* @todo Repushing some silent experiment - using it as a benchmark for lit3rick and un0rick boards
-* @todo Need to repush libpyUn0.
-* @todo get somes boxes to sort VNA, piezos, attiny's stuff
-* @todo SAO for Belgrade !
+* @done Repushing some silent experiment - using it as a benchmark for lit3rick and un0rick boards
+* @done Need to repush libpyUn0.
+* @donetodo get somes boxes to sort VNA, piezos, attiny's stuff
+* @cancelled SAO for Belgrade !
   * SAO: FT232RQ - https://learn.adafruit.com/programming-spi-flash-prom-with-an-ft232h-breakout/overview
   * upduino Flash - ice40 connection
 
@@ -3503,7 +3503,7 @@ SAO:
 #### 2020-01-18 MF and short
 
 * Manuf confirmed a LDO was rotated 90degrees. Means tests on lit3rick v1.3 can now be done. 
-* @todo silkscreen v1.3 to be updated.
+* @done silkscreen v1.3 to be updated.
 * daugther board on esp32 m5stack for viz ? 
 * @todo get https://github.com/tobozo/M5Stack-SD-Updater to add bins
   * to flash
@@ -3513,12 +3513,12 @@ SAO:
 * test INMP441 ?
 * SAO ideas: apa102 LEDs ( WS2812B-2020 also, 2x2mm)
   * see https://www.sparkfun.com/products/15047 - SparkFun LuMini LED Matrix
-* @todo lit3rick examples : complilation : https://github.com/FPGAwars/apio-examples/tree/master/iCE40-UP5K/
+* @done lit3rick examples : complilation : https://github.com/FPGAwars/apio-examples/tree/master/iCE40-UP5K/
   * https://github.com/mmicko/fpga101-workshop for LED, button, https://github.com/mmicko/fpga101-workshop/tree/master/tutorials/12-RiscV
 
 #### 2020-01-26 Streamlit fun
 
-* @todo explore bivi's https://github.com/streamlit/streamlit and https://github.com/samuelhwilliams/Eel
+* @done explore bivi's https://github.com/streamlit/streamlit and https://github.com/samuelhwilliams/Eel
   * https://towardsdatascience.com/quickly-build-and-deploy-an-application-with-streamlit-988ca08c7e83
 * @SAOLIT : ATtiny861A  / ATtiny84A ?
 
@@ -3631,10 +3631,9 @@ Tagging wav files? https://pypi.org/project/tinytag/
 
 * Interesting [LPC55S6x : M33 + LPU](https://www.nxp.com/docs/en/data-sheet/LPC55S6x.pdf)
 * Doing [echo-tomo](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
-* @todo do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md)
+* @todo do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md) and tests impedance matching on the new piezo to see if that improves things =)
 * [Enveloppe detection ongoing](https://github.com/kelu124/vit3rick/tree/master/MSB_1_Enveloppe] on the up5k
-* @todo run [simuls for pulse duration](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
-* @todo tests impedance matching on the new piezo to see if that improves things =)
+* @done run [simuls for pulse duration](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
 * lit3rick vF ongoing with AD8332
 
 
@@ -3644,11 +3643,11 @@ Tagging wav files? https://pypi.org/project/tinytag/
 * worked on comparing both boards: https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20200421a.md -- need a full fledge mini before moving forward with the comparison.
 * [verilog alaw compression](https://github.com/kelu124/vit3rick/tree/master/MSB_1_Enveloppe) is ok and [simuls on icarus OK](https://github.com/kelu124/vit3rick/tree/master/MSB_2_alaw/code_alaw/sim/icarus) too. 
 * Idea for i2s update on rpi : https://github.com/ryankurte/rpi-i2s-stereo/blob/master/instructions.md
-* @todo check newer lit3rick.vF
-* @todo merge bgd/and (acq + i2s + transfo)
-* @todo go onto yosys
-* @todo understand echoes from acqs.. weird things
-* @todo consider additional CS ( https://www.raspberrypi.org/forums/viewtopic.php?t=152014 ) or SPI ( https://www.raspberrypi.org/forums/viewtopic.php?p=821666#p821666 )
+* @done check newer lit3rick.vF
+* @done merge bgd/and (acq + i2s + transfo)
+* @cancelled go onto yosys (not possible from a up5k perspective.. too tight on timings)
+* @done understand echoes from acqs.. weird things
+* @done consider additional CS ( https://www.raspberrypi.org/forums/viewtopic.php?t=152014 ) or SPI ( https://www.raspberrypi.org/forums/viewtopic.php?p=821666#p821666 )
 
 #### 2020-05-01 ESP32 ULP
 
@@ -3659,7 +3658,7 @@ Tagging wav files? https://pypi.org/project/tinytag/
 
 #### 2020-05-08 Resets
 
-* @todo need to check if reset, ice_reset_ft and ice_reset_rpi are connected in the VHDL v1.1 Matty
+* @done need to check if reset, ice_reset_ft and ice_reset_rpi are connected in the VHDL v1.1 Matty
 
 
 #### 2020-05-2O Order for pHATr1ck
@@ -3678,7 +3677,7 @@ Tagging wav files? https://pypi.org/project/tinytag/
 
 #### 2020-06-08 Having fun with brd35
 
-* @todo finish 20200608a and make a gif
+* @done finish 20200608a and make a gif
 * https://greatrend.en.made-in-china.com/product/AKzmRHYrRBUp/China-Transducer-Replacement-for-Ultrasound-Medical-Machine.html for piezos
 
 #### 2020-06-19 phatr1ck on
@@ -3705,7 +3704,7 @@ Tagging wav files? https://pypi.org/project/tinytag/
   * http://www.christiandelecluse.com/ 
   * http://yvesbrozat.com/
 * Brilliant read: https://archive.org/details/computer-lib-dream-machines
-* @todo Close the todos.
+* @done Close the todos.
 
 #### 2020-07-20 Taking time
 
@@ -3718,9 +3717,9 @@ Tagging wav files? https://pypi.org/project/tinytag/
 
 #### 2020-07-26 NextSteps
 
-* @todo bin for un0rick ftdi control
-* @todo lit3rick v1.5 with AD8331
-* @todo complete a lit3rick motherboard
+* @todo bin for un0rick ftdi control - bogdan?
+* @done lit3rick v1.5 with AD8331
+* @done complete a lit3rick motherboard
 * adding a 0.1uF cap increases the LNA performance: yeay ! But shitty wires mean: noise.
 
 Always wanted to have a riscv inside my board ;)
@@ -3777,7 +3776,7 @@ Always wanted to have a riscv inside my board ;)
 
 * @todo integrate some documentation for un0rick and lit3rick as in http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/3.05x6.5/TE0876/REV02/Documents/iceZero-pinout-v5.pdf
 * @todo move forward on some new hardware like the [ft600](./include/ft_600_notes.md)
-* @todo add a section on the un0rick place: "_If you like the silly things I do, you can say thanks by_"
+* @done add a section on the un0rick place: "_If you like the silly things I do, you can say thanks by_"
 
 #### 2020-10-03 holidays ahead
 
