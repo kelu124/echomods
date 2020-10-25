@@ -1,7 +1,7 @@
 # Experiments
 
- * [20201023a](/include/experiments/auto/20201023a.md)
- * [20201022a](/include/experiments/auto/20201022a.md)
+ * 2020-10-23: [Canada](/include/experiments/auto/20201023a.md): Silvio first lit3rick tests _(20201023a)_
+ * 2020-10-22: [Spain](/include/experiments/auto/20201022a.md): Jorge tests on lit3rick _(20201022a)_
  * 2020-08-09: [bard vna](/include/experiments/auto/20200809r.md): bard vna tests _(20200809r)_
  * 2020-08-08: [all probes vna](/include/experiments/auto/20200808r.md): getting impedance params of all probes _(20200808r)_
  * 2020-06-08: [brd35 test](/include/experiments/auto/20200608a.md): testing an electromagnetic movement probe _(20200608a)_

@@ -209,7 +209,6 @@ and used in a wider context:
 
 # Experiments
 
- * [2021022a](/include/experiments/auto/2021022a.md)
  * [20201023a](/include/experiments/auto/20201023a.md)
  * [20201022a](/include/experiments/auto/20201022a.md)
  * 2020-08-09: [bard vna](/include/experiments/auto/20200809r.md): bard vna tests _(20200809r)_
