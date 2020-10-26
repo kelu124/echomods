@@ -71,9 +71,6 @@
 * __[Unrefed file]__ :no_entry: `/goblin/QuickStart.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/goblin/source/Altium.v2/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/goblin/tindie.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/lit3rick/20201008a/Readme.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/lit3rick/20201008a/un0rick_50v/exp.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/lit3rick/20201024a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/lite.tbo/tindie.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/1i/1i.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/1t/idea.md` : No references of this file.
@@ -82,6 +79,7 @@
 * __[Unrefed file]__ :no_entry: `/matty/20180403a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180430a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180506a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20180511a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180721a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190111a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190314a/Readme.md` : No references of this file.
@@ -96,6 +94,9 @@
 * __[Unrefed file]__ :no_entry: `/matty/20200508a/exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200605a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200605a/exp.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20201026a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20201026a/fpga_ctrl/README.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/matty/20201026a/fpga_ctrl/csr_map.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/HV/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ideas.md` : No references of this file.
