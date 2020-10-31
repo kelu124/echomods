@@ -1,5 +1,7 @@
 # Experiments
 
+ * [20201031a](/include/experiments/auto/20201031a.md)
+ * [20201028a](/include/experiments/auto/20201028a.md)
  * [20201026a](/include/experiments/auto/20201026a.md)
  * 2020-10-24: [i2s issue](/include/experiments/auto/20201024a.md): Exploring the i2s offsets _(20201024a)_
  * 2020-10-23: [Canada](/include/experiments/auto/20201023a.md): Silvio first lit3rick tests _(20201023a)_
