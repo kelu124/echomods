@@ -184,6 +184,7 @@
 * ./include/experiments/auto/Img_20180901a.md
 * ./include/experiments/auto/20180826a.md
 * ./include/experiments/auto/Code_20180825a.md
+* ./include/experiments/auto/20201031a.md
 * ./include/experiments/auto/Mod_20200421a.md
 * ./include/experiments/auto/Img_20180811a.md
 * ./include/experiments/auto/20181104b.md
@@ -488,6 +489,7 @@
 * ./include/experiments/auto/Code_20171001a.md
 * ./include/experiments/auto/Img_20180721a.md
 * ./include/experiments/auto/Mod_20181013a.md
+* ./include/experiments/auto/20201028a.md
 * ./include/experiments/auto/Mod_20191016a.md
 * ./include/probes/Readme.md
 * ./include/probes/auto/diasonics_75.md
@@ -587,6 +589,7 @@
 * ./gitbook/exp/20170611a.md
 * ./gitbook/exp/20200321a.md
 * ./gitbook/exp/20180826a.md
+* ./gitbook/exp/20201031a.md
 * ./gitbook/exp/20181104b.md
 * ./gitbook/exp/20191018a.md
 * ./gitbook/exp/20190226a.md
@@ -650,6 +653,7 @@
 * ./gitbook/exp/20180103a.md
 * ./gitbook/exp/20180901a.md
 * ./gitbook/exp/2018012a.md
+* ./gitbook/exp/20201028a.md
 * ./gitbook/Chapter5/Readme.md
 * ./gitbook/Chapter5/dataformat.md
 * ./gitbook/Chapter5/images.md
