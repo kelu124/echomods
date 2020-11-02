@@ -3812,6 +3812,26 @@ https://hal.archives-ouvertes.fr/hal-00827697/file/NEWCAS_2012.pdf
 * @todo find the i2s issue
 * Pushing a few experiments related to lit3rick
 
+
+#### 2020-11-01 Toussaint20
+
+Got some new experiments going on. Getting a un0sb 
+* [32 lines dump](https://github.com/kelu124/echomods/blob/master/matty/20201031a/b.20201031a.ipynb)
+* and [noise level for increasing gains on un0rick](https://github.com/kelu124/echomods/blob/master/matty/20201031a/c.20201031a.ipynb) on a 50R load.
+
+Playing with ESP32 ideas
+* Listing files?
+  * https://electroniqueamateur.blogspot.com/2020/07/esp32-cam-gestion-distance-de-la-carte.html
+* IOs & stuff
+  * https://github.com/Ponkabonk/ESP32-CAM-Demo
+  * http://www.iotsharing.com/2019/07/how-to-turn-esp-with-sdcard-or-spiffs-a-web-file-server.html
+* Interesting
+  * https://github.com/boblemaire/ESPAsyncSDWebServer/blob/master/ESPAsyncSDWebServer.ino
+* Other stuff
+  * https://github.com/Ponkabonk/ESP32-CAM-Demo
+  * https://github.com/topkhung/ESP32_Web_ClickToDownload_File_SD_Card/blob/master/ESP32_Web_file_Download.ino
+
+
 =======
 
 
