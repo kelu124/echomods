@@ -139,9 +139,10 @@ The diagram is represented below:
 
 # Experiments
 
- * [20201031a](/include/experiments/auto/20201031a.md)
- * [20201028a](/include/experiments/auto/20201028a.md)
- * [20201026a](/include/experiments/auto/20201026a.md)
+ * 2020-11-03: [Impedance matching](/include/experiments/auto/20201103a.md): Interesting results for impedance matching. _(20201103a)_
+ * 2020-10-31: [Pulse width calculation](/include/experiments/auto/20201031a.md): how to get the best echo as a function of pulser waveform _(20201031a)_
+ * 2020-10-28: [strange issues pyUn0](/include/experiments/auto/20201028a.md): seems CS does not work _(20201028a)_
+ * 2020-10-26: [usb firmware](/include/experiments/auto/20201026a.md): testing it works with un0rick _(20201026a)_
  * 2020-10-24: [i2s issue](/include/experiments/auto/20201024a.md): Exploring the i2s offsets _(20201024a)_
  * 2020-10-23: [Canada](/include/experiments/auto/20201023a.md): Silvio first lit3rick tests _(20201023a)_
  * 2020-10-22: [Spain](/include/experiments/auto/20201022a.md): Jorge tests on lit3rick _(20201022a)_

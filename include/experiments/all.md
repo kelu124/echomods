@@ -1,3 +1,7 @@
+* 20201103a: Impedance matching: Interesting results for impedance matching.
+* 20201031a: Pulse width calculation: how to get the best echo as a function of pulser waveform
+* 20201028a: strange issues pyUn0: seems CS does not work
+* 20201026a: usb firmware: testing it works with un0rick
 * 20201024a: i2s issue: Exploring the i2s offsets
 * 20201008a: benchmark lit3 and un0: Running acquisitions on the same rig.
 * 20201022a: Spain: Jorge tests on lit3rick
