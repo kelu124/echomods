@@ -1,5 +1,6 @@
 # Experiments
 
+ * [blackberry](/include/experiments/auto/blackberry.md)
  * 2020-11-03: [Impedance matching](/include/experiments/auto/20201103a.md): Interesting results for impedance matching. _(20201103a)_
  * 2020-10-31: [Pulse width calculation](/include/experiments/auto/20201031a.md): how to get the best echo as a function of pulser waveform _(20201031a)_
  * 2020-10-28: [strange issues pyUn0](/include/experiments/auto/20201028a.md): seems CS does not work _(20201028a)_

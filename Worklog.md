@@ -3960,6 +3960,13 @@ Playing with ESP32 ideas
   * https://github.com/Ponkabonk/ESP32-CAM-Demo
   * https://github.com/topkhung/ESP32_Web_ClickToDownload_File_SD_Card/blob/master/ESP32_Web_file_Download.ino
 
+#### 2020-11-05 ImpedanceMatching progress yeah
+
+* https://pypi.org/project/un0usb/ is out yeah!
+* Impedance matching exercice is out =)
+
+* https://www.postgresql.org/docs/9.1/sql-createtable.html for creating postgresql tables
+
 
 =======
 
