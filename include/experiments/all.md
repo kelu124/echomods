@@ -1,3 +1,5 @@
+* 20201107a: lib 025: NDT presentation - un0rick & usb
+* 20201104a: lib 024: Basics on - un0rick & usb
 * 20201103a: Impedance matching: Interesting results for impedance matching.
 * 20201031a: Pulse width calculation: how to get the best echo as a function of pulser waveform
 * 20201028a: strange issues pyUn0: seems CS does not work
