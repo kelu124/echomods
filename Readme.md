@@ -210,8 +210,9 @@ and used in a wider context:
 
 # Experiments
 
- * [20201107a](/include/experiments/auto/20201107a.md)
- * [20201104a](/include/experiments/auto/20201104a.md)
+ * [20201108a](/include/experiments/auto/20201108a.md)
+ * 2020-11-07: [lib 025](/include/experiments/auto/20201107a.md): NDT presentation - un0rick & usb _(20201107a)_
+ * 2020-11-04: [lib 024](/include/experiments/auto/20201104a.md): Basics on - un0rick & usb _(20201104a)_
  * 2020-11-03: [Impedance matching](/include/experiments/auto/20201103a.md): Interesting results for impedance matching. _(20201103a)_
  * 2020-10-31: [Pulse width calculation](/include/experiments/auto/20201031a.md): how to get the best echo as a function of pulser waveform _(20201031a)_
  * 2020-10-28: [strange issues pyUn0](/include/experiments/auto/20201028a.md): seems CS does not work _(20201028a)_
