@@ -24,7 +24,7 @@
 
 ![](/matty/20201108a/piezo1/piezo1.png)
 
-### L en série - 1.15uH (+ L en // 1uH)
+### L in series - 1.15uH (+ L en // 1uH)
 
 #### Filtered 
 ![](/matty/20201108a/piezo1/20201108165905.npz)
@@ -39,7 +39,7 @@
 
 ![](/matty/20201108a/piezo1/20201108165952_ndt.jpg)
 
-## Piezo2
+## Piezo2
 
 ### As is
 
