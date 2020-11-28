@@ -110,6 +110,8 @@
 
 * [./include/UniBoard/UniBoard-1.md](/include/UniBoard/UniBoard-1.md):  . File used in: [`/include/UniBoard.md`](/include/UniBoard.md).
 
+* [./include/hp/20201128a/Readme.md](/include/hp/20201128a/Readme.md):  . _File not used._
+
 * [./include/DesignArticle/1.Principles.md](/include/DesignArticle/1.Principles.md):  . _File not used._
 
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
@@ -190,6 +192,8 @@
 
 * [./include/community/Young/Readme.md](/include/community/Young/Readme.md):  . _File not used._
 
+* [./include/community/TK/Readme.md](/include/community/TK/Readme.md):  . _File not used._
+
 * [./include/community/Luc/Readme.md](/include/community/Luc/Readme.md):  . _File not used._
 
 * [./include/community/Luc/Silvio/20201023a/20201022a.md](/include/community/Luc/Silvio/20201023a/20201022a.md):  . File used in: [`/include/experiments/auto/20201023a.md`](/include/experiments/auto/20201023a.md).
@@ -231,6 +235,8 @@
 * [./include/community/JB/Readme.md](/include/community/JB/Readme.md):  . _File not used._
 
 * [./include/community/Michele/Readme.md](/include/community/Michele/Readme.md):  . _File not used._
+
+* [./include/community/JaCe/Readme.md](/include/community/JaCe/Readme.md):  . _File not used._
 
 * [./include/community/Masoud/Readme.md](/include/community/Masoud/Readme.md):  . _File not used._
 
@@ -274,7 +280,7 @@
 
 * [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md):  . File used in: [`/include/AllLogs.md`](/include/AllLogs.md).
 
-* [./include/20180217a/Readme.md](/include/20180217a/Readme.md): Experiment 20180217a setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md), [`/include/experiments/auto/Code_20180217a.md`](/include/experiments/auto/Code_20180217a.md).
+* [./include/20180217a/Readme.md](/include/20180217a/Readme.md): Experiment 20180217a setup details . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PythonFiles.md`](/include/FilesList/PythonFiles.md).
 
 * [./include/bard/inside.md](/include/bard/inside.md):  . File used in: [`/Worklog.md`](/Worklog.md), [`/include/AddMyLogs.md`](/include/AddMyLogs.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 

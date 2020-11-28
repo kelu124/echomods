@@ -120,9 +120,7 @@ __TLDR__:  Bard rite, 9.0MHz.
 
 __More?__  Bard rite, 9.0MHz.
 
-__Present in:__ 20 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190329a](/experiments/auto/20190329a.md), [20190404a](/experiments/auto/20190404a.md), [20190415a](/experiments/auto/20190415a.md), [20200608a](/experiments/auto/20200608a.md), [20200808r](/experiments/auto/20200808r.md), [20200809r](/experiments/auto/20200809r.md)) 
-
-__Present in:__ 1 images.
+__Present in:__ 21 experiments ([20160822a](/experiments/auto/20160822a.md), [20170715a](/experiments/auto/20170715a.md), [20171112a](/experiments/auto/20171112a.md), [20180225a](/experiments/auto/20180225a.md), [20180807a](/experiments/auto/20180807a.md), [20180807b](/experiments/auto/20180807b.md), [20180809b](/experiments/auto/20180809b.md), [20180812a](/experiments/auto/20180812a.md), [20180831c](/experiments/auto/20180831c.md), [20180901a](/experiments/auto/20180901a.md), [20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20181104b](/experiments/auto/20181104b.md), [20181104c](/experiments/auto/20181104c.md), [20190329a](/experiments/auto/20190329a.md), [20190404a](/experiments/auto/20190404a.md), [20190415a](/experiments/auto/20190415a.md), [20200608a](/experiments/auto/20200608a.md), [20200808r](/experiments/auto/20200808r.md), [20200809r](/experiments/auto/20200809r.md), [20201128a](/experiments/auto/20201128a.md)) 
 
 ### [diasonics_50](/include/probes/auto/diasonics_50.md) (diasonics_50)
 
@@ -174,7 +172,7 @@ __TLDR__: hp2121 small desc
 
 __More?__  Real name : __21412A__. Or hp2121. Has a small '93C46' eeprom. Experiments : [test](/include/experiments/auto/20181013a.md). Piezo salvaged when head (not gracefullly) opened - [pictures here](/include/20200809r/images/hp2121/).
 
-__Present in:__ 3 experiments ([20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20200808r](/experiments/auto/20200808r.md)) 
+__Present in:__ 4 experiments ([20181013a](/experiments/auto/20181013a.md), [20181104a](/experiments/auto/20181104a.md), [20200808r](/experiments/auto/20200808r.md), [20201128a](/experiments/auto/20201128a.md)) 
 
 ### [kretzaw145ba](/include/probes/auto/kretzaw145ba.md) (kretzaw145ba)
 

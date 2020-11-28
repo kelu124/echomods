@@ -1,5 +1,6 @@
 # Experiments
 
+ * [20201128a](/include/experiments/auto/20201128a.md)
  * [20201108a](/include/experiments/auto/20201108a.md)
  * 2020-11-07: [lib 025](/include/experiments/auto/20201107a.md): NDT presentation - un0rick & usb _(20201107a)_
  * 2020-11-04: [lib 024](/include/experiments/auto/20201104a.md): Basics on - un0rick & usb _(20201104a)_
