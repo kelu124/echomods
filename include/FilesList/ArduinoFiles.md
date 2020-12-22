@@ -1,6 +1,6 @@
 * [32u4-ATL3_interface.ino](/retroATL3/data/32u4-ATL3_interface.ino): . File used in: [`/retroATL3/Readme.md`](/retroATL3/Readme.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [KretzControl.ino](/include/images/kretzaw145ba/20180812a/KretzControl.ino): Servo control for Matty, used in `20180430a` `20181104a`. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/images/hp2121/20181013a/Readme.md`](/include/images/hp2121/20181013a/Readme.md), [`/include/experiments/auto/Code_20181104a.md`](/include/experiments/auto/Code_20181104a.md), [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.md).
+* [KretzControl.ino](/include/images/kretzaw145ba/20180812a/KretzControl.ino): Servo control for Matty, used in `20180430a` `20181104a`. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/images/hp2121/20181013a/Readme.md`](/include/images/hp2121/20181013a/Readme.md).
 
 * [Registers1MspsDisplayTrigged.ino](/retired/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
@@ -34,7 +34,7 @@
 
 * [ice40_sram_esp32.ino](/matty/20190226a/ice40_sram_esp32.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/experiments/auto/20190226a.md`](/include/experiments/auto/20190226a.md).
 
-* [control.ino](/matty/20200608a/control.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
+* [control.ino](/matty/20200608a/control.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 

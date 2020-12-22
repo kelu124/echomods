@@ -1,6 +1,6 @@
 * [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/AddPitch.md`](/include/AddPitch.md).
 
-* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md).
 
 * [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  . File used in: [`/retroATL3/Readme.md`](/retroATL3/Readme.md).
 
@@ -116,7 +116,7 @@
 
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
 
-* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . _File not used._
 
 * [./include/competitors/Readme.md](/include/competitors/Readme.md):  . _File not used._
 
@@ -282,7 +282,7 @@
 
 * [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md):  . _File not used._
 
-* [./include/20180217a/Readme.md](/include/20180217a/Readme.md): Experiment 20180217a setup details . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./include/20180217a/Readme.md](/include/20180217a/Readme.md): Experiment 20180217a setup details . _File not used._
 
 * [./include/20201219r/Readme.md](/include/20201219r/Readme.md):  . _File not used._
 
@@ -296,7 +296,7 @@
 
 * [./include/images/kretzaw145ba/20180811b/Readme.md](/include/images/kretzaw145ba/20180811b/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./include/images/kretzaw145ba/20180811a/Readme.md](/include/images/kretzaw145ba/20180811a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./include/images/kretzaw145ba/20180811a/Readme.md](/include/images/kretzaw145ba/20180811a/Readme.md):  . _File not used._
 
 * [./include/images/apogee10MHz/Readme.md](/include/images/apogee10MHz/Readme.md):  . _File not used._
 
@@ -724,9 +724,9 @@
 
 * [./lit3rick/Readme.md](/lit3rick/Readme.md): up5k all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./lit3rick/20201008a/Readme.md](/lit3rick/20201008a/Readme.md):  . File used in: [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
+* [./lit3rick/20201008a/Readme.md](/lit3rick/20201008a/Readme.md):  . _File not used._
 
-* [./lit3rick/20201008a/un0rick_50v/exp.md](/lit3rick/20201008a/un0rick_50v/exp.md):  . File used in: [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
+* [./lit3rick/20201008a/un0rick_50v/exp.md](/lit3rick/20201008a/un0rick_50v/exp.md):  . _File not used._
 
 * [./lit3rick/20201024a/Readme.md](/lit3rick/20201024a/Readme.md):  . File used in: [`/include/experiments/auto/20201024a.md`](/include/experiments/auto/20201024a.md).
 
@@ -754,13 +754,13 @@
 
 * [./matty/20200605a/exp.md](/matty/20200605a/exp.md):  . _File not used._
 
-* [./matty/20200321a/Readme.md](/matty/20200321a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md), [`/include/experiments/auto/20200321a.md`](/include/experiments/auto/20200321a.md).
+* [./matty/20200321a/Readme.md](/matty/20200321a/Readme.md):  . _File not used._
 
-* [./matty/20200321a/exp.md](/matty/20200321a/exp.md):  . File used in: [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md), [`/include/experiments/auto/20200321a.md`](/include/experiments/auto/20200321a.md).
+* [./matty/20200321a/exp.md](/matty/20200321a/exp.md):  . _File not used._
 
 * [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . _File not used._
 
-* [./matty/20181104c/Readme.md](/matty/20181104c/Readme.md):  . File used in: [`/include/experiments/auto/20181104c.md`](/include/experiments/auto/20181104c.md), [`/include/experiments/auto/20181104b.md`](/include/experiments/auto/20181104b.md), [`/include/experiments/auto/Code_20181104b.md`](/include/experiments/auto/Code_20181104b.md).
+* [./matty/20181104c/Readme.md](/matty/20181104c/Readme.md):  . _File not used._
 
 * [./matty/ideas/ice40.md](/matty/ideas/ice40.md):  . _File not used._
 
@@ -782,7 +782,7 @@
 
 * [./matty/20180226a/Readme.md](/matty/20180226a/Readme.md):  . _File not used._
 
-* [./matty/20200418a/Readme.md](/matty/20200418a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20200418a.md`](/include/experiments/auto/Code_20200418a.md).
+* [./matty/20200418a/Readme.md](/matty/20200418a/Readme.md):  . _File not used._
 
 * [./matty/20180506a/Readme.md](/matty/20180506a/Readme.md):  . _File not used._
 
@@ -804,13 +804,13 @@
 
 * [./matty/20180224a/Readme.md](/matty/20180224a/Readme.md):  . _File not used._
 
-* [./matty/20191024a/Readme.md](/matty/20191024a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20191024a.md`](/include/experiments/auto/Code_20191024a.md).
+* [./matty/20191024a/Readme.md](/matty/20191024a/Readme.md):  . _File not used._
 
 * [./matty/20180721a/Readme.md](/matty/20180721a/Readme.md):  . _File not used._
 
-* [./matty/20200325a/Readme.md](/matty/20200325a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
+* [./matty/20200325a/Readme.md](/matty/20200325a/Readme.md):  . _File not used._
 
-* [./matty/20200325a/exp.md](/matty/20200325a/exp.md):  . File used in: [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
+* [./matty/20200325a/exp.md](/matty/20200325a/exp.md):  . _File not used._
 
 * [./matty/20201103a/Readme.md](/matty/20201103a/Readme.md):  . _File not used._
 
@@ -832,7 +832,7 @@
 
 * [./matty/news/2017-11-19-first-ideas.md](/matty/news/2017-11-19-first-ideas.md):  . _File not used._
 
-* [./matty/20190713/Readme.md](/matty/20190713/Readme.md):  . File used in: [`/include/experiments/auto/20190713b.md`](/include/experiments/auto/20190713b.md).
+* [./matty/20190713/Readme.md](/matty/20190713/Readme.md):  . _File not used._
 
 * [./matty/20190713/20190713a/ndt.exp.md](/matty/20190713/20190713a/ndt.exp.md):  . _File not used._
 
@@ -858,7 +858,7 @@
 
 * [./matty/20201031a/fpga_ctrl/README.md](/matty/20201031a/fpga_ctrl/README.md):  . File used in: [`/include/experiments/auto/20201031a.md`](/include/experiments/auto/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.md).
 
-* [./matty/20181104b/Readme.md](/matty/20181104b/Readme.md):  . File used in: [`/include/experiments/auto/20181104b.md`](/include/experiments/auto/20181104b.md), [`/include/experiments/auto/Code_20181104b.md`](/include/experiments/auto/Code_20181104b.md).
+* [./matty/20181104b/Readme.md](/matty/20181104b/Readme.md):  . _File not used._
 
 * [./matty/20190111a/Readme.md](/matty/20190111a/Readme.md):  . _File not used._
 
@@ -870,15 +870,15 @@
 
 * [./matty/LawA/Readme.md](/matty/LawA/Readme.md):  . File used in: [`/include/experiments/auto/20200421b.md`](/include/experiments/auto/20200421b.md).
 
-* [./matty/20200608a/Readme.md](/matty/20200608a/Readme.md):  . File used in: [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
+* [./matty/20200608a/Readme.md](/matty/20200608a/Readme.md):  . _File not used._
 
-* [./matty/20200608a/exp.md](/matty/20200608a/exp.md):  . File used in: [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
+* [./matty/20200608a/exp.md](/matty/20200608a/exp.md):  . _File not used._
 
-* [./matty/20191023a/Readme.md](/matty/20191023a/Readme.md):  . File used in: [`/include/experiments/auto/20191023a.md`](/include/experiments/auto/20191023a.md).
+* [./matty/20191023a/Readme.md](/matty/20191023a/Readme.md):  . _File not used._
 
-* [./matty/20200416a/Readme.md](/matty/20200416a/Readme.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md), [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md).
+* [./matty/20200416a/Readme.md](/matty/20200416a/Readme.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md).
 
-* [./matty/20200416a/exp.md](/matty/20200416a/exp.md):  . File used in: [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md).
+* [./matty/20200416a/exp.md](/matty/20200416a/exp.md):  . _File not used._
 
 * [./matty/HV/Readme.md](/matty/HV/Readme.md):  . _File not used._
 
@@ -886,7 +886,7 @@
 
 * [./matty/20190804a/Readme.md](/matty/20190804a/Readme.md):  . _File not used._
 
-* [./matty/20181104a/Readme.md](/matty/20181104a/Readme.md):  . File used in: [`/include/experiments/auto/Code_20181104a.md`](/include/experiments/auto/Code_20181104a.md), [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.md).
+* [./matty/20181104a/Readme.md](/matty/20181104a/Readme.md):  . _File not used._
 
 * [./doj/Readme.md](/doj/Readme.md): Motherboard readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 

@@ -17,8 +17,8 @@
 * [20180812a-ProbeRunning.ipynb](/include/images/kretzaw145ba/20180812a/20180812a-ProbeRunning.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180812a-Acquisition-Phantom.ipynb](/include/images/kretzaw145ba/20180812a/20180812a-Acquisition-Phantom.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180812a-Server.ipynb](/include/images/kretzaw145ba/20180812a/20180812a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180811a-Processing.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/images/kretzaw145ba/20180811b/Readme.md`](/include/images/kretzaw145ba/20180811b/Readme.md), [`/include/images/kretzaw145ba/20180811a/Readme.md`](/include/images/kretzaw145ba/20180811a/Readme.md), [`/include/experiments/auto/20180811a.md`](/include/experiments/auto/20180811a.md).
-* [20180811a-Server.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/images/kretzaw145ba/20180811a/Readme.md`](/include/images/kretzaw145ba/20180811a/Readme.md), [`/include/experiments/auto/20180811a.md`](/include/experiments/auto/20180811a.md).
+* [20180811a-Processing.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/images/kretzaw145ba/20180811b/Readme.md`](/include/images/kretzaw145ba/20180811b/Readme.md).
+* [20180811a-Server.ipynb](/include/images/kretzaw145ba/20180811a/20180811a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [Process.ipynb](/include/images/probes_vna/Process.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [CheckBib.ipynb](/include/biblio/bib/CheckBib.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170502-DICOMizingCroakerData.ipynb](/retired/croaker/data/20161217/20170502-DICOMizingCroakerData.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -43,24 +43,24 @@
 * [20170612-ArduinoFFTed.ipynb](/elmo/data/arduinoffset/20170612-ArduinoFFTed.ipynb). File used in: [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170718-Servo.ipynb](/elmo/data/arduiphantom/20170718-Servo.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170709-Repeats.ipynb](/elmo/data/arduiprobe/20170709-Repeats.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201008a-CompareAcqs.ipynb](/lit3rick/20201008a/20201008a-CompareAcqs.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
-* [0.CreatingPickles.ipynb](/lit3rick/20201008a/lit3rick_90V/0.CreatingPickles.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
-* [0.CreatingPickles_lit3.ipynb](/lit3rick/20201008a/lit3rick_5v/0.CreatingPickles_lit3.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
-* [1.CheckingGainSetup.ipynb](/lit3rick/20201008a/lit3rick_5v/1.CheckingGainSetup.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
-* [0.CreatingPickles_lit3.ipynb](/lit3rick/20201008a/lit3rick_i2s/0.CreatingPickles_lit3.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
-* [1.SignalProcessingReview.ipynb](/lit3rick/20201008a/lit3rick_i2s/1.SignalProcessingReview.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
-* [0.CreatingPickles_un0.ipynb](/lit3rick/20201008a/un0rick_50v/0.CreatingPickles_un0.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201008a.md`](/include/experiments/auto/20201008a.md).
+* [20201008a-CompareAcqs.ipynb](/lit3rick/20201008a/20201008a-CompareAcqs.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [0.CreatingPickles.ipynb](/lit3rick/20201008a/lit3rick_90V/0.CreatingPickles.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [0.CreatingPickles_lit3.ipynb](/lit3rick/20201008a/lit3rick_5v/0.CreatingPickles_lit3.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [1.CheckingGainSetup.ipynb](/lit3rick/20201008a/lit3rick_5v/1.CheckingGainSetup.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [0.CreatingPickles_lit3.ipynb](/lit3rick/20201008a/lit3rick_i2s/0.CreatingPickles_lit3.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [1.SignalProcessingReview.ipynb](/lit3rick/20201008a/lit3rick_i2s/1.SignalProcessingReview.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [0.CreatingPickles_un0.ipynb](/lit3rick/20201008a/un0rick_50v/0.CreatingPickles_un0.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201024a-i2s_lit3rick.ipynb](/lit3rick/20201024a/20201024a-i2s_lit3rick.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201024a.md`](/include/experiments/auto/20201024a.md).
 * [20190329a-NDT.ipynb](/matty/20190329a/20190329a-NDT.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190104a-Client.ipynb](/matty/20190104a/20190104a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20190104a.md`](/include/experiments/auto/20190104a.md).
+* [20190104a-Client.ipynb](/matty/20190104a/20190104a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20200605a-ProbesTests.ipynb](/matty/20200605a/20200605a-ProbesTests.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200321a.ipynb](/matty/20200321a/20200321a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20200321a.md`](/include/experiments/auto/Code_20200321a.md), [`/include/experiments/auto/20200321a.md`](/include/experiments/auto/20200321a.md).
+* [20200321a.ipynb](/matty/20200321a/20200321a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180403a-75V.ipynb](/matty/20180403a/20180403a-75V.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180403a-Client.ipynb](/matty/20180403a/20180403a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181104a-Server.ipynb](/matty/20181104c/20181104a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20181104c.md`](/include/experiments/auto/20181104c.md), [`/include/experiments/auto/Code_20181104a.md`](/include/experiments/auto/Code_20181104a.md), [`/include/experiments/auto/20181104b.md`](/include/experiments/auto/20181104b.md), [`/include/experiments/auto/Code_20181104b.md`](/include/experiments/auto/Code_20181104b.md), [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.md).
-* [20181104c-Processing.ipynb](/matty/20181104c/20181104c-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20181104c.md`](/include/experiments/auto/20181104c.md).
+* [20181104a-Server.ipynb](/matty/20181104c/20181104a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20181104c-Processing.ipynb](/matty/20181104c/20181104c-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201104a.ipynb](/matty/20201104a/20201104a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20190510a.ipynb](/matty/20190510a/20190510a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20190404a-NDT.ipynb](/matty/20190404a/20190404a-NDT.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -68,9 +68,9 @@
 * [20180227a-Loops.ipynb](/matty/20180227a/20180227a-Loops.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [TEST_USB.ipynb](/matty/v1.1/direct/TEST_USB.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180226a-Compare.ipynb](/matty/20180226a/20180226a-Compare.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200418a-Process.ipynb](/matty/20200418a/20200418a-Process.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20200418a.md`](/include/experiments/auto/Code_20200418a.md).
-* [20200418a-MakePkls.ipynb](/matty/20200418a/20200418a-MakePkls.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20200418a.md`](/include/experiments/auto/Code_20200418a.md).
-* [20200423-echoes.ipynb](/matty/20200418a/20200423-echoes.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20200418a.md`](/include/experiments/auto/Code_20200418a.md).
+* [20200418a-Process.ipynb](/matty/20200418a/20200418a-Process.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20200418a-MakePkls.ipynb](/matty/20200418a/20200418a-MakePkls.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20200423-echoes.ipynb](/matty/20200418a/20200423-echoes.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [matty20180210_bitmap.ipynb](/matty/prog_flash/matty20180210_bitmap.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [MATTY20180211_bitmap.ipynb](/matty/prog_flash/MATTY20180211_bitmap.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180814a-Server.ipynb](/matty/20180814a/20180814a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -82,16 +82,16 @@
 * [20180721a-pyUn0.ipynb](/matty/20180721a/20180721a-pyUn0.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [Untitled1.ipynb](/matty/un0_test_a/Untitled1.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [Untitled.ipynb](/matty/un0_test_a/Untitled.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200325a.ipynb](/matty/20200325a/20200325a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
-* [20200325a-Acquisitions.ipynb](/matty/20200325a/20200325a-Acquisitions.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
+* [20200325a.ipynb](/matty/20200325a/20200325a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20200325a-Acquisitions.ipynb](/matty/20200325a/20200325a-Acquisitions.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201103a.ipynb](/matty/20201103a/20201103a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [a.20201026a.ipynb](/matty/20201026a/fpga_ctrl/a.20201026a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201107b.ipynb](/matty/20201107a/20201107b.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201107a.ipynb](/matty/20201107a/20201107a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180826a-Server.ipynb](/matty/20180826a/20180826a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180826a.md`](/include/experiments/auto/Code_20180826a.md), [`/include/experiments/auto/20180826a.md`](/include/experiments/auto/20180826a.md).
-* [20180826a-Client.ipynb](/matty/20180826a/20180826a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180826a.md`](/include/experiments/auto/Code_20180826a.md), [`/include/experiments/auto/20180826a.md`](/include/experiments/auto/20180826a.md).
+* [20180826a-Server.ipynb](/matty/20180826a/20180826a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20180826a-Client.ipynb](/matty/20180826a/20180826a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20190713a-NewBatch.ipynb](/matty/20190713/20190713a/20190713a-NewBatch.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190713b-Check.ipynb](/matty/20190713/20190713b/20190713b-Check.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20190713b.md`](/include/experiments/auto/20190713b.md).
+* [20190713b-Check.ipynb](/matty/20190713/20190713b/20190713b-Check.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20190324a.ipynb](/matty/20190324a/20190324a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20190324a.md`](/include/experiments/auto/Code_20190324a.md), [`/include/experiments/auto/20190324a.md`](/include/experiments/auto/20190324a.md).
 * [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -100,32 +100,32 @@
 * [20180511a-Enveloppe.ipynb](/matty/20180511a/20180511a-Enveloppe.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180403b-Client.ipynb](/matty/20180403b/20180403b-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180403b-Server.ipynb](/matty/20180403b/20180403b-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180831c-Server.ipynb](/matty/20180831c/20180831c-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180831c.md`](/include/experiments/auto/20180831c.md).
-* [20180831c-Client.ipynb](/matty/20180831c/20180831c-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180831c.md`](/include/experiments/auto/20180831c.md).
+* [20180831c-Server.ipynb](/matty/20180831c/20180831c-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20180831c-Client.ipynb](/matty/20180831c/20180831c-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180516a-Client.ipynb](/matty/20180516a/20180516a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180516a.md`](/include/experiments/auto/20180516a.md), [`/include/experiments/auto/Code_20180516a.md`](/include/experiments/auto/Code_20180516a.md).
 * [20180516a-Server.ipynb](/matty/20180516a/20180516a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180516a.md`](/include/experiments/auto/20180516a.md), [`/include/experiments/auto/Code_20180516a.md`](/include/experiments/auto/Code_20180516a.md).
 * [b.20201031a.ipynb](/matty/20201031a/b.20201031a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201031a.md`](/include/experiments/auto/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.md).
 * [c.20201031a.ipynb](/matty/20201031a/c.20201031a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201031a.md`](/include/experiments/auto/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.md).
 * [a.20201031a.ipynb](/matty/20201031a/a.20201031a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201031a.md`](/include/experiments/auto/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.md).
 * [a.20201026a.ipynb](/matty/20201031a/fpga_ctrl/a.20201026a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201031a.md`](/include/experiments/auto/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.md).
-* [20181104b-Processing.ipynb](/matty/20181104b/20181104b-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20181104b.md`](/include/experiments/auto/20181104b.md), [`/include/experiments/auto/Code_20181104b.md`](/include/experiments/auto/Code_20181104b.md).
+* [20181104b-Processing.ipynb](/matty/20181104b/20181104b-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20181031a-Server.ipynb](/matty/20181031a/20181031a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20190111a-TOF.ipynb](/matty/20190111a/20190111a-TOF.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [CalibGain.ipynb](/matty/20180310a/CalibGain.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180310a-CalibGain.ipynb](/matty/20180310a/20180310a-CalibGain.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180310a-Server.ipynb](/matty/20180310a/20180310a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181126a-Processing.ipynb](/matty/20181126a/20181126a-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.md), [`/include/experiments/auto/Code_20181126b.md`](/include/experiments/auto/Code_20181126b.md).
-* [20181126a-Server-1.1b.ipynb](/matty/20181126a/20181126a-Server-1.1b.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20181126b.md`](/include/experiments/auto/20181126b.md), [`/include/experiments/auto/Code_20181126b.md`](/include/experiments/auto/Code_20181126b.md).
+* [20181126a-Processing.ipynb](/matty/20181126a/20181126a-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20181126a-Server-1.1b.ipynb](/matty/20181126a/20181126a-Server-1.1b.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180813a-Processing.ipynb](/matty/20180813a/20180813a-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180813a-Server.ipynb](/matty/20180813a/20180813a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180227a-Loops.ipynb](/matty/v0.1/images/20180227/20180227a-Loops.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20200421b - TestingALaw.ipynb](/matty/LawA/20200421b - TestingALaw.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20200421b.md`](/include/experiments/auto/20200421b.md).
 * [01.Compare.ipynb](/matty/LawA/comparatif/01.Compare.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20200421a.md`](/include/experiments/auto/20200421a.md).
 * [00.CreateCSVs.ipynb](/matty/LawA/comparatif/data/00.CreateCSVs.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200608a.ipynb](/matty/20200608a/20200608a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
-* [20200608a-file10.ipynb](/matty/20200608a/20200608a-file10.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20200608a.md`](/include/experiments/auto/20200608a.md), [`/include/experiments/auto/Code_20200608a.md`](/include/experiments/auto/Code_20200608a.md).
-* [20200325a-PicklingInterestingData.ipynb](/matty/20200416a/20200325a-PicklingInterestingData.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
-* [20200325a-Acquisitions.ipynb](/matty/20200416a/20200325a-Acquisitions.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20200416a.md`](/include/experiments/auto/20200416a.md), [`/include/experiments/auto/Code_20200325a.md`](/include/experiments/auto/Code_20200325a.md).
+* [20200608a.ipynb](/matty/20200608a/20200608a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20200608a-file10.ipynb](/matty/20200608a/20200608a-file10.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20200325a-PicklingInterestingData.ipynb](/matty/20200416a/20200325a-PicklingInterestingData.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20200325a-Acquisitions.ipynb](/matty/20200416a/20200325a-Acquisitions.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20190103a-Client.ipynb](/matty/20190103a/20190103a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20190103a-Server.ipynb](/matty/20190103a/20190103a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180225a-Loops.ipynb](/matty/20180225a/20180225a-Loops.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -134,9 +134,9 @@
 * [testSPI1.ipynb](/matty/SPI/testSPI1.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [testSPI2.ipynb](/matty/SPI/testSPI2.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [Untitled.ipynb](/matty/SPI/Untitled.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181104a-Processing.ipynb](/matty/20181104a/20181104a-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20181104a.md`](/include/experiments/auto/Code_20181104a.md), [`/include/experiments/auto/20181104a.md`](/include/experiments/auto/20181104a.md).
-* [20180825a-Client.ipynb](/matty/20180825a/20180825a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180825a.md`](/include/experiments/auto/Code_20180825a.md).
-* [20180825a-Server.ipynb](/matty/20180825a/20180825a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180825a.md`](/include/experiments/auto/Code_20180825a.md).
+* [20181104a-Processing.ipynb](/matty/20181104a/20181104a-Processing.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20180825a-Client.ipynb](/matty/20180825a/20180825a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20180825a-Server.ipynb](/matty/20180825a/20180825a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 
 [](@autogenerated - invisible comment)
