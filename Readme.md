@@ -311,7 +311,7 @@ and used in a wider context:
 
 # List of probes
 
-That's the list of probes been playing with:
+That's the list of probes I've been playing with:
 
 * [724A](/include/probes/auto/724A.md)
 * [BiViPiezo](/include/probes/auto/BiViPiezo.md)

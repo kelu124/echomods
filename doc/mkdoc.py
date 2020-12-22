@@ -320,7 +320,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 			elif OneMod in ModulesRetiredList:
 				ModulesT += "* ["+OneMod+"](/retired/"+OneMod+"/)\n"
 				ExpeJSON[Expe]["modules"].append(OneMod)
-			if OneMod in FatJSON["probes"].keys():
+			if OneMod in FatJSON["probes"].keys(): ## @ luc : manque ici !!
 				#print OneMod, Expe
 				ExpeJSON[Expe]["probes"].append(OneMod)
 				ModulesT += "* Probe used: __["+OneMod+"](/include/probes/auto/"+OneMod+".md)__\n"
@@ -380,20 +380,17 @@ def ListProbes(pathdefine,GrosJaSON):
 			ListOfProbes.append(NameProbe)
 		#print NameProbe
 		if k.startswith("* code:"):
-			GrosJaSON["probes"][NameProbe]["code"] = k.replace("* code:","")
+			GrosJaSON["probes"][NameProbe]["code"] = k.replace("* code:","").strip()
 		if k.startswith("* smalldesc:"):
-			GrosJaSON["probes"][NameProbe]["smalldesc"] = k.replace("* smalldesc:","")
+			GrosJaSON["probes"][NameProbe]["smalldesc"] = k.replace("* smalldesc:","").strip()
 		if k.startswith("* longdesc:"):
-			GrosJaSON["probes"][NameProbe]["longdesc"] = k.replace("* longdesc:","")
+			GrosJaSON["probes"][NameProbe]["longdesc"] = k.replace("* longdesc:","").strip()
 
 	for k in GrosJaSON["probes"].keys():
 		GrosJaSON["probes"][k]["experiments"] = []
 		GrosJaSON["probes"][k]["images"] = []
 		GrosJaSON["probes"][k]["md"] = []
-
-
-
-	#print GrosJaSON["probes"]
+ 
 	return ListOfProbes,GrosJaSON
 
 def MDProbes(GrosJaSON):
@@ -407,7 +404,7 @@ def MDProbes(GrosJaSON):
 
 
 ## Adds probes to all the images in the experiment
-def TagProbesExpes(GrosJaSON,LSExpe,probe):
+def TagProbesExpes(GrosJaSON,LSExpe,probe): #@luc TagProbesExpes
 	#print (probe, "  ",LSExpe)
 	#print(probe,GrosJaSON["probes"][probe])
 
@@ -448,7 +445,7 @@ def CreateProbesFiles(GrosJaSON):
 		if len(GrosJaSON["probes"][probe]["experiments"]):
 			ProbeAuto += "# Experiments\n\n"
 			LSExpe = list(set(GrosJaSON["probes"][probe]["experiments"]))
-			GrosJaSON = TagProbesExpes(GrosJaSON,LSExpe,probe)
+			#GrosJaSON = TagProbesExpes(GrosJaSON,LSExpe,probe)
 			for expe in LSExpe:
 				ProbeAuto += "* ["+expe+"](/include/experiments/auto/"+expe+".md)\n"
 			ProbeAuto += "\n\n"
@@ -474,7 +471,7 @@ def CreateProbesFiles(GrosJaSON):
 			OTHERPICS = "## Other pictures \n\n"
 
 			for image in list(set(GrosJaSON["probes"][probe]["images"])):
-				print(image,GrosJaSON["images"][image]["category"])
+				print(probe,image,GrosJaSON["images"][image]["category"])
 				if "setup" in GrosJaSON["images"][image]["category"]:
 					SETUP += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					SETUP += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
@@ -487,7 +484,7 @@ def CreateProbesFiles(GrosJaSON):
 				elif any(ext in GrosJaSON["images"][image]["category"] for ext in ["FFT"]):
 					FFT += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					FFT += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
-				elif "teardown" in GrosJaSON["images"][image]["category"]:	
+				elif "eardown" in GrosJaSON["images"][image]["category"]:	
 					TEARDOWN += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					TEARDOWN += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
 				elif "smith" in GrosJaSON["images"][image]["category"]:	
@@ -523,19 +520,25 @@ def CreateProbesFiles(GrosJaSON):
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
 
 	ProbeAuto = "# List of opened probes\n\n"
-	AddProbes = "That's the list of probes been playing with:\n\n"
+	AddProbes = "That's the list of probes I've been playing with:\n\n"
 	for probe in sorted(GrosJaSON["probes"].keys()):
 		ProbeAuto += "### ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md) ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
 		ProbeAuto += "__TLDR__: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
 		ProbeAuto += "__More?__ "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
 		if len(GrosJaSON["probes"][probe]["experiments"]):
+			# @luc: GrosJaSON["probes"][probe]["experiments"] for all experiments
 			ProbeAuto += "__Present in:__ "+str(len(list(set(GrosJaSON["probes"][probe]["experiments"]))))+" experiments ("
 			ListOfExpeWithLinks = [ "["+x+"](/include/experiments/auto/"+x+".md)" for x in sorted(list(set(GrosJaSON["probes"][probe]["experiments"])))]
 			ProbeAuto += ", ".join(ListOfExpeWithLinks)
 			ProbeAuto += ") \n\n"
 		if GrosJaSON["probes"][probe]["images"]:
-			ProbeAuto += "__Present in:__ "+ str(len(list(set(GrosJaSON["probes"][probe]["images"]))))+" images.\n\n"
-
+			LstPr = list(set(GrosJaSON["probes"][probe]["images"]))
+			Npr = len(LstPr)
+			ProbeAuto += "__Present in:__ "+ str(Npr)+" images. "
+			for k in LstPr:
+				#print(k)
+				ProbeAuto += " ["+str(k).split("/")[-1].split(".")[0]+"]("+str(k)+")" 
+			ProbeAuto += ".\n\n"
 		AddProbes += "* ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md)\n"
 	OpenWrite(ProbeAuto,"./include/probes/Readme.md")
 	OpenWrite(AddProbes,"./include/AddProbes.md")
@@ -602,7 +605,7 @@ def CreateImgTags(ImgSrc):
 		#edited = 1
 		dt = ""
 		hm = ""
-		if ("201" in FileNameIs):	
+		if ("201" in FileNameIs) or ("202" in FileNameIs):	
 			m = re.findall("([0-9]+)", FileNameIs)
 			if (len(m) and len(m[0]) == 8): 
 				tim = m[0]
@@ -1143,7 +1146,7 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 
 	StringData = ""
 	for k in range(NdFiles):
-		if (PathRefedFile in ContentFiles[k]) and ("/include/FilesList/" not in ContentFiles[k]) and (".tpl" not in ContentFiles[k]) and ("mkimg.py" not in ContentFiles[k]): 
+		if (PathRefedFile in ContentFiles[k]) and ("/include/FilesList/" not in ContentFiles[k]) and (".tpl" not in ContentFiles[k]) and ("mkimg.py" not in ContentFiles[k]) and ("pyUn0.py" not in ContentFiles[k]): 
 			FileList.append(PathRefingFile[k][1:])
 			InRef.append("[`"+PathRefingFile[k][1:]+"`]("+PathRefingFile[k][1:]+")")
 	if len(InRef):
