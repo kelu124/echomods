@@ -41,6 +41,7 @@
 * ./include/experiments/Desc_20190113a.md
 * ./include/experiments/Desc_20180115a.md
 * ./include/experiments/Desc_20180103a.md
+* ./include/experiments/Desc_20201219r.md
 * ./include/experiments/Desc_20180224b.md
 * ./include/experiments/Desc_20191022b.md
 * ./include/experiments/Desc_20200418a.md
@@ -233,6 +234,7 @@
 * ./include/experiments/auto/Code_20200808r.md
 * ./include/experiments/auto/20180812a.md
 * ./include/experiments/auto/Img_20180417a.md
+* ./include/experiments/auto/20201128a.md
 * ./include/experiments/auto/20180809a.md
 * ./include/experiments/auto/Mod_20180825a.md
 * ./include/experiments/auto/Img_20171111a.md
@@ -254,6 +256,7 @@
 * ./include/experiments/auto/Img_20190713a.md
 * ./include/experiments/auto/Mod_20190223a.md
 * ./include/experiments/auto/20180811b.md
+* ./include/experiments/auto/Img_20201219r.md
 * ./include/experiments/auto/20201024a.md
 * ./include/experiments/auto/20180831c.md
 * ./include/experiments/auto/Code_20191018a.md
@@ -321,6 +324,7 @@
 * ./include/experiments/auto/Mod_20190713a.md
 * ./include/experiments/auto/Img_20201022a.md
 * ./include/experiments/auto/20180115a.md
+* ./include/experiments/auto/Code_20201219r.md
 * ./include/experiments/auto/20180620a.md
 * ./include/experiments/auto/Img_20191027a.md
 * ./include/experiments/auto/Img_20181104b.md
@@ -407,6 +411,7 @@
 * ./include/experiments/auto/20190111a.md
 * ./include/experiments/auto/Mod_20190226a.md
 * ./include/experiments/auto/20180814a.md
+* ./include/experiments/auto/20201219r.md
 * ./include/experiments/auto/Img_20200421a.md
 * ./include/experiments/auto/Mod_20180417a.md
 * ./include/experiments/auto/20181126a.md
@@ -429,6 +434,7 @@
 * ./include/experiments/auto/Code_20190329a.md
 * ./include/experiments/auto/Mod_20201026a.md
 * ./include/experiments/auto/20160814a.md
+* ./include/experiments/auto/Mod_20201219r.md
 * ./include/experiments/auto/Img_20181013a.md
 * ./include/experiments/auto/Mod_20201028a.md
 * ./include/experiments/auto/Img_20180516a.md
@@ -543,6 +549,7 @@
 * ./include/probes/auto/brd35.md
 * ./include/probes/auto/bard.md
 * ./include/probes/auto/hp2121.md
+* ./include/probes/auto/bk8536.md
 * ./include/probes/auto/brd75.md
 * ./include/probes/auto/shzmch.md
 * ./include/probes/auto/atlannular.md
@@ -622,6 +629,7 @@
 * ./gitbook/exp/20201103a.md
 * ./gitbook/exp/20200421a.md
 * ./gitbook/exp/20180812a.md
+* ./gitbook/exp/20201128a.md
 * ./gitbook/exp/20180809a.md
 * ./gitbook/exp/20180225a.md
 * ./gitbook/exp/20201104a.md
@@ -657,6 +665,7 @@
 * ./gitbook/exp/20190223a.md
 * ./gitbook/exp/20190111a.md
 * ./gitbook/exp/20180814a.md
+* ./gitbook/exp/20201219r.md
 * ./gitbook/exp/20181126a.md
 * ./gitbook/exp/20191027b.md
 * ./gitbook/exp/20180224b.md
@@ -762,6 +771,7 @@
 * ./gitbook/probes/brd35.md
 * ./gitbook/probes/bard.md
 * ./gitbook/probes/hp2121.md
+* ./gitbook/probes/bk8536.md
 * ./gitbook/probes/brd75.md
 * ./gitbook/probes/shzmch.md
 * ./gitbook/probes/atlannular.md

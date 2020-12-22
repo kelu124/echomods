@@ -3838,6 +3838,32 @@ Playing with ESP32 ideas
 
 * https://www.postgresql.org/docs/9.1/sql-createtable.html for creating postgresql tables
 
+#### 2020-11-05 ImpedanceMatching progress yeah
+
+* Impedance matching on hp2121 seems good.. not actually no.
+  * @todo check motor https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20181013a.md for the hp probe
+* VGA output on the un0rick, yeah!
+* test with the [HP probe](https://github.com/kelu124/echomods/tree/master/include/hp/20201128a)
+
+#### 2020-12-03 VGA FTW
+
+* Done with the VGA part for the un0rick
+* Will now need to go on the lit3rick adaptation with David
+
+* Cosine generation on ESP32 https://www.esp32.com/viewtopic.php?f=18&t=10321
+* PWM: ledCwrite
+* DAC ? https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/dac.html GPIO 25/26
+
+* ADC: 36 (ADC1)
+* DAC: 26 (channel 2)
+* PWM: 0
+
+#### 2020-12-06 StNkls
+
+* https://github.com/perfaram/pdf-zip-nes-polyglot
+* https://github.com/kelu124/PDFGitPolyglot
+
+* FUN : https://www.bbcmicrobot.com/owlet-test2.html
 
 =======
 

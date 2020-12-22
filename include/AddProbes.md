@@ -11,6 +11,7 @@ That's the list of probes been playing with:
 * [atlidrict](/include/probes/auto/atlidrict.md)
 * [ausonics75](/include/probes/auto/ausonics75.md)
 * [bard](/include/probes/auto/bard.md)
+* [bk8536](/include/probes/auto/bk8536.md)
 * [brd35](/include/probes/auto/brd35.md)
 * [brd75](/include/probes/auto/brd75.md)
 * [brd90](/include/probes/auto/brd90.md)

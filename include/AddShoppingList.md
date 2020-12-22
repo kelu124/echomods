@@ -40,6 +40,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * integrate some documentation for un0rick and lit3rick as in http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/3.05x6.5/TE0876/REV02/Documents/iceZero-pinout-v5.pdf
 * move forward on some new hardware like the [ft600](./include/ft_600_notes.md)
 * find the i2s issue
+ * check motor https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20181013a.md for the hp probe
 
 
 
