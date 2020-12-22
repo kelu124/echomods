@@ -8,6 +8,17 @@
 
 * [20200808r](/include/experiments/auto/20200808r.md)
 * [20180809b](/include/experiments/auto/20180809b.md)
+* [20201219r](/include/experiments/auto/20201219r.md)
+
+
+# Images
+
+## Other pictures 
+
+![](/include/20201219r/impedances/diasonics_50.png)
+ToTag
+checking impedance of piezos
+
 
 
 

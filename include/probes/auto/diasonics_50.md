@@ -4,6 +4,11 @@
 
 * Longer description:  a diasonics_50 probe
 
+# Experiments
+
+* [20201219r](/include/experiments/auto/20201219r.md)
+
+
 # Files
 
 * [/include/images/probes_vna/Readme.md](/include/images/probes_vna/Readme.md)
@@ -11,37 +16,11 @@
 
 # Images
 
-## Frequency mapping 
-
-![](/include/images/probes_vna/diasonics_50.png)
-smith
-ToTag
-
 ## Other pictures 
 
-![](/include/images/diasonics_50/P_20181208_131435.jpg)
+![](/include/20201219r/impedances/duc2m.png)
 ToTag
-ToTag
-
-![](/include/images/diasonics_50/P_20181208_131810.jpg)
-ToTag
-ToTag
-
-![](/include/images/diasonics_50/P_20181208_131756.jpg)
-ToTag
-ToTag
-
-![](/include/images/diasonics_50/P_20181208_131405.jpg)
-ToTag
-Demontage
-
-![](/include/images/diasonics_50/P_20181208_131643.jpg)
-ToTag
-ToTag
-
-![](/include/images/diasonics_50/P_20181208_131821.jpg)
-ToTag
-ToTag
+checking impedance of piezos
 
 
 

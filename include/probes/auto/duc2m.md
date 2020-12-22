@@ -4,56 +4,9 @@
 
 * Longer description: an Diagnostic Ultrasound Corp probe. 2MHz. Should be a verathon 2MHz probe. Central pins from the 2x5 header should be piezo.
 
-# Images
+# Experiments
 
-## Teardown 
-
-![](/include/images/202005/duc2m/P_20200520_191801.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191844.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191751.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191735.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191722.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191717.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191712.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191756.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191902.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191705.jpg)
-teardown
-teardown of a new probe
-
-## Other pictures 
-
-![](/include/images/202005/duc2m/duc2m.png)
-s1p
-s1p
-
+* [20201219r](/include/experiments/auto/20201219r.md)
 
 
 

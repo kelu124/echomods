@@ -133,6 +133,11 @@
 * smalldesc:a dual imaging transducer sent by Jorge
 * longdesc:a dual imaging transducer sent by Jorge
 
+# bk8536
+* code:bk8536
+* smalldesc: Bruel & Kjaer mechanical probe.
+* longdesc: Bruel & Kjaer mechanical probe.
+
 # brd35
 * code:brd35
 * smalldesc: Bard rite, 3.5MHz.

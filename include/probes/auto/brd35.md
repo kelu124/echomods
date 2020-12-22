@@ -7,16 +7,7 @@
 # Experiments
 
 * [20200608a](/include/experiments/auto/20200608a.md)
-
-
-# Images
-
-### FFTs 
-
-![](/matty/20200608a/images/20200608a-11-fft.jpg)
-FFT
-FFT of the of 20200608a experiment. 200ns at shooting time at 75V pulse
-
+* [20201219r](/include/experiments/auto/20201219r.md)
 
 
 
