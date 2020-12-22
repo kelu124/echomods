@@ -1,6 +1,6 @@
 # atlannular (atlannular)
 
-* Small description:  a 5 rings probe
+* Small description: a 5 rings probe
 
 * Longer description: five rings!
 

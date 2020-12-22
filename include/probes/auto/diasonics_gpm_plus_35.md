@@ -1,8 +1,8 @@
 # diasonics_gpm_plus_35 (diasonics_gpm_plus_35)
 
-* Small description:  A diasonics GP/M plus, 3.5MHz
+* Small description: A diasonics GP/M plus, 3.5MHz
 
-* Longer description:  A diasonics GP/M plus, 3.5MHz
+* Longer description: A diasonics GP/M plus, 3.5MHz
 
 # Experiments
 
@@ -12,6 +12,84 @@
 # Files
 
 * [/include/images/probes_vna/Readme.md](/include/images/probes_vna/Readme.md)
+
+
+# Images
+
+## Frequency mapping 
+
+![](/include/images/probes_vna/diasonics_gpm_plus_35.s1p.png)
+smith
+ToTag
+
+### Signals 
+
+![](/include/20200809r/images/P_20200508_153306.jpg)
+graph
+Getting impedances of the probes
+
+![](/include/20200809r/images/probeC.jpg)
+graph
+Getting impedances of the probes
+
+## Teardown 
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_200425.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195735.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_200306.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_194816.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195922.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195008.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195543.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_200308.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195011.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_194824.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_200702.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_194843.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195549.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_194820.jpg)
+teardown
+.
+
 
 
 

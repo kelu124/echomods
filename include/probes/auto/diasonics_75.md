@@ -1,8 +1,8 @@
 # diasonics_75 (diasonics_75)
 
-* Small description:  a diasonics_75 probe
+* Small description: a diasonics_75 probe
 
-* Longer description:  a diasonics_75 probe
+* Longer description: a diasonics_75 probe
 
 # Experiments
 
@@ -16,11 +16,51 @@
 
 # Images
 
-## Other pictures 
+## Frequency mapping 
 
-![](/include/20200809r/hp2121/hp2121_yellow.png)
-s1p
-Reviewing hp2121 values
+![](/include/images/probes_vna/diasonics_75.s1p.png)
+smith
+ToTag
+
+### Signals 
+
+![](/include/20200809r/images/P_20200508_153306.jpg)
+graph
+Getting impedances of the probes
+
+![](/include/20200809r/images/probeAin.jpg)
+graph
+Getting impedances of the probes
+
+![](/include/20200809r/images/probeAout.jpg)
+graph
+Getting impedances of the probes
+
+## Teardown 
+
+![](/include/images/diasonics_75/20191207_173734.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/P_20181208_130753.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/P_20181208_131114.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/P_20181208_130624.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/20191207_173753.jpg)
+teardown
+.
+
+![](/include/images/diasonics_75/20191207_173601.jpg)
+teardown
+.
 
 
 

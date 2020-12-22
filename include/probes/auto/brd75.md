@@ -1,12 +1,12 @@
 # brd75 (brd75)
 
-* Small description:  Bard rite, 7.5MHz.
+* Small description: Bard rite, 7.5MHz.
 
-* Longer description:  Bard rite, 7.5MHz.
+* Longer description: Bard rite, 7.5MHz.
 
 # Images
 
-## Other pictures 
+## Teardown 
 
 ![](/include/bard/brd75/P_20200605_131043.jpg)
 Teardown

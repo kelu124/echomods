@@ -1,8 +1,8 @@
 # linscan (linscan)
 
-* Small description:  Ophtalmic probes
+* Small description: Ophtalmic probes
 
-* Longer description:  One tore down. Not the other. Curious to check the motor.
+* Longer description: One tore down. Not the other. Curious to check the motor.
 
 # Images
 

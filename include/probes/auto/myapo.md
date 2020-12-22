@@ -1,6 +1,6 @@
 # myapo (myapo)
 
-* Small description:  Annular breakout.
+* Small description: Annular breakout.
 
 * Longer description: seems to be an annular probe. With my own breakout style.
 

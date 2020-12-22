@@ -1,8 +1,8 @@
 # sw45b (sw45b)
 
-* Small description:  a kretz sw45b probe
+* Small description: a kretz sw45b probe
 
-* Longer description:  a kretz sw45b probe. Interesting mechanical device. Looks like a convex array probe, but mechanical.
+* Longer description: a kretz sw45b probe. Interesting mechanical device. Looks like a convex array probe, but mechanical.
 
 # Images
 

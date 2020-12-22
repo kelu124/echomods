@@ -1,8 +1,8 @@
 # brd90 (brd90)
 
-* Small description:  Bard rite, 9.0MHz.
+* Small description: Bard rite, 9.0MHz.
 
-* Longer description:  Bard rite, 9.0MHz.
+* Longer description: Bard rite, 9.0MHz.
 
 # Experiments
 
@@ -32,11 +32,27 @@
 
 # Images
 
-## Setup 
+## Teardown 
 
-![](/matty/20180225a/IMG_20180225_184226.jpg)
-setup
-Setup of the experiment
+![](/include/bard/brd90/P_20200605_131205.jpg)
+Teardown
+Teardown
+
+![](/include/bard/brd90/P_20200605_131215.jpg)
+Teardown
+Teardown
+
+![](/include/bard/brd90/P_20200605_131334.jpg)
+Teardown
+Teardown
+
+![](/include/bard/brd90/P_20200605_131248.jpg)
+Teardown
+Teardown
+
+![](/include/bard/brd90/P_20200605_131328.jpg)
+Teardown
+Teardown
 
 
 

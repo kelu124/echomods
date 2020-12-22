@@ -13,9 +13,41 @@
 
 ## Other pictures 
 
-![](/include/20200809r/hp2121/hp2121_yellow.png)
+![](/include/cn_mechprob/IMG-20180328-WA0005.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0001.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0003.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0004.jpg)
+picture
+ToTag
+
+![](/include/20200809r/images/probeEin.jpg)
 s1p
-Reviewing hp2121 values
+Getting impedances of the probes
+
+![](/include/cn_mechprob/IMG-20180328-WA0006.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0000.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0002.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/mech_probe.jpg)
+ToTag
+ToTag
 
 
 

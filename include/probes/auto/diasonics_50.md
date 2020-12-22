@@ -1,8 +1,8 @@
 # diasonics_50 (diasonics_50)
 
-* Small description:  a diasonics_50 probe
+* Small description: a diasonics_50 probe
 
-* Longer description:  a diasonics_50 probe
+* Longer description: a diasonics_50 probe
 
 # Experiments
 
@@ -16,11 +16,41 @@
 
 # Images
 
+## Frequency mapping 
+
+![](/include/images/probes_vna/diasonics_50.png)
+smith
+ToTag
+
+![](/include/20201219r/impedances/diasonics_50.png)
+smith
+checking impedance of piezos
+
 ## Other pictures 
 
-![](/include/20201219r/impedances/duc2m.png)
+![](/include/images/diasonics_50/P_20181208_131435.jpg)
 ToTag
-checking impedance of piezos
+ToTag
+
+![](/include/images/diasonics_50/P_20181208_131810.jpg)
+ToTag
+ToTag
+
+![](/include/images/diasonics_50/P_20181208_131756.jpg)
+ToTag
+ToTag
+
+![](/include/images/diasonics_50/P_20181208_131405.jpg)
+ToTag
+Demontage
+
+![](/include/images/diasonics_50/P_20181208_131643.jpg)
+ToTag
+ToTag
+
+![](/include/images/diasonics_50/P_20181208_131821.jpg)
+ToTag
+ToTag
 
 
 

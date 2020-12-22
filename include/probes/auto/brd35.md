@@ -1,6 +1,6 @@
 # brd35 (brd35)
 
-* Small description:  Bard rite, 3.5MHz.
+* Small description: Bard rite, 3.5MHz.
 
 * Longer description: Bard rite, 3.5MHz.
 
@@ -8,6 +8,44 @@
 
 * [20200608a](/include/experiments/auto/20200608a.md)
 * [20201219r](/include/experiments/auto/20201219r.md)
+
+
+# Images
+
+## Frequency mapping 
+
+![](/include/20201219r/impedances/bluebard.png)
+smith
+checking impedance of piezos
+
+### Other signals 
+
+![](/matty/20200608a/images/2DArray_20200608a-11.jpg)
+BC
+Experiment: 20200608a-11. Duration: 95.0us (115000 - 20000), for 320 repeats each 250.0us. Fech = 16.0Msps, total of 1520.0 pts per line, Nacq = 320. 200ns at shooting time at 75V pulse, probe: brd35, target = wirephantom. 
+
+## Teardown 
+
+![](/include/bard/brd35/P_20200605_131443.jpg)
+Teardown
+Teardown
+
+![](/include/bard/brd35/P_20200605_131400.jpg)
+Teardown
+Teardown
+
+![](/include/20201219r/images/20201219_204847.jpg)
+teardown
+checking impedance of piezos
+
+![](/include/bard/brd35/P_20200605_131447.jpg)
+Teardown
+Teardown
+
+![](/include/bard/brd35/P_20200605_131434.jpg)
+Teardown
+Teardown
+
 
 
 
