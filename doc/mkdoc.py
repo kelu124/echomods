@@ -530,7 +530,7 @@ def CreateProbesFiles(GrosJaSON):
 		ProbeAuto += "__More?__ "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
 		if len(GrosJaSON["probes"][probe]["experiments"]):
 			ProbeAuto += "__Present in:__ "+str(len(list(set(GrosJaSON["probes"][probe]["experiments"]))))+" experiments ("
-			ListOfExpeWithLinks = [ "["+x+"](/experiments/auto/"+x+".md)" for x in sorted(list(set(GrosJaSON["probes"][probe]["experiments"])))]
+			ListOfExpeWithLinks = [ "["+x+"](/include/experiments/auto/"+x+".md)" for x in sorted(list(set(GrosJaSON["probes"][probe]["experiments"])))]
 			ProbeAuto += ", ".join(ListOfExpeWithLinks)
 			ProbeAuto += ") \n\n"
 		if GrosJaSON["probes"][probe]["images"]:
@@ -1143,7 +1143,7 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 
 	StringData = ""
 	for k in range(NdFiles):
-		if (PathRefedFile in ContentFiles[k]) and ("/include/FilesList/" not in ContentFiles[k]): 
+		if (PathRefedFile in ContentFiles[k]) and ("/include/FilesList/" not in ContentFiles[k]) and (".tpl" not in ContentFiles[k]) and ("mkimg.py" not in ContentFiles[k]): 
 			FileList.append(PathRefingFile[k][1:])
 			InRef.append("[`"+PathRefingFile[k][1:]+"`]("+PathRefingFile[k][1:]+")")
 	if len(InRef):
