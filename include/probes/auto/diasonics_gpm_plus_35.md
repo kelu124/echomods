@@ -34,39 +34,11 @@ Getting impedances of the probes
 
 ## Teardown 
 
-![](/include/images/diasonics_gpm_plus_35/P_20191230_200425.jpg)
-teardown
-.
-
-![](/include/images/diasonics_gpm_plus_35/P_20191230_195735.jpg)
-teardown
-.
-
-![](/include/images/diasonics_gpm_plus_35/P_20191230_200306.jpg)
-teardown
-.
-
 ![](/include/images/diasonics_gpm_plus_35/P_20191230_194816.jpg)
 teardown
 .
 
-![](/include/images/diasonics_gpm_plus_35/P_20191230_195922.jpg)
-teardown
-.
-
-![](/include/images/diasonics_gpm_plus_35/P_20191230_195008.jpg)
-teardown
-.
-
-![](/include/images/diasonics_gpm_plus_35/P_20191230_195543.jpg)
-teardown
-.
-
-![](/include/images/diasonics_gpm_plus_35/P_20191230_200308.jpg)
-teardown
-.
-
-![](/include/images/diasonics_gpm_plus_35/P_20191230_195011.jpg)
+![](/include/images/diasonics_gpm_plus_35/P_20191230_194820.jpg)
 teardown
 .
 
@@ -74,11 +46,19 @@ teardown
 teardown
 .
 
-![](/include/images/diasonics_gpm_plus_35/P_20191230_200702.jpg)
+![](/include/images/diasonics_gpm_plus_35/P_20191230_194843.jpg)
 teardown
 .
 
-![](/include/images/diasonics_gpm_plus_35/P_20191230_194843.jpg)
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195008.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195011.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195543.jpg)
 teardown
 .
 
@@ -86,7 +66,27 @@ teardown
 teardown
 .
 
-![](/include/images/diasonics_gpm_plus_35/P_20191230_194820.jpg)
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195735.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_195922.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_200306.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_200308.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_200425.jpg)
+teardown
+.
+
+![](/include/images/diasonics_gpm_plus_35/P_20191230_200702.jpg)
 teardown
 .
 

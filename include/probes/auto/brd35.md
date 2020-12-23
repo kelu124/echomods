@@ -18,31 +18,55 @@
 smith
 checking impedance of piezos
 
+### Scan converted 
+
+![](/matty/20200608a/images/gif_1.jpg)
+ASC
+after scan conversion
+
+### FFTs 
+
+![](/matty/20200608a/images/20200608a-11-fft.jpg)
+FFT
+FFT of the of 20200608a experiment. 200ns at shooting time at 75V pulse
+
 ### Other signals 
 
+![](/matty/20200608a/images/20200608a-11.jpg)
+BSC
+Automated image of 20200608a experiment. 200ns at shooting time at 75V pulse
+
+![](/matty/20200608a/images/20200608a-12.jpg)
+BSC
+Acquisition with BRD35
+
 ![](/matty/20200608a/images/2DArray_20200608a-11.jpg)
-BC
+BSC
 Experiment: 20200608a-11. Duration: 95.0us (115000 - 20000), for 320 repeats each 250.0us. Fech = 16.0Msps, total of 1520.0 pts per line, Nacq = 320. 200ns at shooting time at 75V pulse, probe: brd35, target = wirephantom. 
 
+![](/matty/20200608a/images/2DArray_20200608a-12.jpg)
+BSC
+2D array of acquisition with brd35
+
 ## Teardown 
-
-![](/include/bard/brd35/P_20200605_131443.jpg)
-Teardown
-Teardown
-
-![](/include/bard/brd35/P_20200605_131400.jpg)
-Teardown
-Teardown
 
 ![](/include/20201219r/images/20201219_204847.jpg)
 teardown
 checking impedance of piezos
 
-![](/include/bard/brd35/P_20200605_131447.jpg)
+![](/include/bard/brd35/P_20200605_131400.jpg)
 Teardown
 Teardown
 
 ![](/include/bard/brd35/P_20200605_131434.jpg)
+Teardown
+Teardown
+
+![](/include/bard/brd35/P_20200605_131443.jpg)
+Teardown
+Teardown
+
+![](/include/bard/brd35/P_20200605_131447.jpg)
 Teardown
 Teardown
 

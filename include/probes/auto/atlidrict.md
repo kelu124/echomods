@@ -13,15 +13,7 @@
 
 ## Teardown 
 
-![](/include/images/atladrict/P_20180811_201314.jpg)
-teardown
-Exploring the innards of a atlidrict probe
-
-![](/include/images/atladrict/P_20180811_201302.jpg)
-teardown
-Exploring the innards of a atlidrict probe
-
-![](/include/images/atladrict/P_20180811_201237.jpg)
+![](/include/images/atladrict/P_20180811_201229.jpg)
 teardown
 Exploring the innards of a atlidrict probe
 
@@ -29,7 +21,15 @@ Exploring the innards of a atlidrict probe
 teardown
 Exploring the innards of a atlidrict probe
 
-![](/include/images/atladrict/P_20180811_201229.jpg)
+![](/include/images/atladrict/P_20180811_201237.jpg)
+teardown
+Exploring the innards of a atlidrict probe
+
+![](/include/images/atladrict/P_20180811_201302.jpg)
+teardown
+Exploring the innards of a atlidrict probe
+
+![](/include/images/atladrict/P_20180811_201314.jpg)
 teardown
 Exploring the innards of a atlidrict probe
 

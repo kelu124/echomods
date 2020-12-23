@@ -14,39 +14,7 @@
 
 ## Teardown 
 
-![](/include/images/apogee10MHz/P_20180831_211705.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/Round2/P_20181006_215322.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20180831_211323.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20181006_220052.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20181006_215957.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20180831_211535.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/Round2/P_20181006_213300.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20181006_215322.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20180831_211457.jpg)
+![](/include/images/apogee10MHz/20191207_173008.jpg)
 teardown
 Unkwown (apogee) 10MHz probe
 
@@ -54,47 +22,7 @@ Unkwown (apogee) 10MHz probe
 teardown
 Unkwown (apogee) 10MHz probe
 
-![](/include/images/apogee10MHz/Round2/P_20181006_215957.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/Round2/P_20181006_213258.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20180831_211832.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/Round2/P_20181006_220015.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20180831_211929.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20180831_211529.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20181006_213300.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/20191207_173008.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20180831_211656.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/P_20180831_211605.jpg)
-teardown
-Unkwown (apogee) 10MHz probe
-
-![](/include/images/apogee10MHz/Round2/P_20181006_220449.jpg)
+![](/include/images/apogee10MHz/P_20180831_211323.jpg)
 teardown
 Unkwown (apogee) 10MHz probe
 
@@ -102,7 +30,27 @@ Unkwown (apogee) 10MHz probe
 teardown
 Unkwown (apogee) 10MHz probe
 
-![](/include/images/apogee10MHz/Round2/P_20181006_220446.jpg)
+![](/include/images/apogee10MHz/P_20180831_211457.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20180831_211529.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20180831_211535.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20180831_211605.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20180831_211656.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20180831_211705.jpg)
 teardown
 Unkwown (apogee) 10MHz probe
 
@@ -110,11 +58,63 @@ Unkwown (apogee) 10MHz probe
 teardown
 Unkwown (apogee) 10MHz probe
 
+![](/include/images/apogee10MHz/P_20180831_211832.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20180831_211929.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20181006_213300.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20181006_215322.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20181006_215957.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/P_20181006_220052.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
 ![](/include/images/apogee10MHz/P_20181006_220449.jpg)
 teardown
 Unkwown (apogee) 10MHz probe
 
+![](/include/images/apogee10MHz/Round2/P_20181006_213258.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/Round2/P_20181006_213300.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/Round2/P_20181006_215322.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/Round2/P_20181006_215957.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/Round2/P_20181006_220015.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
 ![](/include/images/apogee10MHz/Round2/P_20181006_220052.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/Round2/P_20181006_220446.jpg)
+teardown
+Unkwown (apogee) 10MHz probe
+
+![](/include/images/apogee10MHz/Round2/P_20181006_220449.jpg)
 teardown
 Unkwown (apogee) 10MHz probe
 

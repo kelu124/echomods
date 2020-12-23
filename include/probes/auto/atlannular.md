@@ -19,11 +19,7 @@ ToTag
 
 ## Teardown 
 
-![](/include/images/atlannular/P_20191230_210144.jpg)
-teardown
-.
-
-![](/include/images/atlannular/P_20191230_210136.jpg)
+![](/include/images/atlannular/P_20191230_210124.jpg)
 teardown
 .
 
@@ -31,7 +27,11 @@ teardown
 teardown
 .
 
-![](/include/images/atlannular/P_20191230_210124.jpg)
+![](/include/images/atlannular/P_20191230_210136.jpg)
+teardown
+.
+
+![](/include/images/atlannular/P_20191230_210144.jpg)
 teardown
 .
 

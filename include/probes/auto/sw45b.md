@@ -8,27 +8,23 @@
 
 ## Teardown 
 
-![](/include/images/sw45b/P_20191122_205352.jpg)
+![](/include/images/13avril2020/sw45b/P_20200413_193812_p.jpg)
 teardown
-ToTag
+Teardown on a sw45b probe
 
-![](/include/images/sw45b/P_20191123_134314.jpg)
+![](/include/images/13avril2020/sw45b/P_20200413_194131_p.jpg)
 teardown
-ToTag
+Teardown on a sw45b probe
 
-![](/include/images/sw45b/20191207_171540.jpg)
+![](/include/images/13avril2020/sw45b/P_20200413_194146_p.jpg)
 teardown
-ToTag
+Teardown on a sw45b probe
 
-![](/include/images/sw45b/P_20191122_203547.jpg)
+![](/include/images/13avril2020/sw45b/P_20200413_194152_p.jpg)
 teardown
-ToTag
+Teardown on a sw45b probe
 
-![](/include/images/sw45b/P_20191122_203528.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/20191207_171231.jpg)
+![](/include/images/sw45b/20191207_171145.jpg)
 teardown
 ToTag
 
@@ -36,51 +32,11 @@ ToTag
 teardown
 ToTag
 
-![](/include/images/sw45b/P_20191122_203226.jpg)
+![](/include/images/sw45b/20191207_171210.jpg)
 teardown
 ToTag
 
-![](/include/images/sw45b/P_20191122_203551.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/P_20191122_204119.jpg)
-teardown
-ToTag
-
-![](/include/images/13avril2020/sw45b/P_20200413_194152_p.jpg)
-teardown
-Teardown on a sw45b probe
-
-![](/include/images/sw45b/P_20191122_204044.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/P_20191122_204014.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/P_20191123_134703.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/P_20191122_203755.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/20191207_171145.jpg)
-teardown
-ToTag
-
-![](/include/images/13avril2020/sw45b/P_20200413_194146_p.jpg)
-teardown
-Teardown on a sw45b probe
-
-![](/include/images/sw45b/P_20191122_203540.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/P_20191123_134731.jpg)
+![](/include/images/sw45b/20191207_171231.jpg)
 teardown
 ToTag
 
@@ -88,19 +44,11 @@ ToTag
 teardown
 ToTag
 
-![](/include/images/sw45b/P_20191123_134330.jpg)
+![](/include/images/sw45b/20191207_171540.jpg)
 teardown
 ToTag
 
-![](/include/images/sw45b/P_20191123_134701.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/P_20191123_134339.jpg)
-teardown
-ToTag
-
-![](/include/images/sw45b/P_20191122_205401.jpg)
+![](/include/images/sw45b/P_20191122_203226.jpg)
 teardown
 ToTag
 
@@ -108,21 +56,73 @@ ToTag
 teardown
 ToTag
 
+![](/include/images/sw45b/P_20191122_203528.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203540.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203547.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203551.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_203755.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_204014.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_204044.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_204119.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_205352.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191122_205401.jpg)
+teardown
+ToTag
+
 ![](/include/images/sw45b/P_20191122_205404.jpg)
 teardown
 ToTag
 
-![](/include/images/13avril2020/sw45b/P_20200413_193812_p.jpg)
-teardown
-Teardown on a sw45b probe
-
-![](/include/images/sw45b/20191207_171210.jpg)
+![](/include/images/sw45b/P_20191123_134314.jpg)
 teardown
 ToTag
 
-![](/include/images/13avril2020/sw45b/P_20200413_194131_p.jpg)
+![](/include/images/sw45b/P_20191123_134330.jpg)
 teardown
-Teardown on a sw45b probe
+ToTag
+
+![](/include/images/sw45b/P_20191123_134339.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134701.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134703.jpg)
+teardown
+ToTag
+
+![](/include/images/sw45b/P_20191123_134731.jpg)
+teardown
+ToTag
 
 
 

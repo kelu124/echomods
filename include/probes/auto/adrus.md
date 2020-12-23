@@ -9,31 +9,29 @@
 * [20180807a](/include/experiments/auto/20180807a.md)
 
 
+# Files
+
+* [/include/20201219r/Readme.md](/include/20201219r/Readme.md)
+* [/matty/20200416a/Readme.md](/matty/20200416a/Readme.md)
+
+
 # Images
 
 ## Teardown 
 
-![](/include/images/ADR/P_20180807_214735.jpg)
+![](/include/images/13avril2020/adrus/P_20200413_210454_p.jpg)
 teardown
-Exploring the innards of a ADR Ultrasound probe
-
-![](/include/images/ADR/P_20180807_213818.jpg)
-teardown
-Exploring the innards of a ADR Ultrasound probe
-
-![](/include/images/ADR/P_20180807_215605.jpg)
-teardown
-Exploring the innards of a ADR Ultrasound probe
-
-![](/include/images/ADR/P_20180807_215719.jpg)
-teardown
-Exploring the innards of a ADR Ultrasound probe
-
-![](/include/images/ADR/P_20180807_213312.jpg)
-teardown
-Exploring the innards of a ADR Ultrasound probe
+Teardown on a adrus probe
 
 ![](/include/images/ADR/20191207_182250.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/20191207_182334.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_213116.jpg)
 teardown
 Exploring the innards of a ADR Ultrasound probe
 
@@ -49,15 +47,15 @@ Exploring the innards of a ADR Ultrasound probe
 teardown
 Exploring the innards of a ADR Ultrasound probe
 
-![](/include/images/ADR/20191207_182334.jpg)
+![](/include/images/ADR/P_20180807_213312.jpg)
 teardown
 Exploring the innards of a ADR Ultrasound probe
 
-![](/include/images/ADR/P_20180807_220447.jpg)
+![](/include/images/ADR/P_20180807_213636.jpg)
 teardown
 Exploring the innards of a ADR Ultrasound probe
 
-![](/include/images/ADR/P_20180807_215406.jpg)
+![](/include/images/ADR/P_20180807_213818.jpg)
 teardown
 Exploring the innards of a ADR Ultrasound probe
 
@@ -65,19 +63,19 @@ Exploring the innards of a ADR Ultrasound probe
 teardown
 Exploring the innards of a ADR Ultrasound probe
 
-![](/include/images/ADR/P_20180807_213116.jpg)
-teardown
-Exploring the innards of a ADR Ultrasound probe
-
 ![](/include/images/ADR/P_20180807_214629.jpg)
 teardown
 Exploring the innards of a ADR Ultrasound probe
 
-![](/include/images/13avril2020/adrus/P_20200413_210454_p.jpg)
+![](/include/images/ADR/P_20180807_214735.jpg)
 teardown
-Teardown on a adrus probe
+Exploring the innards of a ADR Ultrasound probe
 
-![](/include/images/ADR/P_20180807_213636.jpg)
+![](/include/images/ADR/P_20180807_215406.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_215605.jpg)
 teardown
 Exploring the innards of a ADR Ultrasound probe
 
@@ -86,6 +84,14 @@ teardown
 Exploring the innards of a ADR Ultrasound probe
 
 ![](/include/images/ADR/P_20180807_215631.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_215719.jpg)
+teardown
+Exploring the innards of a ADR Ultrasound probe
+
+![](/include/images/ADR/P_20180807_220447.jpg)
 teardown
 Exploring the innards of a ADR Ultrasound probe
 

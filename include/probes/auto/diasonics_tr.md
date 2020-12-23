@@ -32,27 +32,7 @@ Getting impedances of the probes
 
 ## Teardown 
 
-![](/include/images/13avril2020/diasonics_tr/P_20200413_212003_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_210937_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/diasonics_tr/P_20191230_200841.jpg)
-teardown
-.
-
-![](/include/images/diasonics_tr/P_20191230_201550.jpg)
-teardown
-.
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_211704_p.jpg)
-teardown
-Teardown on a diasonics_tr probe
-
-![](/include/images/13avril2020/diasonics_tr/P_20200413_211047_p.jpg)
+![](/include/images/13avril2020/diasonics_tr/P_20200413_210502_p.jpg)
 teardown
 Teardown on a diasonics_tr probe
 
@@ -60,27 +40,47 @@ Teardown on a diasonics_tr probe
 teardown
 Teardown on a diasonics_tr probe
 
-![](/include/images/diasonics_tr/P_20191230_200831.jpg)
+![](/include/images/13avril2020/diasonics_tr/P_20200413_210937_p.jpg)
 teardown
-.
+Teardown on a diasonics_tr probe
+
+![](/include/images/13avril2020/diasonics_tr/P_20200413_211047_p.jpg)
+teardown
+Teardown on a diasonics_tr probe
+
+![](/include/images/13avril2020/diasonics_tr/P_20200413_211704_p.jpg)
+teardown
+Teardown on a diasonics_tr probe
 
 ![](/include/images/13avril2020/diasonics_tr/P_20200413_211958_p.jpg)
 teardown
 Teardown on a diasonics_tr probe
 
+![](/include/images/13avril2020/diasonics_tr/P_20200413_212003_p.jpg)
+teardown
+Teardown on a diasonics_tr probe
+
+![](/include/images/diasonics_tr/P_20191230_200831.jpg)
+teardown
+.
+
 ![](/include/images/diasonics_tr/P_20191230_200838.jpg)
 teardown
 .
 
-![](/include/images/13avril2020/diasonics_tr/P_20200413_210502_p.jpg)
+![](/include/images/diasonics_tr/P_20191230_200841.jpg)
 teardown
-Teardown on a diasonics_tr probe
+.
+
+![](/include/images/diasonics_tr/P_20191230_201135.jpg)
+teardown
+.
 
 ![](/include/images/diasonics_tr/P_20191230_201539.jpg)
 teardown
 .
 
-![](/include/images/diasonics_tr/P_20191230_201135.jpg)
+![](/include/images/diasonics_tr/P_20191230_201550.jpg)
 teardown
 .
 

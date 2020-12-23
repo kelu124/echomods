@@ -19,6 +19,38 @@ checking impedance of piezos
 
 ## Teardown 
 
+![](/include/20201219r/images/20201219_202252.jpg)
+teardown
+checking impedance of piezos
+
+![](/include/images/202005/duc2m/P_20200520_191705.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/duc2m/P_20200520_191712.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/duc2m/P_20200520_191717.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/duc2m/P_20200520_191722.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/duc2m/P_20200520_191735.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/duc2m/P_20200520_191751.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/duc2m/P_20200520_191756.jpg)
+teardown
+teardown of a new probe
+
 ![](/include/images/202005/duc2m/P_20200520_191801.jpg)
 teardown
 teardown of a new probe
@@ -27,39 +59,7 @@ teardown of a new probe
 teardown
 teardown of a new probe
 
-![](/include/images/202005/duc2m/P_20200520_191751.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191735.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191722.jpg)
-teardown
-teardown of a new probe
-
-![](/include/20201219r/images/20201219_202252.jpg)
-teardown
-checking impedance of piezos
-
-![](/include/images/202005/duc2m/P_20200520_191717.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191712.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191756.jpg)
-teardown
-teardown of a new probe
-
 ![](/include/images/202005/duc2m/P_20200520_191902.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/duc2m/P_20200520_191705.jpg)
 teardown
 teardown of a new probe
 

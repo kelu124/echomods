@@ -132,6 +132,8 @@
 
 * [./include/cn_mechprob/Readme.md](/include/cn_mechprob/Readme.md):  . _File not used._
 
+* [./include/20160822/Readme.md](/include/20160822/Readme.md):  . _File not used._
+
 * [./include/20160822/2016-08-22-Fantom.md](/include/20160822/2016-08-22-Fantom.md):  . _File not used._
 
 * [./include/s3/Readme.md](/include/s3/Readme.md):  . _File not used._
@@ -280,7 +282,7 @@
 
 * [./include/community/Jay/Readme.md](/include/community/Jay/Readme.md):  . _File not used._
 
-* [./include/20180415r/Readme.md](/include/20180415r/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.html).
+* [./include/20180415r/Readme.md](/include/20180415r/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.html).
 
 * [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md):  . _File not used._
 
@@ -496,6 +498,8 @@
 
 * [./gitbook/notebooks/20200608a-file10.md](/gitbook/notebooks/20200608a-file10.md):  . _File not used._
 
+* [./gitbook/notebooks/20201107b.md](/gitbook/notebooks/20201107b.md):  . _File not used._
+
 * [./gitbook/notebooks/20180813a-Server.md](/gitbook/notebooks/20180813a-Server.md):  . _File not used._
 
 * [./gitbook/notebooks/20180403a-Client.md](/gitbook/notebooks/20180403a-Client.md):  . _File not used._
@@ -524,11 +528,15 @@
 
 * [./gitbook/notebooks/20170831-TestImages.md](/gitbook/notebooks/20170831-TestImages.md):  . _File not used._
 
+* [./gitbook/notebooks/20201128a-Params.md](/gitbook/notebooks/20201128a-Params.md):  . _File not used._
+
 * [./gitbook/notebooks/20180901a-Client.md](/gitbook/notebooks/20180901a-Client.md):  . _File not used._
 
 * [./gitbook/notebooks/20170715-ProbeTest.md](/gitbook/notebooks/20170715-ProbeTest.md):  . _File not used._
 
 * [./gitbook/notebooks/20180825a-Server.md](/gitbook/notebooks/20180825a-Server.md):  . _File not used._
+
+* [./gitbook/notebooks/20201107a.md](/gitbook/notebooks/20201107a.md):  . _File not used._
 
 * [./gitbook/notebooks/20200508a-MakePkls.md](/gitbook/notebooks/20200508a-MakePkls.md):  . _File not used._
 
@@ -574,6 +582,8 @@
 
 * [./gitbook/notebooks/20180403b-Client.md](/gitbook/notebooks/20180403b-Client.md):  . _File not used._
 
+* [./gitbook/notebooks/20201103a.md](/gitbook/notebooks/20201103a.md):  . _File not used._
+
 * [./gitbook/notebooks/20200808r-Opening s1p files.md](/gitbook/notebooks/20200808r-Opening s1p files.md):  . _File not used._
 
 * [./gitbook/notebooks/20170711-TwoADCs.md](/gitbook/notebooks/20170711-TwoADCs.md):  . _File not used._
@@ -587,6 +597,8 @@
 * [./gitbook/notebooks/20180811a-Server.md](/gitbook/notebooks/20180811a-Server.md):  . _File not used._
 
 * [./gitbook/notebooks/20200423-echoes.md](/gitbook/notebooks/20200423-echoes.md):  . _File not used._
+
+* [./gitbook/notebooks/20201104a.md](/gitbook/notebooks/20201104a.md):  . _File not used._
 
 * [./gitbook/notebooks/20180516a-Client.md](/gitbook/notebooks/20180516a-Client.md):  . _File not used._
 
@@ -612,6 +624,8 @@
 
 * [./gitbook/notebooks/20180826a-Server.md](/gitbook/notebooks/20180826a-Server.md):  . _File not used._
 
+* [./gitbook/notebooks/01.Reading.md](/gitbook/notebooks/01.Reading.md):  . _File not used._
+
 * [./gitbook/notebooks/20200325a-Acquisitions.md](/gitbook/notebooks/20200325a-Acquisitions.md):  . _File not used._
 
 * [./gitbook/notebooks/20190510a.md](/gitbook/notebooks/20190510a.md):  . _File not used._
@@ -621,6 +635,10 @@
 * [./gitbook/notebooks/TEST_USB.md](/gitbook/notebooks/TEST_USB.md):  . _File not used._
 
 * [./gitbook/notebooks/Untitled1.md](/gitbook/notebooks/Untitled1.md):  . _File not used._
+
+* [./gitbook/notebooks/20201024a-i2s_lit3rick.md](/gitbook/notebooks/20201024a-i2s_lit3rick.md):  . _File not used._
+
+* [./gitbook/notebooks/20201108a.md](/gitbook/notebooks/20201108a.md):  . _File not used._
 
 * [./gitbook/notebooks/20170713-TwoADCs.md](/gitbook/notebooks/20170713-TwoADCs.md):  . _File not used._
 
@@ -656,7 +674,11 @@
 
 * [./gitbook/notebooks/20180225a-Server.md](/gitbook/notebooks/20180225a-Server.md):  . _File not used._
 
+* [./gitbook/notebooks/20201008a-CompareAcqs.md](/gitbook/notebooks/20201008a-CompareAcqs.md):  . _File not used._
+
 * [./gitbook/notebooks/20180430a-Client.md](/gitbook/notebooks/20180430a-Client.md):  . _File not used._
+
+* [./gitbook/notebooks/20201128a-Setup.md](/gitbook/notebooks/20201128a-Setup.md):  . _File not used._
 
 * [./gitbook/notebooks/20200325a.md](/gitbook/notebooks/20200325a.md):  . _File not used._
 
@@ -976,7 +998,7 @@
 * [20180103-Felix.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180103-Felix.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180103a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180103a.html).
 * [20180210_jt_fast_batch.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180210_jt_fast_batch.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180620a-Uwe.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180620a-Uwe.html). File used in: [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/community/Uwe/20180620a/Readme.md`](/include/community/Uwe/20180620a/Readme.md).
-* [20180415r-lit.tbo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180415r-lit.tbo.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/20180415r/Readme.md`](/include/20180415r/Readme.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.html).
+* [20180415r-lit.tbo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180415r-lit.tbo.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/20180415r/Readme.md`](/include/20180415r/Readme.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.html).
 * [20180217a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180217a - Testing pulser and ADC.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180317a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180317a-Loops.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/bard/inside.md`](/include/bard/inside.md).
 * [20170831-TestImages.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170831-TestImages.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -1158,7 +1180,7 @@
 
 * [spi.py](/include/community/Marc/spi.py): . File used in: [`/include/community/Marc/Readme.md`](/include/community/Marc/Readme.md).
 
-* [bim.py](/include/20180415r/bim.py): . File used in: [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.html).
+* [bim.py](/include/20180415r/bim.py): . File used in: [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.html).
 
 * [ustk.py](/include/20180217a/ustk.py): Library for creating images from the files created by pulser module.. _File not used._
 

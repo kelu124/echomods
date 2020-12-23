@@ -17,23 +17,7 @@
 teardown
 teardown of a new probe
 
-![](/include/images/Interspec/P_20180807_222243.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
-
-![](/include/images/202005/apogee/P_20200520_191532.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/Interspec/P_20180807_221744.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
-
-![](/include/images/202005/apogee/P_20200520_191539.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/apogee/P_20200520_192105.jpg)
+![](/include/images/202005/apogee/P_20200520_191517.jpg)
 teardown
 teardown of a new probe
 
@@ -41,51 +25,23 @@ teardown of a new probe
 teardown
 teardown of a new probe
 
-![](/include/images/202005/apogee/P_20200520_192111.jpg)
+![](/include/images/202005/apogee/P_20200520_191532.jpg)
 teardown
 teardown of a new probe
 
-![](/include/images/Interspec/P_20180807_221458.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
-
-![](/include/images/202005/apogee/ebay/s-l1600 (2).jpg)
+![](/include/images/202005/apogee/P_20200520_191539.jpg)
 teardown
 teardown of a new probe
-
-![](/include/images/Interspec/P_20180807_221435.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
-
-![](/include/images/Interspec/P_20180807_221519.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
 
 ![](/include/images/202005/apogee/P_20200520_191543.jpg)
 teardown
 teardown of a new probe
 
-![](/include/images/202005/apogee/P_20200520_191517.jpg)
+![](/include/images/202005/apogee/P_20200520_192105.jpg)
 teardown
 teardown of a new probe
 
-![](/include/images/Interspec/P_20180807_222132.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
-
-![](/include/images/Interspec/P_20180807_222529.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
-
-![](/include/images/Interspec/P_20180807_221925.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
-
-![](/include/images/Interspec/P_20180807_222100.jpg)
-teardown
-Exploring the innards of an InterspecApogee probe
-
-![](/include/images/202005/apogee/ebay/s-l1600 (3).jpg)
+![](/include/images/202005/apogee/P_20200520_192111.jpg)
 teardown
 teardown of a new probe
 
@@ -97,7 +53,27 @@ teardown of a new probe
 teardown
 teardown of a new probe
 
-![](/include/images/Interspec/P_20180807_221845.jpg)
+![](/include/images/202005/apogee/ebay/s-l1600 (2).jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/apogee/ebay/s-l1600 (3).jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/apogee/ebay/s-l1600.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/Interspec/P_20180807_221435.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221458.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221519.jpg)
 teardown
 Exploring the innards of an InterspecApogee probe
 
@@ -105,15 +81,39 @@ Exploring the innards of an InterspecApogee probe
 teardown
 Exploring the innards of an InterspecApogee probe
 
-![](/include/images/202005/apogee/ebay/s-l1600.jpg)
+![](/include/images/Interspec/P_20180807_221744.jpg)
 teardown
-teardown of a new probe
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221845.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221925.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_221936.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_222100.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_222132.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
+
+![](/include/images/Interspec/P_20180807_222243.jpg)
+teardown
+Exploring the innards of an InterspecApogee probe
 
 ![](/include/images/Interspec/P_20180807_222256.jpg)
 teardown
 Exploring the innards of an InterspecApogee probe
 
-![](/include/images/Interspec/P_20180807_221936.jpg)
+![](/include/images/Interspec/P_20180807_222529.jpg)
 teardown
 Exploring the innards of an InterspecApogee probe
 

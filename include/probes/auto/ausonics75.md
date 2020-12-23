@@ -6,8 +6,8 @@
 
 # Experiments
 
-* [20200808r](/include/experiments/auto/20200808r.md)
 * [20180809b](/include/experiments/auto/20180809b.md)
+* [20200808r](/include/experiments/auto/20200808r.md)
 * [20201219r](/include/experiments/auto/20201219r.md)
 
 
@@ -15,7 +15,43 @@
 
 ## Teardown 
 
+![](/include/20200809r/images/ausonics75/P_20200508_152501.jpg)
+teardown
+ausonics75
+
+![](/include/20200809r/images/ausonics75/P_20200508_152811.jpg)
+teardown
+ausonics75
+
+![](/include/images/ausonics75/P_20180809_191913.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_191919.jpg)
+teardown
+ausonic 7.5MHz probe
+
 ![](/include/images/ausonics75/P_20180809_191926.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_191946.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_191957.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192050.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192123.jpg)
+teardown
+ausonic 7.5MHz probe
+
+![](/include/images/ausonics75/P_20180809_192206.jpg)
 teardown
 ausonic 7.5MHz probe
 
@@ -27,42 +63,6 @@ ausonic 7.5MHz probe
 teardown
 ausonic 7.5MHz probe
 
-![](/include/images/ausonics75/P_20180809_192123.jpg)
-teardown
-ausonic 7.5MHz probe
-
-![](/include/images/ausonics75/P_20180809_192050.jpg)
-teardown
-ausonic 7.5MHz probe
-
-![](/include/images/ausonics75/P_20180809_191957.jpg)
-teardown
-ausonic 7.5MHz probe
-
-![](/include/images/ausonics75/P_20180809_193235.jpg)
-teardown
-ausonic 7.5MHz probe
-
-![](/include/images/ausonics75/P_20180809_191946.jpg)
-teardown
-ausonic 7.5MHz probe
-
-![](/include/20200809r/images/ausonics75/P_20200508_152811.jpg)
-teardown
-ausonics75
-
-![](/include/20200809r/images/ausonics75/P_20200508_152501.jpg)
-teardown
-ausonics75
-
-![](/include/images/ausonics75/P_20180809_191913.jpg)
-teardown
-ausonic 7.5MHz probe
-
-![](/include/images/ausonics75/P_20180809_193102.jpg)
-teardown
-ausonic 7.5MHz probe
-
 ![](/include/images/ausonics75/P_20180809_192848.jpg)
 teardown
 ausonic 7.5MHz probe
@@ -71,21 +71,21 @@ ausonic 7.5MHz probe
 teardown
 ausonic 7.5MHz probe
 
-![](/include/images/ausonics75/P_20180809_192206.jpg)
+![](/include/images/ausonics75/P_20180809_193102.jpg)
 teardown
 ausonic 7.5MHz probe
 
-![](/include/images/ausonics75/P_20180809_191919.jpg)
+![](/include/images/ausonics75/P_20180809_193235.jpg)
 teardown
 ausonic 7.5MHz probe
 
 ## Other pictures 
 
-![](/include/20201219r/images/teardown/20201205_204005.jpg)
+![](/include/20201219r/images/teardown/20201205_203958.jpg)
 ToTag
 checking impedance of piezos
 
-![](/include/20201219r/images/teardown/20201205_203958.jpg)
+![](/include/20201219r/images/teardown/20201205_204005.jpg)
 ToTag
 checking impedance of piezos
 

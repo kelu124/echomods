@@ -6,8 +6,8 @@
 
 # Experiments
 
-* [20200809r](/include/experiments/auto/20200809r.md)
 * [20200808r](/include/experiments/auto/20200808r.md)
+* [20200809r](/include/experiments/auto/20200809r.md)
 
 
 # Files
@@ -19,10 +19,6 @@
 
 ## Teardown 
 
-![](/include/20200809r/images/bard/P_20200509_182510.jpg)
-teardown
-bard details
-
 ![](/include/20200809r/images/bard/P_20200509_182351.jpg)
 teardown
 bard details
@@ -31,15 +27,7 @@ bard details
 teardown
 bard details
 
-![](/include/20200809r/images/bard/P_20200509_182512.jpg)
-teardown
-bard details
-
 ![](/include/20200809r/images/bard/P_20200509_182411.jpg)
-teardown
-bard details
-
-![](/include/20200809r/images/bard/P_20200509_182456.jpg)
 teardown
 bard details
 
@@ -51,97 +39,25 @@ bard details
 teardown
 bard details
 
+![](/include/20200809r/images/bard/P_20200509_182456.jpg)
+teardown
+bard details
+
+![](/include/20200809r/images/bard/P_20200509_182510.jpg)
+teardown
+bard details
+
+![](/include/20200809r/images/bard/P_20200509_182512.jpg)
+teardown
+bard details
+
 ## Other pictures 
-
-![](/include/bard/Bard-Site-Rite-37522-5C-45C-75MHz-Ultrasound-Transducer-Probe-68mmFL-Dymax-0470-263459340232-4.JPG)
-ToTag
-ToTag
-
-![](/include/bard/Bard-Site-Rite-37522-5C-45C-75MHz-Ultrasound-Transducer-Probe-68mmFL-Dymax-0470-263459340232-8.JPG)
-ToTag
-ToTag
-
-![](/include/bard/design/US4399703-5.png)
-ToTag
-ToTag
-
-![](/include/bard/images/IMG_20180317_202029.jpg)
-ToTag
-.
-
-![](/include/bard/s-l640.jpg)
-ToTag
-ToTag
-
-![](/include/bard/images/IMG_20180317_202341.jpg)
-ToTag
-.
-
-![](/include/bard/exp1/bard.jpg)
-ToTag
-ToTag
-
-![](/include/bard/images/pins.jpg)
-ToTag
-.
-
-![](/include/bard/design/US4399703-7.png)
-ToTag
-ToTag
-
-![](/include/bard/design/US4399703-1.png)
-ToTag
-ToTag
-
-![](/include/bard/images/IMG_20180317_202243.jpg)
-ToTag
-.
-
-![](/include/bard/images/IMG_20180317_202001.jpg)
-ToTag
-.
-
-![](/include/bard/images/IMG_20180317_202409.jpg)
-ToTag
-.
-
-![](/include/bard/images/IMG_20180317_201900.jpg)
-ToTag
-.
-
-![](/include/bard/design/US4399703-9.png)
-ToTag
-ToTag
-
-![](/include/bard/design/US4399703-4.png)
-ToTag
-ToTag
 
 ![](/include/20200809r/bard.png)
 s1p
 Smith chart for this 7.5MHz bard rite probe. Out of water, head dismantled.
 
-![](/include/bard/design/US4399703-6.png)
-ToTag
-ToTag
-
-![](/include/bard/design/US4399703-3.png)
-ToTag
-ToTag
-
-![](/include/bard/exp1/db-bard-5-0-VGA@0x22-spimode1-64msps.jpg)
-ToTag
-ToTag
-
-![](/include/bard/design/US4399703-8.png)
-ToTag
-ToTag
-
-![](/include/bard/images/20191207_182630.jpg)
-ToTag
-.
-
-![](/include/bard/design/US4399703-2.png)
+![](/include/bard/Bard-Site-Rite-37522-5C-45C-75MHz-Ultrasound-Transducer-Probe-68mmFL-Dymax-0470-263459340232-4.JPG)
 ToTag
 ToTag
 
@@ -149,7 +65,91 @@ ToTag
 ToTag
 ToTag
 
+![](/include/bard/Bard-Site-Rite-37522-5C-45C-75MHz-Ultrasound-Transducer-Probe-68mmFL-Dymax-0470-263459340232-8.JPG)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-1.png)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-2.png)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-3.png)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-4.png)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-5.png)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-6.png)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-7.png)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-8.png)
+ToTag
+ToTag
+
+![](/include/bard/design/US4399703-9.png)
+ToTag
+ToTag
+
+![](/include/bard/exp1/bard.jpg)
+ToTag
+ToTag
+
+![](/include/bard/exp1/db-bard-5-0-VGA@0x22-spimode1-64msps.jpg)
+ToTag
+ToTag
+
 ![](/include/bard/exp1/db-bard-5-8-cable_inversed-VGA@0x22-spimode1-64msps.jpg)
+ToTag
+ToTag
+
+![](/include/bard/images/20191207_182630.jpg)
+ToTag
+.
+
+![](/include/bard/images/IMG_20180317_201900.jpg)
+ToTag
+.
+
+![](/include/bard/images/IMG_20180317_202001.jpg)
+ToTag
+.
+
+![](/include/bard/images/IMG_20180317_202029.jpg)
+ToTag
+.
+
+![](/include/bard/images/IMG_20180317_202243.jpg)
+ToTag
+.
+
+![](/include/bard/images/IMG_20180317_202341.jpg)
+ToTag
+.
+
+![](/include/bard/images/IMG_20180317_202409.jpg)
+ToTag
+.
+
+![](/include/bard/images/pins.jpg)
+ToTag
+.
+
+![](/include/bard/s-l640.jpg)
 ToTag
 ToTag
 

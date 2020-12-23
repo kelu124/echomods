@@ -13,11 +13,19 @@
 
 ## Other pictures 
 
-![](/include/cn_mechprob/IMG-20180328-WA0005.jpg)
+![](/include/20200809r/images/probeEin.jpg)
+s1p
+Getting impedances of the probes
+
+![](/include/cn_mechprob/IMG-20180328-WA0000.jpg)
 picture
 ToTag
 
 ![](/include/cn_mechprob/IMG-20180328-WA0001.jpg)
+picture
+ToTag
+
+![](/include/cn_mechprob/IMG-20180328-WA0002.jpg)
 picture
 ToTag
 
@@ -29,19 +37,11 @@ ToTag
 picture
 ToTag
 
-![](/include/20200809r/images/probeEin.jpg)
-s1p
-Getting impedances of the probes
+![](/include/cn_mechprob/IMG-20180328-WA0005.jpg)
+picture
+ToTag
 
 ![](/include/cn_mechprob/IMG-20180328-WA0006.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/IMG-20180328-WA0000.jpg)
-picture
-ToTag
-
-![](/include/cn_mechprob/IMG-20180328-WA0002.jpg)
 picture
 ToTag
 

@@ -12,7 +12,7 @@
 teardown
 teardown of a new probe
 
-![](/include/images/202005/linscan/linscan_3_gnd.png)
+![](/include/images/202005/linscan/P_20200531_103040.jpg)
 teardown
 teardown of a new probe
 
@@ -20,11 +20,15 @@ teardown of a new probe
 teardown
 teardown of a new probe
 
-![](/include/images/202005/linscan/linscan_2_gnd.png)
+![](/include/images/202005/linscan/P_20200531_103055.jpg)
 teardown
 teardown of a new probe
 
 ![](/include/images/202005/linscan/P_20200531_103142.jpg)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/linscan/P_20200531_103159.jpg)
 teardown
 teardown of a new probe
 
@@ -36,11 +40,11 @@ teardown of a new probe
 teardown
 teardown of a new probe
 
-![](/include/images/202005/linscan/P_20200531_103055.jpg)
+![](/include/images/202005/linscan/P_20200531_103230.jpg)
 teardown
 teardown of a new probe
 
-![](/include/images/202005/linscan/P_20200531_103040.jpg)
+![](/include/images/202005/linscan/P_20200531_103237.jpg)
 teardown
 teardown of a new probe
 
@@ -48,19 +52,15 @@ teardown of a new probe
 teardown
 teardown of a new probe
 
-![](/include/images/202005/linscan/P_20200531_103230.jpg)
+![](/include/images/202005/linscan/linscan_2_gnd.png)
+teardown
+teardown of a new probe
+
+![](/include/images/202005/linscan/linscan_3_gnd.png)
 teardown
 teardown of a new probe
 
 ![](/include/images/202005/linscan/linscan_6_gnd.png)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/linscan/P_20200531_103159.jpg)
-teardown
-teardown of a new probe
-
-![](/include/images/202005/linscan/P_20200531_103237.jpg)
 teardown
 teardown of a new probe
 

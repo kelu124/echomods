@@ -8,15 +8,7 @@
 
 ## Teardown 
 
-![](/include/images/202005/myapo/apogee_brown.png)
-teardown
-putting together the annular probe
-
-![](/include/images/202005/myapo/P_20200531_103028.jpg)
-teardown
-putting together the annular probe
-
-![](/include/images/202005/myapo/apogee_green.png)
+![](/include/images/202005/myapo/P_20200531_102954.jpg)
 teardown
 putting together the annular probe
 
@@ -24,7 +16,11 @@ putting together the annular probe
 teardown
 putting together the annular probe
 
-![](/include/images/202005/myapo/P_20200531_102954.jpg)
+![](/include/images/202005/myapo/P_20200531_103016.jpg)
+teardown
+putting together the annular probe
+
+![](/include/images/202005/myapo/P_20200531_103028.jpg)
 teardown
 putting together the annular probe
 
@@ -32,7 +28,11 @@ putting together the annular probe
 teardown
 putting together the annular probe
 
-![](/include/images/202005/myapo/P_20200531_103016.jpg)
+![](/include/images/202005/myapo/apogee_brown.png)
+teardown
+putting together the annular probe
+
+![](/include/images/202005/myapo/apogee_green.png)
 teardown
 putting together the annular probe
 

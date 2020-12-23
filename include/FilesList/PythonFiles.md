@@ -50,7 +50,7 @@
 
 * [spi.py](/include/community/Marc/spi.py): . File used in: [`/include/community/Marc/Readme.md`](/include/community/Marc/Readme.md).
 
-* [bim.py](/include/20180415r/bim.py): . File used in: [`/include/experiments/auto/20180415r.md`](/include/experiments/auto/20180415r.md).
+* [bim.py](/include/20180415r/bim.py): . File used in: [`/include/experiments/auto/20180415r.md`](/include/experiments/auto/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.md).
 
 * [ustk.py](/include/20180217a/ustk.py): Library for creating images from the files created by pulser module.. _File not used._
 

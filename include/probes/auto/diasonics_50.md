@@ -18,21 +18,25 @@
 
 ## Frequency mapping 
 
-![](/include/images/probes_vna/diasonics_50.png)
-smith
-ToTag
-
 ![](/include/20201219r/impedances/diasonics_50.png)
 smith
 checking impedance of piezos
 
+![](/include/images/probes_vna/diasonics_50.png)
+smith
+ToTag
+
 ## Other pictures 
+
+![](/include/images/diasonics_50/P_20181208_131405.jpg)
+ToTag
+Demontage
 
 ![](/include/images/diasonics_50/P_20181208_131435.jpg)
 ToTag
 ToTag
 
-![](/include/images/diasonics_50/P_20181208_131810.jpg)
+![](/include/images/diasonics_50/P_20181208_131643.jpg)
 ToTag
 ToTag
 
@@ -40,11 +44,7 @@ ToTag
 ToTag
 ToTag
 
-![](/include/images/diasonics_50/P_20181208_131405.jpg)
-ToTag
-Demontage
-
-![](/include/images/diasonics_50/P_20181208_131643.jpg)
+![](/include/images/diasonics_50/P_20181208_131810.jpg)
 ToTag
 ToTag
 

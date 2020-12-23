@@ -9,19 +9,38 @@
 * [20190329a](/include/experiments/auto/20190329a.md)
 * [20190404a](/include/experiments/auto/20190404a.md)
 * [20190415a](/include/experiments/auto/20190415a.md)
+* [20200325a](/include/experiments/auto/20200325a.md)
 
 
 # Images
 
 ## Setup 
 
+![](/matty/20190329a/photos/P_20190329_214159.jpg)
+setup
+setup
+
 ![](/matty/20190329a/photos/P_20190329_214504.jpg)
 setup
 setup
 
-![](/matty/20190329a/photos/P_20190329_214159.jpg)
+![](/matty/20200325a/P_20200325_155623_p.jpg)
 setup
 setup
+
+![](/matty/20200325a/P_20200325_155649_p.jpg)
+setup
+ndt
+
+## Frequency mapping 
+
+![](/matty/20200325a/piezo_caracs/RX_path.png)
+smith
+ToTag
+
+![](/matty/20200325a/piezo_caracs/TX_path.png)
+smith
+Smith
 
 ### Signals 
 
@@ -32,6 +51,16 @@ Automated image of 20190404a experiment. Trying the dualNDT5MHz NDT transducer
 ![](/matty/20190415a/images/Full_details_alllines_avg_16-17_20190415a-3.jpg)
 hilbert,signal
 Experiment: 20190415a-3 - Duration: 57.0us (60000 - 3000), for 30 repeats each 2500.0us - Fech = 64.0Msps, total of 3648.0 pts per line, Nacq = 30 - Trying the dualNDT5MHz NDT transducer, probe: dualNDT5MHz, target = kitchen knife, steel, approx 1mm thickness - Timestamp = 2019-04-15 20:33:26.580680 - Full line acquisition.
+
+### FFTs 
+
+![](/matty/20200325a/images/20200325a-3-fft.jpg)
+FFT
+ToTag
+
+![](/matty/20200325a/images/20200325a-6-fft.jpg)
+FFT
+ToTag
 
 ### Other signals 
 
