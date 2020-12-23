@@ -445,6 +445,7 @@ def CreateProbesFiles(GrosJaSON):
 		if len(GrosJaSON["probes"][probe]["experiments"]):
 			ProbeAuto += "# Experiments\n\n"
 			LSExpe = list(set(GrosJaSON["probes"][probe]["experiments"]))
+			LSExpe.sort()
 			#GrosJaSON = TagProbesExpes(GrosJaSON,LSExpe,probe)
 			for expe in LSExpe:
 				ProbeAuto += "* ["+expe+"](/include/experiments/auto/"+expe+".md)\n"
@@ -470,7 +471,9 @@ def CreateProbesFiles(GrosJaSON):
 			SMITH = "## Frequency mapping \n\n"
 			OTHERPICS = "## Other pictures \n\n"
 
-			for image in list(set(GrosJaSON["probes"][probe]["images"])):
+			Lst = list(set(GrosJaSON["probes"][probe]["images"]))
+			Lst.sort()
+			for image in Lst:
 				print(probe,image,GrosJaSON["images"][image]["category"])
 				if "setup" in GrosJaSON["images"][image]["category"]:
 					SETUP += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
@@ -534,10 +537,10 @@ def CreateProbesFiles(GrosJaSON):
 		if GrosJaSON["probes"][probe]["images"]:
 			LstPr = list(set(GrosJaSON["probes"][probe]["images"]))
 			Npr = len(LstPr)
-			ProbeAuto += "__Present in:__ "+ str(Npr)+" images. "
-			for k in LstPr:
+			ProbeAuto += "__Present in:__ "+ str(Npr)+" images"
+			#for k in LstPr:
 				#print(k)
-				ProbeAuto += " ["+str(k).split("/")[-1].split(".")[0]+"]("+str(k)+")" 
+				#ProbeAuto += " ["+str(k).split("/")[-1].split(".")[0]+"]("+str(k)+")" 
 			ProbeAuto += ".\n\n"
 		AddProbes += "* ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md)\n"
 	OpenWrite(ProbeAuto,"./include/probes/Readme.md")
