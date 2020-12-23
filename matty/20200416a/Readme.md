@@ -1,4 +1,4 @@
-# `20200416a` - testing the my_adrus testing probe
+# `20200416a` - testing the my_adrus testing probe (from the `adrus` probe)
 
 ## Setup
 
