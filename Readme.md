@@ -210,6 +210,7 @@ and used in a wider context:
 
 # Experiments
 
+ * [20201223a](/include/experiments/auto/20201223a.md)
  * [20201219r](/include/experiments/auto/20201219r.md)
  * [20201128a](/include/experiments/auto/20201128a.md)
  * [20201108a](/include/experiments/auto/20201108a.md)
@@ -386,13 +387,15 @@ Here's a couple of things we're working on, for which you could help as well.
 * PMODs US:
 * Documentation - update for lit3 once it is ready, with http://2012.oshwa.org/files/2012/07/Wozniak-OHS2012-Final.pdf, http://2011.oshwa.org/files/2011/09/Wozniak-OHS2011.pdf, and https://cdn-blog.adafruit.com/uploads/2011/09/w0z-OHS2011-v1.pdf
 * get https://github.com/tobozo/M5Stack-SD-Updater to add bins
-* do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md) and tests impedance matching on the new piezo to see if that improves things =)
 * check artists meet makers
-* bin for un0rick ftdi control - bogdan?
 * integrate some documentation for un0rick and lit3rick as in http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/3.05x6.5/TE0876/REV02/Documents/iceZero-pinout-v5.pdf
-* move forward on some new hardware like the [ft600](./include/ft_600_notes.md)
-* find the i2s issue
- * check motor https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20181013a.md for the hp probe
+* move forward on some new hardware like the [ft600](/include/ft_600_notes.md)
+* FUP i2s
+* energy harvesting + low power blink
+* mechanical runs on wirephantom
+* finalize article 
+* add DRV2700 mentions ?
+* clear hilbert ImportError: libf77blas.so.3: cannot open shared object file: No such file or directory
 
 
 

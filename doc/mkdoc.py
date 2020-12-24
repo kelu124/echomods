@@ -268,7 +268,7 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 
 		ExpeJSON[Expe]["images"] = []
 		setupimgs = [x for x in matches if "setup" in x[2] ]
-		bscimgs = [x for x in matches if "BSC" in x[2] ]
+		bscimgs = [x for x in matches if (("BSC" in x[2]) or ("BC" in x[2])) ]
 		ascimgs = [x for x in matches if "ASC" in x[2] ]
 
 		others = []
@@ -1152,19 +1152,16 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 		if (PathRefedFile in ContentFiles[k]) and ("/include/FilesList/" not in ContentFiles[k]) and (".tpl" not in ContentFiles[k]) and ("mkimg.py" not in ContentFiles[k]) and ("pyUn0.py" not in ContentFiles[k]): 
 			FileList.append(PathRefingFile[k][1:])
 			InRef.append("[`"+PathRefingFile[k][1:]+"`]("+PathRefingFile[k][1:]+")")
+
 	if len(InRef):
-		StringData = ". File used in: "+", ".join(InRef)+".\n"
-	
-		#print InRef
-	else:
-	    if( "/cletus/suppliers/" not in PathRefedFile):
-		StringData = ". _File not used._\n"
-		if ("/include/" in PathRefedFile):
-			log.append("__[Unrefed file]__ "+WarningMark+" `"+PathRefedFile+"` : No references of this file (in _include_). ")
-		else:
-		    if (not ("/gitbook/" in PathRefedFile)):
-			log.append("__[Unrefed file]__ "+RedMark+" `"+PathRefedFile+"` : No references of this file. ")
-		    
+		StringData = ". File used in: "+", ".join(InRef)+".\n" 
+	else: #@todo remove fpga_ctrl mkimg csr_map ftdi_dev pyUn0 retired
+	    if ( "/cletus/suppliers/" not in PathRefedFile):
+			StringData = ". _File not used._\n"
+			if ("/include/" in PathRefedFile) and ("mkimg" not in PathRefedFile):
+				log.append("__[Unrefed file]__ "+WarningMark+" `"+PathRefedFile+"` : No references of this file (in _include_). ")
+			elif (not ("/gitbook/" in PathRefedFile)):
+				log.append("__[Unrefed file]__ "+RedMark+" `"+PathRefedFile+"` : No references of this file. ")
 	return StringData, log, FileList
 
 def GetPythonFiles(path):

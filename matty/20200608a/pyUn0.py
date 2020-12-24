@@ -961,74 +961,74 @@ if __name__ == "__main__":
     print("Loaded!")
 
     if len(sys.argv) > 1:
-        if (sys.argv[1] == "-f" ) and (len(sys.argv) == 3) and (os.path.exists(sys.argv[2])):
-            print("file exists - OK")
-            UN0RICK = us_spi()
-            UN0RICK.init()
-            UN0RICK.set_multi_lines(True)
-            UN0RICK.set_acquisition_number_lines(15) 
-            UN0RICK = ConfigFromTxt(UN0RICK,sys.argv[2])
-            UN0RICK.JSON["data"] = UN0RICK.do_acquisition()
+	    if (sys.argv[1] == "-f" ) and (len(sys.argv) == 3) and (os.path.exists(sys.argv[2])):
+	        print("file exists - OK")
+	        UN0RICK = us_spi()
+	        UN0RICK.init()
+	        UN0RICK.set_multi_lines(True)
+	        UN0RICK.set_acquisition_number_lines(15) 
+	        UN0RICK = ConfigFromTxt(UN0RICK,sys.argv[2])
+	        UN0RICK.JSON["data"] = UN0RICK.do_acquisition()
 
-            if "test" in sys.argv[1]:
-                UN0RICK = us_spi()
-                UN0RICK.init()
-                UN0RICK.test_spi(3)
+	    if "test" in sys.argv[1]:
+		UN0RICK = us_spi()
+		UN0RICK.init()
+		UN0RICK.test_spi(3)
 
-            if "single" in sys.argv[1]:
-                UN0RICK = us_spi()
-                UN0RICK.init()
-                UN0RICK.test_spi(3)
-                TGCC = UN0RICK.create_tgc_curve(10, 980, True)[0]    # Gain: linear, 10mV to 980mV
-                UN0RICK.set_tgc_curve(TGCC)                          # We then apply the curve
-                UN0RICK.set_period_between_acqs(int(2500000))        # Setting 2.5ms between shots
-                UN0RICK.JSON["N"] = 1 				 # Experiment ID of the day
-                UN0RICK.set_multi_lines(False)                       # Single acquisition
-                UN0RICK.set_acquisition_number_lines(1)              # Setting the number of lines (1)
-                UN0RICK.set_msps(0)                                  # Sampling speed setting
-                A = UN0RICK.set_timings(200, 100, 2000, 5000, 200000)# Settings the series of pulses
-                UN0RICK.JSON["data"] = UN0RICK.do_acquisition()      # Doing the acquisition and saves
+	    if "single" in sys.argv[1]:
+		UN0RICK = us_spi()
+		UN0RICK.init()
+		UN0RICK.test_spi(3)
+		TGCC = UN0RICK.create_tgc_curve(10, 980, True)[0]    # Gain: linear, 10mV to 980mV
+		UN0RICK.set_tgc_curve(TGCC)                          # We then apply the curve
+		UN0RICK.set_period_between_acqs(int(2500000))        # Setting 2.5ms between shots
+		UN0RICK.JSON["N"] = 1 				 # Experiment ID of the day
+		UN0RICK.set_multi_lines(False)                       # Single acquisition
+		UN0RICK.set_acquisition_number_lines(1)              # Setting the number of lines (1)
+		UN0RICK.set_msps(0)                                  # Sampling speed setting
+		A = UN0RICK.set_timings(200, 100, 2000, 5000, 200000)# Settings the series of pulses
+		UN0RICK.JSON["data"] = UN0RICK.do_acquisition()      # Doing the acquisition and saves
 
-            if "multi" in sys.argv[1]:
-                UN0RICK = us_spi()
-                UN0RICK.init()
-                UN0RICK.test_spi(3)
-                UN0RICK.JSON["N"] = 1 # Experiment ID
-                TGCC = UN0RICK.create_tgc_curve(600, 900, False)[0]  # Gain: expo, 300mV to 900mv
-                UN0RICK.set_tgc_curve(TGCC)                          # We then apply the curve
-                UN0RICK.set_period_between_acqs(int(2500000)) 	 # Setting 2.5ms between lines
-                UN0RICK.set_multi_lines(True)			 # Multi lines acquisition	
-                UN0RICK.set_acquisition_number_lines(10)              # Setting the number of lines (3)
-                UN0RICK.set_msps(0)                                  # Sampling speed setting
-                A = UN0RICK.set_timings(200, 100, 1000, 2000, 100000)# Settings the series of pulses
-                UN0RICK.JSON["data"] = UN0RICK.do_acquisition()      # Doing the acquisition and saves
+	    if "multi" in sys.argv[1]:
+		UN0RICK = us_spi()
+		UN0RICK.init()
+		UN0RICK.test_spi(3)
+		UN0RICK.JSON["N"] = 1 # Experiment ID
+		TGCC = UN0RICK.create_tgc_curve(600, 900, False)[0]  # Gain: expo, 300mV to 900mv
+		UN0RICK.set_tgc_curve(TGCC)                          # We then apply the curve
+		UN0RICK.set_period_between_acqs(int(2500000)) 	 # Setting 2.5ms between lines
+		UN0RICK.set_multi_lines(True)			 # Multi lines acquisition	
+		UN0RICK.set_acquisition_number_lines(10)              # Setting the number of lines (3)
+		UN0RICK.set_msps(0)                                  # Sampling speed setting
+		A = UN0RICK.set_timings(200, 100, 1000, 2000, 100000)# Settings the series of pulses
+		UN0RICK.JSON["data"] = UN0RICK.do_acquisition()      # Doing the acquisition and saves
 
-            if "process" in sys.argv[1]:
-                make_clean("./")
-                for MyDataFile in os.listdir("./data/"):
-                    if MyDataFile.endswith(".json"):
-                        print(MyDataFile)
-                        y = us_json()
-                        y.show_images = False
-                        y.JSONprocessing("./data/"+MyDataFile)
-                        y.create_fft() 
-                        y.save_npz() 
-                        y.mkImg()
-                        if y.Nacq > 1:
-                            y.mk2DArray()
+	    if "process" in sys.argv[1]:
+		make_clean("./")
+		for MyDataFile in os.listdir("./data/"):
+		    if MyDataFile.endswith(".json"):
+		        print(MyDataFile)
+		        y = us_json()
+		        y.show_images = False
+		        y.JSONprocessing("./data/"+MyDataFile)
+		        y.create_fft() 
+		        y.save_npz() 
+		        y.mkImg()
+		        if y.Nacq > 1:
+		            y.mk2DArray()
 
-            if "loop" in sys.argv[1]:
-                UN0RICK = us_spi()
-                UN0RICK.init()
-                UN0RICK.set_multi_lines(True)                        # Multi lines acquisition
-                UN0RICK.set_acquisition_number_lines(2)		 # Setting the number of lines
-                UN0RICK.set_msps(3)                                  # Acquisition Freq
-                A = UN0RICK.set_timings(200, 100, 2000, 5000, 200000)# Looping on triggers
-                while True:
-                    UN0RICK.write_fpga(0xEA, 0x01)                   # trigs
-                    time.sleep(50.0 / 1000.0)                        # Waits 50ms between shots
+	    if "loop" in sys.argv[1]:
+		UN0RICK = us_spi()
+		UN0RICK.init()
+		UN0RICK.set_multi_lines(True)                        # Multi lines acquisition
+		UN0RICK.set_acquisition_number_lines(2)		 # Setting the number of lines
+		UN0RICK.set_msps(3)                                  # Acquisition Freq
+		A = UN0RICK.set_timings(200, 100, 2000, 5000, 200000)# Looping on triggers
+		while True:
+		    UN0RICK.write_fpga(0xEA, 0x01)                   # trigs
+		    time.sleep(50.0 / 1000.0)                        # Waits 50ms between shots
 
-            if gpioexists:
-                GPIO.output(23, GPIO.LOW)
-                GPIO.setup(23, GPIO.OUT)
+	    if gpioexists:
+		GPIO.output(23, GPIO.LOW)
+		GPIO.setup(23, GPIO.OUT)
 

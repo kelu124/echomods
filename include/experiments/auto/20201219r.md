@@ -16,7 +16,7 @@
 
 ### Source
 
-* Piezo A: piezo coming from `adrus`, [see here](/include/images/ADR)
+* Piezo A: piezo coming from `adrus`, [see here](/include/images/ADR). Normally 5.5 MHz.
 * Piezo B: piezo doppler from `apogee10MHz` (or `apogee5MHz` ?)
 * Piezo C: piezo coming from `ausonic75s` - [teardown here](/include/20200809r/images/ausonics75/)
 * Piezo D: piezo normally from a nun-functionnal `hp2121`

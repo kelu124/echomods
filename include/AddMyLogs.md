@@ -3631,7 +3631,7 @@ Tagging wav files? https://pypi.org/project/tinytag/
 
 * Interesting [LPC55S6x : M33 + LPU](https://www.nxp.com/docs/en/data-sheet/LPC55S6x.pdf)
 * Doing [echo-tomo](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
-* @todo do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md) and tests impedance matching on the new piezo to see if that improves things =)
+* @ongoing do impedance matching tests [on a new piezo](https://github.com/kelu124/echomods/blob/master/matty/20200416a/Readme.md) and tests impedance matching on the new piezo to see if that improves things =)
 * [Enveloppe detection ongoing](https://github.com/kelu124/vit3rick/tree/master/MSB_1_Enveloppe] on the up5k
 * @done run [simuls for pulse duration](https://github.com/kelu124/echomods/blob/master/matty/20200418a/Readme.md)
 * lit3rick vF ongoing with AD8332
@@ -3717,7 +3717,7 @@ Tagging wav files? https://pypi.org/project/tinytag/
 
 #### 2020-07-26 NextSteps
 
-* @todo bin for un0rick ftdi control - bogdan?
+* @done bin for un0rick ftdi control - done! that's the usb/usb_vga part =)
 * @done lit3rick v1.5 with AD8331
 * @done complete a lit3rick motherboard
 * adding a 0.1uF cap increases the LNA performance: yeay ! But shitty wires mean: noise.
@@ -3775,7 +3775,7 @@ Always wanted to have a riscv inside my board ;)
 #### 2020-09-08 back in the city
 
 * @todo integrate some documentation for un0rick and lit3rick as in http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/3.05x6.5/TE0876/REV02/Documents/iceZero-pinout-v5.pdf
-* @todo move forward on some new hardware like the [ft600](./include/ft_600_notes.md)
+* @todo move forward on some new hardware like the [ft600](/include/ft_600_notes.md)
 * @done add a section on the un0rick place: "_If you like the silly things I do, you can say thanks by_"
 
 #### 2020-10-03 holidays ahead
@@ -3809,7 +3809,7 @@ https://hal.archives-ouvertes.fr/hal-00827697/file/NEWCAS_2012.pdf
 
 * Completing the [un0rick.cc](http://un0rick.cc) website.
 * Improving lit3rick code
-* @todo find the i2s issue
+* @ongoing find the i2s issue
 * Pushing a few experiments related to lit3rick
 
 
@@ -3838,25 +3838,24 @@ Playing with ESP32 ideas
 
 * https://www.postgresql.org/docs/9.1/sql-createtable.html for creating postgresql tables
 
-#### 2020-11-05 ImpedanceMatching progress yeah
+#### 2020-11-06 ImpedanceMatching progress yeah v2
 
 * Impedance matching on hp2121 seems good.. not actually no.
-  * @todo check motor https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20181013a.md for the hp probe
+  * @done check motor https://github.com/kelu124/echomods/blob/master/include/experiments/auto/20181013a.md for the hp probe (done: black and white cables)
 * VGA output on the un0rick, yeah!
-* test with the [HP probe](https://github.com/kelu124/echomods/tree/master/include/hp/20201128a)
+* Test with the [HP probe](https://github.com/kelu124/echomods/tree/master/include/hp/20201128a) - see [more about this probe](/include/probes/auto/hp2121.md)
 
 #### 2020-12-03 VGA FTW
 
-* Done with the VGA part for the un0rick
+* Done with the VGA part for the un0rick! 
 * Will now need to go on the lit3rick adaptation with David
 
 * Cosine generation on ESP32 https://www.esp32.com/viewtopic.php?f=18&t=10321
 * PWM: ledCwrite
 * DAC ? https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/dac.html GPIO 25/26
-
-* ADC: 36 (ADC1)
-* DAC: 26 (channel 2)
-* PWM: 0
+  * ADC: 36 (ADC1)
+  * DAC: 26 (channel 2)
+  * PWM: 0
 
 #### 2020-12-06 StNkls
 
@@ -3864,6 +3863,17 @@ Playing with ESP32 ideas
 * https://github.com/kelu124/PDFGitPolyglot
 
 * FUN : https://www.bbcmicrobot.com/owlet-test2.html
+
+#### 2020-12-23 Cleaning the docs
+
+* Ongoing: tagging images for missing experiments, cleaning around
+* @todo FUP i2s
+* @todo energy harvesting + low power blink
+* @todo mechanical runs on wirephantom
+* @todo finalize article 
+* @todo add DRV2700 mentions ?
+* @todo clear hilbert ImportError: libf77blas.so.3: cannot open shared object file: No such file or directory
+* @todo Worklog: why not working on Rpi4 out of the box?
 
 =======
 
