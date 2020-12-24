@@ -7,7 +7,7 @@ title: 2019-12-31 Last of the year
 ---
 
 
-Ultrasound stuff \* @todo integrated mouse optics in the article, from
+Ultrasound stuff \* @done integrated mouse optics in the article, from
 "A Free-Hand System of the High-Frequency Single Element Ultrasound
 Transducer for Skin Imaging" \* @done my objectives at
 https://github.com/kelu124/un0rick/blob/gh-pages/partners.md \* MUX \*
@@ -21,7 +21,7 @@ https://cdn-blog.adafruit.com/uploads/2011/09/w0z-OHS2011-v1.pdf \*
 Motors \* DRV8313, L6234 \* Brushless DC (BLDC) motor with Arduino –
 Part 2. Circuit and ... \* SN754410NE \* FFT at
 https://github.com/mattvenn/fpga-fft \* AFE5801 on a PMOD ? + MAX14806 ?
-\* @todo : Analyse de la compétition (lecoeur,
+\* @done : Analyse de la compétition (lecoeur,
 www.lecoeur-electronique.net/,
 https://www.industrie-techno.com/article/des-ultrasons-pour-controler-les-revetements-metalliques.54136
 (siderus),
@@ -37,12 +37,12 @@ http://www.ultrasonic.de/index.php
 http://tecnatom-ndt.com/product/ultrasonic/sonia-fprhf1/
 http://www.mec-ndt.co/ndt\_products\_desc?code=97
 https://www.insight-ndt.com/ultrasonic/8channel.html
-https://ndtsupply.com/dakota-ultrasonics-pvx-1.html ) \* @todo
+https://ndtsupply.com/dakota-ultrasonics-pvx-1.html ) \* @done
 documentation ghpage to update,
 https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
-\* @todo encode lib in npz :
+\* @done encode lib in npz :
 https://stackoverflow.com/questions/11511705/base64-encode-a-zip-file-in-python
-and check dependences with https://poetry.eustace.io/ \* @todo up5k
+and check dependences with https://poetry.eustace.io/ \* @done up5k
 update - https://blog.idorobots.org/entries/upduino-fpga-tutorial.html
 for the refs (includes block RAM, SB\_SPRAM256KA, but i2c and SPI too
 (SB\_SPI and SB\_I2C)) -- see refs at
@@ -50,7 +50,7 @@ https://www.latticesemi.com/\~/media/LatticeSemi/Documents/TechnicalBriefs/SBTIC
 
 Others \*
 https://feeding.cloud.geek.nz/posts/encoding-wifi-access-point-passwords-qr-code/
-qrcode wifi \* @todo get a spidriver
+qrcode wifi \* @done get a spidriver
 https://www.crowdsupply.com/excamera/spidriver
 
 SAO: \* MEMS : SPH0641LU4H-1 (PDM) et IS31FL3728 pr 8x8 en i2c \*

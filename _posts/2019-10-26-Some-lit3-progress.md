@@ -11,7 +11,7 @@ title: 2019-10-26 Some lit3 progress
     acquisitions seem more okay:
 -   [here some good
     experiment](https://github.com/kelu124/echomods/tree/master/matty/20191023a)
--   @todos updates on new pHAT
+-   @done updates on new pHAT
 -   remove this capa, remove i2c pullups for the thermometers (that was
     cost 5\$ ! :/ )
 -   connecter le ice40 au i2c rpi
@@ -24,7 +24,7 @@ title: 2019-10-26 Some lit3 progress
 -   Niveau header RPi, on peut connecter les SPI\_EXT MISO / CS du coup.
 -   Use 5 first bytes of a read to store the bin number / board ID ?
 -   Need to make progress on this RTL-SDR for ultrasound ;)
--   @todo find the right jekyll theme to leave gitbook
+-   @done find the right jekyll theme to leave gitbook
 -   see
     https://help.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll
 -   https://pmarsceill.github.io/just-the-docs/ seem to fit the bill =)

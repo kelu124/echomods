@@ -13,7 +13,7 @@ title: 2018-02-27 progress on the ice40 board
     (oops I mentioned those already)
 -   Got [images with a probe yesterday](/matty/20180225a/Readme.md)
 
--   @todo use [General Design Procedure for Free and Open-Source
+-   @done use [General Design Procedure for Free and Open-Source
     Hardware for Scientific
     Equipment](http://www.mdpi.com/2411-9660/2/1/2/htm) as a reference
 

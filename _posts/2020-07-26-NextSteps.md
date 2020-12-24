@@ -7,9 +7,10 @@ title: 2020-07-26 NextSteps
 ---
 
 
--   @todo bin for un0rick ftdi control
--   @todo lit3rick v1.5 with AD8331
--   @todo complete a lit3rick motherboard
+-   @done bin for un0rick ftdi control - done! that's the usb/usb\_vga
+    part =)
+-   @done lit3rick v1.5 with AD8331
+-   @done complete a lit3rick motherboard
 -   adding a 0.1uF cap increases the LNA performance: yeay ! But shitty
     wires mean: noise.
 

@@ -7,7 +7,7 @@ title: 2018-05-16 improving format system
 ---
 
 
--   @todo add Anna and Matthew to users list
+-   @done add Anna and Matthew to users list
 -   better [acquisition library](/matty/20180516a/Readme.md)
 
 -   Interesting [brochure on

@@ -19,7 +19,7 @@ title: 2017-12-16 Chaotic good
 -   [Article: 8051 microcontroller to FPGA and ADC interface design for
     high speed parallel processing systems – Application in ultrasound
     scanners](https://www.researchgate.net/publication/301933773_8051_microcontroller_to_FPGA_and_ADC_interface_design_for_high_speed_parallel_processing_systems_-_Application_in_ultrasound_scanners)
--   @todo classifier articles with link Article: =)
+-   @done classifier articles with link Article: =)
 
 -   @ushound
     https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7766

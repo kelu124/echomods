@@ -14,6 +14,6 @@ title: 2017-05-29 Testing Doj v2
     and raspberry.
 -   Note to self: this config requires a "good" usb power supply. It
     succeded with a 5V 750mA power supply - but failed from USB.
--   @todo Add a documentation server
--   @todo Display IP on the OLED.
+-   @done Add a documentation server
+-   @done Display IP on the OLED.
 

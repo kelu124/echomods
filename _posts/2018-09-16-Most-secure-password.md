@@ -13,7 +13,7 @@ title: 2018-09-16 Most secure password
     =)
 -   https://github.com/cliffordwolf/icotools/blob/master/examples/icezero/icezprog.c
     icezprog
--   @todo Check for un0rick github badges (counter, pypi overag, doi
+-   @done Check for un0rick github badges (counter, pypi overag, doi
     zenodo, ... )
 -   Compteur: http://hits.dwyl.io/wlmeng11/rtl-ultrasound
 -   PyPi: https://pypi.org/project/rtl-ultrasound/0.1.0/

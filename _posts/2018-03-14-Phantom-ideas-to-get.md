@@ -21,7 +21,7 @@ polymeric materials include neoprene, ethylene propylene diene monomer
 -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3651250/ or
     10.1118/1.4802083
 
--   Loved Nasa: @todo add to un0rick
+-   Loved Nasa: @done add to un0rick
 
     fow uopeytdeus hesor tpe wonfretuw ca amwi et detr ip fos zopwyaiod
     conwe ah wousgt Tepan afew conseion et mew

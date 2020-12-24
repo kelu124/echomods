@@ -10,7 +10,7 @@ title: 2018-03-05 Going to rick
 -   Iterations for next steps:
 -   [Roadmap for the next evolution](/matty/mat2un.md)
 -   Phantom in PU to do ? What accoustic impedance?
--   @todo for matty [Rip this
+-   @done for matty [Rip this
     intro?](https://qspace.library.queensu.ca/bitstream/handle/1974/6235/Wall_Kieran_A_201012_PhD.pdf?sequence=1&isAllowed=y)
 
 -   Other stuff: explore ETH

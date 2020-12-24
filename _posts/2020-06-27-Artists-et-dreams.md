@@ -16,5 +16,5 @@ title: 2020-06-27 Artists et dreams
 -   http://yvesbrozat.com/
 -   Brilliant read:
     https://archive.org/details/computer-lib-dream-machines
--   @todo Close the todos.
+-   @done Close the todos.
 

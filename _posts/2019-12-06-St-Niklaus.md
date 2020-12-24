@@ -15,5 +15,5 @@ title: 2019-12-06 St Niklaus
 -   or to swap IOs for programming, while
 -   beware, for flash programming, SPI\_SS needs to be kept floating
     high. Floating.
--   @todo keep an eye on "BRUEL KJAER ULTRASOUND" =)
+-   @done keep an eye on "BRUEL KJAER ULTRASOUND" =)
 

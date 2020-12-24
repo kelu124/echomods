@@ -7,14 +7,14 @@ title: 2019-01-12 NDT and others
 ---
 
 
--   @todo explore NDT with Jorge
+-   @done explore NDT with Jorge
 -   http://www.ireneposch.net/1-bit-textile/ -- awesome work of textile
     innovation \#art
 -   Starting a new 5 batch of v1.1
 -   lower power jewellery: http://www.ireneposch.net/linkpin/
--   @todo un0rick / lit3rick : install an initial delay (after trig)
+-   @done un0rick / lit3rick : install an initial delay (after trig)
 -   MF costs: check how it evolves
--   @todo EB - ESP32 + ICE40
+-   @cancelled EB - ESP32 + ICE40
 -   https://www.elektor.fr/esp32-pico-kit-v4 --
     https://www.elektor.fr/media/catalog/product/cache/3/thumbnail/9df78eab33525d08d6e5fb8d27136e95/e/s/esp32-pico-kit-dev-board-v4-layout.png
 -   add gyro, eink, LEDs, photodiod, IR ?

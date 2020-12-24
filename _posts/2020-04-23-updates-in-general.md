@@ -20,11 +20,12 @@ title: 2020-04-23 updates in general
     too.
 -   Idea for i2s update on rpi :
     https://github.com/ryankurte/rpi-i2s-stereo/blob/master/instructions.md
--   @todo check newer lit3rick.vF
--   @todo merge bgd/and (acq + i2s + transfo)
--   @todo go onto yosys
--   @todo understand echoes from acqs.. weird things
--   @todo consider additional CS (
+-   @done check newer lit3rick.vF
+-   @done merge bgd/and (acq + i2s + transfo)
+-   @cancelled go onto yosys (not possible from a up5k perspective.. too
+    tight on timings)
+-   @done understand echoes from acqs.. weird things
+-   @done consider additional CS (
     https://www.raspberrypi.org/forums/viewtopic.php?t=152014 ) or SPI (
     https://www.raspberrypi.org/forums/viewtopic.php?p=821666\#p821666 )
 

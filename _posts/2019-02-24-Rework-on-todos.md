@@ -7,7 +7,7 @@ title: 2019-02-24 Rework on todos
 ---
 
 
--   @todo lit3rick vF : add rounded edges, connections on other pins
+-   @done lit3rick vF : add rounded edges, connections on other pins
     from the board for flash CS, passer all IOs sur le header RPI,
     cacher les SCK du controle HV et back de la carte: passer un header
     go-through.

@@ -11,7 +11,7 @@ title: 2019-01-08 Awesome readmes
 -   AWESOME LISTS : https://github.com/sindresorhus/awesome
 -   https://github.com/sindresorhus/awesome/blob/master/create-list.md
 -   https://github.com/sindresorhus/awesome/blob/master/pull\_request\_template.md
--   @todo rework echomods page
--   @todo rework un0rick page (with new logo / gifs / support / ...)
--   @todo : add options to pyUn0 lib
+-   @done rework echomods page
+-   @done rework un0rick page (with new logo / gifs / support / ...)
+-   @done : add options to pyUn0 lib
 

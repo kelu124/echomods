@@ -15,7 +15,7 @@ https://hackaday.io/project/6592-dipsy ) -- quite a small FPGA !!
 
 Onboard gyro https://playground.arduino.cc/Main/MPU-6050 ?
 
-@todo *senjak* 15:07 In Which a PDF is a Git Repository Containing its
+@done *senjak* 15:07 In Which a PDF is a Git Repository Containing its
 own Latex Source and a Copy of Itself --
 https://github.com/ESultanik/PDFGitPolyglot/blob/master/make\_polyglot.sh
 

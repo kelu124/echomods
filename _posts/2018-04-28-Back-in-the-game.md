@@ -10,7 +10,7 @@ title: 2018-04-28 Back in the game
 -   [Superb work on the single element imaging
     here](/include/articles/Fedjajevs_mscthesis_14_09_2016.pdf), or
     [here](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f).
--   @todo contact the
+-   @done contact the
     [author](https://repository.tudelft.nl/islandora/object/uuid%3A8784cc2b-10a1-47e7-a87f-ce25062d456f)
     !
 -   Interesting [Signostic

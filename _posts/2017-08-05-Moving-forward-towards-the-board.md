@@ -15,6 +15,6 @@ title: 2017-08-05 Moving forward towards the board
 -   @done Main readme as TPL
 -   @cancelled DICOM rest of images
 
--   @todo test some compressed sensing using [golay
+-   @done test some compressed sensing using [golay
     codes](/include/20170325/PulseCode.pdf) on a single element piezo
 
