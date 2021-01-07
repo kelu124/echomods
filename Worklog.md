@@ -3299,7 +3299,9 @@ Bbox-089C716D // mimite2000
   * badgy 2.9" 296x128 pixel
   * TTGO ESP32 2.9"  display
   * Tilt sensor / gyro /  .. ?
-  * DEFCON2018 badge https://www.cio.com.au/slideshow/355919/defcon-badge-unlike-anything-ever-seen/
+  * DEFCON2018 badge httRead more : 
+https://www.fpga4fun.com/
+for good tutorialsps://www.cio.com.au/slideshow/355919/defcon-badge-unlike-anything-ever-seen/
 * Working on the [WVP](/matty/wvp.md)
 
 #### 2019-01-08 Awesome readmes
@@ -4003,6 +4005,13 @@ Playing with ESP32 ideas
 * @todo add DRV2700 mentions ?
 * @todo clear hilbert ImportError: libf77blas.so.3: cannot open shared object file: No such file or directory
 * @todo Worklog: why not working on Rpi4 out of the box?
+
+#### 2020-12-29 Cleaning RPI4 issues with pyUn0
+
+* pastebin alternative: https://sebsauvage.net/paste/
+* Replacing XFERS! With read/write bytes
+* Read some good verilog tutos : https://www.fpga4fun.com/ for good tutorials - still looking for the interactive verilog stuff
+
 
 =======
 
