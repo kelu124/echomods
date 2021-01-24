@@ -9,6 +9,11 @@
 * [20201219r](/include/experiments/auto/20201219r.md)
 
 
+# Files
+
+* [/matty/20201230a/duc2m.exp.md](/matty/20201230a/duc2m.exp.md)
+
+
 # Images
 
 ## Frequency mapping 

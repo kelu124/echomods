@@ -396,6 +396,7 @@ Here's a couple of things we're working on, for which you could help as well.
 * finalize article 
 * add DRV2700 mentions ?
 * clear hilbert ImportError: libf77blas.so.3: cannot open shared object file: No such file or directory
+* Worklog: why not working on Rpi4 out of the box?
 
 
 

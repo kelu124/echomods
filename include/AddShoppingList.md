@@ -37,13 +37,10 @@ Here's a couple of things we're working on, for which you could help as well.
 * check artists meet makers
 * integrate some documentation for un0rick and lit3rick as in http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/3.05x6.5/TE0876/REV02/Documents/iceZero-pinout-v5.pdf
 * move forward on some new hardware like the [ft600](/include/ft_600_notes.md)
-* FUP i2s
+* FUP i2s w Andrew
 * energy harvesting + low power blink
-* mechanical runs on wirephantom
 * finalize article 
-* add DRV2700 mentions ?
 * clear hilbert ImportError: libf77blas.so.3: cannot open shared object file: No such file or directory
-* Worklog: why not working on Rpi4 out of the box?
 
 
 
