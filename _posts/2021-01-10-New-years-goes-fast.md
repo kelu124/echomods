@@ -1,0 +1,18 @@
+---
+
+layout: post
+
+title: 2021-01-10 New years goes fast
+
+---
+
+
+Blink of an eye.. already 10th. Week off ahead. Playing. \* CLD
+Acquisitions two other BK probes \* Do library pyUn0 \* Do image
+creation pyUn0 \* DONE Try slower images with first BK \* FUp Andrew \*
+DONE FUp Renata \* Push page VGA \* FUp Jan \* FUp Jacques \* FUp Minie
+v1.6 . AD8332.
+
+Other stuff: \* Dashboard revenues open projects
+https://www.coryzue.com/open/ \* Do musik stuff \* Short 2021 story =)
+

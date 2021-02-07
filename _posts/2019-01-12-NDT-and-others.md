@@ -26,7 +26,7 @@ title: 2019-01-12 NDT and others
 -   badgy 2.9" 296x128 pixel
 -   TTGO ESP32 2.9" display
 -   Tilt sensor / gyro / .. ?
--   DEFCON2018 badge
-    https://www.cio.com.au/slideshow/355919/defcon-badge-unlike-anything-ever-seen/
+-   DEFCON2018 badge httRead more : https://www.fpga4fun.com/ for good
+    tutorialsps://www.cio.com.au/slideshow/355919/defcon-badge-unlike-anything-ever-seen/
 -   Working on the [WVP](/matty/wvp.md)
 
