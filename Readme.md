@@ -210,7 +210,7 @@ and used in a wider context:
 
 # Experiments
 
- * [20210129a](/include/experiments/auto/20210129a.md)
+ * 2021-01-29: [`Tri` two probes](/include/experiments/auto/20210129a.md): Tri's tests with two probes _(20210129a)_
  * 2020-12-23: [test probes](/include/experiments/auto/20201223a.md): testing probes with un0usb _(20201223a)_
  * 2020-12-19: [test piezos](/include/experiments/auto/20201219r.md): VNAs piezos (dismanted ones) _(20201219r)_
  * 2020-11-28: [hp2121 matching](/include/experiments/auto/20201128a.md): checking hp2121 probe impedance matching _(20201128a)_
@@ -222,8 +222,8 @@ and used in a wider context:
  * 2020-10-28: [strange issues pyUn0](/include/experiments/auto/20201028a.md): seems CS does not work _(20201028a)_
  * 2020-10-26: [usb firmware](/include/experiments/auto/20201026a.md): testing it works with un0rick _(20201026a)_
  * 2020-10-24: [i2s issue](/include/experiments/auto/20201024a.md): Exploring the i2s offsets _(20201024a)_
- * 2020-10-23: [Canada](/include/experiments/auto/20201023a.md): Silvio first lit3rick tests _(20201023a)_
- * 2020-10-22: [Spain](/include/experiments/auto/20201022a.md): Jorge tests on lit3rick _(20201022a)_
+ * 2020-10-23: [Canada](/include/experiments/auto/20201023a.md): `Silvio` first lit3rick tests _(20201023a)_
+ * 2020-10-22: [Spain](/include/experiments/auto/20201022a.md): `Jorge` tests on lit3rick _(20201022a)_
  * 2020-10-08: [benchmark lit3 and un0](/include/experiments/auto/20201008a.md): Running acquisitions on the same rig. _(20201008a)_
  * 2020-08-09: [bard vna](/include/experiments/auto/20200809r.md): bard vna tests _(20200809r)_
  * 2020-08-08: [all probes vna](/include/experiments/auto/20200808r.md): getting impedance params of all probes _(20200808r)_
@@ -283,7 +283,7 @@ and used in a wider context:
  * 2018-04-17: [echomods vs MATTY](/include/experiments/auto/20180417a.md): Comparing the performances of the modules vs the FPGA board Matty _(20180417a)_
  * 2018-04-15: [Test of new batch 2/2](/include/experiments/auto/20180415r.md): Testing the lite.tbo, goblin and elmo boards done at the fab - on a doj v2 motherboard. _(20180415r)_
  * 2018-04-15: [Test of new batch 1/2](/include/experiments/auto/20180415a.md): Testing the goblin board with silent, then test of the new lite.tbo pulser with a piezo. _(20180415a)_
- * 2018-04-03: [Tomas first acq](/include/experiments/auto/20180403t.md): Tomas, a user, is getting a first image from a NDT setup with a block of steel. _(20180403t)_
+ * 2018-04-03: [`Tomas` first acq](/include/experiments/auto/20180403t.md): Tomas, a user, is getting a first image from a NDT setup with a block of steel. _(20180403t)_
  * 2018-04-03: [Matty TGC test](/include/experiments/auto/20180403b.md): Testing matty 's TGC, including playing with the gain DAC and pulse control. _(20180403b)_
  * 2018-04-03: [Voltage checks](/include/experiments/auto/20180403a.md): Testing matty at different voltages. _(20180403a)_
  * 2018-03-10: [Matty DAQ](/include/experiments/auto/20180310a.md): testing the programmation of matty DAC control for the TGC. _(20180310a)_
@@ -293,7 +293,7 @@ and used in a wider context:
  * 2018-02-17: [Alt.tbo and Elmo](/include/experiments/auto/20180217a.md): Testing alt.tbo and elmo new boards for pulser issues (there is not positive and negative pulse, only goes in direction). _(20180217a)_
  * 2018-02-16: [Alt.tbo and Elmo](/include/experiments/auto/20180216a.md): Testing alt.tbo and elmo new boards. _(20180216a)_
  * 2018-01-15: [Matty](/include/experiments/auto/20180115a.md): Receiving the first matty. _(20180115a)_
- * 2018-01-03: [Felix experiment](/include/experiments/auto/20180103a.md): Testing Felix setup with previous Bomanz module. _(20180103a)_
+ * 2018-01-03: [`Felix` experiment](/include/experiments/auto/20180103a.md): Testing Felix setup with previous Bomanz module. _(20180103a)_
  * 2017-11-24: [Impedance matching](/include/experiments/auto/20171124a.md): Doing some tests for impedance matching. _(20171124a)_
  * 2017-11-12: [Probe](/include/experiments/auto/20171112a.md): Testing new probe with new pulser _(20171112a)_
  * 2017-11-11: [Alt.tbo](/include/experiments/auto/20171111a.md): Testing new pulser again 4/4 _(20171111a)_
