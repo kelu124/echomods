@@ -4071,6 +4071,14 @@ Other stuff:
   * Mood, plot, action, backstory, character
   * Message written
 
+@icn-camera
+
+#### 2021-02-06 Volume is here
+
+* 4k words reached, now editing. Plaything is here.
+* support to michael for his experiment
+* ST25DV64K !!
+
 =======
 
 uControllers and other stuff

@@ -210,10 +210,11 @@ and used in a wider context:
 
 # Experiments
 
- * [20201223a](/include/experiments/auto/20201223a.md)
- * [20201219r](/include/experiments/auto/20201219r.md)
- * [20201128a](/include/experiments/auto/20201128a.md)
- * [20201108a](/include/experiments/auto/20201108a.md)
+ * [20210129a](/include/experiments/auto/20210129a.md)
+ * 2020-12-23: [test probes](/include/experiments/auto/20201223a.md): testing probes with un0usb _(20201223a)_
+ * 2020-12-19: [test piezos](/include/experiments/auto/20201219r.md): VNAs piezos (dismanted ones) _(20201219r)_
+ * 2020-11-28: [hp2121 matching](/include/experiments/auto/20201128a.md): checking hp2121 probe impedance matching _(20201128a)_
+ * 2020-11-08: [impedance matching](/include/experiments/auto/20201108a.md): testing two piezos with impedance matching network _(20201108a)_
  * 2020-11-07: [lib 025](/include/experiments/auto/20201107a.md): NDT presentation - un0rick & usb _(20201107a)_
  * 2020-11-04: [lib 024](/include/experiments/auto/20201104a.md): Basics on - un0rick & usb _(20201104a)_
  * 2020-11-03: [Impedance matching](/include/experiments/auto/20201103a.md): Interesting results for impedance matching. _(20201103a)_
@@ -390,13 +391,10 @@ Here's a couple of things we're working on, for which you could help as well.
 * check artists meet makers
 * integrate some documentation for un0rick and lit3rick as in http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/3.05x6.5/TE0876/REV02/Documents/iceZero-pinout-v5.pdf
 * move forward on some new hardware like the [ft600](/include/ft_600_notes.md)
-* FUP i2s
+* FUP i2s w Andrew
 * energy harvesting + low power blink
-* mechanical runs on wirephantom
 * finalize article 
-* add DRV2700 mentions ?
 * clear hilbert ImportError: libf77blas.so.3: cannot open shared object file: No such file or directory
-* Worklog: why not working on Rpi4 out of the box?
 
 
 

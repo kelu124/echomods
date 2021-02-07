@@ -1,3 +1,7 @@
+* 20201223a: test probes: testing probes with un0usb 
+* 20201219r: test piezos: VNAs piezos (dismanted ones) 
+* 20201128a: hp2121 matching: checking hp2121 probe impedance matching
+* 20201108a: impedance matching: testing two piezos with impedance matching network
 * 20201107a: lib 025: NDT presentation - un0rick & usb
 * 20201104a: lib 024: Basics on - un0rick & usb
 * 20201103a: Impedance matching: Interesting results for impedance matching.

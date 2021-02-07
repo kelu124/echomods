@@ -212,7 +212,11 @@
 
 * [pyUn0.py](/matty/20190404a/pyUn0.py): Most updated library for the un0rick platform.. _File not used._
 
+* [alaw.py](/matty/20201108a/alaw.py): . _File not used._
+
 * [mkimg.py](/matty/20201108a/mkimg.py): Autotagging images for the `20180813a` experiment.. _File not used._
+
+* [dft.py](/matty/20201108a/dft.py): . _File not used._
 
 * [pyUn0.py](/matty/20191027a/pyUn0.py): Most updated library for the lit3rick platform.. _File not used._
 
