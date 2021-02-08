@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=dout Pin=K3-10
+Added Pin To Net: NetName=dout Pin=K3-1
+Added Member To Class: ClassName=max14866 Member=Component JP1 JUMPER2
+Added Member To Class: ClassName=max14866 Member=Component R3 res0805_EU

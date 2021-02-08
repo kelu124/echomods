@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=clr Pin=P1-1
+Removed Pin From Net: NetName=set Pin=P1-2
+Removed Pin From Net: NetName=clk Pin=P1-3
+Removed Pin From Net: NetName=din Pin=P1-4
+Removed Pin From Net: NetName=dout Pin=P1-5
+Removed Pin From Net: NetName=le Pin=P1-6
+Removed Pin From Net: NetName=GND Pin=P1-7
+Removed Pin From Net: NetName=GND Pin=P1-8
+Removed Pin From Net: NetName=+5V Pin=P1-9
+Removed Pin From Net: NetName=+5V Pin=P1-10
+Removed Member From Class: ClassName=max14866 Member=P2
+Change Component Designator: OldDesignator=P2 NewDesignator=P1
+Added Component: Designator=JP1(JUMPER2)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=JP2(JUMPER2)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K3(PMOD_6x2_right_ANGLE)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=clr Pin=JP1-1
+Added Pin To Net: NetName=+5V Pin=JP1-2
+Added Pin To Net: NetName=set Pin=JP2-1
+Added Pin To Net: NetName=+5V Pin=JP2-2
+Added Pin To Net: NetName=GND Pin=K3-5
+Added Pin To Net: NetName=din Pin=K3-7
+Added Pin To Net: NetName=clk Pin=K3-8
+Added Pin To Net: NetName=le Pin=K3-9
+Added Pin To Net: NetName=GND Pin=K3-11
+Added Pin To Net: NetName=+5V Pin=K3-12
+Added Member To Class: ClassName=max14866 Member=Component JP1 JUMPER2
+Added Member To Class: ClassName=max14866 Member=Component JP2 JUMPER2
+Added Member To Class: ClassName=max14866 Member=Component K3 PMOD_6x2_right_angle
+Added Room: Name=max14866

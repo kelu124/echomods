@@ -1,0 +1,15 @@
+Change Component Footprint: Designator=K1 Old Footprint=AMPHENOL_132357-11 New Footprint=AMPHENOL_MALE
+Change Component Footprint: Designator=K2 Old Footprint=AMPHENOL_132357-11 New Footprint=AMPHENOL_MALE
+Change Component Comment : Designator=K1 Old Comment=SMA_Edge New Comment=SMA_MALE_with_NUT
+Change Component Comment : Designator=K2 Old Comment=SMA_Edge New Comment=SMA_MALE_with_NUT
+Added Component: Designator=K?(PMOD_6x2_RA_MALE_MIRRORED)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=K?-5
+Added Pin To Net: NetName=din Pin=K?-7
+Added Pin To Net: NetName=clk Pin=K?-8
+Added Pin To Net: NetName=le Pin=K?-9
+Added Pin To Net: NetName=dout Pin=K?-10
+Added Pin To Net: NetName=GND Pin=K?-11
+Added Pin To Net: NetName=+5V Pin=K?-12
+Added Member To Class: ClassName=max14866 Member=Component K? PMOD_6x2_ra_male_mirrored
+Added Member To Class: ClassName=max14866 Member=Component P1 2x8, 2.54mm vertical
