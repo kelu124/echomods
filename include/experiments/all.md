@@ -1,3 +1,4 @@
+* 20210129a: `Tri` two probes: Tri's tests with two probes 
 * 20201223a: test probes: testing probes with un0usb 
 * 20201219r: test piezos: VNAs piezos (dismanted ones) 
 * 20201128a: hp2121 matching: checking hp2121 probe impedance matching
@@ -10,8 +11,8 @@
 * 20201026a: usb firmware: testing it works with un0rick
 * 20201024a: i2s issue: Exploring the i2s offsets
 * 20201008a: benchmark lit3 and un0: Running acquisitions on the same rig.
-* 20201022a: Spain: Jorge tests on lit3rick
-* 20201023a: Canada: Silvio first lit3rick tests
+* 20201022a: Spain: `Jorge` tests on lit3rick
+* 20201023a: Canada: `Silvio` first lit3rick tests
 * 20200608a: brd35 test: testing an electromagnetic movement probe
 * 20200809r: bard vna: bard vna tests 
 * 20200808r: all probes vna: getting impedance params of all probes 
@@ -49,7 +50,7 @@
 * 20171111a: Alt.tbo: Testing new pulser again 4/4
 * 20171112a: Probe: Testing new probe with new pulser
 * 20171124a: Impedance matching: Doing some tests for impedance matching.
-* 20180103a: Felix experiment: Testing Felix setup with previous Bomanz module.
+* 20180103a: `Felix` experiment: Testing Felix setup with previous Bomanz module.
 * 20180115a: Matty: Receiving the first matty.
 * 20180216a: Alt.tbo and Elmo: Testing alt.tbo and elmo new boards.
 * 20180217a: Alt.tbo and Elmo: Testing alt.tbo and elmo new boards for pulser issues (there is not positive and negative pulse, only goes in direction).
@@ -59,7 +60,7 @@
 * 20180310a: Matty DAQ: testing the programmation of matty DAC control for the TGC.
 * 20180403a: Voltage checks: Testing matty at different voltages.
 * 20180403b: Matty TGC test: Testing matty 's TGC, including playing with the gain DAC and pulse control.
-* 20180403t: Tomas first acq: Tomas, a user, is getting a first image from a NDT setup with a block of steel.
+* 20180403t: `Tomas` first acq: Tomas, a user, is getting a first image from a NDT setup with a block of steel.
 * 20180415a: Test of new batch 1/2: Testing the goblin board with silent, then test of the new lite.tbo pulser with a piezo.
 * 20180415r: Test of new batch 2/2: Testing the lite.tbo, goblin and elmo boards done at the fab - on a doj v2 motherboard.
 * 20160822a: BBB+Probe: Images acquired from a BeagleBone black with a probe
