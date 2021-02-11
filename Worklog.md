@@ -4079,6 +4079,21 @@ Other stuff:
 * support to michael for his experiment
 * ST25DV64K !!
 
+#### 2021-02-11 Some stuff to read 
+
+* Growth ? 
+  * https://www.indiehackers.com/post/2-167-new-subscribers-in-48-hours-one-tactic-you-should-try-283601e91d
+  * https://www.indiehackers.com/post/6-116-from-my-product-launch-no-audience-here-is-how-full-breakdown-8a00ba7992
+  * https://www.indiehackers.com/post/17-tips-for-great-copywriting-5d4786ddf7
+  * https://www.indiehackers.com/post/my-step-by-step-guide-to-landing-pages-that-convert-9daefb2064
+
+* LIO shop to be filled in! As soon as items reach =)
+
+* Need to push on the short story
+* Max14866 design released - https://github.com/kelu124/echomods/tree/master/include/MAX14866
+* Try and push some links: http://un0rick.cc/curated
+
+
 =======
 
 uControllers and other stuff
