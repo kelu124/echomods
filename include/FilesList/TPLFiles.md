@@ -4,6 +4,12 @@
 
 * [QuickStart.md.tpl](/include/QuickStart.md.tpl): ./include/QuickStart.md.tpl. _File not used._
 
+* [full.tpl](/include/community/share/jupyter/nbconvert/templates/compatibility/full.tpl): ./include/community/share/jupyter/nbconvert/templates/compatibility/full.tpl. _File not used._
+
+* [display_priority.tpl](/include/community/share/jupyter/nbconvert/templates/compatibility/display_priority.tpl): ./include/community/share/jupyter/nbconvert/templates/compatibility/display_priority.tpl. _File not used._
+
+* [html.tpl](/include/community/lib/python3.6/site-packages/pandas/io/formats/templates/html.tpl): ./include/community/lib/python3.6/site-packages/pandas/io/formats/templates/html.tpl. _File not used._
+
 * [Readme.md.tpl](/include/biblio/bib/Readme.md.tpl): ./include/biblio/bib/Readme.md.tpl. _File not used._
 
 * [20201026a.md.tpl](/include/experiments/auto/20201026a.md.tpl): ./include/experiments/auto/20201026a.md.tpl. _File not used._
