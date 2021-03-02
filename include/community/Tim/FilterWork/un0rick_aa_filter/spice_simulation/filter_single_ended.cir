@@ -1,0 +1,59 @@
+.filter_single_ended.cir
+*
+*    
+*                      Un0rick Anti-Aliasing Filter Single Ended Transformation
+*    
+*    
+*    
+*    
+*                              R1 100 Ohm
+*                                 ___
+*                            .---|___|---.     C1 100 nF    R2 18 Ohm
+*                            |           |        ||           ___    OUT            
+*             .--------------o1         2o--------||------o---|___|---o-------------.
+*             |              |    ___    |        ||      3           |             |
+*             |              '----UUU----'                            |             |
+*             |                                                       |             |
+*             |                L1 100 nH                              |             |
+*             |                                                       |            .-.
+*           + |                                                      ---           | |
+*            / \                                           C2 100 pF ---           | | RL 100 MOhm
+*    U AC 1 ( ~ )                                                     |            '-'
+*            \_/                                                      |             |
+*           - |                                                       |             |
+*             |                                                       |             |
+*             |                                                       |             |
+*             |                                                       |             |
+*             -                                                       -             -
+*            ---                                                     ---           ---
+*            GND                                                     GND           GND
+*
+*
+*
+*
+
+
+V1 GND 1     dc GND ac 1
+R1 1   2     100
+L1 1   2     100n
+C1 2   3     100n
+R2 3   OUT   18
+C2 OUT GND   100p
+RL OUT GND   100MEG
+
+.ac dec 100 1 150Meg
+.control
+run
+
+* Plot the Transfer Function 
+*plot VDB(OUT)
+*plot cph(OUT)
+
+
+* Print the Values: ngspice filter_single_ended.cir > output.txt
+* !!! Make sure to uncomment quit when doing this !!!
+print VDB(OUT)
+print cph(OUT)
+quit
+.endc
+.end

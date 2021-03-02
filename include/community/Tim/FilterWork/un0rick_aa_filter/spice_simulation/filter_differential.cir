@@ -1,0 +1,89 @@
+.filter_differential.cir
+*
+*
+*                        Un0rick Anti-Aliasing Filter Differential
+*                                                                                   
+*                                                                                   
+*                                                                                   
+*                                                                                   
+*                                R1 100 Ohm
+*                                   ___
+*                              .---|___|---.     C1 100 nF    R2 18 Ohm
+*                              |           |        ||           ___    OUTA         
+*               .--------------o1         2o--------||------o---|___|---o-------------.
+*               |              |    ___    |        ||      3           |             |
+*               |              '----UUU----'                            |             |
+*               |                                                       |             |
+*               |                L1 100 nH                              |             |
+*               |                                                       |            .-.
+*             + |                                                       |            | |
+*              / \                                                      |            | | RL1 100 MOhm
+*      U AC 1 ( ~ )                                                     |            '-'
+*              \_/                                                      |             |
+*             - |                                                      ---            |
+*               |                                            C2 50  pF ---            |
+*               |                                                       |             |
+*               |                                                       |             |
+*               -                                                       |             -
+*              ---                                                      |            ---
+*              GND                                                      |            GND
+*                                                                       |
+*                                                                       |
+*                                 R3 100 Ohm                            |
+*                                   ___                                 |
+*                              .---|___|---.     C3 100 nF    R4 18 Ohm |
+*                              |           |        ||           ___    |             
+*               .--------------o4         5o--------||------o---|___|---o-------------.
+*               |              |    ___    |        ||      6           OUTB          |
+*               |              '----UUU----'                                          |
+*               |                                                                     |
+*               |                L2 100 nH                                            |
+*               |                                                                    .-.
+*             - |                                                                    | |
+*              / \                                                                   | | RL2 100 MOhm
+*      U AC 2 ( ~ )                                                                  '-'
+*              \_/                                                                    |
+*             + |                                                                     |
+*               |                                                                     |
+*               |                                                                     |
+*               |                                                                     |
+*               -                                                                     -
+*              ---                                                                   ---
+*              GND                                                                   GND
+*
+*
+*
+V1  GND  1     dc GND ac 1
+R1  1    2     100
+L1  1    2     100n
+C1  2    3     100n
+R2  3    OUTA  18
+C2  OUTA OUTB  50p
+    
+V2  4    GND   dc GND ac 1
+R3  4    5     100
+L2  4    5     100n
+C3  5    6     100n
+R4  6    OUTB  18
+
+RL1 OUTA GND   100Meg
+RL2 OUTB GND   100Meg
+
+.ac dec 100 1 150Meg
+.control
+run
+
+* Plot the Transfer Function 
+*plot VDB(OUTA)
+*plot VDB(OUTB)
+*plot cph(OUTA)
+*plot cph(OUTB)
+
+* Print the Values: ngspice filter_diff.cir > output.txt
+* !!! Make sure to uncomment quit when doing this !!!
+print VDB(OUTA)
+print cph(OUTA)
+quit
+.endc
+
+.end
