@@ -4104,6 +4104,13 @@ Other stuff:
 * SUSS: article from v3 to v4, inc. images
 
 
+#### 2021-03-14 piday
+
+* new uncle !
+* altium version of lit3rick making progress
+* AD9835 for DDS / dds arbitrary waveform generator ? -- http://electronics-diy.com/electronic_schematic.php?id=968
+* PCBs for max14866 received.. mouser delayed
+
 =======
 
 uControllers and other stuff

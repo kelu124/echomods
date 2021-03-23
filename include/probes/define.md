@@ -81,7 +81,7 @@
 # apogee10MHz
 * code:apogee10MHz
 * smalldesc:an Apogee 10MHz probe
-* longdesc:an Apogee 10MHz probe
+* longdesc:an Apogee 10MHz probe. Diasonics 10.0 SP/C Vascular Mechanical 10.0MHz Probe. For diasonics spectra. 
 
 # retro10apogee
 * code:retro10apogee
