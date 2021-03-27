@@ -1,0 +1,42 @@
+--- <p>layout: post<p>title: 2015-12-02<p>---<p><h4>2015-12-02</h4>
+<ul>
+<li>Rasberry Pirn</li>
+<li>Raspberry Pi Zero Headless Setup :
+ http://davidmaitland.me/2015/12/raspberry-pi-zero-headless-setup/</li>
+<li>Installing Operating System Images on Linux
+ https://www.raspberrypi.org/documentation/installation/installing-images/linux.md</li>
+<li>BBB</li>
+<li>How to use it?<ul>
+<li>http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone//blog/2013/05/22/bbb--working-with-the-pru-icssprussv2</li>
+<li>For low-speed comms, conventional I2C or similar protocols can be used, and there is no need to use a PRU. For high-speed comms the PRU may be extremely useful because it can service the hardware with no interruptions due to Linux context switching, and no overhead is experienced by the main ARM processor. Here are some examples that should be feasible; basically quite a few possibilities, such as</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>interfacing to a fast ADC (e.g. analog capture)* * ,</li>
+</ul>
+</li>
+<li>https://theembeddedkitchen.net/beaglelogic-building-a-logic-analyzer-with-the-prus-part-1/449
+ BBB is a 100MHz logic analyzer on a BeagleBoneBlack</li>
+<li>Demo over the http://beaglelogic.github.io/webapp/</li>
+<li>http://r.git.net/beagleboard/2013-10/msg00204.html<ul>
+<li>Can the PRU be used to interface the Beaglebone to external ADC? I need to capture 500 micro-seconds of data at a 5 MHz rate.</li>
+<li>-&gt; * It depends on the interface to the ADC. There is a parallel capture interface that will easily run that fast, and you may be able to use the bit-shift interface to do serial or something like SPI if the PRU's capability lines up with what your ADC wants to see.* </li>
+</ul>
+</li>
+<li>http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone//blog/2013/08/04/bbb--high-speed-data-acquisition-and-web-based-ui<ul>
+<li>In its current state, it grabs analog data from an ADC, and dumps it into memory on the BBB, ready to be displayed or further processed. It could be used for gathering analog information from sensors, CCDs or other data acquisition use-cases. To be reasonably useful, the desire was for it to support 20Mbytes/sec of data or more. It does achieve this, but it is for further study to find higher speed methods.* </li>
+<li>This is not such a bad idea, because in future the ADC could be swapped out to a (say) 10-bit ADC with no code change on the PRU.* </li>
+<li>Once the data has been captured (2000 samples in this example), the command byte is acknowledged, so that the Linux hosted application can know that the PRU has completed. The PRU now sits and waits for a new instruction from the Linux hosted application.* *  -&gt; works for us - fixed depth = fixed # of samples</li>
+</ul>
+</li>
+<li>Buffer to be used : detailed at
+ http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone//blog/2013/08/04/bbb--high-speed-data-acquisition-and-web-based-ui<ul>
+<li>''These were extremely important for two reasons. One reason is that the pins to the BBB that I wished to use need to be isolated during power-up, because they are used for selecting the boot method. If there was any unusual level on the pins upon power-up then the BBB will not boot from the eMMC. So, a tri-state buffer is needed. The other reason is that there is a fair bit of capacitance and it is highly likely that the ADC may not be able to directly drive the pins at high speed. I actually came across this problem while trying to connect a camera to the BBB. I struggled for days without realising that the camera could not support the load. So, the buffers are likely to be essential for most designs using the pins that were selected. I used a 74LVC244A device as a buffer. Note that the clock also needs a buffer, unless significant jitter is acceptable. No tri-state is required here, so I used a MC74VHC1GT50.</li>
+</ul>
+</li>
+</ul>
+<p>''</p>
+<h4>
+
+

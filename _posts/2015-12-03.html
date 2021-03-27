@@ -1,0 +1,16 @@
+--- <p>layout: post<p>title: 2015-12-03<p>---<p><h4>2015-12-03</h4>
+<ul>
+<li>New ADCs in mind
+ ADS803E
+ LTC2315-12 </li>
+<li>Orange Pi Plus 2 : A nasty little thing</li>
+<li>BBB as always coming mostly from element14
+ Some limits - not exploiting all ? http://exploringbeaglebone.com/chapter13/#The_ADS7883_Single-Channel_12-bit_ADC_1MSps_max
+ SPI speed with BBB : http://fr.mathworks.com/help/supportpkg/beagleboneio/ug/use-the-beaglebone-black-spi-interface-to-connect-to-a-device.html (up to 32MHz) - which is</li>
+<li>16 bits : is it possible to set all 16 pins on pru0 as inputs? I saw you mentioned something about disabling the microSD functionality on the BB to get access to all 16 pins, but I wasn't exactly sure how. -- heartofasquid
+ I thought the PRUs had a 16bit parallel capture mode or are all the pins not available on the BBB? (need to consult the docs) section 4.5.2.2.3.2 of the tech ref spruh73c.pdf One thought I had was to use both PRUs to capture alternate bytes/words but that was just a thought, again are all the pins available?
+ I'd made a mistake, it looks like all of PRU0's GPI pins may be available, if we are happy to lose the microSD (no big loss - there are other ways to get data in/out of the BBB). So, we can theoretically get high-res captures up to about 15bits, if we need 1 pin for the clock.</li>
+</ul>
+<h4>
+
+

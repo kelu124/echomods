@@ -1,0 +1,18 @@
+--- <p>layout: post<p>title: 2020-03-25 i2s seems to need to be RPi-mastered<p>---<p><h4>2020-03-25 i2s seems to need to be RPi-mastered</h4>
+<ul>
+<li>curl https://get.pimoroni.com/phatdac | bash</li>
+<li>https://learn.pimoroni.com/tutorial/phat/raspberry-pi-phat-dac-install</li>
+<li>rpi-i2s-audio</li>
+<li>echo 'my_loader' | sudo tee --append /etc/modules &gt; /dev/null</li>
+<li>Need to have a i2s master on RPi</li>
+<li>https://github.com/PaulCreaser/rpi-i2s-audio.git</li>
+<li>sudo rmmod snd_soc_hifiberry_dacplus</li>
+<li>sudo rmmod clk_hifiberry_dacpro</li>
+<li>Others</li>
+<li>https://github.com/AkiyukiOkayasu/RaspberryPi_I2S_Slave</li>
+<li>https://github.com/taylorxv/raspberry-pi-i2s-driver</li>
+</ul>
+<p>I send 2 channels. Into one channel always 0x3F into second channel 0x29. 0x7C is shifted byt 2 bits value 0x29F3. </p>
+<h4>
+
+
