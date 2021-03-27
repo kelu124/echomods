@@ -2,7 +2,7 @@
 
 * Small description: an Apogee 10MHz probe
 
-* Longer description: an Apogee 10MHz probe
+* Longer description: an Apogee 10MHz probe. Diasonics 10.0 SP/C Vascular Mechanical 10.0MHz Probe. For diasonics spectra.
 
 # Files
 

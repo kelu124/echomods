@@ -52,7 +52,7 @@ __Present in:__ 26 images.
 
 __TLDR__: an Apogee 10MHz probe
 
-__More?__ an Apogee 10MHz probe
+__More?__ an Apogee 10MHz probe. Diasonics 10.0 SP/C Vascular Mechanical 10.0MHz Probe. For diasonics spectra.
 
 __Present in:__ 26 images.
 

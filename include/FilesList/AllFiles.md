@@ -1039,6 +1039,7 @@
 ## Jupyter files
 
 * [20170702-TestATLDuinoTerface.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170702-TestATLDuinoTerface.html). File used in: [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20210311.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210311.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201128a-Setup.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201128a-Setup.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201128a-Params.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201128a-Params.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180216a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180216a - Testing pulser and ADC.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -1091,7 +1092,7 @@
 * [Check History in Memory.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Check History in Memory.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [empty.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/empty.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [nbagg_uat.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/nbagg_uat.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [plot_un0rick_anti_aliasing_filter.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/plot_un0rick_anti_aliasing_filter.html). _File not used._
+* [plot_un0rick_anti_aliasing_filter.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/plot_un0rick_anti_aliasing_filter.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180415r-lit.tbo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180415r-lit.tbo.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/20180415r/Readme.md`](/include/20180415r/Readme.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.html).
 * [20180217a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180217a - Testing pulser and ADC.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180317a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180317a-Loops.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/bard/inside.md`](/include/bard/inside.md).
@@ -1171,6 +1172,7 @@
 * [20200325a-Acquisitions.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a-Acquisitions.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201103a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201103a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [a.20201026a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/a.20201026a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20211103a-CheckHariharan.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20211103a-CheckHariharan.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201107b.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201107b.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20201107a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201107a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180826a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180826a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -10686,6 +10688,8 @@
 * [pyUn0.py](/matty/20181104a/pyUn0.py): Library for the un0rick platform.. _File not used._
 
 * [pyUn0.py](/matty/20180825a/pyUn0.py): Library for the un0rick platform.. _File not used._
+
+
 
 
 
