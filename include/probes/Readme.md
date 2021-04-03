@@ -8,7 +8,7 @@ __More?__ a 724A ultrasound probe
 
 __Present in:__ 1 experiments ([20181104c](/include/experiments/auto/20181104c.md)) 
 
-__Present in:__ 46 images.
+__Present in:__ 48 images.
 
 ### [BiViPiezo](/include/probes/auto/BiViPiezo.md) (BiViPiezo)
 
@@ -54,7 +54,7 @@ __TLDR__: an Apogee 10MHz probe
 
 __More?__ an Apogee 10MHz probe. Diasonics 10.0 SP/C Vascular Mechanical 10.0MHz Probe. For diasonics spectra.
 
-__Present in:__ 26 images.
+__Present in:__ 27 images.
 
 ### [apogee5MHz](/include/probes/auto/apogee5MHz.md) (apogee5MHz)
 
