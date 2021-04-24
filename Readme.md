@@ -210,6 +210,7 @@ and used in a wider context:
 
 # Experiments
 
+ * [20210424a](/include/experiments/auto/20210424a.md)
  * 2021-01-29: [`Tri` two probes](/include/experiments/auto/20210129a.md): Tri's tests with two probes _(20210129a)_
  * 2020-12-23: [test probes](/include/experiments/auto/20201223a.md): testing probes with un0usb _(20201223a)_
  * 2020-12-19: [test piezos](/include/experiments/auto/20201219r.md): VNAs piezos (dismanted ones) _(20201219r)_

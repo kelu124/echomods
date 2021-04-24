@@ -9374,6 +9374,18 @@
 
 * [pyUn0.py](/matty/20191022b/pyUn0.py): Most updated library for the lit3rick platform.. _File not used._
 
+* [ftdi_dev.py](/matty/20210424a/hvmux_tests/ftdi_dev.py): . _File not used._
+
+* [fpga_ctrl.py](/matty/20210424a/hvmux_tests/fpga_ctrl.py): . _File not used._
+
+* [test_ram.py](/matty/20210424a/hvmux_tests/test_ram.py): . _File not used._
+
+* [test_csr_ro.py](/matty/20210424a/hvmux_tests/test_csr_ro.py): . _File not used._
+
+* [csr_map.py](/matty/20210424a/hvmux_tests/csr_map.py): . _File not used._
+
+* [test_csr_rw.py](/matty/20210424a/hvmux_tests/test_csr_rw.py): . _File not used._
+
 * [mkimg.py](/matty/20180511a/mkimg.py): Autotagging images for the `20180511a` experiment.. _File not used._
 
 * [mkimg.py](/matty/20180403b/mkimg.py): Autotagging images for the `20180310a` experiment.. _File not used._
