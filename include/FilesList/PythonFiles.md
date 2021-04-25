@@ -9262,6 +9262,20 @@
 
 * [mkimg.py](/matty/20180430a/mkimg.py): Autotagging images for the `20180224a` experiment.. _File not used._
 
+* [mkimg.py](/matty/20210425a/mkimg.py): Autotagging images for the `20180813a` experiment.. _File not used._
+
+* [ftdi_dev.py](/matty/20210425a/hvmux_tests/ftdi_dev.py): . _File not used._
+
+* [fpga_ctrl.py](/matty/20210425a/hvmux_tests/fpga_ctrl.py): . _File not used._
+
+* [test_ram.py](/matty/20210425a/hvmux_tests/test_ram.py): . _File not used._
+
+* [test_csr_ro.py](/matty/20210425a/hvmux_tests/test_csr_ro.py): . _File not used._
+
+* [csr_map.py](/matty/20210425a/hvmux_tests/csr_map.py): . _File not used._
+
+* [test_csr_rw.py](/matty/20210425a/hvmux_tests/test_csr_rw.py): . _File not used._
+
 * [pyUn0.py](/matty/20200605a/pyUn0.py): Most updated library for the un0rick platform.. _File not used._
 
 * [process.py](/matty/20200605a/process.py): Most updated library for the un0rick platform.. _File not used._
@@ -9374,17 +9388,17 @@
 
 * [pyUn0.py](/matty/20191022b/pyUn0.py): Most updated library for the lit3rick platform.. _File not used._
 
-* [ftdi_dev.py](/matty/20210424a/hvmux_tests/ftdi_dev.py): . _File not used._
+* [ftdi_dev.py](/matty/20210424a/hvmux_tests/ftdi_dev.py): . File used in: [`/include/experiments/auto/20210424a.md`](/include/experiments/auto/20210424a.md).
 
-* [fpga_ctrl.py](/matty/20210424a/hvmux_tests/fpga_ctrl.py): . _File not used._
+* [fpga_ctrl.py](/matty/20210424a/hvmux_tests/fpga_ctrl.py): . File used in: [`/include/experiments/auto/20210424a.md`](/include/experiments/auto/20210424a.md).
 
-* [test_ram.py](/matty/20210424a/hvmux_tests/test_ram.py): . _File not used._
+* [test_ram.py](/matty/20210424a/hvmux_tests/test_ram.py): . File used in: [`/include/experiments/auto/20210424a.md`](/include/experiments/auto/20210424a.md).
 
-* [test_csr_ro.py](/matty/20210424a/hvmux_tests/test_csr_ro.py): . _File not used._
+* [test_csr_ro.py](/matty/20210424a/hvmux_tests/test_csr_ro.py): . File used in: [`/include/experiments/auto/20210424a.md`](/include/experiments/auto/20210424a.md).
 
-* [csr_map.py](/matty/20210424a/hvmux_tests/csr_map.py): . _File not used._
+* [csr_map.py](/matty/20210424a/hvmux_tests/csr_map.py): . File used in: [`/include/experiments/auto/20210424a.md`](/include/experiments/auto/20210424a.md).
 
-* [test_csr_rw.py](/matty/20210424a/hvmux_tests/test_csr_rw.py): . _File not used._
+* [test_csr_rw.py](/matty/20210424a/hvmux_tests/test_csr_rw.py): . File used in: [`/include/experiments/auto/20210424a.md`](/include/experiments/auto/20210424a.md).
 
 * [mkimg.py](/matty/20180511a/mkimg.py): Autotagging images for the `20180511a` experiment.. _File not used._
 

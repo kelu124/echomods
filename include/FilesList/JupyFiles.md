@@ -98,6 +98,8 @@
 * [20190104a-Client.ipynb](/matty/20190104a/20190104a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180430a-Client.ipynb](/matty/20180430a/20180430a-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180430a-Server.ipynb](/matty/20180430a/20180430a-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20210425a-Testing_Mux.ipynb](/matty/20210425a/20210425a-Testing_Mux.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20210425a-Acq.ipynb](/matty/20210425a/hvmux_tests/20210425a-Acq.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20200605a-ProbesTests.ipynb](/matty/20200605a/20200605a-ProbesTests.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20200321a.ipynb](/matty/20200321a/20200321a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180403a-75V.ipynb](/matty/20180403a/20180403a-75V.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -142,8 +144,8 @@
 * [20190324a.ipynb](/matty/20190324a/20190324a.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20190324a.md`](/include/experiments/auto/Code_20190324a.md), [`/include/experiments/auto/20190324a.md`](/include/experiments/auto/20190324a.md).
 * [20180221b-Server.ipynb](/matty/20180224b/20180221b-Server.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180221b-Client.ipynb](/matty/20180224b/20180221b-Client.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Tests.ipynb](/matty/20210424a/Tests.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [demo.ipynb](/matty/20210424a/hvmux_tests/demo.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [Tests.ipynb](/matty/20210424a/Tests.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20210424a.md`](/include/experiments/auto/20210424a.md).
+* [demo.ipynb](/matty/20210424a/hvmux_tests/demo.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20210424a.md`](/include/experiments/auto/20210424a.md).
 * [20180221a-FPGA_Acqs.ipynb](/matty/images/20180221a/20180221a-FPGA_Acqs.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [RPi.ipynb](/matty/images/20180221a/RPi.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20180511a-Enveloppe.ipynb](/matty/20180511a/20180511a-Enveloppe.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).

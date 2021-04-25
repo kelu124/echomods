@@ -1,6 +1,7 @@
 # Experiments
 
- * [20210424a](/include/experiments/auto/20210424a.md)
+ * 2021-04-25: [Annular MUXed](/include/experiments/auto/20210425a.md): testing an annular transducer on a pink phantom _(20210425a)_
+ * 2021-04-24: [BiVi piezo on the MUX](/include/experiments/auto/20210424a.md): First tests of the MUX _(20210424a)_
  * 2021-01-29: [`Tri` two probes](/include/experiments/auto/20210129a.md): Tri's tests with two probes _(20210129a)_
  * 2020-12-23: [test probes](/include/experiments/auto/20201223a.md): testing probes with un0usb _(20201223a)_
  * 2020-12-19: [test piezos](/include/experiments/auto/20201219r.md): VNAs piezos (dismanted ones) _(20201219r)_
