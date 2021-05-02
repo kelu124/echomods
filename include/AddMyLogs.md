@@ -3982,6 +3982,21 @@ Other stuff:
 * AD9835 for DDS / dds arbitrary waveform generator ? -- http://electronics-diy.com/electronic_schematic.php?id=968
 * PCBs for max14866 received.. mouser delayed
 
+#### 2021-04-29 FFT are NETs
+
+* https://sidsite.com/posts/fourier-nets/
+* MAX14866 tests done, seems to work
+* lit3-32 done, waiting for the companion board to be ready (FTDI + Hv)
+* Playing with arrays
+* Asked for CMUTS
+* Hackathon US+COVID: done :)
+* back to k210 for nets?
+
+
+#### 2021-05-02 Already May
+
+* Progress on https://github.com/kelu124/us_rf_processing to actually get some precleaned data
+
 =======
 
 
