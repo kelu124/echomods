@@ -3997,6 +3997,19 @@ Other stuff:
 
 * Progress on https://github.com/kelu124/us_rf_processing to actually get some precleaned data
 
+#### 2021-06-18 Already June
+
+* Did some progress on the ft600 interface, going up to 50MB/s. Could be better.
+  * Faster core for the ft600 ? Partnership with Bogdan?
+* lit3-32 back from the fab. 100dB gain really?
+  * Yeah for Canada
+* got an old 10PV, trifreq, to play with. Would be nice to interface it to 32Msps direct!
+* chip crisis:
+  * nothing for the ft600, daugther, lit3-32 and MUXes!
+* Doing progress with Jacques
+* Getting a new BMV, this time with doppler?
+
+
 =======
 
 
