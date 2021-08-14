@@ -4139,6 +4139,14 @@ Other stuff:
 * Getting a new BMV, this time with doppler?
 
 
+#### 2021-07-11 Already July
+
+* Too much work ;)
+* received first lit3-32 - thanks Silvio and team.
+  * andrew to help on adaptation
+* ft600 support with bogdan
+  * need to put an io for reset ;)
+
 =======
 
 uControllers and other stuff
