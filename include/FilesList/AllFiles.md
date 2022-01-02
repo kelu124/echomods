@@ -116,6 +116,8 @@
 
 * [./include/DesignArticle/1.Principles.md](/include/DesignArticle/1.Principles.md):  . _File not used._
 
+* [./include/kretzir175ag/Readme.md](/include/kretzir175ag/Readme.md):  . _File not used._
+
 * [./include/phantoms/Readme.md](/include/phantoms/Readme.md):  . _File not used._
 
 * [./include/20180216a/Readme.md](/include/20180216a/Readme.md): Experiment setup details . _File not used._
@@ -170,6 +172,8 @@
 
 * [./include/community/Koje/Readme.md](/include/community/Koje/Readme.md):  . _File not used._
 
+* [./include/community/Kartheek/Readme.md](/include/community/Kartheek/Readme.md):  . _File not used._
+
 * [./include/community/Fabian/Readme.md](/include/community/Fabian/Readme.md):  . _File not used._
 
 * [./include/community/NickRene/Readme.md](/include/community/NickRene/Readme.md):  . _File not used._
@@ -183,6 +187,8 @@
 * [./include/community/Marc/Readme.md](/include/community/Marc/Readme.md):  . _File not used._
 
 * [./include/community/Ben/Readme.md](/include/community/Ben/Readme.md):  . _File not used._
+
+* [./include/community/SongLi/Readme.md](/include/community/SongLi/Readme.md):  . _File not used._
 
 * [./include/community/Peters/Readme.md](/include/community/Peters/Readme.md):  . _File not used._
 
@@ -403,6 +409,8 @@
 * [./include/ebay/kretz/probes/notes.md](/include/ebay/kretz/probes/notes.md):  . _File not used._
 
 * [./include/probes/define.md](/include/probes/define.md):  . _File not used._
+
+* [./include/bk1850/Readme.md](/include/bk1850/Readme.md):  . _File not used._
 
 * [./include/JOH/comments/feedbackoncomments.md](/include/JOH/comments/feedbackoncomments.md):  . _File not used._
 
@@ -1286,6 +1294,8 @@
 * [BitscopeAcquisitionScript.py](/retroATL3/software/BitscopeAcquisitionScript.py): BitLib 2.0 Capture Device Report Generator (Python). _File not used._
 
 * [mkimg.py](/include/hp/20201128a/mkimg.py): Autotagging images for the `20180813a` experiment.. _File not used._
+
+* [mkimg.py](/include/kretzir175ag/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
 
 * [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. _File not used._
 
@@ -10478,6 +10488,8 @@
 * [ProcessBiblio.py](/include/biblio/bib/ProcessBiblio.py): . _File not used._
 
 * [mkimg.py](/include/bk/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
+
+* [mkimg.py](/include/bk1850/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
 
 * [maketemplate.py](/include/JOH/blocks/maketemplate.py): . _File not used._
 

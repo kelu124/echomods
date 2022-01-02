@@ -14,6 +14,8 @@
 
 * [mkimg.py](/include/hp/20201128a/mkimg.py): Autotagging images for the `20180813a` experiment.. _File not used._
 
+* [mkimg.py](/include/kretzir175ag/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
+
 * [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. _File not used._
 
 * [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. _File not used._
@@ -9205,6 +9207,8 @@
 * [ProcessBiblio.py](/include/biblio/bib/ProcessBiblio.py): . _File not used._
 
 * [mkimg.py](/include/bk/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
+
+* [mkimg.py](/include/bk1850/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
 
 * [maketemplate.py](/include/JOH/blocks/maketemplate.py): . _File not used._
 

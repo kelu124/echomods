@@ -152,3 +152,14 @@
 * code:brd90
 * smalldesc: Bard rite, 9.0MHz.
 * longdesc: Bard rite, 9.0MHz.
+
+# bk1850
+* code:bk1850
+* smalldesc: Bruel & Kjaer endo, support.
+* longdesc: Bruel & Kjaer endo, support.
+
+# kretzir175ag
+* code:kretzir175ag
+* smalldesc: Kretz, 17.5MHz.
+* longdesc: Kretz, 17.5MHz.
+

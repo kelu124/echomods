@@ -4010,6 +4010,30 @@ Other stuff:
 * Getting a new BMV, this time with doppler?
 
 
+#### 2021-07-11 Already July
+
+* Too much work ;)
+* received first lit3-32 - thanks Silvio and team.
+  * andrew to help on adaptation
+* ft600 support with bogdan
+  * need to put an io for reset ;)
+
+#### 2021-12-11 WTF went these days
+
+
+* Haven't been making boards for a while
+  * damn chip shortage
+  * Prototypes (ft600 et max14866) have been delayed far too long
+  * Let's find a solution soon =)
+* Jorge's onto something for the lit3-32 ?
+* HV modules: https://omnixie.com/products/nch6300hv-nixie-hv-power-module
+  * Trying others from aliexpress
+* https://www.swyx.io/learn-in-public/
+* OS, and maintainers?
+  * https://blog.filippo.io/professional-maintainers/
+  * https://christine.website/blog/open-source-broken-2021-12-11
+
+
 =======
 
 
