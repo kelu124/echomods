@@ -327,6 +327,8 @@ and used in a wider context:
 That's the list of probes I've been playing with:
 
 * [724A](/include/probes/auto/724A.md)
+* [ATLAccessA](/include/probes/auto/accessa.md)
+* [ATLAccessC](/include/probes/auto/accessc.md)
 * [BiViPiezo](/include/probes/auto/BiViPiezo.md)
 * [NDTPiezo](/include/probes/auto/NDTPiezo.md)
 * [adrus](/include/probes/auto/adrus.md)
@@ -337,6 +339,7 @@ That's the list of probes I've been playing with:
 * [atlidrict](/include/probes/auto/atlidrict.md)
 * [ausonics75](/include/probes/auto/ausonics75.md)
 * [bard](/include/probes/auto/bard.md)
+* [bk1850](/include/probes/auto/bk1850.md)
 * [bk8536](/include/probes/auto/bk8536.md)
 * [brd35](/include/probes/auto/brd35.md)
 * [brd75](/include/probes/auto/brd75.md)
@@ -348,6 +351,7 @@ That's the list of probes I've been playing with:
 * [duc2m](/include/probes/auto/duc2m.md)
 * [hp2121](/include/probes/auto/hp2121.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
+* [kretzir175ag](/include/probes/auto/kretzir175ag.md)
 * [linscan](/include/probes/auto/linscan.md)
 * [myapo](/include/probes/auto/myapo.md)
 * [retro10PV](/include/probes/auto/retro10PV.md)
