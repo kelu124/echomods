@@ -163,3 +163,18 @@
 * smalldesc: Kretz, 17.5MHz.
 * longdesc: Kretz, 17.5MHz.
 
+# ATLAccessA
+* code:accessa
+* smalldesc: 5MHZ, 6cm FP, ATL mech probe.
+* longdesc: 5MHZ, 6cm FP, ATL mech probe.
+
+# ATLAccessC
+* code:accessc
+* smalldesc: 3MHZ, 4cm FP, ATL mech probe.
+* longdesc: 3MHZ, 4cm FP, ATL mech probe.
+
+# ir1510ak
+* code:ir1510ak
+* smalldesc: ir1510ak kretz probe.
+* longdesc: ir1510ak kretz probe.
+

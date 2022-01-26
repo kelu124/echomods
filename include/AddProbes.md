@@ -1,6 +1,8 @@
 That's the list of probes I've been playing with:
 
 * [724A](/include/probes/auto/724A.md)
+* [ATLAccessA](/include/probes/auto/accessa.md)
+* [ATLAccessC](/include/probes/auto/accessc.md)
 * [BiViPiezo](/include/probes/auto/BiViPiezo.md)
 * [NDTPiezo](/include/probes/auto/NDTPiezo.md)
 * [adrus](/include/probes/auto/adrus.md)
@@ -22,6 +24,7 @@ That's the list of probes I've been playing with:
 * [diasonics_tr](/include/probes/auto/diasonics_tr.md)
 * [duc2m](/include/probes/auto/duc2m.md)
 * [hp2121](/include/probes/auto/hp2121.md)
+* [ir1510ak](/include/probes/auto/ir1510ak.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
 * [kretzir175ag](/include/probes/auto/kretzir175ag.md)
 * [linscan](/include/probes/auto/linscan.md)

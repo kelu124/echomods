@@ -19,6 +19,30 @@ ToTag
 
 ## Teardown 
 
+![](/include/images/atlannular/20220126_163200.jpg)
+teardown
+.
+
+![](/include/images/atlannular/20220126_163207.jpg)
+teardown
+.
+
+![](/include/images/atlannular/20220126_163233.jpg)
+teardown
+.
+
+![](/include/images/atlannular/20220126_163252.jpg)
+teardown
+.
+
+![](/include/images/atlannular/20220126_163446.jpg)
+teardown
+.
+
+![](/include/images/atlannular/20220126_163505.jpg)
+teardown
+.
+
 ![](/include/images/atlannular/P_20191230_210124.jpg)
 teardown
 .
