@@ -543,6 +543,7 @@
 * ./include/experiments/auto/Mod_20191016a.md
 * ./include/probes/Readme.md
 * ./include/probes/auto/diasonics_75.md
+* ./include/probes/auto/ir1510ak.md
 * ./include/probes/auto/uprobe1.md
 * ./include/probes/auto/diasonics_gpm_plus_35.md
 * ./include/probes/auto/kretzaw145ba.md
@@ -772,6 +773,7 @@
 * ./gitbook/Chapter3/doj.md
 * ./gitbook/Chapter3/atl_more.md
 * ./gitbook/probes/diasonics_75.md
+* ./gitbook/probes/ir1510ak.md
 * ./gitbook/probes/uprobe1.md
 * ./gitbook/probes/diasonics_gpm_plus_35.md
 * ./gitbook/probes/kretzaw145ba.md

@@ -350,6 +350,7 @@ That's the list of probes I've been playing with:
 * [diasonics_tr](/include/probes/auto/diasonics_tr.md)
 * [duc2m](/include/probes/auto/duc2m.md)
 * [hp2121](/include/probes/auto/hp2121.md)
+* [ir1510ak](/include/probes/auto/ir1510ak.md)
 * [kretzaw145ba](/include/probes/auto/kretzaw145ba.md)
 * [kretzir175ag](/include/probes/auto/kretzir175ag.md)
 * [linscan](/include/probes/auto/linscan.md)
@@ -440,6 +441,10 @@ This project is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING O
 # Annexes
 
 ## Retired modules
+
+* Source of vintage hardware, Murgen:
+  * Some Altium (source 1)[us_#1_2016_05_04.rar]
+  * Some Altium (source 2)[us_#2_2016_05_04.rar] 
 
 
 

@@ -10981,7 +10981,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_DocProcess.md](/include/ppt_DocProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocProcess.html)
 
-## 809 Auto generated files
+## 811 Auto generated files
 
 * ./Readme.md
 * ./include/AddShoppingList.md
@@ -11528,6 +11528,7 @@
 * ./include/experiments/auto/Mod_20191016a.md
 * ./include/probes/Readme.md
 * ./include/probes/auto/diasonics_75.md
+* ./include/probes/auto/ir1510ak.md
 * ./include/probes/auto/uprobe1.md
 * ./include/probes/auto/diasonics_gpm_plus_35.md
 * ./include/probes/auto/kretzaw145ba.md
@@ -11757,6 +11758,7 @@
 * ./gitbook/Chapter3/doj.md
 * ./gitbook/Chapter3/atl_more.md
 * ./gitbook/probes/diasonics_75.md
+* ./gitbook/probes/ir1510ak.md
 * ./gitbook/probes/uprobe1.md
 * ./gitbook/probes/diasonics_gpm_plus_35.md
 * ./gitbook/probes/kretzaw145ba.md
