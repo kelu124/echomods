@@ -53,8 +53,8 @@
 ## Retired modules
 
 * Source of vintage hardware, Murgen:
-  * Some Altium (source 1)[us_#1_2016_05_04.rar]
-  * Some Altium (source 2)[us_#2_2016_05_04.rar] 
+  * Some Altium [source 1](us_#1_2016_05_04.rar)
+  * Some Altium [source 2](us_#2_2016_05_04.rar) 
 
 @kelu include(/include/rmRetiredModules.md)
 

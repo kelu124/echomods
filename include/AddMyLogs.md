@@ -2854,7 +2854,7 @@ __TODO__ reclean full repo one gob2 and lit.tbo are tested
 
 * Interesting [brochure on archive](https://ia601705.us.archive.org/17/items/Hewlett-Packard_Journal_Vol._34_No._10_1983-10_Hewlett-Packard/Hewlett-Packard_Journal_Vol._34_No._10_1983-10_Hewlett-Packard.pdf)
 * [Ultrasound tomography](https://archive.org/details/NASA_NTRS_Archive_19780004716)
-* [Resolution on imaging](https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=5139&context=rtd) - 1969
+* [Resolution on imaging](  https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=5139&context=rtd) - 1969
 
 #### 2018-06-16 improving format system
 
@@ -4028,10 +4028,22 @@ Other stuff:
 * Jorge's onto something for the lit3-32 ?
 * HV modules: https://omnixie.com/products/nch6300hv-nixie-hv-power-module
   * Trying others from aliexpress
-* https://www.swyx.io/learn-in-public/
+* fhttps://www.swyx.io/learn-in-public/
 * OS, and maintainers?
   * https://blog.filippo.io/professional-maintainers/
   * https://christine.website/blog/open-source-broken-2021-12-11
+
+#### 2022-05-21 Time is passign more and more haha 
+
+* Progressing on the lit3-32 : https://github.com/kelu124/lit3rick/tree/lit3-32/
+* History: sharing the original [murgen files](us_#1_2016_05_04.rar). Dating from May 4th 2016! Where have these 6 years gone ?
+* Starting a substack haha
+* OSH : MRI - new stuff
+  * Newer stuff? Possibly great PMODs to come.
+  * Still need to debug my existing PMODs FT600 haha
+  * What about a nice Msi001 Msi2500 PMOD ? New SDR stuff.
+  * Alternative is CH569 .. great thing. To explore. Maybe for the David friend.
+* Work: starting something new! Cool and busy.
 
 
 =======
