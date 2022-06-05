@@ -4173,6 +4173,8 @@ Other stuff:
   * What about a nice Msi001 Msi2500 PMOD ? New SDR stuff.
   * Alternative is CH569 .. great thing. To explore. Maybe for the David friend.
 * Work: starting something new! Cool and busy.
+* Radicalized - Cory
+* https://www.gov.uk/guidance/how-to-document-apis
 
 
 =======
