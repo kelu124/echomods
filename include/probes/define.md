@@ -173,6 +173,16 @@
 * smalldesc: 3MHZ, 4cm FP, ATL mech probe.
 * longdesc: 3MHZ, 4cm FP, ATL mech probe.
 
+# Lumify
+* code:lumify
+* smalldesc: lumify.
+* longdesc: lumify.
+
+# intersonvs35
+* code:intersonvs35
+* smalldesc: Ultrasound Interson VC 3.5MHz USB probe. 
+* longdesc: Ultrasound Interson VC 3.5MHz USB probe.
+
 # ir1510ak
 * code:ir1510ak
 * smalldesc: ir1510ak kretz probe.

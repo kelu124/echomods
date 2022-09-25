@@ -30,6 +30,12 @@ __More?__ a test piezo
 
 __Present in:__ 2 images.
 
+### [Lumify](/include/probes/auto/lumify.md) (lumify)
+
+__TLDR__: lumify.
+
+__More?__ lumify.
+
 ### [NDTPiezo](/include/probes/auto/NDTPiezo.md) (NDTPiezo)
 
 __TLDR__: a dual imaging transducer sent by Jorge
@@ -218,6 +224,14 @@ __Present in:__ 5 experiments ([20181013a](/include/experiments/auto/20181013a.m
 
 __Present in:__ 39 images.
 
+### [intersonvs35](/include/probes/auto/intersonvs35.md) (intersonvs35)
+
+__TLDR__: Ultrasound Interson VC 3.5MHz USB probe.
+
+__More?__ Ultrasound Interson VC 3.5MHz USB probe.
+
+__Present in:__ 6 images.
+
 ### [ir1510ak](/include/probes/auto/ir1510ak.md) (ir1510ak)
 
 __TLDR__: ir1510ak kretz probe.
@@ -288,7 +302,7 @@ __More?__ 3.5MHz probe. Used on the ultramarks. Thouroughly tested:
 
 __Present in:__ 5 experiments ([20160822a](/include/experiments/auto/20160822a.md), [20170715a](/include/experiments/auto/20170715a.md), [20171112a](/include/experiments/auto/20171112a.md), [20180225a](/include/experiments/auto/20180225a.md), [20180831c](/include/experiments/auto/20180831c.md)) 
 
-__Present in:__ 70 images.
+__Present in:__ 67 images.
 
 ### [s3](/include/probes/auto/s3.md) (s3)
 

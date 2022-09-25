@@ -6,7 +6,7 @@
 
 * [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  . File used in: [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html).
 
-* [./retroATL3/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html): Main doc source for hacking ATL probes . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [./retroATL3/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html): Main doc source for hacking ATL probes . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./include/AddStats.md](/include/AddStats.md):  . _File not used._
 
@@ -86,7 +86,7 @@
 
 * [./include/AddFormatRules.md](/include/AddFormatRules.md):  . _File not used._
 
-* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
+* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
 * [./include/AddPitch.md](/include/AddPitch.md): Pitch/Intro of the project . _File not used._
 
@@ -130,7 +130,9 @@
 
 * [./include/vscan/Readme.md](/include/vscan/Readme.md):  . _File not used._
 
-* [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./include/teardown/lumify/Readme.md](/include/teardown/lumify/Readme.md):  . _File not used._
+
+* [./include/20180417a/Readme.md](/include/20180417a/Readme.md):  . _File not used._
 
 * [./include/cn_mechprob/Readme.md](/include/cn_mechprob/Readme.md):  . _File not used._
 
@@ -156,13 +158,17 @@
 
 * [./include/community/Song/Readme.md](/include/community/Song/Readme.md):  . _File not used._
 
+* [./include/community/Bryan/Readme.md](/include/community/Bryan/Readme.md):  . _File not used._
+
 * [./include/community/DrS/Readme.md](/include/community/DrS/Readme.md):  . _File not used._
 
 * [./include/community/Uwe/Readme.md](/include/community/Uwe/Readme.md):  . _File not used._
 
-* [./include/community/Uwe/20180620a/Readme.md](/include/community/Uwe/20180620a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./include/community/Uwe/20180620a/Readme.md](/include/community/Uwe/20180620a/Readme.md):  . _File not used._
 
 * [./include/community/Daryl/Readme.md](/include/community/Daryl/Readme.md):  . _File not used._
+
+* [./include/community/Shir/Readme.md](/include/community/Shir/Readme.md):  . _File not used._
 
 * [./include/community/Carla/Readme.md](/include/community/Carla/Readme.md):  . _File not used._
 
@@ -209,6 +215,8 @@
 * [./include/community/Kevin/Readme.md](/include/community/Kevin/Readme.md):  . _File not used._
 
 * [./include/community/Laurent/Readme.md](/include/community/Laurent/Readme.md):  . _File not used._
+
+* [./include/community/Trinh/Readme.md](/include/community/Trinh/Readme.md):  . _File not used._
 
 * [./include/community/Young/Readme.md](/include/community/Young/Readme.md):  . _File not used._
 
@@ -272,6 +280,8 @@
 
 * [./include/community/JaCe/Readme.md](/include/community/JaCe/Readme.md):  . _File not used._
 
+* [./include/community/Matteo/Readme.md](/include/community/Matteo/Readme.md):  . _File not used._
+
 * [./include/community/Hariharan/Readme.md](/include/community/Hariharan/Readme.md):  . _File not used._
 
 * [./include/community/Masoud/Readme.md](/include/community/Masoud/Readme.md):  . _File not used._
@@ -326,6 +336,8 @@
 
 * [./include/community/Tri/Readme.md](/include/community/Tri/Readme.md):  . _File not used._
 
+* [./include/community/Can/Readme.md](/include/community/Can/Readme.md):  . _File not used._
+
 * [./include/community/Tim/Readme.md](/include/community/Tim/Readme.md):  . _File not used._
 
 * [./include/community/Harold/Readme.md](/include/community/Harold/Readme.md):  . _File not used._
@@ -342,7 +354,7 @@
 
 * [./include/community/Jay/Readme.md](/include/community/Jay/Readme.md):  . _File not used._
 
-* [./include/20180415r/Readme.md](/include/20180415r/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.html).
+* [./include/20180415r/Readme.md](/include/20180415r/Readme.md):  . File used in: [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.html).
 
 * [./include/20170325/20170325-Doppler.md](/include/20170325/20170325-Doppler.md):  . _File not used._
 
@@ -350,7 +362,7 @@
 
 * [./include/20201219r/Readme.md](/include/20201219r/Readme.md):  . _File not used._
 
-* [./include/bard/inside.md](/include/bard/inside.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./include/bard/inside.md](/include/bard/inside.md):  . _File not used._
 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md):  . File used in: [`/include/use_case_biblio/Readme.md`](/include/use_case_biblio/Readme.md).
 
@@ -358,7 +370,7 @@
 
 * [./include/images/kretzaw145ba/20180812a/Readme.md](/include/images/kretzaw145ba/20180812a/Readme.md):  . _File not used._
 
-* [./include/images/kretzaw145ba/20180811b/Readme.md](/include/images/kretzaw145ba/20180811b/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [./include/images/kretzaw145ba/20180811b/Readme.md](/include/images/kretzaw145ba/20180811b/Readme.md):  . _File not used._
 
 * [./include/images/kretzaw145ba/20180811a/Readme.md](/include/images/kretzaw145ba/20180811a/Readme.md):  . _File not used._
 
@@ -370,7 +382,7 @@
 
 * [./include/images/hp2121/Readme.md](/include/images/hp2121/Readme.md):  . _File not used._
 
-* [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [./include/images/hp2121/20181013a/Readme.md](/include/images/hp2121/20181013a/Readme.md):  . _File not used._
 
 * [./include/images/probes_vna/Readme.md](/include/images/probes_vna/Readme.md):  . _File not used._
 
@@ -1035,249 +1047,251 @@
 
 ## Arduino files
 
-* [32u4-ATL3_interface.ino](/retroATL3/data/32u4-ATL3_interface.ino): . File used in: [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [32u4-ATL3_interface.ino](/retroATL3/data/32u4-ATL3_interface.ino): . File used in: [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html).
 
-* [KretzControl.ino](/include/images/kretzaw145ba/20180812a/KretzControl.ino): Servo control for Matty, used in `20180430a` `20181104a`. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/images/hp2121/20181013a/Readme.md`](/include/images/hp2121/20181013a/Readme.md).
+* [NRF52832_connection.ino](/include/community/Matteo/NRF52832_connection.ino): . _File not used._
 
-* [Registers1MspsDisplayTrigged.ino](/retired/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [KretzControl.ino](/include/images/kretzaw145ba/20180812a/KretzControl.ino): Servo control for Matty, used in `20180430a` `20181104a`. File used in: [`/include/images/hp2121/20181013a/Readme.md`](/include/images/hp2121/20181013a/Readme.md).
 
-* [ReadPins.ino](/retired/croaker/feather_tests/ReadPins.ino): Reading pins. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [Registers1MspsDisplayTrigged.ino](/retired/croaker/feather_tests/Registers1MspsDisplayTrigged.ino): Registers use. Display on. 1Msps. Trigged.. _File not used._
 
-* [StreamingADC2UDP.ino](/retired/croaker/feather_tests/StreamingADC2UDP.ino): First test to get the UDP working. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [ReadPins.ino](/retired/croaker/feather_tests/ReadPins.ino): Reading pins. _File not used._
 
-* [Registers1Msps-AcquireAsMuchAsPossible.ino](/retired/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino): Unused version. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [StreamingADC2UDP.ino](/retired/croaker/feather_tests/StreamingADC2UDP.ino): First test to get the UDP working. _File not used._
 
-* [Registers.ino](/retired/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registers. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [Registers1Msps-AcquireAsMuchAsPossible.ino](/retired/croaker/feather_tests/Registers1Msps-AcquireAsMuchAsPossible.ino): Unused version. _File not used._
 
-* [2Msps_Server.ino](/retired/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [Registers.ino](/retired/croaker/feather_tests/Registers.ino): Trying to get to work with direct ADC registers. _File not used._
 
-* [2ADC2UDP.ino](/retired/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [2Msps_Server.ino](/retired/croaker/feather_tests/2Msps_Server.ino): Getting data at 2Msps and streaming it. _File not used._
 
-* [ADC2UDP-Cleaning.ino](/retired/croaker/feather_tests/ADC2UDP-Cleaning.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [2ADC2UDP.ino](/retired/croaker/feather_tests/2ADC2UDP.ino): 2ADCs acquire signal at 2Msps and stream over UDP. _File not used._
 
-* [Registers1MspsServo.ino](/retired/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [ADC2UDP-Cleaning.ino](/retired/croaker/feather_tests/ADC2UDP-Cleaning.ino): . _File not used._
 
-* [tobo_pulser.ino](/retired/tobo/source/tobo_pulser.ino): . File used in: [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [Registers1MspsServo.ino](/retired/croaker/feather_tests/Registers1MspsServo.ino): Getting 1Msps. _File not used._
 
-* [oneye_pulser.ino](/retired/oneeye/oneye_pulser.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [tobo_pulser.ino](/retired/tobo/source/tobo_pulser.ino): . File used in: [`/include/QuickStart.md`](/include/QuickStart.md).
 
-* [arduino.ino](/elmo/data/arduino.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [oneye_pulser.ino](/retired/oneeye/oneye_pulser.ino): . _File not used._
 
-* [arduino.ino](/elmo/data/arduiprobe/arduino.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [arduino.ino](/elmo/data/arduino.ino): . _File not used._
 
-* [ServoControl.ino](/matty/20180430a/ServoControl/ServoControl.ino): Servo control for Matty, used in `20180430a`. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [arduino.ino](/elmo/data/arduiprobe/arduino.ino): . _File not used._
 
-* [SPI.ino](/matty/m5stack/SPI.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [ServoControl.ino](/matty/20180430a/ServoControl/ServoControl.ino): Servo control for Matty, used in `20180430a`. _File not used._
 
-* [ice40_sram_esp32.ino](/matty/20190226a/ice40_sram_esp32.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md), [`/include/experiments/auto/20190226a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20190226a.html).
+* [SPI.ino](/matty/m5stack/SPI.ino): . _File not used._
 
-* [control.ino](/matty/20200608a/control.ino): . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [ice40_sram_esp32.ino](/matty/20190226a/ice40_sram_esp32.ino): . File used in: [`/include/experiments/auto/20190226a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20190226a.html).
 
-* [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [control.ino](/matty/20200608a/control.ino): . _File not used._
 
-* [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [SimpleSignalGenerator.ino](/silent/software/featherWICED/SimpleSignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. _File not used._
 
-* [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
+* [Calibration.ino](/silent/software/featherWICED/Calibration/Calibration.ino): Quick signal emulator for Feather. Non-symetric signal. For calibration purpose. _File not used._
+
+* [SignalGenerator.ino](/silent/software/featherWICED/SignalGenerator/SignalGenerator.ino): Quick signal emulator for Feather. 70us period. DAC runs at 2MHz. _File not used._
 
 
 ## Jupyter files
 
-* [20170702-TestATLDuinoTerface.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170702-TestATLDuinoTerface.html). File used in: [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20210311.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210311.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201128a-Setup.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201128a-Setup.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201128a-Params.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201128a-Params.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180216a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180216a - Testing pulser and ADC.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [01.Reading.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/01.Reading.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20171024-RLC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171024-RLC.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180417a-Comparison.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180417a-Comparison.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/20180417a/Readme.md`](/include/20180417a/Readme.md).
-* [20200808r-Opening s1p files.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200808r-Opening s1p files.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20200808r.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200808r.html).
-* [MappingCommunity-new.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/MappingCommunity-new.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [MappingCommunity.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/MappingCommunity.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180103-Felix.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180103-Felix.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20180103a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180103a.html).
-* [20180210_jt_fast_batch.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180210_jt_fast_batch.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180620a-Uwe.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180620a-Uwe.html). File used in: [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/community/Uwe/20180620a/Readme.md`](/include/community/Uwe/20180620a/Readme.md).
-* [notebook1.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook1.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [notebook_tags.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook_tags.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [latex-linked-image.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/latex-linked-image.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [notebook2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook2.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [notebook3_with_errors.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook3_with_errors.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [notebook_jl.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook_jl.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [markdown_display_priority.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/markdown_display_priority.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [notebook4_jpeg.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook4_jpeg.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Widget_List.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Widget_List.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [MixedMarkdown.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/MixedMarkdown.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [HelloWorld.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/HelloWorld.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [attachment.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/attachment.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [pngmetadata.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/pngmetadata.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [prompt_numbers.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/prompt_numbers.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [rawtest.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/rawtest.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [notebook2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook2.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [svg.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/svg.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [UnicodePy3.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/UnicodePy3.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Clear Output.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Clear Output.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Parallel Execute A.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Parallel Execute A.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Interrupt.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Interrupt.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Skip Exceptions.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Skip Exceptions.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Skip Exceptions with Cell Tags.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Skip Exceptions with Cell Tags.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [update-display-id.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/update-display-id.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Sleep1s.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Sleep1s.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Autokill.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Autokill.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Other Comms.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Other Comms.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [JupyterWidgets.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/JupyterWidgets.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Parallel Execute B.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Parallel Execute B.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Disable Stdin.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Disable Stdin.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [HelloWorld.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/HelloWorld.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Factorials.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Factorials.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Unicode.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Unicode.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Empty Cell.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Empty Cell.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Inline Image.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Inline Image.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [SVG.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/SVG.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Output.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Output.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Check History in Memory.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Check History in Memory.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [empty.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/empty.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [nbagg_uat.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/nbagg_uat.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [plot_un0rick_anti_aliasing_filter.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/plot_un0rick_anti_aliasing_filter.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180415r-lit.tbo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180415r-lit.tbo.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/20180415r/Readme.md`](/include/20180415r/Readme.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.html).
-* [20180217a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180217a - Testing pulser and ADC.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180317a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180317a-Loops.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/bard/inside.md`](/include/bard/inside.md).
-* [20170831-TestImages.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170831-TestImages.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180812a-ProbeRunning.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180812a-ProbeRunning.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180812a-Acquisition-Phantom.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180812a-Acquisition-Phantom.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180812a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180812a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180811a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180811a-Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/images/kretzaw145ba/20180811b/Readme.md`](/include/images/kretzaw145ba/20180811b/Readme.md).
-* [20180811a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180811a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Process.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Process.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [CheckBib.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/CheckBib.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170502-DICOMizingCroakerData.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170502-DICOMizingCroakerData.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20171111-pulses.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171111-pulses.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20171028-pulses.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171028-pulses.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [TestBP.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/TestBP.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20171112-refilledATL.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171112-refilledATL.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170930-AltPulser.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170930-AltPulser.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20171001-new.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171001-new.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20171001a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20171001a.html).
-* [20171112-alt.tbo-w-retro2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171112-alt.tbo-w-retro2.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170507-TomTomTests.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170507-TomTomTests.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [In-Out.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/In-Out.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170613-TestWithRawSignal.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170613-TestWithRawSignal.html). File used in: [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170609-NewADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170609-NewADC.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170711-TwoADCs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170711-TwoADCs.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170715-ProbeTest.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170715-ProbeTest.html). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/20180415r/Readme.md`](/include/20180415r/Readme.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20170715a.md`](/include/experiments/auto/Code_20170715a.html).
-* [20170609-NewADC-v3.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170609-NewADC-v3.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170713-TwoADCs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170713-TwoADCs.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20170713a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20170713a.html).
-* [20170714-TwoADCs-Probe.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170714-TwoADCs-Probe.html). File used in: [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170714-TwoADCs-ProbeEnv.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170714-TwoADCs-ProbeEnv.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170611-arduino.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170611-arduino.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170612-ArduinoFFTed.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170612-ArduinoFFTed.html). File used in: [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170718-Servo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170718-Servo.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20170709-Repeats.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170709-Repeats.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201008a-CompareAcqs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201008a-CompareAcqs.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [0.CreatingPickles.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/0.CreatingPickles.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [0.CreatingPickles_lit3.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/0.CreatingPickles_lit3.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [1.CheckingGainSetup.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/1.CheckingGainSetup.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [0.CreatingPickles_lit3.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/0.CreatingPickles_lit3.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [1.SignalProcessingReview.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/1.SignalProcessingReview.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [0.CreatingPickles_un0.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/0.CreatingPickles_un0.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201024a-i2s_lit3rick.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201024a-i2s_lit3rick.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201024a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201024a.html).
-* [20190329a-NDT.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190329a-NDT.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190104a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190104a-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180430a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180430a-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180430a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180430a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [IDing rings.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/IDing rings.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20210425a-Testing_Mux.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210425a-Testing_Mux.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20210425a-Delays.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210425a-Delays.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20210425a-Acq.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210425a-Acq.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200605a-ProbesTests.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200605a-ProbesTests.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200321a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200321a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180403a-75V.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403a-75V.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180403a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403a-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181104a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181104c-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104c-Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201104a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201104a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190510a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190510a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190404a-NDT.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190404a-NDT.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201108a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201108a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201108a-Compression.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201108a-Compression.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201108a-IQ.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201108a-IQ.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180227a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180227a-Loops.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [TEST_USB.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/TEST_USB.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180226a-Compare.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180226a-Compare.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200418a-Process.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200418a-Process.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200418a-MakePkls.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200418a-MakePkls.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200423-echoes.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200423-echoes.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [matty20180210_bitmap.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/matty20180210_bitmap.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [MATTY20180211_bitmap.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/MATTY20180211_bitmap.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180814a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180814a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200508a-MakePkls.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200508a-MakePkls.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190415a-NDT.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190415a-NDT.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201230a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201230a-Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180224a-server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180224a-server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180224a-client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180224a-client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180721a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180721a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180721a-pyUn0.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180721a-pyUn0.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Untitled1.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled1.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Untitled.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200325a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200325a-Acquisitions.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a-Acquisitions.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201103a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201103a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [a.20201026a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/a.20201026a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20211103a-CheckHariharan.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20211103a-CheckHariharan.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201107b.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201107b.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201107a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201107a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180826a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180826a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180826a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180826a-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190713a-NewBatch.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190713a-NewBatch.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190713b-Check.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190713b-Check.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190324a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190324a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20190324a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20190324a.md), [`/include/experiments/auto/20190324a.md`](/include/experiments/auto/20190324a.html).
-* [20180221b-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180221b-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180221b-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180221b-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Tests.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Tests.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20210424a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20210424a.html).
-* [demo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/demo.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20210424a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20210424a.html).
-* [20180221a-FPGA_Acqs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180221a-FPGA_Acqs.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [RPi.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/RPi.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180511a-Enveloppe.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180511a-Enveloppe.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180403b-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403b-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180403b-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403b-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180831c-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180831c-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180516a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180516a-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180516a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180516a.md), [`/include/experiments/auto/Code_20180516a.md`](/include/experiments/auto/Code_20180516a.html).
-* [20180516a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180516a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20180516a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180516a.md), [`/include/experiments/auto/Code_20180516a.md`](/include/experiments/auto/Code_20180516a.html).
-* [01.Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/01.Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201223a-brd35.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201223a-brd35.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201223a-bk8536.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201223a-bk8536.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20201223a-duc2m.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201223a-duc2m.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [b.20201031a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/b.20201031a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201031a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.html).
-* [c.20201031a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/c.20201031a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201031a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.html).
-* [a.20201031a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/a.20201031a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201031a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.html).
-* [a.20201026a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/a.20201026a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20201031a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.html).
-* [20181104b-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104b-Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181031a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181031a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190111a-TOF.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190111a-TOF.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [CalibGain.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/CalibGain.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180310a-CalibGain.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180310a-CalibGain.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180310a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180310a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181126a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181126a-Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181126a-Server-1.1b.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181126a-Server-1.1b.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180813a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180813a-Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180813a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180813a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180227a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180227a-Loops.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200421b - TestingALaw.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200421b - TestingALaw.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20200421b.md`](https://kelu124.gitbooks.io/echomods/content/exp/20200421b.html).
-* [01.Compare.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/01.Compare.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20200421a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20200421a.html).
-* [00.CreateCSVs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/00.CreateCSVs.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200608a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200608a.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200608a-file10.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200608a-file10.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200325a-PicklingInterestingData.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a-PicklingInterestingData.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20200325a-Acquisitions.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a-Acquisitions.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190103a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190103a-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20190103a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190103a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180225a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180225a-Loops.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180225a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180225a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180901a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180901a-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [testSPI1.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/testSPI1.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [testSPI2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/testSPI2.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [Untitled.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20181104a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104a-Processing.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180825a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180825a-Client.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
-* [20180825a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180825a-Server.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
+* [20170702-TestATLDuinoTerface.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170702-TestATLDuinoTerface.html). File used in: [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html).
+* [20210311.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210311.html). _File not used._
+* [20201128a-Setup.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201128a-Setup.html). _File not used._
+* [20201128a-Params.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201128a-Params.html). _File not used._
+* [20180216a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180216a - Testing pulser and ADC.html). _File not used._
+* [01.Reading.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/01.Reading.html). _File not used._
+* [20171024-RLC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171024-RLC.html). _File not used._
+* [20180417a-Comparison.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180417a-Comparison.html). File used in: [`/include/20180417a/Readme.md`](/include/20180417a/Readme.md).
+* [20200808r-Opening s1p files.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200808r-Opening s1p files.html). File used in: [`/include/experiments/auto/Code_20200808r.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200808r.html).
+* [MappingCommunity-new.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/MappingCommunity-new.html). _File not used._
+* [MappingCommunity.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/MappingCommunity.html). _File not used._
+* [20180103-Felix.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180103-Felix.html). File used in: [`/include/experiments/auto/Code_20180103a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20180103a.html).
+* [20180210_jt_fast_batch.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180210_jt_fast_batch.html). _File not used._
+* [20180620a-Uwe.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180620a-Uwe.html). File used in: [`/include/QuickStart.md`](/include/QuickStart.md), [`/include/community/Uwe/20180620a/Readme.md`](/include/community/Uwe/20180620a/Readme.md).
+* [notebook1.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook1.html). _File not used._
+* [notebook_tags.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook_tags.html). _File not used._
+* [latex-linked-image.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/latex-linked-image.html). _File not used._
+* [notebook2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook2.html). _File not used._
+* [notebook3_with_errors.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook3_with_errors.html). _File not used._
+* [notebook_jl.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook_jl.html). _File not used._
+* [markdown_display_priority.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/markdown_display_priority.html). _File not used._
+* [notebook4_jpeg.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook4_jpeg.html). _File not used._
+* [Widget_List.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Widget_List.html). _File not used._
+* [MixedMarkdown.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/MixedMarkdown.html). _File not used._
+* [HelloWorld.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/HelloWorld.html). _File not used._
+* [attachment.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/attachment.html). _File not used._
+* [pngmetadata.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/pngmetadata.html). _File not used._
+* [prompt_numbers.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/prompt_numbers.html). _File not used._
+* [rawtest.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/rawtest.html). _File not used._
+* [notebook2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/notebook2.html). _File not used._
+* [svg.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/svg.html). _File not used._
+* [UnicodePy3.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/UnicodePy3.html). _File not used._
+* [Clear Output.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Clear Output.html). _File not used._
+* [Parallel Execute A.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Parallel Execute A.html). _File not used._
+* [Interrupt.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Interrupt.html). _File not used._
+* [Skip Exceptions.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Skip Exceptions.html). _File not used._
+* [Skip Exceptions with Cell Tags.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Skip Exceptions with Cell Tags.html). _File not used._
+* [update-display-id.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/update-display-id.html). _File not used._
+* [Sleep1s.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Sleep1s.html). _File not used._
+* [Autokill.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Autokill.html). _File not used._
+* [Other Comms.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Other Comms.html). _File not used._
+* [JupyterWidgets.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/JupyterWidgets.html). _File not used._
+* [Parallel Execute B.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Parallel Execute B.html). _File not used._
+* [Disable Stdin.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Disable Stdin.html). _File not used._
+* [HelloWorld.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/HelloWorld.html). _File not used._
+* [Factorials.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Factorials.html). _File not used._
+* [Unicode.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Unicode.html). _File not used._
+* [Empty Cell.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Empty Cell.html). _File not used._
+* [Inline Image.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Inline Image.html). _File not used._
+* [SVG.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/SVG.html). _File not used._
+* [Output.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Output.html). _File not used._
+* [Check History in Memory.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Check History in Memory.html). _File not used._
+* [empty.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/empty.html). _File not used._
+* [nbagg_uat.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/nbagg_uat.html). _File not used._
+* [plot_un0rick_anti_aliasing_filter.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/plot_un0rick_anti_aliasing_filter.html). _File not used._
+* [20180415r-lit.tbo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180415r-lit.tbo.html). File used in: [`/include/20180415r/Readme.md`](/include/20180415r/Readme.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20180415r.md`](/include/experiments/auto/Code_20180415r.html).
+* [20180217a - Testing pulser and ADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180217a - Testing pulser and ADC.html). _File not used._
+* [20180317a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180317a-Loops.html). File used in: [`/include/bard/inside.md`](/include/bard/inside.md).
+* [20170831-TestImages.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170831-TestImages.html). _File not used._
+* [20180812a-ProbeRunning.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180812a-ProbeRunning.html). _File not used._
+* [20180812a-Acquisition-Phantom.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180812a-Acquisition-Phantom.html). _File not used._
+* [20180812a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180812a-Server.html). _File not used._
+* [20180811a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180811a-Processing.html). File used in: [`/include/images/kretzaw145ba/20180811b/Readme.md`](/include/images/kretzaw145ba/20180811b/Readme.md).
+* [20180811a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180811a-Server.html). _File not used._
+* [Process.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Process.html). _File not used._
+* [CheckBib.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/CheckBib.html). _File not used._
+* [20170502-DICOMizingCroakerData.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170502-DICOMizingCroakerData.html). _File not used._
+* [20171111-pulses.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171111-pulses.html). _File not used._
+* [20171028-pulses.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171028-pulses.html). _File not used._
+* [TestBP.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/TestBP.html). _File not used._
+* [20171112-refilledATL.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171112-refilledATL.html). _File not used._
+* [20170930-AltPulser.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170930-AltPulser.html). _File not used._
+* [20171001-new.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171001-new.html). File used in: [`/include/experiments/auto/20171001a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20171001a.html).
+* [20171112-alt.tbo-w-retro2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20171112-alt.tbo-w-retro2.html). _File not used._
+* [20170507-TomTomTests.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170507-TomTomTests.html). _File not used._
+* [In-Out.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/In-Out.html). _File not used._
+* [20170613-TestWithRawSignal.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170613-TestWithRawSignal.html). File used in: [`/include/QuickStart.md`](/include/QuickStart.md).
+* [20170609-NewADC.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170609-NewADC.html). _File not used._
+* [20170711-TwoADCs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170711-TwoADCs.html). _File not used._
+* [20170715-ProbeTest.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170715-ProbeTest.html). File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/20180415r/Readme.md`](/include/20180415r/Readme.md), [`/include/experiments/auto/20180415r.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180415r.md), [`/include/experiments/auto/Code_20170715a.md`](/include/experiments/auto/Code_20170715a.html).
+* [20170609-NewADC-v3.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170609-NewADC-v3.html). _File not used._
+* [20170713-TwoADCs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170713-TwoADCs.html). File used in: [`/include/experiments/auto/20170713a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20170713a.html).
+* [20170714-TwoADCs-Probe.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170714-TwoADCs-Probe.html). File used in: [`/include/QuickStart.md`](/include/QuickStart.md).
+* [20170714-TwoADCs-ProbeEnv.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170714-TwoADCs-ProbeEnv.html). _File not used._
+* [20170611-arduino.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170611-arduino.html). _File not used._
+* [20170612-ArduinoFFTed.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170612-ArduinoFFTed.html). File used in: [`/include/ppt_presUS.md`](/include/ppt_presUS.md).
+* [20170718-Servo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170718-Servo.html). _File not used._
+* [20170709-Repeats.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170709-Repeats.html). _File not used._
+* [20201008a-CompareAcqs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201008a-CompareAcqs.html). _File not used._
+* [0.CreatingPickles.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/0.CreatingPickles.html). _File not used._
+* [0.CreatingPickles_lit3.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/0.CreatingPickles_lit3.html). _File not used._
+* [1.CheckingGainSetup.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/1.CheckingGainSetup.html). _File not used._
+* [0.CreatingPickles_lit3.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/0.CreatingPickles_lit3.html). _File not used._
+* [1.SignalProcessingReview.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/1.SignalProcessingReview.html). _File not used._
+* [0.CreatingPickles_un0.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/0.CreatingPickles_un0.html). _File not used._
+* [20201024a-i2s_lit3rick.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201024a-i2s_lit3rick.html). File used in: [`/include/experiments/auto/20201024a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201024a.html).
+* [20190329a-NDT.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190329a-NDT.html). _File not used._
+* [20190104a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190104a-Client.html). _File not used._
+* [20180430a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180430a-Client.html). _File not used._
+* [20180430a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180430a-Server.html). _File not used._
+* [IDing rings.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/IDing rings.html). _File not used._
+* [20210425a-Testing_Mux.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210425a-Testing_Mux.html). _File not used._
+* [20210425a-Delays.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210425a-Delays.html). _File not used._
+* [20210425a-Acq.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20210425a-Acq.html). _File not used._
+* [20200605a-ProbesTests.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200605a-ProbesTests.html). _File not used._
+* [20200321a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200321a.html). _File not used._
+* [20180403a-75V.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403a-75V.html). _File not used._
+* [20180403a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403a-Client.html). _File not used._
+* [20181104a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104a-Server.html). _File not used._
+* [20181104c-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104c-Processing.html). _File not used._
+* [20201104a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201104a.html). _File not used._
+* [20190510a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190510a.html). _File not used._
+* [20190404a-NDT.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190404a-NDT.html). _File not used._
+* [20201108a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201108a.html). _File not used._
+* [20201108a-Compression.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201108a-Compression.html). _File not used._
+* [20201108a-IQ.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201108a-IQ.html). _File not used._
+* [20180227a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180227a-Loops.html). _File not used._
+* [TEST_USB.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/TEST_USB.html). _File not used._
+* [20180226a-Compare.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180226a-Compare.html). _File not used._
+* [20200418a-Process.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200418a-Process.html). _File not used._
+* [20200418a-MakePkls.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200418a-MakePkls.html). _File not used._
+* [20200423-echoes.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200423-echoes.html). _File not used._
+* [matty20180210_bitmap.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/matty20180210_bitmap.html). _File not used._
+* [MATTY20180211_bitmap.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/MATTY20180211_bitmap.html). _File not used._
+* [20180814a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180814a-Server.html). _File not used._
+* [20200508a-MakePkls.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200508a-MakePkls.html). _File not used._
+* [20190415a-NDT.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190415a-NDT.html). _File not used._
+* [20201230a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201230a-Processing.html). _File not used._
+* [20180224a-server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180224a-server.html). _File not used._
+* [20180224a-client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180224a-client.html). _File not used._
+* [20180721a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180721a-Server.html). _File not used._
+* [20180721a-pyUn0.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180721a-pyUn0.html). _File not used._
+* [Untitled1.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled1.html). _File not used._
+* [Untitled.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled.html). _File not used._
+* [20200325a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a.html). _File not used._
+* [20200325a-Acquisitions.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a-Acquisitions.html). _File not used._
+* [20201103a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201103a.html). _File not used._
+* [a.20201026a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/a.20201026a.html). _File not used._
+* [20211103a-CheckHariharan.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20211103a-CheckHariharan.html). _File not used._
+* [20201107b.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201107b.html). _File not used._
+* [20201107a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201107a.html). _File not used._
+* [20180826a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180826a-Server.html). _File not used._
+* [20180826a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180826a-Client.html). _File not used._
+* [20190713a-NewBatch.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190713a-NewBatch.html). _File not used._
+* [20190713b-Check.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190713b-Check.html). _File not used._
+* [20190324a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190324a.html). File used in: [`/include/experiments/auto/Code_20190324a.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20190324a.md), [`/include/experiments/auto/20190324a.md`](/include/experiments/auto/20190324a.html).
+* [20180221b-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180221b-Server.html). _File not used._
+* [20180221b-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180221b-Client.html). _File not used._
+* [Tests.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Tests.html). File used in: [`/include/experiments/auto/20210424a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20210424a.html).
+* [demo.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/demo.html). File used in: [`/include/experiments/auto/20210424a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20210424a.html).
+* [20180221a-FPGA_Acqs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180221a-FPGA_Acqs.html). _File not used._
+* [RPi.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/RPi.html). _File not used._
+* [20180511a-Enveloppe.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180511a-Enveloppe.html). _File not used._
+* [20180403b-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403b-Client.html). _File not used._
+* [20180403b-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180403b-Server.html). _File not used._
+* [20180831c-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Server.html). _File not used._
+* [20180831c-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Client.html). _File not used._
+* [20180516a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180516a-Client.html). File used in: [`/include/experiments/auto/20180516a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180516a.md), [`/include/experiments/auto/Code_20180516a.md`](/include/experiments/auto/Code_20180516a.html).
+* [20180516a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180516a-Server.html). File used in: [`/include/experiments/auto/20180516a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20180516a.md), [`/include/experiments/auto/Code_20180516a.md`](/include/experiments/auto/Code_20180516a.html).
+* [01.Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/01.Processing.html). _File not used._
+* [20201223a-brd35.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201223a-brd35.html). _File not used._
+* [20201223a-bk8536.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201223a-bk8536.html). _File not used._
+* [20201223a-duc2m.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20201223a-duc2m.html). _File not used._
+* [b.20201031a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/b.20201031a.html). File used in: [`/include/experiments/auto/20201031a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.html).
+* [c.20201031a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/c.20201031a.html). File used in: [`/include/experiments/auto/20201031a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.html).
+* [a.20201031a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/a.20201031a.html). File used in: [`/include/experiments/auto/20201031a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.html).
+* [a.20201026a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/a.20201026a.html). File used in: [`/include/experiments/auto/20201031a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201031a.md), [`/include/experiments/auto/Code_20201031a.md`](/include/experiments/auto/Code_20201031a.html).
+* [20181104b-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104b-Processing.html). _File not used._
+* [20181031a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181031a-Server.html). _File not used._
+* [20190111a-TOF.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190111a-TOF.html). _File not used._
+* [CalibGain.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/CalibGain.html). _File not used._
+* [20180310a-CalibGain.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180310a-CalibGain.html). _File not used._
+* [20180310a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180310a-Server.html). _File not used._
+* [20181126a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181126a-Processing.html). _File not used._
+* [20181126a-Server-1.1b.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181126a-Server-1.1b.html). _File not used._
+* [20180813a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180813a-Processing.html). _File not used._
+* [20180813a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180813a-Server.html). _File not used._
+* [20180227a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180227a-Loops.html). _File not used._
+* [20200421b - TestingALaw.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200421b - TestingALaw.html). File used in: [`/include/experiments/auto/20200421b.md`](https://kelu124.gitbooks.io/echomods/content/exp/20200421b.html).
+* [01.Compare.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/01.Compare.html). File used in: [`/include/experiments/auto/20200421a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20200421a.html).
+* [00.CreateCSVs.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/00.CreateCSVs.html). _File not used._
+* [20200608a.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200608a.html). _File not used._
+* [20200608a-file10.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200608a-file10.html). _File not used._
+* [20200325a-PicklingInterestingData.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a-PicklingInterestingData.html). _File not used._
+* [20200325a-Acquisitions.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20200325a-Acquisitions.html). _File not used._
+* [20190103a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190103a-Client.html). _File not used._
+* [20190103a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190103a-Server.html). _File not used._
+* [20180225a-Loops.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180225a-Loops.html). _File not used._
+* [20180225a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180225a-Server.html). _File not used._
+* [20180901a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180901a-Client.html). _File not used._
+* [testSPI1.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/testSPI1.html). _File not used._
+* [testSPI2.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/testSPI2.html). _File not used._
+* [Untitled.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/Untitled.html). _File not used._
+* [20181104a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181104a-Processing.html). _File not used._
+* [20180825a-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180825a-Client.html). _File not used._
+* [20180825a-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180825a-Server.html). _File not used._
 
 ## Python files
 
@@ -1297,11 +1311,15 @@
 
 * [mkimg.py](/include/hp/20201128a/mkimg.py): Autotagging images for the `20180813a` experiment.. _File not used._
 
+* [mkimg.py](/include/intersonvs35/opened/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
+
 * [mkimg.py](/include/kretzir175ag/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
 
 * [ustk.py](/include/20180216a/ustk.py): Library for creating images from the files created by pulser module.. _File not used._
 
 * [mkimg.py](/include/20180216a/mkimg.py): Autotagging images for the `20180216a` experiment.. _File not used._
+
+* [mkimg.py](/include/teardown/lumify/mkimg.py): Autotagging images for the `20201219r` experiment.. _File not used._
 
 * [mkimg.py](/include/20180417a/mkimg.py): Autotagging images for the `20180217a` experiment.. _File not used._
 
@@ -10981,7 +10999,7 @@
 * [ppt_CLA.md](/include/ppt_CLA.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_CLA.html)
 * [ppt_DocProcess.md](/include/ppt_DocProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocProcess.html)
 
-## 811 Auto generated files
+## 815 Auto generated files
 
 * ./Readme.md
 * ./include/AddShoppingList.md
@@ -11543,6 +11561,7 @@
 * ./include/probes/auto/linscan.md
 * ./include/probes/auto/apogee10MHz.md
 * ./include/probes/auto/NDTPiezo.md
+* ./include/probes/auto/intersonvs35.md
 * ./include/probes/auto/duc2m.md
 * ./include/probes/auto/s3.md
 * ./include/probes/auto/ausonics75.md
@@ -11560,6 +11579,7 @@
 * ./include/probes/auto/bard.md
 * ./include/probes/auto/hp2121.md
 * ./include/probes/auto/bk8536.md
+* ./include/probes/auto/Lumify.md
 * ./include/probes/auto/brd75.md
 * ./include/probes/auto/shzmch.md
 * ./include/probes/auto/atlannular.md
@@ -11774,6 +11794,7 @@
 * ./gitbook/probes/linscan.md
 * ./gitbook/probes/apogee10MHz.md
 * ./gitbook/probes/NDTPiezo.md
+* ./gitbook/probes/intersonvs35.md
 * ./gitbook/probes/duc2m.md
 * ./gitbook/probes/s3.md
 * ./gitbook/probes/ausonics75.md
@@ -11791,6 +11812,7 @@
 * ./gitbook/probes/bard.md
 * ./gitbook/probes/hp2121.md
 * ./gitbook/probes/bk8536.md
+* ./gitbook/probes/Lumify.md
 * ./gitbook/probes/brd75.md
 * ./gitbook/probes/shzmch.md
 * ./gitbook/probes/atlannular.md

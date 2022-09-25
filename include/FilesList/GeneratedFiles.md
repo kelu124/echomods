@@ -558,6 +558,7 @@
 * ./include/probes/auto/linscan.md
 * ./include/probes/auto/apogee10MHz.md
 * ./include/probes/auto/NDTPiezo.md
+* ./include/probes/auto/intersonvs35.md
 * ./include/probes/auto/duc2m.md
 * ./include/probes/auto/s3.md
 * ./include/probes/auto/ausonics75.md
@@ -575,6 +576,7 @@
 * ./include/probes/auto/bard.md
 * ./include/probes/auto/hp2121.md
 * ./include/probes/auto/bk8536.md
+* ./include/probes/auto/Lumify.md
 * ./include/probes/auto/brd75.md
 * ./include/probes/auto/shzmch.md
 * ./include/probes/auto/atlannular.md
@@ -789,6 +791,7 @@
 * ./gitbook/probes/linscan.md
 * ./gitbook/probes/apogee10MHz.md
 * ./gitbook/probes/NDTPiezo.md
+* ./gitbook/probes/intersonvs35.md
 * ./gitbook/probes/duc2m.md
 * ./gitbook/probes/s3.md
 * ./gitbook/probes/ausonics75.md
@@ -806,6 +809,7 @@
 * ./gitbook/probes/bard.md
 * ./gitbook/probes/hp2121.md
 * ./gitbook/probes/bk8536.md
+* ./gitbook/probes/Lumify.md
 * ./gitbook/probes/brd75.md
 * ./gitbook/probes/shzmch.md
 * ./gitbook/probes/atlannular.md

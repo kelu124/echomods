@@ -32,10 +32,6 @@ Setup of the experiment
 
 ### Signals 
 
-![](/elmo/data/Imgs/Processing_probeX.data.jpg)
-graph
-Building an image
-
 ![](/retired/alt.tbo/20171112a/Spectre ProbeD.DAT.png)
 graph
 Images from the experiment
@@ -57,10 +53,6 @@ graph
 Images from the experiment
 
 ### Scan converted 
-
-![](/elmo/data/Imgs/pic_probeX.data.jpg)
-ASC
-Image of the phantom with retroATL3
 
 ![](/elmo/data/Imgs/probeX.png)
 ASC
@@ -117,10 +109,6 @@ FFT
 Experiment: 20180831c-7. Duration: 85.0us (120000 - 35000), for 365 repeats each 273 us. Fech = 16.0Msps, total of 1360.0 pts per line, Nacq = 365. Probe on spam, unplugged, probe: retroATL3, target = wirephantom. Timestamp = 2018-08-31 22:11:00.062043
 
 ### Other signals 
-
-![](/elmo/data/Imgs/map_probeX.data.jpg)
-BSC
-Raw data of the loop
 
 ![](/include/20160822/20160822-205141-fft-all.png)
 BSC
