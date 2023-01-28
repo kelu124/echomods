@@ -1,0 +1,140 @@
+W10.3 Onsite
+2022 IEEE IUS
+Sponsored By
+ETH Zürich
+UFFC
+International Ultrasonics Symposium Venice, Italy || October 10-13, 2022
+WULPUS: a Wearable Ultra Low-Power Ultrasound probe for multi-day monitoring of carotid artery and muscle activity
+S. Frey¹, S. Vostrikov¹, L. Benini1,2, A. Cossettini¹ 1Integrated Systems Laboratory, ETH Zurich, Switzerland; 2DEI University of Bologna, Bologna, Italy;
+1 Introduction
+3 Results
+4 Comparison to state of the art
+Background and Motivation: has
+.8 channels actuated simultaneously to emit plane-waves with increased transmit energy (+15 V pulses)
+A summary of alternative devices from industry
+and academia:
+Single-channel ADC read-out at a time up to 8 MSPS Configurable frame rate up to 50 Hz in high-throughput BLE data streaming mode (~320 kbps)
+⚫
+Wearable A-mode Ultrasound (US)
+great potential
+for continuous on-body monitoring of vital signs
+• Recent works successfully applied A-mode Ultrasound gesture
+for artery monitoring [1] and hand recognition [2]
+Device
+Wireless
+Configurable
+Access to
+raw data
+Low
+Power
+⚫ Ultra Low Power consumption (< 25 mW at 50 Hz)
+WULPUS
+BLE
+Wearability=> strict design requirements:
+A-mode signal of common carotid artery
+WURMADS
+Energy efficiency
+Compactness
+1.0
+Common carotid artery
+Dfree
+✔BLE
+0.5 ADC signal 0.0. -0.5
+• Wireless connectivity
+Flopatch
+FP120
+✔BLE
+RF data
+Envelope
+1.0
+• Existing US devices do not meet all key requirements for
+wearables..
+50
+250 300 350
+We present a novel US system "WULPUS": Open (providing
+• Low-power (<25 mW)
+• Wearable (46 x 25 mm)
+access to raw data)
+Wireless (BLE)
+Fast (supporting up to 50 Hz frame rate)
+Multi-channel (8, multiplexed)
+100 150 200 Samples
+Common carotid artery diameter over
+time
+Either they are specialized for a single task and
+closed, or they exceed the power and form factor
+constraints
+WULPUS satisfies all requirements for a truly wearable long-term monitoring system.
+and
+8.5
+2 Materials and methods
+5 Conclusions
+Design based on off-the-shelf components:
+• We presented WULPUS, a novel wearable US probe for continuous on-body monitoring of vital signs.
+7.5
+Raw
+-Filtered
+MSP430 MCU (Texas Instruments) with US subsystem
+Programmable Pulse Generator Programmable Gain Amplifier (up to 30.8 dB) Single channel SAR ADC (12-bit, up to 8-MSPS) Outputs 8 MHz SPI US data stream
+0
+The ultra low-power consumption (< 25 mW) improves
+Time [sec]
+wearability and ensures a battery lifetime of 2 days with a 320 mAh Li-Po.
+Power consumption repartition (50 Hz)
+nRF52832 Wireless MCU (Nordic Semiconductor):
+DMA-enabled SPI data reception Wireless data transmission (Bluetooth Low Energy) .2 Mbps BLE mode
+⚫The open and configurable system provides access to raw data to develop algorithms for automatic analyses.
+nRF52832 (12.1 mW)
+Others
+(0.5 mW)
+55%
+22 mW
+Acquisitions
+are
+demonstrated
+on
+tissue-mimicking
+15%
+MSP430
+(3.2 mW)
+phantom and in-vivo on common carotid artery
+High Voltage (HV) Subsystem
+3.3 V to 15 V level translator implemented with a
+MOSFET driver (MCP1416, Microchip)
+⚫ 8-to-1 HV Multiplexer (HV2708, Microchip) drives one or multiple channels at excitation event HV passive T/R switch (MD0101, Microchip)
+28%
+HV Subsystem (6.2 mW)
+• The design modularity also allows to integrate additional sensors such as Electromyography (EMG).
+WULPUS system diagram
+Acknowledgements
+Acquisition PCB
+HV PCB
+HV PCB
+echo
+Acquisition PCB
+⚫The authors acknowledge support from the Swiss National Science Foundation (Project PEDESITE) under grant agreement 193813 We thank P. Mayer (ETH Zürich) and C. Leitner (TU-Graz) for useful discussions, and A. Blanco Fontao and H. Gisler (ETH Zürich) for technical support..
+MD0101
+T/R switch
+ADC MSP430
+PULSER MCL
+HV 2708
+Multiplexer
+MCP1402
+MOS-FET
+SPI
+WULPUS assembled
+15V
+3.3V
+ղող
+nRF52832
+BLE MCU
+US signal
+References
+Host PC
+1. Steinberg. Shane, et al "Continuous Artery Monitoring Using a Flexible and Wearable Single-Element Ultrasonic Sensor." IEEE Instrumentation & Measurement Magazine 25.1 (2022): 6-11. 2. Guo, Lin, et al. "A Gesture Recognition Strategy Based on A-mode Ultrasound for
+Known and Unknown Gestures."
+Piezo
+Common carotid
+artery
+nRF52840 Dongle
+Sensors Journal (2022).
