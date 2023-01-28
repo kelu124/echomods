@@ -3867,7 +3867,7 @@ Always wanted to have a riscv inside my board ;)
 * Very interesting: games : https://8bitworkshop.com/v3.6.0/?platform=verilog&file=clock_divider.v
 * lit3rick structure
 
-````
+```
  + lit3rick
    + images
    + doc
@@ -3896,7 +3896,7 @@ Always wanted to have a riscv inside my board ;)
    \ Changelog.md
    \ lit3rick.pdf
 
-````
+```
 
 #### 2020-08-18 break in the city
 
@@ -4175,6 +4175,21 @@ Other stuff:
 * Work: starting something new! Cool and busy.
 * Radicalized - Cory
 * https://www.gov.uk/guidance/how-to-document-apis
+
+
+#### 2023-01-28 Time is passing, again more and more haha 
+
+* Progressing on OSH MRI - fast FPGA + USB3, done, yet to receive the pulse and receive (AFE) parts.
+* lit3-32 is going to prod, one batch out.
+* un0rick restarts, first batch since a while
+* Check out the repo content about wulpus and prisma, some new things happenning.
+* Name out soon on an interview, and on a national newspaper?
+* Pissed at Slack cutting history of the chat channels
+* Wireless probe on the way?
+* Moar probes with pyusbus
+* Moar to get
+  * https://ieeexplore.ieee.org/document/9760285 - finger movement recognition
+  * 10.1109/MIM.2022.9693453 - flexible
 
 
 =======
