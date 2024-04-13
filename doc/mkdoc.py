@@ -13,7 +13,7 @@ __author__      = "kelu124"
 __copyright__   = "Copyright 2016, Kelu124"
 __license__ 	= "cc-by-sa/4.0/"
 
-import chardet   
+import chardet
 import os
 import os.path, time
 from glob import glob
@@ -27,11 +27,8 @@ import functools
 #import wand.color
 #import wand.image
 from PIL import Image
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+import sys 
 from bs4 import BeautifulSoup
-import urllib2
 from datetime import datetime
 
 
@@ -114,10 +111,11 @@ def apply_styles(graph, styles):
 # -------------------------
 
 def GetMurgenStats():
+	import urllib2
 	MurgenURL = "https://hackaday.io/project/9281-murgen-open-source-ultrasound-imaging"
 	page = urllib2.urlopen(MurgenURL)
 	soup = BeautifulSoup(page.read())
-	print soup.find_all("div","section-profile-stats")[0]
+	print(soup.find_all("div","section-profile-stats")[0])
 #div content-left section-profile-stats
 
 # -------------------------
@@ -126,7 +124,7 @@ def GetMurgenStats():
 
 
 def GetListofModules(dirname):
-	ListOfDirs = os.listdir(dirname)  
+	ListOfDirs = os.listdir(dirname)
 	ModulesDirs = []
 	for f in ListOfDirs:
 		if  os.path.isdir(dirname+"/"+f):
@@ -157,12 +155,12 @@ def getHs(soupH,h,hText):
 		allH = soupH.find_all(h)
 		for H in allH:
 			if hText in H:
- 				nextSib = H.find_next(True)
-   				while nextSib is not None and h not in nextSib.name :
- 
+				nextSib = H.find_next(True)
+				while nextSib is not None and h not in nextSib.name :
+
 					Text.append(nextSib)
 					#print nextSib.text
-               				nextSib = nextSib.nextSibling
+					nextSib = nextSib.nextSibling
 	return Text
 
 def returnHList(soup,h,hText):
@@ -171,10 +169,10 @@ def returnHList(soup,h,hText):
 		desch3 = soup.find_all(h)
 		for H in desch3:
 			if hText in H.text:
-			    for item in H.find_next("ul").find_all("li"):
-				ListItem.append(item)
+				for item in H.find_next("ul").find_all("li"):
+					ListItem.append(item)
 	else:
-		print "H Error"
+		print("H Error")
 	return ListItem
 
 def getCode(string):
@@ -184,18 +182,19 @@ def getCode(string):
 	return ListOfCodes
 
 def DescribeExpes(FatJSON):
-	ListOfExpes = FatJSON["experiments"].keys()
+	print("at DescribeExpes")
+	ListOfExpes = list(FatJSON["experiments"].keys())
 	ListOfExpes.sort()
 	with open("include/experiments/all.md") as f:
-	    for line in f:
-		for expe in ListOfExpes:
-		    if expe in line:
-			LNE = line.split(":")
-			#print LNE
-			if len(LNE) > 2:
-			    FatJSON["experiments"][expe]["Title"] = LNE[1].strip()
-			    FatJSON["experiments"][expe]["ShortDesc"] = LNE[2].strip()
-	
+		for line in f:
+			for expe in ListOfExpes:
+				if expe in line:
+					LNE = line.split(":")
+					#print LNE
+					if len(LNE) > 2:
+						FatJSON["experiments"][expe]["Title"] = LNE[1].strip()
+						FatJSON["experiments"][expe]["ShortDesc"] = LNE[2].strip()
+
 	GBookList = "# Experiments\n\n"
 	ListOfExpes.sort(reverse=True)
 	for k in ListOfExpes:
@@ -209,12 +208,13 @@ def DescribeExpes(FatJSON):
 		GBookList += Line
 
 	OpenWrite(GBookList,"gitbook/allexp.md")
-	
+
 	GHList = GBookList.replace("](exp/","](/include/experiments/auto/")
 
 	OpenWrite(GHList,"include/AllAllExp.md")
 
 	return FatJSON,GHList
+
 
 def MakeExperiments(ExpList,ListIfImage,FatJSON):
 	ExpeJSON = {}
@@ -227,21 +227,21 @@ def MakeExperiments(ExpList,ListIfImage,FatJSON):
 		ListOfChecks = ["md","jupyter","C", "arduino", "python"]
 		SourceCode = "# Automated list of supporting files for the __experiment `"+Expe+"`__\n\n## List of files"
 		for keyKey in ListOfChecks:
+			print(Expe,": checking ",keyKey)
 			Files = []
 			for key in FatJSON[keyKey].keys():
 
-				tmpfile = open("."+key, "r") 
+				tmpfile = open("."+key, "r")
 				if ("`"+Expe+"`" in tmpfile.read()) and ("FilesList" not in key) and ("gitbook" not in key) and ("/include/experiments/" not in key):
 					#print key
 					Files.append(key)
 				elif (Expe in key):
-				    if ("include" not in key):
-					if ("gitbook" not in key):
-						Files.append(key)
+					if ("include" not in key):
+						if ("gitbook" not in key):
+							Files.append(key)
 
 				if not ("/include/experiments/" in key) and not ("/gitbook/" in key):
 				# @todo kelu add readmes for md and experiments
-					
 					if "/"+Expe+"/Readme.md" in key:
 						#print  key + " -> "+"/"+Expe+"/Readme.md"
 						ExpeJSON[Expe]["Readme"] = key
@@ -365,38 +365,38 @@ def PutBackProbes(JSON):
 
 def ListProbes(pathdefine,GrosJaSON):
 	with open(pathdefine) as f:
-	    content = f.readlines()
-	content = [x.strip() for x in content] 
+		content = f.readlines()
+	content = [x.strip() for x in content]
 	ListOfProbes = []
 	#print content
 	GrosJaSON["probes"] = {}
 	NameProbe = ""
 	for k in content:
-	    if len(k):
-		#print k
-		if k.startswith("#"):
-			NameProbe = k[1:].strip()
-			GrosJaSON["probes"][NameProbe] = {}
-			ListOfProbes.append(NameProbe)
-		#print NameProbe
-		if k.startswith("* code:"):
-			GrosJaSON["probes"][NameProbe]["code"] = k.replace("* code:","").strip()
-		if k.startswith("* smalldesc:"):
-			GrosJaSON["probes"][NameProbe]["smalldesc"] = k.replace("* smalldesc:","").strip()
-		if k.startswith("* longdesc:"):
-			GrosJaSON["probes"][NameProbe]["longdesc"] = k.replace("* longdesc:","").strip()
+		if len(k):
+			#print k
+			if k.startswith("#"):
+				NameProbe = k[1:].strip()
+				GrosJaSON["probes"][NameProbe] = {}
+				ListOfProbes.append(NameProbe)
+			#print NameProbe
+			if k.startswith("* code:"):
+				GrosJaSON["probes"][NameProbe]["code"] = k.replace("* code:","").strip()
+			if k.startswith("* smalldesc:"):
+				GrosJaSON["probes"][NameProbe]["smalldesc"] = k.replace("* smalldesc:","").strip()
+			if k.startswith("* longdesc:"):
+				GrosJaSON["probes"][NameProbe]["longdesc"] = k.replace("* longdesc:","").strip()
 
 	for k in GrosJaSON["probes"].keys():
 		GrosJaSON["probes"][k]["experiments"] = []
 		GrosJaSON["probes"][k]["images"] = []
 		GrosJaSON["probes"][k]["md"] = []
- 
+
 	return ListOfProbes,GrosJaSON
 
 def MDProbes(GrosJaSON):
 	for k in GrosJaSON["probes"].keys():
 		for key in GrosJaSON["md"].keys():
-			tmpfile = open("."+key, "r") 
+			tmpfile = open("."+key, "r")
 			if ("`"+k+"`" in tmpfile.read()) and ("FilesList" not in key) and ("gitbook" not in key) and ("/include/probes/" not in key) and ("/include/experiments/" not in key):
 				GrosJaSON["probes"][k]["md"].append(key)
 
@@ -487,13 +487,13 @@ def CreateProbesFiles(GrosJaSON):
 				elif any(ext in GrosJaSON["images"][image]["category"] for ext in ["FFT"]):
 					FFT += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					FFT += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
-				elif "eardown" in GrosJaSON["images"][image]["category"]:	
+				elif "eardown" in GrosJaSON["images"][image]["category"]:
 					TEARDOWN += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					TEARDOWN += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
-				elif "smith" in GrosJaSON["images"][image]["category"]:	
+				elif "smith" in GrosJaSON["images"][image]["category"]:
 					SMITH += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					SMITH += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
-				elif "SC" in GrosJaSON["images"][image]["category"]:	
+				elif "SC" in GrosJaSON["images"][image]["category"]:
 					SC += "![]("+image+")\n"+GrosJaSON["images"][image]["category"]+"\n"
 					SC += GrosJaSON["images"][image]["description"].replace("\n"," - ")+"\n\n"
 				else:
@@ -562,7 +562,7 @@ def ListContrib(cpath,BigJSON):
 
 		autopath = "./include/community/"+k+"/auto/"
 		if not os.path.exists(autopath):
-		    os.makedirs(autopath)
+			os.makedirs(autopath)
 
 	#print LOC
 
@@ -595,7 +595,7 @@ def ListJPGfromBMP(path):
 
 def CreateImgTags(ImgSrc):
 	# Use Make, Model
-	# ModulesList 
+	# ModulesList
 	# ModulesRetiredList
 	edited = 0
 	metadata = pyexiv2.ImageMetadata(ImgSrc)
@@ -603,35 +603,35 @@ def CreateImgTags(ImgSrc):
 	FileNameIs = ImgSrc.split("/")[-1]
 	# Datetime
 	try:
-    		metadata['Exif.Image.DateTime']
+		metadata['Exif.Image.DateTime']
 	except KeyError:
 		#edited = 1
 		dt = ""
 		hm = ""
-		if ("201" in FileNameIs) or ("202" in FileNameIs):	
+		if ("201" in FileNameIs) or ("202" in FileNameIs):
 			m = re.findall("([0-9]+)", FileNameIs)
-			if (len(m) and len(m[0]) == 8): 
+			if (len(m) and len(m[0]) == 8):
 				tim = m[0]
 				dt = tim[:4]+"-"+tim[4:6]+"-"+tim[6:8]
 
-			if ( (len(m) > 1) and len(m[1]) == 6): 
+			if ( (len(m) > 1) and len(m[1]) == 6):
 				hom = m[1]
 				hm = hom[:2]+":"+hom[2:4]+":"+hom[4:6]
 			else:
-				hm = "12:00:00" 
+				hm = "12:00:00"
 			if (len(dt) and len(hm)):
 				DateTime = dt + " "+hm
 				if (len(DateTime) == 19):
 					metadata['Exif.Image.DateTime'] = DateTime
 					edited = 1
-					print FileNameIs + " -- " + DateTime
-
+					print(FileNameIs + " -- " + DateTime
+)
 	# Main Module
 	try:
-    		metadata['Exif.Image.Software']
+		metadata['Exif.Image.Software']
 	except KeyError:
 		edited = 1
-		print 'Exif.Image.Software'
+		print('Exif.Image.Software')
 		if any(ext in ImgSrc for ext in ModulesList):
 			metadata['Exif.Image.Software'] = ImgSrc.split("/")[1]
 		elif any(ext in ImgSrc for ext in ModulesRetiredList):
@@ -662,16 +662,16 @@ def CreateImgTags(ImgSrc):
 		metadata['Exif.Image.Make'].value
 	except KeyError:
 		metadata['Exif.Image.Make'] = "ToTag"
-	if any(ext in metadata['Exif.Image.Make'].value for ext in DefaultTag): 
+	if any(ext in metadata['Exif.Image.Make'].value for ext in DefaultTag):
 		edited = 1
 		metadata['Exif.Image.Make'] = "ToTag"
 
 	# Artist
 	try:
-    		metadata['Exif.Image.Artist']
+		metadata['Exif.Image.Artist']
 	except KeyError:
 		edited = 1
-		print 'Exif.Image.Artist'
+		print('Exif.Image.Artist')
 		if ("community" in ImgSrc):
 			Author = ImgSrc.replace("/include/community/","")
 			AuthorName = Author.split("/")[0][1:]
@@ -686,12 +686,12 @@ def CreateImgTags(ImgSrc):
 	except KeyError:
 		edited = 1
 		#print 'Exif.Photo.MakerNote'
-		
+
 		if any(ext in ImgSrc for ext in ("TEK0","IMAG0")):
 					metadata['Exif.Photo.MakerNote'] = "oscilloscope"
 		elif ("iewme.png" in ImgSrc):
 			metadata['Exif.Photo.MakerNote'] = "thumbnail"
-		elif any(ext in ImgSrc for ext in ("2016","2017","2018")): 
+		elif any(ext in ImgSrc for ext in ("2016","2017","2018")):
 					metadata['Exif.Photo.MakerNote'] = "picture"
 		else:
 			metadata['Exif.Photo.MakerNote'] = "ToTag"
@@ -703,7 +703,8 @@ def CreateImgTags(ImgSrc):
 
 	MaNo = metadata['Exif.Photo.MakerNote'].value
 	try:
-		MaNo.decode('utf-8',"strict")
+		MaNo = MaNo 
+		#MaNo.decode('utf-8',"strict")
 
 	except UnicodeError:
 		# MakerNote sometimes bugs
@@ -713,34 +714,34 @@ def CreateImgTags(ImgSrc):
 
 	# Image description
 	try:
-    		metadata['Exif.Image.ImageDescription']
+		metadata['Exif.Image.ImageDescription']
 	except KeyError:
 		edited = 1
-    		metadata['Exif.Image.ImageDescription'] = "ToTag"
+		metadata['Exif.Image.ImageDescription'] = "ToTag"
 
 	# FilePath
 
 	try:
-    		metadata['Exif.Image.DocumentName']
+		metadata['Exif.Image.DocumentName']
 	except KeyError:
 		edited = 1
-    		metadata['Exif.Image.DocumentName'] = ImgSrc
+		metadata['Exif.Image.DocumentName'] = ImgSrc
 
 	if not ( metadata['Exif.Image.DocumentName'].value == ImgSrc):
 		edited = 1
 		#print metadata['Exif.Image.DocumentName'], ImgSrc
-    		metadata['Exif.Image.DocumentName'] = ImgSrc
+		metadata['Exif.Image.DocumentName'] = ImgSrc
 
 	# Description
 	try:
-    		metadata['Exif.Image.ImageHistory']
+		metadata['Exif.Image.ImageHistory']
 	except KeyError:
 
 		edited = 1
 		metadata['Exif.Image.ImageHistory'] = "Coming from a project aiming at open-sourcing ultrasound imaging hardware - see https://kelu124.gitbooks.io/echomods/content/"
 
 	if edited:
-		print edited,ImgSrc
+		print(edited,ImgSrc)
 		metadata.write()
 
 	return metadata
@@ -761,10 +762,10 @@ def GetTags(Tag):
 	TagValue.append( str(Tag['Exif.Image.Make'].value) )
 	TagValue.append( str(Tag['Exif.Image.ImageDescription'].value) )
 	TagValue.append( str(Tag['Exif.Image.DocumentName'].value) )
- 
+
 
 	return TagValue
-	
+
 # -------------------------
 # Preparing gitbook
 # -------------------------
@@ -875,16 +876,16 @@ def AddRawHURL(s):
 	pattern = re.compile(r"\]\(\/include\/probes\/auto\/(.*)\.md")
 	s = pattern.sub( r"](https://kelu124.gitbooks.io/echomods/content/probes/\g<1>.html", s)
 
- 
+
 	for o in range(len(ToBeReplaced)):
 		s = s.replace("]("+ToBeReplaced[o]+")", "]("+BaseURL+Replaced[o]+")")
 
 	for moduledeux in ModulesChaptDeux:
-		s = s.replace("](/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")	
+		s = s.replace("](/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")
 		s = s.replace("](/"+moduledeux+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduledeux+"/source/blocks.png)")	
 		s = s.replace("](/"+moduledeux+"/Readme.md)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")
 	for moduledeux in ModulesChaptDeuxRT:
-		s = s.replace("](/retired/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")	
+		s = s.replace("](/retired/"+moduledeux+"/)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")
 		s = s.replace("](/retired/"+moduledeux+"/source/blocks.png)", "](https://raw.githubusercontent.com/kelu124/echomods/master/"+moduledeux+"/source/blocks.png)")	
 		s = s.replace("](/retired/"+moduledeux+"/Readme.md)", "]("+BaseURL+"/Chapter2/"+moduledeux+".md)")
 
@@ -916,7 +917,7 @@ def GHubToGBook(s):
 		s = s.replace("](https://github.com/kelu124/echomods/tree/master/"+module+"/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter3/"+module+".html)")
 		s = s.replace("io/echomods/content/Chapter3/"+module+".md)","io/echomods/content/Chapter3/"+module+".html)")
 
-	s = s.replace("](https://github.com/kelu124/bomanz/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter3/bomanz.html)")	
+	s = s.replace("](https://github.com/kelu124/bomanz/)", "](https://kelu124.gitbooks.io/echomods/content/Chapter3/bomanz.html)")
 
 	return s
 
@@ -925,7 +926,7 @@ def AddRawMurgenURL(s):
 	BaseURL = "https://kelu124.gitbooks.io/echomods/content"
 	URL = "https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/"
 	for Session in ListOfMurgenSessions:
-		s = s.replace("](/worklog/"+Session+")", "]("+BaseURL+"/Chapter4/"+Session+")")	
+		s = s.replace("](/worklog/"+Session+")", "]("+BaseURL+"/Chapter4/"+Session+")")
 	s= re.sub('!\[.*\]', '![]', s)
 	return s.replace("![](/", "![]("+URL)
 
@@ -964,15 +965,15 @@ def CopyGitBookBomanzFile(From,To):
 	return OpenWrite(AddRawBomanzURL(getText(From)),To)
 
 def GraphModule(Paires,GraphThisModule,ReadMe,FullSVG):
-        for eachPair in Paires:
-	    eachPair = eachPair.text
-	    if ("->" in eachPair):
-	   	Couples = eachPair.split("->")
-		for single in Couples:
-		    GraphThisModule.node(single, style="rounded")
-		# Add the edge		
-		for k in range(len(Couples)-1):
-		    GraphThisModule.edge(Couples[k], Couples[k+1])
+	for eachPair in Paires:
+		eachPair = eachPair.text
+		if ("->" in eachPair):
+			Couples = eachPair.split("->")
+			for single in Couples:
+				GraphThisModule.node(single, style="rounded")
+			# Add the edge
+			for k in range(len(Couples)-1):
+				GraphThisModule.edge(Couples[k], Couples[k+1])
 	if FullSVG:
 		GraphThisModule.render(ReadMe+'/source/blocks')
 		Svg2Png(ReadMe+'/source/blocks')
@@ -1002,7 +1003,7 @@ def GetSuppliersList(path):
 			Text += status.text.replace("</li>", "").replace("<li>", "")+", "
 	Text += "\n\n"
 
-	return Text	
+	return Text
 
 
 def GetLogs(path):
@@ -1023,24 +1024,24 @@ def GetLogs(path):
 	ExcludeDirs = ["tools",".git","doc"]
 	f = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 	for eachMd in f:
-	    if ( (".ipynb_checkpoints" not in eachMd) and (".html" not in eachMd) ):
-		if (eachMd.split("/")[-1].startswith("2017") or eachMd.split("/")[-1].startswith("2016") or eachMd.split("/")[-1].startswith("2015") ):
-		        Date = int(eachMd.split("/")[-1].replace("-","")[:8])
-			#print eachMd +"  -  " + str(Date)
-			if Date in d:
-				d[Date] += [eachMd]
-			else:
-				d[Date] = [eachMd]
+		if ( (".ipynb_checkpoints" not in eachMd) and (".html" not in eachMd) ):
+			if (eachMd.split("/")[-1].startswith("2017") or eachMd.split("/")[-1].startswith("2016") or eachMd.split("/")[-1].startswith("2015") ):
+				Date = int(eachMd.split("/")[-1].replace("-","")[:8])
+				#print eachMd +"  -  " + str(Date)
+				if Date in d:
+					d[Date] += [eachMd]
+				else:
+					d[Date] = [eachMd]
 
 	with open("include/AddPressReview.md") as FileContent:
-	    for line in FileContent:  #iterate over the file one line at a time(memory efficient)
-		if "*" in line:
-			url = line[line.find("(")+1:line.find(")")]
-			Date = int(line.replace("* ","").replace("-","")[:8])
-			if Date in d:
-				d[Date] += [url]
-			else:
-				d[Date] = [url]
+		for line in FileContent:  #iterate over the file one line at a time(memory efficient)
+			if "*" in line:
+				url = line[line.find("(")+1:line.find(")")]
+				Date = int(line.replace("* ","").replace("-","")[:8])
+				if Date in d:
+					d[Date] += [url]
+				else:
+					d[Date] = [url]
 	return d
 
 def CreateWorkLog(d):
@@ -1064,18 +1065,18 @@ def CreateWorkLog(d):
 				link = "[worklog of the day]("+url+")"
 				LogOfTheDay.append(link)
 			else:
-			    if (len(item)):
-				url = "https://github.com/kelu124/echomods/tree/master"+item[1:]
-				text = item.split("/")[-1]
-				link = "["+text+"]("+url+")"
-				LogOfTheDay.append(link)
-				#m = 0
+				if (len(item)):
+					url = "https://github.com/kelu124/echomods/tree/master"+item[1:]
+					text = item.split("/")[-1]
+					link = "["+text+"]("+url+")"
+					LogOfTheDay.append(link)
+					#m = 0
 
 		log += ", ".join(LogOfTheDay)
 
 	return AddRawHURL(log)
 
-# -------------------------	
+# -------------------------
 # Check auto-files
 # Check other files
 # -------------------------
@@ -1098,19 +1099,19 @@ def GetGeneratedFiles(path):
 			foundDesc= False
 			FileContenu = ""
 			for line in FileContent:  #iterate over the file one line at a time(memory efficient)
-			    if tagAuto in line:
-				found = True
-			    if tagDesc in line:
-				foundDesc = True
-				start = '\[\]\(@description'
-				end = '\)'
-				Desc = re.search('%s(.*)%s' % (start, end), line).group(1).strip()
-			    FileContenu += line
+				if tagAuto in line:
+					found = True
+				if tagDesc in line:
+					foundDesc = True
+					start = '\[\]\(@description'
+					end = '\)'
+					Desc = re.search('%s(.*)%s' % (start, end), line).group(1).strip()
+					FileContenu += line
 				#  Pitch/Intro of the project)
 			if not found:
 				ManualFiles.append(eachMd)
-				ManualDesc.append(Desc)	
-			else: 
+				ManualDesc.append(Desc)
+			else:
 				AutoFiles.append(eachMd)
 			if (not found) and (not foundDesc) and (not "/include/" in eachMd):
 				log.append("__[MD Files]__ "+WarningMark+" `"+eachMd+"` : Missing description")
@@ -1126,7 +1127,7 @@ def GetGeneratedFiles(path):
 def GetIncludes (InitialText, filez, contentz,origin):
 	log = []
 	pattern = r'@kelu include\((.*?)\)'
-	results = re.findall(pattern, InitialText, flags=0) 
+	results = re.findall(pattern, InitialText, flags=0)
 	GoodResults = ["."+x for x in results]
 	for item in GoodResults:
 		if item in filez:
@@ -1136,12 +1137,12 @@ def GetIncludes (InitialText, filez, contentz,origin):
 			#print toreplace
 		else:
 			InitialText = InitialText.replace("@kelu include("+item[1:]+")","ERROR")
-			print "Include error: "+origin+" for "+item
+			print("Include error: "+origin+" for "+item)
 			log += "[INCLUDE] Error with "+origin+"\n\n"
 	InitialText = InitialText.replace(tagAuto,"")
 	return InitialText,log
 
- 
+
 def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 	InRef = []
 	FileList = []
@@ -1154,9 +1155,9 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 			InRef.append("[`"+PathRefingFile[k][1:]+"`]("+PathRefingFile[k][1:]+")")
 
 	if len(InRef):
-		StringData = ". File used in: "+", ".join(InRef)+".\n" 
+		StringData = ". File used in: "+", ".join(InRef)+".\n"
 	else: #@todo remove fpga_ctrl mkimg csr_map ftdi_dev pyUn0 retired
-	    if ( "/cletus/suppliers/" not in PathRefedFile):
+		if ( "/cletus/suppliers/" not in PathRefedFile):
 			StringData = ". _File not used._\n"
 			if ("/include/" in PathRefedFile) and ("mkimg" not in PathRefedFile):
 				log.append("__[Unrefed file]__ "+WarningMark+" `"+PathRefedFile+"` : No references of this file (in _include_). ")
@@ -1166,20 +1167,20 @@ def CreateRefFiles(NdFiles,PathRefedFile,ContentFiles,PathRefingFile):
 
 def GetPythonFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.py'))]
-	ExcludeDirs = ["tools",".git","gh-pages"] 
+	ExcludeDirs = ["tools",".git","gh-pages"]
 	PythonFilesList = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 	return PythonFilesList
 
 def GetTPLFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.tpl'))]
-	ExcludeDirs = ["tools",".git","gh-pages","gitbook"] 
+	ExcludeDirs = ["tools",".git","gh-pages","gitbook"]
 	PythonFilesList = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 	return PythonFilesList
 
 
 def GetJupyFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.ipynb'))]
-	ExcludeDirs = ["tools",".git","gh-pages"] 
+	ExcludeDirs = ["tools",".git","gh-pages"]
 	ResJupy = [x for x in results if ".ipynb_checkpoints" not in x]
 	JupyFiles = [x for x in ResJupy if x.split("/")[1] not in ExcludeDirs]
 	return JupyFiles
@@ -1191,26 +1192,26 @@ def GetImgFiles(path):
 	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.PNG'))]
 	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.JPEG'))]
 	results += [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.jpeg'))]
-	ExcludeDirs = ["tools",".git","gh-pages","old"] 
+	ExcludeDirs = ["tools",".git","gh-pages","old"]
 	ImgFiles = [x[1:] for x in results if x.split("/")[1] not in ExcludeDirs]
-	
+
 	return ImgFiles
 
 def GetInoFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.ino'))]
-	ExcludeDirs = ["tools",".git","gh-pages"] 
+	ExcludeDirs = ["tools",".git","gh-pages"]
 	InoFiles = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 	return InoFiles
 
 def GetCFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], '*.c'))]
-	ExcludeDirs = ["tools",".git","gh-pages"] 
+	ExcludeDirs = ["tools",".git","gh-pages"]
 	InoFiles = [x for x in results if x.split("/")[1] not in ExcludeDirsRetired]
 	return InoFiles
 
 def GetPptFiles(path):
 	results = [y for x in os.walk(path) for y in glob(os.path.join(x[0], 'ppt_*.md'))]
-	ExcludeDirs = ["tools",".git","gh-pages"] 
+	ExcludeDirs = ["tools",".git","gh-pages"]
 	PptFiles = [x for x in results if x.split("/")[1] not in ExcludeDirs]
 
 	return PptFiles
@@ -1224,38 +1225,38 @@ def CheckPythonFile(files):
 		JSONPython[PythonFile] = {}
 		JSONPython[PythonFile]["path"] = PythonFile
 		with open(PythonFile) as f:
-		    lN = 0
-		    moduleDesc = ""
-		    # Description, author, copyright, license
-		    ErrorConditions = [True, True, True, True]
-		    for line in f:
-			if (lN == 0) and ("#!/usr/bin/env python" not in line):
-				log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Header error ")
-			if ("__author__") in line:
-				ErrorConditions[1]=False
-				JSONPython[PythonFile]["author"] = line
-			if ("__copyright__") in line:
-				ErrorConditions[2]=False
-			if ("__license__") in line:
-				ErrorConditions[3]=False
-			if ("'''Description") in line:
-				ErrorConditions[0]=False
-				moduleDesc = line.replace("'''", "").replace("Description:", "").strip()
- 				JSONPython[PythonFile]["description"] = moduleDesc
+			lN = 0
+			moduleDesc = ""
+			# Description, author, copyright, license
+			ErrorConditions = [True, True, True, True]
+			for line in f:
+				if (lN == 0) and ("#!/usr/bin/env python" not in line):
+					log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Header error ")
+				if ("__author__") in line:
+					ErrorConditions[1]=False
+					JSONPython[PythonFile]["author"] = line
+				if ("__copyright__") in line:
+					ErrorConditions[2]=False
+				if ("__license__") in line:
+					ErrorConditions[3]=False
+				if ("'''Description") in line:
+					ErrorConditions[0]=False
+					moduleDesc = line.replace("'''", "").replace("Description:", "").strip()
+					JSONPython[PythonFile]["description"] = moduleDesc
 
-			line = line.rstrip('\r\n').rstrip('\n')
-			lN+=1
-		    if (ErrorConditions[0]):
-			log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing description")
-			PythonDesc.append("")
-		    else:
-			PythonDesc.append(moduleDesc)
-		    if (ErrorConditions[1]):
-			log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing Author ")
-		    if (ErrorConditions[2]):
-			log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing Copyright ")
-		    if (ErrorConditions[3]):
-			log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing License")
+				line = line.rstrip('\r\n').rstrip('\n')
+				lN+=1
+				if (ErrorConditions[0]):
+					log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing description")
+					PythonDesc.append("")
+				else:
+					PythonDesc.append(moduleDesc)
+				if (ErrorConditions[1]):
+					log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing Author ")
+				if (ErrorConditions[2]):
+					log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing Copyright ")
+				if (ErrorConditions[3]):
+					log.append("__[Python]__ "+WarningMark+" `"+PythonFile+"` : Missing License")
 	return log,PythonDesc,JSONPython
 
 def CheckCFile(files):
@@ -1267,38 +1268,38 @@ def CheckCFile(files):
 		JSONC[CFile] = {}
 		JSONC[CFile]["path"] = CFile
 		with open(CFile) as f:
-		    lN = 0
-		    moduleDesc = ""
-		    # Description, author, copyright, license
-		    ErrorConditions = [True, True, True, True]
-		    for line in f:
-			if (lN == 0) and ("#!/usr/bin/env C" not in line):
-				log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Header error ")
-			if ("__author__") in line:
-				ErrorConditions[1]=False
-				JSONC[CFile]["author"] = line
-			if ("__copyright__") in line:
-				ErrorConditions[2]=False
-			if ("__license__") in line:
-				ErrorConditions[3]=False
-			if ("'''Description") in line:
-				ErrorConditions[0]=False
-				moduleDesc = line.replace("'''", "").replace("Description:", "").strip()
- 				JSONC[CFile]["description"] = moduleDesc
+			lN = 0
+			moduleDesc = ""
+			# Description, author, copyright, license
+			ErrorConditions = [True, True, True, True]
+			for line in f:
+				if (lN == 0) and ("#!/usr/bin/env C" not in line):
+					log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Header error ")
+				if ("__author__") in line:
+					ErrorConditions[1]=False
+					JSONC[CFile]["author"] = line
+				if ("__copyright__") in line:
+					ErrorConditions[2]=False
+				if ("__license__") in line:
+					ErrorConditions[3]=False
+				if ("'''Description") in line:
+					ErrorConditions[0]=False
+					moduleDesc = line.replace("'''", "").replace("Description:", "").strip()
+					JSONC[CFile]["description"] = moduleDesc
 
-			line = line.rstrip('\r\n').rstrip('\n')
-			lN+=1
-		    if (ErrorConditions[0]):
-			log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing description")
-			CDesc.append("")
-		    else:
-			CDesc.append(moduleDesc)
-		    if (ErrorConditions[1]):
-			log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing Author ")
-		    if (ErrorConditions[2]):
-			log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing Copyright ")
-		    if (ErrorConditions[3]):
-			log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing License")
+				line = line.rstrip('\r\n').rstrip('\n')
+				lN+=1
+				if (ErrorConditions[0]):
+					log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing description")
+					CDesc.append("")
+				else:
+					CDesc.append(moduleDesc)
+				if (ErrorConditions[1]):
+					log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing Author ")
+				if (ErrorConditions[2]):
+					log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing Copyright ")
+				if (ErrorConditions[3]):
+					log.append("__[C]__ "+WarningMark+" `"+CFile+"` : Missing License")
 	return log,CDesc,JSONC
 
 def CheckInoFile(files):
@@ -1307,29 +1308,29 @@ def CheckInoFile(files):
 	for InoFile in files:
 		InoD = ""
 		with open(InoFile) as f:
-		    lN = 0
-		    # Description, author, copyright, license
-		    ErrorConditions = [True, True, True, True]
-		    for line in f:
-			if ("Description:") in line:
-				ErrorConditions[1]=False
-				InoD = line.replace("Description:", "").strip()
-			if ("Author:") in line:
-				ErrorConditions[2]=False
-			if ("Licence:") in line:
-				ErrorConditions[3]=False
-			if ("Copyright") in line:
-				ErrorConditions[0]=False
-			line = line.rstrip('\r\n').rstrip('\n')
-			lN+=1
-		    if (ErrorConditions[0]):
-			log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing description")
-		    if (ErrorConditions[1]):
-			log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing Author ")
-		    if (ErrorConditions[2]):
-			log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing Copyright ")
-		    if (ErrorConditions[3]):
-			log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing License")
+			lN = 0
+			# Description, author, copyright, license
+			ErrorConditions = [True, True, True, True]
+			for line in f:
+				if ("Description:") in line:
+					ErrorConditions[1]=False
+					InoD = line.replace("Description:", "").strip()
+				if ("Author:") in line:
+					ErrorConditions[2]=False
+				if ("Licence:") in line:
+					ErrorConditions[3]=False
+				if ("Copyright") in line:
+					ErrorConditions[0]=False
+				line = line.rstrip('\r\n').rstrip('\n')
+				lN+=1
+				if (ErrorConditions[0]):
+					log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing description")
+				if (ErrorConditions[1]):
+					log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing Author ")
+				if (ErrorConditions[2]):
+					log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing Copyright ")
+				if (ErrorConditions[3]):
+					log.append("__[Arduino]__ "+WarningMark+" `"+InoFile+"` : Missing License")
 		InoDesc.append(InoD)
 	return log, InoDesc
 
@@ -1338,45 +1339,45 @@ def CheckLink(path,autogen):
 	log = []
 	with open(path) as f:
 		if ("gitbook" not in path):
-		    for line in f:
-			patternCode = r"\]\((.*?)\)"
-			links = re.findall(patternCode, line, flags=0)
-			if len(links):
-			    for link in links:
-				    Error = False
+			for line in f:
+				patternCode = r"\]\((.*?)\)"
+				links = re.findall(patternCode, line, flags=0)
+				if len(links):
+					for link in links:
+						Error = False
 
-				    if not(autogen):
-				    	Message = "__[Links]__ "+RedMark+" `"+path+"`"
-				    else:
-					Message = "__[Links]__ "+WarningMark+" `"+path+"`"
+						if not(autogen):
+							Message = "__[Links]__ "+RedMark+" `"+path+"`"
+						else:
+							Message = "__[Links]__ "+WarningMark+" `"+path+"`"
 
-				    if ("wikilink" not in link) and ("http" not in link) and ("www" not in link) and  (not (link =="")) and  ("@autogenerated" not in link):
-					    if (not link.startswith("/") and "@description" not in link):
-						Error = True
-						Message += " : Error in link definition, non-absolute path in link to `"+link+"`"
-				    if (link.startswith("/")) and (link.endswith("/")):
-					if not (os.path.isdir("."+link)):
-						Error = True
-						Message += " : Link to non-existing folder `."+link+"`"
-				    if (link.startswith("/")) and not (link.endswith("/")):
-					if not (os.path.exists("."+link)):
-						Error = True
-						Message += " : Link to non-existing file `."+link+"`"
-				    if autogen:
-					Message = Message +" _(@autogenerated)_"
-				    if Error:
-					log.append(Message)
+						if ("wikilink" not in link) and ("http" not in link) and ("www" not in link) and  (not (link =="")) and  ("@autogenerated" not in link):
+							if (not link.startswith("/") and "@description" not in link):
+								Error = True
+								Message += " : Error in link definition, non-absolute path in link to `"+link+"`"
+						if (link.startswith("/")) and (link.endswith("/")):
+							if not (os.path.isdir("."+link)):
+								Error = True
+								Message += " : Link to non-existing folder `."+link+"`"
+						if (link.startswith("/")) and not (link.endswith("/")):
+							if not (os.path.exists("."+link)):
+								Error = True
+								Message += " : Link to non-existing file `."+link+"`"
+						if autogen:
+							Message = Message +" _(@autogenerated)_"
+						if Error:
+							log.append(Message)
 	return log
 # -------------------------
 # Creation of dev-kit sets
 # -------------------------
 
 def GetParams(ListOfItems):
-    results = []	
-    for item in ListOfItems:
-	pattern = r"<li>(.*?):"
-	results += re.findall(pattern, str(item), flags=0) 
-    return results
+	results = []
+	for item in ListOfItems:
+		pattern = r"<li>(.*?):"
+		results += re.findall(pattern, str(item), flags=0)
+	return results
 
 def getParam(Module,Parameter):
 	Param = "Missing parameter for "+Parameter
@@ -1400,36 +1401,36 @@ def CreateKits(path,pathmodules,FullSVG):
 	mJSON = []
 
 	for file in os.listdir(path):
-	    if file.endswith(".set.md"):
-		CostOfSet = ""
-		ListOfDirs = []
-		KitModuleFile = []
-		NomDuSet = file[:-7]
-		log.append("__[SET]__ Added `"+NomDuSet+"`\n")
-		Slides = Slides + "### "+NomDuSet+"\n\n<ul>"
-		with open(path+file) as f:
-		    for line in f:
-			line = line.rstrip('\r\n').rstrip('\n')
-			if len(line)>1 and not line.startswith("#"):
-				ListOfDirs.append(line)
-			if len(line)>1 and line.startswith("#"):
-				KitModuleFile.append(line)
-		SetName = ""
-		SetDescription = ""
+		if file.endswith(".set.md"):
+			CostOfSet = ""
+			ListOfDirs = []
+			KitModuleFile = []
+			NomDuSet = file[:-7]
+			log.append("__[SET]__ Added `"+NomDuSet+"`\n")
+			Slides = Slides + "### "+NomDuSet+"\n\n<ul>"
+			with open(path+file) as f:
+				for line in f:
+					line = line.rstrip('\r\n').rstrip('\n')
+					if len(line)>1 and not line.startswith("#"):
+						ListOfDirs.append(line)
+					if len(line)>1 and line.startswith("#"):
+						KitModuleFile.append(line)
+			SetName = ""
+			SetDescription = ""
 
-		for item in KitModuleFile:
-			if "#Title:" in str(item):
-				patternCode = r"#Title:(.*?)$"
-				if (re.findall(patternCode, str(item), flags=0)):
-					SetName = "## "+re.findall(patternCode, str(item), flags=0)[0]
-					
-			if "#Description:" in str(item):
-				patternCode = r"Description:(.*?)$"
-				if (re.findall(patternCode, str(item), flags=0)):
-					SetDescription = re.findall(patternCode, str(item), flags=0)[0]
+			for item in KitModuleFile:
+				if "#Title:" in str(item):
+					patternCode = r"#Title:(.*?)$"
+					if (re.findall(patternCode, str(item), flags=0)):
+						SetName = "## "+re.findall(patternCode, str(item), flags=0)[0]
 
-			item = item.replace("#", "")
-			Slides += "<li>"+item+"</li>\n"
+				if "#Description:" in str(item):
+					patternCode = r"Description:(.*?)$"
+					if (re.findall(patternCode, str(item), flags=0)):
+						SetDescription = re.findall(patternCode, str(item), flags=0)[0]
+
+				item = item.replace("#", "")
+				Slides += "<li>"+item+"</li>\n"
 
 		CostOfSet += SetName+"\n\n"+SetDescription.strip()+"\n"
 		CostOfSet += "\n\n"
@@ -1478,65 +1479,64 @@ def CreateKits(path,pathmodules,FullSVG):
 			if len(ModuleSourcing) == 0:
 				log.append("__[MDL "+eachInput+"]__ "+ RedMark+" Sourcing missing\n")
 
-			
 			# Getting the Innards of the Module // inside the block diagram
 			pattern = r"block diagram</h3>([\s\S]*)<h2>About"
-			results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+			results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0)
 			patternCode = r"<li>(.*?)</li>"
 
 			Pairs = []
 			GraphThisModule = digraph()
 			for item in results:
-			    Pairs= (map(str, re.findall(patternCode, item, flags=0)))
-			    for eachPair in Pairs:
-				eachPair = eachPair.replace("<code>", "")
-				eachPair = eachPair.replace("</code>", "")
-				Couples = eachPair.split("-&gt;")		
-				for single in Couples:
-				    GraphThisModule.node(single, style="rounded")
-				# Add the edge		
-				for k in range(len(Couples)-1):
-				    GraphThisModule.edge(Couples[k], Couples[k+1])
-				# GraphModules.render('include/'+ReadMe)
+				Pairs= (map(str, re.findall(patternCode, item, flags=0)))
+				for eachPair in Pairs:
+					eachPair = eachPair.replace("<code>", "")
+					eachPair = eachPair.replace("</code>", "")
+					Couples = eachPair.split("-&gt;")
+					for single in Couples:
+						GraphThisModule.node(single, style="rounded")
+					# Add the edge
+					for k in range(len(Couples)-1):
+						GraphThisModule.edge(Couples[k], Couples[k+1])
+					# GraphModules.render('include/'+ReadMe)
 
 			# OK - Getting the Inputs of the Module
 			Module = []
 			ItemList =  returnHList(soupSet,"h3","Inputs")
-		 	for OneIO in ItemList:
+			for OneIO in ItemList:
 				codes = getCode(OneIO)
 				if len(codes) > 0:
-				    for EachIO in codes:
-					Module.append(EachIO)
+					for EachIO in codes:
+						Module.append(EachIO)
 			if len(Module)>0:
-			    for item in Module:
-				if "ITF-m" not in item:
-				    GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
-				else:
-				    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
-				GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
+				for item in Module:
+					if "ITF-m" not in item:
+						GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
+					else:
+						GraphModules.node(item, style="rounded,filled", fillcolor="green")
+					GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
 
 
 			# Getting the Ouputs of the Module
 			ItemList =  returnHList(soupSet,"h3","Outputs")
-		 	for OneIO in ItemList:
+			for OneIO in ItemList:
 				codes = getCode(OneIO)
 				if len(codes) > 0:
-				    for EachIO in codes:
-					Module.append(EachIO)
+					for EachIO in codes:
+						Module.append(EachIO)
 			if len(Module)>0:
-			    for item in Module:
-				if "ITF-m" not in item:
-				    GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
-				else:
-				    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
-				GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
-			GraphModules.edge(ReadMe, item, splines="line", nodesep="1", fillcolor="red")
+				for item in Module:
+					if "ITF-m" not in item:
+						GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
+					else:
+						GraphModules.node(item, style="rounded,filled", fillcolor="green")
+					GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
+					GraphModules.edge(ReadMe, item, splines="line", nodesep="1", fillcolor="red")
 
 
 			GraphPath = path+"/sets/"+NomDuSet
 			if FullSVG:
-				GraphModules.render(GraphPath)	
-				Svg2Png(GraphPath) 
+				GraphModules.render(GraphPath)
+				Svg2Png(GraphPath)
 		CostOfSet+="\n\n_Total cost of the set: "+str(PrixSet)+"$_\n\n"
 		OpenWrite(CostOfSet,path+"/sets/"+NomDuSet+".cost.md")
 		AllCosts += CostOfSet

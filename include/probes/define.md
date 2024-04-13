@@ -183,6 +183,11 @@
 * smalldesc: Ultrasound Interson VC 3.5MHz USB probe. 
 * longdesc: Ultrasound Interson VC 3.5MHz USB probe.
 
+# wirelessdual
+* code:wirelessdual
+* smalldesc: wirelessdual probe.
+* longdesc:  wirelessdual probe.
+
 # ir1510ak
 * code:ir1510ak
 * smalldesc: ir1510ak kretz probe.

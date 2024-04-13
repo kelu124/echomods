@@ -1,3 +1,4 @@
+* 20240416a: Testing pic0rick
 * 20210425a: Annular MUXed: testing an annular transducer on a pink phantom
 * 20210424a: BiVi piezo on the MUX: First tests of the MUX
 * 20210129a: `Tri` two probes: Tri's tests with two probes 

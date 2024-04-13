@@ -6,7 +6,7 @@
 # -------------------------
 # Requires GraphViz and Wand
 # -------------------------
-# Use ./makedoc.py full  
+# Use ./makedoc.py full
 # to have the graphs generated
 # -------------------------
 
@@ -28,9 +28,7 @@ import functools
 #import wand.image
 from PIL import Image
 import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
-from bs4 import BeautifulSoup 
+from bs4 import BeautifulSoup
 from doc.mkdoc import *
 from pprint import pprint
 
@@ -61,14 +59,15 @@ OpenWrite("# Status of suppliers\n\n"+Suppliers,"retired/cletus/suppliers/Readme
 d = GetLogs("./")
 OpenWrite ( CreateWorkLog(d) , "include/AllLogs.md")
 
-CopyGitBookFile("include/AllLogs.md","gitbook/Chapter4/AllLogs.md") 
+if 0:
+	CopyGitBookFile("include/AllLogs.md","gitbook/Chapter4/AllLogs.md") 
 
 # -------------------------
 # Probes
 # -------------------------
 
 ListOfProbes,GrosJaSON = ListProbes("./include/probes/define.md",GrosJaSON)
-print ListOfProbes
+print(ListOfProbes)
 # -------------------------
 # Contributors
 # -------------------------
@@ -108,18 +107,18 @@ for k in ImgList:
 
 	GrosJaSON["images"][k]["category"] = AllTags[2]
 	GrosJaSON["images"][k]["experiment"] = AllTags[3]
-	GrosJaSON["images"][k]["description"] = AllTags[4] 
+	GrosJaSON["images"][k]["description"] = AllTags[4]
 
 	ListIfImages.append(AllTags)
 	if "ToTag" not in AllTags[3]:
-	    if len(probeFound):
-		GrosJaSON["probes"][probe]["experiments"].append(AllTags[3])
-		#print GrosJaSON["probes"][probe]["experiments"]
-	    if len(AllTags[3]):
-		ListOfExperiment.append(AllTags[3])
-	    if AllTags[0] in GrosJaSON["contributors"].keys():
-		GrosJaSON["contributors"][AllTags[0]]["experiments"].append(AllTags[3])
-		#print AllTags[0],AllTags[3]    
+		if len(probeFound):
+			GrosJaSON["probes"][probe]["experiments"].append(AllTags[3])
+			#print GrosJaSON["probes"][probe]["experiments"]
+		if len(AllTags[3]):
+			ListOfExperiment.append(AllTags[3])
+		if AllTags[0] in GrosJaSON["contributors"].keys():
+			GrosJaSON["contributors"][AllTags[0]]["experiments"].append(AllTags[3])
+		#print AllTags[0],AllTags[3]
 	GenFiles+= "* __"+k+"__:\n  * "+"\n  * ".join(AllTags)+"\n"
 
 ListOfExperiment = list(set(ListOfExperiment))
@@ -227,8 +226,8 @@ for i in range(len(ListeOfTPL)):
 	CheckRef = CreateRefFiles(NbMDManuels,ListeOfTPL[i][1:],MDFiles[4],MDFiles[5])
 	TPLLog += CheckRef[0]
 	log = log+CheckRef[1]
-	TPLLog +="\n"
-	## 
+	TPLLog += "\n"
+	##
 	#print "-- "+ListeOfTPL[i][2:]
 	for pp in range(1):
 		# Doing it twice for tpl using tpl-generated files
@@ -253,19 +252,24 @@ GrosJaSON["python"] = {}
 for pythonfile in ListeOfPython:
 	path = pythonfile[1:]
 
-	GrosJaSON["python"][path] = {} 
-	GrosJaSON["python"][path]["path"] = path 
+	GrosJaSON["python"][path] = {}
+	GrosJaSON["python"][path]["path"] = path
 
 log = log+PythonFiles[0]
 
+
 for i in range(len(PythonFiles[1])):
-	PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i] 
-	CheckRef = CreateRefFiles(NbMDManuels,ListeOfPython[i][1:],MDFiles[4],MDFiles[5])
-	GrosJaSON["python"][ ListeOfPython[i][1:] ]["references"] = CheckRef[2]	# checks if any file refer to the python
-	PythonLog += CheckRef[0]
-	log = log+CheckRef[1]
-	PythonLog +="\n"
-OpenWrite(PythonLog,"include/FilesList/PythonFiles.md")
+	try:
+		PythonLog += "* ["+ListeOfPython[i].split("/")[-1]+"]("+ListeOfPython[i][1:]+"): "+PythonFiles[1][i]
+		CheckRef = CreateRefFiles(NbMDManuels,ListeOfPython[i][1:],MDFiles[4],MDFiles[5])
+		##@TODO ca a l'air de planter la
+		GrosJaSON["python"][ ListeOfPython[i][1:] ]["references"] = CheckRef[2]	# checks if any file refer to the python
+		PythonLog += CheckRef[0]
+		log = log+CheckRef[1]
+		PythonLog +="\n"
+	except:
+		print("Error with ",i,"at source python")
+OpenWrite(PythonLog+"\n\nDONE!","include/FilesList/PythonFiles.md")
 
 # -------------------------
 # Source code listing
@@ -284,12 +288,15 @@ for pythonfile in ListeOfC:
 log = log+CFiles[0]
 
 for i in range(len(CFiles[1])):
-	CLog += "* ["+ListeOfC[i].split("/")[-1]+"]("+ListeOfC[i][1:]+"): "+CFiles[1][i] 
-	CheckRef = CreateRefFiles(NbMDManuels,ListeOfC[i][1:],MDFiles[4],MDFiles[5])
-	GrosJaSON["C"][ ListeOfC[i][1:] ]["references"] = CheckRef[2]	# checks if any file refer to the python
-	CLog += CheckRef[0]
-	log = log+CheckRef[1]
-	CLog +="\n"
+	try:
+		CLog += "* ["+ListeOfC[i].split("/")[-1]+"]("+ListeOfC[i][1:]+"): "+CFiles[1][i] 
+		CheckRef = CreateRefFiles(NbMDManuels,ListeOfC[i][1:],MDFiles[4],MDFiles[5])
+		GrosJaSON["C"][ ListeOfC[i][1:] ]["references"] = CheckRef[2]	# checks if any file refer to the python
+		CLog += CheckRef[0]
+		log = log+CheckRef[1]
+		CLog +="\n"
+	except:
+		print("Error with ",i,"at C source")
 OpenWrite(CLog,"include/FilesList/CFiles.md")
 
 ## Jupyter files
@@ -347,12 +354,11 @@ OpenWrite(AllFilesLog,"include/FilesList/AllFiles.md")
 # Creating Experiments
 # -------------------------
 
-
 AllExpeList,ExpeJSON,LogExpe = MakeExperiments(ListOfExperiment,ListIfImages,GrosJaSON)
 log = log+LogExpe
 GrosJaSON["experiments"] = ExpeJSON
 
-# Adding Experiments descriptions in
+	# Adding Experiments descriptions in
 
 GrosJaSON,GHList = DescribeExpes(GrosJaSON)
 
@@ -408,12 +414,12 @@ for ReadMe in ListOfDirs:
 	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
 	# OK - Check real name
 	ModuleNomenclature = getHs(soup,"h2","Name")
-	if len(ModuleNomenclature)>0: 
-	    NameCheck = "__[MDL "+ReadMe+ "]__ "+GreenMark+" 01. Real name found: "+ModuleNomenclature.find_next("code").text+"\n"
-	    log.append(NameCheck)
-	if len(NameCheck)==0:
-	    log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 01. No Real name found "+"\n")
- 
+	if len(ModuleNomenclature)>0:
+		NameCheck = "__[MDL "+ReadMe+ "]__ "+GreenMark+" 01. Real name found: "+ModuleNomenclature.find_next("code").text+"\n"
+		log.append(NameCheck)
+		if len(NameCheck)==0:
+			log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 01. No Real name found "+"\n")
+
 	[soup,ReadMehHtmlMarkdown] = returnSoup(ReadMe+"/Readme.md")
 	# Getting the Desc of the Module
 	ModuleDesc = getHs(soup,"h3","What is it supposed to do?")
@@ -423,58 +429,58 @@ for ReadMe in ListOfDirs:
 	# OK - Getting the Innards of the Module // inside the block diagram
 	GraphThisModule = digraph()
 	Paires =  returnHList(soup,"h3","block diagram")
-   	if (len(Paires) > 0):
+	if (len(Paires) > 0):
 		GraphModule(Paires,GraphThisModule,ReadMe,FullSVG)
 		log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" 01. Block diagram OK"+"\n")
 	else:
-	    	log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 01. No block diagram section "+"\n")
+		log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 01. No block diagram section "+"\n")
 
 	# OK - Getting the Inputs of the Module
 	ItemList =  returnHList(soup,"h3","Inputs")
 	inpoots = ""
 	Module = []
- 	for OneIO in ItemList:
+	for OneIO in ItemList:
 		codes = getCode(OneIO)
 		if len(codes) > 0:
-		    for EachIO in codes:
-			Module.append(EachIO)
+			for EachIO in codes:
+				Module.append(EachIO)
 	if len(Module)>0:
-	    inpoots = "<ul>"
-	    for item in Module:
-		inpoots += "<li>"+item+"</li>"
-		if "ITF-m" not in item:
-		    GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
-		else:
-		    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
-		GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
-	    inpoots += "</ul>"
-	    log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" "+str(len(ItemList))+" input(s)"+"\n")
+		inpoots = "<ul>"
+		for item in Module:
+			inpoots += "<li>"+item+"</li>"
+			if "ITF-m" not in item:
+				GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
+			else:
+				GraphModules.node(item, style="rounded,filled", fillcolor="green")
+			GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
+			inpoots += "</ul>"
+			log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" "+str(len(ItemList))+" input(s)"+"\n")
 	if len(ItemList)==0:
-	    log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 02. No inputs "+"\n")
+		log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 02. No inputs "+"\n")
 
 
 	# OK - Getting the Outputs of the Module
 	ItemList =  returnHList(soup,"h3","Outputs")
 	Module = []
 	outpoots = ""
- 	for OneIO in ItemList:
+	for OneIO in ItemList:
 		codes = getCode(OneIO)
 		if len(codes) > 0:
-		    for EachIO in codes:
-			Module.append(EachIO)
+			for EachIO in codes:
+				Module.append(EachIO)
 	if len(Module)>0:
-	    outpoots = "<ul>"
-	    for item in Module:
-		outpoots += "<li>"+item+"</li>"
-		if "ITF-m" not in item:
-		    GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
-		else:
-		    GraphModules.node(item, style="rounded,filled", fillcolor="green")		
-		GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
-	    outpoots += "</ul>"
-	    log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" "+str(len(ItemList))+" output(s)"+"\n")
-	if len(ItemList)==0:
-	    log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 02. No outputs "+"\n")
+		outpoots = "<ul>"
+		for item in Module:
+			outpoots += "<li>"+item+"</li>"
+			if "ITF-m" not in item:
+				GraphModules.node(item, style="rounded,filled", fillcolor="yellow")
+			else:
+				GraphModules.node(item, style="rounded,filled", fillcolor="green")
+			GraphModules.edge(item, ReadMe, splines="line", nodesep="1")
+			outpoots += "</ul>"
+			log.append("__[MDL "+ReadMe+ "]__ "+GreenMark+" "+str(len(ItemList))+" output(s)"+"\n")
+			if len(ItemList)==0:
+				log.append("__[MDL "+ReadMe+ "]__ "+RedMark+" 02. No outputs "+"\n")
 
 
 	TableModules += "|<img src='https://github.com/kelu124/echomods/blob/master/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
@@ -500,52 +506,55 @@ for ReadMe in ListOfRetiredDirs:
 
 	# Getting the Desc of the Module
 	pattern = r"</h3>([\s\S]*)<h3>How"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0)
 	patternCode = r"<p>(.*?)</p>"
 	Desc = []
 	for item in results:
-	    Desc = map(str, re.findall(patternCode, item, flags=0))
-	#print Desc
-	Desc = Desc[0]
+		Desc = map(str, re.findall(patternCode, item, flags=0))
+	print(list(Desc))
+	if len(list(Desc)) >= 1:
+		Desc = list(Desc)[0]
+	else:
+		Desc = ""
 
 	# Getting the Innards of the Module // inside the block diagram
 	pattern = r"block diagram</h3>([\s\S]*)<h2>About"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0)
 	patternCode = r"<li>(.*?)</li>"
 	Pairs = []
 	GraphThisModule = digraph()
 	for item in results:
-            Pairs= (map(str, re.findall(patternCode, item, flags=0)))
-	    for eachPair in Pairs:
-		eachPair = eachPair.replace("<code>", "")
-		eachPair = eachPair.replace("</code>", "")
-		Couples = eachPair.split("-&gt;")		
+		Pairs= (map(str, re.findall(patternCode, item, flags=0)))
+		for eachPair in Pairs:
+			eachPair = eachPair.replace("<code>", "")
+			eachPair = eachPair.replace("</code>", "")
+			Couples = eachPair.split("-&gt;")
 
 	# Getting the Inputs of the Module
 	pattern = r"Inputs</h3>([\s\S]*)<h3>Outputs"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0)
 	patternCode = r"<code>(.*?)</code>"
 	Inputs = []
 	for item in results:
-	    Inputs = map(str, re.findall(patternCode, item, flags=0))
-	if len(Inputs) > 0:
-		inpoots = "<ul><li>"+"</li><li>".join( Inputs )+"</li></ul>"
-	else:
-		inpoots = ""
-	
+		Inputs = map(str, re.findall(patternCode, item, flags=0))
+		if len(list(Inputs)) > 0:
+			inpoots = "<ul><li>"+"</li><li>".join( Inputs )+"</li></ul>"
+		else:
+			inpoots = ""
+
 
 
 	# Getting the Ouputs of the Module
 	pattern = r"Outputs</h3>([\s\S]*)<h2>Key"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0)
 	patternCode = r"<code>(.*?)</code>"
 	Outputs = []
 	for item in results:
-	    Outputs = map(str, re.findall(patternCode, item, flags=0))
-	if len(Outputs) > 0:
-		outpoots = "<ul><li>"+"</li><li>".join( Outputs )+"</li></ul>"
-	else:
-		outpoots = ""
+		Outputs = map(str, re.findall(patternCode, item, flags=0))
+		if len(list(Outputs)) > 0:
+			outpoots = "<ul><li>"+"</li><li>".join( Outputs )+"</li></ul>"
+		else:
+			outpoots = ""
 
 
 	TableRetiredModules += "|<img src='https://github.com/kelu124/echomods/blob/master/retired/"+ReadMe+"/viewme.png' align='center' width='150'>|**["+ReadMe+"](/retired/"+ReadMe+"/Readme.md)**: "+Desc+"|"+inpoots+"|"+outpoots+"|\n"
@@ -571,46 +580,46 @@ for ReadMe in ListOfDirs:
 	#print ReadMehHtmlMarkdown
 	# Getting the todo-list for the module
 	pattern = r"Discussions</h2>([\s\S]*)<h3>DONE"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0)
 	patternCode = r"<li>(.*?)</li>"
 	bonus = 0
- 
+
 	for item in results:
 
-            todos = (map(str, re.findall(patternCode, item, flags=0))) 
-	    if len(todos) > 0:
-		TODO = "<ul><li>"+"</li><li>".join( todos )+"</li></ul>"
-		for todo in todos:
-		    TODOsToShopping = TODOsToShopping+"* "+todo+" (in ["+ReadMe+"](/"+ReadMe+"/))\n"
-	    else:
-		TODO = ""
-	    for itemtodo in todos:
-		    if "BONUS!" in itemtodo:
-	 		bonus = bonus + 1
-        #print bonus
+		todos = list(map(str, re.findall(patternCode, item, flags=0)))
+		if len(todos) > 0:
+			TODO = "<ul><li>"+"</li><li>".join( todos )+"</li></ul>"
+			for todo in todos:
+				TODOsToShopping = TODOsToShopping+"* "+todo+" (in ["+ReadMe+"](/"+ReadMe+"/))\n"
+		else:
+			TODO = ""
+		for itemtodo in todos:
+			if "BONUS!" in itemtodo:
+				bonus = bonus + 1
+	#print bonus
 	# Getting the done-list for the module
 	pattern = r"DONE</h3>([\s\S]*)<h3>People"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0)
 	patternCode = r"<li>(.*?)</li>"
 	for item in results:
-            dones = (map(str, re.findall(patternCode, item, flags=0)))
-	    if len(dones) > 0:
-		DONE = "<ul><li>"+"</li><li>".join( dones )+"</li></ul>"
-	    else:
-		DONE = ""
+		dones = list(map(str, re.findall(patternCode, item, flags=0)))
+		if len(dones) > 0:
+			DONE = "<ul><li>"+"</li><li>".join( dones )+"</li></ul>"
+		else:
+			DONE = ""
 	# Getting the peoplefor the module
 	pattern = r"People</h3>([\s\S]*)<h2>License"
-	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0)
 	patternCode = r"<li>(.*?)</li>"
 	for item in results:
-            peoples = (map(str, re.findall(patternCode, item, flags=0)))
-	    if len(peoples) > 0:
-		PEOPLE = "<ul><li>"+"</li><li>".join( peoples )+"</li></ul>"
-	    else:
-		PEOPLE = ""
-	# Getting the progress	
+		peoples = list(map(str, re.findall(patternCode, item, flags=0)))
+		if len(peoples) > 0:
+			PEOPLE = "<ul><li>"+"</li><li>".join( peoples )+"</li></ul>"
+		else:
+			PEOPLE = ""
+	# Getting the progress
 	nbDone = len(dones)
-	todos = (map(str, re.findall(patternCode, item, flags=0)))
+	todos = list(map(str, re.findall(patternCode, item, flags=0)))
 	nbTodo = len(todos)
 
 	if (nbTodo+nbDone)>0:
@@ -624,9 +633,9 @@ TableAvancement +="\n\n"
 # Getting Todos from the worklog
 WorklogTodos = "\n\n### Todos from worklog\n"
 with open("Worklog.md") as f:
-    for line in f:
-        if "@todo" in line:
-		WorklogTodos += line.replace("@todo","").replace("  "," ")
+	for line in f:
+		if "@todo" in line:
+			WorklogTodos += line.replace("@todo","").replace("  "," ")
 
 
 TODOsToShopping = AddShoppingList+TODOsToShopping+WorklogTodos+"\n\n"
@@ -654,7 +663,7 @@ GraphModulesTxt = "\n# The modules organization \n\n"
 GraphModulesTxt += "![Graph](/include/sets/basic.png) \n\n"
 
 FinalDoc =  pitch+"\n\n"+HeaderDocTxt+AddStructure+GraphModulesTxt+TableModules+"\n\n"+GHList+"\n\n"+TableAvancement+TODOsToShopping+TableRetiredDocTxt+AddInterfacesDocTxt+AddLicenseDocTxt
-
+print(GHList)
 OpenWrite(GHList,"include/rmGHList.md")
 OpenWrite(TableRetiredDocTxt,"include/rmRetiredModules.md")
 OpenWrite(TODOsToShopping,"include/rmTODOsToShopping.md")
@@ -690,23 +699,23 @@ f.close()
 pattern = r"<li>TODO: (.*?)</li>"
 results = re.findall(pattern, WorkLogMd, flags=0) 
 for item in results:
-    GraphMyMind.node(item.replace(':', '-'), style="rounded,filled", fillcolor="yellow", penwidth="0")
+	GraphMyMind.node(item.replace(':', '-'), style="rounded,filled", fillcolor="yellow", penwidth="0")
 
 pattern = r"Graphing</h3>([\s\S]*)</ul>"
 results = re.findall(pattern, WorkLogMd, flags=0) 
 patternCode = r"<li>(.*?)</li>"
 for item in results:
-    Pairs= (map(str, re.findall(patternCode, item, flags=0)))
-    for eachPair in Pairs:
-	eachPair = eachPair.replace("<li>", "")
-	eachPair = eachPair.replace("</li>", "")
-	Couples = eachPair.split("-&gt;")		
-	for single in Couples:
-	    GraphMyMind.node(single, penwidth="0")
-	# Add the edge		
-	for k in range(len(Couples)-1):
-	    GraphMyMind.edge(Couples[k], Couples[k+1])
-	
+	Pairs= (map(str, re.findall(patternCode, item, flags=0)))
+	for eachPair in Pairs:
+		eachPair = eachPair.replace("<li>", "")
+		eachPair = eachPair.replace("</li>", "")
+		Couples = eachPair.split("-&gt;")		
+		for single in Couples:
+			GraphMyMind.node(single, penwidth="0")
+		# Add the edge		
+		for k in range(len(Couples)-1):
+			GraphMyMind.edge(Couples[k], Couples[k+1])
+
 GraphPath = 'include/GraphMyMind'
 GraphMyMind = apply_styles(GraphMyMind, styles)
 
@@ -720,370 +729,368 @@ if FullSVG:
 # -------------------------
 # Creating blog posts with the worklog
 # -------------------------
+if 0:
+
+	f = open("Worklog.md", 'r')
+	WorkLogText = f.read() 
+	ReadMehHtmlMarkdown=markdown.markdown( WorkLogText )
+	f.close()
+
+	# Getting the title of the article
+	pattern = r"<h4>(\d{4}-\d{2}-\d{2}.*)<\/h4>" # gets the contents
+	results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
+	titre = r"(.?*)<\/h4>" # gets the titles
+	resultstitre = re.findall(pattern, results[0], flags=0) 
+
+	ListePosts = []
+	for content in results:
+		pair = []
+		pattern2 = r""+content+"<\/h4>[\s\S]*?<h" # gets the titles
+		results2 = "<h4>"+re.findall(pattern2, ReadMehHtmlMarkdown, flags=0)[0]+"4>"
+		contenu = results2+"\n\n\n"
+		tmp = re.findall(pattern, contenu, flags=0)[0]
+		pair.append(tmp)
+		pair.append(contenu)
+		ListePosts.append(pair)
 
 
-f = open("Worklog.md", 'r')
-WorkLogText = f.read() 
-ReadMehHtmlMarkdown=markdown.markdown( WorkLogText )
-f.close()
+	for item in ListePosts:
+		titre = str(item[0])
+		titre2=titre
+		titre = titre.replace(" ", "-")
+		adresse = "./gh-pages/_posts/"+titre+".html"
+		postcontent = str(item[1])
+		entete = "--- <p>layout: post<p>title: "+titre2+"<p>---<p>"
+		# We save the post
+		text_file = open(adresse, "w")
+		text_file.write(entete+postcontent)
+		text_file.close()
 
-# Getting the title of the article
-pattern = r"<h4>(\d{4}-\d{2}-\d{2}.*)<\/h4>" # gets the contents
-results = re.findall(pattern, ReadMehHtmlMarkdown, flags=0) 
-titre = r"(.?*)<\/h4>" # gets the titles
-resultstitre = re.findall(pattern, results[0], flags=0) 
+	log.append("__[WEB Blog]__ "+str(len(ListePosts))+" posts added"+"\n")
 
-ListePosts = []
-for content in results:
-	pair = []
-	pattern2 = r""+content+"<\/h4>[\s\S]*?<h" # gets the titles
-	results2 = "<h4>"+re.findall(pattern2, ReadMehHtmlMarkdown, flags=0)[0]+"4>"
-	contenu = results2+"\n\n\n"
-	tmp = re.findall(pattern, contenu, flags=0)[0]
-	pair.append(tmp)
-	pair.append(contenu)
-	ListePosts.append(pair)
-
-
-for item in ListePosts:
-	titre = str(item[0])
-	titre2=titre
-	titre = titre.replace(" ", "-")
-	adresse = "./gh-pages/_posts/"+titre+".html"
-	postcontent = str(item[1])
-	entete = "--- <p>layout: post<p>title: "+titre2+"<p>---<p>"
-	# We save the post
-	text_file = open(adresse, "w")
-	text_file.write(entete+postcontent)
-	text_file.close()
-
-log.append("__[WEB Blog]__ "+str(len(ListePosts))+" posts added"+"\n")
-
+GrosJaSON = CreateProbesFiles(GrosJaSON)
 
 # -------------------------------------------------- #
 #                    Gitbooking                      #
 # -------------------------------------------------- #
+if 0:
+	# -------------------------
+	# Gitbooking worklog
+	# -------------------------
 
-# -------------------------
-# Gitbooking worklog
-# -------------------------
-
-MyLogs =  SearchString(WorkLogText,"-------","uControllers")
-OpenWrite(MyLogs,"include/AddMyLogs.md")
-
-
-# -------------------------
-# Preface
-# -------------------------
-
-Preface = AddRawHURL(AddOneLevel(getText("include/AddPitch.md")) + "\n" + getText("include/AddEchomods.md")) 
-OpenWrite(IncludeImage(Preface),"gitbook/README.md")
+	MyLogs =  SearchString(WorkLogText,"-------","uControllers")
+	OpenWrite(MyLogs,"include/AddMyLogs.md")
 
 
-# -------------------------
-# Adding CHAPTER 1 : Histoire et principe des ultrasons
-# -------------------------
+	# -------------------------
+	# Preface
+	# -------------------------
 
-CopyGitBookFile("include/AddHistory.md","gitbook/Chapter1/history.md")
-CopyGitBookFile("/WordOfCaution.md","gitbook/caution.md")
-
-AddEngineering = getText("include/AddEngineering.md")
-OpenWrite(IncludeImage(AddRawHURL(AddEngineering)),"gitbook/Chapter1/engineering.md")
-
-PrinciplesOfEchoes = ""
-f = open("include/AddPrinciples.md", 'r')
-PrinciplesOfEchoes += f.read()
-f.close()
-f = open("include/AddStructure.md", 'r')
-PrinciplesOfEchoes += f.read()
-f.close()
-f = open("include/AddStructureDetails.md", 'r')
-PrinciplesOfEchoes += f.read()
-f.close()
-
-OpenWrite(IncludeImage(AddRawHURL(PrinciplesOfEchoes)),"gitbook/Chapter1/principles.md")
-OpenWrite(AddRawHURL(HeaderDocTxt),"gitbook/Chapter1/modules.md")
-
-CopyGitBookFile("include/NDT.md","gitbook/Chapter1/ndt.md")
-
-# list of modules
-OpenWrite(IncludeImage(AddRawHURL(TableModulesShort+"\n\n"+TableRetiredDocTxt)),"gitbook/Chapter1/listofmodules.md")
-
-# -------------------------
-# Adding Quickstart
-# -------------------------
-
-GrosJaSON = CreateProbesFiles(GrosJaSON)
-for probe in GrosJaSON["probes"].keys():
-	CopyGitBookFile("include/probes/auto/"+probe+".md","gitbook/probes/"+probe+".md")
-
-CopyGitBookFile("include/probes/Readme.md","gitbook/probes/Readme.md")
-
-CopyGitBookFile("include/QuickStart.md","gitbook/Chapter1/QuickStart.md")
-
-# -------------------------
-# Adding RPi article
-# -------------------------
-
-# RPI = GetIncludes(getText("include/RPiHSDK.md"),  MDFiles[5], MDFiles[4],"include/RPiHSDK.md")
-# RPI_article = RPI[0]
-# OpenWrite(IncludeImage(AddRawHURL(RPI_article)),"gitbook/RPI.md")
-# log += RPI[1]
-CopyGitBookFile("include/RPiHSDK.md","gitbook/RPI.md")
-
-# -------------------------
-# Adding CHAPTER 2 : Basic kit
-# -------------------------
-
-for eachModule in ModulesChaptDeux:
-	ModuleDesc = getText(eachModule+"/Readme.md")
-	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
-
-for eachModule in ModulesChaptDeuxRT:
-	ModuleDesc = getText("./retired/"+eachModule+"/Readme.md")
-	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,"retired/"+eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
-
-# Resume pour Murgen
-MurgenSummary = "# The first iteration, Murgen\n\n"
-f = open("include/AddMurgenSummary.md", 'r')
-MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
-f.close()
-f = open("./../murgen-dev-kit/Readme.md", 'r')
-MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
-f.close()
-OpenWrite(AddRawMurgenURL(MurgenSummary)+"\n\n","gitbook/devkit0.md")
-
-# Resume pour le wireless
-
-WirelessSet = "# Wireless implementation of the modules\n\n"+"\n\n"
-WirelessSet += AddOneLevel(getText("include/AddWireless.md"))+"\n\n"
-WirelessSet += AddOneLevel(getText("include/sets/wifi-dev-kit.cost.md"))+"\n\n"
-WirelessSet += AddOneLevel(getText("retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md"))+"\n\n"
-OpenWrite(IncludeImage(AddRawHURL(WirelessSet))+"\n\n","gitbook/devkit11.md")
-
-# Resume pour le basicdevkit
-
-BasicKit = "# Basic Dev Kit with BeagleBone\n\n"+"\n\n"
-BasicKit += AddOneLevel(getText("include/AddBasicDevKit.md"))+"\n\n"
-BasicKit += AddOneLevel(getText("include/sets/highspeed.cost.md"))+"\n\n"
-BasicKit +=    AddOneLevel(getText("include/AddBasicDevKitResults.md"))+"\n\n"
-OpenWrite(BasicKit+"\n\n","include/basicdevkit.md")
-
-OpenWrite(IncludeImage(AddRawHURL(BasicKit))+"\n\n","gitbook/Chapter2/basicdevkit.md")
+	Preface = AddRawHURL(AddOneLevel(getText("include/AddPitch.md")) + "\n" + getText("include/AddEchomods.md")) 
+	OpenWrite(IncludeImage(Preface),"gitbook/README.md")
 
 
+	# -------------------------
+	# Adding CHAPTER 1 : Histoire et principe des ultrasons
+	# -------------------------
 
-# Resume technique de Murgen
-OpenWrite(AddRawHURL(getText("include/AddIntroMurgen.md"))+"\n\n","gitbook/Chapter2/murgensetup.md")
+	CopyGitBookFile("include/AddHistory.md","gitbook/Chapter1/history.md")
+	CopyGitBookFile("/WordOfCaution.md","gitbook/caution.md")
 
-# Adding zach's work
-Zach = ""
-f = open("./../murgen-dev-kit/worklog/Zach/Zach.md", 'r')
-Zach = f.read()
-f.close()
+	AddEngineering = getText("include/AddEngineering.md")
+	OpenWrite(IncludeImage(AddRawHURL(AddEngineering)),"gitbook/Chapter1/engineering.md")
 
-f = open("./../murgen-dev-kit/worklog/Zach/2016-06-22.md", 'r')
-Zach = Zach+"\n\n"+AddOneLevel(f.read())
-f.close()
-
-f = open("./../murgen-dev-kit/worklog/Zach/2016-07-06.md", 'r')
-Zach = Zach+"\n\n"+AddOneLevel(f.read())
-f.close()
-
-
-OpenWrite(AddRawMurgenURL(Zach)+"\n\n","gitbook/Chapter2/zach.md")
-OpenWrite(AddRawMurgenURL(getText("./../murgen-dev-kit/hardware/Readme.md"))+"\n\n","gitbook/Chapter2/murgenhardware.md")
-OpenWrite(AddRawMurgenURL(getText("./../murgen-dev-kit/software/Readme.md"))+"\n\n","gitbook/Chapter2/murgensoftware.md")
-
-
-
-# -------------------------
-# Adding CHAPTER 3 : Modules
-# -------------------------
-
-for eachModule in ModulesChaptTrois:
-	ModuleDesc = getText(eachModule+"/Readme.md")
-	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
-
-for eachModule in ModulesChaptTroisRT:
-	ModuleDesc = getText("./retired/"+eachModule+"/Readme.md")
-	OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,"retired/"+eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
-
-CopyGitBookBomanzFile("../bomanz/Readme.md","gitbook/Chapter3/bomanz.md")
-CopyGitBookBomanzFile("../bomanz/20170430-PushingADCLimits.md","gitbook/Chapter3/bomanz2.md")
-
-
-CopyGitBookFile("retroATL3/2017-05-20_APeakInside.md","gitbook/Chapter3/atl_more.md")
-
-# -------------------------
-# Adding CHAPTER 4 : Notes and worklog
-# -------------------------
-
-walk_dir = "./"
-DetailedLogs = []
-notesLogs = []
-for root, subdirs, files in os.walk(walk_dir):
-  	for filename in files:
-	    file_path = os.path.join(root, filename)
-	    if (".md" in filename in filename and not "gh-pages" in file_path and not "gitbook" in file_path):
-		if ("2016-" in filename):
-			DetailedLogs.append(file_path)
-		if ("notes_" in filename):
-			notesLogs.append(file_path)
-
-detailedLogText = "# Detailed logs of experiments\n\n"
-for detailedlog in DetailedLogs:
-	Adddetailedlog = open(detailedlog)
-	detailedlog = detailedlog.split('/')[-1].replace(".md", "")
-	detailedLogText += "# "+detailedlog+"\n\n"
-	detailedLogText += AddTwoLevels(Adddetailedlog.read())+"\n\n"
-	Adddetailedlog.close()
-
-detailedNotesText = "# Detailed notes of research\n\n"
-for detailednote in notesLogs:
-	Adddetailednote = open(detailednote)
-	detailednote = detailednote.split('/')[-1].replace(".md", "").replace("notes_", "Notes on ")
-	detailedNotesText += "# "+detailednote+"\n\n"
-	detailedNotesText += AddTwoLevels(Adddetailednote.read())+"\n\n"
-	Adddetailednote.close()
-
-# Saving it in a file
-OpenWrite("# Introduction to the Chapter 4\n\n","gitbook/Chapter4/README.md")
-OpenWrite(AddRawHURL(detailedLogText)+"\n\n","gitbook/Chapter4/detailedlog.md")
-OpenWrite(AddRawHURL(detailedNotesText)+"\n\n","gitbook/Chapter4/detailednotes.md")
-OpenWrite("# Raw worklog\n\n"+AddRawHURL(WorkLogLevel(MyLogs))+"\n\n","gitbook/Chapter4/rawworklog.md")
-
-
-# Adding murgen's work
-
-Sessions = []
-for SessionLog in ListOfMurgenSessions:
-	f = open("./../murgen-dev-kit/worklog/"+SessionLog, 'r')
-	Sessions.append(f.read())
+	PrinciplesOfEchoes = ""
+	f = open("include/AddPrinciples.md", 'r')
+	PrinciplesOfEchoes += f.read()
 	f.close()
-for i in range(len(Sessions)):
-	OpenWrite(AddRawMurgenURL(Sessions[i])+"\n\n","gitbook/Chapter4/"+ListOfMurgenSessions[i])
-# And the log
-CopyGitBookMurgenFile("./../murgen-dev-kit/worklog/notes.md","gitbook/Chapter4/murgenworklog.md")
+	f = open("include/AddStructure.md", 'r')
+	PrinciplesOfEchoes += f.read()
+	f.close()
+	f = open("include/AddStructureDetails.md", 'r')
+	PrinciplesOfEchoes += f.read()
+	f.close()
+
+	OpenWrite(IncludeImage(AddRawHURL(PrinciplesOfEchoes)),"gitbook/Chapter1/principles.md")
+	OpenWrite(AddRawHURL(HeaderDocTxt),"gitbook/Chapter1/modules.md")
+
+	CopyGitBookFile("include/NDT.md","gitbook/Chapter1/ndt.md")
+
+	# list of modules
+	OpenWrite(IncludeImage(AddRawHURL(TableModulesShort+"\n\n"+TableRetiredDocTxt)),"gitbook/Chapter1/listofmodules.md")
+
+	# -------------------------
+	# Adding Quickstart
+	# -------------------------
+
+	#GrosJaSON = CreateProbesFiles(GrosJaSON)
+	for probe in GrosJaSON["probes"].keys():
+		CopyGitBookFile("include/probes/auto/"+probe+".md","gitbook/probes/"+probe+".md")
+
+	CopyGitBookFile("include/probes/Readme.md","gitbook/probes/Readme.md")
+
+	CopyGitBookFile("include/QuickStart.md","gitbook/Chapter1/QuickStart.md")
+
+	# -------------------------
+	# Adding RPi article
+	# -------------------------
+
+	# RPI = GetIncludes(getText("include/RPiHSDK.md"),  MDFiles[5], MDFiles[4],"include/RPiHSDK.md")
+	# RPI_article = RPI[0]
+	# OpenWrite(IncludeImage(AddRawHURL(RPI_article)),"gitbook/RPI.md")
+	# log += RPI[1]
+	CopyGitBookFile("include/RPiHSDK.md","gitbook/RPI.md")
+
+	# -------------------------
+	# Adding CHAPTER 2 : Basic kit
+	# -------------------------
+
+	for eachModule in ModulesChaptDeux:
+		ModuleDesc = getText(eachModule+"/Readme.md")
+		OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
+
+	for eachModule in ModulesChaptDeuxRT:
+		ModuleDesc = getText("./retired/"+eachModule+"/Readme.md")
+		OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,"retired/"+eachModule))+"\n\n","gitbook/Chapter2/"+eachModule+".md")
+
+	# Resume pour Murgen
+	MurgenSummary = "# The first iteration, Murgen\n\n"
+	f = open("include/AddMurgenSummary.md", 'r')
+	MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
+	f.close()
+	f = open("./../murgen-dev-kit/Readme.md", 'r')
+	MurgenSummary = MurgenSummary+"\n\n"+AddOneLevel(f.read())
+	f.close()
+	OpenWrite(AddRawMurgenURL(MurgenSummary)+"\n\n","gitbook/devkit0.md")
+
+	# Resume pour le wireless
+
+	WirelessSet = "# Wireless implementation of the modules\n\n"+"\n\n"
+	WirelessSet += AddOneLevel(getText("include/AddWireless.md"))+"\n\n"
+	WirelessSet += AddOneLevel(getText("include/sets/wifi-dev-kit.cost.md"))+"\n\n"
+	WirelessSet += AddOneLevel(getText("retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md"))+"\n\n"
+	OpenWrite(IncludeImage(AddRawHURL(WirelessSet))+"\n\n","gitbook/devkit11.md")
+
+	# Resume pour le basicdevkit
+
+	BasicKit = "# Basic Dev Kit with BeagleBone\n\n"+"\n\n"
+	BasicKit += AddOneLevel(getText("include/AddBasicDevKit.md"))+"\n\n"
+	BasicKit += AddOneLevel(getText("include/sets/highspeed.cost.md"))+"\n\n"
+	BasicKit +=    AddOneLevel(getText("include/AddBasicDevKitResults.md"))+"\n\n"
+	OpenWrite(BasicKit+"\n\n","include/basicdevkit.md")
+
+	OpenWrite(IncludeImage(AddRawHURL(BasicKit))+"\n\n","gitbook/Chapter2/basicdevkit.md")
+
+
+
+	# Resume technique de Murgen
+	OpenWrite(AddRawHURL(getText("include/AddIntroMurgen.md"))+"\n\n","gitbook/Chapter2/murgensetup.md")
+
+	# Adding zach's work
+	Zach = ""
+	f = open("./../murgen-dev-kit/worklog/Zach/Zach.md", 'r')
+	Zach = f.read()
+	f.close()
+
+	f = open("./../murgen-dev-kit/worklog/Zach/2016-06-22.md", 'r')
+	Zach = Zach+"\n\n"+AddOneLevel(f.read())
+	f.close()
+
+	f = open("./../murgen-dev-kit/worklog/Zach/2016-07-06.md", 'r')
+	Zach = Zach+"\n\n"+AddOneLevel(f.read())
+	f.close()
+
+
+	OpenWrite(AddRawMurgenURL(Zach)+"\n\n","gitbook/Chapter2/zach.md")
+	OpenWrite(AddRawMurgenURL(getText("./../murgen-dev-kit/hardware/Readme.md"))+"\n\n","gitbook/Chapter2/murgenhardware.md")
+	OpenWrite(AddRawMurgenURL(getText("./../murgen-dev-kit/software/Readme.md"))+"\n\n","gitbook/Chapter2/murgensoftware.md")
+
+
+
+	# -------------------------
+	# Adding CHAPTER 3 : Modules
+	# -------------------------
+
+	for eachModule in ModulesChaptTrois:
+		ModuleDesc = getText(eachModule+"/Readme.md")
+		OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
+
+	for eachModule in ModulesChaptTroisRT:
+		ModuleDesc = getText("./retired/"+eachModule+"/Readme.md")
+		OpenWrite(AddRawHURL(GitBookizeModule(ModuleDesc,"retired/"+eachModule))+"\n\n","gitbook/Chapter3/"+eachModule+".md")
+
+	CopyGitBookBomanzFile("../bomanz/Readme.md","gitbook/Chapter3/bomanz.md")
+	CopyGitBookBomanzFile("../bomanz/20170430-PushingADCLimits.md","gitbook/Chapter3/bomanz2.md")
+
+
+	CopyGitBookFile("retroATL3/2017-05-20_APeakInside.md","gitbook/Chapter3/atl_more.md")
+
+	# -------------------------
+	# Adding CHAPTER 4 : Notes and worklog
+	# -------------------------
+
+	walk_dir = "./"
+	DetailedLogs = []
+	notesLogs = []
+	for root, subdirs, files in os.walk(walk_dir):
+		for filename in files:
+			file_path = os.path.join(root, filename)
+			if (".md" in filename in filename and not "gh-pages" in file_path and not "gitbook" in file_path):
+				if ("2016-" in filename):
+					DetailedLogs.append(file_path)
+				if ("notes_" in filename):
+					notesLogs.append(file_path)
+
+	detailedLogText = "# Detailed logs of experiments\n\n"
+	for detailedlog in DetailedLogs:
+		Adddetailedlog = open(detailedlog)
+		detailedlog = detailedlog.split('/')[-1].replace(".md", "")
+		detailedLogText += "# "+detailedlog+"\n\n"
+		detailedLogText += AddTwoLevels(Adddetailedlog.read())+"\n\n"
+		Adddetailedlog.close()
+
+	detailedNotesText = "# Detailed notes of research\n\n"
+	for detailednote in notesLogs:
+		Adddetailednote = open(detailednote)
+		detailednote = detailednote.split('/')[-1].replace(".md", "").replace("notes_", "Notes on ")
+		detailedNotesText += "# "+detailednote+"\n\n"
+		detailedNotesText += AddTwoLevels(Adddetailednote.read())+"\n\n"
+		Adddetailednote.close()
+
+	# Saving it in a file
+	OpenWrite("# Introduction to the Chapter 4\n\n","gitbook/Chapter4/README.md")
+	OpenWrite(AddRawHURL(detailedLogText)+"\n\n","gitbook/Chapter4/detailedlog.md")
+	OpenWrite(AddRawHURL(detailedNotesText)+"\n\n","gitbook/Chapter4/detailednotes.md")
+	OpenWrite("# Raw worklog\n\n"+AddRawHURL(WorkLogLevel(MyLogs))+"\n\n","gitbook/Chapter4/rawworklog.md")
+
+
+	# Adding murgen's work
+
+	Sessions = []
+	for SessionLog in ListOfMurgenSessions:
+		f = open("./../murgen-dev-kit/worklog/"+SessionLog, 'r')
+		Sessions.append(f.read())
+		f.close()
+	for i in range(len(Sessions)):
+		OpenWrite(AddRawMurgenURL(Sessions[i])+"\n\n","gitbook/Chapter4/"+ListOfMurgenSessions[i])
+	# And the log
+	CopyGitBookMurgenFile("./../murgen-dev-kit/worklog/notes.md","gitbook/Chapter4/murgenworklog.md")
 
 
 
 
-# -------------------------
-# Adding CHAPTER 5 : Data 
-# -------------------------
+	# -------------------------
+	# Adding CHAPTER 5 : Data 
+	# -------------------------
 
 
-DataFormat = getText("include/AddFormatRules.md")
-OpenWrite("# DataFormat \n\n"+AddRawHURL(DataFormat)+"\n\n","gitbook/Chapter5/dataformat.md")
+	DataFormat = getText("include/AddFormatRules.md")
+	OpenWrite("# DataFormat \n\n"+AddRawHURL(DataFormat)+"\n\n","gitbook/Chapter5/dataformat.md")
 
-Examples = getText("./../murgen-dev-kit/software/examples/Readme.md").split("# ")
-TableDataExamples = "# "+Examples[-1]
-OpenWrite("# Still images from murgen \n\n"+TableDataExamples+"\n\n","gitbook/Chapter5/images.md")
+	Examples = getText("./../murgen-dev-kit/software/examples/Readme.md").split("# ")
+	TableDataExamples = "# "+Examples[-1]
+	OpenWrite("# Still images from murgen \n\n"+TableDataExamples+"\n\n","gitbook/Chapter5/images.md")
 
-Examples_croaker=getText("retired/croaker/data/examples/Readme.md")
-OpenWrite("# Images acquired using Croaker \n\n"+AddRawHURL(AddOneLevel(Examples_croaker))+"\n\n","gitbook/Chapter5/croaker_data.md")
+	Examples_croaker=getText("retired/croaker/data/examples/Readme.md")
+	OpenWrite("# Images acquired using Croaker \n\n"+AddRawHURL(AddOneLevel(Examples_croaker))+"\n\n","gitbook/Chapter5/croaker_data.md")
 
-Loops = ""
-f = open("include/20160814/20160814a.md", 'r')
-Loops += f.read() + "\n\n"
-f.close()
-f = open("include/20160822/2016-08-22-Fantom.md", 'r')
-Loops += f.read() + "\n\n"
-f.close()
+	Loops = ""
+	f = open("include/20160814/20160814a.md", 'r')
+	Loops += f.read() + "\n\n"
+	f.close()
+	f = open("include/20160822/2016-08-22-Fantom.md", 'r')
+	Loops += f.read() + "\n\n"
+	f.close()
 
-OpenWrite("# Adding videos \n\n There are two loops saved so far. \n\n"+AddRawHURL(AddOneLevel(Loops))+"\n\n","gitbook/Chapter5/loops.md")
+	OpenWrite("# Adding videos \n\n There are two loops saved so far. \n\n"+AddRawHURL(AddOneLevel(Loops))+"\n\n","gitbook/Chapter5/loops.md")
 
-print ListOfExperiment
+	print(ListOfExperiment)
 
-for expe in ListOfExperiment:
-	CopyGitBookFile("include/experiments/auto/"+expe+".md","gitbook/exp/"+expe+".md")
-
-
-# -------------------------
-# Adding CHAPTER 6 : Biblio 
-# -------------------------
-
-CopyGitBookFile("include/biblio/bib/Readme.md","gitbook/Chapter6/FullBiblio.md")
-
-articles=getText("include/Bibliography.md")
-OpenWrite("# Bibliography \n\n"+AddRawHURL(articles)+"\n\n","gitbook/Chapter6/articles.md")
-
-electronics = getText("./../murgen-dev-kit/worklog/bibliographie.md").replace("# Our setup\n","")
-OpenWrite("# Our choice of electronics \n\n"+electronics+"\n\n","gitbook/Chapter6/components.md")
-
-OpenWrite("# List of modules Interfaces \n\n"+AddRawHURL(AddInterfacesDocTxt)+"\n\n","gitbook/Chapter6/interfaces.md")
-
-AddDocProcess =getText("include/AddDocProcess.md")
-OpenWrite("# Automating documentation \n\n"+AddRawHURL(AddDocProcess)+"\n\n","gitbook/Chapter6/documentationprocess.md")
-
-CopyGitBookFile("include/biblio/Readme.md","gitbook/Chapter6/academicbiblio.md")
-CopyGitBookFile("include/FilesList/AllFiles.md","gitbook/Chapter6/fileslist.md")
-
-# Product work
-CopyGitBookFile("include/fda.gov/Readme.md","gitbook/Chapter6/fda.md")
-CopyGitBookFile("include/AddBench.md","gitbook/Chapter6/bench.md")
-CopyGitBookFile("include/vscan/Readme.md","gitbook/Chapter6/vscan.md")
-# Friend work
-CopyGitBookFile("include/community/WillT/Readme.md","gitbook/Chapter6/c_will.md")
-
-# -------------------------
-# Adding CHAPTER 7 : Contributing
-# -------------------------
-
-OpenWrite("# The table of progress \n\n"+TableAvancement+"\n\n","gitbook/Chapter7/progress.md")
-OpenWrite(TODOsToShopping+"\n\n","gitbook/Chapter7/shoppingList.md")
-OpenWrite(AddLicenseDocTxt+"\n\n","gitbook/Chapter7/license.md")
+	for expe in ListOfExperiment:
+		CopyGitBookFile("include/experiments/auto/"+expe+".md","gitbook/exp/"+expe+".md")
 
 
-#CopyGitBookFile("CLA.md","gitbook/CLA.md")
-CopyGitBookFile("include/AddDevices.md","gitbook/Chapter6/otherprobes.md")
+	# -------------------------
+	# Adding CHAPTER 6 : Biblio 
+	# -------------------------
 
-CopyGitBookFile("include/autodoc.md","gitbook/Chapter7/autodoc.md")
+	CopyGitBookFile("include/biblio/bib/Readme.md","gitbook/Chapter6/FullBiblio.md")
 
-CopyGitBookFile("include/AddPressReview.md","gitbook/Chapter7/pressreview.md")
+	articles=getText("include/Bibliography.md")
+	OpenWrite("# Bibliography \n\n"+AddRawHURL(articles)+"\n\n","gitbook/Chapter6/articles.md")
 
-CopyGitBookFile("retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md","gitbook/Chapter4/newphantom.md")
+	electronics = getText("./../murgen-dev-kit/worklog/bibliographie.md").replace("# Our setup\n","")
+	OpenWrite("# Our choice of electronics \n\n"+electronics+"\n\n","gitbook/Chapter6/components.md")
+
+	OpenWrite("# List of modules Interfaces \n\n"+AddRawHURL(AddInterfacesDocTxt)+"\n\n","gitbook/Chapter6/interfaces.md")
+
+	AddDocProcess =getText("include/AddDocProcess.md")
+	OpenWrite("# Automating documentation \n\n"+AddRawHURL(AddDocProcess)+"\n\n","gitbook/Chapter6/documentationprocess.md")
+
+	CopyGitBookFile("include/biblio/Readme.md","gitbook/Chapter6/academicbiblio.md")
+	CopyGitBookFile("include/FilesList/AllFiles.md","gitbook/Chapter6/fileslist.md")
+
+	# Product work
+	CopyGitBookFile("include/fda.gov/Readme.md","gitbook/Chapter6/fda.md")
+	CopyGitBookFile("include/AddBench.md","gitbook/Chapter6/bench.md")
+	CopyGitBookFile("include/vscan/Readme.md","gitbook/Chapter6/vscan.md")
+	# Friend work
+	CopyGitBookFile("include/community/WillT/Readme.md","gitbook/Chapter6/c_will.md")
+
+	# -------------------------
+	# Adding CHAPTER 7 : Contributing
+	# -------------------------
+
+	OpenWrite("# The table of progress \n\n"+TableAvancement+"\n\n","gitbook/Chapter7/progress.md")
+	OpenWrite(TODOsToShopping+"\n\n","gitbook/Chapter7/shoppingList.md")
+	OpenWrite(AddLicenseDocTxt+"\n\n","gitbook/Chapter7/license.md")
 
 
-# -------------------------
-# Adding Readmes (chapters intros)
-# -------------------------
+	#CopyGitBookFile("CLA.md","gitbook/CLA.md")
+	CopyGitBookFile("include/AddDevices.md","gitbook/Chapter6/otherprobes.md")
+
+	CopyGitBookFile("include/autodoc.md","gitbook/Chapter7/autodoc.md")
+
+	CopyGitBookFile("include/AddPressReview.md","gitbook/Chapter7/pressreview.md")
+
+	CopyGitBookFile("retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md","gitbook/Chapter4/newphantom.md")
 
 
-for i in range(7):
-	AddChaptersIntro = getText("./include/AddChaptersIntro.md")
-	linesChapters = AddChaptersIntro.split("\n")
-	i = i+1
-	ResultatChapter = []
-	DebutFound = False
-
-	for line in linesChapters:
-
-		
-		if "#### Chapter" in line:			
-			if ("Chapter"+str(i)) in line:
-				DebutFound = True
-				
-			else:
-				DebutFound = False
+	# -------------------------
+	# Adding Readmes (chapters intros)
+	# -------------------------
 
 
-		if DebutFound:
-			ResultatChapter.append(line)
+	for i in range(7):
+		AddChaptersIntro = getText("./include/AddChaptersIntro.md")
+		linesChapters = AddChaptersIntro.split("\n")
+		i = i+1
+		ResultatChapter = []
+		DebutFound = False
+
+		for line in linesChapters:
+			if "#### Chapter" in line:
+				if ("Chapter"+str(i)) in line:
+					DebutFound = True
+				else:
+					DebutFound = False
+
+
+			if DebutFound:
+				ResultatChapter.append(line)
 
 
 
-	OpenWrite("\n".join(ResultatChapter)+"\n\n","gitbook/Chapter"+str(i)+"/Readme.md")
+		OpenWrite("\n".join(ResultatChapter)+"\n\n","gitbook/Chapter"+str(i)+"/Readme.md")
 
 
 
 # -------------------------
 # Saving the compilation log
 # -------------------------
-
-ResultKits = CreateKits("./include/","./",FullSVG)
-log = log+ResultKits
+if 0:
+	ResultKits = CreateKits("./include/","./",FullSVG)
+	log = log+ResultKits
 
 # -------------------------
 # Saving the compilation log
@@ -1098,8 +1105,8 @@ OpenWrite("* "+"\n* ".join( urgent ),"doc/urgent.md")
 # -------------------------
 # Updating Summary log
 # -------------------------
-
-UpdateSUMMARY("gitbook/toc.md")
+if 0:
+	UpdateSUMMARY("gitbook/toc.md")
 
 
 with open('include/doc.json', 'wt') as out:

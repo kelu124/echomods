@@ -49,7 +49,7 @@ uC pings emulator and streams feedback
 
 
 * This is the module which emulates the signal coming from the analog processing chain. ([silent](/silent/)) -- get for _35$_ (Where? Get from [Adafruit](https://www.adafruit.com/products/3056))
-* The acquisition heart of the echOmods ([croaker](/croaker/)) -- get for _35$_ (Where? Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl))
+* The acquisition heart of the echOmods ([croaker](/retired/croaker/)) -- get for _35$_ (Where? Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl))
 * Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * The motherboard of the echomods ([doj](/doj/)) -- get for _5$_ (Where? Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) if you can order by 3. Or [straight from Tindie](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).)
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
@@ -62,11 +62,11 @@ _Total cost of the set: 229$_
 The default setting for the sets
 
 
-* Simply the servo and transducer module ([cletus](/cletus/)) -- get for _80$_ (Where? Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22)))
-* The acquisition heart of the echOmods ([croaker](/croaker/)) -- get for _35$_ (Where? Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl))
+* Simply the servo and transducer module ([cletus](/retired/cletus/)) -- get for _80$_ (Where? Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22)))
+* The acquisition heart of the echOmods ([croaker](/retired/croaker/)) -- get for _35$_ (Where? Get Feather from [Amz](http://amzn.to/2eGzlbG ) or [Adafruit](https://www.adafruit.com/products/3056). [OLED at Amz](http://amzn.to/2gi0vHl))
 * Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
-* Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
+* Tobo: the HV-pulser ([tobo](/retired/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 
 
 _Total cost of the set: 389$_
@@ -76,11 +76,11 @@ _Total cost of the set: 389$_
 Using a simpler linux-enabled controler (the all-powerful Pi in its RPi 0 or Pi W) for the dev kit. Cost of materials aims at being as low as possible, below the 500$.
 
 
-* Simply the servo and transducer module ([cletus](/cletus/)) -- get for _80$_ (Where? Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22)))
-* The Pi Heart of the echOmods ([tomtom](/tomtom/)) -- get for _10$_ (Where?  Get the Pi W from [plenty of sources](https://www.raspberrypi.org/products/pi-zero-w/))
+* Simply the servo and transducer module ([cletus](/retired/cletus/)) -- get for _80$_ (Where? Recycling a transducer from ebay, servo from anywhere ([Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtoys-and-games&field-keywords=%22SG90+9G%22)))
+* The Pi Heart of the echOmods ([tomtom](/retired/tomtom/)) -- get for _10$_ (Where?  Get the Pi W from [plenty of sources](https://www.raspberrypi.org/products/pi-zero-w/))
 * Using a dual ADC raspberry pHAT for 20Msps+ acquisition ([elmo](/elmo/)) -- get for _99$_ (Where? OSHPark, MacroFab, Tindie)
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
-* Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
+* Tobo: the HV-pulser ([tobo](/retired/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 
 
 _Total cost of the set: 458$_
@@ -94,7 +94,7 @@ Some stuff, unexpensive to buy, to build a ultrasound testing kit, totalling les
 * This is the module to get high-speed (40Msps) signal acquisition. ([toadkiller](/toadkiller/)) -- get for _79$_ (Where?  A bundle at 169$ from [Groupgets](https://groupgets.com/manufacturers/getlab/products/prudaq) or as a [standalone](https://store.groupgets.com/#!/p/68936091) at 79$ )
 * Mogaba, the power supply ([mogaba](/mogaba/)) -- get for _5$_ (Where? Anywhere, or eg [Amazon?](https://www.amazon.com/s/ref=nb_sb_noss?url=node%3D667846011&field-keywords=3.3V+5V+Power+Supply+Module+Breadboard+))
 * Goblin: a TGC-Envelop-ADC module ([goblin](/goblin/)) -- get for _149$_ (Where? Custom made, get the [Gerbers](/goblin/source/), or [buy it preassembled on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124)
-* Tobo: the HV-pulser ([tobo](/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
+* Tobo: the HV-pulser ([tobo](/retired/tobo/)) -- get for _120$_ (Where? Custom made, get the [Gerbers](/retired/tobo/source/), [buy it preassembled on tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-pulser-module/) or contact @kelu124)
 * The motherboard of the echomods ([doj](/doj/)) -- get for _5$_ (Where? Anywhere for [stripboard](https://www.amazon.com/s/ref=nb_sb_noss_2?url=node%3D667846011&field-keywords=stripboard&rh=n%3A667846011%2Ck%3Astripboard). Or PCB from [OSHPark](https://oshpark.com/shared_projects/2taE6p4M) if you can order by 3. Or [straight from Tindie](https://www.tindie.com/products/kelu124/ultrasound-modules-motherboard/).)
 * One-eye, the controler ([oneeye](/oneeye/)) -- get for _10$_ (Where? from [Adafruit](https://www.adafruit.com/product/2000))
 
@@ -126,19 +126,21 @@ The diagram is represented below:
 
 | ThumbnailImage | Name | In | Out |
 |------|-------|----|------|
-|<img src='https://github.com/kelu124/echomods/blob/master/retroATL3/viewme.png' align='center' width='150'>|**[retroATL3](/retroATL3/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former ATL3.|<ul><li>ITF-A_gnd</li><li>ITF-F_12V</li><li>ITF-N_cc_motor_pwm</li><li>ITF-mET_Transducer</li><li>Motor</li><li>Tri-Piezo Head</li></ul>|<ul><li>Motor</li><li>ITF-mET_Transducer</li><li>Tri-Piezo Head</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/elmo/viewme.png' align='center' width='150'>|**[elmo](/elmo/Readme.md)**: The aim of this module is to achieve 20Msps, at 9bits or more. |<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-19_3.3V</li><li>ITF-12_RPIn</li></ul>|<ul><li>Signal Digitalized</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed, with all steps accessible to hackers. |<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-7_GAIN</li><li>ITF-4_RawSig</li><li>ITF-3_ENV</li><li>ITF-18_Raw</li><li>ITF-mET_SMA</li></ul>|<ul><li>ITF-4_RawSig</li><li>ITF-3_ENV_signal_envelope</li><li>ITF-mEG_SPI</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/lite.tbo/viewme.png' align='center' width='150'>|**[lite.tbo](/lite.tbo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-19_3.3V</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-18_Raw</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/lit3rick/viewme.png' align='center' width='150'>|**[lit3rick](/lit3rick/Readme.md)**: The aim is to summarize all modules in a all-inclusive board. Fast ADC, good load of memory, good SNR.. the not-so-DIY module, as it comes already assembled with nothing to do. Based on up5k.|||
-|<img src='https://github.com/kelu124/echomods/blob/master/matty/viewme.png' align='center' width='150'>|**[matty](/matty/Readme.md)**: The aim is to summarize all modules in a all-inclusive board. Fast ADC, good load of memory, good SNR.. the not-so-DIY module, as it comes already assembled with nothing to do =)|||
-|<img src='https://github.com/kelu124/echomods/blob/master/doj/viewme.png' align='center' width='150'>|**[doj](/doj/Readme.md)**: Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See this for the Kicad files.|||
+|<img src='https://github.com/kelu124/echomods/blob/master/goblin/viewme.png' align='center' width='150'>|**[goblin](/goblin/Readme.md)**: The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed, with all steps accessible to hackers. |<ul><li>ITF-1_GND</li></ul><li>ITF-2_VDD_5V</li></ul><li>ITF-7_GAIN</li></ul><li>ITF-4_RawSig</li></ul><li>ITF-3_ENV</li></ul><li>ITF-18_Raw</li></ul><li>ITF-mET_SMA</li></ul>|<ul><li>ITF-4_RawSig</li></ul><li>ITF-3_ENV_signal_envelope</li></ul><li>ITF-mEG_SPI</li></ul>|
 |<img src='https://github.com/kelu124/echomods/blob/master/wirephantom/viewme.png' align='center' width='150'>|**[wirephantom](/wirephantom/Readme.md)**: Just a phantom for calibrated signals|<ul><li>na</li></ul>|<ul><li>na</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/silent/viewme.png' align='center' width='150'>|**[silent](/silent/Readme.md)**: The aim of this echOmod is to simulate a raw signal that would come from the piezo and analog chain.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-17_POff3</li></ul>|<ul><li>ITF-18_Raw</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/lite.tbo/viewme.png' align='center' width='150'>|**[lite.tbo](/lite.tbo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-1_GND</li></ul><li>ITF-2_VDD_5V</li></ul><li>ITF-9_Pon</li></ul><li>ITF-10_Poff</li></ul><li>ITF-19_3.3V</li></ul><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-18_Raw</li></ul><li>ITF-mET_SMA</li></ul><li>ITF-mET_Transducer</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/silent/viewme.png' align='center' width='150'>|**[silent](/silent/Readme.md)**: The aim of this echOmod is to simulate a raw signal that would come from the piezo and analog chain.|<ul><li>ITF-1_GND</li></ul><li>ITF-2_VDD_5V</li></ul><li>ITF-17_POff3</li></ul>|<ul><li>ITF-18_Raw</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/doj/viewme.png' align='center' width='150'>|**[doj](/doj/Readme.md)**: Getting a motherboard: that's fitting all the modules in an easy way, with an easy access to all tracks. See this for the Kicad files.|||
+|<img src='https://github.com/kelu124/echomods/blob/master/retroATL3/viewme.png' align='center' width='150'>|**[retroATL3](/retroATL3/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former ATL3.|<ul><li>ITF-A_gnd</li></ul><li>ITF-F_12V</li></ul><li>ITF-N_cc_motor_pwm</li></ul><li>ITF-mET_Transducer</li></ul><li>Motor</li></ul><li>Tri-Piezo Head</li></ul>|<ul><li>Motor</li></ul><li>ITF-mET_Transducer</li></ul><li>Tri-Piezo Head</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/pic0/viewme.png' align='center' width='150'>|**[pic0](/pic0/Readme.md)**: The aim is to summarize all modules in a all-inclusive board. |||
+|<img src='https://github.com/kelu124/echomods/blob/master/matty/viewme.png' align='center' width='150'>|**[matty](/matty/Readme.md)**: The aim is to summarize all modules in a all-inclusive board. Fast ADC, good load of memory, good SNR.. the not-so-DIY module, as it comes already assembled with nothing to do =)|||
+|<img src='https://github.com/kelu124/echomods/blob/master/lit3rick/viewme.png' align='center' width='150'>|**[lit3rick](/lit3rick/Readme.md)**: The aim is to summarize all modules in a all-inclusive board. Fast ADC, good load of memory, good SNR.. the not-so-DIY module, as it comes already assembled with nothing to do. Based on up5k.|||
+|<img src='https://github.com/kelu124/echomods/blob/master/elmo/viewme.png' align='center' width='150'>|**[elmo](/elmo/Readme.md)**: The aim of this module is to achieve 20Msps, at 9bits or more. |<ul><li>ITF-1_GND</li></ul><li>ITF-2_VDD_5V</li></ul><li>ITF-19_3.3V</li></ul><li>ITF-12_RPIn</li></ul>|<ul><li>Signal Digitalized</li></ul>|
 
 
 # Experiments
 
+ * [20240413a](/include/experiments/auto/20240413a.md)
  * 2021-04-25: [Annular MUXed](/include/experiments/auto/20210425a.md): testing an annular transducer on a pink phantom _(20210425a)_
  * 2021-04-24: [BiVi piezo on the MUX](/include/experiments/auto/20210424a.md): First tests of the MUX _(20210424a)_
  * 2021-01-29: [`Tri` two probes](/include/experiments/auto/20210129a.md): Tri's tests with two probes _(20210129a)_
@@ -278,11 +280,12 @@ Here's a couple of things we're working on, for which you could help as well.
 
 ### Todos from Modules
 * Test Goblin v2 (in [goblin](/goblin/))
+* None (in [wirephantom](/wirephantom/))
 * Review a bipolar design (originally alt.tbo -- but double the components and hence the price) (in [lite.tbo](/lite.tbo/))
-* Improve i2s transfers (in [lit3rick](/lit3rick/))
+* Improve i2s transfers (in [pic0](/pic0/))
 * See the <a href="/matty/nextsteps.md">next steps</a> (in [matty](/matty/))
 * Having it work with a <a href="/retroATL3/">retroATL3</a> (in [matty](/matty/))
-* None (in [wirephantom](/wirephantom/))
+* Improve i2s transfers (in [lit3rick](/lit3rick/))
 
 
 ### Todos from worklog
@@ -305,17 +308,17 @@ Here's a couple of things we're working on, for which you could help as well.
 
 | ThumbnailImage | Name | In | Out |
 |------|-------|----|------|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/loftus/viewme.png' align='center' width='150'>|**[loftus](/retired/loftus/Readme.md)**: The aim of this module is to recycle a previous head|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-N_cc_motor_pwm</li><li>ITF-S_3_3v</li><li>ITF-mET_Transducer</li><li>ITF-mET_Piezo</li></ul>|<ul><li>ITF-mET_Piezo</li><li>ITF-mET_Transducer</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/croaker/viewme.png' align='center' width='150'>|**[croaker](/retired/croaker/Readme.md)**: The aim of this echOmod is to receive the signal and process it, then stream it over wifi. |<ul><li>ITF-3_ENV</li><li>ITF-10_Poff</li><li>ITF-9_Pon</li><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li></ul>|<ul><li>ITF-19_3.3V</li><li>ITF-mED-TFT-Screen</li><li>ITF-mED-OLED-Screen</li><li>ITF-mEC-WiFi-UDP-Stream</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/mogaba/viewme.png' align='center' width='150'>|**[mogaba](/retired/mogaba/Readme.md)**: The aim of this echOmod is to get 3.3V and 5V done.|<ul><li>ITF-mEM_Alimentation</li></ul>|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-19_3.3V</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/alt.tbo/viewme.png' align='center' width='150'>|**[alt.tbo](/retired/alt.tbo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-19_3.3V</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-18_Raw</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/tobo/viewme.png' align='center' width='150'>|**[tobo](/retired/tobo/Readme.md)**: The aim of this echOmod is to get the HV Pulse done.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-19_3.3V</li><li>ITF-mET_Transducer</li></ul>|<ul><li>ITF-18_Raw</li><li>ITF-mET_SMA</li><li>ITF-mET_Transducer</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/cletus/viewme.png' align='center' width='150'>|**[cletus](/retired/cletus/Readme.md)**: The aim of this module is to interface the transducer and the servo, aka the physical parts, to the analog part of the modules chain. More to come with the <a href="/retired/loftus/source/s3/Readme.md">Loftus head</a>.|<ul><li>ITF-A_gnd</li><li>ITF-B_5v</li><li>ITF-N_cc_motor_pwm</li><li>ITF-S_3_3v</li><li>ITF-mET_Transducer</li><li>ITF-mET_Piezo</li></ul>|<ul><li>ITF-mET_Piezo</li><li>ITF-mET_Transducer</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/sleepy/viewme.png' align='center' width='150'>|**[sleepy](/retired/sleepy/Readme.md)**: The aim of this echOmod is to encase the whole modules object in a neat case, making it transportable.|<ul><li>None</li></ul>|<ul><li>None</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/retro10PV/viewme.png' align='center' width='150'>|**[retro10PV](/retired/retro10PV/Readme.md)**: The aim of this echOmod is to get the mechanical movement of the piezos. Salvaged from a former <a href="http://echopen.org/index.php/ATL_Access_10PV">ATL10PV</a>.|<ul><li>ITF-A_gnd</li><li>ITF-F_12V</li><li>ITF-N_cc_motor_pwm</li><li>ITF-mET_Transducer</li><li>Motor</li><li>Tri-Piezo Head</li></ul>|<ul><li>Motor</li><li>ITF-mET_Transducer</li><li>Tri-Piezo Head</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/tomtom/viewme.png' align='center' width='150'>|**[tomtom](/retired/tomtom/Readme.md)**: The aim of this echOmod is to digitalize the signal, and to control the pulser, servo, ...|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-3_ENV</li><li>ITF-15_GPIO21</li></ul>|<ul><li>ITF-16_POn3</li><li>ITF-16_POn3</li><li>ITF-17_POff3</li><li>ITF-14_PWM</li><li>Wifi</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/toadkiller/viewme.png' align='center' width='150'>|**[toadkiller](/retired/toadkiller/Readme.md)**: The aim of this echOmod is to simulate the enveloppe (or maybe soon the raw signal) that would come from the piezo and analog chain.|<ul><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li><li>ITF-19_3.3V</li><li>ITF-3_ENV</li></ul>|<ul><li>WiFi UDP Stream</li><li>ITF-mED-TFT-Screen</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-14_PWM</li></ul>|
-|<img src='https://github.com/kelu124/echomods/blob/master/retired/oneeye/viewme.png' align='center' width='150'>|**[oneeye](/retired/oneeye/Readme.md)**: The module aims at making a microcontroler, for the moment the <code>ArduinoTrinketPro</code>, usable with the motherboard and the set of modules.|<ul><li>ITF-3_ENV</li><li>ITF-1_GND</li><li>ITF-2_VDD_5V</li></ul>|<ul><li>ITF-7_GAIN</li><li>ITF-9_Pon</li><li>ITF-10_Poff</li><li>ITF-14_PWM</li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/cletus/viewme.png' align='center' width='150'>|**[cletus](/retired/cletus/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/toadkiller/viewme.png' align='center' width='150'>|**[toadkiller](/retired/toadkiller/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/oneeye/viewme.png' align='center' width='150'>|**[oneeye](/retired/oneeye/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/tobo/viewme.png' align='center' width='150'>|**[tobo](/retired/tobo/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/mogaba/viewme.png' align='center' width='150'>|**[mogaba](/retired/mogaba/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/croaker/viewme.png' align='center' width='150'>|**[croaker](/retired/croaker/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/sleepy/viewme.png' align='center' width='150'>|**[sleepy](/retired/sleepy/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/tomtom/viewme.png' align='center' width='150'>|**[tomtom](/retired/tomtom/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/loftus/viewme.png' align='center' width='150'>|**[loftus](/retired/loftus/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/alt.tbo/viewme.png' align='center' width='150'>|**[alt.tbo](/retired/alt.tbo/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
+|<img src='https://github.com/kelu124/echomods/blob/master/retired/retro10PV/viewme.png' align='center' width='150'>|**[retro10PV](/retired/retro10PV/Readme.md)**: |<ul><li></li></ul>|<ul><li></li></ul>|
 
 
 # Interfaces table for the motherboard

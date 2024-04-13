@@ -1,21 +1,21 @@
 # Status of suppliers
 
 
-* [Valpey](www.ctsvalpey.com/): No answer, mar-17., 
-* [SonicConcepts](http://www.sonicconcepts.com/): Contact in 2015 and 2016  , 1,000 unit quantities they can see this costing as low as $250 per unit.  , 
-* [Smart Materials](http://smart-material.com): Superb suppliers ;), 
-* [Hurricane](www.chinaultrasound.com): Contact Santo Meng, Summer '18, 
-* [PiezoSolutions](http://www.piezosolutions.net/): @contacted, @followup on 2/1/16. No answer from contact (march-17)., 
-* [American Piezo (APC)](http://americanpiezo.com): Deja contactes en 2015, ~ $300 each for small Qty ( 2 or 3 of each Fq), 
-* [SonoMecha](http://www.sonomecha.com/): 275$/two transducers with off-the-shelf components. 50 units, we can offer $150., 
-* [NDTXducer](http://www.ndtxducer.com/): Quote OK. From 277$ to 320$., 
-* [Blatek](http://blatek.com): Deja contactes en 2015 , Retour 2/1/16: be back with quotes, march-2017: button type transducer with a PCB lid, 
 * [Ultrasound Transducer](http://www.ultrasoundtransducers.com/): No answer, mar-17., 
-* [piezo.com](http://www.piezo.com/): Listed in 2015, not contacted, @contacted, @followup on 2/1/16. No answer (march-17)., 
-* [TRS-Tech](http://www.trstechnologies.com/): No answer, mar-17., 
+* [Smart Materials](http://smart-material.com): Superb suppliers ;), 
+* [SonoMecha](http://www.sonomecha.com/): 275$/two transducers with off-the-shelf components. 50 units, we can offer $150., 
+* [PiezoSolutions](http://www.piezosolutions.net/): @contacted, @followup on 2/1/16. No answer from contact (march-17)., 
 * [STI](http://sti-ultrasound.com): no answer still on mar-17, 
 * [OKOS](www.okos.com/transducers): Contact Anastasiya Mlynchyk  (External Sales & Executive Assistant), Won't do -> redirected to NDTX., 
+* [Blatek](http://blatek.com): Deja contactes en 2015 , Retour 2/1/16: be back with quotes, march-2017: button type transducer with a PCB lid, 
+* [Hurricane](www.chinaultrasound.com): Contact Santo Meng, Summer '18, 
+* [SonicConcepts](http://www.sonicconcepts.com/): Contact in 2015 and 2016  , 1,000 unit quantities they can see this costing as low as $250 per unit.  , 
+* [Valpey](www.ctsvalpey.com/): No answer, mar-17., 
+* [NDTXducer](http://www.ndtxducer.com/): Quote OK. From 277$ to 320$., 
 * [PiezoTechnologies](http://www.piezotechnologies.com/documents/120710-material-data-sheet.aspx): Feedback 2/1/16: need the query sheet, 19/12/16: feedback required, march-17: follow up done, march-17: can't produce (see details below)., 
+* [piezo.com](http://www.piezo.com/): Listed in 2015, not contacted, @contacted, @followup on 2/1/16. No answer (march-17)., 
+* [American Piezo (APC)](http://americanpiezo.com): Deja contactes en 2015, ~ $300 each for small Qty ( 2 or 3 of each Fq), 
+* [TRS-Tech](http://www.trstechnologies.com/): No answer, mar-17., 
 
 
 

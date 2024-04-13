@@ -310,7 +310,7 @@ __TLDR__: A small wireless probe.
 
 __More?__ A probe from shenzen. Happy to have played with it, opened it, ...
 
-__Present in:__ 19 images.
+__Present in:__ 15 images.
 
 ### [shzmch](/include/probes/auto/shzmch.md) (shzmch)
 
@@ -337,6 +337,14 @@ __TLDR__: A small wireless probe from shenzen
 __More?__ A small wireless probe from shenzen. Couldn't open it, but I added some hacking in the wireless communication.
 
 __Present in:__ 2 images.
+
+### [wirelessdual](/include/probes/auto/wirelessdual.md) (wirelessdual)
+
+__TLDR__: wirelessdual probe.
+
+__More?__ wirelessdual probe.
+
+__Present in:__ 8 images.
 
 
 
