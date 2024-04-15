@@ -2,7 +2,7 @@
 
 * [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md).
 
-* [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/README.md`](/README.md), [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/include/AddPitch.md`](/include/AddPitch.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md).
+* [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/include/AddPitch.md`](/include/AddPitch.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md).
 
 * [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016 . File used in: [`/goblin/2016-07-08.md`](/goblin/2016-07-08.md), [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md), [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html).
 
@@ -10,7 +10,7 @@
 
 * [./goblin/tindie.md](/goblin/tindie.md):  . _File not used._
 
-* [./goblin/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html): Goblin description . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./goblin/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html): Goblin description . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together . _File not used._
 
@@ -18,25 +18,25 @@
 
 * [./goblin/pi0/HighSpeedBurstADC.md](/goblin/pi0/HighSpeedBurstADC.md):  . _File not used._
 
-* [./goblin/pi0/Readme.md](/goblin/pi0/Readme.md):  . _File not used._
+* [./goblin/pi0/Readme.md](/goblin/pi0/Readme.md):  . File used in: [`/include/FilesList/CFiles.md`](/include/FilesList/CFiles.md).
 
 * [./goblin/source/Altium.v2/Readme.md](/goblin/source/Altium.v2/Readme.md):  . _File not used._
 
-* [./wirephantom/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/wirephantom.html): Phantom used for tests . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./wirephantom/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/wirephantom.html): Phantom used for tests . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./lite.tbo/tindie.md](/lite.tbo/tindie.md):  . _File not used._
 
-* [./lite.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/lite.tbo.html):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./lite.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/lite.tbo.html):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin) . File used in: [`/silent/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html).
 
-* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator . File used in: [`/silent/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html).
+* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator . File used in: [`/silent/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [./silent/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html): Main doc for the ultrasound signal emulator . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./silent/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/silent.html): Main doc for the ultrasound signal emulator . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./silent/notes_R2R_DAC.md](/silent/notes_R2R_DAC.md):  . _File not used._
 
-* [./doj/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/doj.html): Motherboard readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./doj/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/doj.html): Motherboard readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./doj/QuickStart.md](/doj/QuickStart.md):  . File used in: [`/doj/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/doj.html).
 
@@ -52,9 +52,9 @@
 
 * [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  . File used in: [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html), [`/retired/cletus/2017-06-08_FindingSuppliers.md`](/retired/cletus/2017-06-08_FindingSuppliers.md).
 
-* [./retroATL3/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html): Main doc source for hacking ATL probes . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./retroATL3/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html): Main doc source for hacking ATL probes . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [./retired/cletus/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.md): Piezo+Servo module . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/cletus/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.md): Piezo+Servo module . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
 * [./retired/cletus/2017-06-08_FindingSuppliers.md](/retired/cletus/2017-06-08_FindingSuppliers.md):  . File used in: [`/retired/cletus/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.md).
 
@@ -77,17 +77,17 @@
 * [./retired/cletus/suppliers/specs/piezo-specs.md](/retired/cletus/suppliers/specs/piezo-specs.md):  
 * [./retired/cletus/IMN/Readme.md](/retired/cletus/IMN/Readme.md): Electrical impedance matching . _File not used._
 
-* [./retired/toadkiller/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md).
+* [./retired/toadkiller/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./retired/toadkiller/data/test_enveloppe/Readme.md](/retired/toadkiller/data/test_enveloppe/Readme.md):  . File used in: [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html).
+* [./retired/toadkiller/data/test_enveloppe/Readme.md](/retired/toadkiller/data/test_enveloppe/Readme.md):  . File used in: [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./retired/oneeye/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.md): Standalone pulser control unit - readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/oneeye/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/oneeye.md): Standalone pulser control unit - readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [./retired/tobo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/tobo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/tobo/QuickStart.md](/retired/tobo/QuickStart.md):  . File used in: [`/retired/tobo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.md).
+* [./retired/tobo/QuickStart.md](/retired/tobo/QuickStart.md):  . File used in: [`/retired/tobo/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/tobo.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [./retired/mogaba/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/mogaba.md): Off-the shelf power supply module - Readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/mogaba/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/mogaba.md): Off-the shelf power supply module - Readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
 * [./retired/hannin/Readme.md](/retired/hannin/Readme.md):  . _File not used._
 
@@ -105,17 +105,17 @@
 
 * [./retired/croaker/notes_ESP8266.md](/retired/croaker/notes_ESP8266.md): Notes on ESP8266 . File used in: [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md).
 
-* [./retired/croaker/notes_STM32F205_ref_manual.md](/retired/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . _File not used._
+* [./retired/croaker/notes_STM32F205_ref_manual.md](/retired/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [./retired/croaker/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md): Analog processing module readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/croaker/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md): Analog processing module readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino . File used in: [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md).
 
 * [./retired/croaker/data/examples/Readme.md](/retired/croaker/data/examples/Readme.md):  . _File not used._
 
-* [./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md).
+* [./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/retired/croaker/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/croaker.md), [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
-* [./retired/sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.md): Casing of the modules - readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/sleepy/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/sleepy.md): Casing of the modules - readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
 * [./retired/tomtom/screen.md](/retired/tomtom/screen.md):  . File used in: [`/retired/tomtom/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/tomtom.md).
 
@@ -125,29 +125,29 @@
 
 * [./retired/tomtom/20170425-ExploringGPIOs.md](/retired/tomtom/20170425-ExploringGPIOs.md):  . File used in: [`/retired/tomtom/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/tomtom.md).
 
-* [./retired/tomtom/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/tomtom.md): Analog processing module readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/tomtom/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/tomtom.md): Analog processing module readme . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
 * [./retired/tomtom/apps/client/Resources.md](/retired/tomtom/apps/client/Resources.md):  . _File not used._
 
-* [./retired/loftus/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/loftus.md): Piezo+Servo module . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/loftus/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/loftus.md): Piezo+Servo module . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/loftus/source/s3/Readme.md](/retired/loftus/source/s3/Readme.md):  . File used in: [`/README.md`](/README.md), [`/retired/cletus/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.md).
+* [./retired/loftus/source/s3/Readme.md](/retired/loftus/source/s3/Readme.md):  . File used in: [`/retired/cletus/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/cletus.md).
 
-* [./retired/alt.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/alt.tbo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/alt.tbo.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./retired/alt.tbo/20171111a/Readme.md](/retired/alt.tbo/20171111a/Readme.md):  . _File not used._
 
-* [./retired/alt.tbo/test/Readme.md](/retired/alt.tbo/test/Readme.md):  . _File not used._
+* [./retired/alt.tbo/test/Readme.md](/retired/alt.tbo/test/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./retired/alt.tbo/20171112a/Readme.md](/retired/alt.tbo/20171112a/Readme.md):  . File used in: [`/include/experiments/auto/20171112a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20171112a.html).
+* [./retired/alt.tbo/20171112a/Readme.md](/retired/alt.tbo/20171112a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/20171112a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20171112a.html).
 
 * [./retired/alt.tbo/20171001a/Readme.md](/retired/alt.tbo/20171001a/Readme.md):  . _File not used._
 
-* [./retired/alt.tbo/20171028a/Readme.md](/retired/alt.tbo/20171028a/Readme.md):  . _File not used._
+* [./retired/alt.tbo/20171028a/Readme.md](/retired/alt.tbo/20171028a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./retired/alt.tbo/20171112b/Readme.md](/retired/alt.tbo/20171112b/Readme.md):  . _File not used._
 
-* [./retired/retro10PV/Readme.md](/retired/retro10PV/Readme.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
+* [./retired/retro10PV/Readme.md](/retired/retro10PV/Readme.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
 * [./pic0/Readme.md](/pic0/Readme.md): rp2040 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
@@ -157,25 +157,25 @@
 
 * [./matty/oshw.md](/matty/oshw.md):  . _File not used._
 
-* [./matty/un0log.md](/matty/un0log.md):  . _File not used._
+* [./matty/un0log.md](/matty/un0log.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./matty/nextsteps.md](/matty/nextsteps.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md).
+* [./matty/nextsteps.md](/matty/nextsteps.md):  . File used in: [`/Readme.md`](/Readme.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md).
 
 * [./matty/pitch.md](/matty/pitch.md):  . _File not used._
 
-* [./matty/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html): ice40 all-in-one board readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./matty/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html): ice40 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/wvp.md](/matty/wvp.md):  . _File not used._
 
-* [./matty/20190324a/Readme.md](/matty/20190324a/Readme.md):  . _File not used._
+* [./matty/20190324a/Readme.md](/matty/20190324a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./matty/20180224a/Readme.md](/matty/20180224a/Readme.md):  . _File not used._
+* [./matty/20180224a/Readme.md](/matty/20180224a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/20180721a/Readme.md](/matty/20180721a/Readme.md):  . _File not used._
 
-* [./matty/20180511a/Readme.md](/matty/20180511a/Readme.md):  . _File not used._
+* [./matty/20180511a/Readme.md](/matty/20180511a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./matty/20180403b/Readme.md](/matty/20180403b/Readme.md):  . _File not used._
+* [./matty/20180403b/Readme.md](/matty/20180403b/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/20181104b/Readme.md](/matty/20181104b/Readme.md):  . _File not used._
 
@@ -191,7 +191,7 @@
 
 * [./matty/20201230a/Readme.md](/matty/20201230a/Readme.md):  . _File not used._
 
-* [./matty/20180226a/Readme.md](/matty/20180226a/Readme.md):  . _File not used._
+* [./matty/20180226a/Readme.md](/matty/20180226a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/1t/idea.md](/matty/1t/idea.md):  . _File not used._
 
@@ -205,9 +205,9 @@
 
 * [./matty/20201026a/fpga_ctrl/csr_map.md](/matty/20201026a/fpga_ctrl/csr_map.md):  . File used in: [`/include/experiments/auto/20201026a.md`](https://kelu124.gitbooks.io/echomods/content/exp/20201026a.html).
 
-* [./matty/20200418a/Readme.md](/matty/20200418a/Readme.md):  . _File not used._
+* [./matty/20200418a/Readme.md](/matty/20200418a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./matty/20190226a/Readme.md](/matty/20190226a/Readme.md):  . _File not used._
+* [./matty/20190226a/Readme.md](/matty/20190226a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./matty/v1.1/test_V/Readme.md](/matty/v1.1/test_V/Readme.md):  . _File not used._
 
@@ -217,7 +217,7 @@
 
 * [./matty/prog_flash/Readme.md](/matty/prog_flash/Readme.md):  . _File not used._
 
-* [./matty/20180516a/Readme.md](/matty/20180516a/Readme.md):  . _File not used._
+* [./matty/20180516a/Readme.md](/matty/20180516a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/verilog/README.md](/matty/verilog/README.md):  . _File not used._
 
@@ -251,9 +251,9 @@
 
 * [./matty/HV/Readme.md](/matty/HV/Readme.md):  . _File not used._
 
-* [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . _File not used._
+* [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./matty/20180227a/Readme.md](/matty/20180227a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
+* [./matty/20180227a/Readme.md](/matty/20180227a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/20200508a/exp.md](/matty/20200508a/exp.md):  . _File not used._
 
@@ -275,7 +275,7 @@
 
 * [./matty/20200608a/exp.md](/matty/20200608a/exp.md):  . _File not used._
 
-* [./matty/20200608a/Readme.md](/matty/20200608a/Readme.md):  . _File not used._
+* [./matty/20200608a/Readme.md](/matty/20200608a/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./matty/20190510a/ndt.exp.md](/matty/20190510a/ndt.exp.md):  . _File not used._
 
@@ -283,7 +283,7 @@
 
 * [./matty/20200416a/Readme.md](/matty/20200416a/Readme.md):  . _File not used._
 
-* [./matty/20180225a/Readme.md](/matty/20180225a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
+* [./matty/20180225a/Readme.md](/matty/20180225a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/20200321a/exp.md](/matty/20200321a/exp.md):  . _File not used._
 
@@ -295,7 +295,7 @@
 
 * [./matty/20190329a/Readme.md](/matty/20190329a/Readme.md):  . _File not used._
 
-* [./matty/20180506a/Readme.md](/matty/20180506a/Readme.md):  . _File not used._
+* [./matty/20180506a/Readme.md](/matty/20180506a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
 * [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
 
@@ -305,13 +305,13 @@
 
 * [./matty/20201031a/fpga_ctrl/csr_map.md](/matty/20201031a/fpga_ctrl/csr_map.md):  . _File not used._
 
-* [./matty/20180310a/Readme.md](/matty/20180310a/Readme.md):  . _File not used._
+* [./matty/20180310a/Readme.md](/matty/20180310a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
+* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter3/matty.html), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . _File not used._
+* [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 
-* [./matty/m5stack/Readme.md](/matty/m5stack/Readme.md):  . _File not used._
+* [./matty/m5stack/Readme.md](/matty/m5stack/Readme.md):  . File used in: [`/include/FilesList/ArduinoFiles.md`](/include/FilesList/ArduinoFiles.md).
 
 * [./matty/m5stack/20190113a/Readme.md](/matty/m5stack/20190113a/Readme.md):  . _File not used._
 
@@ -391,7 +391,7 @@
 
 * [./include/FuturePR.md](/include/FuturePR.md):  . _File not used._
 
-* [./include/ft_600_notes.md](/include/ft_600_notes.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md).
+* [./include/ft_600_notes.md](/include/ft_600_notes.md):  . File used in: [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md).
 
 * [./include/AddEngineering.md](/include/AddEngineering.md):  . _File not used._
 
@@ -429,7 +429,7 @@
 
 * [./include/UniBoard.md](/include/UniBoard.md):  . _File not used._
 
-* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
+* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
 * [./include/highspeed.set.md](/include/highspeed.set.md):  . _File not used._
 
@@ -783,7 +783,7 @@
 
 * [./include/20160822/Readme.md](/include/20160822/Readme.md):  . _File not used._
 
-* [./lit3rick/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/lit3rick.html): up5k all-in-one board readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./lit3rick/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter3/lit3rick.html): up5k all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./lit3rick/20201008a/Readme.md](/lit3rick/20201008a/Readme.md):  . _File not used._
 
@@ -793,7 +793,7 @@
 
 * [./elmo/tindie.md](/elmo/tindie.md):  . _File not used._
 
-* [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
+* [./elmo/Readme.md](https://kelu124.gitbooks.io/echomods/content/Chapter2/elmo.html): Main doc source for high speed Pi DAQ . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./elmo/QuickStart.md](/elmo/QuickStart.md): Quickstart of the ADC pHAT . _File not used._
 
@@ -853,7 +853,7 @@
 
 ## Jupyter files
 
-* [tmp.ipynb](/tmp.ipynb). _File not used._
+* [tmp.ipynb](/tmp.ipynb). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md), [`/include/experiments/auto/Code_20200809r.md`](https://kelu124.gitbooks.io/echomods/content/exp/Code_20200809r.md), [`/include/experiments/auto/20201026a.md`](/include/experiments/auto/20201026a.md), [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md), [`/include/experiments/auto/Code_20170611a.md`](/include/experiments/auto/Code_20170611a.md), [`/include/experiments/auto/Code_20201022a.md`](/include/experiments/auto/Code_20201022a.md), [`/include/experiments/auto/Code_20201023a.md`](/include/experiments/auto/Code_20201023a.md), [`/include/experiments/auto/Code_20190223a.md`](/include/experiments/auto/Code_20190223a.md), [`/include/experiments/auto/Code_20180403t.md`](/include/experiments/auto/Code_20180403t.html).
 * [20170702-TestATLDuinoTerface.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170702-TestATLDuinoTerface.html). File used in: [`/retroATL3/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/retroATL3.html), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [In-Out.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/In-Out.html). File used in: [`/goblin/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html), [`/retired/toadkiller/Readme.md`](https://kelu124.gitbooks.io/echomods/content/Chapter2/toadkiller.md), [`/retired/toadkiller/data/test_enveloppe/Readme.md`](/retired/toadkiller/data/test_enveloppe/Readme.md), [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
 * [20170502-DICOMizingCroakerData.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20170502-DICOMizingCroakerData.html). File used in: [`/include/FilesList/JupyFiles.md`](/include/FilesList/JupyFiles.md).
@@ -1618,9 +1618,8 @@
 * [ppt_DocProcess.md](/include/ppt_DocProcess.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_DocProcess.html)
 * [ppt_presUS.md](/include/ppt_presUS.md) - see [Presentation online](http://kelu124.github.io/echomods/ppt_presUS.html)
 
-## 591 Auto generated files
+## 590 Auto generated files
 
-* ./README.md
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
 * ./include/AddShoppingList.md

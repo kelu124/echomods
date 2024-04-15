@@ -71,7 +71,6 @@
 * __[Unrefed file]__ :no_entry: `/elmo/tindie.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/goblin/2016-08-09.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/goblin/pi0/HighSpeedBurstADC.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/goblin/pi0/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/goblin/source/Altium.v2/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/goblin/tindie.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/20180216a/mkimg.py` : No references of this file.
@@ -145,26 +144,17 @@
 * __[Unrefed file]__ :no_entry: `/makedoc.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/1i/1i.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/1t/idea.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180224a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180224a/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180224b/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180225a/mkimg.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180226a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180226a/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180227a/mkimg.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180310a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180310a/mkimg.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180403a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180403a/mkimg.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180403b/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180403b/mkimg.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180430a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180430a/mkimg.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180506a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180506a/mkimg.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180511a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180511a/mkimg.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20180516a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180721a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180721a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20180813a/mkimg.py` : No references of this file.
@@ -190,9 +180,7 @@
 * __[Unrefed file]__ :no_entry: `/matty/20190104a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190111a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190111a/pyUn0.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20190226a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190314a/Readme.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20190324a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190329a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190329a/ndt.exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20190329a/pyUn0.py` : No references of this file.
@@ -235,7 +223,6 @@
 * __[Unrefed file]__ :no_entry: `/matty/20200416a/exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200416a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200416a/rpi_pyUn0.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20200418a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200418a/process.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200418a/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200418a/rpi_pyUn0.py` : No references of this file.
@@ -247,7 +234,6 @@
 * __[Unrefed file]__ :no_entry: `/matty/20200605a/exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200605a/process.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200605a/pyUn0.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/20200608a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200608a/exp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200608a/process.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/20200608a/pyUn0.py` : No references of this file.
@@ -309,7 +295,6 @@
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ice40.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/ideas/ideas.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/m5stack/20190113a/Readme.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/m5stack/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/mat2un.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/news/2017-09-15-uniboard.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/news/2017-11-19-first-ideas.md` : No references of this file.
@@ -323,7 +308,6 @@
 * __[Unrefed file]__ :no_entry: `/matty/prog_flash/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/pyUn0.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/pyUn0/pyUn0.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/matty/un0log.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/v0.1/build/csv2xyrs.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/v1.1/test_V/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/v1.1/test_V/pyUn0.py` : No references of this file.
@@ -331,12 +315,10 @@
 * __[Unrefed file]__ :no_entry: `/matty/wvp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/pic0/data/20240413a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171001a/Readme.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171028a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171111a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171111a/img.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171112b/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171112b/img.py` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/retired/alt.tbo/test/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/cletus/IMN/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/cletus/IMN/img.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/croaker/data/examples/Cleaning.py` : No references of this file.
@@ -345,7 +327,6 @@
 * __[Unrefed file]__ :no_entry: `/retired/croaker/data/manual/plotcsv.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/croaker/data/manual/rebuild.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/croaker/notes_ESP32.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/retired/croaker/notes_STM32F205_ref_manual.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/hannin/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/hannin/source/Firmware/README.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/toadkiller/data/test_enveloppe/test_dual_entry.py` : No references of this file.
@@ -354,6 +335,5 @@
 * __[Unrefed file]__ :no_entry: `/retired/tomtom/apps/client/Resources.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retroATL3/software/BitscopeAcquisitionScript.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/silent/notes_R2R_DAC.md` : No references of this file.
-* __[Unrefed file]__ :no_entry: `/tmp.ipynb` : No references of this file.
 
 [](@autogenerated - invisible comment)

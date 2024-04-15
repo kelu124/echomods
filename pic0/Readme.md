@@ -26,26 +26,24 @@ A lightweight version of un0rick
 
 ### Inputs
 
-* RPi IOs
-* 5V
-* HVp
-* HVn
+* rp2040
+* PMOD
+* USB
 * GND
 
 ### Outputs
 
-* RPi IOs
-* Transmit SMA
 * Receive SMA
 
 ## Key Components
 
 * rp2040
+* 
 ## Information
 
 ### What is it supposed to do?
 
-The aim is to summarize all modules in a all-inclusive board. 
+Using a rp2040 to do a full blown pulse echo device.
 
 
 ### How does it work: block diagram
@@ -97,4 +95,4 @@ The [echOmods project](https://github.com/kelu124/echomods/) and its prototypes 
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
-Copyright Kelu124 (kelu124@gmail.com) 2018
+Copyright Kelu124 (kelu124@gmail.com) 2024

@@ -127,7 +127,7 @@ ListOfExperiment.sort()
 # print ListOfExperiment
 
 
-OpenWrite(GenFiles, "include/FilesList/ImgFiles.md")
+OpenWrite(GenFiles.replace("  * ToTag\n","").replace("  * kelu124\n",""), "include/FilesList/ImgFiles.md")
 
 
 # -------------------------

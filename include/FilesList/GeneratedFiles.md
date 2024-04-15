@@ -1,4 +1,3 @@
-* ./README.md
 * ./Readme.md
 * ./retired/cletus/suppliers/Readme.md
 * ./include/AddShoppingList.md
