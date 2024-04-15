@@ -49,6 +49,10 @@
 * __[Links]__ :no_entry: `./pic0/Readme.md` : Link to non-existing file `./pic0rick/source/blocks.png`
 * __[Links]__ :no_entry: `./pic0/Readme.md` : Link to non-existing file `./pic0rick/viewme.png`
 * __[Links]__ :no_entry: `./pic0/Readme.md` : Link to non-existing folder `./pic0rick/`
+* __[Links]__ :no_entry: `./pic0/data/20240413a/Readme.md` : Error in link definition, non-absolute path in link to `Spectrum.png`
+* __[Links]__ :no_entry: `./pic0/data/20240413a/Readme.md` : Error in link definition, non-absolute path in link to `echo2.png`
+* __[Links]__ :no_entry: `./pic0/data/20240413a/Readme.md` : Error in link definition, non-absolute path in link to `echo3.png`
+* __[Links]__ :no_entry: `./pic0/data/20240413a/Readme.md` : Error in link definition, non-absolute path in link to `pic0.png`
 * __[Links]__ :no_entry: `./retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md` : Link to non-existing file `./croaker`
 * __[Links]__ :no_entry: `./retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md` : Link to non-existing file `./retired/croaker/data/20161217/images/DSC_1177.JPG`
 * __[Links]__ :no_entry: `./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md` : Link to non-existing file `./croaker`
@@ -91,6 +95,7 @@
 * __[Unrefed file]__ :no_entry: `/include/bard/images/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/bk/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/bk1850/mkimg.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/include/clarius/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/cn_mechprob/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/community/Uwe/20180620a/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/hp/20201128a/mkimg.py` : No references of this file.
@@ -102,10 +107,12 @@
 * __[Unrefed file]__ :no_entry: `/include/images/202005/linscan/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/202005/myapo/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/724A/mkimg.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/include/images/724A/strangeatl/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/ADR/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/AccessA/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/AccessC/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/Interspec/mkimg.py` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/include/images/apogee10MHz/Round2/mkimgs.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/apogee10MHz/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/apogee5MHz/mkimg.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/include/images/atladrict/mkimg.py` : No references of this file.
@@ -314,6 +321,7 @@
 * __[Unrefed file]__ :no_entry: `/matty/verilog/README.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/matty/wvp.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/pic0/data/20240413a/Readme.md` : No references of this file.
+* __[Unrefed file]__ :no_entry: `/pic0/data/20240413a/mkimgs.py` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171001a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171111a/Readme.md` : No references of this file.
 * __[Unrefed file]__ :no_entry: `/retired/alt.tbo/20171111a/img.py` : No references of this file.

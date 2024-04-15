@@ -8,6 +8,10 @@
 
 ## Other pictures 
 
+![](/include/probes/viewmes/wirelessdual.jpg)
+ToTag
+wirelessdual probe
+
 ![](/include/wirelessdual/imgs/65385D12-642D-4388-9FA5-F03B66BD68BD.JPG)
 ToTag
 wirelessdual probe

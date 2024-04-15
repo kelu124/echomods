@@ -68,6 +68,10 @@ teardown of a new probe
 teardown
 teardown of a new probe
 
+![](/include/probes/viewmes/duc2m.jpg)
+teardown
+teardown of a new probe
+
 ## Other pictures 
 
 ![](/include/images/202005/duc2m/duc2m.png)

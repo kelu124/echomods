@@ -587,128 +587,364 @@
   * picture
   * ./retired/retro10PV/images/20160307_214849_HDR.jpg
 * __/pic0/data/20240413a/un0rick/20240413210831_ndt_ndt.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/un0rick/20240413210831_ndt_ndt.jpg
 * __/pic0/data/20240413a/pic0rick/bench_5.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_5.jpg
 * __/pic0/data/20240413a/pic0rick/bench_4.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_4.jpg
 * __/pic0/data/20240413a/pic0rick/bench_1.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_1.jpg
 * __/pic0/data/20240413a/pic0rick/bench_7.jpg__:
-  * pic0rick
-  * Signal
+  * pic0, BiViPiezo
+  * graph
   * 20240413a
-  * Benchmark pic
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_7.jpg
 * __/pic0/data/20240413a/pic0rick/bench_8.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_8.jpg
 * __/pic0/data/20240413a/pic0rick/bench_3.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_3.jpg
 * __/pic0/data/20240413a/pic0rick/bench_6.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_6.jpg
 * __/pic0/data/20240413a/pic0rick/bench_2.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_2.jpg
 * __/pic0/data/20240413a/pic0rick/bench_9.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_9.jpg
 * __/pic0/data/20240413a/pic0rick/bench_0.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/pic0rick/bench_0.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_500_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_500_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_100_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_100_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_700_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_700_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_600_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_600_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_400_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_400_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_1000_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_1000_.jpg
 * __/pic0/data/20240413a/lit3-32/2_x_0_0_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/2_x_0_0_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_1000_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_1000_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_1000_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_1000_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_900_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_900_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_700_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_700_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_500_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_500_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_200_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_200_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_600_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_600_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_800_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_800_.jpg
 * __/pic0/data/20240413a/lit3-32/2_x_0_200_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/2_x_0_200_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_100_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_100_.jpg
 * __/pic0/data/20240413a/lit3-32/2_x_0_100_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/2_x_0_100_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_800_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_800_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_0_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_0_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_0_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_0_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_300_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_300_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_300_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_300_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_0_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_0_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_500_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_500_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_900_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_900_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_400_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_400_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_200_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_200_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_100_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_100_.jpg
 * __/pic0/data/20240413a/lit3-32/2_x_0_300_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/2_x_0_300_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_700_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_700_.jpg
 * __/pic0/data/20240413a/lit3-32/2_x_0_400_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/2_x_0_400_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_300_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_300_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_0_400_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_0_400_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_700_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_700_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_800_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_800_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_600_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_600_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_800_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_800_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_300_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_300_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_0_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_0_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_600_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_600_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_500_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_500_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_900_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_900_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_100_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_100_.jpg
 * __/pic0/data/20240413a/lit3-32/1_x_1_200_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/1_x_1_200_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_900_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_900_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_0_200_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_0_200_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_1000_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_1000_.jpg
 * __/pic0/data/20240413a/lit3-32/0_x_1_400_.jpg__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
   * ./pic0/data/20240413a/lit3-32/0_x_1_400_.jpg
 * __/matty/20180224a/images/y18-VGA@0x11-spimode1-12msps.jpg__:
   * matty
@@ -4564,8 +4800,12 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * max14866
   * ./matty/20210424a/mux.jpg
 * __/include/clarius/hd08.jpg__:
+  * clarius
+  * teardown
   * ./include/clarius/hd08.jpg
 * __/include/clarius/hd10.jpg__:
+  * clarius
+  * teardown
   * ./include/clarius/hd10.jpg
 * __/include/20161016/1600px-shield_v2.jpg__:
   * picture
@@ -6676,11 +6916,6 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * teardown
   * .
   * ./include/images/ir1510ak/DSC_0239.jpg
-* __/include/images/724A/strangeatl/s-l1600".jpg__:
-  * 724A
-  * teardown
-  * Teardown on a 724A probe
-  * ./include/images/724A/strangeatl/s-l1600".jpg
 * __/include/images/724A/strangeatl/s-l1600.jpg__:
   * 724A
   * teardown
@@ -6696,6 +6931,11 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * teardown
   * Teardown on a 724A probe
   * ./include/images/724A/strangeatl/724s-l1600_b796f516-55de-4291-9b6b-61b7996cd5af_grande.jpg
+* __/include/images/724A/strangeatl/s-l16003.jpg__:
+  * 724A
+  * teardown
+  * Teardown on a 724A probe
+  * ./include/images/724A/strangeatl/s-l16003.jpg
 * __/include/images/724A/strangeatl/s-l1600_0581dc55-bf7d-4f44-a876-eaf1707f944e_grande.jpg__:
   * 724A
   * teardown
@@ -7521,6 +7761,143 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * teardown
   * teardown of a new probe
   * ./include/images/202005/duc2m/P_20200520_191712.jpg
+* __/include/probes/viewmes/kretzaw145ba.jpg__:
+  * kretzaw145ba
+  * teardown
+  * .
+  * ./include/probes/viewmes/kretzaw145ba.jpg
+* __/include/probes/viewmes/brd90.jpg__:
+  * brd90
+  * Teardown
+  * Teardown
+  * ./include/probes/viewmes/brd90.jpg
+* __/include/probes/viewmes/wirelessdual.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/probes/viewmes/wirelessdual.jpg
+* __/include/probes/viewmes/atlannular.jpg__:
+  * atlannular
+  * teardown
+  * .
+  * ./include/probes/viewmes/atlannular.jpg
+* __/include/probes/viewmes/shzmch.jpg__:
+  * shzmch
+  * ./include/probes/viewmes/shzmch.jpg
+* __/include/probes/viewmes/diasonics_75.jpg__:
+  * diasonics_75
+  * teardown
+  * .
+  * ./include/probes/viewmes/diasonics_75.jpg
+* __/include/probes/viewmes/adrus.jpg__:
+  * adrus
+  * teardown
+  * 20180807a
+  * Exploring the innards of a ADR Ultrasound probe
+  * ./include/probes/viewmes/adrus.jpg
+* __/include/probes/viewmes/atlidrict.jpg__:
+  * atlidrict
+  * teardown
+  * Exploring the innards of a atlidrict probe
+  * ./include/probes/viewmes/atlidrict.jpg
+* __/include/probes/viewmes/diasonics_50.jpg__:
+  * diasonics_50
+  * Demontage
+  * ./include/probes/viewmes/diasonics_50.jpg
+* __/include/probes/viewmes/ausonics75.jpg__:
+  * ausonics75
+  * teardown
+  * 20180809b
+  * ausonic 7.5MHz probe
+  * ./include/probes/viewmes/ausonics75.jpg
+* __/include/probes/viewmes/linscan.jpg__:
+  * linscan
+  * teardown
+  * teardown of a new probe
+  * ./include/probes/viewmes/linscan.jpg
+* __/include/probes/viewmes/apogee.jpg__:
+  * apogee
+  * teardown
+  * teardown of a new probe
+  * ./include/probes/viewmes/apogee.jpg
+* __/include/probes/viewmes/diasonics_gpm_plus_35.jpg__:
+  * diasonics_gpm_plus_35
+  * teardown
+  * .
+  * ./include/probes/viewmes/diasonics_gpm_plus_35.jpg
+* __/include/probes/viewmes/hp2121.jpg__:
+  * hp2121
+  * teardown
+  * ./include/probes/viewmes/hp2121.jpg
+* __/include/probes/viewmes/bk8536.jpg__:
+  * bk8536
+  * teardown
+  * 20201219r
+  * checking impedance of piezos
+  * ./include/probes/viewmes/bk8536.jpg
+* __/include/probes/viewmes/kretzir175ag.jpg__:
+  * kretzir175ag
+  * kretzir175ag probe
+  * ./include/probes/viewmes/kretzir175ag.jpg
+* __/include/probes/viewmes/s3.jpg__:
+  * s3
+  * s3 probe
+  * ./include/probes/viewmes/s3.jpg
+* __/include/probes/viewmes/apogee5MHz.jpg__:
+  * apogee5MHz
+  * teardown
+  * Unkwown (apogee) 5MHz probe
+  * ./include/probes/viewmes/apogee5MHz.jpg
+* __/include/probes/viewmes/ir1510ak.jpg__:
+  * ir1510ak
+  * teardown
+  * .
+  * ./include/probes/viewmes/ir1510ak.jpg
+* __/include/probes/viewmes/brd35.jpg__:
+  * brd35
+  * Teardown
+  * Teardown
+  * ./include/probes/viewmes/brd35.jpg
+* __/include/probes/viewmes/sw45b.jpg__:
+  * sw45b
+  * teardown
+  * ./include/probes/viewmes/sw45b.jpg
+* __/include/probes/viewmes/bard.jpg__:
+  * bard
+  * .
+  * ./include/probes/viewmes/bard.jpg
+* __/include/probes/viewmes/apogee10MHz.jpg__:
+  * apogee10MHz
+  * teardown
+  * ./include/probes/viewmes/apogee10MHz.jpg
+* __/include/probes/viewmes/intersonvs35.jpg__:
+  * intersonvs35
+  * intersonvs35 probe opened
+  * ./include/probes/viewmes/intersonvs35.jpg
+* __/include/probes/viewmes/retro10PV.jpg__:
+  * retro10PV
+  * pic
+  * Overview of the probe
+  * ./include/probes/viewmes/retro10PV.jpg
+* __/include/probes/viewmes/brd75.jpg__:
+  * brd75
+  * Teardown
+  * Teardown
+  * ./include/probes/viewmes/brd75.jpg
+* __/include/probes/viewmes/724A.jpg__:
+  * 724A
+  * teardown
+  * Teardown on a 724A probe
+  * ./include/probes/viewmes/724A.jpg
+* __/include/probes/viewmes/duc2m.jpg__:
+  * duc2m
+  * teardown
+  * teardown of a new probe
+  * ./include/probes/viewmes/duc2m.jpg
+* __/include/probes/viewmes/diasonics_tr.jpg__:
+  * diasonics_tr
+  * teardown
+  * Teardown on a diasonics_tr probe
+  * ./include/probes/viewmes/diasonics_tr.jpg
 * __/include/mux_ed/untitled_diagram.jpg__:
   * ./include/mux_ed/untitled_diagram.jpg
 * __/include/MAX14866/concept/switches.jpg__:
@@ -8889,6 +9266,36 @@ Details of Hilbert acquisition between us 32.2 and 33.
 * __/pic0/viewme.png__:
   * thumbnail
   * ./pic0/viewme.png
+* __/pic0/data/20240413a/echo3.png__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
+  * ./pic0/data/20240413a/echo3.png
+* __/pic0/data/20240413a/echo2.png__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
+  * ./pic0/data/20240413a/echo2.png
+* __/pic0/data/20240413a/pic0.png__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
+  * ./pic0/data/20240413a/pic0.png
+* __/pic0/data/20240413a/signals.png__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
+  * ./pic0/data/20240413a/signals.png
+* __/pic0/data/20240413a/Spectrum.png__:
+  * pic0, BiViPiezo
+  * graph
+  * 20240413a
+  * Comparing un0, pic0, lit32
+  * ./pic0/data/20240413a/Spectrum.png
 * __/matty/viewme.png__:
   * ./matty/viewme.png
 * __/matty/matty_costs-L8R.png__:
@@ -9674,6 +10081,8 @@ Details of Hilbert acquisition between us 32.2 and 33.
 * __/include/sets/emulated.png__:
   * ./include/sets/emulated.png
 * __/include/clarius/Clarius_072116.png__:
+  * clarius
+  * teardown
   * ./include/clarius/Clarius_072116.png
 * __/include/20161016/process.png__:
   * picture
@@ -10393,6 +10802,10 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * s1p
   * s1p
   * ./include/images/202005/duc2m/duc2m.png
+* __/include/probes/viewmes/retroATL3.png__:
+  * retroATL3
+  * thumbnail
+  * ./include/probes/viewmes/retroATL3.png
 * __/include/MAX14866/top.png__:
   * ./include/MAX14866/top.png
 * __/include/hp/20201128a/secondEcho.png__:

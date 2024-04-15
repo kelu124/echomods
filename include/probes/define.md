@@ -38,6 +38,11 @@
 * smalldesc:a site rite probe
 * longdesc:Used in the site rite bard systems.
 
+# clarius
+* code:clarius
+* smalldesc:a clarius probe
+* longdesc:a clarius systems.
+* 
 # shzmch
 * code:shzmch
 * smalldesc:a mechanical probe found on shenzen
@@ -163,24 +168,24 @@
 * smalldesc: Kretz, 17.5MHz.
 * longdesc: Kretz, 17.5MHz.
 
-# ATLAccessA
+# accessa
 * code:accessa
 * smalldesc: 5MHZ, 6cm FP, ATL mech probe.
 * longdesc: 5MHZ, 6cm FP, ATL mech probe.
 
-# ATLAccessC
+# accessc
 * code:accessc
 * smalldesc: 3MHZ, 4cm FP, ATL mech probe.
 * longdesc: 3MHZ, 4cm FP, ATL mech probe.
 
-# Lumify
+# lumify
 * code:lumify
 * smalldesc: lumify.
 * longdesc: lumify.
 
 # intersonvs35
 * code:intersonvs35
-* smalldesc: Ultrasound Interson VC 3.5MHz USB probe. 
+* smalldesc: Ultrasound Interson VC 3.5MHz USB probe.
 * longdesc: Ultrasound Interson VC 3.5MHz USB probe.
 
 # wirelessdual

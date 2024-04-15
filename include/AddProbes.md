@@ -1,11 +1,11 @@
 That's the list of probes I've been playing with:
 
 * [724A](/include/probes/auto/724A.md)
-* [ATLAccessA](/include/probes/auto/accessa.md)
-* [ATLAccessC](/include/probes/auto/accessc.md)
 * [BiViPiezo](/include/probes/auto/BiViPiezo.md)
 * [Lumify](/include/probes/auto/lumify.md)
 * [NDTPiezo](/include/probes/auto/NDTPiezo.md)
+* [accessa](/include/probes/auto/accessa.md)
+* [accessc](/include/probes/auto/accessc.md)
 * [adrus](/include/probes/auto/adrus.md)
 * [apogee](/include/probes/auto/apogee.md)
 * [apogee10MHz](/include/probes/auto/apogee10MHz.md)
@@ -19,6 +19,7 @@ That's the list of probes I've been playing with:
 * [brd35](/include/probes/auto/brd35.md)
 * [brd75](/include/probes/auto/brd75.md)
 * [brd90](/include/probes/auto/brd90.md)
+* [clarius](/include/probes/auto/clarius.md)
 * [diasonics_50](/include/probes/auto/diasonics_50.md)
 * [diasonics_75](/include/probes/auto/diasonics_75.md)
 * [diasonics_gpm_plus_35](/include/probes/auto/diasonics_gpm_plus_35.md)

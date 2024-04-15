@@ -79,6 +79,10 @@ ausonic 7.5MHz probe
 teardown
 ausonic 7.5MHz probe
 
+![](/include/probes/viewmes/ausonics75.jpg)
+teardown
+ausonic 7.5MHz probe
+
 ## Other pictures 
 
 ![](/include/20201219r/images/teardown/20201205_203958.jpg)

@@ -84,6 +84,10 @@ teardown
 teardown
 .
 
+![](/include/probes/viewmes/diasonics_tr.jpg)
+teardown
+Teardown on a diasonics_tr probe
+
 
 
 

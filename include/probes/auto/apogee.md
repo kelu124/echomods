@@ -117,6 +117,10 @@ Exploring the innards of an InterspecApogee probe
 teardown
 Exploring the innards of an InterspecApogee probe
 
+![](/include/probes/viewmes/apogee.jpg)
+teardown
+teardown of a new probe
+
 
 
 

@@ -8,19 +8,7 @@ __More?__ a 724A ultrasound probe
 
 __Present in:__ 1 experiments ([20181104c](/include/experiments/auto/20181104c.md)) 
 
-__Present in:__ 48 images.
-
-### [ATLAccessA](/include/probes/auto/accessa.md) (accessa)
-
-__TLDR__: 5MHZ, 6cm FP, ATL mech probe.
-
-__More?__ 5MHZ, 6cm FP, ATL mech probe.
-
-### [ATLAccessC](/include/probes/auto/accessc.md) (accessc)
-
-__TLDR__: 3MHZ, 4cm FP, ATL mech probe.
-
-__More?__ 3MHZ, 4cm FP, ATL mech probe.
+__Present in:__ 49 images.
 
 ### [BiViPiezo](/include/probes/auto/BiViPiezo.md) (BiViPiezo)
 
@@ -28,7 +16,9 @@ __TLDR__: the piezo given by BiVi
 
 __More?__ a test piezo
 
-__Present in:__ 2 images.
+__Present in:__ 1 experiments ([20240413a](/include/experiments/auto/20240413a.md)) 
+
+__Present in:__ 67 images.
 
 ### [Lumify](/include/probes/auto/lumify.md) (lumify)
 
@@ -46,6 +36,22 @@ __Present in:__ 4 experiments ([20190329a](/include/experiments/auto/20190329a.m
 
 __Present in:__ 11 images.
 
+### [accessa](/include/probes/auto/accessa.md) (accessa)
+
+__TLDR__: 5MHZ, 6cm FP, ATL mech probe.
+
+__More?__ 5MHZ, 6cm FP, ATL mech probe.
+
+__Present in:__ 2 images.
+
+### [accessc](/include/probes/auto/accessc.md) (accessc)
+
+__TLDR__: 3MHZ, 4cm FP, ATL mech probe.
+
+__More?__ 3MHZ, 4cm FP, ATL mech probe.
+
+__Present in:__ 2 images.
+
 ### [adrus](/include/probes/auto/adrus.md) (adrus)
 
 __TLDR__: a 5.5MHz ADR ultrasound probe
@@ -54,7 +60,7 @@ __More?__ That's a 5.5MHz ADR ultrasound probe. Strange connector on the back, s
 
 __Present in:__ 1 experiments ([20180807a](/include/experiments/auto/20180807a.md)) 
 
-__Present in:__ 19 images.
+__Present in:__ 20 images.
 
 ### [apogee](/include/probes/auto/apogee.md) (apogee)
 
@@ -64,7 +70,7 @@ __More?__ An interspec apogee probe. Quite a number of pins, nice steel block fo
 
 __Present in:__ 1 experiments ([20180807b](/include/experiments/auto/20180807b.md)) 
 
-__Present in:__ 26 images.
+__Present in:__ 27 images.
 
 ### [apogee10MHz](/include/probes/auto/apogee10MHz.md) (apogee10MHz)
 
@@ -72,7 +78,7 @@ __TLDR__: an Apogee 10MHz probe
 
 __More?__ an Apogee 10MHz probe. Diasonics 10.0 SP/C Vascular Mechanical 10.0MHz Probe. For diasonics spectra.
 
-__Present in:__ 27 images.
+__Present in:__ 28 images.
 
 ### [apogee5MHz](/include/probes/auto/apogee5MHz.md) (apogee5MHz)
 
@@ -82,7 +88,7 @@ __More?__ an Apogee 5MHz probe. Head should be containing a 5MHz piezo. EEProm n
 
 __Present in:__ 1 experiments ([20200808r](/include/experiments/auto/20200808r.md)) 
 
-__Present in:__ 19 images.
+__Present in:__ 20 images.
 
 ### [atlannular](/include/probes/auto/atlannular.md) (atlannular)
 
@@ -90,7 +96,7 @@ __TLDR__: a 5 rings probe
 
 __More?__ five rings!
 
-__Present in:__ 11 images.
+__Present in:__ 12 images.
 
 ### [atlidrict](/include/probes/auto/atlidrict.md) (atlidrict)
 
@@ -98,7 +104,7 @@ __TLDR__: an atlidrict 7.5MHz / 6.4mm probe
 
 __More?__ An ATL IDR intracavity 7.5MHz / 6.4mm probe. Seems to have nice connectors inside, plus
 
-__Present in:__ 5 images.
+__Present in:__ 6 images.
 
 ### [ausonics75](/include/probes/auto/ausonics75.md) (ausonics75)
 
@@ -108,7 +114,7 @@ __More?__ an ausonic 7.5MHz probe. Opened. [Piezo salvaged](/include/20200809r/i
 
 __Present in:__ 3 experiments ([20180809b](/include/experiments/auto/20180809b.md), [20200808r](/include/experiments/auto/20200808r.md), [20201219r](/include/experiments/auto/20201219r.md)) 
 
-__Present in:__ 18 images.
+__Present in:__ 19 images.
 
 ### [bard](/include/probes/auto/bard.md) (bard)
 
@@ -118,7 +124,7 @@ __More?__ Used in the site rite bard systems.
 
 __Present in:__ 2 experiments ([20200808r](/include/experiments/auto/20200808r.md), [20200809r](/include/experiments/auto/20200809r.md)) 
 
-__Present in:__ 33 images.
+__Present in:__ 34 images.
 
 ### [bk1850](/include/probes/auto/bk1850.md) (bk1850)
 
@@ -136,7 +142,7 @@ __More?__ Bruel & Kjaer mechanical probe.
 
 __Present in:__ 1 experiments ([20201219r](/include/experiments/auto/20201219r.md)) 
 
-__Present in:__ 4 images.
+__Present in:__ 5 images.
 
 ### [brd35](/include/probes/auto/brd35.md) (brd35)
 
@@ -146,7 +152,7 @@ __More?__ Bard rite, 3.5MHz.
 
 __Present in:__ 2 experiments ([20200608a](/include/experiments/auto/20200608a.md), [20201219r](/include/experiments/auto/20201219r.md)) 
 
-__Present in:__ 12 images.
+__Present in:__ 13 images.
 
 ### [brd75](/include/probes/auto/brd75.md) (brd75)
 
@@ -154,7 +160,7 @@ __TLDR__: Bard rite, 7.5MHz.
 
 __More?__ Bard rite, 7.5MHz.
 
-__Present in:__ 6 images.
+__Present in:__ 7 images.
 
 ### [brd90](/include/probes/auto/brd90.md) (brd90)
 
@@ -162,7 +168,15 @@ __TLDR__: Bard rite, 9.0MHz.
 
 __More?__ Bard rite, 9.0MHz.
 
-__Present in:__ 5 images.
+__Present in:__ 6 images.
+
+### [clarius](/include/probes/auto/clarius.md) (clarius)
+
+__TLDR__: a clarius probe
+
+__More?__ a clarius systems.
+
+__Present in:__ 3 images.
 
 ### [diasonics_50](/include/probes/auto/diasonics_50.md) (diasonics_50)
 
@@ -172,7 +186,7 @@ __More?__ a diasonics_50 probe
 
 __Present in:__ 1 experiments ([20201219r](/include/experiments/auto/20201219r.md)) 
 
-__Present in:__ 8 images.
+__Present in:__ 9 images.
 
 ### [diasonics_75](/include/probes/auto/diasonics_75.md) (diasonics_75)
 
@@ -182,7 +196,7 @@ __More?__ a diasonics_75 probe
 
 __Present in:__ 1 experiments ([20200808r](/include/experiments/auto/20200808r.md)) 
 
-__Present in:__ 10 images.
+__Present in:__ 11 images.
 
 ### [diasonics_gpm_plus_35](/include/probes/auto/diasonics_gpm_plus_35.md) (diasonics_gpm_plus_35)
 
@@ -192,7 +206,7 @@ __More?__ A diasonics GP/M plus, 3.5MHz
 
 __Present in:__ 1 experiments ([20200808r](/include/experiments/auto/20200808r.md)) 
 
-__Present in:__ 17 images.
+__Present in:__ 18 images.
 
 ### [diasonics_tr](/include/probes/auto/diasonics_tr.md) (diasonics_tr)
 
@@ -202,7 +216,7 @@ __More?__ not tore down yet =) Updated on 20200508 : Tore down now.
 
 __Present in:__ 1 experiments ([20200808r](/include/experiments/auto/20200808r.md)) 
 
-__Present in:__ 16 images.
+__Present in:__ 17 images.
 
 ### [duc2m](/include/probes/auto/duc2m.md) (duc2m)
 
@@ -212,7 +226,7 @@ __More?__ an Diagnostic Ultrasound Corp probe. 2MHz. Should be a verathon 2MHz p
 
 __Present in:__ 1 experiments ([20201219r](/include/experiments/auto/20201219r.md)) 
 
-__Present in:__ 13 images.
+__Present in:__ 14 images.
 
 ### [hp2121](/include/probes/auto/hp2121.md) (hp2121)
 
@@ -222,7 +236,7 @@ __More?__ Real name : __21412A__. Or hp2121. Has a small '93C46' eeprom. Experim
 
 __Present in:__ 5 experiments ([20181013a](/include/experiments/auto/20181013a.md), [20181104a](/include/experiments/auto/20181104a.md), [20200808r](/include/experiments/auto/20200808r.md), [20201128a](/include/experiments/auto/20201128a.md), [20201219r](/include/experiments/auto/20201219r.md)) 
 
-__Present in:__ 39 images.
+__Present in:__ 40 images.
 
 ### [intersonvs35](/include/probes/auto/intersonvs35.md) (intersonvs35)
 
@@ -230,7 +244,7 @@ __TLDR__: Ultrasound Interson VC 3.5MHz USB probe.
 
 __More?__ Ultrasound Interson VC 3.5MHz USB probe.
 
-__Present in:__ 6 images.
+__Present in:__ 7 images.
 
 ### [ir1510ak](/include/probes/auto/ir1510ak.md) (ir1510ak)
 
@@ -238,9 +252,9 @@ __TLDR__: ir1510ak kretz probe.
 
 __More?__ ir1510ak kretz probe.
 
-__Present in:__ 23 experiments ([20160822a](/include/experiments/auto/20160822a.md), [20170715a](/include/experiments/auto/20170715a.md), [20171112a](/include/experiments/auto/20171112a.md), [20180225a](/include/experiments/auto/20180225a.md), [20180807a](/include/experiments/auto/20180807a.md), [20180807b](/include/experiments/auto/20180807b.md), [20180809b](/include/experiments/auto/20180809b.md), [20180812a](/include/experiments/auto/20180812a.md), [20180831c](/include/experiments/auto/20180831c.md), [20180901a](/include/experiments/auto/20180901a.md), [20181013a](/include/experiments/auto/20181013a.md), [20181104a](/include/experiments/auto/20181104a.md), [20181104b](/include/experiments/auto/20181104b.md), [20181104c](/include/experiments/auto/20181104c.md), [20190329a](/include/experiments/auto/20190329a.md), [20190404a](/include/experiments/auto/20190404a.md), [20190415a](/include/experiments/auto/20190415a.md), [20200325a](/include/experiments/auto/20200325a.md), [20200608a](/include/experiments/auto/20200608a.md), [20200808r](/include/experiments/auto/20200808r.md), [20200809r](/include/experiments/auto/20200809r.md), [20201128a](/include/experiments/auto/20201128a.md), [20201219r](/include/experiments/auto/20201219r.md)) 
+__Present in:__ 24 experiments ([20160822a](/include/experiments/auto/20160822a.md), [20170715a](/include/experiments/auto/20170715a.md), [20171112a](/include/experiments/auto/20171112a.md), [20180225a](/include/experiments/auto/20180225a.md), [20180807a](/include/experiments/auto/20180807a.md), [20180807b](/include/experiments/auto/20180807b.md), [20180809b](/include/experiments/auto/20180809b.md), [20180812a](/include/experiments/auto/20180812a.md), [20180831c](/include/experiments/auto/20180831c.md), [20180901a](/include/experiments/auto/20180901a.md), [20181013a](/include/experiments/auto/20181013a.md), [20181104a](/include/experiments/auto/20181104a.md), [20181104b](/include/experiments/auto/20181104b.md), [20181104c](/include/experiments/auto/20181104c.md), [20190329a](/include/experiments/auto/20190329a.md), [20190404a](/include/experiments/auto/20190404a.md), [20190415a](/include/experiments/auto/20190415a.md), [20200325a](/include/experiments/auto/20200325a.md), [20200608a](/include/experiments/auto/20200608a.md), [20200808r](/include/experiments/auto/20200808r.md), [20200809r](/include/experiments/auto/20200809r.md), [20201128a](/include/experiments/auto/20201128a.md), [20201219r](/include/experiments/auto/20201219r.md), [20240413a](/include/experiments/auto/20240413a.md)) 
 
-__Present in:__ 12 images.
+__Present in:__ 13 images.
 
 ### [kretzaw145ba](/include/probes/auto/kretzaw145ba.md) (kretzaw145ba)
 
@@ -250,7 +264,7 @@ __More?__ a kretz AW14/5B/A probe
 
 __Present in:__ 2 experiments ([20180812a](/include/experiments/auto/20180812a.md), [20180901a](/include/experiments/auto/20180901a.md)) 
 
-__Present in:__ 39 images.
+__Present in:__ 40 images.
 
 ### [kretzir175ag](/include/probes/auto/kretzir175ag.md) (kretzir175ag)
 
@@ -258,7 +272,7 @@ __TLDR__: Kretz, 17.5MHz.
 
 __More?__ Kretz, 17.5MHz.
 
-__Present in:__ 14 images.
+__Present in:__ 15 images.
 
 ### [linscan](/include/probes/auto/linscan.md) (linscan)
 
@@ -266,7 +280,7 @@ __TLDR__: Ophtalmic probes
 
 __More?__ One tore down. Not the other. Curious to check the motor.
 
-__Present in:__ 14 images.
+__Present in:__ 15 images.
 
 ### [myapo](/include/probes/auto/myapo.md) (myapo)
 
@@ -282,7 +296,7 @@ __TLDR__: a 3-frequencies probe
 
 __More?__ 5, 7.5 and 10 MHz probe. Used on the ultramarks.
 
-__Present in:__ 7 images.
+__Present in:__ 8 images.
 
 ### [retro10apogee](/include/probes/auto/retro10apogee.md) (retro10apogee)
 
@@ -302,7 +316,7 @@ __More?__ 3.5MHz probe. Used on the ultramarks. Thouroughly tested:
 
 __Present in:__ 5 experiments ([20160822a](/include/experiments/auto/20160822a.md), [20170715a](/include/experiments/auto/20170715a.md), [20171112a](/include/experiments/auto/20171112a.md), [20180225a](/include/experiments/auto/20180225a.md), [20180831c](/include/experiments/auto/20180831c.md)) 
 
-__Present in:__ 67 images.
+__Present in:__ 68 images.
 
 ### [s3](/include/probes/auto/s3.md) (s3)
 
@@ -310,7 +324,7 @@ __TLDR__: A small wireless probe.
 
 __More?__ A probe from shenzen. Happy to have played with it, opened it, ...
 
-__Present in:__ 15 images.
+__Present in:__ 16 images.
 
 ### [shzmch](/include/probes/auto/shzmch.md) (shzmch)
 
@@ -320,7 +334,7 @@ __More?__ a mechanical probe found on shenzen
 
 __Present in:__ 1 experiments ([20200808r](/include/experiments/auto/20200808r.md)) 
 
-__Present in:__ 9 images.
+__Present in:__ 10 images.
 
 ### [sw45b](/include/probes/auto/sw45b.md) (sw45b)
 
@@ -328,7 +342,7 @@ __TLDR__: a kretz sw45b probe
 
 __More?__ a kretz sw45b probe. Interesting mechanical device. Looks like a convex array probe, but mechanical.
 
-__Present in:__ 29 images.
+__Present in:__ 30 images.
 
 ### [uprobe1](/include/probes/auto/uProbe1.md) (uProbe1)
 
@@ -344,7 +358,7 @@ __TLDR__: wirelessdual probe.
 
 __More?__ wirelessdual probe.
 
-__Present in:__ 8 images.
+__Present in:__ 9 images.
 
 
 

@@ -33,6 +33,10 @@ Exploring the innards of a atlidrict probe
 teardown
 Exploring the innards of a atlidrict probe
 
+![](/include/probes/viewmes/atlidrict.jpg)
+teardown
+Exploring the innards of a atlidrict probe
+
 
 
 

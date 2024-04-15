@@ -105,6 +105,10 @@ teardown
 teardown
 .
 
+![](/include/probes/viewmes/kretzaw145ba.jpg)
+teardown
+.
+
 ## Other pictures 
 
 ![](/include/images/kretzaw145ba/20180811a/20180811a-3first-lines-fft.jpg)

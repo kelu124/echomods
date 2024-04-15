@@ -95,6 +95,10 @@ Unkwown (apogee) 5MHz probe
 teardown
 Unkwown (apogee) 5MHz probe
 
+![](/include/probes/viewmes/apogee5MHz.jpg)
+teardown
+Unkwown (apogee) 5MHz probe
+
 
 
 
