@@ -1,18 +1,18 @@
-* [./Worklog.md](/Worklog.md): Full worklog of the modules . _File not used._
+* [./Worklog.md](/Worklog.md): Full worklog of the modules . File used in: [`/include/ppt_20160720-Milestone.md`](/include/ppt_20160720-Milestone.md).
 
-* [./WordOfCaution.md](/WordOfCaution.md):  . _File not used._
+* [./WordOfCaution.md](/WordOfCaution.md):  . File used in: [`/README.md`](/README.md), [`/WordOfCaution.md`](/WordOfCaution.md), [`/Readme.md`](/Readme.md), [`/include/AddPitch.md`](/include/AddPitch.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md).
 
-* [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016 . _File not used._
+* [./goblin/2016-07-08.md](/goblin/2016-07-08.md): First experiment on 08th July 2016 . File used in: [`/goblin/2016-07-08.md`](/goblin/2016-07-08.md), [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md), [`/goblin/Readme.md`](/goblin/Readme.md).
 
-* [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin . _File not used._
+* [./goblin/2016-07-15.md](/goblin/2016-07-15.md): Second work with Goblin . File used in: [`/goblin/2016-07-15.md`](/goblin/2016-07-15.md).
 
 * [./goblin/tindie.md](/goblin/tindie.md):  . _File not used._
 
-* [./goblin/Readme.md](/goblin/Readme.md): Goblin description . _File not used._
+* [./goblin/Readme.md](/goblin/Readme.md): Goblin description . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./goblin/2016-08-09.md](/goblin/2016-08-09.md): Testing Tobo + Goblin together . _File not used._
 
-* [./goblin/QuickStart.md](/goblin/QuickStart.md):  . _File not used._
+* [./goblin/QuickStart.md](/goblin/QuickStart.md):  . File used in: [`/goblin/Readme.md`](/goblin/Readme.md).
 
 * [./goblin/pi0/HighSpeedBurstADC.md](/goblin/pi0/HighSpeedBurstADC.md):  . _File not used._
 
@@ -20,27 +20,27 @@
 
 * [./goblin/source/Altium.v2/Readme.md](/goblin/source/Altium.v2/Readme.md):  . _File not used._
 
-* [./wirephantom/Readme.md](/wirephantom/Readme.md): Phantom used for tests . _File not used._
+* [./wirephantom/Readme.md](/wirephantom/Readme.md): Phantom used for tests . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./lite.tbo/tindie.md](/lite.tbo/tindie.md):  . _File not used._
 
-* [./lite.tbo/Readme.md](/lite.tbo/Readme.md):  . _File not used._
+* [./lite.tbo/Readme.md](/lite.tbo/Readme.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin) . _File not used._
+* [./silent/2016-08-09-SilentPlusTobo.md](/silent/2016-08-09-SilentPlusTobo.md): Different steps of Signal emulation  (silent) being processed (by goblin) . File used in: [`/silent/Readme.md`](/silent/Readme.md).
 
-* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator . _File not used._
+* [./silent/2016-08-02.md](/silent/2016-08-02.md): Doing a Simple Signal Generator . File used in: [`/silent/Readme.md`](/silent/Readme.md).
 
-* [./silent/Readme.md](/silent/Readme.md): Main doc for the ultrasound signal emulator . _File not used._
+* [./silent/Readme.md](/silent/Readme.md): Main doc for the ultrasound signal emulator . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./silent/notes_R2R_DAC.md](/silent/notes_R2R_DAC.md):  . _File not used._
 
-* [./doj/Readme.md](/doj/Readme.md): Motherboard readme . _File not used._
+* [./doj/Readme.md](/doj/Readme.md): Motherboard readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./doj/QuickStart.md](/doj/QuickStart.md):  . _File not used._
+* [./doj/QuickStart.md](/doj/QuickStart.md):  . File used in: [`/doj/Readme.md`](/doj/Readme.md).
 
 * [./doj/source/v1.2-kicad/Readme.md](/doj/source/v1.2-kicad/Readme.md):  . _File not used._
 
-* [./doj/old/brief.md](/doj/old/brief.md):  . _File not used._
+* [./doj/old/brief.md](/doj/old/brief.md):  . File used in: [`/doj/Readme.md`](/doj/Readme.md), [`/doj/source/v1.2-kicad/Readme.md`](/doj/source/v1.2-kicad/Readme.md).
 
 * [./doj/old/brief_v2.md](/doj/old/brief_v2.md):  . _File not used._
 
@@ -48,13 +48,13 @@
 
 * [./doj/old/20170522-DojV2tests.md](/doj/old/20170522-DojV2tests.md):  . _File not used._
 
-* [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  . _File not used._
+* [./retroATL3/2017-05-20_APeakInside.md](/retroATL3/2017-05-20_APeakInside.md):  . File used in: [`/retroATL3/Readme.md`](/retroATL3/Readme.md), [`/retired/cletus/2017-06-08_FindingSuppliers.md`](/retired/cletus/2017-06-08_FindingSuppliers.md).
 
-* [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes . _File not used._
+* [./retroATL3/Readme.md](/retroATL3/Readme.md): Main doc source for hacking ATL probes . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
-* [./retired/cletus/Readme.md](/retired/cletus/Readme.md): Piezo+Servo module . _File not used._
+* [./retired/cletus/Readme.md](/retired/cletus/Readme.md): Piezo+Servo module . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/cletus/2017-06-08_FindingSuppliers.md](/retired/cletus/2017-06-08_FindingSuppliers.md):  . _File not used._
+* [./retired/cletus/2017-06-08_FindingSuppliers.md](/retired/cletus/2017-06-08_FindingSuppliers.md):  . File used in: [`/retired/cletus/Readme.md`](/retired/cletus/Readme.md).
 
 * [./retired/cletus/suppliers/supplier-ut.md](/retired/cletus/suppliers/supplier-ut.md): supplier source file 
 * [./retired/cletus/suppliers/supplier-smartmaterials.md](/retired/cletus/suppliers/supplier-smartmaterials.md): supplier source file 
@@ -66,7 +66,8 @@
 * [./retired/cletus/suppliers/supplier-hurricane.md](/retired/cletus/suppliers/supplier-hurricane.md): supplier source file 
 * [./retired/cletus/suppliers/supplier-sonicconcepts.md](/retired/cletus/suppliers/supplier-sonicconcepts.md): supplier source file 
 * [./retired/cletus/suppliers/supplier-valpey.md](/retired/cletus/suppliers/supplier-valpey.md): supplier source file 
-* [./retired/cletus/suppliers/supplier-ndtxducer.md](/retired/cletus/suppliers/supplier-ndtxducer.md): supplier source file 
+* [./retired/cletus/suppliers/supplier-ndtxducer.md](/retired/cletus/suppliers/supplier-ndtxducer.md): supplier source file . File used in: [`/retired/cletus/suppliers/supplier-ikos.md`](/retired/cletus/suppliers/supplier-ikos.md).
+
 * [./retired/cletus/suppliers/supplier-piezotech.md](/retired/cletus/suppliers/supplier-piezotech.md): supplier source file 
 * [./retired/cletus/suppliers/supplier-piezocom.md](/retired/cletus/suppliers/supplier-piezocom.md): supplier source file 
 * [./retired/cletus/suppliers/supplier-americanpiezo.md](/retired/cletus/suppliers/supplier-americanpiezo.md): supplier source file 
@@ -74,69 +75,69 @@
 * [./retired/cletus/suppliers/specs/piezo-specs.md](/retired/cletus/suppliers/specs/piezo-specs.md):  
 * [./retired/cletus/IMN/Readme.md](/retired/cletus/IMN/Readme.md): Electrical impedance matching . _File not used._
 
-* [./retired/toadkiller/Readme.md](/retired/toadkiller/Readme.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme . _File not used._
+* [./retired/toadkiller/Readme.md](/retired/toadkiller/Readme.md): Acquiring data through a BeagleBone 40Msps PRUDAQ - readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md), [`/include/ppt_presUS.md`](/include/ppt_presUS.md).
 
-* [./retired/toadkiller/data/test_enveloppe/Readme.md](/retired/toadkiller/data/test_enveloppe/Readme.md):  . _File not used._
+* [./retired/toadkiller/data/test_enveloppe/Readme.md](/retired/toadkiller/data/test_enveloppe/Readme.md):  . File used in: [`/goblin/Readme.md`](/goblin/Readme.md).
 
-* [./retired/oneeye/Readme.md](/retired/oneeye/Readme.md): Standalone pulser control unit - readme . _File not used._
+* [./retired/oneeye/Readme.md](/retired/oneeye/Readme.md): Standalone pulser control unit - readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/tobo/Readme.md](/retired/tobo/Readme.md):  . _File not used._
+* [./retired/tobo/Readme.md](/retired/tobo/Readme.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/tobo/QuickStart.md](/retired/tobo/QuickStart.md):  . _File not used._
+* [./retired/tobo/QuickStart.md](/retired/tobo/QuickStart.md):  . File used in: [`/retired/tobo/Readme.md`](/retired/tobo/Readme.md).
 
-* [./retired/mogaba/Readme.md](/retired/mogaba/Readme.md): Off-the shelf power supply module - Readme . _File not used._
+* [./retired/mogaba/Readme.md](/retired/mogaba/Readme.md): Off-the shelf power supply module - Readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
 * [./retired/hannin/Readme.md](/retired/hannin/Readme.md):  . _File not used._
 
 * [./retired/hannin/source/Firmware/README.md](/retired/hannin/source/Firmware/README.md):  . _File not used._
 
-* [./retired/croaker/notes_feather_WICED.md](/retired/croaker/notes_feather_WICED.md): Random notes on WICED . _File not used._
+* [./retired/croaker/notes_feather_WICED.md](/retired/croaker/notes_feather_WICED.md): Random notes on WICED . File used in: [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md).
 
-* [./retired/croaker/notes_RPi0.md](/retired/croaker/notes_RPi0.md): Random notes on RPi0 . _File not used._
+* [./retired/croaker/notes_RPi0.md](/retired/croaker/notes_RPi0.md): Random notes on RPi0 . File used in: [`/goblin/pi0/HighSpeedBurstADC.md`](/goblin/pi0/HighSpeedBurstADC.md), [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md).
 
-* [./retired/croaker/notes_EMW3165.md](/retired/croaker/notes_EMW3165.md): Fun about EMW3165 . _File not used._
+* [./retired/croaker/notes_EMW3165.md](/retired/croaker/notes_EMW3165.md): Fun about EMW3165 . File used in: [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md).
 
-* [./retired/croaker/notes_uC.md](/retired/croaker/notes_uC.md):  . _File not used._
+* [./retired/croaker/notes_uC.md](/retired/croaker/notes_uC.md):  . File used in: [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md).
 
 * [./retired/croaker/notes_ESP32.md](/retired/croaker/notes_ESP32.md): Notes on ESP32 . _File not used._
 
-* [./retired/croaker/notes_ESP8266.md](/retired/croaker/notes_ESP8266.md): Notes on ESP8266 . _File not used._
+* [./retired/croaker/notes_ESP8266.md](/retired/croaker/notes_ESP8266.md): Notes on ESP8266 . File used in: [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md).
 
 * [./retired/croaker/notes_STM32F205_ref_manual.md](/retired/croaker/notes_STM32F205_ref_manual.md): Notes on the STM32F205 for quick ADCs . _File not used._
 
-* [./retired/croaker/Readme.md](/retired/croaker/Readme.md): Analog processing module readme . _File not used._
+* [./retired/croaker/Readme.md](/retired/croaker/Readme.md): Analog processing module readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino . _File not used._
+* [./retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md](/retired/croaker/data/20161217/20161217-TestingArduinoAndPhantom.md): Acquisition on a new phantom with an arduino . File used in: [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md).
 
 * [./retired/croaker/data/examples/Readme.md](/retired/croaker/data/examples/Readme.md):  . _File not used._
 
-* [./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . _File not used._
+* [./retired/croaker/feather_tests/2016-09-10-Feather_ADC.md](/retired/croaker/feather_tests/2016-09-10-Feather_ADC.md):  . File used in: [`/retired/croaker/Readme.md`](/retired/croaker/Readme.md).
 
-* [./retired/sleepy/Readme.md](/retired/sleepy/Readme.md): Casing of the modules - readme . _File not used._
+* [./retired/sleepy/Readme.md](/retired/sleepy/Readme.md): Casing of the modules - readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/tomtom/screen.md](/retired/tomtom/screen.md):  . _File not used._
+* [./retired/tomtom/screen.md](/retired/tomtom/screen.md):  . File used in: [`/retired/tomtom/Readme.md`](/retired/tomtom/Readme.md).
 
-* [./retired/tomtom/DicomHandler.md](/retired/tomtom/DicomHandler.md):  . _File not used._
+* [./retired/tomtom/DicomHandler.md](/retired/tomtom/DicomHandler.md):  . File used in: [`/include/AddDICOM.md`](/include/AddDICOM.md).
 
-* [./retired/tomtom/20170506-RPiAndTobo.md](/retired/tomtom/20170506-RPiAndTobo.md):  . _File not used._
+* [./retired/tomtom/20170506-RPiAndTobo.md](/retired/tomtom/20170506-RPiAndTobo.md):  . File used in: [`/retired/tomtom/Readme.md`](/retired/tomtom/Readme.md).
 
-* [./retired/tomtom/20170425-ExploringGPIOs.md](/retired/tomtom/20170425-ExploringGPIOs.md):  . _File not used._
+* [./retired/tomtom/20170425-ExploringGPIOs.md](/retired/tomtom/20170425-ExploringGPIOs.md):  . File used in: [`/retired/tomtom/Readme.md`](/retired/tomtom/Readme.md).
 
-* [./retired/tomtom/Readme.md](/retired/tomtom/Readme.md): Analog processing module readme . _File not used._
+* [./retired/tomtom/Readme.md](/retired/tomtom/Readme.md): Analog processing module readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
 * [./retired/tomtom/apps/client/Resources.md](/retired/tomtom/apps/client/Resources.md):  . _File not used._
 
-* [./retired/loftus/Readme.md](/retired/loftus/Readme.md): Piezo+Servo module . _File not used._
+* [./retired/loftus/Readme.md](/retired/loftus/Readme.md): Piezo+Servo module . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./retired/loftus/source/s3/Readme.md](/retired/loftus/source/s3/Readme.md):  . _File not used._
+* [./retired/loftus/source/s3/Readme.md](/retired/loftus/source/s3/Readme.md):  . File used in: [`/README.md`](/README.md), [`/retired/cletus/Readme.md`](/retired/cletus/Readme.md).
 
-* [./retired/alt.tbo/Readme.md](/retired/alt.tbo/Readme.md):  . _File not used._
+* [./retired/alt.tbo/Readme.md](/retired/alt.tbo/Readme.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
 * [./retired/alt.tbo/20171111a/Readme.md](/retired/alt.tbo/20171111a/Readme.md):  . _File not used._
 
 * [./retired/alt.tbo/test/Readme.md](/retired/alt.tbo/test/Readme.md):  . _File not used._
 
-* [./retired/alt.tbo/20171112a/Readme.md](/retired/alt.tbo/20171112a/Readme.md):  . _File not used._
+* [./retired/alt.tbo/20171112a/Readme.md](/retired/alt.tbo/20171112a/Readme.md):  . File used in: [`/include/experiments/auto/20171112a.md`](/include/experiments/auto/20171112a.md).
 
 * [./retired/alt.tbo/20171001a/Readme.md](/retired/alt.tbo/20171001a/Readme.md):  . _File not used._
 
@@ -144,9 +145,9 @@
 
 * [./retired/alt.tbo/20171112b/Readme.md](/retired/alt.tbo/20171112b/Readme.md):  . _File not used._
 
-* [./retired/retro10PV/Readme.md](/retired/retro10PV/Readme.md):  . _File not used._
+* [./retired/retro10PV/Readme.md](/retired/retro10PV/Readme.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/rmRetiredModules.md`](/include/rmRetiredModules.md).
 
-* [./pic0/Readme.md](/pic0/Readme.md): rp2040 all-in-one board readme . _File not used._
+* [./pic0/Readme.md](/pic0/Readme.md): rp2040 all-in-one board readme . File used in: [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./pic0/data/20240413a/Readme.md](/pic0/data/20240413a/Readme.md):  . _File not used._
 
@@ -156,11 +157,11 @@
 
 * [./matty/un0log.md](/matty/un0log.md):  . _File not used._
 
-* [./matty/nextsteps.md](/matty/nextsteps.md):  . _File not used._
+* [./matty/nextsteps.md](/matty/nextsteps.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/matty/Readme.md`](/matty/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md).
 
 * [./matty/pitch.md](/matty/pitch.md):  . _File not used._
 
-* [./matty/Readme.md](/matty/Readme.md): ice40 all-in-one board readme . _File not used._
+* [./matty/Readme.md](/matty/Readme.md): ice40 all-in-one board readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./matty/wvp.md](/matty/wvp.md):  . _File not used._
 
@@ -194,13 +195,13 @@
 
 * [./matty/20201103a/Readme.md](/matty/20201103a/Readme.md):  . _File not used._
 
-* [./matty/20201026a/install.md](/matty/20201026a/install.md):  . _File not used._
+* [./matty/20201026a/install.md](/matty/20201026a/install.md):  . File used in: [`/include/experiments/auto/20201026a.md`](/include/experiments/auto/20201026a.md).
 
-* [./matty/20201026a/Readme.md](/matty/20201026a/Readme.md):  . _File not used._
+* [./matty/20201026a/Readme.md](/matty/20201026a/Readme.md):  . File used in: [`/include/experiments/auto/20201026a.md`](/include/experiments/auto/20201026a.md).
 
-* [./matty/20201026a/fpga_ctrl/README.md](/matty/20201026a/fpga_ctrl/README.md):  . _File not used._
+* [./matty/20201026a/fpga_ctrl/README.md](/matty/20201026a/fpga_ctrl/README.md):  . File used in: [`/include/experiments/auto/20201026a.md`](/include/experiments/auto/20201026a.md).
 
-* [./matty/20201026a/fpga_ctrl/csr_map.md](/matty/20201026a/fpga_ctrl/csr_map.md):  . _File not used._
+* [./matty/20201026a/fpga_ctrl/csr_map.md](/matty/20201026a/fpga_ctrl/csr_map.md):  . File used in: [`/include/experiments/auto/20201026a.md`](/include/experiments/auto/20201026a.md).
 
 * [./matty/20200418a/Readme.md](/matty/20200418a/Readme.md):  . _File not used._
 
@@ -242,7 +243,7 @@
 
 * [./matty/pHATrick/concept.md](/matty/pHATrick/concept.md):  . _File not used._
 
-* [./matty/pHATrick/20190223/Readme.md](/matty/pHATrick/20190223/Readme.md):  . _File not used._
+* [./matty/pHATrick/20190223/Readme.md](/matty/pHATrick/20190223/Readme.md):  . File used in: [`/include/experiments/auto/Code_20190223.md`](/include/experiments/auto/Code_20190223.md), [`/include/experiments/auto/Code_20190223a.md`](/include/experiments/auto/Code_20190223a.md).
 
 * [./matty/20201108a/Readme.md](/matty/20201108a/Readme.md):  . _File not used._
 
@@ -250,7 +251,7 @@
 
 * [./matty/20180403a/Readme.md](/matty/20180403a/Readme.md):  . _File not used._
 
-* [./matty/20180227a/Readme.md](/matty/20180227a/Readme.md):  . _File not used._
+* [./matty/20180227a/Readme.md](/matty/20180227a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
 
 * [./matty/20200508a/exp.md](/matty/20200508a/exp.md):  . _File not used._
 
@@ -280,7 +281,7 @@
 
 * [./matty/20200416a/Readme.md](/matty/20200416a/Readme.md):  . _File not used._
 
-* [./matty/20180225a/Readme.md](/matty/20180225a/Readme.md):  . _File not used._
+* [./matty/20180225a/Readme.md](/matty/20180225a/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
 
 * [./matty/20200321a/exp.md](/matty/20200321a/exp.md):  . _File not used._
 
@@ -294,7 +295,7 @@
 
 * [./matty/20180506a/Readme.md](/matty/20180506a/Readme.md):  . _File not used._
 
-* [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . _File not used._
+* [./matty/images/hv/PonPoff_test/Readme.md](/matty/images/hv/PonPoff_test/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
 
 * [./matty/20201031a/Readme.md](/matty/20201031a/Readme.md):  . _File not used._
 
@@ -304,7 +305,7 @@
 
 * [./matty/20180310a/Readme.md](/matty/20180310a/Readme.md):  . _File not used._
 
-* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . _File not used._
+* [./matty/20180224b/Readme.md](/matty/20180224b/Readme.md):  . File used in: [`/matty/un0log.md`](/matty/un0log.md), [`/matty/Readme.md`](/matty/Readme.md), [`/matty/news/2018-02-27-good-news.md`](/matty/news/2018-02-27-good-news.md).
 
 * [./matty/20180430a/Readme.md](/matty/20180430a/Readme.md):  . _File not used._
 
@@ -348,11 +349,11 @@
 
 * [./include/teardowns.md](/include/teardowns.md):  . _File not used._
 
-* [./include/NDT.md](/include/NDT.md):  . _File not used._
+* [./include/NDT.md](/include/NDT.md):  . File used in: [`/include/RPiHSDK.md`](/include/RPiHSDK.md).
 
 * [./include/PiDAQ.set.md](/include/PiDAQ.set.md):  . _File not used._
 
-* [./include/ppt_openconf.md](/include/ppt_openconf.md):  . _File not used._
+* [./include/ppt_openconf.md](/include/ppt_openconf.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
 * [./include/AddBench.md](/include/AddBench.md):  . _File not used._
 
@@ -374,9 +375,9 @@
 
 * [./include/wifi-dev-kit.set.md](/include/wifi-dev-kit.set.md):  . _File not used._
 
-* [./include/ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md):  . _File not used._
+* [./include/ppt_20160720-Milestone.md](/include/ppt_20160720-Milestone.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
-* [./include/ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md):  . _File not used._
+* [./include/ppt_DocumentationProcess.md](/include/ppt_DocumentationProcess.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
 * [./include/AddLicense.md](/include/AddLicense.md):  . _File not used._
 
@@ -388,7 +389,7 @@
 
 * [./include/FuturePR.md](/include/FuturePR.md):  . _File not used._
 
-* [./include/ft_600_notes.md](/include/ft_600_notes.md):  . _File not used._
+* [./include/ft_600_notes.md](/include/ft_600_notes.md):  . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddShoppingList.md`](/include/AddShoppingList.md), [`/include/rmTODOsToShopping.md`](/include/rmTODOsToShopping.md).
 
 * [./include/AddEngineering.md](/include/AddEngineering.md):  . _File not used._
 
@@ -402,9 +403,9 @@
 
 * [./include/AddHistory.md](/include/AddHistory.md):  . _File not used._
 
-* [./include/autodoc.md](/include/autodoc.md):  . _File not used._
+* [./include/autodoc.md](/include/autodoc.md):  . File used in: [`/include/AddHistory.md`](/include/AddHistory.md).
 
-* [./include/ATL.md](/include/ATL.md): Resources on ATL3 probes . _File not used._
+* [./include/ATL.md](/include/ATL.md): Resources on ATL3 probes . File used in: [`/include/AddHistory.md`](/include/AddHistory.md).
 
 * [./include/AddStats.md](/include/AddStats.md):  . _File not used._
 
@@ -416,9 +417,9 @@
 
 * [./include/AddDICOM.md](/include/AddDICOM.md):  . _File not used._
 
-* [./include/ppt_CLA.md](/include/ppt_CLA.md):  . _File not used._
+* [./include/ppt_CLA.md](/include/ppt_CLA.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
-* [./include/ppt_DocProcess.md](/include/ppt_DocProcess.md):  . _File not used._
+* [./include/ppt_DocProcess.md](/include/ppt_DocProcess.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
 * [./include/Readme.md](/include/Readme.md):  . _File not used._
 
@@ -426,7 +427,7 @@
 
 * [./include/UniBoard.md](/include/UniBoard.md):  . _File not used._
 
-* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . _File not used._
+* [./include/ppt_presUS.md](/include/ppt_presUS.md):  . File used in: [`/include/FilesList/PPTFiles.md`](/include/FilesList/PPTFiles.md).
 
 * [./include/highspeed.set.md](/include/highspeed.set.md):  . _File not used._
 
@@ -516,7 +517,7 @@
 
 * [./include/community/Jorge/Readme.md](/include/community/Jorge/Readme.md):  . _File not used._
 
-* [./include/community/Jorge/lit3rick/20201022a/20201022a.md](/include/community/Jorge/lit3rick/20201022a/20201022a.md):  . _File not used._
+* [./include/community/Jorge/lit3rick/20201022a/20201022a.md](/include/community/Jorge/lit3rick/20201022a/20201022a.md):  . File used in: [`/include/experiments/auto/Code_20201022a.md`](/include/experiments/auto/Code_20201022a.md).
 
 * [./include/community/Rendle/Readme.md](/include/community/Rendle/Readme.md):  . _File not used._
 
@@ -566,7 +567,7 @@
 
 * [./include/community/Luc/Readme.md](/include/community/Luc/Readme.md):  . _File not used._
 
-* [./include/community/Luc/Silvio/20201023a/20201022a.md](/include/community/Luc/Silvio/20201023a/20201022a.md):  . _File not used._
+* [./include/community/Luc/Silvio/20201023a/20201022a.md](/include/community/Luc/Silvio/20201023a/20201022a.md):  . File used in: [`/include/experiments/auto/Code_20201023a.md`](/include/experiments/auto/Code_20201023a.md).
 
 * [./include/community/Mikhail/Readme.md](/include/community/Mikhail/Readme.md):  . _File not used._
 
@@ -684,9 +685,9 @@
 
 * [./include/community/Xhy/Readme.md](/include/community/Xhy/Readme.md):  . _File not used._
 
-* [./include/UniBoard/UniBoard-1.md](/include/UniBoard/UniBoard-1.md):  . _File not used._
+* [./include/UniBoard/UniBoard-1.md](/include/UniBoard/UniBoard-1.md):  . File used in: [`/include/UniBoard.md`](/include/UniBoard.md).
 
-* [./include/UniBoard/UniBoard.md](/include/UniBoard/UniBoard.md):  . _File not used._
+* [./include/UniBoard/UniBoard.md](/include/UniBoard/UniBoard.md):  . File used in: [`/include/UniBoard.md`](/include/UniBoard.md).
 
 * [./include/use_case_biblio/Readme.md](/include/use_case_biblio/Readme.md):  . _File not used._
 
@@ -708,7 +709,7 @@
 
 * [./include/biblio/Readme.md](/include/biblio/Readme.md):  . _File not used._
 
-* [./include/20180415a/Readme.md](/include/20180415a/Readme.md):  . _File not used._
+* [./include/20180415a/Readme.md](/include/20180415a/Readme.md):  . File used in: [`/lite.tbo/Readme.md`](/lite.tbo/Readme.md).
 
 * [./include/20180415a/images/solder_issue/Readme.md](/include/20180415a/images/solder_issue/Readme.md):  . _File not used._
 
@@ -780,7 +781,7 @@
 
 * [./include/20160822/Readme.md](/include/20160822/Readme.md):  . _File not used._
 
-* [./lit3rick/Readme.md](/lit3rick/Readme.md): up5k all-in-one board readme . _File not used._
+* [./lit3rick/Readme.md](/lit3rick/Readme.md): up5k all-in-one board readme . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./lit3rick/20201008a/Readme.md](/lit3rick/20201008a/Readme.md):  . _File not used._
 
@@ -790,13 +791,13 @@
 
 * [./elmo/tindie.md](/elmo/tindie.md):  . _File not used._
 
-* [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ . _File not used._
+* [./elmo/Readme.md](/elmo/Readme.md): Main doc source for high speed Pi DAQ . File used in: [`/README.md`](/README.md), [`/Readme.md`](/Readme.md), [`/include/AddModulesSummary.md`](/include/AddModulesSummary.md).
 
 * [./elmo/QuickStart.md](/elmo/QuickStart.md): Quickstart of the ADC pHAT . _File not used._
 
 * [./elmo/data/arduiphantom/Readme.md](/elmo/data/arduiphantom/Readme.md):  . _File not used._
 
-* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . _File not used._
+* [./elmo/data/arduino/20170611-arduino.md](/elmo/data/arduino/20170611-arduino.md):  . File used in: [`/retired/tobo/QuickStart.md`](/retired/tobo/QuickStart.md), [`/include/RPiHSDK.md`](/include/RPiHSDK.md), [`/include/QuickStart.md`](/include/QuickStart.md).
 
 
 

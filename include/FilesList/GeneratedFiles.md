@@ -441,6 +441,7 @@
 * ./include/experiments/auto/Mod_20180901a.md
 * ./include/experiments/auto/20160809a.md
 * ./include/experiments/auto/Img_20171111a.md
+* ./include/experiments/auto/20240413a.md
 * ./include/experiments/auto/Img_20190223.md
 * ./include/experiments/auto/Mod_20210425a.md
 * ./include/experiments/auto/Mod_20180415a.md

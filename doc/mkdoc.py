@@ -1106,7 +1106,7 @@ def GetGeneratedFiles(path):
 					start = '\[\]\(@description'
 					end = '\)'
 					Desc = re.search('%s(.*)%s' % (start, end), line).group(1).strip()
-					FileContenu += line
+				FileContenu += line
 				#  Pitch/Intro of the project)
 			if not found:
 				ManualFiles.append(eachMd)
