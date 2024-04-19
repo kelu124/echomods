@@ -545,7 +545,7 @@ def CreateProbesFiles(GrosJaSON):
 			RightColumn += ". __Present in:__ "+ str(Npr)+" images"
 			RightColumn += ". "
 		AddProbes += "* ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md)"
-		ProbeAuto += "| <img src='https://github.com/kelu124/echomods/blob/master/include/probes/viewmes/"+probe+".jpg' align='center' width='150'> | "+RightColumn.strip().replace("\n","")+" | \n"
+		ProbeAuto += "| <img src='https://github.com/kelu124/echomods/blob/master/include/probes/viewmes/"+probe+".jpg' align='center' width='250'> | "+RightColumn.strip().replace("\n","")+" | \n"
 
 	OpenWrite(ProbeAuto,"./include/probes/Readme.md")
 	OpenWrite(AddProbes,"./include/AddProbes.md")
