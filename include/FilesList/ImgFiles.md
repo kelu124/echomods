@@ -2551,14 +2551,10 @@
   * Cheese 3.28.0
   * ./matty/lit3rickv4/2020-09-18-165854 (4).jpg
 * __/matty/LawA/2d_comparison.jpg__:
-  * graph
-  * 20200421b
-  * Trying different compressions
+  * matty
   * ./matty/LawA/2d_comparison.jpg
 * __/matty/LawA/comparison.jpg__:
-  * graph
-  * 20200421b
-  * Trying different compressions
+  * matty
   * ./matty/LawA/comparison.jpg
 * __/matty/LawA/comparatif/noise_check.jpg__:
   * graph

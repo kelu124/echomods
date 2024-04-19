@@ -31,6 +31,8 @@ import sys
 from bs4 import BeautifulSoup
 from datetime import datetime
 
+import gc
+gc.set_threshold(0)
 
 
 
@@ -459,7 +461,7 @@ def CreateProbesFiles(GrosJaSON):
 
 		#print(probe,GrosJaSON["probes"][probe]["images"],GrosJaSON["probes"][probe].keys())
 		if GrosJaSON["probes"][probe]["images"]:
-			print(probe," -> ",GrosJaSON["probes"][probe]["images"])
+			#print(probe," -> ",GrosJaSON["probes"][probe]["images"])
 			ProbeAuto += "# Images\n\n"
 			SETUP = "## Setup \n\n"
 			ACQS = "## Acquisitions \n\n"
@@ -521,31 +523,33 @@ def CreateProbesFiles(GrosJaSON):
 			ProbeAuto +="\n\n"
 			#print ProbeAuto
 		OpenWrite(ProbeAuto,"./include/probes/auto/"+probe+".md")
-
+	print("First part done")
 	ProbeAuto = "# List of opened probes\n\n"
 	AddProbes = "That's the list of probes I've been playing with:\n\n"
-	for probe in sorted(GrosJaSON["probes"].keys()):
-		ProbeAuto += "### ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md) ("+GrosJaSON["probes"][probe]["code"]+")\n\n"
-		ProbeAuto += "__TLDR__: "+GrosJaSON["probes"][probe]["smalldesc"]+"\n\n"
-		ProbeAuto += "__More?__ "+GrosJaSON["probes"][probe]["longdesc"]+"\n\n"
+	ProbeAuto += "| View | Content | \n"
+	ProbeAuto += "|------|-------|\n"
+
+	for probe in sorted(list(GrosJaSON["probes"].keys())):
+		print(probe,"is getting donne")
+		RightColumn = "__["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md) ("+GrosJaSON["probes"][probe]["code"]+")__ -- "
+		RightColumn += ". __TLDR__: "+GrosJaSON["probes"][probe]["smalldesc"]+" -- "
+		RightColumn += ". __More?__ "+GrosJaSON["probes"][probe]["longdesc"]+" -- "
 		if len(GrosJaSON["probes"][probe]["experiments"]):
-			# @luc: GrosJaSON["probes"][probe]["experiments"] for all experiments
-			ProbeAuto += "__Present in:__ "+str(len(list(set(GrosJaSON["probes"][probe]["experiments"]))))+" experiments ("
+			RightColumn += ". __Present in:__ "+str(len(list(set(GrosJaSON["probes"][probe]["experiments"]))))+" experiments ("
 			ListOfExpeWithLinks = [ "["+x+"](/include/experiments/auto/"+x+".md)" for x in sorted(list(set(GrosJaSON["probes"][probe]["experiments"])))]
-			ProbeAuto += ", ".join(ListOfExpeWithLinks)
-			ProbeAuto += ") \n\n"
+			RightColumn += ", ".join(ListOfExpeWithLinks)
+			RightColumn += ") -- " 
 		if GrosJaSON["probes"][probe]["images"]:
 			LstPr = list(set(GrosJaSON["probes"][probe]["images"]))
 			Npr = len(LstPr)
-			ProbeAuto += "__Present in:__ "+ str(Npr)+" images"
-			#for k in LstPr:
-				#print(k)
-				#ProbeAuto += " ["+str(k).split("/")[-1].split(".")[0]+"]("+str(k)+")" 
-			ProbeAuto += ".\n\n"
-		AddProbes += "* ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md)\n"
+			RightColumn += ". __Present in:__ "+ str(Npr)+" images"
+			RightColumn += ". "
+		AddProbes += "* ["+probe+"](/include/probes/auto/"+GrosJaSON["probes"][probe]["code"]+".md)"
+		ProbeAuto += "| <img src='https://github.com/kelu124/echomods/blob/master/include/probes/viewmes/"+probe+".jpg' align='center' width='150'> | "+RightColumn.strip().replace("\n","")+" | \n"
+
 	OpenWrite(ProbeAuto,"./include/probes/Readme.md")
 	OpenWrite(AddProbes,"./include/AddProbes.md")
-
+	print("--------------------!! README DONE")
 	return GrosJaSON
 
 def ListContrib(cpath,BigJSON):

@@ -33,6 +33,8 @@ from bs4 import BeautifulSoup
 from doc.mkdoc import *
 from pprint import pprint
 
+import gc
+gc.set_threshold(0)
 
 FullSVG = 0
 
@@ -942,7 +944,7 @@ if 0:
         text_file.close()
 
     log.append("__[WEB Blog]__ " + str(len(ListePosts)) + " posts added" + "\n")
-
+print("Doing the the probes")
 GrosJaSON = CreateProbesFiles(GrosJaSON)
 
 # -------------------------------------------------- #
