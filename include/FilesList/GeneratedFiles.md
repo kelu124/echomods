@@ -575,6 +575,7 @@
 * ./include/probes/auto/retro10PV.md
 * ./include/probes/auto/adrus.md
 * ./include/probes/auto/NDTPiezo.md
+* ./include/probes/auto/up20.md
 * ./include/probes/auto/retro10apogee.md
 * ./include/probes/auto/brd75.md
 * ./include/probes/auto/clarius.md

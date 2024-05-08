@@ -19,7 +19,7 @@
 * longdesc: a kretz sw45b probe. Interesting mechanical device. Looks like a convex array probe, but mechanical.
 
 # uprobe1
-* code:uProbe1
+* code:uprobe1
 * smalldesc:A small wireless probe from shenzen
 * longdesc:A small wireless probe from shenzen. Couldn't open it, but I added some hacking in the wireless communication.
 

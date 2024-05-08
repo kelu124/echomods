@@ -1,4 +1,4 @@
-# uprobe1 (uProbe1)
+# uprobe1 (uprobe1)
 
 * Small description: A small wireless probe from shenzen
 
