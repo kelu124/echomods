@@ -16,6 +16,26 @@ Exploring the innards of a s3 ultrasound wireless probe
 hacking
 Exploring the innards of a s3 ultrasound wireless probe
 
+![](/include/s3/images/uProbe1/20240507_103218.jpg)
+hacking
+Exploring the innards of a s3 ultrasound wireless probe
+
+![](/include/s3/images/uProbe1/20240507_103236.jpg)
+hacking
+Exploring the innards of a s3 ultrasound wireless probe
+
+![](/include/s3/images/uProbe1/20240507_103407.jpg)
+hacking
+Exploring the innards of a s3 ultrasound wireless probe
+
+![](/include/s3/images/uProbe1/20240507_103419.jpg)
+hacking
+Exploring the innards of a s3 ultrasound wireless probe
+
+![](/include/s3/images/uProbe1/20240507_103432.jpg)
+hacking
+Exploring the innards of a s3 ultrasound wireless probe
+
 
 
 

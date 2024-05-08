@@ -368,6 +368,8 @@
 
 * [mkimg.py](/include/images/diasonics_50/mkimg.py): . _File not used._
 
+* [mkimg.py](/include/images/up20/mkimg.py): . _File not used._
+
 * [mkimg.py](/include/images/ir1510ak/mkimg.py): . _File not used._
 
 * [mkimg.py](/include/images/724A/mkimg.py): . _File not used._

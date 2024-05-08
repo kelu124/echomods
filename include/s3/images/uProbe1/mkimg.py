@@ -37,7 +37,7 @@ for dirpath, dirnames, filenames in os.walk("."):
     for filename in [f for f in filenames if ( f.endswith(".jpg") or f.endswith(".png") )]:
         Imgs.append( os.path.join(dirpath, filename) )
 
-print Imgs
+print(Imgs)
 
 for FileName in Imgs:
 	edit = 0
@@ -46,7 +46,7 @@ for FileName in Imgs:
 	try:
 		metadata.read()
 	except IOError:
-		print "Not an image"
+		print("Not an image")
 	else:
 		# Modules
 		metadata['Exif.Image.Software'] = "uprobe1"
@@ -61,5 +61,5 @@ for FileName in Imgs:
 		# Saving the image
 
 		metadata.write()
-		print "Image "+FileName+" saved"
+		print("Image "+FileName+" saved")
 

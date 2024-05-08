@@ -183,6 +183,11 @@
 * smalldesc: lumify.
 * longdesc: lumify.
 
+# up20
+* code:up20
+* smalldesc: up20.
+* longdesc: up20.
+
 # intersonvs35
 * code:intersonvs35
 * smalldesc: Ultrasound Interson VC 3.5MHz USB probe.

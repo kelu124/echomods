@@ -5483,6 +5483,11 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * s3
   * s3 probe
   * ./include/s3/images/201804/IMG_20180404_221715.jpg
+* __/include/s3/images/uProbe1/20240507_103419.jpg__:
+  * uprobe1
+  * hacking
+  * Exploring the innards of a s3 ultrasound wireless probe
+  * ./include/s3/images/uProbe1/20240507_103419.jpg
 * __/include/s3/images/uProbe1/20171127_210428.jpg__:
   * uprobe1
   * hacking
@@ -5493,6 +5498,26 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * hacking
   * Exploring the innards of a s3 ultrasound wireless probe
   * ./include/s3/images/uProbe1/20171127_210440.jpg
+* __/include/s3/images/uProbe1/20240507_103432.jpg__:
+  * uprobe1
+  * hacking
+  * Exploring the innards of a s3 ultrasound wireless probe
+  * ./include/s3/images/uProbe1/20240507_103432.jpg
+* __/include/s3/images/uProbe1/20240507_103236.jpg__:
+  * uprobe1
+  * hacking
+  * Exploring the innards of a s3 ultrasound wireless probe
+  * ./include/s3/images/uProbe1/20240507_103236.jpg
+* __/include/s3/images/uProbe1/20240507_103407.jpg__:
+  * uprobe1
+  * hacking
+  * Exploring the innards of a s3 ultrasound wireless probe
+  * ./include/s3/images/uProbe1/20240507_103407.jpg
+* __/include/s3/images/uProbe1/20240507_103218.jpg__:
+  * uprobe1
+  * hacking
+  * Exploring the innards of a s3 ultrasound wireless probe
+  * ./include/s3/images/uProbe1/20240507_103218.jpg
 * __/include/20180217a/maps/A11b-ter.DAT_spectrum.jpg__:
   * elmo, tomtom, alt.tbo, doj, goblin, cletus
   * graph
@@ -5692,10 +5717,42 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * elmo, lite.tbo, doj, goblin, cletus, silent
   * 20180415a
   * ./include/20180415a/images/solder_issue/20180415_105937.jpg
+* __/include/wirelessdual/imgs/20240507_101409.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/wirelessdual/imgs/20240507_101409.jpg
 * __/include/wirelessdual/imgs/IMG_9630.jpg__:
   * wirelessdual
   * wirelessdual probe
   * ./include/wirelessdual/imgs/IMG_9630.jpg
+* __/include/wirelessdual/imgs/20240507_101348.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/wirelessdual/imgs/20240507_101348.jpg
+* __/include/wirelessdual/imgs/20240507_102509.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/wirelessdual/imgs/20240507_102509.jpg
+* __/include/wirelessdual/imgs/20240507_102520.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/wirelessdual/imgs/20240507_102520.jpg
+* __/include/wirelessdual/imgs/20240507_102530.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/wirelessdual/imgs/20240507_102530.jpg
+* __/include/wirelessdual/imgs/20240507_102828.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/wirelessdual/imgs/20240507_102828.jpg
+* __/include/wirelessdual/imgs/20240507_102440.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/wirelessdual/imgs/20240507_102440.jpg
+* __/include/wirelessdual/imgs/20240507_102452.jpg__:
+  * wirelessdual
+  * wirelessdual probe
+  * ./include/wirelessdual/imgs/20240507_102452.jpg
 * __/include/wirelessdual/imgs/IMG_9631.jpg__:
   * wirelessdual
   * wirelessdual probe
@@ -6850,6 +6907,26 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * ./include/images/articles/e1cb987cc0344086842091526183d2a6.jpg
 * __/include/images/articles/54a1d43b7d8a4d0d878fc21830c4df46.jpg__:
   * ./include/images/articles/54a1d43b7d8a4d0d878fc21830c4df46.jpg
+* __/include/images/up20/20240507_104130.jpg__:
+  * up20
+  * teardown
+  * ./include/images/up20/20240507_104130.jpg
+* __/include/images/up20/20240507_104151.jpg__:
+  * up20
+  * teardown
+  * ./include/images/up20/20240507_104151.jpg
+* __/include/images/up20/20240507_103929.jpg__:
+  * up20
+  * teardown
+  * ./include/images/up20/20240507_103929.jpg
+* __/include/images/up20/20240507_103936.jpg__:
+  * up20
+  * teardown
+  * ./include/images/up20/20240507_103936.jpg
+* __/include/images/up20/20240507_104206.jpg__:
+  * up20
+  * teardown
+  * ./include/images/up20/20240507_104206.jpg
 * __/include/images/JOH/phantom.jpg__:
   * ./include/images/JOH/phantom.jpg
 * __/include/images/ir1510ak/DSC_0229.jpg__:
