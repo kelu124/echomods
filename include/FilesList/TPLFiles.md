@@ -176,6 +176,8 @@
 
 * [20181126a.md.tpl](/include/experiments/auto/20181126a.md.tpl): ./include/experiments/auto/20181126a.md.tpl. _File not used._
 
+* [20240604a.md.tpl](/include/experiments/auto/20240604a.md.tpl): ./include/experiments/auto/20240604a.md.tpl. _File not used._
+
 * [20191023a.md.tpl](/include/experiments/auto/20191023a.md.tpl): ./include/experiments/auto/20191023a.md.tpl. _File not used._
 
 * [20160814a.md.tpl](/include/experiments/auto/20160814a.md.tpl): ./include/experiments/auto/20160814a.md.tpl. _File not used._

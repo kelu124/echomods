@@ -26,6 +26,8 @@ Cool! We're going from a -4dB loss at 4MHz to something less cute but around -10
 
 Crappy setup, noisy, but ... fast.
 
+Distance piezo - reflector == 92mm (119/120us -- which we should see below)
+
 ### Top view of the piezo + bath
 
 ![](experiment/20240604_145543.jpg)
