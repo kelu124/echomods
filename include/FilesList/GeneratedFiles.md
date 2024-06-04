@@ -469,6 +469,7 @@
 * ./include/experiments/auto/20191018a.md
 * ./include/experiments/auto/Mod_20180224a.md
 * ./include/experiments/auto/Mod_20180511a.md
+* ./include/experiments/auto/20240604a.md
 * ./include/experiments/auto/20181013a.md
 * ./include/experiments/auto/Img_20180721a.md
 * ./include/experiments/auto/Code_20180403b.md
