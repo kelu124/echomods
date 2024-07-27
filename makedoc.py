@@ -85,6 +85,7 @@ ListJPGfromBMP("./")
 
 GenFiles = "# Getting images\n"
 ImgList = GetImgFiles("./")
+ImgList = [x for x in ImgList if ".venv" not in x]
 ListIfImages = []
 ListOfExperiment = []
 for k in ImgList:
@@ -176,6 +177,7 @@ OpenWrite(PPTFiles, "include/FilesList/PPTFiles.md")
 GraphModules = digraph()
 
 MDFiles = GetGeneratedFiles("./")
+MDFiles = [x for x in MDFiles if ".venv" not in x]
 for MDFile in MDFiles[5]:
     GrosJaSON["md"][MDFile[1:]] = {}
     GrosJaSON["md"][MDFile[1:]]["path"] = MDFile
@@ -279,6 +281,7 @@ OpenWrite(TPLLog, "include/FilesList/TPLFiles.md")
 
 PythonLog = ""
 ListeOfPython = GetPythonFiles("./")
+ListeOfPython = [x for x in ListeOfPython if ".venv" not in x]
 PythonFiles = CheckPythonFile(ListeOfPython)
 GrosJaSON["python"] = {}
 
@@ -321,6 +324,7 @@ OpenWrite(PythonLog + "\n\nDONE!", "include/FilesList/PythonFiles.md")
 
 CLog = ""
 ListeOfC = GetCFiles("./")
+ListeOfC = [x for x in ListeOfC if ".venv" not in x]
 CFiles = CheckCFile(ListeOfC)
 GrosJaSON["C"] = {}
 

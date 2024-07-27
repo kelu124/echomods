@@ -214,6 +214,24 @@
 
 * [20180216a.md.tpl](/include/experiments/auto/20180216a.md.tpl): ./include/experiments/auto/20180216a.md.tpl. _File not used._
 
+* [display_priority.tpl](/include/community/.venv/share/jupyter/nbconvert/templates/compatibility/display_priority.tpl): ./include/community/.venv/share/jupyter/nbconvert/templates/compatibility/display_priority.tpl. _File not used._
+
+* [full.tpl](/include/community/.venv/share/jupyter/nbconvert/templates/compatibility/full.tpl): ./include/community/.venv/share/jupyter/nbconvert/templates/compatibility/full.tpl. _File not used._
+
+* [html.tpl](/include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/html.tpl): ./include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/html.tpl. _File not used._
+
+* [html_style.tpl](/include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/html_style.tpl): ./include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/html_style.tpl. _File not used._
+
+* [html_table.tpl](/include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/html_table.tpl): ./include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/html_table.tpl. _File not used._
+
+* [latex_longtable.tpl](/include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/latex_longtable.tpl): ./include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/latex_longtable.tpl. _File not used._
+
+* [latex.tpl](/include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/latex.tpl): ./include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/latex.tpl. _File not used._
+
+* [latex_table.tpl](/include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/latex_table.tpl): ./include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/latex_table.tpl. _File not used._
+
+* [string.tpl](/include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/string.tpl): ./include/community/.venv/lib/python3.10/site-packages/pandas/io/formats/templates/string.tpl. _File not used._
+
 * [Readme.md.tpl](/include/biblio/bib/Readme.md.tpl): ./include/biblio/bib/Readme.md.tpl. _File not used._
 
 

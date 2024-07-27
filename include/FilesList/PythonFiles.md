@@ -436,9 +436,9 @@
 
 * [pyUn0.py](/lit3rick/20201008a/un0rick_50v/pyUn0.py): . _File not used._
 
-* [py_fpga.py](/lit3rick/20201024a/source_acqs/py_fpga.py): . _File not used._
+* [py_fpga.py](/lit3rick/20201024a/source_acqs/py_fpga.py): . File used in: [`/include/experiments/auto/20201024a.md`](/include/experiments/auto/20201024a.md).
 
-* [example.py](/lit3rick/20201024a/source_acqs/example.py): . _File not used._
+* [example.py](/lit3rick/20201024a/source_acqs/example.py): . File used in: [`/include/experiments/auto/20201024a.md`](/include/experiments/auto/20201024a.md).
 
 * [arduino.py](/elmo/data/arduino.py): . _File not used._
 
