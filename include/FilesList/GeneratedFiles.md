@@ -555,6 +555,7 @@
 * ./include/probes/Readme.md
 * ./include/probes/auto/accessa.md
 * ./include/probes/auto/uprobe1.md
+* ./include/probes/auto/atla63.md
 * ./include/probes/auto/bk1850.md
 * ./include/probes/auto/accessc.md
 * ./include/probes/auto/kretzaw145ba.md
@@ -575,6 +576,7 @@
 * ./include/probes/auto/diasonics_75.md
 * ./include/probes/auto/ir1510ak.md
 * ./include/probes/auto/s3.md
+* ./include/probes/auto/atlcl105.md
 * ./include/probes/auto/myapo.md
 * ./include/probes/auto/apogee.md
 * ./include/probes/auto/retro10PV.md
@@ -591,6 +593,7 @@
 * ./include/probes/auto/BiViPiezo.md
 * ./include/probes/auto/apogee10MHz.md
 * ./include/probes/auto/sw45b.md
+* ./include/probes/auto/atl5annular.md
 * ./include/probes/auto/atlidrict.md
 * ./include/probes/auto/ausonics75.md
 * ./include/probes/auto/retroATL3.md
