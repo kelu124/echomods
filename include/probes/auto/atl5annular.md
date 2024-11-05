@@ -36,6 +36,10 @@ Exploring the innards of a atl5annular probe
 teardown
 Exploring the innards of a atl5annular probe
 
+![](/include/probes/viewmes/atl5annular.jpg)
+teardown
+Exploring the innards of a atl5annular probe
+
 
 
 

@@ -32,6 +32,10 @@ Exploring the innards of a atla63 probe
 teardown
 Exploring the innards of a atla63 probe
 
+![](/include/probes/viewmes/atla63.jpg)
+teardown
+Exploring the innards of a atla63 probe
+
 
 
 
