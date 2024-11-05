@@ -88,6 +88,21 @@
 * smalldesc:an Apogee 10MHz probe
 * longdesc:an Apogee 10MHz probe. Diasonics 10.0 SP/C Vascular Mechanical 10.0MHz Probe. For diasonics spectra. 
 
+# atla63
+* code:atla63
+* smalldesc:an ATL A6-3 annular probe
+* longdesc:an ATL A6-3 annular probe
+
+# atl5annular
+* code:atl5annular
+* smalldesc:an ATL 5MHzannular probe
+* longdesc:an ATL 5MHz annular probe
+
+# atlcl105
+* code:atlcl105
+* smalldesc:an ATL linear probe
+* longdesc:an ATL linear annular probe, CL 10-5
+
 # retro10apogee
 * code:retro10apogee
 * smalldesc:an Apogee 10MHz probe, opened and tweaked
