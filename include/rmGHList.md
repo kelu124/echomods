@@ -2,7 +2,7 @@
 
  * 2024-11-09: [Testing MUX](/include/experiments/auto/20241109a.md): If the mux works _(20241109a)_
  * 2024-06-04: [Impedance matching](/include/experiments/auto/20240604a.md): another round _(20240604a)_
- * [20240413a](/include/experiments/auto/20240413a.md)
+ * 2024-04-13: [test of pico](/include/experiments/auto/20240413a.md): test of pico _(20240413a)_
  * 2021-04-25: [Annular MUXed](/include/experiments/auto/20210425a.md): testing an annular transducer on a pink phantom _(20210425a)_
  * 2021-04-24: [BiVi piezo on the MUX](/include/experiments/auto/20210424a.md): First tests of the MUX _(20210424a)_
  * 2021-01-29: [`Tri` two probes](/include/experiments/auto/20210129a.md): Tri's tests with two probes _(20210129a)_

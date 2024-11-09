@@ -4158,6 +4158,9 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * 20190329a
   * Automated image of 20190329a experiment. Separate TX/RX, no target
   * ./matty/20190329a/images/20190329a-4.jpg
+* __/matty/20241109a/20241109_140113.jpg__:
+  * S901BXXSBEXG8
+  * ./matty/20241109a/20241109_140113.jpg
 * __/matty/20241109a/summed_filtered_sigs.jpg__:
   * matty,mux
   * 20241109a
