@@ -1,4 +1,5 @@
 * 20240604a: Impedance matching: another round
+* 20241109a: Testing MUX: If the mux works
 * 20240416a: Testing the pic0rick: some fun
 * 20210425a: Annular MUXed: testing an annular transducer on a pink phantom
 * 20210424a: BiVi piezo on the MUX: First tests of the MUX

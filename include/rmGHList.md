@@ -1,5 +1,6 @@
 # Experiments
 
+ * 2024-11-09: [Testing MUX](/include/experiments/auto/20241109a.md): If the mux works _(20241109a)_
  * 2024-06-04: [Impedance matching](/include/experiments/auto/20240604a.md): another round _(20240604a)_
  * [20240413a](/include/experiments/auto/20240413a.md)
  * 2021-04-25: [Annular MUXed](/include/experiments/auto/20210425a.md): testing an annular transducer on a pink phantom _(20210425a)_

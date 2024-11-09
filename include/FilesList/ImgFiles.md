@@ -4158,6 +4158,11 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * 20190329a
   * Automated image of 20190329a experiment. Separate TX/RX, no target
   * ./matty/20190329a/images/20190329a-4.jpg
+* __/matty/20241109a/summed_filtered_sigs.jpg__:
+  * matty,mux
+  * 20241109a
+  * Testing the mux
+  * ./matty/20241109a/summed_filtered_sigs.jpg
 * __/matty/20180831c/images/Spectrum_20180831c-2.jpg__:
   * matty,retroATL3
   * FFT
@@ -7989,6 +7994,11 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * wirelessdual
   * wirelessdual probe
   * ./include/probes/viewmes/wirelessdual.jpg
+* __/include/probes/viewmes/atlcl105.jpg__:
+  * atlcl105
+  * teardown
+  * Exploring the innards of a atlcl105 probe
+  * ./include/probes/viewmes/atlcl105.jpg
 * __/include/probes/viewmes/atlannular.jpg__:
   * atlannular
   * teardown
@@ -8057,11 +8067,6 @@ Details of Hilbert acquisition between us 32.2 and 33.
   * kretzir175ag
   * kretzir175ag probe
   * ./include/probes/viewmes/kretzir175ag.jpg
-* __/include/probes/viewmes/atlc105.jpg__:
-  * atlcl105
-  * teardown
-  * Exploring the innards of a atlcl105 probe
-  * ./include/probes/viewmes/atlc105.jpg
 * __/include/probes/viewmes/s3.jpg__:
   * s3
   * s3 probe
@@ -11772,6 +11777,8 @@ Details of Hilbert acquisition between us 32.2 and 33.
 * __/include/community/Michael/onboarding/test_nochanges.PNG__:
   * Michael
   * ./include/community/Michael/onboarding/test_nochanges.PNG
+* __/include/images/atl5annular/probes.PNG__:
+  * ./include/images/atl5annular/probes.PNG
 * __/retired/retro10PV/images/port/st0034811-philips-atl-access-a-scanhead-panel-port-for-ultramark-4-plus-ultrasound-3.jpeg__:
   * ./retired/retro10PV/images/port/st0034811-philips-atl-access-a-scanhead-panel-port-for-ultramark-4-plus-ultrasound-3.jpeg
 * __/retired/retro10PV/images/port/st0034811-philips-atl-access-a-scanhead-panel-port-for-ultramark-4-plus-ultrasound-4.jpeg__:

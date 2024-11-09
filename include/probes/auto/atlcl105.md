@@ -32,7 +32,7 @@ Exploring the innards of a atlcl105 probe
 teardown
 Exploring the innards of a atlcl105 probe
 
-![](/include/probes/viewmes/atlc105.jpg)
+![](/include/probes/viewmes/atlcl105.jpg)
 teardown
 Exploring the innards of a atlcl105 probe
 
