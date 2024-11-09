@@ -1003,8 +1003,8 @@
 * [20181126a-Processing.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181126a-Processing.html). _File not used._
 * [20181126a-Server-1.1b.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20181126a-Server-1.1b.html). _File not used._
 * [20190329a-NDT.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20190329a-NDT.html). _File not used._
-* [IDing rings.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/IDing rings.html). _File not used._
 * [20241109a-Delays.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20241109a-Delays.html). _File not used._
+* [IDing_rings.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/IDing_rings.html). _File not used._
 * [20241109a-Acq.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20241109a-Acq.html). _File not used._
 * [20180831c-Client.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Client.html). _File not used._
 * [20180831c-Server.ipynb](https://kelu124.gitbooks.io/echomods/content/notebooks/20180831c-Server.html). _File not used._

@@ -4,6 +4,11 @@
 
 * Longer description: seems to be an annular probe. With my own breakout style.
 
+# Experiments
+
+* [20241109a](/include/experiments/auto/20241109a.md)
+
+
 # Images
 
 ## Teardown 
@@ -39,6 +44,16 @@ putting together the annular probe
 ![](/include/images/202005/myapo/apogee_yellow.png)
 teardown
 putting together the annular probe
+
+## Other pictures 
+
+![](/matty/20241109a/20241109_140113.jpg)
+Testing un0rick with max14866 mux with myapo
+Testing the mux
+
+![](/matty/20241109a/summed_filtered_sigs.jpg)
+Testing un0rick with max14866 mux with myapo
+Testing the mux
 
 
 

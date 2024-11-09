@@ -86,8 +86,8 @@
 * [20181126a-Processing.ipynb](/matty/20181126a/20181126a-Processing.ipynb). _File not used._
 * [20181126a-Server-1.1b.ipynb](/matty/20181126a/20181126a-Server-1.1b.ipynb). _File not used._
 * [20190329a-NDT.ipynb](/matty/20190329a/20190329a-NDT.ipynb). _File not used._
-* [IDing rings.ipynb](/matty/20241109a/IDing rings.ipynb). _File not used._
 * [20241109a-Delays.ipynb](/matty/20241109a/20241109a-Delays.ipynb). _File not used._
+* [IDing_rings.ipynb](/matty/20241109a/IDing_rings.ipynb). _File not used._
 * [20241109a-Acq.ipynb](/matty/20241109a/hvmux_tests/20241109a-Acq.ipynb). _File not used._
 * [20180831c-Client.ipynb](/matty/20180831c/20180831c-Client.ipynb). _File not used._
 * [20180831c-Server.ipynb](/matty/20180831c/20180831c-Server.ipynb). _File not used._

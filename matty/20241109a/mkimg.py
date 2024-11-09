@@ -51,11 +51,11 @@ for FileName in Imgs:
 		print("Not an image")
 	else:
 		# Modules
-		metadata['Exif.Image.Software'] = "matty,mux"
+		metadata['Exif.Image.Software'] = "matty,mux,myapo"
 		# Experiment
 		metadata['Exif.Image.Make'] = path
 
-		metadata['Exif.Photo.MakerNote'] = "ToTag"
+		metadata['Exif.Photo.MakerNote'] = "Testing un0rick with max14866 mux with myapo"
 		# Description
 		metadata['Exif.Image.ImageDescription'] = "Testing the mux"
 
